@@ -1,10 +1,10 @@
 # OT-0012 — Immutable predictive-inheritance reproduction
 
-- **Status:** planned
+- **Status:** frozen; execution pending
 - **Evidence class:** private-reproducible if all gates pass
 - **Target:** OT-1
-- **Frozen implementation commit:** pending
-- **Frozen run lock:** `spec/ot-0012-run-lock.json` (pending)
+- **Frozen implementation commit:** `3540978f55bfe9ad4fc8165c9a61130e78d789e3`
+- **Frozen run lock:** `spec/ot-0012-run-lock.json`
 
 ## Hypothesis
 

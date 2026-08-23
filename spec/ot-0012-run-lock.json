@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0012",
+  "protocol_origin_git_commit": "3540978f55bfe9ad4fc8165c9a61130e78d789e3",
+  "implementation_git_commit": "3540978f55bfe9ad4fc8165c9a61130e78d789e3",
+  "backend": "codex-app-server-to-lm-studio-responses",
+  "model": "openai/gpt-oss-20b",
+  "model_stability": "content-addressed-local-artifact",
+  "task_manifest_sha256": "93a9c9f8a2e21a7dfb8762e2f627da7312abfd5b05fe9e394f5fc6e1ed958d1c",
+  "backend_binary": {
+    "version": "codex-cli 0.149.0",
+    "source_repository": "https://github.com/openai/codex",
+    "source_tag": "rust-v0.149.0",
+    "source_git_commit": "758ef40f50c1a458425c7cfbf1eb12cbc07af0b0",
+    "codex_sha256": "9ba106aa245c7dfe0604a319ca9fdd51d215b58135656f310841691c56ad2347",
+    "code_mode_host_sha256": "3eca39bb7f93315fab6b0dec2334381c0f50a2ccda113ec482fb815f16072a5c"
+  },
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "507e26b55ddff6b0e72132d3d4b61d9feb590933904bbc2f3ac0349cb70817a9",
+    "prompt_sha256": "e85a057e00e38a92e7de43e28b3dd8b141f8320e53690b37fe51600b66bcc28a",
+    "output_schema_sha256": "06ab616afab27e9e485685556cb89003b1717d3a4472c60f4a34031e2fbe4c89",
+    "task_order_sha256": "38c381d66aab0454cfb43dce9e4def989d2682faff535fddf064970f1dae0e79",
+    "substrates_sha256": "c4af2158ca318edc3b28d08956ce44e7c516a0f39098493fb543f2e2fdea4751",
+    "model_catalog_sha256": "8242ce68a890d7a288f3f88e840864ef78364766167f88cb45876a9f8323ee32",
+    "dependency_lock_sha256": "73bd56d4d60cf241155e4bec083b6adeef87fd06ab84cec1e779c5c2aa7b012a",
+    "receipt_patch_sha256": "baa1c8585d95e5270fdb0b977e95b22d2487031259607af3e6c0d6f93b16fdfd"
+  },
+  "local_model_identity": {
+    "model_artifact": {
+      "sha256": "65d06d31a3977d553cb3af137b5c26b5f1e9297a6aaa29ae7caa98788cde53ab",
+      "bytes": 12109565632
+    },
+    "lm_studio": {
+      "version": "0.4.9+1",
+      "build": "0.4.9+1",
+      "executable_sha256": "bdafb6b431ca41de0b3deed17d17967a3eac99dea6cb8ff65af1cf0461bbd609",
+      "executable_bytes": 53040,
+      "server_bundle": {
+        "sha256": "0669d849ee1e880646e0468a42689344a92e5d1fa7ae9b7f25f68485fcd1d665",
+        "files": 1,
+        "bytes": 15189623
+      }
+    },
+    "inference_runtime": {
+      "cache_identifier": "llama.cpp-mac-arm64-apple-metal-advsimd-2.13.0",
+      "engine_identifier": "llama.cpp-mac-arm64-apple-metal-advsimd@2.13.0",
+      "sha256": "426c73b873d861696c0ce638fccfdb112a4c21ec882d4a69dccb66ae02f40fd5",
+      "files": 12,
+      "bytes": 11718824
+    },
+    "harmony_adapter": {
+      "identifier": "app-harmony-mac-arm64@6",
+      "sha256": "5dc7433ad28bb46f5956ba8200af7c979584e568f941258f1cf7e28996d7f084",
+      "files": 427,
+      "bytes": 20850111
+    },
+    "cli": {
+      "commit": "8d3f370",
+      "sha256": "efdbe6db567ada7d774adae655607a09b1799a12843403a3c2d8f4ecf70a3666",
+      "bytes": 65036016
+    },
+    "live_model": {
+      "id": "openai/gpt-oss-20b",
+      "state": "loaded",
+      "compatibility_type": "gguf",
+      "quantization": "MXFP4",
+      "loaded_context_length": 8192
+    },
+    "loaded_process": {
+      "identifier": "openai/gpt-oss-20b",
+      "format": "gguf",
+      "selected_variant": "openai/gpt-oss-20b@mxfp4",
+      "quantization": "MXFP4",
+      "context_length": 8192,
+      "parallel": 4
+    }
+  }
+}
