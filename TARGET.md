@@ -8,9 +8,11 @@ completed target.
 
 Across complete context resets, a frozen base model plus a candidate persistent
 substrate reduces held-out prediction error over causally connected encounters.
-The effect must exceed equal-budget no-persistence, transcript-retrieval,
-semantic-retrieval, and Watch baselines; survive structural holdouts and a
-regime shift; and disappear under a decisive substrate ablation.
+The effect must exceed internally implemented, equal-budget no-persistence,
+verbatim-event, and naive-retrieval controls; survive structural holdouts and a
+regime shift; and disappear under a decisive substrate ablation. The promoted
+substrate must be invented and implemented within this program rather than
+adopting an existing agent-memory system as its foundation.
 
 Exact scoring thresholds must be frozen in a machine-readable acceptance spec
 before candidate results are unsealed.
@@ -54,4 +56,3 @@ Every promoted result requires:
 Only publicly reconstructible evidence can support an unqualified public
 reproducibility claim. Private evidence may support a narrower, explicitly
 labeled claim.
-

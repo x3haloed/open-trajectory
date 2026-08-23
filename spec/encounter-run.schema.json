@@ -1,0 +1,97 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-trajectory.invalid/spec/encounter-run.schema.json",
+  "title": "Open Trajectory encounter run",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "run_id",
+    "experiment_id",
+    "backend",
+    "model",
+    "reset",
+    "workspace",
+    "substrate",
+    "world",
+    "budgets"
+  ],
+  "properties": {
+    "schema_version": { "const": 1 },
+    "run_id": { "$ref": "#/$defs/logical_id" },
+    "experiment_id": { "$ref": "#/$defs/logical_id" },
+    "backend": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "version"],
+      "properties": {
+        "kind": { "enum": ["codex-sdk", "codex-app-server", "codex-mcp", "codex-subagent"] },
+        "version": { "type": "string", "minLength": 1, "maxLength": 128 }
+      }
+    },
+    "model": { "type": "string", "minLength": 1, "maxLength": 128 },
+    "reset": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["fresh_thread", "fresh_workspace", "resume_allowed"],
+      "properties": {
+        "fresh_thread": { "const": true },
+        "fresh_workspace": { "const": true },
+        "resume_allowed": { "const": false }
+      }
+    },
+    "workspace": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["logical_root", "sandbox_mode", "network_access"],
+      "properties": {
+        "logical_root": { "pattern": "^\\$EVIDENCE/" },
+        "sandbox_mode": { "type": "string", "minLength": 1, "maxLength": 64 },
+        "network_access": { "type": "boolean" }
+      }
+    },
+    "substrate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["candidate_id", "snapshot_sha256", "projection_byte_limit", "mcp_call_limit"],
+      "properties": {
+        "candidate_id": { "$ref": "#/$defs/logical_id" },
+        "snapshot_sha256": { "$ref": "#/$defs/sha256" },
+        "projection_byte_limit": { "type": "integer", "minimum": 0 },
+        "mcp_call_limit": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "world": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["world_id", "task_manifest_sha256", "seed"],
+      "properties": {
+        "world_id": { "$ref": "#/$defs/logical_id" },
+        "task_manifest_sha256": { "$ref": "#/$defs/sha256" },
+        "seed": { "type": "integer", "minimum": 0 }
+      }
+    },
+    "budgets": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["turns", "tool_calls", "input_tokens", "output_tokens", "wall_seconds"],
+      "properties": {
+        "turns": { "type": "integer", "minimum": 1 },
+        "tool_calls": { "type": "integer", "minimum": 0 },
+        "input_tokens": { "type": "integer", "minimum": 1 },
+        "output_tokens": { "type": "integer", "minimum": 1 },
+        "wall_seconds": { "type": "integer", "minimum": 1 }
+      }
+    }
+  },
+  "$defs": {
+    "logical_id": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    }
+  }
+}

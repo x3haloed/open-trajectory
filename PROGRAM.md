@@ -13,19 +13,32 @@ prospective prediction or action
 
 ## Program A — Contact-Causal Learning
 
-Build the evaluation harness before choosing a preferred memory substrate.
-Compare no persistence, equal-budget transcript retrieval, semantic retrieval,
-Watch, and candidate substrates over hidden-rule, executable-software, and
-noisy probabilistic domains. Require structural holdouts, a regime shift,
-cold-instance inheritance, and causal ablations.
+Build the evaluation harness before choosing a preferred learning substrate.
+The program invents its own candidate representations, selection rules, update
+mechanisms, and correction paths. Minimal no-persistence, verbatim-event, and
+naive-retrieval implementations exist only as falsification controls; no
+external memory architecture is a candidate or dependency.
+
+Run candidates over hidden-rule, executable-software, and noisy probabilistic
+domains. Require structural holdouts, a regime shift, cold-instance
+inheritance, and causal ablations.
+
+Each encounter uses a fresh agent thread and fresh workspace. The candidate
+substrate is the only allowed causal channel across encounters. The experiment
+controller owns ground truth, sealed outcomes, scoring, and snapshot identity.
 
 Initial sequence:
 
 - **OT-0001:** prove reset, sealing, evidence, and leak controls.
-- **OT-0002:** characterize Watch as an unchanged causal baseline.
-- **OT-0003:** test predictive commitments plus outcome and revision history.
+- **OT-0002:** prove the fresh-agent encounter harness and substrate boundary.
+- **OT-0003:** invent and test a predictive-inheritance substrate.
 - **OT-0004:** test whether the inheritance selector itself can improve.
 - **OT-0005:** test inheritance in a clean model instance.
+
+The initial execution backend is a product-owned controller around Codex. It
+may drive Codex through the SDK/app-server protocol or place Codex behind MCP;
+candidate substrates and experimental semantics remain backend-independent.
+See `docs/AGENT_HARNESS.md`.
 
 ## Program B — Self-Authored Durable Goals
 
@@ -66,4 +79,3 @@ contact
 → revision or revocation
 → preserved correction capacity
 ```
-

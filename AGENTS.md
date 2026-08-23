@@ -15,6 +15,13 @@ Before changing experiments, evidence tooling, or acceptance rules, read
 - Promote only the complete causal path relevant to a claim. Component success
   is not endpoint success.
 - Treat self-report as a hypothesis, never as outcome evidence.
+- Create a fresh actor thread and fresh workspace for every learning encounter.
+  Cross-encounter continuity may pass only through the named candidate
+  substrate and the exact projection recorded by the harness.
+- Keep actor, world, substrate, and evaluator authority separate. The actor may
+  propose substrate changes but may not alter sealed outcomes or final scores.
+- Do not import an existing memory system as an OT-1 candidate. Invent and
+  evaluate substrate mechanisms inside this repository.
 
 ## Privacy and storage discipline
 
@@ -43,4 +50,3 @@ identity belongs in a lock file; machine-local dependency paths do not.
 If a valid public artifact requires a token rejected by the privacy audit, stop
 and make an explicit policy decision rather than weakening or bypassing the
 gate inside an experiment change.
-

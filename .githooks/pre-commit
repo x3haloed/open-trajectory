@@ -1,5 +1,14 @@
 #!/bin/sh
 set -eu
+
+repo_root="$(git rev-parse --show-toplevel)"
+cd "$repo_root"
+
+if [ -n "${PYTHONPATH:-}" ]; then
+    export PYTHONPATH="$repo_root/src:$PYTHONPATH"
+else
+    export PYTHONPATH="$repo_root/src"
+fi
+
 python3 -m open_trajectory_evidence audit
 python3 -m unittest discover -s tests
-

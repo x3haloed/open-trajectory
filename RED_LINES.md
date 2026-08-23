@@ -9,6 +9,13 @@
 - Do not treat a second model as independent when the actor controls its evidence.
 - Do not claim TAAA from productivity alone; correction and revocation must run.
 - Preserve rejected, reversed, invalidated, and surrendered results.
+- Do not adopt an existing agent-memory implementation as the OT-1 substrate.
+  Prior systems may motivate failure hypotheses, but OT-1 candidates must be
+  independently specified, implemented, and causally evaluated here.
+- Do not resume an actor thread across encounters in a learning claim. Hidden
+  conversational continuity invalidates attribution to the candidate substrate.
+- Do not expose hidden world state, held-out answers, evaluator instructions,
+  or sealed future receipts through the actor's workspace or MCP inventory.
 
 ## Privacy
 
@@ -41,4 +48,3 @@
   versions when collected without paths.
 - Local paths are represented as `$REPO`, `$EVIDENCE`, `$DATASET`,
   `$CHECKPOINT`, or another declared logical root.
-
