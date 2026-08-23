@@ -1,6 +1,6 @@
 # OT-0003 — Discrepancy-gated predictive inheritance
 
-- **Status:** unexecuted
+- **Status:** conditional
 - **Evidence class:** exploratory-only
 - **Target:** OT-1
 - **Frozen implementation commit:**
@@ -80,14 +80,50 @@ another condition's prior events through the filesystem.
 
 ## Results
 
-Unexecuted.
+Run `ot-0003-appserver-001` executed from clean commit
+`10f3c4e8e4c77675bf21d69e6d523185ecabcf51` as two independent worker
+processes using the same frozen private task manifest. Both workers completed
+all 26 fresh-thread, fresh-workspace encounters.
+
+The candidate passed every frozen scientific gate in both workers:
+
+- candidate held-out error was 0/16 in each worker, including 0/8 after the
+  hidden regime shift;
+- worker 1 control errors were 6/16 for no persistence, 7/16 for bounded
+  verbatim events, and 10/16 for bounded nearest-event retrieval;
+- worker 2 control errors were 8/16, 11/16, and 8/16 respectively;
+- projection ablation caused 3/8 errors in both workers;
+- every actor output parsed, no actor called a tool, all 52 thread identities
+  and all 52 workspace identities were distinct;
+- the model-visible three-tool inventory was stable across 52 prompt receipts
+  per worker and matched the frozen digest;
+- substrate transitions used at most 88 project operations and 155 observation
+  operations, below the common ceiling of 256.
+
+Worker 1 consumed 123,182 input and 4,406 output tokens in 144.90 seconds.
+Worker 2 consumed 123,260 input and 4,820 output tokens in 155.52 seconds. Both
+remained below every frozen resource ceiling. The full test suite and privacy
+audit passed during execution.
+
+The result did not pass the complete OT-1 promotion gate because the actor used
+the prospectively declared drifting `gpt-5.6-luna` alias rather than an
+immutable model revision.
 
 ## Evidence manifests
 
-None.
+- `evidence/manifests/OT-0003/ot-0003-appserver-001.json` identifies the raw
+  exploratory artifact by SHA-256
+  `a8c0bb6ddfae3731345ee264426f651f71d6c83516c485c490c840c81afc3c21`
+  and byte count 4,077,318. Local content-addressed byte verification passed.
 
 ## Decision, limitations, and next experiment
 
-Pending. Even a full behavioral pass remains exploratory while the actor uses a
-drifting model alias; OT-1 promotion requires a clean reproduction with an
-immutable model revision.
+**Disposition: conditional.** The discrepancy-gated version-space ledger has a
+reproduced, ablation-sensitive advantage over every frozen equal-budget control
+on this private structural-holdout and regime-shift task. This supports the
+candidate mechanism within the tested envelope but does not promote OT-1.
+
+The next decisive path is to repeat the frozen comparison with an immutable
+model revision. If no admissible immutable Codex-compatible model can be bound,
+that missing base-model identity remains an explicit promotion blocker rather
+than a reason to weaken the target.

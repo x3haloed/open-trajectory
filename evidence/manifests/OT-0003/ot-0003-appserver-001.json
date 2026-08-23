@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0003-appserver-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4077318,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "10f3c4e8e4c77675bf21d69e6d523185ecabcf51",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0003",
+  "input_manifests": [],
+  "kind": "predictive-inheritance-run",
+  "limitations": [
+    "The actor model uses a drifting alias, so this result cannot promote OT-1.",
+    "The salted task manifest, outcomes, actor events, and complete tool schemas remain private."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0003-appserver-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0003 --reconstruct $EVIDENCE/runs/OT-0003/ot-0003-appserver-001/run.json"
+  },
+  "schema_version": 1,
+  "sha256": "a8c0bb6ddfae3731345ee264426f651f71d6c83516c485c490c840c81afc3c21"
+}
