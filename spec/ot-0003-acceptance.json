@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0003",
+  "claim": "A discrepancy-gated version-space ledger invented in this program reduces structurally held-out binary-rule prediction error across fresh actor contexts under equal active-inheritance budgets.",
+  "hypothesis": "After one independently scored contact batch per regime, the candidate's compact rule projection produces fewer held-out errors than no persistence, bounded verbatim events, and bounded nearest-event retrieval; the advantage survives a hidden regime shift and disappears when the learned projection is ablated.",
+  "cheapest_decisive_falsifier": "Reject the candidate if it fails to identify the active rule after a complete contact batch, fails to reset after an independently observed contradiction, exceeds the common projection budget, does not beat every control by the frozen held-out margin, fails the post-shift heldout threshold, or retains its advantage when its projection is removed.",
+  "candidate": "discrepancy-gated-version-ledger-v1",
+  "controls": [
+    "no-persistence-v1",
+    "bounded-verbatim-events-v1",
+    "bounded-nearest-events-v1",
+    "candidate projection ablation"
+  ],
+  "task_family": {
+    "features": 4,
+    "labels": 2,
+    "rule_family": "non-empty parity masks with optional bias",
+    "contact_batch": "zero vector plus four basis vectors",
+    "structural_holdouts": "unseen feature combinations of Hamming weight at least two",
+    "regimes": 2,
+    "sealed_manifest": "A salted private task manifest chooses two distinct rules and binds exact inputs/outcomes before actor execution."
+  },
+  "scoring": {
+    "heldout_predictions_per_condition": 16,
+    "candidate_heldout_errors_allowed": 2,
+    "candidate_post_shift_errors_allowed": 1,
+    "candidate_error_advantage_over_each_control_required": 4,
+    "candidate_ablation_errors_required": 3,
+    "actor_parse_failures_allowed": 0,
+    "actor_tool_calls_allowed": 0,
+    "clean_reproductions_required": 1
+  },
+  "resource_budget": {
+    "model": "gpt-5.6-luna",
+    "model_stability": "drifting-alias",
+    "projection_bytes_per_encounter": 96,
+    "actor_turns_per_run": 26,
+    "actor_input_tokens_total": 500000,
+    "actor_output_tokens_total": 14000,
+    "wall_seconds": 3600
+  },
+  "promotion_gate": [
+    "the private salted task manifest, exact task order, prompt, model, tool inventory, substrates, evaluator, and implementation identities are frozen before actor results",
+    "all comparative, structural-holdout, regime-shift, ablation, parse, tool, and resource thresholds pass",
+    "a clean reproduction using the same sealed task manifest independently passes the same comparative thresholds",
+    "raw evidence is content-addressed and the privacy and repository-size audit and full test suite pass",
+    "an immutable model revision is available and used"
+  ],
+  "red_line_review": [
+    "Independent controller outcomes, not actor self-report, update the candidate and controls.",
+    "All conditions receive identical prior outcomes and the same 96-byte active-inheritance ceiling.",
+    "The active rules, salted task manifest, future outcomes, and evaluator state never enter actor-readable files, prompts, tools, or tracked fixtures.",
+    "Every encounter uses a fresh thread and workspace; app-server events remain controller memory until all conditions finish.",
+    "The candidate representation is implemented here and does not import an agent-memory system.",
+    "Because the available model is a drifting alias, a successful initial run remains exploratory and cannot promote OT-1 until reproduced with an immutable revision."
+  ]
+}
