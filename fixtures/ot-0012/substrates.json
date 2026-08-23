@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "projection_byte_limit": 96,
+  "operations_per_transition_limit": 256,
+  "candidate": "discrepancy-gated-version-ledger-v1",
+  "controls": [
+    "no-persistence-v1",
+    "bounded-verbatim-events-v1",
+    "bounded-nearest-events-v1"
+  ],
+  "candidate_hypothesis_family": "non-empty parity masks over four binary features with optional binary bias",
+  "regime_reset": "Reset the version space only when an independently retained outcome batch leaves no surviving current-regime hypothesis."
+}

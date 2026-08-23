@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0012",
+  "claim": "A discrepancy-gated version-space ledger invented in this program reduces structurally held-out binary-rule prediction error across fresh actor contexts when the base model is bound to a content-addressed local artifact.",
+  "hypothesis": "After one independently scored contact batch per regime, the candidate's compact rule projection produces fewer held-out errors than no persistence, bounded verbatim events, and bounded nearest-event retrieval; the advantage survives a hidden regime shift and disappears when the learned projection is ablated.",
+  "cheapest_decisive_falsifier": "Reject the candidate if the local model or inference runtime differs from the frozen content identities, the model-visible inventory is nonempty, the pure substrate fails its contact or discrepancy controls, the candidate misses an absolute or comparative threshold, or the advantage survives projection ablation.",
+  "candidate": "discrepancy-gated-version-ledger-v1",
+  "controls": [
+    "no-persistence-v1",
+    "bounded-verbatim-events-v1",
+    "bounded-nearest-events-v1",
+    "candidate projection ablation"
+  ],
+  "task_family": {
+    "features": 4,
+    "labels": 2,
+    "rule_family": "non-empty parity masks with optional bias",
+    "contact_batch": "zero vector plus four basis vectors",
+    "structural_holdouts": "unseen feature combinations of Hamming weight at least two",
+    "regimes": 2,
+    "sealed_manifest": "A fresh salted private task manifest chooses two distinct rules and binds exact inputs and outcomes before actor execution."
+  },
+  "direct_inventory": {
+    "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "tool_count": 0
+  },
+  "scoring": {
+    "heldout_predictions_per_condition": 16,
+    "candidate_heldout_errors_allowed": 2,
+    "candidate_post_shift_errors_allowed": 1,
+    "candidate_error_advantage_over_each_control_required": 4,
+    "candidate_ablation_errors_required": 3,
+    "actor_parse_failures_allowed": 0,
+    "actor_tool_calls_allowed": 0,
+    "clean_reproductions_required": 1
+  },
+  "resource_budget": {
+    "model": "openai/gpt-oss-20b",
+    "model_stability": "content-addressed-local-artifact",
+    "model_artifact_sha256": "65d06d31a3977d553cb3af137b5c26b5f1e9297a6aaa29ae7caa98788cde53ab",
+    "model_artifact_bytes": 12109565632,
+    "projection_bytes_per_encounter": 96,
+    "substrate_operations_per_transition": 256,
+    "actor_turns_per_run": 26,
+    "actor_input_tokens_total": 500000,
+    "actor_output_tokens_total": 14000,
+    "wall_seconds": 3600
+  },
+  "promotion_gate": [
+    "the private salted task manifest, exact task order, prompt, model artifact, inference runtime, server bundle, tool inventory, substrates, evaluator, and implementation identities are frozen before actor results",
+    "all comparative, structural-holdout, regime-shift, ablation, parse, tool, and resource thresholds pass",
+    "a clean worker-process reproduction using the same sealed task manifest independently passes the same comparative thresholds",
+    "every actor encounter has a directly receipted empty model-visible tool inventory and a fresh thread and workspace",
+    "raw evidence is content-addressed and the privacy and repository-size audit and full test suite pass"
+  ],
+  "red_line_review": [
+    "Independent controller outcomes, not actor self-report, update the candidate and controls.",
+    "All conditions receive identical prior outcomes and the same 96-byte active-inheritance ceiling.",
+    "The active rules, salted task manifest, future outcomes, and evaluator state never enter actor-readable files or prompts.",
+    "Every encounter uses a fresh ephemeral thread and workspace inside an isolated unauthenticated Codex home.",
+    "The directly receipted model-visible tool inventory must be exactly empty.",
+    "The candidate representation is implemented here and does not import an agent-memory system.",
+    "LM Studio Harmony framing is decoded only when it matches one of two exact frozen final-channel prefixes; all other non-JSON output fails parsing.",
+    "The tracked repository contains only logical model/runtime identities and hashes, never model weights or machine-local paths."
+  ]
+}

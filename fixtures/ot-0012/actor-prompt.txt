@@ -1,0 +1,11 @@
+Predict the binary label for every input in the current batch.
+
+Inherited substrate projection (the only permitted cross-encounter state):
+{{PROJECTION}}
+
+Current batch:
+{{INPUTS}}
+
+Return exactly one JSON object of the form {"predictions":[0,1,...]} with one
+binary integer per input and no other keys. Preserve input order. Do not use
+tools, inspect files, or claim observations not present in the projection.

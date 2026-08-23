@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "candidate",
+    "no-persistence",
+    "verbatim-events",
+    "nearest-events"
+  ],
+  "phases": [
+    { "phase": "regime-a-contact", "batch": "basis", "score": "contact" },
+    { "phase": "regime-a-holdout-1", "batch": "structural-1", "score": "heldout" },
+    { "phase": "regime-a-holdout-2", "batch": "structural-2", "score": "heldout" },
+    { "phase": "regime-b-contact", "batch": "basis", "score": "shift-contact" },
+    { "phase": "regime-b-holdout-1", "batch": "structural-1", "score": "heldout" },
+    { "phase": "regime-b-holdout-2", "batch": "structural-2", "score": "heldout" }
+  ],
+  "ablations": [
+    { "condition": "candidate-ablation", "phase": "regime-b-ablation-1", "batch": "structural-1" },
+    { "condition": "candidate-ablation", "phase": "regime-b-ablation-2", "batch": "structural-2" }
+  ],
+  "ordering": "For each phase, execute conditions in the listed order using fresh threads and workspaces; execute ablations last."
+}
