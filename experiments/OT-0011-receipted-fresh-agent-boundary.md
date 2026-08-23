@@ -4,7 +4,8 @@
 - **Evidence class:** private-reproducible
 - **Target:** OT-1 infrastructure
 - **Evaluation epoch:** `boundary-e2`
-- **Frozen implementation commit:** pending
+- **Frozen implementation commit:**
+  `597044b1981fcc6493406ad4d4b88ec90306efcf`
 - **Frozen run lock:** `spec/ot-0011-run-lock.json`; execution is prohibited
   until the lock and this record are committed in a clean worktree
 
