@@ -1,7 +1,7 @@
 # OT-0012 — Immutable predictive-inheritance reproduction
 
-- **Status:** frozen; execution pending
-- **Evidence class:** private-reproducible if all gates pass
+- **Status:** invalidated by actor-turn timeout
+- **Evidence class:** exploratory-only failure receipt
 - **Target:** OT-1
 - **Frozen implementation commit:** `3540978f55bfe9ad4fc8165c9a61130e78d789e3`
 - **Frozen run lock:** `spec/ot-0012-run-lock.json`
@@ -80,4 +80,19 @@ no machine-local paths, host identity, raw output, dataset, or checkpoint.
 
 ## Results
 
-Pending.
+Execution commit `a708a8e3fe5a27753f5fce4779443a27f3e74d4e`
+started from a clean tree with every frozen identity verified. Worker 1 completed
+seven actor encounters with a fresh thread, workspace, and directly receipted
+empty inventory for each. Its eighth encounter emitted reasoning continuously
+but did not produce `turn/completed` before the frozen 180-second per-turn
+timeout. The worker stopped after 608.87 seconds; worker 2 never started.
+
+This is a transport-invalid run, not a scientific rejection. It did not finish
+the task order, execute the regime shift or ablation, or produce comparative
+scores, so it provides no evidence for or against the candidate mechanism.
+Increasing the timeout inside OT-0012 or reusing the ID would alter the frozen
+implementation after results. Any successor must use a new experiment record.
+
+The private raw failure receipt is content-addressed by
+`evidence/manifests/OT-0012/ot-0012-local-001-invalid.json` with SHA-256
+`3d5224b89e250701e073b75045dbcf51ea75cd57b5f3b1c3603f1d5c35175e58`.

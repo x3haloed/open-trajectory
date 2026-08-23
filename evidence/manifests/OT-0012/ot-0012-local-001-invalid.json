@@ -1,0 +1,33 @@
+{
+  "artifact_id": "ot-0012-local-001-invalid",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 526824,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a708a8e3fe5a27753f5fce4779443a27f3e74d4e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0012",
+  "input_manifests": [],
+  "kind": "predictive-inheritance-invalid-run",
+  "limitations": [
+    "Worker 1 timed out during its eighth actor encounter, before comparative scoring completed.",
+    "The salted task, partial outcomes, actor events, and raw model output remain private.",
+    "This transport-invalid receipt provides no evidence for or against the candidate substrate."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0012-local-001-invalid",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0012 --repo $REPO --run-id ot-0012-local-001 --codex-bin $EVIDENCE/codex-v0.149.0/codex --task-manifest $EVIDENCE/tasks/OT-0012/ot-0012-task-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "3d5224b89e250701e073b75045dbcf51ea75cd57b5f3b1c3603f1d5c35175e58"
+}
