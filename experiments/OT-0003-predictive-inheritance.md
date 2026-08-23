@@ -3,8 +3,9 @@
 - **Status:** unexecuted
 - **Evidence class:** exploratory-only
 - **Target:** OT-1
-- **Frozen implementation commit:** pending
-- **Frozen run lock:** pending
+- **Frozen implementation commit:**
+  `3b44066062e708ab11d2dd9bcfbad613d4a4d4c0`
+- **Frozen run lock:** `spec/ot-0003-run-lock.json`
 
 ## Hypothesis
 
