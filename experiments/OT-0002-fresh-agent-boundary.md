@@ -4,8 +4,10 @@
 - **Evidence class:** exploratory-only
 - **Target:** OT-1 infrastructure
 - **Protocol-origin commit:** `6fe31a5f724a13bbc1bd4ebccd270c739dd6562a`
-- **Frozen execution commit:** pending; execution is prohibited until a clean
-  implementation commit and the hashes required by `EncounterSpec` are recorded
+- **Frozen implementation commit:**
+  `a270a296008284711d755a98c59324b7d28e0c32`
+- **Frozen run lock:** `spec/ot-0002-run-lock.json`; execution remains
+  prohibited until this lock and record are committed in a clean worktree
 
 ## Hypothesis
 
@@ -61,6 +63,11 @@ No learning representation is being tested. The opaque substrate exists only
 to establish the permitted causal edge.
 
 ## Frozen protocol and acceptance gate
+
+The hypothesis, cheapest falsifier, candidate and controls, task order, scoring
+rule, resource budget, red-line review, promotion gate, implementation commit,
+and all fixed-input identities were sealed before actor execution in
+`spec/ot-0002-acceptance.json` and `spec/ot-0002-run-lock.json`.
 
 - 100% recovery of permitted canaries across ten deterministic runs.
 - 100% deterministic reachability of the deliberately opened channel in every
