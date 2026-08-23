@@ -20,6 +20,10 @@
     "regimes": 2,
     "sealed_manifest": "A salted private task manifest chooses two distinct rules and binds exact inputs/outcomes before actor execution."
   },
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
   "scoring": {
     "heldout_predictions_per_condition": 16,
     "candidate_heldout_errors_allowed": 2,
@@ -34,6 +38,7 @@
     "model": "gpt-5.6-luna",
     "model_stability": "drifting-alias",
     "projection_bytes_per_encounter": 96,
+    "substrate_operations_per_transition": 256,
     "actor_turns_per_run": 26,
     "actor_input_tokens_total": 500000,
     "actor_output_tokens_total": 14000,

@@ -30,8 +30,8 @@ The pure substrate fails immediately if a basis contact batch does not identify
 one rule, an independently contradictory batch does not reset it, or any
 projection exceeds 96 bytes. The actor experiment fails if the candidate misses
 the absolute held-out or post-shift thresholds, fails to beat any equal-budget
-control by four errors, uses a tool, or does not lose at least three predictions
-under projection ablation.
+control by four errors, exceeds 256 substrate operations in a transition, uses
+a tool, or does not lose at least three predictions under projection ablation.
 
 ## Candidate and controls
 
@@ -43,7 +43,8 @@ under projection ablation.
 - Control D: the trained candidate state with its projection removed.
 
 The controller, not the actor, owns outcomes and commits updates. All four
-learning conditions receive identical outcome history.
+learning conditions receive identical outcome history, a 96-byte projection
+ceiling, and a 256-operation substrate-transition ceiling.
 
 ## Frozen protocol and acceptance gate
 

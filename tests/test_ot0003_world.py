@@ -9,8 +9,12 @@ from open_trajectory_harness.ot0003_world import (
     Observation,
     RULES,
     VerbatimEvents,
+    generate_manifest_for_rules,
+    generate_task_manifest,
+    manifest_batch,
     rule_contact_batch,
     structural_holdout_batch,
+    validate_task_manifest,
 )
 
 
@@ -46,6 +50,21 @@ class OT0003WorldTests(unittest.TestCase):
             substrate.observe(observations)
             projection = substrate.project(queries, 96)
             self.assertLessEqual(len(projection.encode()), 96)
+            self.assertLessEqual(substrate.last_project_operations, 256)
+            self.assertLessEqual(substrate.last_observe_operations, 256)
+
+    def test_private_task_manifest_binds_distinct_balanced_rules_and_outcomes(self) -> None:
+        manifest = generate_task_manifest()
+        validate_task_manifest(manifest)
+        self.assertNotEqual(manifest["rules"]["regime-a"], manifest["rules"]["regime-b"])
+        _, outcomes = manifest_batch(manifest, "regime-b", "structural-1")
+        self.assertEqual(len(outcomes), 4)
+        changed = generate_manifest_for_rules(
+            manifest["rules"]["regime-b"],
+            manifest["rules"]["regime-a"],
+            manifest["salt"],
+        )
+        self.assertNotEqual(changed, manifest)
 
 
 if __name__ == "__main__":
