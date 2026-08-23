@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0011-appserver-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3829649,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9003a45fadf17b112ebdfd919b5c1f831b771bd7",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0011",
+  "input_manifests": [],
+  "kind": "harness-run",
+  "limitations": [
+    "The actor model uses a drifting alias; this run makes no learning claim.",
+    "Raw model events and complete tool schemas remain in the private evidence store."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0011-appserver-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0011 --reconstruct-evaluator $EVIDENCE/runs/OT-0011/ot-0011-appserver-001/run.json"
+  },
+  "schema_version": 1,
+  "sha256": "cb098bda40de0eb59daf87084771fcc28d7745df72c4fbd9476b7edec7f179d3"
+}

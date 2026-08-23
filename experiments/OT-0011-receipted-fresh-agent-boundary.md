@@ -1,6 +1,6 @@
 # OT-0011 — Receipted fresh-agent boundary
 
-- **Status:** unexecuted
+- **Status:** promoted
 - **Evidence class:** private-reproducible
 - **Target:** OT-1 infrastructure
 - **Evaluation epoch:** `boundary-e2`
@@ -88,14 +88,43 @@ identifiers, counts, canonical hashes, classifications, and bounded summaries.
 
 ## Results
 
-Unexecuted.
+Run `ot-0011-appserver-001` executed from clean commit
+`9003a45fadf17b112ebdfd919b5c1f831b771bd7` against the pinned, patched
+`codex-cli 0.149.0` executable frozen by the run lock.
+
+All categorical gates passed:
+
+- the projection canary was recovered in 10/10 projection encounters and 0/10
+  null encounters;
+- no forbidden canary or denied-network reachability was recovered;
+- all twenty backend thread identities and all twenty workspace identities
+  were distinct;
+- all 10/10 direct denial checks and 8/8 deliberately opened positive controls
+  passed;
+- all actor outputs parsed, and deterministic summary reconstruction matched.
+
+All additional `boundary-e2` promotion gates also passed. Ninety prompt-step
+receipts exposed a stable three-tool inventory whose canonical digest matched
+the frozen value, and every actor turn had at least one receipt. Terminal event
+accounting observed at most two tool calls in any actor turn. A separate clean
+process reproduced the canonical evaluator projection with matching SHA-256
+`188681a7f643ff003ca33d437450469ecf25515d56df902eb1d223e6f2da8b62`.
+
+The run consumed 358,535 input tokens and 12,166 output tokens over 22 actor
+turns and 313.56 wall seconds. These remained within the frozen ceilings of
+425,000 input tokens, 14,000 output tokens, 22 turns, and 3,600 seconds. The
+full test suite and privacy/repository-size audit passed during execution.
 
 ## Evidence manifests
 
-None.
+- `evidence/manifests/OT-0011/ot-0011-appserver-001.json` identifies the raw
+  private-reproducible artifact by SHA-256
+  `cb098bda40de0eb59daf87084771fcc28d7745df72c4fbd9476b7edec7f179d3`
+  and byte count 3,829,649. Local content-addressed byte verification passed.
 
 ## Decision, limitations, and next experiment
 
-Pending. A promoted result may supersede the conditional OT-0002 boundary stage
-for infrastructure purposes, but it cannot establish learning and cannot waive
-the immutable-model requirement for an OT-1 candidate comparison.
+**Disposition: promoted.** OT-0011 supersedes the conditional OT-0002 boundary
+stage for infrastructure purposes and authorizes work on the frozen task
+generator and held-out evaluator stage. It does not establish learning and does
+not waive the immutable-model requirement for an OT-1 candidate comparison.
