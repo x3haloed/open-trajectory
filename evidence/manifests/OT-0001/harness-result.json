@@ -1,0 +1,31 @@
+{
+  "artifact_id": "harness-result",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 273,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": null,
+      "dirty": null
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0001",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Initial local repository and Python 3.11+ evidence horizon"
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:harness-result",
+    "recipe": "python3 experiments/ot_0001_harness.py --output $EVIDENCE/OT-0001/harness-result.json"
+  },
+  "schema_version": 1,
+  "sha256": "c14d57af73c833c35365da8d71802fb9c283dd9148881fcec267dc424e696df9"
+}

@@ -1,0 +1,44 @@
+# Red lines
+
+## Scientific claims
+
+- Do not call stored text, changed state, or self-report learning without later
+  held-out behavioral improvement caused by the substrate.
+- Do not tune on sealed holdouts or reinterpret old results under changed gates.
+- Do not call a completed subtask completion of its governing goal.
+- Do not treat a second model as independent when the actor controls its evidence.
+- Do not claim TAAA from productivity alone; correction and revocation must run.
+- Preserve rejected, reversed, invalidated, and surrendered results.
+
+## Privacy
+
+- Do not commit absolute user paths, usernames, home directories, hostnames,
+  email addresses, environment dumps, process listings, shell histories, or
+  raw command transcripts.
+- Do not commit secrets, credentials, cookies, authorization headers, signed
+  URLs, private repository URLs, or identifiers that grant or reveal access.
+- Do not publish a sanitized summary unless the unsanitized source has a
+  content hash and a declared evidence classification.
+- Public manifests use logical names and content identities, never source paths.
+
+## Storage
+
+- Do not commit datasets, checkpoints, raw traces, full transcripts, generated
+  model outputs, databases, archives, or bulk experiment results.
+- Do not use Git LFS as an exception to the repository evidence policy. It
+  relocates bytes but does not make them private, minimal, or reconstructible.
+- A tracked file larger than 1 MiB or a total tracked tree larger than 20 MiB
+  fails closed unless the normative limits are explicitly revised before use.
+- Binary fixtures are allowed only under `fixtures/`, must be at most 64 KiB,
+  and must have an explicit reconstruction or provenance note.
+
+## Environment capture
+
+- Capture environment facts through an allowlist, never by dumping all
+  environment variables or system state.
+- Permitted public facts include OS family, architecture, language/runtime
+  version, dependency-lock hash, Git commit, dirty-state boolean, and named tool
+  versions when collected without paths.
+- Local paths are represented as `$REPO`, `$EVIDENCE`, `$DATASET`,
+  `$CHECKPOINT`, or another declared logical root.
+

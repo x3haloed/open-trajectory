@@ -1,0 +1,53 @@
+# Local evidence store. Never commit raw runs or content-addressed objects.
+.evidence/
+evidence/objects/
+evidence/private/
+evidence/runs/
+data/
+datasets/
+artifacts/
+checkpoints/
+results/raw/
+
+# Secrets and machine-local configuration.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Common heavyweight research artifacts.
+*.arrow
+*.bin
+*.ckpt
+*.gguf
+*.h5
+*.hdf5
+*.npy
+*.npz
+*.onnx
+*.parquet
+*.pt
+*.pth
+*.safetensors
+*.sqlite
+*.sqlite3
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+
+# Python and editor state.
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
