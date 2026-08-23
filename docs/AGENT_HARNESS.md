@@ -196,9 +196,30 @@ Each encounter produces external raw evidence and public manifests for:
 Identifiers published to Git must be logical or hashed. Raw thread identifiers,
 workspace paths, and process environment remain external.
 
+### Direct model-visible tool inventory
+
+App-server metadata does not directly enumerate the complete built-in tool
+vector sent to the model. Boundary runs therefore use the pinned Codex
+`rust-v0.149.0` source tag plus
+`patches/codex-rust-v0.149.0-model-visible-tool-receipt.patch`. When the
+controller explicitly enables `OT_TOOL_INVENTORY_RECEIPT`, the patch serializes
+`tool_router.model_visible_specs()` immediately before that same vector is
+assigned to the model prompt. Raw serialized inventories remain under
+`$EVIDENCE`; public results contain only their canonical digest and count.
+
+The executable and any required sibling executables must come from the same
+pinned release and their byte identities must be recorded. Every prompt step
+in a run must emit a parseable receipt, and repeated receipts must match the
+frozen inventory digest. Completed `item/completed` events—not the abbreviated
+items in `turn/completed`—are authoritative for tool-call accounting.
+
 ## Promotion boundary
 
-A backend is research-ready only after OT-0002 proves:
+A backend is research-ready only after the fresh-agent boundary stage proves
+the following under a frozen experiment. OT-0002 is the original stage record;
+a later experiment may supersede its conditional disposition only through an
+explicit, prospectively frozen evaluation-epoch transition such as OT-0011.
+The stage must prove:
 
 - actor tasks execute in real fresh workspaces;
 - consecutive encounters use fresh actor threads;

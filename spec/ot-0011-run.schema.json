@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://open-trajectory.invalid/spec/ot-0011-run.schema.json",
+  "title": "OT-0011 isolated encounter run",
+  "allOf": [
+    { "$ref": "https://open-trajectory.invalid/spec/encounter-run.schema.json" },
+    {
+      "type": "object",
+      "properties": {
+        "experiment_id": { "const": "OT-0011" },
+        "workspace": {
+          "properties": {
+            "network_policy": {
+              "properties": {
+                "mode": { "const": "denied" }
+              }
+            }
+          }
+        }
+      }
+    }
+  ]
+}

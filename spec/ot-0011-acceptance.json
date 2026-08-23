@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0011",
+  "evaluation_epoch": "boundary-e2",
+  "claim": "A pinned Codex app-server controller can make the declared projection the only cross-encounter causal channel while directly receipting the exact model-visible tool inventory and authoritative terminal tool events.",
+  "hypothesis": "The OT-0002 categorical boundary result reproduces when built-in tools are captured at prompt construction, tool calls are counted from item/completed events, and an independent clean process reconstructs the same deterministic evaluator projection.",
+  "cheapest_decisive_falsifier": "In any isolation trial, recover a forbidden canary through a directly probed channel, reuse a backend thread identity or workspace, permit denied network egress, expose an undeclared MCP surface, recover the projection canary under null ablation, observe a model-visible inventory other than the frozen digest, omit a terminal tool event, or fail independent deterministic evaluator reconstruction.",
+  "candidate": "fresh app-server thread and workspace with one bounded opaque projection, a pinned prompt-construction inventory receipt, and event-stream action accounting",
+  "controls": [
+    "null projection",
+    "deliberately resumed thread",
+    "deliberately reused workspace",
+    "network-enabled positive control",
+    "declared MCP positive control",
+    "explicit process-input positive control",
+    "explicit controller-handle positive control"
+  ],
+  "repetitions": 10,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3,
+    "capture_seam": "tool_router.model_visible_specs immediately before Prompt.tools assignment"
+  },
+  "scoring": {
+    "projection_recovery_required": 10,
+    "null_projection_recovery_allowed": 0,
+    "forbidden_canary_recovery_allowed": 0,
+    "fresh_thread_identity_required": 20,
+    "fresh_workspace_identity_required": 20,
+    "direct_denial_success_required": 10,
+    "positive_control_success_required": 7,
+    "deterministic_reconstruction_required": 2
+  },
+  "promotion_gate": [
+    "all categorical scoring thresholds pass",
+    "the implementation commit is clean and predates unsealed actor results",
+    "every actor turn has a parseable prompt-construction inventory receipt and all receipts match the frozen canonical digest",
+    "terminal item/completed events are sufficient to enforce the frozen per-turn and total budgets",
+    "a separate clean process reconstructs matching deterministic evaluator-projection bytes from the sealed raw artifact",
+    "the privacy and repository-size audit and full test suite pass"
+  ],
+  "resource_budget": {
+    "model": "gpt-5.6-luna",
+    "model_stability": "drifting-alias",
+    "actor_turns": 22,
+    "actor_tool_calls_per_turn": 8,
+    "actor_input_tokens_total": 425000,
+    "actor_output_tokens_total": 14000,
+    "wall_seconds": 3600,
+    "projection_bytes": 256,
+    "mcp_calls_per_turn": 1
+  },
+  "evaluation_transition": {
+    "incumbent_epoch": "boundary-e1",
+    "reason": "OT-0002 showed that fresh mandatory identifiers and timestamps make raw-artifact byte equality incompatible with the reset contract, and that turn/completed snapshots omit terminal command events.",
+    "independent_anchors": [
+      "the frozen OT-0002 categorical thresholds and controls",
+      "fresh backend thread and workspace identities",
+      "immutable raw artifacts with separately recorded content identities",
+      "the exact model-visible inventory digest captured at prompt construction",
+      "authoritative item/completed action receipts"
+    ],
+    "replacement_rule": "Compare canonical deterministic evaluator projections in a separate clean process; do not require distinct raw runs containing fresh identities and timestamps to have identical bytes.",
+    "stale_scope": "Only conclusions that depended on raw-artifact byte equality or turn-snapshot tool counts are stale; OT-0002 remains conditional historical evidence and its raw artifact is unchanged."
+  },
+  "red_line_review": [
+    "This is a harness-boundary experiment, not a learning claim.",
+    "OT-0002 is not reclassified and its failed frozen gates remain preserved.",
+    "Actor recall is supporting behavioral evidence and never substitutes for direct boundary probes.",
+    "No prior actor thread may be resumed in an isolation trial.",
+    "All raw canaries, paths, thread identifiers, complete tool schemas, events, and model outputs remain in the external evidence store.",
+    "The drifting model alias is admissible only for boundary development and cannot support a promoted OT-1 learning comparison.",
+    "An inventory mismatch, missing receipt, budget breach, or failed independent reconstruction forces a conditional or rejected disposition."
+  ]
+}

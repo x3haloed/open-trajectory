@@ -1,0 +1,22 @@
+diff --git a/codex-rs/core/src/session/turn.rs b/codex-rs/core/src/session/turn.rs
+index c7d7c63..c1a5254 100644
+--- a/codex-rs/core/src/session/turn.rs
++++ b/codex-rs/core/src/session/turn.rs
+@@ -1317,9 +1317,16 @@ pub(crate) fn build_prompt(
+     base_instructions: BaseInstructions,
+ ) -> Prompt {
+     let turn_context = &step_context.turn;
++    let tools = step_context.tool_router.model_visible_specs();
++    if std::env::var_os("OT_TOOL_INVENTORY_RECEIPT").is_some() {
++        match serde_json::to_string(&tools) {
++            Ok(inventory) => eprintln!("OT_TOOL_INVENTORY_RECEIPT\t{inventory}"),
++            Err(error) => eprintln!("OT_TOOL_INVENTORY_ERROR\t{error}"),
++        }
++    }
+     Prompt {
+         input,
+-        tools: step_context.tool_router.model_visible_specs(),
++        tools,
+         parallel_tool_calls: true,
+         base_instructions,
+         output_schema: turn_context.final_output_json_schema.clone(),

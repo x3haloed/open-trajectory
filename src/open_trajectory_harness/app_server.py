@@ -9,6 +9,9 @@ from pathlib import Path
 from typing import Any, Callable
 
 
+MODEL_VISIBLE_TOOL_INVENTORY_PREFIX = "OT_TOOL_INVENTORY_RECEIPT\t"
+
+
 class AppServerError(RuntimeError):
     pass
 
@@ -230,6 +233,54 @@ class AppServerClient:
             timeout=timeout,
         )
         return completed["params"]["turn"]
+
+    def completed_turn_items(self, *, thread_id: str, turn_id: str) -> list[dict[str, Any]]:
+        """Return terminal item receipts from the event stream for one turn."""
+        items: list[dict[str, Any]] = []
+        with self._condition:
+            events = list(self.raw_events)
+        for event in events:
+            message = event.get("message")
+            if not isinstance(message, dict) or message.get("method") != "item/completed":
+                continue
+            params = message.get("params", {})
+            if params.get("threadId") != thread_id or params.get("turnId") != turn_id:
+                continue
+            item = params.get("item")
+            if isinstance(item, dict):
+                items.append(item)
+        return items
+
+    def completed_turn_tool_calls(self, *, thread_id: str, turn_id: str) -> int:
+        tool_types = {
+            "commandExecution",
+            "fileChange",
+            "mcpToolCall",
+            "dynamicToolCall",
+            "webSearch",
+            "imageView",
+        }
+        return sum(
+            item.get("type") in tool_types
+            for item in self.completed_turn_items(thread_id=thread_id, turn_id=turn_id)
+        )
+
+    def model_visible_tool_inventories(self) -> list[list[dict[str, Any]]]:
+        """Parse inventories emitted by the pinned prompt-construction patch."""
+        with self._condition:
+            lines = list(self.stderr_lines)
+        inventories: list[list[dict[str, Any]]] = []
+        for line in lines:
+            if not line.startswith(MODEL_VISIBLE_TOOL_INVENTORY_PREFIX):
+                continue
+            try:
+                value = json.loads(line[len(MODEL_VISIBLE_TOOL_INVENTORY_PREFIX) :])
+            except json.JSONDecodeError as error:
+                raise AppServerError("malformed model-visible tool inventory receipt") from error
+            if not isinstance(value, list) or not all(isinstance(item, dict) for item in value):
+                raise AppServerError("model-visible tool inventory receipt is not an object list")
+            inventories.append(value)
+        return inventories
 
     def close(self) -> None:
         if self._closed:

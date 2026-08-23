@@ -4,9 +4,11 @@ import json
 import os
 import subprocess
 import sys
+import threading
 import unittest
 from pathlib import Path
 
+from open_trajectory_harness.app_server import AppServerClient
 from open_trajectory_harness.ot0002 import (
     CANARY_PATTERN,
     canary,
@@ -22,6 +24,57 @@ FIXTURES = REPO / "fixtures" / "ot-0002"
 
 
 class OT0002HarnessTests(unittest.TestCase):
+    def test_model_visible_tool_inventory_receipts_are_parsed(self) -> None:
+        client = object.__new__(AppServerClient)
+        client._condition = threading.Condition()
+        client.stderr_lines = [
+            "unrelated diagnostic",
+            'OT_TOOL_INVENTORY_RECEIPT\t[{"name":"exec","type":"function"}]',
+        ]
+        self.assertEqual(
+            client.model_visible_tool_inventories(),
+            [[{"name": "exec", "type": "function"}]],
+        )
+
+    def test_tool_calls_are_counted_from_terminal_item_events(self) -> None:
+        client = object.__new__(AppServerClient)
+        client._condition = threading.Condition()
+        client.raw_events = [
+            {
+                "message": {
+                    "method": "item/completed",
+                    "params": {
+                        "threadId": "thread-a",
+                        "turnId": "turn-a",
+                        "item": {"type": "commandExecution"},
+                    },
+                }
+            },
+            {
+                "message": {
+                    "method": "item/completed",
+                    "params": {
+                        "threadId": "thread-a",
+                        "turnId": "turn-a",
+                        "item": {"type": "agentMessage"},
+                    },
+                }
+            },
+            {
+                "message": {
+                    "method": "item/completed",
+                    "params": {
+                        "threadId": "thread-b",
+                        "turnId": "turn-b",
+                        "item": {"type": "commandExecution"},
+                    },
+                }
+            },
+        ]
+        self.assertEqual(
+            client.completed_turn_tool_calls(thread_id="thread-a", turn_id="turn-a"), 1
+        )
+
     def test_canaries_are_stable_safe_and_separated(self) -> None:
         first = canary("projection", 1)
         self.assertEqual(first, canary("projection", 1))
