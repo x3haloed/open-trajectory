@@ -29,7 +29,7 @@ controller owns ground truth, sealed outcomes, scoring, and snapshot identity.
 
 Initial sequence:
 
-- **OT-0001:** prove reset, sealing, evidence, and leak controls.
+- **OT-0001:** prove evidence publication and preventive privacy/leak controls.
 - **OT-0002:** prove the fresh-agent encounter harness and substrate boundary.
 - **OT-0003:** invent and test a predictive-inheritance substrate.
 - **OT-0004:** test whether the inheritance selector itself can improve.

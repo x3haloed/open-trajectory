@@ -8,18 +8,46 @@
     "schema_version",
     "run_id",
     "experiment_id",
+    "provenance",
     "backend",
     "model",
     "reset",
     "workspace",
     "substrate",
     "world",
+    "evaluator",
     "budgets"
   ],
   "properties": {
     "schema_version": { "const": 1 },
     "run_id": { "$ref": "#/$defs/logical_id" },
     "experiment_id": { "$ref": "#/$defs/logical_id" },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "protocol_origin_git_commit",
+        "implementation_git_commit",
+        "implementation_dirty",
+        "acceptance_spec_sha256",
+        "prompt_sha256",
+        "tool_inventory_sha256",
+        "sandbox_policy_sha256",
+        "task_order_sha256",
+        "dependency_lock_sha256"
+      ],
+      "properties": {
+        "protocol_origin_git_commit": { "$ref": "#/$defs/git_object_id" },
+        "implementation_git_commit": { "$ref": "#/$defs/git_object_id" },
+        "implementation_dirty": { "const": false },
+        "acceptance_spec_sha256": { "$ref": "#/$defs/sha256" },
+        "prompt_sha256": { "$ref": "#/$defs/sha256" },
+        "tool_inventory_sha256": { "$ref": "#/$defs/sha256" },
+        "sandbox_policy_sha256": { "$ref": "#/$defs/sha256" },
+        "task_order_sha256": { "$ref": "#/$defs/sha256" },
+        "dependency_lock_sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
     "backend": {
       "type": "object",
       "additionalProperties": false,
@@ -29,7 +57,17 @@
         "version": { "type": "string", "minLength": 1, "maxLength": 128 }
       }
     },
-    "model": { "type": "string", "minLength": 1, "maxLength": 128 },
+    "model": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "name", "revision", "stability"],
+      "properties": {
+        "provider": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "name": { "type": "string", "minLength": 1, "maxLength": 128 },
+        "revision": { "type": "string", "minLength": 1, "maxLength": 256 },
+        "stability": { "enum": ["immutable-revision", "drifting-alias"] }
+      }
+    },
     "reset": {
       "type": "object",
       "additionalProperties": false,
@@ -43,11 +81,22 @@
     "workspace": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["logical_root", "sandbox_mode", "network_access"],
+      "required": ["logical_root", "sandbox_mode", "network_policy"],
       "properties": {
-        "logical_root": { "pattern": "^\\$EVIDENCE/" },
+        "logical_root": {
+          "type": "string",
+          "pattern": "^\\$EVIDENCE/sandboxes/[A-Za-z0-9][A-Za-z0-9._-]{0,127}/[A-Za-z0-9][A-Za-z0-9._-]{0,127}$"
+        },
         "sandbox_mode": { "type": "string", "minLength": 1, "maxLength": 64 },
-        "network_access": { "type": "boolean" }
+        "network_policy": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["mode", "policy_sha256"],
+          "properties": {
+            "mode": { "enum": ["denied", "allowlisted"] },
+            "policy_sha256": { "$ref": "#/$defs/sha256" }
+          }
+        }
       }
     },
     "substrate": {
@@ -71,6 +120,15 @@
         "seed": { "type": "integer", "minimum": 0 }
       }
     },
+    "evaluator": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "identity_sha256"],
+      "properties": {
+        "kind": { "enum": ["deterministic", "model"] },
+        "identity_sha256": { "$ref": "#/$defs/sha256" }
+      }
+    },
     "budgets": {
       "type": "object",
       "additionalProperties": false,
@@ -92,6 +150,10 @@
     "sha256": {
       "type": "string",
       "pattern": "^[0-9a-f]{64}$"
+    },
+    "git_object_id": {
+      "type": "string",
+      "pattern": "^(?:[0-9a-f]{40}|[0-9a-f]{64})$"
     }
   }
 }

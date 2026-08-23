@@ -63,6 +63,15 @@ The controller supplies thread-scoped sandbox policy, working directory,
 model, tool configuration, and resource budget. Raw events go directly to the
 external evidence store. Only normalized receipts and hashes enter Git.
 
+The run specification records whether the backend exposes an immutable model
+revision or only a drifting alias. A drifting alias is admissible for OT-0002
+harness development when declared, but it cannot support a promoted OT-1
+comparison whose target requires a frozen base model.
+
+`spec/encounter-run.schema.json` defines the reusable run contract.
+`spec/ot-0002-run.schema.json` adds the denied-network requirement, and
+`spec/ot-1-promoted-run.schema.json` adds the immutable-model requirement.
+
 ### Backend B — Codex as an MCP server
 
 For a broader orchestrator, Codex CLI may run as an MCP server. The controller
@@ -91,10 +100,13 @@ boundaries directly.
 
 Every encounter follows the same controller-owned sequence:
 
-1. Resolve a frozen `EncounterSpec` and verify every input manifest.
+1. Resolve a frozen `EncounterSpec`; verify its clean implementation commit,
+   protocol identities, tool inventory, and every input manifest.
 2. Create a new workspace beneath `$EVIDENCE/sandboxes/<run>/<encounter>`.
-3. Materialize only the permitted task surface; keep answers and future state
-   outside that workspace.
+3. Resolve the workspace and prove containment beneath its declared root.
+   Enforce the hashed network policy, materialize only the permitted task
+   surface, and keep answers and future state outside that workspace. OT-0002
+   requires network mode `denied`.
 4. Ask the candidate substrate to produce its bounded inheritance projection.
 5. Start a fresh actor thread with the projection, task, tools, and budgets.
 6. Require prospective predictions before consequential actions or outcome
@@ -145,7 +157,11 @@ answer keys never appear in actor-accessible files, process arguments, tool
 descriptions, logs, or MCP resources.
 
 OT-0002 must deliberately insert one leak through each relevant channel and
-prove the harness detects or prevents it.
+prove the harness detects or prevents it. The controller must inspect the
+backend-issued thread identity, resolved workspace containment, complete tool
+and MCP inventory, network policy, and seeded resource reachability directly.
+Actor failure to repeat a canary is supporting behavioral evidence only; it is
+not proof that the canary was inaccessible.
 
 ## Judge separation
 
@@ -165,7 +181,10 @@ from the maker. For promoted evidence:
 Each encounter produces external raw evidence and public manifests for:
 
 - encounter specification and task-input identities;
-- actor backend, model, thread identity digest, sandbox policy, and budgets;
+- protocol-origin and clean implementation commits, acceptance-specification,
+  dependency-lock, prompt, task-order, and evaluator identities;
+- actor backend, exact model revision and stability classification, backend-
+  issued thread identity digest, sandbox policy, tool/MCP inventory, and budgets;
 - exact inheritance projection and substrate snapshot digests;
 - prospective predictions and timestamps/order;
 - permitted actions and world receipts;
@@ -183,11 +202,15 @@ A backend is research-ready only after OT-0002 proves:
 
 - actor tasks execute in real fresh workspaces;
 - consecutive encounters use fresh actor threads;
+- resolved workspaces remain beneath their declared roots, the OT-0002 network
+  policy denies egress, and the complete tool/MCP inventory matches its frozen
+  digest;
 - removing the candidate projection removes all intended inheritance;
-- seeded forbidden files, resources, and process inputs cannot be reached;
+- seeded forbidden files, resources, process inputs, and controller handles
+  produce deterministic denial receipts, while deliberately opened positive
+  controls are reachable;
 - event and usage receipts are complete enough to enforce budgets;
 - a reconstructed run produces the same deterministic world receipts;
 - privacy and repository-size audits pass.
 
 Until then, agent runs are harness-development evidence, not learning evidence.
-

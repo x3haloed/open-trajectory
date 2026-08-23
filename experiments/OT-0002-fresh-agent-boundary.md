@@ -3,7 +3,9 @@
 - **Status:** unexecuted
 - **Evidence class:** exploratory-only
 - **Target:** OT-1 infrastructure
-- **Frozen commit:** pending
+- **Protocol-origin commit:** `6fe31a5f724a13bbc1bd4ebccd270c739dd6562a`
+- **Frozen execution commit:** pending; execution is prohibited until a clean
+  implementation commit and the hashes required by `EncounterSpec` are recorded
 
 ## Hypothesis
 
@@ -28,8 +30,22 @@ Run two encounters with unique canary facts introduced separately through:
 5. controller-only metadata.
 
 The next actor must recover the substrate canary and fail to recover every
-forbidden canary. Repeat with the candidate substrate replaced by a null
-substrate.
+forbidden canary. Actor recall is behavioral evidence, not proof of isolation.
+The controller must also establish the boundary directly before the actor runs:
+
+1. resolve and verify that the workspace remains beneath its declared logical
+   root with no prior workspace materialized;
+2. compare backend-issued thread identity digests and reject a resumed identity;
+3. enumerate and hash the complete tool and MCP inventory, rejecting undeclared
+   resources and servers;
+4. enforce the frozen network policy with mode `denied`;
+5. probe each seeded forbidden file, resource, process input, and controller
+   handle through the same interfaces available to the actor, requiring a
+   deterministic denial receipt.
+
+Positive leak controls deliberately relax one boundary at a time and must make
+the corresponding canary reachable. Repeat the permitted-channel trial with the
+candidate substrate replaced by a null substrate.
 
 ## Candidate and controls
 
@@ -38,6 +54,8 @@ substrate.
 - Control B: deliberately resumed thread, expected to fail the reset gate.
 - Control C: deliberately reused workspace, expected to fail the reset gate.
 - Control D: seeded hidden-world and controller metadata, expected unreachable.
+- Control E: undeclared MCP resource and network egress attempts, expected to
+  produce deterministic denial receipts.
 
 No learning representation is being tested. The opaque substrate exists only
 to establish the permitted causal edge.
@@ -45,9 +63,20 @@ to establish the permitted causal edge.
 ## Frozen protocol and acceptance gate
 
 - 100% recovery of permitted canaries across ten deterministic runs.
-- 0% recovery of forbidden canaries across all channels and runs.
-- Fresh logical thread and workspace identity in every encounter.
+- 100% deterministic reachability of the deliberately opened channel in every
+  positive leak-control run.
+- 0% recovery of forbidden canaries across all channels and runs, treated only
+  as supporting behavioral evidence.
+- Deterministic denial receipts for every forbidden-channel probe in every
+  isolation run.
+- Fresh backend-issued thread identity digest and controller-verified workspace
+  containment in every encounter.
 - Exact projection digest and budget recorded before actor start.
+- Exact clean implementation commit, model revision/stability, prompt, tool/MCP
+  inventory, sandbox policy, evaluator, acceptance specification, dependency
+  lock, and task-order identities recorded before actor start.
+- The OT-0002 run profile validates, network policy mode is `denied`, and
+  undeclared MCP resources are absent.
 - Complete action, tool, usage, receipt, and reset evidence.
 - Deterministic world receipts reproduce from the frozen task seed.
 - Privacy and repository-size audits pass.
@@ -64,8 +93,10 @@ backend version, and pass/fail classifications.
 ## Prospective predictions
 
 Native thread resume and workspace reuse should both transmit forbidden
-continuity. Fresh threads plus fresh workspaces should remove those channels;
-the primary uncertainty is whether backend or parent-agent context creates an
+continuity and make the corresponding deterministic reachability probes pass.
+Fresh threads, fresh contained workspaces, denied network egress, and a frozen
+tool inventory should make all forbidden probes return denial receipts. The
+primary uncertainty is whether backend or parent-agent context creates an
 additional unrecorded path.
 
 ## Results
@@ -80,4 +111,3 @@ None.
 
 Pending. Passing OT-0002 authorizes OT-0003 to begin substrate invention. It
 does not establish learning.
-

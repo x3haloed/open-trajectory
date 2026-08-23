@@ -10,5 +10,13 @@ else
     export PYTHONPATH="$repo_root/src"
 fi
 
-python3 -m open_trajectory_evidence audit
-python3 -m unittest discover -s tests
+if [ -x "$repo_root/.venv/bin/python" ]; then
+    python_cmd="$repo_root/.venv/bin/python"
+elif [ -x "$repo_root/.venv/Scripts/python.exe" ]; then
+    python_cmd="$repo_root/.venv/Scripts/python.exe"
+else
+    python_cmd="python3"
+fi
+
+"$python_cmd" -m open_trajectory_evidence audit
+"$python_cmd" -m unittest discover -s tests

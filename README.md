@@ -38,12 +38,14 @@ No learning, self-direction, or TAAA result is claimed yet.
 
 ## Quick start
 
-Requires Python 3.11 or newer and has no runtime dependencies.
+Requires Python 3.11 or newer. The evidence CLI has no runtime dependencies;
+the test environment is pinned separately.
 
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-python3 -m pip install -e .
+python3 -m pip install -r requirements-test.lock
+python3 -m pip install --no-deps -e .
 python3 -m unittest discover -s tests
 ot-evidence audit
 ```
@@ -88,7 +90,8 @@ CI runs the audit and tests on every push and pull request.
 - [PROGRAM.md](PROGRAM.md) — staged research program.
 - [docs/EVIDENCE.md](docs/EVIDENCE.md) — evidence, privacy, and reconstruction contract.
 - [docs/WORKFLOW.md](docs/WORKFLOW.md) — experiment lifecycle and promotion rules.
+- `spec/` — validated generic and experiment-specific run contracts.
+- `fixtures/encounter-specs/` — small complete instances used to test those contracts.
 - `experiments/` — small, append-only public experiment records.
 - `evidence/manifests/` — sanitized content-addressed receipts only.
 - `src/open_trajectory_evidence/` — recording, verification, and audit tool.
-

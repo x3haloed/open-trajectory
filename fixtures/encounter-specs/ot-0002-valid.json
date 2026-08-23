@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "run_id": "run-001",
+  "experiment_id": "OT-0002",
+  "provenance": {
+    "protocol_origin_git_commit": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "implementation_git_commit": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+    "implementation_dirty": false,
+    "acceptance_spec_sha256": "1111111111111111111111111111111111111111111111111111111111111111",
+    "prompt_sha256": "2222222222222222222222222222222222222222222222222222222222222222",
+    "tool_inventory_sha256": "3333333333333333333333333333333333333333333333333333333333333333",
+    "sandbox_policy_sha256": "4444444444444444444444444444444444444444444444444444444444444444",
+    "task_order_sha256": "5555555555555555555555555555555555555555555555555555555555555555",
+    "dependency_lock_sha256": "6666666666666666666666666666666666666666666666666666666666666666"
+  },
+  "backend": {
+    "kind": "codex-app-server",
+    "version": "example-version"
+  },
+  "model": {
+    "provider": "example-provider",
+    "name": "model-under-test",
+    "revision": "drifting-development-alias",
+    "stability": "drifting-alias"
+  },
+  "reset": {
+    "fresh_thread": true,
+    "fresh_workspace": true,
+    "resume_allowed": false
+  },
+  "workspace": {
+    "logical_root": "$EVIDENCE/sandboxes/run-001/encounter-001",
+    "sandbox_mode": "workspace-write",
+    "network_policy": {
+      "mode": "denied",
+      "policy_sha256": "7777777777777777777777777777777777777777777777777777777777777777"
+    }
+  },
+  "substrate": {
+    "candidate_id": "opaque-channel-control",
+    "snapshot_sha256": "8888888888888888888888888888888888888888888888888888888888888888",
+    "projection_byte_limit": 4096,
+    "mcp_call_limit": 4
+  },
+  "world": {
+    "world_id": "canary-world-v1",
+    "task_manifest_sha256": "9999999999999999999999999999999999999999999999999999999999999999",
+    "seed": 1
+  },
+  "evaluator": {
+    "kind": "deterministic",
+    "identity_sha256": "dddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddddd"
+  },
+  "budgets": {
+    "turns": 4,
+    "tool_calls": 16,
+    "input_tokens": 16000,
+    "output_tokens": 4000,
+    "wall_seconds": 600
+  }
+}
