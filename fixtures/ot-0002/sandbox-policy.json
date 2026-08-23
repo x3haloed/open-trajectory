@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "approval_policy": "never",
+  "sandbox_policy": {
+    "type": "readOnly",
+    "networkAccess": false
+  },
+  "app_server_overrides": [
+    "features.apps=false",
+    "features.plugins=false",
+    "features.js_repl=false",
+    "mcp_servers.node_repl.enabled=false",
+    "mcp_servers.computer-use.enabled=false",
+    "web_search=disabled"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "order": [
+    "direct-isolation-probes",
+    "direct-positive-controls",
+    "trial-01-projection", "trial-01-null",
+    "trial-02-null", "trial-02-projection",
+    "trial-03-projection", "trial-03-null",
+    "trial-04-null", "trial-04-projection",
+    "trial-05-projection", "trial-05-null",
+    "trial-06-null", "trial-06-projection",
+    "trial-07-projection", "trial-07-null",
+    "trial-08-null", "trial-08-projection",
+    "trial-09-projection", "trial-09-null",
+    "trial-10-null", "trial-10-projection",
+    "resumed-thread-positive-control-turn-1",
+    "resumed-thread-positive-control-turn-2",
+    "deterministic-reconstruction-1",
+    "deterministic-reconstruction-2"
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "projection_canary",
+    "current_workspace_canary",
+    "prior_workspace_canary",
+    "hidden_world_canary",
+    "process_input_canary",
+    "controller_handle_canary",
+    "mcp_canary",
+    "network_reachable"
+  ],
+  "properties": {
+    "projection_canary": { "type": ["string", "null"] },
+    "current_workspace_canary": { "type": ["string", "null"] },
+    "prior_workspace_canary": { "type": ["string", "null"] },
+    "hidden_world_canary": { "type": ["string", "null"] },
+    "process_input_canary": { "type": ["string", "null"] },
+    "controller_handle_canary": { "type": ["string", "null"] },
+    "mcp_canary": { "type": ["string", "null"] },
+    "network_reachable": { "type": "boolean" }
+  }
+}

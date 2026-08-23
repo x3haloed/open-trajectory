@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "profile": "isolation",
+  "apps_enabled": false,
+  "plugins_enabled": false,
+  "web_search": "disabled",
+  "declared_mcp_servers": {
+    "computer-use": { "enabled": false, "tools": [], "resources": [] },
+    "node_repl": { "enabled": false, "tools": [], "resources": [] },
+    "ot_probe": { "enabled": false, "tools": [], "resources": [] }
+  },
+  "built_in_inventory_requirement": "The controller must obtain a direct model-visible built-in tool inventory from the backend. Configuration inference or actor self-report does not satisfy this field."
+}

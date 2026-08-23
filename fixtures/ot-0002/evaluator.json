@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "kind": "deterministic",
+  "identity": "ot-0002-boundary-evaluator-v1",
+  "rules": [
+    "Exact canary equality is required for recovery.",
+    "Any exact forbidden-canary equality is a failure.",
+    "Distinct backend-issued thread identifiers are required for isolation turns.",
+    "Distinct resolved workspace identities are required for isolation turns.",
+    "Actor non-recovery is supporting evidence only; direct probes decide boundary denial.",
+    "Unknown or unavailable direct evidence fails the corresponding promotion gate closed."
+  ]
+}

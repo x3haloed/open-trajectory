@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0002",
+  "claim": "A Codex app-server controller can make the declared projection the only cross-encounter causal channel within the tested envelope.",
+  "hypothesis": "Fresh app-server threads and fresh contained workspaces, with network and undeclared MCP access denied, transmit a projection canary while denying prior-thread, prior-workspace, hidden-world, process-input, and controller-handle canaries.",
+  "cheapest_decisive_falsifier": "In any isolation trial, recover a forbidden canary through a directly probed channel, reuse a backend thread identity or workspace, permit denied network egress, expose an undeclared MCP tool or resource, or recover the projection canary when the null substrate is used.",
+  "candidate": "fresh app-server thread and workspace with one bounded opaque projection",
+  "controls": [
+    "null projection",
+    "deliberately resumed thread",
+    "deliberately reused workspace",
+    "network-enabled positive control",
+    "declared MCP positive control",
+    "explicit process-input positive control",
+    "explicit controller-handle positive control"
+  ],
+  "repetitions": 10,
+  "scoring": {
+    "projection_recovery_required": 10,
+    "null_projection_recovery_allowed": 0,
+    "forbidden_canary_recovery_allowed": 0,
+    "fresh_thread_identity_required": 20,
+    "fresh_workspace_identity_required": 20,
+    "direct_denial_success_required": 10,
+    "positive_control_success_required": 7,
+    "deterministic_reconstruction_required": 2
+  },
+  "promotion_gate": [
+    "all categorical scoring thresholds pass",
+    "the implementation commit is clean and predates unsealed actor results",
+    "the complete model-visible built-in, MCP, app, and plugin inventory is directly enumerated and matches its frozen digest",
+    "raw events and usage are sufficient to enforce the frozen budgets",
+    "a second clean process reproduction regenerates matching evidence bytes",
+    "the privacy and repository-size audit and full test suite pass"
+  ],
+  "resource_budget": {
+    "model": "gpt-5.6-luna",
+    "model_stability": "drifting-alias",
+    "actor_turns": 22,
+    "actor_tool_calls_per_turn": 8,
+    "actor_input_tokens_total": 80000,
+    "actor_output_tokens_total": 12000,
+    "wall_seconds": 3600,
+    "projection_bytes": 256,
+    "mcp_calls_per_turn": 1
+  },
+  "red_line_review": [
+    "This is a harness-boundary experiment, not a learning claim.",
+    "Actor recall is supporting behavioral evidence and never substitutes for direct boundary probes.",
+    "No prior actor thread may be resumed in an isolation trial.",
+    "All raw canaries, paths, thread identifiers, events, and model outputs remain in the external evidence store.",
+    "An unavailable direct inventory or byte-identical reproduction gate forces a conditional or rejected disposition rather than a weakened gate."
+  ]
+}
