@@ -40,6 +40,11 @@ may drive Codex through the SDK/app-server protocol or place Codex behind MCP;
 candidate substrates and experimental semantics remain backend-independent.
 See `docs/AGENT_HARNESS.md`.
 
+`docs/RESEARCH_LANDSCAPE.md` records non-normative distinctions, hypothesis
+families, environmental pressures, and adjacent individual and collective
+research directions. It exists to widen candidate generation; it does not add
+requirements to OT-1 or alter a frozen experiment gate.
+
 ## Program B — Self-Authored Durable Goals
 
 Separate goal, plan, subgoal, and current action. A goal contract records its

@@ -4,6 +4,10 @@ Before changing experiments, evidence tooling, or acceptance rules, read
 `TARGET.md`, `RED_LINES.md`, `PROGRAM.md`, `docs/EVIDENCE.md`, and
 `docs/WORKFLOW.md` completely.
 
+Before proposing or selecting a candidate mechanism, also read
+`docs/RESEARCH_LANDSCAPE.md`. Treat it as a non-normative hypothesis map: use it
+to widen the search, not as evidence or as an implicit acceptance rule.
+
 ## Research discipline
 
 - Freeze a hypothesis, cheapest falsifier, controls, task order, scoring rule,

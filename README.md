@@ -88,6 +88,8 @@ CI runs the audit and tests on every push and pull request.
 - [TARGET.md](TARGET.md) — normative research targets and stopping conditions.
 - [RED_LINES.md](RED_LINES.md) — shortcuts and leak classes that do not count.
 - [PROGRAM.md](PROGRAM.md) — staged research program.
+- [docs/RESEARCH_LANDSCAPE.md](docs/RESEARCH_LANDSCAPE.md) — non-normative
+  hypothesis map for widening candidate generation.
 - [docs/EVIDENCE.md](docs/EVIDENCE.md) — evidence, privacy, and reconstruction contract.
 - [docs/WORKFLOW.md](docs/WORKFLOW.md) — experiment lifecycle and promotion rules.
 - `spec/` — validated generic and experiment-specific run contracts.
