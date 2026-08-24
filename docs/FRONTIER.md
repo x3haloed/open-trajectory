@@ -51,15 +51,16 @@ byte-identical projections and outcomes produced different vectors with the
 same four-error score; later unchanged vectors and every candidate vector
 matched exactly. OT-1 is not promoted and E5 authorization is consumed.
 
-OT-0036 is the active evaluator checkpoint. It takes the controller-
+OT-0036 passed the next evaluator checkpoint. It takes the controller-
 deterministic attribution branch explicitly permitted by `TARGET.md`, rather
 than weakening or retrospectively repairing OT-0035's stochastic placebo. The
 frozen study exhausts all 384 selector criteria against all six eligible
 parity/complement pairs through the actual OT-0014 ledger. Controller oracle,
 unchanged, zero, every signed unit axis, and first-oracle-then-frozen lineages
-receive the same eighty-event budget. Candidate learner and actor outputs are
-forbidden. The clean implementation and separate run lock are now published;
-controller calibration execution is pending.
+receive the same eighty-event budget. All 2,304 cases passed every path,
+control, budget, projection, replay, reverse-order, and authority gate without
+learner or actor output. E6 authorizes one fresh deterministic-integration
+candidate; the calibration itself is not OT-1 evidence.
 
 Decision-relevant evidence:
 
@@ -78,6 +79,8 @@ Decision-relevant evidence:
   — E5 controller calibration promoted one fresh integration candidate.
 - `evidence/manifests/OT-0035/ot-0035-e5-ot0-ledger-integration-001.json` —
   valid private result; failed the frozen unchanged identity-policy placebo.
+- `evidence/manifests/OT-0036/ot-0036-e6-deterministic-integration-calibration-001.json`
+  — public E6 calibration; one fresh deterministic candidate authorized.
 
 ## Goal invariants
 
@@ -113,13 +116,12 @@ Decision-relevant evidence:
 
 ## Evaluation regime
 
-E4 is the last promoted OT-1 evaluation checkpoint, but its one-candidate
-authorization was consumed by OT-0020. E4's evaluator-independent anchors
-remain active: the E2 hosted-epoch identity and counterbalancing rules, fresh
-thread/workspace boundaries, controller-owned deterministic application and
-scores, private future state, fixed controls and placebos, frozen task order and
-thresholds, clean reproduction, and privacy/evidence gates. No new target
-candidate is currently authorized.
+E6 is the current promoted OT-1 evaluation checkpoint. E4's evaluator-
+independent anchors remain active: controller-owned deterministic application
+and scores, private future state, fixed controls and placebos, frozen task order
+and thresholds, clean reproduction, and privacy/evidence gates. Hosted
+execution additionally retains E2's epoch identity, counterbalance, and fresh
+thread/workspace rules. OT-0036 authorizes one deterministic target candidate.
 
 OT-0033 is not E5 and cannot promote a target. Its public run validly bound the
 final task seed to a canonical hash of the clean implementation commit and
@@ -154,7 +156,14 @@ show that `learn(current, completed)` cannot reach task construction, hidden
 coefficients, seed derivation, dynamic introspection, files, imports, or
 execution. All 384 criteria passed and authorized exactly one fresh integration
 candidate. OT-0035 consumed that authorization and failed its frozen exact
-identity-policy placebo. No OT-1 candidate is currently authorized.
+identity-policy placebo.
+
+OT-0036 then calibrated the controller-deterministic application branch without
+learner or actor output. Every one of 2,304 criterion/rule-pair cases passed the
+complete oracle, unchanged, fixed-control, harmful-correction, budget,
+projection, replay, reverse-order, and authority gates. E6 authorizes exactly
+one fresh deterministic-integration candidate. It does not rescore OT-0035 or
+permit stochastic attribution.
 
 ## Prediction errors
 
@@ -222,7 +231,7 @@ Expected for OT-0036: exhaustive oracle snapshots will show that deterministic
 application of learned selector state through the promoted OT-0 ledger has an
 exact complete opportunity across the entire criterion and eligible-rule
 family, while unchanged and fixed states retain unavoidable error.
-Observed: five explicitly excluded development cases pass every frozen path,
-budget, control, projection, replay, and authority check. Final calibration
-output remains forbidden until the clean implementation and separate run lock.
-Decision: freeze OT-0036 and execute it once without learner or actor output.
+Observed: all 2,304 cases passed every frozen path, budget, control, projection,
+replay, reverse-order, and authority check without learner or actor output.
+Decision: promote E6 for exactly one fresh deterministic-integration candidate.
+OT-0036 itself contains no OT-1 evidence and does not rescore OT-0035.

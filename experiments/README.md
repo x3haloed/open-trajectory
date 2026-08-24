@@ -77,5 +77,5 @@ Decision-relevant experiment records:
   — failed as frozen after the unchanged-actor exact identity placebo diverged
   in its initially ambiguous regime; E5 authorization is consumed.
 - [`OT-0036-e6-deterministic-integration-calibration.md`](OT-0036-e6-deterministic-integration-calibration.md)
-  — active locked candidate-free calibration of deterministic selector-to-
-  OT-0-ledger application across the complete frozen task family.
+  — passed all 2,304 candidate-free deterministic-integration cases and
+  promoted E6 for exactly one fresh candidate without producing OT-1 evidence.

@@ -1,6 +1,6 @@
 # OT-0036 — E6 deterministic integration calibration
 
-- **Status:** locked; controller calibration execution pending
+- **Status:** passed; E6 promoted for one fresh deterministic candidate
 - **Evidence class:** public-reconstructible evaluator calibration
 - **Evaluation transition:** E5 → E6 candidate
 - **Candidate learner outputs:** forbidden
@@ -59,3 +59,23 @@ candidate must actually learn; controller oracle state cannot enter it.
 
 OT-0036 contains no OT-1 evidence. A pass does not reinterpret OT-0035, relax
 its placebo, or authorize stochastic attribution.
+
+## Result and decision
+
+The locked execution at `35e519cbdc99ffae709a598d7c1c1ad2b4f16803`
+passed every gate. All 2,304 criterion/rule-pair cases passed candidate path,
+unchanged-selector ablation, harmful correction, fixed controls, exact active
+budget, projection budget, and deterministic replay checks. Re-executing all
+cases in reverse order reproduced every case receipt.
+
+The generic learner remained limited to `current` and `completed`; its reachable
+functions contained no forbidden task, seed, world, dynamic, file, import, or
+execution authority. The integration adapter remained limited to `parent`,
+`snapshot`, `contact`, and `queries`; only `apply_to_ledger` and
+`selected_observations` were locally reachable, with no forbidden authority.
+
+Final disposition: `promoted`. E6 authorizes exactly one fresh deterministic-
+integration candidate. No learner or actor output was generated, OT-0035
+remains failed, and this calibration does not establish OT-1. The public
+artifact is
+`evidence/manifests/OT-0036/ot-0036-e6-deterministic-integration-calibration-001.json`.

@@ -284,8 +284,9 @@ Initial sequence:
   `TARGET.md` permits. Exhaust all 384 selector criteria against all six
   eligible parity/complement pairs through the actual OT-0014 ledger, with
   oracle, unchanged, zero, signed unit-axis, and first-oracle-then-frozen
-  lineages. Candidate learner and actor outputs remain forbidden. Locked after
-  a clean implementation commit; controller calibration execution is pending.
+  lineages. Candidate learner and actor outputs remain forbidden. Passed all
+  gates for all 2,304 cases and promoted E6 for exactly one fresh deterministic
+  integration candidate. The calibration contains no OT-1 evidence.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;
