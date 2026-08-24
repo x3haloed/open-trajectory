@@ -6,7 +6,7 @@ Raw evidence does not belong here.
 Copy `TEMPLATE.md` to `OT-NNNN-short-name.md` before running a serious
 experiment. Assign an ID once and never reuse it.
 
-Current unexecuted protocol drafts:
+Decision-relevant experiment records:
 
 - [`OT-0015-crossed-scar-selector.md`](OT-0015-crossed-scar-selector.md) —
   crosses subject-relative scar carriers with selector identity while keeping
@@ -49,3 +49,24 @@ Current unexecuted protocol drafts:
   — failed public non-candidate pilot: the exact decision list validated, but
   every free-form selector used forbidden method/attribute syntax, so the
   portfolio remained untested.
+- [`OT-0026-structured-selector-feasibility.md`](OT-0026-structured-selector-feasibility.md)
+  — invalidated before result sealing by a generic summary-dispatch defect;
+  the structured selector mechanism remained scientifically unobserved.
+- [`OT-0027-exemplar-casebook-feasibility.md`](OT-0027-exemplar-casebook-feasibility.md)
+  — failed when both valid casebooks optimized label frequency and gained zero.
+- [`OT-0028-casebook-correction-feasibility.md`](OT-0028-casebook-correction-feasibility.md)
+  — passed one replicated same-regime correction slice from eight errors to
+  zero, without target authority.
+- [`OT-0029-casebook-reversal-feasibility.md`](OT-0029-casebook-reversal-feasibility.md)
+  — mixed later reversal: one actor reached zero and one reached nine.
+- [`OT-0030-preserved-further-correction.md`](OT-0030-preserved-further-correction.md)
+  — mixed further correction: one actor reached zero and one reached seven.
+- [`OT-0031-propose-score-revise.md`](OT-0031-propose-score-revise.md)
+  — failed two exact-feedback branches; neither revision improved completed or
+  future error.
+- [`OT-0032-learned-pattern-optimizer.md`](OT-0032-learned-pattern-optimizer.md)
+  — passed a deterministic learning, contradiction, correction, ablation, and
+  controls path inside an explicitly enumerated selector family.
+- [`OT-0033-blind-weighted-selector.md`](OT-0033-blind-weighted-selector.md)
+  — active frozen feasibility protocol for a post-implementation task-specific
+  criterion learned in a generic weight carrier.

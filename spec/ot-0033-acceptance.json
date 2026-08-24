@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0033",
+  "purpose": "post-implementation blind consequence-trained weighted-selector feasibility",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "dimension_count": 4,
+  "pattern_count": 80,
+  "selection_limit": 80,
+  "regime_count": 3,
+  "minimum_initial_errors": 40,
+  "maximum_canary_errors": 0,
+  "minimum_later_contradiction_errors": 80,
+  "minimum_selector_change_ablation_gap": 40,
+  "minimum_fixed_control_margin": 80,
+  "claim_limit": "public feasibility of a post-implementation blind weighted selection criterion learned from selection consequences; not OT-1 evidence and not evaluator authorization",
+  "promotion_gate": [
+    "the implementation predates the task seed, which is derived mechanically from the clean implementation commit and cannot be selected after candidate scoring",
+    "the candidate update receives paired raw events, its own prior decisions, and released completed outcomes but no task seed, hidden criterion, future outcome, fixed-control identity, or regime sequence",
+    "completed selection consequences change the zero-weight selector and produce zero-error fresh-instance canaries in all three regimes",
+    "the first learned selector incurs at least eighty errors after later contradiction, a different selector recovers to zero, and a subsequent contradiction and correction repeat that causal pattern",
+    "removing outcome credit prevents every update, unchanged-selector ablations lose at least forty errors, and the adaptive lineage beats every frozen equal-budget control by at least eighty aggregate errors",
+    "all task, snapshot, selection, prediction, outcome, update, restoration, control, and score identities replay deterministically"
+  ]
+}

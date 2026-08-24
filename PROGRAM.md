@@ -251,6 +251,14 @@ Initial sequence:
   corrected state returned to zero, and the candidate aggregate beat the best
   fixed control eight to zero. This is public deterministic feasibility only;
   it has no OT-1 or E4 authority.
+- **OT-0033:** replace OT-0032's explicitly enumerated proposal menu with a
+  generic four-weight carrier and mistake-driven update. A controller task seed
+  derived from the future clean implementation commit fixes a task-specific
+  criterion that cannot be encoded in the implementation or selected after
+  candidate scoring. Three regimes test invention, reversal, and subsequent
+  correction with outcome-credit, unchanged-selector, and frozen-state
+  controls. This is frozen public feasibility only; it has no OT-1 or
+  evaluation-epoch authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

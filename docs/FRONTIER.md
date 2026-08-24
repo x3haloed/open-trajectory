@@ -2,543 +2,151 @@
 
 ## Outcome
 
-OT-1 remains open. OT-0014 is the promoted OT-0 prerequisite within its
-private, time-bounded hidden-rule envelope. OT-0004 is an invalidated negative
-result: fresh selector/predictor sampling prevented causal attribution.
-OT-0005 is rejected: deterministic attribution worked in its complete worker,
-but the original first program violated the frozen carrier and the complete
-worker missed the recursive behavioral gates. OT-2 and OT-3 remain unchanged
-and unclaimed.
+The repository target remains open. OT-0014 establishes the required OT-0
+contact-causal substrate only within one private, time-bounded hidden-rule
+envelope. OT-1 has not been promoted, so OT-2 and OT-3 remain paused and
+unclaimed.
 
-The frontier is paused with no active run. OT-0020 consumed E4's one-candidate
-authorization and was invalidated when worker 1 timed out after five stages.
-Worker 2 completed under a valid hosted epoch but independently failed the
-temporal and comparative behavioral gates: its correction arrived at the final
-stage, leaving no canary, and its six-error lineage beat the strongest fixed
-control by only two errors. The unchanged OT-0016 whole-program challenger and
-one-step consequence projection are therefore exhausted as a credible next
-experiment. A successor should introduce materially richer actor-visible
-consequence evidence or a different actor-authored selector representation
-while preserving deterministic attribution. It must earn a fresh evaluator
-authorization before candidate outputs.
+Direct LLM selector synthesis is no longer the active path. OT-0021 through
+OT-0031 tested richer consequence ledgers, portfolios, structured carriers,
+exemplar casebooks, one-shot and repeated correction, and a bounded
+propose–score–revise loop. The useful correction slices were real, but the
+complete mechanisms were invalidated, failed their frozen reproducibility
+gates, or failed to improve. Their exact dispositions remain authoritative in
+their experiment records; changing model size, sampling, prompt wording, turn
+count, or carrier capacity alone is not a materially new causal path.
 
-OT-0016 is a valid E3 rejection. It kept deterministic selector execution but
-changed credit assignment: an actor-authored challenger was compared with the
-current selector on the same released calibration contact before a controller
-replayed the actor's prospective decision expression and made the receipt-bound
-commit. The mechanism produced useful causal commits and one correction in one
-worker, but neither worker passed the temporal or lineage gates. A post-result
-oracle diagnostic also showed that E3 admitted a task structurally incapable of
-its complete chain, so OT-0016 cannot decide the mechanism-level question.
-OT-0015 remains unfrozen and gated on a credible smaller credit mechanism.
+OT-0032 passed the first complete deterministic learned-selector walking
+skeleton. Completed outcomes changed an eight-error initial state to a
+zero-error selector. Later contact made that learned state incur sixteen
+errors; a second update committed a different zero-error selector. The
+unchanged-state ablation incurred sixteen errors, and the adaptive aggregate
+beat the best fixed control eight to zero. This is public mechanism
+feasibility, not OT-1: the optimizer explicitly enumerated every six-pattern
+state, so the proposal family itself supplied a solving menu.
 
-Evidence pointers:
+OT-0033 is the active cheapest falsifier. A generic four-weight selector learns
+from its own completed selection errors on a controller task whose seed is
+derived mechanically from the future clean implementation commit. The task-
+specific coefficient signs and ordering therefore cannot be present in the
+implementation or selected after candidate scoring. Three regimes test initial
+learning, later reversal, and preserved further correction. OT-0033 remains
+development-only; even a pass would still require independent evaluator
+authorization and coupling to the promoted OT-0-capable system before an OT-1
+claim.
 
-- `evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json`
-- `evidence/manifests/OT-0004/ot-0004-hosted-epoch-001.json`
-- `evidence/manifests/OT-0005/ot-0005-hosted-epoch-001.json`
-- `evidence/manifests/OT-0016/ot-0016-hosted-epoch-001.json`
+Decision-relevant evidence:
+
+- `evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json` — promoted OT-0,
+  private and time-bounded.
+- `evidence/manifests/OT-0020/ot-0020-hosted-epoch-001-invalidated.json` — E4
+  authorization consumed by an invalidated candidate run with one complete
+  negative worker.
+- `evidence/manifests/OT-0031/ot-0031-propose-score-revise-pilot-001.json` —
+  bounded direct-synthesis feedback loop failed.
+- `evidence/manifests/OT-0032/ot-0032-optimizer-walking-skeleton-001.json` —
+  deterministic learned-selector path passed within its enumerated family.
 
 ## Goal invariants
 
-- OT-0 causal inheritance and OT-1 recursive selector learning remain distinct.
-- OT-1 requires an actor-invented useful selection operation, not a renamed
-  researcher strategy or content adaptation under a fixed selector.
-- Selector-change comparisons isolate the committed selector snapshot.
-  Controller-deterministic execution is preferred; a stochastic alternative
-  requires prospective replication and a passing identical-policy placebo.
-- Actors may propose selector changes. The controller owns commits, sealed
-  outcomes, scoring, snapshot identity, and publication.
-- Later contact must expose a learned selector failure and cause correction;
-  proposal prose and novelty review cannot substitute for causal behavior.
-- Routine research keeps the host usable. Luna and Terra hosted encounters are
-  the default; large local checkpoints or resource-saturating inference require
-  explicit operator authorization.
+- Contact-causal inheritance and recursive inheritance-selection learning are
+  separate claims. OT-0 is necessary but does not imply OT-1.
+- OT-1 requires a useful selection criterion or operation that was not
+  explicitly supplied, named, enumerated, or encoded as a researcher mode. A
+  bounded generic carrier may be supplied; the task-specific solving operation
+  may not.
+- Consequences of the system's own prior selection decisions must cause each
+  claimed selector change. Raw content adaptation, self-report, schema
+  validity, or an evaluator-selected commit does not count.
+- Actor, world, substrate/controller, and evaluator authorities remain
+  separate. The controller owns outcomes, commits, sealed scores, snapshot
+  identity, and publication.
+- Selector-change comparisons isolate the committed snapshot. Application and
+  downstream scoring are controller-deterministic unless a prospectively
+  powered stochastic design passes an identical-policy placebo.
+- A changing environment must make a learned operation harmful, cause its
+  revision or abandonment, and leave evidence of subsequent correction
+  capacity. No single frozen selector may dominate.
+- Promotion requires fresh restoration, held-out improvement over unchanged
+  and equal-budget fixed controls, a decisive selector-change ablation, frozen
+  novelty review, clean reproduction, evidence manifests, and privacy/audit
+  gates.
+- Candidate substrates and selectors are invented inside this repository. No
+  existing memory system may be imported as OT-0 or OT-1.
+- Raw outputs go directly to `$EVIDENCE`; tracked records contain only bounded
+  interpretations and content-addressed manifests without local identity or
+  path leakage.
+- Routine research must leave the host usable. Resource-saturating local models
+  require explicit operator authorization.
 
 ## Evaluation regime
 
-E3 is closed to new candidate comparisons. Preserve E2's fresh-thread/workspace
-boundary, private evidence, direct model and Response receipts, counterbalanced
-temporal control, frozen resource bounds, clean reproduction, and audit gates.
-Freeze task generation, program carrier, deterministic interpreter, scoring
-instrument, controls, placebo, temporal harm/correction sequence, novelty
-rubric, and numeric gates before candidate outputs.
+E4 is the last promoted OT-1 evaluation checkpoint, but its one-candidate
+authorization was consumed by OT-0020. E4's evaluator-independent anchors
+remain active: the E2 hosted-epoch identity and counterbalancing rules, fresh
+thread/workspace boundaries, controller-owned deterministic application and
+scores, private future state, fixed controls and placebos, frozen task order and
+thresholds, clean reproduction, and privacy/evidence gates. No new target
+candidate is currently authorized.
 
-No OT-0004 or OT-0005 score is current OT-1 evidence. OT-0005's deterministic
-replay and placebo receipts survive as substrate evidence only.
+OT-0033 is not E5 and cannot promote a target. It freezes a public mechanism
+test before its final task exists. The final task seed must equal a canonical
+hash of the clean implementation commit; the run lock must bind that seed, the
+reconstructed controller-task digest, acceptance rule, all runtime authorities,
+and the OT-0032 predecessor manifest before the one allowed execution. The
+candidate update receives paired raw events, its source snapshot and prior
+selections, and released completed outcomes. It receives no seed, hidden
+weights, canary, regime sequence, or fixed-control identity.
 
-OT-0016 has frozen acceptance scores but no candidate outputs. Its fixed public
-unit fixture verifies only proposal, paired deterministic comparison, receipt
-integrity, decision binding, and commit authority. The numeric gates were set
-after the prospective controller-only distributional studies and before the
-live worker existed; an absolute score from one generated manifest was not used
-as a gate.
+The frozen OT-0033 gates require a forty-error neutral start; three changed
+weight snapshots with zero-error fresh canaries; eighty-error contradictions
+before both later corrections; no change when outcome credit is withheld; at
+least forty errors of unchanged-selector ablation loss; and an adaptive
+aggregate at least eighty errors better than every zero, unit-axis, or learned-
+snapshot-frozen equal-budget control.
 
-The first 256-manifest power study rejected the unconditioned OT-0005 world for
-OT-0016. Contact-selected controls were informative and harm/recovery
-transitions were common, but the per-stage fixed-control oracle gained only
-1.824 mean errors over the best static control and reached a two-error advantage
-in only 51.95% of manifests, below the prospectively recorded 2-error mean and
-75% frequency gates. The next world must make changing selection materially
-necessary; the failed gates must not be relaxed or reinterpreted.
-
-A separate prospectively constrained sampler passed its 64-manifest
-feasibility gate without candidate actors. All manifests met the stronger
-per-task pressure constraints; mean generation cost was 10.875 attempts, p95
-was 29, and the maximum was 36 of 128. This establishes an affordable task
-distribution, not OT-1 evidence. Its evaluator-owned fixed-control identities
-must remain absent from actor prompts and workspaces.
-
-The OT-0016 live carrier slice is also feasible. Pilot 001 preserved a prompt-
-language failure; pilot 002 completed the mechanism but preserved a proxy
-shutdown error; pilot 003, with a bounded one-second forwarding drain, passed
-with one fresh Luna turn, zero tools, exact model/Response/inventory receipts,
-zero collector errors, deterministic decision replay, and a receipt-bound
-commit on a fixed public non-candidate fixture. These are development results,
-not hidden-task or OT-1 evidence.
-
-The full OT-0016 worker implemented the frozen six-stage causal order with
-six Luna proposal turns and two Terra novelty reviews per worker. The
-controller alone executes selectors, predictions, paired comparison receipts,
-true and credit-neutralized decisions, exact commits, heldout controls,
-protected-parent harm ablation, identity placebos, scoring, and aggregation.
-The valid two-worker epoch passed every deployment and authority gate but was
-behaviorally rejected. Worker 1 achieved two useful commits including the
-outcome-free seed stage and later corrected a four-error regression, but lacked
-two consequence-caused commits before harm and a later canary; worker 2 made
-only the seed-stage commit. Both exceeded or failed the lineage gates.
-
-At the evaluation checkpoint, an evaluator-owned oracle showed the admitted
-manifest had only one consequence-driven pre-harm opportunity, a stage-2
-contact tie, and no post-correction canary opportunity. E3's aggregate sampler
-was blind to its own ordered causal gate. The novelty result also raised an
-ambiguity: reviewers could verify that an operation was absent from the actor-
-visible seed and carrier, but did not know the hidden fixed controls. Because
-OT-1 forbids strategies supplied to the actor—not common strategies
-independently reinvented while controls remain hidden—E4 does not add a post-
-result fixed-control-equivalence ban.
-
-The first E4 challenger exactly replayed the unchanged temporal and lineage
-gates with a hidden fixed-control oracle. Its frozen 256-manifest incidence
-study found zero exact witnesses against a 5% minimum, rejecting simple
-unconditioned rejection sampling. The immediate frontier is constructive,
-actor-blinded world generation subject to the exact opportunity witness,
-followed by a fresh controller-only heldout promotion bundle before any new
-candidate experiment.
-
-The first bounded mutation constructor then found exact witnesses in 11 of 16
-independent trials, proving that the inherited schema can express the required
-opportunities, but failed its frozen feasibility gate. Five trials exhausted
-20,000 evaluations; mean cost was 12,446 and p95 was 20,000 against limits of
-5,000 and 10,000. Repeating or loosening that search is closed. The remaining
-credible evaluator path is direct constraint synthesis for the same private
-pressure path, followed by new-seed construction and heldout promotion studies.
-
-The frozen direct constructor then passed its feasibility study on 16 of 16
-fresh tasks. Every task satisfied the inherited schema, exact and planned
-witness replays, split separation, and semantic/rule-profile uniqueness. Mean
-cost was 8.25 counted constraint candidates and the maximum was 9. This permits
-but does not replace the separately frozen 64-task heldout anchor study; no
-candidate actor is yet authorized and no feasibility task may be reused.
-
-The separately frozen 64-task promotion anchor then rejected E4. All bases,
-exclusions, diversity checks, cost gates, schema checks, and placebos passed.
-Stage-2 and stage-4 structural ablations retained exact witnesses in 11/64 and
-0/64 tasks, within their limits. The stage-5 ablation retained a witness in all
-64 tasks: 61 switched to nearest selection and three to first-seen selection.
-The ablation removed one planned canary route rather than the complete causal
-opportunity. E4 is not promoted, and no candidate run is authorized. The only
-remaining concrete evaluator path is a new, prospectively frozen checkpoint
-that removes every fixed-control canary route and includes a paired rescue.
-
-OT-0018 made stage 5 route-complete: every selector tied at zero error, all 64
-planned paths disappeared, and all rescues passed. E4 still failed promotion
-because 6/64 exact oracles moved harm/correction to stage 3 and used stage 4 as
-the canary. This identifies the complete temporal boundary: after two useful
-pre-harm stages, correction can occur as early as stage 3, so a path-complete
-canary removal must neutralize both stages 4 and 5. A fresh two-stage suffix
-neutralization and rescue is the remaining concrete evaluator falsifier.
-
-OT-0019 passed that falsifier on 64 entirely fresh bases. Full-suffix
-neutralization produced zero exact-witness survivors and all 64 two-stage
-rescues restored the base signature. Event-identity/query-order placebos and
-all base gates passed; replicated stage-2 and stage-4 ablations retained 15/64
-and 0/64 witnesses, within their frozen limits. E4 is promoted for exactly one
-new candidate experiment. This is controller calibration, not OT-1 evidence.
-OT-0020 then consumed that authorization. One worker timed out after five
-stages, so the pair was invalidated. The complete worker passed every deployment
-and authority gate but produced no complete corrigibility chain and missed the
-fixed-control lineage margin. The E4 evaluation shape remains informative, but
-no further candidate is authorized by OT-0019. The immediate frontier is a
-prospective controller checkpoint for fresh E4 authorization plus a noncandidate
-feasibility slice of a richer consequence projection; it is not a retry of
-OT-0020.
-
-OT-0021 freezes that non-candidate slice. Its append-only consequence ledger
-contains only completed raw encounters, independently released outcomes,
-deterministic prediction errors, and prior selector identities. A tracked
-public task and two fresh Luna encounters test whether this richer carrier can
-produce bounded useful challengers without exposing the sealed pilot split or
-supplying a strategy menu. Passing would establish development feasibility
-only; a separate fresh E4 checkpoint would still be required before any
-candidate run.
-
-The frozen pilot failed only at its Response-receipt aggregation gate. Both
-fresh actors produced credit-dependent deterministic challengers with six-error
-advantages and passed every other gate. The proxy emitted each of the two
-distinct Response identities three times; the scorer incorrectly required two
-raw receipt events. OT-0021 is preserved as failed and is not rescored. The
-immediate cheapest falsifier is a separately numbered reproduction with a fresh
-public task and actors, prospectively counting one identity per actor turn and
-distinct identities across turns while leaving the consequence mechanism and
-numeric performance gate unchanged.
-
-OT-0022 freezes that reproduction. Its public task changes the relevant feature,
-its actors and workspaces are fresh, and the scorer now requires one receipted
-identity per turn, two distinct identities across turns, and no additional
-identity in repeated proxy events. The +4 mechanism gate, projection, carrier,
-models, inventories, and budgets are unchanged. It remains development-only
-and cannot authorize a private E4 candidate.
-
-The reproduction passed the corrected deployment gate but failed mechanism
-replication. One actor gained six errors; the other selected only positive-label
-examples, erased the contrast needed by the deterministic predictor, gained
-zero, and correctly declined its challenger. The raw consequence ledger is
-therefore informative but not sufficient to make a single one-shot program
-proposal reliable. Repeating that prompt, task family, or actor sample is
-closed. A credible successor must change the actor-authored representation or
-credit topology—such as preserving and prospectively choosing among multiple
-actor-authored alternatives—without giving the controller a strategy menu or
-semantic compilation authority.
-
-OT-0023 freezes that exact falsifier on a third public feature relation. Each
-fresh actor must author three expression-distinct alternatives and the bounded
-rule that chooses among their later paired consequences. The controller exposes
-only indexed measurements, commits the actor's rule output, and supplies no
-strategy content or ranking. A pass would establish representation feasibility
-only; fresh E4 authorization would remain a separate prerequisite.
-
-The first OT-0023 actor returned three valid deterministic selectors with two
-distinct selection sets, but its 388-byte prospective decision used 65 AST
-nodes against the inherited 64-node limit. The controller rejected it before
-comparison and did not release actor 2. OT-0023 is failed and not rescored; the
-portfolio hypothesis remains untested. Because three-way choice intrinsically
-has a larger bounded expression than OT-0016's binary choice, a fresh 128-node,
-still-512-byte decision carrier on a new public task is a credible carrier
-falsifier. Raising unrelated selector depth or retrying OT-0023 is not.
-
-OT-0024 freezes that falsifier. The fresh relation requires retaining examples
-from both sequence halves, so early-only and late-only alternatives fail while
-a contrast-preserving alternative can pass. A synthetic 66-node rule proves the
-new 128-node carrier is necessary and sufficient under the unchanged 512-byte
-bound. Hosted portfolio output remains sealed until the separate run lock.
-
-OT-0024 also failed before portfolio scoring. Its first actor authored three
-valid selectors with three distinct selection sets, but the decision string was
-512 characters and 516 UTF-8 bytes because of two non-ASCII characters, against
-the 512-byte cap; it also had invalid Python syntax. Actor 2 was not released.
-This second independent free-form decision failure closes further node/byte
-expansion or prompt retries. The portfolio hypothesis is still untested. The
-remaining credible representation path is a bounded structured decision tree
-or decision list with exact controller interpretation and no prose-to-program
-semantic authority.
-
-OT-0025 freezes a three-clause decision list on a fresh XOR relation. The actor
-authors every clause field and every selector; the controller only checks the
-exact schema and evaluates clauses in actor order. Negative thresholds are
-allowed, so neutralized-current behavior is not built into the carrier. This is
-the last active public representation falsifier. If it fails as frozen, further
-carrier retries are closed without a materially different learning hypothesis.
-
-OT-0025 failed at the selector carrier before comparison. Its exact structured
-decision list validated, but all three text selectors used forbidden
-attribute/method syntax; one also used non-allowlisted calls. The seed referred
-to OT-0016's unchanged carrier without restating the exact allowlist, an
-actor-visible contract omission. The frozen result is not repaired, and adding
-that prose for another text retry is closed. The only remaining concrete
-representation hypothesis is to make selector programs exact structured data
-too, with generic schema-bound operations and direct deterministic
-interpretation rather than free-form syntax or semantic compilation.
-
-OT-0026 freezes that materially different representation on a fresh public
-relation. Each actor authors three bounded reverse-Polish integer score
-programs over sequence, label, and feature positions, their sort directions,
-and the complete three-clause decision list before sealed comparisons exist.
-The controller deterministically retains the top bounded events and applies
-the clauses exactly. This development pilot has no OT-1 or E4 authority. A
-frozen failure closes the present portfolio-carrier hypothesis chain rather
-than authorizing another syntax or capacity adjustment.
-
-The locked OT-0026 run created both encounter workspaces but then hit a generic
-aggregator defect before sealing output: legacy single-challenger fields were
-read unconditionally ahead of custom-validator dispatch. Actor outputs and the
-carrier outcome are unrecoverable. The attempt is invalidated, is not rescored
-or rerun, and closes this carrier chain under its frozen boundary. The generic
-controller defect is fixed prospectively; it does not turn infrastructure
-failure into evidence about the selector representation.
-
-Reorientation from the target leaves one materially different, cheaply
-falsifiable mechanism family: selector state embodied as trajectory-relative
-examples rather than programs or portfolios. OT-0027 freezes one actor-authored
-casebook per encounter, with exact anchors, masks, radii, and priorities under
-generic masked-Hamming matching. It tests only whether prior null-selector
-consequences can cause useful later retention on a fresh public relation. It
-does not test recursive correction, carry OT-1 or E4 authority, or reopen the
-closed carrier chain.
-
-OT-0027 completed with every non-mechanism gate passing. Its two fresh actors
-authored different valid casebooks but both retained only positive-pattern
-examples, converged on the same six-event selection, and gained zero errors.
-One actor even discovered the irrelevant feature but still removed the negative
-contrast required for deterministic prediction. This independently repeats
-OT-0022's credit-assignment failure in a non-program representation: exact
-examples solve carrier validity, not what consequence of selection should be
-optimized. The frozen casebook result is not retried and closes that direct
-path.
-
-The remaining causal question is no longer how to serialize a selector, but
-whether consequences of a real failed selection can induce its revision.
-OT-0028 freezes that differentiated temporal-credit test. Two fresh actors
-independently continue the first OT-0027 casebook from a content-addressed
-private artifact and receive only its exact state plus controller-scored query
-consequences. The task objective is stated precisely, as allowed by the target;
-the useful revision and future result remain absent. This is a one-correction
-development slice, not OT-1 or E4 evidence.
-
-OT-0028 passed every frozen gate. Two fresh actors inherited the same real
-failed OT-0027 state and bounded query-error consequences, then committed
-different casebooks, selected different future sets, and independently reduced
-error from eight to zero. This resolves the immediate credit-assignment
-prediction error: exact downstream loss and temporal consequence state can
-induce useful correction where raw null-selector traces did not. The result is
-still only one same-regime correction. A decisive successor must join initial
-operation formation, later harmful regime contradiction, revision, a subsequent
-canary, unchanged/fixed controls, and selector-change ablation in one complete
-causal path before any OT-1 claim or evaluator authorization.
-
-OT-0029 freezes that next causal link on the first actual useful OT-0028
-trajectory. A later encounter corrupts only the archive labels on the six
-feature patterns selected by the inherited casebook, causing sixteen query
-errors without changing the independent target relation. Two fresh actors
-receive its bounded contradictory consequences and must revise before a sealed
-later canary. This tests harmful later contact, reversal, and post-revision
-behavior, but still lacks the full fixed-control and ablation family required
-for OT-1 or E4.
-
-OT-0029 produced a mixed frozen result. Both actors changed the contradicted
-casebook; one recovered from sixteen to zero errors, while the other retained
-five contradicted patterns and reached only nine. Every non-mechanism gate
-passed. The representation can realize later reversal, but first-shot reversal
-is not reliable. OT-0029 is not retried. Its failed second branch nevertheless
-creates a new trajectory consequence with a distinct target-level question:
-can another fresh instance use that nine-error result to correct again? That is
-preserved further-correction capacity, not another sample of the same reversal.
-
-OT-0030 freezes that distinct temporal step. It continues only OT-0029's failed
-second branch, transmits the exact nine-error casebook and canary consequences
-through the named substrate, and asks two fresh instances for another revision
-before a new sealed canary. A pass would establish preserved further-correction
-feasibility on this trajectory, still without the fixed controls, ablation, or
-authority required for OT-1 or E4.
-
-OT-0030 also produced a mixed frozen result. Both actors revised the inherited
-nine-error state; one recovered to zero and the other reached seven. Every non-
-mechanism gate passed. The successful branch shows that correction capacity
-survived an imperfect correction, but the two-actor gate correctly rejects
-one-turn reproducibility. Further one-shot continuations are closed. The
-remaining distinct learning hypothesis is bounded propose–score–revise on the
-completed encounter, followed by a separately sealed canary.
-
-OT-0031 freezes that mechanism on OT-0030's actual failed seven-error state.
-Each of two branches uses a fresh proposal actor, deterministic scoring on the
-completed encounter, and a separate fresh revision actor receiving only the
-named casebook and exact receipt. The future remains sealed. This directly
-tests whether feedback on an actor-authored candidate reduces synthesis
-variance, still without OT-1 or E4 authority.
-
-OT-0031 failed both frozen branches. Probe errors were nine and seven; after
-exact selected-event and per-query consequence receipts, fresh revision actors
-changed casebooks but left both completed and future errors at nine and seven.
-Every non-mechanism gate passed. This closes the bounded validation loop: more
-feedback of the same form did not solve synthesis variance. Changing model
-size, sampling, prompt wording, turn count, or carrier capacity alone is not a
-new causal mechanism and is not authorized as the next experiment.
-
-One materially different causal family remains: learn selector parameters by
-generic outcome optimization rather than ask an LLM to synthesize them.
-OT-0032 freezes the smallest complete walking skeleton. It scores every
-six-pattern casebook on completed outcomes, commits the lexicographically first
-minimum-error state, restores only that snapshot in fresh instances, tests its
-clean canary, makes the learned criterion harmful through later contact,
-reoptimizes, tests a later canary, and measures unchanged-state ablation and
-fixed controls. This is deterministic public feasibility only; evaluator
-authority and researcher-authored optimizer scope preclude an OT-1 claim.
-
-OT-0032 passed every frozen semantic gate. The neutral state began at eight
-errors; exhaustive scoring of all 8,008 candidates committed patterns
-`[0, 1, 2, 3, 4, 8]` and reached zero clean-canary errors. Later corruption of
-those learned patterns made the unchanged state incur sixteen errors. A second
-exhaustive update committed `[5, 6, 7, 9, 10, 12]` and reached zero shift-canary
-errors, while the unchanged-state ablation remained at sixteen. Candidate
-aggregate error was zero against eight for the best frozen control. The exact
-sealed result was recorded without rerunning after repairing only the
-publication handoff described below. This proves the complete deterministic
-mechanism path inside the public fixture, not that its optimizer family is an
-unsupplied selection operation or that an evaluator has authorized it for
-OT-1.
-
-## Post-OT-0005 development probes
-
-These were disposable feasibility probes, not sealed experiments and not
-target evidence:
-
-- A depth-4 Terra marginal-credit probe obtained `+2`, then `+5`, before the
-  third proposed expression exceeded the frozen carrier bound.
-- Repeating the design with a prospectively selected depth-8 carrier completed
-  six stages but produced advantages `0, +3, 0, 0, 0, +1`; it did not establish
-  a temporal chain.
-- A two-pass design first failed on malformed actor-authored syntax. Adding a
-  bounded validation-denial repair turn completed three stages with advantages
-  `+2, -2, 0`. Repair kept all programs inside the carrier but did not improve
-  recursive credit assignment.
-
-The probes support keeping the versioned deterministic carrier as reusable
-infrastructure. They do not justify OT-1 promotion, a formal OT-0015 protocol,
-or relaxing OT-0005 after seeing its result.
+If OT-0033 passes, the next evaluation checkpoint must be prospectively
+calibrated without using its candidate scores to choose tasks or thresholds. A
+credible E5 would independently verify that post-implementation task generation
+creates the complete opportunity, that the learned coefficient relation is not
+present in candidate authority, and that deleting outcome credit or selector
+updates removes the path while paired rescue restores it. E5 must then grant at
+most one fresh integration candidate. If OT-0033 fails, do not tune its final
+seed, hidden criterion, thresholds, or run lock; resolve the observed causal
+failure or close the weighted-selector family.
 
 ## Prediction errors
 
-Expected: once E4 guaranteed an exact opportunity, OT-0016's prospective
-counterfactual challenger receipt would let both workers realize the complete
-chain.
-Observed: OT-0020 worker 1 timed out after five stages. Worker 2 completed with
-a valid deployment but corrected only at the final stage, had no later canary,
-and missed the fixed-control lineage margin. The controller also raised before
-persisting its process receipts, requiring a postmortem evidence bundle.
-Uncertain: whether a richer actor-visible projection of completed selection
-traces can support timely invention and correction without transferring
-selector authority to the evaluator.
-Evidence: the sealed OT-0016 and OT-0020 runs, OT-0017's incidence, mutation,
-and direct-construction studies, OT-0018's earlier-chain survivors, OT-0019's
-passing full-suffix calibration, and OT-0020's invalidated-run manifest.
+Expected: a useful exemplar representation plus exact downstream consequences
+would make direct actor synthesis reliably corrigible.
+Observed: OT-0028 produced one replicated same-regime correction, but OT-0029
+and OT-0030 were mixed, and OT-0031's exact propose–score–revise receipts
+improved neither branch.
+Revised model: consequence information is sufficient to score selector state,
+but the tested one-turn LLM synthesis topologies do not reliably optimize it.
+The next mechanism must make outcome optimization causal and deterministic,
+not merely provide more feedback to the same synthesis process.
 
-Expected: OT-0021's collector would emit one raw Response receipt event per
-actor turn, matching the distinct-identity gate.
-Observed: each of two distinct identities appeared three times; both actor
-mechanism slices passed, but the frozen raw-event count failed the pilot.
-Revised model: deployment identity is a per-turn set property. Collector event
-multiplicity is transport evidence, not additional Responses. A new experiment
-must freeze per-turn uniqueness and cross-turn distinctness before output; the
-old result remains failed.
+Expected: exhaustive deterministic outcome optimization would realize the
+complete update, retention, contradiction, and correction path.
+Observed: OT-0032 passed every frozen semantic gate, including fresh restore,
+unchanged-state ablation, and fixed controls.
+Revised model: the causal learning path is feasible. Its remaining defect is
+authorship: exhaustive enumeration supplied the full solving menu, so the
+result cannot establish an unsupplied selection operation.
 
-Expected: with that receipt error removed and a fresh feature relation, both
-OT-0022 actors would reproduce the consequence-ledger mechanism slice.
-Observed: one did; the other over-selected the positive discrepancy examples,
-removed the negative contrast, and gained zero despite valid syntax and a
-changed selection.
-Revised model: raw outcome traces expose useful discrepancy but do not make one
-free-form selector hypothesis reliable. The next falsifier must preserve
-actor-authored alternatives and keep their consequence-based choice
-prospective and controller-deterministic; more identical samples are not a
-mechanism change.
+Expected for OT-0033: mistake-derived updates in a generic weight carrier will
+recover a task-specific criterion generated only after implementation, reverse
+when that criterion becomes harmful, and correct once more, while outcome-
+credit and selector-change ablations fail.
+Observed: pending; candidate output remains forbidden until the separate run
+lock is committed.
+Decision: a pass advances the learned-weight family to independent evaluator
+calibration, not OT-1 promotion. A failure closes or narrows the family unless
+it exposes a genuinely distinct causal defect rather than an unfavorable
+score.
 
-Expected: the inherited 64-node decision carrier would hold a natural
-three-alternative prospective choice rule because the known fixture rule fit.
-Observed: the first hosted rule was 388 bytes but 65 nodes and was correctly
-rejected before portfolio evaluation.
-Revised model: portfolio choice needs a separately bounded carrier capacity;
-the selector carrier, byte limit, and scientific gate need not change. The old
-output remains failed and cannot be used to select a passing expression.
-
-Expected: the 128-node carrier would admit a natural multiway rule while the
-unchanged 512-byte cap remained ample.
-Observed: the next rule filled 512 characters, encoded to 516 bytes, and had
-invalid expression syntax; three selector alternatives themselves validated.
-Revised model: free-form multiway decision syntax, not portfolio generation, is
-the recurring failure. A structured exact carrier is the last concrete way to
-test this topology without further tuning textual bounds.
-
-Expected: once decision syntax was structured, the unchanged selector carrier
-would remain usable in the portfolio prompt.
-Observed: all three first-turn selectors used forbidden attributes or methods;
-the structured decision clauses passed exact validation.
-Revised model: fresh actors need the complete carrier to be self-contained, and
-free-form syntax remains a recurring failure surface. A structured selector AST
-is materially different; another prose patch and sample is not.
-
-Expected: the generic hosted pilot would dispatch OT-0026's configured custom
-mechanism validator after both structured actor results.
-Observed: it first computed its legacy validator unconditionally, raised on a
-field absent by design, and failed before writing the sealed output.
-Revised model: callback-based protocol reuse must be tested at final summary
-dispatch, not only at output evaluation. The representation remains
-scientifically unobserved, while the frozen run and carrier chain remain
-closed.
-
-Expected: trajectory-relative exemplars would make useful evidence choice
-simpler than authoring a selection program, letting both actors preserve the
-contrast needed by the downstream predictor.
-Observed: both valid casebooks instead optimized positive-label frequency and
-selected the same non-discriminative set for zero advantage.
-Revised model: representational exactness does not repair the missing credit
-assignment from selection consequences to downstream discriminative value.
-Further direct carriers are unlikely to distinguish a useful mechanism.
-
-Expected: carrying the actual failed casebook plus exact downstream query-error
-consequences and the permitted prediction objective would cause fresh actors to
-correct the positive-label proxy.
-Observed: both actors committed distinct six-exemplar revisions, selected
-different future sets, and reduced error from eight to zero.
-Revised model: differentiated temporal credit is the active causal mechanism;
-the remaining uncertainty is whether it supports invention, later reversal,
-and preserved correction across changing regimes rather than one same-regime
-repair.
-
-Expected: both fresh actors would use a sixteen-error later contradiction to
-replace the now-harmful casebook and pass the canary.
-Observed: one reached zero; the other changed state but retained five
-contradicted patterns and reached nine.
-Revised model: later reversal is realizable but not one-shot reliable. The next
-discriminating evidence is whether the failed revision's own consequence causes
-further correction, not another independent first reversal.
-
-Expected: the failed nine-error revision's own consequence would make further
-correction reproducible in both fresh continuations.
-Observed: one recovered to zero, while the other changed state but reached
-seven.
-Revised model: correction capacity persists but single-pass synthesis remains
-variance-limited. A useful next test must add causal feedback on the actor's own
-candidate before commit, not another independent sample or carrier change.
-
-Expected: exact scoring of an actor-authored probe, followed by a fresh revision
-actor, would make correction reproducible across both branches.
-Observed: both revisions changed state but improved neither the completed
-encounter nor the sealed future.
-Revised model: the active bottleneck is not missing scalar/query feedback or
-carrier validity. No tested direct-synthesis or bounded-feedback topology
-reliably turns these consequences into a useful selector revision.
-
-Expected: after OT-0032 sealed its result mode `000`, its in-process evidence
-recorder would publish the manifest using the same handoff as prior harnesses.
-Observed: the deterministic protocol passed and wrote the complete sealed
-artifact, but the recorder raised `PermissionError` before manifest creation
-because it tried to read the sealed file without a temporary permission handoff.
-Revised model: sealing and publication are separate causal boundaries. The
-exact artifact bytes were recorded with the standard evidence CLI without a
-scientific rerun; the harness now temporarily grants owner read/write only
-during recording, restores mode `000` in `finally`, and has a boundary
-regression. The result remains bound to the pre-fix execution commit.
-
-- Richer marginal receipts and Terra authorship were sufficient for occasional
-  local gains, but not for repeated improvement or correction. This closes the
-  simplest direct program-synthesis hypothesis rather than OT-1.
-- Bounded repair improved code validity, not selector learning. Carrier
-  reliability and recursive credit assignment must remain separate claims.
-- A prose-to-program compiler remains unjustified: unless its semantic
-  authority is causally bounded, observed gains would belong to the compiler
-  rather than the proposing actor.
-- The randomized OT-0005 task distribution was expected to support a stronger
-  changing-selector comparison than its fixed controls. OT-0016's powered
-  sample showed that one frozen control often remained close to the per-stage
-  oracle. This rejects unconditioned reuse of that world, not counterfactual
-  challenger credit.
+Unresolved: whether a learned weight relation generated under this authority
+split will satisfy independent novelty review as an operation not supplied by
+researchers, and whether the mechanism can be coupled to the promoted OT-0
+substrate without transferring selector or outcome authority to the controller.
