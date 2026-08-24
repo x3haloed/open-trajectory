@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0034",
+  "evaluation_transition": "E4 to E5",
+  "purpose": "controller-only learned-weight opportunity and authority calibration",
+  "candidate_actor_outputs": false,
+  "criterion_count": 384,
+  "pattern_count": 80,
+  "minimum_fixed_state_pair_errors": 80,
+  "authorized_candidate_count": 1,
+  "claim_limit": "controller-only E5 calibration and one fresh integration-candidate authorization; no OT-1 evidence",
+  "promotion_gate": [
+    "all 384 controller criteria pass the same frozen study without task sampling or candidate execution",
+    "each criterion and its outcome-complement world have byte-identical pre-outcome raw projections while requiring opposite selections",
+    "completed outcomes uniquely identify a bounded separating criterion, and controller-oracle states realize initial use, later contradiction, correction, and further correction on fresh canaries",
+    "every frozen selector incurs exactly eighty combined errors across each indistinguishable opposite-world pair",
+    "deleting outcomes removes the preference receipt and restoring them rescues the exact world identity and score",
+    "event and outcome ordering placebos preserve scores and receipts",
+    "the candidate learner's statically reachable authority excludes task seed, hidden criterion, task construction, dynamic introspection, files, imports, and execution",
+    "all protocol, implementation, acceptance, evaluator, candidate-carrier, evidence, and predecessor identities are locked before calibration output"
+  ]
+}

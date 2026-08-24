@@ -89,6 +89,11 @@ retained `40 → 80 → 80` canary errors; and the adaptive aggregate beat the b
 frozen control, zero errors versus eighty. The task-specific criterion was
 mechanically fixed only after the implementation commit. This is public
 learned-criterion feasibility, not an OT-1 or evaluator-authorized result.
+OT-0034 is the active controller-only E5 calibration. It prospectively checks
+all 384 weighted criteria, opposite-world indistinguishability, fixed-state
+symmetry, outcome deletion/rescue, order placebos, and the learner's reachable
+authority without executing a candidate. A pass may authorize exactly one
+fresh OT-0 integration candidate; it cannot itself establish OT-1.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

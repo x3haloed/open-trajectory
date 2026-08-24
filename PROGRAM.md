@@ -262,6 +262,13 @@ Initial sequence:
   every update; and the adaptive aggregate beat the best frozen control, zero
   errors versus 80. This is public feasibility only; it has no OT-1 or
   evaluation-epoch authority.
+- **OT-0034:** calibrate the learned-weight family independently of candidate
+  output. Exhaust all 384 controller criteria; pair byte-identical raw worlds
+  with complementary outcomes; require exact oracle opportunity, fixed-state
+  error symmetry, outcome deletion and rescue, order placebos, and static
+  exclusion of task/seed authority from the learner's reachable call graph.
+  This frozen controller-only E5 checkpoint may authorize one fresh integration
+  candidate but contains no OT-1 evidence.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

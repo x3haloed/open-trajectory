@@ -70,3 +70,6 @@ Decision-relevant experiment records:
 - [`OT-0033-blind-weighted-selector.md`](OT-0033-blind-weighted-selector.md)
   — passed a post-implementation task-specific criterion through three learned
   weight states, two contradictions, credit ablation, and frozen controls.
+- [`OT-0034-e5-weighted-selector-calibration.md`](OT-0034-e5-weighted-selector-calibration.md)
+  — active frozen controller-only checkpoint for learned-weight opportunity,
+  authority isolation, deletion/rescue, and one-candidate E5 authorization.

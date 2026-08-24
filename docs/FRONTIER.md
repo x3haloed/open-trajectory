@@ -34,13 +34,13 @@ canaries retained 40, 80, and 80 errors; and the adaptive aggregate beat the
 best frozen control, zero errors versus 80. This removes OT-0032's explicit
 pattern-set menu while preserving the complete deterministic causal path.
 
-The active frontier is now independent evaluator calibration, not another
-mechanism variant. A prospective E5 must decide whether the task-specific
-learned coefficient relation is an unsupplied selection operation while
-proving that its task construction creates, but does not leak or choose, the
-required causal opportunity. Only a passing controller-only calibration may
-authorize one fresh integration candidate that couples this mechanism to the
-promoted OT-0-capable system.
+The active frontier is OT-0034, an independent controller-only E5 calibration,
+not another mechanism variant. It exhausts all 384 task criteria, constructs
+pre-outcome-identical worlds with complementary outcomes, and tests exact
+opportunity, fixed-state symmetry, outcome deletion/rescue, order placebos, and
+static learner-authority reachability without executing the candidate learner.
+Only a pass may authorize one fresh integration candidate that couples this
+mechanism to the promoted OT-0-capable system.
 
 Decision-relevant evidence:
 
@@ -120,6 +120,16 @@ complete opportunity, that the learned coefficient relation is absent from
 candidate authority, and that deleting outcome credit or selector updates
 removes the path while paired rescue restores it. E5 may grant at most one
 fresh integration candidate.
+
+OT-0034 freezes that checkpoint. Its thresholds come from exact paired-world
+symmetry rather than OT-0033's scores: identical raw archives and complementary
+outcomes force any unchanged selector to make eighty combined errors. A
+controller oracle verifies that released outcomes identify a bounded separator
+and that criterion, negation, and criterion states realize use, contradiction,
+correction, and further correction. Static transitive call-graph analysis must
+show that `learn(current, completed)` cannot reach task construction, hidden
+coefficients, seed derivation, dynamic introspection, files, imports, or
+execution. Candidate actor outputs remain forbidden until after E5 disposition.
 
 ## Prediction errors
 
