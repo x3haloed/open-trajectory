@@ -10,11 +10,15 @@ but the original first program violated the frozen carrier and the complete
 worker missed the recursive behavioral gates. OT-2 and OT-3 remain unchanged
 and unclaimed.
 
-The active next decision is whether a successor can improve consequence-to-
-program credit assignment without supplying a selection strategy. Credible
-options are richer controller-owned marginal consequence receipts, a more
-reliable Terra program author, or a prose-to-program compiler whose semantic
-authority can be causally bounded.
+The frontier is paused with no active run. Development probes after OT-0005
+tested richer controller-owned marginal consequence receipts, Terra program
+authorship, a deeper but still bounded executable carrier, two-pass updates,
+and validation-denial repair. They improved carrier reliability but did not
+produce a repeated improvement-and-correction chain. The direct expression-
+synthesis branch is therefore exhausted under the current carrier and feedback
+design. A successor should introduce a materially different credit-assignment
+mechanism while preserving deterministic selector attribution; simply adding
+more samples, repair attempts, or expression depth is not a credible next step.
 
 Evidence pointers:
 
@@ -50,13 +54,32 @@ before candidate outputs.
 No OT-0004 or OT-0005 score is current OT-1 evidence. OT-0005's deterministic
 replay and placebo receipts survive as substrate evidence only.
 
+## Post-OT-0005 development probes
+
+These were disposable feasibility probes, not sealed experiments and not
+target evidence:
+
+- A depth-4 Terra marginal-credit probe obtained `+2`, then `+5`, before the
+  third proposed expression exceeded the frozen carrier bound.
+- Repeating the design with a prospectively selected depth-8 carrier completed
+  six stages but produced advantages `0, +3, 0, 0, 0, +1`; it did not establish
+  a temporal chain.
+- A two-pass design first failed on malformed actor-authored syntax. Adding a
+  bounded validation-denial repair turn completed three stages with advantages
+  `+2, -2, 0`. Repair kept all programs inside the carrier but did not improve
+  recursive credit assignment.
+
+The probes support keeping the versioned deterministic carrier as reusable
+infrastructure. They do not justify OT-1 promotion, a formal OT-0015 protocol,
+or relaxing OT-0005 after seeing its result.
+
 ## Prediction errors
 
-- It is unresolved whether richer controller-owned marginal consequence
-  receipts improve program credit assignment without supplying the useful
-  selection operation.
-- It is unresolved whether using Terra for program authorship improves carrier
-  reliability and recursive correction rather than merely code validity.
-- It is unresolved whether a prose-to-program compiler can preserve the
-  proposing actor's semantic authority tightly enough for program effects to
-  count as actor-authored selector change.
+- Richer marginal receipts and Terra authorship were sufficient for occasional
+  local gains, but not for repeated improvement or correction. This closes the
+  simplest direct program-synthesis hypothesis rather than OT-1.
+- Bounded repair improved code validity, not selector learning. Carrier
+  reliability and recursive credit assignment must remain separate claims.
+- A prose-to-program compiler remains unjustified: unless its semantic
+  authority is causally bounded, observed gains would belong to the compiler
+  rather than the proposing actor.
