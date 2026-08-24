@@ -1,6 +1,6 @@
 # OT-0023 — Actor-authored contrast-portfolio feasibility
 
-- **Status:** run lock frozen; public pilot authorized
+- **Status:** failed at frozen decision-carrier gate; portfolio untested
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0022 failed single-challenger reproduction
@@ -54,8 +54,25 @@ first hosted actor output.
 
 ## Results and decision
 
-Pending frozen public pilot.
+OT-0023 failed during the first actor encounter, before any portfolio
+comparison or commit. The actor returned the exact schema, three textually
+distinct selector expressions, and a prospective decision expression with zero
+tools. All three selectors passed the depth-8 carrier and deterministic
+execution; the programs had three distinct identities and produced two distinct
+selection sets on the sealed public split.
+
+The decision expression was 388 bytes but contained 65 AST nodes against the
+inherited 64-node limit. The controller rejected it exactly as frozen, did not
+evaluate the portfolio, and did not release the second actor. All evidence,
+deployment, and verification available before that rejection is preserved.
+
+Final disposition: `failed`. This is a carrier-capacity failure, not a result
+about portfolio usefulness. OT-0023 is not rescored or repaired. A separately
+numbered experiment may prospectively give the three-way decision carrier a
+128-node limit while preserving its 512-byte limit, portfolio size, prompt,
+credit topology, +4 performance gate, and every authority boundary; it must use
+a fresh public task and fresh actors.
 
 ## Evidence manifest
 
-Pending.
+`evidence/manifests/OT-0023/ot-0023-portfolio-pilot-001.json`

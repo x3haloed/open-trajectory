@@ -188,7 +188,9 @@ Initial sequence:
 - **OT-0023:** test a bounded actor-authored contrast portfolio: three selector
   alternatives plus one prospective consequence-based choice rule authored in
   a single encounter. The controller evaluates but does not supply, rank, or
-  choose an alternative. This is development-only feasibility.
+  choose an alternative. Failed before portfolio evaluation when the first
+  actor's 65-node decision exceeded the inherited 64-node two-choice carrier.
+  This is development-only feasibility and is not rescored.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

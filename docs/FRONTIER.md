@@ -218,6 +218,15 @@ only indexed measurements, commits the actor's rule output, and supplies no
 strategy content or ranking. A pass would establish representation feasibility
 only; fresh E4 authorization would remain a separate prerequisite.
 
+The first OT-0023 actor returned three valid deterministic selectors with two
+distinct selection sets, but its 388-byte prospective decision used 65 AST
+nodes against the inherited 64-node limit. The controller rejected it before
+comparison and did not release actor 2. OT-0023 is failed and not rescored; the
+portfolio hypothesis remains untested. Because three-way choice intrinsically
+has a larger bounded expression than OT-0016's binary choice, a fresh 128-node,
+still-512-byte decision carrier on a new public task is a credible carrier
+falsifier. Raising unrelated selector depth or retrying OT-0023 is not.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -272,6 +281,14 @@ free-form selector hypothesis reliable. The next falsifier must preserve
 actor-authored alternatives and keep their consequence-based choice
 prospective and controller-deterministic; more identical samples are not a
 mechanism change.
+
+Expected: the inherited 64-node decision carrier would hold a natural
+three-alternative prospective choice rule because the known fixture rule fit.
+Observed: the first hosted rule was 388 bytes but 65 nodes and was correctly
+rejected before portfolio evaluation.
+Revised model: portfolio choice needs a separately bounded carrier capacity;
+the selector carrier, byte limit, and scientific gate need not change. The old
+output remains failed and cannot be used to select a passing expression.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
