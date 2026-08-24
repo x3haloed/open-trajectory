@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ot-0043-e9-split-interface-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 989070,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b75b54b8ce547bc603a2496ae05c589ddcdd65d6",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0043",
+  "input_manifests": [
+    "evidence/manifests/OT-0042/ot-0042-e8b-self-authored-goal-candidate-001.json",
+    "evidence/manifests/OT-0041/ot-0041-e8b-patched-backend-calibration-001.json",
+    "evidence/manifests/OT-0038/ot-0038-e7-ot2-evaluator-calibration-001.json"
+  ],
+  "kind": "e9-split-interface-identity-calibration",
+  "limitations": [
+    "This is evaluator calibration, not OT-2 evidence.",
+    "No candidate goal or task output was generated.",
+    "A pass authorizes at most one fresh E9 candidate.",
+    "Hosted evidence is time-bounded."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0043-e9-split-interface-calibration-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5d9ee12b568c3090b06256ab8e31467141ddf26388164c438f176f627eaa8fcc"
+}

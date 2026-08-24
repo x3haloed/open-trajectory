@@ -1,6 +1,6 @@
 # OT-0043 — E9 split-interface and identity calibration
 
-- **Status:** frozen implementation; no hosted output yet
+- **Status:** promoted; E9 authorizes one fresh candidate
 - **Evidence class:** mixed public-controller/private-hosted calibration
 - **Evaluation transition:** E8B → E9 candidate
 - **Candidate goal output:** forbidden
@@ -41,3 +41,21 @@ The future candidate must use the prior admission interface only at encounter
 zero and this pursuit interface thereafter.
 
 OT-0043 generates no candidate goal and cannot establish OT-2.
+
+## Result and decision
+
+The locked execution at `b75b54b8ce547bc603a2496ae05c589ddcdd65d6`
+passed every frozen gate. All 2,304 controller cases accepted their bounded safe
+novel identifiers, and all 2,304 corresponding invalid families were rejected.
+Across 14 fresh hosted turns, both workers copied every projection, action, and
+completion claim exactly despite reverse phase order. All turns completed with
+distinct response, thread, and workspace identities, the exact patched-backend
+inventory, the requested model, no tool calls, and no parse or runtime failure.
+
+The run used 68,048 input and 1,288 output tokens and completed in 55.31 seconds.
+Repository tests, evidence audit, resource, schema, catalog, ETag, and privacy
+gates passed. Final disposition: `promoted`. E9 authorizes exactly one fresh
+candidate using admission only at encounter zero and the pursuit-only interface
+thereafter. No candidate goal was generated, so OT-2 remains unproven. The
+private artifact is identified by
+`evidence/manifests/OT-0043/ot-0043-e9-split-interface-calibration-001.json`.

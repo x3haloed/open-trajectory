@@ -347,7 +347,9 @@ Initial sequence:
   candidate authorized by OT-0041; rejected on hosted goal continuity despite
   a complete selector, protocol, and authority path.
 - **OT-0043:** prospectively calibrate split admission/pursuit interfaces and
-  format-neutral safe identities without candidate output.
+  format-neutral safe identities without candidate output. Passed all 2,304
+  controller cases and invalid families plus all 14 fresh hosted pursuit turns;
+  E9 authorizes exactly one fresh candidate and contains no OT-2 evidence.
 
 ## Program C — TAAA
 
