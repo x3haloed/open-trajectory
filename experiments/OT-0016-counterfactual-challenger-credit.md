@@ -1,9 +1,9 @@
 # OT-0016 — Counterfactual challenger credit
 
-- **Status:** unexecuted; scored-run implementation complete, run lock pending
+- **Status:** unexecuted; scored run locked
 - **Evidence class:** exploratory-only
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
-- **Frozen commit:** pending
+- **Frozen implementation commit:** `20cb3600fd9d3098645e9b32625d4166593d37dd`
 - **Predecessor:** OT-0005 deterministic executable selector
 
 ## Hypothesis
@@ -107,12 +107,11 @@ The machine-readable acceptance specification, task order, actor-facing seed,
 proposal/decision prompt, output schemas, exact active-inheritance budget,
 receipt projection, constrained task generator, resource envelope, numeric
 gates, novelty rubric, controls, and outcome-credit ablation were committed
-before any hidden candidate output. The run lock remains intentionally absent
-until the complete live worker implementation passes its offline verification
-and is committed. Candidate execution is forbidden until a subsequently
-committed run lock binds that implementation, one private task identity, the
-pinned backend binaries, TLS bundle, dependency lock, and every authority-
-bearing input.
+before any hidden candidate output. The separately committed run lock binds the
+clean implementation, one private task identity, the pinned backend binaries,
+TLS bundle, dependency lock, and every authority-bearing input. Candidate
+execution remains forbidden until that lock commit is the clean execution
+ancestor.
 
 The scored worker now has one hosted turn per stage for prospective Luna
 authorship and two final fresh Terra novelty reviews. All selector execution,
@@ -307,9 +306,10 @@ Current disposition: `unexecuted`.
 The controller-owned causal slice, deterministic credit application,
 actor-facing carrier, constrained task distribution, acceptance evaluator, and
 full private-task worker are now implemented. Reusing the unconditioned
-OT-0005 world remains rejected. The next work unit is a clean implementation
-commit, generation of one private constrained manifest, a separately committed
-run lock, and only then the concurrent original and reproduction workers.
+OT-0005 world remains rejected. The implementation is cleanly committed, one
+private constrained manifest is sealed, and the separately prepared run lock
+validates their identities. The next work unit, after the lock commit itself is
+clean, is the concurrent original and reproduction workers.
 
 OT-0016 does not establish that paired feedback is useful, that an actor can
 invent a useful operation, that the selector is corrigible, that

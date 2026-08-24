@@ -97,10 +97,11 @@ six Luna proposal turns and two Terra novelty reviews per worker. The
 controller alone executes selectors, predictions, paired comparison receipts,
 true and credit-neutralized decisions, exact commits, heldout controls,
 protected-parent harm ablation, identity placebos, scoring, and aggregation.
-No hidden candidate output has been requested. The immediate frontier is to
-commit this implementation, generate one private constrained manifest, bind a
-separate run lock, and then execute the concurrent original and clean
-reproduction without changing authority-bearing inputs.
+No hidden candidate output has been requested. The implementation is committed,
+one private constrained manifest is sealed, and a separate run lock binds both
+plus every authority-bearing input and pinned backend identity. Once that lock
+commit is clean, the immediate frontier is the concurrent original and clean
+reproduction without changing any protected input.
 
 ## Post-OT-0005 development probes
 
