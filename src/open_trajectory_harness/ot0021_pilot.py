@@ -56,6 +56,12 @@ PILOT_MANIFEST_PATH = Path(
 PREDECESSOR_MANIFEST_PATH = Path(
     "evidence/manifests/OT-0020/ot-0020-hosted-epoch-001-invalidated.json"
 )
+TASK_VALIDATOR = validate_public_task
+PROGRAM_NAME = "ot-0021-harness"
+DEFAULT_RUN_ID = "ot-0021-trace-pilot-001"
+SEALED_EVENT_PREFIX = "sealed-event-"
+ARTIFACT_KIND = "public-consequence-ledger-feasibility-pilot"
+INPUT_MANIFESTS = [str(PREDECESSOR_MANIFEST_PATH), str(PILOT_MANIFEST_PATH)]
 
 
 def fixed_input_paths() -> dict[str, Path]:
@@ -220,9 +226,15 @@ def _summary(
     failure_type: str | None,
     verification: dict[str, int],
 ) -> dict[str, Any]:
-    response_ids = [
+    proxy_response_ids = [
         item["value"] for item in proxy_receipts if item["kind"] == "response_id"
     ]
+    per_turn_response_ids = [
+        item.get("deployment_response_ids", []) for item in actor_results
+    ]
+    distinct_response_ids = {
+        response_id for values in per_turn_response_ids for response_id in values
+    }
     effective_models = sorted(
         {item["value"] for item in proxy_receipts if item["kind"] == "effective_model"}
     )
@@ -263,9 +275,11 @@ def _summary(
         == acceptance["fresh_actor_encounters"],
         "mechanism": mechanism_valid,
         "effective_model": effective_models == [acceptance["actor_model"]],
-        "response_receipts": len(response_ids)
-        == len(set(response_ids))
-        == acceptance["fresh_actor_encounters"],
+        "response_receipts": len(per_turn_response_ids)
+        == acceptance["fresh_actor_encounters"]
+        and all(len(values) == 1 for values in per_turn_response_ids)
+        and len(distinct_response_ids) == acceptance["fresh_actor_encounters"]
+        and distinct_response_ids == set(proxy_response_ids),
         "inventory_receipts": all(
             item["inventory_receipts"] == 1 for item in actor_results
         ),
@@ -288,7 +302,8 @@ def _summary(
         "encounter_count": len(actor_results),
         "mechanisms": mechanisms,
         "effective_models": effective_models,
-        "response_count": len(response_ids),
+        "response_count": len(distinct_response_ids),
+        "response_receipt_event_count": len(proxy_response_ids),
         "catalog_etag_count": len(etags),
         "collector_error_count": len(collector_errors),
         "usage": usage,
@@ -307,9 +322,9 @@ def run(
     lock = validate_run_lock(repo, execution_commit, codex_bin)
     acceptance = load_json(repo / ACCEPTANCE_PATH)
     task = load_json(repo / TASK_PATH)
-    validate_public_task(task)
+    TASK_VALIDATOR(task)
     prompt, ledger = rendered_prompt(repo, task)
-    if "sealed-event-" in prompt:
+    if SEALED_EVENT_PREFIX in prompt:
         raise RuntimeError("OT-0021 rendered prompt leaks sealed pilot evaluation")
     if output_path.exists() or workspace_root.exists():
         raise RuntimeError("OT-0021 run output or workspace already exists")
@@ -443,7 +458,7 @@ def run(
             input_path=output_path,
             experiment_id=EXPERIMENT_ID,
             artifact_id=run_id,
-            kind="public-consequence-ledger-feasibility-pilot",
+            kind=ARTIFACT_KIND,
             evidence_class="exploratory-only",
             recipe=None,
             public_url=None,
@@ -452,7 +467,7 @@ def run(
                 "The hosted outputs, deployment events, identities, and workspaces remain private.",
                 "A pass does not authorize E4 or a private candidate run.",
             ],
-            input_manifests=[str(PREDECESSOR_MANIFEST_PATH), str(PILOT_MANIFEST_PATH)],
+            input_manifests=INPUT_MANIFESTS,
         )
     finally:
         output_path.chmod(0)
@@ -460,9 +475,9 @@ def run(
 
 
 def main(argv: list[str] | None = None) -> int:
-    parser = argparse.ArgumentParser(prog="ot-0021-harness")
+    parser = argparse.ArgumentParser(prog=PROGRAM_NAME)
     parser.add_argument("--repo", type=Path, default=Path.cwd())
-    parser.add_argument("--run-id", default="ot-0021-trace-pilot-001")
+    parser.add_argument("--run-id", default=DEFAULT_RUN_ID)
     parser.add_argument("--codex-bin", type=Path, required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--workspace-root", type=Path, required=True)

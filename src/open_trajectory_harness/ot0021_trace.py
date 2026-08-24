@@ -129,7 +129,9 @@ def validate_consequence_ledger(ledger: dict[str, Any]) -> None:
             raise ValueError("OT-0021 consequence receipt identity is invalid")
 
 
-def validate_public_task(task: dict[str, Any]) -> None:
+def validate_public_task(
+    task: dict[str, Any], *, experiment_id: str = EXPERIMENT_ID
+) -> None:
     if set(task) != {
         "schema_version",
         "experiment_id",
@@ -138,7 +140,7 @@ def validate_public_task(task: dict[str, Any]) -> None:
         "sealed_pilot_evaluation",
     }:
         raise ValueError("OT-0021 public pilot task has an invalid root schema")
-    if task["schema_version"] != 1 or task["experiment_id"] != EXPERIMENT_ID:
+    if task["schema_version"] != 1 or task["experiment_id"] != experiment_id:
         raise ValueError("OT-0021 public pilot task has an invalid identity")
     limit = task["selection_limit"]
     if not isinstance(limit, int) or limit <= 0:

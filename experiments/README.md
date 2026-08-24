@@ -33,3 +33,6 @@ Current unexecuted protocol drafts:
   — failed public non-candidate pilot whose two mechanism slices passed; a
   frozen raw-receipt multiplicity bug failed the aggregate gate, so the result
   is not rescored and has no OT-1 or E4 authority.
+- [`OT-0022-consequence-ledger-reproduction.md`](OT-0022-consequence-ledger-reproduction.md)
+  — fresh public reproduction freezing per-turn Response identity semantics
+  while preserving OT-0021's consequence mechanism and performance gate.

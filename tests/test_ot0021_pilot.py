@@ -52,12 +52,15 @@ class OT0021PilotTests(unittest.TestCase):
                 "parse_error": None,
                 "tool_calls": 0,
                 "inventory_receipts": 1,
+                "deployment_response_ids": [f"response-{index + 1}"],
             }
             for index in range(2)
         ]
         receipts = [
             {"kind": "effective_model", "value": "gpt-5.6-luna"},
             {"kind": "models_etag", "value": "etag"},
+            {"kind": "response_id", "value": "response-1"},
+            {"kind": "response_id", "value": "response-2"},
             {"kind": "response_id", "value": "response-1"},
             {"kind": "response_id", "value": "response-2"},
         ]

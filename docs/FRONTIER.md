@@ -193,6 +193,13 @@ public task and actors, prospectively counting one identity per actor turn and
 distinct identities across turns while leaving the consequence mechanism and
 numeric performance gate unchanged.
 
+OT-0022 freezes that reproduction. Its public task changes the relevant feature,
+its actors and workspaces are fresh, and the scorer now requires one receipted
+identity per turn, two distinct identities across turns, and no additional
+identity in repeated proxy events. The +4 mechanism gate, projection, carrier,
+models, inventories, and budgets are unchanged. It remains development-only
+and cannot authorize a private E4 candidate.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

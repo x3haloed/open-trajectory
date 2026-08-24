@@ -179,6 +179,9 @@ Initial sequence:
   aggregator counted six repeated receipt events rather than two distinct
   Response identities; both actor mechanism slices passed. It has no OT-1 or
   E4 authority and is not rescored.
+- **OT-0022:** reproduce that public carrier slice on a fresh task and fresh
+  actors with the Response gate prospectively corrected to per-turn uniqueness
+  and cross-turn distinctness. It remains non-candidate development evidence.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

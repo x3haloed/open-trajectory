@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0022",
+  "selection_limit": 6,
+  "prior_completed_encounter": {
+    "archive": [
+      {"event_id": "prior2-event-0", "sequence": 0, "features": [0, 0, 0, 0], "label": 0},
+      {"event_id": "prior2-event-1", "sequence": 1, "features": [1, 0, 0, 0], "label": 0},
+      {"event_id": "prior2-event-2", "sequence": 2, "features": [0, 1, 0, 0], "label": 1},
+      {"event_id": "prior2-event-3", "sequence": 3, "features": [1, 1, 0, 0], "label": 1},
+      {"event_id": "prior2-event-4", "sequence": 4, "features": [0, 0, 1, 0], "label": 0},
+      {"event_id": "prior2-event-5", "sequence": 5, "features": [1, 0, 1, 0], "label": 0},
+      {"event_id": "prior2-event-6", "sequence": 6, "features": [0, 1, 1, 0], "label": 1},
+      {"event_id": "prior2-event-7", "sequence": 7, "features": [1, 1, 1, 0], "label": 1}
+    ],
+    "queries": [[0, 0, 0, 0], [1, 0, 0, 0], [0, 1, 0, 0], [1, 1, 0, 0], [0, 0, 1, 0], [1, 0, 1, 0], [0, 1, 1, 0], [1, 1, 1, 0]],
+    "outcomes": [0, 0, 1, 1, 0, 0, 1, 1]
+  },
+  "sealed_pilot_evaluation": {
+    "archive": [
+      {"event_id": "sealed2-event-0", "sequence": 0, "features": [0, 0, 0, 0], "label": 0},
+      {"event_id": "sealed2-event-1", "sequence": 1, "features": [1, 0, 0, 0], "label": 0},
+      {"event_id": "sealed2-event-2", "sequence": 2, "features": [0, 1, 0, 0], "label": 1},
+      {"event_id": "sealed2-event-3", "sequence": 3, "features": [1, 1, 0, 0], "label": 1},
+      {"event_id": "sealed2-event-4", "sequence": 4, "features": [0, 0, 1, 0], "label": 0},
+      {"event_id": "sealed2-event-5", "sequence": 5, "features": [1, 0, 1, 0], "label": 0},
+      {"event_id": "sealed2-event-6", "sequence": 6, "features": [0, 1, 1, 0], "label": 1},
+      {"event_id": "sealed2-event-7", "sequence": 7, "features": [1, 1, 1, 0], "label": 1},
+      {"event_id": "sealed2-event-8", "sequence": 8, "features": [0, 0, 0, 1], "label": 0},
+      {"event_id": "sealed2-event-9", "sequence": 9, "features": [1, 0, 0, 1], "label": 0},
+      {"event_id": "sealed2-event-10", "sequence": 10, "features": [0, 1, 0, 1], "label": 1},
+      {"event_id": "sealed2-event-11", "sequence": 11, "features": [1, 1, 0, 1], "label": 1}
+    ],
+    "queries": [[0, 0, 0, 0], [1, 0, 0, 0], [0, 1, 0, 0], [1, 1, 0, 0], [0, 0, 1, 0], [1, 0, 1, 0], [0, 1, 1, 0], [1, 1, 1, 0], [0, 0, 0, 1], [1, 0, 0, 1], [0, 1, 0, 1], [1, 1, 0, 1]],
+    "outcomes": [0, 0, 1, 1, 0, 0, 1, 1, 0, 0, 1, 1]
+  }
+}

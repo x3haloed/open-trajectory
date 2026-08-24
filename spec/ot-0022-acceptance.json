@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0022",
+  "purpose": "fresh response-corrected consequence-ledger carrier feasibility reproduction",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "actor_model": "gpt-5.6-luna",
+  "fresh_actor_encounters": 2,
+  "selector_expression_bytes": 2048,
+  "selector_expression_iteration_depth": 8,
+  "decision_expression_bytes": 512,
+  "ledger_entry_limit": 5,
+  "ledger_byte_limit": 49152,
+  "minimum_error_advantage_each": 4,
+  "actor_tool_calls_allowed": 0,
+  "actor_parse_failures_allowed": 0,
+  "actor_input_tokens_total": 60000,
+  "actor_output_tokens_total": 4000,
+  "maximum_run_seconds": 300,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "promotion_gate": [
+    "the fresh public task, unchanged trace schema, carrier, prompt, performance scoring, backend, resources, response-identity rule, and run lock are frozen before actor output",
+    "the actor-visible projection contains only the completed prior encounter and no sealed pilot evaluation, E4 witness, construction receipt, hidden outcome, or fixed-control menu",
+    "both fresh actor encounters independently produce exact schema-valid bounded selector and decision expressions with zero tool calls",
+    "both challenger selectors deterministically change selection and beat the null selector by at least four errors on the sealed fresh public evaluation",
+    "both prospective decision rules choose the challenger on true credit and current under credit neutralization",
+    "each actor turn receipts exactly one Response identity, the two turn identities are distinct, and repeated proxy events may carry only those same identities",
+    "the effective Luna model, stable direct inventory identity, one catalog ETag, zero collector errors, resource bounds, full tests, and privacy audit pass"
+  ],
+  "claim_limit": "development feasibility only; not OT-1 evidence and not E4 authorization"
+}
