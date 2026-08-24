@@ -181,7 +181,10 @@ Initial sequence:
   E4 authority and is not rescored.
 - **OT-0022:** reproduce that public carrier slice on a fresh task and fresh
   actors with the Response gate prospectively corrected to per-turn uniqueness
-  and cross-turn distinctness. It remains non-candidate development evidence.
+  and cross-turn distinctness. The receipt correction passed, but only one of
+  two actors produced a useful challenger. The single-challenger whole-program
+  representation is closed as the next path. This remains non-candidate
+  development evidence.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

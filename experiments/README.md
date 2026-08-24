@@ -34,5 +34,6 @@ Current unexecuted protocol drafts:
   frozen raw-receipt multiplicity bug failed the aggregate gate, so the result
   is not rescored and has no OT-1 or E4 authority.
 - [`OT-0022-consequence-ledger-reproduction.md`](OT-0022-consequence-ledger-reproduction.md)
-  — fresh public reproduction freezing per-turn Response identity semantics
-  while preserving OT-0021's consequence mechanism and performance gate.
+  — failed fresh public reproduction: the corrected Response gate passed, but
+  only one of two actors produced a useful challenger, closing the one-shot
+  single-challenger representation as the next path.

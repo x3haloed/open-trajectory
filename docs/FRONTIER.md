@@ -200,6 +200,17 @@ identity in repeated proxy events. The +4 mechanism gate, projection, carrier,
 models, inventories, and budgets are unchanged. It remains development-only
 and cannot authorize a private E4 candidate.
 
+The reproduction passed the corrected deployment gate but failed mechanism
+replication. One actor gained six errors; the other selected only positive-label
+examples, erased the contrast needed by the deterministic predictor, gained
+zero, and correctly declined its challenger. The raw consequence ledger is
+therefore informative but not sufficient to make a single one-shot program
+proposal reliable. Repeating that prompt, task family, or actor sample is
+closed. A credible successor must change the actor-authored representation or
+credit topology—such as preserving and prospectively choosing among multiple
+actor-authored alternatives—without giving the controller a strategy menu or
+semantic compilation authority.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -243,6 +254,17 @@ Revised model: deployment identity is a per-turn set property. Collector event
 multiplicity is transport evidence, not additional Responses. A new experiment
 must freeze per-turn uniqueness and cross-turn distinctness before output; the
 old result remains failed.
+
+Expected: with that receipt error removed and a fresh feature relation, both
+OT-0022 actors would reproduce the consequence-ledger mechanism slice.
+Observed: one did; the other over-selected the positive discrepancy examples,
+removed the negative contrast, and gained zero despite valid syntax and a
+changed selection.
+Revised model: raw outcome traces expose useful discrepancy but do not make one
+free-form selector hypothesis reliable. The next falsifier must preserve
+actor-authored alternatives and keep their consequence-based choice
+prospective and controller-deterministic; more identical samples are not a
+mechanism change.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

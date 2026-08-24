@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0022-trace-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 251165,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7de0dcce1671be59de6e14f184ccc1271bcc13db",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0022",
+  "input_manifests": [
+    "evidence/manifests/OT-0021/ot-0021-trace-pilot-001.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "response-corrected-consequence-ledger-pilot",
+  "limitations": [
+    "This is a public non-candidate carrier pilot, not OT-1 evidence.",
+    "The hosted outputs, deployment events, identities, and workspaces remain private.",
+    "A pass does not authorize E4 or a private candidate run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0022-trace-pilot-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "281aa87e82c09fe2e00bd070e275e93135b8462a78f1630da75047bf334df87a"
+}

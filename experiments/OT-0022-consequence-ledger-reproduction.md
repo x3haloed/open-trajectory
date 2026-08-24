@@ -1,6 +1,6 @@
 # OT-0022 — Consequence-ledger feasibility reproduction
 
-- **Status:** run lock frozen; public reproduction authorized
+- **Status:** failed; receipt correction valid, mechanism not reproduced
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0021 failed consequence-ledger pilot
@@ -51,8 +51,28 @@ first hosted actor output.
 
 ## Results and decision
 
-Pending frozen public reproduction.
+The frozen response-identity correction passed. Each actor turn receipted
+exactly one Response identity, the two identities were distinct, and the six
+proxy receipt events contained only those identities. Model, inventory, ETag,
+collector, freshness, parse, tool, resource, test, and audit gates all passed.
+
+The mechanism gate failed. Actor 1 authored a changed deterministic selector
+that gained six errors, committed under true credit, and lost the commit under
+credit neutralization. Actor 2 changed selection but retained six examples from
+only the positive label/feature side of the public relation. That removed the
+contrast needed by the deterministic predictor, produced zero advantage, and
+caused its prospective rule to keep current. This was a correct controller
+decision but not the required useful challenger.
+
+Final disposition: `failed`. The consequence ledger can support useful
+selector invention, but a single one-shot whole-program challenger was not
+reliable across the two fresh actors and two public feature relations. OT-0022
+is not retried or relaxed. Together with OT-0020 and OT-0021, this closes the
+single-challenger whole-program representation as the next credible path even
+when richer raw consequence evidence is available. A successor must change the
+actor-authored representation or credit topology, not merely sample again or
+tune this prompt.
 
 ## Evidence manifest
 
-Pending.
+`evidence/manifests/OT-0022/ot-0022-trace-pilot-001.json`
