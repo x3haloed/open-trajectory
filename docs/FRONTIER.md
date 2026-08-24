@@ -211,6 +211,13 @@ credit topology—such as preserving and prospectively choosing among multiple
 actor-authored alternatives—without giving the controller a strategy menu or
 semantic compilation authority.
 
+OT-0023 freezes that exact falsifier on a third public feature relation. Each
+fresh actor must author three expression-distinct alternatives and the bounded
+rule that chooses among their later paired consequences. The controller exposes
+only indexed measurements, commits the actor's rule output, and supplies no
+strategy content or ranking. A pass would establish representation feasibility
+only; fresh E4 authorization would remain a separate prerequisite.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

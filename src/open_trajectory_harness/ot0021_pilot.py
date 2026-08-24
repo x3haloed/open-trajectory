@@ -62,6 +62,9 @@ DEFAULT_RUN_ID = "ot-0021-trace-pilot-001"
 SEALED_EVENT_PREFIX = "sealed-event-"
 ARTIFACT_KIND = "public-consequence-ledger-feasibility-pilot"
 INPUT_MANIFESTS = [str(PREDECESSOR_MANIFEST_PATH), str(PILOT_MANIFEST_PATH)]
+PROMPT_RENDERER: Any = None
+OUTPUT_EVALUATOR: Any = None
+MECHANISM_VALIDATOR: Any = None
 
 
 def fixed_input_paths() -> dict[str, Path]:
@@ -250,7 +253,9 @@ def _summary(
             and sha256_bytes(canonical_json(first)) == expected_inventory["sha256"]
             and len(first) == expected_inventory["tool_count"]
         )
-    mechanism_valid = len(mechanisms) == acceptance["fresh_actor_encounters"] and all(
+    default_mechanism_valid = len(mechanisms) == acceptance[
+        "fresh_actor_encounters"
+    ] and all(
         item["selection_changed"]
         and item["prediction_changed"]
         and item["challenger_error_advantage"]
@@ -260,6 +265,11 @@ def _summary(
         and item["decision_replay"]
         and item["commit_changed"]
         for item in mechanisms
+    )
+    mechanism_valid = (
+        MECHANISM_VALIDATOR(mechanisms, acceptance)
+        if MECHANISM_VALIDATOR is not None
+        else default_mechanism_valid
     )
     gates = {
         "complete_encounters": len(actor_results)
@@ -323,7 +333,11 @@ def run(
     acceptance = load_json(repo / ACCEPTANCE_PATH)
     task = load_json(repo / TASK_PATH)
     TASK_VALIDATOR(task)
-    prompt, ledger = rendered_prompt(repo, task)
+    prompt, ledger = (
+        PROMPT_RENDERER(repo, task)
+        if PROMPT_RENDERER is not None
+        else rendered_prompt(repo, task)
+    )
     if SEALED_EVENT_PREFIX in prompt:
         raise RuntimeError("OT-0021 rendered prompt leaks sealed pilot evaluation")
     if output_path.exists() or workspace_root.exists():
@@ -379,7 +393,11 @@ def run(
                     )
                     if result["parse_error"] or output is None:
                         raise ValueError("OT-0021 actor output failed exact parsing")
-                    mechanisms.append(evaluate_actor_output(task, output))
+                    mechanisms.append(
+                        OUTPUT_EVALUATOR(task, output)
+                        if OUTPUT_EVALUATOR is not None
+                        else evaluate_actor_output(task, output)
+                    )
                 time.sleep(1)
                 events = client.raw_events
                 stderr = client.stderr_lines

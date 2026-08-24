@@ -37,3 +37,6 @@ Current unexecuted protocol drafts:
   — failed fresh public reproduction: the corrected Response gate passed, but
   only one of two actors produced a useful challenger, closing the one-shot
   single-challenger representation as the next path.
+- [`OT-0023-contrast-portfolio-feasibility.md`](OT-0023-contrast-portfolio-feasibility.md)
+  — frozen public non-candidate pilot in which one actor authors three selector
+  alternatives and a prospective consequence-based choice rule.

@@ -185,6 +185,10 @@ Initial sequence:
   two actors produced a useful challenger. The single-challenger whole-program
   representation is closed as the next path. This remains non-candidate
   development evidence.
+- **OT-0023:** test a bounded actor-authored contrast portfolio: three selector
+  alternatives plus one prospective consequence-based choice rule authored in
+  a single encounter. The controller evaluates but does not supply, rank, or
+  choose an alternative. This is development-only feasibility.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

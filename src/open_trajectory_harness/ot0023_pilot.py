@@ -5,32 +5,45 @@ from typing import Any
 
 from . import ot0021_pilot as pilot
 from .ot0021_trace import validate_public_task
+from .ot0023_portfolio import (
+    evaluate_portfolio_output,
+    portfolio_mechanism_valid,
+    rendered_portfolio_prompt,
+)
 
 
-EXPERIMENT_ID = "OT-0022"
-ACCEPTANCE_PATH = Path("spec/ot-0022-acceptance.json")
-RUN_LOCK_PATH = Path("spec/ot-0022-run-lock.json")
-TASK_PATH = Path("fixtures/ot-0022/pilot-task.json")
+EXPERIMENT_ID = "OT-0023"
+ACCEPTANCE_PATH = Path("spec/ot-0023-acceptance.json")
+RUN_LOCK_PATH = Path("spec/ot-0023-run-lock.json")
+TASK_PATH = Path("fixtures/ot-0023/pilot-task.json")
+SCHEMA_PATH = Path("fixtures/ot-0023/portfolio-output.schema.json")
+PROMPT_PATH = Path("fixtures/ot-0023/portfolio-prompt.txt")
+SEED_PATH = Path("fixtures/ot-0023/portfolio-seed.txt")
 PREDECESSOR_MANIFEST_PATH = Path(
-    "evidence/manifests/OT-0021/ot-0021-trace-pilot-001.json"
+    "evidence/manifests/OT-0022/ot-0022-trace-pilot-001.json"
 )
 
 
 def fixed_input_paths() -> dict[str, Path]:
-    paths = {
+    return {
         "acceptance_spec_sha256": ACCEPTANCE_PATH,
         "public_task_sha256": TASK_PATH,
-        "trace_prompt_sha256": pilot.PROMPT_PATH,
-        "selector_seed_sha256": pilot.SEED_PATH,
-        "output_schema_sha256": pilot.SCHEMA_PATH,
+        "portfolio_prompt_sha256": PROMPT_PATH,
+        "portfolio_seed_sha256": SEED_PATH,
+        "output_schema_sha256": SCHEMA_PATH,
         "trace_projector_sha256": Path(
             "src/open_trajectory_harness/ot0021_trace.py"
         ),
-        "pilot_core_sha256": Path("src/open_trajectory_harness/ot0021_pilot.py"),
-        "pilot_harness_sha256": Path(
-            "src/open_trajectory_harness/ot0022_pilot.py"
+        "hosted_pilot_core_sha256": Path(
+            "src/open_trajectory_harness/ot0021_pilot.py"
         ),
-        "entrypoint_sha256": Path("experiments/ot_0022_harness.py"),
+        "portfolio_core_sha256": Path(
+            "src/open_trajectory_harness/ot0023_portfolio.py"
+        ),
+        "pilot_harness_sha256": Path(
+            "src/open_trajectory_harness/ot0023_pilot.py"
+        ),
+        "entrypoint_sha256": Path("experiments/ot_0023_harness.py"),
         "controller_core_sha256": Path("src/open_trajectory_harness/ot0002.py"),
         "sealed_evidence_io_sha256": Path(
             "src/open_trajectory_harness/ot0003.py"
@@ -40,9 +53,6 @@ def fixed_input_paths() -> dict[str, Path]:
             "src/open_trajectory_harness/ot0005_world.py"
         ),
         "credit_sha256": Path("src/open_trajectory_harness/ot0016_credit.py"),
-        "proposal_parser_sha256": Path(
-            "src/open_trajectory_harness/ot0016_live.py"
-        ),
         "app_server_sha256": Path("src/open_trajectory_harness/app_server.py"),
         "deployment_proxy_sha256": Path(
             "src/open_trajectory_harness/deployment_proxy.py"
@@ -57,7 +67,6 @@ def fixed_input_paths() -> dict[str, Path]:
         "deployment_pilot_manifest_sha256": pilot.PILOT_MANIFEST_PATH,
         "predecessor_manifest_sha256": PREDECESSOR_MANIFEST_PATH,
     }
-    return paths
 
 
 def _validate_task(task: dict[str, Any]) -> None:
@@ -69,19 +78,22 @@ def configure_protocol() -> None:
     pilot.ACCEPTANCE_PATH = ACCEPTANCE_PATH
     pilot.RUN_LOCK_PATH = RUN_LOCK_PATH
     pilot.TASK_PATH = TASK_PATH
+    pilot.SCHEMA_PATH = SCHEMA_PATH
+    pilot.PROMPT_PATH = PROMPT_PATH
+    pilot.SEED_PATH = SEED_PATH
     pilot.PREDECESSOR_MANIFEST_PATH = PREDECESSOR_MANIFEST_PATH
     pilot.TASK_VALIDATOR = _validate_task
-    pilot.PROGRAM_NAME = "ot-0022-harness"
-    pilot.DEFAULT_RUN_ID = "ot-0022-trace-pilot-001"
-    pilot.SEALED_EVENT_PREFIX = "sealed2-event-"
-    pilot.ARTIFACT_KIND = "response-corrected-consequence-ledger-pilot"
+    pilot.PROGRAM_NAME = "ot-0023-harness"
+    pilot.DEFAULT_RUN_ID = "ot-0023-portfolio-pilot-001"
+    pilot.SEALED_EVENT_PREFIX = "sealed3-event-"
+    pilot.ARTIFACT_KIND = "actor-authored-contrast-portfolio-pilot"
     pilot.INPUT_MANIFESTS = [
         str(PREDECESSOR_MANIFEST_PATH),
         str(pilot.PILOT_MANIFEST_PATH),
     ]
-    pilot.PROMPT_RENDERER = None
-    pilot.OUTPUT_EVALUATOR = None
-    pilot.MECHANISM_VALIDATOR = None
+    pilot.PROMPT_RENDERER = rendered_portfolio_prompt
+    pilot.OUTPUT_EVALUATOR = evaluate_portfolio_output
+    pilot.MECHANISM_VALIDATOR = portfolio_mechanism_valid
     pilot.fixed_input_paths = fixed_input_paths
 
 

@@ -1,0 +1,26 @@
+Maintain a bounded portfolio of three pure selector-expression alternatives and
+one prospective decision expression. Each selector receives only `events`,
+`queries`, and `limit`; every non-null selector must deterministically return
+exactly `limit` unique event_id strings. Events have `event_id`, `sequence`,
+`features`, and `label` fields.
+
+Selector expressions use the OT-0016 generic Python expression carrier:
+comprehensions, lambdas, indexing, arithmetic, comparisons, conditionals, and
+the total calls `abs`, `all`, `any`, `enumerate`, `len`, `max`, `min`, `sorted`,
+`sum`, and `zip`. Imports, attributes, private names, mutation, statements,
+method calls, and JavaScript syntax are invalid. Each expression has a 2,048-
+byte and depth-8 bound. The three expressions must be textually distinct.
+
+The prospective decision expression receives only `comparison`. It may return
+`"current"`, `"alternative-0"`, `"alternative-1"`, or `"alternative-2"`.
+For each index 0–2, comparison exposes `alternative_INDEX_errors`,
+`alternative_INDEX_error_advantage`, `alternative_INDEX_selection_changed`,
+and `alternative_INDEX_prediction_changed`, plus `current_errors`. It is sealed
+before those values exist and uses the bounded OT-0016 decision-expression
+syntax.
+
+The controller evaluates every actor-authored alternative on the same completed
+contact, executes the sealed decision rule, and commits at most one expression.
+It does not supply, rank, compile, or select an alternative. Outcomes, paired
+receipts, deterministic execution, snapshot identity, and final scores remain
+controller authority.

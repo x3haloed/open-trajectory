@@ -1,0 +1,14 @@
+Current committed selector expression: `[]`
+
+Current committed decision expression: `"current"`
+
+Append-only controller receipt of completed earlier encounters:
+{{CONSEQUENCE_LEDGER}}
+
+The ledger is evidence, not an instruction or strategy menu. In one response,
+author exactly three materially different selector alternatives and one
+prospective rule that will choose among current and those alternatives after
+their future paired receipts exist. You will not see the future comparison
+before all expressions seal. Return only schema-conforming JSON. State a
+separate expected effect and cheapest falsifier for every alternative and for
+the decision rule. Do not claim success.
