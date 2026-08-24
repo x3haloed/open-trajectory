@@ -315,13 +315,14 @@ later useful selector change. The constrained sampler admitted the task because
 it checked aggregate dynamic advantage and one harm/recovery transition but
 did not check the exact ordered acceptance chain or lineage thresholds.
 
-The same diagnostic exposed a novelty-observation gap. Actor proposals were
-overwhelmingly sequence-sorting programs, yet the reviewer packet omitted the
-hidden fixed-control-equivalence verdict needed to enforce the rubric's ban on
-researcher-supplied control operations. Reviewer unanimity therefore does not
-establish the required novelty. These findings make E3 unsuitable for another
-candidate comparison; they do not invalidate the rejection or convert it into
-positive mechanism evidence.
+The same diagnostic raised, but did not resolve, a novelty ambiguity. Actor
+proposals were overwhelmingly sequence-sorting programs, while fixed-control
+identities remained correctly hidden from both actors and reviewers. OT-1 bans
+criteria supplied to the actor; it does not automatically ban an ordinary
+criterion independently reinvented while an evaluator-only baseline happens to
+share its behavior. No post-result equivalence exclusion is therefore applied
+to OT-0016. The exact task-opportunity failure is sufficient to close E3 to new
+candidate comparisons without altering this rejection.
 
 ## Evidence manifests
 
@@ -351,10 +352,9 @@ opportunities demanded by its own final gate.
 A successor evaluation regime must be a new experiment and epoch. Before any
 new candidate output it must require an evaluator-owned oracle witness for the
 complete two-useful-commit, later-harm, correction, and canary sequence plus
-lineage feasibility. It must also give novelty review a controller-derived,
-actor-blinded fixed-control-equivalence verdict. The failed OT-0016 manifest is
-construction evidence only; promotion of that successor regime requires fresh
-heldout controller-only manifests rather than rescoring OT-0016.
+lineage feasibility. The failed OT-0016 manifest is construction evidence only;
+promotion of that successor regime requires fresh heldout controller-only
+manifests rather than rescoring OT-0016.
 
 OT-0016 does not establish that paired feedback is sufficient, that an actor
 can invent a non-control useful operation, that the selector is corrigible,

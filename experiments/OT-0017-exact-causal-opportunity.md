@@ -1,6 +1,6 @@
 # OT-0017 — Exact causal-opportunity evaluation checkpoint
 
-- **Status:** unexecuted; controller-only evaluator challenger
+- **Status:** incidence study rejected; constructive challenger pending
 - **Evidence class:** exploratory-only
 - **Evaluation transition:** E3 → E4 candidate
 - **Candidate actor outputs:** forbidden
@@ -67,3 +67,24 @@ reviewer judgments are outside this controller-only study.
 
 Raw manifests and witnesses go directly to `$EVIDENCE`. Tracked evidence may
 contain only the content-addressed manifest and aggregate incidence summary.
+
+## Results and decision
+
+The frozen study rejected simple unconditioned sampling. All 256 generated
+manifest identities were unique and every oracle report replayed correctly, but
+zero manifests contained an exact witness; the observed incidence was 0%
+against the predeclared 5% minimum. The result contains no candidate outputs and
+does not score or reinterpret OT-0016.
+
+Current disposition: `rejected` for simple rejection sampling. The exact
+opportunity witness remains the E4 challenger because it directly observes the
+identified blind spot and preserves every E3 causal and scoring anchor. The
+next cheapest credible evaluator path is constructive actor-blinded world
+generation whose private stage parameters are sampled subject to the exact
+witness, followed by a separately frozen construction-cost study and a fresh
+heldout anchor bundle. Relaxing the witness or repeatedly sampling the inherited
+generator is not credible.
+
+## Evidence manifest
+
+`evidence/manifests/OT-0017/ot-0017-exact-opportunity-incidence-001.json`

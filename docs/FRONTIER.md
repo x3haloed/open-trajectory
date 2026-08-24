@@ -109,11 +109,20 @@ only the seed-stage commit. Both exceeded or failed the lineage gates.
 At the evaluation checkpoint, an evaluator-owned oracle showed the admitted
 manifest had only one consequence-driven pre-harm opportunity, a stage-2
 contact tie, and no post-correction canary opportunity. E3's aggregate sampler
-was blind to its own ordered causal gate. The reviewer packet was also blind to
-fixed-control equivalence even though the novelty rubric forbade those
-operations. The immediate frontier is an E4 challenger that fixes both
-observability gaps and is promoted on fresh controller-only heldout manifests
-before any new candidate experiment.
+was blind to its own ordered causal gate. The novelty result also raised an
+ambiguity: reviewers could verify that an operation was absent from the actor-
+visible seed and carrier, but did not know the hidden fixed controls. Because
+OT-1 forbids strategies supplied to the actor—not common strategies
+independently reinvented while controls remain hidden—E4 does not add a post-
+result fixed-control-equivalence ban.
+
+The first E4 challenger exactly replayed the unchanged temporal and lineage
+gates with a hidden fixed-control oracle. Its frozen 256-manifest incidence
+study found zero exact witnesses against a 5% minimum, rejecting simple
+unconditioned rejection sampling. The immediate frontier is constructive,
+actor-blinded world generation subject to the exact opportunity witness,
+followed by a fresh controller-only heldout promotion bundle before any new
+candidate experiment.
 
 ## Post-OT-0005 development probes
 
@@ -139,12 +148,12 @@ or relaxing OT-0005 after seeing its result.
 Expected: E3's constrained admission gate would make the complete frozen
 temporal chain feasible without encoding a candidate strategy.
 Observed: the accepted OT-0016 task could not satisfy that chain even for a
-hidden fixed-control oracle, and novelty reviewers lacked the controller verdict
-needed to detect fixed-control-equivalent proposals.
-Uncertain: whether an exact causal-opportunity sampler remains feasible at an
-acceptable generation cost without making the actor-facing task reconstructive.
-Evidence: the sealed OT-0016 run, its valid rejection summary, and the
-controller-only oracle replay over the same task.
+hidden fixed-control oracle, and none of 256 fresh inherited worlds contained a
+complete witness.
+Uncertain: whether constructive actor-blinded world generation can satisfy the
+exact witness at acceptable cost without making the task reconstructive.
+Evidence: the sealed OT-0016 run, its valid rejection summary, the replay over
+that task, and OT-0017's frozen controller-only incidence study.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
