@@ -68,6 +68,22 @@ class OT0005WorldTests(unittest.TestCase):
         )
         with self.assertRaises(ValueError):
             validate_selector_expression(expression)
+        validate_selector_expression(expression, iteration_depth_limit=8)
+
+    def test_deeper_version_remains_bounded_by_evaluation_timeout(self) -> None:
+        expression = (
+            '[a["event_id"] for a in events for b in events for c in events '
+            'for d in events for e in events for f in events][:limit]'
+        )
+        with self.assertRaises(ValueError):
+            execute_selector(
+                expression,
+                self.archive,
+                self.queries,
+                6,
+                timeout_seconds=0.01,
+                iteration_depth_limit=8,
+            )
 
     def test_runtime_rejects_duplicate_unknown_and_under_budget_results(self) -> None:
         event_id = self.archive[0]["event_id"]

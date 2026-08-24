@@ -89,7 +89,11 @@ def validate_task_manifest(manifest: dict[str, Any]) -> None:
     validate_ot0004_manifest(inherited)
 
 
-def validate_selector_expression(expression: Any, byte_limit: int = 2048) -> ast.Expression:
+def validate_selector_expression(
+    expression: Any,
+    byte_limit: int = 2048,
+    iteration_depth_limit: int = 4,
+) -> ast.Expression:
     if not isinstance(expression, str) or not expression.strip():
         raise ValueError("selector expression must be non-empty text")
     if len(expression.encode()) > byte_limit:
@@ -106,7 +110,7 @@ def validate_selector_expression(expression: Any, byte_limit: int = 2048) -> ast
         for node in nodes
         if isinstance(node, (ast.ListComp, ast.GeneratorExp))
     )
-    if generator_count > 4:
+    if generator_count > iteration_depth_limit:
         raise ValueError("selector expression exceeds its iteration-depth budget")
     for node in nodes:
         if type(node) not in ALLOWED_NODES:
@@ -135,8 +139,11 @@ def execute_selector(
     *,
     allow_empty: bool = False,
     timeout_seconds: float = 0.5,
+    iteration_depth_limit: int = 4,
 ) -> list[str]:
-    tree = validate_selector_expression(expression)
+    tree = validate_selector_expression(
+        expression, iteration_depth_limit=iteration_depth_limit
+    )
     globals_value = {
         "__builtins__": {},
         **SAFE_CALLS,
@@ -180,9 +187,27 @@ def deterministic_selection(
     limit: int,
     *,
     allow_empty: bool = False,
+    timeout_seconds: float = 0.5,
+    iteration_depth_limit: int = 4,
 ) -> list[str]:
-    first = execute_selector(expression, archive, queries, limit, allow_empty=allow_empty)
-    second = execute_selector(expression, archive, queries, limit, allow_empty=allow_empty)
+    first = execute_selector(
+        expression,
+        archive,
+        queries,
+        limit,
+        allow_empty=allow_empty,
+        timeout_seconds=timeout_seconds,
+        iteration_depth_limit=iteration_depth_limit,
+    )
+    second = execute_selector(
+        expression,
+        archive,
+        queries,
+        limit,
+        allow_empty=allow_empty,
+        timeout_seconds=timeout_seconds,
+        iteration_depth_limit=iteration_depth_limit,
+    )
     if first != second:
         raise ValueError("selector expression failed deterministic replay")
     return first
@@ -242,8 +267,14 @@ class ProgramSnapshot:
 
 
 class ProgramLedger:
-    def __init__(self, seed_expression: str = "[]", byte_limit: int = 2048):
+    def __init__(
+        self,
+        seed_expression: str = "[]",
+        byte_limit: int = 2048,
+        iteration_depth_limit: int = 4,
+    ):
         self.byte_limit = byte_limit
+        self.iteration_depth_limit = iteration_depth_limit
         self._snapshots: list[ProgramSnapshot] = []
         self._append(seed_expression, proposal=None)
 
@@ -258,7 +289,11 @@ class ProgramLedger:
     def _append(
         self, expression: str, proposal: dict[str, Any] | None
     ) -> ProgramSnapshot:
-        validate_selector_expression(expression, self.byte_limit)
+        validate_selector_expression(
+            expression,
+            self.byte_limit,
+            self.iteration_depth_limit,
+        )
         parent = self._snapshots[-1].sha256 if self._snapshots else None
         proposal_sha = sha256_bytes(canonical_json(proposal)) if proposal is not None else None
         identity = {
