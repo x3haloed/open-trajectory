@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0006",
+  "protocol_origin_git_commit": "9e87ebb9aff53dfb430c74dd7ae7cd91a1084726",
+  "implementation_git_commit": "c6fde3a4f6d965b2177a66b9649aa533b78976ce",
+  "backend": "codex-app-server-via-sanitizer-proxy",
+  "model": "gpt-5.6-luna",
+  "model_stability": "hosted-deployment-epoch",
+  "task_manifest_sha256": "cfa928720fbb2ded65450625c87248d251d1e94bc7ef766137b9a39152137674",
+  "tls_ca_bundle_sha256": "16be3f6feb15408195dcfe3aa1a75ef9db72f646b96ebbefdc68f56255f799f8",
+  "backend_binary": {
+    "version": "codex-cli 0.149.0",
+    "source_repository": "https://github.com/openai/codex",
+    "source_tag": "rust-v0.149.0",
+    "source_git_commit": "758ef40f50c1a458425c7cfbf1eb12cbc07af0b0",
+    "codex_sha256": "9ba106aa245c7dfe0604a319ca9fdd51d215b58135656f310841691c56ad2347",
+    "code_mode_host_sha256": "3eca39bb7f93315fab6b0dec2334381c0f50a2ccda113ec482fb815f16072a5c"
+  },
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "e0dc8c605a8813b833353340ec72bce1c8559ff9261d5e5f110796d9c58c06f2",
+    "prompt_sha256": "7a59f3c490337d28f746c0b6d8e9a15592c8e75a6f9b620c28a79e2253aa31bd",
+    "output_schema_sha256": "94913794877a2a997886f61a6986cbf3236709500484c1398fa5ff6309aadedc",
+    "task_order_sha256": "7194ee62932b711292cf260cf64751161f2ad0e8aeaf23418c72524f648aeb87",
+    "substrates_sha256": "ddfe223187cf86b2898bc284e876e2d6e10614841e0303a6263ab8ff3f8a1021",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "tool_receipt_patch_sha256": "baa1c8585d95e5270fdb0b977e95b22d2487031259607af3e6c0d6f93b16fdfd",
+    "deployment_proxy_sha256": "a752e9346e06a39139a5fe1f957a0613d0046eee15e9e0c3691950a911e4de85",
+    "world_sha256": "9f22aabfdf527bfbdf1574168632f588a3d447a1e78b9d95ff72814625d8f832",
+    "harness_sha256": "eb022fb131ee10d0e20b51dc06db551daf5745bb1fc85d3397bb62b557a22f08"
+  }
+}
