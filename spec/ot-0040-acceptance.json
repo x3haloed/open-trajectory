@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0040",
+  "evaluation_transition": "E7 to E8",
+  "purpose": "exact hosted structured-output dialect and failed-turn evidence-path calibration",
+  "candidate_goal_outputs": false,
+  "candidate_task_outputs": false,
+  "hosted_turns": 4,
+  "positive_turns": 2,
+  "negative_turns": 2,
+  "authorized_candidate_count": 1,
+  "claim_limit": "private hosted-protocol calibration and one fresh E8 self-authored-goal candidate authorization; no OT-2 evidence",
+  "deployment_epoch": {
+    "requested_model": "gpt-5.6-luna",
+    "effective_model_must_equal_requested": true,
+    "unique_response_id_per_successful_turn_required": true,
+    "same_catalog_and_etag_across_workers_required": true,
+    "maximum_window_seconds": 300
+  },
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "model": "gpt-5.6-luna",
+    "actor_input_tokens_total": 30000,
+    "actor_output_tokens_total": 4000,
+    "wall_seconds": 300
+  },
+  "promotion_gate": [
+    "the OT-0039 schema is sent as a frozen negative control in two fresh contexts and both turns fail with the expected uniqueItems structured-output diagnostic without a secondary exception",
+    "the revised exact future-candidate schema is sent in two fresh contexts and both turns return the same fixed null-goal canary",
+    "the failure-safe collector records absent inventories and response IDs on rejected turns rather than indexing an empty success-only receipt list",
+    "the positive and negative turn order is counterbalanced across two workers and every thread and workspace is fresh",
+    "the revised schema removes unsupported validation keywords without changing the future controller evaluator, goal contract fields, task outcome, or promotion thresholds",
+    "successful turns have distinct response IDs, the requested model, stable catalog, one ETag, exact model-visible inventory, no tool calls, and no parse failures",
+    "all protocol, schema, prompt, backend, evidence, predecessor, test, audit, and privacy identities are locked before hosted output"
+  ],
+  "red_line_review": [
+    "The canary contains no goal contract, task telemetry, candidate target, or candidate score.",
+    "OT-0039 remains invalidated and is neither retried nor rescored.",
+    "The reduced schema changes transport validation only; the controller continues exact semantic validation.",
+    "A pass authorizes at most one fresh post-implementation E8 candidate."
+  ]
+}

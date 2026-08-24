@@ -1,0 +1,5 @@
+Return exactly this JSON object and nothing else:
+{"goal_contract":null,"goal_id":null,"goal_status":"unknown","plan_version":null,"experiment_id":null,"subtask_id":null,"action":"schema-canary","completion_claim":false}
+
+This is a transport-schema canary. Do not invent a goal, task, identifier, or
+additional field. Do not call tools.
