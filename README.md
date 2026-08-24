@@ -1,7 +1,8 @@
 # Open Trajectory
 
 Open Trajectory is a falsification-first research program for persistent agents
-that learn from contact, author durable goals, and earn wider authority through
+whose experience can change what they carry forward, later correct that
+selection function, author durable goals, and earn wider authority through
 independent evidence.
 
 The repository is intentionally split across two storage classes:
@@ -23,18 +24,22 @@ environment variables, hostnames, or raw evidence.
 
 ## Current evidence horizon
 
-The repository currently realizes the evidence-publication path, not OT-1:
+The repository has established a narrow OT-0 contact-causal inheritance result:
 
 ```text
-real artifact
-→ SHA-256 content identity
-→ external object store
-→ sanitized public manifest
-→ independent manifest/reprovided-byte verification
-→ repository privacy and size audit
+independent world outcome
+→ bounded inherited projection
+→ complete thread/workspace reset
+→ lower structural-heldout error in a fresh instance
+→ loss of the advantage under projection ablation
+→ clean reproduction in one receipted hosted epoch
 ```
 
-No learning, self-direction, or TAAA result is claimed yet.
+OT-0014 supports that claim only within its private, time-bounded hidden-rule
+envelope. It does not establish OT-1. The inheritance-selection function was
+researcher-designed and fixed; no experience-induced selector change, emergent
+selection operation, or later selector correction has yet been demonstrated.
+No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start
 

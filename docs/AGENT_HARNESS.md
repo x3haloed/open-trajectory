@@ -7,9 +7,15 @@ The harness exists to answer one causal question:
 > Did prior contact, transmitted exclusively through candidate substrate S,
 > reduce a fresh agent's error on a later held-out encounter?
 
+That is the OT-0 boundary question. OT-1 adds a second causal loop:
+
+> Did independently measured consequences of earlier inheritance choices alter
+> the selection function itself, did that alteration improve later contact, and
+> did still-later contact correct the altered function when it became harmful?
+
 It is not a continuous assistant product and does not preserve a canonical
 long-lived agent thread. Ordinary thread continuity would create an unmeasured
-inheritance channel and make OT-1 uninterpretable.
+inheritance channel and make OT-0 or OT-1 uninterpretable.
 
 ## Selected topology
 
@@ -66,14 +72,17 @@ external evidence store. Only normalized receipts and hashes enter Git.
 The run specification records whether the backend exposes an immutable model
 revision, a directly receipted hosted deployment epoch, or only a drifting
 alias. An unreceipted drifting alias is admissible for harness development when
-declared but cannot support a promoted OT-1 comparison. A hosted epoch is
+declared but cannot support a promoted OT-0 or OT-1 comparison. A hosted epoch is
 admissible only under the frozen receipt, temporal-control, and evidence limits
 in `TARGET.md` and `docs/EVIDENCE.md`.
 
 `spec/encounter-run.schema.json` defines the reusable run contract.
 `spec/ot-0002-run.schema.json` adds the denied-network requirement, and
-`spec/ot-1-promoted-run.schema.json` requires either an immutable revision or a
-complete hosted deployment-epoch identity.
+`spec/ot-0-promoted-run.schema.json` requires either an immutable revision or a
+complete hosted deployment-epoch identity for a causal-inheritance claim.
+`spec/ot-1-promoted-run.schema.json` additionally requires direct receipts for
+mutable selector proposals, committed selector changes, causal selector
+ablations, later correction, and preserved correction capacity.
 
 ### Backend B — Codex as an MCP server
 
@@ -196,6 +205,14 @@ Each encounter produces external raw evidence and public manifests for:
 - substrate update proposal and committed successor digest;
 - reset proof showing no prior workspace or thread was resumed;
 - usage and failure disposition.
+
+An OT-1 run additionally receipts the exact seed orientation; every
+actor-proposed selector change; the controller's accept/deny decision and
+committed policy snapshot; the frozen novelty review; matched changed and
+unchanged selector branches; selector-change ablations; later evidence that
+the learned operation became harmful; the corrective revision or abandonment;
+recovered held-out behavior; and a subsequent probe of remaining correction
+capacity.
 
 Identifiers published to Git must be logical or hashed. Raw thread identifiers,
 workspace paths, and process environment remain external.

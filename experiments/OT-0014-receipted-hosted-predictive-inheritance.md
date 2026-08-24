@@ -1,8 +1,8 @@
 # OT-0014 — Receipted hosted predictive-inheritance reproduction
 
-- **Status:** promoted
+- **Status:** promoted OT-0 prerequisite; former OT-1 classification corrected
 - **Evidence class:** private-reproducible
-- **Target:** OT-1
+- **Target:** OT-0 — Contact-Causal Inheritance
 - **Evaluation epoch:** E2
 - **Frozen acceptance:** `spec/ot-0014-acceptance.json`
 - **Frozen run lock:** `spec/ot-0014-run-lock.json` after private task preparation
@@ -85,15 +85,23 @@ clean-reproduction gate passed.
 The private raw artifact is content-addressed by
 `evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json` with SHA-256
 `14078a338ec4fa431c7b8da2d0e82f3017669e9aebb1c6eab47a2ac4331fe070`.
-This promotes OT-1 within the tested hidden-rule envelope under evaluation
-epoch E2. The claim remains private, time-bounded, and specific to the observed
-hosted deployment epoch; it does not establish immutable weights, public
-reconstructibility, other task domains, or future hosted epochs.
+At execution this was recorded as promoting the repository's then-current OT-1
+within the tested hidden-rule envelope under E2. Direct user review established
+that the target had been miscoupled: the experiment tests causal inheritance
+under a fixed researcher-designed selection function, not experience-induced
+change to that function. Under E3 it promotes the OT-0 prerequisite only. The
+raw evidence, frozen gates, behavioral disposition, and private time-bounded
+claim remain unchanged; the former target-level OT-1 conclusion is stale.
+
+The result does not establish immutable weights, public reconstructibility,
+other task domains, future hosted epochs, an emergent selection operation, or
+later correction of a learned selector.
 
 ## Decision and next experiment
 
 The complete causal path from retained world outcomes through the candidate
 projection to later held-out behavior is established within this envelope, and
-the decisive ablation removes the effect. The next target-level dependency is
-OT-2: determine whether this promoted substrate can support truthful,
-self-authored durable goal pursuit rather than merely predictive inheritance.
+the decisive ablation removes the effect. Freeze and reuse that boundary. The
+next target-level dependency is restored OT-1: test whether consequences of
+earlier inheritance choices alter the function deciding what deserves
+inheritance, and whether later experience can correct that altered function.

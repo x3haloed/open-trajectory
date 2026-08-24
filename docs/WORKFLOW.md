@@ -6,6 +6,12 @@ Create an experiment record before execution. State the hypothesis, causal
 mechanism, cheapest decisive falsifier, candidate, controls, task order,
 splits, scoring rule, resource budget, red-line review, and promotion gate.
 
+For OT-1, freeze the seed orientation, active-inheritance budget, selector
+proposal/commit protocol, novelty rubric, unchanged-selector branches, fixed
+selector controls, selector-change ablation, later harmful regime, correction
+test, and correction-capacity test. Do not freeze the useful selection
+operation into the actor prompt or offer it as a researcher-written menu.
+
 For a hosted deployment epoch, also freeze the receipt fields, receipt parser,
 maximum original-to-reproduction window, and counterbalanced condition order.
 Do not begin candidate execution until a sanitized pilot proves that every

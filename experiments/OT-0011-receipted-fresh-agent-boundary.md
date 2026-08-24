@@ -2,7 +2,7 @@
 
 - **Status:** promoted
 - **Evidence class:** private-reproducible
-- **Target:** OT-1 infrastructure
+- **Target:** OT-0 causal-boundary infrastructure (historically labeled OT-1)
 - **Evaluation epoch:** `boundary-e2`
 - **Frozen implementation commit:**
   `597044b1981fcc6493406ad4d4b88ec90306efcf`
@@ -127,4 +127,6 @@ full test suite and privacy/repository-size audit passed during execution.
 **Disposition: promoted.** OT-0011 supersedes the conditional OT-0002 boundary
 stage for infrastructure purposes and authorizes work on the frozen task
 generator and held-out evaluator stage. It does not establish learning and does
-not waive the immutable-model requirement for an OT-1 candidate comparison.
+did not waive the then-current immutable-model requirement for a promoted
+contact-causal comparison. Under the restored target map, this is OT-0 boundary
+evidence and supplies no mutable-selector evidence for OT-1.

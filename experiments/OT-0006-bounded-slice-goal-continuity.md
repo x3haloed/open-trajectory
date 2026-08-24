@@ -1,7 +1,7 @@
 # OT-0006 — Bounded-slice durable-goal failure isolation
 
-- **Status:** frozen; execution pending
-- **Evidence class:** private-reproducible if all gates pass
+- **Status:** rejected; Program B paused behind restored OT-1
+- **Evidence class:** private-reproducible
 - **Target:** OT-2 infrastructure; cannot promote OT-2
 - **Evaluation epoch:** E2
 - **Frozen acceptance:** `spec/ot-0006-acceptance.json`
@@ -66,4 +66,29 @@ promote OT-2.
 
 ## Results
 
-Pending.
+The original and reproduction completed in 236.28 seconds under one matching
+receipted Luna deployment epoch. All 54 Response identities were distinct and
+every fresh-context, counterbalance, inventory, parse, tool, resource, audit,
+and receipt gate passed.
+
+The candidate took the correct causal action in all 9/9 encounters in both
+workers, versus 1/9 for both equal-budget controls. It exposed plan versions 1,
+2, and 3 and produced no premature completion claim. It nevertheless matched
+the frozen hierarchy on only 7/9 encounters and failed the frozen completion
+gate in both workers, so the prospective disposition is `rejected`.
+
+The first mismatch occurred before the initial contact had admitted a plan
+identity. The final mismatch exposed a protocol contradiction: the actor saw
+an authoritative `goal_complete: false` receipt, took the correct closure
+action, and declined to call the goal complete until the controller sealed the
+resulting `goal_complete: true` receipt. The evaluator had required the claim
+in the same encounter that caused that final receipt. This is useful negative
+evidence, not grounds to rescore the run. A future goal experiment must place
+completion judgment in a later fresh encounter downstream of the sealed final
+receipt.
+
+The private raw artifact is identified by
+`evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json` with SHA-256
+`df87e80c1dd428c727bdad3df59ca8e3b566aa7ed7fd04cfc4165408cb012e53`.
+Program B is now paused behind the restored OT-1 target; OT-0006 neither
+promotes OT-2 nor authorizes skipping recursive selector learning.

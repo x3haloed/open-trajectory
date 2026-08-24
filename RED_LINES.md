@@ -9,9 +9,20 @@
 - Do not treat a second model as independent when the actor controls its evidence.
 - Do not claim TAAA from productivity alone; correction and revocation must run.
 - Preserve rejected, reversed, invalidated, and surrendered results.
-- Do not adopt an existing agent-memory implementation as the OT-1 substrate.
-  Prior systems may motivate failure hypotheses, but OT-1 candidates must be
-  independently specified, implemented, and causally evaluated here.
+- Do not adopt an existing agent-memory implementation as the OT-0 substrate or
+  OT-1 selector. Prior systems may motivate failure hypotheses, but candidates
+  must be independently specified, implemented, and causally evaluated here.
+- Do not call content adaptation under a fixed researcher-designed inheritance
+  policy OT-1. A prewritten reset, mode switch, version-space update, retrieval
+  rule, or menu of researcher-named selector options remains researcher-supplied
+  even when contact chooses when it fires.
+- Do not call a new label, self-description, or selector proposal an emergent
+  selection operation without a committed selector change, later held-out
+  behavioral improvement, an unchanged-selector comparison, and a decisive
+  selector-change ablation.
+- Do not call an OT-1 selector corrigible unless a later regime makes a learned
+  selection operation harmful and independent contact causes it to be revised
+  or abandoned while correction capacity remains observable.
 - Do not resume an actor thread across encounters in a learning claim. Hidden
   conversational continuity invalidates attribution to the candidate substrate.
 - Do not expose hidden world state, held-out answers, evaluator instructions,

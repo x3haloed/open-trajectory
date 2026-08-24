@@ -13,6 +13,7 @@ REPO = Path(__file__).resolve().parents[1]
 BASE_SCHEMA_PATH = REPO / "spec" / "encounter-run.schema.json"
 OT0002_SCHEMA_PATH = REPO / "spec" / "ot-0002-run.schema.json"
 OT0011_SCHEMA_PATH = REPO / "spec" / "ot-0011-run.schema.json"
+PROMOTED_OT0_SCHEMA_PATH = REPO / "spec" / "ot-0-promoted-run.schema.json"
 PROMOTED_OT1_SCHEMA_PATH = REPO / "spec" / "ot-1-promoted-run.schema.json"
 VALID_FIXTURE_PATH = REPO / "fixtures" / "encounter-specs" / "ot-0002-valid.json"
 
@@ -30,6 +31,7 @@ class EncounterSchemaTests(unittest.TestCase):
         cls.base_schema = load_json(BASE_SCHEMA_PATH)
         cls.ot0002_schema = load_json(OT0002_SCHEMA_PATH)
         cls.ot0011_schema = load_json(OT0011_SCHEMA_PATH)
+        cls.promoted_ot0_schema = load_json(PROMOTED_OT0_SCHEMA_PATH)
         cls.promoted_ot1_schema = load_json(PROMOTED_OT1_SCHEMA_PATH)
         cls.valid = load_json(VALID_FIXTURE_PATH)
 
@@ -37,6 +39,7 @@ class EncounterSchemaTests(unittest.TestCase):
             cls.base_schema,
             cls.ot0002_schema,
             cls.ot0011_schema,
+            cls.promoted_ot0_schema,
             cls.promoted_ot1_schema,
         ):
             Draft202012Validator.check_schema(schema)
@@ -48,6 +51,10 @@ class EncounterSchemaTests(unittest.TestCase):
         cls.base_validator = Draft202012Validator(cls.base_schema, registry=registry)
         cls.ot0002_validator = Draft202012Validator(cls.ot0002_schema, registry=registry)
         cls.ot0011_validator = Draft202012Validator(cls.ot0011_schema, registry=registry)
+        cls.promoted_ot0_validator = Draft202012Validator(
+            cls.promoted_ot0_schema,
+            registry=registry,
+        )
         cls.promoted_ot1_validator = Draft202012Validator(
             cls.promoted_ot1_schema,
             registry=registry,
@@ -101,14 +108,7 @@ class EncounterSchemaTests(unittest.TestCase):
         self.assert_valid(self.base_validator, instance)
         self.assert_invalid(self.ot0002_validator, instance)
 
-    def test_promoted_ot1_accepts_immutable_model_revision(self) -> None:
-        self.assert_invalid(self.promoted_ot1_validator, self.valid)
-        instance = copy.deepcopy(self.valid)
-        instance["model"]["stability"] = "immutable-revision"
-        instance["model"]["revision"] = "snapshot-0123456789abcdef"
-        self.assert_valid(self.promoted_ot1_validator, instance)
-
-    def test_promoted_ot1_accepts_complete_hosted_deployment_epoch(self) -> None:
+    def hosted_epoch_instance(self) -> dict:
         instance = copy.deepcopy(self.valid)
         instance["model"]["stability"] = "hosted-deployment-epoch"
         instance["model"]["revision"] = "receipted-deployment-epoch"
@@ -125,12 +125,65 @@ class EncounterSchemaTests(unittest.TestCase):
             "observed_window_seconds": 300.5,
             "epoch_consistent": True,
         }
-        self.assert_valid(self.promoted_ot1_validator, instance)
+        return instance
 
-    def test_promoted_ot1_rejects_incomplete_hosted_deployment_epoch(self) -> None:
+    def selector_receipt(self) -> dict:
+        return {
+            "seed_orientation_sha256": "6" * 64,
+            "initial_policy_sha256": "7" * 64,
+            "final_policy_sha256": "8" * 64,
+            "proposal_receipts_sha256": "9" * 64,
+            "commit_receipts_sha256": "a" * 64,
+            "policy_revision_count": 2,
+            "controller_committed": True,
+            "novelty_review": {
+                "frozen_rubric_sha256": "b" * 64,
+                "operation_identity_sha256": "c" * 64,
+                "review_receipts_sha256": "d" * 64,
+                "not_researcher_supplied": True,
+            },
+            "causal_change_test": {
+                "unchanged_selector_branch_sha256": "e" * 64,
+                "changed_selector_branch_sha256": "f" * 64,
+                "ablation_receipts_sha256": "0" * 64,
+                "passed": True,
+            },
+            "later_correction": {
+                "harm_receipts_sha256": "1" * 64,
+                "revised_policy_sha256": "2" * 64,
+                "recovery_receipts_sha256": "3" * 64,
+                "preserved_correction_capacity": True,
+            },
+        }
+
+    def test_promoted_ot0_accepts_immutable_model_revision(self) -> None:
+        self.assert_invalid(self.promoted_ot0_validator, self.valid)
+        instance = copy.deepcopy(self.valid)
+        instance["model"]["stability"] = "immutable-revision"
+        instance["model"]["revision"] = "snapshot-0123456789abcdef"
+        self.assert_valid(self.promoted_ot0_validator, instance)
+
+    def test_promoted_ot0_accepts_complete_hosted_deployment_epoch(self) -> None:
+        self.assert_valid(self.promoted_ot0_validator, self.hosted_epoch_instance())
+
+    def test_promoted_ot0_rejects_incomplete_hosted_deployment_epoch(self) -> None:
         instance = copy.deepcopy(self.valid)
         instance["model"]["stability"] = "hosted-deployment-epoch"
         instance["model"]["revision"] = "receipted-deployment-epoch"
+        self.assert_invalid(self.promoted_ot0_validator, instance)
+
+    def test_promoted_ot1_rejects_ot0_run_without_selector_receipts(self) -> None:
+        self.assert_invalid(self.promoted_ot1_validator, self.hosted_epoch_instance())
+
+    def test_promoted_ot1_accepts_complete_selector_and_hosted_receipts(self) -> None:
+        instance = self.hosted_epoch_instance()
+        instance["selector"] = self.selector_receipt()
+        self.assert_valid(self.promoted_ot1_validator, instance)
+
+    def test_promoted_ot1_rejects_unpreserved_correction_capacity(self) -> None:
+        instance = self.hosted_epoch_instance()
+        instance["selector"] = self.selector_receipt()
+        instance["selector"]["later_correction"]["preserved_correction_capacity"] = False
         self.assert_invalid(self.promoted_ot1_validator, instance)
 
 

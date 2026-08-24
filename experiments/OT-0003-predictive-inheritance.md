@@ -2,7 +2,7 @@
 
 - **Status:** conditional
 - **Evidence class:** exploratory-only
-- **Target:** OT-1
+- **Target:** OT-0 — Contact-Causal Inheritance (historically labeled OT-1)
 - **Frozen implementation commit:**
   `3b44066062e708ab11d2dd9bcfbad613d4a4d4c0`
 - **Frozen run lock:** `spec/ot-0003-run-lock.json`
@@ -105,7 +105,7 @@ Worker 2 consumed 123,260 input and 4,820 output tokens in 155.52 seconds. Both
 remained below every frozen resource ceiling. The full test suite and privacy
 audit passed during execution.
 
-The result did not pass the complete OT-1 promotion gate because the actor used
+The result did not pass the then-current contact-causal promotion gate because the actor used
 the prospectively declared drifting `gpt-5.6-luna` alias rather than an
 immutable model revision.
 
@@ -121,7 +121,9 @@ immutable model revision.
 **Disposition: conditional.** The discrepancy-gated version-space ledger has a
 reproduced, ablation-sensitive advantage over every frozen equal-budget control
 on this private structural-holdout and regime-shift task. This supports the
-candidate mechanism within the tested envelope but does not promote OT-1.
+candidate mechanism within the tested envelope but did not promote the
+then-current target. Under E3 this is conditional OT-0 evidence and supplies no
+mutable-selector evidence for restored OT-1.
 
 The next decisive path is to repeat the frozen comparison with an immutable
 model revision. If no admissible immutable Codex-compatible model can be bound,

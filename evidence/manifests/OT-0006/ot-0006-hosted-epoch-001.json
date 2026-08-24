@@ -1,0 +1,33 @@
+{
+  "artifact_id": "ot-0006-hosted-epoch-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3761589,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b1ec1a8609ef48604dbf2b5bd3f403cf563ae44e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0006",
+  "input_manifests": [],
+  "kind": "durable-goal-failure-isolation-hosted-epoch-run",
+  "limitations": [
+    "The salted task, opaque action legend, world states, outputs, catalog ETag, and Response IDs remain private.",
+    "The goal is researcher-given; this run cannot establish OT-2 self-authorship.",
+    "The hosted deployment is time-bounded and is not an immutable-checkpoint claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0006-hosted-epoch-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0006 --reconstruct $EVIDENCE/runs/OT-0006/ot-0006-hosted-epoch-001/run.json"
+  },
+  "schema_version": 1,
+  "sha256": "df87e80c1dd428c727bdad3df59ca8e3b566aa7ed7fd04cfc4165408cb012e53"
+}

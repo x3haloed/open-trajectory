@@ -2,7 +2,7 @@
 
 - **Status:** unexecuted
 - **Evidence class:** exploratory-only
-- **Target:** OT-1 / OT-2 / OT-3 / infrastructure
+- **Target:** OT-0 / OT-1 / OT-2 / OT-3 / infrastructure
 - **Frozen commit:** pending
 
 ## Hypothesis
@@ -24,4 +24,3 @@
 ## Evidence manifests
 
 ## Decision, limitations, and next experiment
-

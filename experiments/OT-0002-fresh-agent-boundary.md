@@ -2,7 +2,7 @@
 
 - **Status:** conditional
 - **Evidence class:** exploratory-only
-- **Target:** OT-1 infrastructure
+- **Target:** OT-0 causal-boundary infrastructure (historically labeled OT-1)
 - **Protocol-origin commit:** `6fe31a5f724a13bbc1bd4ebccd270c739dd6562a`
 - **Frozen implementation commit:**
   `a270a296008284711d755a98c59324b7d28e0c32`

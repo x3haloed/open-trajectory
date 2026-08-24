@@ -1,12 +1,11 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://open-trajectory.invalid/spec/ot-1-promoted-run.schema.json",
-  "title": "Promoted OT-1 mutable-selector encounter run",
+  "$id": "https://open-trajectory.invalid/spec/ot-0-promoted-run.schema.json",
+  "title": "Promoted OT-0 encounter run",
   "allOf": [
     { "$ref": "https://open-trajectory.invalid/spec/encounter-run.schema.json" },
     {
       "type": "object",
-      "required": ["selector"],
       "properties": {
         "model": {
           "oneOf": [

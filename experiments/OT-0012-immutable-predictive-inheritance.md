@@ -2,7 +2,7 @@
 
 - **Status:** invalidated by actor-turn timeout
 - **Evidence class:** exploratory-only failure receipt
-- **Target:** OT-1
+- **Target:** OT-0 — Contact-Causal Inheritance (historically labeled OT-1)
 - **Frozen implementation commit:** `3540978f55bfe9ad4fc8165c9a61130e78d789e3`
 - **Frozen run lock:** `spec/ot-0012-run-lock.json`
 

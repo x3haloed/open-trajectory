@@ -2,7 +2,7 @@
 
 - **Status:** invalidated by operator interruption
 - **Evidence class:** exploratory-only failure receipt
-- **Target:** OT-1
+- **Target:** OT-0 — Contact-Causal Inheritance (historically labeled OT-1)
 - **Frozen implementation commit:** `09ae5ebe03cf99159870b4f3fa6bbd70db9b791e`
 - **Frozen run lock:** `spec/ot-0013-run-lock.json`
 

@@ -24,9 +24,12 @@ contact with independently retained state
 → independently measured consequence
 ```
 
-OT-1 asks whether this path can reduce held-out error. It does not assume what
-the persistent change is made of, how it is selected, or whether the best
-mechanism resembles an existing memory system.
+OT-0 asks whether this path can reduce held-out error. Restored OT-1 asks the
+recursive question: whether consequences of earlier inheritance choices change
+the function deciding what remains causally available, and whether later
+contact can correct that changed function. Neither target assumes what the
+persistent carrier is made of or whether it resembles an existing memory
+system.
 
 ## Distinctions not to collapse
 

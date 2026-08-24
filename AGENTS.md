@@ -24,8 +24,9 @@ to widen the search, not as evidence or as an implicit acceptance rule.
   substrate and the exact projection recorded by the harness.
 - Keep actor, world, substrate, and evaluator authority separate. The actor may
   propose substrate changes but may not alter sealed outcomes or final scores.
-- Do not import an existing memory system as an OT-1 candidate. Invent and
-  evaluate substrate mechanisms inside this repository.
+- Do not import an existing memory system as an OT-0 substrate or OT-1
+  selector. Invent and evaluate substrate and selector mechanisms inside this
+  repository. OT-0014 is frozen OT-0 evidence, not an OT-1 promotion.
 
 ## Privacy and storage discipline
 

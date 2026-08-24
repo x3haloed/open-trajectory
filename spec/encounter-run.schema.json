@@ -146,6 +146,79 @@
         "mcp_call_limit": { "type": "integer", "minimum": 0 }
       }
     },
+    "selector": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "seed_orientation_sha256",
+        "initial_policy_sha256",
+        "final_policy_sha256",
+        "proposal_receipts_sha256",
+        "commit_receipts_sha256",
+        "policy_revision_count",
+        "controller_committed",
+        "novelty_review",
+        "causal_change_test",
+        "later_correction"
+      ],
+      "properties": {
+        "seed_orientation_sha256": { "$ref": "#/$defs/sha256" },
+        "initial_policy_sha256": { "$ref": "#/$defs/sha256" },
+        "final_policy_sha256": { "$ref": "#/$defs/sha256" },
+        "proposal_receipts_sha256": { "$ref": "#/$defs/sha256" },
+        "commit_receipts_sha256": { "$ref": "#/$defs/sha256" },
+        "policy_revision_count": { "type": "integer", "minimum": 2 },
+        "controller_committed": { "const": true },
+        "novelty_review": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "frozen_rubric_sha256",
+            "operation_identity_sha256",
+            "review_receipts_sha256",
+            "not_researcher_supplied"
+          ],
+          "properties": {
+            "frozen_rubric_sha256": { "$ref": "#/$defs/sha256" },
+            "operation_identity_sha256": { "$ref": "#/$defs/sha256" },
+            "review_receipts_sha256": { "$ref": "#/$defs/sha256" },
+            "not_researcher_supplied": { "const": true }
+          }
+        },
+        "causal_change_test": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "unchanged_selector_branch_sha256",
+            "changed_selector_branch_sha256",
+            "ablation_receipts_sha256",
+            "passed"
+          ],
+          "properties": {
+            "unchanged_selector_branch_sha256": { "$ref": "#/$defs/sha256" },
+            "changed_selector_branch_sha256": { "$ref": "#/$defs/sha256" },
+            "ablation_receipts_sha256": { "$ref": "#/$defs/sha256" },
+            "passed": { "const": true }
+          }
+        },
+        "later_correction": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "harm_receipts_sha256",
+            "revised_policy_sha256",
+            "recovery_receipts_sha256",
+            "preserved_correction_capacity"
+          ],
+          "properties": {
+            "harm_receipts_sha256": { "$ref": "#/$defs/sha256" },
+            "revised_policy_sha256": { "$ref": "#/$defs/sha256" },
+            "recovery_receipts_sha256": { "$ref": "#/$defs/sha256" },
+            "preserved_correction_capacity": { "const": true }
+          }
+        }
+      }
+    },
     "world": {
       "type": "object",
       "additionalProperties": false,
