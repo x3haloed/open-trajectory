@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0016-constrained-sampler-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4231106,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c954a91f0e86ce68f96fd4772731f30cd32477b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0016",
+  "input_manifests": [],
+  "kind": "sampler-study",
+  "limitations": [
+    "Controller-only constrained-world feasibility study; no candidate actor outputs and no OT-1 claim.",
+    "Establishes constructibility and sampling cost only; admissibility constraints are evaluator-owned and actor-blinded."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0016-constrained-sampler-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2c91e56f22315934f4ca667861e1f518c42e6faf922e018bc73fb12bdb89589b"
+}

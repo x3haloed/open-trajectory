@@ -184,6 +184,22 @@ A sanitized pilot may validate observability and branch construction only. It
 must use non-candidate fixtures and cannot tune scoring thresholds or useful
 selection operations.
 
+### Adversarial readiness review
+
+The crossed design specifies estimands and controls but does not yet specify a
+candidate credit-assignment mechanism. Building the full seven-carrier by
+four-selector crossing first would therefore multiply branches around an
+undefined update path and could not show that consequences caused selector
+revision. OT-0016 develops a controller-owned counterfactual
+challenge/decision mechanism as a separate prerequisite.
+
+OT-0015 must remain unfrozen until that or another materially distinct credit
+mechanism passes its own non-candidate causal-slice test, the task family has a
+prospective controller-only power analysis, and the semantics of mechanical
+translation, normalization, and self-evaluation ablation are executable rather
+than verbal. Failure of that prerequisite narrows the OT-0016 mechanism; it
+does not reject either OT-0015 hypothesis.
+
 ## Privacy and storage review
 
 Raw prompts, outcomes, model responses, reasoning, selector proposals, carrier
@@ -234,8 +250,10 @@ and role assignments are frozen.
 
 Current disposition: `unexecuted`.
 
-The immediate next step is adversarial protocol review, followed by a minimal
-synthetic task-family design and machine-readable acceptance draft. This record
+The adversarial review found that a candidate credit-assignment mechanism is a
+prerequisite; OT-0016 now develops that smaller causal slice. After it is
+resolved, the next OT-0015 step is a minimal synthetic task-family design and
+machine-readable acceptance draft. This record
 does not reinterpret OT-0014, change a frozen gate, establish phenomenology or
 identity, or promote OT-1. Even a successful joint interaction would remain
 bounded to the tested trajectories, carrier grammar, selector implementation,

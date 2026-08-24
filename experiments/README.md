@@ -11,3 +11,7 @@ Current unexecuted protocol drafts:
 - [`OT-0015-crossed-scar-selector.md`](OT-0015-crossed-scar-selector.md) —
   crosses subject-relative scar carriers with selector identity while keeping
   scar and selector verdicts separate.
+- [`OT-0016-counterfactual-challenger-credit.md`](OT-0016-counterfactual-challenger-credit.md)
+  — tests whether controller-owned paired consequences can support an
+  actor-authored selector challenge and receipt-bound commit before the larger
+  OT-0015 factorial is frozen.

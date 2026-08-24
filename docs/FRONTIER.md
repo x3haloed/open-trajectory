@@ -20,6 +20,14 @@ design. A successor should introduce a materially different credit-assignment
 mechanism while preserving deterministic selector attribution; simply adding
 more samples, repair attempts, or expression depth is not a credible next step.
 
+OT-0016 is the active mechanism-development path. It keeps deterministic
+selector execution but changes credit assignment: an actor-authored challenger
+is compared with the current selector on the same released calibration contact
+before a controller replays the actor's prospectively authored decision
+expression and makes the receipt-bound commit. OT-0015 remains an unfrozen
+crossed carrier/selector design and is gated on a credible smaller credit
+mechanism rather than being expanded first.
+
 Evidence pointers:
 
 - `evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json`
@@ -54,6 +62,35 @@ before candidate outputs.
 No OT-0004 or OT-0005 score is current OT-1 evidence. OT-0005's deterministic
 replay and placebo receipts survive as substrate evidence only.
 
+OT-0016 has no acceptance scores or candidate outputs. Its fixed public unit
+fixture verifies only proposal, paired deterministic comparison, receipt
+integrity, decision binding, and commit authority. Numeric gates require a
+prospective controller-only distributional power study over fresh task
+manifests; an absolute score from one generated manifest is not a stable gate.
+
+The first 256-manifest power study rejected the unconditioned OT-0005 world for
+OT-0016. Contact-selected controls were informative and harm/recovery
+transitions were common, but the per-stage fixed-control oracle gained only
+1.824 mean errors over the best static control and reached a two-error advantage
+in only 51.95% of manifests, below the prospectively recorded 2-error mean and
+75% frequency gates. The next world must make changing selection materially
+necessary; the failed gates must not be relaxed or reinterpreted.
+
+A separate prospectively constrained sampler passed its 64-manifest
+feasibility gate without candidate actors. All manifests met the stronger
+per-task pressure constraints; mean generation cost was 10.875 attempts, p95
+was 29, and the maximum was 36 of 128. This establishes an affordable task
+distribution, not OT-1 evidence. Its evaluator-owned fixed-control identities
+must remain absent from actor prompts and workspaces.
+
+The OT-0016 live carrier slice is also feasible. Pilot 001 preserved a prompt-
+language failure; pilot 002 completed the mechanism but preserved a proxy
+shutdown error; pilot 003, with a bounded one-second forwarding drain, passed
+with one fresh Luna turn, zero tools, exact model/Response/inventory receipts,
+zero collector errors, deterministic decision replay, and a receipt-bound
+commit on a fixed public non-candidate fixture. These are development results,
+not hidden-task or OT-1 evidence.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -83,3 +120,8 @@ or relaxing OT-0005 after seeing its result.
 - A prose-to-program compiler remains unjustified: unless its semantic
   authority is causally bounded, observed gains would belong to the compiler
   rather than the proposing actor.
+- The randomized OT-0005 task distribution was expected to support a stronger
+  changing-selector comparison than its fixed controls. OT-0016's powered
+  sample showed that one frozen control often remained close to the per-stage
+  oracle. This rejects unconditioned reuse of that world, not counterfactual
+  challenger credit.

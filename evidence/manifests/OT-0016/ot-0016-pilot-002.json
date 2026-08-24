@@ -1,0 +1,33 @@
+{
+  "artifact_id": "ot-0016-pilot-002",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16092,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c954a91f0e86ce68f96fd4772731f30cd32477b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0016",
+  "input_manifests": [],
+  "kind": "live-pilot",
+  "limitations": [
+    "Non-candidate one-turn carrier pilot; full causal slice completed but the frozen zero-collector-error gate failed.",
+    "One generic upstream-forwarding collector error remained after a completed schema-valid actor turn with model, Response, and inventory receipts.",
+    "No candidate task or OT-1 claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0016-pilot-002",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6e726e82c32d4932fceeb3cbab6188bc054cd3e3471a16f20c8534e025599109"
+}

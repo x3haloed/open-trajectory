@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "committed-program",
+    "unchanged-current",
+    "fixed-most-recent",
+    "fixed-first-seen-verbatim",
+    "fixed-naive-nearest",
+    "no-persistence"
+  ],
+  "phases": [
+    {
+      "phase": "stage-0",
+      "condition_order": {
+        "worker-1": ["committed-program", "unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence"],
+        "worker-2": ["fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "committed-program", "unchanged-current", "fixed-most-recent"]
+      }
+    },
+    {
+      "phase": "stage-1",
+      "condition_order": {
+        "worker-1": ["unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "committed-program"],
+        "worker-2": ["fixed-naive-nearest", "no-persistence", "committed-program", "unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim"]
+      }
+    },
+    {
+      "phase": "stage-2",
+      "condition_order": {
+        "worker-1": ["fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "committed-program", "unchanged-current"],
+        "worker-2": ["no-persistence", "committed-program", "unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest"]
+      }
+    },
+    {
+      "phase": "stage-3",
+      "condition_order": {
+        "worker-1": ["fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "committed-program", "unchanged-current", "fixed-most-recent"],
+        "worker-2": ["committed-program", "unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence"]
+      }
+    },
+    {
+      "phase": "stage-4",
+      "condition_order": {
+        "worker-1": ["fixed-naive-nearest", "no-persistence", "committed-program", "unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim"],
+        "worker-2": ["unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "committed-program"]
+      }
+    },
+    {
+      "phase": "stage-5",
+      "condition_order": {
+        "worker-1": ["no-persistence", "committed-program", "unchanged-current", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest"],
+        "worker-2": ["fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "committed-program", "unchanged-current"]
+      }
+    }
+  ],
+  "stage_causal_order": [
+    "fresh-proposal-from-prior-stage-receipt",
+    "seal-current-and-challenger-contact-predictions",
+    "reveal-contact-outcomes-and-issue-comparison-receipt",
+    "replay-true-and-credit-neutralized-decision-rule",
+    "controller-commit-exact-true-choice",
+    "seal-counterbalanced-heldout-and-preupdate-parent-branches",
+    "reveal-heldout-outcomes-and-issue-next-stage-receipt"
+  ],
+  "ordering": "Across both workers every scored heldout condition occupies every serial position exactly twice. Identity placebos, contact comparison, credit neutralization, and protected preupdate-parent ablation are controller-deterministic auxiliary branches executed outside the scored-condition rotation and before any relevant outcome is released."
+}

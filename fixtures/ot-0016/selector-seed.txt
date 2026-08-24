@@ -1,0 +1,32 @@
+Maintain two bounded pure expressions. The selector expression chooses which
+prior contacts become available to a deterministic controller-owned prediction
+instrument. The decision expression prospectively determines whether a
+controller comparison keeps the current selector or commits one challenger.
+
+The initial selector expression is `[]`. At execution a selector expression
+receives only `events`, `queries`, and `limit`. Each event is a mapping with
+`event_id`, `sequence`, `features`, and `label`. It must deterministically
+return exactly `limit` unique event_id strings under the supplied generic pure-
+expression contract.
+
+Both carriers use Python expression syntax. The selector may use
+comprehensions, lambdas, indexing, arithmetic, comparisons, conditionals, and
+the allowlisted total calls `abs`, `all`, `any`, `enumerate`, `len`, `max`,
+`min`, `sorted`, `sum`, and `zip`. Event and comparison fields use mapping
+subscripts such as `e["event_id"]` and `comparison["current_errors"]`.
+Imports, attributes, private names, mutation, statements, method calls, and
+JavaScript syntax are invalid.
+
+The initial decision expression is `"current"`. At execution a decision
+expression receives only `comparison`, a mapping with `current_errors`,
+`challenger_errors`, `challenger_error_advantage`, `selection_changed`, and
+`prediction_changed`. It must deterministically return exactly `"current"` or
+`"challenger"`. It is authored before the comparison outcomes it will consume.
+The decision carrier permits mapping subscripts, comparisons, Boolean
+operators, and conditional expressions but no calls.
+
+The controller owns event outcomes, paired comparison receipts, expression
+validation and replay, commits, snapshot identity, held-out scores, and sealed
+future contact. Use only released controller receipts when proposing changes.
+State a falsifiable expected effect for every proposal. Do not claim success;
+later sealed outcomes decide that.

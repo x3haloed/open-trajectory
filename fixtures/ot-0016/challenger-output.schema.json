@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "cheapest_falsifier": {
+      "maxLength": 512,
+      "minLength": 1,
+      "type": "string"
+    },
+    "decision_expression": {
+      "maxLength": 512,
+      "minLength": 1,
+      "type": "string"
+    },
+    "expected_effect": {
+      "maxLength": 512,
+      "minLength": 1,
+      "type": "string"
+    },
+    "selector_expression": {
+      "maxLength": 2048,
+      "minLength": 1,
+      "type": "string"
+    }
+  },
+  "required": [
+    "selector_expression",
+    "decision_expression",
+    "expected_effect",
+    "cheapest_falsifier"
+  ],
+  "type": "object"
+}

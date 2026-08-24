@@ -1,0 +1,14 @@
+Current committed selector expression:
+{{SELECTOR_EXPRESSION}}
+
+Current committed decision expression:
+{{DECISION_EXPRESSION}}
+
+Protected controller receipt from completed earlier contact:
+{{PRIOR_RECEIPT}}
+
+Prospectively author one bounded selector challenger and the bounded decision
+expression that will evaluate its future paired controller receipt. You will
+not see that future comparison before both expressions seal. Return only
+schema-conforming JSON. Do not claim success; state the expected later effect
+and cheapest falsifier.

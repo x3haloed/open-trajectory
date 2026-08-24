@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0016-inherited-world-power-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 14236550,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c954a91f0e86ce68f96fd4772731f30cd32477b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0016",
+  "input_manifests": [],
+  "kind": "power-study",
+  "limitations": [
+    "Controller-only task-family viability study; no candidate actor outputs and no OT-1 claim.",
+    "Rejects reuse of the inherited OT-0005 world under the frozen OT-0016 pre-candidate gate only."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0016-inherited-world-power-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "25a7eb1fceb712c56bd40018b1d2c886a2f0868d7ccaa96ded583e26cd57d369"
+}

@@ -1,0 +1,21 @@
+Judge only whether at least one causally useful committed selector expression
+implements a materially used selection operation absent from both null seeds
+and not supplied by the carrier contract.
+
+Pass only if all are true:
+1. The selector expression implements a concrete inclusion, exclusion,
+   weighting, comparison, consolidation, or update operation.
+2. The operation is not semantically present in `[]` or `"current"` and is not
+   merely an allowed syntax primitive, event-field name, comparison-field name,
+   or generic instruction to use independently retained outcomes.
+3. Deterministic receipts show that the selector changed selected event
+   identities relative to its protected unchanged snapshot.
+4. Deterministic changed-versus-unchanged scores show the frozen material
+   heldout benefit.
+5. The exact decision rule chose the challenger under true credit and did not
+   choose it under the frozen credit-neutralization ablation.
+6. The claimed novelty is not a new label, paraphrase, self-report, unused
+   subexpression, or researcher-supplied fixed control.
+
+You may not alter world outcomes, deterministic scores, selector or decision
+commits, ablations, or any causal gate. Return only schema-conforming JSON.

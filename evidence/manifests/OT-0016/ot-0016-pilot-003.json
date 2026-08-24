@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0016-pilot-003",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16352,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c954a91f0e86ce68f96fd4772731f30cd32477b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0016",
+  "input_manifests": [],
+  "kind": "live-pilot",
+  "limitations": [
+    "Successful one-turn public non-candidate causal-slice pilot only; no hidden candidate task, temporal learning chain, or OT-1 claim.",
+    "The bounded proxy-drain setup is a harness-lifecycle result, not evidence about selector quality."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0016-pilot-003",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "dff4c75042ba08771de3f52ffc64b7e7c886581cfbd8d0c6a16a8ad40fd12171"
+}
