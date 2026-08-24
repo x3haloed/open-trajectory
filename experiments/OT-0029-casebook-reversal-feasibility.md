@@ -43,3 +43,8 @@ full fixed-control family or selector-change ablation, promote OT-1, or renew
 E4. Actor output is forbidden until a clean implementation commit and separate
 run-lock commit bind every authority. OT-0029 is not adjusted after output. A
 frozen failure closes the casebook reversal path.
+
+The clean protocol and implementation commit is
+`3b361ace5e5ff58273df0100df567eda5b3784f2`.
+`spec/ot-0029-run-lock.json` binds it and every runtime authority before the
+first hosted reversal output.
