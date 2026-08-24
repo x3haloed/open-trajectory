@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0029",
+  "purpose": "public non-candidate later-regime casebook contradiction and reversal feasibility",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "actor_model": "gpt-5.6-luna",
+  "fresh_actor_encounters": 2,
+  "selection_limit": 6,
+  "minimum_inherited_errors_each": 12,
+  "maximum_revised_errors_each": 4,
+  "minimum_error_advantage_each": 8,
+  "ledger_entry_limit": 5,
+  "ledger_byte_limit": 49152,
+  "actor_tool_calls_allowed": 0,
+  "actor_parse_failures_allowed": 0,
+  "actor_input_tokens_total": 70000,
+  "actor_output_tokens_total": 7000,
+  "maximum_run_seconds": 300,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "promotion_gate": [
+    "the exact OT-0028 source artifact and useful inherited casebook, later contradictory encounter, bounded consequence projection, fresh sealed canary, unchanged exemplar carrier, objective, prompt, scoring, backend, resources, and run lock are frozen before output",
+    "the inherited casebook incurs at least twelve errors in the later regime before any revision and its source correction replays transitively through OT-0027",
+    "each actor authors every revised anchor, mask, radius, and priority before the later canary, commits changed state, and changes selection and prediction",
+    "each revision deterministically retains six canary events, scores at most four errors, and gains at least eight errors over the unchanged contradicted casebook",
+    "both encounters use fresh threads and workspaces, zero tools, exact Luna and inventory receipts, one Response identity per turn, cross-turn distinctness, one catalog ETag, and zero collector errors",
+    "all source replay, projection identity, parse, deterministic replay, identity, token, time, test, privacy, and evidence gates pass"
+  ],
+  "claim_limit": "development feasibility of later-regime casebook contradiction, reversal, and canary only; not OT-1 evidence and not E4 authorization"
+}

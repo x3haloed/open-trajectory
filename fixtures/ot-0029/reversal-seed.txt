@@ -1,0 +1,16 @@
+Revise or replace the inherited exemplar casebook to minimize future held-out
+query prediction errors after the completed later encounter contradicted it.
+The downstream controller deterministically selects the parity hypothesis with
+the fewest errors on retained events, breaking ties by fewer active features,
+then mask identity and bias.
+
+The casebook carrier is unchanged. Each exemplar anchors to one distinct event
+from the completed regime-shift encounter and authors a four-Boolean feature
+mask, integer Hamming radius 0–4, and integer priority -16–16. Matching
+priorities sum; the controller retains the six highest-scoring future events
+with stable sequence and identity ties. Author one through eight exemplars.
+
+The inherited casebook, its later selection, and independently scored query
+consequences are trajectory state. The controller owns outcomes, exact
+interpretation, scoring, and snapshot identity; it supplies no noise pattern,
+useful revision, strategy menu, or future result.

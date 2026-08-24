@@ -316,6 +316,15 @@ operation formation, later harmful regime contradiction, revision, a subsequent
 canary, unchanged/fixed controls, and selector-change ablation in one complete
 causal path before any OT-1 claim or evaluator authorization.
 
+OT-0029 freezes that next causal link on the first actual useful OT-0028
+trajectory. A later encounter corrupts only the archive labels on the six
+feature patterns selected by the inherited casebook, causing sixteen query
+errors without changing the independent target relation. Two fresh actors
+receive its bounded contradictory consequences and must revise before a sealed
+later canary. This tests harmful later contact, reversal, and post-revision
+behavior, but still lacks the full fixed-control and ablation family required
+for OT-1 or E4.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

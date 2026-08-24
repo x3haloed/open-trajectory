@@ -1,0 +1,597 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0029",
+  "selection_limit": 6,
+  "prior_completed_encounter": {
+    "archive": [
+      {
+        "event_id": "shift9-event-0",
+        "sequence": 0,
+        "features": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "shift9-event-1",
+        "sequence": 1,
+        "features": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "shift9-event-2",
+        "sequence": 2,
+        "features": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-3",
+        "sequence": 3,
+        "features": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "shift9-event-4",
+        "sequence": 4,
+        "features": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-5",
+        "sequence": 5,
+        "features": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "shift9-event-6",
+        "sequence": 6,
+        "features": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-7",
+        "sequence": 7,
+        "features": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-8",
+        "sequence": 8,
+        "features": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-9",
+        "sequence": 9,
+        "features": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "shift9-event-10",
+        "sequence": 10,
+        "features": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-11",
+        "sequence": 11,
+        "features": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-12",
+        "sequence": 12,
+        "features": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-13",
+        "sequence": 13,
+        "features": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-14",
+        "sequence": 14,
+        "features": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "shift9-event-15",
+        "sequence": 15,
+        "features": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": 1
+      }
+    ],
+    "queries": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "outcomes": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  },
+  "sealed_pilot_evaluation": {
+    "archive": [
+      {
+        "event_id": "sealed9-event-0",
+        "sequence": 0,
+        "features": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "sealed9-event-1",
+        "sequence": 1,
+        "features": [
+          1,
+          0,
+          0,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "sealed9-event-2",
+        "sequence": 2,
+        "features": [
+          0,
+          1,
+          0,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-3",
+        "sequence": 3,
+        "features": [
+          1,
+          1,
+          0,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "sealed9-event-4",
+        "sequence": 4,
+        "features": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-5",
+        "sequence": 5,
+        "features": [
+          1,
+          0,
+          1,
+          0
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "sealed9-event-6",
+        "sequence": 6,
+        "features": [
+          0,
+          1,
+          1,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-7",
+        "sequence": 7,
+        "features": [
+          1,
+          1,
+          1,
+          0
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-8",
+        "sequence": 8,
+        "features": [
+          0,
+          0,
+          0,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-9",
+        "sequence": 9,
+        "features": [
+          1,
+          0,
+          0,
+          1
+        ],
+        "label": 1
+      },
+      {
+        "event_id": "sealed9-event-10",
+        "sequence": 10,
+        "features": [
+          0,
+          1,
+          0,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-11",
+        "sequence": 11,
+        "features": [
+          1,
+          1,
+          0,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-12",
+        "sequence": 12,
+        "features": [
+          0,
+          0,
+          1,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-13",
+        "sequence": 13,
+        "features": [
+          1,
+          0,
+          1,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-14",
+        "sequence": 14,
+        "features": [
+          0,
+          1,
+          1,
+          1
+        ],
+        "label": 0
+      },
+      {
+        "event_id": "sealed9-event-15",
+        "sequence": 15,
+        "features": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "label": 1
+      }
+    ],
+    "queries": [
+      [
+        0,
+        0,
+        0,
+        0
+      ],
+      [
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        1,
+        0
+      ],
+      [
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        0,
+        0,
+        0,
+        1
+      ],
+      [
+        1,
+        0,
+        0,
+        1
+      ],
+      [
+        0,
+        1,
+        0,
+        1
+      ],
+      [
+        1,
+        1,
+        0,
+        1
+      ],
+      [
+        0,
+        0,
+        1,
+        1
+      ],
+      [
+        1,
+        0,
+        1,
+        1
+      ],
+      [
+        0,
+        1,
+        1,
+        1
+      ],
+      [
+        1,
+        1,
+        1,
+        1
+      ]
+    ],
+    "outcomes": [
+      0,
+      0,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ]
+  }
+}

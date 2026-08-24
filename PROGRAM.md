@@ -224,6 +224,10 @@ Initial sequence:
   Both independently committed different revisions and reduced error from
   eight to zero with every frozen gate passing. This establishes one public
   development correction slice only, with no OT-1 or E4 authority.
+- **OT-0029:** continue the first useful OT-0028 casebook into a frozen later
+  encounter that makes its selected patterns harmful, then require two fresh
+  actors to revise or replace it before a sealed canary. This public reversal
+  slice is frozen and has no OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;
