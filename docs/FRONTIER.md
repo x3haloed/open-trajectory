@@ -305,6 +305,17 @@ consequences. The task objective is stated precisely, as allowed by the target;
 the useful revision and future result remain absent. This is a one-correction
 development slice, not OT-1 or E4 evidence.
 
+OT-0028 passed every frozen gate. Two fresh actors inherited the same real
+failed OT-0027 state and bounded query-error consequences, then committed
+different casebooks, selected different future sets, and independently reduced
+error from eight to zero. This resolves the immediate credit-assignment
+prediction error: exact downstream loss and temporal consequence state can
+induce useful correction where raw null-selector traces did not. The result is
+still only one same-regime correction. A decisive successor must join initial
+operation formation, later harmful regime contradiction, revision, a subsequent
+canary, unchanged/fixed controls, and selector-change ablation in one complete
+causal path before any OT-1 claim or evaluator authorization.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -401,6 +412,16 @@ selected the same non-discriminative set for zero advantage.
 Revised model: representational exactness does not repair the missing credit
 assignment from selection consequences to downstream discriminative value.
 Further direct carriers are unlikely to distinguish a useful mechanism.
+
+Expected: carrying the actual failed casebook plus exact downstream query-error
+consequences and the permitted prediction objective would cause fresh actors to
+correct the positive-label proxy.
+Observed: both actors committed distinct six-exemplar revisions, selected
+different future sets, and reduced error from eight to zero.
+Revised model: differentiated temporal credit is the active causal mechanism;
+the remaining uncertainty is whether it supports invention, later reversal,
+and preserved correction across changing regimes rather than one same-regime
+repair.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

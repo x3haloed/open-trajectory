@@ -221,7 +221,9 @@ Initial sequence:
   carrier. Two fresh actors inherit the first actual failed OT-0027 casebook
   and its bounded independently scored query consequences, then revise it under
   the unchanged exact exemplar semantics and explicit permitted task objective.
-  This public correction slice is frozen and has no OT-1 or E4 authority.
+  Both independently committed different revisions and reduced error from
+  eight to zero with every frozen gate passing. This establishes one public
+  development correction slice only, with no OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

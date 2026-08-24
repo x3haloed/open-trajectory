@@ -1,6 +1,6 @@
 # OT-0028 — Consequence-induced casebook correction feasibility
 
-- **Status:** frozen; hosted output forbidden until the run lock is committed
+- **Status:** passed as frozen; development correction slice only
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development correction feasibility only
 - **Predecessor:** OT-0027 valid casebooks with convergent zero-advantage behavior
@@ -52,3 +52,28 @@ The clean protocol and implementation commit is
 `31c414353407a4dd5ad839d66b6f6547f8b685ad`.
 `spec/ot-0028-run-lock.json` binds it and every runtime authority before the
 first hosted continuation output.
+
+## Results and decision
+
+Both fresh continuation actors independently revised the same inherited failed
+casebook. Each committed a different six-exemplar snapshot, selected a future
+event set different from the inherited branch and from the other actor, changed
+downstream predictions, and reduced error from eight to zero for an eight-error
+advantage. Deterministic replay and every parse, tool, freshness, exact-model,
+inventory, Response, ETag, collector, token, time, test, audit, privacy, source-
+replay, and evidence gate passed.
+
+OT-0028 therefore establishes the bounded development claim: an exact
+projection of a real prior casebook and its independently scored downstream
+errors, together with the permitted task objective, can cause reproducible
+useful revision in fresh instances. The result is stronger than a carrier pass
+and directly resolves OT-0027's positive-label proxy error.
+
+It still does not show initial invention followed by a later regime that makes
+the learned operation harmful, revision under that contradiction, a canary for
+preserved further correction, fixed-control superiority, selector-change
+ablation, OT-1, or E4 authority. The next credible step is a complete public
+multi-regime casebook sequence before seeking a fresh evaluator authorization.
+
+Evidence manifest:
+`evidence/manifests/OT-0028/ot-0028-casebook-correction-pilot-001.json`.
