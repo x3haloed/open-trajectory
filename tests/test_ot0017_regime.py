@@ -14,6 +14,7 @@ from open_trajectory_harness.ot0017_regime import (
     find_exact_witness,
     summarize,
     summarize_construction,
+    summarize_direct_construction,
 )
 
 
@@ -123,6 +124,44 @@ class OT0017RegimeTests(unittest.TestCase):
             for _ in range(16)
         ]
         result = summarize_construction(receipts)
+        self.assertFalse(result["viable"])
+        self.assertEqual(result["observations"]["completed_witnesses"], 0)
+        self.assertTrue(result["gates"]["trial_count"])
+
+    def test_direct_construction_gate_requires_semantic_diversity(self) -> None:
+        receipts = [
+            {
+                "success": True,
+                "evaluations": 10,
+                "semantic_fingerprint": "same",
+                "rule_profile": f"rule-{index}",
+                "split_queries_separated": True,
+                "schema_valid": True,
+                "planned_witness": {"passes": True},
+                "exact_witness": {"passes": True},
+            }
+            for index in range(16)
+        ]
+        result = summarize_direct_construction(receipts)
+        self.assertFalse(result["viable"])
+        self.assertFalse(result["gates"]["unique_semantic_manifests"])
+        self.assertTrue(result["gates"]["unique_rule_profiles"])
+
+    def test_direct_construction_failures_are_retained(self) -> None:
+        receipts = [
+            {
+                "success": False,
+                "evaluations": 20_000,
+                "semantic_fingerprint": None,
+                "rule_profile": None,
+                "split_queries_separated": False,
+                "schema_valid": False,
+                "planned_witness": None,
+                "exact_witness": None,
+            }
+            for _ in range(16)
+        ]
+        result = summarize_direct_construction(receipts)
         self.assertFalse(result["viable"])
         self.assertEqual(result["observations"]["completed_witnesses"], 0)
         self.assertTrue(result["gates"]["trial_count"])

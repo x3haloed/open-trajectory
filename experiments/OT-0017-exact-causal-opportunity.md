@@ -86,6 +86,35 @@ reviewer judgments are outside this controller-only study.
 Raw manifests and witnesses go directly to `$EVIDENCE`. Tracked evidence may
 contain only the content-addressed manifest and aggregate incidence summary.
 
+## Prospective direct-synthesis feasibility study
+
+Before inspecting any direct-constructor result, freeze a finite controller-
+only constraint constructor for the unchanged private pressure path. It samples
+three distinct private parity rules, biases, and exception identities, then
+constructs each stage from local sufficient conditions: an identifying stable
+set, exception-sensitive nearest evidence, an underdetermined nearest selector
+followed by a rule-identifying recent set, stable drift confirmation, separated
+clean/noisy selections at the harm stage, and a rule-identifying canary. The
+constructor may enumerate only those local constraints. It may not mutate a
+completed world, relax the exact witness, inspect candidate output, or expose
+fixed-control identities to an actor.
+
+Run exactly 16 tasks from independently derived fresh seeds, without
+intermediate result inspection. Preserve the mutation pilot's frozen cost
+limits: every task must finish within 20,000 counted constraint candidates,
+mean cost must be at most 5,000, and p95 at most 10,000. All 16 must validate
+against the inherited task schema, replay both the planned path and an exact E4
+witness, use distinct contact and heldout query sets at every stage, and have
+unique semantic fingerprints after salts and event identities are removed.
+All 16 private rule profiles must also be unique. Failures and their exhausted
+budgets remain in the raw receipt set.
+
+This study is the cheapest falsifier of direct synthesis at acceptable cost.
+Failure closes the finite constructor as written. Success establishes only
+construction feasibility and permits a separately frozen 64-task fresh heldout
+anchor study. It does not promote E4, authorize a candidate actor, or reuse any
+feasibility task in promotion evidence.
+
 ## Results and decision
 
 The frozen study rejected simple unconditioned sampling. All 256 generated

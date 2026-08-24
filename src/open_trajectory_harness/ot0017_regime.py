@@ -2,10 +2,11 @@ from __future__ import annotations
 
 import argparse
 import copy
+import hashlib
 import json
 import random
 import secrets
-from itertools import product
+from itertools import combinations, product
 from pathlib import Path
 from typing import Any
 
@@ -50,6 +51,13 @@ CONSTRUCTION_PLAN = (
 CONSTRUCTION_TASKS = 16
 CONSTRUCTION_MAX_EVALUATIONS = 20_000
 CONSTRUCTION_GATE = {
+    "required_successes": 16,
+    "maximum_mean_evaluations": 5_000,
+    "maximum_p95_evaluations": 10_000,
+}
+DIRECT_CONSTRUCTION_TASKS = 16
+DIRECT_CONSTRUCTION_MAX_EVALUATIONS = 20_000
+DIRECT_CONSTRUCTION_GATE = {
     "required_successes": 16,
     "maximum_mean_evaluations": 5_000,
     "maximum_p95_evaluations": 10_000,
@@ -239,9 +247,7 @@ def find_exact_witness(
 
 
 def construction_penalty(tables: list[dict[str, Any]]) -> int:
-    summary = _path_summary(
-        _evaluate_path(tables, CONSTRUCTION_PLAN), tables, SCORING
-    )
+    summary = _path_summary(_evaluate_path(tables, CONSTRUCTION_PLAN), tables, SCORING)
     records = summary["records"]
     penalty = 0
     expected_current = (SEED, *CONSTRUCTION_PLAN[:-1])
@@ -267,8 +273,7 @@ def construction_penalty(tables: list[dict[str, Any]]) -> int:
     )
     penalty += max(
         0,
-        SCORING["correction_error_recovery_required"]
-        - correction["heldout_advantage"],
+        SCORING["correction_error_recovery_required"] - correction["heldout_advantage"],
     )
     penalty += max(
         0,
@@ -303,7 +308,9 @@ def _renumber_events(manifest: dict[str, Any]) -> None:
             sequence += 1
 
 
-def _stage_rule(manifest: dict[str, Any], stage_index: int) -> tuple[list[int], int, set[tuple[int, ...]]]:
+def _stage_rule(
+    manifest: dict[str, Any], stage_index: int
+) -> tuple[list[int], int, set[tuple[int, ...]]]:
     kind = STAGE_KINDS[stage_index]
     mask_index = 0 if stage_index < 2 else (1 if stage_index < 5 else 2)
     exceptions = (
@@ -333,9 +340,569 @@ def _outcomes(
     ]
 
 
-def _mutate_manifest(
-    manifest: dict[str, Any], rng: random.Random
+class DirectConstructionError(RuntimeError):
+    pass
+
+
+def _direct_manifest(seed: str) -> tuple[dict[str, Any], random.Random]:
+    rng = random.Random(int(seed, 16))
+    masks = [vector for vector in FEATURE_VECTORS if any(vector)]
+    rng.shuffle(masks)
+    exceptions = sorted(rng.sample(list(FEATURE_VECTORS), 2))
+    manifest = {
+        "schema_version": 1,
+        "experiment_id": "OT-0005",
+        "salt": hashlib.sha256(f"{seed}:salt".encode()).hexdigest()[:32],
+        "rules": {
+            "masks": [list(mask) for mask in masks[:3]],
+            "biases": [rng.randrange(2) for _ in range(3)],
+            "exceptions": [list(value) for value in exceptions],
+        },
+        "stages": [],
+    }
+    return manifest, rng
+
+
+def _selected_predictions(
+    manifest: dict[str, Any],
+    stage_index: int,
+    features: tuple[tuple[int, ...], ...],
+) -> list[int]:
+    labels = _outcomes(manifest, stage_index, [list(value) for value in features])
+    events = [
+        {
+            "event_id": f"local-{index}",
+            "sequence": index,
+            "features": list(value),
+            "label": label,
+        }
+        for index, (value, label) in enumerate(zip(features, labels))
+    ]
+    return deterministic_predictions(events, [list(value) for value in FEATURE_VECTORS])
+
+
+def _identifies_stage_rule(
+    manifest: dict[str, Any],
+    stage_index: int,
+    features: tuple[tuple[int, ...], ...],
+) -> bool:
+    return _selected_predictions(manifest, stage_index, features) == _outcomes(
+        manifest, stage_index, [list(value) for value in FEATURE_VECTORS]
+    )
+
+
+def _find_identifying_set(
+    manifest: dict[str, Any],
+    stage_index: int,
+    candidates: tuple[tuple[int, ...], ...],
+    rng: random.Random,
+    counter: dict[str, int],
+) -> tuple[tuple[int, ...], ...]:
+    choices = list(combinations(candidates, 6))
+    rng.shuffle(choices)
+    for choice in choices:
+        counter["evaluations"] += 1
+        if _identifies_stage_rule(manifest, stage_index, choice):
+            return choice
+    raise DirectConstructionError(f"stage-{stage_index}-identifying-set")
+
+
+def _assemble_feature_sequence(
+    rng: random.Random,
+    *,
+    prefix: tuple[tuple[int, ...], ...] = (),
+    middle_tail: tuple[tuple[int, ...], ...] = (),
+    suffix: tuple[tuple[int, ...], ...] = (),
+) -> list[tuple[int, ...]]:
+    pinned = (*prefix, *middle_tail, *suffix)
+    missing = [value for value in FEATURE_VECTORS if value not in pinned]
+    slots = 24 - len(pinned)
+    if slots < len(missing):
+        raise DirectConstructionError("pinned-event-schedule-cannot-cover-domain")
+    fillers = list(missing)
+    fillers.extend(rng.choices(list(FEATURE_VECTORS), k=slots - len(missing)))
+    rng.shuffle(fillers)
+    return [*prefix, *fillers, *middle_tail, *suffix]
+
+
+def _stage_events(
+    manifest: dict[str, Any],
+    stage_index: int,
+    feature_sequence: list[tuple[int, ...]],
+    seed: str,
+    noisy_positions: set[int] | None = None,
+) -> list[dict[str, Any]]:
+    noisy_positions = noisy_positions or set()
+    labels = _outcomes(
+        manifest, stage_index, [list(value) for value in feature_sequence]
+    )
+    return [
+        {
+            "event_id": "event-"
+            + hashlib.sha256(f"{seed}:{stage_index}:{index}".encode()).hexdigest()[:12],
+            "sequence": stage_index * 24 + index,
+            "features": list(features),
+            "label": 1 - label if index in noisy_positions else label,
+        }
+        for index, (features, label) in enumerate(zip(feature_sequence, labels))
+    ]
+
+
+def _append_stage(
+    manifest: dict[str, Any],
+    stage_index: int,
+    events: list[dict[str, Any]],
 ) -> dict[str, Any]:
+    stage = {
+        "stage": stage_index,
+        "kind": STAGE_KINDS[stage_index],
+        "events": events,
+        "contact": {"queries": [], "outcomes": []},
+        "heldout": {"queries": [], "outcomes": []},
+    }
+    manifest["stages"].append(stage)
+    return stage
+
+
+def _ordered_split(
+    manifest: dict[str, Any],
+    stage_index: int,
+    queries: tuple[tuple[int, ...], ...],
+    rng: random.Random,
+) -> dict[str, Any]:
+    ordered = list(queries)
+    rng.shuffle(ordered)
+    query_lists = [list(value) for value in ordered]
+    return {
+        "queries": query_lists,
+        "outcomes": _outcomes(manifest, stage_index, query_lists),
+    }
+
+
+def _condition_split(
+    manifest: dict[str, Any], stage_index: int, queries: tuple[tuple[int, ...], ...]
+) -> dict[str, dict[str, Any]]:
+    archive = archive_through_stage(manifest, stage_index)
+    query_lists = [list(value) for value in queries]
+    outcomes = _outcomes(manifest, stage_index, query_lists)
+    result: dict[str, dict[str, Any]] = {}
+    for condition in FIXED_CONDITIONS:
+        identities = fixed_selection(condition, archive, query_lists, 6)
+        predictions = deterministic_predictions(
+            selected_events(archive, identities), query_lists
+        )
+        result[condition] = {
+            "selected_event_ids": identities,
+            "errors": sum(
+                prediction != outcome
+                for prediction, outcome in zip(predictions, outcomes)
+            ),
+        }
+    return result
+
+
+def _different_pressure_queries(
+    positives: list[tuple[int, ...]],
+    negatives: list[tuple[int, ...]],
+    rng: random.Random,
+) -> tuple[tuple[tuple[int, ...], ...], tuple[tuple[int, ...], ...]]:
+    positive_order = list(positives)
+    negative_order = list(negatives)
+    rng.shuffle(positive_order)
+    rng.shuffle(negative_order)
+    contact = tuple([*positive_order[:7], negative_order[0]])
+    heldout = tuple([*positive_order[1:8], negative_order[1]])
+    if set(contact) == set(heldout):
+        raise DirectConstructionError("split-query-separation")
+    return contact, heldout
+
+
+def _stage_truth_partition(
+    manifest: dict[str, Any], stage_index: int
+) -> tuple[list[tuple[int, ...]], list[tuple[int, ...]]]:
+    outcomes = _outcomes(
+        manifest, stage_index, [list(value) for value in FEATURE_VECTORS]
+    )
+    positives = [value for value, outcome in zip(FEATURE_VECTORS, outcomes) if outcome]
+    negatives = [
+        value for value, outcome in zip(FEATURE_VECTORS, outcomes) if not outcome
+    ]
+    if len(positives) != 8 or len(negatives) != 8:
+        raise DirectConstructionError(f"stage-{stage_index}-truth-partition")
+    return positives, negatives
+
+
+def _stage_one_design(
+    manifest: dict[str, Any],
+    rng: random.Random,
+    counter: dict[str, int],
+) -> tuple[
+    tuple[tuple[int, ...], ...],
+    tuple[tuple[int, ...], ...],
+    tuple[tuple[int, ...], ...],
+]:
+    exceptions = tuple(tuple(value) for value in manifest["rules"]["exceptions"])
+    ordinary = [value for value in FEATURE_VECTORS if value not in exceptions]
+    candidates = list(combinations(ordinary, 4))
+    rng.shuffle(candidates)
+    truth = _outcomes(manifest, 1, [list(value) for value in FEATURE_VECTORS])
+    by_feature = dict(zip(FEATURE_VECTORS, truth))
+    for clean in candidates:
+        counter["evaluations"] += 1
+        selected = (*exceptions, *clean)
+        predictions = _selected_predictions(manifest, 1, selected)
+        extras = [
+            value
+            for value in ordinary
+            if value not in clean
+            and predictions[FEATURE_VECTORS.index(value)] == by_feature[value]
+        ]
+        if len(extras) < 3:
+            continue
+        rng.shuffle(extras)
+        contact = (*selected, extras[0], extras[1])
+        heldout = (*selected, extras[0], extras[2])
+        return selected, contact, heldout
+    raise DirectConstructionError("stage-1-exception-sensitive-selection")
+
+
+def _stage_two_design(
+    manifest: dict[str, Any],
+    rng: random.Random,
+    counter: dict[str, int],
+) -> tuple[
+    tuple[tuple[int, ...], ...],
+    tuple[tuple[int, ...], ...],
+    tuple[tuple[int, ...], ...],
+    tuple[int, ...],
+]:
+    positives, negatives = _stage_truth_partition(manifest, 2)
+    designs = [
+        (zero, other_zero, excluded_positive, dropped_positive)
+        for zero in negatives
+        for other_zero in negatives
+        if other_zero != zero
+        for excluded_positive in positives
+        for dropped_positive in positives
+        if dropped_positive != excluded_positive
+    ]
+    rng.shuffle(designs)
+    for zero, other_zero, excluded_positive, dropped_positive in designs:
+        counter["evaluations"] += 1
+        common = [value for value in positives if value != excluded_positive]
+        heldout = tuple([zero, *common])
+        contact = tuple(
+            [
+                zero,
+                other_zero,
+                *[value for value in common if value != dropped_positive],
+            ]
+        )
+        union = set(contact) | set(heldout)
+        recent_candidates = tuple(
+            value for value in FEATURE_VECTORS if value not in union
+        )
+        for recent in combinations(recent_candidates, 6):
+            counter["evaluations"] += 1
+            if _identifies_stage_rule(manifest, 2, recent):
+                return contact, heldout, recent, zero
+    raise DirectConstructionError("stage-2-separated-underdetermination")
+
+
+def _stage_four_queries(
+    manifest: dict[str, Any],
+    rng: random.Random,
+    counter: dict[str, int],
+) -> tuple[tuple[tuple[int, ...], ...], tuple[tuple[int, ...], ...]]:
+    positives, negatives = _stage_truth_partition(manifest, 4)
+    candidates = [
+        tuple([*[value for value in negatives if value != excluded], positive])
+        for excluded in negatives
+        for positive in positives
+    ]
+    rng.shuffle(candidates)
+    qualifying = []
+    for queries in candidates:
+        counter["evaluations"] += 1
+        table = _condition_split(manifest, 4, queries)
+        recent = table["fixed-most-recent"]
+        nearest = table["fixed-naive-nearest"]
+        none = table["no-persistence"]
+        if (
+            recent["errors"] - none["errors"] >= 3
+            and recent["errors"] - nearest["errors"] >= 2
+            and none["errors"] <= 1
+            and recent["selected_event_ids"] != nearest["selected_event_ids"]
+        ):
+            qualifying.append(queries)
+            if len(qualifying) == 2 and set(qualifying[0]) != set(qualifying[1]):
+                return qualifying[0], qualifying[1]
+    raise DirectConstructionError("stage-4-clean-noisy-separation")
+
+
+def _semantic_fingerprint(manifest: dict[str, Any]) -> str:
+    semantic = {
+        "rules": manifest["rules"],
+        "stages": [
+            {
+                "kind": stage["kind"],
+                "events": [
+                    {"features": event["features"], "label": event["label"]}
+                    for event in stage["events"]
+                ],
+                "contact": stage["contact"],
+                "heldout": stage["heldout"],
+            }
+            for stage in manifest["stages"]
+        ],
+    }
+    payload = json.dumps(semantic, sort_keys=True, separators=(",", ":")).encode()
+    return hashlib.sha256(payload).hexdigest()
+
+
+def _rule_profile(manifest: dict[str, Any]) -> str:
+    payload = json.dumps(
+        manifest["rules"], sort_keys=True, separators=(",", ":")
+    ).encode()
+    return hashlib.sha256(payload).hexdigest()
+
+
+def _splits_separated(manifest: dict[str, Any]) -> bool:
+    return all(
+        {tuple(value) for value in stage["contact"]["queries"]}
+        != {tuple(value) for value in stage["heldout"]["queries"]}
+        for stage in manifest["stages"]
+    )
+
+
+def construct_direct_manifest(seed: str) -> dict[str, Any]:
+    if not isinstance(seed, str) or not seed:
+        raise ValueError("direct construction requires a non-empty seed")
+    manifest, rng = _direct_manifest(seed)
+    counter = {"evaluations": 0}
+    try:
+        identifying_zero = _find_identifying_set(
+            manifest, 0, FEATURE_VECTORS, rng, counter
+        )
+        positives, negatives = _stage_truth_partition(manifest, 0)
+        recent_zero = tuple(rng.sample(negatives, 6))
+        events = _stage_events(
+            manifest,
+            0,
+            _assemble_feature_sequence(
+                rng, prefix=identifying_zero, suffix=recent_zero
+            ),
+            seed,
+        )
+        stage = _append_stage(manifest, 0, events)
+        contact, heldout = _different_pressure_queries(positives, negatives, rng)
+        stage["contact"] = _ordered_split(manifest, 0, contact, rng)
+        stage["heldout"] = _ordered_split(manifest, 0, heldout, rng)
+
+        selected_one, contact, heldout = _stage_one_design(manifest, rng, counter)
+        events = _stage_events(
+            manifest,
+            1,
+            _assemble_feature_sequence(rng, suffix=selected_one),
+            seed,
+        )
+        stage = _append_stage(manifest, 1, events)
+        stage["contact"] = _ordered_split(manifest, 1, contact, rng)
+        stage["heldout"] = _ordered_split(manifest, 1, heldout, rng)
+
+        contact, heldout, recent_two, repeated_zero = _stage_two_design(
+            manifest, rng, counter
+        )
+        events = _stage_events(
+            manifest,
+            2,
+            _assemble_feature_sequence(
+                rng,
+                middle_tail=(repeated_zero,) * 6,
+                suffix=recent_two,
+            ),
+            seed,
+        )
+        stage = _append_stage(manifest, 2, events)
+        stage["contact"] = _ordered_split(manifest, 2, contact, rng)
+        stage["heldout"] = _ordered_split(manifest, 2, heldout, rng)
+
+        recent_three = _find_identifying_set(manifest, 3, FEATURE_VECTORS, rng, counter)
+        events = _stage_events(
+            manifest,
+            3,
+            _assemble_feature_sequence(rng, suffix=recent_three),
+            seed,
+        )
+        stage = _append_stage(manifest, 3, events)
+        positives, negatives = _stage_truth_partition(manifest, 3)
+        contact, heldout = _different_pressure_queries(positives, negatives, rng)
+        stage["contact"] = _ordered_split(manifest, 3, contact, rng)
+        stage["heldout"] = _ordered_split(manifest, 3, heldout, rng)
+
+        positives, negatives = _stage_truth_partition(manifest, 4)
+        recent_four = list(rng.sample(positives, 6))
+        positive_pool = [*positives, *positives]
+        for value in recent_four:
+            positive_pool.remove(value)
+        rng.shuffle(positive_pool)
+        rng.shuffle(negatives)
+        rng.shuffle(recent_four)
+        feature_sequence = [*positive_pool, *negatives, *recent_four]
+        events = _stage_events(
+            manifest, 4, feature_sequence, seed, noisy_positions=set(range(9))
+        )
+        stage = _append_stage(manifest, 4, events)
+        contact, heldout = _stage_four_queries(manifest, rng, counter)
+        stage["contact"] = _ordered_split(manifest, 4, contact, rng)
+        stage["heldout"] = _ordered_split(manifest, 4, heldout, rng)
+
+        recent_five = _find_identifying_set(manifest, 5, FEATURE_VECTORS, rng, counter)
+        events = _stage_events(
+            manifest,
+            5,
+            _assemble_feature_sequence(rng, suffix=recent_five),
+            seed,
+        )
+        stage = _append_stage(manifest, 5, events)
+        positives, negatives = _stage_truth_partition(manifest, 5)
+        contact, heldout = _different_pressure_queries(positives, negatives, rng)
+        stage["contact"] = _ordered_split(manifest, 5, contact, rng)
+        stage["heldout"] = _ordered_split(manifest, 5, heldout, rng)
+
+        inherited = dict(manifest)
+        inherited["experiment_id"] = "OT-0004"
+        validate_task_manifest(inherited)
+        tables = control_tables(manifest)
+        planned = _path_summary(
+            _evaluate_path(tables, CONSTRUCTION_PLAN), tables, SCORING
+        )
+        witness = find_exact_witness(tables)
+        if not planned["passes"]:
+            raise DirectConstructionError("planned-path-replay")
+        if witness is None:
+            raise DirectConstructionError("exact-witness-replay")
+        if not _splits_separated(manifest):
+            raise DirectConstructionError("split-query-separation")
+        if counter["evaluations"] > DIRECT_CONSTRUCTION_MAX_EVALUATIONS:
+            raise DirectConstructionError("constraint-evaluation-budget")
+        return {
+            "manifest": manifest,
+            "receipt": {
+                "success": True,
+                "constructor": "direct-local-constraints-v1",
+                "seed": seed,
+                "evaluations": counter["evaluations"],
+                "maximum_evaluations": DIRECT_CONSTRUCTION_MAX_EVALUATIONS,
+                "planned_modes": CONSTRUCTION_PLAN,
+                "planned_witness": planned,
+                "exact_witness": witness,
+                "semantic_fingerprint": _semantic_fingerprint(manifest),
+                "rule_profile": _rule_profile(manifest),
+                "split_queries_separated": True,
+                "schema_valid": True,
+            },
+        }
+    except DirectConstructionError as error:
+        return {
+            "manifest": None,
+            "receipt": {
+                "success": False,
+                "constructor": "direct-local-constraints-v1",
+                "seed": seed,
+                "evaluations": min(
+                    counter["evaluations"], DIRECT_CONSTRUCTION_MAX_EVALUATIONS
+                ),
+                "maximum_evaluations": DIRECT_CONSTRUCTION_MAX_EVALUATIONS,
+                "planned_modes": CONSTRUCTION_PLAN,
+                "failure": str(error),
+                "planned_witness": None,
+                "exact_witness": None,
+                "semantic_fingerprint": None,
+                "rule_profile": None,
+                "split_queries_separated": False,
+                "schema_valid": False,
+            },
+        }
+
+
+def summarize_direct_construction(receipts: list[dict[str, Any]]) -> dict[str, Any]:
+    if not receipts:
+        raise ValueError("direct construction study requires receipts")
+    evaluations = sorted(receipt["evaluations"] for receipt in receipts)
+    p95_index = max(0, (95 * len(evaluations) + 99) // 100 - 1)
+    mean_evaluations = sum(evaluations) / len(evaluations)
+    successes = [receipt for receipt in receipts if receipt["success"]]
+    semantic = {receipt["semantic_fingerprint"] for receipt in successes}
+    rules = {receipt["rule_profile"] for receipt in successes}
+    gates = {
+        "trial_count": len(receipts) == DIRECT_CONSTRUCTION_TASKS,
+        "success_count": len(successes)
+        == DIRECT_CONSTRUCTION_GATE["required_successes"],
+        "unique_semantic_manifests": len(semantic) == len(successes),
+        "unique_rule_profiles": len(rules) == len(successes),
+        "split_query_separation": all(
+            receipt["split_queries_separated"] for receipt in successes
+        ),
+        "inherited_schema": all(receipt["schema_valid"] for receipt in successes),
+        "planned_witnesses": all(
+            receipt["planned_witness"]["passes"] for receipt in successes
+        ),
+        "exact_witnesses": all(
+            receipt["exact_witness"]["passes"] for receipt in successes
+        ),
+        "mean_evaluations": mean_evaluations
+        <= DIRECT_CONSTRUCTION_GATE["maximum_mean_evaluations"],
+        "p95_evaluations": evaluations[p95_index]
+        <= DIRECT_CONSTRUCTION_GATE["maximum_p95_evaluations"],
+        "evaluation_budget": max(evaluations) <= DIRECT_CONSTRUCTION_MAX_EVALUATIONS,
+    }
+    return {
+        "schema_version": 1,
+        "experiment_id": EXPERIMENT_ID,
+        "purpose": "controller-only direct exact-opportunity feasibility",
+        "candidate_outputs_present": False,
+        "construction_gate": DIRECT_CONSTRUCTION_GATE,
+        "observations": {
+            "success_count": len(successes),
+            "completed_witnesses": len(successes),
+            "mean_evaluations": mean_evaluations,
+            "p95_evaluations": evaluations[p95_index],
+            "maximum_evaluations": max(evaluations),
+            "unique_semantic_manifests": len(semantic),
+            "unique_rule_profiles": len(rules),
+        },
+        "gates": gates,
+        "viable": all(gates.values()),
+    }
+
+
+def run_direct_construction_study(
+    tasks: int = DIRECT_CONSTRUCTION_TASKS, master_seed: str | None = None
+) -> dict[str, Any]:
+    if tasks <= 0:
+        raise ValueError("direct construction task count must be positive")
+    master_seed = master_seed or secrets.token_hex(16)
+    task_seeds = [
+        hashlib.sha256(f"{master_seed}:{index}".encode()).hexdigest()[:32]
+        for index in range(tasks)
+    ]
+    constructed = [construct_direct_manifest(seed) for seed in task_seeds]
+    receipts = [
+        {"manifest": item["manifest"], **item["receipt"]} for item in constructed
+    ]
+    return {
+        "schema_version": 1,
+        "experiment_id": EXPERIMENT_ID,
+        "study": "direct-constraint-construction-v1",
+        "candidate_outputs_present": False,
+        "master_seed": master_seed,
+        "receipts": receipts,
+        "summary": summarize_direct_construction(receipts),
+    }
+
+
+def _mutate_manifest(manifest: dict[str, Any], rng: random.Random) -> dict[str, Any]:
     changed = copy.deepcopy(manifest)
     stage_index = rng.randrange(6)
     stage = changed["stages"][stage_index]
@@ -373,7 +940,9 @@ def _mutate_manifest(
     return changed
 
 
-def construct_manifest(max_evaluations: int = CONSTRUCTION_MAX_EVALUATIONS) -> dict[str, Any]:
+def construct_manifest(
+    max_evaluations: int = CONSTRUCTION_MAX_EVALUATIONS,
+) -> dict[str, Any]:
     if max_evaluations <= 0:
         raise ValueError("construction evaluation budget must be positive")
     seed = secrets.token_hex(16)
@@ -484,9 +1053,7 @@ def run_construction_study(tasks: int = CONSTRUCTION_TASKS) -> dict[str, Any]:
     if tasks <= 0:
         raise ValueError("construction task count must be positive")
     receipts = [construct_manifest() for _ in range(tasks)]
-    enriched = [
-        {"manifest": item["manifest"], **item["receipt"]} for item in receipts
-    ]
+    enriched = [{"manifest": item["manifest"], **item["receipt"]} for item in receipts]
     return {
         "schema_version": 1,
         "experiment_id": EXPERIMENT_ID,
@@ -561,17 +1128,25 @@ def run_study(samples: int = SAMPLES) -> dict[str, Any]:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
-    parser.add_argument("--mode", choices=("incidence", "construction"), default="incidence")
+    parser.add_argument(
+        "--mode",
+        choices=("incidence", "construction", "direct-construction"),
+        default="incidence",
+    )
     parser.add_argument("--samples", type=int, default=SAMPLES)
+    parser.add_argument("--seed")
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args(argv)
-    result = (
-        run_construction_study(args.samples)
-        if args.mode == "construction"
-        else run_study(args.samples)
-    )
+    if args.mode == "construction":
+        result = run_construction_study(args.samples)
+    elif args.mode == "direct-construction":
+        result = run_direct_construction_study(args.samples, args.seed)
+    else:
+        result = run_study(args.samples)
     args.output.parent.mkdir(parents=True, exist_ok=True)
-    args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    args.output.write_text(
+        json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8"
+    )
     print(json.dumps(result["summary"], indent=2, sort_keys=True))
     return 0
 
