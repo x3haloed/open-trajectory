@@ -73,3 +73,6 @@ Decision-relevant experiment records:
 - [`OT-0034-e5-weighted-selector-calibration.md`](OT-0034-e5-weighted-selector-calibration.md)
   — passed all 384 controller criteria and promoted E5 for exactly one fresh
   integration candidate without producing OT-1 evidence.
+- [`OT-0035-e5-ot0-ledger-integration.md`](OT-0035-e5-ot0-ledger-integration.md)
+  — active frozen E5 candidate coupling consequence-trained selector weights to
+  the promoted OT-0 ledger and fresh hosted-model boundary.

@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "candidate",
+    "unchanged-selector",
+    "fixed-zero",
+    "fixed-axis-0-negative",
+    "fixed-axis-0-positive",
+    "fixed-axis-1-negative",
+    "fixed-axis-1-positive",
+    "fixed-axis-2-negative",
+    "fixed-axis-2-positive",
+    "fixed-axis-3-negative",
+    "fixed-axis-3-positive",
+    "frozen-first-learned"
+  ],
+  "phases": [
+    {
+      "phase": "regime-1",
+      "worker-1": ["candidate", "unchanged-selector", "fixed-zero", "fixed-axis-0-negative", "fixed-axis-0-positive", "fixed-axis-1-negative", "fixed-axis-1-positive", "fixed-axis-2-negative", "fixed-axis-2-positive", "fixed-axis-3-negative", "fixed-axis-3-positive", "frozen-first-learned"],
+      "worker-2": ["frozen-first-learned", "fixed-axis-3-positive", "fixed-axis-3-negative", "fixed-axis-2-positive", "fixed-axis-2-negative", "fixed-axis-1-positive", "fixed-axis-1-negative", "fixed-axis-0-positive", "fixed-axis-0-negative", "fixed-zero", "unchanged-selector", "candidate"]
+    },
+    {
+      "phase": "regime-2",
+      "worker-1": ["fixed-axis-0-positive", "fixed-axis-1-negative", "fixed-axis-1-positive", "fixed-axis-2-negative", "fixed-axis-2-positive", "fixed-axis-3-negative", "fixed-axis-3-positive", "frozen-first-learned", "candidate", "unchanged-selector", "fixed-zero", "fixed-axis-0-negative"],
+      "worker-2": ["fixed-axis-0-negative", "fixed-zero", "unchanged-selector", "candidate", "frozen-first-learned", "fixed-axis-3-positive", "fixed-axis-3-negative", "fixed-axis-2-positive", "fixed-axis-2-negative", "fixed-axis-1-positive", "fixed-axis-1-negative", "fixed-axis-0-positive"]
+    },
+    {
+      "phase": "regime-3",
+      "worker-1": ["fixed-axis-2-positive", "fixed-axis-3-negative", "fixed-axis-3-positive", "frozen-first-learned", "candidate", "unchanged-selector", "fixed-zero", "fixed-axis-0-negative", "fixed-axis-0-positive", "fixed-axis-1-negative", "fixed-axis-1-positive", "fixed-axis-2-negative"],
+      "worker-2": ["fixed-axis-2-negative", "fixed-axis-1-positive", "fixed-axis-1-negative", "fixed-axis-0-positive", "fixed-axis-0-negative", "fixed-zero", "unchanged-selector", "candidate", "frozen-first-learned", "fixed-axis-3-positive", "fixed-axis-3-negative", "fixed-axis-2-positive"]
+    }
+  ],
+  "ablation_order": ["worker-2", "worker-1"],
+  "ordering": "Each worker executes every phase in its listed order using fresh threads and workspaces. Worker-2 reverses each worker-1 rotation, so every condition has mean serial position 5.5 across six appearances. Execute projection ablations last in the listed worker order."
+}

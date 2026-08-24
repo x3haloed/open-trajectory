@@ -95,6 +95,12 @@ deletion/rescue, order placebos, and exact opportunity checks. Static
 reachability found no task, seed, hidden-criterion, dynamic, file, import, or
 execution authority available to the learner. E5 now authorizes exactly one
 fresh OT-0 integration candidate; the calibration itself is not OT-1 evidence.
+OT-0035 is that single active E5 candidate. A post-implementation learned
+selector determines which completed observations enter the actual OT-0014
+discrepancy-gated ledger; only its bounded projection reaches 74 fresh,
+counterbalanced hosted actor turns across two complete workers. Unchanged,
+zero, all signed unit-axis, first-learned-then-frozen, no-credit, and projection
+ablations are frozen before any candidate execution.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

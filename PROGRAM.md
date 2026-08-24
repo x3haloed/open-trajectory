@@ -270,6 +270,14 @@ Initial sequence:
   Passed all gates for all 384 criteria with no forbidden learner authority and
   no candidate output. E5 is promoted for exactly one fresh integration
   candidate. The calibration contains no OT-1 evidence.
+- **OT-0035:** consume E5's one authorization by placing the learned selector
+  directly before the promoted OT-0014 discrepancy-gated ledger. Completed
+  selection outcomes change weights; the revised weights choose the exact
+  eighty observations entering the ledger; and only its 96-byte projection
+  reaches fresh receipted Luna instances. Two complete workers compare the
+  adaptive lineage with unchanged, zero, all signed unit-axis, first-learned-
+  then-frozen, no-credit, and projection-ablation branches. Frozen; no candidate
+  output is permitted before the separate run lock.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

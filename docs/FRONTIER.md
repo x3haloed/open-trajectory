@@ -41,10 +41,20 @@ Static reachability found no forbidden task, seed, hidden-criterion, dynamic,
 file, import, or execution authority in the learner. E5 is promoted for exactly
 one fresh integration candidate.
 
-The active frontier is now that single authorized candidate. It must couple the
-learned-weight selector to the promoted OT-0-capable system under a fresh task
-and the retained E2–E5 anchors. It must not replay OT-0033's public task or treat
-controller-oracle opportunity as candidate behavior.
+OT-0035 freezes that single authorized candidate. A task fixed only after its
+clean implementation supplies eighty paired raw observations per regime. The
+learned selector alone decides which observations enter the actual OT-0014
+discrepancy-gated ledger, and only the ledger's bounded projection reaches a
+fresh receipted Luna instance. Two full workers repeat twelve counterbalanced
+branches across three regimes plus final projection ablation, for 74 fresh
+turns under one hosted epoch.
+
+The deterministic pre-host path passes across 32 excluded task seeds. Candidate
+ledger error is zero in all three regimes; unchanged selector state yields
+eight errors each; the strongest fixed control learns once and freezes, scoring
+zero, eight, zero; and every no-credit update preserves its exact source. Final
+candidate output remains forbidden until a clean implementation commit and
+separate task/run-lock commit.
 
 Decision-relevant evidence:
 
@@ -180,6 +190,16 @@ Revised model: the learned-weight family has a calibrated, non-circular E5
 evaluation path. The remaining uncertainty is whether one fresh candidate can
 couple it to the promoted OT-0 substrate and satisfy the complete OT-1 behavior
 and reproducibility gates.
+
+Expected for OT-0035: applying learned weights before the OT-0 ledger will make
+the selector update causally visible in fresh hosted predictions, while the
+unchanged selector preserves the prior wrong rule and the first learned state
+fails exactly at the later complement regime.
+Observed: deterministic development fixtures match that path for all 32
+excluded seeds; hosted candidate output is still sealed behind the future run
+lock.
+Decision: freeze and execute the complete hosted comparison once. The first
+candidate turn consumes E5 authorization regardless of disposition.
 
 Unresolved: whether a learned weight relation generated under this authority
 split will satisfy independent novelty review as an operation not supplied by
