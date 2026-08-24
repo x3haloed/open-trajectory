@@ -213,8 +213,10 @@ Initial sequence:
 - **OT-0027:** reorient outside the closed program-portfolio family to a
   trajectory-relative exemplar casebook. Each actor directly authors prior
   anchors, feature masks, match radii, and priorities under generic exact
-  matching. This fresh public feasibility pilot is frozen and has no OT-1 or
-  E4 authority.
+  matching. Both actors produced valid, changed casebooks but independently
+  optimized positive-label frequency, selected the same non-discriminative
+  evidence, and gained zero errors. Failed as frozen with no OT-1 or E4
+  authority; the direct exemplar path is closed.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

@@ -53,10 +53,10 @@ program plus the already-validated structured decision list. OT-0026 was
 invalidated by a post-encounter controller failure before result sealing, so it
 has no scientific carrier outcome and provides neither OT-1 evidence nor E4
 authorization.
-OT-0027 is the active, materially different public falsifier: selector state is
-embodied as actor-authored trajectory-relative exemplars under exact generic
-matching, rather than as another program or alternative portfolio. It remains
-development-only and cannot itself establish OT-1.
+OT-0027 tested the materially different exemplar representation. Both actors
+committed valid casebooks but optimized positive-label frequency, converged on
+the same non-discriminative selection, and gained zero errors. This closes the
+direct exemplar path without OT-1 or E4 authority.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

@@ -1,6 +1,6 @@
 # OT-0027 — Trajectory-relative exemplar-casebook feasibility
 
-- **Status:** frozen; hosted output forbidden until the run lock is committed
+- **Status:** failed as frozen; direct exemplar casebook closed
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0026 controller invalidation and closed program-portfolio line
@@ -49,3 +49,29 @@ The clean protocol and implementation commit is
 `07212a8f313ab418638425c6a8cf347b2567fa60`.
 `spec/ot-0027-run-lock.json` binds it and every runtime authority before the
 first hosted actor output.
+
+## Results and decision
+
+Both fresh actors returned exact schema-valid casebooks, changed the committed
+snapshot, selected six future events, changed predictions, and replayed
+deterministically. All parse, tool, freshness, exact-model, inventory,
+Response, ETag, collector, token, time, test, audit, privacy, and evidence gates
+passed. The mechanism gate alone failed: both casebooks scored eight errors,
+the same as the empty selector, for zero advantage.
+
+The two proposals were structurally different but behaviorally convergent.
+Actor 1 used eight full-feature, radius-zero anchors for every prior positive-
+label pattern. Actor 2 inferred that feature 0 was irrelevant and used four
+masked positive-pattern anchors. Both selected the same future event set. Their
+prospective explanations sought higher positive-label frequency, which removed
+the negative examples needed by the deterministic predictor to identify the
+relation.
+
+This independently reproduces the substantive OT-0022 failure in an example-
+based rather than program-based representation: raw outcome traces and exact
+carrier semantics did not induce credit assignment to discriminative retained
+evidence. OT-0027 remains failed as frozen and is not retried. Direct exemplar-
+casebook feasibility is closed as the next mechanism path.
+
+Evidence manifest:
+`evidence/manifests/OT-0027/ot-0027-casebook-pilot-001.json`.

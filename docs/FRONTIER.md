@@ -286,6 +286,16 @@ consequences can cause useful later retention on a fresh public relation. It
 does not test recursive correction, carry OT-1 or E4 authority, or reopen the
 closed carrier chain.
 
+OT-0027 completed with every non-mechanism gate passing. Its two fresh actors
+authored different valid casebooks but both retained only positive-pattern
+examples, converged on the same six-event selection, and gained zero errors.
+One actor even discovered the irrelevant feature but still removed the negative
+contrast required for deterministic prediction. This independently repeats
+OT-0022's credit-assignment failure in a non-program representation: exact
+examples solve carrier validity, not what consequence of selection should be
+optimized. The frozen casebook result is not retried and closes that direct
+path.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -373,6 +383,15 @@ Revised model: callback-based protocol reuse must be tested at final summary
 dispatch, not only at output evaluation. The representation remains
 scientifically unobserved, while the frozen run and carrier chain remain
 closed.
+
+Expected: trajectory-relative exemplars would make useful evidence choice
+simpler than authoring a selection program, letting both actors preserve the
+contrast needed by the downstream predictor.
+Observed: both valid casebooks instead optimized positive-label frequency and
+selected the same non-discriminative set for zero advantage.
+Revised model: representational exactness does not repair the missing credit
+assignment from selection consequences to downstream discriminative value.
+Further direct carriers are unlikely to distinguish a useful mechanism.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

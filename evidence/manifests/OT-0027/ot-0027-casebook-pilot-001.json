@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0027-casebook-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 320853,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f59b806ebf0b8de75b66d83dcbb51d395b849ad9",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0027",
+  "input_manifests": [
+    "evidence/manifests/OT-0026/ot-0026-structured-score-pilot-001-controller-failure.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "trajectory-relative-exemplar-casebook-pilot",
+  "limitations": [
+    "This is a public non-candidate carrier pilot, not OT-1 evidence.",
+    "The hosted outputs, deployment events, identities, and workspaces remain private.",
+    "A pass does not authorize E4 or a private candidate run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0027-casebook-pilot-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c0715d20e2aaf39d26d0ff17db7cb5eea3ad371a6158c7d12154ae0ba694b7a9"
+}
