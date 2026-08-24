@@ -1,10 +1,16 @@
 from __future__ import annotations
 
 import unittest
+import random
 
+from open_trajectory_harness.ot0004_world import validate_task_manifest
+from open_trajectory_harness.ot0005_world import generate_task_manifest
 from open_trajectory_harness.ot0016 import FIXED_CONDITIONS
 from open_trajectory_harness.ot0017_regime import (
+    CONSTRUCTION_PLAN,
     SCORING,
+    _mutate_manifest,
+    construction_penalty,
     find_exact_witness,
     summarize,
 )
@@ -31,16 +37,18 @@ def witness_tables() -> list[dict]:
     recent, first, nearest, none = FIXED_CONDITIONS
     values = [
         (none, 3, 3),
-        (recent, 0, 0),
-        (recent, 3, 4),
-        (first, 0, 1),
+        (first, 0, 0),
         (first, 3, 4),
         (nearest, 0, 1),
-        (nearest, 4, 4),
-        (first, 2, 0),
+        (nearest, 3, 4),
+        (recent, 0, 1),
+        (recent, 0, 0),
+        (nearest, 0, 0),
+        (recent, 4, 4),
+        (nearest, 8, 0),
         (none, 0, 0),
         (none, 4, 3),
-        (first, 0, 0),
+        (recent, 0, 0),
     ]
     assignments = [
         (0, *values[0]),
@@ -52,8 +60,10 @@ def witness_tables() -> list[dict]:
         (3, *values[6]),
         (3, *values[7]),
         (4, *values[8]),
-        (5, *values[9]),
-        (5, *values[10]),
+        (4, *values[9]),
+        (4, *values[10]),
+        (5, *values[11]),
+        (5, *values[12]),
     ]
     for stage, condition, contact, heldout in assignments:
         tables[stage]["conditions"][condition] = {
@@ -73,6 +83,8 @@ class OT0017RegimeTests(unittest.TestCase):
             len(witness["chains"][0]["useful_pre_harm_stages"]),
             SCORING["useful_pre_harm_commits_required"],
         )
+        self.assertEqual(CONSTRUCTION_PLAN[3], CONSTRUCTION_PLAN[2])
+        self.assertEqual(construction_penalty(witness_tables()), 0)
 
     def test_missing_canary_has_no_witness(self) -> None:
         tables = witness_tables()
@@ -92,6 +104,12 @@ class OT0017RegimeTests(unittest.TestCase):
         result = summarize(analyses, unique_manifests=256)
         self.assertTrue(result["viable"])
         self.assertEqual(result["observations"]["exact_witness_fraction"], 1.0)
+
+    def test_stage_mutation_preserves_inherited_world_contract(self) -> None:
+        mutated = _mutate_manifest(generate_task_manifest(), random.Random(7))
+        inherited = dict(mutated)
+        inherited["experiment_id"] = "OT-0004"
+        validate_task_manifest(inherited)
 
 
 if __name__ == "__main__":

@@ -1,12 +1,23 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import json
+import random
+import secrets
 from itertools import product
 from pathlib import Path
 from typing import Any
 
-from .ot0004_world import archive_through_stage, fixed_selection, selected_events
+from .ot0004_world import (
+    FEATURE_VECTORS,
+    STAGE_KINDS,
+    archive_through_stage,
+    fixed_selection,
+    rule_label,
+    selected_events,
+    validate_task_manifest,
+)
 from .ot0005_world import deterministic_predictions, generate_task_manifest
 from .ot0016 import FIXED_CONDITIONS
 
@@ -28,6 +39,21 @@ SCORING = {
     "committed_lineage_advantage_over_each_fixed_control_required": 6,
 }
 SEED = "seed-no-persistence"
+CONSTRUCTION_PLAN = (
+    "fixed-first-seen-verbatim",
+    "fixed-naive-nearest",
+    "fixed-most-recent",
+    "fixed-most-recent",
+    "no-persistence",
+    "fixed-most-recent",
+)
+CONSTRUCTION_TASKS = 16
+CONSTRUCTION_MAX_EVALUATIONS = 20_000
+CONSTRUCTION_GATE = {
+    "required_successes": 16,
+    "maximum_mean_evaluations": 5_000,
+    "maximum_p95_evaluations": 10_000,
+}
 
 
 def control_tables(manifest: dict[str, Any], limit: int = 6) -> list[dict[str, Any]]:
@@ -212,6 +238,250 @@ def find_exact_witness(
     )
 
 
+def construction_penalty(tables: list[dict[str, Any]]) -> int:
+    summary = _path_summary(
+        _evaluate_path(tables, CONSTRUCTION_PLAN), tables, SCORING
+    )
+    records = summary["records"]
+    penalty = 0
+    expected_current = (SEED, *CONSTRUCTION_PLAN[:-1])
+    for record, expected in zip(records, expected_current):
+        penalty += 20 * (record["current"] != expected)
+    for stage in (0, 1, 2, 4, 5):
+        record = records[stage]
+        penalty += 20 * (not record["commit_changed"])
+        penalty += 10 * (not record["selection_changed"])
+        penalty += max(0, 1 - record["contact_advantage"])
+    for stage in (1, 2, 5):
+        penalty += max(
+            0,
+            SCORING["committed_over_unchanged_error_advantage_per_revision"]
+            - records[stage]["heldout_advantage"],
+        )
+    correction = records[4]
+    penalty += 10 * (not correction["parent_selection_changed"])
+    penalty += max(
+        0,
+        SCORING["learned_selector_harm_over_protected_parent_required"]
+        - correction["harm_over_parent"],
+    )
+    penalty += max(
+        0,
+        SCORING["correction_error_recovery_required"]
+        - correction["heldout_advantage"],
+    )
+    penalty += max(
+        0,
+        correction["committed_errors"] - SCORING["corrected_selector_errors_allowed"],
+    )
+    penalty += max(
+        0,
+        SCORING["post_correction_canary_advantage_required"]
+        - records[5]["heldout_advantage"],
+    )
+    penalty += max(
+        0, summary["lineage_errors"] - SCORING["committed_lineage_errors_allowed"]
+    )
+    penalty += sum(
+        max(
+            0,
+            SCORING["committed_lineage_advantage_over_each_fixed_control_required"]
+            - (errors - summary["lineage_errors"]),
+        )
+        for errors in summary["fixed_totals"].values()
+    )
+    if summary["passes"]:
+        return 0
+    return max(1, penalty)
+
+
+def _renumber_events(manifest: dict[str, Any]) -> None:
+    sequence = 0
+    for stage in manifest["stages"]:
+        for event in stage["events"]:
+            event["sequence"] = sequence
+            sequence += 1
+
+
+def _stage_rule(manifest: dict[str, Any], stage_index: int) -> tuple[list[int], int, set[tuple[int, ...]]]:
+    kind = STAGE_KINDS[stage_index]
+    mask_index = 0 if stage_index < 2 else (1 if stage_index < 5 else 2)
+    exceptions = (
+        {tuple(value) for value in manifest["rules"]["exceptions"]}
+        if kind == "exceptions"
+        else set()
+    )
+    return (
+        manifest["rules"]["masks"][mask_index],
+        manifest["rules"]["biases"][mask_index],
+        exceptions,
+    )
+
+
+def _outcomes(
+    manifest: dict[str, Any], stage_index: int, queries: list[list[int]]
+) -> list[int]:
+    mask, bias, exceptions = _stage_rule(manifest, stage_index)
+    return [
+        rule_label(
+            tuple(query),
+            mask=tuple(mask),
+            bias=bias,
+            exceptions=exceptions,
+        )
+        for query in queries
+    ]
+
+
+def _mutate_manifest(
+    manifest: dict[str, Any], rng: random.Random
+) -> dict[str, Any]:
+    changed = copy.deepcopy(manifest)
+    stage_index = rng.randrange(6)
+    stage = changed["stages"][stage_index]
+    mutation = rng.choice(("events", "contact", "heldout"))
+    if mutation == "events":
+        mask, bias, exceptions = _stage_rule(changed, stage_index)
+        features = list(FEATURE_VECTORS)
+        features.extend(rng.choices(list(FEATURE_VECTORS), k=8))
+        rng.shuffle(features)
+        noisy = set(rng.sample(range(24), 9)) if stage_index == 4 else set()
+        events = []
+        for index, vector in enumerate(features):
+            clean = rule_label(
+                vector,
+                mask=tuple(mask),
+                bias=bias,
+                exceptions=exceptions,
+            )
+            events.append(
+                {
+                    "event_id": f"event-{secrets.token_hex(6)}",
+                    "sequence": 0,
+                    "features": list(vector),
+                    "label": 1 - clean if index in noisy else clean,
+                }
+            )
+        stage["events"] = events
+        _renumber_events(changed)
+    else:
+        queries = [list(value) for value in rng.sample(list(FEATURE_VECTORS), 8)]
+        stage[mutation] = {
+            "queries": queries,
+            "outcomes": _outcomes(changed, stage_index, queries),
+        }
+    return changed
+
+
+def construct_manifest(max_evaluations: int = CONSTRUCTION_MAX_EVALUATIONS) -> dict[str, Any]:
+    if max_evaluations <= 0:
+        raise ValueError("construction evaluation budget must be positive")
+    seed = secrets.token_hex(16)
+    rng = random.Random(int(seed, 16))
+    population = [generate_task_manifest() for _ in range(32)]
+    evaluations = 0
+    best_penalty: int | None = None
+    while evaluations < max_evaluations:
+        scored = []
+        for manifest in population:
+            tables = control_tables(manifest)
+            penalty = construction_penalty(tables)
+            evaluations += 1
+            scored.append((penalty, manifest, tables))
+            if penalty == 0:
+                inherited = dict(manifest)
+                inherited["experiment_id"] = "OT-0004"
+                validate_task_manifest(inherited)
+                witness = find_exact_witness(tables)
+                if witness is None:
+                    raise RuntimeError("zero-penalty construction lacks exact witness")
+                return {
+                    "manifest": manifest,
+                    "receipt": {
+                        "constructor": "bounded-stage-mutation-v1",
+                        "seed": seed,
+                        "evaluations": evaluations,
+                        "maximum_evaluations": max_evaluations,
+                        "planned_modes": CONSTRUCTION_PLAN,
+                        "exact_witness": witness,
+                    },
+                }
+            if evaluations >= max_evaluations:
+                break
+        scored.sort(key=lambda item: item[0])
+        best_penalty = scored[0][0] if scored else best_penalty
+        elites = [item[1] for item in scored[:8]]
+        population = [copy.deepcopy(item) for item in elites]
+        while len(population) < 32:
+            if rng.random() < 0.1:
+                population.append(generate_task_manifest())
+            else:
+                candidate = copy.deepcopy(rng.choice(elites))
+                for _ in range(1 if rng.random() < 0.8 else 2):
+                    candidate = _mutate_manifest(candidate, rng)
+                population.append(candidate)
+    raise RuntimeError(
+        f"constructive sampler exhausted {max_evaluations} evaluations; best penalty {best_penalty}"
+    )
+
+
+def summarize_construction(receipts: list[dict[str, Any]]) -> dict[str, Any]:
+    evaluations = sorted(receipt["evaluations"] for receipt in receipts)
+    if not evaluations:
+        raise ValueError("construction study requires receipts")
+    p95_index = max(0, (95 * len(evaluations) + 99) // 100 - 1)
+    mean_evaluations = sum(evaluations) / len(evaluations)
+    identities = {
+        json.dumps(receipt["manifest"], sort_keys=True, separators=(",", ":"))
+        for receipt in receipts
+    }
+    gates = {
+        "success_count": len(receipts) == CONSTRUCTION_GATE["required_successes"],
+        "unique_manifests": len(identities) == len(receipts),
+        "exact_witnesses": all(
+            receipt["exact_witness"]["passes"] for receipt in receipts
+        ),
+        "mean_evaluations": mean_evaluations
+        <= CONSTRUCTION_GATE["maximum_mean_evaluations"],
+        "p95_evaluations": evaluations[p95_index]
+        <= CONSTRUCTION_GATE["maximum_p95_evaluations"],
+        "evaluation_budget": max(evaluations) <= CONSTRUCTION_MAX_EVALUATIONS,
+    }
+    return {
+        "schema_version": 1,
+        "experiment_id": EXPERIMENT_ID,
+        "purpose": "controller-only constructive exact-opportunity feasibility",
+        "candidate_outputs_present": False,
+        "construction_gate": CONSTRUCTION_GATE,
+        "observations": {
+            "success_count": len(receipts),
+            "mean_evaluations": mean_evaluations,
+            "p95_evaluations": evaluations[p95_index],
+            "maximum_evaluations": max(evaluations),
+            "unique_manifests": len(identities),
+        },
+        "gates": gates,
+        "viable": all(gates.values()),
+    }
+
+
+def run_construction_study(tasks: int = CONSTRUCTION_TASKS) -> dict[str, Any]:
+    if tasks <= 0:
+        raise ValueError("construction task count must be positive")
+    receipts = [construct_manifest() for _ in range(tasks)]
+    enriched = [
+        {"manifest": item["manifest"], **item["receipt"]} for item in receipts
+    ]
+    return {
+        "schema_version": 1,
+        "experiment_id": EXPERIMENT_ID,
+        "study": "bounded-stage-mutation-construction-v1",
+        "candidate_outputs_present": False,
+        "receipts": enriched,
+        "summary": summarize_construction(enriched),
+    }
+
+
 def analyze_manifest(manifest: dict[str, Any]) -> dict[str, Any]:
     tables = control_tables(manifest)
     witness = find_exact_witness(tables)
@@ -276,10 +546,15 @@ def run_study(samples: int = SAMPLES) -> dict[str, Any]:
 
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=("incidence", "construction"), default="incidence")
     parser.add_argument("--samples", type=int, default=SAMPLES)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args(argv)
-    result = run_study(args.samples)
+    result = (
+        run_construction_study(args.samples)
+        if args.mode == "construction"
+        else run_study(args.samples)
+    )
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, indent=2, sort_keys=True) + "\n", encoding="utf-8")
     print(json.dumps(result["summary"], indent=2, sort_keys=True))

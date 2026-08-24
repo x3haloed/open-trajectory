@@ -57,6 +57,24 @@ or reject constructive actor-blinded world generation. Success permits, but
 does not itself promote, an E4 sampler. Promotion would require a separately
 predeclared construction sample and fresh heldout controller-only anchor bundle.
 
+## Prospective constructive pilot
+
+After the zero-incidence result, freeze one bounded private constructor before
+observing its output. It samples inherited masks, biases, exceptions, event
+orders, noise positions, and query sets, then uses stage-local mutation to seek
+the exact controller witness along one evaluator-only pressure path: first-seen
+retention, query-nearest exceptions, recent drift, unchanged confirmation,
+no-persistence correction under noisy contact, and a later recent-data canary.
+The path and all fixed-control identities remain absent from actor prompts.
+
+Construct exactly 16 independently seeded manifests. Each has a budget of
+20,000 controller evaluations. All 16 must be unique and replay an exact
+witness; mean construction cost must be at most 5,000 evaluations, the 95th
+percentile at most 10,000, and no run may exhaust its budget. This is a
+development feasibility pilot, not E4 promotion. Failure closes this bounded
+constructor as written. Success permits a separately frozen fresh heldout
+anchor study with no reuse of pilot manifests.
+
 ## Anchors and limits
 
 E2 deployment identity, fresh-thread/workspace boundaries, private evidence,
