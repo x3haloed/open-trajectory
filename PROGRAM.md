@@ -63,6 +63,14 @@ made this classification rule explicit.
   disposition remain valid; only its former target-level OT-1 conclusion is
   stale and is replaced by the narrower OT-0 classification. No earlier
   candidate is rescored under E3.
+- **E4 challenger — exact causal opportunity (not promoted):** OT-0017 retained
+  every E2/E3 anchor and added an exact controller-only witness for the ordered
+  causal and lineage gates. Direct construction was feasible, but the frozen
+  promotion anchor failed because its canary ablation removed only one of three
+  surviving fixed-control routes. E3 remains the last accepted regime but is
+  closed to new candidates because its sampler was blind to exact opportunity;
+  no candidate run is authorized until a successor regime passes prospective
+  calibration.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same

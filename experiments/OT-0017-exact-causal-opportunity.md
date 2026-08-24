@@ -1,6 +1,6 @@
 # OT-0017 — Exact causal-opportunity evaluation checkpoint
 
-- **Status:** direct synthesis feasible; fresh anchor study pending
+- **Status:** fresh anchor rejected; E4 not promoted
 - **Evidence class:** exploratory-only
 - **Evaluation transition:** E3 → E4 candidate
 - **Candidate actor outputs:** forbidden
@@ -187,6 +187,25 @@ Current disposition: `feasible` for direct constraint synthesis. This result
 does not promote E4. The next authorized step is the separately frozen 64-task
 fresh anchor study; none of these 16 feasibility tasks may enter it.
 
+The fresh anchor study validly rejected E4 promotion. All 64 new base tasks,
+exclusion checks, construction gates, diversity checks, schema checks, and
+identity/query-order placebos passed. The stage-2 ablation retained an exact
+witness in 11 of 64 tasks (17.1875%) and the stage-4 ablation retained none,
+both within the frozen 25% limit. The stage-5 ablation retained an exact witness
+in all 64 tasks and failed its gate.
+
+The failure was path-completeness, not oracle insensitivity. Moving negative
+events into the recent suffix broke the planned path but removed only the
+`fixed-most-recent` canary. The exact oracle correctly found a stage-5
+`fixed-naive-nearest` canary in 61 tasks and a `fixed-first-seen-verbatim`
+canary in three. No threshold or result is changed after observing this.
+
+Final OT-0017 disposition: `rejected` for E4 promotion. Direct construction
+feasibility remains valid development evidence, but neither E4 nor a new
+candidate experiment is authorized by this checkpoint. A credible successor
+must prospectively ablate every fixed-control route to the later canary and
+pair that removal with a rescue on a fresh bundle under a new experiment ID.
+
 ## Evidence manifest
 
 `evidence/manifests/OT-0017/ot-0017-exact-opportunity-incidence-001.json`
@@ -194,3 +213,5 @@ fresh anchor study; none of these 16 feasibility tasks may enter it.
 `evidence/manifests/OT-0017/ot-0017-constructive-opportunity-pilot-001.json`
 
 `evidence/manifests/OT-0017/ot-0017-direct-construction-feasibility-001.json`
+
+`evidence/manifests/OT-0017/ot-0017-fresh-e4-anchor-001.json`

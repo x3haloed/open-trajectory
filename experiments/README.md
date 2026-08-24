@@ -16,5 +16,6 @@ Current unexecuted protocol drafts:
   exposed that E3's aggregate task sampler did not observe exact causal-chain
   feasibility.
 - [`OT-0017-exact-causal-opportunity.md`](OT-0017-exact-causal-opportunity.md)
-  — controller-only E4 evaluation checkpoint testing whether inherited worlds
-  contain an exact witness for the unchanged temporal and lineage anchors.
+  — controller-only E4 checkpoint; direct construction was feasible, but the
+  fresh promotion anchor rejected E4 because the canary ablation was not
+  path-complete.

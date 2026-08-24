@@ -139,6 +139,16 @@ cost was 8.25 counted constraint candidates and the maximum was 9. This permits
 but does not replace the separately frozen 64-task heldout anchor study; no
 candidate actor is yet authorized and no feasibility task may be reused.
 
+The separately frozen 64-task promotion anchor then rejected E4. All bases,
+exclusions, diversity checks, cost gates, schema checks, and placebos passed.
+Stage-2 and stage-4 structural ablations retained exact witnesses in 11/64 and
+0/64 tasks, within their limits. The stage-5 ablation retained a witness in all
+64 tasks: 61 switched to nearest selection and three to first-seen selection.
+The ablation removed one planned canary route rather than the complete causal
+opportunity. E4 is not promoted, and no candidate run is authorized. The only
+remaining concrete evaluator path is a new, prospectively frozen checkpoint
+that removes every fixed-control canary route and includes a paired rescue.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -165,12 +175,13 @@ temporal chain feasible without encoding a candidate strategy.
 Observed: the accepted OT-0016 task could not satisfy that chain even for a
 hidden fixed-control oracle, and none of 256 fresh inherited worlds contained a
 complete witness.
-Uncertain: whether the direct distribution preserves evaluator invariances and
-loses the exact witness under targeted causal-structure ablations on a fresh
-heldout promotion bundle.
+Uncertain: whether a path-complete canary removal and paired rescue can
+distinguish the exact-opportunity regime on fresh tasks without weakening its
+unchanged temporal or lineage anchors.
 Evidence: the sealed OT-0016 run, its valid rejection summary, the replay over
 that task, OT-0017's frozen incidence and mutation studies, and the passing
-16-task direct-synthesis feasibility bundle.
+16-task direct-synthesis feasibility bundle plus rejected 64-task promotion
+anchor.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
