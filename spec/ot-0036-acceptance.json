@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0036",
+  "evaluation_transition": "E5 to E6",
+  "purpose": "controller-only deterministic selector-to-OT-0-ledger opportunity and authority calibration",
+  "candidate_actor_outputs": false,
+  "candidate_learner_outputs": false,
+  "criterion_count": 384,
+  "eligible_rule_pair_count": 6,
+  "case_count": 2304,
+  "regime_count": 3,
+  "active_inheritance_budget": 80,
+  "projection_byte_limit": 96,
+  "authorized_candidate_count": 1,
+  "claim_limit": "controller-only E6 calibration and one fresh deterministic-integration-candidate authorization; no OT-1 evidence",
+  "promotion_gate": [
+    "all 2,304 criterion and parity-complement cases pass the same frozen study without task sampling, candidate learning, or actor execution",
+    "controller oracle snapshots realize zero-error initial use, harmful contradiction, correction, and subsequent correction through the actual OT-0014 ledger",
+    "the exact unchanged-selector branch starts from the same selector and ledger parents, incurs four errors under the balanced initial default, and incurs eight errors in both later complement regimes",
+    "zero, every signed unit axis, and first-oracle-then-frozen lineages receive the same eighty-event budget and each loses at least eight aggregate errors",
+    "every projection stays within 96 bytes and deterministic replay and case-order reversal preserve all receipts",
+    "static authority checks exclude task seed, hidden criterion, hidden rule, task construction, files, imports, dynamic introspection, hosted execution, scoring, and publication from the candidate learner and ledger adapter",
+    "OT-0035 remains failed under E5 and is neither rescored nor used to choose E6 tasks or thresholds",
+    "all protocol, implementation, acceptance, evaluator, candidate-carrier, OT-0 ledger, evidence, and predecessor identities are locked before calibration output"
+  ]
+}

@@ -280,6 +280,12 @@ Initial sequence:
   every causal and behavioral score gate passed, but the exact unchanged-actor
   identity placebo failed in the initially ambiguous regime. OT-1 was not
   promoted and E5 authorization is consumed.
+- **OT-0036:** calibrate the controller-deterministic application branch that
+  `TARGET.md` permits. Exhaust all 384 selector criteria against all six
+  eligible parity/complement pairs through the actual OT-0014 ledger, with
+  oracle, unchanged, zero, signed unit-axis, and first-oracle-then-frozen
+  lineages. Candidate learner and actor outputs remain forbidden. Frozen; no
+  calibration output is permitted before a separate run lock.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

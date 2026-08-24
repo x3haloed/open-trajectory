@@ -102,6 +102,10 @@ causal, behavioral, deployment, resource, novelty, test, and privacy gates
 passed except the exact unchanged-actor identity placebo: byte-identical
 ambiguous inputs produced different vectors with the same four-error score.
 OT-0035 therefore failed as frozen and did not promote OT-1.
+OT-0036 is the active candidate-free E6 calibration. It exhausts the complete
+weighted-criterion and eligible parity-pair product through the actual OT-0
+ledger using controller-deterministic application, the other attribution path
+allowed by `TARGET.md`. It does not rescore OT-0035 or execute a learner.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

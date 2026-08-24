@@ -51,6 +51,15 @@ byte-identical projections and outcomes produced different vectors with the
 same four-error score; later unchanged vectors and every candidate vector
 matched exactly. OT-1 is not promoted and E5 authorization is consumed.
 
+OT-0036 is the active evaluator checkpoint. It takes the controller-
+deterministic attribution branch explicitly permitted by `TARGET.md`, rather
+than weakening or retrospectively repairing OT-0035's stochastic placebo. The
+frozen study exhausts all 384 selector criteria against all six eligible
+parity/complement pairs through the actual OT-0014 ledger. Controller oracle,
+unchanged, zero, every signed unit axis, and first-oracle-then-frozen lineages
+receive the same eighty-event budget. Candidate learner and actor outputs are
+forbidden until calibration is separately locked and executed.
+
 Decision-relevant evidence:
 
 - `evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json` — promoted OT-0,
@@ -207,3 +216,12 @@ policy identity from output identity without weakening OT-1, or whether the
 downstream application can be made controller-deterministic while preserving a
 fresh hosted boundary. Any next attempt requires a new evaluation checkpoint;
 OT-0035 cannot be retried.
+
+Expected for OT-0036: exhaustive oracle snapshots will show that deterministic
+application of learned selector state through the promoted OT-0 ledger has an
+exact complete opportunity across the entire criterion and eligible-rule
+family, while unchanged and fixed states retain unavoidable error.
+Observed: five explicitly excluded development cases pass every frozen path,
+budget, control, projection, replay, and authority check. Final calibration
+output remains forbidden until the clean implementation and separate run lock.
+Decision: freeze OT-0036 and execute it once without learner or actor output.
