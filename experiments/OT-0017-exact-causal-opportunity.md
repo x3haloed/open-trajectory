@@ -1,6 +1,6 @@
 # OT-0017 — Exact causal-opportunity evaluation checkpoint
 
-- **Status:** mutation constructor rejected; direct synthesis pending
+- **Status:** direct synthesis feasible; fresh anchor study pending
 - **Evidence class:** exploratory-only
 - **Evaluation transition:** E3 → E4 candidate
 - **Candidate actor outputs:** forbidden
@@ -147,8 +147,21 @@ success supplies a concrete cheapest next falsifier: replace stochastic
 discovery with direct constraint synthesis for the same private pressure path,
 then test that constructor on new seeds and a fresh heldout anchor bundle.
 
+The frozen direct-synthesis feasibility study passed every gate. All 16 fresh
+tasks validated against the inherited schema, replayed the planned path and an
+exact witness, separated contact from heldout queries at every stage, and had
+distinct semantic fingerprints and private rule profiles. Mean construction
+cost was 8.25 counted constraint candidates, p95 was 9, and the maximum was 9.
+No candidate output was present.
+
+Current disposition: `feasible` for direct constraint synthesis. This result
+does not promote E4. The next authorized step is the separately frozen 64-task
+fresh anchor study; none of these 16 feasibility tasks may enter it.
+
 ## Evidence manifest
 
 `evidence/manifests/OT-0017/ot-0017-exact-opportunity-incidence-001.json`
 
 `evidence/manifests/OT-0017/ot-0017-constructive-opportunity-pilot-001.json`
+
+`evidence/manifests/OT-0017/ot-0017-direct-construction-feasibility-001.json`

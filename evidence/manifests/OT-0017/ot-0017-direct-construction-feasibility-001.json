@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0017-direct-construction-feasibility-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1049890,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "48e272eedba192157da81553e0c3c2cda34d78d8",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0017",
+  "input_manifests": [],
+  "kind": "direct-exact-opportunity-feasibility-study",
+  "limitations": [
+    "Controller-only direct-construction feasibility study; no candidate actor outputs or OT-1 evidence.",
+    "Passing feasibility permits a separately frozen fresh heldout anchor study; it does not promote E4."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0017-direct-construction-feasibility-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0017_regime --mode direct-construction --samples 16 --output $EVIDENCE/ot0017/direct-construction-feasibility-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "bc04a47292cfc7d7aa3ccfe7b9472689ba92bc056960748de18fe7ff950a30c0"
+}

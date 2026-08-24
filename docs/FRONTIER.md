@@ -132,6 +132,13 @@ opportunities, but failed its frozen feasibility gate. Five trials exhausted
 credible evaluator path is direct constraint synthesis for the same private
 pressure path, followed by new-seed construction and heldout promotion studies.
 
+The frozen direct constructor then passed its feasibility study on 16 of 16
+fresh tasks. Every task satisfied the inherited schema, exact and planned
+witness replays, split separation, and semantic/rule-profile uniqueness. Mean
+cost was 8.25 counted constraint candidates and the maximum was 9. This permits
+but does not replace the separately frozen 64-task heldout anchor study; no
+candidate actor is yet authorized and no feasibility task may be reused.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -158,11 +165,12 @@ temporal chain feasible without encoding a candidate strategy.
 Observed: the accepted OT-0016 task could not satisfy that chain even for a
 hidden fixed-control oracle, and none of 256 fresh inherited worlds contained a
 complete witness.
-Uncertain: whether direct constraint synthesis can preserve task diversity and
-actor blindness while reducing exact-witness construction cost enough for a
-fresh heldout promotion study.
+Uncertain: whether the direct distribution preserves evaluator invariances and
+loses the exact witness under targeted causal-structure ablations on a fresh
+heldout promotion bundle.
 Evidence: the sealed OT-0016 run, its valid rejection summary, the replay over
-that task, OT-0017's frozen incidence study, and its 11/16 constructive pilot.
+that task, OT-0017's frozen incidence and mutation studies, and the passing
+16-task direct-synthesis feasibility bundle.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
