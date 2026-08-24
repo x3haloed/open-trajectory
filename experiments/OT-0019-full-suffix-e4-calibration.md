@@ -1,6 +1,6 @@
 # OT-0019 — Full-suffix E4 calibration
 
-- **Status:** frozen; not run
+- **Status:** passed; E4 promoted for one candidate experiment
 - **Evidence class:** exploratory-only
 - **Evaluation transition:** E3 → E4 successor checkpoint
 - **Candidate actor outputs:** forbidden
@@ -66,8 +66,23 @@ addressed manifest and aggregate interpretation.
 
 ## Results and decision
 
-Pending.
+The frozen study passed every promotion gate. All 64 fresh bases validated the
+inherited schema, direct planned path, exact witness, split separation,
+construction limits, exclusions, and semantic/rule-profile uniqueness. Both
+placebos were invariant on all 64 tasks.
+
+The replicated stage-2 ablation retained an exact witness in 15/64 tasks
+(23.4375%, below the frozen 25% maximum); the stage-4 ablation retained none.
+Every full-suffix intervention had a zero error grid for every selector at
+stages 4 and 5, broke the planned path, and removed the exact witness. All 64
+paired rescues restored the complete base grid and witness signature. Mean
+construction cost was 8.328125 counted candidates, p95 was 9, and maximum was
+10.
+
+Final disposition: `promoted`. E4 is authorized for exactly one new candidate
+experiment. This is evaluator calibration evidence only: it contains no actor
+output, does not establish OT-1, and does not rescore OT-0016 through OT-0018.
 
 ## Evidence manifest
 
-Pending.
+`evidence/manifests/OT-0019/ot-0019-full-suffix-e4-calibration-001.json`

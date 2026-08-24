@@ -63,15 +63,19 @@ made this classification rule explicit.
   disposition remain valid; only its former target-level OT-1 conclusion is
   stale and is replaced by the narrower OT-0 classification. No earlier
   candidate is rescored under E3.
-- **E4 challenger — exact causal opportunity (not promoted):** OT-0017 retained
+- **E4 — exact causal opportunity:** OT-0017 retained
   every E2/E3 anchor and added an exact controller-only witness for the ordered
   causal and lineage gates. Direct construction was feasible, but the frozen
   promotion anchor failed because its canary ablation removed only one of three
-  surviving fixed-control routes. E3 remains the last accepted regime but is
+  surviving fixed-control routes. E3 remained the last accepted regime and was
   closed to new candidates because its sampler was blind to exact opportunity;
-  no candidate run is authorized until a successor regime passes prospective
-  calibration. OT-0018's stage-5 route-complete intervention also failed: six
+  no candidate run was authorized until a successor regime passed prospective
+  calibration. OT-0018's stage-5 route-complete intervention failed when six
   exact oracles moved correction to stage 3 and used stage 4 as the canary.
+  OT-0019 then neutralized the complete stage-4/stage-5 suffix, removed all 64
+  exact witnesses, and rescued all 64 base signatures while preserving every
+  other frozen anchor. E4 is promoted for exactly one new candidate experiment;
+  it does not rescore any prior candidate.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same

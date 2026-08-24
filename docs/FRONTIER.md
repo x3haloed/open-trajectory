@@ -157,6 +157,16 @@ pre-harm stages, correction can occur as early as stage 3, so a path-complete
 canary removal must neutralize both stages 4 and 5. A fresh two-stage suffix
 neutralization and rescue is the remaining concrete evaluator falsifier.
 
+OT-0019 passed that falsifier on 64 entirely fresh bases. Full-suffix
+neutralization produced zero exact-witness survivors and all 64 two-stage
+rescues restored the base signature. Event-identity/query-order placebos and
+all base gates passed; replicated stage-2 and stage-4 ablations retained 15/64
+and 0/64 witnesses, within their frozen limits. E4 is promoted for exactly one
+new candidate experiment. This is controller calibration, not OT-1 evidence.
+The immediate frontier returns to a fresh live candidate under the direct E4
+task distribution and all unchanged E2/E3 deployment, causal, novelty, and
+reproduction anchors.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -183,13 +193,14 @@ temporal chain feasible without encoding a candidate strategy.
 Observed: the accepted OT-0016 task could not satisfy that chain even for a
 hidden fixed-control oracle, and none of 256 fresh inherited worlds contained a
 complete witness.
-Uncertain: whether neutralizing and rescuing the complete stage-4/stage-5
-suffix can distinguish the path-agnostic exact-opportunity regime on fresh
-tasks without weakening its unchanged temporal or lineage anchors.
+Uncertain: whether a fresh candidate can use independently retained
+consequences to invent, commit, later abandon, and continue improving an
+inheritance-selection operation on the promoted E4 distribution.
 Evidence: the sealed OT-0016 run, its valid rejection summary, the replay over
 that task, OT-0017's frozen incidence and mutation studies, and the passing
 16-task direct-synthesis feasibility bundle plus rejected 64-task promotion
-anchor and OT-0018's 6/64 earlier-chain survivors.
+anchor, OT-0018's 6/64 earlier-chain survivors, and OT-0019's passing 64-task
+full-suffix calibration.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

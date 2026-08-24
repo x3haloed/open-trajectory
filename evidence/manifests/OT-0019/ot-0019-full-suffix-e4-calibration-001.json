@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0019-full-suffix-e4-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4440796,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e43e037e6639d55b1be8b46ca0e3e2236f2692e1",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0019",
+  "input_manifests": [
+    "evidence/manifests/OT-0017/ot-0017-direct-construction-feasibility-001.json",
+    "evidence/manifests/OT-0017/ot-0017-fresh-e4-anchor-001.json",
+    "evidence/manifests/OT-0018/ot-0018-path-complete-e4-calibration-001.json"
+  ],
+  "kind": "full-suffix-e4-promotion-study",
+  "limitations": [
+    "Controller-only E4 calibration; no candidate actor outputs or OT-1 evidence.",
+    "Passing calibration promotes E4 for one new candidate experiment only."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0019-full-suffix-e4-calibration-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0019_regime --samples 64 --exclude $EVIDENCE/ot0017/direct-construction-feasibility-001.json --exclude $EVIDENCE/ot0017/fresh-e4-anchor-001.json --exclude $EVIDENCE/ot0018/path-complete-e4-calibration-001.json --output $EVIDENCE/ot0019/full-suffix-e4-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "bae32938072c5e689f97eab7dba427229583f40a075a3a7fbfd103b5611e4930"
+}

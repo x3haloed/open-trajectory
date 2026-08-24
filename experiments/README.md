@@ -23,5 +23,5 @@ Current unexecuted protocol drafts:
   — rejected controller-only successor; stage-5 removal was complete, but six
   exact oracles used earlier correction and a stage-4 canary.
 - [`OT-0019-full-suffix-e4-calibration.md`](OT-0019-full-suffix-e4-calibration.md)
-  — frozen controller-only successor neutralizing and rescuing the complete
-  post-correction suffix.
+  — passed controller-only successor; full-suffix neutralization and rescue
+  promoted E4 for one new candidate experiment.
