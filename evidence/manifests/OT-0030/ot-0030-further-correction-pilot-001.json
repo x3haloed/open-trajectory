@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0030-further-correction-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 331216,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "006defb84753f1c5a34e4b675d13b8e21959e0bc",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0030",
+  "input_manifests": [
+    "evidence/manifests/OT-0029/ot-0029-casebook-reversal-pilot-001.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "casebook-preserved-further-correction-pilot",
+  "limitations": [
+    "This is a public non-candidate carrier pilot, not OT-1 evidence.",
+    "The hosted outputs, deployment events, identities, and workspaces remain private.",
+    "A pass does not authorize E4 or a private candidate run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0030-further-correction-pilot-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "dda1aea825e7484368ece34959033a56cf99a9396073431d776d4fb808d4093d"
+}

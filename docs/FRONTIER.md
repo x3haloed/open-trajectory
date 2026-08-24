@@ -341,6 +341,14 @@ before a new sealed canary. A pass would establish preserved further-correction
 feasibility on this trajectory, still without the fixed controls, ablation, or
 authority required for OT-1 or E4.
 
+OT-0030 also produced a mixed frozen result. Both actors revised the inherited
+nine-error state; one recovered to zero and the other reached seven. Every non-
+mechanism gate passed. The successful branch shows that correction capacity
+survived an imperfect correction, but the two-actor gate correctly rejects
+one-turn reproducibility. Further one-shot continuations are closed. The
+remaining distinct learning hypothesis is bounded propose–score–revise on the
+completed encounter, followed by a separately sealed canary.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -455,6 +463,14 @@ contradicted patterns and reached nine.
 Revised model: later reversal is realizable but not one-shot reliable. The next
 discriminating evidence is whether the failed revision's own consequence causes
 further correction, not another independent first reversal.
+
+Expected: the failed nine-error revision's own consequence would make further
+correction reproducible in both fresh continuations.
+Observed: one recovered to zero, while the other changed state but reached
+seven.
+Revised model: correction capacity persists but single-pass synthesis remains
+variance-limited. A useful next test must add causal feedback on the actor's own
+candidate before commit, not another independent sample or carrier change.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
