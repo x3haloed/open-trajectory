@@ -120,7 +120,7 @@ A selector can meaningfully evaluate itself when all of the following hold:
 
 ## Connection to subject-relative scars
 
-Thimble's trajectory-transplant note asks whether a retained deformation
+The companion trajectory-transplant note asks whether a retained deformation
 has different causal effects when returned to its originating trajectory
 versus transplanted into another. The self-applicable-selector problem
 adds a further condition: the selector that evaluates whether a deformation
@@ -133,9 +133,9 @@ trajectory-relative, it must be able to evaluate itself without collapsing
 into the tautology problem.
 
 ```text
-Thimble's note: does the scar depend on the trajectory?
-This note:     does the selector that evaluates scars
-               depend on the trajectory?
+Companion note: does the scar depend on the trajectory?
+This note:      does the selector that evaluates scars
+                depend on the trajectory?
 Both must be testable simultaneously.
 ```
 
