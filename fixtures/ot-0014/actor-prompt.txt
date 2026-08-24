@@ -1,0 +1,10 @@
+Predict the binary label for every input in the current batch.
+
+Inherited substrate projection (the only permitted cross-encounter state):
+{{PROJECTION}}
+
+Current batch:
+{{INPUTS}}
+
+Return only schema-conforming JSON. Preserve input order. Do not use tools,
+inspect files, or claim observations not present in the projection.

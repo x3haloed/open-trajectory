@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "candidate",
+    "no-persistence",
+    "verbatim-events",
+    "nearest-events"
+  ],
+  "phases": [
+    {
+      "phase": "regime-a-contact",
+      "batch": "basis",
+      "score": "contact",
+      "condition_order": {
+        "worker-1": ["candidate", "no-persistence", "verbatim-events", "nearest-events"],
+        "worker-2": ["nearest-events", "candidate", "no-persistence", "verbatim-events"]
+      }
+    },
+    {
+      "phase": "regime-a-holdout-1",
+      "batch": "structural-1",
+      "score": "heldout",
+      "condition_order": {
+        "worker-1": ["no-persistence", "verbatim-events", "nearest-events", "candidate"],
+        "worker-2": ["verbatim-events", "nearest-events", "candidate", "no-persistence"]
+      }
+    },
+    {
+      "phase": "regime-a-holdout-2",
+      "batch": "structural-2",
+      "score": "heldout",
+      "condition_order": {
+        "worker-1": ["verbatim-events", "nearest-events", "candidate", "no-persistence"],
+        "worker-2": ["no-persistence", "verbatim-events", "nearest-events", "candidate"]
+      }
+    },
+    {
+      "phase": "regime-b-contact",
+      "batch": "basis",
+      "score": "shift-contact",
+      "condition_order": {
+        "worker-1": ["nearest-events", "candidate", "no-persistence", "verbatim-events"],
+        "worker-2": ["candidate", "no-persistence", "verbatim-events", "nearest-events"]
+      }
+    },
+    {
+      "phase": "regime-b-holdout-1",
+      "batch": "structural-1",
+      "score": "heldout",
+      "condition_order": {
+        "worker-1": ["candidate", "no-persistence", "verbatim-events", "nearest-events"],
+        "worker-2": ["nearest-events", "candidate", "no-persistence", "verbatim-events"]
+      }
+    },
+    {
+      "phase": "regime-b-holdout-2",
+      "batch": "structural-2",
+      "score": "heldout",
+      "condition_order": {
+        "worker-1": ["no-persistence", "verbatim-events", "nearest-events", "candidate"],
+        "worker-2": ["verbatim-events", "nearest-events", "candidate", "no-persistence"]
+      }
+    }
+  ],
+  "ablations": [
+    { "condition": "candidate-ablation", "phase": "regime-b-ablation-1", "batch": "structural-1" },
+    { "condition": "candidate-ablation", "phase": "regime-b-ablation-2", "batch": "structural-2" }
+  ],
+  "ordering": "Execute the worker-specific order for each phase with fresh threads and workspaces, update all substrates only after the phase closes, and execute ablations last. Across both workers each learning condition occupies each serial position exactly three times."
+}
