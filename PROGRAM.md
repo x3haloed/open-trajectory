@@ -202,6 +202,12 @@ Initial sequence:
   falsifier and has no OT-1 or E4 authority. Failed before scoring because all
   three selectors used forbidden method/attribute syntax; the decision list
   itself validated. Further free-form portfolio retries are closed.
+- **OT-0026:** test the remaining materially different carrier hypothesis:
+  three exact actor-authored stack score programs plus the OT-0025 structured
+  decision list. Generic token semantics are schema-bound and directly
+  interpreted, eliminating free-form selector syntax without transferring
+  ranking or choice authority to a compiler. This public pilot is frozen and
+  has no OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

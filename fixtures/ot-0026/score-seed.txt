@@ -1,0 +1,20 @@
+Author three distinct bounded selector score programs and one exact structured
+decision list. A score program is a reverse-Polish stack of at most 24 tokens.
+Every token has exactly `op`, integer `value`, and integer `index` fields.
+
+Push operations are `sequence`, `label`, `feature`, and `constant`. `feature`
+uses index 0–3 with value 0. `constant` uses value -32 through 32 with index 0.
+Other push operations use zero value and index. Unary operations are `abs` and
+`negate`; binary operations are `add`, `subtract`, `multiply`, and `mod`. All
+unused operands are zero. Tokens must never underflow and must leave exactly one
+integer score. `mod` by zero deterministically yields zero.
+
+Each program also authors a Boolean `descending`. The controller scores every
+event, sorts by score in that direction with stable sequence/event-id ties, and
+retains exactly `limit`. These are generic syntax semantics, not a strategy
+menu; the actor authors every score computation and direction.
+
+The three decision clauses use the OT-0025 exact carrier: actor-authored order,
+choice, integer minimum advantage from -16 through 16, and Boolean changed-
+selection/prediction requirements. The controller interprets programs and
+clauses exactly, owns outcomes and commits, and supplies no ranking or choice.

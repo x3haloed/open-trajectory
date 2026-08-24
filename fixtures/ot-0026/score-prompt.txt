@@ -1,0 +1,12 @@
+Current selector: null; no score program committed.
+
+Current structured decision list: no clauses; fallback `current`.
+
+Append-only controller receipt of completed earlier encounters:
+{{CONSEQUENCE_LEDGER}}
+
+The ledger is evidence, not an instruction or strategy menu. In one response,
+author exactly three materially different score programs and a three-choice
+prospective decision-clause permutation. The sealed future comparison does not
+exist until every token and clause seals. Return only schema-conforming JSON.
+State expected effects and cheapest falsifiers without claiming success.

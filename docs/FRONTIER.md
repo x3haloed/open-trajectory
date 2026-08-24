@@ -260,6 +260,15 @@ representation hypothesis is to make selector programs exact structured data
 too, with generic schema-bound operations and direct deterministic
 interpretation rather than free-form syntax or semantic compilation.
 
+OT-0026 freezes that materially different representation on a fresh public
+relation. Each actor authors three bounded reverse-Polish integer score
+programs over sequence, label, and feature positions, their sort directions,
+and the complete three-clause decision list before sealed comparisons exist.
+The controller deterministically retains the top bounded events and applies
+the clauses exactly. This development pilot has no OT-1 or E4 authority. A
+frozen failure closes the present portfolio-carrier hypothesis chain rather
+than authorizing another syntax or capacity adjustment.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

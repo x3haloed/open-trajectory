@@ -45,6 +45,12 @@ attribution and its aggregate behavior missed every target-level gate.
 OT-0005 removed that attribution confound with deterministic program execution
 and a passing identity-program placebo in its complete worker, but was rejected
 at its frozen carrier gate and did not produce recursive correction.
+OT-0020 later failed the exact-opportunity E4 endpoint, and OT-0021 through
+OT-0025 progressively falsified the richer-trace, single-challenger, and
+free-form portfolio carriers without target authority. OT-0026 is the active
+public development falsifier: an exact actor-authored stack score program plus
+the already-validated structured decision list. It is not OT-1 evidence or E4
+authorization.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start
