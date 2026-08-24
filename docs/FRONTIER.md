@@ -39,6 +39,9 @@ experiment records; they are no longer live implementation narration here.
 - `evidence/manifests/OT-0041/ot-0041-e8b-patched-backend-calibration-001.json`
   — promoted patched-backend protocol calibration; one fresh E8B candidate
   authorized, but no candidate goal or OT-2 evidence.
+- `evidence/manifests/OT-0042/ot-0042-e8b-self-authored-goal-candidate-001.json`
+  — valid rejected hosted candidate; complete mechanism and protocol gates,
+  but goal continuity, hierarchy, action, and completion gates failed.
 - `evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json` — private Program B
   infrastructure result; rejected as frozen and not OT-2 evidence.
 
@@ -156,6 +159,17 @@ canary and three-tool inventory; both negative turns preserved the expected
 diagnostic and explicitly emitted inventories.
 Decision: promote E8B for exactly one fresh candidate.
 
+Expected for OT-0042: once schema and inventory defects were removed, fresh
+actors would author a valid contract and then copy the admitted hierarchy and
+required action from the durable projection across seven pursuit encounters.
+Observed: the causal selector and every protocol gate passed, but candidate
+actions were 5/8 and 3/8, hierarchy was 1/8 in each worker, and neither
+completed. Most pursuit actors re-emitted a contract and regenerated hierarchy
+identities. Initial failures also exposed non-normative 12-hex formatting gates.
+Revised model: separate admission instructions and schema from pursuit; make
+the pursuit schema structurally exclude a new contract; and evaluate safe novel
+identifier continuity without prescribing an arbitrary hexadecimal form.
+
 ## Active frontier
 
 OT-0038 completed the controller evaluator, but OT-0039 exposed an uncalibrated
@@ -178,9 +192,11 @@ authorized. The cheapest next slice is OT-0040 exact-backend calibration:
    selector rather than importing a new memory system or treating stored prose
    as OT-2.
 
-OT-0041 passed and E8B authorizes one fresh OT-0042 candidate. It must retain
-OT-0039's complete OT-2 causal and control design, bind OT-0040's revised
-schema, use OT-0041's patched backend bytes and failure-safe collection, and
-derive a new task only after its clean implementation commit. OT-0039 is not
-retried; OT-0042 is a new candidate under a new task and epoch. The next
-experiment ID is OT-0042.
+E8B is consumed and no candidate is authorized. OT-0043 must calibrate, before
+new candidate output, two separate hosted interfaces: goal admission and
+pursuit-only copying. The pursuit schema must require a null contract and the
+pursuit prompt must contain no goal-authoring branch. Controller-only exhaustive
+tests must replace the arbitrary 12-hex identity convention with bounded safe
+novel strings while retaining exact cross-encounter identity equality. Only a
+clean checkpoint may authorize another candidate. OT-0042 remains rejected and
+is never rescored. The next experiment ID is OT-0043.

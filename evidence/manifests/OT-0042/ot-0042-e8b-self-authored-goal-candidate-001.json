@@ -1,0 +1,40 @@
+{
+  "artifact_id": "ot-0042-e8b-self-authored-goal-candidate-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 8733926,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ee59b725b9b505417ebea867967b34d16f0818a1",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0042",
+  "input_manifests": [
+    "evidence/manifests/OT-0041/ot-0041-e8b-patched-backend-calibration-001.json",
+    "evidence/manifests/OT-0038/ot-0038-e7-ot2-evaluator-calibration-001.json",
+    "evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json",
+    "evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json",
+    "evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json"
+  ],
+  "kind": "e8b-self-authored-durable-goal-hosted-epoch-run",
+  "limitations": [
+    "Hosted outputs, task identities, world states, and deployment receipts remain private.",
+    "A pass is time-bounded single-domain OT-2 evidence, not immutable reproduction.",
+    "This run consumes E8B's one-candidate authorization regardless of disposition.",
+    "A pass does not establish OT-3 or cross-domain self-direction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0042-e8b-self-authored-goal-candidate-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2e398ab7174c2d818a461075d91aa47a19fe9ecacea7fdabb416c39af0a8e39d"
+}

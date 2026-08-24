@@ -344,7 +344,10 @@ Initial sequence:
 - **OT-0041:** repeat the protocol checkpoint with the historically calibrated
   patched binary and corrected application-error semantics.
 - **OT-0042:** execute the single fresh E8B self-authored durable-goal
-  candidate authorized by OT-0041.
+  candidate authorized by OT-0041; rejected on hosted goal continuity despite
+  a complete selector, protocol, and authority path.
+- **OT-0043:** prospectively calibrate split admission/pursuit interfaces and
+  format-neutral safe identities without candidate output.
 
 ## Program C — TAAA
 
