@@ -35,3 +35,8 @@ control family or selector-change ablation, promote OT-1, or renew E4. Actor
 output is forbidden until a clean implementation commit and separate run-lock
 commit bind every authority. OT-0030 is not adjusted after output. A frozen
 failure closes this further-correction path.
+
+The clean protocol and implementation commit is
+`443bdde6ad225aacc8f0df254516c946a0d4b00e`.
+`spec/ot-0030-run-lock.json` binds it and every runtime authority before the
+first hosted further-correction output.
