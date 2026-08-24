@@ -1,0 +1,35 @@
+{
+  "artifact_id": "ot-0018-path-complete-e4-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4375694,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8b952e1f6d6f41bf0863e45dacb397359d32a987",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0018",
+  "input_manifests": [
+    "evidence/manifests/OT-0017/ot-0017-direct-construction-feasibility-001.json",
+    "evidence/manifests/OT-0017/ot-0017-fresh-e4-anchor-001.json"
+  ],
+  "kind": "path-complete-e4-calibration-study",
+  "limitations": [
+    "Controller-only E4 calibration; no candidate actor outputs or OT-1 evidence.",
+    "E4 promotion failed because six of 64 suffix-deleted tasks retained an earlier harm/correction and stage-4 canary chain."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0018-path-complete-e4-calibration-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0018_regime --samples 64 --exclude $EVIDENCE/ot0017/direct-construction-feasibility-001.json --exclude $EVIDENCE/ot0017/fresh-e4-anchor-001.json --output $EVIDENCE/ot0018/path-complete-e4-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "474bfb3e10e4ac8191c5bbcd9fb083932d183c3fb7287548c111d8ece7d0d2fa"
+}

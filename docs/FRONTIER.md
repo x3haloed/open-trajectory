@@ -149,6 +149,14 @@ opportunity. E4 is not promoted, and no candidate run is authorized. The only
 remaining concrete evaluator path is a new, prospectively frozen checkpoint
 that removes every fixed-control canary route and includes a paired rescue.
 
+OT-0018 made stage 5 route-complete: every selector tied at zero error, all 64
+planned paths disappeared, and all rescues passed. E4 still failed promotion
+because 6/64 exact oracles moved harm/correction to stage 3 and used stage 4 as
+the canary. This identifies the complete temporal boundary: after two useful
+pre-harm stages, correction can occur as early as stage 3, so a path-complete
+canary removal must neutralize both stages 4 and 5. A fresh two-stage suffix
+neutralization and rescue is the remaining concrete evaluator falsifier.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -175,13 +183,13 @@ temporal chain feasible without encoding a candidate strategy.
 Observed: the accepted OT-0016 task could not satisfy that chain even for a
 hidden fixed-control oracle, and none of 256 fresh inherited worlds contained a
 complete witness.
-Uncertain: whether a path-complete canary removal and paired rescue can
-distinguish the exact-opportunity regime on fresh tasks without weakening its
-unchanged temporal or lineage anchors.
+Uncertain: whether neutralizing and rescuing the complete stage-4/stage-5
+suffix can distinguish the path-agnostic exact-opportunity regime on fresh
+tasks without weakening its unchanged temporal or lineage anchors.
 Evidence: the sealed OT-0016 run, its valid rejection summary, the replay over
 that task, OT-0017's frozen incidence and mutation studies, and the passing
 16-task direct-synthesis feasibility bundle plus rejected 64-task promotion
-anchor.
+anchor and OT-0018's 6/64 earlier-chain survivors.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

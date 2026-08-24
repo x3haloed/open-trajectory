@@ -1,6 +1,6 @@
 # OT-0018 — Path-complete E4 calibration
 
-- **Status:** frozen; not run
+- **Status:** rejected; E4 not promoted
 - **Evidence class:** exploratory-only
 - **Evaluation transition:** E3 → E4 successor checkpoint
 - **Candidate actor outputs:** forbidden
@@ -68,8 +68,25 @@ result.
 
 ## Results and decision
 
-Pending.
+The frozen study rejected E4 promotion. All 64 fresh bases, exclusions,
+diversity checks, construction gates, schemas, planned and exact witnesses,
+placebos, replicated stage-2/stage-4 sensitivity controls, route-completeness
+checks, and rescues passed. The direct constructor again required only 8.390625
+counted candidates on average, with p95 9 and maximum 10.
+
+The canary deletion removed the planned path and made every fixed selector tie
+at zero error on both stage-5 splits, but six of 64 tasks retained an alternate
+exact witness. In each survivor the oracle used useful stages 1 and 2,
+harm/correction at stage 3, and a canary at stage 4. The intervention was
+complete across stage 5 but not across the full suffix after every possible
+correction stage.
+
+Final disposition: `rejected`. E4 remains unpromoted and no candidate run is
+authorized. A credible successor must neutralize all selector routes at both
+stages 4 and 5, which are the complete suffix after the earliest possible
+correction at stage 3, and pair that intervention with an exact two-stage
+rescue. OT-0018 is not rerun or reinterpreted.
 
 ## Evidence manifest
 
-Pending.
+`evidence/manifests/OT-0018/ot-0018-path-complete-e4-calibration-001.json`

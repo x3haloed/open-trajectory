@@ -70,7 +70,8 @@ made this classification rule explicit.
   surviving fixed-control routes. E3 remains the last accepted regime but is
   closed to new candidates because its sampler was blind to exact opportunity;
   no candidate run is authorized until a successor regime passes prospective
-  calibration.
+  calibration. OT-0018's stage-5 route-complete intervention also failed: six
+  exact oracles moved correction to stage 3 and used stage 4 as the canary.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same

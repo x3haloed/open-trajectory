@@ -20,5 +20,5 @@ Current unexecuted protocol drafts:
   fresh promotion anchor rejected E4 because the canary ablation was not
   path-complete.
 - [`OT-0018-path-complete-e4-calibration.md`](OT-0018-path-complete-e4-calibration.md)
-  — frozen controller-only successor checkpoint with path-complete canary
-  removal and paired rescue.
+  — rejected controller-only successor; stage-5 removal was complete, but six
+  exact oracles used earlier correction and a stage-4 canary.
