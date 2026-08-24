@@ -101,6 +101,8 @@ CI runs the audit and tests on every push and pull request.
 - [PROGRAM.md](PROGRAM.md) — staged research program.
 - [docs/RESEARCH_LANDSCAPE.md](docs/RESEARCH_LANDSCAPE.md) — non-normative
   hypothesis map for widening candidate generation.
+- [docs/hypotheses/](docs/hypotheses/) — attributed, non-normative design
+  proposals that do not alter frozen gates.
 - [docs/EVIDENCE.md](docs/EVIDENCE.md) — evidence, privacy, and reconstruction contract.
 - [docs/WORKFLOW.md](docs/WORKFLOW.md) — experiment lifecycle and promotion rules.
 - `spec/` — validated generic and experiment-specific run contracts.
