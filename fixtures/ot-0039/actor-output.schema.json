@@ -1,0 +1,138 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "goal_contract",
+    "goal_id",
+    "goal_status",
+    "plan_version",
+    "experiment_id",
+    "subtask_id",
+    "action",
+    "completion_claim"
+  ],
+  "properties": {
+    "goal_contract": {
+      "anyOf": [
+        {"type": "null"},
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "goal_id",
+            "target_assets",
+            "value_thesis",
+            "completion",
+            "constraints",
+            "progress_evidence",
+            "revision",
+            "surrender"
+          ],
+          "properties": {
+            "goal_id": {"type": "string", "pattern": "^goal-[0-9a-f]{12}$"},
+            "target_assets": {
+              "type": "array",
+              "minItems": 3,
+              "maxItems": 3,
+              "uniqueItems": true,
+              "items": {"type": "string"}
+            },
+            "value_thesis": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["metric", "minimum_gain", "beneficiary"],
+              "properties": {
+                "metric": {"const": "verified-service-value"},
+                "minimum_gain": {"type": "integer"},
+                "beneficiary": {"const": "observed-service-portfolio"}
+              }
+            },
+            "completion": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["minimum_verified_gain", "required_receipts", "claim_timing"],
+              "properties": {
+                "minimum_verified_gain": {"type": "integer"},
+                "required_receipts": {
+                  "type": "array",
+                  "prefixItems": [
+                    {"const": "controller-repair-for-every-target"},
+                    {"const": "independent-end-to-end-verification"}
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "claim_timing": {"const": "fresh-encounter-after-sealed-proof"}
+              }
+            },
+            "constraints": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["maximum_interventions", "reversible_routes_only"],
+              "properties": {
+                "maximum_interventions": {"const": 3},
+                "reversible_routes_only": {"const": true}
+              }
+            },
+            "progress_evidence": {
+              "type": "array",
+              "prefixItems": [
+                {"const": "controller-repair"},
+                {"const": "route-model-invalidated"},
+                {"const": "independent-end-to-end-verification"}
+              ],
+              "minItems": 3,
+              "maxItems": 3
+            },
+            "revision": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["on", "preserve"],
+              "properties": {
+                "on": {"type": "array", "prefixItems": [{"const": "route-model-invalidated"}], "minItems": 1, "maxItems": 1},
+                "preserve": {
+                  "type": "array",
+                  "prefixItems": [
+                    {"const": "goal_id"},
+                    {"const": "target_assets"},
+                    {"const": "minimum_verified_gain"}
+                  ],
+                  "minItems": 3,
+                  "maxItems": 3
+                }
+              }
+            },
+            "surrender": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["on", "terminal_status"],
+              "properties": {
+                "on": {
+                  "type": "array",
+                  "prefixItems": [
+                    {"const": "sealed-upper-bound-below-threshold"},
+                    {"const": "authority-denied"}
+                  ],
+                  "minItems": 2,
+                  "maxItems": 2
+                },
+                "terminal_status": {"const": "set_down"}
+              }
+            }
+          }
+        }
+      ]
+    },
+    "goal_id": {"type": ["string", "null"], "pattern": "^goal-[0-9a-f]{12}$"},
+    "goal_status": {
+      "type": "string",
+      "enum": ["unknown", "active", "completed", "set_down", "superseded", "blocked", "invalidated"]
+    },
+    "plan_version": {"type": ["integer", "null"], "minimum": 1, "maximum": 9},
+    "experiment_id": {"type": ["string", "null"], "pattern": "^exp-[0-9a-f]{12}$"},
+    "subtask_id": {"type": ["string", "null"], "pattern": "^sub-[0-9a-f]{12}$"},
+    "action": {"type": "string"},
+    "completion_claim": {"type": "boolean"}
+  }
+}

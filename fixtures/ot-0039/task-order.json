@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "adaptive-goal-contract",
+    "no-persistence",
+    "verbatim-event",
+    "unchanged-selector"
+  ],
+  "phases": [
+    {"phase": "encounter-0-admission", "worker-1": ["adaptive-goal-contract", "no-persistence", "verbatim-event", "unchanged-selector"], "worker-2": ["verbatim-event", "unchanged-selector", "adaptive-goal-contract", "no-persistence"]},
+    {"phase": "encounter-1-first-repair", "worker-1": ["no-persistence", "verbatim-event", "unchanged-selector", "adaptive-goal-contract"], "worker-2": ["unchanged-selector", "adaptive-goal-contract", "no-persistence", "verbatim-event"]},
+    {"phase": "encounter-2-first-revision", "worker-1": ["verbatim-event", "unchanged-selector", "adaptive-goal-contract", "no-persistence"], "worker-2": ["adaptive-goal-contract", "no-persistence", "verbatim-event", "unchanged-selector"]},
+    {"phase": "encounter-3-second-repair", "worker-1": ["unchanged-selector", "adaptive-goal-contract", "no-persistence", "verbatim-event"], "worker-2": ["no-persistence", "verbatim-event", "unchanged-selector", "adaptive-goal-contract"]},
+    {"phase": "encounter-4-second-revision", "worker-1": ["adaptive-goal-contract", "no-persistence", "verbatim-event", "unchanged-selector"], "worker-2": ["verbatim-event", "unchanged-selector", "adaptive-goal-contract", "no-persistence"]},
+    {"phase": "encounter-5-third-repair", "worker-1": ["no-persistence", "verbatim-event", "unchanged-selector", "adaptive-goal-contract"], "worker-2": ["unchanged-selector", "adaptive-goal-contract", "no-persistence", "verbatim-event"]},
+    {"phase": "encounter-6-independent-verification", "worker-1": ["verbatim-event", "unchanged-selector", "adaptive-goal-contract", "no-persistence"], "worker-2": ["adaptive-goal-contract", "no-persistence", "verbatim-event", "unchanged-selector"]},
+    {"phase": "encounter-7-post-receipt-judgment", "worker-1": ["unchanged-selector", "adaptive-goal-contract", "no-persistence", "verbatim-event"], "worker-2": ["no-persistence", "verbatim-event", "unchanged-selector", "adaptive-goal-contract"]}
+  ],
+  "ordering": "Within each phase every condition seals before any substrate observes. Across both workers each condition occupies each serial position exactly four times."
+}

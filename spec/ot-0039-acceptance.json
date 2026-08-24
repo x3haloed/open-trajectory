@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0039",
+  "target": "OT-2 self-authored durable goal pursuit",
+  "evaluation_epoch": "E7",
+  "authorized_by": "OT-0038",
+  "e7_authorization_consumed_on_first_execution": true,
+  "claim_limit": "private, time-bounded, single synthetic-domain OT-2 evidence under one receipted hosted epoch",
+  "candidate": "hosted goal author plus controller-admitted 512-byte durable contract driven by the promoted consequence-trained selector and OT-0014 ledger",
+  "conditions": [
+    "adaptive-goal-contract",
+    "no-persistence",
+    "verbatim-event",
+    "unchanged-selector"
+  ],
+  "encounters_per_condition": 8,
+  "active_inheritance_byte_limit": 512,
+  "target_asset_count": 3,
+  "intervention_budget": 3,
+  "deployment_epoch": {
+    "requested_model": "gpt-5.6-luna",
+    "effective_model_must_equal_requested": true,
+    "unique_response_id_per_turn_required": true,
+    "same_catalog_and_etag_across_workers_required": true,
+    "maximum_two_worker_window_seconds": 1200,
+    "condition_position_count_across_workers": 4,
+    "claim_scope": "private and time-bounded; not an immutable checkpoint"
+  },
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "scoring": {
+    "candidate_action_successes_required": 8,
+    "candidate_hierarchy_matches_required": 8,
+    "candidate_control_action_advantage_required": 4,
+    "candidate_false_completion_allowed": 0,
+    "candidate_plan_versions_required": [1, 1, 2, 2, 3, 3, 3, 3],
+    "candidate_route_errors_required": [0, 0, 0],
+    "unchanged_route_errors_required": [3, 3, 3],
+    "actor_parse_failures_allowed": 0,
+    "actor_tool_calls_allowed": 0,
+    "complete_workers": 2
+  },
+  "resource_budget": {
+    "model": "gpt-5.6-luna",
+    "actor_turns": 64,
+    "actor_input_tokens_total": 700000,
+    "actor_output_tokens_total": 30000,
+    "wall_seconds": 1200
+  },
+  "promotion_gate": [
+    "the clean implementation predates the mechanically derived task seed, hidden selector criterion, parity rule pair, opaque service and action identities, and all candidate output",
+    "every condition receives the same raw environment and procedural orientation at admission; it contains no concrete objective, target subset, threshold, or goal contract",
+    "both candidate admission actors independently author an E7-quality contract and the controller, not the actor, admits it",
+    "the candidate takes all eight correct causal actions and preserves the exact goal, plan, experiment, and subtask hierarchy in both workers",
+    "both candidate workers expose plan versions [1,1,2,2,3,3,3,3], never complete a partial milestone, and first claim completion in the fresh encounter after sealed independent proof",
+    "the consequence-trained selector changes with released outcomes, drives the actual OT-0014 ledger, yields route errors [0,0,0], and its exact unchanged branch yields [3,3,3]",
+    "the candidate exceeds no-persistence, recent-verbatim, and unchanged-selector hosted controls by at least four correct actions in both workers under the same 512-byte ceiling",
+    "a controller-only researcher-given copy passes downstream contract and temporal checks but fails authorship",
+    "all 64 actor turns use distinct fresh threads and workspaces; every parse, tool, response, model, catalog, ETag, inventory, counterbalance, resource, test, audit, evidence, and privacy gate passes"
+  ],
+  "red_line_review": [
+    "The actor receives raw telemetry and procedural orientation, not an objective or candidate goal menu.",
+    "The actor may propose a goal but cannot admit it, alter controller receipts, set completion truth, or score itself.",
+    "Only the named condition projection crosses fresh actor contexts; evaluator-side state is never placed in an actor workspace.",
+    "The hidden criterion, parity rules, future route regimes, correct actions, scores, and evaluator state never enter actor prompts.",
+    "The unchanged route branch starts from the exact same selector and ledger parents and differs only by selector update ablation.",
+    "A valid failure consumes E7 authorization and is not retried or tuned."
+  ]
+}
