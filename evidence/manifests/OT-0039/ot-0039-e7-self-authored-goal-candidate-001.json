@@ -1,0 +1,39 @@
+{
+  "artifact_id": "ot-0039-e7-self-authored-goal-candidate-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 39465,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "39330742036b814d9a648f1d587a75643bf89206",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0039",
+  "input_manifests": [
+    "evidence/manifests/OT-0038/ot-0038-e7-ot2-evaluator-calibration-001.json",
+    "evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json",
+    "evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json",
+    "evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json"
+  ],
+  "kind": "e7-self-authored-durable-goal-hosted-epoch-run",
+  "limitations": [
+    "Hosted outputs, task identities, world states, and deployment receipts remain private.",
+    "A pass is time-bounded single-domain OT-2 evidence, not immutable reproduction.",
+    "This run consumes E7's one-candidate authorization regardless of disposition.",
+    "A pass does not establish OT-3 or cross-domain self-direction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0039-e7-self-authored-goal-candidate-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0b0ab27434e50c81d5e30088cf787084aab7caccf2e5d5d752b68c4ae3a58eb9"
+}

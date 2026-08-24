@@ -1,6 +1,6 @@
 # OT-0039 — E7 self-authored durable-goal candidate
 
-- **Status:** frozen implementation; task not yet derived; no actor output yet
+- **Status:** invalidated before actor output; E7 authorization consumed
 - **Evidence class:** private-reproducible if valid
 - **Target:** OT-2 — Self-Authored Durable Goal Pursuit
 - **Evaluation epoch:** E7
@@ -63,3 +63,25 @@ audit, or privacy failure. A valid failure consumes E7 and is not retried.
 A pass promotes only private, time-bounded OT-2 evidence in this one synthetic
 service/parity domain. It does not establish cross-domain self-direction, OT-3,
 or an immutable hosted checkpoint.
+
+## Result and decision
+
+The locked first execution at `39330742036b814d9a648f1d587a75643bf89206`
+was invalidated before scientific scoring. The hosted Responses endpoint
+rejected the frozen nested output schema because `uniqueItems` is outside its
+accepted structured-output subset. The local JSON Schema validator had accepted
+the same document. No actor result or candidate goal was produced.
+
+The harness then attempted to read a model-visible inventory that did not exist
+after the failed turn and raised `IndexError`, masking the upstream schema
+diagnostic in the top-level summary. The private raw artifact preserves both
+events: actor-result count `0`, mechanism count `0`, a sealed upstream schema
+error, and passing post-run tests and privacy audit.
+
+Final disposition: `invalidated`. The result is not rescored or retried. E7's
+first-execution authorization is consumed, and OT-2 remains unproven. The
+revised model is that local standards validation is insufficient for hosted
+structured outputs; a future evaluator checkpoint must exercise the exact
+backend schema and the failed-turn evidence path before authorizing another
+candidate. The private artifact is identified by
+`evidence/manifests/OT-0039/ot-0039-e7-self-authored-goal-candidate-001.json`.

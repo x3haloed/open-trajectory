@@ -319,6 +319,13 @@ contracts were rejected; researcher-given origin failed only authorship; and
 the promoted selector/OT-0 path beat its exact unchanged ablation `[0,0,0]` to
 `[3,3,3]`. E7 authorizes exactly one fresh self-authored-goal candidate.
 
+OT-0039 consumed that authorization and was invalidated before actor output.
+The hosted endpoint rejected a nested `uniqueItems` keyword accepted by the
+local JSON Schema validator; the harness then masked that error with an empty-
+inventory `IndexError`. No goal or scientific score was produced. A new
+candidate requires a separate exact-backend schema and failure-path calibration;
+OT-0039 is not retried or rescored.
+
 Separate goal, plan, subgoal, and current action. A goal contract records its
 value thesis, completion predicate, constraints, progress evidence, revision
 conditions, and surrender conditions. Continuation is voluntary; completion is
@@ -330,7 +337,9 @@ Initial sequence:
 - **OT-0038:** calibrate the candidate-free goal-quality, authorship, temporal,
   and OT-1 causal evaluator.
 - **OT-0039:** test one fresh voluntary goal formation and pursuit candidate
-  from procedural orientation.
+  from procedural orientation; invalidated before actor output.
+- **OT-0040:** calibrate the exact hosted structured-output dialect and failed-
+  turn evidence path without candidate goal output.
 
 ## Program C — TAAA
 

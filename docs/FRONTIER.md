@@ -30,6 +30,9 @@ experiment records; they are no longer live implementation narration here.
 - `evidence/manifests/OT-0038/ot-0038-e7-ot2-evaluator-calibration-001.json`
   — public E7 calibration across all 2,304 cases; one fresh OT-2 candidate
   authorized, but no candidate output or OT-2 evidence.
+- `evidence/manifests/OT-0039/ot-0039-e7-self-authored-goal-candidate-001.json`
+  — invalidated hosted candidate attempt; schema rejected before actor output,
+  no scientific score, E7 authorization consumed.
 - `evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json` — private Program B
   infrastructure result; rejected as frozen and not OT-2 evidence.
 
@@ -117,10 +120,21 @@ each; researcher-given origin remained quality-valid but authorship-invalid;
 candidate route error was `[0,0,0]` and unchanged-selector error `[3,3,3]`.
 Decision: promote E7 for exactly one fresh self-authored-goal candidate.
 
+Expected for OT-0039: the locally validated nested output schema would be
+accepted by the hosted backend and 64 fresh encounters would reach the frozen
+OT-2 comparison.
+Observed: the backend rejected `uniqueItems` before producing an actor result;
+the harness then raised `IndexError` while reading a missing failed-turn
+inventory. Actor-result and mechanism counts were both zero.
+Revised model: standards-valid JSON Schema is not sufficient evidence for the
+hosted structured-output subset, and the harness failure path must preserve the
+upstream error without assuming success-only receipts.
+
 ## Active frontier
 
-OT-0038 completed the candidate-free evaluator and world walking skeleton. The
-only authorized next slice is one fresh OT-0039 self-authored-goal candidate:
+OT-0038 completed the controller evaluator, but OT-0039 exposed an uncalibrated
+hosted protocol boundary before candidate output. No OT-2 candidate is now
+authorized. The cheapest next slice is OT-0040 exact-backend calibration:
 
 1. Present raw environmental telemetry and procedural orientation without a
    goal statement or researcher-authored menu of solving objectives.
@@ -138,10 +152,9 @@ only authorized next slice is one fresh OT-0039 self-authored-goal candidate:
    selector rather than importing a new memory system or treating stored prose
    as OT-2.
 
-The OT-0039 candidate must be implemented before its task is derived, start
-from the promoted consequence-trained selector and actual OT-0 ledger, generate
-its contract from raw telemetry in a dedicated admission encounter, and use a
-fresh actor context for every later encounter. The frozen E7 evaluator and
-thresholds may not change after candidate output. One valid failure consumes
-the authorization and must be preserved rather than retried. The next
-experiment ID is OT-0039.
+OT-0040 must send the revised exact candidate schema through the same pinned
+hosted backend with a fixed null-goal canary, produce no candidate contract or
+task result, and verify that both success and rejected-turn paths remain
+interpretable without secondary exceptions. Only a clean pass may authorize
+one new candidate under a new epoch. OT-0039 remains invalidated and is never
+retried. The next experiment ID is OT-0040.
