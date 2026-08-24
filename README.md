@@ -100,7 +100,7 @@ selector determines which completed observations enter the actual OT-0014
 discrepancy-gated ledger; only its bounded projection reaches 74 fresh,
 counterbalanced hosted actor turns across two complete workers. Unchanged,
 zero, all signed unit-axis, first-learned-then-frozen, no-credit, and projection
-ablations are frozen before any candidate execution.
+ablations are locked before the single authorized candidate execution.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

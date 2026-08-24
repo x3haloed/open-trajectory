@@ -1,6 +1,6 @@
 # OT-0035 — E5 learned selector × OT-0 ledger integration
 
-- **Status:** frozen; final candidate output forbidden until a separate run lock
+- **Status:** locked; one authorized candidate execution pending
 - **Evidence class:** private-reproducible if valid
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E5

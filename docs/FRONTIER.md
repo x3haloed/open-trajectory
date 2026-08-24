@@ -54,7 +54,7 @@ ledger error is zero in all three regimes; unchanged selector state yields
 eight errors each; the strongest fixed control learns once and freezes, scoring
 zero, eight, zero; and every no-credit update preserves its exact source. Final
 candidate output remains forbidden until a clean implementation commit and
-separate task/run-lock commit.
+separate task/run-lock commit. That lock is now frozen; execution is pending.
 
 Decision-relevant evidence:
 
