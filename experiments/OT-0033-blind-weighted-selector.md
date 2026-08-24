@@ -1,6 +1,6 @@
 # OT-0033 — Blind consequence-trained weighted selector
 
-- **Status:** frozen; execution forbidden until the run lock is committed
+- **Status:** locked; final task fixed and execution pending
 - **Evidence class:** public-reconstructible mechanism feasibility
 - **Target authority:** none; no OT-1 or evaluation-epoch authority
 - **Predecessor:** OT-0032 realized deterministic selector learning but used a
@@ -82,3 +82,9 @@ a separate run-lock commit binds the mechanically derived task seed, task
 digest, acceptance rule, implementation, evidence authorities, and predecessor
 manifest. Unit fixtures use explicitly excluded development seeds and cannot
 become the final task. OT-0033 is not altered after execution.
+
+The clean protocol and implementation commit is
+`d40d2c6ce5616e4a5b3a643e2a6c93c9c197c5fd`. The task seed is the required
+canonical derivation from that identity; it was not sampled or selected using
+candidate scores. `spec/ot-0033-run-lock.json` binds the seed, reconstructed
+task identity, and every runtime authority before final-task execution.

@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0033",
+  "protocol_origin_git_commit": "d40d2c6ce5616e4a5b3a643e2a6c93c9c197c5fd",
+  "implementation_git_commit": "d40d2c6ce5616e4a5b3a643e2a6c93c9c197c5fd",
+  "runtime": "deterministic-python",
+  "task_seed": "64364d1daa7ab85e9aaa155e37e5b7435a041682e89d8c0fdb263a1de7c93d7e",
+  "task_sha256": "5dc743c9979ca8589e96ef2e7cc1d4fae7e44c8cf5868ecc420f121b7b29e686",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "9e0eea9124f8ff09e11fd50b9e06b87d211b842def9336dd8bf1f1bc907d5d33",
+    "controller_core_sha256": "00918dd39c665526f677513d4563ba3c9c2d0fb1bd632594836b938ceb5a0994",
+    "entrypoint_sha256": "73e79c8dca04305cd89667200da9d140e65c0bc028a155154c017c958441a48d",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "predecessor_manifest_sha256": "a9c30dbb36761358ae8cba4ceb76dca010c4698d273bbfb6b8af5938b2ffc3ab",
+    "sealed_evidence_io_sha256": "fbdd95218935cef4b90bb0de5f0667468a42cc7a174f63a8f59576eae989cdb1",
+    "weighted_selector_core_sha256": "87b74ed3062688b9cc31cbe7a758f6b0aab0a12f75acbd9eba56cdb8268bab23"
+  }
+}

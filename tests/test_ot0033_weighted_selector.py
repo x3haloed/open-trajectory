@@ -17,6 +17,7 @@ from open_trajectory_harness.ot0033_weighted_selector import (
     restore,
     run_protocol,
     score_snapshot,
+    validate_run_lock,
 )
 
 
@@ -134,6 +135,17 @@ class OT0033WeightedSelectorTests(unittest.TestCase):
                 "ot-0032-optimizer-walking-skeleton-001.json"
             ),
             paths,
+        )
+
+    def test_frozen_run_lock_reconstructs_the_post_implementation_task(
+        self,
+    ) -> None:
+        implementation = "d40d2c6ce5616e4a5b3a643e2a6c93c9c197c5fd"
+        lock = validate_run_lock(Path.cwd(), implementation)
+        self.assertEqual(lock["implementation_git_commit"], implementation)
+        self.assertEqual(lock["task_seed"], expected_task_seed(implementation))
+        self.assertEqual(
+            lock["task_sha256"], build_task(lock["task_seed"])["task_sha256"]
         )
 
 
