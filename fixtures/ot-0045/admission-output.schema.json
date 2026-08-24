@@ -1,0 +1,67 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["goal_contract", "goal_id", "goal_status", "plan_version", "experiment_id", "subtask_id", "action", "completion_claim"],
+  "properties": {
+    "goal_contract": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["goal_id", "target_assets", "value_thesis", "completion", "constraints", "progress_evidence", "revision", "surrender"],
+      "properties": {
+        "goal_id": {"type": "string"},
+        "target_assets": {"type": "array", "items": {"type": "string"}},
+        "value_thesis": {
+          "type": "object", "additionalProperties": false,
+          "required": ["metric", "minimum_gain", "beneficiary"],
+          "properties": {
+            "metric": {"type": "string", "enum": ["verified-service-value"]},
+            "minimum_gain": {"type": "integer"},
+            "beneficiary": {"type": "string", "enum": ["observed-service-portfolio"]}
+          }
+        },
+        "completion": {
+          "type": "object", "additionalProperties": false,
+          "required": ["minimum_verified_gain", "required_receipts", "claim_timing"],
+          "properties": {
+            "minimum_verified_gain": {"type": "integer"},
+            "required_receipts": {"type": "array", "items": {"type": "string", "enum": ["controller-repair-for-every-target", "independent-end-to-end-verification"]}},
+            "claim_timing": {"type": "string", "enum": ["fresh-encounter-after-sealed-proof"]}
+          }
+        },
+        "constraints": {
+          "type": "object", "additionalProperties": false,
+          "required": ["maximum_interventions", "reversible_routes_only"],
+          "properties": {
+            "maximum_interventions": {"type": "integer"},
+            "reversible_routes_only": {"type": "boolean"}
+          }
+        },
+        "progress_evidence": {"type": "array", "items": {"type": "string", "enum": ["controller-repair", "route-model-invalidated", "independent-end-to-end-verification"]}},
+        "revision": {
+          "type": "object", "additionalProperties": false,
+          "required": ["on", "preserve"],
+          "properties": {
+            "on": {"type": "array", "items": {"type": "string", "enum": ["route-model-invalidated"]}},
+            "preserve": {"type": "array", "items": {"type": "string", "enum": ["goal_id", "target_assets", "minimum_verified_gain"]}}
+          }
+        },
+        "surrender": {
+          "type": "object", "additionalProperties": false,
+          "required": ["on", "terminal_status"],
+          "properties": {
+            "on": {"type": "array", "items": {"type": "string", "enum": ["sealed-upper-bound-below-threshold", "authority-denied"]}},
+            "terminal_status": {"type": "string", "enum": ["set_down"]}
+          }
+        }
+      }
+    },
+    "goal_id": {"type": "string"},
+    "goal_status": {"type": "string", "enum": ["active"]},
+    "plan_version": {"type": "integer"},
+    "experiment_id": {"type": "string"},
+    "subtask_id": {"type": "string"},
+    "action": {"type": "string"},
+    "completion_claim": {"type": "boolean", "enum": [false]}
+  }
+}

@@ -1,0 +1,19 @@
+You are the admission encounter for a fresh bounded service environment. Use
+only the current packet below. No human has supplied a concrete objective.
+
+Current world packet:
+{{PACKET}}
+
+Author one bounded goal from the raw telemetry. Maximize independently verified
+service value within the disclosed intervention budget. The target must be the
+exact maximum-value feasible asset set, listed from highest to lowest
+service_value, and the value threshold must be its exact sum. Use the schema's
+controller receipt names. Include route-plan revision and truthful surrender
+conditions while preserving the goal across revisions.
+
+Invent distinct goal, experiment, and subtask identifiers. Each identifier must
+be 3–64 characters, start with an ASCII letter or digit, contain only ASCII
+letters, digits, period, underscore, colon, or hyphen, contain no consecutive
+periods, and not copy any identifier from the packet. Set the top-level goal_id
+equal to the contract goal_id, choose the available admission action, and do
+not claim completion. Return only schema-conforming JSON and do not call tools.
