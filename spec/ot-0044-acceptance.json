@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0044",
+  "evaluation_transition": "E9 to E10",
+  "purpose": "candidate-free causal action-advantage threshold calibration",
+  "candidate_goal_outputs": false,
+  "case_count": 2304,
+  "old_advantage_threshold": 4,
+  "new_advantage_threshold": 3,
+  "candidate_action_successes": 8,
+  "unchanged_control_action_successes": 5,
+  "one_repair_defect_action_successes": 7,
+  "authorized_candidate_count": 1,
+  "claim_limit": "public deterministic comparative-score calibration and one fresh E10 candidate authorization; no OT-2 evidence",
+  "promotion_gate": [
+    "all 2,304 evaluator cases retain candidate selector route errors [0,0,0] and exact unchanged-selector route errors [3,3,3]",
+    "the five selector-independent actions are shared and the three repair actions are the complete causal difference",
+    "a perfect candidate scores 8, the unchanged control scores 5, and the realizable comparative advantage is exactly 3",
+    "the old threshold 4 rejects the perfect causal path while threshold 3 accepts it",
+    "threshold 3 rejects a candidate with any one repair defect because its advantage is only 2",
+    "forward, replay, and reverse-order receipts agree exactly",
+    "no candidate task, goal, hosted output, or future score enters calibration"
+  ],
+  "red_line_review": [
+    "OT-0042 remains rejected and is neither retried nor rescored.",
+    "OT-0043's split interface and identity calibration is retained unchanged.",
+    "The unused E9 candidate authorization is surrendered, not consumed by an actor run.",
+    "Only the internally impossible comparative threshold changes; absolute endpoint requirements remain fixed.",
+    "A pass authorizes at most one fresh E10 candidate."
+  ]
+}
