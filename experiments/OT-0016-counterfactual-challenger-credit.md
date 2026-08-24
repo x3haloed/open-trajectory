@@ -1,6 +1,6 @@
 # OT-0016 — Counterfactual challenger credit
 
-- **Status:** unexecuted; mechanism development
+- **Status:** unexecuted; scored-run implementation complete, run lock pending
 - **Evidence class:** exploratory-only
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Frozen commit:** pending
@@ -94,16 +94,35 @@ The implemented causal slice removes fresh-actor variance from receipt
 application. Distinct decision-rule snapshot identities with byte-identical
 expressions must return the same choice, and changing only controller-issued
 outcomes must change the choice when the rule claims to use those consequences.
-The exact final ablation receipt construction and numeric gate remain a
-pre-freeze obligation.
+The frozen ablation changes only the three outcome-credit scalars in the
+decision projection. Selector identities, selections, predictions, Boolean
+change fields, decision-rule source, interpreter, and application code remain
+identical. A useful commit is credit-causal only when the exact rule chooses
+the challenger under true credit and the current selector under that
+neutralized projection.
 
 ## Frozen protocol and acceptance gate
 
-Nothing is frozen. Before candidate outputs, the experiment must add a
-machine-readable acceptance specification, task order, actor-facing seed and
-proposal/decision prompts, output schemas, exact active-inheritance budget,
-receipt projection, task generator identity, resource envelope, numeric gates,
-novelty rubric, outcome-credit ablation, and run lock.
+The machine-readable acceptance specification, task order, actor-facing seed,
+proposal/decision prompt, output schemas, exact active-inheritance budget,
+receipt projection, constrained task generator, resource envelope, numeric
+gates, novelty rubric, controls, and outcome-credit ablation were committed
+before any hidden candidate output. The run lock remains intentionally absent
+until the complete live worker implementation passes its offline verification
+and is committed. Candidate execution is forbidden until a subsequently
+committed run lock binds that implementation, one private task identity, the
+pinned backend binaries, TLS bundle, dependency lock, and every authority-
+bearing input.
+
+The scored worker now has one hosted turn per stage for prospective Luna
+authorship and two final fresh Terra novelty reviews. All selector execution,
+paired contact prediction, outcome reveal, true and credit-neutralized rule
+application, commit, heldout scoring, fixed controls, protected-parent branch,
+and identity placebos are deterministic controller operations. The two workers
+run concurrently on the same sealed task manifest, use fresh threads and
+workspaces for every encounter, and must finish inside the frozen 420-second
+epoch window. This implementation is not result evidence and remains mutable
+until its clean implementation commit is named by the run lock.
 
 Before selecting numeric gates, a controller-only prospective power study must
 sample fresh task manifests and measure the oracle, unchanged, fixed-control,
@@ -286,13 +305,11 @@ the public fixture and its score cannot support or tune any candidate gate.
 Current disposition: `unexecuted`.
 
 The controller-owned causal slice, deterministic credit application,
-actor-facing carrier, and constrained task distribution are now feasible
-before OT-0015's larger carrier × selector factorial is frozen. Reusing the
-unconditioned OT-0005 world remains rejected. The next work unit is the full
-private-task harness and machine-readable acceptance draft: exact task order,
-credit-ablation receipt construction, temporal gates, novelty review, resource
-budget, and two-worker counterbalance must be frozen before any hidden
-candidate output.
+actor-facing carrier, constrained task distribution, acceptance evaluator, and
+full private-task worker are now implemented. Reusing the unconditioned
+OT-0005 world remains rejected. The next work unit is a clean implementation
+commit, generation of one private constrained manifest, a separately committed
+run lock, and only then the concurrent original and reproduction workers.
 
 OT-0016 does not establish that paired feedback is useful, that an actor can
 invent a useful operation, that the selector is corrigible, that

@@ -221,9 +221,15 @@ def deployment_worker_summary(
     if inventory_valid:
         for model, expected in expected_inventories.items():
             observed = observed_inventories[model]
+            expected_receipts = (
+                acceptance["resource_budget"]["selector_update_turns_per_worker"]
+                if model == acceptance["deployment_epoch"]["actor_model"]
+                else acceptance["resource_budget"]["novelty_review_turns_per_worker"]
+            )
             inventory_valid = inventory_valid and (
                 observed["sha256"] == expected["sha256"]
                 and observed["tool_count"] == expected["tool_count"]
+                and observed["receipt_count"] == expected_receipts
                 and observed["stable"] is True
             )
     epoch_fields = {
@@ -239,6 +245,9 @@ def deployment_worker_summary(
         ),
         "catalog_etag": len(etags) == 1,
         "per_turn_receipts": per_turn,
+        "per_turn_inventory_receipts": all(
+            item.get("inventory_receipts") == 1 for item in results
+        ),
         "distinct_response_ids": len(response_ids)
         == len(set(response_ids))
         == acceptance["resource_budget"]["actor_turns_total_per_worker"],

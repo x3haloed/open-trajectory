@@ -62,11 +62,12 @@ before candidate outputs.
 No OT-0004 or OT-0005 score is current OT-1 evidence. OT-0005's deterministic
 replay and placebo receipts survive as substrate evidence only.
 
-OT-0016 has no acceptance scores or candidate outputs. Its fixed public unit
-fixture verifies only proposal, paired deterministic comparison, receipt
-integrity, decision binding, and commit authority. Numeric gates require a
-prospective controller-only distributional power study over fresh task
-manifests; an absolute score from one generated manifest is not a stable gate.
+OT-0016 has frozen acceptance scores but no candidate outputs. Its fixed public
+unit fixture verifies only proposal, paired deterministic comparison, receipt
+integrity, decision binding, and commit authority. The numeric gates were set
+after the prospective controller-only distributional studies and before the
+live worker existed; an absolute score from one generated manifest was not used
+as a gate.
 
 The first 256-manifest power study rejected the unconditioned OT-0005 world for
 OT-0016. Contact-selected controls were informative and harm/recovery
@@ -90,6 +91,16 @@ with one fresh Luna turn, zero tools, exact model/Response/inventory receipts,
 zero collector errors, deterministic decision replay, and a receipt-bound
 commit on a fixed public non-candidate fixture. These are development results,
 not hidden-task or OT-1 evidence.
+
+The full OT-0016 worker now implements the frozen six-stage causal order with
+six Luna proposal turns and two Terra novelty reviews per worker. The
+controller alone executes selectors, predictions, paired comparison receipts,
+true and credit-neutralized decisions, exact commits, heldout controls,
+protected-parent harm ablation, identity placebos, scoring, and aggregation.
+No hidden candidate output has been requested. The immediate frontier is to
+commit this implementation, generate one private constrained manifest, bind a
+separate run lock, and then execute the concurrent original and clean
+reproduction without changing authority-bearing inputs.
 
 ## Post-OT-0005 development probes
 

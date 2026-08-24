@@ -195,6 +195,18 @@ class OT0016HarnessTests(unittest.TestCase):
         self.assertFalse(summary["deployment_epoch"]["valid"])
         self.assertFalse(summary["scientific_pass"])
 
+    def test_missing_model_inventory_receipt_invalidates(self) -> None:
+        worker = passing_worker("worker-1", self.acceptance, self.task_order)
+        worker["direct_inventory_by_model"]["gpt-5.6-luna"]["receipt_count"] = 5
+        summary = worker_summary(worker, self.acceptance, self.task_order)
+        self.assertFalse(summary["deployment_epoch"]["valid"])
+
+    def test_missing_turn_inventory_receipt_invalidates(self) -> None:
+        worker = passing_worker("worker-1", self.acceptance, self.task_order)
+        worker["actor_results"][0]["inventory_receipts"] = 0
+        summary = worker_summary(worker, self.acceptance, self.task_order)
+        self.assertFalse(summary["deployment_epoch"]["valid"])
+
     def test_epoch_change_invalidates_combined_result(self) -> None:
         workers = [
             passing_worker("worker-1", self.acceptance, self.task_order),
