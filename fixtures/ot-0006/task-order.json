@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "conditions": ["goal-contract", "no-persistence", "verbatim-event"],
+  "phases": [
+    {
+      "phase": "encounter-0-goal-contact",
+      "condition_order": {
+        "worker-1": ["goal-contract", "no-persistence", "verbatim-event"],
+        "worker-2": ["verbatim-event", "goal-contract", "no-persistence"]
+      }
+    },
+    {
+      "phase": "encounter-1-primary-repair",
+      "condition_order": {
+        "worker-1": ["no-persistence", "verbatim-event", "goal-contract"],
+        "worker-2": ["goal-contract", "no-persistence", "verbatim-event"]
+      }
+    },
+    {
+      "phase": "encounter-2-secondary-diagnosis",
+      "condition_order": {
+        "worker-1": ["verbatim-event", "goal-contract", "no-persistence"],
+        "worker-2": ["no-persistence", "verbatim-event", "goal-contract"]
+      }
+    },
+    {
+      "phase": "encounter-3-plan-revision",
+      "condition_order": {
+        "worker-1": ["goal-contract", "no-persistence", "verbatim-event"],
+        "worker-2": ["verbatim-event", "goal-contract", "no-persistence"]
+      }
+    },
+    {
+      "phase": "encounter-4-secondary-repair",
+      "condition_order": {
+        "worker-1": ["no-persistence", "verbatim-event", "goal-contract"],
+        "worker-2": ["goal-contract", "no-persistence", "verbatim-event"]
+      }
+    },
+    {
+      "phase": "encounter-5-verification-falsifier",
+      "condition_order": {
+        "worker-1": ["verbatim-event", "goal-contract", "no-persistence"],
+        "worker-2": ["no-persistence", "verbatim-event", "goal-contract"]
+      }
+    },
+    {
+      "phase": "encounter-6-regression-repair",
+      "condition_order": {
+        "worker-1": ["goal-contract", "no-persistence", "verbatim-event"],
+        "worker-2": ["verbatim-event", "goal-contract", "no-persistence"]
+      }
+    },
+    {
+      "phase": "encounter-7-reverification",
+      "condition_order": {
+        "worker-1": ["no-persistence", "verbatim-event", "goal-contract"],
+        "worker-2": ["goal-contract", "no-persistence", "verbatim-event"]
+      }
+    },
+    {
+      "phase": "encounter-8-evidence-gated-closure",
+      "condition_order": {
+        "worker-1": ["verbatim-event", "goal-contract", "no-persistence"],
+        "worker-2": ["no-persistence", "verbatim-event", "goal-contract"]
+      }
+    }
+  ],
+  "ordering": "Within each phase, seal every condition's action and independent receipt before any substrate observes that phase. Across both workers every condition occupies every serial position exactly six times."
+}

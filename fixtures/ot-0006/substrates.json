@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "projection_byte_limit": 384,
+  "candidate": "durable-goal-contract-v1",
+  "controls": ["no-persistence-v1", "most-recent-verbatim-event-v1"],
+  "contract_fields": [
+    "goal identity",
+    "completion predicate",
+    "goal status",
+    "plan version",
+    "experiment identity",
+    "subtask identity",
+    "next action",
+    "completion claim"
+  ],
+  "update_authority": "The controller admits the researcher-given goal after contact and advances the contract only from independent world receipts."
+}

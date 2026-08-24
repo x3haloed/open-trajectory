@@ -1,0 +1,25 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "goal_id",
+    "goal_status",
+    "plan_version",
+    "experiment_id",
+    "subtask_id",
+    "action",
+    "completion_claim"
+  ],
+  "properties": {
+    "goal_id": { "type": ["string", "null"] },
+    "goal_status": {
+      "type": "string",
+      "enum": ["unknown", "active", "completed", "set_down", "superseded", "blocked", "invalidated"]
+    },
+    "plan_version": { "type": ["integer", "null"], "minimum": 1, "maximum": 9 },
+    "experiment_id": { "type": ["string", "null"] },
+    "subtask_id": { "type": ["string", "null"] },
+    "action": { "type": "string" },
+    "completion_claim": { "type": "boolean" }
+  }
+}
