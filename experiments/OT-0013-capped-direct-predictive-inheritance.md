@@ -1,7 +1,7 @@
 # OT-0013 — Capped direct predictive-inheritance reproduction
 
-- **Status:** frozen; execution pending
-- **Evidence class:** private-reproducible if all gates pass
+- **Status:** invalidated by operator interruption
+- **Evidence class:** exploratory-only failure receipt
 - **Target:** OT-1
 - **Frozen implementation commit:** `09ae5ebe03cf99159870b4f3fa6bbd70db9b791e`
 - **Frozen run lock:** `spec/ot-0013-run-lock.json`
@@ -63,4 +63,21 @@ aggregate scores may be tracked.
 
 ## Results
 
-Pending.
+Execution commit `1542d6ab3d779e9816f1471b86657d79ae5e5a46`
+started from the frozen run lock. Worker 1 completed 16 of the planned 26
+encounters through the second-regime contact batch. The operator then stopped
+local inference because sustained model execution made ordinary interactive use
+of the workstation impractical; worker 2 never started. The retained worker
+artifact reports a timeout after 1,053.18 seconds. All 16 completed requests
+were stateless and made no tool calls, but four control responses had already
+failed exact output parsing.
+
+This is an externally interrupted and therefore invalid run, not a scientific
+rejection. It did not complete the second-regime holdouts, ablation, independent
+reproduction, or comparative scoring. Its partial predictions provide no
+evidence for or against the candidate mechanism. Reusing OT-0013 with different
+resource assumptions would alter the frozen protocol after unsealing results.
+
+The private raw failure receipt is content-addressed by
+`evidence/manifests/OT-0013/ot-0013-direct-001-interrupted.json` with SHA-256
+`693dc5ae5f33398ee118207992a3082bda0bbb9e0a47b72805a56dfd7d579a1c`.
