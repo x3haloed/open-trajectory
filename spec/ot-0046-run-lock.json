@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0046",
+  "implementation_git_commit": "2d3b6d121c462b4b540081eb70ea6d3fd8e105c5",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "18eb091a4444c77d59e965f5d7865f7187bc6c2ccc0ab5b5d7f08f92de0ec949",
+    "calibration_harness_sha256": "27cc3a2b45154c6474355f8dac121069e06c5503fe2275979f8c66d9036e9002",
+    "controller_core_sha256": "00918dd39c665526f677513d4563ba3c9c2d0fb1bd632594836b938ceb5a0994",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "entrypoint_sha256": "dd73acd74a7e0106fa62212420f53c0dd9e7dcbb6fab79db696f3a8d4d748b2e",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "ot2_manifest_sha256": "ec8d20dd17ece89c71da4b13536a76ca779e4a3f5611d06cf943d8190cce6afe",
+    "sealed_evidence_io_sha256": "fbdd95218935cef4b90bb0de5f0667468a42cc7a174f63a8f59576eae989cdb1"
+  }
+}
