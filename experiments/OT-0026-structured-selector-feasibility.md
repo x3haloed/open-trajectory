@@ -43,3 +43,8 @@ is forbidden until a clean implementation commit and separate run-lock commit
 bind every authority. OT-0026 is not adjusted after output. If this exact
 structured carrier fails, the present textual/structured portfolio hypothesis
 chain is closed; another incremental carrier retry is not authorized.
+
+The clean protocol and implementation commit is
+`e72c13cbab84c6486631ad48a7fa97cf52b14977`.
+`spec/ot-0026-run-lock.json` binds it and every runtime authority before the
+first hosted actor output.
