@@ -356,8 +356,17 @@ Initial sequence:
   Passed all 2,304 candidate-free cases, rejected a one-repair defect, surrendered
   the unused E9 authorization, and promoted E10 with the exact realizable
   three-action threshold for one fresh candidate. Contains no OT-2 evidence.
+- **OT-0045:** consume E10 with one fresh post-implementation task and split
+  admission/pursuit interfaces. Both workers achieved 8/8 candidate actions,
+  8/8 hierarchy states, exact two-revision continuity, delayed completion, and
+  selector errors `[0,0,0]` versus unchanged `[3,3,3]`; all controls reached at
+  most 2/8 actions and every hosted, authority, evidence, and privacy gate
+  passed. Bounded private, time-limited OT-2 is promoted; E10 is consumed.
 
 ## Program C — TAAA
+
+Program C is now unpaused by OT-0045's bounded OT-2 promotion. Its first work
+must calibrate a candidate-free authority evaluator before any OT-3 claim.
 
 Represent authority as a versioned capability vector. A capability petition
 records the obstruction, smallest requested delta, predicted improvement,

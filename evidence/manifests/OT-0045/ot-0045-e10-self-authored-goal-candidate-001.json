@@ -1,0 +1,40 @@
+{
+  "artifact_id": "ot-0045-e10-self-authored-goal-candidate-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4990461,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1ec0138fa8c289582bc57cb9c1ed3fc8bc29fedc",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0045",
+  "input_manifests": [
+    "evidence/manifests/OT-0044/ot-0044-e10-causal-advantage-calibration-001.json",
+    "evidence/manifests/OT-0043/ot-0043-e9-split-interface-calibration-001.json",
+    "evidence/manifests/OT-0042/ot-0042-e8b-self-authored-goal-candidate-001.json",
+    "evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json",
+    "evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json"
+  ],
+  "kind": "e10-self-authored-durable-goal-hosted-epoch-run",
+  "limitations": [
+    "Hosted outputs, task identities, world states, and deployment receipts remain private.",
+    "A pass is time-bounded single-domain OT-2 evidence, not immutable reproduction.",
+    "This run consumes E10's one-candidate authorization regardless of disposition.",
+    "A pass does not establish OT-3 or cross-domain self-direction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0045-e10-self-authored-goal-candidate-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b85ab1110c9c30642870d42abd706d0638f3cd0b0fcf86ed6f3366f84b5d4f68"
+}
