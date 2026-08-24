@@ -110,6 +110,25 @@ class OT0004ProtocolTests(unittest.TestCase):
             )
         )
         self.assertEqual(observed, budget["actor_turns_total_per_worker"])
+        stages = self.acceptance["world"]["stages"]
+        conditions = len(self.task_order["conditions"])
+        self.assertEqual(budget["selector_apply_turns_per_worker"], stages * 3)
+        self.assertEqual(budget["predictor_turns_per_worker"], stages * (conditions + 1))
+        self.assertEqual(budget["selector_update_turns_per_worker"], stages)
+
+    def test_stage_causal_order_separates_contact_learning_from_heldout_evaluation(self) -> None:
+        self.assertEqual(
+            self.task_order["stage_causal_order"],
+            [
+                "contact-probe",
+                "counterbalanced-heldout-branches",
+                "stage-seal",
+                "proposal-and-commit-for-next-stage",
+            ],
+        )
+        joined = " ".join(self.acceptance["stage_causal_order"])
+        self.assertLess(joined.index("heldout branch"), joined.index("selector-update"))
+        self.assertIn("without consulting heldout outcomes", joined)
 
 
 if __name__ == "__main__":

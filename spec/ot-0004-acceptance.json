@@ -46,6 +46,13 @@
     "protected_rejected_event_sampling": true,
     "same_world_batches_across_conditions_and_workers": true
   },
+  "stage_causal_order": [
+    "apply the current committed policy to the stage contact archive and unlabeled contact queries in a fresh selector encounter",
+    "give only those selected contacts and queries to a fresh predictor and retain the independent contact outcome as a protected receipt unavailable to heldout branches",
+    "evaluate the current committed policy, its protected parent, and fixed controls on the same heldout archive and queries in the frozen counterbalanced order",
+    "seal every heldout branch, then give only the protected contact receipt and current policy to a fresh selector-update encounter",
+    "commit every exact-schema-valid bounded proposal as the next stage's policy without consulting heldout outcomes; the final post-canary proposal is retained but not scored"
+  ],
   "scoring": {
     "useful_non_correction_revisions_required": 2,
     "changed_over_frozen_error_advantage_per_revision": 2,
@@ -128,6 +135,7 @@
     "The actor may propose but cannot commit selector state or alter archive, outcomes, branches, reviews, or scores.",
     "Protected rejected-event sampling prevents the selector from choosing all evidence used to judge itself.",
     "Changed and frozen branches use identical event pools, queries, predictor model, prompts, budgets, and task order.",
+    "Within each stage the current-policy contact probe and every heldout branch seal before a proposal commits for the next stage; no update sees heldout outcomes.",
     "The controller rejects duplicate, unknown, or non-budgeted selected event identities; the hosted response-schema dialect is not trusted to enforce uniqueness.",
     "Every selector, predictor, and reviewer encounter uses a fresh thread and workspace.",
     "No local model inference is used."

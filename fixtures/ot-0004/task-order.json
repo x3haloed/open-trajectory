@@ -52,5 +52,6 @@
       }
     }
   ],
-  "ordering": "Execute each worker-specific condition order on identical sealed phase batches. Across both workers every condition occupies every serial position exactly twice. Commit candidate policy updates only after all phase branches and controls seal."
+  "stage_causal_order": ["contact-probe", "counterbalanced-heldout-branches", "stage-seal", "proposal-and-commit-for-next-stage"],
+  "ordering": "For each stage, execute the current-policy contact probe, execute heldout conditions in the worker-specific order, seal all branches, then commit a contact-receipt-conditioned proposal for the next stage without revealing heldout outcomes. Across both workers every heldout condition occupies every serial position exactly twice."
 }

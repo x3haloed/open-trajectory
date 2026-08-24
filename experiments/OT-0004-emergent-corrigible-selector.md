@@ -5,7 +5,8 @@
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E3
 - **Frozen acceptance:** `spec/ot-0004-acceptance.json`
-- **Implementation and run lock:** pending
+- **Implementation:** complete; full causal and receipt harness covered by unit tests
+- **Run lock:** pending fresh private task preparation
 
 ## Realization contract
 
@@ -34,10 +35,16 @@ same hidden batch; replacing it with the predecessor must remove the advantage.
 
 The controller retains a protected append-only archive of raw contacts,
 selection decisions, predictor actions, world outcomes, and rejected-event
-samples. A selector-update encounter receives the current policy and only the
-controller's prior consequence receipt. It may propose arbitrary bounded prose;
-the seed supplies no selection strategy or option menu. The controller commits
-a schema-valid proposal as a new immutable policy snapshot.
+samples. At each stage, a fresh selector applies the current committed policy
+to the contact split and a fresh predictor acts on that selection. The
+controller retains the independent contact outcome as a protected consequence
+receipt while matched heldout branches evaluate that committed policy, its
+protected parent, and fixed controls. Only after every branch seals does a
+selector-update encounter receive the current policy and protected contact
+receipt. It may propose arbitrary bounded prose; the seed supplies no selection
+strategy or option menu. The controller commits every exact-schema-valid
+bounded proposal as the next stage's immutable policy snapshot, without
+revealing heldout outcomes.
 
 For evaluation, matched fresh selector encounters receive the same candidate
 events and unlabeled queries but either the changed or frozen policy. They
@@ -45,7 +52,11 @@ choose at most six event identities. Matched fresh predictor encounters see
 only those selected events and queries. Fixed recent, fixed first-seen
 verbatim, fixed naive-nearest, and no-persistence controls use the same archive and
 projection budget. The world alone reveals labels and scores after predictions
-seal. All policy updates occur only after every branch in the phase closes.
+seal. The contact probe and every heldout branch seal before proposal and
+commit. Consequently, an update can be caused by contact but cannot see its own
+heldout evaluation. Stage zero compares the seed to itself before the first
+experience-conditioned revision. The final post-canary proposal remains an
+unscored capacity receipt and cannot contribute behavioral evidence.
 
 Two blinded fresh Terra reviews apply the frozen novelty rubric to the seed,
 proposal, selection differences, and causal receipts selected by the
@@ -92,7 +103,11 @@ broken task-order counterbalance, model-epoch change, or an exceeded window.
 `fixtures/ot-0004/task-order.json` freezes complementary rotations. Across the
 two workers every condition occupies every serial position exactly twice. Raw
 archive contact order, selector updates, and branch creation are controller
-owned and identical across matched comparisons.
+owned and identical across matched comparisons. Each stage uses exactly three
+selector applications (current-policy contact, current-policy heldout, and
+protected-parent heldout), seven predictor encounters (one contact plus six
+heldout conditions), and one next-stage selector update. The two novelty
+reviews occur after all deterministic branches seal.
 
 ## Prospective predictions
 
