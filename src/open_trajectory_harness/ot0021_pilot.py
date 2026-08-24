@@ -253,24 +253,22 @@ def _summary(
             and sha256_bytes(canonical_json(first)) == expected_inventory["sha256"]
             and len(first) == expected_inventory["tool_count"]
         )
-    default_mechanism_valid = len(mechanisms) == acceptance[
-        "fresh_actor_encounters"
-    ] and all(
-        item["selection_changed"]
-        and item["prediction_changed"]
-        and item["challenger_error_advantage"]
-        >= acceptance["minimum_error_advantage_each"]
-        and item["true_choice"] == "challenger"
-        and item["neutralized_choice"] == "current"
-        and item["decision_replay"]
-        and item["commit_changed"]
-        for item in mechanisms
-    )
-    mechanism_valid = (
-        MECHANISM_VALIDATOR(mechanisms, acceptance)
-        if MECHANISM_VALIDATOR is not None
-        else default_mechanism_valid
-    )
+    if MECHANISM_VALIDATOR is not None:
+        mechanism_valid = MECHANISM_VALIDATOR(mechanisms, acceptance)
+    else:
+        mechanism_valid = len(mechanisms) == acceptance[
+            "fresh_actor_encounters"
+        ] and all(
+            item["selection_changed"]
+            and item["prediction_changed"]
+            and item["challenger_error_advantage"]
+            >= acceptance["minimum_error_advantage_each"]
+            and item["true_choice"] == "challenger"
+            and item["neutralized_choice"] == "current"
+            and item["decision_replay"]
+            and item["commit_changed"]
+            for item in mechanisms
+        )
     gates = {
         "complete_encounters": len(actor_results)
         == acceptance["fresh_actor_encounters"],

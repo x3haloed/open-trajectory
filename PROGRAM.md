@@ -207,7 +207,9 @@ Initial sequence:
   decision list. Generic token semantics are schema-bound and directly
   interpreted, eliminating free-form selector syntax without transferring
   ranking or choice authority to a compiler. This public pilot is frozen and
-  has no OT-1 or E4 authority.
+  has no OT-1 or E4 authority. Invalidated by a post-encounter controller
+  aggregation failure before result sealing; no carrier outcome is inferred
+  and the frozen run is not retried.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

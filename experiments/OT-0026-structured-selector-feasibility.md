@@ -1,6 +1,6 @@
 # OT-0026 — Structured-selector score-program feasibility
 
-- **Status:** frozen; hosted output forbidden until the run lock is committed
+- **Status:** invalidated by controller failure; scientific carrier unobserved
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0025 structured-decision success and selector-carrier failure
@@ -48,3 +48,21 @@ The clean protocol and implementation commit is
 `e72c13cbab84c6486631ad48a7fa97cf52b14977`.
 `spec/ot-0026-run-lock.json` binds it and every runtime authority before the
 first hosted actor output.
+
+## Result and decision
+
+The locked run created both fresh encounter workspaces, then the controller
+raised during post-encounter aggregation before it sealed any result. The
+generic pilot core evaluated its legacy single-challenger field set
+unconditionally before dispatching OT-0026's configured mechanism validator;
+the structured result intentionally has no top-level `selection_changed`
+field, producing `KeyError`. No actor output or scientific carrier result is
+recoverable, so neither pass nor failure may be inferred.
+
+The attempt is invalidated, not rescored, and not rerun as OT-0026. The generic
+aggregator is corrected prospectively and regression-tested for future custom
+mechanisms. Under the frozen boundary above, the present portfolio-carrier
+hypothesis chain is closed.
+
+Evidence manifest:
+`evidence/manifests/OT-0026/ot-0026-structured-score-pilot-001-controller-failure.json`.

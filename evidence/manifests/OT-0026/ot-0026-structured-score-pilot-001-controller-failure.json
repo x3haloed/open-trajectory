@@ -1,0 +1,35 @@
+{
+  "artifact_id": "ot-0026-structured-score-pilot-001-controller-failure",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 727,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "10ae6d1f918030068648977353d67f07528df4f7",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0026",
+  "input_manifests": [
+    "evidence/manifests/OT-0025/ot-0025-structured-pilot-001.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "invalidated-controller-failure",
+  "limitations": [
+    "The controller failed before sealing the hosted result; actor outputs and scientific carrier outcome are unavailable.",
+    "This attempt is not OT-1 evidence, does not authorize E4, and may not be rescored or retried as OT-0026."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0026-structured-score-pilot-001-controller-failure",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "59ee2ae59222d3126c6dab4ad90384338237e94498a5f3d82cb58d07e984fc7d"
+}

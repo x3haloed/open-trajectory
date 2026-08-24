@@ -269,6 +269,14 @@ the clauses exactly. This development pilot has no OT-1 or E4 authority. A
 frozen failure closes the present portfolio-carrier hypothesis chain rather
 than authorizing another syntax or capacity adjustment.
 
+The locked OT-0026 run created both encounter workspaces but then hit a generic
+aggregator defect before sealing output: legacy single-challenger fields were
+read unconditionally ahead of custom-validator dispatch. Actor outputs and the
+carrier outcome are unrecoverable. The attempt is invalidated, is not rescored
+or rerun, and closes this carrier chain under its frozen boundary. The generic
+controller defect is fixed prospectively; it does not turn infrastructure
+failure into evidence about the selector representation.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -347,6 +355,15 @@ the structured decision clauses passed exact validation.
 Revised model: fresh actors need the complete carrier to be self-contained, and
 free-form syntax remains a recurring failure surface. A structured selector AST
 is materially different; another prose patch and sample is not.
+
+Expected: the generic hosted pilot would dispatch OT-0026's configured custom
+mechanism validator after both structured actor results.
+Observed: it first computed its legacy validator unconditionally, raised on a
+field absent by design, and failed before writing the sealed output.
+Revised model: callback-based protocol reuse must be tested at final summary
+dispatch, not only at output evaluation. The representation remains
+scientifically unobserved, while the frozen run and carrier chain remain
+closed.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

@@ -5,6 +5,7 @@ from copy import deepcopy
 from pathlib import Path
 
 from open_trajectory_harness.ot0002 import load_json
+from open_trajectory_harness import ot0021_pilot as hosted_pilot
 from open_trajectory_harness.ot0026_pilot import configure_protocol, fixed_input_paths
 from open_trajectory_harness.ot0026_scores import (
     evaluate_score_output,
@@ -142,6 +143,25 @@ class OT0026ScoreTests(unittest.TestCase):
             ),
             paths,
         )
+
+    def test_summary_dispatches_custom_validator_without_legacy_fields(self) -> None:
+        result = evaluate_score_output(self.task, VALID_OUTPUT)
+        summary = hosted_pilot._summary(
+            acceptance=self.acceptance,
+            actor_results=[],
+            mechanisms=[result, result],
+            direct_inventories=[],
+            proxy_receipts=[],
+            collector_errors=[],
+            usage={"input_tokens": 0, "output_tokens": 0},
+            elapsed_seconds=0,
+            failure_type=None,
+            verification={
+                "tests_returncode": 0,
+                "audit_returncode": 0,
+            },
+        )
+        self.assertTrue(summary["gates"]["mechanism"])
 
 
 if __name__ == "__main__":
