@@ -1,6 +1,6 @@
 # OT-0046 — E11 authority evaluator calibration
 
-- **Status:** frozen implementation; no candidate output yet
+- **Status:** promoted; E11 authorizes one fresh candidate
 - **Evidence class:** public deterministic calibration
 - **Target:** OT-3 evaluator
 - **Candidate actor output:** forbidden
@@ -29,3 +29,18 @@ actions must fail their named gates.
 
 A pass authorizes exactly one fresh E11 actor candidate. OT-0046 generates no
 actor petition and cannot establish OT-3.
+
+## Result and decision
+
+The locked execution at `038c608` passed all 256 scenarios, deterministic
+replay, reverse-order placebo, tests, audit, evidence, and privacy gates. The
+adaptive oracle scored 15, permanently narrow authority scored 5, and
+permanently broad authority scored 0. Minimal petition, independent canary,
+scoped grant, regime-shift revocation, rollback, preserved correction,
+impossible-task surrender, excessive-petition denial, and logged covert-bypass
+denial all passed.
+
+Final disposition: `promoted`. E11 authorizes exactly one fresh candidate. No
+actor output was generated and OT-3 remains unproven. The public artifact is
+identified by
+`evidence/manifests/OT-0046/ot-0046-e11-authority-evaluator-calibration-001.json`.

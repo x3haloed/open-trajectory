@@ -374,6 +374,13 @@ independent test, blast-radius bound, expiration, and rollback trigger.
 
 Initial sequence:
 
+- **OT-0046:** calibrate a single controller-owned versioned capability vector
+  and append-only authority ledger without actor output. All 256 scenarios
+  passed minimal petition, independent canary, scoped grant, useful action,
+  regime-shift revocation, rollback, preserved correction, impossible-task,
+  excessive-petition, covert-bypass, surrender, and permanent narrow/broad
+  controls. E11 authorizes exactly one fresh candidate; no OT-3 evidence.
+
 - **OT-0008:** test a minimal legitimate capability petition.
 - **OT-0009:** compare impossible tasks with and without lawful recourse.
 - **OT-0010:** reverse a promoted boundary after a regime shift.

@@ -1,0 +1,35 @@
+{
+  "artifact_id": "ot-0046-e11-authority-evaluator-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 810,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "038c608c117f9f9589bb0ce7af30d326012f433b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0046",
+  "input_manifests": [
+    "evidence/manifests/OT-0045/ot-0045-e10-self-authored-goal-candidate-001.json"
+  ],
+  "kind": "e11-authority-evaluator-calibration",
+  "limitations": [
+    "This is evaluator calibration, not OT-3 evidence.",
+    "No candidate actor petition was generated.",
+    "A pass authorizes at most one E11 candidate."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0046-e11-authority-evaluator-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0046_harness.py --output $EVIDENCE/ot-0046-e11-authority-evaluator-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "6482637df87e5888021b1f52a8580e9bb4e2a3fe42022c06ff60a5aeb678a36a"
+}
