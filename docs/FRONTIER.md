@@ -27,6 +27,9 @@ experiment records; they are no longer live implementation narration here.
   — public E6 calibration across all 2,304 criterion/rule-pair cases.
 - `evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json`
   — promoted bounded public OT-1 with two exact process reconstructions.
+- `evidence/manifests/OT-0038/ot-0038-e7-ot2-evaluator-calibration-001.json`
+  — public E7 calibration across all 2,304 cases; one fresh OT-2 candidate
+  authorized, but no candidate output or OT-2 evidence.
 - `evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json` — private Program B
   infrastructure result; rejected as frozen and not OT-2 evidence.
 
@@ -105,10 +108,19 @@ Observed: every frozen causal, correction, control, reconstruction, and novelty
 gate passed.
 Decision: promote bounded public OT-1 and unpause Program B.
 
+Expected for OT-0038: a candidate-free controller study could distinguish goal
+quality from authorship, reject single-defect contracts, preserve one goal
+through two plan revisions and delayed completion judgment, and make the
+promoted selector causally necessary for changing route choice.
+Observed: all 2,304 cases passed. Seven mutant contracts failed exactly one gate
+each; researcher-given origin remained quality-valid but authorship-invalid;
+candidate route error was `[0,0,0]` and unchanged-selector error `[3,3,3]`.
+Decision: promote E7 for exactly one fresh self-authored-goal candidate.
+
 ## Active frontier
 
-The cheapest credible next slice is a candidate-free OT-2 evaluator and world
-walking skeleton, followed only then by a self-authored goal candidate:
+OT-0038 completed the candidate-free evaluator and world walking skeleton. The
+only authorized next slice is one fresh OT-0039 self-authored-goal candidate:
 
 1. Present raw environmental telemetry and procedural orientation without a
    goal statement or researcher-authored menu of solving objectives.
@@ -126,7 +138,10 @@ walking skeleton, followed only then by a self-authored goal candidate:
    selector rather than importing a new memory system or treating stored prose
    as OT-2.
 
-Before a candidate executes, the evaluator must freeze what makes a generated
-goal worthwhile and falsifiable without encoding the goal itself. A candidate
-output may not be used to choose that rubric. The next experiment ID is
-OT-0038.
+The OT-0039 candidate must be implemented before its task is derived, start
+from the promoted consequence-trained selector and actual OT-0 ledger, generate
+its contract from raw telemetry in a dedicated admission encounter, and use a
+fresh actor context for every later encounter. The frozen E7 evaluator and
+thresholds may not change after candidate output. One valid failure consumes
+the authorization and must be preserved rather than retried. The next
+experiment ID is OT-0039.

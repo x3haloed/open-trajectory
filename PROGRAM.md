@@ -312,6 +312,13 @@ Program B is now unpaused by OT-0037's bounded OT-1 promotion. OT-0006 was
 executed before the target correction and its rejected result remains preserved;
 it is not rescored and does not count as OT-2 evidence.
 
+OT-0038 prospectively calibrated E7 without candidate output. Across all 2,304
+criterion/rule-pair cases, raw telemetry contained no concrete objective; the
+controller oracle passed every contract and temporal gate; seven one-defect
+contracts were rejected; researcher-given origin failed only authorship; and
+the promoted selector/OT-0 path beat its exact unchanged ablation `[0,0,0]` to
+`[3,3,3]`. E7 authorizes exactly one fresh self-authored-goal candidate.
+
 Separate goal, plan, subgoal, and current action. A goal contract records its
 value thesis, completion predicate, constraints, progress evidence, revision
 conditions, and surrender conditions. Continuation is voluntary; completion is
@@ -320,7 +327,10 @@ an externally judged evidence claim.
 Initial sequence:
 
 - **OT-0006:** isolate bounded-slice completion failure with a human goal.
-- **OT-0007:** test voluntary goal formation from procedural orientation.
+- **OT-0038:** calibrate the candidate-free goal-quality, authorship, temporal,
+  and OT-1 causal evaluator.
+- **OT-0039:** test one fresh voluntary goal formation and pursuit candidate
+  from procedural orientation.
 
 ## Program C — TAAA
 

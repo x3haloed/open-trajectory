@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ot-0038-e7-ot2-evaluator-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1498,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c3e9e5d19c448f3faa3036dabf93aee22d3d03fc",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0038",
+  "input_manifests": [
+    "evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json",
+    "evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json",
+    "evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json"
+  ],
+  "kind": "controller-only-e7-self-authored-goal-evaluator-calibration",
+  "limitations": [
+    "This is controller calibration, not OT-2 evidence.",
+    "No candidate goal, learner, or hosted actor output was generated.",
+    "A pass authorizes at most one fresh self-authored-goal candidate.",
+    "The calibrated family remains one synthetic service and parity domain."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0038-e7-ot2-evaluator-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0038_harness.py --output $EVIDENCE/ot-0038-result.json"
+  },
+  "schema_version": 1,
+  "sha256": "e9c84da40a5aec0772318e627059806d11f0349da53cb067b7fbf8e6a702b007"
+}

@@ -1,6 +1,6 @@
 # OT-0038 — E7 self-authored durable-goal evaluator calibration
 
-- **Status:** frozen implementation; no calibration output yet
+- **Status:** passed; E7 promoted for one fresh self-authored-goal candidate
 - **Evidence class:** public-reconstructible evaluator calibration
 - **Evaluation transition:** E6 → E7 candidate
 - **Candidate learner, goal, and actor outputs:** forbidden
@@ -86,3 +86,28 @@ unchanged-selector controls.
 
 A pass establishes evaluator opportunity only. It does not establish goal
 authorship, useful hosted behavior, OT-2, or cross-domain generality.
+
+## Result and decision
+
+The locked execution at `c3e9e5d19c448f3faa3036dabf93aee22d3d03fc`
+passed every gate. All 2,304 criterion/rule-pair cases had unique raw task
+packets containing no concrete goal. The oracle-quality contract passed in
+every case; all seven single-defect counterfactuals were rejected by exactly
+their intended gate; and the researcher-given copy remained downstream-valid
+while failing authorship in every case.
+
+Every eight-encounter temporal path preserved one governing goal through plan
+versions 1, 2, and 3. No partial repair claimed completion. Independent proof
+was sealed in encounter seven and completion was first reported in encounter
+eight. Durable projections reconstructed the complete hierarchy within 512
+bytes, while no-persistence and recent-verbatim representations did not.
+
+The promoted selector and actual OT-0014 ledger chose all three correct routes
+in all three regimes, yielding route errors `[0,0,0]`. The exact unchanged-
+selector branch yielded `[3,3,3]`. Deterministic replay and reverse case order
+reproduced every receipt.
+
+Final disposition: `promoted`. E7 authorizes exactly one fresh self-authored-
+goal candidate. OT-0038 generated no candidate goal, learner, or hosted actor
+output and is not OT-2 evidence. The public artifact is
+`evidence/manifests/OT-0038/ot-0038-e7-ot2-evaluator-calibration-001.json`.
