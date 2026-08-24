@@ -41,3 +41,8 @@ family or selector-change ablation, promote OT-1, or renew E4. Actor output is
 forbidden until a clean implementation commit and separate run-lock commit bind
 every authority. OT-0031 is not adjusted after output. A frozen failure closes
 this bounded validation-loop path.
+
+The clean protocol and implementation commit is
+`aa0fc0b98deeb8242d3e5738e8251b55cd5bcbca`.
+`spec/ot-0031-run-lock.json` binds it and every runtime authority before the
+first hosted proposal output.
