@@ -47,3 +47,8 @@ correction, OT-1, or E4 authority. Actor output is forbidden until a clean
 implementation commit and separate run-lock commit bind every authority.
 OT-0028 is not adjusted after output. A frozen failure closes this direct
 consequence-correction path.
+
+The clean protocol and implementation commit is
+`31c414353407a4dd5ad839d66b6f6547f8b685ad`.
+`spec/ot-0028-run-lock.json` binds it and every runtime authority before the
+first hosted continuation output.
