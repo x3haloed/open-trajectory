@@ -6,7 +6,7 @@
 - **Evaluation epoch:** E3
 - **Frozen acceptance:** `spec/ot-0004-acceptance.json`
 - **Implementation:** complete; full causal and receipt harness covered by unit tests
-- **Run lock:** pending fresh private task preparation
+- **Run lock:** `spec/ot-0004-run-lock.json`; fresh private task identity bound
 
 ## Realization contract
 

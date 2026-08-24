@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0004",
+  "protocol_origin_git_commit": "33131036bb425f8dc7af35c176b72eeb0ffcc621",
+  "implementation_git_commit": "33131036bb425f8dc7af35c176b72eeb0ffcc621",
+  "backend": "codex-app-server-via-sanitizer-proxy",
+  "actor_model": "gpt-5.6-luna",
+  "reviewer_model": "gpt-5.6-terra",
+  "model_stability": "hosted-deployment-epoch",
+  "task_manifest_sha256": "d9796eb603ba81cb0a5793f39760e80c0eb158c3ffb6bda8be36f8f91beb1907",
+  "tls_ca_bundle_sha256": "16be3f6feb15408195dcfe3aa1a75ef9db72f646b96ebbefdc68f56255f799f8",
+  "backend_binary": {
+    "version": "codex-cli 0.149.0",
+    "source_repository": "https://github.com/openai/codex",
+    "source_tag": "rust-v0.149.0",
+    "source_git_commit": "758ef40f50c1a458425c7cfbf1eb12cbc07af0b0",
+    "codex_sha256": "9ba106aa245c7dfe0604a319ca9fdd51d215b58135656f310841691c56ad2347",
+    "code_mode_host_sha256": "3eca39bb7f93315fab6b0dec2334381c0f50a2ccda113ec482fb815f16072a5c"
+  },
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "794da0bf7c05f3f7efe5a211ccccb3a5525c59a88e16f49a82fe42ed494b69be",
+    "app_server_sha256": "22e5ffe917d8847bd87a05c52511f7873f7a0b35bd164211f714b2fd376e60d2",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "deployment_proxy_sha256": "a752e9346e06a39139a5fe1f957a0613d0046eee15e9e0c3691950a911e4de85",
+    "fixture_novelty_output_schema_json_sha256": "7b8585abdeb9e76f1aa896d5d8f7cbbf6b101bc3c1f0d050410cf93946fc9282",
+    "fixture_novelty_rubric_txt_sha256": "56f61088d93a999305fec8fc0330b461f3a81287d862a44d146e21d92c8e2278",
+    "fixture_predictor_output_schema_json_sha256": "ecd30e12d5ee697b73546d841b3fc9ebad75c650394250b574cb507e5e2e17f8",
+    "fixture_predictor_prompt_txt_sha256": "19947522f32440f5c5c744aed3f51165c0bd17aeb31c1e114e20ad862c338ca3",
+    "fixture_selector_apply_output_schema_json_sha256": "f2304fce864928225b6adeda11f2823ad62abcb939035fcc34beb382a8a7ff08",
+    "fixture_selector_apply_prompt_txt_sha256": "03f9163872679916c172802f2e038be7f3a12fd258ef55b995c19e547b35cc5f",
+    "fixture_selector_seed_txt_sha256": "5acfde16bf408f9852419e140842bca855a2cee9c1979222790175d3896bd71a",
+    "fixture_selector_update_output_schema_json_sha256": "7698a0a4329c52f00ef279635029642102dfa6e20a02661c8b9c809c56a262fa",
+    "fixture_selector_update_prompt_txt_sha256": "2009675ad8458a5a2262b8fdc56d16196b039e3525065b59b6cba3ad469fabb3",
+    "harness_sha256": "4e3fd273ada72b43201a1d55c35cd6742eefbe56155bd570dd1862fcc1010a1e",
+    "task_order_sha256": "0f757b2a8d6f91fbe56b85146b033803f30fa22183a10fdc9d15c264e2a137cb",
+    "tool_receipt_patch_sha256": "baa1c8585d95e5270fdb0b977e95b22d2487031259607af3e6c0d6f93b16fdfd",
+    "world_sha256": "df1138929c23415666050117d5e8fc61af1b40624ff15209054f550699059b12"
+  }
+}
