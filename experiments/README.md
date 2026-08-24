@@ -26,5 +26,6 @@ Current unexecuted protocol drafts:
   — passed controller-only successor; full-suffix neutralization and rescue
   promoted E4 for one new candidate experiment.
 - [`OT-0020-e4-counterfactual-challenger.md`](OT-0020-e4-counterfactual-challenger.md)
-  — E4 live successor preserving OT-0016's actor-authored mechanism while
-  replacing only the private task source; implementation freeze pending.
+  — invalidated E4 live successor preserving OT-0016's actor-authored mechanism;
+  one worker completed with a negative behavioral result and one timed out, so
+  no retry or promotion is permitted.

@@ -859,9 +859,8 @@ def run(
             }
         )
     window = time.monotonic() - started
-    if any(item["returncode"] != 0 for item in worker_receipts):
-        raise RuntimeError("one or more workers failed before complete sealed evidence")
-    workers = [read_sealed_json(path)[0] for path in outputs]
+    worker_failure = any(item["returncode"] != 0 for item in worker_receipts)
+    workers = [read_sealed_json(path)[0] for path in outputs if path.exists()]
     raw: dict[str, Any] = {
         "schema_version": 1,
         "experiment_id": EXPERIMENT_ID,
@@ -881,6 +880,7 @@ def run(
         "workers": workers,
         "worker_receipts": worker_receipts,
         "two_worker_window_seconds": window,
+        "controller_status": "invalidated" if worker_failure else "completed",
         "audit_and_tests": False,
     }
     test = subprocess.run(
@@ -927,7 +927,64 @@ def run(
         limitations=EVIDENCE_LIMITATIONS,
         input_manifests=EVIDENCE_INPUT_MANIFESTS,
     )
-    return manifest_path, combined_summary(raw)
+    summary = _invalidated_summary(raw) if worker_failure else combined_summary(raw)
+    return manifest_path, summary
+
+
+def _invalidated_summary(raw: dict[str, Any]) -> dict[str, Any]:
+    workers_by_id = {
+        worker.get("worker_id"): worker
+        for worker in raw["workers"]
+        if isinstance(worker, dict)
+    }
+    worker_statuses = []
+    for receipt in raw["worker_receipts"]:
+        worker = workers_by_id.get(receipt["worker_id"])
+        worker_statuses.append(
+            {
+                "worker_id": receipt["worker_id"],
+                "returncode": receipt["returncode"],
+                "sealed_output": worker is not None,
+                "status": worker.get("status") if worker else None,
+                "error_type": worker.get("error_type") if worker else None,
+            }
+        )
+    window_valid = (
+        raw["two_worker_window_seconds"]
+        <= raw["acceptance"]["deployment_epoch"][
+            "maximum_two_worker_window_seconds"
+        ]
+    )
+    return {
+        "schema_version": 1,
+        "experiment_id": raw.get("experiment_id", EXPERIMENT_ID),
+        "evaluation_epoch": raw["acceptance"]["evaluation_epoch"],
+        "run_id": raw["run_id"],
+        "implementation_git_commit": raw["implementation_git_commit"],
+        "task_manifest_sha256": raw["task_manifest_sha256"],
+        "two_worker_window_seconds": raw["two_worker_window_seconds"],
+        "worker_statuses": worker_statuses,
+        "validity_gates": {
+            "complete_worker_processes": all(
+                status["returncode"] == 0 for status in worker_statuses
+            ),
+            "complete_sealed_outputs": len(workers_by_id) == 2,
+            "same_task_manifest": raw.get("same_task_manifest", False),
+            "two_worker_window": window_valid,
+        },
+        "promotion_gates": {
+            "clean_predating_implementation": raw.get(
+                "implementation_clean", False
+            ),
+            "complete_behavioral_reproduction": False,
+            "audit_and_tests": raw.get("audit_and_tests", False),
+        },
+        "disposition": "invalidated",
+        "evidence_horizon": raw["acceptance"].get(
+            "target_scope",
+            "private, time-bounded, single constrained family OT-1 evidence only",
+        ),
+    }
 
 
 def main(argv: list[str] | None = None) -> int:

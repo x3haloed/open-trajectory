@@ -5,6 +5,7 @@ from pathlib import Path
 
 from open_trajectory_harness.ot0005_world import ProgramLedger
 from open_trajectory_harness.ot0016_live import (
+    _invalidated_summary,
     _decision_identity_placebo,
     _program_identity_placebo,
     _proposal,
@@ -129,6 +130,45 @@ class OT0016LiveHarnessTests(unittest.TestCase):
         self.assertIn(Path("src/open_trajectory_harness/ot0005.py"), paths)
         self.assertIn(Path("src/open_trajectory_evidence/audit.py"), paths)
         self.assertIn(Path("experiments/ot_0016_harness.py"), paths)
+
+    def test_worker_failure_produces_safe_invalidated_summary(self) -> None:
+        raw = {
+            "experiment_id": "OT-TEST",
+            "run_id": "failed-run",
+            "implementation_git_commit": "a" * 40,
+            "task_manifest_sha256": "b" * 64,
+            "workers": [
+                {
+                    "worker_id": "worker-1",
+                    "status": "failed",
+                    "error_type": "TimeoutError",
+                },
+                {"worker_id": "worker-2", "status": "completed"},
+            ],
+            "worker_receipts": [
+                {"worker_id": "worker-1", "returncode": 2},
+                {"worker_id": "worker-2", "returncode": 0},
+            ],
+            "same_task_manifest": True,
+            "two_worker_window_seconds": 100,
+            "implementation_clean": True,
+            "audit_and_tests": True,
+            "acceptance": {
+                "evaluation_epoch": "E4",
+                "target_scope": "test scope",
+                "deployment_epoch": {"maximum_two_worker_window_seconds": 420},
+            },
+        }
+        summary = _invalidated_summary(raw)
+        self.assertEqual(summary["disposition"], "invalidated")
+        self.assertFalse(
+            summary["validity_gates"]["complete_worker_processes"]
+        )
+        self.assertTrue(summary["validity_gates"]["complete_sealed_outputs"])
+        self.assertEqual(
+            summary["worker_statuses"][0]["error_type"], "TimeoutError"
+        )
+        self.assertNotIn("error", summary["worker_statuses"][0])
 
 
 if __name__ == "__main__":

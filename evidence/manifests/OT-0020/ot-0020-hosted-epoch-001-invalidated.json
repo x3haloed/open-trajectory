@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0020-hosted-epoch-001-invalidated",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1831036,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e60de6c27d0f634e429179a618c9759eacbbc78d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0020",
+  "input_manifests": [
+    "evidence/manifests/OT-0019/ot-0019-full-suffix-e4-calibration-001.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "e4-counterfactual-challenger-invalidated-run",
+  "limitations": [
+    "The parent controller did not persist worker process receipts or the exact two-worker window before raising.",
+    "The first worker failed after five stages, so no two-worker behavioral result exists.",
+    "The task, actor outputs, expressions, events, deployment receipts, and reviews remain private."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0020-hosted-epoch-001-invalidated",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a7ce463a4c48d3743ceda2b90ba35f69d4cda217de30c9ba4ef9b3a73187cf12"
+}

@@ -75,7 +75,10 @@ made this classification rule explicit.
   OT-0019 then neutralized the complete stage-4/stage-5 suffix, removed all 64
   exact witnesses, and rescued all 64 base signatures while preserving every
   other frozen anchor. E4 is promoted for exactly one new candidate experiment;
-  it does not rescore any prior candidate.
+  it does not rescore any prior candidate. OT-0020 consumed that authorization.
+  Its first worker timed out after five stages, invalidating the two-worker run;
+  its complete second worker passed deployment and authority gates but failed
+  both the temporal corrigibility chain and fixed-control lineage advantage.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
@@ -106,6 +109,15 @@ selector mechanism under its branch design.
 
 OT-0005 also leaves OT-1 open. It established deterministic attribution in one
 complete worker, but not reliable or corrigible selector-program learning.
+
+OT-0020 leaves OT-1 open and closes unchanged one-step whole-program challenger
+synthesis from OT-0016's consequence receipt as a credible next experiment.
+The complete worker corrected only at the final stage, without a later canary,
+and beat the strongest fixed control by two errors rather than six. A successor
+must carry materially richer actor-visible consequence evidence or use a
+different actor-authored selector representation, while preserving controller-
+deterministic attribution. It also requires a fresh evaluator authorization;
+OT-0019's one-candidate E4 grant is exhausted.
 
 Build the evaluation harness before choosing a preferred learning substrate.
 The program invents its own candidate representations, selection rules, update
@@ -153,6 +165,14 @@ Initial sequence:
   identity-policy placebo before any selector-learning claim. Rejected: one
   original program violated the frozen carrier, and the complete reproduction
   missed the temporal and aggregate performance gates.
+- **OT-0016:** test prospective actor-authored counterfactual challengers under
+  paired consequence receipts. Rejected under E3; the admitted task was later
+  shown structurally incapable of the full endpoint.
+- **OT-0017–OT-0019:** construct and calibrate the exact-opportunity E4
+  evaluator, culminating in one fresh-candidate authorization.
+- **OT-0020:** replay the unchanged OT-0016 mechanism under E4. Invalidated by
+  one worker timeout; the complete worker independently failed the temporal and
+  comparative behavioral gates. Do not retry it.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

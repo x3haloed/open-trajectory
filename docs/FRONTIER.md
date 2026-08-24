@@ -10,15 +10,17 @@ but the original first program violated the frozen carrier and the complete
 worker missed the recursive behavioral gates. OT-2 and OT-3 remain unchanged
 and unclaimed.
 
-The frontier is paused with no active run. Development probes after OT-0005
-tested richer controller-owned marginal consequence receipts, Terra program
-authorship, a deeper but still bounded executable carrier, two-pass updates,
-and validation-denial repair. They improved carrier reliability but did not
-produce a repeated improvement-and-correction chain. The direct expression-
-synthesis branch is therefore exhausted under the current carrier and feedback
-design. A successor should introduce a materially different credit-assignment
-mechanism while preserving deterministic selector attribution; simply adding
-more samples, repair attempts, or expression depth is not a credible next step.
+The frontier is paused with no active run. OT-0020 consumed E4's one-candidate
+authorization and was invalidated when worker 1 timed out after five stages.
+Worker 2 completed under a valid hosted epoch but independently failed the
+temporal and comparative behavioral gates: its correction arrived at the final
+stage, leaving no canary, and its six-error lineage beat the strongest fixed
+control by only two errors. The unchanged OT-0016 whole-program challenger and
+one-step consequence projection are therefore exhausted as a credible next
+experiment. A successor should introduce materially richer actor-visible
+consequence evidence or a different actor-authored selector representation
+while preserving deterministic attribution. It must earn a fresh evaluator
+authorization before candidate outputs.
 
 OT-0016 is a valid E3 rejection. It kept deterministic selector execution but
 changed credit assignment: an actor-authored challenger was compared with the
@@ -163,9 +165,14 @@ rescues restored the base signature. Event-identity/query-order placebos and
 all base gates passed; replicated stage-2 and stage-4 ablations retained 15/64
 and 0/64 witnesses, within their frozen limits. E4 is promoted for exactly one
 new candidate experiment. This is controller calibration, not OT-1 evidence.
-The immediate frontier returns to a fresh live candidate under the direct E4
-task distribution and all unchanged E2/E3 deployment, causal, novelty, and
-reproduction anchors.
+OT-0020 then consumed that authorization. One worker timed out after five
+stages, so the pair was invalidated. The complete worker passed every deployment
+and authority gate but produced no complete corrigibility chain and missed the
+fixed-control lineage margin. The E4 evaluation shape remains informative, but
+no further candidate is authorized by OT-0019. The immediate frontier is a
+prospective controller checkpoint for fresh E4 authorization plus a noncandidate
+feasibility slice of a richer consequence projection; it is not a retry of
+OT-0020.
 
 ## Post-OT-0005 development probes
 
@@ -188,19 +195,19 @@ or relaxing OT-0005 after seeing its result.
 
 ## Prediction errors
 
-Expected: E3's constrained admission gate would make the complete frozen
-temporal chain feasible without encoding a candidate strategy.
-Observed: the accepted OT-0016 task could not satisfy that chain even for a
-hidden fixed-control oracle, and none of 256 fresh inherited worlds contained a
-complete witness.
-Uncertain: whether a fresh candidate can use independently retained
-consequences to invent, commit, later abandon, and continue improving an
-inheritance-selection operation on the promoted E4 distribution.
-Evidence: the sealed OT-0016 run, its valid rejection summary, the replay over
-that task, OT-0017's frozen incidence and mutation studies, and the passing
-16-task direct-synthesis feasibility bundle plus rejected 64-task promotion
-anchor, OT-0018's 6/64 earlier-chain survivors, and OT-0019's passing 64-task
-full-suffix calibration.
+Expected: once E4 guaranteed an exact opportunity, OT-0016's prospective
+counterfactual challenger receipt would let both workers realize the complete
+chain.
+Observed: OT-0020 worker 1 timed out after five stages. Worker 2 completed with
+a valid deployment but corrected only at the final stage, had no later canary,
+and missed the fixed-control lineage margin. The controller also raised before
+persisting its process receipts, requiring a postmortem evidence bundle.
+Uncertain: whether a richer actor-visible projection of completed selection
+traces can support timely invention and correction without transferring
+selector authority to the evaluator.
+Evidence: the sealed OT-0016 and OT-0020 runs, OT-0017's incidence, mutation,
+and direct-construction studies, OT-0018's earlier-chain survivors, OT-0019's
+passing full-suffix calibration, and OT-0020's invalidated-run manifest.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
