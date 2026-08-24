@@ -193,7 +193,9 @@ Initial sequence:
   This is development-only feasibility and is not rescored.
 - **OT-0024:** test the still-unresolved portfolio hypothesis on a fresh public
   task with only the three-way decision carrier expanded prospectively from 64
-  to 128 AST nodes; its 512-byte bound and all causal gates remain unchanged.
+  to 128 AST nodes. Failed before scoring: the first decision was 512 characters
+  but 516 UTF-8 bytes and invalid syntax. Free-form multiway decision text is
+  closed as the next carrier; the portfolio itself remains untested.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

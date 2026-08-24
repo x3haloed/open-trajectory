@@ -233,6 +233,16 @@ a contrast-preserving alternative can pass. A synthetic 66-node rule proves the
 new 128-node carrier is necessary and sufficient under the unchanged 512-byte
 bound. Hosted portfolio output remains sealed until the separate run lock.
 
+OT-0024 also failed before portfolio scoring. Its first actor authored three
+valid selectors with three distinct selection sets, but the decision string was
+512 characters and 516 UTF-8 bytes because of two non-ASCII characters, against
+the 512-byte cap; it also had invalid Python syntax. Actor 2 was not released.
+This second independent free-form decision failure closes further node/byte
+expansion or prompt retries. The portfolio hypothesis is still untested. The
+remaining credible representation path is a bounded structured decision tree
+or decision list with exact controller interpretation and no prose-to-program
+semantic authority.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -295,6 +305,14 @@ rejected before portfolio evaluation.
 Revised model: portfolio choice needs a separately bounded carrier capacity;
 the selector carrier, byte limit, and scientific gate need not change. The old
 output remains failed and cannot be used to select a passing expression.
+
+Expected: the 128-node carrier would admit a natural multiway rule while the
+unchanged 512-byte cap remained ample.
+Observed: the next rule filled 512 characters, encoded to 516 bytes, and had
+invalid expression syntax; three selector alternatives themselves validated.
+Revised model: free-form multiway decision syntax, not portfolio generation, is
+the recurring failure. A structured exact carrier is the last concrete way to
+test this topology without further tuning textual bounds.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

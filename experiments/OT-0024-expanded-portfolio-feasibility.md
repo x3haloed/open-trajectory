@@ -1,6 +1,6 @@
 # OT-0024 — Expanded-decision portfolio feasibility
 
-- **Status:** run lock frozen; public pilot authorized
+- **Status:** failed at frozen decision-carrier gate; portfolio untested
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0023 decision-carrier failure
@@ -49,8 +49,28 @@ first hosted actor output.
 
 ## Results and decision
 
-Pending frozen public pilot.
+OT-0024 failed during the first actor encounter, before portfolio comparison or
+commit. The actor returned the exact output schema and three textually distinct
+selector alternatives. All three passed the depth-8 carrier and deterministic
+execution, and all three produced distinct selection sets on the sealed split.
+
+The structured-output schema admitted a decision string of exactly 512
+characters, but two non-ASCII characters made its UTF-8 carrier size 516 bytes
+against the frozen 512-byte limit. Independent parsing also found invalid Python
+expression syntax. The controller rejected it, preserved the failure, and did
+not release actor 2. The 128-node expansion therefore did not yield a scored
+portfolio.
+
+Final disposition: `failed`. OT-0024 is not rescored, repaired, or retried.
+Together, OT-0023 and OT-0024 close free-form Python text as the prospective
+multiway decision carrier: one natural rule exceeded the node cap, and the next
+hit the byte boundary with invalid syntax. Raising either bound again would be
+post-result gate chasing. The remaining credible carrier path is an exact
+bounded structured decision representation whose semantics are directly
+interpreted, not inferred or compiled from prose; it must preserve actor
+authorship, allow neutralization to change the choice, and receive a new task,
+actors, protocol, and run lock.
 
 ## Evidence manifest
 
-Pending.
+`evidence/manifests/OT-0024/ot-0024-portfolio-pilot-001.json`
