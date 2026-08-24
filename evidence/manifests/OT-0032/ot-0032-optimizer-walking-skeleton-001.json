@@ -1,0 +1,35 @@
+{
+  "artifact_id": "ot-0032-optimizer-walking-skeleton-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4816,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2de895ec051bace70deba64fc5fbd835a63fa49b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0032",
+  "input_manifests": [
+    "evidence/manifests/OT-0031/ot-0031-propose-score-revise-pilot-001.json"
+  ],
+  "kind": "deterministic-learned-selector-walking-skeleton",
+  "limitations": [
+    "This is deterministic public mechanism feasibility, not OT-1 evidence.",
+    "The researcher-authored optimizer family learns pattern state but is not itself emergent.",
+    "The locked harness sealed a passing result, then its in-process recorder hit a file-mode handoff defect; the exact sealed bytes were recorded with the standard evidence CLI without rerunning the protocol."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0032-optimizer-walking-skeleton-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0032_harness.py --output $EVIDENCE/ot-0032-result.json || test -f $EVIDENCE/ot-0032-result.json"
+  },
+  "schema_version": 1,
+  "sha256": "9b2a95f900b02d38a155a2f788cd23b845d24650175af1a527c404acca5ecc5f"
+}

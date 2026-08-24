@@ -356,6 +356,32 @@ def validate_run_lock(repo: Path, execution_commit: str) -> dict[str, Any]:
     return lock
 
 
+def record_sealed_result(repo: Path, output: Path, run_id: str) -> Path:
+    output.chmod(0o600)
+    try:
+        return record_artifact(
+            repo=repo,
+            input_path=output,
+            experiment_id=EXPERIMENT_ID,
+            artifact_id=run_id,
+            kind="deterministic-learned-selector-walking-skeleton",
+            evidence_class="public-reconstructible",
+            recipe=(
+                "PYTHONPATH=src python3 experiments/ot_0032_harness.py "
+                "--output $EVIDENCE/ot-0032-result.json"
+            ),
+            public_url=None,
+            limitations=[
+                "This is a deterministic public mechanism feasibility result, not OT-1 evidence.",
+                "The optimizer family and public world are researcher-authored; only pattern state is learned.",
+                "The result has no E4 or target-promotion authority.",
+            ],
+            input_manifests=[str(PREDECESSOR_MANIFEST_PATH)],
+        )
+    finally:
+        output.chmod(0)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(prog="ot-0032-harness")
     parser.add_argument("--repo", type=Path, default=Path.cwd())
@@ -378,25 +404,7 @@ def main(argv: list[str] | None = None) -> int:
         "execution_git_commit": execution_commit,
     }
     write_sealed_json(output, raw)
-    manifest = record_artifact(
-        repo=repo,
-        input_path=output,
-        experiment_id=EXPERIMENT_ID,
-        artifact_id=args.run_id,
-        kind="deterministic-learned-selector-walking-skeleton",
-        evidence_class="public-reconstructible",
-        recipe=(
-            "PYTHONPATH=src python3 experiments/ot_0032_harness.py "
-            "--output $EVIDENCE/ot-0032-result.json"
-        ),
-        public_url=None,
-        limitations=[
-            "This is a deterministic public mechanism feasibility result, not OT-1 evidence.",
-            "The optimizer family and public world are researcher-authored; only pattern state is learned.",
-            "The result has no E4 or target-promotion authority.",
-        ],
-        input_manifests=[str(PREDECESSOR_MANIFEST_PATH)],
-    )
+    manifest = record_sealed_result(repo, output, args.run_id)
     print(
         json.dumps(
             {"manifest": str(manifest.relative_to(repo)), "summary": result},

@@ -374,6 +374,19 @@ reoptimizes, tests a later canary, and measures unchanged-state ablation and
 fixed controls. This is deterministic public feasibility only; evaluator
 authority and researcher-authored optimizer scope preclude an OT-1 claim.
 
+OT-0032 passed every frozen semantic gate. The neutral state began at eight
+errors; exhaustive scoring of all 8,008 candidates committed patterns
+`[0, 1, 2, 3, 4, 8]` and reached zero clean-canary errors. Later corruption of
+those learned patterns made the unchanged state incur sixteen errors. A second
+exhaustive update committed `[5, 6, 7, 9, 10, 12]` and reached zero shift-canary
+errors, while the unchanged-state ablation remained at sixteen. Candidate
+aggregate error was zero against eight for the best frozen control. The exact
+sealed result was recorded without rerunning after repairing only the
+publication handoff described below. This proves the complete deterministic
+mechanism path inside the public fixture, not that its optimizer family is an
+unsupplied selection operation or that an evaluator has authorized it for
+OT-1.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -504,6 +517,17 @@ encounter nor the sealed future.
 Revised model: the active bottleneck is not missing scalar/query feedback or
 carrier validity. No tested direct-synthesis or bounded-feedback topology
 reliably turns these consequences into a useful selector revision.
+
+Expected: after OT-0032 sealed its result mode `000`, its in-process evidence
+recorder would publish the manifest using the same handoff as prior harnesses.
+Observed: the deterministic protocol passed and wrote the complete sealed
+artifact, but the recorder raised `PermissionError` before manifest creation
+because it tried to read the sealed file without a temporary permission handoff.
+Revised model: sealing and publication are separate causal boundaries. The
+exact artifact bytes were recorded with the standard evidence CLI without a
+scientific rerun; the harness now temporarily grants owner read/write only
+during recording, restores mode `000` in `finally`, and has a boundary
+regression. The result remains bound to the pre-fix execution commit.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

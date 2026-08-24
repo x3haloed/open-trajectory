@@ -246,8 +246,11 @@ Initial sequence:
   selector state. A generic optimizer scores every six-pattern proposal on
   completed outcomes, commits the minimum-error casebook, carries only its
   snapshot through fresh restoration, and must later reverse after that learned
-  criterion is made harmful. This public walking skeleton is frozen and has no
-  OT-1 or E4 authority.
+  criterion is made harmful. Passed as frozen: initial error eight became zero,
+  later contradiction raised unchanged-state error to sixteen, a different
+  corrected state returned to zero, and the candidate aggregate beat the best
+  fixed control eight to zero. This is public deterministic feasibility only;
+  it has no OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

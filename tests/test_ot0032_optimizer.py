@@ -2,7 +2,10 @@ from __future__ import annotations
 
 import unittest
 from pathlib import Path
+from tempfile import TemporaryDirectory
+from unittest.mock import patch
 
+from open_trajectory_harness.ot0003 import write_sealed_json
 from open_trajectory_harness.ot0032_optimizer import (
     _initial_snapshot,
     _project,
@@ -10,6 +13,7 @@ from open_trajectory_harness.ot0032_optimizer import (
     build_split,
     fixed_input_paths,
     optimize,
+    record_sealed_result,
     run_protocol,
     score_snapshot,
 )
@@ -67,6 +71,24 @@ class OT0032OptimizerTests(unittest.TestCase):
             ),
             paths,
         )
+
+    def test_sealed_result_is_readable_only_during_recording(self) -> None:
+        with TemporaryDirectory() as directory:
+            output = Path(directory) / "result.json"
+            write_sealed_json(output, {"pilot_pass": True})
+            observed = {}
+
+            def fake_record_artifact(**kwargs):
+                observed["bytes"] = kwargs["input_path"].read_bytes()
+                return Path(directory) / "manifest.json"
+
+            with patch(
+                "open_trajectory_harness.ot0032_optimizer.record_artifact",
+                side_effect=fake_record_artifact,
+            ):
+                record_sealed_result(Path(directory), output, "test-result")
+            self.assertIn(b"pilot_pass", observed["bytes"])
+            self.assertEqual(output.stat().st_mode & 0o777, 0)
 
 
 if __name__ == "__main__":
