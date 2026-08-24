@@ -36,6 +36,11 @@ explicit authorization rather than default reproduction steps.
 
 ## Program A — Contact-Causal Learning
 
+**Current target status:** OT-0014 promoted OT-1 under E2 within the tested
+hidden-rule envelope. The supporting evidence is private and time-bounded; it
+does not claim immutable weights, public reconstructibility, cross-domain
+generality, or validity under a later hosted epoch.
+
 Build the evaluation harness before choosing a preferred learning substrate.
 The program invents its own candidate representations, selection rules, update
 mechanisms, and correction paths. Minimal no-persistence, verbatim-event, and

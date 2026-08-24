@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0014-hosted-epoch-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2619536,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cfffecebd1a543906ef8ab4e5aa2837729dee773",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0014",
+  "input_manifests": [],
+  "kind": "predictive-inheritance-hosted-epoch-run",
+  "limitations": [
+    "The salted task manifest, outcomes, actor events, complete tool schemas, catalog ETag, and Response IDs remain private.",
+    "The hosted deployment is identified only within the observed time-bounded epoch; this is not an immutable-checkpoint or exact-weight claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0014-hosted-epoch-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0014 --reconstruct $EVIDENCE/runs/OT-0014/ot-0014-hosted-epoch-001/run.json"
+  },
+  "schema_version": 1,
+  "sha256": "14078a338ec4fa431c7b8da2d0e82f3017669e9aebb1c6eab47a2ac4331fe070"
+}

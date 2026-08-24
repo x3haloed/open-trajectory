@@ -1,7 +1,7 @@
 # OT-0014 — Receipted hosted predictive-inheritance reproduction
 
-- **Status:** frozen; execution pending
-- **Evidence class:** private-reproducible if all gates pass
+- **Status:** promoted
+- **Evidence class:** private-reproducible
 - **Target:** OT-1
 - **Evaluation epoch:** E2
 - **Frozen acceptance:** `spec/ot-0014-acceptance.json`
@@ -69,4 +69,31 @@ exact-weight reproduction claim.
 
 ## Results
 
-Pending.
+The frozen original and reproduction completed in 258.08 seconds under one
+receipted hosted epoch. Both workers reported `gpt-5.6-luna`, catalog payload
+identity `dcbbaaeb...e24c0`, catalog ETag identity `a11f9225...b58d28`, and
+epoch identity `8f0f52eb...31382`. Every one of the 52 actor turns had a unique
+private Response ID, one stable three-tool inventory receipt, a fresh thread,
+and a fresh workspace. There were no parse failures or actor tool calls.
+
+The candidate made 0/16 held-out errors in each worker and 0 post-shift errors.
+The no-persistence, verbatim-event, and nearest-event controls made 9/5/6 errors
+in the original and 10/7/6 in the reproduction. Projection ablation caused 5/8
+errors in both workers. Every frozen behavioral, receipt, resource, audit, and
+clean-reproduction gate passed.
+
+The private raw artifact is content-addressed by
+`evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json` with SHA-256
+`14078a338ec4fa431c7b8da2d0e82f3017669e9aebb1c6eab47a2ac4331fe070`.
+This promotes OT-1 within the tested hidden-rule envelope under evaluation
+epoch E2. The claim remains private, time-bounded, and specific to the observed
+hosted deployment epoch; it does not establish immutable weights, public
+reconstructibility, other task domains, or future hosted epochs.
+
+## Decision and next experiment
+
+The complete causal path from retained world outcomes through the candidate
+projection to later held-out behavior is established within this envelope, and
+the decisive ablation removes the effect. The next target-level dependency is
+OT-2: determine whether this promoted substrate can support truthful,
+self-authored durable goal pursuit rather than merely predictive inheritance.
