@@ -1,6 +1,6 @@
 # OT-0044 — E10 causal-advantage calibration
 
-- **Status:** frozen implementation; no candidate output yet
+- **Status:** promoted; E10 authorizes one fresh candidate
 - **Evidence class:** public deterministic evaluator calibration
 - **Evaluation transition:** E9 → E10 candidate
 - **Candidate goal output:** forbidden
@@ -43,3 +43,26 @@ absolute action, hierarchy, completion, goal-quality, selector-causality,
 control, authority, deployment, and evidence gate remains unchanged.
 
 OT-0044 cannot establish OT-2.
+
+## Result and decision
+
+The locked execution at `b80832de8ad81cb7fe3f443294bde19f5c3b8d5b`
+passed every frozen controller gate across all 2,304 cases. Candidate route
+errors remained `[0,0,0]`, unchanged-selector errors remained `[3,3,3]`, and
+the endpoint mapping was exactly 8 candidate actions versus 5 unchanged-control
+actions. The old threshold of four rejected that perfect path; the threshold of
+three accepted it; and a one-repair-defect mutant scored 7 versus 5 and remained
+rejected. Deterministic replay, reverse-order placebo, tests, audit, and privacy
+gates passed. No candidate task, goal, hosted model, or future score entered the
+calibration.
+
+After sealing that passing result, the harness's unsupported metadata label
+`public-reproducible` was rejected by the evidence recorder. The run was not
+repeated and its bytes were not changed. The canonical recorder published the
+exact sealed artifact under the allowlisted `public-reconstructible` class and
+preserved the post-seal publication error as a limitation.
+
+Final disposition: `promoted`. The unused E9 candidate authorization is
+surrendered; E10 authorizes exactly one fresh candidate with comparative
+advantage threshold three. OT-2 remains unproven. The artifact is identified by
+`evidence/manifests/OT-0044/ot-0044-e10-causal-advantage-calibration-001.json`.

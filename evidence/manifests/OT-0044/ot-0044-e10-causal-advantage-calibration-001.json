@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ot-0044-e10-causal-advantage-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1534,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b80832de8ad81cb7fe3f443294bde19f5c3b8d5b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0044",
+  "input_manifests": [
+    "evidence/manifests/OT-0043/ot-0043-e9-split-interface-calibration-001.json",
+    "evidence/manifests/OT-0042/ot-0042-e8b-self-authored-goal-candidate-001.json",
+    "evidence/manifests/OT-0038/ot-0038-e7-ot2-evaluator-calibration-001.json"
+  ],
+  "kind": "e10-causal-advantage-calibration",
+  "limitations": [
+    "This is evaluator calibration, not OT-2 evidence.",
+    "No candidate task, goal, or hosted actor output was generated.",
+    "The frozen harness sealed a passing result, then rejected its unsupported public-reproducible metadata label; the canonical recorder published those exact bytes with the valid public-reconstructible class.",
+    "A pass authorizes at most one fresh E10 candidate."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0044-e10-causal-advantage-calibration-001",
+    "recipe": "At execution commit b80832d, run PYTHONPATH=src python3 experiments/ot_0044_harness.py --output $EVIDENCE/ot-0044-e10-causal-advantage-calibration-001.json; preserve its post-seal invalid-evidence-class exit, then record the exact sealed output with ot-evidence using public-reconstructible."
+  },
+  "schema_version": 1,
+  "sha256": "7acb9c80842d899060d01afb39d2dda32ac2967b48005c817ae8007e8db37e10"
+}

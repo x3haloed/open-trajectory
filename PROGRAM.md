@@ -350,6 +350,12 @@ Initial sequence:
   format-neutral safe identities without candidate output. Passed all 2,304
   controller cases and invalid families plus all 14 fresh hosted pursuit turns;
   E9 authorizes exactly one fresh candidate and contains no OT-2 evidence.
+- **OT-0044:** before spending E9, detect that the inherited four-action
+  comparative gate was impossible because the unchanged-selector control shares
+  five of eight actions and only three repairs are causally selector-dependent.
+  Passed all 2,304 candidate-free cases, rejected a one-repair defect, surrendered
+  the unused E9 authorization, and promoted E10 with the exact realizable
+  three-action threshold for one fresh candidate. Contains no OT-2 evidence.
 
 ## Program C — TAAA
 
