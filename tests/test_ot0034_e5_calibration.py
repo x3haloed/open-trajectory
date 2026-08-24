@@ -8,6 +8,7 @@ from open_trajectory_harness.ot0034_e5_calibration import (
     criteria,
     evaluate_criterion,
     fixed_input_paths,
+    validate_run_lock,
 )
 
 
@@ -45,6 +46,11 @@ class OT0034E5CalibrationTests(unittest.TestCase):
             paths,
         )
         self.assertIn(Path("experiments/ot_0034_harness.py"), paths)
+
+    def test_frozen_run_lock_reconstructs_all_runtime_authorities(self) -> None:
+        implementation = "00852ada0c1e3e64480e4f93518fc5b20b908d25"
+        lock = validate_run_lock(Path.cwd(), implementation)
+        self.assertEqual(lock["implementation_git_commit"], implementation)
 
 
 if __name__ == "__main__":

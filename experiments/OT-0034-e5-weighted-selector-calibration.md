@@ -1,6 +1,6 @@
 # OT-0034 — E5 weighted-selector authority calibration
 
-- **Status:** frozen; controller execution forbidden until run lock
+- **Status:** locked; controller execution pending
 - **Evidence class:** public-reconstructible evaluator calibration
 - **Evaluation transition:** E4 → E5 candidate
 - **Candidate actor outputs:** forbidden
@@ -78,3 +78,8 @@ The integration candidate must be separately frozen and must retain E2's
 hosted-epoch and fresh-boundary anchors, E3's restored OT-1 definition, and E4's
 controller ownership, controls, ablations, temporal chain, and one-candidate
 limit. OT-0034 itself contains no OT-1 evidence.
+
+The clean protocol and implementation commit is
+`00852ada0c1e3e64480e4f93518fc5b20b908d25`.
+`spec/ot-0034-run-lock.json` binds it, the candidate carrier, acceptance rule,
+controller, evidence authorities, and predecessor before calibration output.
