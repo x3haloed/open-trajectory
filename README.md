@@ -73,6 +73,11 @@ OT-0031 tested two independent four-encounter proposal/score/revision branches.
 Both revision actors received exact candidate receipts and changed state, but
 neither improved completed or future error. The frozen validation-loop path is
 closed without OT-1 or E4 authority.
+OT-0032 is the active materially different falsifier: completed outcomes train
+a deterministic six-pattern selector optimizer, and only learned snapshot state
+crosses fresh instances through a clean canary, harmful later contradiction,
+correction, ablation, and fixed controls. It is public mechanism feasibility,
+not OT-1 or E4 evidence.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

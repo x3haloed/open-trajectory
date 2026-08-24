@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0032",
+  "purpose": "public deterministic learned-pattern selector walking skeleton",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "minimum_initial_errors": 8,
+  "maximum_canary_errors": 0,
+  "minimum_contradicted_errors": 12,
+  "minimum_ablation_gap": 8,
+  "minimum_fixed_control_margin": 8,
+  "selection_limit": 6,
+  "pattern_count": 16,
+  "candidate_count_each_update": 8008,
+  "claim_limit": "deterministic public feasibility of outcome-optimized selector state only; not OT-1 evidence and not E4 authorization",
+  "promotion_gate": [
+    "all world generation, optimizer proposals, scoring, tie-breaking, state projection, controls, ablation, acceptance, and run lock are frozen before execution",
+    "completed independent query outcomes score exactly all 8008 six-pattern proposals; no future outcome enters either update",
+    "a fresh restored snapshot lowers the clean canary to zero, later contact makes that learned state incur at least twelve errors, and a different restored snapshot lowers the shift canary to zero",
+    "the unchanged learned-state ablation loses at least eight errors and the candidate aggregate beats every frozen fixed control by at least eight",
+    "all snapshot, proposal, update, selection, prediction, score, and receipt identities replay deterministically"
+  ]
+}

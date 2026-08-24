@@ -364,6 +364,16 @@ feedback of the same form did not solve synthesis variance. Changing model
 size, sampling, prompt wording, turn count, or carrier capacity alone is not a
 new causal mechanism and is not authorized as the next experiment.
 
+One materially different causal family remains: learn selector parameters by
+generic outcome optimization rather than ask an LLM to synthesize them.
+OT-0032 freezes the smallest complete walking skeleton. It scores every
+six-pattern casebook on completed outcomes, commits the lexicographically first
+minimum-error state, restores only that snapshot in fresh instances, tests its
+clean canary, makes the learned criterion harmful through later contact,
+reoptimizes, tests a later canary, and measures unchanged-state ablation and
+fixed controls. This is deterministic public feasibility only; evaluator
+authority and researcher-authored optimizer scope preclude an OT-1 claim.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

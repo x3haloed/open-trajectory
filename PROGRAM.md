@@ -242,6 +242,12 @@ Initial sequence:
   OT-1 or E4 authority. Both revisions received exact candidate receipts but
   improved neither completed nor future error. Failed as frozen; the bounded
   validation-loop path is closed.
+- **OT-0032:** pivot outside direct LLM synthesis to deterministic learned
+  selector state. A generic optimizer scores every six-pattern proposal on
+  completed outcomes, commits the minimum-error casebook, carries only its
+  snapshot through fresh restoration, and must later reverse after that learned
+  criterion is made harmful. This public walking skeleton is frozen and has no
+  OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;
