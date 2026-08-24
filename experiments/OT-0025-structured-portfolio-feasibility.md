@@ -1,6 +1,6 @@
 # OT-0025 — Structured-decision portfolio feasibility
 
-- **Status:** run lock frozen; public pilot authorized
+- **Status:** failed at frozen selector-carrier gate; portfolio untested
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessors:** OT-0023 and OT-0024 free-form decision-carrier failures
@@ -51,8 +51,28 @@ first hosted actor output.
 
 ## Results and decision
 
-Pending frozen public pilot.
+OT-0025 failed during the first actor encounter, before portfolio comparison or
+commit. The structured decision output passed exact authority: three clauses,
+one occurrence of each alternative choice, thresholds `[1, 0, 1]`, and valid
+Boolean requirements. The three selector expressions were textually distinct,
+syntactically valid, short, and shallow.
+
+All three selectors nevertheless violated the frozen OT-0016 expression
+carrier by using attribute/method syntax. One also invoked non-allowlisted
+`list` and `reversed` calls. The controller rejected the first invalid selector
+and did not release actor 2. The structured decision topology was therefore not
+scored.
+
+The fresh seed described the selector carrier as the unchanged OT-0016 generic
+carrier but did not restate its exact allowlist in the actor's self-contained
+prompt. That omission explains the common invalid syntax but does not permit a
+repair or retry: OT-0025 is `failed` as frozen. Together with OT-0023 and
+OT-0024, this closes further free-form selector/decision portfolio retries. The
+remaining materially different representation hypothesis is an exact
+structured selector program whose generic operations and interpreter are
+explicitly schema-bound; simply adding the missing prose and sampling again is
+not authorized.
 
 ## Evidence manifest
 
-Pending.
+`evidence/manifests/OT-0025/ot-0025-structured-pilot-001.json`

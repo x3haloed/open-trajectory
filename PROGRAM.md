@@ -199,7 +199,9 @@ Initial sequence:
 - **OT-0025:** test that portfolio once with an exact structured decision list
   whose clause order, choices, thresholds, and change predicates are all actor-
   authored and directly interpreted. This is the last active public carrier
-  falsifier and has no OT-1 or E4 authority.
+  falsifier and has no OT-1 or E4 authority. Failed before scoring because all
+  three selectors used forbidden method/attribute syntax; the decision list
+  itself validated. Further free-form portfolio retries are closed.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

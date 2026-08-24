@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0025-structured-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 239473,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "442be54c8ee01bc75ab3e4b65aada440b67e5977",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0025",
+  "input_manifests": [
+    "evidence/manifests/OT-0024/ot-0024-portfolio-pilot-001.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "structured-decision-contrast-portfolio-pilot",
+  "limitations": [
+    "This is a public non-candidate carrier pilot, not OT-1 evidence.",
+    "The hosted outputs, deployment events, identities, and workspaces remain private.",
+    "A pass does not authorize E4 or a private candidate run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0025-structured-pilot-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1c43ba2734bba04aa7890ec177adfdf7e6df2ce6466a62cdd2055a407aaf34b2"
+}

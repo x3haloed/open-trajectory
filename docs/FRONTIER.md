@@ -250,6 +250,16 @@ allowed, so neutralized-current behavior is not built into the carrier. This is
 the last active public representation falsifier. If it fails as frozen, further
 carrier retries are closed without a materially different learning hypothesis.
 
+OT-0025 failed at the selector carrier before comparison. Its exact structured
+decision list validated, but all three text selectors used forbidden
+attribute/method syntax; one also used non-allowlisted calls. The seed referred
+to OT-0016's unchanged carrier without restating the exact allowlist, an
+actor-visible contract omission. The frozen result is not repaired, and adding
+that prose for another text retry is closed. The only remaining concrete
+representation hypothesis is to make selector programs exact structured data
+too, with generic schema-bound operations and direct deterministic
+interpretation rather than free-form syntax or semantic compilation.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -320,6 +330,14 @@ invalid expression syntax; three selector alternatives themselves validated.
 Revised model: free-form multiway decision syntax, not portfolio generation, is
 the recurring failure. A structured exact carrier is the last concrete way to
 test this topology without further tuning textual bounds.
+
+Expected: once decision syntax was structured, the unchanged selector carrier
+would remain usable in the portfolio prompt.
+Observed: all three first-turn selectors used forbidden attributes or methods;
+the structured decision clauses passed exact validation.
+Revised model: fresh actors need the complete carrier to be self-contained, and
+free-form syntax remains a recurring failure surface. A structured selector AST
+is materially different; another prose patch and sample is not.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
