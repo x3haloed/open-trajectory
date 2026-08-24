@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0004",
+  "evaluation_epoch": "E3",
+  "target": "OT-1 — Emergent Corrigible Inheritance Selection",
+  "claim": "Within one generated changing prediction family, independently scored consequences of prior inheritance choices cause an actor-authored, controller-committed selection policy to improve later held-out behavior, become harmful, be corrected by later contact, and retain capacity for another correction.",
+  "target_scope": "Private, time-bounded, single-family OT-1 evidence only; no OT-2, OT-3, cross-domain, immutable-weight, or public-reconstruction claim.",
+  "seed_exclusions": [
+    "no useful selection criterion or operation is named, enumerated, exemplified, or encoded as a mode switch",
+    "no regime identity, order, transition, answer, or expected correction is actor-visible",
+    "the words and concepts abstraction, exception preservation, recency weighting, drift response, noise rejection, corroboration threshold, and confidence weighting are absent from selector-facing seed and developer instructions"
+  ],
+  "candidate": {
+    "id": "actor-authored-controller-committed-policy-v1",
+    "policy_bytes": 512,
+    "selected_events_per_prediction": 6,
+    "proposal_authority": "fresh selector actor",
+    "commit_authority": "controller",
+    "outcome_authority": "sealed world",
+    "policy_representation": "bounded free-form text; no researcher-authored strategy menu"
+  },
+  "controls": [
+    "frozen-predecessor-selector",
+    "fixed-most-recent-selector",
+    "fixed-first-seen-bounded-verbatim-selector",
+    "fixed-naive-query-nearest-selector",
+    "no-persistence-selector"
+  ],
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "world": {
+    "stages": 6,
+    "stage_labels_private": true,
+    "candidate_events_per_stage": 24,
+    "heldout_queries_per_stage": 8,
+    "families": [
+      "stable abstraction",
+      "sparse predictive exceptions",
+      "reliable drift",
+      "drift confirmation",
+      "noisy contradictory recency",
+      "post-correction capacity canary"
+    ],
+    "protected_rejected_event_sampling": true,
+    "same_world_batches_across_conditions_and_workers": true
+  },
+  "scoring": {
+    "useful_non_correction_revisions_required": 2,
+    "changed_over_frozen_error_advantage_per_revision": 2,
+    "learned_policy_harm_over_protected_predecessor_required": 2,
+    "correction_error_recovery_required": 3,
+    "corrected_policy_errors_allowed": 1,
+    "post_correction_canary_advantage_required": 2,
+    "changed_lineage_predictions": 48,
+    "changed_lineage_errors_allowed": 8,
+    "changed_lineage_advantage_over_each_fixed_control_required": 6,
+    "selected_identity_change_required": true,
+    "selector_change_ablation_required": true,
+    "actor_parse_failures_allowed": 0,
+    "actor_tool_calls_allowed": 0,
+    "clean_reproductions_required": 1
+  },
+  "novelty_review": {
+    "reviewer_model": "gpt-5.6-terra",
+    "fresh_blinded_reviews_per_worker": 2,
+    "unanimity_required": true,
+    "rubric": [
+      "identify a concrete inclusion, exclusion, weighting, comparison, consolidation, or update operation instantiated by the proposal",
+      "confirm the operation is not semantically present in the seed orientation or offered as a researcher-authored option",
+      "confirm selection receipts show the operation changed selected event identities",
+      "confirm deterministic changed-versus-frozen scores show material held-out benefit",
+      "reject new labels, paraphrases, self-reports, or unused policy prose"
+    ],
+    "authority_limit": "Reviewers judge seed novelty only and cannot alter world outcomes, deterministic scores, commits, or final causal gates."
+  },
+  "deployment_epoch": {
+    "actor_model": "gpt-5.6-luna",
+    "reviewer_model": "gpt-5.6-terra",
+    "effective_models_must_equal_requested": true,
+    "catalog_payload_digest_required": true,
+    "catalog_etag_required": true,
+    "unique_response_id_per_turn_required": true,
+    "same_epoch_across_workers_required": true,
+    "condition_position_count_across_workers": 2,
+    "maximum_two_worker_window_seconds": 1200,
+    "claim_scope": "private, time-bounded hosted deployment epoch"
+  },
+  "resource_budget": {
+    "policy_bytes": 512,
+    "selected_events_per_prediction": 6,
+    "selector_apply_turns_per_worker": 18,
+    "predictor_turns_per_worker": 42,
+    "selector_update_turns_per_worker": 6,
+    "novelty_review_turns_per_worker": 2,
+    "actor_turns_total_per_worker": 68,
+    "actor_input_tokens_total_per_worker": 900000,
+    "actor_output_tokens_total_per_worker": 30000,
+    "wall_seconds_per_worker": 600
+  },
+  "required_receipts": [
+    "seed orientation and initial policy identities",
+    "protected raw archive and rejected-event sample identities",
+    "every selector proposal and controller accept or deny decision",
+    "every committed immutable policy snapshot",
+    "matched changed and frozen policy selection identities",
+    "fixed control selection identities",
+    "fresh predictor actions and independent world outcomes",
+    "selector-change ablation and protected predecessor branch",
+    "later harm, corrective revision, recovery, and post-correction capacity canary",
+    "blinded novelty rubric identities and decisions",
+    "fresh context, direct tool inventory, hosted model epoch, task order, budget, audit, and reproduction identities"
+  ],
+  "promotion_gate": [
+    "all hypothesis, seed, policy/projection budgets, task generation, regime order, task order, controls, branch semantics, score thresholds, novelty rubric, models, receipt parser, evaluator, implementation, and private task identities are frozen before candidate outputs",
+    "at least two non-correction revisions causally beat their frozen predecessors in both workers",
+    "at least one materially used operation absent from the seed passes both blinded reviews in both workers",
+    "a learned policy is later harmful relative to its protected predecessor in both workers",
+    "later contact causes a committed correction that passes recovery and selector-change ablation gates in both workers",
+    "the post-correction canary passes in both workers",
+    "the changed lineage passes absolute and fixed-control comparative gates in both workers",
+    "all freshness, authority, leak, parse, tool, resource, deployment-epoch, audit, evidence, and clean-reproduction gates pass"
+  ],
+  "red_line_review": [
+    "The seed supplies capability and authority but no useful selection strategy or strategy menu.",
+    "Policy prose has no evidentiary value without changed selection identities and deterministic downstream benefit.",
+    "The actor may propose but cannot commit selector state or alter archive, outcomes, branches, reviews, or scores.",
+    "Protected rejected-event sampling prevents the selector from choosing all evidence used to judge itself.",
+    "Changed and frozen branches use identical event pools, queries, predictor model, prompts, budgets, and task order.",
+    "Every selector, predictor, and reviewer encounter uses a fresh thread and workspace.",
+    "No local model inference is used."
+  ]
+}

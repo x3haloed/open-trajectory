@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["policy", "expected_effect", "cheapest_falsifier"],
+  "properties": {
+    "policy": { "type": "string", "minLength": 1, "maxLength": 512 },
+    "expected_effect": { "type": "string", "minLength": 1, "maxLength": 384 },
+    "cheapest_falsifier": { "type": "string", "minLength": 1, "maxLength": 384 }
+  }
+}

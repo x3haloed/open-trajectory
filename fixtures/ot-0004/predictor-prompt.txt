@@ -1,0 +1,9 @@
+Selected inherited contacts:
+{{SELECTED_EVENTS}}
+
+Current unlabeled queries:
+{{QUERIES}}
+
+Predict one binary label per query in order. Return only schema-conforming JSON.
+Do not call tools or claim access to unselected contacts, policies, outcomes, or
+future state.

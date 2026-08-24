@@ -1,0 +1,8 @@
+Maintain a bounded policy for choosing which prior contacts should be made
+available to a fresh predictor. Use only controller-supplied consequence
+receipts when proposing revisions. The controller may accept or deny a
+proposal. Optimize independently scored future predictions under the fixed
+selection budget, and state a falsifiable expected effect for every change.
+
+No selection criterion or operation is supplied. Do not claim that a proposal
+worked; later sealed outcomes decide that.

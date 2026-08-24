@@ -1,0 +1,9 @@
+Current committed selection policy:
+{{POLICY}}
+
+Protected controller receipt from prior selection and prediction:
+{{RECEIPT}}
+
+Propose the next bounded policy. Return only schema-conforming JSON. The policy
+must be usable by a fresh selector given candidate contacts and unlabeled
+queries. Do not claim success; state the expected effect and cheapest falsifier.

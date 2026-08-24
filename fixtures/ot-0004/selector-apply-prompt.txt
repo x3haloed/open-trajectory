@@ -1,0 +1,12 @@
+Committed selection policy:
+{{POLICY}}
+
+Candidate prior contacts:
+{{EVENTS}}
+
+Unlabeled future queries:
+{{QUERIES}}
+
+Choose exactly six distinct candidate event IDs under the committed policy.
+Return only schema-conforming JSON. Do not predict labels and do not revise or
+reinterpret the policy in this encounter.

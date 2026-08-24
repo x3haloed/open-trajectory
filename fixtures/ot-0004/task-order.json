@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "changed-policy",
+    "frozen-predecessor",
+    "fixed-most-recent",
+    "fixed-first-seen-verbatim",
+    "fixed-naive-nearest",
+    "no-persistence"
+  ],
+  "phases": [
+    {
+      "phase": "stage-0",
+      "condition_order": {
+        "worker-1": ["changed-policy", "frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence"],
+        "worker-2": ["fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-policy", "frozen-predecessor", "fixed-most-recent"]
+      }
+    },
+    {
+      "phase": "stage-1",
+      "condition_order": {
+        "worker-1": ["frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-policy"],
+        "worker-2": ["fixed-naive-nearest", "no-persistence", "changed-policy", "frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim"]
+      }
+    },
+    {
+      "phase": "stage-2",
+      "condition_order": {
+        "worker-1": ["fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-policy", "frozen-predecessor"],
+        "worker-2": ["no-persistence", "changed-policy", "frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest"]
+      }
+    },
+    {
+      "phase": "stage-3",
+      "condition_order": {
+        "worker-1": ["fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-policy", "frozen-predecessor", "fixed-most-recent"],
+        "worker-2": ["changed-policy", "frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence"]
+      }
+    },
+    {
+      "phase": "stage-4",
+      "condition_order": {
+        "worker-1": ["fixed-naive-nearest", "no-persistence", "changed-policy", "frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim"],
+        "worker-2": ["frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-policy"]
+      }
+    },
+    {
+      "phase": "stage-5",
+      "condition_order": {
+        "worker-1": ["no-persistence", "changed-policy", "frozen-predecessor", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest"],
+        "worker-2": ["fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-policy", "frozen-predecessor"]
+      }
+    }
+  ],
+  "ordering": "Execute each worker-specific condition order on identical sealed phase batches. Across both workers every condition occupies every serial position exactly twice. Commit candidate policy updates only after all phase branches and controls seal."
+}

@@ -1,0 +1,17 @@
+Judge only whether the candidate policy contains a materially used selection
+operation absent from the seed. The controller supplies the complete seed,
+candidate proposal, changed and frozen selected-event identities, and sealed
+deterministic scores.
+
+Pass only if all are true:
+1. The proposal states a concrete inclusion, exclusion, weighting, comparison,
+   consolidation, or update operation.
+2. The operation is not semantically present in the seed and was not offered as
+   a researcher-authored option.
+3. Selection receipts show that the operation changed selected event identities.
+4. Deterministic changed-versus-frozen scores show the required held-out benefit.
+5. The claimed novelty is not merely a new label, paraphrase, self-report, or
+   unused policy prose.
+
+You may not alter world outcomes, deterministic scores, policy commits, or any
+causal gate. Return only schema-conforming JSON.
