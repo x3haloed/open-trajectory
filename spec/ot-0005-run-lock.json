@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0005",
+  "protocol_origin_git_commit": "e5baa6b8736b8007acf164d7d4c958c10738c29e",
+  "implementation_git_commit": "3bc9b904bdfc0a1137be3cd5e440026b0085f591",
+  "backend": "codex-app-server-via-sanitizer-proxy",
+  "actor_model": "gpt-5.6-luna",
+  "reviewer_model": "gpt-5.6-terra",
+  "model_stability": "hosted-deployment-epoch",
+  "task_manifest_sha256": "ba4cbfaa3749dd4e0a45646259d49e650cda5913fffb77ada8d62aeb569086b2",
+  "tls_ca_bundle_sha256": "16be3f6feb15408195dcfe3aa1a75ef9db72f646b96ebbefdc68f56255f799f8",
+  "backend_binary": {
+    "version": "codex-cli 0.149.0",
+    "source_repository": "https://github.com/openai/codex",
+    "source_tag": "rust-v0.149.0",
+    "source_git_commit": "758ef40f50c1a458425c7cfbf1eb12cbc07af0b0",
+    "codex_sha256": "9ba106aa245c7dfe0604a319ca9fdd51d215b58135656f310841691c56ad2347",
+    "code_mode_host_sha256": "3eca39bb7f93315fab6b0dec2334381c0f50a2ccda113ec482fb815f16072a5c"
+  },
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "ba503daa6072a549ebde86322c8147ead8d9da91bccebd12edbe71ae704311e4",
+    "app_server_sha256": "22e5ffe917d8847bd87a05c52511f7873f7a0b35bd164211f714b2fd376e60d2",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "deployment_proxy_sha256": "a752e9346e06a39139a5fe1f957a0613d0046eee15e9e0c3691950a911e4de85",
+    "fixture_novelty_output_schema_json_sha256": "7b8585abdeb9e76f1aa896d5d8f7cbbf6b101bc3c1f0d050410cf93946fc9282",
+    "fixture_novelty_rubric_txt_sha256": "2c035e7baee95f621b86f7e86d38f6515d432e1c91bbb7a864ca6a1c1873b68d",
+    "fixture_selector_seed_txt_sha256": "37482511b8397368ff24257603dffcc6a5f50da21b4f6e352673cf2b1ac231f9",
+    "fixture_selector_update_output_schema_json_sha256": "2139e0557fd6c459dd04a32996363e2ce608aad76de239784630f556bbd18ff2",
+    "fixture_selector_update_prompt_txt_sha256": "76e49f261ea4f112e811cdca1092e9087f0a931ab9bd2a39e371c128b4380053",
+    "harness_sha256": "de0bfa1a8be5170c082624318edf169458ab4ed54098fab1fffbdeb014a8f3fe",
+    "task_order_sha256": "56c94b96a9cd65550abca33e980dcf0a7100106e537ccb7aa40a76dc7472cdea",
+    "tool_receipt_patch_sha256": "baa1c8585d95e5270fdb0b977e95b22d2487031259607af3e6c0d6f93b16fdfd",
+    "world_sha256": "50e65d7260f1b9b52ea364ab30a8c5b68cf28a70de75ea8f80c905bfa5711608"
+  }
+}
