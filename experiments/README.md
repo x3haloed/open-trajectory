@@ -12,6 +12,9 @@ Current unexecuted protocol drafts:
   crosses subject-relative scar carriers with selector identity while keeping
   scar and selector verdicts separate.
 - [`OT-0016-counterfactual-challenger-credit.md`](OT-0016-counterfactual-challenger-credit.md)
-  — tests whether controller-owned paired consequences can support an
-  actor-authored selector challenge and receipt-bound commit before the larger
-  OT-0015 factorial is frozen.
+  — valid E3 rejection of counterfactual challenger credit; the run also
+  exposed that E3's aggregate task sampler did not observe exact causal-chain
+  feasibility.
+- [`OT-0017-exact-causal-opportunity.md`](OT-0017-exact-causal-opportunity.md)
+  — controller-only E4 evaluation checkpoint testing whether inherited worlds
+  contain an exact witness for the unchanged temporal and lineage anchors.
