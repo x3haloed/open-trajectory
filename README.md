@@ -65,6 +65,9 @@ OT-0029 carried the first useful OT-0028 casebook into a later harmful
 encounter. One fresh actor reversed from sixteen to zero canary errors; the
 other reached nine and missed the frozen gate. The mixed experiment failed and
 provides no OT-1 or E4 authority.
+OT-0030 is the active development falsifier. It continues only the failed
+nine-error OT-0029 revision and tests whether that revision's own consequences
+cause two fresh instances to correct again before another sealed canary.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

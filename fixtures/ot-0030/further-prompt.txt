@@ -1,0 +1,6 @@
+Exact bounded projection of the failed revision and its completed canary:
+{{CONSEQUENCE_PROJECTION}}
+
+In one response, author the further revision or replacement. Return only
+schema-conforming JSON. State the expected effect and cheapest falsifier
+without claiming success.

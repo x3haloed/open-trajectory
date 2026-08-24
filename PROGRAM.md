@@ -230,6 +230,10 @@ Initial sequence:
   slice. One actor reversed from sixteen to zero errors; the other reached nine
   and missed the frozen gate. Failed as frozen with no OT-1 or E4 authority;
   direct one-shot reversal is closed.
+- **OT-0030:** continue only OT-0029's failed nine-error revision and test
+  whether its own canary consequences induce a further correction in two fresh
+  instances. This public preserved-correction slice is frozen and has no OT-1
+  or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

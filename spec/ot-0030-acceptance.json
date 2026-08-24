@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0030",
+  "purpose": "public non-candidate preserved further casebook correction feasibility",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "actor_model": "gpt-5.6-luna",
+  "fresh_actor_encounters": 2,
+  "selection_limit": 6,
+  "minimum_inherited_errors_each": 8,
+  "maximum_revised_errors_each": 2,
+  "minimum_error_advantage_each": 6,
+  "ledger_entry_limit": 5,
+  "ledger_byte_limit": 49152,
+  "actor_tool_calls_allowed": 0,
+  "actor_parse_failures_allowed": 0,
+  "actor_input_tokens_total": 70000,
+  "actor_output_tokens_total": 7000,
+  "maximum_run_seconds": 300,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "promotion_gate": [
+    "the exact failed OT-0029 second revision, its completed nine-error canary, bounded consequence projection, fresh sealed canary, unchanged carrier, objective, prompt, scoring, transitive sources, backend, resources, and run lock are frozen before output",
+    "each inherited branch replays with at least eight errors before further revision",
+    "each fresh actor commits changed state, changes selection and prediction, retains six future events, scores at most two errors, and gains at least six",
+    "both encounters use fresh threads and workspaces, zero tools, exact Luna and inventory receipts, one Response identity per turn, cross-turn distinctness, one catalog ETag, and zero collector errors",
+    "all transitive source replay, projection identity, parse, deterministic replay, identity, token, time, test, privacy, and evidence gates pass"
+  ],
+  "claim_limit": "development feasibility of preserved further casebook correction only; not OT-1 evidence and not E4 authorization"
+}

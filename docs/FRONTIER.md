@@ -334,6 +334,13 @@ creates a new trajectory consequence with a distinct target-level question:
 can another fresh instance use that nine-error result to correct again? That is
 preserved further-correction capacity, not another sample of the same reversal.
 
+OT-0030 freezes that distinct temporal step. It continues only OT-0029's failed
+second branch, transmits the exact nine-error casebook and canary consequences
+through the named substrate, and asks two fresh instances for another revision
+before a new sealed canary. A pass would establish preserved further-correction
+feasibility on this trajectory, still without the fixed controls, ablation, or
+authority required for OT-1 or E4.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

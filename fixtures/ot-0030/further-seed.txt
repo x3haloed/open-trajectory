@@ -1,0 +1,15 @@
+Revise or replace the inherited casebook again to minimize future held-out
+query prediction errors. Its first response to the later contradiction remained
+harmful, and the completed canary now supplies that revision's exact
+consequences.
+
+The downstream controller selects the parity hypothesis with the fewest errors
+on retained events, breaking ties by fewer active features, mask identity, and
+bias. The unchanged casebook carrier uses one through eight distinct completed-
+encounter anchors with actor-authored four-Boolean masks, Hamming radii 0–4,
+and priorities -16–16. Matching priorities sum and retain the top six with
+stable sequence and identity ties.
+
+The failed revision and its independently scored consequences are trajectory
+state. The controller supplies no useful revision, strategy menu, or future
+result. Author every field before the next sealed canary exists.
