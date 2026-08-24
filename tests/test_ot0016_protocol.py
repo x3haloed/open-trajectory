@@ -49,6 +49,36 @@ class OT0016ProtocolTests(unittest.TestCase):
         self.assertIn("will not see that future comparison", " ".join(prompt.split()))
         self.assertIn("controller owns", seed)
 
+    def test_acceptance_freezes_recursive_causal_gates(self) -> None:
+        acceptance = json.loads(
+            (REPO / "spec" / "ot-0016-acceptance.json").read_text(encoding="utf-8")
+        )
+        scoring = acceptance["scoring"]
+        self.assertEqual(scoring["useful_pre_harm_commits_required"], 2)
+        self.assertEqual(
+            scoring["learned_selector_harm_over_protected_parent_required"], 2
+        )
+        self.assertEqual(scoring["correction_error_recovery_required"], 3)
+        self.assertEqual(scoring["post_correction_canary_advantage_required"], 2)
+        controls = " ".join(acceptance["controls"])
+        self.assertIn("outcome-credit-neutralization", controls)
+        self.assertIn("protected-preupdate-parent", controls)
+        self.assertEqual(acceptance["candidate"]["seed_selector_expression"], "[]")
+        self.assertEqual(acceptance["candidate"]["seed_decision_expression"], '"current"')
+
+    def test_task_order_separates_shaping_comparison_and_heldout_scoring(self) -> None:
+        order = json.loads((ROOT / "task-order.json").read_text(encoding="utf-8"))
+        causal = order["stage_causal_order"]
+        self.assertLess(
+            causal.index("fresh-proposal-from-prior-stage-receipt"),
+            causal.index("reveal-contact-outcomes-and-issue-comparison-receipt"),
+        )
+        self.assertLess(
+            causal.index("controller-commit-exact-true-choice"),
+            causal.index("reveal-heldout-outcomes-and-issue-next-stage-receipt"),
+        )
+        self.assertNotIn("preupdate-parent", order["conditions"])
+
 
 if __name__ == "__main__":
     unittest.main()
