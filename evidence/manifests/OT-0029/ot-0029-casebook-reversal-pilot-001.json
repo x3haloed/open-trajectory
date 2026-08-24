@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0029-casebook-reversal-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 332893,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "60f98be1f57c15ea9fd27d4ec8f19cebe7063b86",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0029",
+  "input_manifests": [
+    "evidence/manifests/OT-0028/ot-0028-casebook-correction-pilot-001.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "casebook-regime-contradiction-reversal-pilot",
+  "limitations": [
+    "This is a public non-candidate carrier pilot, not OT-1 evidence.",
+    "The hosted outputs, deployment events, identities, and workspaces remain private.",
+    "A pass does not authorize E4 or a private candidate run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0029-casebook-reversal-pilot-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4f467f0f903ff026f8174b23855e68866c6600538950f1c6bf42eb0c8c5aa50e"
+}

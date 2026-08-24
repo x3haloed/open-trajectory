@@ -61,10 +61,10 @@ OT-0028 passed its public development falsifier. Two fresh actors continued one
 actual failed OT-0027 trajectory, committed different revised casebooks, and
 independently reduced future error from eight to zero. This establishes one
 consequence-induced correction slice only, with no OT-1 or E4 authority.
-OT-0029 is the active public development falsifier: the first useful OT-0028
-casebook is carried into a later encounter that makes its selected patterns
-harmful, and two fresh actors must reverse it before a sealed canary. It remains
-outside OT-1 and E4 authority.
+OT-0029 carried the first useful OT-0028 casebook into a later harmful
+encounter. One fresh actor reversed from sixteen to zero canary errors; the
+other reached nine and missed the frozen gate. The mixed experiment failed and
+provides no OT-1 or E4 authority.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

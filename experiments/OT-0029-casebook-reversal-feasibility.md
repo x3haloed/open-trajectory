@@ -1,6 +1,6 @@
 # OT-0029 — Later-regime casebook contradiction and reversal feasibility
 
-- **Status:** frozen; hosted output forbidden until the run lock is committed
+- **Status:** failed as frozen; mixed reversal result
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development reversal feasibility only
 - **Predecessor:** OT-0028 passing consequence-induced casebook correction
@@ -48,3 +48,29 @@ The clean protocol and implementation commit is
 `3b361ace5e5ff58273df0100df567eda5b3784f2`.
 `spec/ot-0029-run-lock.json` binds it and every runtime authority before the
 first hosted reversal output.
+
+## Results and decision
+
+Both inherited branches began at the frozen sixteen-error contradiction, and
+both fresh actors committed changed six-exemplar casebooks with changed
+selection and prediction. Actor 1 passed the later canary at zero errors for a
+sixteen-error advantage. Actor 2 scored nine errors for a seven-error
+advantage, missing both the maximum-four-error and minimum-eight-advantage
+gates. The mechanism gate therefore failed. Every other deployment, source-
+replay, identity, receipt, freshness, resource, test, audit, privacy, and
+evidence gate passed.
+
+Actor 1 chose six outcome-consistent patterns and recovered the underlying
+relation. Actor 2 retained five of the six contradicted feature patterns plus
+one new pattern. Its explanation sought dimensional span but did not act on the
+query-error evidence, leaving the revision harmful. This shows that the
+casebook can realize later reversal, but one-shot reversal is not reliable
+across fresh actors.
+
+OT-0029 remains failed as frozen and is not retried. The direct reversal path is
+closed. A materially distinct remaining question is whether the second actor's
+new nine-error consequence induces another correction, testing preserved
+further-correction capacity rather than rescoring this result.
+
+Evidence manifest:
+`evidence/manifests/OT-0029/ot-0029-casebook-reversal-pilot-001.json`.

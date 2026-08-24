@@ -227,7 +227,9 @@ Initial sequence:
 - **OT-0029:** continue the first useful OT-0028 casebook into a frozen later
   encounter that makes its selected patterns harmful, then require two fresh
   actors to revise or replace it before a sealed canary. This public reversal
-  slice is frozen and has no OT-1 or E4 authority.
+  slice. One actor reversed from sixteen to zero errors; the other reached nine
+  and missed the frozen gate. Failed as frozen with no OT-1 or E4 authority;
+  direct one-shot reversal is closed.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

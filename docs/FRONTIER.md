@@ -325,6 +325,15 @@ later canary. This tests harmful later contact, reversal, and post-revision
 behavior, but still lacks the full fixed-control and ablation family required
 for OT-1 or E4.
 
+OT-0029 produced a mixed frozen result. Both actors changed the contradicted
+casebook; one recovered from sixteen to zero errors, while the other retained
+five contradicted patterns and reached only nine. Every non-mechanism gate
+passed. The representation can realize later reversal, but first-shot reversal
+is not reliable. OT-0029 is not retried. Its failed second branch nevertheless
+creates a new trajectory consequence with a distinct target-level question:
+can another fresh instance use that nine-error result to correct again? That is
+preserved further-correction capacity, not another sample of the same reversal.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -431,6 +440,14 @@ Revised model: differentiated temporal credit is the active causal mechanism;
 the remaining uncertainty is whether it supports invention, later reversal,
 and preserved correction across changing regimes rather than one same-regime
 repair.
+
+Expected: both fresh actors would use a sixteen-error later contradiction to
+replace the now-harmful casebook and pass the canary.
+Observed: one reached zero; the other changed state but retained five
+contradicted patterns and reached nine.
+Revised model: later reversal is realizable but not one-shot reliable. The next
+discriminating evidence is whether the failed revision's own consequence causes
+further correction, not another independent first reversal.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the
