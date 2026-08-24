@@ -1,6 +1,6 @@
 # OT-0022 — Consequence-ledger feasibility reproduction
 
-- **Status:** implementation freeze pending; actor output forbidden
+- **Status:** run lock frozen; public reproduction authorized
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0021 failed consequence-ledger pilot
@@ -43,6 +43,11 @@ promote OT-1, renew E4, or authorize a private candidate. Actor output remains
 forbidden until a clean implementation commit and separate run-lock commit bind
 every task, mechanism, evaluator, deployment, and evidence-lineage authority.
 After output, OT-0022 passes or fails as written.
+
+The clean protocol and implementation commit is
+`b8a8ace5dc2988f7c747689615efa057734e9461`.
+`spec/ot-0022-run-lock.json` binds it and every runtime authority before the
+first hosted actor output.
 
 ## Results and decision
 
