@@ -1,0 +1,10 @@
+{
+  "endpoint": "http://127.0.0.1:1234/v1/responses",
+  "instructions": "Return only the exact JSON object requested. Do not use tools.",
+  "reasoning": { "effort": "low" },
+  "max_output_tokens": 256,
+  "tools": [],
+  "parallel_requests_per_phase": 4,
+  "timeout_seconds": 300,
+  "previous_response_id": "omitted"
+}

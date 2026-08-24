@@ -1,0 +1,13 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["predictions"],
+  "properties": {
+    "predictions": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 5,
+      "items": { "type": "integer", "enum": [0, 1] }
+    }
+  }
+}
