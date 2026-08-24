@@ -68,8 +68,8 @@ pair. Completed outcomes must train three selector snapshots; only each learned
 snapshot chooses the eighty observations entering the actual OT-0014 ledger;
 and the controller applies a sole surviving rule or fixed-zero fallback to
 structural holdouts. Two fresh reconstructions must reproduce all receipts.
-Candidate output remains forbidden until the implementation and separate
-task/run-lock commits are published.
+The implementation and separate task/run-lock commits are now published; one
+candidate execution is pending.
 
 Decision-relevant evidence:
 

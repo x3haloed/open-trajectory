@@ -80,5 +80,5 @@ Decision-relevant experiment records:
   — passed all 2,304 candidate-free deterministic-integration cases and
   promoted E6 for exactly one fresh candidate without producing OT-1 evidence.
 - [`OT-0037-e6-deterministic-ot1-candidate.md`](OT-0037-e6-deterministic-ot1-candidate.md)
-  — active frozen E6 candidate coupling consequence-trained selector state to
+  — active locked E6 candidate coupling consequence-trained selector state to
   the OT-0 ledger and deterministic structural-holdout application.

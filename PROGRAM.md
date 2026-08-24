@@ -291,8 +291,8 @@ Initial sequence:
   task. Completed consequences train the generic selector; learned selections
   feed the actual OT-0014 ledger; and outcome-independent controller application
   scores structural holdouts. Two clean reconstructions must reproduce the
-  complete receipts. Frozen; candidate output is forbidden until a separate
-  task/run-lock commit.
+  complete receipts. Locked after a clean implementation commit; one candidate
+  execution is pending.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

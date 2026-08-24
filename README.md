@@ -112,6 +112,8 @@ deterministic-integration candidate; the calibration itself is not OT-1.
 OT-0037 is that single active E6 candidate. It freezes two clean deterministic
 reconstructions of the complete consequence-trained selector → OT-0 ledger →
 structural-holdout path under a task derived only after implementation.
+Its task and runtime authorities are now separately locked; one execution is
+pending.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

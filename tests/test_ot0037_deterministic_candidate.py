@@ -11,6 +11,7 @@ from open_trajectory_harness.ot0037_deterministic_candidate import (
     fixed_input_paths,
     run_lineage,
     run_protocol,
+    validate_run_lock,
 )
 
 
@@ -77,6 +78,12 @@ class OT0037DeterministicCandidateTests(unittest.TestCase):
             ),
             paths,
         )
+
+    def test_frozen_run_lock_reconstructs_task_and_runtime_authorities(self) -> None:
+        implementation = "5df5cab1877130fa6c2d0afb1a553cab7c67712d"
+        lock = validate_run_lock(Path.cwd(), implementation)
+        self.assertEqual(lock["implementation_git_commit"], implementation)
+        self.assertEqual(lock["task_seed"], expected_task_seed(implementation))
 
 
 if __name__ == "__main__":

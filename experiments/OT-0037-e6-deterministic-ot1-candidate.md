@@ -1,6 +1,6 @@
 # OT-0037 — E6 deterministic OT-1 candidate
 
-- **Status:** frozen; candidate output forbidden until a separate run lock
+- **Status:** locked; one E6 candidate execution pending
 - **Evidence class:** public-reconstructible if valid
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E6
