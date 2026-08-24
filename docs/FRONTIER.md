@@ -20,19 +20,22 @@ design. A successor should introduce a materially different credit-assignment
 mechanism while preserving deterministic selector attribution; simply adding
 more samples, repair attempts, or expression depth is not a credible next step.
 
-OT-0016 is the active mechanism-development path. It keeps deterministic
-selector execution but changes credit assignment: an actor-authored challenger
-is compared with the current selector on the same released calibration contact
-before a controller replays the actor's prospectively authored decision
-expression and makes the receipt-bound commit. OT-0015 remains an unfrozen
-crossed carrier/selector design and is gated on a credible smaller credit
-mechanism rather than being expanded first.
+OT-0016 is a valid E3 rejection. It kept deterministic selector execution but
+changed credit assignment: an actor-authored challenger was compared with the
+current selector on the same released calibration contact before a controller
+replayed the actor's prospective decision expression and made the receipt-bound
+commit. The mechanism produced useful causal commits and one correction in one
+worker, but neither worker passed the temporal or lineage gates. A post-result
+oracle diagnostic also showed that E3 admitted a task structurally incapable of
+its complete chain, so OT-0016 cannot decide the mechanism-level question.
+OT-0015 remains unfrozen and gated on a credible smaller credit mechanism.
 
 Evidence pointers:
 
 - `evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json`
 - `evidence/manifests/OT-0004/ot-0004-hosted-epoch-001.json`
 - `evidence/manifests/OT-0005/ot-0005-hosted-epoch-001.json`
+- `evidence/manifests/OT-0016/ot-0016-hosted-epoch-001.json`
 
 ## Goal invariants
 
@@ -52,12 +55,12 @@ Evidence pointers:
 
 ## Evaluation regime
 
-E3 is active. Preserve E2's fresh-thread/workspace boundary, private evidence,
-direct model and Response receipts, counterbalanced temporal control, frozen
-resource bounds, clean reproduction, and audit gates. Freeze task generation,
-program carrier, deterministic interpreter, scoring instrument, controls,
-placebo, temporal harm/correction sequence, novelty rubric, and numeric gates
-before candidate outputs.
+E3 is closed to new candidate comparisons. Preserve E2's fresh-thread/workspace
+boundary, private evidence, direct model and Response receipts, counterbalanced
+temporal control, frozen resource bounds, clean reproduction, and audit gates.
+Freeze task generation, program carrier, deterministic interpreter, scoring
+instrument, controls, placebo, temporal harm/correction sequence, novelty
+rubric, and numeric gates before candidate outputs.
 
 No OT-0004 or OT-0005 score is current OT-1 evidence. OT-0005's deterministic
 replay and placebo receipts survive as substrate evidence only.
@@ -92,16 +95,25 @@ zero collector errors, deterministic decision replay, and a receipt-bound
 commit on a fixed public non-candidate fixture. These are development results,
 not hidden-task or OT-1 evidence.
 
-The full OT-0016 worker now implements the frozen six-stage causal order with
+The full OT-0016 worker implemented the frozen six-stage causal order with
 six Luna proposal turns and two Terra novelty reviews per worker. The
 controller alone executes selectors, predictions, paired comparison receipts,
 true and credit-neutralized decisions, exact commits, heldout controls,
 protected-parent harm ablation, identity placebos, scoring, and aggregation.
-No hidden candidate output has been requested. The implementation is committed,
-one private constrained manifest is sealed, and a separate run lock binds both
-plus every authority-bearing input and pinned backend identity. Once that lock
-commit is clean, the immediate frontier is the concurrent original and clean
-reproduction without changing any protected input.
+The valid two-worker epoch passed every deployment and authority gate but was
+behaviorally rejected. Worker 1 achieved two useful commits including the
+outcome-free seed stage and later corrected a four-error regression, but lacked
+two consequence-caused commits before harm and a later canary; worker 2 made
+only the seed-stage commit. Both exceeded or failed the lineage gates.
+
+At the evaluation checkpoint, an evaluator-owned oracle showed the admitted
+manifest had only one consequence-driven pre-harm opportunity, a stage-2
+contact tie, and no post-correction canary opportunity. E3's aggregate sampler
+was blind to its own ordered causal gate. The reviewer packet was also blind to
+fixed-control equivalence even though the novelty rubric forbade those
+operations. The immediate frontier is an E4 challenger that fixes both
+observability gaps and is promoted on fresh controller-only heldout manifests
+before any new candidate experiment.
 
 ## Post-OT-0005 development probes
 
@@ -123,6 +135,16 @@ infrastructure. They do not justify OT-1 promotion, a formal OT-0015 protocol,
 or relaxing OT-0005 after seeing its result.
 
 ## Prediction errors
+
+Expected: E3's constrained admission gate would make the complete frozen
+temporal chain feasible without encoding a candidate strategy.
+Observed: the accepted OT-0016 task could not satisfy that chain even for a
+hidden fixed-control oracle, and novelty reviewers lacked the controller verdict
+needed to detect fixed-control-equivalent proposals.
+Uncertain: whether an exact causal-opportunity sampler remains feasible at an
+acceptable generation cost without making the actor-facing task reconstructive.
+Evidence: the sealed OT-0016 run, its valid rejection summary, and the
+controller-only oracle replay over the same task.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

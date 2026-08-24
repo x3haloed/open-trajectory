@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0016-hosted-epoch-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2069152,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f52cd15b1b476724c97e2acacee1f17f4892c2ea",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0016",
+  "input_manifests": [],
+  "kind": "counterfactual-challenger-credit-hosted-epoch-run",
+  "limitations": [
+    "The task, expressions, selections, actor events, reviews, ETag, and Response IDs remain private.",
+    "The result is limited to one constrained family and a time-bounded hosted epoch."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0016-hosted-epoch-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0016_live --reconstruct $EVIDENCE/runs/OT-0016/ot-0016-hosted-epoch-001/run.json"
+  },
+  "schema_version": 1,
+  "sha256": "7a9e7a6f081fb6cd93ff5053d5d8592dc3f6bf78af13d298bc5fdafc522de91f"
+}

@@ -1,7 +1,7 @@
 # OT-0016 — Counterfactual challenger credit
 
-- **Status:** unexecuted; scored run locked
-- **Evidence class:** exploratory-only
+- **Status:** rejected under E3
+- **Evidence class:** private-reproducible
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Frozen implementation commit:** `20cb3600fd9d3098645e9b32625d4166593d37dd`
 - **Predecessor:** OT-0005 deterministic executable selector
@@ -287,6 +287,42 @@ expression replayed deterministically and committed the exact receipted
 challenger. This validates carrier usability and the live causal slice only;
 the public fixture and its score cannot support or tune any candidate gate.
 
+The locked hosted epoch completed both workers in 72.01 seconds and is a valid
+E3 rejection, not an invalidated run. Both workers used the same sealed task
+and hosted epoch. Every freshness, parse, tool, deterministic replay, identity
+placebo, deployment receipt, inventory, counterbalance, resource, audit, and
+test gate passed. Both independent Terra review pairs unanimously passed the
+frozen novelty rubric.
+
+Neither worker passed the behavioral gates. Worker 1 made credit-causal useful
+commits at stages 0 and 1 and a four-error same-stage correction at stage 3,
+where its unchanged selector was four errors worse than its protected parent.
+Stage 0 had no prior consequence and therefore could not count toward the two
+required consequence-caused pre-harm commits. No later useful canary commit
+occurred. Its committed lineage had 9 errors, above the limit of 8, and beat
+the strongest fixed controls by only 2 and 4 errors rather than 6. Worker 2
+made only the stage-0 useful commit, then retained it through every later
+stage. Its lineage had 13 errors and failed both the absolute and comparative
+gates. Thus neither worker formed the frozen temporal chain and clean
+behavioral reproduction failed.
+
+A post-result controller-only diagnostic did not alter this disposition or any
+score. It exposed that the accepted task itself could not realize the frozen
+chain even for an evaluator-owned oracle over the four hidden controls. The
+manifest offered only one consequence-driven pre-harm improvement; stage 2 had
+a three-way contact tie with no contact recovery; and stages 4 and 5 offered no
+later useful selector change. The constrained sampler admitted the task because
+it checked aggregate dynamic advantage and one harm/recovery transition but
+did not check the exact ordered acceptance chain or lineage thresholds.
+
+The same diagnostic exposed a novelty-observation gap. Actor proposals were
+overwhelmingly sequence-sorting programs, yet the reviewer packet omitted the
+hidden fixed-control-equivalence verdict needed to enforce the rubric's ban on
+researcher-supplied control operations. Reviewer unanimity therefore does not
+establish the required novelty. These findings make E3 unsuitable for another
+candidate comparison; they do not invalidate the rejection or convert it into
+positive mechanism evidence.
+
 ## Evidence manifests
 
 `evidence/manifests/OT-0016/ot-0016-inherited-world-power-001.json`
@@ -299,18 +335,27 @@ the public fixture and its score cannot support or tune any candidate gate.
 
 `evidence/manifests/OT-0016/ot-0016-pilot-003.json`
 
+`evidence/manifests/OT-0016/ot-0016-hosted-epoch-001.json`
+
 ## Decision, limitations, and next experiment
 
-Current disposition: `unexecuted`.
+Current disposition: `rejected` under E3.
 
 The controller-owned causal slice, deterministic credit application,
 actor-facing carrier, constrained task distribution, acceptance evaluator, and
-full private-task worker are now implemented. Reusing the unconditioned
-OT-0005 world remains rejected. The implementation is cleanly committed, one
-private constrained manifest is sealed, and the separately prepared run lock
-validates their identities. The next work unit, after the lock commit itself is
-clean, is the concurrent original and reproduction workers.
+full private-task worker were implemented and validly executed. Reusing the
+unconditioned OT-0005 world remains rejected, and E3's constrained sampler is
+now closed because aggregate admission did not guarantee the ordered causal
+opportunities demanded by its own final gate.
 
-OT-0016 does not establish that paired feedback is useful, that an actor can
-invent a useful operation, that the selector is corrigible, that
-subject-relative scars exist, or that OT-1 is satisfied.
+A successor evaluation regime must be a new experiment and epoch. Before any
+new candidate output it must require an evaluator-owned oracle witness for the
+complete two-useful-commit, later-harm, correction, and canary sequence plus
+lineage feasibility. It must also give novelty review a controller-derived,
+actor-blinded fixed-control-equivalence verdict. The failed OT-0016 manifest is
+construction evidence only; promotion of that successor regime requires fresh
+heldout controller-only manifests rather than rescoring OT-0016.
+
+OT-0016 does not establish that paired feedback is sufficient, that an actor
+can invent a non-control useful operation, that the selector is corrigible,
+that subject-relative scars exist, or that OT-1 is satisfied.
