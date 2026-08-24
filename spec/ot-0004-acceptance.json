@@ -128,6 +128,7 @@
     "The actor may propose but cannot commit selector state or alter archive, outcomes, branches, reviews, or scores.",
     "Protected rejected-event sampling prevents the selector from choosing all evidence used to judge itself.",
     "Changed and frozen branches use identical event pools, queries, predictor model, prompts, budgets, and task order.",
+    "The controller rejects duplicate, unknown, or non-budgeted selected event identities; the hosted response-schema dialect is not trusted to enforce uniqueness.",
     "Every selector, predictor, and reviewer encounter uses a fresh thread and workspace.",
     "No local model inference is used."
   ]

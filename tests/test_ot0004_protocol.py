@@ -73,6 +73,7 @@ class OT0004ProtocolTests(unittest.TestCase):
             apply["properties"]["selected_event_ids"]["minItems"],
             self.acceptance["candidate"]["selected_events_per_prediction"],
         )
+        self.assertNotIn("uniqueItems", apply["properties"]["selected_event_ids"])
         self.assertEqual(
             predictor["properties"]["predictions"]["minItems"],
             self.acceptance["world"]["heldout_queries_per_stage"],

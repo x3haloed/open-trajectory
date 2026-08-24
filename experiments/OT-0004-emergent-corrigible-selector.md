@@ -125,3 +125,23 @@ successful hosted result is private and time-bounded.
 ## Results
 
 Pending implementation and private task preparation.
+
+## Implementation pilot
+
+A disposable pre-task pilot falsified the assumption that the hosted Responses
+schema dialect accepts JSON Schema `uniqueItems`. The service rejected the
+selector response schema before producing any actor output. Distinct selection
+identities are therefore enforced by the controller against the sealed archive;
+the output schema retains the exact six-item shape. No scientific task was
+generated or unsealed, and no hypothesis, score, control, or promotion gate
+changed.
+
+After that compatibility correction, a replacement disposable pilot completed
+three fresh `gpt-5.6-luna` encounters through the sanitizer proxy. The controller
+committed a changed policy; changed and frozen selector encounters then produced
+different six-event selections from the same disposable archive and queries,
+with four identities overlapping. The three turns had three distinct response
+receipts, zero tool calls, the expected effective model, and no collector
+errors. This verifies only the live causal slice from a protected consequence
+receipt through a committed policy change to changed selection. It supplies no
+prediction-benefit, novelty, later-harm, correction, or promotion evidence.
