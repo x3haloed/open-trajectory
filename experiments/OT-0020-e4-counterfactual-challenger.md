@@ -1,6 +1,6 @@
 # OT-0020 — E4 counterfactual challenger credit
 
-- **Status:** implementation freeze pending; candidate output forbidden
+- **Status:** run lock frozen; candidate execution authorized
 - **Evidence class:** private-reproducible if valid
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E4
@@ -94,6 +94,13 @@ Candidate output is forbidden until:
 
 The run lock may not be repaired after a candidate output. A valid behavioral
 failure is a rejection, not permission to tune the prompt, task, or threshold.
+
+The frozen protocol origin is `371245efb58ee4d4bf200b74d79fba98c12b6c5e`.
+The clean amended implementation is
+`597971936b2d1327666a17e1a234408b9d87f01b`. The sealed task identity is
+`fa3b6e4e3b69defab784843d3c25663b9ce164aefaa9731724f05143fe77b898`.
+`spec/ot-0020-run-lock.json` binds these identities and every runtime authority
+listed above before the first candidate turn.
 
 ## Red-line review
 
