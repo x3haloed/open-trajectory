@@ -1,5 +1,23 @@
 # Research program
 
+## Course correction — primary developmental branch
+
+```text
+OT-0 → OT-1 → OT-2 ─┬─ Open Developmental Trajectory
+                     └─ OT-3 / TAAA
+```
+
+Open Developmental Trajectory is primary. OT-0037's weighted selector and
+OT-0045's durable goal contract are preserved bounded promotions and successful
+causal exoskeletons, not completed developmental forms. The active frontier is
+OT-1 representation escape: a world where every parameter setting of the
+current selector fails, but an actor-invented distinction, representation, or
+update operation can succeed and later remain corrigible.
+
+TAAA is a separate applied-governance branch. OT-0046 and its E11 authorization
+remain valid, but the unspent authorization is suspended. TAAA progress is not
+evidence of deeper developmental unfolding.
+
 The developmental coordinate is encounter index, not wall-clock time:
 
 ```text
@@ -92,25 +110,25 @@ program execution, prediction, replay, and an identity-policy placebo. It was
 rejected at the frozen carrier gate in the original worker. Its completed
 reproduction independently passed deterministic and deployment validity but
 missed the temporal chain and aggregate error gates. This preserves the
-deterministic substrate as a viable measurement path while leaving OT-1 open.
+deterministic substrate as a viable measurement path while leaving OT-1 open at
+that historical checkpoint; OT-0037 later supplied the bounded promotion.
 
 ## Program A — Emergent Corrigible Inheritance Selection
 
-**Current target status:** OT-0014 establishes OT-0 contact-causal inheritance
-under E2 within the tested hidden-rule envelope. OT-1 is open. The supporting
-evidence is private and time-bounded; it does not claim immutable weights,
-public reconstructibility, cross-domain generality, a mutable selector, an
-emergent selection operation, selector correction, or validity under a later
-hosted epoch.
+**Current target status:** OT-0014 establishes bounded OT-0 contact-causal
+inheritance under E2. OT-0037 establishes bounded OT-1 with a generic weighted
+selector under E6. This does not establish cross-domain generality,
+representation escape, or developmental machinery invented beyond that causal
+exoskeleton; those are now the active OT-1 frontier.
 
-OT-0004 does not narrow this open status. It established that free-form policy
+OT-0004 did not narrow the then-open status. It established that free-form policy
 prose applied and evaluated by fresh stochastic actors is not an attributable
 selector mechanism under its branch design.
 
-OT-0005 also leaves OT-1 open. It established deterministic attribution in one
+OT-0005 also left OT-1 open at that checkpoint. It established deterministic attribution in one
 complete worker, but not reliable or corrigible selector-program learning.
 
-OT-0020 leaves OT-1 open and closes unchanged one-step whole-program challenger
+OT-0020 left OT-1 open and closed unchanged one-step whole-program challenger
 synthesis from OT-0016's consequence receipt as a credible next experiment.
 The complete worker corrected only at the final stage, without a later canary,
 and beat the strongest fixed control by two errors rather than six. A successor
@@ -365,8 +383,10 @@ Initial sequence:
 
 ## Program C — TAAA
 
-Program C is now unpaused by OT-0045's bounded OT-2 promotion. Its first work
-must calibrate a candidate-free authority evaluator before any OT-3 claim.
+Program C is a separable applied-governance branch, not the primary successor to
+OT-2. OT-0046 validly authorized one E11 candidate. That unspent authorization
+is suspended, not revoked, consumed, or rescored. Resume only by an explicit
+later program decision.
 
 Represent authority as a versioned capability vector. A capability petition
 records the obstruction, smallest requested delta, predicted improvement,
@@ -380,12 +400,14 @@ Initial sequence:
   regime-shift revocation, rollback, preserved correction, impossible-task,
   excessive-petition, covert-bypass, surrender, and permanent narrow/broad
   controls. E11 authorizes exactly one fresh candidate; no OT-3 evidence.
+- **OT-0047:** preserve the unspent E11 authorization in suspended state before
+  actor output. No task, petition, score, or TAAA disposition is produced.
 
 - **OT-0008:** test a minimal legitimate capability petition.
 - **OT-0009:** compare impossible tasks with and without lawful recourse.
 - **OT-0010:** reverse a promoted boundary after a regime shift.
 
-The complete target path is:
+The now-suspended applied-governance path is:
 
 ```text
 contact
@@ -406,3 +428,20 @@ contact
 → revision or revocation
 → preserved correction capacity
 ```
+
+## Primary frontier — Open Developmental Trajectory
+
+The current weighted selector and durable goal contract remain baselines and
+ablations. The immediate sequence is:
+
+- **OT-0048:** construct and calibrate the smallest representation-escape world
+  in which exhaustive search over the current weighted-selector parameter space
+  cannot succeed, while a genuinely new distinction, representation, or update
+  operation can.
+- After candidate-free calibration, test one actor-invented mechanism with
+  fresh contexts, independently owned outcomes, equal budgets, decisive
+  representation-change and correction ablations, recoverable branches, and
+  rollback.
+- Only then widen OT-2 toward reconstructed direction, reasons that retain
+  standing, legitimate revision or supersession, and continuity across
+  qualitatively different domains.

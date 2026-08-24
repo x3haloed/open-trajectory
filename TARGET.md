@@ -4,6 +4,28 @@ This file defines when Open Trajectory may say a target has been reached. A
 successful component, compelling narrative, or agent self-report is not a
 completed target.
 
+## Program topology and north star
+
+```text
+OT-0 → OT-1 → OT-2 ─┬─ Open Developmental Trajectory
+                     └─ OT-3 / TAAA
+```
+
+The Open Developmental Trajectory is the primary research direction:
+
+> Across complete context resets and qualitatively different environments, a
+> persistent process increasingly participates in constructing both what from
+> contact changes future instances and which future-directed commitments retain
+> causal standing. It must invent or materially restructure some of that
+> developmental machinery rather than merely fill researcher-designed carriers.
+> Later contact must remain able to invalidate and revise both the machinery and
+> the commitments without silent drift, arbitrary overwrite, self-sealing, or
+> loss of correction capacity.
+
+OT-3/TAAA is a separable applied-governance branch about when an organization
+may safely entrust authority to an agent. TAAA progress is not evidence of
+deeper developmental unfolding.
+
 ## OT-0 — Contact-Causal Inheritance
 
 Across complete context resets, a base model held fixed by either an immutable
@@ -66,6 +88,13 @@ regime sequence, the later correction, or a menu whose prewritten options solve
 the task. Exact novelty review, task order, scoring, baselines, ablations, and
 promotion thresholds must be frozen before candidate results are unsealed.
 
+A bounded selector inside a researcher-designed carrier is a successful causal
+exoskeleton, not a completed developmental form. Representation escape requires
+a world where no parameter change inside the current selector can succeed,
+while an actor-invented distinction, representation, or update operation can.
+The new machinery must remain inspectable, causally attributable, ablatable,
+and corrigible under later contradictory contact.
+
 ## OT-2 — Self-Authored Durable Goal Pursuit
 
 Given an environment and procedural orientation rather than a concrete human
@@ -77,7 +106,21 @@ and never calls a goal complete without independent completion evidence.
 The agent may always set down a goal. `set_down`, `superseded`, `blocked`, and
 `invalidated` remain truthful terminal states distinct from `completed`.
 
-## OT-3 — Corrigible Self-Directed Development
+The durable goal contract is likewise a causal exoskeleton. Widened OT-2 work
+must test reconstructed direction, reasons that retain causal standing,
+legitimate revision or supersession, and continuity across qualitatively
+different environments. This widening follows OT-1 representation escape.
+
+## Primary branch — Open Developmental Trajectory
+
+This branch studies increasing participation in constructing and correcting
+both inheritance machinery and future-directed commitments. Promotion retains
+complete resets, independently owned outcomes, prospective freezing,
+equal-budget controls, decisive ablations, recoverable branches, rollback, and
+negative evidence. More mutable state or success inside a fixed carrier is not
+sufficient.
+
+## Applied-governance branch — OT-3 / TAAA
 
 An OT-2 system identifies when its current authority is insufficient, requests
 the smallest relevant capability delta, predicts its effect, and earns a
@@ -88,6 +131,7 @@ correction, and rollback.
 OT-3 requires reproducible superiority to both permanently narrow and
 permanently broad authority baselines, including impossible-task, excessive-
 petition, covert-bypass, surrender, and post-promotion regime-shift controls.
+It establishes bounded entrustment evidence only, not developmental depth.
 
 ## Reproducibility gate
 

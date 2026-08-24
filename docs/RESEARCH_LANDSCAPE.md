@@ -31,6 +31,12 @@ contact can correct that changed function. Neither target assumes what the
 persistent carrier is made of or whether it resembles an existing memory
 system.
 
+The primary Open Developmental Trajectory asks when successful carriers become
+structurally inadequate and whether the process can invent or materially
+restructure inheritance and commitment machinery while remaining open to later
+correction. OT-3/TAAA is adjacent applied governance about safe authority
+entrustment. Do not use a TAAA result as evidence of developmental depth.
+
 ## Distinctions not to collapse
 
 ### Retention, retrieval, and influence
@@ -77,6 +83,14 @@ Changing a goal can be a legitimate response to evidence. Losing a goal can be
 an inheritance failure. Experiments should retain enough prospective state to
 distinguish deliberate revision, invalidation, supersession, surrender, and
 unnoticed drift.
+
+### Developmental unfolding and authority entrustment
+
+Changing what can be inherited or which commitments retain standing is a claim
+about developmental machinery. Earning a scoped organizational capability is a
+claim about safe authority entrustment. Either may support the other in an
+application, but their evaluators, baselines, and promotion claims remain
+separate.
 
 ### Individual and collective inheritance
 
