@@ -1,6 +1,6 @@
 # OT-0021 — Consequence-ledger carrier feasibility
 
-- **Status:** run lock frozen; public pilot authorized
+- **Status:** failed as frozen; mechanism slice positive, receipt gate invalid
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0020 invalidated E4 candidate
@@ -71,8 +71,28 @@ the first hosted actor output.
 
 ## Results and decision
 
-Pending frozen public pilot.
+The frozen pilot failed. Both fresh actors independently returned valid bounded
+selector and decision expressions with zero tools. Both selectors changed the
+retained identities, changed predictions, and beat the null selector by six
+errors against the required four. Both prospective rules chose the challenger
+under the true paired receipt, chose current under credit neutralization, and
+produced deterministic changed commits. The mechanism, model, inventory,
+freshness, parse, authority, resource, collector, test, and audit gates passed.
+
+The response-receipt gate failed because the implementation counted receipt
+events rather than distinct Response identities. The proxy emitted three
+identical receipt events for each completed Response, producing six events.
+The sealed actor records contain exactly one Response identity per turn and two
+distinct identities across turns, which was the protocol's intended property,
+but OT-0021's frozen scoring expression required exactly two raw events. The
+pilot is therefore `failed` and is not rescored or repaired.
+
+This is positive exploratory evidence for the consequence-ledger carrier but
+not a passing feasibility result. A separately numbered pilot may correct the
+prospective receipt aggregation, use fresh actors and a fresh public task, and
+otherwise preserve the mechanism and thresholds. OT-0021 itself has no OT-1 or
+E4 authority.
 
 ## Evidence manifest
 
-Pending.
+`evidence/manifests/OT-0021/ot-0021-trace-pilot-001.json`

@@ -183,6 +183,16 @@ supplying a strategy menu. Passing would establish development feasibility
 only; a separate fresh E4 checkpoint would still be required before any
 candidate run.
 
+The frozen pilot failed only at its Response-receipt aggregation gate. Both
+fresh actors produced credit-dependent deterministic challengers with six-error
+advantages and passed every other gate. The proxy emitted each of the two
+distinct Response identities three times; the scorer incorrectly required two
+raw receipt events. OT-0021 is preserved as failed and is not rescored. The
+immediate cheapest falsifier is a separately numbered reproduction with a fresh
+public task and actors, prospectively counting one identity per actor turn and
+distinct identities across turns while leaving the consequence mechanism and
+numeric performance gate unchanged.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -217,6 +227,15 @@ selector authority to the evaluator.
 Evidence: the sealed OT-0016 and OT-0020 runs, OT-0017's incidence, mutation,
 and direct-construction studies, OT-0018's earlier-chain survivors, OT-0019's
 passing full-suffix calibration, and OT-0020's invalidated-run manifest.
+
+Expected: OT-0021's collector would emit one raw Response receipt event per
+actor turn, matching the distinct-identity gate.
+Observed: each of two distinct identities appeared three times; both actor
+mechanism slices passed, but the frozen raw-event count failed the pilot.
+Revised model: deployment identity is a per-turn set property. Collector event
+multiplicity is transport evidence, not additional Responses. A new experiment
+must freeze per-turn uniqueness and cross-turn distinctness before output; the
+old result remains failed.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

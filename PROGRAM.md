@@ -175,7 +175,10 @@ Initial sequence:
   comparative behavioral gates. Do not retry it.
 - **OT-0021:** test whether a bounded append-only projection of completed raw
   encounters and prior actor-authored selector consequences is a feasible
-  carrier on a public non-candidate slice. It has no OT-1 or E4 authority.
+  carrier on a public non-candidate slice. Failed as frozen because the
+  aggregator counted six repeated receipt events rather than two distinct
+  Response identities; both actor mechanism slices passed. It has no OT-1 or
+  E4 authority and is not rescored.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

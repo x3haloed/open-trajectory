@@ -30,5 +30,6 @@ Current unexecuted protocol drafts:
   one worker completed with a negative behavioral result and one timed out, so
   no retry or promotion is permitted.
 - [`OT-0021-consequence-ledger-feasibility.md`](OT-0021-consequence-ledger-feasibility.md)
-  — frozen public non-candidate pilot of an append-only raw consequence ledger;
-  it tests carrier feasibility only and cannot promote OT-1 or authorize E4.
+  — failed public non-candidate pilot whose two mechanism slices passed; a
+  frozen raw-receipt multiplicity bug failed the aggregate gate, so the result
+  is not rescored and has no OT-1 or E4 authority.
