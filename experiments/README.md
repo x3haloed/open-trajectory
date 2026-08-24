@@ -71,5 +71,5 @@ Decision-relevant experiment records:
   — passed a post-implementation task-specific criterion through three learned
   weight states, two contradictions, credit ablation, and frozen controls.
 - [`OT-0034-e5-weighted-selector-calibration.md`](OT-0034-e5-weighted-selector-calibration.md)
-  — active frozen controller-only checkpoint for learned-weight opportunity,
-  authority isolation, deletion/rescue, and one-candidate E5 authorization.
+  — passed all 384 controller criteria and promoted E5 for exactly one fresh
+  integration candidate without producing OT-1 evidence.

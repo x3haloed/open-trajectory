@@ -267,8 +267,9 @@ Initial sequence:
   with complementary outcomes; require exact oracle opportunity, fixed-state
   error symmetry, outcome deletion and rescue, order placebos, and static
   exclusion of task/seed authority from the learner's reachable call graph.
-  This frozen controller-only E5 checkpoint may authorize one fresh integration
-  candidate but contains no OT-1 evidence.
+  Passed all gates for all 384 criteria with no forbidden learner authority and
+  no candidate output. E5 is promoted for exactly one fresh integration
+  candidate. The calibration contains no OT-1 evidence.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

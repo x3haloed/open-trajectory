@@ -1,0 +1,35 @@
+{
+  "artifact_id": "ot-0034-e5-weighted-selector-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1565,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ced9e329126d3b9e0e92c473077b2d511712bf06",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0034",
+  "input_manifests": [
+    "evidence/manifests/OT-0033/ot-0033-blind-weighted-selector-001.json"
+  ],
+  "kind": "controller-only-e5-weighted-selector-calibration",
+  "limitations": [
+    "This is controller calibration, not OT-1 evidence.",
+    "A pass authorizes at most one fresh integration candidate.",
+    "The calibrated family remains one synthetic weighted-selector domain."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0034-e5-weighted-selector-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0034_harness.py --output $EVIDENCE/ot-0034-result.json"
+  },
+  "schema_version": 1,
+  "sha256": "cc3fb012dea36393badc17944532955cb0f6478b9f9209d28049b6d9700dd3d0"
+}

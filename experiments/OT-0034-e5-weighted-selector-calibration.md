@@ -1,6 +1,6 @@
 # OT-0034 — E5 weighted-selector authority calibration
 
-- **Status:** locked; controller execution pending
+- **Status:** passed; E5 promoted for one integration candidate
 - **Evidence class:** public-reconstructible evaluator calibration
 - **Evaluation transition:** E4 → E5 candidate
 - **Candidate actor outputs:** forbidden
@@ -83,3 +83,23 @@ The clean protocol and implementation commit is
 `00852ada0c1e3e64480e4f93518fc5b20b908d25`.
 `spec/ot-0034-run-lock.json` binds it, the candidate carrier, acceptance rule,
 controller, evidence authorities, and predecessor before calibration output.
+
+## Results and decision
+
+The locked controller execution at
+`ced9e329126d3b9e0e92c473077b2d511712bf06` passed every gate. All 384 unique
+criteria passed raw-projection indistinguishability, complementary outcomes,
+preference identification, the complete oracle path, fixed-state symmetry,
+outcome deletion, exact paired rescue, and ordering placebo checks.
+
+The candidate authority audit found the exact parameters `current` and
+`completed`. Its reachable functions were `_dot`, `_outcome_map`, `_pairs`,
+`_snapshot`, `learn`, `score_snapshot`, and `select_events`; no forbidden task,
+seed, hidden-criterion, protocol, dynamic-introspection, file, import, or
+execution authority was reachable.
+
+Final disposition: `promoted`. E5 authorizes exactly one fresh integration
+candidate. This is public evaluator-calibration evidence only. It contains no
+candidate actor output, does not rescore OT-0033, and does not establish OT-1.
+The evidence manifest is
+`evidence/manifests/OT-0034/ot-0034-e5-weighted-selector-calibration-001.json`.

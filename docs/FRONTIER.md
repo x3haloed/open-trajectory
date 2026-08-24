@@ -34,13 +34,17 @@ canaries retained 40, 80, and 80 errors; and the adaptive aggregate beat the
 best frozen control, zero errors versus 80. This removes OT-0032's explicit
 pattern-set menu while preserving the complete deterministic causal path.
 
-The active frontier is OT-0034, an independent controller-only E5 calibration,
-not another mechanism variant. It exhausts all 384 task criteria, constructs
-pre-outcome-identical worlds with complementary outcomes, and tests exact
-opportunity, fixed-state symmetry, outcome deletion/rescue, order placebos, and
-static learner-authority reachability without executing the candidate learner.
-Only a pass may authorize one fresh integration candidate that couples this
-mechanism to the promoted OT-0-capable system.
+OT-0034 passed the independent controller-only calibration across all 384 task
+criteria. Every pre-outcome-identical/complementary pair passed exact
+opportunity, fixed-state symmetry, outcome deletion/rescue, and order placebos.
+Static reachability found no forbidden task, seed, hidden-criterion, dynamic,
+file, import, or execution authority in the learner. E5 is promoted for exactly
+one fresh integration candidate.
+
+The active frontier is now that single authorized candidate. It must couple the
+learned-weight selector to the promoted OT-0-capable system under a fresh task
+and the retained E2–E5 anchors. It must not replay OT-0033's public task or treat
+controller-oracle opportunity as candidate behavior.
 
 Decision-relevant evidence:
 
@@ -55,6 +59,8 @@ Decision-relevant evidence:
   deterministic learned-selector path passed within its enumerated family.
 - `evidence/manifests/OT-0033/ot-0033-blind-weighted-selector-001.json` —
   post-implementation blind learned-weight path passed without target authority.
+- `evidence/manifests/OT-0034/ot-0034-e5-weighted-selector-calibration-001.json`
+  — E5 controller calibration promoted one fresh integration candidate.
 
 ## Goal invariants
 
@@ -121,7 +127,7 @@ candidate authority, and that deleting outcome credit or selector updates
 removes the path while paired rescue restores it. E5 may grant at most one
 fresh integration candidate.
 
-OT-0034 freezes that checkpoint. Its thresholds come from exact paired-world
+OT-0034 passed that checkpoint. Its thresholds came from exact paired-world
 symmetry rather than OT-0033's scores: identical raw archives and complementary
 outcomes force any unchanged selector to make eighty combined errors. A
 controller oracle verifies that released outcomes identify a bounded separator
@@ -129,7 +135,9 @@ and that criterion, negation, and criterion states realize use, contradiction,
 correction, and further correction. Static transitive call-graph analysis must
 show that `learn(current, completed)` cannot reach task construction, hidden
 coefficients, seed derivation, dynamic introspection, files, imports, or
-execution. Candidate actor outputs remain forbidden until after E5 disposition.
+execution. All 384 criteria passed, and E5 now authorizes exactly one fresh
+integration candidate. The authorization is consumed when that candidate first
+executes, whether it passes, fails, or is invalidated.
 
 ## Prediction errors
 
@@ -162,6 +170,16 @@ eighty errors.
 Revised model: task-specific selector criteria can be learned and repeatedly
 corrected without an explicitly enumerated solving menu. The remaining question
 is evaluator and system authority, not deterministic mechanism feasibility.
+
+Expected for OT-0034: exact paired-world symmetry and static reachability would
+calibrate complete opportunity and candidate-authority isolation without using
+OT-0033's scores or executing its learner.
+Observed: all eight controller checks passed for all 384 criteria; every
+authority gate passed; no candidate output was produced.
+Revised model: the learned-weight family has a calibrated, non-circular E5
+evaluation path. The remaining uncertainty is whether one fresh candidate can
+couple it to the promoted OT-0 substrate and satisfy the complete OT-1 behavior
+and reproducibility gates.
 
 Unresolved: whether a learned weight relation generated under this authority
 split will satisfy independent novelty review as an operation not supplied by
