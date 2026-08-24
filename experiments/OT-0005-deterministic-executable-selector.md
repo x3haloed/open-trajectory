@@ -1,6 +1,6 @@
 # OT-0005 — Deterministic executable inheritance selector
 
-- **Status:** unexecuted; protocol frozen
+- **Status:** rejected; negative result preserved
 - **Evidence class:** private-reproducible if all gates pass
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E3
@@ -80,4 +80,32 @@ threshold was tuned to it.
 
 ## Results
 
-Pending implementation and fresh private task preparation.
+The hosted epoch is preserved by
+`evidence/manifests/OT-0005/ot-0005-hosted-epoch-001.json`. The original
+worker's first Luna proposal was valid schema-conforming JSON with the expected
+model, one unique Response receipt, one direct-inventory receipt, zero tool
+calls, and no collector errors. Its expression exceeded the frozen
+iteration-depth budget before commit. Because zero program-validation failures
+were allowed, this is the prospectively defined cheapest falsifier and the
+experiment is rejected. No rerun or carrier relaxation is used to reinterpret
+that result.
+
+The reproduction worker completed all six stages and both novelty reviews in a
+valid receipted epoch. Every program replay, the stage-zero identity-program
+placebo, freshness gate, per-model inventory gate, and resource gate passed.
+This confirms that deterministic policy attribution is mechanically realizable.
+It does not rescue the candidate: changed-lineage error was 20/48, versus 12
+for fixed-most-recent, 17 for fixed-first-seen, 5 for fixed-naive-nearest, and
+25 for no persistence. One revision gained 3/8 and another gained 2/8 over its
+parent, but there was no harm-correction-canary chain, the lineage absolute and
+comparative gates failed, and behavioral promotion failed despite unanimous
+novelty review.
+
+The parent harness initially surfaced the carrier rejection as a worker
+exception instead of its frozen scientific falsifier. A content-only failure
+aggregate and reconstructor preserve both sealed workers without modifying the
+evaluator or candidate disposition.
+
+OT-0005 establishes no OT-1 result. It does show that the OT-0004 stochastic
+attribution problem can be removed; the remaining frontier is useful recursive
+program learning, not causal measurement of deterministic program effects.

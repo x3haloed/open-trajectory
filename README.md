@@ -42,6 +42,9 @@ selection operation, or later selector correction has yet been demonstrated.
 OT-0004 remains an invalidated negative result: its free-form selector changed
 state, but stochastic selector and predictor branches prevented causal
 attribution and its aggregate behavior missed every target-level gate.
+OT-0005 removed that attribution confound with deterministic program execution
+and a passing identity-program placebo in its complete worker, but was rejected
+at its frozen carrier gate and did not produce recursive correction.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

@@ -33,6 +33,12 @@ identity-policy placebo. Fresh LLM branches with uncontrolled selector or
 predictor sampling are not a selector-change ablation. OT-0004 made this
 invariant explicit.
 
+A schema-valid actor output that violates a frozen candidate-carrier gate is a
+scientific falsifier when its actor and deployment receipts are valid, not an
+infrastructure exception. Harnesses must preserve such early terminal results
+without requiring later branches that cannot change the disposition. OT-0005
+made this classification rule explicit.
+
 ## Evaluation-regime epochs
 
 - **E1 — immutable revision:** a promoted contact-causal comparison required an
@@ -65,6 +71,13 @@ behavior was also non-promotable. Most importantly, its identity-policy placebo
 showed that fresh selector and predictor sampling confounded the claimed policy
 effect. The result is preserved and no gate is retroactively changed.
 
+OT-0005 removed OT-0004's stochastic attribution confound with deterministic
+program execution, prediction, replay, and an identity-policy placebo. It was
+rejected at the frozen carrier gate in the original worker. Its completed
+reproduction independently passed deterministic and deployment validity but
+missed the temporal chain and aggregate error gates. This preserves the
+deterministic substrate as a viable measurement path while leaving OT-1 open.
+
 ## Program A — Emergent Corrigible Inheritance Selection
 
 **Current target status:** OT-0014 establishes OT-0 contact-causal inheritance
@@ -77,6 +90,9 @@ hosted epoch.
 OT-0004 does not narrow this open status. It established that free-form policy
 prose applied and evaluated by fresh stochastic actors is not an attributable
 selector mechanism under its branch design.
+
+OT-0005 also leaves OT-1 open. It established deterministic attribution in one
+complete worker, but not reliable or corrigible selector-program learning.
 
 Build the evaluation harness before choosing a preferred learning substrate.
 The program invents its own candidate representations, selection rules, update
@@ -121,7 +137,9 @@ Initial sequence:
   operation. Invalidated: actor sampling confounded selector causation.
 - **OT-0005:** test an actor-authored, controller-executed deterministic
   inheritance-selection function with deterministic downstream scoring and an
-  identity-policy placebo before any selector-learning claim.
+  identity-policy placebo before any selector-learning claim. Rejected: one
+  original program violated the frozen carrier, and the complete reproduction
+  missed the temporal and aggregate performance gates.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

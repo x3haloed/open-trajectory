@@ -1,0 +1,33 @@
+{
+  "artifact_id": "ot-0005-hosted-epoch-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1005128,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "39f23336e4006949e250e7596737293b44d289f3",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0005",
+  "input_manifests": [],
+  "kind": "deterministic-executable-selector-failed-epoch",
+  "limitations": [
+    "The parent harness aborted before producing its normal aggregate, so this artifact preserves the two sealed worker outputs and a content-only public summary.",
+    "The rejection is fixed by the original worker carrier violation; the completed worker diagnostics do not substitute for a clean original.",
+    "No OT-1, cross-domain, immutable-weight, OT-2, or OT-3 claim is made."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0005-hosted-epoch-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0005_failure --reconstruct $EVIDENCE/runs/OT-0005/ot-0005-hosted-epoch-001/run-failure.json"
+  },
+  "schema_version": 1,
+  "sha256": "dba2926f292bec479a2f41ca48d3c6bf990ca624d8d2019eeb95b5f0cfadfc2e"
+}
