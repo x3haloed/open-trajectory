@@ -109,6 +109,9 @@ allowed by `TARGET.md`. It does not rescore OT-0035 or execute a learner.
 All 2,304 cases passed every path, control, budget, replay, order, and authority
 gate without learner or actor output. E6 authorizes exactly one fresh
 deterministic-integration candidate; the calibration itself is not OT-1.
+OT-0037 is that single active E6 candidate. It freezes two clean deterministic
+reconstructions of the complete consequence-trained selector → OT-0 ledger →
+structural-holdout path under a task derived only after implementation.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

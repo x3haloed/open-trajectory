@@ -287,6 +287,12 @@ Initial sequence:
   lineages. Candidate learner and actor outputs remain forbidden. Passed all
   gates for all 2,304 cases and promoted E6 for exactly one fresh deterministic
   integration candidate. The calibration contains no OT-1 evidence.
+- **OT-0037:** consume E6's authorization with one fresh post-implementation
+  task. Completed consequences train the generic selector; learned selections
+  feed the actual OT-0014 ledger; and outcome-independent controller application
+  scores structural holdouts. Two clean reconstructions must reproduce the
+  complete receipts. Frozen; candidate output is forbidden until a separate
+  task/run-lock commit.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

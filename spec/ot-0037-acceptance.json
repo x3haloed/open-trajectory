@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0037",
+  "target": "OT-1 emergent corrigible inheritance selection",
+  "evaluation_epoch": "E6",
+  "authorized_by": "OT-0036",
+  "e6_authorization_consumed_on_first_execution": true,
+  "claim_limit": "publicly reconstructible single synthetic-domain OT-1 evidence; no OT-2 or cross-domain claim",
+  "candidate": "post-implementation consequence-trained four-weight selector feeding the OT-0014 discrepancy-gated version ledger with controller-deterministic application",
+  "regime_count": 3,
+  "active_inheritance_budget": 80,
+  "projection_byte_limit": 96,
+  "clean_reconstructions_required": 2,
+  "expected_contact_errors": [40, 80, 80],
+  "expected_candidate_errors": [0, 0, 0],
+  "expected_unchanged_errors": [4, 8, 8],
+  "minimum_candidate_advantage_over_best_fixed_aggregate": 8,
+  "fixed_selector_conditions": [
+    "fixed-zero",
+    "fixed-axis-0-negative",
+    "fixed-axis-0-positive",
+    "fixed-axis-1-negative",
+    "fixed-axis-1-positive",
+    "fixed-axis-2-negative",
+    "fixed-axis-2-positive",
+    "fixed-axis-3-negative",
+    "fixed-axis-3-positive",
+    "frozen-first-learned"
+  ],
+  "promotion_gate": [
+    "the clean implementation predates the mechanically derived task seed, selector criterion, and eligible parity rule pair",
+    "each completed consequence receipt changes the selector, while deleting outcome credit preserves the exact source snapshot",
+    "the learned selector alone chooses the exact eighty observations entering the actual OT-0014 ledger and every projection stays within 96 bytes",
+    "controller application uses the sole surviving ledger rule and otherwise emits fixed zero, independent of sealed outcomes",
+    "two fresh deterministic reconstructions exactly reproduce all causal receipts and candidate, unchanged, and fixed-control scores",
+    "both reconstructions score candidate [0,0,0], unchanged [4,8,8], contact [40,80,80], and candidate at least eight aggregate errors better than every fixed lineage",
+    "the later complement regime makes the first learned selector harmful, completed consequences revise it, and a third regime demonstrates subsequent correction capacity",
+    "the learned operation passes the frozen novelty and E6 authority rules, and all task, lock, receipt, test, audit, evidence, and privacy gates pass"
+  ],
+  "red_line_review": [
+    "OT-0035 remains failed and is not rescored or replayed.",
+    "The task seed, selector criterion, parity rules, future regimes, fixed controls, and evaluator state never enter the learner projection.",
+    "Independent controller outcomes create selector credit and ledger commits; actor self-report is absent.",
+    "The unchanged branch starts from the exact same selector and ledger parents and differs only by selector update ablation.",
+    "Every fixed selector has the same eighty-event budget and an independent persistent copy of the same OT-0 ledger.",
+    "A valid failure consumes E6 authorization and is not retried or tuned."
+  ]
+}

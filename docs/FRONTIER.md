@@ -62,6 +62,15 @@ control, budget, projection, replay, reverse-order, and authority gate without
 learner or actor output. E6 authorizes one fresh deterministic-integration
 candidate; the calibration itself is not OT-1 evidence.
 
+OT-0037 freezes that authorization. A task derived only after its clean
+implementation selects one calibrated weight criterion and eligible parity
+pair. Completed outcomes must train three selector snapshots; only each learned
+snapshot chooses the eighty observations entering the actual OT-0014 ledger;
+and the controller applies a sole surviving rule or fixed-zero fallback to
+structural holdouts. Two fresh reconstructions must reproduce all receipts.
+Candidate output remains forbidden until the implementation and separate
+task/run-lock commits are published.
+
 Decision-relevant evidence:
 
 - `evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json` — promoted OT-0,
@@ -235,3 +244,13 @@ Observed: all 2,304 cases passed every frozen path, budget, control, projection,
 replay, reverse-order, and authority check without learner or actor output.
 Decision: promote E6 for exactly one fresh deterministic-integration candidate.
 OT-0036 itself contains no OT-1 evidence and does not rescore OT-0035.
+
+Expected for OT-0037: completed consequences will learn the post-implementation
+criterion, reverse it after the harmful complement regime, restore it once
+more, and drive the actual OT-0 ledger to zero held-out errors while unchanged
+and fixed selectors retain structurally forced error.
+Observed: 32 excluded development seeds pass candidate `[0,0,0]`, unchanged
+`[4,8,8]`, contact `[40,80,80]`, best-fixed aggregate `8`, no-credit, budget,
+projection, restoration, novelty, and two-reconstruction gates. Final candidate
+output remains sealed behind the clean implementation and future run lock.
+Decision: freeze and execute OT-0037 once; first execution consumes E6.
