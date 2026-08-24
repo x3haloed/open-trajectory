@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0027",
+  "purpose": "public non-candidate trajectory-relative exemplar-casebook feasibility",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "actor_model": "gpt-5.6-luna",
+  "fresh_actor_encounters": 2,
+  "selection_limit": 6,
+  "exemplar_limit_each": 8,
+  "exemplar_feature_count": 4,
+  "exemplar_radius_minimum": 0,
+  "exemplar_radius_maximum": 4,
+  "exemplar_priority_minimum": -16,
+  "exemplar_priority_maximum": 16,
+  "ledger_entry_limit": 5,
+  "ledger_byte_limit": 49152,
+  "minimum_error_advantage_each": 4,
+  "actor_tool_calls_allowed": 0,
+  "actor_parse_failures_allowed": 0,
+  "actor_input_tokens_total": 70000,
+  "actor_output_tokens_total": 7000,
+  "maximum_run_seconds": 300,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "promotion_gate": [
+    "the fresh public task, exact exemplar carrier, prompt, deterministic matching and scoring, backend, resources, and run lock are frozen before output",
+    "each actor authors every anchor, feature mask, match radius, and priority from prior consequences before the future comparison exists; the controller directly interprets them without a strategy menu or semantic compiler",
+    "each encounter commits one identity-distinct nonempty casebook, deterministically retains exactly six future events, changes selection and prediction, and gains at least four errors over the unchanged empty casebook",
+    "both encounters use fresh threads and workspaces, zero tools, exact Luna and inventory receipts, one Response identity per turn, cross-turn distinctness, one catalog ETag, and zero collector errors",
+    "all parse, deterministic replay, identity, token, time, test, privacy, and evidence gates pass"
+  ],
+  "claim_limit": "development feasibility of an example-based selector representation only; not OT-1 evidence and not E4 authorization"
+}

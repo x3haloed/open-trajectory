@@ -1,0 +1,16 @@
+Author one bounded exemplar casebook from the completed prior encounter. Each
+exemplar anchors to one distinct prior event identity and authors a four-Boolean
+feature mask, an integer Hamming radius from 0 through 4, and an integer
+priority from -16 through 16.
+
+For a future event, the controller compares only feature positions whose mask
+is true. If masked Hamming distance from an anchor is at most its radius, that
+exemplar's priority contributes to the event score. Contributions sum. The
+controller deterministically retains the six highest-scoring future events,
+with sequence and event identity as stable ties. One through eight exemplars
+are allowed.
+
+These are generic example-matching semantics, not a strategy menu. You author
+every anchor, mask, radius, and priority before the future evaluation exists.
+The controller owns outcomes, scoring, exact interpretation, and snapshot
+identity. Current casebook: empty; current selection: empty.

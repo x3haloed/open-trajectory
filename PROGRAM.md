@@ -210,6 +210,11 @@ Initial sequence:
   has no OT-1 or E4 authority. Invalidated by a post-encounter controller
   aggregation failure before result sealing; no carrier outcome is inferred
   and the frozen run is not retried.
+- **OT-0027:** reorient outside the closed program-portfolio family to a
+  trajectory-relative exemplar casebook. Each actor directly authors prior
+  anchors, feature masks, match radii, and priorities under generic exact
+  matching. This fresh public feasibility pilot is frozen and has no OT-1 or
+  E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

@@ -277,6 +277,15 @@ or rerun, and closes this carrier chain under its frozen boundary. The generic
 controller defect is fixed prospectively; it does not turn infrastructure
 failure into evidence about the selector representation.
 
+Reorientation from the target leaves one materially different, cheaply
+falsifiable mechanism family: selector state embodied as trajectory-relative
+examples rather than programs or portfolios. OT-0027 freezes one actor-authored
+casebook per encounter, with exact anchors, masks, radii, and priorities under
+generic masked-Hamming matching. It tests only whether prior null-selector
+consequences can cause useful later retention on a fresh public relation. It
+does not test recursive correction, carry OT-1 or E4 authority, or reopen the
+closed carrier chain.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
