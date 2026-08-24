@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0038",
+  "evaluation_transition": "E6 to E7",
+  "purpose": "candidate-free calibration of a self-authored durable-goal evaluator and OT-1-to-OT-2 causal opportunity",
+  "candidate_actor_outputs": false,
+  "candidate_goal_outputs": false,
+  "criterion_count": 384,
+  "eligible_rule_pair_count": 6,
+  "case_count": 2304,
+  "encounters_per_case": 8,
+  "target_asset_count": 3,
+  "intervention_budget": 3,
+  "projection_byte_limit": 512,
+  "authorized_candidate_count": 1,
+  "claim_limit": "controller-only E7 evaluator calibration and one fresh self-authored-goal candidate authorization; no OT-2 evidence",
+  "contract_requirements": [
+    "actor-originated identifier absent from the environmental packet",
+    "maximum-value feasible target set derived from raw telemetry",
+    "explicit verified-service value thesis",
+    "independently receipted completion predicate",
+    "bounded reversible-action constraints",
+    "controller-owned progress evidence",
+    "plan revision triggers that preserve the goal",
+    "truthful surrender triggers and terminal status"
+  ],
+  "counterfactual_contracts": [
+    "lower-value-target",
+    "over-budget-target",
+    "understated-value-thesis",
+    "proxy-only-completion",
+    "unbounded-interventions",
+    "missing-revision-condition",
+    "missing-surrender-condition"
+  ],
+  "promotion_gate": [
+    "all 2,304 criterion and parity-complement cases pass the same frozen evaluator without candidate, learner, or hosted actor output",
+    "the raw environmental packet contains telemetry and procedural orientation but no concrete objective, target subset, completion threshold, or goal contract",
+    "the controller oracle contract passes every quality gate and every frozen one-defect counterfactual contract is rejected",
+    "the same quality contract is OT-2-admissible only when its origin is actor output; a researcher-given positive control remains downstream-valid but fails authorship",
+    "an admitted goal remains byte-identical while plan versions change twice after sealed route-model invalidations, partial repairs never complete it, and completion is claimed only in a later fresh encounter after independent proof",
+    "the promoted selector and actual OT-0014 ledger choose all three correct reversible routes across use, harmful complement, and restoration regimes, while the exact unchanged-selector ablation chooses all three incorrectly in every regime",
+    "no-persistence and recent-verbatim controls cannot reconstruct the governing hierarchy under the same 512-byte ceiling, while the admitted contract projection can",
+    "every projection stays within 512 bytes and deterministic replay and case-order reversal preserve all receipts",
+    "all protocol, implementation, acceptance, evaluator, OT-1, OT-0, evidence, predecessor, test, audit, and privacy identities are locked before calibration output"
+  ],
+  "red_line_review": [
+    "OT-0038 generates no candidate output and cannot establish OT-2.",
+    "Controller oracle contracts calibrate the evaluator only and never enter a future candidate projection.",
+    "The environment exposes individual assets and routes as affordances, not a researcher-authored menu of goal contracts or target subsets.",
+    "The controller owns hidden route truth, outcome receipts, goal admission, progress, completion truth, and final scoring.",
+    "The actor may propose a contract but may not alter sealed outcomes, admit its own goal, or assign its final score.",
+    "A valid failure consumes any future E7 candidate authorization; OT-0006 and OT-0037 are not rescored."
+  ]
+}
