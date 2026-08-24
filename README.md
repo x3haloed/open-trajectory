@@ -109,12 +109,12 @@ allowed by `TARGET.md`. It does not rescore OT-0035 or execute a learner.
 All 2,304 cases passed every path, control, budget, replay, order, and authority
 gate without learner or actor output. E6 authorizes exactly one fresh
 deterministic-integration candidate; the calibration itself is not OT-1.
-OT-0037 is that single active E6 candidate. It freezes two clean deterministic
-reconstructions of the complete consequence-trained selector → OT-0 ledger →
-structural-holdout path under a task derived only after implementation.
-Its task and runtime authorities are now separately locked; one execution is
-pending.
-No OT-2 self-direction or OT-3 TAAA result is claimed.
+OT-0037 consumed that authorization and passed every frozen gate. Two fresh
+processes reproduced the exact lineage receipt; candidate error was `[0,0,0]`,
+unchanged error `[4,8,8]`, contact error `[40,80,80]`, and the best fixed
+aggregate `8`. OT-1 is promoted as publicly reconstructible evidence within
+this bounded synthetic domain. Program B is unpaused; no OT-2 self-direction or
+OT-3 TAAA result is yet claimed.
 
 ## Quick start
 

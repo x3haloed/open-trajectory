@@ -291,8 +291,10 @@ Initial sequence:
   task. Completed consequences train the generic selector; learned selections
   feed the actual OT-0014 ledger; and outcome-independent controller application
   scores structural holdouts. Two clean reconstructions must reproduce the
-  complete receipts. Locked after a clean implementation commit; one candidate
-  execution is pending.
+  complete receipts. Passed as frozen with candidate `[0,0,0]`, unchanged
+  `[4,8,8]`, contact `[40,80,80]`, best-fixed aggregate `8`, exact process
+  reconstruction, and every causal and novelty gate. OT-1 is promoted within
+  the bounded synthetic domain; E6 authorization is consumed.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;
@@ -306,9 +308,9 @@ requirements to OT-0 or OT-1 or alter a frozen experiment gate.
 
 ## Program B — Self-Authored Durable Goals
 
-Program B remains specified as written but is paused until the restored OT-1
-gate is promoted. OT-0006 was executed before this target correction and its
-rejected result is preserved; it does not justify bypassing OT-1.
+Program B is now unpaused by OT-0037's bounded OT-1 promotion. OT-0006 was
+executed before the target correction and its rejected result remains preserved;
+it is not rescored and does not count as OT-2 evidence.
 
 Separate goal, plan, subgoal, and current action. A goal contract records its
 value thesis, completion predicate, constraints, progress evidence, revision

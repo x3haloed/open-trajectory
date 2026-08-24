@@ -1,6 +1,6 @@
 # OT-0037 — E6 deterministic OT-1 candidate
 
-- **Status:** locked; one E6 candidate execution pending
+- **Status:** promoted as frozen; E6 authorization consumed
 - **Evidence class:** public-reconstructible if valid
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E6
@@ -59,3 +59,29 @@ bounded public claim that OT-1 is realized in this synthetic selector/parity
 domain. The result does not establish OT-2, cross-domain generality, or a
 hosted stochastic attribution. E6 authorization is consumed on first execution
 regardless of disposition.
+
+## Result and decision
+
+The locked execution at `7ce41c0ccd973c6434a8699a1e6059a4ea8afb65`
+passed every frozen gate. Two fresh Python processes produced the identical
+complete lineage receipt
+`a575bdfcf599504a8f40f8a9bb9658df0960077d218e714c10d1ff359f05eb50`.
+
+Pre-update contact error was `[40, 80, 80]`. Completed consequences trained
+`[-2, -4, 16, 8]`, reversed it to `[2, 4, -16, -8]` after the harmful
+complement regime, and restored the first operation in the third regime. The
+candidate scored `[0, 0, 0]`; unchanged selection scored `[4, 8, 8]`; the
+first-learned-then-frozen lineage scored eight aggregate errors; and every zero
+or signed unit-axis lineage scored twelve. Withholding outcome credit preserved
+the exact source snapshot at every update.
+
+Every task, active-budget, projection, receipt-lineage, fresh-restoration,
+fixed-control identity, process reconstruction, and novelty gate passed. The
+two learned operations were absent from implementation literals, and the task
+identity postdated the candidate implementation.
+
+Final disposition: `promoted`. OT-1 is established as bounded, publicly
+reconstructible evidence in this single synthetic selector/parity domain. This
+does not establish OT-2, cross-domain generality, or hosted stochastic
+attribution. E6 authorization is consumed. The public artifact is
+`evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json`.

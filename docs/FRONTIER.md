@@ -3,9 +3,9 @@
 ## Outcome
 
 The repository target remains open. OT-0014 establishes the required OT-0
-contact-causal substrate only within one private, time-bounded hidden-rule
-envelope. OT-1 has not been promoted, so OT-2 and OT-3 remain paused and
-unclaimed.
+contact-causal substrate within one private, time-bounded hidden-rule envelope.
+OT-0037 now promotes bounded public OT-1 in the synthetic selector/parity
+domain. OT-2 is unpaused but unproven; OT-3 remains paused and unclaimed.
 
 Direct LLM selector synthesis is no longer the active path. OT-0021 through
 OT-0031 tested richer consequence ledgers, portfolios, structured carriers,
@@ -62,14 +62,15 @@ control, budget, projection, replay, reverse-order, and authority gate without
 learner or actor output. E6 authorizes one fresh deterministic-integration
 candidate; the calibration itself is not OT-1 evidence.
 
-OT-0037 freezes that authorization. A task derived only after its clean
-implementation selects one calibrated weight criterion and eligible parity
-pair. Completed outcomes must train three selector snapshots; only each learned
-snapshot chooses the eighty observations entering the actual OT-0014 ledger;
+OT-0037 consumed that authorization and passed as frozen. A task derived only
+after its clean implementation selected one calibrated weight criterion and
+eligible parity pair. Completed outcomes trained three selector snapshots; only
+each learned snapshot chose the eighty observations entering the actual ledger;
 and the controller applies a sole surviving rule or fixed-zero fallback to
-structural holdouts. Two fresh reconstructions must reproduce all receipts.
-The implementation and separate task/run-lock commits are now published; one
-candidate execution is pending.
+structural holdouts. Two fresh processes reproduced the exact complete receipt.
+Candidate error was `[0,0,0]`, unchanged `[4,8,8]`, contact `[40,80,80]`, and
+the best fixed aggregate `8`; every causal, correction, reconstruction, and
+novelty gate passed. OT-1 is promoted only within this bounded public domain.
 
 Decision-relevant evidence:
 
@@ -90,6 +91,8 @@ Decision-relevant evidence:
   valid private result; failed the frozen unchanged identity-policy placebo.
 - `evidence/manifests/OT-0036/ot-0036-e6-deterministic-integration-calibration-001.json`
   — public E6 calibration; one fresh deterministic candidate authorized.
+- `evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json`
+  — promoted bounded public OT-1; two exact process reconstructions.
 
 ## Goal invariants
 
@@ -125,12 +128,13 @@ Decision-relevant evidence:
 
 ## Evaluation regime
 
-E6 is the current promoted OT-1 evaluation checkpoint. E4's evaluator-
-independent anchors remain active: controller-owned deterministic application
+E6 is the latest OT-1 evaluation checkpoint, and its authorization is consumed
+by the promoted OT-0037 result. E4's evaluator-independent anchors remain
+active: controller-owned deterministic application
 and scores, private future state, fixed controls and placebos, frozen task order
 and thresholds, clean reproduction, and privacy/evidence gates. Hosted
 execution additionally retains E2's epoch identity, counterbalance, and fresh
-thread/workspace rules. OT-0036 authorizes one deterministic target candidate.
+thread/workspace rules. No further OT-1 candidate is currently authorized.
 
 OT-0033 is not E5 and cannot promote a target. Its public run validly bound the
 final task seed to a canonical hash of the clean implementation commit and
@@ -249,8 +253,8 @@ Expected for OT-0037: completed consequences will learn the post-implementation
 criterion, reverse it after the harmful complement regime, restore it once
 more, and drive the actual OT-0 ledger to zero held-out errors while unchanged
 and fixed selectors retain structurally forced error.
-Observed: 32 excluded development seeds pass candidate `[0,0,0]`, unchanged
-`[4,8,8]`, contact `[40,80,80]`, best-fixed aggregate `8`, no-credit, budget,
-projection, restoration, novelty, and two-reconstruction gates. Final candidate
-output remains sealed behind the clean implementation and future run lock.
-Decision: freeze and execute OT-0037 once; first execution consumes E6.
+Observed: the locked task passed candidate `[0,0,0]`, unchanged `[4,8,8]`,
+contact `[40,80,80]`, best-fixed aggregate `8`, no-credit, budget, projection,
+restoration, novelty, and two exact process-reconstruction gates.
+Decision: promote bounded public OT-1 in the synthetic selector/parity domain.
+E6 is consumed. Unpause Program B without claiming OT-2.
