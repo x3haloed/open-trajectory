@@ -20,7 +20,7 @@ conditions can a selector evaluate and revise *itself*?
 the selector selects what to inherit
 the selector is itself a product of earlier selection
 can the selector evaluate its own selection criteria
-  without external grounding,
+  using external grounding as the revision signal,
   without infinite regress,
   without tautological self-confirmation?
 ```
@@ -113,7 +113,7 @@ A selector can meaningfully evaluate itself when all of the following hold:
    has a stable window.
 
 4. **Ablatable self-evaluation:** the capacity for self-evaluation must
-   itself be subject to ablation. If removing self-evaluation能力 does
+   itself be subject to ablation. If removing self-evaluation capacity does
    not change later held-out behavior, self-evaluation is not causally
    contributing — it is decorative.
 
@@ -140,10 +140,33 @@ Both must be testable simultaneously.
 
 The joint experiment must therefore vary both the scar carrier and the
 selector identity, while holding outcome independence and temporal
-separation constant. A carrier that changes behavior only when evaluated
-by a trajectory-matched selector is evidence for both hypotheses. A carrier
-that changes behavior under any selector is generic information, not a scar
-or a selector effect.
+separation constant. The interaction alone is not sufficient evidence:
+a matched trajectory-selector × scar-carrier effect could be caused by
+serialization format, identifier matching, encryption, or a matched
+decoder rather than subject-relative consequence.
+
+The joint protocol requires:
+
+1. **Crossed branches:** vary scar carrier (owner-intact, owner-removed,
+   non-owner-transplanted, non-owner-translated) and selector identity
+   (trajectory-matched, trajectory-crossed, generic) in a full factorial.
+
+2. **All controls from the subject-relative protocol:** translation,
+   generic-information, placebo-carrier, and owner-removal branches must
+   be present in every selector condition.
+
+3. **Selector-change ablation:** remove the self-evaluation capacity from
+   the trajectory-matched selector and verify the interaction disappears.
+
+4. **Serialization control:** supply the same scar bytes in a
+   trajectory-neutral format (e.g. plain text rather than the carrier's
+   native serialization) to rule out format-matching as the mechanism.
+
+A carrier that changes behavior only when evaluated by a
+trajectory-matched selector, and loses this effect under serialization
+normalization and selector ablation, is evidence for both hypotheses
+simultaneously. A carrier that changes behavior under any selector is
+generic information, not a scar or a selector effect.
 
 ## Cheapest falsifiers
 
@@ -165,7 +188,7 @@ survives a clean reproduction:
 
 These outcomes would still leave OT-1's weaker requirement — that selectors
 change through contact — open. They would reject only the stronger claim
-that the selector can evaluate and revise itself without external grounding.
+that the selector can use external grounding to evaluate and revise itself — and whether the selector, not the world, is the agent of that revision.
 
 ## Provenance and role separation
 
