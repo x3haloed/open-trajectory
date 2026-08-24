@@ -1,6 +1,6 @@
 # OT-0004 — Emergent corrigible inheritance selector
 
-- **Status:** unexecuted; protocol frozen
+- **Status:** invalidated; negative result preserved
 - **Evidence class:** private-reproducible if all gates pass
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E3
@@ -139,7 +139,35 @@ successful hosted result is private and time-bounded.
 
 ## Results
 
-Pending implementation and private task preparation.
+The two-worker hosted epoch completed in 744.2 seconds and produced the public
+raw-artifact manifest
+`evidence/manifests/OT-0004/ot-0004-hosted-epoch-001.json`. It is formally
+invalidated rather than rejected. Both workers used the expected effective
+models, unique Response identities, matching catalog and ETag identities,
+fresh threads and workspaces, zero tool calls, and the frozen task order. The
+Luna turns had the frozen three-tool direct inventory, but the Terra review
+turns consistently had a different four-tool inventory. The harness required
+one stable inventory across both roles, so deployment validity failed. Worker
+2 also exceeded the 30,000-output-token and 600-second worker budgets.
+
+The aggregate behavior was independently non-promotable. Changed-lineage error
+was 21/48 and 22/48, neither worker exhibited the required temporal
+corrigibility chain, and fixed controls often made fewer errors. Novelty review
+failed unanimously in worker 1 and passed unanimously in worker 2. These values
+are preserved as diagnostics, not interpreted as a valid scientific rejection.
+
+The run also exposed a decisive causal-design flaw. At stage zero, the
+"changed" and "frozen" branches used the same seed policy snapshot. Worker 1
+nevertheless selected different identities and scored 1 versus 2 errors;
+worker 2 selected the same identities but fresh predictors scored 5 versus 0
+errors. Thus matched fresh LLM selector and predictor encounters introduced
+branch variance even when selector state was identical. Later changed-versus-
+frozen deltas cannot isolate policy causation under this design.
+
+No clean rerun of the same mechanism is warranted. A successor must make
+policy application and downstream scoring controller-deterministic, or freeze a
+prospectively powered stochastic-estimation design with an identity-policy
+placebo. OT-0004 supplies no OT-1 evidence.
 
 ## Implementation pilot
 

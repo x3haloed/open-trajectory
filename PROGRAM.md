@@ -25,6 +25,14 @@ substrate result; it is not evidence that experience changed the function
 deciding what deserves inheritance. This distinction was restored after direct
 user review of OT-0014's target classification.
 
+Selector-change comparisons must isolate the committed selector snapshot from
+execution variance. Identical-selector placebo branches must produce identical
+selections and downstream scores under controller-deterministic execution, or
+a stochastic design must prospectively power repeated estimation and pass its
+identity-policy placebo. Fresh LLM branches with uncontrolled selector or
+predictor sampling are not a selector-change ablation. OT-0004 made this
+invariant explicit.
+
 ## Evaluation-regime epochs
 
 - **E1 — immutable revision:** a promoted contact-causal comparison required an
@@ -50,6 +58,13 @@ user review of OT-0014's target classification.
   stale and is replaced by the narrower OT-0 classification. No earlier
   candidate is rescored under E3.
 
+OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
+frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
+inventory, and one worker exceeded frozen resource bounds. Its aggregate
+behavior was also non-promotable. Most importantly, its identity-policy placebo
+showed that fresh selector and predictor sampling confounded the claimed policy
+effect. The result is preserved and no gate is retroactively changed.
+
 ## Program A — Emergent Corrigible Inheritance Selection
 
 **Current target status:** OT-0014 establishes OT-0 contact-causal inheritance
@@ -58,6 +73,10 @@ evidence is private and time-bounded; it does not claim immutable weights,
 public reconstructibility, cross-domain generality, a mutable selector, an
 emergent selection operation, selector correction, or validity under a later
 hosted epoch.
+
+OT-0004 does not narrow this open status. It established that free-form policy
+prose applied and evaluated by fresh stochastic actors is not an attributable
+selector mechanism under its branch design.
 
 Build the evaluation harness before choosing a preferred learning substrate.
 The program invents its own candidate representations, selection rules, update
@@ -99,8 +118,10 @@ Initial sequence:
 - **OT-0014:** freeze the receipted OT-0 hidden-rule result.
 - **OT-0004:** test whether consequences of selection decisions can cause the
   system to invent, commit, and later correct an inheritance-selection
-  operation.
-- **OT-0005:** test inheritance in a clean model instance.
+  operation. Invalidated: actor sampling confounded selector causation.
+- **OT-0005:** test an actor-authored, controller-executed deterministic
+  inheritance-selection function with deterministic downstream scoring and an
+  identity-policy placebo before any selector-learning claim.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

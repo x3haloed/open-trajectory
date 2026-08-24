@@ -20,6 +20,10 @@
   selection operation without a committed selector change, later held-out
   behavioral improvement, an unchanged-selector comparison, and a decisive
   selector-change ablation.
+- Do not attribute a changed-versus-frozen branch delta to selector state when
+  selector application or downstream prediction varies independently between
+  branches. Require controller-deterministic execution or a prospectively
+  powered stochastic comparison whose identical-policy placebo passes.
 - Do not call an OT-1 selector corrigible unless a later regime makes a learned
   selection operation harmful and independent contact causes it to be revised
   or abandoned while correction capacity remains observable.

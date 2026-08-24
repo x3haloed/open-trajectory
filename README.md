@@ -39,6 +39,9 @@ OT-0014 supports that claim only within its private, time-bounded hidden-rule
 envelope. It does not establish OT-1. The inheritance-selection function was
 researcher-designed and fixed; no experience-induced selector change, emergent
 selection operation, or later selector correction has yet been demonstrated.
+OT-0004 remains an invalidated negative result: its free-form selector changed
+state, but stochastic selector and predictor branches prevented causal
+attribution and its aggregate behavior missed every target-level gate.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

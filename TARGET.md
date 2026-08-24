@@ -53,6 +53,12 @@ system must detect the selector-level failure, revise or abandon that operation,
 recover later held-out performance, and preserve the capacity for subsequent
 correction.
 
+The selector-change comparison must isolate selector state. Policy application
+and downstream scoring must be controller-deterministic, or stochastic
+execution must use a prospectively powered repeated-estimation design and pass
+an identical-policy placebo. Unpaired fresh-model variance cannot count as a
+selector effect or ablation.
+
 The seed orientation may grant a bounded carrier, raw encounters, outcome
 feedback, access to prior selection decisions, and permission to modify the
 selection procedure. It may not disclose the useful selection criteria, the
