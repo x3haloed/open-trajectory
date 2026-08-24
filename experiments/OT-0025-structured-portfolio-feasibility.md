@@ -1,6 +1,6 @@
 # OT-0025 — Structured-decision portfolio feasibility
 
-- **Status:** implementation freeze pending; actor output forbidden
+- **Status:** run lock frozen; public pilot authorized
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessors:** OT-0023 and OT-0024 free-form decision-carrier failures
@@ -43,6 +43,11 @@ is forbidden until a clean implementation commit and separate run-lock commit
 bind every authority. OT-0025 is not adjusted after output. If this exact
 structured carrier also fails, no further public carrier retry is authorized
 without a materially different hypothesis.
+
+The clean protocol and implementation commit is
+`9305eb00b37094f28cc274510f18bf3d4d293763`.
+`spec/ot-0025-run-lock.json` binds it and every runtime authority before the
+first hosted actor output.
 
 ## Results and decision
 
