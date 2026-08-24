@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0041",
+  "evaluation_transition": "E7 to E8B",
+  "purpose": "patched-backend hosted schema, inventory, and failed-turn calibration",
+  "candidate_goal_outputs": false,
+  "hosted_turns": 4,
+  "positive_turns": 2,
+  "negative_turns": 2,
+  "authorized_candidate_count": 1,
+  "claim_limit": "private hosted-protocol calibration and one fresh E8B self-authored-goal candidate authorization; no OT-2 evidence",
+  "deployment_epoch": {
+    "requested_model": "gpt-5.6-luna",
+    "effective_model_must_equal_requested": true,
+    "maximum_window_seconds": 300
+  },
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_input_tokens_total": 30000,
+    "actor_output_tokens_total": 4000,
+    "wall_seconds": 300
+  },
+  "promotion_gate": [
+    "the exact revised candidate schema returns the fixed null-goal canary in two fresh positive turns through the historically calibrated patched binary",
+    "both positive turns emit the exact three-tool model-visible inventory and distinct response identities",
+    "the frozen OT-0039 schema fails twice with the expected application diagnostic, no response identity, no proxy transport error, and no secondary exception",
+    "negative inventory presence is explicitly recorded and may be present or absent because no model execution occurred",
+    "positive and negative order is counterbalanced, every thread and workspace is fresh, and catalogs, ETag, model, tools, resources, tests, audit, evidence, and privacy gates pass",
+    "the schema, semantic evaluator, target, controls, task family, and candidate thresholds remain unchanged from their frozen predecessors"
+  ],
+  "red_line_review": [
+    "The canary contains no goal contract, telemetry, target, or candidate score.",
+    "OT-0039 remains invalidated and OT-0040 remains rejected.",
+    "Binary byte identity and the tool-receipt patch, not a version label, define the backend authority.",
+    "A pass authorizes at most one fresh E8B candidate."
+  ]
+}
