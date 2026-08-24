@@ -103,6 +103,7 @@
     }
   },
   "deployment_epoch": {
+    "inventory_pilot_manifest": "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json",
     "actor_model": "gpt-5.6-luna",
     "reviewer_model": "gpt-5.6-terra",
     "effective_models_must_equal_requested": true,

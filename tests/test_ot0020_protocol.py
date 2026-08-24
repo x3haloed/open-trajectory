@@ -26,6 +26,10 @@ class OT0020ProtocolTests(unittest.TestCase):
         self.assertEqual(
             acceptance["candidate"]["seed_decision_expression"], '"current"'
         )
+        self.assertEqual(
+            acceptance["deployment_epoch"]["inventory_pilot_manifest"],
+            "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json",
+        )
 
     def test_live_authority_set_binds_e4_inputs_and_shared_core(self) -> None:
         paths = set(fixed_input_paths().values())
@@ -36,6 +40,12 @@ class OT0020ProtocolTests(unittest.TestCase):
         self.assertIn(
             Path(
                 "evidence/manifests/OT-0019/ot-0019-full-suffix-e4-calibration-001.json"
+            ),
+            paths,
+        )
+        self.assertIn(
+            Path(
+                "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
             ),
             paths,
         )

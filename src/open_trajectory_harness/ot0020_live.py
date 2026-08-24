@@ -42,6 +42,9 @@ def fixed_input_paths() -> dict[str, Path]:
         "e4_promotion_manifest_sha256": Path(
             "evidence/manifests/OT-0019/ot-0019-full-suffix-e4-calibration-001.json"
         ),
+        "deployment_pilot_manifest_sha256": Path(
+            "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+        ),
         "evidence_recorder_sha256": Path("src/open_trajectory_evidence/evidence.py"),
         "evidence_audit_sha256": Path("src/open_trajectory_evidence/audit.py"),
         "evidence_cli_sha256": Path("src/open_trajectory_evidence/cli.py"),
@@ -69,6 +72,10 @@ def configure_live_protocol() -> None:
     live.EVIDENCE_LIMITATIONS = [
         "The E4 task, expressions, selections, actor events, reviews, ETag, and Response IDs remain private.",
         "The result is limited to one direct E4 family and a time-bounded hosted epoch.",
+    ]
+    live.EVIDENCE_INPUT_MANIFESTS = [
+        "evidence/manifests/OT-0019/ot-0019-full-suffix-e4-calibration-001.json",
+        "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json",
     ]
     live.generate_task_manifest = generate_task_manifest
     live.validate_task_manifest = validate_task_manifest

@@ -67,6 +67,7 @@ EVIDENCE_LIMITATIONS = [
     "The task, expressions, selections, actor events, reviews, ETag, and Response IDs remain private.",
     "The result is limited to one constrained family and a time-bounded hosted epoch.",
 ]
+EVIDENCE_INPUT_MANIFESTS: list[str] = []
 
 
 def prepare_task_manifest(path: Path) -> dict[str, Any]:
@@ -924,7 +925,7 @@ def run(
         ),
         public_url=None,
         limitations=EVIDENCE_LIMITATIONS,
-        input_manifests=[],
+        input_manifests=EVIDENCE_INPUT_MANIFESTS,
     )
     return manifest_path, combined_summary(raw)
 
