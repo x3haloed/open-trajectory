@@ -1,6 +1,6 @@
 # OT-0024 — Expanded-decision portfolio feasibility
 
-- **Status:** implementation freeze pending; actor output forbidden
+- **Status:** run lock frozen; public pilot authorized
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0023 decision-carrier failure
@@ -41,6 +41,11 @@ A pass establishes public representation feasibility only. It cannot promote
 OT-1, renew E4, or authorize a private candidate. Actor output is forbidden
 until a clean implementation commit and separate run-lock commit bind every
 authority. OT-0024 is not adjusted after output.
+
+The clean protocol and implementation commit is
+`447b0d5b097b9f844f03d7d5430d67eae3cffdbc`.
+`spec/ot-0024-run-lock.json` binds it and every runtime authority before the
+first hosted actor output.
 
 ## Results and decision
 
