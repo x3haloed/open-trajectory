@@ -217,6 +217,11 @@ Initial sequence:
   optimized positive-label frequency, selected the same non-discriminative
   evidence, and gained zero errors. Failed as frozen with no OT-1 or E4
   authority; the direct exemplar path is closed.
+- **OT-0028:** test differentiated temporal credit rather than another direct
+  carrier. Two fresh actors inherit the first actual failed OT-0027 casebook
+  and its bounded independently scored query consequences, then revise it under
+  the unchanged exact exemplar semantics and explicit permitted task objective.
+  This public correction slice is frozen and has no OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

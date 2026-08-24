@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0028",
+  "purpose": "public non-candidate consequence-induced exemplar-casebook correction feasibility",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "actor_model": "gpt-5.6-luna",
+  "fresh_actor_encounters": 2,
+  "selection_limit": 6,
+  "exemplar_limit_each": 8,
+  "ledger_entry_limit": 5,
+  "ledger_byte_limit": 49152,
+  "minimum_error_advantage_each": 4,
+  "actor_tool_calls_allowed": 0,
+  "actor_parse_failures_allowed": 0,
+  "actor_input_tokens_total": 70000,
+  "actor_output_tokens_total": 7000,
+  "maximum_run_seconds": 300,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "promotion_gate": [
+    "the exact OT-0027 source artifact, bounded consequence projection, inherited failed casebook, fresh future task, unchanged exemplar carrier, explicit prediction-error objective, prompt, scoring, backend, resources, and run lock are frozen before output",
+    "only the named casebook state and controller-scored completed-encounter consequences cross the fresh-thread boundary; raw deployment events and the sealed future remain absent",
+    "each actor authors every revised anchor, feature mask, radius, and priority before future comparison and commits a changed casebook whose selection and prediction differ from the inherited branch",
+    "each revision deterministically retains six events and reduces future error by at least four versus the unchanged inherited casebook",
+    "both encounters use fresh threads and workspaces, zero tools, exact Luna and inventory receipts, one Response identity per turn, cross-turn distinctness, one catalog ETag, and zero collector errors",
+    "all source replay, projection identity, parse, deterministic replay, identity, token, time, test, privacy, and evidence gates pass"
+  ],
+  "claim_limit": "development feasibility of consequence-induced casebook correction only; not OT-1 evidence and not E4 authorization"
+}

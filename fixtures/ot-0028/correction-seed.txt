@@ -1,0 +1,16 @@
+Revise the inherited exemplar casebook to minimize future held-out query
+prediction errors. That error count—not retained label frequency—is the task
+objective. The downstream controller deterministically selects the parity
+hypothesis with the fewest errors on retained events, breaking ties by fewer
+active features, then mask identity and bias.
+
+The casebook carrier is unchanged. Each exemplar anchors to one distinct event
+from the completed encounter and authors a four-Boolean feature mask, integer
+Hamming radius 0–4, and integer priority -16–16. Matching priorities sum; the
+controller retains the six highest-scoring future events with stable sequence
+and identity ties. Author one through eight exemplars.
+
+The prior casebook, its selection, and its independent query consequences are
+inherited trajectory state. You may revise or replace it. The controller owns
+outcomes, exact interpretation, scoring, and snapshot identity; it supplies no
+useful casebook, strategy menu, or future result.

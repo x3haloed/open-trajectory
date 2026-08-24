@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["exemplars", "expected_effect", "cheapest_falsifier"],
+  "properties": {
+    "exemplars": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 8,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["anchor_event_id", "mask", "radius", "priority"],
+        "properties": {
+          "anchor_event_id": {"type": "string", "minLength": 1, "maxLength": 128},
+          "mask": {
+            "type": "array",
+            "minItems": 4,
+            "maxItems": 4,
+            "items": {"type": "boolean"}
+          },
+          "radius": {"type": "integer", "minimum": 0, "maximum": 4},
+          "priority": {"type": "integer", "minimum": -16, "maximum": 16}
+        }
+      }
+    },
+    "expected_effect": {"type": "string", "minLength": 1, "maxLength": 512},
+    "cheapest_falsifier": {"type": "string", "minLength": 1, "maxLength": 512}
+  }
+}

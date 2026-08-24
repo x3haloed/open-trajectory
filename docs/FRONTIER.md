@@ -296,6 +296,15 @@ examples solve carrier validity, not what consequence of selection should be
 optimized. The frozen casebook result is not retried and closes that direct
 path.
 
+The remaining causal question is no longer how to serialize a selector, but
+whether consequences of a real failed selection can induce its revision.
+OT-0028 freezes that differentiated temporal-credit test. Two fresh actors
+independently continue the first OT-0027 casebook from a content-addressed
+private artifact and receive only its exact state plus controller-scored query
+consequences. The task objective is stated precisely, as allowed by the target;
+the useful revision and future result remain absent. This is a one-correction
+development slice, not OT-1 or E4 evidence.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

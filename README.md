@@ -57,6 +57,10 @@ OT-0027 tested the materially different exemplar representation. Both actors
 committed valid casebooks but optimized positive-label frequency, converged on
 the same non-discriminative selection, and gained zero errors. This closes the
 direct exemplar path without OT-1 or E4 authority.
+OT-0028 is the active public development falsifier. It continues one actual
+failed OT-0027 trajectory and tests whether its bounded downstream error
+consequences cause two fresh actors to revise the inherited casebook. It tests
+one correction slice only, with no OT-1 or E4 authority.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start
