@@ -40,3 +40,8 @@ This is a deterministic walking skeleton, not a target claim. The optimizer
 family is researcher-authored, while the retained pattern criterion is learned.
 Execution is forbidden until a clean implementation commit and separate run-
 lock commit bind every authority. OT-0032 is not altered after execution.
+
+The clean protocol and implementation commit is
+`ff8c343a55772704840d39d6d0e5ca2be212780b`.
+`spec/ot-0032-run-lock.json` binds it and every runtime authority before the
+first protocol execution.

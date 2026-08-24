@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0032",
+  "protocol_origin_git_commit": "ff8c343a55772704840d39d6d0e5ca2be212780b",
+  "implementation_git_commit": "ff8c343a55772704840d39d6d0e5ca2be212780b",
+  "runtime": "deterministic-python",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "b21affbc016402f04092e903e828d03ce9b62d6cadef06c085b93224bf661984",
+    "controller_core_sha256": "00918dd39c665526f677513d4563ba3c9c2d0fb1bd632594836b938ceb5a0994",
+    "entrypoint_sha256": "223d18b0d2651d99feacd7e41e924f0f4661b25531d92cde861816992b1b8ce0",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "optimizer_core_sha256": "8fa15b584120bd3735505fc7050f29a68cfe5a621db236724d61147f11841a97",
+    "predecessor_manifest_sha256": "4b5f56acc4c8e7c47fbb0e0674376e83b2bdeaee079272561a878c4b0075e7b2",
+    "predictor_world_sha256": "b662f345161e46e03d662e4246c45c698155264c80b9f2f05798bda26082d038",
+    "sealed_evidence_io_sha256": "fbdd95218935cef4b90bb0de5f0667468a42cc7a174f63a8f59576eae989cdb1"
+  }
+}
