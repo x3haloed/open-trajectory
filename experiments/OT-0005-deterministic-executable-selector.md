@@ -5,7 +5,8 @@
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E3
 - **Frozen acceptance:** `spec/ot-0005-acceptance.json`
-- **Implementation and run lock:** pending
+- **Implementation:** complete; deterministic causal and receipt harness covered by unit tests
+- **Run lock:** pending fresh private task preparation
 
 ## Realization contract
 
