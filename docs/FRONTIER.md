@@ -33,6 +33,9 @@ experiment records; they are no longer live implementation narration here.
 - `evidence/manifests/OT-0039/ot-0039-e7-self-authored-goal-candidate-001.json`
   — invalidated hosted candidate attempt; schema rejected before actor output,
   no scientific score, E7 authorization consumed.
+- `evidence/manifests/OT-0040/ot-0040-e8-hosted-schema-calibration-001.json`
+  — rejected protocol calibration; revised schema passed twice, but the locked
+  unpatched binary emitted no model-visible inventory receipts.
 - `evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json` — private Program B
   infrastructure result; rejected as frozen and not OT-2 evidence.
 
@@ -130,6 +133,18 @@ Revised model: standards-valid JSON Schema is not sufficient evidence for the
 hosted structured-output subset, and the harness failure path must preserve the
 upstream error without assuming success-only receipts.
 
+Expected for OT-0040: the revised schema would pass, the frozen invalid schema
+would fail without a secondary exception, successful turns would emit the
+historical three-tool inventory, and HTTP rejection would appear as a proxy
+forwarding error.
+Observed: both positive and negative schema predictions passed, but all four
+inventories were absent and ordinary HTTP 400 responses produced no proxy
+errors. The locked binary shared a version string with prior studies but not
+their patched byte identity.
+Revised model: bind the historical patched executable bytes, not the version
+label; require exact inventories only on successful turns; and treat the
+negative turn's explicit application error as sufficient failure evidence.
+
 ## Active frontier
 
 OT-0038 completed the controller evaluator, but OT-0039 exposed an uncalibrated
@@ -152,9 +167,10 @@ authorized. The cheapest next slice is OT-0040 exact-backend calibration:
    selector rather than importing a new memory system or treating stored prose
    as OT-2.
 
-OT-0040 must send the revised exact candidate schema through the same pinned
-hosted backend with a fixed null-goal canary, produce no candidate contract or
-task result, and verify that both success and rejected-turn paths remain
-interpretable without secondary exceptions. Only a clean pass may authorize
-one new candidate under a new epoch. OT-0039 remains invalidated and is never
-retried. The next experiment ID is OT-0040.
+OT-0040 proved the revised exact schema but did not promote its regime. OT-0041
+must repeat the counterbalanced null-goal schema study with the previously
+calibrated patched binary. Positive turns must emit the exact three-tool
+inventory. Negative turns must preserve the structured application error
+without a secondary exception; their inventory may be explicitly present or
+absent. Only a clean pass may authorize one new candidate. OT-0039 and OT-0040
+remain fixed. The next experiment ID is OT-0041.

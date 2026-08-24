@@ -339,7 +339,10 @@ Initial sequence:
 - **OT-0039:** test one fresh voluntary goal formation and pursuit candidate
   from procedural orientation; invalidated before actor output.
 - **OT-0040:** calibrate the exact hosted structured-output dialect and failed-
-  turn evidence path without candidate goal output.
+  turn evidence path without candidate goal output; revised schema passed but
+  the unpatched backend failed the frozen inventory gate.
+- **OT-0041:** repeat the protocol checkpoint with the historically calibrated
+  patched binary and corrected application-error semantics.
 
 ## Program C — TAAA
 

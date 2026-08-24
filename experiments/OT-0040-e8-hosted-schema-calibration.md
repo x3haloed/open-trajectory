@@ -1,6 +1,6 @@
 # OT-0040 — E8 hosted schema and failure-path calibration
 
-- **Status:** frozen implementation; no hosted output yet
+- **Status:** rejected as frozen; no E8 candidate authorized
 - **Evidence class:** private-reproducible evaluator calibration
 - **Evaluation transition:** E7 → E8 candidate
 - **Candidate goal and task outputs:** forbidden
@@ -47,3 +47,29 @@ bind this exact reduced schema by hash.
 
 OT-0040 contains no candidate goal or OT-2 evidence. A pass does not reinterpret
 OT-0039 or authorize changing any semantic evaluator threshold.
+
+## Result and decision
+
+The locked execution at `211243675bcf8d17680301c1bf7a2813c4216238`
+completed all four turns in 6.86 seconds.
+Both frozen OT-0039 schemas failed with the expected `uniqueItems` and
+`invalid_json_schema` diagnostics. Both revised schemas returned the exact
+null-goal canary with distinct response IDs, the requested model, one ETag,
+stable catalogs, no tools, and no parse failures. Thus the revised transport
+schema is hosted-compatible and produced no candidate goal.
+
+The frozen failure-safe and inventory gates failed. Contrary to the protocol's
+prediction, an ordinary upstream HTTP schema rejection produced no proxy
+forwarding exception. More importantly, none of the four turns emitted a
+model-visible inventory receipt. The locked executable had the same `0.149.0`
+version string as prior studies but a different byte identity: it was the
+unpatched npm binary, not the previously calibrated tool-receipt build.
+
+Final disposition: `rejected`. No E8 candidate is authorized, and OT-0039
+remains invalidated. The revised model is that backend version labels cannot
+substitute for patched binary identity, and a normal application-level HTTP
+error is not a proxy transport error. A new checkpoint must bind the historical
+patched binary, require exact positive inventories, preserve negative turn
+errors without secondary exceptions, and allow negative inventory presence to
+be explicitly either present or absent. The private artifact is identified by
+`evidence/manifests/OT-0040/ot-0040-e8-hosted-schema-calibration-001.json`.
