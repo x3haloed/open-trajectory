@@ -191,6 +191,9 @@ Initial sequence:
   choose an alternative. Failed before portfolio evaluation when the first
   actor's 65-node decision exceeded the inherited 64-node two-choice carrier.
   This is development-only feasibility and is not rescored.
+- **OT-0024:** test the still-unresolved portfolio hypothesis on a fresh public
+  task with only the three-way decision carrier expanded prospectively from 64
+  to 128 AST nodes; its 512-byte bound and all causal gates remain unchanged.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

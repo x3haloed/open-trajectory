@@ -73,7 +73,9 @@ class DecisionRuleSnapshot:
         }
 
 
-def validate_decision_expression(expression: Any, byte_limit: int = 512) -> ast.Expression:
+def validate_decision_expression(
+    expression: Any, byte_limit: int = 512, node_limit: int = 64
+) -> ast.Expression:
     if not isinstance(expression, str) or not expression.strip():
         raise ValueError("decision expression must be non-empty text")
     if len(expression.encode()) > byte_limit:
@@ -83,7 +85,7 @@ def validate_decision_expression(expression: Any, byte_limit: int = 512) -> ast.
     except SyntaxError as error:
         raise ValueError("decision expression is not valid expression syntax") from error
     nodes = list(ast.walk(tree))
-    if len(nodes) > 64:
+    if len(nodes) > node_limit:
         raise ValueError("decision expression exceeds its AST-node budget")
     for node in nodes:
         if type(node) not in DECISION_ALLOWED_NODES:
@@ -99,8 +101,14 @@ def validate_decision_expression(expression: Any, byte_limit: int = 512) -> ast.
 
 
 class DecisionRuleLedger:
-    def __init__(self, seed_expression: str = '"current"', byte_limit: int = 512):
+    def __init__(
+        self,
+        seed_expression: str = '"current"',
+        byte_limit: int = 512,
+        node_limit: int = 64,
+    ):
         self.byte_limit = byte_limit
+        self.node_limit = node_limit
         self._snapshots: list[DecisionRuleSnapshot] = []
         self._append(seed_expression, proposal=None)
 
@@ -115,7 +123,7 @@ class DecisionRuleLedger:
     def _append(
         self, expression: str, proposal: dict[str, str] | None
     ) -> DecisionRuleSnapshot:
-        validate_decision_expression(expression, self.byte_limit)
+        validate_decision_expression(expression, self.byte_limit, self.node_limit)
         parent = self._snapshots[-1].sha256 if self._snapshots else None
         proposal_sha256 = sha256_bytes(canonical_json(proposal)) if proposal else None
         identity = {

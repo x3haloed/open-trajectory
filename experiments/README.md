@@ -41,3 +41,6 @@ Current unexecuted protocol drafts:
   — failed public non-candidate pilot: all three selectors validated, but the
   first 65-node portfolio decision exceeded the inherited 64-node carrier by
   one node, so the portfolio itself remained untested.
+- [`OT-0024-expanded-portfolio-feasibility.md`](OT-0024-expanded-portfolio-feasibility.md)
+  — frozen fresh public portfolio pilot with a prospectively bounded 128-node,
+  still-512-byte three-way decision carrier.

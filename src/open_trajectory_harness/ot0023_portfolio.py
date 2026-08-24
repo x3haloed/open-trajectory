@@ -19,6 +19,8 @@ EXPERIMENT_ID = "OT-0023"
 PROMPT_PATH = Path("fixtures/ot-0023/portfolio-prompt.txt")
 SEED_PATH = Path("fixtures/ot-0023/portfolio-seed.txt")
 ALTERNATIVE_COUNT = 3
+DECISION_NODE_LIMIT = 64
+ACCEPTANCE_PATH = Path("spec/ot-0023-acceptance.json")
 
 
 def parse_portfolio_output(value: Any) -> tuple[list[dict[str, str]], dict[str, str]]:
@@ -95,7 +97,7 @@ def _execute_portfolio_rule(
     source_receipt_sha256: str,
     projection: str,
 ) -> dict[str, Any]:
-    tree = validate_decision_expression(rule.expression)
+    tree = validate_decision_expression(rule.expression, node_limit=DECISION_NODE_LIMIT)
     globals_value = {"__builtins__": {}, "comparison": comparison}
     first = eval(compile(tree, "<portfolio-decision>", "eval"), globals_value, {})
     second = eval(compile(tree, "<portfolio-decision>", "eval"), globals_value, {})
@@ -138,7 +140,7 @@ def evaluate_portfolio_output(task: dict[str, Any], value: Any) -> dict[str, Any
         canonical_json([receipt["receipt_sha256"] for receipt in receipts])
     )
     comparison = _portfolio_comparison(receipts)
-    decision_ledger = DecisionRuleLedger()
+    decision_ledger = DecisionRuleLedger(node_limit=DECISION_NODE_LIMIT)
     rule = decision_ledger.commit(decision_proposal)
     true_application = _execute_portfolio_rule(
         rule,
@@ -228,7 +230,7 @@ def rendered_portfolio_prompt(
     repo: Path, task: dict[str, Any]
 ) -> tuple[str, dict[str, Any]]:
     acceptance = json.loads(
-        (repo / "spec/ot-0023-acceptance.json").read_text(encoding="utf-8")
+        (repo / ACCEPTANCE_PATH).read_text(encoding="utf-8")
     )
     ledger = consequence_ledger(
         [seed_consequence_entry(task)],

@@ -227,6 +227,12 @@ has a larger bounded expression than OT-0016's binary choice, a fresh 128-node,
 still-512-byte decision carrier on a new public task is a credible carrier
 falsifier. Raising unrelated selector depth or retrying OT-0023 is not.
 
+OT-0024 freezes that falsifier. The fresh relation requires retaining examples
+from both sequence halves, so early-only and late-only alternatives fail while
+a contrast-preserving alternative can pass. A synthetic 66-node rule proves the
+new 128-node carrier is necessary and sufficient under the unchanged 512-byte
+bound. Hosted portfolio output remains sealed until the separate run lock.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
