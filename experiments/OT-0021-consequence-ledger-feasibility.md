@@ -1,6 +1,6 @@
 # OT-0021 — Consequence-ledger carrier feasibility
 
-- **Status:** implementation freeze pending; actor output forbidden
+- **Status:** run lock frozen; public pilot authorized
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0020 invalidated E4 candidate
@@ -63,6 +63,11 @@ run-lock commit bind the public task, prompt, schema, trace projector, evaluator
 shared carrier, acceptance rule, backend pair, dependency/TLS identity, and
 successful OT-0020 inventory pilot. After output, the pilot is passed or failed
 as written and is not repaired.
+
+The clean protocol and implementation commit is
+`94c307ef61906c233ba9d0db1132740dd35f0b93`.
+`spec/ot-0021-run-lock.json` binds it and every listed runtime authority before
+the first hosted actor output.
 
 ## Results and decision
 
