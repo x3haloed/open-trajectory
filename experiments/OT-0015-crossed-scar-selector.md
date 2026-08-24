@@ -149,9 +149,10 @@ The protocol must preserve two independent estimands:
    and fixed selectors, compared with selector-change, self-evaluation, and
    identical-policy ablations.
 
-The **joint estimand** is the carrier-origin × selector-origin interaction after
-normalization. It is interpretable only after both marginal causal paths pass
-their own controls.
+The **joint estimand** is the carrier-origin × selector-origin interaction
+across the full factorial, with a confirmatory requirement that the effect
+survive serialization normalization. It is interpretable only after both
+marginal causal paths pass their own controls.
 
 ## Frozen protocol and acceptance gate
 
@@ -162,6 +163,9 @@ results exist, a machine-readable acceptance specification must freeze:
 - seed orientation, prompts, tools, controller code, task generator, encounter
   counts, regime order, active-inheritance and compute budgets;
 - candidate proposal/commit grammar without supplying useful selector modes;
+- whether and when the actor is informed of its carrier and selector branch,
+  with a blinded default and a separate prospectively justified disclosure
+  branch if condition awareness is itself under test;
 - carrier extraction, removal, translation, normalization, and placebo
   operations;
 - selector snapshot identity, deterministic application, change ablation,
