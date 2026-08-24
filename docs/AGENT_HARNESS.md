@@ -29,7 +29,7 @@ inheritance channel and make OT-1 uninterpretable.
        │ or initial projection    ┌──────────────┐
        └────────────────────────▶ │ substrate S  │
                                   └──────┬───────┘
-                                         │ immutable snapshot identity
+                                         │ content-addressed snapshot identity
                                          ▼
                                   ┌──────────────┐
                                   │ evidence     │
@@ -64,13 +64,16 @@ model, tool configuration, and resource budget. Raw events go directly to the
 external evidence store. Only normalized receipts and hashes enter Git.
 
 The run specification records whether the backend exposes an immutable model
-revision or only a drifting alias. A drifting alias is admissible for OT-0002
-harness development when declared, but it cannot support a promoted OT-1
-comparison whose target requires a frozen base model.
+revision, a directly receipted hosted deployment epoch, or only a drifting
+alias. An unreceipted drifting alias is admissible for harness development when
+declared but cannot support a promoted OT-1 comparison. A hosted epoch is
+admissible only under the frozen receipt, temporal-control, and evidence limits
+in `TARGET.md` and `docs/EVIDENCE.md`.
 
 `spec/encounter-run.schema.json` defines the reusable run contract.
 `spec/ot-0002-run.schema.json` adds the denied-network requirement, and
-`spec/ot-1-promoted-run.schema.json` adds the immutable-model requirement.
+`spec/ot-1-promoted-run.schema.json` requires either an immutable revision or a
+complete hosted deployment-epoch identity.
 
 ### Backend B — Codex as an MCP server
 
@@ -183,8 +186,9 @@ Each encounter produces external raw evidence and public manifests for:
 - encounter specification and task-input identities;
 - protocol-origin and clean implementation commits, acceptance-specification,
   dependency-lock, prompt, task-order, and evaluator identities;
-- actor backend, exact model revision and stability classification, backend-
-  issued thread identity digest, sandbox policy, tool/MCP inventory, and budgets;
+- actor backend, exact immutable revision or hosted deployment-epoch receipt and
+  stability classification, backend-issued thread identity digest, sandbox
+  policy, tool/MCP inventory, and budgets;
 - exact inheritance projection and substrate snapshot digests;
 - prospective predictions and timestamps/order;
 - permitted actions and world receipts;
@@ -212,6 +216,21 @@ pinned release and their byte identities must be recorded. Every prompt step
 in a run must emit a parseable receipt, and repeated receipts must match the
 frozen inventory digest. Completed `item/completed` events—not the abbreviated
 items in `turn/completed`—are authoritative for tool-call accounting.
+
+### Hosted deployment receipts
+
+Hosted-epoch runs use a separately pinned receipt patch. When the controller
+explicitly enables `OT_DEPLOYMENT_RECEIPT`, the client emits only prefixed JSON
+records for effective model, model-catalog ETag, and response identity. The
+controller ignores unrelated stderr for epoch interpretation, retains raw
+records privately, and publishes only allowlisted values and hashes. It also
+hashes the canonical `model/list` payload returned through app-server.
+
+Every actor turn must have one response identity and at least one effective-
+model receipt. The effective model and catalog ETag must remain stable across
+the original and reproduction, and both workers must observe the same catalog
+payload digest. These receipts identify the deployment epoch actually observed;
+they do not expose or imply an exact weight checkpoint.
 
 ## Promotion boundary
 

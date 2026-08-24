@@ -6,13 +6,17 @@ completed target.
 
 ## OT-1 — Contact-Causal Learning
 
-Across complete context resets, a frozen base model plus a candidate persistent
-substrate reduces held-out prediction error over causally connected encounters.
-The effect must exceed internally implemented, equal-budget no-persistence,
-verbatim-event, and naive-retrieval controls; survive structural holdouts and a
-regime shift; and disappear under a decisive substrate ablation. The promoted
-substrate must be invented and implemented within this program rather than
-adopting an existing agent-memory system as its foundation.
+Across complete context resets, a base model held fixed by either an immutable
+revision or a prospectively defined hosted deployment epoch, plus a candidate
+persistent substrate, reduces held-out prediction error over causally connected
+encounters. A hosted epoch must be directly receipted, remain identical across
+the original and reproduction, and use counterbalanced task execution within a
+bounded time window so temporal drift cannot systematically favor one
+condition. The effect must exceed internally implemented, equal-budget
+no-persistence, verbatim-event, and naive-retrieval controls; survive structural
+holdouts and a regime shift; and disappear under a decisive substrate ablation.
+The promoted substrate must be invented and implemented within this program
+rather than adopting an existing agent-memory system as its foundation.
 
 Exact scoring thresholds must be frozen in a machine-readable acceptance spec
 before candidate results are unsealed.
@@ -45,7 +49,8 @@ petition, covert-bypass, surrender, and post-promotion regime-shift controls.
 Every promoted result requires:
 
 - a frozen protocol and acceptance rule predating unsealed candidate results;
-- exact model, prompt, tool, code, task-order, and evaluator identities;
+- exact immutable model identity or exact hosted deployment-epoch receipt, plus
+  exact prompt, tool, code, task-order, and evaluator identities;
 - prospective predictions and independently retained outcome receipts;
 - content-addressed evidence manifests;
 - at least one clean reproduction;
@@ -55,4 +60,6 @@ Every promoted result requires:
 
 Only publicly reconstructible evidence can support an unqualified public
 reproducibility claim. Private evidence may support a narrower, explicitly
-labeled claim.
+labeled claim. A hosted deployment epoch can support only a privately
+reproducible, time-bounded claim and must not be described as an immutable
+checkpoint or exact-weight reproduction.

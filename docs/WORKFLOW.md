@@ -6,6 +6,12 @@ Create an experiment record before execution. State the hypothesis, causal
 mechanism, cheapest decisive falsifier, candidate, controls, task order,
 splits, scoring rule, resource budget, red-line review, and promotion gate.
 
+For a hosted deployment epoch, also freeze the receipt fields, receipt parser,
+maximum original-to-reproduction window, and counterbalanced condition order.
+Do not begin candidate execution until a sanitized pilot proves that every
+required receipt is observable. Any epoch change invalidates rather than
+splitting or retrospectively repairing the run.
+
 ## 2. Run privately
 
 Raw inputs, outputs, traces, and receipts go directly to the external evidence
@@ -40,4 +46,3 @@ cannot promote a complete-path claim.
 Never rewrite a failed experiment into a clean hindsight narrative. Add a new
 record, link the superseded evidence, state which premise changed, and preserve
 both manifests.
-

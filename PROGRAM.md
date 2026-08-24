@@ -11,6 +11,29 @@ prospective prediction or action
 → later held-out prediction or action
 ```
 
+## Learned program invariants
+
+Routine research must leave the host ordinarily usable. This property became
+explicit after OT-0013's local inference made interactive use impractical and
+the operator stopped the run. Large checkpoint acquisition and
+resource-saturating local inference are therefore exceptional paths requiring
+explicit authorization rather than default reproduction steps.
+
+## Evaluation-regime epochs
+
+- **E1 — immutable revision:** a promoted OT-1 comparison required an exact
+  immutable model revision. OT-0003 remains conditional under E1; OT-0012 and
+  OT-0013 remain invalid. Their dispositions are not reinterpreted.
+- **E2 — immutable revision or receipted hosted epoch:** beginning after
+  OT-0013 was terminated and classified, a new experiment may instead freeze a
+  hosted deployment epoch. It must receipt the requested and effective model, model
+  catalog identity, receipt implementation, and per-response identity; require
+  one unchanged epoch across original and reproduction; counterbalance
+  conditions against time; and finish inside a frozen time window. The fixed
+  scientific thresholds, independent world receipts, fresh-actor boundary,
+  privacy gate, and clean-reproduction requirement remain anchors and may not
+  regress. Hosted promotion is explicitly private and time-bounded.
+
 ## Program A — Contact-Causal Learning
 
 Build the evaluation harness before choosing a preferred learning substrate.

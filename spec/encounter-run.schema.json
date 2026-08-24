@@ -65,7 +65,43 @@
         "provider": { "type": "string", "minLength": 1, "maxLength": 128 },
         "name": { "type": "string", "minLength": 1, "maxLength": 128 },
         "revision": { "type": "string", "minLength": 1, "maxLength": 256 },
-        "stability": { "enum": ["immutable-revision", "drifting-alias"] }
+        "stability": {
+          "enum": [
+            "immutable-revision",
+            "hosted-deployment-epoch",
+            "drifting-alias"
+          ]
+        },
+        "deployment_epoch": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "requested_model",
+            "effective_model",
+            "catalog_etag_sha256",
+            "catalog_payload_sha256",
+            "receipt_protocol_sha256",
+            "response_receipts_sha256",
+            "response_count",
+            "condition_order_sha256",
+            "max_window_seconds",
+            "observed_window_seconds",
+            "epoch_consistent"
+          ],
+          "properties": {
+            "requested_model": { "type": "string", "minLength": 1, "maxLength": 128 },
+            "effective_model": { "type": "string", "minLength": 1, "maxLength": 128 },
+            "catalog_etag_sha256": { "$ref": "#/$defs/sha256" },
+            "catalog_payload_sha256": { "$ref": "#/$defs/sha256" },
+            "receipt_protocol_sha256": { "$ref": "#/$defs/sha256" },
+            "response_receipts_sha256": { "$ref": "#/$defs/sha256" },
+            "response_count": { "type": "integer", "minimum": 1 },
+            "condition_order_sha256": { "$ref": "#/$defs/sha256" },
+            "max_window_seconds": { "type": "integer", "minimum": 1 },
+            "observed_window_seconds": { "type": "number", "minimum": 0 },
+            "epoch_consistent": { "const": true }
+          }
+        }
       }
     },
     "reset": {

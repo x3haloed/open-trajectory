@@ -24,6 +24,25 @@ Classification is about the weakest indispensable input. A public summary of a
 private transcript remains `private-reproducible` unless the claim is rerun on
 public evidence.
 
+## Hosted deployment-epoch evidence
+
+A hosted model that exposes no immutable checkpoint may be held fixed only
+within a prospectively defined deployment epoch. The raw evidence must retain:
+
+- the requested model alias and every server-reported effective model;
+- the model-catalog payload digest and direct model-catalog ETag digest;
+- the exact client binary and receipt-patch identities;
+- a private response identifier for every actor turn, with only hashes or an
+  aggregate receipt digest entering tracked summaries;
+- the frozen original/reproduction window and counterbalanced condition order;
+- proof that the epoch fields stayed constant across both workers.
+
+The receipt is an operational identity for the observed deployment, not a
+claim about exact weights. A missing, malformed, or changing epoch field
+invalidates the run. This evidence is at most `private-reproducible`: it is
+time-bounded and cannot by itself support a public reconstruction recipe for
+the hosted deployment.
+
 ## Public manifest
 
 A manifest contains only:
@@ -95,4 +114,3 @@ Before every commit and in CI:
 This prevents new leaks. It cannot erase secrets already committed to Git
 history; any historical leak requires credential rotation when applicable and
 explicit history remediation before publication.
-

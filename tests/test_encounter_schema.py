@@ -101,12 +101,37 @@ class EncounterSchemaTests(unittest.TestCase):
         self.assert_valid(self.base_validator, instance)
         self.assert_invalid(self.ot0002_validator, instance)
 
-    def test_promoted_ot1_requires_immutable_model_revision(self) -> None:
+    def test_promoted_ot1_accepts_immutable_model_revision(self) -> None:
         self.assert_invalid(self.promoted_ot1_validator, self.valid)
         instance = copy.deepcopy(self.valid)
         instance["model"]["stability"] = "immutable-revision"
         instance["model"]["revision"] = "snapshot-0123456789abcdef"
         self.assert_valid(self.promoted_ot1_validator, instance)
+
+    def test_promoted_ot1_accepts_complete_hosted_deployment_epoch(self) -> None:
+        instance = copy.deepcopy(self.valid)
+        instance["model"]["stability"] = "hosted-deployment-epoch"
+        instance["model"]["revision"] = "receipted-deployment-epoch"
+        instance["model"]["deployment_epoch"] = {
+            "requested_model": "model-under-test",
+            "effective_model": "effective-model-under-test",
+            "catalog_etag_sha256": "1" * 64,
+            "catalog_payload_sha256": "2" * 64,
+            "receipt_protocol_sha256": "3" * 64,
+            "response_receipts_sha256": "4" * 64,
+            "response_count": 26,
+            "condition_order_sha256": "5" * 64,
+            "max_window_seconds": 1800,
+            "observed_window_seconds": 300.5,
+            "epoch_consistent": True,
+        }
+        self.assert_valid(self.promoted_ot1_validator, instance)
+
+    def test_promoted_ot1_rejects_incomplete_hosted_deployment_epoch(self) -> None:
+        instance = copy.deepcopy(self.valid)
+        instance["model"]["stability"] = "hosted-deployment-epoch"
+        instance["model"]["revision"] = "receipted-deployment-epoch"
+        self.assert_invalid(self.promoted_ot1_validator, instance)
 
 
 if __name__ == "__main__":

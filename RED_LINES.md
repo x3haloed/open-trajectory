@@ -16,6 +16,20 @@
   conversational continuity invalidates attribution to the candidate substrate.
 - Do not expose hidden world state, held-out answers, evaluator instructions,
   or sealed future receipts through the actor's workspace or MCP inventory.
+- Do not treat a requested hosted-model alias as a frozen base by itself. A
+  hosted promotion requires matching direct deployment receipts across the
+  original and reproduction plus a prospectively frozen temporal control.
+- Do not generalize a hosted deployment-epoch result to an immutable checkpoint,
+  exact weights, another catalog epoch, or an unbounded future deployment.
+
+## Host fitness
+
+- Routine experiments must preserve ordinary interactive use of the host.
+  Downloading large local checkpoints or running resource-saturating local
+  inference requires explicit operator authorization and a prospective resource
+  envelope.
+- An operator stop for host usability invalidates the run without converting
+  partial candidate outputs into scientific evidence.
 
 ## Privacy
 

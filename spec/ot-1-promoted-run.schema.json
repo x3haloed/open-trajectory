@@ -8,9 +8,19 @@
       "type": "object",
       "properties": {
         "model": {
-          "properties": {
-            "stability": { "const": "immutable-revision" }
-          }
+          "oneOf": [
+            {
+              "properties": {
+                "stability": { "const": "immutable-revision" }
+              }
+            },
+            {
+              "required": ["deployment_epoch"],
+              "properties": {
+                "stability": { "const": "hosted-deployment-epoch" }
+              }
+            }
+          ]
         }
       }
     }
