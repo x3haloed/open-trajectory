@@ -235,6 +235,11 @@ Initial sequence:
   instances. One recovered from nine to zero; the other reached seven and
   missed the frozen gate. Failed as frozen with no OT-1 or E4 authority; direct
   one-turn further correction is closed.
+- **OT-0031:** test a bounded propose–score–revise mechanism on OT-0030's
+  failed seven-error branch. Two independent branches each use fresh proposal
+  and revision actors separated by an exact completed-encounter loss receipt,
+  followed by a sealed future canary. This public loop is frozen and has no
+  OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

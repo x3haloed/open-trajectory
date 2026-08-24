@@ -349,6 +349,13 @@ one-turn reproducibility. Further one-shot continuations are closed. The
 remaining distinct learning hypothesis is bounded propose–score–revise on the
 completed encounter, followed by a separately sealed canary.
 
+OT-0031 freezes that mechanism on OT-0030's actual failed seven-error state.
+Each of two branches uses a fresh proposal actor, deterministic scoring on the
+completed encounter, and a separate fresh revision actor receiving only the
+named casebook and exact receipt. The future remains sealed. This directly
+tests whether feedback on an actor-authored candidate reduces synthesis
+variance, still without OT-1 or E4 authority.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

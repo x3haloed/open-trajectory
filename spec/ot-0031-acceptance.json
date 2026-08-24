@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0031",
+  "purpose": "public non-candidate bounded casebook propose-score-revise feasibility",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "actor_model": "gpt-5.6-luna",
+  "branch_count": 2,
+  "fresh_actor_encounters": 4,
+  "selection_limit": 6,
+  "minimum_source_errors_each": 6,
+  "maximum_final_errors_each": 2,
+  "minimum_future_advantage_each": 4,
+  "actor_tool_calls_allowed": 0,
+  "actor_parse_failures_allowed": 0,
+  "actor_input_tokens_total": 140000,
+  "actor_output_tokens_total": 14000,
+  "maximum_run_seconds": 300,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "promotion_gate": [
+    "the exact failed OT-0030 second revision, completed seven-error canary, two-branch four-encounter topology, proposal and revision prompts, exact candidate scoring, fresh sealed future, full transitive source chain, backend, resources, and run lock are frozen before output",
+    "each proposal and revision occurs in a fresh thread and workspace; continuity passes only through the named casebook, source projection, and exact completed-encounter candidate receipt",
+    "if a proposal scores above two completed errors, its final revision must be identity-distinct and strictly improve completed error; an already-valid proposal may be preserved",
+    "each final casebook changes source selection and prediction, scores at most two future errors, and gains at least four over the unchanged source",
+    "all four encounters use zero tools, exact Luna and inventory receipts, one Response identity each, global Response distinctness, one catalog ETag, and zero collector errors",
+    "all transitive source replay, receipt identity, parse, deterministic replay, identity, token, time, test, privacy, and evidence gates pass"
+  ],
+  "claim_limit": "development feasibility of a bounded propose-score-revise learning loop only; not OT-1 evidence and not E4 authorization"
+}

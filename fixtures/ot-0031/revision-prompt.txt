@@ -1,0 +1,13 @@
+Exact inherited state and completed-encounter consequences:
+{{SOURCE_PROJECTION}}
+
+Actor-authored probe casebook:
+{{CANDIDATE_CASEBOOK}}
+
+Controller score receipt for that probe on the completed encounter only:
+{{CANDIDATE_RECEIPT}}
+
+Author the final casebook before the sealed future exists. If the probe already
+satisfies the objective, it may be preserved; otherwise revise or replace it
+using its exact consequences. Return schema-conforming JSON only and state the
+expected effect and cheapest falsifier without claiming success.

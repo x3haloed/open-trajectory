@@ -1,0 +1,10 @@
+Minimize future held-out query prediction errors by revising or replacing the
+inherited casebook. The downstream controller selects the parity hypothesis
+with the fewest errors on retained events, breaking ties by fewer active
+features, mask identity, and bias.
+
+The casebook carrier uses one through eight distinct completed-encounter
+anchors with actor-authored four-Boolean masks, Hamming radii 0–4, and integer
+priorities -16–16. Matching priorities sum and retain the top six with stable
+sequence and identity ties. The controller owns exact matching, outcomes,
+scoring, and snapshot identity and supplies no useful casebook or future result.

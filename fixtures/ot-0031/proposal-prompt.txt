@@ -1,0 +1,8 @@
+Exact inherited state and completed-encounter consequences:
+{{SOURCE_PROJECTION}}
+
+Author one probe casebook before any candidate score or sealed future exists.
+The controller will score this probe only on the completed encounter and pass
+the exact receipt to a separate fresh revision actor. Return schema-conforming
+JSON only; state expected effect and cheapest falsifier without claiming
+success.
