@@ -173,6 +173,9 @@ Initial sequence:
 - **OT-0020:** replay the unchanged OT-0016 mechanism under E4. Invalidated by
   one worker timeout; the complete worker independently failed the temporal and
   comparative behavioral gates. Do not retry it.
+- **OT-0021:** test whether a bounded append-only projection of completed raw
+  encounters and prior actor-authored selector consequences is a feasible
+  carrier on a public non-candidate slice. It has no OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

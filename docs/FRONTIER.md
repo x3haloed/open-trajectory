@@ -174,6 +174,15 @@ prospective controller checkpoint for fresh E4 authorization plus a noncandidate
 feasibility slice of a richer consequence projection; it is not a retry of
 OT-0020.
 
+OT-0021 freezes that non-candidate slice. Its append-only consequence ledger
+contains only completed raw encounters, independently released outcomes,
+deterministic prediction errors, and prior selector identities. A tracked
+public task and two fresh Luna encounters test whether this richer carrier can
+produce bounded useful challengers without exposing the sealed pilot split or
+supplying a strategy menu. Passing would establish development feasibility
+only; a separate fresh E4 checkpoint would still be required before any
+candidate run.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

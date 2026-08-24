@@ -29,3 +29,6 @@ Current unexecuted protocol drafts:
   — invalidated E4 live successor preserving OT-0016's actor-authored mechanism;
   one worker completed with a negative behavioral result and one timed out, so
   no retry or promotion is permitted.
+- [`OT-0021-consequence-ledger-feasibility.md`](OT-0021-consequence-ledger-feasibility.md)
+  — frozen public non-candidate pilot of an append-only raw consequence ledger;
+  it tests carrier feasibility only and cannot promote OT-1 or authorize E4.
