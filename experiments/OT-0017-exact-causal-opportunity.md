@@ -115,6 +115,35 @@ construction feasibility and permits a separately frozen 64-task fresh heldout
 anchor study. It does not promote E4, authorize a candidate actor, or reuse any
 feasibility task in promotion evidence.
 
+## Prospective fresh anchor and E4 promotion study
+
+After a passing feasibility result, construct exactly 64 tasks from a new
+master seed in one uninterrupted controller-only bundle. Load the private
+feasibility receipt solely as an exclusion set: no semantic fingerprint or
+private rule profile may recur. All 64 bases must pass the inherited schema,
+planned-path replay, exact-witness replay, per-stage split separation, the
+existing construction-cost limits, and semantic and rule-profile uniqueness.
+
+For every base, run two authority-preserving placebos. Replace only opaque event
+identities, and separately reverse query/outcome order within each split. Both
+placebos must preserve the complete fixed-control error grid and exact-witness
+signature on all 64 tasks. Then run three valid-schema structural ablations:
+
+- swap the stage-2 underdetermined-selection block with its identifying recent
+  block;
+- swap the stage-4 clean nearest block with its harmful recent block; and
+- move six clean negative stage-5 events into the recent suffix.
+
+Every ablation must break the planned path. For each ablation family, at most
+25% of tasks may retain any exact witness through an alternate path. This is a
+sensitivity control: an admission rule that survives removal of the causal
+opportunity it claims to measure is not calibrated enough for promotion.
+
+Passing every base, exclusion, diversity, cost, placebo, schema, planned-
+ablation, and exact-ablation gate promotes E4 for one new candidate experiment.
+Failure preserves E3 as the last accepted regime and returns to evaluator
+development; thresholds and ablations may not be changed after unsealing.
+
 ## Results and decision
 
 The frozen study rejected simple unconditioned sampling. All 256 generated

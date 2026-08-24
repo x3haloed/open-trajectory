@@ -13,6 +13,7 @@ from open_trajectory_harness.ot0017_regime import (
     construction_penalty,
     find_exact_witness,
     summarize,
+    summarize_anchor_study,
     summarize_construction,
     summarize_direct_construction,
 )
@@ -165,6 +166,60 @@ class OT0017RegimeTests(unittest.TestCase):
         self.assertFalse(result["viable"])
         self.assertEqual(result["observations"]["completed_witnesses"], 0)
         self.assertTrue(result["gates"]["trial_count"])
+
+    def anchor_receipts(self) -> list[dict]:
+        return [
+            {
+                "success": True,
+                "evaluations": 10,
+                "semantic_fingerprint": f"semantic-{index}",
+                "rule_profile": f"rule-{index}",
+                "excluded_semantic_collision": False,
+                "excluded_rule_collision": False,
+                "split_queries_separated": True,
+                "schema_valid": True,
+                "planned_witness": {"passes": True},
+                "anchor_analysis": {
+                    "base_exact_witness": True,
+                    "placebos": {
+                        name: {
+                            "schema_valid": True,
+                            "error_grid_invariant": True,
+                            "witness_invariant": True,
+                        }
+                        for name in ("event_identity", "query_order")
+                    },
+                    "ablations": {
+                        name: {
+                            "schema_valid": True,
+                            "planned_path_passes": False,
+                            "exact_witness": False,
+                        }
+                        for name in (
+                            "stage_2_pre_harm",
+                            "stage_4_harm_correction",
+                            "stage_5_canary",
+                        )
+                    },
+                },
+            }
+            for index in range(64)
+        ]
+
+    def test_anchor_gate_promotes_only_complete_sensitive_bundle(self) -> None:
+        result = summarize_anchor_study(self.anchor_receipts())
+        self.assertTrue(result["promote_e4"])
+        self.assertTrue(all(result["gates"].values()))
+
+    def test_anchor_gate_rejects_insensitive_exact_witness(self) -> None:
+        receipts = self.anchor_receipts()
+        for receipt in receipts[:17]:
+            receipt["anchor_analysis"]["ablations"]["stage_2_pre_harm"][
+                "exact_witness"
+            ] = True
+        result = summarize_anchor_study(receipts)
+        self.assertFalse(result["promote_e4"])
+        self.assertFalse(result["gates"]["stage_2_pre_harm_exact_sensitivity"])
 
 
 if __name__ == "__main__":

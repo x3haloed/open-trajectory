@@ -62,6 +62,8 @@ DIRECT_CONSTRUCTION_GATE = {
     "maximum_mean_evaluations": 5_000,
     "maximum_p95_evaluations": 10_000,
 }
+ANCHOR_TASKS = 64
+ANCHOR_MAX_ABLATION_WITNESS_FRACTION = 0.25
 
 
 def control_tables(manifest: dict[str, Any], limit: int = 6) -> list[dict[str, Any]]:
@@ -902,6 +904,293 @@ def run_direct_construction_study(
     }
 
 
+def _error_grid(tables: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    return [
+        {
+            condition: {
+                split: table["conditions"][condition][split]["errors"]
+                for split in ("contact", "heldout")
+            }
+            for condition in FIXED_CONDITIONS
+        }
+        for table in tables
+    ]
+
+
+def _witness_signature(witness: dict[str, Any] | None) -> dict[str, Any] | None:
+    if witness is None:
+        return None
+    return {
+        "proposals": witness["proposals"],
+        "chains": witness["chains"],
+        "lineage_errors": witness["lineage_errors"],
+        "fixed_totals": witness["fixed_totals"],
+        "gates": witness["gates"],
+        "passes": witness["passes"],
+    }
+
+
+def _validate_inherited(manifest: dict[str, Any]) -> None:
+    inherited = dict(manifest)
+    inherited["experiment_id"] = "OT-0004"
+    validate_task_manifest(inherited)
+
+
+def _identity_placebo(manifest: dict[str, Any]) -> dict[str, Any]:
+    placebo = copy.deepcopy(manifest)
+    for stage_index, stage in enumerate(placebo["stages"]):
+        for event_index, event in enumerate(stage["events"]):
+            event["event_id"] = f"event-placebo-{stage_index}-{event_index:02d}"
+    return placebo
+
+
+def _query_order_placebo(manifest: dict[str, Any]) -> dict[str, Any]:
+    placebo = copy.deepcopy(manifest)
+    for stage in placebo["stages"]:
+        for split in ("contact", "heldout"):
+            stage[split]["queries"].reverse()
+            stage[split]["outcomes"].reverse()
+    return placebo
+
+
+def _swap_stage_blocks(
+    manifest: dict[str, Any], stage_index: int, left_start: int, right_start: int
+) -> dict[str, Any]:
+    ablated = copy.deepcopy(manifest)
+    events = ablated["stages"][stage_index]["events"]
+    left = events[left_start : left_start + 6]
+    right = events[right_start : right_start + 6]
+    if len(left) != 6 or len(right) != 6:
+        raise ValueError("structural ablation requires two six-event blocks")
+    events[left_start : left_start + 6] = right
+    events[right_start : right_start + 6] = left
+    _renumber_events(ablated)
+    return ablated
+
+
+def _stage_five_negative_suffix(manifest: dict[str, Any]) -> dict[str, Any]:
+    ablated = copy.deepcopy(manifest)
+    stage = ablated["stages"][5]
+    outcomes = _outcomes(ablated, 5, [event["features"] for event in stage["events"]])
+    selected = [
+        event for event, outcome in zip(stage["events"], outcomes) if outcome == 0
+    ][:6]
+    if len(selected) != 6:
+        raise ValueError("stage-5 ablation lacks six negative events")
+    selected_ids = {event["event_id"] for event in selected}
+    stage["events"] = [
+        event for event in stage["events"] if event["event_id"] not in selected_ids
+    ] + selected
+    _renumber_events(ablated)
+    return ablated
+
+
+def analyze_anchor_manifest(manifest: dict[str, Any]) -> dict[str, Any]:
+    _validate_inherited(manifest)
+    base_tables = control_tables(manifest)
+    base_witness = find_exact_witness(base_tables)
+    base_signature = _witness_signature(base_witness)
+    base_grid = _error_grid(base_tables)
+
+    placebos = {}
+    for name, placebo in (
+        ("event_identity", _identity_placebo(manifest)),
+        ("query_order", _query_order_placebo(manifest)),
+    ):
+        _validate_inherited(placebo)
+        tables = control_tables(placebo)
+        placebos[name] = {
+            "schema_valid": True,
+            "error_grid_invariant": _error_grid(tables) == base_grid,
+            "witness_invariant": _witness_signature(find_exact_witness(tables))
+            == base_signature,
+        }
+
+    ablated_manifests = {
+        "stage_2_pre_harm": _swap_stage_blocks(manifest, 2, 12, 18),
+        "stage_4_harm_correction": _swap_stage_blocks(manifest, 4, 12, 18),
+        "stage_5_canary": _stage_five_negative_suffix(manifest),
+    }
+    ablations = {}
+    for name, ablated in ablated_manifests.items():
+        _validate_inherited(ablated)
+        tables = control_tables(ablated)
+        planned = _path_summary(
+            _evaluate_path(tables, CONSTRUCTION_PLAN), tables, SCORING
+        )
+        witness = find_exact_witness(tables)
+        ablations[name] = {
+            "schema_valid": True,
+            "planned_path_passes": planned["passes"],
+            "exact_witness": witness is not None,
+            "witness_signature": _witness_signature(witness),
+        }
+    return {
+        "base_exact_witness": base_witness is not None,
+        "base_witness_signature": base_signature,
+        "placebos": placebos,
+        "ablations": ablations,
+    }
+
+
+def summarize_anchor_study(receipts: list[dict[str, Any]]) -> dict[str, Any]:
+    if not receipts:
+        raise ValueError("anchor study requires receipts")
+    successes = [receipt for receipt in receipts if receipt["success"]]
+    analyses = [receipt["anchor_analysis"] for receipt in successes]
+    evaluations = sorted(receipt["evaluations"] for receipt in receipts)
+    p95_index = max(0, (95 * len(evaluations) + 99) // 100 - 1)
+    mean_evaluations = sum(evaluations) / len(evaluations)
+    semantic = {receipt["semantic_fingerprint"] for receipt in successes}
+    rules = {receipt["rule_profile"] for receipt in successes}
+    ablation_names = (
+        "stage_2_pre_harm",
+        "stage_4_harm_correction",
+        "stage_5_canary",
+    )
+    ablation_survivors = {
+        name: sum(analysis["ablations"][name]["exact_witness"] for analysis in analyses)
+        for name in ablation_names
+    }
+    denominator = len(analyses) or 1
+    ablation_fractions = {
+        name: survivors / denominator for name, survivors in ablation_survivors.items()
+    }
+    gates = {
+        "task_count": len(receipts) == ANCHOR_TASKS,
+        "base_success_count": len(successes) == ANCHOR_TASKS,
+        "no_feasibility_semantic_reuse": all(
+            not receipt["excluded_semantic_collision"] for receipt in successes
+        ),
+        "no_feasibility_rule_reuse": all(
+            not receipt["excluded_rule_collision"] for receipt in successes
+        ),
+        "unique_semantic_manifests": len(semantic) == len(successes),
+        "unique_rule_profiles": len(rules) == len(successes),
+        "split_query_separation": all(
+            receipt["split_queries_separated"] for receipt in successes
+        ),
+        "inherited_schema": all(receipt["schema_valid"] for receipt in successes),
+        "planned_witnesses": all(
+            receipt["planned_witness"]["passes"] for receipt in successes
+        ),
+        "exact_witnesses": all(analysis["base_exact_witness"] for analysis in analyses),
+        "mean_evaluations": mean_evaluations
+        <= DIRECT_CONSTRUCTION_GATE["maximum_mean_evaluations"],
+        "p95_evaluations": evaluations[p95_index]
+        <= DIRECT_CONSTRUCTION_GATE["maximum_p95_evaluations"],
+        "evaluation_budget": max(evaluations) <= DIRECT_CONSTRUCTION_MAX_EVALUATIONS,
+        "event_identity_placebo": all(
+            analysis["placebos"]["event_identity"]["schema_valid"]
+            and analysis["placebos"]["event_identity"]["error_grid_invariant"]
+            and analysis["placebos"]["event_identity"]["witness_invariant"]
+            for analysis in analyses
+        ),
+        "query_order_placebo": all(
+            analysis["placebos"]["query_order"]["schema_valid"]
+            and analysis["placebos"]["query_order"]["error_grid_invariant"]
+            and analysis["placebos"]["query_order"]["witness_invariant"]
+            for analysis in analyses
+        ),
+        "ablation_schema": all(
+            analysis["ablations"][name]["schema_valid"]
+            for analysis in analyses
+            for name in ablation_names
+        ),
+        "planned_ablation_sensitivity": all(
+            not analysis["ablations"][name]["planned_path_passes"]
+            for analysis in analyses
+            for name in ablation_names
+        ),
+        **{
+            f"{name}_exact_sensitivity": fraction
+            <= ANCHOR_MAX_ABLATION_WITNESS_FRACTION
+            for name, fraction in ablation_fractions.items()
+        },
+    }
+    return {
+        "schema_version": 1,
+        "experiment_id": EXPERIMENT_ID,
+        "purpose": "controller-only fresh E4 promotion anchors",
+        "candidate_outputs_present": False,
+        "anchor_gate": {
+            "tasks": ANCHOR_TASKS,
+            "maximum_ablation_witness_fraction": ANCHOR_MAX_ABLATION_WITNESS_FRACTION,
+            "construction": DIRECT_CONSTRUCTION_GATE,
+        },
+        "observations": {
+            "base_success_count": len(successes),
+            "mean_evaluations": mean_evaluations,
+            "p95_evaluations": evaluations[p95_index],
+            "maximum_evaluations": max(evaluations),
+            "unique_semantic_manifests": len(semantic),
+            "unique_rule_profiles": len(rules),
+            "ablation_exact_witness_survivors": ablation_survivors,
+            "ablation_exact_witness_fractions": ablation_fractions,
+        },
+        "gates": gates,
+        "promote_e4": all(gates.values()),
+    }
+
+
+def run_anchor_study(
+    *,
+    tasks: int = ANCHOR_TASKS,
+    master_seed: str | None = None,
+    excluded_semantic: set[str],
+    excluded_rules: set[str],
+) -> dict[str, Any]:
+    if tasks <= 0:
+        raise ValueError("anchor task count must be positive")
+    master_seed = master_seed or secrets.token_hex(16)
+    task_seeds = [
+        hashlib.sha256(f"{master_seed}:anchor:{index}".encode()).hexdigest()[:32]
+        for index in range(tasks)
+    ]
+    receipts = []
+    for seed in task_seeds:
+        item = construct_direct_manifest(seed)
+        receipt = {"manifest": item["manifest"], **item["receipt"]}
+        receipt["excluded_semantic_collision"] = (
+            receipt["semantic_fingerprint"] in excluded_semantic
+            if receipt["success"]
+            else False
+        )
+        receipt["excluded_rule_collision"] = (
+            receipt["rule_profile"] in excluded_rules if receipt["success"] else False
+        )
+        receipt["anchor_analysis"] = (
+            analyze_anchor_manifest(receipt["manifest"]) if receipt["success"] else None
+        )
+        receipts.append(receipt)
+    return {
+        "schema_version": 1,
+        "experiment_id": EXPERIMENT_ID,
+        "study": "fresh-direct-construction-e4-anchors-v1",
+        "candidate_outputs_present": False,
+        "master_seed": master_seed,
+        "excluded_feasibility_counts": {
+            "semantic_fingerprints": len(excluded_semantic),
+            "rule_profiles": len(excluded_rules),
+        },
+        "receipts": receipts,
+        "summary": summarize_anchor_study(receipts),
+    }
+
+
+def load_feasibility_exclusions(path: Path) -> tuple[set[str], set[str]]:
+    study = json.loads(path.read_text(encoding="utf-8"))
+    receipts = study.get("receipts")
+    if not isinstance(receipts, list) or not receipts:
+        raise ValueError("feasibility exclusion artifact has no receipts")
+    successful = [receipt for receipt in receipts if receipt.get("success")]
+    semantic = {receipt["semantic_fingerprint"] for receipt in successful}
+    rules = {receipt["rule_profile"] for receipt in successful}
+    if not semantic or not rules:
+        raise ValueError("feasibility exclusion artifact has no successful identities")
+    return semantic, rules
+
+
 def _mutate_manifest(manifest: dict[str, Any], rng: random.Random) -> dict[str, Any]:
     changed = copy.deepcopy(manifest)
     stage_index = rng.randrange(6)
@@ -1130,17 +1419,28 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--mode",
-        choices=("incidence", "construction", "direct-construction"),
+        choices=("incidence", "construction", "direct-construction", "anchor"),
         default="incidence",
     )
     parser.add_argument("--samples", type=int, default=SAMPLES)
     parser.add_argument("--seed")
+    parser.add_argument("--exclude-feasibility", type=Path)
     parser.add_argument("--output", type=Path, required=True)
     args = parser.parse_args(argv)
     if args.mode == "construction":
         result = run_construction_study(args.samples)
     elif args.mode == "direct-construction":
         result = run_direct_construction_study(args.samples, args.seed)
+    elif args.mode == "anchor":
+        if args.exclude_feasibility is None:
+            parser.error("--exclude-feasibility is required in anchor mode")
+        semantic, rules = load_feasibility_exclusions(args.exclude_feasibility)
+        result = run_anchor_study(
+            tasks=args.samples,
+            master_seed=args.seed,
+            excluded_semantic=semantic,
+            excluded_rules=rules,
+        )
     else:
         result = run_study(args.samples)
     args.output.parent.mkdir(parents=True, exist_ok=True)
