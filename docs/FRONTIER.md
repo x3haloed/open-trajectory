@@ -124,6 +124,14 @@ actor-blinded world generation subject to the exact opportunity witness,
 followed by a fresh controller-only heldout promotion bundle before any new
 candidate experiment.
 
+The first bounded mutation constructor then found exact witnesses in 11 of 16
+independent trials, proving that the inherited schema can express the required
+opportunities, but failed its frozen feasibility gate. Five trials exhausted
+20,000 evaluations; mean cost was 12,446 and p95 was 20,000 against limits of
+5,000 and 10,000. Repeating or loosening that search is closed. The remaining
+credible evaluator path is direct constraint synthesis for the same private
+pressure path, followed by new-seed construction and heldout promotion studies.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -150,10 +158,11 @@ temporal chain feasible without encoding a candidate strategy.
 Observed: the accepted OT-0016 task could not satisfy that chain even for a
 hidden fixed-control oracle, and none of 256 fresh inherited worlds contained a
 complete witness.
-Uncertain: whether constructive actor-blinded world generation can satisfy the
-exact witness at acceptable cost without making the task reconstructive.
+Uncertain: whether direct constraint synthesis can preserve task diversity and
+actor blindness while reducing exact-witness construction cost enough for a
+fresh heldout promotion study.
 Evidence: the sealed OT-0016 run, its valid rejection summary, the replay over
-that task, and OT-0017's frozen controller-only incidence study.
+that task, OT-0017's frozen incidence study, and its 11/16 constructive pilot.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

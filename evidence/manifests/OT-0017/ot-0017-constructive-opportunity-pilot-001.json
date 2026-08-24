@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0017-constructive-opportunity-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 672368,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cc3a2b62ce2f190cfacbc63ed2834d41f0291ff3",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0017",
+  "input_manifests": [],
+  "kind": "constructive-exact-opportunity-feasibility-pilot",
+  "limitations": [
+    "Controller-only construction pilot; no candidate actor outputs or OT-1 evidence.",
+    "Eleven of sixteen tasks completed exact witnesses, but the frozen success and cost gates failed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0017-constructive-opportunity-pilot-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0017_regime --mode construction --samples 16 --output $EVIDENCE/ot0017/constructive-opportunity-pilot-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "afa2bf36adc5f8f6f893f6b6b46d0ccdf585f94a069887357273925096225d02"
+}

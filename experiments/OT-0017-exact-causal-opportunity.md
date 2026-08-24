@@ -1,6 +1,6 @@
 # OT-0017 — Exact causal-opportunity evaluation checkpoint
 
-- **Status:** incidence study rejected; constructive challenger pending
+- **Status:** mutation constructor rejected; direct synthesis pending
 - **Evidence class:** exploratory-only
 - **Evaluation transition:** E3 → E4 candidate
 - **Candidate actor outputs:** forbidden
@@ -103,6 +103,23 @@ witness, followed by a separately frozen construction-cost study and a fresh
 heldout anchor bundle. Relaxing the witness or repeatedly sampling the inherited
 generator is not credible.
 
+The frozen constructive pilot also rejected the bounded mutation constructor
+as written. Eleven of sixteen independently seeded trials produced unique exact
+witnesses, establishing that constructible actor-blinded worlds exist within
+the inherited schema. Five trials exhausted their 20,000-evaluation budgets.
+Across all trials, mean cost was 12,446 evaluations and p95 was 20,000, far
+above the frozen 5,000 and 10,000 limits. The trial-count, uniqueness, witness-
+replay, and absolute budget checks passed; success count and both efficiency
+gates failed.
+
+This is a search-algorithm rejection, not an exact-witness rejection. The
+mutation pilot is closed without threshold changes or more trials. Its partial
+success supplies a concrete cheapest next falsifier: replace stochastic
+discovery with direct constraint synthesis for the same private pressure path,
+then test that constructor on new seeds and a fresh heldout anchor bundle.
+
 ## Evidence manifest
 
 `evidence/manifests/OT-0017/ot-0017-exact-opportunity-incidence-001.json`
+
+`evidence/manifests/OT-0017/ot-0017-constructive-opportunity-pilot-001.json`
