@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0044",
+  "protocol_origin_git_commit": "c5aacf62325a0c6e70ba14e7ff540dda084a1457",
+  "implementation_git_commit": "c5aacf62325a0c6e70ba14e7ff540dda084a1457",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "f382fb650b54ac175b6b0fda38ac80ece6344a156667777e539e9b060431d055",
+    "calibration_harness_sha256": "7d7130d6b3c48136f73bc0c08338fedda6b155879211957041de42d2feab5026",
+    "controller_core_sha256": "00918dd39c665526f677513d4563ba3c9c2d0fb1bd632594836b938ceb5a0994",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "deterministic_evaluator_sha256": "e7ba596dd851868cb0b2b9e26cc644292cf4940be0b337eb0b6c6ac8a18f2640",
+    "e7_evaluator_sha256": "3e9df42a353fa243378b768272f0c1c24f999787d875226f4fe4481a653776a8",
+    "e7_manifest_sha256": "3909db076f82060fd1737f51e2af6ccb4007df007456c8c1df6ae4df0af2ae43",
+    "e9_calibration_core_sha256": "787ea5d10524936182106d835c5ee163fefd49ca74cdc99637041eb8b2631a5c",
+    "e9_manifest_sha256": "034af1d09be369e0072bc43fc31da26fa2e03c72a823555b9988850f1b77230f",
+    "entrypoint_sha256": "7b9128b979c509b3e53c1a7a2d4718ca7a021211e7227a6e6d619c084c4fb63f",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "goal_world_core_sha256": "129f20924739bb4379e86df45fd1bb411c0a4b1b7090c2560a201daeaaf2eec4",
+    "rejected_candidate_manifest_sha256": "ceef9c36f68578c8f38cd05998f826e13f0756d3bdf52330242fbaf3f7910427",
+    "sealed_evidence_io_sha256": "fbdd95218935cef4b90bb0de5f0667468a42cc7a174f63a8f59576eae989cdb1"
+  }
+}
