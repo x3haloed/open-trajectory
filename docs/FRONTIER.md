@@ -36,6 +36,9 @@ experiment records; they are no longer live implementation narration here.
 - `evidence/manifests/OT-0040/ot-0040-e8-hosted-schema-calibration-001.json`
   — rejected protocol calibration; revised schema passed twice, but the locked
   unpatched binary emitted no model-visible inventory receipts.
+- `evidence/manifests/OT-0041/ot-0041-e8b-patched-backend-calibration-001.json`
+  — promoted patched-backend protocol calibration; one fresh E8B candidate
+  authorized, but no candidate goal or OT-2 evidence.
 - `evidence/manifests/OT-0006/ot-0006-hosted-epoch-001.json` — private Program B
   infrastructure result; rejected as frozen and not OT-2 evidence.
 
@@ -145,6 +148,14 @@ Revised model: bind the historical patched executable bytes, not the version
 label; require exact inventories only on successful turns; and treat the
 negative turn's explicit application error as sufficient failure evidence.
 
+Expected for OT-0041: the historical patched executable would preserve the
+revised schema success, restore exact inventories, and capture application-
+level schema rejection without a secondary exception.
+Observed: every gate passed. Both positive turns returned the exact null-goal
+canary and three-tool inventory; both negative turns preserved the expected
+diagnostic and explicitly emitted inventories.
+Decision: promote E8B for exactly one fresh candidate.
+
 ## Active frontier
 
 OT-0038 completed the controller evaluator, but OT-0039 exposed an uncalibrated
@@ -167,10 +178,9 @@ authorized. The cheapest next slice is OT-0040 exact-backend calibration:
    selector rather than importing a new memory system or treating stored prose
    as OT-2.
 
-OT-0040 proved the revised exact schema but did not promote its regime. OT-0041
-must repeat the counterbalanced null-goal schema study with the previously
-calibrated patched binary. Positive turns must emit the exact three-tool
-inventory. Negative turns must preserve the structured application error
-without a secondary exception; their inventory may be explicitly present or
-absent. Only a clean pass may authorize one new candidate. OT-0039 and OT-0040
-remain fixed. The next experiment ID is OT-0041.
+OT-0041 passed and E8B authorizes one fresh OT-0042 candidate. It must retain
+OT-0039's complete OT-2 causal and control design, bind OT-0040's revised
+schema, use OT-0041's patched backend bytes and failure-safe collection, and
+derive a new task only after its clean implementation commit. OT-0039 is not
+retried; OT-0042 is a new candidate under a new task and epoch. The next
+experiment ID is OT-0042.

@@ -343,6 +343,8 @@ Initial sequence:
   the unpatched backend failed the frozen inventory gate.
 - **OT-0041:** repeat the protocol checkpoint with the historically calibrated
   patched binary and corrected application-error semantics.
+- **OT-0042:** execute the single fresh E8B self-authored durable-goal
+  candidate authorized by OT-0041.
 
 ## Program C — TAAA
 

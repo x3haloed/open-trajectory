@@ -1,0 +1,37 @@
+{
+  "artifact_id": "ot-0041-e8b-patched-backend-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 236253,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "74d88b749d3a0748248e90fed3108ed98c5698d5",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0041",
+  "input_manifests": [
+    "evidence/manifests/OT-0040/ot-0040-e8-hosted-schema-calibration-001.json",
+    "evidence/manifests/OT-0039/ot-0039-e7-self-authored-goal-candidate-001.json"
+  ],
+  "kind": "e8b-patched-backend-protocol-calibration",
+  "limitations": [
+    "This is hosted protocol calibration, not OT-2 evidence.",
+    "The canary emits no candidate goal or task output.",
+    "A pass authorizes at most one fresh E8B candidate.",
+    "The hosted deployment is time-bounded."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0041-e8b-patched-backend-calibration-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fab6952678919e989ab39cfa8cbf12145a7dfd9999173687b4430c2f0dd4ae12"
+}
