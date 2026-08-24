@@ -398,6 +398,7 @@ def construct_manifest(max_evaluations: int = CONSTRUCTION_MAX_EVALUATIONS) -> d
                 return {
                     "manifest": manifest,
                     "receipt": {
+                        "success": True,
                         "constructor": "bounded-stage-mutation-v1",
                         "seed": seed,
                         "evaluations": evaluations,
@@ -420,9 +421,19 @@ def construct_manifest(max_evaluations: int = CONSTRUCTION_MAX_EVALUATIONS) -> d
                 for _ in range(1 if rng.random() < 0.8 else 2):
                     candidate = _mutate_manifest(candidate, rng)
                 population.append(candidate)
-    raise RuntimeError(
-        f"constructive sampler exhausted {max_evaluations} evaluations; best penalty {best_penalty}"
-    )
+    return {
+        "manifest": None,
+        "receipt": {
+            "success": False,
+            "constructor": "bounded-stage-mutation-v1",
+            "seed": seed,
+            "evaluations": max_evaluations,
+            "maximum_evaluations": max_evaluations,
+            "planned_modes": CONSTRUCTION_PLAN,
+            "best_penalty": best_penalty,
+            "exact_witness": None,
+        },
+    }
 
 
 def summarize_construction(receipts: list[dict[str, Any]]) -> dict[str, Any]:
@@ -434,12 +445,15 @@ def summarize_construction(receipts: list[dict[str, Any]]) -> dict[str, Any]:
     identities = {
         json.dumps(receipt["manifest"], sort_keys=True, separators=(",", ":"))
         for receipt in receipts
+        if receipt["manifest"] is not None
     }
+    successes = [receipt for receipt in receipts if receipt["success"]]
     gates = {
-        "success_count": len(receipts) == CONSTRUCTION_GATE["required_successes"],
-        "unique_manifests": len(identities) == len(receipts),
+        "trial_count": len(receipts) == CONSTRUCTION_TASKS,
+        "success_count": len(successes) == CONSTRUCTION_GATE["required_successes"],
+        "unique_manifests": len(identities) == len(successes),
         "exact_witnesses": all(
-            receipt["exact_witness"]["passes"] for receipt in receipts
+            receipt["exact_witness"]["passes"] for receipt in successes
         ),
         "mean_evaluations": mean_evaluations
         <= CONSTRUCTION_GATE["maximum_mean_evaluations"],
@@ -454,7 +468,8 @@ def summarize_construction(receipts: list[dict[str, Any]]) -> dict[str, Any]:
         "candidate_outputs_present": False,
         "construction_gate": CONSTRUCTION_GATE,
         "observations": {
-            "success_count": len(receipts),
+            "success_count": len(successes),
+            "completed_witnesses": len(successes),
             "mean_evaluations": mean_evaluations,
             "p95_evaluations": evaluations[p95_index],
             "maximum_evaluations": max(evaluations),

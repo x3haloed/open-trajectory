@@ -13,6 +13,7 @@ from open_trajectory_harness.ot0017_regime import (
     construction_penalty,
     find_exact_witness,
     summarize,
+    summarize_construction,
 )
 
 
@@ -110,6 +111,21 @@ class OT0017RegimeTests(unittest.TestCase):
         inherited = dict(mutated)
         inherited["experiment_id"] = "OT-0004"
         validate_task_manifest(inherited)
+
+    def test_construction_failures_are_retained(self) -> None:
+        receipts = [
+            {
+                "success": False,
+                "evaluations": 20_000,
+                "manifest": None,
+                "exact_witness": None,
+            }
+            for _ in range(16)
+        ]
+        result = summarize_construction(receipts)
+        self.assertFalse(result["viable"])
+        self.assertEqual(result["observations"]["completed_witnesses"], 0)
+        self.assertTrue(result["gates"]["trial_count"])
 
 
 if __name__ == "__main__":
