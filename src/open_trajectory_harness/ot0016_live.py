@@ -28,7 +28,12 @@ from .ot0002 import (
     token_usage,
 )
 from .ot0003 import read_sealed_json, write_sealed_json
-from .ot0004_world import archive_through_stage, fixed_selection, score_predictions, selected_events
+from .ot0004_world import (
+    archive_through_stage,
+    fixed_selection,
+    score_predictions,
+    selected_events,
+)
 from .ot0005 import instrumented_command
 from .ot0005_world import (
     ProgramLedger,
@@ -55,6 +60,13 @@ PROXY_PATH = Path("src/open_trajectory_harness/deployment_proxy.py")
 TOOL_RECEIPT_PATCH_PATH = Path(
     "patches/codex-rust-v0.149.0-model-visible-tool-receipt.patch"
 )
+WORKER_MODULE = "open_trajectory_harness.ot0016_live"
+SERVICE_NAME = "open_trajectory_ot0016"
+ARTIFACT_KIND = "counterfactual-challenger-credit-hosted-epoch-run"
+EVIDENCE_LIMITATIONS = [
+    "The task, expressions, selections, actor events, reviews, ETag, and Response IDs remain private.",
+    "The result is limited to one constrained family and a time-bounded hosted epoch.",
+]
 
 
 def prepare_task_manifest(path: Path) -> dict[str, Any]:
@@ -108,7 +120,9 @@ def fixed_input_paths() -> dict[str, Path]:
     return paths
 
 
-def validate_run_lock(repo: Path, execution_commit: str, codex_bin: Path) -> dict[str, Any]:
+def validate_run_lock(
+    repo: Path, execution_commit: str, codex_bin: Path
+) -> dict[str, Any]:
     lock = load_json(repo / RUN_LOCK_PATH)
     for name in ("implementation_git_commit", "protocol_origin_git_commit"):
         commit = lock.get(name, "")
@@ -118,7 +132,9 @@ def validate_run_lock(repo: Path, execution_commit: str, codex_bin: Path) -> dic
             ["git", "merge-base", "--is-ancestor", commit, execution_commit], cwd=repo
         ).returncode:
             raise RuntimeError(f"frozen {name} is not an ancestor of execution HEAD")
-    observed = {name: sha256_file(repo / path) for name, path in fixed_input_paths().items()}
+    observed = {
+        name: sha256_file(repo / path) for name, path in fixed_input_paths().items()
+    }
     if lock.get("fixed_inputs") != observed:
         raise RuntimeError("frozen input identity differs from the OT-0016 run lock")
     protected = [str(path) for path in fixed_input_paths().values()]
@@ -177,7 +193,7 @@ def _actor_turn(
                 "features": {"apps": False, "plugins": False, "js_repl": False},
                 "web_search": "disabled",
             },
-            "serviceName": "open_trajectory_ot0016",
+            "serviceName": SERVICE_NAME,
         }
     )
     receipt_start = len(proxy.collector.snapshot())
@@ -203,7 +219,8 @@ def _actor_turn(
         "tool_calls": client.completed_turn_tool_calls(
             thread_id=thread["id"], turn_id=turn["id"]
         ),
-        "inventory_receipts": len(client.model_visible_tool_inventories()) - inventory_start,
+        "inventory_receipts": len(client.model_visible_tool_inventories())
+        - inventory_start,
         "deployment_receipts": receipts,
         "deployment_effective_models": sorted(
             {item["value"] for item in receipts if item["kind"] == "effective_model"}
@@ -239,7 +256,9 @@ def deterministic_branch(
             iteration_depth_limit=iteration_depth_limit,
         )
         program_sha256 = snapshot.sha256
-    predictions = deterministic_predictions(selected_events(archive, selected_ids), queries)
+    predictions = deterministic_predictions(
+        selected_events(archive, selected_ids), queries
+    )
     replay_ids = list(selected_ids)
     replay = deterministic_predictions(selected_events(archive, replay_ids), queries)
     errors, parse_error = score_predictions(predictions, outcomes)
@@ -284,7 +303,9 @@ def _proposal(value: Any) -> tuple[dict[str, str], dict[str, str]]:
     }
     if not isinstance(value, dict) or set(value) != expected:
         raise ValueError("challenger output failed exact schema authority check")
-    if any(not isinstance(value[name], str) or not value[name].strip() for name in expected):
+    if any(
+        not isinstance(value[name], str) or not value[name].strip() for name in expected
+    ):
         raise ValueError("challenger output contains invalid text")
     common = {
         "expected_effect": value["expected_effect"],
@@ -408,7 +429,9 @@ def execute_worker(
     acceptance = load_json(repo / ACCEPTANCE_PATH)
     task_order = load_json(repo / FIXTURE_ROOT / "task-order.json")
     seed = (repo / FIXTURE_ROOT / "selector-seed.txt").read_text(encoding="utf-8")
-    template = (repo / FIXTURE_ROOT / "challenger-prompt.txt").read_text(encoding="utf-8")
+    template = (repo / FIXTURE_ROOT / "challenger-prompt.txt").read_text(
+        encoding="utf-8"
+    )
     challenger_schema = load_json(repo / FIXTURE_ROOT / "challenger-output.schema.json")
     rubric = (repo / FIXTURE_ROOT / "novelty-rubric.txt").read_text(encoding="utf-8")
     novelty_schema = load_json(repo / FIXTURE_ROOT / "novelty-output.schema.json")
@@ -479,10 +502,16 @@ def execute_worker(
             ) as active_client:
                 client = active_client
                 models = client.request("model/list", {"includeHidden": False})["data"]
-                if not {actor_model, reviewer_model} <= {item.get("id") for item in models}:
-                    raise RuntimeError("one or more frozen OT-0016 models are unavailable")
+                if not {actor_model, reviewer_model} <= {
+                    item.get("id") for item in models
+                }:
+                    raise RuntimeError(
+                        "one or more frozen OT-0016 models are unavailable"
+                    )
                 catalog_payload_sha256 = sha256_bytes(canonical_json(models))
-                inventory_by_model: dict[str, list[list[dict[str, Any]]]] = defaultdict(list)
+                inventory_by_model: dict[str, list[list[dict[str, Any]]]] = defaultdict(
+                    list
+                )
 
                 for stage_index, phase in enumerate(task_order["phases"]):
                     stage = manifest["stages"][stage_index]
@@ -526,9 +555,13 @@ def execute_worker(
                         split_identity="contact",
                     )
                     true_application = execute_decision_rule(rule, comparison)
-                    neutralized_application = execute_credit_neutralized_rule(rule, comparison)
+                    neutralized_application = execute_credit_neutralized_rule(
+                        rule, comparison
+                    )
                     before = selector_ledger.current
-                    after = selector_ledger.decide_with_rule(challenger, comparison, rule)
+                    after = selector_ledger.decide_with_rule(
+                        challenger, comparison, rule
+                    )
                     commit = selector_ledger.decisions[-1]
 
                     branches: dict[str, dict[str, Any]] = {}
@@ -597,7 +630,9 @@ def execute_worker(
                     }
                     stage_records.append(record)
                     released_comparison = dict(comparison)
-                    released_comparison["released_heldout_outcomes"] = stage["heldout"]["outcomes"]
+                    released_comparison["released_heldout_outcomes"] = stage["heldout"][
+                        "outcomes"
+                    ]
                     prior_receipt = _next_receipt(
                         stage_index,
                         released_comparison,
@@ -616,7 +651,9 @@ def execute_worker(
                     committed = record["branches"]["committed-program"]
                     unchanged = record["branches"]["unchanged-current"]
                     true_choice = record["decision"]["true_application"]["choice"]
-                    neutralized_choice = record["decision"]["credit_neutralized_application"]["choice"]
+                    neutralized_choice = record["decision"][
+                        "credit_neutralized_application"
+                    ]["choice"]
                     if (
                         record["commit"]["changed"]
                         and unchanged["errors"] - committed["errors"] >= advantage_gate
@@ -627,8 +664,12 @@ def execute_worker(
                             {
                                 "stage": record["stage"],
                                 "proposal": proposal["selector"],
-                                "committed_selected_event_ids": committed["selected_event_ids"],
-                                "unchanged_selected_event_ids": unchanged["selected_event_ids"],
+                                "committed_selected_event_ids": committed[
+                                    "selected_event_ids"
+                                ],
+                                "unchanged_selected_event_ids": unchanged[
+                                    "selected_event_ids"
+                                ],
                                 "committed_errors": committed["errors"],
                                 "unchanged_errors": unchanged["errors"],
                                 "true_choice": true_choice,
@@ -649,7 +690,9 @@ def execute_worker(
                         f"novelty-review-{review_index + 1}",
                         rubric
                         + "\n\nBlinded controller packet:\n"
-                        + json.dumps(review_packet, sort_keys=True, separators=(",", ":")),
+                        + json.dumps(
+                            review_packet, sort_keys=True, separators=(",", ":")
+                        ),
                         novelty_schema,
                         reviewer_model,
                     )
@@ -664,7 +707,9 @@ def execute_worker(
                         or not isinstance(output["operation_summary"], str)
                         or not isinstance(output["seed_overlap"], str)
                     ):
-                        raise ValueError("novelty review failed exact output validation")
+                        raise ValueError(
+                            "novelty review failed exact output validation"
+                        )
                     reviews.append(output)
 
                 time.sleep(acceptance["resource_budget"]["proxy_drain_seconds"])
@@ -675,7 +720,8 @@ def execute_worker(
                         "sha256": sha256_bytes(encoded) if values else None,
                         "tool_count": len(values[0]) if values else 0,
                         "receipt_count": len(values),
-                        "stable": bool(values) and all(value == values[0] for value in values),
+                        "stable": bool(values)
+                        and all(value == values[0] for value in values),
                     }
                 deployment_receipts = proxy.collector.snapshot()
                 deployment_errors = proxy.collector.errors()
@@ -715,8 +761,12 @@ def execute_worker(
         "actor_results": actor_results,
         "proposals": proposals,
         "stage_records": stage_records,
-        "selector_snapshots": [snapshot.__dict__ for snapshot in selector_ledger.snapshots],
-        "decision_rule_snapshots": [snapshot.__dict__ for snapshot in decision_ledger.snapshots],
+        "selector_snapshots": [
+            snapshot.__dict__ for snapshot in selector_ledger.snapshots
+        ],
+        "decision_rule_snapshots": [
+            snapshot.__dict__ for snapshot in decision_ledger.snapshots
+        ],
         "identity_placebos": identity_placebos,
         "reviews": reviews,
         "direct_inventory_by_model": direct_inventory_by_model,
@@ -764,7 +814,7 @@ def run(
                 [
                     sys.executable,
                     "-m",
-                    "open_trajectory_harness.ot0016_live",
+                    WORKER_MODULE,
                     "--worker",
                     "--repo",
                     str(repo),
@@ -791,7 +841,9 @@ def run(
     deadline = started + window_limit
     for index, process in enumerate(processes, start=1):
         try:
-            stdout, stderr = process.communicate(timeout=max(0.1, deadline - time.monotonic()))
+            stdout, stderr = process.communicate(
+                timeout=max(0.1, deadline - time.monotonic())
+            )
         except subprocess.TimeoutExpired:
             process.terminate()
             stdout, stderr = process.communicate(timeout=10)
@@ -845,8 +897,16 @@ def run(
         text=True,
     )
     raw["execution_verification"] = {
-        "tests": {"returncode": test.returncode, "stdout": test.stdout, "stderr": test.stderr},
-        "audit": {"returncode": audit.returncode, "stdout": audit.stdout, "stderr": audit.stderr},
+        "tests": {
+            "returncode": test.returncode,
+            "stdout": test.stdout,
+            "stderr": test.stderr,
+        },
+        "audit": {
+            "returncode": audit.returncode,
+            "stdout": audit.stdout,
+            "stderr": audit.stderr,
+        },
     }
     raw["audit_and_tests"] = test.returncode == 0 and audit.returncode == 0
     raw_path = run_root / "run.json"
@@ -856,17 +916,14 @@ def run(
         input_path=raw_path,
         experiment_id=EXPERIMENT_ID,
         artifact_id=run_id,
-        kind="counterfactual-challenger-credit-hosted-epoch-run",
+        kind=ARTIFACT_KIND,
         evidence_class="private-reproducible",
         recipe=(
-            "PYTHONPATH=src python -m open_trajectory_harness.ot0016_live "
+            f"PYTHONPATH=src python -m {WORKER_MODULE} "
             f"--reconstruct $EVIDENCE/runs/{EXPERIMENT_ID}/{run_id}/run.json"
         ),
         public_url=None,
-        limitations=[
-            "The task, expressions, selections, actor events, reviews, ETag, and Response IDs remain private.",
-            "The result is limited to one constrained family and a time-bounded hosted epoch.",
-        ],
+        limitations=EVIDENCE_LIMITATIONS,
         input_manifests=[],
     )
     return manifest_path, combined_summary(raw)
@@ -887,17 +944,30 @@ def main(argv: list[str] | None = None) -> int:
     args = parser.parse_args(argv)
     repo = args.repo.resolve()
     if args.prepare_task_manifest:
-        print(json.dumps(prepare_task_manifest(args.prepare_task_manifest.resolve()), sort_keys=True))
+        print(
+            json.dumps(
+                prepare_task_manifest(args.prepare_task_manifest.resolve()),
+                sort_keys=True,
+            )
+        )
         return 0
     if args.reconstruct:
-        sys.stdout.buffer.write(canonical_json(combined_summary(load_json(args.reconstruct))))
+        sys.stdout.buffer.write(
+            canonical_json(combined_summary(load_json(args.reconstruct)))
+        )
         return 0
     if args.codex_bin is None or args.task_manifest is None:
         parser.error("--codex-bin and --task-manifest are required")
     try:
         if args.worker:
-            if args.worker_output is None or args.workspace_root is None or not args.worker_id:
-                parser.error("worker output, workspace root, and worker id are required")
+            if (
+                args.worker_output is None
+                or args.workspace_root is None
+                or not args.worker_id
+            ):
+                parser.error(
+                    "worker output, workspace root, and worker id are required"
+                )
             execute_worker(
                 repo=repo,
                 task_manifest_path=args.task_manifest.resolve(),
@@ -913,7 +983,11 @@ def main(argv: list[str] | None = None) -> int:
     except (AppServerError, OSError, RuntimeError, TimeoutError, ValueError) as error:
         print(f"ERROR: {error}", file=sys.stderr)
         return 2
-    print(json.dumps({"manifest": str(manifest.relative_to(repo)), "summary": summary}, indent=2))
+    print(
+        json.dumps(
+            {"manifest": str(manifest.relative_to(repo)), "summary": summary}, indent=2
+        )
+    )
     return 0
 
 

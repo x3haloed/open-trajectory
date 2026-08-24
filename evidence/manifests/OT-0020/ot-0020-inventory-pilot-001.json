@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0020-inventory-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3142,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "04c0eff321e1b441c114b5145ca09d397c46bb3d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0020",
+  "input_manifests": [],
+  "kind": "non-candidate-deployment-inventory-pilot",
+  "limitations": [
+    "Non-candidate deployment pilot only; no OT-1 behavior or task outcomes.",
+    "Rejected: the unpatched app-bundled backend emitted no direct model-visible inventory receipt."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0020-inventory-pilot-001",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0020_inventory --codex-bin $CHECKPOINT/codex --workspace-root $EVIDENCE/ot0020/inventory-pilot-001-workspaces --output $EVIDENCE/ot0020/inventory-pilot-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "11886ed5bac0853e18e09f4819a7816c08d3dbf4308db27341c42a0da774e23b"
+}

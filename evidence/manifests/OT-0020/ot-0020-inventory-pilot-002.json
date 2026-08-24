@@ -1,0 +1,32 @@
+{
+  "artifact_id": "ot-0020-inventory-pilot-002",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5972,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "04c0eff321e1b441c114b5145ca09d397c46bb3d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0020",
+  "input_manifests": [],
+  "kind": "non-candidate-deployment-inventory-pilot",
+  "limitations": [
+    "Non-candidate deployment pilot only; no OT-1 behavior or task outcomes.",
+    "The first pilot used an unpatched app bundle and emitted no direct inventory receipt; this receipt uses the preserved source-patched binary pair."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0020-inventory-pilot-002",
+    "recipe": "PYTHONPATH=src python -m open_trajectory_harness.ot0020_inventory --codex-bin $CHECKPOINT/codex --workspace-root $EVIDENCE/ot0020/inventory-pilot-002-workspaces --output $EVIDENCE/ot0020/inventory-pilot-002.json"
+  },
+  "schema_version": 1,
+  "sha256": "ec1c8f23e3aea9ecee7fa00158f2d593962dc92bee79340e487fea20ea41d4d1"
+}

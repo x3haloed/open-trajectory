@@ -18,7 +18,11 @@ FIXED_CONDITIONS = (
 
 def validate_counterbalance(task_order: dict[str, Any], expected_count: int) -> None:
     conditions = task_order.get("conditions")
-    if not isinstance(conditions, list) or len(conditions) != 6 or len(set(conditions)) != 6:
+    if (
+        not isinstance(conditions, list)
+        or len(conditions) != 6
+        or len(set(conditions)) != 6
+    ):
         raise ValueError("OT-0016 requires six distinct scored conditions")
     counts = {condition: Counter() for condition in conditions}
     phases = task_order.get("phases")
@@ -29,7 +33,11 @@ def validate_counterbalance(task_order: dict[str, Any], expected_count: int) -> 
         if not isinstance(orders, dict) or set(orders) != {"worker-1", "worker-2"}:
             raise ValueError("each OT-0016 stage requires two worker orders")
         for order in orders.values():
-            if not isinstance(order, list) or len(order) != 6 or set(order) != set(conditions):
+            if (
+                not isinstance(order, list)
+                or len(order) != 6
+                or set(order) != set(conditions)
+            ):
                 raise ValueError("OT-0016 condition order is not an exact permutation")
             for position, condition in enumerate(order):
                 counts[condition][position] += 1
@@ -44,7 +52,9 @@ def _all_true(value: Any) -> bool:
     return value is True
 
 
-def behavioral_worker_summary(worker: dict[str, Any], acceptance: dict[str, Any]) -> dict[str, Any]:
+def behavioral_worker_summary(
+    worker: dict[str, Any], acceptance: dict[str, Any]
+) -> dict[str, Any]:
     scoring = acceptance["scoring"]
     comparisons: list[dict[str, Any]] = []
     for record in worker["stage_records"]:
@@ -121,7 +131,8 @@ def behavioral_worker_summary(worker: dict[str, Any], acceptance: dict[str, Any]
     lineage_errors = sum(item["committed_errors"] for item in comparisons)
     fixed_errors = {
         condition: sum(
-            record["branches"][condition]["errors"] for record in worker["stage_records"]
+            record["branches"][condition]["errors"]
+            for record in worker["stage_records"]
         )
         for condition in FIXED_CONDITIONS
     }
@@ -130,7 +141,9 @@ def behavioral_worker_summary(worker: dict[str, Any], acceptance: dict[str, Any]
         "threads": len({item["thread_id"] for item in results}) == len(results),
         "workspaces": len({item["workspace"] for item in results}) == len(results),
     }
-    committed_count = sum(record["commit"]["changed"] for record in worker["stage_records"])
+    committed_count = sum(
+        record["commit"]["changed"] for record in worker["stage_records"]
+    )
     deterministic_branches = [
         branch
         for record in worker["stage_records"]
@@ -154,7 +167,8 @@ def behavioral_worker_summary(worker: dict[str, Any], acceptance: dict[str, Any]
         "decision_rule_chain": len(worker["decision_rule_snapshots"])
         == acceptance["world"]["stages"] + 1,
         "deterministic_replay": all(
-            branch.get("deterministic_replay") is True for branch in deterministic_branches
+            branch.get("deterministic_replay") is True
+            for branch in deterministic_branches
         ),
         "decision_replay": all(
             record["decision"][name].get("deterministic_replay") is True
@@ -169,7 +183,8 @@ def behavioral_worker_summary(worker: dict[str, Any], acceptance: dict[str, Any]
         "novelty_unanimity": len(worker["reviews"])
         == acceptance["novelty_review"]["fresh_blinded_reviews_per_worker"]
         and all(review.get("pass") is True for review in worker["reviews"]),
-        "lineage_absolute": lineage_errors <= scoring["committed_lineage_errors_allowed"],
+        "lineage_absolute": lineage_errors
+        <= scoring["committed_lineage_errors_allowed"],
         "lineage_comparative": all(
             errors - lineage_errors
             >= scoring["committed_lineage_advantage_over_each_fixed_control_required"]
@@ -214,7 +229,9 @@ def deployment_worker_summary(
         {item["value"] for item in receipts if item["kind"] == "effective_model"}
     )
     expected_models = sorted(acceptance["direct_inventory_by_model"])
-    etags = sorted({item["value"] for item in receipts if item["kind"] == "models_etag"})
+    etags = sorted(
+        {item["value"] for item in receipts if item["kind"] == "models_etag"}
+    )
     observed_inventories = worker["direct_inventory_by_model"]
     expected_inventories = acceptance["direct_inventory_by_model"]
     inventory_valid = set(observed_inventories) == set(expected_inventories)
@@ -254,7 +271,10 @@ def deployment_worker_summary(
         "counterbalanced_order": [
             record["heldout_condition_order"] for record in worker["stage_records"]
         ]
-        == [phase["condition_order"][worker["worker_id"]] for phase in task_order["phases"]],
+        == [
+            phase["condition_order"][worker["worker_id"]]
+            for phase in task_order["phases"]
+        ],
         "direct_inventory_by_model": inventory_valid,
     }
     return {
@@ -288,13 +308,17 @@ def combined_summary(raw: dict[str, Any]) -> dict[str, Any]:
         "worker_deployment_receipts": len(workers) == 2
         and all(worker["deployment_epoch"]["valid"] for worker in workers),
         "same_deployment_epoch": len(workers) == 2
-        and len({worker["deployment_epoch"]["epoch_identity_sha256"] for worker in workers})
+        and len(
+            {worker["deployment_epoch"]["epoch_identity_sha256"] for worker in workers}
+        )
         == 1,
         "same_task_manifest": raw.get("same_task_manifest", False),
         "two_worker_window": raw["two_worker_window_seconds"]
         <= raw["acceptance"]["deployment_epoch"]["maximum_two_worker_window_seconds"],
     }
-    reproduction = len(workers) == 2 and all(worker["behavioral_pass"] for worker in workers)
+    reproduction = len(workers) == 2 and all(
+        worker["behavioral_pass"] for worker in workers
+    )
     promotion = {
         "clean_predating_implementation": raw.get("implementation_clean", False),
         "original_behavioral_gates": bool(workers and workers[0]["behavioral_pass"]),
@@ -312,7 +336,7 @@ def combined_summary(raw: dict[str, Any]) -> dict[str, Any]:
         disposition = "conditional"
     return {
         "schema_version": 1,
-        "experiment_id": EXPERIMENT_ID,
+        "experiment_id": raw.get("experiment_id", EXPERIMENT_ID),
         "evaluation_epoch": raw["acceptance"]["evaluation_epoch"],
         "run_id": raw["run_id"],
         "implementation_git_commit": raw["implementation_git_commit"],
@@ -322,7 +346,10 @@ def combined_summary(raw: dict[str, Any]) -> dict[str, Any]:
         "validity_gates": validity,
         "promotion_gates": promotion,
         "disposition": disposition,
-        "evidence_horizon": "private, time-bounded, single constrained family OT-1 evidence only",
+        "evidence_horizon": raw["acceptance"].get(
+            "target_scope",
+            "private, time-bounded, single constrained family OT-1 evidence only",
+        ),
     }
 
 
