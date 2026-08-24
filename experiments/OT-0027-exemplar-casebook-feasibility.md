@@ -44,3 +44,8 @@ renew E4, or authorize a private candidate. Actor output is forbidden until a
 clean implementation commit and separate run-lock commit bind every authority.
 OT-0027 is not adjusted after output. A frozen failure closes direct exemplar-
 casebook feasibility as the next mechanism path.
+
+The clean protocol and implementation commit is
+`07212a8f313ab418638425c6a8cf347b2567fa60`.
+`spec/ot-0027-run-lock.json` binds it and every runtime authority before the
+first hosted actor output.
