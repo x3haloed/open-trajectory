@@ -1,6 +1,6 @@
 # OT-0023 — Actor-authored contrast-portfolio feasibility
 
-- **Status:** implementation freeze pending; actor output forbidden
+- **Status:** run lock frozen; public pilot authorized
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development feasibility only
 - **Predecessor:** OT-0022 failed single-challenger reproduction
@@ -46,6 +46,11 @@ forbidden until a clean implementation commit and separate run-lock commit bind
 the task, ledger, portfolio carrier, evaluator, prompt, schema, model,
 deployment, resources, and evidence lineage. OT-0023 is not adjusted after
 output.
+
+The clean protocol and implementation commit is
+`a7d9481184f2bcdde9cd295ea7eab9abc1fd5dc1`.
+`spec/ot-0023-run-lock.json` binds it and every runtime authority before the
+first hosted actor output.
 
 ## Results and decision
 
