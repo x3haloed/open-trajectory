@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0025",
+  "purpose": "public non-candidate structured-decision contrast-portfolio feasibility",
+  "target_promotion_authority": false,
+  "evaluation_epoch_authority": false,
+  "actor_model": "gpt-5.6-luna",
+  "fresh_actor_encounters": 2,
+  "actor_authored_alternatives_each": 3,
+  "actor_authored_decision_clauses_each": 3,
+  "minimum_distinct_selection_sets_each": 2,
+  "selector_expression_bytes_each": 2048,
+  "selector_expression_iteration_depth": 8,
+  "decision_threshold_minimum": -16,
+  "decision_threshold_maximum": 16,
+  "ledger_entry_limit": 5,
+  "ledger_byte_limit": 49152,
+  "minimum_error_advantage_each": 4,
+  "actor_tool_calls_allowed": 0,
+  "actor_parse_failures_allowed": 0,
+  "actor_input_tokens_total": 70000,
+  "actor_output_tokens_total": 7000,
+  "maximum_run_seconds": 300,
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "promotion_gate": [
+    "the fresh public task, unchanged three-alternative topology, exact structured decision-list carrier, prompt, scoring, backend, resources, and run lock are frozen before output",
+    "the actor authors every selector, clause order, alternative choice, threshold, and change requirement before paired comparison values exist; the controller performs exact interpretation only",
+    "each encounter yields three expression-distinct alternatives, at least two distinct deterministic selection sets, and a choice-permutation of three exact clauses",
+    "each structured rule chooses an alternative gaining at least four errors under true credit, chooses current under complete credit neutralization, and causes a changed commit",
+    "both encounters use fresh threads and workspaces, zero tools, exact Luna and inventory receipts, one Response identity per turn, cross-turn distinctness, one catalog ETag, and zero collector errors",
+    "all parse, deterministic replay, identity, token, time, test, privacy, and evidence gates pass"
+  ],
+  "claim_limit": "development feasibility only; not OT-1 evidence and not E4 authorization"
+}

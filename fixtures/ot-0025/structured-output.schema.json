@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["alternatives", "decision_clauses", "decision_expected_effect", "decision_cheapest_falsifier"],
+  "properties": {
+    "alternatives": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["selector_expression", "expected_effect", "cheapest_falsifier"],
+        "properties": {
+          "selector_expression": {"type": "string", "minLength": 1, "maxLength": 2048},
+          "expected_effect": {"type": "string", "minLength": 1, "maxLength": 512},
+          "cheapest_falsifier": {"type": "string", "minLength": 1, "maxLength": 512}
+        }
+      }
+    },
+    "decision_clauses": {
+      "type": "array",
+      "minItems": 3,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["choice", "minimum_error_advantage", "require_selection_changed", "require_prediction_changed"],
+        "properties": {
+          "choice": {"type": "string", "enum": ["alternative-0", "alternative-1", "alternative-2"]},
+          "minimum_error_advantage": {"type": "integer", "minimum": -16, "maximum": 16},
+          "require_selection_changed": {"type": "boolean"},
+          "require_prediction_changed": {"type": "boolean"}
+        }
+      }
+    },
+    "decision_expected_effect": {"type": "string", "minLength": 1, "maxLength": 512},
+    "decision_cheapest_falsifier": {"type": "string", "minLength": 1, "maxLength": 512}
+  }
+}

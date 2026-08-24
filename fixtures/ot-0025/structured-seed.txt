@@ -1,0 +1,19 @@
+Maintain a bounded portfolio of three pure selector-expression alternatives and
+one prospective structured decision list. Each selector uses the unchanged
+OT-0016 generic Python expression carrier over `events`, `queries`, and `limit`
+and must return exactly `limit` unique event_id strings. The three expressions
+must be textually distinct and each remains within 2,048 bytes and depth 8.
+
+The decision list contains exactly three clauses, one for each indexed
+alternative in actor-authored order. A clause supplies its choice, an integer
+minimum error advantage from -16 through 16, and Boolean requirements for
+changed selection and changed prediction. After all expressions and clauses
+seal, the controller evaluates clauses in order against paired comparison
+fields and chooses the first satisfied alternative; otherwise it keeps current.
+The controller does not reorder, rank, infer, or compile clause semantics.
+
+The actor authors every selector and every clause. The controller owns raw
+outcomes, paired comparisons, deterministic interpretation, complete credit
+neutralization, commits, snapshot identities, and final scores. A useful rule
+must choose an improving alternative under true credit and current when all
+error counts and advantages are neutralized.

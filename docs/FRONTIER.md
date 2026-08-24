@@ -243,6 +243,13 @@ remaining credible representation path is a bounded structured decision tree
 or decision list with exact controller interpretation and no prose-to-program
 semantic authority.
 
+OT-0025 freezes a three-clause decision list on a fresh XOR relation. The actor
+authors every clause field and every selector; the controller only checks the
+exact schema and evaluates clauses in actor order. Negative thresholds are
+allowed, so neutralized-current behavior is not built into the carrier. This is
+the last active public representation falsifier. If it fails as frozen, further
+carrier retries are closed without a materially different learning hypothesis.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not

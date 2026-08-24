@@ -196,6 +196,10 @@ Initial sequence:
   to 128 AST nodes. Failed before scoring: the first decision was 512 characters
   but 516 UTF-8 bytes and invalid syntax. Free-form multiway decision text is
   closed as the next carrier; the portfolio itself remains untested.
+- **OT-0025:** test that portfolio once with an exact structured decision list
+  whose clause order, choices, thresholds, and change predicates are all actor-
+  authored and directly interpreted. This is the last active public carrier
+  falsifier and has no OT-1 or E4 authority.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

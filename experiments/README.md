@@ -45,3 +45,6 @@ Current unexecuted protocol drafts:
   — failed fresh public portfolio pilot: three distinct selectors validated,
   but the first multiway decision was 516 UTF-8 bytes and invalid syntax,
   closing free-form decision text as the next carrier.
+- [`OT-0025-structured-portfolio-feasibility.md`](OT-0025-structured-portfolio-feasibility.md)
+  — frozen public non-candidate pilot of the same actor-authored selector
+  portfolio with an exact actor-authored three-clause decision list.
