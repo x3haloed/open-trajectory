@@ -1,0 +1,10 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["expression", "expected_effect", "cheapest_falsifier"],
+  "properties": {
+    "expression": { "type": "string", "minLength": 1, "maxLength": 2048 },
+    "expected_effect": { "type": "string", "minLength": 1, "maxLength": 384 },
+    "cheapest_falsifier": { "type": "string", "minLength": 1, "maxLength": 384 }
+  }
+}

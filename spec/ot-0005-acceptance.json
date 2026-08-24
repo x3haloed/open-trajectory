@@ -1,0 +1,122 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0005",
+  "evaluation_epoch": "E3",
+  "target": "OT-1 — Emergent Corrigible Inheritance Selection",
+  "claim": "Within one generated changing prediction family, independently scored consequences cause fresh actors to author and revise a controller-executed deterministic selection function that improves, later becomes harmful, is corrected, and retains capacity for another useful change.",
+  "target_scope": "Private, time-bounded, single-family OT-1 evidence only; no OT-2, OT-3, cross-domain, immutable-weight, or public-reconstruction claim.",
+  "seed_exclusions": [
+    "the initial expression is the null selector [] and contains no useful selection operation",
+    "the carrier exposes only generic raw fields, pure expression syntax, and safe total-function calls rather than strategy modes",
+    "no regime identity, order, transition, answer, or expected correction is actor-visible",
+    "the words and concepts abstraction, exception preservation, recency weighting, drift response, noise rejection, corroboration threshold, and confidence weighting are absent from selector-facing seed and update instructions"
+  ],
+  "candidate": {
+    "id": "actor-authored-controller-executed-expression-v1",
+    "expression_bytes": 2048,
+    "expression_ast_nodes": 512,
+    "expression_iteration_depth": 4,
+    "expression_timeout_seconds": 0.5,
+    "selected_events_per_prediction": 6,
+    "proposal_authority": "fresh selector-update actor",
+    "commit_and_execution_authority": "controller",
+    "outcome_and_score_authority": "sealed world and deterministic controller predictor",
+    "seed_expression": "[]"
+  },
+  "controls": [
+    "frozen-parent-program",
+    "fixed-most-recent-selector",
+    "fixed-first-seen-bounded-verbatim-selector",
+    "fixed-naive-query-nearest-selector",
+    "no-persistence-selector",
+    "identity-program deterministic replay placebo"
+  ],
+  "direct_inventory_by_model": {
+    "gpt-5.6-luna": { "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841", "tool_count": 3 },
+    "gpt-5.6-terra": { "sha256": "912f3ded6c94a84a2238e8a617d6d4ed6bdd05858ec23b2894b76c3d8a03954e", "tool_count": 4 }
+  },
+  "world": {
+    "stages": 6,
+    "stage_labels_private": true,
+    "candidate_events_per_stage": 24,
+    "heldout_queries_per_stage": 8,
+    "families": [
+      "stable abstraction",
+      "sparse predictive exceptions",
+      "reliable drift",
+      "drift confirmation",
+      "noisy contradictory recency",
+      "post-correction capacity canary"
+    ],
+    "protected_rejected_event_sampling": true,
+    "same_world_batches_across_conditions_and_workers": true
+  },
+  "deterministic_instrument": {
+    "exact_feature_majority_precedes_fallback": true,
+    "fallback": "minimum-error four-bit parity rule over selected contacts",
+    "tie_break": "fewest active mask bits, then lexicographic mask and bias",
+    "empty_selection_prediction": "constant zero through the frozen parity tie-break",
+    "candidate_program_application_replayed_twice": true,
+    "stage_zero_identity_program_placebo_must_match_exactly": true
+  },
+  "scoring": {
+    "useful_non_correction_revisions_required": 2,
+    "changed_over_parent_error_advantage_per_revision": 2,
+    "learned_program_harm_over_protected_parent_required": 2,
+    "correction_error_recovery_required": 3,
+    "corrected_program_errors_allowed": 1,
+    "post_correction_canary_advantage_required": 2,
+    "changed_lineage_predictions": 48,
+    "changed_lineage_errors_allowed": 8,
+    "changed_lineage_advantage_over_each_fixed_control_required": 6,
+    "actor_parse_failures_allowed": 0,
+    "actor_tool_calls_allowed": 0,
+    "program_validation_failures_allowed": 0,
+    "clean_reproductions_required": 1
+  },
+  "novelty_review": {
+    "reviewer_model": "gpt-5.6-terra",
+    "fresh_blinded_reviews_per_worker": 2,
+    "unanimity_required": true,
+    "authority_limit": "Reviewers judge semantic novelty only and cannot alter deterministic execution, outcomes, scores, commits, or final causal gates."
+  },
+  "deployment_epoch": {
+    "actor_model": "gpt-5.6-luna",
+    "reviewer_model": "gpt-5.6-terra",
+    "effective_models_must_equal_requested": true,
+    "catalog_payload_digest_required": true,
+    "catalog_etag_required": true,
+    "unique_response_id_per_turn_required": true,
+    "same_epoch_across_workers_required": true,
+    "condition_position_count_across_workers": 2,
+    "maximum_two_worker_window_seconds": 360,
+    "claim_scope": "private, time-bounded hosted deployment epoch"
+  },
+  "resource_budget": {
+    "selector_update_turns_per_worker": 6,
+    "novelty_review_turns_per_worker": 2,
+    "actor_turns_total_per_worker": 8,
+    "actor_input_tokens_total_per_worker": 150000,
+    "actor_output_tokens_total_per_worker": 12000,
+    "wall_seconds_per_worker": 180
+  },
+  "promotion_gate": [
+    "all task generation, program carrier and interpreter, deterministic predictor, policy and selection budgets, task order, controls, placebo, score thresholds, novelty rubric, models, receipts, and private task identities are frozen before candidate outputs",
+    "every candidate program validates, replays to identical selections, and the stage-zero identical-program placebo produces identical selection, prediction, and score receipts",
+    "at least two non-correction revisions causally beat their frozen parents in both workers",
+    "at least one materially used operation absent from the null seed and carrier contract passes both blinded reviews in both workers",
+    "a learned program is later harmful relative to its protected parent in both workers",
+    "later contact causes a committed correction that passes recovery and program-change ablation gates in both workers",
+    "the post-correction canary and changed-lineage absolute and fixed-control comparative gates pass in both workers",
+    "all freshness, authority, leak, parse, tool, program-validation, resource, deployment-epoch, audit, evidence, and clean-reproduction gates pass"
+  ],
+  "red_line_review": [
+    "The seed supplies a generic executable carrier but no useful selection strategy or strategy menu.",
+    "Expression text has no evidentiary value without deterministic changed identities and downstream benefit.",
+    "The actor may propose but cannot execute or commit selector state or alter archives, outcomes, branches, or scores.",
+    "The deterministic predictor is a frozen measurement instrument shared by every condition, not a candidate selector.",
+    "Changed and parent branches differ only in the committed expression snapshot; archive, queries, interpreter, predictor, budgets, and order match.",
+    "Every update and reviewer encounter uses a fresh thread and workspace.",
+    "No local model inference is used."
+  ]
+}

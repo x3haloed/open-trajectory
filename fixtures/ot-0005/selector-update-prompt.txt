@@ -1,0 +1,9 @@
+Current committed selector expression:
+{{EXPRESSION}}
+
+Protected controller receipt from the current stage:
+{{RECEIPT}}
+
+Propose the next bounded selector expression under the supplied carrier
+contract. Return only schema-conforming JSON. Do not claim success; state the
+expected effect and cheapest falsifier.

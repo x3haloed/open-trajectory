@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "conditions": [
+    "changed-program",
+    "frozen-parent",
+    "fixed-most-recent",
+    "fixed-first-seen-verbatim",
+    "fixed-naive-nearest",
+    "no-persistence"
+  ],
+  "phases": [
+    {
+      "phase": "stage-0",
+      "condition_order": {
+        "worker-1": ["changed-program", "frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence"],
+        "worker-2": ["fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-program", "frozen-parent", "fixed-most-recent"]
+      }
+    },
+    {
+      "phase": "stage-1",
+      "condition_order": {
+        "worker-1": ["frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-program"],
+        "worker-2": ["fixed-naive-nearest", "no-persistence", "changed-program", "frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim"]
+      }
+    },
+    {
+      "phase": "stage-2",
+      "condition_order": {
+        "worker-1": ["fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-program", "frozen-parent"],
+        "worker-2": ["no-persistence", "changed-program", "frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest"]
+      }
+    },
+    {
+      "phase": "stage-3",
+      "condition_order": {
+        "worker-1": ["fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-program", "frozen-parent", "fixed-most-recent"],
+        "worker-2": ["changed-program", "frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence"]
+      }
+    },
+    {
+      "phase": "stage-4",
+      "condition_order": {
+        "worker-1": ["fixed-naive-nearest", "no-persistence", "changed-program", "frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim"],
+        "worker-2": ["frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-program"]
+      }
+    },
+    {
+      "phase": "stage-5",
+      "condition_order": {
+        "worker-1": ["no-persistence", "changed-program", "frozen-parent", "fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest"],
+        "worker-2": ["fixed-most-recent", "fixed-first-seen-verbatim", "fixed-naive-nearest", "no-persistence", "changed-program", "frozen-parent"]
+      }
+    }
+  ],
+  "stage_causal_order": ["deterministic-current-contact", "deterministic-heldout-branches", "stage-seal", "fresh-proposal-and-commit-for-next-stage"],
+  "ordering": "Execute and replay the current-program contact path, execute and replay heldout conditions in worker-specific order, seal all deterministic branches, then give only the protected contact receipt to a fresh update actor and commit a valid proposal for the next stage. Across both workers every heldout condition occupies every serial position exactly twice."
+}

@@ -1,0 +1,17 @@
+Judge only whether at least one causally useful candidate expression implements
+a materially used selection operation absent from the null seed and not
+supplied by the carrier contract.
+
+Pass only if all are true:
+1. The expression implements a concrete inclusion, exclusion, weighting,
+   comparison, consolidation, or update operation.
+2. The operation is not semantically present in the `[]` seed and is not merely
+   an allowed syntax primitive or event-field name.
+3. Deterministic execution receipts show that the expression changed selected
+   event identities relative to its protected parent.
+4. Deterministic changed-versus-parent scores show the frozen material benefit.
+5. The claimed novelty is not a new label, paraphrase, self-report, unused
+   subexpression, or researcher-supplied fixed control.
+
+You may not alter world outcomes, deterministic scores, program commits, or any
+causal gate. Return only schema-conforming JSON.

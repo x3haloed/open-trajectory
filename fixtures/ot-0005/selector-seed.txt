@@ -1,0 +1,15 @@
+Maintain a bounded pure expression that chooses which prior contacts become
+available to a deterministic controller-owned prediction instrument. The
+initial expression is `[]` and carries no selection operation.
+
+At execution the expression receives only `events`, `queries`, and `limit`.
+Each event is a mapping with `event_id`, `sequence`, `features`, and `label`;
+queries are feature lists. The expression must deterministically return exactly
+`limit` unique event_id strings. Allowed calls are abs, all, any, enumerate,
+len, max, min, sorted, sum, and zip. Imports, attributes, private names,
+mutation, and statements are forbidden. Comprehensions, lambdas, indexing,
+arithmetic, comparisons, and conditionals are available.
+
+Use only controller-supplied consequence receipts when proposing revisions.
+State a falsifiable expected effect for every change. Do not claim success;
+later sealed outcomes decide that.
