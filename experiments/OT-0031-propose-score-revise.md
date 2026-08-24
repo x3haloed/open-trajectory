@@ -1,6 +1,6 @@
 # OT-0031 — Bounded casebook propose–score–revise feasibility
 
-- **Status:** frozen; hosted output forbidden until the run lock is committed
+- **Status:** failed as frozen; bounded validation loop closed
 - **Evidence class:** exploratory-only
 - **Target authority:** none; development learning-loop feasibility only
 - **Predecessor:** OT-0030 mixed one-turn further correction
@@ -46,3 +46,27 @@ The clean protocol and implementation commit is
 `aa0fc0b98deeb8242d3e5738e8251b55cd5bcbca`.
 `spec/ot-0031-run-lock.json` binds it and every runtime authority before the
 first hosted proposal output.
+
+## Results and decision
+
+All four fresh encounters completed with exact outputs. Both proposal
+casebooks were behaviorally poor on the completed encounter, scoring nine and
+seven errors. Each separate revision actor received the exact candidate,
+selected events, per-query predictions, outcomes, errors, and receipt. Both
+then committed identity- and selection-distinct casebooks, but neither reduced
+completed error: the final scores remained nine and seven. The sealed future
+scores were also nine and seven, versus seven for the inherited source.
+
+The mechanism gate failed in both branches. Every model, tool, thread,
+workspace, inventory, Response, ETag, collector, source-replay, receipt,
+resource, test, audit, privacy, and evidence gate passed. Exact candidate
+feedback therefore did not resolve casebook-synthesis variance under this
+actor and mechanism.
+
+OT-0031 remains failed as frozen and is not retried. The bounded propose–score–
+revise path is closed. Changing only sampling, turn count, prompt wording,
+carrier bounds, or model size would not be a new causal mechanism and is not
+authorized by this result.
+
+Evidence manifest:
+`evidence/manifests/OT-0031/ot-0031-propose-score-revise-pilot-001.json`.

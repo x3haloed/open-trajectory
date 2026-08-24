@@ -69,9 +69,10 @@ OT-0030 continued the failed nine-error OT-0029 revision. One fresh instance
 recovered to zero; the other reached seven, so the frozen preserved-correction
 gate failed. It demonstrates remaining correction capacity but not reproducible
 one-turn further correction, and has no OT-1 or E4 authority.
-OT-0031 is the active development falsifier: two independent four-encounter
-proposal/score/revision branches test exact candidate feedback on OT-0030's
-failed state before a separate sealed canary.
+OT-0031 tested two independent four-encounter proposal/score/revision branches.
+Both revision actors received exact candidate receipts and changed state, but
+neither improved completed or future error. The frozen validation-loop path is
+closed without OT-1 or E4 authority.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

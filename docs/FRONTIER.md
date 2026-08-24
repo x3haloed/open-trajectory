@@ -356,6 +356,14 @@ named casebook and exact receipt. The future remains sealed. This directly
 tests whether feedback on an actor-authored candidate reduces synthesis
 variance, still without OT-1 or E4 authority.
 
+OT-0031 failed both frozen branches. Probe errors were nine and seven; after
+exact selected-event and per-query consequence receipts, fresh revision actors
+changed casebooks but left both completed and future errors at nine and seven.
+Every non-mechanism gate passed. This closes the bounded validation loop: more
+feedback of the same form did not solve synthesis variance. Changing model
+size, sampling, prompt wording, turn count, or carrier capacity alone is not a
+new causal mechanism and is not authorized as the next experiment.
+
 ## Post-OT-0005 development probes
 
 These were disposable feasibility probes, not sealed experiments and not
@@ -478,6 +486,14 @@ seven.
 Revised model: correction capacity persists but single-pass synthesis remains
 variance-limited. A useful next test must add causal feedback on the actor's own
 candidate before commit, not another independent sample or carrier change.
+
+Expected: exact scoring of an actor-authored probe, followed by a fresh revision
+actor, would make correction reproducible across both branches.
+Observed: both revisions changed state but improved neither the completed
+encounter nor the sealed future.
+Revised model: the active bottleneck is not missing scalar/query feedback or
+carrier validity. No tested direct-synthesis or bounded-feedback topology
+reliably turns these consequences into a useful selector revision.
 
 - Richer marginal receipts and Terra authorship were sufficient for occasional
   local gains, but not for repeated improvement or correction. This closes the

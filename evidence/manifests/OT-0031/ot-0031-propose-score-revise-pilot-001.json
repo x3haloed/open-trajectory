@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0031-propose-score-revise-pilot-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 716744,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9ae28c883c7d6c9c7a7a30b3180e3a3a2044ff47",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0031",
+  "input_manifests": [
+    "evidence/manifests/OT-0030/ot-0030-further-correction-pilot-001.json",
+    "evidence/manifests/OT-0020/ot-0020-inventory-pilot-002.json"
+  ],
+  "kind": "casebook-propose-score-revise-pilot",
+  "limitations": [
+    "This is a public non-candidate learning-loop pilot, not OT-1 evidence.",
+    "Hosted outputs, deployment events, identities, and workspaces remain private.",
+    "A pass does not authorize E4 or a private candidate run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0031-propose-score-revise-pilot-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a868c820f8cafd4dd109b8460173d0ffac13f1354483ba96bee2e90aca1979a4"
+}
