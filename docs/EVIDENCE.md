@@ -31,7 +31,7 @@ within a prospectively defined deployment epoch. The raw evidence must retain:
 
 - the requested model alias and every server-reported effective model;
 - the model-catalog payload digest and direct model-catalog ETag digest;
-- the exact client binary and receipt-patch identities;
+- the exact client binary and receipt-implementation identities;
 - a private response identifier for every actor turn, with only hashes or an
   aggregate receipt digest entering tracked summaries;
 - the frozen original/reproduction window and counterbalanced condition order;

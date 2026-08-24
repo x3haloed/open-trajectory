@@ -11,7 +11,7 @@ license = {text = "Apache-2.0"}
 dependencies = []
 
 [project.optional-dependencies]
-test = ["jsonschema==4.26.0"]
+test = ["certifi==2026.4.22", "jsonschema==4.26.0"]
 
 [project.scripts]
 ot-evidence = "open_trajectory_evidence.cli:main"

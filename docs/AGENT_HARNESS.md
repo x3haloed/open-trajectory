@@ -219,12 +219,14 @@ items in `turn/completed`—are authoritative for tool-call accounting.
 
 ### Hosted deployment receipts
 
-Hosted-epoch runs use a separately pinned receipt patch. When the controller
-explicitly enables `OT_DEPLOYMENT_RECEIPT`, the client emits only prefixed JSON
-records for effective model, model-catalog ETag, and response identity. The
-controller ignores unrelated stderr for epoch interpretation, retains raw
-records privately, and publishes only allowlisted values and hashes. It also
-hashes the canonical `model/list` payload returned through app-server.
+Hosted-epoch runs use a pinned loopback sanitizer proxy in front of the hosted
+Responses endpoint. A custom provider retains normal OpenAI authentication but
+disables WebSocket transport so the proxy can forward and incrementally parse
+the response stream. The proxy never logs request headers, request bodies, or
+response bodies; it retains only allowlisted effective-model, model-catalog
+ETag, and response-identity fields. The controller publishes only allowlisted
+values and hashes and also hashes the canonical `model/list` payload returned
+through app-server.
 
 Every actor turn must have one response identity and at least one effective-
 model receipt. The effective model and catalog ETag must remain stable across
