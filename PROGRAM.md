@@ -276,8 +276,10 @@ Initial sequence:
   eighty observations entering the ledger; and only its 96-byte projection
   reaches fresh receipted Luna instances. Two complete workers compare the
   adaptive lineage with unchanged, zero, all signed unit-axis, first-learned-
-  then-frozen, no-credit, and projection-ablation branches. Locked after a clean
-  implementation commit; one candidate execution is pending.
+  then-frozen, no-credit, and projection-ablation branches. Failed as frozen:
+  every causal and behavioral score gate passed, but the exact unchanged-actor
+  identity placebo failed in the initially ambiguous regime. OT-1 was not
+  promoted and E5 authorization is consumed.
 
 The initial execution backend is a product-owned controller around Codex. It
 may drive Codex through the SDK/app-server protocol or place Codex behind MCP;

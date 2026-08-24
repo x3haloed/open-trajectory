@@ -1,6 +1,6 @@
 # OT-0035 — E5 learned selector × OT-0 ledger integration
 
-- **Status:** locked; one authorized candidate execution pending
+- **Status:** failed as frozen; E5 authorization consumed
 - **Evidence class:** private-reproducible if valid
 - **Target:** OT-1 — Emergent Corrigible Inheritance Selection
 - **Evaluation epoch:** E5
@@ -67,3 +67,28 @@ Promotion is limited to private, time-bounded, single-domain OT-1 evidence. It
 does not establish OT-2, cross-domain generality, an immutable model, or an
 unqualified public reproduction. The one E5 authorization is consumed at first
 candidate execution whether the result passes, fails, or is invalidated.
+
+## Result and decision
+
+The locked execution at `d4fbbe163288f5521d784cbee0be8b1f9360c680`
+completed all 74 fresh turns in 427.73 seconds with 74 distinct deployment
+response receipts, the frozen Luna model, one catalog ETag, the frozen direct
+tool inventory, no actor tool calls, and no parse, collector, test, audit, or
+resource failure.
+
+Both candidate workers scored `[0, 0, 0]`; both unchanged workers scored
+`[4, 8, 8]`; the best fixed lineage incurred eight aggregate errors in each
+worker; and both final projection ablations incurred three errors. Every true-
+credit update changed selector state, every no-credit replay preserved it, the
+novelty rule passed, and candidate predictions matched exactly across workers.
+
+The frozen identity-policy placebo nevertheless failed. In regime one, the
+two unchanged actors received byte-identical projections and outcomes and each
+made four errors, but returned different prediction vectors. Their regime-two
+and regime-three vectors matched exactly. Because the prospective rule required
+byte-identical candidate and unchanged vectors in every regime, final
+disposition is `failed`; OT-1 is not promoted and E5 authorization is consumed.
+No threshold or gate is changed and this result will not be rescored.
+
+The private evidence identity is
+`evidence/manifests/OT-0035/ot-0035-e5-ot0-ledger-integration-001.json`.

@@ -74,5 +74,5 @@ Decision-relevant experiment records:
   — passed all 384 controller criteria and promoted E5 for exactly one fresh
   integration candidate without producing OT-1 evidence.
 - [`OT-0035-e5-ot0-ledger-integration.md`](OT-0035-e5-ot0-ledger-integration.md)
-  — active locked E5 candidate coupling consequence-trained selector weights to
-  the promoted OT-0 ledger and fresh hosted-model boundary.
+  — failed as frozen after the unchanged-actor exact identity placebo diverged
+  in its initially ambiguous regime; E5 authorization is consumed.

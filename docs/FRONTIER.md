@@ -38,23 +38,18 @@ OT-0034 passed the independent controller-only calibration across all 384 task
 criteria. Every pre-outcome-identical/complementary pair passed exact
 opportunity, fixed-state symmetry, outcome deletion/rescue, and order placebos.
 Static reachability found no forbidden task, seed, hidden-criterion, dynamic,
-file, import, or execution authority in the learner. E5 is promoted for exactly
+file, import, or execution authority in the learner. E5 authorized exactly
 one fresh integration candidate.
 
-OT-0035 freezes that single authorized candidate. A task fixed only after its
-clean implementation supplies eighty paired raw observations per regime. The
-learned selector alone decides which observations enter the actual OT-0014
-discrepancy-gated ledger, and only the ledger's bounded projection reaches a
-fresh receipted Luna instance. Two full workers repeat twelve counterbalanced
-branches across three regimes plus final projection ablation, for 74 fresh
-turns under one hosted epoch.
-
-The deterministic pre-host path passes across 32 excluded task seeds. Candidate
-ledger error is zero in all three regimes; unchanged selector state yields
-eight errors each; the strongest fixed control learns once and freezes, scoring
-zero, eight, zero; and every no-credit update preserves its exact source. Final
-candidate output remains forbidden until a clean implementation commit and
-separate task/run-lock commit. That lock is now frozen; execution is pending.
+OT-0035 consumed that authorization and failed as frozen. Across 74 fresh
+receipted Luna turns, both candidate workers scored zero in all three regimes;
+unchanged workers scored four, eight, and eight; the best fixed lineage scored
+eight aggregate errors; and projection ablations scored three. Every causal,
+behavioral, deployment, resource, novelty, test, and privacy gate passed except
+the exact unchanged-actor identity placebo. In the initially ambiguous regime,
+byte-identical projections and outcomes produced different vectors with the
+same four-error score; later unchanged vectors and every candidate vector
+matched exactly. OT-1 is not promoted and E5 authorization is consumed.
 
 Decision-relevant evidence:
 
@@ -71,6 +66,8 @@ Decision-relevant evidence:
   post-implementation blind learned-weight path passed without target authority.
 - `evidence/manifests/OT-0034/ot-0034-e5-weighted-selector-calibration-001.json`
   — E5 controller calibration promoted one fresh integration candidate.
+- `evidence/manifests/OT-0035/ot-0035-e5-ot0-ledger-integration-001.json` —
+  valid private result; failed the frozen unchanged identity-policy placebo.
 
 ## Goal invariants
 
@@ -145,9 +142,9 @@ and that criterion, negation, and criterion states realize use, contradiction,
 correction, and further correction. Static transitive call-graph analysis must
 show that `learn(current, completed)` cannot reach task construction, hidden
 coefficients, seed derivation, dynamic introspection, files, imports, or
-execution. All 384 criteria passed, and E5 now authorizes exactly one fresh
-integration candidate. The authorization is consumed when that candidate first
-executes, whether it passes, fails, or is invalidated.
+execution. All 384 criteria passed and authorized exactly one fresh integration
+candidate. OT-0035 consumed that authorization and failed its frozen exact
+identity-policy placebo. No OT-1 candidate is currently authorized.
 
 ## Prediction errors
 
@@ -195,13 +192,18 @@ Expected for OT-0035: applying learned weights before the OT-0 ledger will make
 the selector update causally visible in fresh hosted predictions, while the
 unchanged selector preserves the prior wrong rule and the first learned state
 fails exactly at the later complement regime.
-Observed: deterministic development fixtures match that path for all 32
-excluded seeds; hosted candidate output is still sealed behind the future run
-lock.
-Decision: freeze and execute the complete hosted comparison once. The first
-candidate turn consumes E5 authorization regardless of disposition.
+Observed: both candidate workers scored zero throughout, unchanged workers
+scored four, eight, and eight, the best fixed lineage scored eight aggregate,
+and the projection ablations scored three. The candidate identity placebo
+passed, but byte-identical initially ambiguous unchanged inputs produced two
+different four-error vectors; later unchanged vectors matched.
+Decision: fail OT-0035 as frozen and consume E5 authorization. The result is not
+rescored. Exact output identity is not a calibrated identical-policy test for
+an underdetermined stochastic application even when score and causal effect are
+stable.
 
-Unresolved: whether a learned weight relation generated under this authority
-split will satisfy independent novelty review as an operation not supplied by
-researchers, and whether the mechanism can be coupled to the promoted OT-0
-substrate without transferring selector or outcome authority to the controller.
+Unresolved: whether a prospectively calibrated stochastic placebo can separate
+policy identity from output identity without weakening OT-1, or whether the
+downstream application can be made controller-deterministic while preserving a
+fresh hosted boundary. Any next attempt requires a new evaluation checkpoint;
+OT-0035 cannot be retried.

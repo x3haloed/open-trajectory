@@ -93,14 +93,15 @@ OT-0034 passed the controller-only E5 calibration. All 384 weighted criteria
 passed opposite-world indistinguishability, fixed-state symmetry, outcome
 deletion/rescue, order placebos, and exact opportunity checks. Static
 reachability found no task, seed, hidden-criterion, dynamic, file, import, or
-execution authority available to the learner. E5 now authorizes exactly one
+execution authority available to the learner. E5 authorized exactly one
 fresh OT-0 integration candidate; the calibration itself is not OT-1 evidence.
-OT-0035 is that single active E5 candidate. A post-implementation learned
-selector determines which completed observations enter the actual OT-0014
-discrepancy-gated ledger; only its bounded projection reaches 74 fresh,
-counterbalanced hosted actor turns across two complete workers. Unchanged,
-zero, all signed unit-axis, first-learned-then-frozen, no-credit, and projection
-ablations are locked before the single authorized candidate execution.
+OT-0035 consumed that authorization. Both candidate workers scored zero in all
+three regimes; unchanged workers scored `[4, 8, 8]`; the best fixed lineage
+scored eight aggregate errors; and projection ablations scored three. All
+causal, behavioral, deployment, resource, novelty, test, and privacy gates
+passed except the exact unchanged-actor identity placebo: byte-identical
+ambiguous inputs produced different vectors with the same four-error score.
+OT-0035 therefore failed as frozen and did not promote OT-1.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start

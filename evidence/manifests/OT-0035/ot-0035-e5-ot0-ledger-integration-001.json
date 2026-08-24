@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0035-e5-ot0-ledger-integration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3841326,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d4fbbe163288f5521d784cbee0be8b1f9360c680",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0035",
+  "input_manifests": [
+    "evidence/manifests/OT-0034/ot-0034-e5-weighted-selector-calibration-001.json",
+    "evidence/manifests/OT-0014/ot-0014-hosted-epoch-001.json"
+  ],
+  "kind": "e5-learned-selector-ot0-ledger-hosted-run",
+  "limitations": [
+    "Hosted outputs and deployment identities remain private.",
+    "A pass is time-bounded single-domain OT-1 evidence, not immutable reproduction.",
+    "This run consumes E5's one-candidate authorization regardless of disposition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0035-e5-ot0-ledger-integration-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4dfc0565330eeb8af78c1e0f42af090403800a5bde4ec42bf3754502593790df"
+}
