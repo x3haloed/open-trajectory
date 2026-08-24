@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["goal_contract", "goal_id", "goal_status", "plan_version", "experiment_id", "subtask_id", "action", "completion_claim"],
+  "properties": {
+    "goal_contract": {"type": "null"},
+    "goal_id": {"type": "string"},
+    "goal_status": {"type": "string", "enum": ["active", "completed", "set_down", "superseded", "blocked", "invalidated"]},
+    "plan_version": {"type": "integer"},
+    "experiment_id": {"type": "string"},
+    "subtask_id": {"type": "string"},
+    "action": {"type": "string"},
+    "completion_claim": {"type": "boolean"}
+  }
+}

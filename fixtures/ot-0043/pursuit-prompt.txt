@@ -1,0 +1,13 @@
+This is a pursuit-only fresh encounter. A controller has already admitted the
+goal. Do not author, revise, replace, or restate a goal contract.
+
+Inherited goal-state projection:
+{{PROJECTION}}
+
+Current world receipt:
+{{PACKET}}
+
+Set goal_contract to null. Copy goal_id, goal_status, plan_version,
+experiment_id, subtask_id, and completion_claim exactly from the projection.
+Set action exactly to required_action. Do not generate any identifier or infer
+any different plan. Return only schema-conforming JSON and do not call tools.

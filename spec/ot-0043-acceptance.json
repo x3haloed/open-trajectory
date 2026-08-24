@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0043",
+  "evaluation_transition": "E8B to E9",
+  "purpose": "candidate-free split-interface and format-neutral identity calibration",
+  "candidate_goal_outputs": false,
+  "identity_case_count": 2304,
+  "hosted_pursuit_turns": 14,
+  "authorized_candidate_count": 1,
+  "claim_limit": "private hosted-interface plus public controller identity calibration and one fresh E9 candidate authorization; no OT-2 evidence",
+  "deployment_epoch": {
+    "requested_model": "gpt-5.6-luna",
+    "maximum_window_seconds": 600
+  },
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_input_tokens_total": 160000,
+    "actor_output_tokens_total": 12000,
+    "wall_seconds": 600
+  },
+  "promotion_gate": [
+    "all 2,304 controller cases accept bounded safe novel identifiers independent of prefix or hexadecimal length while rejecting empty, oversized, control-character, path-like, email-like, and packet-copied identities",
+    "identity equality remains exact across encounters and all goal-quality, authorship, value, completion, constraint, evidence, revision, and surrender gates remain unchanged",
+    "the pursuit-only prompt contains no admission or goal-authoring branch and the pursuit schema structurally requires goal_contract null",
+    "two workers each copy all seven opaque hierarchy projections, required actions, and completion claims exactly in fresh contexts, with reverse phase order",
+    "all 14 hosted turns use the patched backend, exact inventory, distinct response identity, requested model, stable catalog and ETag, no tools, no parse failures, and pass resource, test, audit, evidence, and privacy gates",
+    "OT-0042 remains rejected and is neither rescored nor used to choose pursuit outputs"
+  ],
+  "red_line_review": [
+    "Safe identifier syntax is transport hygiene, not a new goal-quality criterion.",
+    "The sentinel projections are controller positive controls, not candidate goals.",
+    "No future task, candidate target, or candidate score enters calibration.",
+    "A pass authorizes at most one fresh E9 candidate."
+  ]
+}
