@@ -9,6 +9,7 @@ from open_trajectory_harness.ot0036_e6_calibration import (
     fixed_input_paths,
     integration_authority,
     rule_pairs,
+    validate_run_lock,
 )
 
 
@@ -82,6 +83,11 @@ class OT0036E6CalibrationTests(unittest.TestCase):
             ),
             paths,
         )
+
+    def test_frozen_run_lock_reconstructs_all_runtime_authorities(self) -> None:
+        implementation = "9072074f317e7f83d9863daf5cbc05722d0da9d4"
+        lock = validate_run_lock(Path.cwd(), implementation)
+        self.assertEqual(lock["implementation_git_commit"], implementation)
 
 
 if __name__ == "__main__":

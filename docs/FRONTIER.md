@@ -58,7 +58,8 @@ frozen study exhausts all 384 selector criteria against all six eligible
 parity/complement pairs through the actual OT-0014 ledger. Controller oracle,
 unchanged, zero, every signed unit axis, and first-oracle-then-frozen lineages
 receive the same eighty-event budget. Candidate learner and actor outputs are
-forbidden until calibration is separately locked and executed.
+forbidden. The clean implementation and separate run lock are now published;
+controller calibration execution is pending.
 
 Decision-relevant evidence:
 

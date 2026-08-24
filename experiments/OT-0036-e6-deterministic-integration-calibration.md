@@ -1,6 +1,6 @@
 # OT-0036 — E6 deterministic integration calibration
 
-- **Status:** frozen; calibration output forbidden until a separate run lock
+- **Status:** locked; controller calibration execution pending
 - **Evidence class:** public-reconstructible evaluator calibration
 - **Evaluation transition:** E5 → E6 candidate
 - **Candidate learner outputs:** forbidden

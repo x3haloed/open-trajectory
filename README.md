@@ -106,6 +106,8 @@ OT-0036 is the active candidate-free E6 calibration. It exhausts the complete
 weighted-criterion and eligible parity-pair product through the actual OT-0
 ledger using controller-deterministic application, the other attribution path
 allowed by `TARGET.md`. It does not rescore OT-0035 or execute a learner.
+The calibration implementation and all runtime authorities are separately
+locked; exhaustive controller execution is pending.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start
