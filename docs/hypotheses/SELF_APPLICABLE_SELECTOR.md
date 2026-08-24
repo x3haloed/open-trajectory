@@ -40,8 +40,9 @@ must judge whether S₀'s selections were good. But S₁ is itself a selection
 operation — who evaluates S₁? S₂? The regress terminates only when:
 
 - **external grounding:** a researcher-authored criterion or the world's
-  independent consequences terminate the evaluation. This is clean but
-  external — the selector isn't really evaluating itself.
+  independent consequences terminate the evidentiary regress. The selector
+  remains the agent of revision; external consequences provide the signal
+  but do not perform the evaluation.
 - **fixed point:** Sₙ = Sₙ₊₁ for some n. The selector converges on a
   stable self-evaluation. This is the interesting case, but it must be
   *reached* through contact, not imposed by design.
@@ -163,10 +164,22 @@ The joint protocol requires:
    native serialization) to rule out format-matching as the mechanism.
 
 A carrier that changes behavior only when evaluated by a
-trajectory-matched selector, and loses this effect under serialization
-normalization and selector ablation, is evidence for both hypotheses
-simultaneously. A carrier that changes behavior under any selector is
-generic information, not a scar or a selector effect.
+trajectory-matched selector, and **survives** serialization normalization
+(proving it is not a format artifact) while **disappearing** under
+selector/self-evaluation ablation (proving the selector is causally
+relevant), is evidence for both hypotheses simultaneously.
+
+These are two independent verdicts even in the factorial:
+- **scar status** is decided by owner-removal and transplant controls
+  (does the carrier matter at all, and does it depend on the originating
+  trajectory?)
+- **selector-relative status** is decided by crossed selector branches
+  (does the effect depend on which selector evaluates it?)
+
+A carrier that changes behavior under any selector without owner-removal
+sensitivity is selector-independent — possibly a scar, possibly generic
+information, but not subject-relative. The two claims require separate
+evidence.
 
 ## Cheapest falsifiers
 
