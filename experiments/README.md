@@ -68,5 +68,5 @@ Decision-relevant experiment records:
   — passed a deterministic learning, contradiction, correction, ablation, and
   controls path inside an explicitly enumerated selector family.
 - [`OT-0033-blind-weighted-selector.md`](OT-0033-blind-weighted-selector.md)
-  — active frozen feasibility protocol for a post-implementation task-specific
-  criterion learned in a generic weight carrier.
+  — passed a post-implementation task-specific criterion through three learned
+  weight states, two contradictions, credit ablation, and frozen controls.

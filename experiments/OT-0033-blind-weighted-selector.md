@@ -1,6 +1,6 @@
 # OT-0033 — Blind consequence-trained weighted selector
 
-- **Status:** locked; final task fixed and execution pending
+- **Status:** passed as frozen
 - **Evidence class:** public-reconstructible mechanism feasibility
 - **Target authority:** none; no OT-1 or evaluation-epoch authority
 - **Predecessor:** OT-0032 realized deterministic selector learning but used a
@@ -88,3 +88,34 @@ The clean protocol and implementation commit is
 canonical derivation from that identity; it was not sampled or selected using
 candidate scores. `spec/ot-0033-run-lock.json` binds the seed, reconstructed
 task identity, and every runtime authority before final-task execution.
+
+## Result
+
+The locked execution at `77ac5261784c97949531f2351d42671be2ca3f20`
+passed every frozen gate. The neutral selector began with forty contact errors.
+Completed consequences trained weights `[-2, 4, 8, -16]` in ten deterministic
+epochs, and exact restoration reached zero canary errors while the unchanged
+selector retained forty.
+
+The second regime contradicted every selection made by that learned state,
+raising contact and unchanged-canary error to eighty. Ten further epochs
+committed `[2, -4, -8, 16]` and returned the fresh canary to zero. The third
+regime contradicted that corrected state in the same way; ten epochs restored
+`[-2, 4, 8, -16]` and again reached zero while the unchanged branch remained at
+eighty. At all three updates, withholding outcome credit preserved the exact
+source snapshot.
+
+The adaptive lineage had zero aggregate canary errors. The best prospectively
+defined frozen control incurred eighty; the zero control incurred 120, and the
+unit-axis controls incurred between 93 and 147. All task-shape, learning,
+contradiction, correction, outcome-credit, selector-change, fixed-control,
+fresh-restoration, and receipt-identity gates passed. The public artifact is
+`evidence/manifests/OT-0033/ot-0033-blind-weighted-selector-001.json`.
+
+This result advances the causal mechanism beyond OT-0032's enumerated pattern
+menu: a task-specific coefficient relation fixed only after implementation was
+learned from the selector's own completed errors and later reversed twice. It
+does not promote OT-1. The generic weight carrier, perceptron update, task
+family, and regime construction remain researcher-authored; no independent
+evaluation epoch has admitted the learned relation as an unsupplied operation,
+and the mechanism is not yet coupled to the promoted OT-0 system.

@@ -257,7 +257,10 @@ Initial sequence:
   criterion that cannot be encoded in the implementation or selected after
   candidate scoring. Three regimes test invention, reversal, and subsequent
   correction with outcome-credit, unchanged-selector, and frozen-state
-  controls. This is frozen public feasibility only; it has no OT-1 or
+  controls. Passed as frozen: contact errors were 40, 80, and 80 before three
+  changed weight states reached zero-error canaries; credit ablation prevented
+  every update; and the adaptive aggregate beat the best frozen control, zero
+  errors versus 80. This is public feasibility only; it has no OT-1 or
   evaluation-epoch authority.
 
 The initial execution backend is a product-owned controller around Codex. It

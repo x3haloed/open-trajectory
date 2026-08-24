@@ -1,0 +1,35 @@
+{
+  "artifact_id": "ot-0033-blind-weighted-selector-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 82024,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "77ac5261784c97949531f2351d42671be2ca3f20",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0033",
+  "input_manifests": [
+    "evidence/manifests/OT-0032/ot-0032-optimizer-walking-skeleton-001.json"
+  ],
+  "kind": "blind-consequence-trained-weighted-selector",
+  "limitations": [
+    "This is public selector-mechanism feasibility, not OT-1 evidence.",
+    "The carrier, learner, and task family remain researcher-authored.",
+    "The result has no evaluation-epoch or target-promotion authority."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0033-blind-weighted-selector-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0033_harness.py --output $EVIDENCE/ot-0033-result.json"
+  },
+  "schema_version": 1,
+  "sha256": "8f352d58647f8a10cba087a0ab2af93d1e429a5a867f3a077e3f04492ac9a48e"
+}

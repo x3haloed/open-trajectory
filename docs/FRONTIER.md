@@ -25,15 +25,22 @@ beat the best fixed control eight to zero. This is public mechanism
 feasibility, not OT-1: the optimizer explicitly enumerated every six-pattern
 state, so the proposal family itself supplied a solving menu.
 
-OT-0033 is the active cheapest falsifier. A generic four-weight selector learns
-from its own completed selection errors on a controller task whose seed is
-derived mechanically from the future clean implementation commit. The task-
-specific coefficient signs and ordering therefore cannot be present in the
-implementation or selected after candidate scoring. Three regimes test initial
-learning, later reversal, and preserved further correction. OT-0033 remains
-development-only; even a pass would still require independent evaluator
-authorization and coupling to the promoted OT-0-capable system before an OT-1
-claim.
+OT-0033 passed the next authorship-boundary falsifier. Its controller task was
+mechanically fixed only after the clean implementation commit. Completed errors
+trained task-specific weights through three regimes: pre-update contact errors
+were 40, 80, and 80, while every fresh post-update canary reached zero.
+Withholding outcome credit prevented every selector change; unchanged-state
+canaries retained 40, 80, and 80 errors; and the adaptive aggregate beat the
+best frozen control, zero errors versus 80. This removes OT-0032's explicit
+pattern-set menu while preserving the complete deterministic causal path.
+
+The active frontier is now independent evaluator calibration, not another
+mechanism variant. A prospective E5 must decide whether the task-specific
+learned coefficient relation is an unsupplied selection operation while
+proving that its task construction creates, but does not leak or choose, the
+required causal opportunity. Only a passing controller-only calibration may
+authorize one fresh integration candidate that couples this mechanism to the
+promoted OT-0-capable system.
 
 Decision-relevant evidence:
 
@@ -46,6 +53,8 @@ Decision-relevant evidence:
   bounded direct-synthesis feedback loop failed.
 - `evidence/manifests/OT-0032/ot-0032-optimizer-walking-skeleton-001.json` —
   deterministic learned-selector path passed within its enumerated family.
+- `evidence/manifests/OT-0033/ot-0033-blind-weighted-selector-001.json` —
+  post-implementation blind learned-weight path passed without target authority.
 
 ## Goal invariants
 
@@ -89,31 +98,28 @@ scores, private future state, fixed controls and placebos, frozen task order and
 thresholds, clean reproduction, and privacy/evidence gates. No new target
 candidate is currently authorized.
 
-OT-0033 is not E5 and cannot promote a target. It freezes a public mechanism
-test before its final task exists. The final task seed must equal a canonical
-hash of the clean implementation commit; the run lock must bind that seed, the
-reconstructed controller-task digest, acceptance rule, all runtime authorities,
-and the OT-0032 predecessor manifest before the one allowed execution. The
-candidate update receives paired raw events, its source snapshot and prior
-selections, and released completed outcomes. It receives no seed, hidden
-weights, canary, regime sequence, or fixed-control identity.
+OT-0033 is not E5 and cannot promote a target. Its public run validly bound the
+final task seed to a canonical hash of the clean implementation commit and
+bound the reconstructed controller task, acceptance rule, runtime authorities,
+and OT-0032 predecessor before execution. The candidate update received paired
+raw events, its source snapshot and prior selections, and released completed
+outcomes. It received no seed, hidden weights, canary, regime sequence, or
+fixed-control identity.
 
-The frozen OT-0033 gates require a forty-error neutral start; three changed
+Every frozen OT-0033 gate passed: a forty-error neutral start; three changed
 weight snapshots with zero-error fresh canaries; eighty-error contradictions
-before both later corrections; no change when outcome credit is withheld; at
+before both later corrections; no change when outcome credit was withheld; at
 least forty errors of unchanged-selector ablation loss; and an adaptive
-aggregate at least eighty errors better than every zero, unit-axis, or learned-
+aggregate eighty errors better than the best zero, unit-axis, or learned-
 snapshot-frozen equal-budget control.
 
-If OT-0033 passes, the next evaluation checkpoint must be prospectively
-calibrated without using its candidate scores to choose tasks or thresholds. A
-credible E5 would independently verify that post-implementation task generation
-creates the complete opportunity, that the learned coefficient relation is not
-present in candidate authority, and that deleting outcome credit or selector
-updates removes the path while paired rescue restores it. E5 must then grant at
-most one fresh integration candidate. If OT-0033 fails, do not tune its final
-seed, hidden criterion, thresholds, or run lock; resolve the observed causal
-failure or close the weighted-selector family.
+The next evaluation checkpoint must be prospectively calibrated without using
+OT-0033's candidate scores to choose tasks or thresholds. A credible E5 must
+independently verify that post-implementation task generation creates the
+complete opportunity, that the learned coefficient relation is absent from
+candidate authority, and that deleting outcome credit or selector updates
+removes the path while paired rescue restores it. E5 may grant at most one
+fresh integration candidate.
 
 ## Prediction errors
 
@@ -139,12 +145,13 @@ Expected for OT-0033: mistake-derived updates in a generic weight carrier will
 recover a task-specific criterion generated only after implementation, reverse
 when that criterion becomes harmful, and correct once more, while outcome-
 credit and selector-change ablations fail.
-Observed: pending; candidate output remains forbidden until the separate run
-lock is committed.
-Decision: a pass advances the learned-weight family to independent evaluator
-calibration, not OT-1 promotion. A failure closes or narrows the family unless
-it exposes a genuinely distinct causal defect rather than an unfavorable
-score.
+Observed: all three updates changed weights and reached zero-error canaries;
+both later unchanged states incurred eighty errors; outcome-credit ablations
+made no change; and the adaptive aggregate beat the best frozen control by
+eighty errors.
+Revised model: task-specific selector criteria can be learned and repeatedly
+corrected without an explicitly enumerated solving menu. The remaining question
+is evaluator and system authority, not deterministic mechanism feasibility.
 
 Unresolved: whether a learned weight relation generated under this authority
 split will satisfy independent novelty review as an operation not supplied by

@@ -81,12 +81,14 @@ ablation incurred sixteen errors, while the learned states' aggregate error was
 zero against eight for the best fixed control. This establishes public
 mechanism feasibility for outcome-optimized selector state only. The optimizer
 family and world remain researcher-authored, so it is not OT-1 or E4 evidence.
-OT-0033 is the active post-implementation blind-criterion falsifier. Its generic
-four-weight selector may learn only from completed errors on its own selections;
-the controller task identity will be derived from the clean implementation
-commit, preventing task-specific weights from appearing in the implementation
-or being selected after scoring. It is frozen development feasibility, not a
-target-authorized run.
+OT-0033 passed its post-implementation blind-criterion falsifier. Completed
+selection errors changed a generic four-weight selector through three fresh
+regimes with contact errors `40 → 80 → 80` and zero errors on every post-update
+canary. Withholding outcome credit prevented every change; unchanged selectors
+retained `40 → 80 → 80` canary errors; and the adaptive aggregate beat the best
+frozen control, zero errors versus eighty. The task-specific criterion was
+mechanically fixed only after the implementation commit. This is public
+learned-criterion feasibility, not an OT-1 or evaluator-authorized result.
 No OT-2 self-direction or OT-3 TAAA result is claimed.
 
 ## Quick start
