@@ -19,3 +19,6 @@ Current unexecuted protocol drafts:
   — controller-only E4 checkpoint; direct construction was feasible, but the
   fresh promotion anchor rejected E4 because the canary ablation was not
   path-complete.
+- [`OT-0018-path-complete-e4-calibration.md`](OT-0018-path-complete-e4-calibration.md)
+  — frozen controller-only successor checkpoint with path-complete canary
+  removal and paired rescue.
