@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0013",
+  "protocol_origin_git_commit": "09ae5ebe03cf99159870b4f3fa6bbd70db9b791e",
+  "implementation_git_commit": "09ae5ebe03cf99159870b4f3fa6bbd70db9b791e",
+  "backend": "lm-studio-responses",
+  "model": "openai/gpt-oss-20b",
+  "model_stability": "content-addressed-local-artifact",
+  "task_manifest_sha256": "b7e727543eca5ee4592a1c352baaf1e66ea203a9d79a59d1fcbc9ff766e4e11b",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "d055037f9812df3df13e8420351a82c6a287e13e07ec19bd46b22a1c37541053",
+    "prompt_sha256": "e170250acb2a6bd6a22e7ec0869c44ab1952be4d43207952f6a0b1607187e116",
+    "output_schema_sha256": "d097f3947fbd445f644621f1eaff45d3417430dc2b3e78108ef1fda745dd69c9",
+    "task_order_sha256": "e44f95c64eede15d4633d8f5063dcdad243f7e9821d879ba4b68a9c08701fcad",
+    "substrates_sha256": "c4af2158ca318edc3b28d08956ce44e7c516a0f39098493fb543f2e2fdea4751",
+    "request_sha256": "e8d55de4e9cf1ca564694d9bf5e6b01d1f1be3e3674fb432050c548e6ed0214b",
+    "dependency_lock_sha256": "73bd56d4d60cf241155e4bec083b6adeef87fd06ab84cec1e779c5c2aa7b012a",
+    "identity_harness_sha256": "0f34d9fe49424f71330f95ee7d45fcfe2289478e69378e931adf0e5b215bc6e8"
+  },
+  "local_model_identity": {
+    "model_artifact": {
+      "sha256": "65d06d31a3977d553cb3af137b5c26b5f1e9297a6aaa29ae7caa98788cde53ab",
+      "bytes": 12109565632
+    },
+    "lm_studio": {
+      "version": "0.4.9+1",
+      "build": "0.4.9+1",
+      "executable_sha256": "bdafb6b431ca41de0b3deed17d17967a3eac99dea6cb8ff65af1cf0461bbd609",
+      "executable_bytes": 53040,
+      "server_bundle": {
+        "sha256": "0669d849ee1e880646e0468a42689344a92e5d1fa7ae9b7f25f68485fcd1d665",
+        "files": 1,
+        "bytes": 15189623
+      }
+    },
+    "inference_runtime": {
+      "cache_identifier": "llama.cpp-mac-arm64-apple-metal-advsimd-2.13.0",
+      "engine_identifier": "llama.cpp-mac-arm64-apple-metal-advsimd@2.13.0",
+      "sha256": "426c73b873d861696c0ce638fccfdb112a4c21ec882d4a69dccb66ae02f40fd5",
+      "files": 12,
+      "bytes": 11718824
+    },
+    "harmony_adapter": {
+      "identifier": "app-harmony-mac-arm64@6",
+      "sha256": "5dc7433ad28bb46f5956ba8200af7c979584e568f941258f1cf7e28996d7f084",
+      "files": 427,
+      "bytes": 20850111
+    },
+    "cli": {
+      "commit": "8d3f370",
+      "sha256": "efdbe6db567ada7d774adae655607a09b1799a12843403a3c2d8f4ecf70a3666",
+      "bytes": 65036016
+    },
+    "live_model": {
+      "id": "openai/gpt-oss-20b",
+      "state": "loaded",
+      "compatibility_type": "gguf",
+      "quantization": "MXFP4",
+      "loaded_context_length": 8192
+    },
+    "loaded_process": {
+      "identifier": "openai/gpt-oss-20b",
+      "format": "gguf",
+      "selected_variant": "openai/gpt-oss-20b@mxfp4",
+      "quantization": "MXFP4",
+      "context_length": 8192,
+      "parallel": 4
+    }
+  }
+}

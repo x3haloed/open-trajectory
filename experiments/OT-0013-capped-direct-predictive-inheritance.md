@@ -1,10 +1,10 @@
 # OT-0013 — Capped direct predictive-inheritance reproduction
 
-- **Status:** planned
+- **Status:** frozen; execution pending
 - **Evidence class:** private-reproducible if all gates pass
 - **Target:** OT-1
-- **Frozen implementation commit:** pending
-- **Frozen run lock:** `spec/ot-0013-run-lock.json` (pending)
+- **Frozen implementation commit:** `09ae5ebe03cf99159870b4f3fa6bbd70db9b791e`
+- **Frozen run lock:** `spec/ot-0013-run-lock.json`
 
 ## Prediction error motivating the successor
 
