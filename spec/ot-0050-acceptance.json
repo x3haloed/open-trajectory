@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0050",
+  "evaluation_epoch": "post-E12 staged operation calibration",
+  "candidate_actor_outputs": false,
+  "hosted_model_calls": 0,
+  "scenario_count": 48,
+  "regime_count": 3,
+  "active_choice_budget": 8,
+  "committed_projection_byte_limit": 512,
+  "provisional_projection_byte_limit": 512,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0051",
+  "future_candidate_independent_workers": 2,
+  "future_candidate_stages_per_regime": 2,
+  "future_candidate_max_actor_turns": 12,
+  "future_candidate_max_output_tokens_per_turn": 8000,
+  "future_candidate_tool_calls": 0,
+  "claim_limit": "public deterministic candidate-free calibration of staged provisional operation construction and at most one fresh OT-0051 authorization; no representation-escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all 48 calibrated representation-escape cases preserve pre-update errors [4,8,4] and admit a hidden staged opportunity reaching [0,0,0]",
+    "a valid old-carrier proposal receives four completed-contact residual errors and cannot be committed",
+    "an over-budget proposal receives a bounded invalidity receipt and cannot be committed",
+    "a magnitude-specific proposal can fit completed contact exactly yet fails all eight scaled holdout choices, so validation is not endpoint evidence",
+    "the controller-private compact reference receives zero residual and heldout errors but remains unreachable from every actor surface",
+    "removing outcome credit preserves the exact parent; every valid successor and parent restores exactly within 512 bytes",
+    "the exact contradiction makes the first committed opportunity maximally harmful and a distinct third relation requires another revision",
+    "reverse-order placebo, deterministic replay, tests, evidence audit, privacy, and repository-size gates pass without actor output or hosted calls"
+  ],
+  "future_candidate_gate": [
+    "one fresh post-implementation task only; no OT-0049 retry or rescoring",
+    "each regime uses separate fresh proposal and revision contexts, with continuity only through the bounded current or provisional snapshot",
+    "the actor authors every proposed and revised operation; the controller applies and validates but never searches for or supplies an operation",
+    "both workers reach heldout errors [0,0,0] after provisional residuals and later corrections",
+    "unchanged, one-shot, no-credit, structural-deletion, no-persistence, verbatim, fixed, and old-carrier projection controls receive equal active choice budgets",
+    "later contradiction, distinct further correction, immutable parents, exact rollback, deterministic output replay, deployment receipts, tests, audit, evidence, and privacy gates pass"
+  ],
+  "red_line_review": [
+    "OT-0049 remains rejected and consumed; no threshold or score is changed.",
+    "The semantic-node repair is prospective and does not admit either failed OT-0049 output into that experiment.",
+    "A calibration pass is opportunity evidence only and does not promote an endogenous substrate."
+  ]
+}

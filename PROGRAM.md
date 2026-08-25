@@ -470,16 +470,16 @@ ablations. The immediate sequence is:
   evidence, and privacy paths remained valid. E12 is consumed. This closes
   reliable one-shot executable synthesis from one consequence packet under
   the frozen interface, not the expressiveness of executable operations.
-- **OT-0050 (next; candidate-free only):** calibrate a materially different
-  staged operation-construction world before authorizing any candidate. A
-  provisional actor-authored operation must receive an independent completed-
-  contact residual and validity receipt before a later fresh process may
-  revise it and request commit. The calibration must distinguish invalid
-  syntax, old-carrier equivalence, contact misfit, compact reusable structure,
-  heldout generalization, and later contradiction without revealing a useful
-  operation or converting controller search into the candidate. Freeze equal-
-  budget one-shot, fixed, no-persistence, verbatim, and oracle-opportunity
-  controls; no candidate is currently authorized.
+- **OT-0050 (protocol frozen; unexecuted; candidate-free only):** calibrate a
+  materially different staged operation-construction world before authorizing
+  any candidate. A provisional actor-authored operation must receive an
+  independent completed-contact residual and validity receipt before a later
+  fresh process may revise it and request commit. The calibration must
+  distinguish invalid syntax, old-carrier equivalence, contact misfit, compact
+  reusable structure, heldout generalization, and later contradiction without
+  revealing a useful operation or converting controller search into the
+  candidate. Freeze equal-budget one-shot, fixed, no-persistence, verbatim,
+  and oracle-opportunity controls; no candidate is currently authorized.
 - Only then widen OT-2 toward reconstructed direction, reasons that retain
   standing, legitimate revision or supersession, and continuity across
   qualitatively different domains.

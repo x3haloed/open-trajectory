@@ -38,4 +38,12 @@ fresh revision, and controller-owned commit. It may not retry or rescore
 OT-0049, supply a useful operation, or authorize a candidate before
 candidate-free calibration.
 
+The OT-0050 implementation now exhausts all 48 calibrated cases with four
+controller-private proposal defects: old-carrier, invalid, contact-overfit, and
+compact opportunity. The prospective run must remain candidate-free, preserve
+`[4,8,4]` discrepancy and `[0,0,0]` hidden opportunity, keep both committed and
+provisional projections within 512 bytes, and pass no-credit, scaled-holdout,
+parent, restoration, surface-exclusion, reverse-order, replay, test, audit, and
+privacy gates before any OT-0051 authorization exists.
+
 ## Prediction errors
