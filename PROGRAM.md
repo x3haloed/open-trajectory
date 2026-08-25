@@ -484,7 +484,7 @@ ablations. The immediate sequence is:
   scientific manifest existed. Operationally invalidated with no candidate or
   hosted output and no authorization. The raw artifact is retained as
   exploratory invalidation evidence and is not rescored.
-- **OT-0051 (protocol frozen; unexecuted; candidate-free only):** prospectively
+- **OT-0051 (locked; unexecuted; candidate-free only):** prospectively
   repeat the unchanged staged calibration with the repository's valid
   `public-reconstructible` evidence class. No scientific gate, proposal family,
   threshold, task order, or future candidate resource changes. A pass may

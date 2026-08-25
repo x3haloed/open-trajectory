@@ -1,6 +1,6 @@
 # OT-0051 — Staged operation-calibration evidence repair
 
-- **Status:** prospectively frozen; unexecuted
+- **Status:** prospectively locked; unexecuted
 - **Evidence class:** public-reconstructible if promoted
 - **Target:** candidate-free representation-escape protocol repair
 - **Candidate actor output:** forbidden
@@ -26,3 +26,7 @@ A pass authorizes at most one fresh OT-0052 staged representation-escape
 candidate under twelve fresh actor turns. It remains candidate-free opportunity
 evidence only and cannot establish representation escape, transfer, widened
 OT-2, integrated development, or OT-3.
+
+The repair wrapper is frozen at `d0da54e`; its exact core, acceptance rules,
+orientation, tests, evidence tooling, and predecessor manifests are fixed by
+`spec/ot-0051-run-lock.json`. No candidate output or hosted call exists.
