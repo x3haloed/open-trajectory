@@ -8,6 +8,20 @@
   "application_conditions": ["private-reference-description", "byte-equal-opaque", "byte-equal-verbatim-contact"],
   "hosted_application_turns": 18,
   "active_choice_budget": 8,
+  "maximum_state_projection_bytes": 16000,
+  "deployment_epoch": {"requested_model": "gpt-5.6-luna"},
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_turns": 18,
+    "output_tokens_per_turn": 4000,
+    "actor_input_tokens_total": 500000,
+    "actor_output_tokens_total": 72000,
+    "wall_seconds": 1800,
+    "actor_tool_calls": 0
+  },
   "authorized_candidate_count": 1,
   "future_candidate_experiment_id": "OT-0056",
   "claim_limit": "private candidate-free calibration that fresh processes can causally apply a bounded descriptive rule; at most one OT-0056 learner authorization and no representation-escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",

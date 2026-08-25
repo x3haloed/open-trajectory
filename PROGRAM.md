@@ -564,7 +564,7 @@ ablations. The immediate sequence is:
   program synthesis. Preserve OT-0048's old-carrier impossibility and causal
   standards, but do not reuse its exact expression endpoint merely behind a new
   container.
-- **OT-0055 (protocol design frozen; implementation pending):** candidate-free
+- **OT-0055 (implemented; unexecuted):** candidate-free
   calibration of a non-executable descriptive-rule carrier. A private task
   derived after the clean implementation commit gives identical heldout pairs
   to fresh reference-description, byte-equal opaque-state, and byte-equal
@@ -573,6 +573,9 @@ ablations. The immediate sequence is:
   retains an error. Eighteen hosted application turns are frozen; learner,
   proposal, and revision output are forbidden. A pass may authorize one OT-0056
   learner candidate and remains carrier-opportunity evidence only.
+  The generic harness, application schema, byte-equal projection construction,
+  fresh-context controls, hosted receipts, and tests are complete. The private
+  task and run lock must follow the clean implementation commit.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

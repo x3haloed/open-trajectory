@@ -1,6 +1,6 @@
 # OT-0055 — Descriptive-rule application calibration
 
-- **Status:** protocol design frozen; implementation pending
+- **Status:** protocol implemented; unexecuted; run lock pending clean commit
 - **Evidence class:** private-reproducible if valid
 - **Target:** candidate-free calibration of a non-expression representation
 - **Candidate learner output:** forbidden
