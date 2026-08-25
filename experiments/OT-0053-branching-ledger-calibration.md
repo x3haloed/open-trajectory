@@ -1,11 +1,12 @@
 # OT-0053 — Branching-ledger candidate-free calibration
 
-- **Status:** prospectively frozen; unexecuted
+- **Status:** prospectively frozen and run-locked; unexecuted
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free representation-escape family calibration
 - **Candidate actor output:** forbidden
 - **Hosted model calls:** forbidden
 - **Predecessor:** rejected OT-0052
+- **Implementation:** `259de5597a469fe810215c9b7bde55cd82957220`
 
 ## Frozen prediction and cheapest falsifier
 
@@ -52,3 +53,6 @@ locked commit. A pass authorizes at most one fresh OT-0054 candidate. It remains
 candidate-free evidence that the new exoskeleton can discriminate the required
 causal paths; it is not representation escape, developmental transfer, widened
 OT-2, integrated development, or OT-3/TAAA evidence.
+
+The implementation and every fixed input are bound by
+`spec/ot-0053-run-lock.json`. No actor output or hosted call exists.

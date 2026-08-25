@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0053",
+  "protocol_origin_git_commit": "259de5597a469fe810215c9b7bde55cd82957220",
+  "implementation_git_commit": "259de5597a469fe810215c9b7bde55cd82957220",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "9b13bae61be34a47c6c528d3137611f4ddf458869f8a9920e255efef8c24172a",
+    "calibration_harness_sha256": "b0a8773c01ba804477788d7d631a5a3025f5c37648bbbbda645993f135613a71",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "entrypoint_sha256": "c568ec2f2a6165deae8288c0978b40d632767c47b90c4899d18af107ea05e189",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "orientation_sha256": "4c46c22233f1f028f5ca9995e28e99fc5283e07ca9f4430d48df5512cfa3b334",
+    "ot0048_manifest_sha256": "e8c20f527d457db035c941562b9717b53d7a7b51cbc69e0d9daf457f589f7aea",
+    "ot0052_manifest_sha256": "c360e138172b4d46f4227f52ce89f97e6a7280e5b07adb8771eb9fd7c4441a9b",
+    "staged_expression_core_sha256": "3956b7b814e0be67fdb55390c4d1ae8c206c7b20fd7133494f1cf0cc652eb5a6",
+    "test_sha256": "d2434c18ed3a92a093e8e71cc2665a1868082355ed551b67e13104b9c1e214ea",
+    "world_calibration_sha256": "b9af7584ffb0de61d39ab23259b7014e8843201da9aee4eecdd10e7ccfd07144"
+  }
+}

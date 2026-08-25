@@ -43,6 +43,8 @@ requires all 48 calibrated worlds plus distinct selected-branch deletion,
 no-credit, rejected-update preservation, committed-successor rollback,
 old-carrier, scaled-holdout, correction, surface, replay, test, audit, and
 privacy gates before one OT-0054 authorization can exist.
+The implementation and all fixed inputs are run-locked; no evidence execution
+has occurred.
 
 ## Prediction errors
 
