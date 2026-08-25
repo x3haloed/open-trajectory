@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0053",
+  "evaluation_epoch": "post-OT-0052 branching representation calibration",
+  "candidate_actor_outputs": false,
+  "hosted_model_calls": 0,
+  "scenario_count": 48,
+  "regime_count": 3,
+  "active_choice_budget": 8,
+  "maximum_branches": 3,
+  "committed_projection_byte_limit": 1536,
+  "provisional_projection_byte_limit": 3072,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0054",
+  "claim_limit": "public deterministic candidate-free calibration of a branching actor-authored hypothesis ledger and at most one fresh OT-0054 authorization; no representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all 48 cases retain pre-update discrepancy [4,8,4] and a controller-private branching opportunity reaches [0,0,0]",
+    "the ledger retains competing structurally distinct branches while an exact actor-selected branch alone controls heldout behavior",
+    "removing the selected branch, removing consequence credit, and selecting an invalid branch each remove the claimed advantage under their frozen semantics",
+    "rejected-update preservation and rollback of an actually committed successor are separately exact",
+    "old-carrier impossibility, complete promoted-weight projection, fixed, no-persistence, verbatim, scaled holdout, contradiction, correction, surface, order, replay, test, audit, privacy, and repository-size gates pass",
+    "candidate actor output and hosted calls remain absent"
+  ],
+  "red_line_review": [
+    "OT-0049 and OT-0052 remain rejected and are not retried or rescored.",
+    "Controller-private reference branches and active indices prove opportunity only; they are never candidate evidence.",
+    "The branching ledger is a new causal exoskeleton whose future actor-authored contents and selection must still be tested.",
+    "A pass authorizes only one candidate and does not establish endogenous developmental machinery."
+  ]
+}

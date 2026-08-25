@@ -36,6 +36,14 @@ or bounded promotion is not sufficient.
 - **Closed path:** do not retry the bounded single-expression family by adding
   turns, changing prompts, relaxing bounds, or rescoring OT-0049/OT-0052.
 
+OT-0053 is the active candidate-free comparison. Its branching ledger retains
+up to three actor-authored structural alternatives and makes an exact active
+identity causal. Controller-private branches test opportunity only. Promotion
+requires all 48 calibrated worlds plus distinct selected-branch deletion,
+no-credit, rejected-update preservation, committed-successor rollback,
+old-carrier, scaled-holdout, correction, surface, replay, test, audit, and
+privacy gates before one OT-0054 authorization can exist.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

@@ -1,0 +1,12 @@
+A fresh process may propose up to three bounded scoring branches over the raw
+integer coordinates of an event. The world validates each exact branch against
+independently completed contact. A later fresh process receives the bounded
+branch ledger and authors the next ledger, including which exact branch is
+active. It may retain competing branches, introduce a replacement, or omit a
+branch. The controller validates identities and consequence receipts but does
+not search for, rank, or supply a useful branch.
+
+The active branch selects the event with the larger score. Every scoring branch
+uses only integer literals, raw-coordinate subscripting, and ordinary bounded
+arithmetic. No task relation, derived feature, solved example, or desirable
+branch is supplied.

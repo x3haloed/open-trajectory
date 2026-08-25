@@ -246,6 +246,14 @@ replacement, competing hypotheses, and rejected-update behavior causal and
 inspectable without encoding a preferred semantic decision menu in the
 controller.
 
+Version-space and counterexample-guided synthesis suggest a narrower hypothesis:
+retain several independently falsifiable actor-authored structures until world
+receipts discriminate them, instead of forcing immediate overwrite. OT-0053
+tests only the generic causal topology of such a branching ledger. The external
+methods remain hypothesis sources, not repository substrates or evidence
+([CEGIS analysis](https://arxiv.org/abs/1407.5397),
+[relational version-space synthesis](https://arxiv.org/abs/1809.02283)).
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more
