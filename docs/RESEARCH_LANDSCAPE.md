@@ -289,6 +289,16 @@ enumerable while leaving a short flag-and-polarity description. It tests a new
 world and representation pressure, not another container around arithmetic
 program synthesis.
 
+The locked OT-0056 run promoted that environment across all 32 calibrated
+cases. At most one of fifteen diagnostic rows fits the active budget, leaving
+at least fifteen observationally compatible flags with divergent heldout
+behavior, while the private reference description remains exact and revisable.
+OT-0057 therefore isolates the remaining application question in fresh hosted
+contexts before any learner is exposed: can a process use the short categorical
+description reliably while opaque and one-row controls fail? A positive result
+would validate an application interface, not the endogenous construction of
+the description.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

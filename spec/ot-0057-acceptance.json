@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0057",
+  "evaluation_epoch": "post-OT-0056 categorical-description application calibration",
+  "candidate_learner_outputs": false,
+  "task_regimes": 3,
+  "independent_workers": 2,
+  "application_conditions": ["private-reference-description", "byte-equal-opaque", "byte-equal-one-row-verbatim"],
+  "hosted_application_turns": 18,
+  "active_choice_budget": 8,
+  "maximum_state_projection_bytes": 1024,
+  "maximum_verbatim_rows": 1,
+  "minimum_surviving_hypotheses": 15,
+  "deployment_epoch": {"requested_model": "gpt-5.6-luna"},
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_turns": 18,
+    "output_tokens_per_turn": 2000,
+    "actor_input_tokens_total": 300000,
+    "actor_output_tokens_total": 36000,
+    "wall_seconds": 1800,
+    "actor_tool_calls": 0
+  },
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0058",
+  "claim_limit": "private candidate-free calibration that fresh processes can causally apply a bounded categorical description; at most one OT-0058 learner authorization and no learner invention, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "one private task is mechanically derived only after the clean generic implementation commit",
+    "the private task passes OT-0056 structural old-carrier, compression, contradiction, correction, identity, and rollback certificates before hosted execution",
+    "both counterbalanced private-reference workers reach heldout errors [0,0,0]",
+    "every byte-equal opaque and one-row verbatim regime retains at least one error",
+    "all conditions receive identical heldout pairs, active choices, state-projection bytes, model, output budget, tools, and fresh-context treatment",
+    "deployment, response, catalog, ETag, inventory, reset, resource, test, audit, evidence, privacy, and repository-size gates pass",
+    "no learner, proposal, revision, or candidate machinery output occurs"
+  ],
+  "red_line_review": [
+    "OT-0055 remains rejected and OT-0056 remains bounded opportunity evidence; neither is rescored.",
+    "The controller-authored reference description proves carrier application only and can never count as endogenous machinery.",
+    "The one-row verbatim condition is an atomic replay control; deriving or recompressing rows would be a different candidate representation.",
+    "A pass authorizes one learner comparison but is not representation-escape evidence.",
+    "The prompt, reference template, scoring rule, and thresholds never change after reference results are unsealed."
+  ]
+}

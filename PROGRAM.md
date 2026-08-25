@@ -609,7 +609,7 @@ ablations. The immediate sequence is:
   and repository-size gates passed without actor or hosted output. Exactly one
   fresh OT-0057 application calibration is authorized. This is categorical
   compression-world opportunity, not representation escape.
-- **OT-0057 (authorized; uncalibrated):** test whether fresh hosted processes
+- **OT-0057 (protocol frozen; unimplemented):** test whether fresh hosted processes
   can apply a controller-private short categorical description across
   contradiction and distinct correction while byte-equal opaque and permitted
   exact-row controls remain insufficient. Derive a fresh private world only
