@@ -1,6 +1,6 @@
 # OT-0049 — E12 representation-escape candidate
 
-- **Status:** prospectively frozen; unexecuted
+- **Status:** prospectively locked; unexecuted
 - **Evidence class:** private-reproducible if valid
 - **Target:** bounded OT-1 representation escape
 - **Authorization:** OT-0048, exactly one fresh candidate
@@ -71,3 +71,13 @@ carrier, and later consequences corrected that machinery. The generic
 interpreter remains a declared causal exoskeleton. A pass does not establish
 developmental transfer, widened OT-2 standing, an integrated developmental
 claim, OT-3/TAAA, autonomy, identity, or consciousness.
+
+## Prospective lock
+
+The generic candidate implementation is frozen at `e7a56e8`. The private task
+was then mechanically derived from that full commit and its identity, the
+pinned patched backend pair, requested model, TLS authority, fixtures,
+acceptance rule, tests, controller paths, evidence tooling, and predecessor
+manifests are fixed by `spec/ot-0049-run-lock.json`. No actor context or model
+output existed when the lock was created; the one-candidate authorization
+remains unconsumed.

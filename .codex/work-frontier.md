@@ -28,9 +28,10 @@ or bounded promotion is not sufficient.
   controls, causal ablations, correction, rollback, and reproduction gates.
 - **Dependent evidence:** Any OT-0049 representation-escape disposition.
 
-The prospective OT-0049 candidate replaces the inherited four-weight state
-with bounded actor-authored executable syntax. The generic interpreter remains
-an explicit exoskeleton. The candidate is not yet executed; its private task
-must be mechanically derived from the clean implementation commit.
+The locked OT-0049 candidate replaces the inherited four-weight state with
+bounded actor-authored executable syntax. The generic interpreter remains an
+explicit exoskeleton. Its private task is mechanically derived from clean
+implementation `e7a56e8`; exact task, backend, protected-input, resource, and
+receipt identities are prospectively frozen. No actor context has started.
 
 ## Prediction errors

@@ -447,7 +447,7 @@ ablations. The immediate sequence is:
   unchanged `[4,8,4]`, frozen-first `[0,8,4]`, verbatim replay `[4,4,4]`, and
   best fixed aggregate `12`. E12 authorizes at most one fresh OT-0049
   candidate. No candidate or hosted output was generated.
-- **OT-0049 (protocol frozen; unexecuted):** begin from the promoted
+- **OT-0049 (locked; unexecuted):** begin from the promoted
   four-weight state, then let three fresh learning contexts per worker replace
   it with one bounded actor-authored executable scoring expression after
   completed binary consequences. The generic safe interpreter supplies no
@@ -459,8 +459,10 @@ ablations. The immediate sequence is:
   fixed-selector, immutable-parent, exact-restore, rollback, and deterministic-
   replay gates are frozen for two counterbalanced workers under six total fresh
   actor turns. The generic interpreter remains an explicit causal exoskeleton.
-  The private task and execution lock will be derived only after the clean
-  implementation commit; no authorization has yet been consumed.
+  The generic implementation was frozen at `e7a56e8`; the private task was
+  then mechanically derived and the exact backend, task identity, protected
+  inputs, resources, and receipt fields were locked prospectively. No actor
+  context has started and no authorization has yet been consumed.
 - Only then widen OT-2 toward reconstructed direction, reasons that retain
   standing, legitimate revision or supersession, and continuity across
   qualitatively different domains.
