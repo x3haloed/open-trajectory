@@ -1,10 +1,13 @@
 # OT-0060 — Categorical-predicate representation-escape candidate
 
-- **Status:** implemented; unexecuted; private task not derived
+- **Status:** run-locked; unexecuted
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** OT-0059, exactly one fresh learner candidate
 - **Workers:** two independent three-encounter lineages
+- **Implementation:** `9933db6ed2c1720abb01382fc55d2db0a4dd800f`
+- **Private task artifact:** sealed outside Git and bound by
+  `spec/ot-0060-run-lock.json`
 
 ## Frozen hypothesis and cheapest falsifier
 

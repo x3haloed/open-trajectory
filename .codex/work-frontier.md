@@ -108,8 +108,8 @@ fixed, verbatim, invalid-update, restore, rollback, reset, deployment, resource,
 replay, test, audit, evidence, and privacy gates are frozen. OT-0059's hidden
 reference source must not enter any actor-reachable input.
 The generic candidate controller, fresh-context actor path, causal controls,
-novelty checks, structural ablations, hosted receipts, and evidence path are
-implemented. The concrete private task has not yet been derived.
+novelty checks, structural ablations, hosted receipts, exact backend, and the
+mechanically derived private task are prospectively bound by the run lock.
 
 ## Prediction errors
 

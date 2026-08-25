@@ -649,7 +649,7 @@ ablations. The immediate sequence is:
   committed rollback, complete interpreter safety, surface, order, replay,
   test, audit, evidence, privacy, and repository-size gates. No actor or hosted
   output occurred. Exactly one fresh OT-0060 learner is authorized.
-- **OT-0060 (implemented; unexecuted; private task not derived):** one fresh categorical
+- **OT-0060 (run-locked; unexecuted):** one fresh categorical
   predicate learner may receive completed diagnostic consequences in three
   fresh contexts per worker and author one bounded source expression per
   regime. It must reach `[0,0,0]` in two workers, invent both an opaque literal
