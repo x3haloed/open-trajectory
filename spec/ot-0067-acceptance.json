@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0067",
+  "evaluation_epoch": "post-OT-0066 equivalence-partition candidate-free calibration",
+  "scenario_count": 16,
+  "symbol_count": 8,
+  "diagnostic_bundle_count": 15,
+  "presentations_per_bundle": 4,
+  "heldout_choices_per_regime": 8,
+  "regime_count": 3,
+  "active_inheritance_byte_limit": 1024,
+  "minimum_complete_row_bytes": 513,
+  "maximum_allowed_rows": 1,
+  "minimum_surviving_partitions": 2,
+  "maximum_groups": 8,
+  "candidate_outputs": false,
+  "hosted_model_calls": 0,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0068",
+  "claim_limit": "public deterministic relational world and generic equivalence-partition carrier calibration with at most one fresh OT-0068 learner authorization; no actor invention, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all sixteen relational worlds pass twice in forward and reverse order without candidate or hosted output",
+    "diagnostic and heldout pairs are disjoint and heldouts are balanced in every regime",
+    "every real four-weight setting and every current-event policy is wrong on four heldouts in every regime",
+    "hidden reference partitions reach [0,0,0], and each preceding reference is wrong on all eight later contradiction heldouts",
+    "reference membership fingerprints change between regimes and output-only relabeling cannot satisfy changed contact",
+    "the raw fifteen-bundle contact exceeds 1024 bytes, at most one complete row fits, and every allowed projection leaves at least two heldout-divergent partitions",
+    "every allowed exact-row projection is executed through exact-pair replay and incurs four heldout errors",
+    "empty, digest, no-persistence, fixed-side, alternating, exact-replay, and every fixed reference-partition lineage fail the complete endpoint",
+    "complete-partition deletion, one-group collapse, required-membership deletion, and fixed-output replacement remove the reference advantage or fail closed to the exact parent",
+    "invalid, duplicate-member, missing-member, empty-group, unknown-symbol, over-budget, and contact-imperfect updates preserve exact parents; identity, restore, and rollback are exact",
+    "actor-reachable generic surfaces contain no target partition, concrete symbol, desired group count, or output polarity",
+    "the output schema uses only the supported hosted subset",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "The partition interpreter is an explicit researcher-built causal exoskeleton; hidden references prove opportunity only.",
+    "The actor chooses grouping identity, count, membership, and output polarity; no desirable partition menu is actor-reachable.",
+    "Resolved correct sides are independently owned completed consequences, not researcher advice or hidden heldout leakage.",
+    "A pass authorizes one learner comparison but is not representation-escape evidence.",
+    "OT-0066 remains rejected and its prompt, task, machines, and outputs are forbidden candidate inputs."
+  ]
+}

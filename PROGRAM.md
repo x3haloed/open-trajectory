@@ -803,6 +803,22 @@ ablations. The immediate sequence is:
   family is closed. The next route must change the representation or
   consequence/application affordance, not this prompt, task, grammar, schema,
   or threshold.
+- **Next Phase I search:** change both representation and consequence
+  affordance. Calibrate an actor-authored equivalence partition over opaque
+  symbols, applied by a generic deterministic within/across interpreter.
+  Completed outcomes may expose the independently resolved correct side after
+  action, eliminating OT-0066's polarity reconstruction bottleneck without
+  supplying a grouping. Preserve old-carrier impossibility, raw/replay
+  insufficiency, later partition harm, membership-level correction, fixed
+  lineages, structural ablations, safe failure, rollback, and surface gates.
+- **OT-0067 (protocol frozen; unimplemented):** candidate-free calibration of
+  sixteen eight-symbol relational worlds. Enumerate every set partition
+  controller-side; require full contact to identify the reference while every
+  budget-legal exact-row projection leaves heldout-divergent alternatives and
+  actual replay scores four. Hidden references must reach `[0,0,0]`, preceding
+  partitions must become wrong on all eight later heldouts, and output-only
+  relabeling must fail changed contact. A pass may authorize exactly one fresh
+  OT-0068 learner and is not actor-invention or representation-escape evidence.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

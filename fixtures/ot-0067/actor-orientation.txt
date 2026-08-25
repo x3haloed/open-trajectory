@@ -1,0 +1,6 @@
+Author one bounded partition over the public opaque symbols. Choose the number
+of groups, every group identifier, complete symbol membership, and the output
+side for queries whose two symbols are within one group or across different
+groups. Every public symbol must occur exactly once in a nonempty group. Do not
+select a named grouping mode; construct the relation supported by completed
+consequences.

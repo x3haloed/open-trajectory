@@ -192,6 +192,14 @@ is closed as the next route. The smallest live obstruction is reliable
 interpretation and application of completed consequences, not carrier
 expressibility alone.
 
+The next materially different family is a data-structural equivalence
+partition, not executable syntax or temporal code. OT-0067 is prospectively
+frozen candidate-free: eight opaque symbols, explicit resolved-side completed
+consequences, a generic within/across interpreter, all set partitions as the
+controller hypothesis class, certified raw/replay insufficiency, two later
+membership contradictions, fixed lineages, decisive partition ablations, safe
+failure, and rollback. A valid pass may authorize OT-0068 only.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

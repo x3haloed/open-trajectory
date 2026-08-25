@@ -407,6 +407,27 @@ consequences correctly enough to construct or revise it. The next search
 should change the representation or consequence/application affordance, not
 add transducer examples or retry its prompt.
 
+Recent procedural-memory systems reinforce both the opportunity and the red
+line. ProcMEM represents skills through activation, execution, and termination
+conditions and maintains them through scored refinement
+([ProcMEM](https://arxiv.org/abs/2602.01869)); H-Mem combines an evolving
+temporal/semantic tree with a knowledge graph
+([H-Mem](https://arxiv.org/abs/2605.15701)); Memory-R1 learns over a fixed
+`ADD`/`UPDATE`/`DELETE`/`NOOP` operation menu
+([Memory-R1](https://arxiv.org/abs/2508.19828)). These are hypothesis sources,
+not evidence or implementations for Open Trajectory. Their preinstalled skill
+fields, graph/tree semantics, managers, and operation menus would move too much
+developmental authority into the researcher-built substrate.
+
+OT-0067 instead isolates a smaller relational hypothesis. A generic carrier
+can apply any actor-authored equivalence partition over opaque symbols, while
+the actor must choose group count, identity, membership, and output polarity.
+Explicit resolved-side consequences test whether OT-0066's polarity
+reconstruction was the limiting affordance. Exhaustive set-partition controls,
+unseen pairs, compression, later cross-cutting regrouping, output-only
+relabeling, and membership ablations keep the result distinct from raw replay,
+mode selection, or parameter tuning.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more
