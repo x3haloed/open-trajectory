@@ -1,6 +1,6 @@
 # OT-0056 — Categorical compression-world calibration
 
-- **Status:** implemented; unexecuted; run lock not frozen
+- **Status:** run-locked; unexecuted
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free non-expression representation environment
 - **Candidate output:** forbidden

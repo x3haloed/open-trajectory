@@ -69,7 +69,7 @@ selector and every complete-row projection within 1,024 bytes endpoint-
 insufficient, while a hidden short descriptive state supports contradiction and
 distinct correction. Candidate and hosted output are forbidden; only a complete
 pass may authorize one OT-0057 application calibration. The implementation is
-complete but not yet run-locked. A pre-lock falsifier rejected the first
+prospectively locked at `7ead119`. A pre-lock falsifier rejected the first
 codebook because some diagnostic pair contents recurred in heldout contact; the
 fixed codebook is complement-free and balanced by both flag and canary, and the
 harness now derives all-real-weight and all-allowed-verbatim impossibility
