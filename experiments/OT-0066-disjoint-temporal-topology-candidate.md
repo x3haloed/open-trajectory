@@ -1,6 +1,6 @@
 # OT-0066 — Disjoint temporal-topology candidate
 
-- **Status:** implemented; unlocked; two pre-lock tasks retired
+- **Status:** run-locked; unexecuted; two pre-lock tasks retired
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** promoted OT-0065; exactly one fresh learner candidate
@@ -123,3 +123,9 @@ passed sealed readback, but lock validation showed that its manually supplied
 That task is also preserved and retired before lock or hosted execution. Task
 preparation must now fail closed unless the supplied full identity equals a
 clean `HEAD`; only another repaired implementation may derive the next task.
+
+The identity-enforcing implementation derived a third, distinct task directly
+from its verified clean `HEAD`. That task passed the complete structural regime
+after sealed readback. Its task identity, implementation, instrumented backend,
+TLS bundle, model, and every fixed input are frozen in
+`spec/ot-0066-run-lock.json`. No actor output has occurred.

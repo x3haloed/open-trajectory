@@ -768,7 +768,7 @@ ablations. The immediate sequence is:
   surface, schema, replay, test, audit, evidence, and privacy gate passed with
   no candidate or hosted output. This validly authorizes exactly one newly
   frozen OT-0066 learner and remains opportunity evidence only.
-- **OT-0066 (implemented; unlocked; two pre-lock tasks retired):** consume
+- **OT-0066 (run-locked; unexecuted; two pre-lock tasks retired):** consume
   OT-0065's sole
   authorization only after a generic implementation commit and a newly derived
   private task. Two independent three-reset lineages must author contact-
@@ -788,7 +788,11 @@ ablations. The immediate sequence is:
   readback, but lock validation caught that its manually supplied 40-character
   implementation identity differed from clean `HEAD`. It too is retired before
   lock or hosted execution. Task preparation must now prove exact clean-HEAD
-  identity before writing another task; authorization remains unconsumed.
+  identity before writing another task; authorization remains unconsumed. The
+  identity-enforcing implementation then derived a third distinct task from
+  verified clean `HEAD`; it passed complete structural calibration after
+  sealed readback and is now run-locked with the instrumented backend, model,
+  TLS bundle, and all fixed inputs. No actor output has occurred.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

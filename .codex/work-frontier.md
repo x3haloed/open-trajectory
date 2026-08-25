@@ -176,6 +176,12 @@ task is also preserved and retired before lock or hosted execution. Task
 preparation must now prove exact clean-HEAD identity before writing bytes. The
 learner remains unexecuted and authorization unconsumed.
 
+The identity-enforcing OT-0066 implementation derived a third distinct task
+directly from verified clean `HEAD`. It passed complete structural calibration
+after sealed readback. The task, implementation, instrumented backend, model,
+TLS bundle, and every fixed input are now run-locked. The learner remains
+unexecuted and authorization unconsumed.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision
