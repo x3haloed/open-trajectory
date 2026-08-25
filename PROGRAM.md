@@ -632,7 +632,7 @@ ablations. The immediate sequence is:
   prove opportunity only. The eventual learner must author both the opaque
   distinction and executable operation from completed consequences; selecting
   a researcher-authored categorical mode does not count.
-- **OT-0059 (run-locked; unexecuted):** calibrate that carrier over all
+- **OT-0059:** calibrate that carrier over all
   32 OT-0056 worlds without candidate or hosted output. The safe 256-byte,
   31-node Boolean-expression interpreter accepts only generic event access,
   string/Boolean literals, membership, equality, and Boolean composition. It
@@ -642,7 +642,23 @@ ablations. The immediate sequence is:
   deletion ablations, invalid-update parent preservation, committed rollback,
   surface, order, replay, test, audit, evidence, and privacy gates. A complete
   pass may authorize one fresh OT-0060 learner only and is not representation
-  escape.
+  escape. The locked public run promoted all 32 cases twice: hidden reference
+  `[0,0,0]`, old-carrier/no-state `[4,4,4]`, maximal contradiction, distinct
+  correction, at-most-one-row compression with at least fifteen survivors,
+  constant-AST and literal-deletion failure, exact invalid-update preservation,
+  committed rollback, complete interpreter safety, surface, order, replay,
+  test, audit, evidence, privacy, and repository-size gates. No actor or hosted
+  output occurred. Exactly one fresh OT-0060 learner is authorized.
+- **OT-0060 (authorized; protocol not yet frozen):** one fresh categorical
+  predicate learner may receive completed diagnostic consequences in three
+  fresh contexts per worker and author one bounded source expression per
+  regime. It must reach `[0,0,0]` in two workers, invent both an opaque literal
+  and useful operation absent from its parent, become maximally harmful after
+  contradiction, correct, and then change again for a distinct target. Freeze
+  no-credit, unchanged, source deletion, literal deletion, constant AST,
+  complete old-carrier projection, no-persistence, digest, verbatim, fixed,
+  immutable-parent, restore, rollback, novelty, reset, deployment, resource,
+  replay, test, audit, evidence, and privacy gates before deriving its task.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

@@ -86,17 +86,23 @@ categorical predicate language is the leading materially different family. It
 must not supply a target, polarity, categorical mode, solved example, or menu of
 desirable operations, and it must precede any learner authorization.
 
-OT-0059 is the frozen candidate-free calibration for that family. It uses one
+OT-0059 promoted the candidate-free calibration for that family. It uses one
 bounded safe Boolean expression over a public event object, with generic
 membership, equality, and Boolean syntax executed deterministically. Across all
 32 OT-0056 worlds it must preserve old-carrier impossibility, raw compression,
 contradiction, distinct correction, fixed controls, decisive structural
 ablations, invalid-update parent identity, committed rollback, surface
-exclusion, order, replay, test, audit, evidence, and privacy gates. Only a full
-pass may authorize one OT-0060 learner.
-The generic interpreter, complete calibration family, structural ablations,
-safe-failure cases, and evidence path are prospectively locked at implementation
-`187a7b7`.
+exclusion, order, replay, test, audit, evidence, and privacy gates. All 32 cases
+passed twice with hidden reference `[0,0,0]`, old-carrier/no-state `[4,4,4]`, at
+most one inherited raw row, at least fifteen surviving hypotheses, decisive
+constant/literal ablations, exact unsafe-update preservation, committed
+rollback, interpreter safety, surface, order, replay, test, audit, evidence,
+and privacy gates. No actor or hosted output occurred.
+
+Exactly one fresh OT-0060 learner is authorized. Its protocol must freeze the
+three-regime, two-worker, six-context candidate path and all causal ablations
+before deriving a new private task. OT-0059's hidden reference source must not
+enter any actor-reachable input.
 
 ## Prediction errors
 

@@ -1,6 +1,6 @@
 # OT-0059 — Categorical-predicate carrier calibration
 
-- **Status:** run-locked; unexecuted
+- **Status:** promoted; one OT-0060 learner authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free deterministic categorical carrier
 - **Candidate output:** forbidden
@@ -59,3 +59,25 @@ most one fresh OT-0060 learner candidate under a separately frozen protocol.
 OT-0059 is deterministic carrier-opportunity evidence only—not actor invention,
 representation escape, transfer, widened OT-2, integrated development, or
 OT-3/TAAA evidence.
+
+## Result and decision
+
+The locked public-reconstructible run passed all 32 cases twice in forward and
+reverse order. Hidden reference predicates scored `[0,0,0]`; old-carrier and
+no-state endpoints scored `[4,4,4]`; polarity contradiction caused eight
+errors; and distinct-target frozen errors remained two, four, or six before
+correction. The 1,024-byte budget fit at most one exact row and left at least 15
+endpoint-divergent hypotheses. Constant-AST and literal-deletion ablations each
+scored four errors in every regime, every fixed predicate lineage failed the
+complete endpoint, and no-credit, invalid, oversized, runtime-type-invalid, and
+contact-imperfect updates preserved exact parents. Committed identity, restore,
+rollback, interpreter safety, surface exclusion, order, replay, tests, audit,
+evidence, privacy, and repository-size gates passed. Candidate and hosted
+output remained absent.
+
+Final disposition: `promoted`. Exactly one fresh OT-0060 learner is authorized.
+This proves only that a generic deterministic categorical program carrier can
+express, apply, revise, and ablate the hidden opportunity. It does not show that
+an actor can discover or author the program from consequences and is not yet
+representation escape. The artifact is identified by
+`evidence/manifests/OT-0059/ot-0059-categorical-predicate-carrier-calibration-001.json`.

@@ -137,7 +137,11 @@ rejected that application interface: reference errors were `[0,2,0]` and
 gates passed. No learner was authorized. The next search must replace
 model-mediated natural-language application with a prospectively calibrated,
 controller-deterministic generic categorical carrier rather than relax the
-endpoint.
+endpoint. OT-0059 has now promoted that candidate-free carrier across all 32
+worlds, including decisive constant-AST and literal-deletion ablations and safe
+rejection of invalid updates. It authorizes exactly one OT-0060 learner; the
+calibration itself contains no actor invention or representation-escape
+evidence.
 
 ## Quick start
 

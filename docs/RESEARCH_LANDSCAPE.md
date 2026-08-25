@@ -311,6 +311,16 @@ and absent from fixed surfaces. This is scientifically distinct from the closed
 numeric arithmetic-expression family; it still requires a candidate-free
 interpreter and leak calibration before learner authorization.
 
+OT-0059 promoted that deterministic carrier calibration across all 32 worlds.
+The result removes application variance while retaining strict structural
+attribution: constant-AST and opaque-literal deletion each destroy the hidden
+reference advantage, and invalid or contact-imperfect programs preserve the
+parent. The live question is now candidate generation again, but in a
+categorical data-predicate language rather than the closed numeric arithmetic
+family. OT-0060 is authorized once to test whether completed consequences cause
+fresh actors to author both the discriminating opaque literal and the useful
+Boolean operation, then revise both under contradiction and target change.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more
