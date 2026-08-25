@@ -47,6 +47,12 @@ privacy gates. The locked run passed all 48 worlds twice with `[4,8,4]` to
 preservation, real-successor rollback, and no actor or hosted output. Exactly
 one fresh OT-0054 candidate is authorized and unconsumed.
 
+OT-0054 is the active scarce comparison. It freezes exact proposal-branch
+inheritance, consequence-guided active selection, combined advantage over the
+proposal-active control, retained prior-active alternatives during both later
+corrections, and the full OT-0053 causal and operational gates. No actor context
+has started.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

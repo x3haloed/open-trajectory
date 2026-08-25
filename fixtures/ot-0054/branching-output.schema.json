@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["branches", "active_index"],
+  "properties": {
+    "branches": {"type": "array", "items": {"type": "string"}},
+    "active_index": {"type": "integer"}
+  }
+}

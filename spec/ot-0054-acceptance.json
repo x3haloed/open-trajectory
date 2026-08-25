@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0054",
+  "evaluation_epoch": "post-OT-0053 branching-ledger representation-escape candidate",
+  "authorized_by": "OT-0053",
+  "authorization_consumed_on_first_valid_actor_execution": true,
+  "claim_limit": "private, time-bounded, single synthetic-domain branching-ledger representation-escape foothold; no developmental transfer, widened OT-2, integrated developmental claim, or OT-3 evidence",
+  "maximum_branches": 3,
+  "committed_projection_byte_limit": 1536,
+  "provisional_projection_byte_limit": 3072,
+  "active_choice_budget": 8,
+  "regime_count": 3,
+  "independent_workers": 2,
+  "stages_per_regime": 2,
+  "deployment_epoch": {"requested_model": "gpt-5.6-luna"},
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_turns": 12,
+    "output_tokens_per_turn": 8000,
+    "actor_input_tokens_total": 500000,
+    "actor_output_tokens_total": 96000,
+    "wall_seconds": 1800,
+    "actor_tool_calls": 0
+  },
+  "promotion_gate": [
+    "the clean generic branching protocol predates the mechanically derived private task and all actor output",
+    "each worker and regime uses fresh proposal and adjudication contexts with continuity only through bounded current and provisional ledgers",
+    "both workers reach heldout errors [0,0,0] from pre-update [4,8,4], keep at least two distinct admissible actor-authored branches per committed ledger, and select structurally novel active branches outside the old carrier",
+    "every final active branch is inherited exactly from the proposal ledger; at least one proposal-active choice is changed after validation and the staged lineage strictly improves the combined exact proposal-active control",
+    "the exact prior active branch remains as an inspectable alternative after both later corrections while the newly selected branch changes",
+    "withheld consequence credit, active-branch deletion, no-persistence, verbatim, fixed, and complete old-carrier projection remove the advantage",
+    "the exact contradiction makes the first committed active branch maximally harmful and the distinct third relation requires another active structural change",
+    "every proposal, validation, branch identity, successor, parent, rollback, replay, hosted deployment, inventory, resource, test, audit, evidence, privacy, and repository-size gate passes"
+  ],
+  "red_line_review": [
+    "OT-0049 and OT-0052 remain rejected and are not retried or rescored.",
+    "The actor authors every branch and active selection; the controller validates but never searches for or ranks one.",
+    "A valid execution consumes the only OT-0054 authorization and is never retried.",
+    "A pass remains one bounded synthetic foothold, not transfer, widened OT-2, integrated development, OT-3, autonomy, identity, or consciousness."
+  ]
+}

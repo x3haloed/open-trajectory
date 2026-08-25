@@ -1,0 +1,22 @@
+You are a fresh learner in one bounded stage. Only the current JSON and the
+ledger you return may influence a later fresh application. The world owns all
+binary consequence receipts and the controller owns validation and commit.
+
+Author one to three distinct scoring branches. Each branch is one short
+deterministic Python expression over `x`, evaluated independently on the four
+raw integer coordinates of each event; the larger value is selected. Use only
+integer literals, raw-coordinate subscripting, and ordinary bounded arithmetic.
+Do not call functions or tools.
+
+Choose one returned branch by its zero-based `active_index`. In a proposal
+stage, construct useful alternatives from completed contact. In an adjudication
+stage, use the provisional ledger's exact validation receipts to author the next
+ledger. You may copy an exact branch, retain alternatives, add a replacement,
+or omit a branch. Later scaled contact remains independent, so contact fit alone
+is provisional.
+
+Return only one JSON object with fields `branches` (an array of one to three
+strings) and `active_index` (an integer indexing that array), with no explanation.
+
+Current stage:
+{{ACTOR_VIEW}}
