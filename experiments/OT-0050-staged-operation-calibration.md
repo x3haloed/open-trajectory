@@ -1,6 +1,6 @@
 # OT-0050 — Staged operation-construction calibration
 
-- **Status:** prospectively frozen; unexecuted
+- **Status:** prospectively locked; unexecuted
 - **Evidence class:** public deterministic calibration if promoted
 - **Target:** candidate-free representation-escape protocol repair
 - **Candidate actor output:** forbidden
@@ -57,3 +57,10 @@ contexts per regime per worker, twelve actor turns total, zero tools, and the
 same representation-escape endpoint. It is candidate-free opportunity and
 protocol evidence only—not representation escape, developmental transfer,
 widened OT-2, integrated development, or OT-3.
+
+## Prospective lock
+
+The candidate-free implementation is frozen at `6d6e292`. Its acceptance
+rule, orientation, controller, semantic bounds, tests, evidence tooling, and
+OT-0048/OT-0049 predecessor manifests are fixed by
+`spec/ot-0050-run-lock.json`. No candidate output or hosted call exists.

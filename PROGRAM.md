@@ -470,7 +470,7 @@ ablations. The immediate sequence is:
   evidence, and privacy paths remained valid. E12 is consumed. This closes
   reliable one-shot executable synthesis from one consequence packet under
   the frozen interface, not the expressiveness of executable operations.
-- **OT-0050 (protocol frozen; unexecuted; candidate-free only):** calibrate a
+- **OT-0050 (locked; unexecuted; candidate-free only):** calibrate a
   materially different staged operation-construction world before authorizing
   any candidate. A provisional actor-authored operation must receive an
   independent completed-contact residual and validity receipt before a later

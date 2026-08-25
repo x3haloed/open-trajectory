@@ -46,4 +46,7 @@ provisional projections within 512 bytes, and pass no-credit, scaled-holdout,
 parent, restoration, surface-exclusion, reverse-order, replay, test, audit, and
 privacy gates before any OT-0051 authorization exists.
 
+Implementation `6d6e292` and all protected calibration inputs are now locked.
+The candidate-free public run is the only active comparison.
+
 ## Prediction errors
