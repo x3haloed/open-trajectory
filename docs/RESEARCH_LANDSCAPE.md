@@ -254,6 +254,15 @@ methods remain hypothesis sources, not repository substrates or evidence
 ([CEGIS analysis](https://arxiv.org/abs/1407.5397),
 [relational version-space synthesis](https://arxiv.org/abs/1809.02283)).
 
+OT-0054 supplies the limiting negative result for this lead. Five of six
+proposal ledgers contained no contact-perfect hypothesis; the only successful
+proposal contained one branch, so neither alternative retention nor
+counterexample-guided selection caused its success. Version-space machinery
+cannot repair a candidate-generation bottleneck when the proposed space lacks a
+viable member. Further search should change the actor-authored representation
+and environmental pressure, not add hypotheses around the same arithmetic
+expression carrier.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

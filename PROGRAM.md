@@ -540,7 +540,7 @@ ablations. The immediate sequence is:
   invalid provisional state, real-successor rollback, complete controls,
   surface exclusion, replay, tests, audit, evidence, and privacy. No actor or
   hosted output occurred. Exactly one fresh OT-0054 candidate is authorized.
-- **OT-0054 (run-locked; unexecuted):** two fresh contexts per regime let
+- **OT-0054:** two fresh contexts per regime let
   an actor author up to three structural branches and then adjudicate among the
   exact validated proposals. Both workers must reach `[0,0,0]`; every final
   active branch must be copied from the proposal ledger; combined adjudication
@@ -550,8 +550,20 @@ ablations. The immediate sequence is:
   complete old-carrier projection, contradiction, correction, immutable parent,
   rollback, novelty, reset, deployment, inventory, resource, replay, test,
   audit, evidence, and privacy gates are frozen for twelve turns. The private
-  task, backend, TLS bundle, and protected inputs are bound by
-  `spec/ot-0054-run-lock.json`; the single authorization remains unconsumed.
+  task, backend, TLS bundle, and protected inputs were bound by
+  `spec/ot-0054-run-lock.json`. The valid run was rejected: worker errors were
+  `[4,4,4]` and `[4,4,0]`, and five of six proposal ledgers contained no
+  zero-contact-error branch. The sole successful proposal was a single-branch
+  third-regime ledger, so branching and consequence-guided selection were not
+  causal. All operational, authority, resource, control, test, audit, evidence,
+  and privacy gates passed. The authorization is consumed.
+- **Next representation-escape search:** close arithmetic-expression proposals
+  in one-shot, residual-revision, and branching-ledger forms. Before another
+  candidate, calibrate a genuinely different actor-authored representation in
+  an environment whose useful distinction does not require compact arithmetic
+  program synthesis. Preserve OT-0048's old-carrier impossibility and causal
+  standards, but do not reuse its exact expression endpoint merely behind a new
+  container.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

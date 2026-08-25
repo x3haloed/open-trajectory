@@ -47,12 +47,13 @@ privacy gates. The locked run passed all 48 worlds twice with `[4,8,4]` to
 preservation, real-successor rollback, and no actor or hosted output. Exactly
 one fresh OT-0054 candidate is authorized and unconsumed.
 
-OT-0054 is the active scarce comparison. It freezes exact proposal-branch
-inheritance, consequence-guided active selection, combined advantage over the
-proposal-active control, retained prior-active alternatives during both later
-corrections, and the full OT-0053 causal and operational gates. No actor context
-has started. Implementation, private task, backend, TLS, and protected inputs
-are run-locked.
+OT-0054 validly rejected the scarce branching comparison with worker errors
+`[4,4,4]` and `[4,4,0]`. Five of six proposal ledgers contained no
+contact-perfect branch; the only success used one branch, so branching selection
+was not causal. The authorization is consumed. One-shot, residual-revision, and
+multi-branch variants are now closed inside the bounded arithmetic-expression
+carrier. No candidate is authorized; a new calibration must change the
+actor-authored representation and environmental pressure, not its container.
 
 ## Prediction errors
 
@@ -68,3 +69,7 @@ are run-locked.
 - The OT-0052 rollback gate treated a rejected update as if an uncommitted
   successor existed. Future calibration must separately test exact no-change
   preservation and rollback of an actually committed successor.
+- OT-0054 showed that retaining alternatives cannot help when proposal
+  generation supplies no viable member. The smallest unresolved capability is
+  reliable invention of a useful structural distinction in a representation
+  that does not demand compact arithmetic-program synthesis.
