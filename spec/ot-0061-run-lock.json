@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0061",
+  "protocol_origin_git_commit": "697071a1de178216df865b2e7929821a23fbf61e",
+  "implementation_git_commit": "5bb9dfd93b27c88b9db61714aaf142aeb868f953",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "5df2268b876534cb98e14f0671b9a3e757efb1df31ee6a18347cfdfe600aaa4a",
+    "carrier_harness_sha256": "81cb03e4fe22ebdb04dd8ccafc78a448e7240f52d39021e6d5f4fb07f7392870",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "entrypoint_sha256": "332557fbd4940d27e4588ee3168fc773f5b3ac527969541e8e63936d8b5a0c0b",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "old_schema_sha256": "4ecce241ff5dc53b2ae495c400f622111026af79da2b50227767a61000a7ed7f",
+    "ot0059_manifest_sha256": "e20fb79dd0de795da52a38d1eb6b9b1af1c3139e959f5f92546b4f303970050b",
+    "ot0060_manifest_sha256": "673340ec7ff9de69502a67a13960aac750a7839fba4170364cd8517b0cbd96dd",
+    "repair_harness_sha256": "50db8a0a64d4338df6d1adcd8befa392f8386d8aeabb1d93c620fbc106096e82",
+    "repaired_schema_sha256": "e383ef60e5baea0a79f8dfc31b1a30f3525844ddf2dee39b4e29bae4283f3958",
+    "schema_dialect_sha256": "9e282f8247c16a4098dd2cae75d6315521b21322c4490b278393f1a0f1fe8c44",
+    "test_sha256": "fbde89dcee43b11700c9aeef19f29651edc8f42b536bdaf9fc8ada1c5b04f1b0"
+  }
+}

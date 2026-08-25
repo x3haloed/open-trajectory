@@ -666,7 +666,7 @@ ablations. The immediate sequence is:
   no scientific disposition. Five sources did not commit and the sole contact-
   perfect source scored five heldout errors. Under the impossible-gate rule,
   OT-0059's authorization remains unconsumed, while the OT-0060 task is retired.
-- **OT-0061 (implemented; unlocked):** candidate-free calibration must remove only the
+- **OT-0061 (run-locked; unexecuted):** candidate-free calibration must remove only the
   redundant `maxLength` schema keyword, retain the interpreter's exact 256-byte
   enforcement, and execute schema-subset validation before any hosted-side
   effect. It compares the schemas recursively, exercises exact 256/257-byte
