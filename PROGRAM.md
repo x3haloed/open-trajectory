@@ -853,6 +853,16 @@ ablations. The immediate sequence is:
   and inheritance budgets. Require exact attribution, decisive membership and
   complete-partition ablations, safe failure, rollback, fresh task identity,
   and valid reproduction. A valid failure consumes the sole authorization.
+- **OT-0069 (protocol frozen; unimplemented):** the sole authorized learner.
+  Two independent three-reset lineages receive only generic partition surfaces,
+  their exact bounded parent, public pair contact, prior selections, and
+  completed selected/resolved-side consequences. Require contact-perfect
+  commits and heldout `[0,0,0]`, membership restructuring after both all-eight
+  contradictions, consequence withholding, unchanged/no-persistence/digest/
+  verbatim/fixed/naive controls, decisive partition ablations, safe failure,
+  rollback, exact hosted attribution, and reproduction. A pass is only the
+  first bounded Phase I foothold; a valid rejection consumes authorization and
+  closes the one-shot relational learner family.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

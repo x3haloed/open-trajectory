@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0069",
+  "evaluation_epoch": "post-OT-0068 equivalence-partition representation-escape candidate",
+  "authorization_manifest": "evidence/manifests/OT-0068/ot-0068-identifiable-equivalence-calibration-001.json",
+  "independent_workers": 2,
+  "regimes_per_worker": 3,
+  "fresh_contexts_per_worker": 3,
+  "active_inheritance_byte_limit": 620,
+  "maximum_groups": 8,
+  "maximum_group_identifier_bytes": 40,
+  "deployment_epoch": {"requested_model": "gpt-5.6-luna"},
+  "resource_budget": {
+    "actor_turns": 6,
+    "output_tokens_per_turn": 6000,
+    "actor_input_tokens_total": 300000,
+    "actor_output_tokens_total": 36000,
+    "wall_seconds": 1200,
+    "actor_tool_calls": 0
+  },
+  "claim_limit": "private time-bounded first relational-distinction representation-escape foothold if every gate passes; no transfer, widened OT-2, integrated developmental, consciousness, personhood, general autonomy, unrestricted self-development, or OT-3 evidence",
+  "promotion_gate": [
+    "one private task is derived only after the clean generic implementation commit and OT-0068 authorization is unconsumed",
+    "supported-schema, actor-surface, task, test, and audit preflight passes before workspace, proxy, backend, or actor-output side effects",
+    "both workers commit valid contact-perfect actor-authored partitions and reach heldout errors [0,0,0]",
+    "the first partition becomes wrong on all eight regime-two heldouts, the second fails all eight regime-three heldouts, and fresh updates recover",
+    "every later membership fingerprint differs from its predecessor and no output-only relabeling of predecessor membership can satisfy changed contact",
+    "every committed partition and snapshot is exact, bounded, absent from its parent and actor-reachable fixed inputs, and deterministically replayable",
+    "withholding completed consequence receipts preserves exact parents in every regime",
+    "unchanged, no-persistence, digest, all allowed verbatim, every real four-weight, every current-event policy, and every fixed or naive partition lineage fail the complete endpoint under equal contact",
+    "complete-partition deletion, all-one collapse, required-membership deletion, and fixed-output replacement each remove candidate advantage or fail closed",
+    "invalid, duplicate, missing, empty, unknown-symbol, contact-perfect over-budget, and contact-imperfect outputs preserve exact parents; committed restore and rollback are exact",
+    "all six encounters have distinct fresh threads, workspaces, responses, and exact model, catalog, ETag, inventory, parse, tool, resource, and causal-boundary receipts",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "OT-0068 hidden reference partitions and target label tuples are excluded from every actor-reachable input and cannot count as actor invention.",
+    "OT-0066 prompt, task, candidate machines, and outputs are forbidden actor inputs.",
+    "The generic equivalence interpreter remains a researcher-built causal exoskeleton; only actor-authored membership and its structural corrections are candidate evidence.",
+    "A partition that selects a supplied mode, changes only outputs, copies a hidden witness, or fails a decisive ablation is rejected.",
+    "Self-report, explanation, group naming, and resemblance to a reference are not outcome evidence.",
+    "A pass is Phase I only and must be replicated before a separately calibrated cross-domain developmental-transfer test."
+  ]
+}

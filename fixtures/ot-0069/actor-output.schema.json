@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["groups", "within_output", "across_output"],
+  "properties": {
+    "groups": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "members"],
+        "properties": {
+          "id": {"type": "string"},
+          "members": {"type": "array", "items": {"type": "string"}}
+        }
+      }
+    },
+    "within_output": {"enum": ["left", "right"]},
+    "across_output": {"enum": ["left", "right"]}
+  }
+}

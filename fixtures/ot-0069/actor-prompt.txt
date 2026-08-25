@@ -1,0 +1,13 @@
+Construct the bounded relation to carry into the next fresh encounter. Base the
+update only on the generic orientation, the current snapshot, and the completed
+consequences in this encounter. The heldout world is sealed.
+
+{{ORIENTATION}}
+
+{{ACTOR_VIEW}}
+
+Return one JSON object accepted by the stated schema, with no surrounding
+explanation. Use every public symbol exactly once in a nonempty group. Keep the
+complete inherited snapshot within 620 canonical JSON bytes. You have no tools,
+files, network, prior context, hidden grouping, reference partition, or
+researcher-supplied strategy menu.
