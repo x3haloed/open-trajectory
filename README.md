@@ -167,7 +167,18 @@ authorized. A pre-candidate audit then found diagnostic/heldout overlap in two
 regimes and a verbatim control whose score was assigned rather than executed.
 The artifact and original summary remain preserved, but the promotion is
 operationally invalidated and OT-0064 is unauthorized and unexecuted. No
-temporal-topology opportunity or Phase I foothold is currently claimed.
+temporal-topology opportunity or Phase I foothold is claimed from OT-0063.
+
+OT-0065 then reran that opportunity prospectively with the missing invariants
+made causal. Across all sixteen new worlds, diagnostic and heldout sequences
+were disjoint and actual exact replay remained at four errors for every empty
+or budget-legal one-row projection. References scored `[0,0,0]`; prior states,
+the frozen first machine, and the frozen second machine scored `[4,8,8]`,
+`[0,8,3]`, and `[4,0,8]`; every frozen control passed without candidate or
+hosted output. This validly authorizes exactly one fresh OT-0066 topology
+learner. It is environment and correction-opportunity evidence only, not actor
+invention or representation escape; OT-0063 remains invalid and OT-0064 remains
+unauthorized.
 
 ## Quick start
 

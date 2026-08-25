@@ -386,6 +386,16 @@ falsifier but is operationally invalid and authorizes no learner. Topology
 remains a live hypothesis family only after a new candidate-free calibration
 derives disjoint sets and makes exact replay causal.
 
+OT-0065 performed that prospective replacement without rescoring OT-0063. All
+sixteen newly derived worlds had empty diagnostic/heldout intersections, and
+causally executed exact replay scored four errors for the empty projection and
+every budget-legal one-row projection. The same topology opportunity,
+contradiction, correction, fixed-lineage, structural-ablation, safe-failure,
+rollback, and surface gates all passed twice without candidate output. This
+authorizes one fresh OT-0066 learner comparison. It strengthens the case that
+temporal topology is a valid next search space, but supplies no evidence yet
+that a fresh process can construct or revise that topology.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

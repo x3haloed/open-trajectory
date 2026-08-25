@@ -744,20 +744,30 @@ ablations. The immediate sequence is:
   authorization was withdrawn before implementation or task derivation. The
   protocol remains preserved but cannot be executed or revived; no candidate
   output occurred and no authorization was consumed.
-- **Next calibration:** use a newly numbered candidate-free experiment to
+- **OT-0065 repair:** use a newly numbered candidate-free experiment to
   derive diagnostic and heldout sequences with an explicit empty-intersection
   gate and to execute, rather than assign, exact-sequence replay. It must rerun
   every topology, compression, fixed-control, ablation, update, rollback,
   surface, schema, replay, test, audit, evidence, and privacy gate before a
   newly numbered learner can be authorized.
-- **OT-0065 (run-locked; unexecuted):** prospectively replace OT-0063
+- **OT-0065 (promoted; one fresh OT-0066 learner authorized):** prospectively
+  replace OT-0063
   without rescoring it. Derive new temporal worlds after removing heldout
   sequences from the diagnostic pool, assert empty intersections, enumerate
   every allowed retained-row subset, and execute exact-sequence replay against
   heldouts. Preserve every other world, topology, compression, fixed-control,
   ablation, safe-failure, identity, rollback, surface, schema, order, replay,
   test, audit, evidence, and privacy gate. A complete pass may authorize one
-  fresh OT-0066 learner only; OT-0064 remains unauthorized.
+  fresh OT-0066 learner only; OT-0064 remains unauthorized. The locked run
+  passed all sixteen worlds twice. Diagnostics and heldouts were disjoint;
+  actual exact replay scored four errors for every empty or budget-legal
+  one-row projection. References scored `[0,0,0]`, prior states `[4,8,8]`,
+  frozen first `[0,8,3]`, and frozen second `[4,0,8]`; rows were at least 994
+  bytes, at most one fit, and at least five divergent hypotheses survived.
+  Every fixed control, topology ablation, safe-failure, identity, rollback,
+  surface, schema, replay, test, audit, evidence, and privacy gate passed with
+  no candidate or hosted output. This validly authorizes exactly one newly
+  frozen OT-0066 learner and remains opportunity evidence only.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

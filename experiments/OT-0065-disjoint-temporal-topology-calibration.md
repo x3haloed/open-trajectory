@@ -1,6 +1,6 @@
 # OT-0065 — Disjoint temporal-topology calibration
 
-- **Status:** run-locked; unexecuted
+- **Status:** promoted; one fresh OT-0066 learner authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** prospective replacement for operationally invalid OT-0063
 - **Candidate output:** forbidden
@@ -66,3 +66,28 @@ It does not revive OT-0064, rescore OT-0063, or prove actor invention,
 representation escape, transfer, widened OT-2, integrated development, or
 OT-3/TAAA. The generic finite-state carrier remains a researcher-built causal
 exoskeleton and hidden machines remain opportunity controls only.
+
+## Result and decision
+
+The locked public-reconstructible run promoted all sixteen newly derived worlds
+twice in forward and reverse order. Diagnostic and heldout cue-sequence sets
+were disjoint in every regime. Executing exact-sequence replay for the empty
+projection and every budget-legal one-row projection produced four of eight
+errors throughout; no replayed retained row matched a heldout sequence.
+
+Hidden reference machines scored `[0,0,0]`, pre-update states scored
+`[4,8,8]`, the frozen first machine scored `[0,8,3]`, and the frozen second
+scored `[4,0,8]`. Complete rows were at least 994 bytes, at most one row fit
+the 1,024-byte inheritance budget, and every allowed projection left at least
+five contact-consistent hypotheses with divergent heldout behavior. Every
+unchanged topology, fixed lineage, structural ablation, safe-failure, identity,
+rollback, surface, schema, order, deterministic-replay, test, audit, evidence,
+privacy, and repository-size gate passed without candidate or hosted output.
+
+Final disposition: `promoted`. Exactly one separately frozen fresh OT-0066
+learner may author and revise a bounded temporal topology. OT-0063 remains
+operationally invalid and unrescored; OT-0064 remains unauthorized and cannot
+be revived. This is candidate-free environment, impossibility, carrier, and
+correction-opportunity evidence only—not actor invention or representation
+escape. The artifact is identified by
+`evidence/manifests/OT-0065/ot-0065-temporal-state-topology-calibration-001.json`.

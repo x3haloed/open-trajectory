@@ -143,13 +143,16 @@ new candidate-free calibration must derive disjoint diagnostic/heldout sets,
 execute exact-sequence replay causally, and rerun the complete topology and
 validity regime before any newly numbered learner authorization.
 
-OT-0065 is run-locked but unexecuted as that replacement. It removes
+OT-0065 validly promoted as that replacement. It removed
 heldouts from the diagnostic search pool, gates empty intersections, and
 executes every allowed retained-row subset through exact replay. Every other
 OT-0063 topology, compression, fixed-lineage, ablation, update, rollback,
 surface, schema, order, replay, test, audit, evidence, and privacy gate remains
-unchanged. A pass may
-authorize OT-0066 only and cannot revive OT-0064 or rescore OT-0063.
+unchanged. All sixteen worlds passed twice; overlap was zero, every executed
+empty or budget-legal one-row replay scored four errors, references scored
+`[0,0,0]`, frozen predecessors exposed both contradictions, and every frozen
+control passed. Exactly one fresh OT-0066 learner is authorized. This cannot
+revive OT-0064 or rescore OT-0063 and is not representation-escape evidence.
 
 ## Prediction errors
 
