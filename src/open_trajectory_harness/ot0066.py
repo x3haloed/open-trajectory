@@ -226,6 +226,19 @@ def validate_task(task: dict[str, Any]) -> None:
         raise ValueError("OT-0066 task differs from its mechanical derivation")
 
 
+def task_compression_certificate(
+    regime: dict[str, Any], receipt: dict[str, Any]
+) -> dict[str, Any]:
+    normalized = copy.deepcopy(regime)
+    normalized["diagnostic_bits"] = [
+        tuple(item) for item in normalized["diagnostic_bits"]
+    ]
+    normalized["heldout_bits"] = [
+        tuple(item) for item in normalized["heldout_bits"]
+    ]
+    return compression_certificate(normalized, receipt)
+
+
 def structural_calibration(task: dict[str, Any]) -> dict[str, Any]:
     validate_task(task)
     references = [
@@ -239,14 +252,16 @@ def structural_calibration(task: dict[str, Any]) -> dict[str, Any]:
         receipt = complete_contact(
             regime["contact"], ["left"] * len(regime["contact"]["bundles"])
         )
-        overlap = set(regime["diagnostic_bits"]) & set(regime["heldout_bits"])
+        overlap = {
+            tuple(item) for item in regime["diagnostic_bits"]
+        } & {tuple(item) for item in regime["heldout_bits"]}
         result = {
             "index": regime["index"],
             "reference_errors": machine_errors(
                 reference, regime["heldout"], regime["cues"]
             ),
             "stateless": stateless_certificate(regime),
-            "compression": compression_certificate(regime, receipt),
+            "compression": task_compression_certificate(regime, receipt),
             "heldout_overlap_count": len(overlap),
             "topology_sha256": topology_fingerprint(reference, regime["cues"]),
             "output_only": (
@@ -765,7 +780,7 @@ def execute_worker(
         candidate_errors = snapshot_errors(after, regime)
         novelty = machine_novelty(repo, machine, before, regime["cues"])
         replay_errors = snapshot_errors(restore_snapshot(project_snapshot(after)), regime)
-        compression = compression_certificate(regime, receipt)
+        compression = task_compression_certificate(regime, receipt)
         try:
             validate_machine(machine, regime["cues"])
             machine_bytes = len(canonical_json(machine))

@@ -162,6 +162,13 @@ causal controls and decisive structural ablations, and reproduce under the
 locked deployment and resource regime. OT-0064 material is excluded and
 remains unauthorized.
 
+OT-0066's first candidate-free task derivation exposed a pre-lock
+serialization defect: canonical JSON restored diagnostic sequences as lists,
+but structural disjointness tried to hash them directly. The raw task is
+preserved and retired. No run lock, backend, actor context, or candidate output
+existed, so authorization remains unconsumed. A tuple-normalization repair and
+serialized-task regression must precede a distinct replacement task.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision
@@ -204,3 +211,7 @@ remains unauthorized.
   frozen natural-language invariant the harness never encoded. Candidate-free
   calibration is not low risk: set disjointness and every control's causal
   execution must be asserted directly, not inferred from assigned scores.
+- OT-0066 pre-lock task readback showed that in-memory calibration is
+  insufficient when canonical evidence changes container types. Every private
+  task must pass the complete structural regime after serialization and
+  readback before it can enter a run lock.

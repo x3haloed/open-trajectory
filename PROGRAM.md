@@ -779,6 +779,11 @@ ablations. The immediate sequence is:
   test, audit, evidence, and privacy gates. OT-0064 remains unauthorized and is
   not revived or renumbered. A pass is only a bounded Phase I foothold; a valid
   rejection consumes the authorization and closes this one-shot learner family.
+  Its first candidate-free task derivation exposed a pre-lock tuple/list
+  normalization defect during immediate structural readback. No hosted side
+  effect or candidate output occurred; the task is retired, the authorization
+  remains unconsumed, and a narrow repaired implementation must precede a
+  distinct replacement task.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

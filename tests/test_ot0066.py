@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import inspect
+import json
 import unittest
 from pathlib import Path
 from unittest.mock import patch
@@ -33,6 +34,11 @@ class OT0066Tests(unittest.TestCase):
         self.assertEqual(structural["frozen_first_errors"][1], 8)
         self.assertEqual(structural["frozen_second_errors"][2], 8)
         self.assertTrue(actor_surface_authority(Path.cwd())["pass"])
+
+    def test_serialized_private_task_revalidates_structurally(self) -> None:
+        restored = json.loads(canonical_json(self.task))
+        validate_task(restored)
+        self.assertTrue(structural_calibration(restored)["pass"])
 
     def test_machine_schema_is_supported(self) -> None:
         schema = load_json(Path("fixtures/ot-0063/actor-output.schema.json"))

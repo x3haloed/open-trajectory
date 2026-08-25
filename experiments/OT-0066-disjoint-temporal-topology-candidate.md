@@ -105,3 +105,14 @@ temporal-transducer learner family as the next route. An operational
 invalidation receives no scientific disposition and cannot be rescored or
 retried on the same task. OT-0064 remains unauthorized and cannot be revived by
 either outcome.
+
+## Pre-lock prediction error
+
+The first post-implementation task derivation completed candidate-free, but its
+immediate readback exposed that canonical JSON changes diagnostic sequences
+from tuples to lists while structural disjointness attempted to hash the lists.
+No run lock, backend, workspace, actor context, or candidate output existed.
+The raw task remains preserved as invalid pre-lock material; it cannot be run.
+A narrow tuple-normalization repair and serialized-task regression test must be
+committed before deriving a distinct replacement task from the repaired
+implementation identity. The authorization remains unconsumed.
