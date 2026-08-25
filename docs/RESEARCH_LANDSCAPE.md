@@ -368,7 +368,7 @@ count regimes. The topology must change between regimes, and state collapse,
 per-cue reset, transition deletion, and cue-edge deletion are decisive
 ablations. Candidate-free calibration must pass before any learner is exposed.
 
-The locked OT-0063 calibration promoted all sixteen temporal worlds. Hidden
+The locked OT-0063 summary initially promoted all sixteen temporal worlds. Hidden
 references reached `[0,0,0]`; prior machines became maximally wrong and then
 distinctly incomplete; topology changed at every correction and output-only
 relabeling could not satisfy contact. Stateless policies remained fixed at four
@@ -377,6 +377,14 @@ row and left at least five divergent hypotheses. Real state, reset,
 transition, and cue-edge ablations removed the advantage. This authorizes one
 fresh OT-0064 learner and establishes opportunity only; whether fresh actors can
 construct and revise the topology remains completely open.
+
+A pre-candidate audit reversed that interpretation. Regimes one and two each
+reused one heldout sequence in diagnostic contact, violating the frozen
+disjointness rule, and the purported verbatim control assigned a fallback score
+instead of executing exact replay. The artifact remains useful as a harness
+falsifier but is operationally invalid and authorizes no learner. Topology
+remains a live hypothesis family only after a new candidate-free calibration
+derives disjoint sets and makes exact replay causal.
 
 ### Multiple correction rates
 

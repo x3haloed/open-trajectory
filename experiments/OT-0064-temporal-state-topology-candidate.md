@@ -1,9 +1,9 @@
 # OT-0064 — Temporal state-topology candidate
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** unauthorized; preserved and unexecuted
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
-- **Authorization:** OT-0063, exactly one fresh learner candidate
+- **Authorization:** withdrawn after OT-0063 operational invalidation
 - **Workers:** two independent three-encounter lineages
 
 ## Frozen hypothesis and cheapest falsifier
@@ -98,3 +98,12 @@ A valid rejection consumes the sole authorization and closes this one-shot
 temporal-transducer learner family as the next route. An operational
 invalidation receives no scientific disposition and cannot be rescored or
 retried on the same task.
+
+## Authorization withdrawal
+
+OT-0063's post-result audit found diagnostic/heldout overlap and a non-causal
+verbatim control, reversing its promotion before this candidate was implemented
+or any private task was derived. The conditional authorization therefore never
+became scientifically valid. OT-0064 is preserved as a frozen but unauthorized
+protocol and must not be implemented, executed, revived, or renumbered. No
+candidate output occurred and no learner authorization was consumed.

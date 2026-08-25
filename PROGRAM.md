@@ -724,9 +724,14 @@ ablations. The immediate sequence is:
   least 994 bytes, at most one fit, and at least five heldout-divergent
   hypotheses survived. Every fixed lineage, real topology ablation, safe-
   failure, identity, rollback, surface, schema, replay, test, audit, evidence,
-  and privacy gate passed without candidate or hosted output. Exactly one fresh
-  OT-0064 topology learner is authorized.
-- **OT-0064 (protocol frozen; unimplemented):** execute exactly one fresh
+  and privacy gate passed without candidate or hosted output. The sealed summary
+  reported promotion, but a pre-candidate intersection audit then found one
+  heldout sequence reused in diagnostic contact for regimes one and two in all
+  cases. The harness omitted the frozen disjointness gate and assigned the
+  verbatim fallback rather than executing exact replay. The artifact and
+  original summary remain preserved, but the promotion is operationally
+  invalidated with no scientific disposition or learner authorization.
+- **OT-0064 (unauthorized; unimplemented):** execute exactly one fresh
   topology learner on a private temporal task derived only after the generic
   implementation commit. Two independent three-reset lineages must author
   contact-perfect bounded transducers, reach `[0,0,0]`, and materially change
@@ -735,7 +740,16 @@ ablations. The immediate sequence is:
   edge-rewiring, fixed-output, safe-failure, identity, restore, rollback,
   novelty, prehosted validity, deployment, resource, replay, test, audit,
   evidence, and privacy gates. A pass is only a bounded Phase I foothold; a
-  valid rejection closes this one-shot family as the next route.
+  valid rejection closes this one-shot family as the next route. Its OT-0063
+  authorization was withdrawn before implementation or task derivation. The
+  protocol remains preserved but cannot be executed or revived; no candidate
+  output occurred and no authorization was consumed.
+- **Next calibration:** use a newly numbered candidate-free experiment to
+  derive diagnostic and heldout sequences with an explicit empty-intersection
+  gate and to execute, rather than assign, exact-sequence replay. It must rerun
+  every topology, compression, fixed-control, ablation, update, rollback,
+  surface, schema, replay, test, audit, evidence, and privacy gate before a
+  newly numbered learner can be authorized.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

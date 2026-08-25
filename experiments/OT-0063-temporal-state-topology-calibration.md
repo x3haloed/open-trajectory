@@ -1,6 +1,6 @@
 # OT-0063 — Temporal state-topology calibration
 
-- **Status:** promoted; one fresh OT-0064 topology learner authorized
+- **Status:** promotion reversed; operationally invalid; no learner authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free temporal environment and generic state-topology carrier
 - **Candidate output:** forbidden
@@ -119,3 +119,22 @@ consequences. This remains candidate-free temporal-world, carrier, and hidden-
 opportunity evidence only—not actor invention or representation escape. The
 artifact is identified by
 `evidence/manifests/OT-0063/ot-0063-temporal-state-topology-calibration-001.json`.
+
+## Post-result prediction error and reversal
+
+Before any OT-0064 implementation or task derivation, a direct heldout/contact
+intersection audit contradicted the frozen protocol. Regimes one and two each
+included one heldout cue sequence among the fifteen diagnostic sequences in all
+sixteen cases. The implementation had not gated the frozen requirement that
+heldout sequences be absent from contact. It also represented the verbatim
+control by assigning the stateless fallback score instead of executing exact-
+sequence replay, so the overlap's causal effect was never measured.
+
+This is an operational invalidation, not an unfavorable rescore. The sealed run,
+manifest, original `promoted` summary, implementation, and all passing controls
+remain preserved. The authoritative promotion is reversed because the run did
+not execute its complete frozen protocol. It supplies no learner authorization
+and no scientific evidence for or against temporal topology opportunity. OT-
+0064 remains unauthorized and unexecuted. A newly numbered candidate-free
+calibration must derive disjoint diagnostics and heldouts prospectively and
+execute the real exact-replay control before any learner can be authorized.
