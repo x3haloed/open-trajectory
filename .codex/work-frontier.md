@@ -20,18 +20,22 @@ or bounded promotion is not sufficient.
 
 ## Evaluation regime
 
-- **Epoch:** E12 / OT-0049 representation escape.
-- **Active criterion:** The frozen OT-0048 acceptance specification and its
-  single-candidate authorization govern the next candidate comparison.
-- **Anchors:** OT-0048 locked implementation identity, public evidence manifest,
-  leak exclusions, all-real-weight impossibility certificate, equal-budget
-  controls, causal ablations, correction, rollback, and reproduction gates.
-- **Dependent evidence:** Any OT-0049 representation-escape disposition.
+- **Epoch:** post-E12 / OT-0050 candidate-free calibration.
+- **Active criterion:** OT-0049 is rejected and E12 is consumed. No candidate
+  is authorized. The next comparison must first calibrate staged provisional
+  operation construction against the unchanged OT-0048 world and falsifiers.
+- **Anchors:** OT-0048's all-real-weight impossibility certificate and controls;
+  OT-0049's preserved two-worker outputs, exact state-validation failures,
+  successful four-of-six compact operations, causal ablations, and rejection.
+- **Dependent evidence:** A candidate-free OT-0050 disposition only.
 
-The locked OT-0049 candidate replaces the inherited four-weight state with
-bounded actor-authored executable syntax. The generic interpreter remains an
-explicit exoskeleton. Its private task is mechanically derived from clean
-implementation `e7a56e8`; exact task, backend, protected-input, resource, and
-receipt identities are prospectively frozen. No actor context has started.
+OT-0049 falsified the assumption that one completed consequence packet
+reliably elicits one compact reusable executable operation. Four turns solved
+their heldouts with compact new syntax; one returned a linear old-carrier
+recoding and one returned an over-budget interpolation. The next family must
+separate provisional proposal, independent residual/validity evidence, later
+fresh revision, and controller-owned commit. It may not retry or rescore
+OT-0049, supply a useful operation, or authorize a candidate before
+candidate-free calibration.
 
 ## Prediction errors

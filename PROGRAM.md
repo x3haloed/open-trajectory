@@ -447,7 +447,7 @@ ablations. The immediate sequence is:
   unchanged `[4,8,4]`, frozen-first `[0,8,4]`, verbatim replay `[4,4,4]`, and
   best fixed aggregate `12`. E12 authorizes at most one fresh OT-0049
   candidate. No candidate or hosted output was generated.
-- **OT-0049 (locked; unexecuted):** begin from the promoted
+- **OT-0049:** began from the promoted
   four-weight state, then let three fresh learning contexts per worker replace
   it with one bounded actor-authored executable scoring expression after
   completed binary consequences. The generic safe interpreter supplies no
@@ -461,8 +461,25 @@ ablations. The immediate sequence is:
   actor turns. The generic interpreter remains an explicit causal exoskeleton.
   The generic implementation was frozen at `e7a56e8`; the private task was
   then mechanically derived and the exact backend, task identity, protected
-  inputs, resources, and receipt fields were locked prospectively. No actor
-  context has started and no authorization has yet been consumed.
+  inputs, resources, and receipt fields were locked prospectively. The valid
+  execution completed all six fresh contexts but was rejected: worker errors
+  were `[0,0,4]` and `[4,0,0]`. Four turns authored compact successful
+  operations, while one first-regime turn proposed a linear old-carrier
+  recoding and one third-regime turn proposed an over-budget interpolation.
+  All hosted, causal-authority, control, resource, replay, test, audit,
+  evidence, and privacy paths remained valid. E12 is consumed. This closes
+  reliable one-shot executable synthesis from one consequence packet under
+  the frozen interface, not the expressiveness of executable operations.
+- **OT-0050 (next; candidate-free only):** calibrate a materially different
+  staged operation-construction world before authorizing any candidate. A
+  provisional actor-authored operation must receive an independent completed-
+  contact residual and validity receipt before a later fresh process may
+  revise it and request commit. The calibration must distinguish invalid
+  syntax, old-carrier equivalence, contact misfit, compact reusable structure,
+  heldout generalization, and later contradiction without revealing a useful
+  operation or converting controller search into the candidate. Freeze equal-
+  budget one-shot, fixed, no-persistence, verbatim, and oracle-opportunity
+  controls; no candidate is currently authorized.
 - Only then widen OT-2 toward reconstructed direction, reasons that retain
   standing, legitimate revision or supersession, and continuity across
   qualitatively different domains.

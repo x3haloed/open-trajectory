@@ -224,6 +224,16 @@ representation, retrieval trigger, verification cadence, or update operation
 that was not named in its seed policy. An apparently novel label is not enough;
 the operation must improve held-out contact and fail a decisive ablation.
 
+OT-0049 adds a negative distinction without changing that standard. A generic
+executable carrier can be expressive enough while one-shot operation synthesis
+is unreliable: four fresh turns authored compact heldout-successful operations,
+one compressed the evidence back into the old linear carrier, and one emitted
+an over-budget interpolation. A materially different search family should
+separate provisional operation proposal, independent residual and validity
+receipts, fresh-context revision, and commit. Compare that staged construction
+against the original one-shot path, and reject designs where the controller's
+validation procedure itself supplies or searches for the useful operation.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

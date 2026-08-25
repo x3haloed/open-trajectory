@@ -1,6 +1,6 @@
 # OT-0049 — E12 representation-escape candidate
 
-- **Status:** prospectively locked; unexecuted
+- **Status:** rejected; authorization consumed
 - **Evidence class:** private-reproducible if valid
 - **Target:** bounded OT-1 representation escape
 - **Authorization:** OT-0048, exactly one fresh candidate
@@ -80,4 +80,41 @@ pinned patched backend pair, requested model, TLS authority, fixtures,
 acceptance rule, tests, controller paths, evidence tooling, and predecessor
 manifests are fixed by `spec/ot-0049-run-lock.json`. No actor context or model
 output existed when the lock was created; the one-candidate authorization
-remains unconsumed.
+was then consumed only by the locked execution.
+
+## Result and decision
+
+The locked execution at `5037151` completed all six fresh actor contexts in
+184.46 seconds with exact task, deployment, model, catalog, ETag, inventory,
+response, workspace, thread, tool, resource, replay, test, audit, evidence, and
+privacy gates. It is a valid scientific rejection, not an operational
+invalidation.
+
+Worker one produced compact new operations for the first relation and its
+contradiction, then produced an over-budget 289-byte, 319-node interpolation in
+the distinct third regime. Its prospective candidate errors were `[0,0,4]`.
+Worker two first produced a 25-byte linear recoding that remained within the
+old carrier and would score four errors even if admitted, then produced compact
+new operations that solved the contradiction and distinct third regime. Its
+prospective candidate errors were `[4,0,0]`. The exact pre-update discrepancies
+were `[4,8,4]` and `[4,4,4]`; no-persistence, verbatim replay, and old-carrier
+projection remained `[4,4,4]` for both workers. The best fixed weighted
+aggregate remained 12.
+
+Four of six turns therefore discovered a compact operation outside the old
+carrier, including later replacement and correction, but the frozen endpoint
+required both complete workers. State validation, endpoint, correction,
+novelty, and rollback gates failed as prospectively composed; the latter gates
+were downstream of the two uncommitted invalid states and are not separate
+promotions. Diagnostic scoring after disposition showed that the linear output
+failed both contact and holdout four-to-four; the over-budget interpolation
+missed two contact choices even though its unadmitted holdout happened to score
+zero. Those diagnostics do not alter the result.
+
+Final disposition: `rejected`. OT-0048's single authorization is consumed.
+This experiment falsifies reliable one-shot compact executable synthesis from
+one consequence packet under this interface. It does not show that the
+executable carrier is inexpressive, because four independent turns used it
+successfully, nor does it establish representation escape, transfer, widened
+OT-2, or integrated development. The private artifact is identified by
+`evidence/manifests/OT-0049/ot-0049-e12-representation-escape-candidate-001.json`.
