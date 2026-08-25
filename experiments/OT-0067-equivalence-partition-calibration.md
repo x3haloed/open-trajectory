@@ -1,6 +1,6 @@
 # OT-0067 — Equivalence-partition calibration
 
-- **Status:** run-locked; unexecuted; frozen gate impossible
+- **Status:** rejected; candidate-free impossibility reproduced; no learner authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free relational-distinction environment and carrier
 - **Candidate output:** forbidden
@@ -89,3 +89,25 @@ world, impossibility, generic-carrier, correction-opportunity, and control
 evidence. It is not actor invention, representation escape, transfer, widened
 OT-2, integrated development, or OT-3/TAAA evidence. A failed calibration
 authorizes no learner.
+
+## Result and disposition
+
+The locked public reconstruction rejected before producing any calibrated
+case, candidate output, or hosted call. In regime three there are exactly four
+changed pairs that the target relates and the preceding partition separates.
+The balanced all-wrong heldout gate must hide all four. Those are also exactly
+the pairs on which the target differs from the all-singleton partition.
+Consequently the singleton partition agrees with the target on every pair
+remaining available for diagnostic contact, so the frozen unique-identification
+gate is impossible for every one of the 495 legal choices of four changed
+target-different heldouts.
+
+The complete 4,140-partition hypothesis family, actor-surface exclusion,
+candidate-free condition, deterministic replay, tests, and audit passed. The
+identifiability gate did not. The disposition is a prospective protocol
+rejection, not a threshold change or a learner result. It authorizes no
+OT-0068 learner and leaves the broader equivalence-partition hypothesis open
+only to a newly numbered calibration whose world has enough independently
+observable target-same relations after its contradiction heldout is frozen.
+
+Evidence: `evidence/manifests/OT-0067/ot-0067-equivalence-partition-calibration-001.json`.

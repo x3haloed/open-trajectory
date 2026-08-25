@@ -189,6 +189,15 @@ temporal-transducer learner family is therefore closed as the next route. This
 is negative evidence: carrier expressibility and topology opportunity did not
 become consequence-grounded construction or correction.
 
+OT-0067 then tested the next candidate-free relational calibration without
+learner or hosted output. It rejected prospectively: the balanced contradiction
+heldout necessarily hid every relation distinguishing the third target from an
+all-singleton partition, so unique identification was impossible across the
+complete 4,140-partition hypothesis family. The public deterministic receipt
+preserves all 495 failing heldout choices. No learner is authorized; a newly
+numbered relational calibration must first prove that old-carrier harm and
+target identifiability can coexist.
+
 ## Quick start
 
 Requires Python 3.11 or newer. The evidence CLI has no runtime dependencies;

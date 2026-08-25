@@ -193,19 +193,22 @@ interpretation and application of completed consequences, not carrier
 expressibility alone.
 
 The next materially different family is a data-structural equivalence
-partition, not executable syntax or temporal code. OT-0067 is run-locked but
-unexecuted candidate-free: eight opaque symbols, explicit resolved-side completed
+partition, not executable syntax or temporal code. OT-0067 was candidate-free:
+eight opaque symbols, explicit resolved-side completed
 consequences, a generic within/across interpreter, all set partitions as the
 controller hypothesis class, certified raw/replay insufficiency, two later
 membership contradictions, fixed lineages, decisive partition ablations, safe
 failure, and rollback. A valid pass may authorize OT-0068 only.
 
-The first implementation probe reproduced an impossible frozen gate before any
-run lock. Regime three has exactly four target-same pairs on which the previous
+The locked reconstruction reproduced the impossible frozen gate without any
+candidate or hosted output. Regime three has exactly four target-same pairs on which the previous
 partition is wrong; a balanced all-wrong heldout must hide all four. The
 all-singleton partition differs from the target only on those pairs, so it is
-indistinguishable from every available diagnostic. OT-0067 is being preserved
-as a candidate-free impossibility result and cannot authorize a learner.
+indistinguishable from every available diagnostic. All 495 legal heldout
+choices fail. OT-0067 is rejected, preserved in a public manifest, and cannot
+authorize a learner. A successor must be a newly numbered candidate-free
+calibration that proves coexistence of predecessor harm and target
+identifiability before any learner is exposed.
 
 ## Prediction errors
 

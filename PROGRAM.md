@@ -803,15 +803,7 @@ ablations. The immediate sequence is:
   family is closed. The next route must change the representation or
   consequence/application affordance, not this prompt, task, grammar, schema,
   or threshold.
-- **Next Phase I search:** change both representation and consequence
-  affordance. Calibrate an actor-authored equivalence partition over opaque
-  symbols, applied by a generic deterministic within/across interpreter.
-  Completed outcomes may expose the independently resolved correct side after
-  action, eliminating OT-0066's polarity reconstruction bottleneck without
-  supplying a grouping. Preserve old-carrier impossibility, raw/replay
-  insufficiency, later partition harm, membership-level correction, fixed
-  lineages, structural ablations, safe failure, rollback, and surface gates.
-- **OT-0067 (run-locked; unexecuted; frozen gate impossible):** candidate-free calibration of
+- **OT-0067 (rejected; candidate-free gate impossibility; no learner authorized):** candidate-free calibration of
   sixteen eight-symbol relational worlds. Enumerate every set partition
   controller-side; require full contact to identify the reference while every
   budget-legal exact-row projection leaves heldout-divergent alternatives and
@@ -819,6 +811,22 @@ ablations. The immediate sequence is:
   partitions must become wrong on all eight later heldouts, and output-only
   relabeling must fail changed contact. A pass may authorize exactly one fresh
   OT-0068 learner and is not actor-invention or representation-escape evidence.
+  The locked reconstruction produced no candidate or hosted output and
+  exhaustively reproduced a frozen conflict. Regime three has exactly four
+  changed target-same pairs, all of which an all-wrong balanced heldout must
+  hide. Those four pairs are exactly the target's differences from the
+  all-singleton partition, leaving that alternative observationally identical
+  on every available diagnostic. All 495 legal heldout choices therefore fail
+  unique identification. OT-0067 is rejected and authorizes no learner.
+- **Next Phase I search:** retain the materially different data-structural
+  equivalence-partition family only if a newly numbered, candidate-free world
+  prospectively proves that balanced old-carrier harm and unique relational
+  identification can coexist. Search controller-side for the smallest changed
+  grouping that leaves at least one target-same relation visible after a sealed
+  all-wrong heldout, then freeze diagnostics, compression, controls,
+  membership-level correction, safe failure, rollback, and surface exclusions
+  before authorizing any learner. Do not reuse OT-0067's nonexistent
+  authorization or weaken its gate.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

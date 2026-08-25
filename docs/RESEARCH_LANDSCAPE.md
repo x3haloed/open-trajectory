@@ -428,6 +428,18 @@ unseen pairs, compression, later cross-cutting regrouping, output-only
 relabeling, and membership ablations keep the result distinct from raw replay,
 mode selection, or parameter tuning.
 
+Its locked candidate-free reconstruction also exposed a sharper design
+constraint. The proposed third grouping had only four target-same relations
+that contradicted the preceding partition. Requiring an eight-item balanced
+heldout on which the predecessor was always wrong hid all four. Because those
+four relations were exactly the target's differences from the all-singleton
+partition, no remaining diagnostic could uniquely identify the target among
+the complete 4,140-partition family. This is not evidence against relational
+carriers; it is evidence that a contradiction set must leave enough positive
+equivalence structure observable to distinguish grouping from singleton
+memorization. A successor environment should establish that combinatorial
+property prospectively before learner authorization.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more
