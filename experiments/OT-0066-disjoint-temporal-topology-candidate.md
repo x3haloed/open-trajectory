@@ -1,6 +1,6 @@
 # OT-0066 — Disjoint temporal-topology candidate
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** implemented; unlocked; no task derived
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** promoted OT-0065; exactly one fresh learner candidate
