@@ -1,0 +1,24 @@
+{
+  "experiment_id": "OT-0048",
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "6393faabbfb89c158a2e5be4a35ccbfb5536a592bb933f40d8fd79d454792f0f",
+    "actor_orientation_sha256": "6f2ac2d24fd497ecd18d0e4f0c1ff72e14d25635ca4bf735a2003338b771a655",
+    "calibration_harness_sha256": "b9af7584ffb0de61d39ab23259b7014e8843201da9aee4eecdd10e7ccfd07144",
+    "controller_core_sha256": "00918dd39c665526f677513d4563ba3c9c2d0fb1bd632594836b938ceb5a0994",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "entrypoint_sha256": "7bf95006845574de19a1e3a0efcc3977f3de36fdf95ebc141fc925fee0366306",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_contract_sha256": "8b671b962f02576b672c91635ccdfa289d575529cf199f1af22425de770375d6",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "program_sha256": "e32cc594832dd9e034b19dd489ec4be351e3071a36b0f926f87957be95e54235",
+    "promoted_ot1_manifest_sha256": "defdf1d532d5590eaefd09be0fe8f887cdc23923894a635100a59ce7b2004dc8",
+    "red_lines_sha256": "392793d2d9169f03cdc38827889eb1f654251344c2b0e69ff459b015125861e1",
+    "research_landscape_sha256": "cf377b51abb4962b26e456f33a8ba56eb1cdd08a3a6d2a1d55ec154b55f9fd46",
+    "sealed_evidence_io_sha256": "fbdd95218935cef4b90bb0de5f0667468a42cc7a174f63a8f59576eae989cdb1",
+    "target_sha256": "761c023ae996f58b3e751825c48cf514051be2175a289892cdffe72400ac8a50",
+    "workflow_sha256": "8c0e1bee2a59c482b88efb745a957ef22d3e6f98fc940e452d69699d016c591e"
+  },
+  "implementation_git_commit": "b7c02a8259052c718e547cfb44911c3482489cf8",
+  "schema_version": 1
+}
