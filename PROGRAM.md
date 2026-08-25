@@ -811,7 +811,7 @@ ablations. The immediate sequence is:
   supplying a grouping. Preserve old-carrier impossibility, raw/replay
   insufficiency, later partition harm, membership-level correction, fixed
   lineages, structural ablations, safe failure, rollback, and surface gates.
-- **OT-0067 (implemented; unlocked; frozen gate impossible):** candidate-free calibration of
+- **OT-0067 (run-locked; unexecuted; frozen gate impossible):** candidate-free calibration of
   sixteen eight-symbol relational worlds. Enumerate every set partition
   controller-side; require full contact to identify the reference while every
   budget-legal exact-row projection leaves heldout-divergent alternatives and

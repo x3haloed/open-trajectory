@@ -193,8 +193,8 @@ interpretation and application of completed consequences, not carrier
 expressibility alone.
 
 The next materially different family is a data-structural equivalence
-partition, not executable syntax or temporal code. OT-0067 is implemented but
-unlocked candidate-free: eight opaque symbols, explicit resolved-side completed
+partition, not executable syntax or temporal code. OT-0067 is run-locked but
+unexecuted candidate-free: eight opaque symbols, explicit resolved-side completed
 consequences, a generic within/across interpreter, all set partitions as the
 controller hypothesis class, certified raw/replay insufficiency, two later
 membership contradictions, fixed lineages, decisive partition ablations, safe
