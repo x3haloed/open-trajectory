@@ -60,4 +60,10 @@ protected inputs were locked. The new run passed all 48 cases and authorizes
 exactly one fresh OT-0052 staged candidate. OT-0051 remains candidate-free
 opportunity evidence; OT-0052 is now the active comparison.
 
+OT-0052's prospective mechanism uses the first exact proposal as the one-shot
+control and admits only a fresh revision causally downstream of an independently
+applied residual receipt. Both workers must reach `[0,0,0]`, the combined
+one-shot branch must retain at least one error, and all OT-0051 causal and
+operational gates remain fixed. No actor context has started.
+
 ## Prediction errors

@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0052",
+  "evaluation_epoch": "post-E12 staged representation escape candidate",
+  "authorized_by": "OT-0051",
+  "authorization_consumed_on_first_valid_actor_execution": true,
+  "claim_limit": "private, time-bounded, single synthetic-domain staged representation-escape foothold; no developmental transfer, widened OT-2, integrated developmental claim, or OT-3 evidence",
+  "committed_projection_byte_limit": 512,
+  "provisional_projection_byte_limit": 512,
+  "active_choice_budget": 8,
+  "regime_count": 3,
+  "independent_workers": 2,
+  "stages_per_regime": 2,
+  "deployment_epoch": {"requested_model": "gpt-5.6-luna"},
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_turns": 12,
+    "output_tokens_per_turn": 8000,
+    "actor_input_tokens_total": 500000,
+    "actor_output_tokens_total": 96000,
+    "wall_seconds": 1800,
+    "actor_tool_calls": 0
+  },
+  "promotion_gate": [
+    "the clean generic staged protocol predates the mechanically derived private task and all actor output",
+    "each regime and worker uses separate fresh proposal and revision contexts with continuity only through a projection no larger than 512 bytes",
+    "both workers reach heldout errors [0,0,0] while pre-update discrepancy is [4,8,4] and every final operation is structurally outside the old carrier",
+    "the exact first proposals form the one-shot control and incur at least one combined heldout error that staged revision removes",
+    "completed validation residuals are bound to exact proposals; no-credit and structural-delta deletion preserve or restore the parent and remove the advantage",
+    "no-persistence, verbatim, fixed, and complete old-carrier projection controls receive the same eight active choices and fail",
+    "the exact contradiction makes the first committed operation maximally harmful; a distinct third relation requires another corrected operation",
+    "every proposal, validation, successor, parent, rollback, controller replay, hosted deployment, inventory, resource, test, audit, evidence, privacy, and repository-size gate passes"
+  ],
+  "red_line_review": [
+    "OT-0049 remains rejected and OT-0050 remains invalidated; neither is retried or rescored.",
+    "The actor authors every operation; validation applies proposals but never searches for or supplies one.",
+    "A valid execution consumes the only OT-0052 authorization and is never retried.",
+    "A pass does not establish transfer, widened OT-2, integrated development, OT-3, autonomy, identity, or consciousness."
+  ]
+}

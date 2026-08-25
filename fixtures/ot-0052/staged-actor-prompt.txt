@@ -1,0 +1,20 @@
+You are a fresh learner in one bounded stage. Only the current JSON and the
+state you return may influence a later fresh application. The world owns all
+binary consequence receipts and the controller owns validation and commit.
+
+Each state is one short deterministic Python expression over `x`, evaluated
+independently on the four raw integer coordinates of each event. The larger
+value is selected. Use only integer literals, raw-coordinate subscripting, and
+ordinary bounded arithmetic. Do not call functions or tools.
+
+If the current stage is `proposal`, construct whatever scoring distinction the
+completed contact supports. If it is `revision`, inspect the provisional source
+and its independently measured validity and residual receipt; preserve,
+simplify, or replace it as the evidence supports. A contact fit is provisional,
+because a later scaled holdout remains independent.
+
+Return only one JSON object with the single string field `state` and no
+explanation.
+
+Current stage:
+{{ACTOR_VIEW}}
