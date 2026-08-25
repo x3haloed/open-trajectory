@@ -484,12 +484,17 @@ ablations. The immediate sequence is:
   scientific manifest existed. Operationally invalidated with no candidate or
   hosted output and no authorization. The raw artifact is retained as
   exploratory invalidation evidence and is not rescored.
-- **OT-0051 (locked; unexecuted; candidate-free only):** prospectively
+- **OT-0051:** prospectively
   repeat the unchanged staged calibration with the repository's valid
   `public-reconstructible` evidence class. No scientific gate, proposal family,
   threshold, task order, or future candidate resource changes. A pass may
-  authorize at most one fresh OT-0052 candidate; no candidate is currently
-  authorized.
+  authorize at most one fresh OT-0052 candidate. The new locked public run
+  passed all 48 cases with pre-update `[4,8,4]`, hidden opportunity `[0,0,0]`,
+  exact detection of old-carrier, invalid, and contact-overfit proposals,
+  bounded provisional and committed state, later contradiction and distinct
+  correction, actor-surface exclusion, reverse-order replay, tests, audit,
+  evidence, and privacy gates. No candidate or hosted output occurred.
+  Exactly one fresh OT-0052 staged candidate is authorized.
 - Only then widen OT-2 toward reconstructed direction, reasons that retain
   standing, legitimate revision or supersession, and continuity across
   qualitatively different domains.

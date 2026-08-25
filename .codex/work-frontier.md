@@ -56,6 +56,8 @@ proposal family, threshold, task order, or candidate resource may change.
 The OT-0051 wrapper binds the unchanged core and invalidated predecessor while
 advancing only the evidence token and future candidate ID. It must receive its
 own implementation lock before execution. Implementation `d0da54e` and its
-protected inputs are now locked; the new public run is the active comparison.
+protected inputs were locked. The new run passed all 48 cases and authorizes
+exactly one fresh OT-0052 staged candidate. OT-0051 remains candidate-free
+opportunity evidence; OT-0052 is now the active comparison.
 
 ## Prediction errors

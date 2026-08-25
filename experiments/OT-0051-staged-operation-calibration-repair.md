@@ -1,6 +1,6 @@
 # OT-0051 — Staged operation-calibration evidence repair
 
-- **Status:** prospectively locked; unexecuted
+- **Status:** promoted; one OT-0052 candidate authorized
 - **Evidence class:** public-reconstructible if promoted
 - **Target:** candidate-free representation-escape protocol repair
 - **Candidate actor output:** forbidden
@@ -30,3 +30,20 @@ OT-2, integrated development, or OT-3.
 The repair wrapper is frozen at `d0da54e`; its exact core, acceptance rules,
 orientation, tests, evidence tooling, and predecessor manifests are fixed by
 `spec/ot-0051-run-lock.json`. No candidate output or hosted call exists.
+
+## Result and decision
+
+The new locked execution at `274f5a8` passed all 48 cases, the reverse-order
+placebo, deterministic replay, tests, evidence audit, privacy, and repository-
+size gates. Every case preserved pre-update errors `[4,8,4]`; the hidden staged
+opportunity reached `[0,0,0]`; old-carrier proposals exposed four residual
+errors; invalid proposals were rejected; and magnitude-specific contact fits
+failed all eight scaled holdout choices. Committed and provisional projections,
+no-credit parents, restoration, correction, and actor-surface exclusions all
+passed. No candidate output or hosted call occurred.
+
+Final disposition: `promoted`. OT-0051 authorizes exactly one fresh OT-0052
+staged candidate under the frozen twelve-turn and causal-ablation limits. This
+is candidate-free protocol and opportunity evidence only. The public artifact
+is identified by
+`evidence/manifests/OT-0051/ot-0051-staged-operation-calibration-001.json`.

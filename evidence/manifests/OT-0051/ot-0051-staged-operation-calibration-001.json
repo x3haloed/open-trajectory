@@ -1,0 +1,37 @@
+{
+  "artifact_id": "ot-0051-staged-operation-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 106205,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "274f5a809121876af6f3c5bd7cb4531ebfc3e8b2",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0051",
+  "input_manifests": [
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json",
+    "evidence/manifests/OT-0049/ot-0049-e12-representation-escape-candidate-001.json",
+    "evidence/manifests/OT-0050/ot-0050-staged-operation-calibration-001-invalidated.json"
+  ],
+  "kind": "staged-operation-candidate-free-calibration",
+  "limitations": [
+    "Candidate actor outputs and hosted model calls are forbidden.",
+    "A pass authorizes at most one fresh OT-0052 candidate and is not representation-escape evidence.",
+    "OT-0050 remains operationally invalidated and is not rescored by this distinct run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0051-staged-operation-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0051_harness.py --output $EVIDENCE/runs/OT-0051/ot-0051-staged-operation-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "4854d29858884f25a9915e55d01cc3b4d9fd3c703825aca71429ec1d9bc7f4f5"
+}
