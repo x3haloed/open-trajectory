@@ -1,6 +1,6 @@
 # OT-0057 — Categorical-description application calibration
 
-- **Status:** run-locked; unexecuted
+- **Status:** rejected; no learner authorized
 - **Evidence class:** private-reproducible if valid
 - **Target:** candidate-free application of a bounded categorical description
 - **Candidate learner output:** forbidden
@@ -66,3 +66,32 @@ authorizes at most one separately frozen learner candidate. OT-0057 itself is
 only categorical-description application evidence. It is not learner
 invention, representation escape, developmental transfer, widened OT-2,
 integrated development, or OT-3/TAAA evidence.
+
+## Result and decision
+
+The locked execution completed all 18 fresh application contexts in 119.50
+seconds. Every structural, task, deployment, model, catalog, ETag, inventory,
+response, workspace, thread, schema, parse, tool, hidden-authority, resource,
+test, audit, evidence, privacy, and repository-size gate passed. The private
+task reproduced the controller reference `[0,0,0]`, no-state `[4,4,4]`,
+contradiction, distinct-target correction, at-most-one-row, and at-least-fifteen-
+survivor certificates. No learner, proposal, revision, or candidate machinery
+output occurred.
+
+The scientific endpoint failed. Reference errors were `[0,2,0]` for worker one
+and `[0,0,2]` for worker two. The failures occurred in different regimes and
+under opposite condition order, despite the reference instruction naming the
+exact flag and inclusion relation. Opaque errors were `[2,6,2]` for both
+workers. One-row verbatim errors were `[4,6,4]` and `[4,2,2]`. Thus every
+control failed as required, but fresh natural-language application was not
+exactly reproducible.
+
+Final disposition: `rejected`. The conditional OT-0058 learner authorization
+did not arise; OT-0058 remains unauthorized and unexecuted. Together with
+OT-0055, this closes controller-authored natural-language description as the
+next exact application route across both numeric and categorical worlds. It
+does not show that categorical distinctions are unavailable: deterministic
+OT-0056 application remained exact, and four of six OT-0057 reference regimes
+were perfect. The next search must change the application substrate rather than
+relax exactness or perturb this prompt. The private artifact is identified by
+`evidence/manifests/OT-0057/ot-0057-categorical-description-application-calibration-001.json`.

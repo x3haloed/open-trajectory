@@ -130,8 +130,14 @@ now promoted a candidate-free categorical compression world: every real
 four-weight selector fails, at most one of fifteen diagnostic rows fits the
 inheritance budget, at least fifteen endpoint-divergent hypotheses survive,
 and a hidden short description supports contradiction and correction. This is
-environmental opportunity only. It authorizes one fresh OT-0057 application
-calibration, not a learner or a representation-escape claim.
+environmental opportunity only. It authorized one fresh OT-0057 application
+calibration, not a learner or a representation-escape claim. OT-0057 validly
+rejected that application interface: reference errors were `[0,2,0]` and
+`[0,0,2]`, although every opaque and one-row control failed and all operational
+gates passed. No learner was authorized. The next search must replace
+model-mediated natural-language application with a prospectively calibrated,
+controller-deterministic generic categorical carrier rather than relax the
+endpoint.
 
 ## Quick start
 

@@ -609,14 +609,29 @@ ablations. The immediate sequence is:
   and repository-size gates passed without actor or hosted output. Exactly one
   fresh OT-0057 application calibration is authorized. This is categorical
   compression-world opportunity, not representation escape.
-- **OT-0057 (run-locked; unexecuted):** test whether fresh hosted processes
+- **OT-0057:** test whether fresh hosted processes
   can apply a controller-private short categorical description across
   contradiction and distinct correction while byte-equal opaque and permitted
   exact-row controls remain insufficient. Derive a fresh private world only
   after generic implementation, preserve the 1,024-byte budget and independent
   condition order, and forbid learner, proposal, or revision output. A pass may
   authorize at most one later learner candidate; a failure closes or narrows
-  the descriptive categorical application path without rescoring OT-0056.
+  the descriptive categorical application path without rescoring OT-0056. The
+  valid run was rejected: reference errors were `[0,2,0]` and `[0,0,2]`, while
+  opaque controls were `[2,6,2]` for both workers and one-row verbatim controls
+  were `[4,6,4]` and `[4,2,2]`. All structural and operational gates passed and
+  no learner output occurred. The conditional OT-0058 authorization did not
+  arise; OT-0058 remains unauthorized and unexecuted. Natural-language
+  description is closed as the next exact application route across the numeric
+  and categorical protocols.
+- **Next categorical search:** do not relax OT-0057 or retry its prompt. Before
+  any learner, calibrate a controller-deterministic, generic categorical
+  predicate carrier whose syntax can express membership, nonmembership, and
+  ordinary Boolean composition without embedding a target flag, polarity,
+  solved example, or desirable-operation menu. A hidden reference program may
+  prove opportunity only. The eventual learner must author both the opaque
+  distinction and executable operation from completed consequences; selecting
+  a researcher-authored categorical mode does not count.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

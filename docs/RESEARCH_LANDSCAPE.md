@@ -299,6 +299,18 @@ description reliably while opaque and one-row controls fail? A positive result
 would validate an application interface, not the endogenous construction of
 the description.
 
+OT-0057 validly rejected that interface. All opaque and one-row controls failed,
+but two independently ordered reference regimes each missed two of eight
+choices. Because the categorical world, compression certificate, and hidden
+deterministic reference remained exact, the result localizes the failure to
+model-mediated natural-language application. A materially different lead is a
+small generic data-predicate language with controller-deterministic execution.
+Such a language may expose ordinary membership and Boolean syntax, but the
+target flag, polarity, useful composition, and update must remain actor-authored
+and absent from fixed surfaces. This is scientifically distinct from the closed
+numeric arithmetic-expression family; it still requires a candidate-free
+interpreter and leak calibration before learner authorization.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

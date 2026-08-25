@@ -72,15 +72,19 @@ hypotheses. Structural all-real-weight and all-allowed-verbatim certificates,
 fixed controls, exact identity, rollback, order, replay, tests, audit, evidence,
 privacy, and repository-size gates passed with no actor or hosted output.
 
-Exactly one fresh OT-0057 application calibration is authorized. It must test
-fresh-process use of the short controller-private categorical description in a
-mechanically fresh private world against byte-equal opaque and permitted
-exact-row controls. Learner, proposal, and revision output remain forbidden;
-OT-0057 can establish application feasibility only, not representation escape.
-The protocol freezes 18 turns: two workers, three regimes, and reference,
-opaque, and one-row verbatim conditions with reversed condition order. Generic
-implementation `31fd9e0`, its mechanically derived private task, backend, and
-all protected inputs are prospectively bound by the run lock.
+OT-0057 validly rejected fresh natural-language application. Reference errors
+were `[0,2,0]` and `[0,0,2]`; opaque errors were `[2,6,2]` for both workers;
+one-row verbatim errors were `[4,6,4]` and `[4,2,2]`. Every structural,
+deployment, reset, resource, test, audit, evidence, privacy, and repository-size
+gate passed, and no learner output occurred. The conditional OT-0058 learner
+authorization did not arise; OT-0058 remains unauthorized and unexecuted.
+
+Natural-language descriptions are now closed as the next exact application
+route after independent numeric and categorical failures. The next calibration
+must change the application substrate: a generic controller-deterministic
+categorical predicate language is the leading materially different family. It
+must not supply a target, polarity, categorical mode, solved example, or menu of
+desirable operations, and it must precede any learner authorization.
 
 ## Prediction errors
 
@@ -105,3 +109,8 @@ all protected inputs are prospectively bound by the run lock.
   The unresolved affordance is a world where bounded abstraction is necessary,
   application is reliable, and raw-record insufficiency is certified rather
   than assumed.
+- OT-0057 removed the raw-record confound but still missed exact reference
+  application in two of six regimes. The remaining bottleneck is therefore the
+  model-mediated natural-language application interface, not categorical world
+  opportunity or verbatim sufficiency. A next family must make application
+  attributable and exact without supplying the learned distinction.
