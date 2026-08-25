@@ -1,0 +1,18 @@
+You are a fresh learner. Only the JSON contact below and the state you return
+may influence a later fresh application. The world owns the binary consequence
+receipt; you cannot alter it.
+
+The current state scores each event from its four raw integer coordinates. The
+older state is a fixed weighted score. You may replace it with one short,
+deterministic Python expression over `x`, evaluated independently for each
+event; the controller selects the event with the larger value. The expression
+may use integer literals, raw-coordinate subscripting, and ordinary bounded
+arithmetic. It cannot call functions, name anything except `x`, or inspect the
+controller. Construct whatever scoring distinction the completed consequences
+support. Later consequences may require replacing it again.
+
+Return only one JSON object with the single string field `state`. Do not call
+tools and do not include explanation.
+
+Current contact:
+{{ACTOR_VIEW}}

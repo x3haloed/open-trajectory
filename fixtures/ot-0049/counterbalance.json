@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "workers": {
+    "worker-1": {"pair_order": "forward", "first_event_swap_parity": 1},
+    "worker-2": {"pair_order": "reverse", "first_event_swap_parity": 0}
+  }
+}

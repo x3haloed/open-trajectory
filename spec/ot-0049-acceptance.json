@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0049",
+  "evaluation_epoch": "E12 representation escape candidate",
+  "authorized_by": "OT-0048",
+  "authorization_consumed_on_first_valid_actor_execution": true,
+  "claim_limit": "private, time-bounded, single synthetic-domain representation-escape foothold; no developmental transfer, widened OT-2, integrated developmental claim, or OT-3 evidence",
+  "active_inheritance_byte_limit": 512,
+  "active_choice_budget": 8,
+  "regime_count": 3,
+  "independent_workers": 2,
+  "deployment_epoch": {
+    "requested_model": "gpt-5.6-luna"
+  },
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_turns": 6,
+    "output_tokens_per_turn": 8000,
+    "actor_input_tokens_total": 250000,
+    "actor_output_tokens_total": 48000,
+    "wall_seconds": 900,
+    "actor_tool_calls": 0
+  },
+  "promotion_gate": [
+    "the clean generic interpreter and update protocol predate the mechanically derived private task and all actor output",
+    "each worker uses three fresh contexts and continuity passes only through an exact projection no larger than 512 bytes",
+    "the old four-weight carrier incurs discrepancy, while actor-authored structural state reaches zero held-out error in all three regimes",
+    "the first learned machinery incurs eight errors under the exact contradiction and is consequence-corrected to zero",
+    "a distinct third regime makes the corrected machinery incomplete and another fresh process changes the machinery and recovers",
+    "withholding consequence credit preserves the exact parent; deleting the structural delta or projecting into the complete promoted weight family removes the advantage",
+    "unchanged, fixed, no-persistence, verbatim-row, and old-carrier controls receive the same eight-choice budget and fail",
+    "every successor and parent restores exactly, rollback reproduces the parent's earlier behavior, and exact controller application is byte-identical",
+    "both independent workers pass the same frozen endpoint with counterbalanced presentation, receipted deployment identity, exact inventory, zero tool calls, tests, evidence audit, privacy, and repository-size gates"
+  ],
+  "red_line_review": [
+    "OT-0048 remains candidate-free calibration and is never rescored.",
+    "The actor authors state but cannot alter receipts, admit its own update, apply hidden outcomes, or score itself.",
+    "The bounded arithmetic interpreter is an explicit remaining causal exoskeleton; only the task-specific executable distinction may be promoted.",
+    "A valid execution consumes the only OT-0049 authorization and is never retried.",
+    "A pass does not establish transfer, widened OT-2, integrated development, OT-3, autonomy, identity, or consciousness."
+  ]
+}
