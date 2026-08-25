@@ -223,12 +223,15 @@ bound. All sixteen cases passed twice: references `[0,0,0]`, prior states
 sixteen legal projections. Every operational gate passed without candidate or
 hosted output. Exactly one fresh OT-0069 learner is authorized.
 
-OT-0069 is implemented but unlocked as the sole learner: two independent lineages,
+OT-0069 is run-locked but unexecuted as the sole learner: two independent lineages,
 three fresh actor contexts each, exact 620-byte inheritance, completed
 resolved-side consequences, contact-perfect commit, `[0,0,0]` heldout,
 membership-level correction twice, full fixed/naive/verbatim controls,
 decisive ablations, safe failure, rollback, and instrumented hosted receipts.
-No task or actor output exists yet.
+The private task was mechanically derived from exact clean implementation
+identity, passed sealed readback and every structural gate, and is frozen with
+the model, instrumented backend, TLS bundle, inventory, and fixed inputs. No
+actor output exists yet.
 
 ## Prediction errors
 
