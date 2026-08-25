@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0059",
+  "evaluation_epoch": "post-OT-0057 deterministic categorical-predicate carrier calibration",
+  "scenario_count": 32,
+  "flag_count": 16,
+  "diagnostic_contact_pairs": 15,
+  "heldout_pairs": 8,
+  "regime_count": 3,
+  "active_inheritance_byte_limit": 1024,
+  "maximum_source_bytes": 256,
+  "maximum_ast_nodes": 31,
+  "candidate_outputs": false,
+  "hosted_model_calls": 0,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0060",
+  "future_candidate_independent_workers": 2,
+  "future_candidate_context_resets_per_worker": 3,
+  "future_candidate_max_actor_turns": 6,
+  "future_candidate_max_output_tokens_per_turn": 4000,
+  "future_candidate_max_total_output_tokens": 24000,
+  "claim_limit": "public deterministic generic categorical-predicate carrier calibration and at most one OT-0060 learner authorization; no learner invention, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all 32 worlds pass twice in forward and reverse order without candidate or hosted output",
+    "every real four-weight setting is endpoint-equivalent and wrong on four heldout choices in every regime",
+    "the hidden generic-predicate reference reaches [0,0,0], becomes maximally harmful under polarity contradiction, fails a distinct third target, and corrects",
+    "raw contact exceeds 1024 bytes and every allowed atomic-row projection leaves at least two endpoint-divergent hypotheses",
+    "empty, digest, verbatim, constant, nonexistent-flag, first-public-flag, old-carrier, frozen-prior, constant-AST, and literal-deletion controls fail the complete endpoint",
+    "the safe parser rejects calls, attributes, arithmetic, comprehensions, assignment, imports, mutation, non-Boolean results, oversized source, and oversized ASTs",
+    "invalid, unsafe, oversized, and contact-imperfect updates preserve the exact parent while committed successor restore and rollback are exact",
+    "actor-reachable generic grammar contains no concrete flag, target, polarity, categorical mode, update rule, solved example, or reference expression",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "OT-0057 remains rejected and its conditional OT-0058 authorization never arose.",
+    "The generic interpreter is an explicit causal exoskeleton; hidden reference programs prove opportunity only.",
+    "A future learner must author both the opaque literal and useful operation from completed consequences; filling a target or polarity field is rejected.",
+    "This changes the categorical application substrate and does not reopen the closed numeric arithmetic-expression family.",
+    "A pass authorizes one learner comparison but is not representation-escape evidence."
+  ]
+}

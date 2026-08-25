@@ -632,6 +632,17 @@ ablations. The immediate sequence is:
   prove opportunity only. The eventual learner must author both the opaque
   distinction and executable operation from completed consequences; selecting
   a researcher-authored categorical mode does not count.
+- **OT-0059 (protocol frozen; unimplemented):** calibrate that carrier over all
+  32 OT-0056 worlds without candidate or hosted output. The safe 256-byte,
+  31-node Boolean-expression interpreter accepts only generic event access,
+  string/Boolean literals, membership, equality, and Boolean composition. It
+  rejects calls, attributes, arithmetic, mutation, and all other syntax. Freeze
+  hidden-reference `[0,0,0]`, contradiction, distinct correction, compression,
+  all-real-weight impossibility, fixed lineages, constant-AST and literal-
+  deletion ablations, invalid-update parent preservation, committed rollback,
+  surface, order, replay, test, audit, evidence, and privacy gates. A complete
+  pass may authorize one fresh OT-0060 learner only and is not representation
+  escape.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

@@ -86,6 +86,15 @@ categorical predicate language is the leading materially different family. It
 must not supply a target, polarity, categorical mode, solved example, or menu of
 desirable operations, and it must precede any learner authorization.
 
+OT-0059 is the frozen candidate-free calibration for that family. It uses one
+bounded safe Boolean expression over a public event object, with generic
+membership, equality, and Boolean syntax executed deterministically. Across all
+32 OT-0056 worlds it must preserve old-carrier impossibility, raw compression,
+contradiction, distinct correction, fixed controls, decisive structural
+ablations, invalid-update parent identity, committed rollback, surface
+exclusion, order, replay, test, audit, evidence, and privacy gates. Only a full
+pass may authorize one OT-0060 learner.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision
