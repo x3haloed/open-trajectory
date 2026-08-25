@@ -1,6 +1,6 @@
 # OT-0052 — Staged representation-escape candidate
 
-- **Status:** prospectively frozen and run-locked; unexecuted
+- **Status:** rejected; authorization consumed
 - **Evidence class:** private-reproducible if valid
 - **Target:** bounded OT-1 representation escape
 - **Authorization:** OT-0051, exactly one fresh candidate
@@ -61,3 +61,43 @@ generic arithmetic interpreter and staged validation topology remain declared
 causal exoskeletons. A pass does not establish developmental transfer, widened
 OT-2 standing, integrated development, OT-3/TAAA, autonomy, identity, or
 consciousness.
+
+## Result and decision
+
+The locked execution at `f9f4597` completed all twelve fresh actor contexts in
+370.58 seconds with exact task, deployment, model, catalog, ETag, inventory,
+response, workspace, thread, tool, resource, replay, test, audit, evidence, and
+privacy authority. It is a valid scientific rejection, not an operational
+invalidation.
+
+Both workers preserved the prospective pre-update discrepancies `[4,8,4]` and
+finished with candidate errors `[0,0,4]`. No-persistence, verbatim replay, and
+complete old-carrier projection remained `[4,4,4]`; the best fixed weighted
+aggregate remained 12. All outputs parsed, all final sources were novel, the
+old carrier remained certified impossible, and no hidden witness or tool was
+actor-reachable.
+
+The failure localizes beyond carrier expressiveness. Worker one's exact third
+proposal was admissible, fit contact, and scored zero on the holdout, but the
+fresh revision replaced it despite a zero-error validation receipt and the
+replacement missed four contact and holdout choices, so no successor committed.
+Worker two's third proposal exceeded the source bound; its digest-only
+provisional branch supported an admissible revision that still missed two
+contact choices and all four holdout choices. The same worker's first oversized
+proposal was successfully reconstructed by revision, so staging helped one
+earlier failure but did not make the lineage reliable.
+
+The frozen rollback gate was also false on the two failed third regimes because
+no successor committed and the implementation restored the unchanged current
+snapshot's predecessor as though it were an attempted successor's parent. This
+is a prospective gate-design defect exposed by rejection, not evidence for the
+candidate and not a reason to rescore it. Any future calibration must distinguish
+rollback of a committed successor from exact preservation after a rejected
+proposal.
+
+Final disposition: `rejected`. OT-0051's single authorization is consumed. The
+combined OT-0049 and OT-0052 evidence closes another candidate in the bounded
+single-expression carrier: neither one-shot synthesis nor one residual-guided
+revision reliably preserves or reconstructs the useful compact operation across
+two workers and three corrections. The private artifact is identified by
+`evidence/manifests/OT-0052/ot-0052-staged-representation-escape-candidate-001.json`.

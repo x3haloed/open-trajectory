@@ -1,0 +1,37 @@
+{
+  "artifact_id": "ot-0052-staged-representation-escape-candidate-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1039438,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f9f4597c06961b212629c373eca5b256b6b34170",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0052",
+  "input_manifests": [
+    "evidence/manifests/OT-0051/ot-0051-staged-operation-calibration-001.json",
+    "evidence/manifests/OT-0049/ot-0049-e12-representation-escape-candidate-001.json",
+    "evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json"
+  ],
+  "kind": "staged-representation-escape-hosted-epoch-run",
+  "limitations": [
+    "Hosted outputs, task identities, world states, and deployment receipts remain private.",
+    "This valid execution consumes OT-0051's single OT-0052 authorization regardless of disposition.",
+    "A pass is one bounded representation-escape foothold, not developmental transfer, widened OT-2, or integrated development."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0052-staged-representation-escape-candidate-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a3b2f2a072c78c93ced6aa1483c03fea115f066cb8b1de1ee14f4b285b27a5df"
+}

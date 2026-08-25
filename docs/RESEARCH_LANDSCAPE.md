@@ -234,6 +234,18 @@ receipts, fresh-context revision, and commit. Compare that staged construction
 against the original one-shot path, and reject designs where the controller's
 validation procedure itself supplies or searches for the useful operation.
 
+OT-0052 closes the immediate staged variant. Residual-guided revision repaired
+one oversized proposal, but both lineages failed the distinct third regime. In
+one case the first proposal already solved contact and holdout, yet a fresh
+revision replaced it after a zero-error receipt and lost the solution; in the
+other, digest-only retention of an oversized proposal left too little useful
+structure for complete reconstruction. This distinguishes operation
+expressiveness from update-policy reliability and provisional-interface
+sufficiency. A scientifically distinct family should make preservation,
+replacement, competing hypotheses, and rejected-update behavior causal and
+inspectable without encoding a preferred semantic decision menu in the
+controller.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more
