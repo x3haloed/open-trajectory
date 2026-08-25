@@ -437,7 +437,13 @@ ablations. The immediate sequence is:
 - **OT-0048:** construct and calibrate the smallest representation-escape world
   in which exhaustive search over the current weighted-selector parameter space
   cannot succeed, while a genuinely new distinction, representation, or update
-  operation can.
+  operation can. The frozen candidate-free design uses eight antipodal choices,
+  fresh scaled structural holdouts, a zero-first-moment impossibility
+  certificate over all real four-weight settings, exhaustive equal-budget
+  promoted-weight and verbatim-replay controls, a hidden bounded
+  causal reference, later contradiction, distinct further correction, exact
+  rollback, and static exclusion of the witness from actor-reachable surfaces.
+  No candidate or hosted output exists yet.
 - After candidate-free calibration, test one actor-invented mechanism with
   fresh contexts, independently owned outcomes, equal budgets, decisive
   representation-change and correction ablations, recoverable branches, and

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0048",
+  "evaluation_epoch": "E12 representation escape calibration",
+  "candidate_actor_outputs": false,
+  "hosted_model_calls": 0,
+  "world_dimension_count": 4,
+  "active_inheritance_budget": 8,
+  "regime_count": 3,
+  "relation_count": 4,
+  "scenario_count": 48,
+  "reference_projection_byte_limit": 512,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0049",
+  "future_candidate_max_actor_turns": 6,
+  "future_candidate_max_total_output_tokens": 48000,
+  "future_candidate_max_output_tokens_per_turn": 8000,
+  "future_candidate_tool_calls": 0,
+  "future_candidate_independent_workers": 2,
+  "future_candidate_context_resets_per_worker": 3,
+  "claim_limit": "public deterministic candidate-free representation-escape calibration and at most one fresh future OT-1 candidate authorization; no new OT-1 candidate evidence, OT-2 widening, or OT-3 evidence",
+  "fixed_selector_conditions": [
+    "fixed-canonical",
+    "fixed-anticanonical",
+    "fixed-zero",
+    "all-eight-signed-unit-axes",
+    "all-384-promoted-signed-permutation-weights",
+    "verbatim-raw-replay",
+    "frozen-first-reference"
+  ],
+  "novelty_rubric": [
+    "candidate implementation and generic update protocol predate the mechanically derived task seed",
+    "no useful relation, derived distinction, solved demonstration, representation menu, or reference operation is present in actor-reachable prompts, fixtures, labels, examples, source literals, or reachable call paths",
+    "post-contact behavior realizes a held-out choice function certified impossible for every setting of the promoted four-weight carrier",
+    "the committed snapshot contains actor-authored structural state absent from its parent; changing only four numeric weights or selecting a researcher-authored mode is rejected",
+    "withholding the independent consequence receipt preserves the exact parent snapshot",
+    "deleting the actor-authored structural delta destroys the held-out advantage while retaining the same contact, receipt, active budget, and downstream scorer",
+    "the useful structural state is absent from the candidate implementation, seed orientation, and pre-task source snapshot and is causally downstream of released contact consequences"
+  ],
+  "future_candidate_gate": [
+    "one fresh candidate only, with a task seed derived from its clean implementation commit after OT-0048 promotion",
+    "every learning encounter starts in a fresh context and receives continuity only through the exact bounded candidate snapshot; snapshot application and scoring are controller-deterministic",
+    "each condition selects exactly eight observations and all fixed controls receive the same active-inheritance budget",
+    "candidate held-out errors are [0,0,0], the exact unchanged-selector branch is at least [1,8,4], and the candidate beats every fixed researcher-authored selector lineage",
+    "the first learned machinery becomes maximally harmful in regime two; consequence-driven revision recovers; a distinct third relation requires and demonstrates further correction capacity",
+    "outcome-credit, selector-change, structural-delta deletion, and current-carrier projection ablations all fail their named causal gates",
+    "every revision has an immutable parent and can be exactly restored; rollback of each corrected branch replays its parent's original canary without identity drift",
+    "both independently fresh workers pass; controller replay of each exact actor output is byte-identical; hosted deployment identity and counterbalanced order are frozen; tests, audit, evidence, privacy, and repository-size gates pass"
+  ],
+  "promotion_gate": [
+    "all 48 task-family scenarios pass the same prospectively frozen calibration",
+    "a zero-sum constant and first-moment certificate proves that no real-valued four-weight selector can solve any regime, including deterministic ties",
+    "zero, both constant choices, every signed unit axis, all 384 promoted coefficient selectors, and a first-reference-then-frozen lineage receive equal active budgets and fail the complete endpoint",
+    "a controller-private receipt-trained bounded reference snapshot reaches zero scaled structural-holdout error in every regime, changes only with released outcomes, survives exact restoration, and remains outside the four-weight class",
+    "verbatim replay of exact raw contact rows fails on every fresh scaled holdout, so filling an exact-row table is not a causal solution",
+    "the later complement makes the first reference snapshot maximally harmful and the distinct third relation defeats both earlier frozen snapshots while a fresh update recovers",
+    "static reachability and serialized-surface checks exclude the existence witness from every actor-reachable prompt, fixture, code path, label, solved example, and menu",
+    "deterministic replay, reverse-order placebo, tests, audit, evidence, privacy, and exact input locking pass without candidate or hosted-model output"
+  ]
+}
