@@ -1,6 +1,6 @@
 # OT-0069 — Equivalence-partition representation-escape candidate
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** implemented; unlocked; task not derived
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** promoted OT-0068; exactly one fresh learner candidate

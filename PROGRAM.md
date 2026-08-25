@@ -853,7 +853,7 @@ ablations. The immediate sequence is:
   and inheritance budgets. Require exact attribution, decisive membership and
   complete-partition ablations, safe failure, rollback, fresh task identity,
   and valid reproduction. A valid failure consumes the sole authorization.
-- **OT-0069 (protocol frozen; unimplemented):** the sole authorized learner.
+- **OT-0069 (implemented; unlocked; task not derived):** the sole authorized learner.
   Two independent three-reset lineages receive only generic partition surfaces,
   their exact bounded parent, public pair contact, prior selections, and
   completed selected/resolved-side consequences. Require contact-perfect

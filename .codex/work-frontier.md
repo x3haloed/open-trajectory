@@ -223,7 +223,7 @@ bound. All sixteen cases passed twice: references `[0,0,0]`, prior states
 sixteen legal projections. Every operational gate passed without candidate or
 hosted output. Exactly one fresh OT-0069 learner is authorized.
 
-OT-0069 is prospectively frozen as the sole learner: two independent lineages,
+OT-0069 is implemented but unlocked as the sole learner: two independent lineages,
 three fresh actor contexts each, exact 620-byte inheritance, completed
 resolved-side consequences, contact-perfect commit, `[0,0,0]` heldout,
 membership-level correction twice, full fixed/naive/verbatim controls,
