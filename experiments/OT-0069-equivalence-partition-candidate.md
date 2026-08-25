@@ -1,6 +1,6 @@
 # OT-0069 — Equivalence-partition representation-escape candidate
 
-- **Status:** run-locked; unexecuted; authorization unconsumed
+- **Status:** rejected; authorization consumed; full-partition learner family closed
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** promoted OT-0068; exactly one fresh learner candidate
@@ -118,3 +118,34 @@ A valid rejection consumes OT-0068's sole authorization and closes this
 one-shot equivalence-partition learner family as the next route. An operational
 invalidation receives no scientific disposition and cannot be rescored or
 retried on the same task.
+
+## Result and disposition
+
+The locked private-reproducible run was valid and rejected. All six fresh
+contexts completed with distinct threads, workspaces, responses, and
+deployment receipts. Exact model, catalog, ETag, inventory, schema, prehosted
+sequencing, parse, tool, hidden-authority, projection, usage, wall-clock, test,
+audit, evidence, privacy, and repository-size gates passed.
+
+Worker one scored `[0,8,0]`; worker two scored `[0,8,4]`. Both independently
+authored and committed the correct initial two-group partition. On the first
+contradiction, worker one proposed a novel `2/2/4` grouping with one diagnostic
+error, while worker two reproduced the harmful inherited `4/4` membership and
+had five diagnostic errors. Neither proposal committed. On the second
+contradiction, worker one reconstructed and committed the correct new `4/4`
+membership; worker two again reproduced the first membership and had nine
+diagnostic errors. Safe validation preserved exact parents for every failed
+update.
+
+The result establishes actor capability to construct the calibrated relational
+distinction from completed consequences and, in one lineage, reconstruct it
+after later contradiction. It does not establish reproducible machinery-level
+correction or the frozen endpoint. OT-0068's authorization is consumed and the
+one-shot complete-partition learner family is closed as the next route. Do not
+tune this prompt, task, schema, grouping carrier, or threshold. The smallest
+live question is whether an actor-authored update or reconstruction operation,
+rather than only the latest grouping contents, can reduce inherited-state
+anchoring and itself later become revisable.
+
+The private artifact is identified by
+`evidence/manifests/OT-0069/ot-0069-equivalence-partition-candidate-001.json`.

@@ -223,15 +223,21 @@ bound. All sixteen cases passed twice: references `[0,0,0]`, prior states
 sixteen legal projections. Every operational gate passed without candidate or
 hosted output. Exactly one fresh OT-0069 learner is authorized.
 
-OT-0069 is run-locked but unexecuted as the sole learner: two independent lineages,
+OT-0069 validly rejected as the sole learner: two independent lineages,
 three fresh actor contexts each, exact 620-byte inheritance, completed
 resolved-side consequences, contact-perfect commit, `[0,0,0]` heldout,
 membership-level correction twice, full fixed/naive/verbatim controls,
 decisive ablations, safe failure, rollback, and instrumented hosted receipts.
 The private task was mechanically derived from exact clean implementation
-identity, passed sealed readback and every structural gate, and is frozen with
-the model, instrumented backend, TLS bundle, inventory, and fixed inputs. No
-actor output exists yet.
+identity and every operational gate passed. Worker one scored `[0,8,0]` and
+worker two `[0,8,4]`. Both independently committed the correct initial
+grouping. At the first contradiction, one novel proposal missed one diagnostic
+relation and the other copied the harmful inherited grouping. At the second,
+one lineage reconstructed the correct grouping and the other remained
+anchored. Authorization is consumed and complete-partition replacement is
+closed as a one-shot learner family. The next representation must carry an
+actor-authored reconstruction/update operation and make that operation itself
+later falsifiable and revisable.
 
 ## Prediction errors
 

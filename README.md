@@ -206,6 +206,15 @@ remained at four errors. This authorizes one fresh OT-0069 learner comparison.
 It is calibrated opportunity only, not actor invention or representation
 escape.
 
+OT-0069 consumed that authorization in a valid two-worker learner run. Both
+workers constructed and committed the correct initial grouping. Neither passed
+the first regrouping: one novel proposal missed one diagnostic relation and the
+other copied the harmful inherited grouping. One worker later reconstructed
+the correct third grouping; the other remained anchored. Scores were `[0,8,0]`
+and `[0,8,4]`. The full-partition learner family is closed without a Phase I
+foothold. The next search must change what is inherited toward an actor-authored
+reconstruction/update operation, not retry the grouping prompt or threshold.
+
 ## Quick start
 
 Requires Python 3.11 or newer. The evidence CLI has no runtime dependencies;

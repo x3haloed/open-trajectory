@@ -449,6 +449,19 @@ four errors. The generic equivalence-partition carrier and correction
 opportunity are therefore calibrated for one learner comparison. Whether a
 fresh process constructs and revises the grouping remains completely open.
 
+OT-0069 answered that question negatively at its reproducible endpoint but
+exposed a useful capability boundary. Both independent lineages constructed
+the correct first partition from resolved-side consequences. One later
+reconstructed the correct third partition. The shared failure was the first
+revision: one lineage copied inherited membership and the other produced a
+near-correct three-block alternative. This makes full-state replacement look
+vulnerable to inherited-state anchoring even when the underlying relational
+inference is available. A materially different hypothesis is to inherit an
+actor-authored reconstruction/update operation that generates relational state
+from consequences. Such an operation must later be made wrong by a change in
+evidence structure and revised by a fresh process; otherwise it is merely a new
+fixed researcher-designed optimizer.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

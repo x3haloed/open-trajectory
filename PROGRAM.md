@@ -853,7 +853,7 @@ ablations. The immediate sequence is:
   and inheritance budgets. Require exact attribution, decisive membership and
   complete-partition ablations, safe failure, rollback, fresh task identity,
   and valid reproduction. A valid failure consumes the sole authorization.
-- **OT-0069 (run-locked; unexecuted; authorization unconsumed):** the sole authorized learner.
+- **OT-0069 (rejected; authorization consumed; full-partition learner family closed):** the sole authorized learner.
   Two independent three-reset lineages receive only generic partition surfaces,
   their exact bounded parent, public pair contact, prior selections, and
   completed selected/resolved-side consequences. Require contact-perfect
@@ -862,7 +862,22 @@ ablations. The immediate sequence is:
   verbatim/fixed/naive controls, decisive partition ablations, safe failure,
   rollback, exact hosted attribution, and reproduction. A pass is only the
   first bounded Phase I foothold; a valid rejection consumes authorization and
-  closes the one-shot relational learner family.
+  closes the one-shot relational learner family. The run was valid and
+  rejected. Worker one scored `[0,8,0]`; worker two `[0,8,4]`. Both constructed
+  and committed the correct initial membership. At regime two, worker one's
+  novel `2/2/4` proposal missed one diagnostic relation and worker two copied
+  the harmful inherited membership; neither committed. At regime three,
+  worker one reconstructed and committed the correct new grouping while worker
+  two remained anchored. All operational gates passed. Authorization is
+  consumed; do not retry the full-partition prompt, task, schema, or threshold.
+- **Next Phase I search:** change the inherited authority from complete
+  grouping contents to an actor-authored reconstruction or update operation.
+  Candidate-free calibration must first show a bounded generic operation can
+  reconstruct relational state from completed consequences, that every current
+  content-only carrier remains inadequate, and that a later change in outcome
+  semantics or evidence structure makes the operation itself harmful and
+  requires structural revision. Do not supply a desirable operation menu or
+  count automatic controller inference as actor-authored machinery.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
