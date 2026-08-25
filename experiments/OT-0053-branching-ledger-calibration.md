@@ -1,6 +1,6 @@
 # OT-0053 — Branching-ledger candidate-free calibration
 
-- **Status:** prospectively frozen and run-locked; unexecuted
+- **Status:** promoted; one OT-0054 candidate authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free representation-escape family calibration
 - **Candidate actor output:** forbidden
@@ -56,3 +56,28 @@ OT-2, integrated development, or OT-3/TAAA evidence.
 
 The implementation and every fixed input are bound by
 `spec/ot-0053-run-lock.json`. No actor output or hosted call exists.
+
+## Result and decision
+
+The locked public execution at `3c2bd24` passed all 48 cases twice, reverse-order
+replay, tests, evidence audit, privacy, and repository-size gates. Every case
+preserved pre-update discrepancy `[4,8,4]`; the controller-private branching
+opportunity reached `[0,0,0]`; and the best complete fixed-weight aggregate
+remained 12.
+
+Each committed ledger retained three distinct admissible branches while the
+exact designated active branch alone produced the heldout advantage. Removing
+that branch produced eight errors. Withholding consequence credit and selecting
+an invalid branch preserved the exact parent. Invalid provisional content kept
+only its digest. Exact restoration passed separately for every real committed
+successor and its parent. Committed projections used 718–739 bytes,
+multi-branch provisional projections used 999–1021 bytes, and invalid digest
+projections used 507 bytes, all within their frozen bounds. No candidate actor
+output or hosted call occurred.
+
+Final disposition: `promoted`. OT-0053 authorizes exactly one fresh OT-0054
+candidate. This is candidate-free evidence that the branching exoskeleton can
+represent and causally discriminate the required paths; it is not evidence that
+an actor can invent the useful branches, choose among them from consequences,
+or correct them later. The public artifact is identified by
+`evidence/manifests/OT-0053/ot-0053-branching-ledger-calibration-001.json`.

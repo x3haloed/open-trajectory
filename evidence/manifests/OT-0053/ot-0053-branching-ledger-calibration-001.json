@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0053-branching-ledger-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 156302,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3c2bd2415e88dce9437bb98d67987c39e5679be6",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0053",
+  "input_manifests": [
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json",
+    "evidence/manifests/OT-0052/ot-0052-staged-representation-escape-candidate-001.json"
+  ],
+  "kind": "branching-ledger-candidate-free-calibration",
+  "limitations": [
+    "Candidate actor outputs and hosted model calls are forbidden.",
+    "Controller-private reference branches prove opportunity only and are not candidate evidence.",
+    "A pass authorizes at most one fresh OT-0054 candidate and is not representation-escape evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0053-branching-ledger-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0053_harness.py --output $EVIDENCE/runs/OT-0053/ot-0053-branching-ledger-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "9609a97c7075a59b26ee22d66947cc3ff20a8941de9c89ac517098fb299ea14a"
+}

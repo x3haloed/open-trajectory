@@ -522,7 +522,7 @@ ablations. The immediate sequence is:
   menu. The calibration must retain OT-0048's impossibility, independent
   consequences, scaled holdouts, contradiction, controls, and rollback while
   separating committed-successor rollback from no-change preservation.
-- **OT-0053 (run-locked; unexecuted):** candidate-free calibration of a
+- **OT-0053:** candidate-free calibration of a
   bounded branching ledger with up to three actor-authored structural branches,
   exact per-branch consequence receipts, and one actor-designated active branch.
   Across all 48 OT-0048 cases, freeze selected-branch deletion, no-credit,
@@ -533,7 +533,13 @@ ablations. The immediate sequence is:
   reference branches prove opportunity only. No actor or hosted output is
   permitted; a pass may authorize at most one fresh OT-0054 candidate.
   Implementation `259de5597a469fe810215c9b7bde55cd82957220` and every fixed
-  input are bound by `spec/ot-0053-run-lock.json`.
+  input were bound by `spec/ot-0053-run-lock.json`. The locked public run passed
+  all 48 cases twice: pre-update `[4,8,4]`, hidden branching opportunity
+  `[0,0,0]`, exact active-branch causation, eight-error selected-branch
+  deletion, no-credit and invalid-update parent preservation, digest-only
+  invalid provisional state, real-successor rollback, complete controls,
+  surface exclusion, replay, tests, audit, evidence, and privacy. No actor or
+  hosted output occurred. Exactly one fresh OT-0054 candidate is authorized.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
