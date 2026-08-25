@@ -1,0 +1,37 @@
+{
+  "artifact_id": "ot-0055-descriptive-rule-application-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2017779,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9a6b2c3eaf07964326cee99922b682eb3892804d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0055",
+  "input_manifests": [
+    "evidence/manifests/OT-0054/ot-0054-branching-ledger-candidate-001.json",
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json",
+    "evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json"
+  ],
+  "kind": "descriptive-rule-application-candidate-free-hosted-calibration",
+  "limitations": [
+    "Private task, reference descriptions, hosted outputs, and deployment receipts remain private.",
+    "Controller-authored descriptions prove carrier application only and are not endogenous evidence.",
+    "A pass authorizes at most one fresh OT-0056 learner and is not representation-escape evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0055-descriptive-rule-application-calibration-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1ea1c9d8a19254096b079ccb1342c04dabac57c147440c5b1f3ae7104b49f762"
+}

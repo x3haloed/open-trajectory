@@ -564,7 +564,7 @@ ablations. The immediate sequence is:
   program synthesis. Preserve OT-0048's old-carrier impossibility and causal
   standards, but do not reuse its exact expression endpoint merely behind a new
   container.
-- **OT-0055 (run-locked; unexecuted):** candidate-free
+- **OT-0055:** candidate-free
   calibration of a non-executable descriptive-rule carrier. A private task
   derived after the clean implementation commit gives identical heldout pairs
   to fresh reference-description, byte-equal opaque-state, and byte-equal
@@ -575,7 +575,20 @@ ablations. The immediate sequence is:
   learner candidate and remains carrier-opportunity evidence only.
   The generic harness, private task, application schema, byte-equal projection
   construction, fresh-context controls, hosted receipts, backend, TLS bundle,
-  and protected inputs are bound by `spec/ot-0055-run-lock.json`.
+  and protected inputs were bound by `spec/ot-0055-run-lock.json`. The valid
+  run was rejected: reference errors were `[0,1,0]` and `[0,0,0]`; opaque
+  controls were `[4,4,4]` for both; and verbatim controls were `[4,4,4]` and
+  `[4,0,0]`. Worker two's verbatim successes occurred before its reference
+  conditions in separate fresh contexts. OT-0055 therefore authorizes no
+  learner: numeric descriptive application was not exact, and complete raw
+  contact remained sufficient for re-inference in two regimes.
+- **Next non-expression search:** calibrate a categorical compression world in
+  which a short descriptive abstraction is reliably applicable without
+  arithmetic, while the completed raw record exceeds the active inheritance
+  budget and every allowed verbatim projection is prospectively certified
+  insufficient on heldout cases. Keep application, opaque, fixed, no-state,
+  equal-byte, reset, and independent-outcome controls. Do not relax OT-0055 or
+  repeat its full-verbatim numeric task.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

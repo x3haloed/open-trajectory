@@ -55,15 +55,13 @@ multi-branch variants are now closed inside the bounded arithmetic-expression
 carrier. No candidate is authorized; a new calibration must change the
 actor-authored representation and environmental pressure, not its container.
 
-OT-0055 is the active candidate-free design. It first asks whether fresh
-processes can apply a bounded non-executable descriptive rule at all. One
-private task will compare controller-private reference descriptions with
-byte-equal opaque and verbatim-contact states across two workers, three regimes,
-and eighteen fresh application turns. Learner output is forbidden; only a full
-reference `[0,0,0]` pass with failing controls may authorize one OT-0056 learner.
-The generic implementation, private task, backend, TLS, and protected inputs
-are run-locked after passing all local tests and projection checks. No hosted
-context has started.
+OT-0055 validly rejected the numeric descriptive application protocol.
+Reference errors were `[0,1,0]` and `[0,0,0]`; opaque controls uniformly failed,
+but worker two's verbatim control independently solved two regimes before its
+reference condition. No learner is authorized. The next calibration must use a
+non-arithmetic categorical world and a raw completed record larger than the
+active inheritance budget, with prospective insufficiency for every allowed
+verbatim projection. No candidate is authorized.
 
 ## Prediction errors
 
@@ -83,3 +81,8 @@ context has started.
   generation supplies no viable member. The smallest unresolved capability is
   reliable invention of a useful structural distinction in a representation
   that does not demand compact arithmetic-program synthesis.
+- OT-0055 showed that a descriptive state is not uniquely causal when full raw
+  contact fits in the same projection and a fresh process can re-infer from it.
+  The unresolved affordance is a world where bounded abstraction is necessary,
+  application is reliable, and raw-record insufficiency is certified rather
+  than assumed.

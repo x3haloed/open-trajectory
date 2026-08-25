@@ -272,6 +272,15 @@ are opportunity controls, never endogenous evidence
 ([natural-language induction](https://arxiv.org/abs/2212.10923),
 [iterative hypothesis refinement](https://openreview.net/pdf?id=bNt7oajl2a)).
 
+OT-0055 rejected the first application calibration. Five of six private
+reference applications were perfect, but one numeric-product choice failed;
+more decisively, a fresh verbatim-contact control reconstructed two regimes
+without prior reference exposure. A descriptive carrier cannot be uniquely
+causal when the raw record fits in the same active state and remains directly
+re-inferable. The next environmental pressure should combine non-arithmetic
+categorical application with a raw record larger than the inheritance budget,
+so abstraction is structurally necessary rather than favored by expectation.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more
