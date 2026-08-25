@@ -706,7 +706,7 @@ ablations. The immediate sequence is:
   without requiring reliable executable-syntax synthesis. It must still expose
   machinery-level contradiction, correction, ablation, and old-carrier
   impossibility before any candidate is authorized.
-- **OT-0063 (implemented; unlocked):** calibrate a sequential world in
+- **OT-0063 (run-locked; unexecuted):** calibrate a sequential world in
   which final events omit cue history, so every four-weight and stateless
   current-event policy is structurally fixed at four of eight errors. A generic
   bounded finite-state transducer permits arbitrary actor-chosen state IDs,

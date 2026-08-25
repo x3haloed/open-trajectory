@@ -130,7 +130,7 @@ syntax synthesis the dominant bottleneck. Calibrate opportunity, contradiction,
 machinery correction, decisive ablation, and old-carrier impossibility before
 authorizing a candidate.
 
-OT-0063 is implemented but not run-locked as that candidate-free calibration. Its
+OT-0063 is run-locked and unexecuted as that candidate-free calibration. Its
 sequential world hides cue history from final-event selectors; a generic
 finite-state transducer exposes actor-chosen state and transition topology.
 Parity, suffix, and modular-count regimes force distinct reference topologies,
