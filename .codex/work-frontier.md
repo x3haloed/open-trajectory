@@ -53,4 +53,8 @@ disposition or authorization. OT-0051 must prospectively repeat the unchanged
 candidate-free design using `public-reconstructible`. No scientific gate,
 proposal family, threshold, task order, or candidate resource may change.
 
+The OT-0051 wrapper binds the unchanged core and invalidated predecessor while
+advancing only the evidence token and future candidate ID. It must receive its
+own implementation lock before execution.
+
 ## Prediction errors

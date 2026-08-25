@@ -1,0 +1,32 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0051",
+  "evaluation_epoch": "post-E12 staged operation calibration repair",
+  "predecessor_disposition": "OT-0050 operationally invalidated",
+  "only_protocol_change": "use valid public-reconstructible evidence class and advance the future candidate ID",
+  "candidate_actor_outputs": false,
+  "hosted_model_calls": 0,
+  "scenario_count": 48,
+  "regime_count": 3,
+  "active_choice_budget": 8,
+  "committed_projection_byte_limit": 512,
+  "provisional_projection_byte_limit": 512,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0052",
+  "future_candidate_independent_workers": 2,
+  "future_candidate_stages_per_regime": 2,
+  "future_candidate_max_actor_turns": 12,
+  "future_candidate_max_output_tokens_per_turn": 8000,
+  "future_candidate_tool_calls": 0,
+  "claim_limit": "public deterministic candidate-free calibration of staged provisional operation construction and at most one fresh OT-0052 authorization; no representation-escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all unchanged OT-0050 scientific, control, authority, projection, correction, surface, order, replay, test, audit, privacy, and repository-size gates pass from a new clean lock",
+    "the evidence recorder accepts public-reconstructible and publishes a content-addressed manifest",
+    "candidate actor output and hosted model calls remain absent"
+  ],
+  "red_line_review": [
+    "OT-0050 remains invalidated and is not rescored.",
+    "No scientific gate, proposal family, threshold, task order, or candidate resource changed.",
+    "A pass is candidate-free opportunity only and does not promote an endogenous substrate."
+  ]
+}
