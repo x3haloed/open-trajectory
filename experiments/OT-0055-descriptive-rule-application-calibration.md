@@ -1,11 +1,14 @@
 # OT-0055 — Descriptive-rule application calibration
 
-- **Status:** protocol implemented; unexecuted; run lock pending clean commit
+- **Status:** prospectively frozen and run-locked; unexecuted
 - **Evidence class:** private-reproducible if valid
 - **Target:** candidate-free calibration of a non-expression representation
 - **Candidate learner output:** forbidden
 - **Hosted calls:** application controls only
 - **Predecessor:** rejected OT-0054 expression-family closure
+- **Implementation:** `ba3b750eccaf4c847ad127291cf0e435628de741`
+- **Private task artifact:** sealed outside Git and bound by
+  `spec/ot-0055-run-lock.json`
 
 ## Frozen prediction and cheapest falsifier
 

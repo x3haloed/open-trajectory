@@ -61,9 +61,9 @@ private task will compare controller-private reference descriptions with
 byte-equal opaque and verbatim-contact states across two workers, three regimes,
 and eighteen fresh application turns. Learner output is forbidden; only a full
 reference `[0,0,0]` pass with failing controls may authorize one OT-0056 learner.
-The generic implementation passes all local tests and projection checks; the
-private task and run lock must follow its clean commit. No hosted context has
-started.
+The generic implementation, private task, backend, TLS, and protected inputs
+are run-locked after passing all local tests and projection checks. No hosted
+context has started.
 
 ## Prediction errors
 
