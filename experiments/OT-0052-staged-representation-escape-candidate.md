@@ -1,9 +1,12 @@
 # OT-0052 — Staged representation-escape candidate
 
-- **Status:** prospectively frozen; unexecuted
+- **Status:** prospectively frozen and run-locked; unexecuted
 - **Evidence class:** private-reproducible if valid
 - **Target:** bounded OT-1 representation escape
 - **Authorization:** OT-0051, exactly one fresh candidate
+- **Implementation:** `a8882142b841be2bf7165ca6e68bd185236c2f53`
+- **Private task artifact:** sealed outside Git and bound by
+  `spec/ot-0052-run-lock.json`
 
 ## Frozen hypothesis and falsifier
 

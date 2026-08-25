@@ -495,7 +495,7 @@ ablations. The immediate sequence is:
   correction, actor-surface exclusion, reverse-order replay, tests, audit,
   evidence, and privacy gates. No candidate or hosted output occurred.
   Exactly one fresh OT-0052 staged candidate is authorized.
-- **OT-0052 (protocol frozen; unexecuted):** use two fresh contexts per regime
+- **OT-0052 (run-locked; unexecuted):** use two fresh contexts per regime
   to separate actor-authored proposal from consequence-receipted revision. The
   exact first proposal is the one-shot control; only a controller-validated
   zero-contact-error revision may commit before the scaled holdout. No-credit,
@@ -503,8 +503,9 @@ ablations. The immediate sequence is:
   projection, contradiction, distinct correction, immutable parent, rollback,
   novelty, reset, deployment, inventory, resource, replay, test, audit,
   evidence, and privacy gates are frozen for two workers and twelve turns.
-  The private task and run lock must follow the clean implementation commit;
-  the single authorization remains unconsumed.
+  Implementation `a8882142b841be2bf7165ca6e68bd185236c2f53`, the mechanically
+  derived private task, backend, TLS bundle, and protected inputs are now bound
+  by `spec/ot-0052-run-lock.json`; the single authorization remains unconsumed.
 - Only then widen OT-2 toward reconstructed direction, reasons that retain
   standing, legitimate revision or supersession, and continuity across
   qualitatively different domains.
