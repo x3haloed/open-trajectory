@@ -1,6 +1,6 @@
 # OT-0065 — Disjoint temporal-topology calibration
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** implemented; unlocked
 - **Evidence class:** public-reconstructible if valid
 - **Target:** prospective replacement for operationally invalid OT-0063
 - **Candidate output:** forbidden

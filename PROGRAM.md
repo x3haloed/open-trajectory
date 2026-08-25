@@ -750,7 +750,7 @@ ablations. The immediate sequence is:
   every topology, compression, fixed-control, ablation, update, rollback,
   surface, schema, replay, test, audit, evidence, and privacy gate before a
   newly numbered learner can be authorized.
-- **OT-0065 (protocol frozen; unimplemented):** prospectively replace OT-0063
+- **OT-0065 (implemented; unlocked):** prospectively replace OT-0063
   without rescoring it. Derive new temporal worlds after removing heldout
   sequences from the diagnostic pool, assert empty intersections, enumerate
   every allowed retained-row subset, and execute exact-sequence replay against
