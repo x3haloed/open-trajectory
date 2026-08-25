@@ -1,6 +1,6 @@
 # OT-0059 — Categorical-predicate carrier calibration
 
-- **Status:** prospectively frozen; unimplemented
+- **Status:** implemented; unexecuted; run lock not frozen
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free deterministic categorical carrier
 - **Candidate output:** forbidden

@@ -632,7 +632,7 @@ ablations. The immediate sequence is:
   prove opportunity only. The eventual learner must author both the opaque
   distinction and executable operation from completed consequences; selecting
   a researcher-authored categorical mode does not count.
-- **OT-0059 (protocol frozen; unimplemented):** calibrate that carrier over all
+- **OT-0059 (implemented; unexecuted; run lock pending):** calibrate that carrier over all
   32 OT-0056 worlds without candidate or hosted output. The safe 256-byte,
   31-node Boolean-expression interpreter accepts only generic event access,
   string/Boolean literals, membership, equality, and Boolean composition. It

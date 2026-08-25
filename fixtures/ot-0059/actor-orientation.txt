@@ -1,0 +1,7 @@
+Author one bounded side-effect-free Python Boolean expression over the single
+public name `event`.
+The event is a JSON object with `event_id`, `selector_features`, and `on_flags`.
+The result must be Boolean for every event. Calls, attributes, arithmetic,
+comprehensions, assignment, imports, mutation, and other side effects are
+unavailable. Return only the source field required by the schema. No tools,
+files, network, or hidden controller state are available.
