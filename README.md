@@ -143,8 +143,13 @@ rejection of invalid updates. It authorizes exactly one OT-0060 learner; the
 calibration itself contains no actor invention or representation-escape
 evidence. The authorized OT-0060 run was operationally invalidated by an
 unsupported output-schema keyword; its completed outputs have no scientific
-disposition and are not rescored. The authorization remains unconsumed pending
-a candidate-free prospective schema repair and a newly derived task.
+disposition and are not rescored. The authorization was preserved rather than
+consumed. OT-0061 has now promoted the required repair without candidate or
+hosted output: the schema change was exactly one redundant-keyword deletion,
+fail-closed preflight order and the interpreter-owned 256-byte limit were
+preserved, and all 32 carrier worlds retained their prior result. Exactly one
+newly derived OT-0062 candidate is authorized under the unchanged scientific
+gates; this is protocol evidence, not representation escape.
 
 ## Quick start
 

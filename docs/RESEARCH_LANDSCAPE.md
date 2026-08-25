@@ -329,6 +329,14 @@ generation remains difficult, but they cannot close the family. The immediate
 need is a prospective candidate-free schema repair and earlier validity
 preflight, followed by a genuinely fresh task if the authorization is reused.
 
+OT-0061 completed that repair without candidate or hosted output. Removing only
+the redundant schema length keyword produced an admitted schema while the safe
+interpreter retained its exact 256-byte bound. Invalid/valid preflights caused
+zero/one local start calls, and all 32 predicate-carrier worlds retained their
+promoted result. One fresh OT-0062 task is therefore authorized under unchanged
+scientific gates. This repairs validity sequencing; it supplies no evidence for
+or against actor predicate invention.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

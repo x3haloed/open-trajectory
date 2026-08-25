@@ -107,11 +107,13 @@ one contact-perfect/five-heldout-error source are preserved as non-dispositive
 diagnostics only. The OT-0060 task is retired and cannot be retried.
 
 OT-0059's sole learner authorization remains unconsumed under the explicit
-impossible-gate rule. OT-0061 is run-locked and unexecuted as a
-candidate-free repair: remove only the redundant schema keyword, preserve exact
-256/257-byte interpreter enforcement, prove fail-closed preflight ordering with
-a local sentinel, and rerun all 32 OT-0059 worlds without hosted output. A pass
-may authorize one fresh OT-0062 task under unchanged OT-0060 scientific gates.
+impossible-gate rule. OT-0061 promoted the candidate-free repair. It removed
+only `maxLength`, preserved exact 256/257-byte interpreter enforcement, caused
+zero/one starts for invalid/valid schemas, and retained all 32 OT-0059 promoted
+worlds with deterministic replay and no hosted output. Exactly one fresh
+OT-0062 task is authorized under unchanged OT-0060 scientific gates. It must be
+newly derived and invoke the promoted preflight before any hosted-side effect;
+OT-0060 remains invalid, retired, and unrescored.
 
 ## Prediction errors
 

@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0061-hosted-schema-preflight-repair-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2488,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7582ace82db36fc1264173afda5ea40b0ddb09e7",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0061",
+  "input_manifests": [
+    "evidence/manifests/OT-0059/ot-0059-categorical-predicate-carrier-calibration-001.json",
+    "evidence/manifests/OT-0060/ot-0060-categorical-predicate-representation-escape-candidate-001.json"
+  ],
+  "kind": "hosted-schema-preflight-candidate-free-repair-calibration",
+  "limitations": [
+    "Candidate output and hosted model calls are forbidden.",
+    "A pass repairs protocol validity only and does not rescore OT-0060.",
+    "A pass authorizes at most one fresh OT-0062 learner under unchanged scientific gates."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0061-hosted-schema-preflight-repair-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0061_harness.py --output $EVIDENCE/runs/OT-0061/ot-0061-hosted-schema-preflight-repair-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "d057dda86f397576c3954c7a7ffd892d0572ac1ddfedc889251e2628ef65c787"
+}

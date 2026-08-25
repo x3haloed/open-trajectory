@@ -1,6 +1,6 @@
 # OT-0061 — Hosted-schema preflight repair calibration
 
-- **Status:** run-locked; unexecuted
+- **Status:** promoted; one fresh OT-0062 learner authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free repair of OT-0060's impossible validity gate
 - **Candidate output:** forbidden
@@ -65,3 +65,27 @@ a newly derived private task and the unchanged OT-0060 scientific endpoints,
 controls, resource limits, deployment identity, and promotion gate. It must
 invoke the promoted preflight before workspace creation, proxy startup, backend
 startup, or actor output. The retired OT-0060 task and outputs remain forbidden.
+
+## Result and decision
+
+The locked public-reconstructible run passed every gate. Recursive comparison
+found exactly one schema deletion, `properties.source.maxLength = 256`; the old
+schema's unsupported set was exactly `{maxLength}` and the repaired set was
+empty. Object shape, required string `source`, and extra-property rejection
+remained exact. The safe interpreter accepted a 256-byte expression and
+rejected the same expression at 257 bytes.
+
+The old schema failed the reusable preflight with zero start-sentinel calls;
+the repaired schema passed and caused exactly one call. All 32 OT-0059 worlds
+again promoted with hidden-reference errors `[0,0,0]`, old-carrier errors
+`[4,4,4]`, at most one inherited row, at least fifteen surviving hypotheses,
+and deterministic replay. Candidate output and hosted calls remained absent.
+Tests, audit, evidence, privacy, and repository-size gates passed.
+
+Final disposition: `promoted`. Exactly one fresh OT-0062 learner is authorized
+on a newly derived private task under the unchanged OT-0060 scientific
+endpoints, controls, deployment identity, and resource limits, with the
+promoted preflight required before every hosted-side effect. OT-0060 remains
+invalid and unrescored. This is protocol-repair evidence only, not learner
+invention or representation escape. The artifact is identified by
+`evidence/manifests/OT-0061/ot-0061-hosted-schema-preflight-repair-calibration-001.json`.

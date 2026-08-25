@@ -666,7 +666,7 @@ ablations. The immediate sequence is:
   no scientific disposition. Five sources did not commit and the sole contact-
   perfect source scored five heldout errors. Under the impossible-gate rule,
   OT-0059's authorization remains unconsumed, while the OT-0060 task is retired.
-- **OT-0061 (run-locked; unexecuted):** candidate-free calibration must remove only the
+- **OT-0061:** candidate-free calibration must remove only the
   redundant `maxLength` schema keyword, retain the interpreter's exact 256-byte
   enforcement, and execute schema-subset validation before any hosted-side
   effect. It compares the schemas recursively, exercises exact 256/257-byte
@@ -674,7 +674,14 @@ ablations. The immediate sequence is:
   local sentinel, and reruns the complete 32-world OT-0059 calibration without
   candidate or hosted output. A pass may authorize exactly one fresh OT-0062
   candidate on a newly derived task under unchanged OT-0060 scientific gates;
-  it does not rescore OT-0060 or alter any endpoint.
+  it does not rescore OT-0060 or alter any endpoint. The locked public run
+  promoted: exactly one keyword was removed, the old/repaired unsupported sets
+  were `{maxLength}`/empty, the interpreter accepted 256 bytes and rejected
+  257, invalid/valid preflights caused zero/one start calls, and all 32 OT-0059
+  worlds retained their promoted outcome and deterministic replay. Candidate
+  and hosted output remained absent. Exactly one fresh OT-0062 learner is now
+  authorized under the unchanged OT-0060 scientific gate and a newly derived
+  task; OT-0060 remains invalid and unrescored.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
