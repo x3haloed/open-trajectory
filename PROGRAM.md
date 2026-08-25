@@ -443,11 +443,14 @@ ablations. The immediate sequence is:
   promoted-weight and verbatim-replay controls, a hidden bounded
   causal reference, later contradiction, distinct further correction, exact
   rollback, and static exclusion of the witness from actor-reachable surfaces.
-  No candidate or hosted output exists yet.
-- After candidate-free calibration, test one actor-invented mechanism with
+  Passed all 48 cases from the locked candidate-free run: reference `[0,0,0]`,
+  unchanged `[4,8,4]`, frozen-first `[0,8,4]`, verbatim replay `[4,4,4]`, and
+  best fixed aggregate `12`. E12 authorizes at most one fresh OT-0049
+  candidate. No candidate or hosted output was generated.
+- **OT-0049 (authorized; unexecuted):** test one actor-invented mechanism with
   fresh contexts, independently owned outcomes, equal budgets, decisive
   representation-change and correction ablations, recoverable branches, and
-  rollback.
+  rollback under the exact OT-0048 resource and promotion limits.
 - Only then widen OT-2 toward reconstructed direction, reasons that retain
   standing, legitimate revision or supersession, and continuity across
   qualitatively different domains.

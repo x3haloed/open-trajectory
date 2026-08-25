@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0048-representation-escape-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1856,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3e135c470017c2e4da84ed3b4a40083e37f5a778",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0048",
+  "input_manifests": [
+    "evidence/manifests/OT-0037/ot-0037-e6-deterministic-ot1-candidate-001.json"
+  ],
+  "kind": "representation-escape-evaluator-calibration",
+  "limitations": [
+    "This is candidate-free evaluator calibration, not new OT-1 evidence.",
+    "The controller-private reference is an existence proof, not a candidate mechanism.",
+    "A pass authorizes at most one fresh future candidate and no hosted output was generated.",
+    "This result does not widen OT-2 or establish OT-3."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0048-representation-escape-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0048_harness.py --output $EVIDENCE/ot-0048-representation-escape-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "b0056eff2bf404e50c47c734898902ffaafd575ec61f9492f136b15284b635a6"
+}

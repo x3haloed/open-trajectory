@@ -1,6 +1,6 @@
 # OT-0048 — Representation-escape evaluator calibration
 
-- **Status:** frozen; unexecuted
+- **Status:** promoted; E12 authorizes at most one fresh OT-0049 candidate
 - **Evidence class:** public deterministic calibration if promoted
 - **Target:** OT-1 representation escape
 - **Candidate actor output:** forbidden
@@ -98,3 +98,25 @@ evidence audit, and privacy gate pass from a clean locked commit.
 A pass is candidate-free evaluator calibration only. It establishes neither a
 new OT-1 candidate result nor widened OT-2 or OT-3 evidence. A valid failure is
 preserved and authorizes no candidate.
+
+## Result and decision
+
+The locked execution at `3e135c4` passed all 48 scenarios, deterministic
+replay, reverse-order placebo, full tests, evidence audit, and privacy gates.
+The bounded controller-private reference scored `[0,0,0]`; exact unchanged
+state scored `[4,8,4]`; the first learned state frozen across later contact
+scored `[0,8,4]`; and verbatim raw-row replay scored `[4,4,4]`. Every fixed
+researcher-authored weighted lineage incurred at least 12 aggregate errors.
+
+The zero constant and first-moment certificate passed for every regime over
+the entire real-valued four-weight class. Actor-surface reachability found no
+controller target, reference operation, forbidden key, witness term, solved
+example, or representation menu. The reference changed only after completed
+outcomes, restored exactly within 512 bytes, became maximally harmful after the
+contradiction, and corrected again for the distinct third relation.
+
+Final disposition: `promoted`. E12 authorizes at most one fresh OT-0049
+candidate under the frozen resource, novelty, causal-ablation, correction, and
+rollback gates. No candidate or hosted-model output was generated. The public
+artifact is identified by
+`evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json`.
