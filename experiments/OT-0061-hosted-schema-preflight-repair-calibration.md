@@ -1,6 +1,6 @@
 # OT-0061 — Hosted-schema preflight repair calibration
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** implemented; unlocked
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free repair of OT-0060's impossible validity gate
 - **Candidate output:** forbidden
