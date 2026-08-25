@@ -154,6 +154,13 @@ empty or budget-legal one-row replay scored four errors, references scored
 control passed. Exactly one fresh OT-0066 learner is authorized. This cannot
 revive OT-0064 or rescore OT-0063 and is not representation-escape evidence.
 
+OT-0066 is prospectively frozen but unimplemented. It may consume OT-0065's
+sole authorization only on a task derived after the generic implementation
+commit. Two independent three-reset lineages must reach `[0,0,0]`, author and
+twice restructure bounded state topology, survive exact causal controls and
+decisive structural ablations, and reproduce under the locked deployment and
+resource regime. OT-0064 material is excluded and remains unauthorized.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

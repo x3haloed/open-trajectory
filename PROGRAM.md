@@ -768,6 +768,17 @@ ablations. The immediate sequence is:
   surface, schema, replay, test, audit, evidence, and privacy gate passed with
   no candidate or hosted output. This validly authorizes exactly one newly
   frozen OT-0066 learner and remains opportunity evidence only.
+- **OT-0066 (protocol frozen; unimplemented):** consume OT-0065's sole
+  authorization only after a generic implementation commit and a newly derived
+  private task. Two independent three-reset lineages must author contact-
+  perfect bounded transducers, reach `[0,0,0]`, and materially change topology
+  after both temporal contradictions. Freeze receipt withholding, unchanged,
+  no-persistence, digest, actual verbatim, stateless, fixed-machine, complete-
+  deletion, one-state, edge-rewiring, fixed-output, safe-failure, identity,
+  restore, rollback, novelty, prehosted validity, deployment, resource, replay,
+  test, audit, evidence, and privacy gates. OT-0064 remains unauthorized and is
+  not revived or renumbered. A pass is only a bounded Phase I foothold; a valid
+  rejection consumes the authorization and closes this one-shot learner family.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

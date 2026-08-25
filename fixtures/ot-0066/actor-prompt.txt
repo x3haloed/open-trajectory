@@ -1,0 +1,14 @@
+Construct the bounded deterministic state machine to carry into the next fresh
+encounter. Base the update only on the generic orientation, the current
+snapshot, and the completed consequences in this encounter. The heldout world
+is sealed.
+
+{{ORIENTATION}}
+
+{{ACTOR_VIEW}}
+
+Return one JSON object accepted by the stated schema, with no surrounding
+explanation. Use only the two cue strings shown in the encounter. Every
+reachable state must emit `left` or `right` and define exactly one next-state
+edge for each cue. You have no tools, files, network, prior context, hidden
+rule, reference topology, or researcher-supplied strategy menu.
