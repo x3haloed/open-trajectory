@@ -682,7 +682,7 @@ ablations. The immediate sequence is:
   and hosted output remained absent. Exactly one fresh OT-0062 learner is now
   authorized under the unchanged OT-0060 scientific gate and a newly derived
   task; OT-0060 remains invalid and unrescored.
-- **OT-0062 (protocol frozen; unimplemented):** execute exactly one replacement
+- **OT-0062 (implemented; unlocked):** execute exactly one replacement
   learner on a new private task derived only after the generic implementation
   commit. Preserve OT-0060's prompt, orientation, scientific endpoints,
   controls, deployment identity, and resource budgets; use only OT-0061's

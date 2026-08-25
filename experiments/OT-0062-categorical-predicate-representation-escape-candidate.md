@@ -1,6 +1,6 @@
 # OT-0062 — Categorical-predicate representation-escape candidate
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** implemented; unlocked
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** OT-0061, exactly one fresh learner candidate
