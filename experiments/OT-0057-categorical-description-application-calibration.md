@@ -1,6 +1,6 @@
 # OT-0057 — Categorical-description application calibration
 
-- **Status:** prospectively frozen; unimplemented
+- **Status:** implemented; unexecuted; private task not derived
 - **Evidence class:** private-reproducible if valid
 - **Target:** candidate-free application of a bounded categorical description
 - **Candidate learner output:** forbidden

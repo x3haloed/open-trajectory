@@ -1,0 +1,11 @@
+You are a fresh application process. Select one event from each pair using only
+the current JSON. The state content may contain a useful instruction, opaque
+material, or one exact prior contact row. Treat padding as inert. Do not infer
+hidden controller fields, call tools, inspect files, or use the network.
+
+Return exactly one JSON object with the single field `choices`: an array of one
+selected event identifier for each pair, in the given pair order. Include no
+explanation.
+
+Current application:
+{{APPLICATION_VIEW}}
