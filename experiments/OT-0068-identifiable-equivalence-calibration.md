@@ -1,6 +1,6 @@
 # OT-0068 — Identifiable equivalence-partition calibration
 
-- **Status:** implemented; unlocked
+- **Status:** run-locked; unexecuted
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free relational-distinction environment and carrier
 - **Candidate output:** forbidden

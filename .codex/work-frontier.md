@@ -211,7 +211,7 @@ calibration that proves coexistence of predecessor harm and target
 identifiability before any learner is exposed.
 
 Candidate-free controller search found such a distinct world. OT-0068 is now
-implemented but unlocked around three two-block partitions, including a crossed
+run-locked but unexecuted around three two-block partitions, including a crossed
 third grouping with eight target-same and eight target-different predecessor
 contradictions. Its fixed heldouts leave all three targets uniquely identifiable
 from fifteen diagnostics. It also repairs OT-0067's resource-envelope error:
