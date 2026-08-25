@@ -143,7 +143,7 @@ new candidate-free calibration must derive disjoint diagnostic/heldout sets,
 execute exact-sequence replay causally, and rerun the complete topology and
 validity regime before any newly numbered learner authorization.
 
-OT-0065 is implemented but not run-locked as that replacement. It removes
+OT-0065 is run-locked but unexecuted as that replacement. It removes
 heldouts from the diagnostic search pool, gates empty intersections, and
 executes every allowed retained-row subset through exact replay. Every other
 OT-0063 topology, compression, fixed-lineage, ablation, update, rollback,
