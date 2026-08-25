@@ -1,6 +1,6 @@
 # OT-0063 — Temporal state-topology calibration
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** implemented; unlocked
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free temporal environment and generic state-topology carrier
 - **Candidate output:** forbidden

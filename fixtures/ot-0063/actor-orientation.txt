@@ -1,0 +1,7 @@
+Author one bounded deterministic state machine over the public cue tokens. You
+choose the state identifiers, start state, output side for each state, and every
+cue transition. Each reachable state must contain exactly one edge for each
+public cue. The machine starts fresh for each sequence, follows its edges in
+cue order, and emits the output of its final state. Do not select a named mode;
+construct whatever state and transition topology the completed consequences
+support.
