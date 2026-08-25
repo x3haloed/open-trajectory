@@ -1,0 +1,15 @@
+Use the generic orientation and only the current encounter JSON to author the
+next bounded deterministic state machine. Completed success/failure outcomes
+are the evidence for the update. Heldout sequences are sealed. Do not call
+tools, inspect files, use the network, or infer hidden controller fields.
+
+Generic orientation:
+{{ORIENTATION}}
+
+Current encounter:
+{{ACTOR_VIEW}}
+
+Return exactly one schema-conforming JSON object and no explanation. Use only
+the public cue strings in the encounter. Every reachable state must have
+exactly one edge for each cue and must emit `left` or `right`. No tools, files,
+network, prior context, hidden rule, or reference topology are available.

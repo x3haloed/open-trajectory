@@ -140,6 +140,14 @@ identity, rollback, surface, schema, replay, test, audit, evidence, and privacy
 gates passed with no candidate or hosted output. One fresh OT-0064 topology
 learner is authorized under a separately frozen protocol.
 
+OT-0064 is prospectively frozen as that sole learner. Two independent
+three-reset lineages must author bounded complete machines, reach `[0,0,0]`,
+and change topology after both temporal regime changes. No-credit, stateless,
+no-persistence, digest, verbatim, fixed-machine, deletion, collapse, rewiring,
+fixed-output, safe-failure, identity, rollback, novelty, prehosted validity,
+deployment, resource, replay, test, audit, evidence, and privacy gates are fixed
+before task derivation. A valid rejection closes the family as the next route.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

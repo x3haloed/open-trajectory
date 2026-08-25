@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0064",
+  "evaluation_epoch": "post-OT-0063 temporal state-topology candidate",
+  "authorization_manifest": "evidence/manifests/OT-0063/ot-0063-temporal-state-topology-calibration-001.json",
+  "independent_workers": 2,
+  "regimes_per_worker": 3,
+  "fresh_contexts_per_worker": 3,
+  "active_inheritance_byte_limit": 1024,
+  "maximum_machine_states": 6,
+  "deployment_epoch": {"requested_model": "gpt-5.6-luna"},
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_turns": 6,
+    "output_tokens_per_turn": 6000,
+    "actor_input_tokens_total": 300000,
+    "actor_output_tokens_total": 36000,
+    "wall_seconds": 1200,
+    "actor_tool_calls": 0
+  },
+  "claim_limit": "private time-bounded first temporal-topology representation-escape foothold if every gate passes; no transfer, widened OT-2, integrated developmental, consciousness, personhood, general autonomy, unrestricted self-development, or OT-3 evidence",
+  "promotion_gate": [
+    "one private task is mechanically derived only after the clean generic implementation commit and OT-0063 authorization is unconsumed",
+    "the supported-schema, actor-surface, task, test, and audit preflight passes before workspace, proxy, backend, or actor-output side effects",
+    "both workers commit valid contact-perfect actor-authored machines and reach heldout errors [0,0,0]",
+    "the first machine becomes wrong on all eight contradiction heldouts, the second fails all eight distinct-third-regime heldouts, and fresh updates recover",
+    "every later topology fingerprint differs from its predecessor and no output-only relabeling of the predecessor can satisfy contact",
+    "every committed machine and snapshot is exact, bounded, absent from its parent and actor-reachable fixed inputs, and deterministically replayable",
+    "withholding the completed receipt preserves the exact parent in every regime",
+    "unchanged, no-persistence, digest, allowed verbatim, every real four-weight, every stateless policy, and every fixed machine lineage fail the complete endpoint under equal capacity",
+    "complete-machine deletion, one-state collapse, all-edge-to-start rewiring, and fixed-output replacement each remove the candidate advantage",
+    "invalid, incomplete, unreachable, over-budget, and contact-imperfect outputs preserve the exact parent; committed restore and rollback are exact",
+    "all six encounters have distinct fresh threads, workspaces, and responses with exact model, catalog, ETag, inventory, parse, tool, resource, and causal-boundary receipts",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "OT-0063 reference machines and temporal rule names are excluded from every actor-reachable input and comparison success cannot count as actor invention.",
+    "The finite-state interpreter remains an explicit researcher-built causal exoskeleton; only actor-authored topology and its structural corrections are candidate evidence.",
+    "A machine that selects a supplied mode, changes only outputs, copies a solved topology, or fails a decisive ablation is rejected.",
+    "Self-report, explanation, state naming, and resemblance to a reference machine are not outcome evidence.",
+    "A pass is Phase I only and must be followed by a separately calibrated cross-domain developmental-transfer test."
+  ]
+}

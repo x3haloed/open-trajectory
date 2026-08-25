@@ -726,6 +726,16 @@ ablations. The immediate sequence is:
   failure, identity, rollback, surface, schema, replay, test, audit, evidence,
   and privacy gate passed without candidate or hosted output. Exactly one fresh
   OT-0064 topology learner is authorized.
+- **OT-0064 (protocol frozen; unimplemented):** execute exactly one fresh
+  topology learner on a private temporal task derived only after the generic
+  implementation commit. Two independent three-reset lineages must author
+  contact-perfect bounded transducers, reach `[0,0,0]`, and materially change
+  topology after both temporal regime changes. Freeze no-credit, old/stateless,
+  no-persistence, digest, verbatim, fixed-machine, complete-deletion, one-state,
+  edge-rewiring, fixed-output, safe-failure, identity, restore, rollback,
+  novelty, prehosted validity, deployment, resource, replay, test, audit,
+  evidence, and privacy gates. A pass is only a bounded Phase I foothold; a
+  valid rejection closes this one-shot family as the next route.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
