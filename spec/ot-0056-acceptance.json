@@ -2,6 +2,7 @@
   "schema_version": 1,
   "experiment_id": "OT-0056",
   "evaluation_epoch": "post-OT-0055 categorical compression-world calibration",
+  "scenario_count": 32,
   "flag_count": 16,
   "diagnostic_contact_pairs": 15,
   "heldout_pairs": 8,

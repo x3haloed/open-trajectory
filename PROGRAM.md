@@ -589,7 +589,7 @@ ablations. The immediate sequence is:
   insufficient on heldout cases. Keep application, opaque, fixed, no-state,
   equal-byte, reset, and independent-outcome controls. Do not relax OT-0055 or
   repeat its full-verbatim numeric task.
-- **OT-0056 (protocol frozen; unexecuted):** candidate-free categorical world
+- **OT-0056 (implemented; unexecuted; run lock pending):** candidate-free categorical world
   with sixteen opaque flags, fifteen diagnostic contact pairs, eight heldout
   pairs, and a 1,024-byte inheritance limit. Both events in every pair have
   identical four-number selector features, certifying failure for every real

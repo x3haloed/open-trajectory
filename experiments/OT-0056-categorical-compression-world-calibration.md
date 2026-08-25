@@ -1,6 +1,6 @@
 # OT-0056 — Categorical compression-world calibration
 
-- **Status:** prospectively frozen; unexecuted
+- **Status:** implemented; unexecuted; run lock not frozen
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free non-expression representation environment
 - **Candidate output:** forbidden
@@ -59,3 +59,18 @@ OT-0057 candidate-free hosted application calibration. It is world,
 impossibility, compression, and hidden-opportunity evidence only—not descriptive
 application, learner invention, representation escape, transfer, widened OT-2,
 integrated development, or OT-3/TAAA.
+
+The complete family contains 32 cases: every one of sixteen target flags under
+both polarities, with a mechanically distinct third-regime flag.
+
+## Pre-lock implementation falsifier
+
+The first deterministic codebook balanced each flag across the eight canaries
+but did not balance each canary across flags. A unit falsifier found that this
+allowed some 15/1 diagnostic pair contents to recur in heldout contact, giving
+the full verbatim branch accidental replay coverage. Before any run lock or
+evidence execution, implementation replaced it with a fixed complement-free
+codebook balanced both by flag and by canary. The frozen budget, endpoints,
+controls, scoring, and promotion gate did not change. The harness now derives
+the every-real-weight and every-allowed-verbatim claims from structural
+certificates rather than representative samples or assigned control scores.
