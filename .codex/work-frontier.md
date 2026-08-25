@@ -79,8 +79,8 @@ exact-row controls. Learner, proposal, and revision output remain forbidden;
 OT-0057 can establish application feasibility only, not representation escape.
 The protocol freezes 18 turns: two workers, three regimes, and reference,
 opaque, and one-row verbatim conditions with reversed condition order. Generic
-implementation is complete; private task derivation must follow its clean
-commit and has not yet occurred.
+implementation `31fd9e0`, its mechanically derived private task, backend, and
+all protected inputs are prospectively bound by the run lock.
 
 ## Prediction errors
 

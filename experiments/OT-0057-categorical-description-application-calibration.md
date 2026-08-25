@@ -1,11 +1,14 @@
 # OT-0057 — Categorical-description application calibration
 
-- **Status:** implemented; unexecuted; private task not derived
+- **Status:** run-locked; unexecuted
 - **Evidence class:** private-reproducible if valid
 - **Target:** candidate-free application of a bounded categorical description
 - **Candidate learner output:** forbidden
 - **Hosted calls:** application controls only
 - **Authorization:** OT-0056, exactly one fresh application calibration
+- **Implementation:** `31fd9e07d7071b51f01f40ab4481415ed4267bf1`
+- **Private task artifact:** sealed outside Git and bound by
+  `spec/ot-0057-run-lock.json`
 
 ## Frozen hypothesis and cheapest falsifier
 

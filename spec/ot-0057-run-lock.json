@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0057",
+  "protocol_origin_git_commit": "5b2033be54a1f20600cf19f3e6babe99954a6565",
+  "implementation_git_commit": "31fd9e07d7071b51f01f40ab4481415ed4267bf1",
+  "task_seed": "4afb9cc5f9a05f999f1cb4e13e72032839c3ee4aeefe0564b1ac7e7dffd0ae0d",
+  "task_sha256": "bec2b15d2b9dc1cb2c1b428644d874dc51a6facc7ddb7460a31cecf078ac70ab",
+  "task_bytes": 39171,
+  "structural_receipt_sha256": "f5c4532d33281785967f45671c71f01353edba95af125b60d1a7a0526ad10e7c",
+  "backend": "patched-codex-app-server-via-sanitizer-proxy",
+  "actor_model": "gpt-5.6-luna",
+  "tls_ca_bundle_sha256": "16be3f6feb15408195dcfe3aa1a75ef9db72f646b96ebbefdc68f56255f799f8",
+  "backend_binary": {
+    "version": "codex-cli 0.149.0",
+    "source_repository": "https://github.com/openai/codex",
+    "source_tag": "rust-v0.149.0",
+    "source_git_commit": "758ef40f50c1a458425c7cfbf1eb12cbc07af0b0",
+    "codex_sha256": "9ba106aa245c7dfe0604a319ca9fdd51d215b58135656f310841691c56ad2347",
+    "code_mode_host_sha256": "3eca39bb7f93315fab6b0dec2334381c0f50a2ccda113ec482fb815f16072a5c"
+  },
+  "fixed_inputs": {
+    "acceptance_spec_sha256": "d790b8780e74951b72818237800a90d952ac79b5e2b8580a94c5d834c5655160",
+    "app_server_sha256": "22e5ffe917d8847bd87a05c52511f7873f7a0b35bd164211f714b2fd376e60d2",
+    "application_harness_sha256": "36554b76727aeefc40e36c3cefe2440ad837db17a65fa5152b88fb42530f2800",
+    "controller_core_sha256": "00918dd39c665526f677513d4563ba3c9c2d0fb1bd632594836b938ceb5a0994",
+    "counterbalance_sha256": "ce1dd075dbd742f0e4885d87b4bf7396072193c3174314a26f41a9f681e1e609",
+    "dependency_lock_sha256": "e3ee155b241253140506b51124dd1a8dbbd5becb03cd6070e88c9cd17a8cded0",
+    "deployment_proxy_sha256": "a752e9346e06a39139a5fe1f957a0613d0046eee15e9e0c3691950a911e4de85",
+    "entrypoint_sha256": "a915c0f3581fbde85b6b56f3959a2a2684849dfabf5d53f186d19c3e611cb315",
+    "evidence_audit_sha256": "f096c8ad5f5ecbb3c3eec50b00d1ddcd9088db516809dc11fa0a47716fe9dbc9",
+    "evidence_cli_sha256": "902a1e88fb6009dafbdcc753d45ebb7f6fb46e5231222ac404a228a0a715793d",
+    "evidence_recorder_sha256": "596848a9fdfcbf54fc800fbc7f2cf070c14ad6ec25ee7f9a6582d0283603d176",
+    "ot0048_manifest_sha256": "e8c20f527d457db035c941562b9717b53d7a7b51cbc69e0d9daf457f589f7aea",
+    "ot0055_manifest_sha256": "54678572b12d2deb33857751356fa3a670dbc0a875aa30bb72323313c412f498",
+    "ot0056_manifest_sha256": "20e21734a7aba7800594901f7bee2434864586ea99eb54ff4cca4fc53d924d03",
+    "output_schema_sha256": "097636970713e0eb89616e5e9b49c150eb4b038c6dc2386ee2011648c980139c",
+    "prompt_sha256": "2a0811bd4b6360d608efb4caba4285f80e1a8d95c510c1d5a3a364fe62b38200",
+    "sealed_evidence_io_sha256": "fbdd95218935cef4b90bb0de5f0667468a42cc7a174f63a8f59576eae989cdb1",
+    "test_sha256": "691653e25ed900a6caca4e209cea4e5aad148bd71ea0902ea5de7bfe2291f3f9",
+    "tool_receipt_patch_sha256": "baa1c8585d95e5270fdb0b977e95b22d2487031259607af3e6c0d6f93b16fdfd",
+    "world_calibration_sha256": "0428d0069f8df71660d3f5fc44b7f077160a472407f80a0693e1a104d6232287"
+  }
+}
