@@ -321,6 +321,14 @@ family. OT-0060 is authorized once to test whether completed consequences cause
 fresh actors to author both the discriminating opaque literal and the useful
 Boolean operation, then revise both under contradiction and target change.
 
+OT-0060 did not test that claim validly. Its schema contained an unsupported
+keyword, so all six preserved actor outputs are non-dispositive even though the
+backend completed them. Five sources failed the safe carrier and one contact-
+perfect conjunction failed heldout contact. Those diagnostics suggest proposal
+generation remains difficult, but they cannot close the family. The immediate
+need is a prospective candidate-free schema repair and earlier validity
+preflight, followed by a genuinely fresh task if the authorization is reused.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

@@ -99,17 +99,17 @@ constant/literal ablations, exact unsafe-update preservation, committed
 rollback, interpreter safety, surface, order, replay, test, audit, evidence,
 and privacy gates. No actor or hosted output occurred.
 
-Exactly one fresh OT-0060 learner is authorized. Its protocol freezes the
-three-regime, two-worker, six-context candidate path and all causal ablations
-before deriving a new private task. Both workers must reach `[0,0,0]`; later
-contradiction and target change must force two source corrections; no-credit,
-constant-AST, actor-literal deletion, complete-source deletion, old-carrier,
-fixed, verbatim, invalid-update, restore, rollback, reset, deployment, resource,
-replay, test, audit, evidence, and privacy gates are frozen. OT-0059's hidden
-reference source must not enter any actor-reachable input.
-The generic candidate controller, fresh-context actor path, causal controls,
-novelty checks, structural ablations, hosted receipts, exact backend, and the
-mechanically derived private task are prospectively bound by the run lock.
+OT-0060 is operationally invalidated with no scientific disposition. Its frozen
+schema included unsupported `maxLength`, making the deterministic schema-subset
+gate impossible; this should have been detected before all six actor contexts
+ran. Candidate vectors `[4,5,3]` and `[4,4,4]`, five noncommitting sources, and
+one contact-perfect/five-heldout-error source are preserved as non-dispositive
+diagnostics only. The OT-0060 task is retired and cannot be retried.
+
+OT-0059's sole learner authorization remains unconsumed under the explicit
+impossible-gate rule. Before a fresh candidate, freeze and run a candidate-free
+repair that removes only the redundant schema keyword, preserves the exact
+interpreter byte bound, and moves schema-subset validation before hosted output.
 
 ## Prediction errors
 
@@ -139,3 +139,7 @@ mechanically derived private task are prospectively bound by the run lock.
   model-mediated natural-language application interface, not categorical world
   opportunity or verbatim sufficiency. A next family must make application
   attributable and exact without supplying the learned distinction.
+- OT-0060 exposed a sequencing failure in validity enforcement: a deterministic
+  schema-dialect gate ran only after scarce actor output. Future hosted
+  candidates must complete every locally decidable validity preflight before
+  starting the backend. The invalid outputs cannot be scientific evidence.

@@ -1,6 +1,6 @@
 # OT-0060 — Categorical-predicate representation-escape candidate
 
-- **Status:** run-locked; unexecuted
+- **Status:** operationally invalidated; no scientific disposition
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** OT-0059, exactly one fresh learner candidate
@@ -85,3 +85,30 @@ program twice. It is not developmental transfer, widened OT-2, integrated
 development, consciousness, personhood, general autonomy, unrestricted self-
 development, or OT-3/TAAA evidence. A valid rejection consumes OT-0059's sole
 authorization and must change the next search space rather than thresholds.
+
+## Result and decision
+
+The locked run completed all six fresh actor contexts and every task,
+structural, deployment, model, catalog, ETag, inventory, response, reset, tool,
+resource, test, audit, evidence, privacy, and repository-size check. It was
+nonetheless operationally invalid from inception: the frozen output schema used
+`maxLength`, which the repository's exact hosted structured-output subset does
+not admit. The deterministic `schema_subset` gate was therefore false. This
+should have been checked before any actor output.
+
+The six outputs and their receipts remain preserved but have no scientific
+candidate disposition and are not rescored. Bounded diagnostics show why a
+schema repair alone is not positive evidence: five sources did not commit under
+the frozen safe interpreter; the sole contact-perfect source scored five
+heldout errors. Aggregate candidate vectors were `[4,5,3]` and `[4,4,4]`.
+These observations may motivate falsifiers, but cannot close or promote the
+carrier because the run was invalid.
+
+Final disposition: `invalidated`. OT-0059's learner authorization remains
+unconsumed under the explicit impossible-gate rule, but the OT-0060 task and all
+outputs are retired and cannot be retried. Before another candidate, a
+candidate-free prospective repair must remove only the unsupported schema
+keyword, prove that the independent interpreter still enforces the exact
+256-byte source bound, and make schema-subset validation a pre-hosted gate. The
+private artifact is identified by
+`evidence/manifests/OT-0060/ot-0060-categorical-predicate-representation-escape-candidate-001.json`.

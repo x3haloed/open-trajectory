@@ -141,7 +141,10 @@ endpoint. OT-0059 has now promoted that candidate-free carrier across all 32
 worlds, including decisive constant-AST and literal-deletion ablations and safe
 rejection of invalid updates. It authorizes exactly one OT-0060 learner; the
 calibration itself contains no actor invention or representation-escape
-evidence.
+evidence. The authorized OT-0060 run was operationally invalidated by an
+unsupported output-schema keyword; its completed outputs have no scientific
+disposition and are not rescored. The authorization remains unconsumed pending
+a candidate-free prospective schema repair and a newly derived task.
 
 ## Quick start
 

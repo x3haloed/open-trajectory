@@ -649,7 +649,7 @@ ablations. The immediate sequence is:
   committed rollback, complete interpreter safety, surface, order, replay,
   test, audit, evidence, privacy, and repository-size gates. No actor or hosted
   output occurred. Exactly one fresh OT-0060 learner is authorized.
-- **OT-0060 (run-locked; unexecuted):** one fresh categorical
+- **OT-0060:** one fresh categorical
   predicate learner may receive completed diagnostic consequences in three
   fresh contexts per worker and author one bounded source expression per
   regime. It must reach `[0,0,0]` in two workers, invent both an opaque literal
@@ -659,6 +659,18 @@ ablations. The immediate sequence is:
   complete old-carrier projection, no-persistence, digest, verbatim, fixed,
   immutable-parent, restore, rollback, novelty, reset, deployment, resource,
   replay, test, audit, evidence, and privacy gates before deriving its task.
+  The run completed six valid hosted contexts but was operationally invalidated
+  because the frozen output schema contained unsupported `maxLength`; the
+  deterministic schema-subset gate was impossible and should have run before
+  actor output. Candidate vectors `[4,5,3]` and `[4,4,4]` are preserved but have
+  no scientific disposition. Five sources did not commit and the sole contact-
+  perfect source scored five heldout errors. Under the impossible-gate rule,
+  OT-0059's authorization remains unconsumed, while the OT-0060 task is retired.
+- **Next protocol repair:** candidate-free calibration must remove only the
+  redundant `maxLength` schema keyword, retain the interpreter's exact 256-byte
+  enforcement, and execute schema-subset validation before any hosted context.
+  A pass may reauthorize one fresh candidate on a newly derived task; it does
+  not rescore OT-0060 or alter any scientific endpoint.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
