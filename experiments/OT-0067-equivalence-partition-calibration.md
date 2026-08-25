@@ -1,6 +1,6 @@
 # OT-0067 — Equivalence-partition calibration
 
-- **Status:** protocol frozen; unimplemented
+- **Status:** implemented; unlocked; frozen gate impossible
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free relational-distinction environment and carrier
 - **Candidate output:** forbidden
