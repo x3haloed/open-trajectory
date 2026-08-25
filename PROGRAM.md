@@ -540,7 +540,7 @@ ablations. The immediate sequence is:
   invalid provisional state, real-successor rollback, complete controls,
   surface exclusion, replay, tests, audit, evidence, and privacy. No actor or
   hosted output occurred. Exactly one fresh OT-0054 candidate is authorized.
-- **OT-0054 (protocol frozen; unexecuted):** two fresh contexts per regime let
+- **OT-0054 (run-locked; unexecuted):** two fresh contexts per regime let
   an actor author up to three structural branches and then adjudicate among the
   exact validated proposals. Both workers must reach `[0,0,0]`; every final
   active branch must be copied from the proposal ledger; combined adjudication
@@ -550,8 +550,8 @@ ablations. The immediate sequence is:
   complete old-carrier projection, contradiction, correction, immutable parent,
   rollback, novelty, reset, deployment, inventory, resource, replay, test,
   audit, evidence, and privacy gates are frozen for twelve turns. The private
-  task and run lock must follow the clean implementation commit; the single
-  authorization remains unconsumed.
+  task, backend, TLS bundle, and protected inputs are bound by
+  `spec/ot-0054-run-lock.json`; the single authorization remains unconsumed.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

@@ -1,9 +1,12 @@
 # OT-0054 — Branching-ledger representation-escape candidate
 
-- **Status:** prospectively frozen; unexecuted
+- **Status:** prospectively frozen and run-locked; unexecuted
 - **Evidence class:** private-reproducible if valid
 - **Target:** bounded OT-1 representation escape
 - **Authorization:** OT-0053, exactly one fresh candidate
+- **Implementation:** `4b70d57cd3df53b68f209f677f699e04602fe22c`
+- **Private task artifact:** sealed outside Git and bound by
+  `spec/ot-0054-run-lock.json`
 
 ## Frozen hypothesis and falsifier
 

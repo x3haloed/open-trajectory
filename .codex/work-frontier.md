@@ -51,7 +51,8 @@ OT-0054 is the active scarce comparison. It freezes exact proposal-branch
 inheritance, consequence-guided active selection, combined advantage over the
 proposal-active control, retained prior-active alternatives during both later
 corrections, and the full OT-0053 causal and operational gates. No actor context
-has started.
+has started. Implementation, private task, backend, TLS, and protected inputs
+are run-locked.
 
 ## Prediction errors
 
