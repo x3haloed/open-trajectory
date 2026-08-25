@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0056-categorical-compression-world-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 124498,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c0cfcdd1024f0a76e50ae96d1246248395bfd801",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0056",
+  "input_manifests": [
+    "evidence/manifests/OT-0055/ot-0055-descriptive-rule-application-calibration-001.json",
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json"
+  ],
+  "kind": "categorical-compression-world-candidate-free-calibration",
+  "limitations": [
+    "Candidate output and hosted model calls are forbidden.",
+    "Target flags and reference descriptions prove opportunity only and are not candidate evidence.",
+    "A pass authorizes at most one OT-0057 application calibration and is not representation escape."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0056-categorical-compression-world-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0056_harness.py --output $EVIDENCE/runs/OT-0056/ot-0056-categorical-compression-world-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "06e2d6c38e9cf39011d31911b635c34549bc7c56ed209ef71b1479819be55d1e"
+}

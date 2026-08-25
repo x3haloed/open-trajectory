@@ -1,6 +1,6 @@
 # OT-0056 — Categorical compression-world calibration
 
-- **Status:** run-locked; unexecuted
+- **Status:** promoted; one OT-0057 application calibration authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free non-expression representation environment
 - **Candidate output:** forbidden
@@ -74,3 +74,26 @@ codebook balanced both by flag and by canary. The frozen budget, endpoints,
 controls, scoring, and promotion gate did not change. The harness now derives
 the every-real-weight and every-allowed-verbatim claims from structural
 certificates rather than representative samples or assigned control scores.
+
+## Result and decision
+
+The locked public-reconstructible run passed all 32 cases twice. Every case
+passed in both forward and reverse order. The hidden descriptive reference
+scored `[0,0,0]`; no-state and all-real-weight endpoints scored `[4,4,4]`;
+the first learned state scored eight errors after the polarity contradiction;
+and the prior state retained two, four, or six errors after the distinct third
+flag. The 15-row raw records were about 7.8 KB, while the 1,024-byte budget fit
+at most one exact row and therefore left at least 15 contact-indistinguishable
+hypotheses with divergent heldout behavior. Fixed-first, fixed-second, digest,
+empty, and every allowed exact-row replay failed. Exact parent, restore,
+successor, rollback, reverse-order, deterministic replay, tests, audit,
+evidence, privacy, and repository-size gates passed. Candidate output and
+hosted calls remained absent.
+
+Final disposition: `promoted`. This establishes a non-expression categorical
+world where bounded abstraction is necessary and a short revisable description
+is sufficient. It authorizes exactly one fresh OT-0057 application calibration.
+It is not descriptive application evidence, learner invention, representation
+escape, transfer, widened OT-2, integrated development, or OT-3/TAAA evidence.
+The artifact is identified by
+`evidence/manifests/OT-0056/ot-0056-categorical-compression-world-calibration-001.json`.

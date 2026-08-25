@@ -113,8 +113,25 @@ OT-0037 consumed that authorization and passed every frozen gate. Two fresh
 processes reproduced the exact lineage receipt; candidate error was `[0,0,0]`,
 unchanged error `[4,8,8]`, contact error `[40,80,80]`, and the best fixed
 aggregate `8`. OT-1 is promoted as publicly reconstructible evidence within
-this bounded synthetic domain. Program B is unpaused; no OT-2 self-direction or
-OT-3 TAAA result is yet claimed.
+this bounded synthetic domain.
+
+OT-0045 later promoted a bounded private, time-limited OT-2 durable-goal result
+in one synthetic service/parity domain. It remains a successful causal
+exoskeleton, not evidence that the process constructed its developmental
+machinery or that commitments have cross-domain standing. OT-3/TAAA is a
+separable applied-governance branch; its valid unspent authorization is
+explicitly suspended.
+
+The primary frontier is OT-1 representation escape. OT-0049, OT-0052, and
+OT-0054 rejected one-shot, staged-revision, and branching variants of the
+bounded arithmetic-expression family. OT-0055 then rejected numeric
+descriptive application because raw contact remained sufficient. OT-0056 has
+now promoted a candidate-free categorical compression world: every real
+four-weight selector fails, at most one of fifteen diagnostic rows fits the
+inheritance budget, at least fifteen endpoint-divergent hypotheses survive,
+and a hidden short description supports contradiction and correction. This is
+environmental opportunity only. It authorizes one fresh OT-0057 application
+calibration, not a learner or a representation-escape claim.
 
 ## Quick start
 

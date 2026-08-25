@@ -589,7 +589,7 @@ ablations. The immediate sequence is:
   insufficient on heldout cases. Keep application, opaque, fixed, no-state,
   equal-byte, reset, and independent-outcome controls. Do not relax OT-0055 or
   repeat its full-verbatim numeric task.
-- **OT-0056 (run-locked; unexecuted):** candidate-free categorical world
+- **OT-0056:** candidate-free categorical world
   with sixteen opaque flags, fifteen diagnostic contact pairs, eight heldout
   pairs, and a 1,024-byte inheritance limit. Both events in every pair have
   identical four-number selector features, certifying failure for every real
@@ -599,7 +599,24 @@ ablations. The immediate sequence is:
   `[0,0,0]` opportunity, contradiction, distinct correction, fixed, empty,
   digest, verbatim, parent, restore, rollback, order, replay, test, audit,
   evidence, and privacy gates. Candidate and hosted output are forbidden. A
-  pass may authorize one OT-0057 application calibration only.
+  pass may authorize one OT-0057 application calibration only. The locked
+  public run promoted: all 32 cases passed twice, hidden reference errors were
+  `[0,0,0]`, no-state and all-real-weight errors were `[4,4,4]`, contradiction
+  produced eight errors, and distinct-third-regime frozen errors remained
+  nonzero. A 1,024-byte exact-row projection fit at most one of fifteen rows
+  and left at least fifteen endpoint-divergent hypotheses. All fixed,
+  verbatim, identity, rollback, order, replay, test, audit, evidence, privacy,
+  and repository-size gates passed without actor or hosted output. Exactly one
+  fresh OT-0057 application calibration is authorized. This is categorical
+  compression-world opportunity, not representation escape.
+- **OT-0057 (authorized; uncalibrated):** test whether fresh hosted processes
+  can apply a controller-private short categorical description across
+  contradiction and distinct correction while byte-equal opaque and permitted
+  exact-row controls remain insufficient. Derive a fresh private world only
+  after generic implementation, preserve the 1,024-byte budget and independent
+  condition order, and forbid learner, proposal, or revision output. A pass may
+  authorize at most one later learner candidate; a failure closes or narrows
+  the descriptive categorical application path without rescoring OT-0056.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

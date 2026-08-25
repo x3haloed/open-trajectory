@@ -20,8 +20,8 @@ or bounded promotion is not sufficient.
 
 ## Evaluation regime
 
-- **Epoch:** post-OT-0052 representation-escape search; no candidate is
-  authorized.
+- **Epoch:** post-OT-0056 categorical compression-world application
+  calibration; no learner candidate is authorized.
 - **Anchors:** OT-0048 proves all real settings of the promoted four-weight
   carrier fail the endpoint while a hidden bounded opportunity exists.
   OT-0049 rejected reliable one-shot compact-expression synthesis. OT-0051
@@ -63,17 +63,20 @@ non-arithmetic categorical world and a raw completed record larger than the
 active inheritance budget, with prospective insufficiency for every allowed
 verbatim projection. No candidate is authorized.
 
-OT-0056 is the active candidate-free world calibration. Sixteen opaque flags
-and fifteen one-hypothesis diagnostic rows must make every real four-weight
-selector and every complete-row projection within 1,024 bytes endpoint-
-insufficient, while a hidden short descriptive state supports contradiction and
-distinct correction. Candidate and hosted output are forbidden; only a complete
-pass may authorize one OT-0057 application calibration. The implementation is
-prospectively locked at `7ead119`. A pre-lock falsifier rejected the first
-codebook because some diagnostic pair contents recurred in heldout contact; the
-fixed codebook is complement-free and balanced by both flag and canary, and the
-harness now derives all-real-weight and all-allowed-verbatim impossibility
-structurally.
+OT-0056 promoted the candidate-free categorical compression world. All 32
+cases passed twice: hidden reference `[0,0,0]`, old carrier/no-state
+`[4,4,4]`, maximal polarity contradiction, nonzero distinct-third-regime
+failure, and exact correction. The raw 15-row record was about 7.8 KB; at most
+one exact row fit in 1,024 bytes, leaving at least fifteen heldout-divergent
+hypotheses. Structural all-real-weight and all-allowed-verbatim certificates,
+fixed controls, exact identity, rollback, order, replay, tests, audit, evidence,
+privacy, and repository-size gates passed with no actor or hosted output.
+
+Exactly one fresh OT-0057 application calibration is authorized. It must test
+fresh-process use of the short controller-private categorical description in a
+mechanically fresh private world against byte-equal opaque and permitted
+exact-row controls. Learner, proposal, and revision output remain forbidden;
+OT-0057 can establish application feasibility only, not representation escape.
 
 ## Prediction errors
 
