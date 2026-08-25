@@ -1,6 +1,6 @@
 # OT-0062 — Categorical-predicate representation-escape candidate
 
-- **Status:** run-locked; unexecuted
+- **Status:** rejected; categorical-predicate learner family closed as next route
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** OT-0061, exactly one fresh learner candidate
@@ -99,3 +99,33 @@ A valid rejection consumes the sole authorization and closes this one-shot
 categorical-predicate learner family as the next route. An operational
 invalidation receives no scientific disposition; any prospectively repairable
 gate must be repaired without rescoring or retrying this task.
+
+## Result and decision
+
+The locked run was valid and rejected. All six fresh contexts completed with
+distinct threads, workspaces, and responses. The supported-schema preflight ran
+before hosted-side effects, and task, structural, actor-surface, schema, parse,
+tool, hidden-authority, reset, model, catalog, ETag, inventory, collector,
+usage, resource, test, audit, evidence, privacy, and repository-size gates all
+passed. The effective model and backend matched the lock.
+
+Candidate errors were `[4,0,4]` and `[4,4,4]`, so neither worker reached the
+frozen endpoint. Four of six schema-valid source strings were rejected by the
+safe interpreter: two exceeded 256 bytes and two attempted an unavailable
+list-valued subscript form. One 40-byte membership predicate was safe, novel,
+contact-perfect, committed, and scored zero in worker 1's second regime; its
+constant-AST, literal-deletion, and source-deletion ablations each restored four
+errors. The fresh third context returned the same safe source unchanged after
+the target distinction changed, so it was contact-imperfect and the exact
+parent remained active. The other worker committed no source.
+
+Final disposition: `rejected`. The one successful regime demonstrates bounded
+proposal opportunity but cannot satisfy replication, repeated correction, or
+the complete causal endpoint. OT-0061's sole authorization is consumed. The
+categorical-predicate learner family is closed as the next route: do not retry
+its prompt, grammar, schema, task family, or thresholds. A materially different
+search must reduce or alter the demand that fresh actors synthesize executable
+syntax while still requiring actor-invented structure, attributable
+application, later machinery-level correction, and decisive ablation. The
+private artifact is identified by
+`evidence/manifests/OT-0062/ot-0062-categorical-predicate-representation-escape-candidate-001.json`.

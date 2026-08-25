@@ -115,11 +115,20 @@ OT-0062 task is authorized under unchanged OT-0060 scientific gates. It must be
 newly derived and invoke the promoted preflight before any hosted-side effect;
 OT-0060 remains invalid, retired, and unrescored.
 
-OT-0062 is run-locked and unexecuted as the sole replacement candidate. It must
-derive a new task after its generic implementation commit, retain every OT-0060
-scientific endpoint and budget, use the repaired schema, and run the OT-0061
-preflight before any hosted-side effect. OT-0060 private material is forbidden
-input. A valid rejection closes this one-shot family as the next route.
+OT-0062 validly rejected the sole replacement candidate. Every operational and
+attribution gate passed; candidate vectors were `[4,0,4]` and `[4,4,4]`. Four
+sources were interpreter-invalid, one safe source was contact-imperfect, and
+one novel 40-byte membership source committed with zero errors and decisive
+ablations. The later fresh context repeated it unchanged after the target
+changed. The authorization is consumed and the categorical-predicate learner
+family is closed as the next route.
+
+Do not tune that prompt, grammar, schema, task family, or threshold. Reorient to
+a materially different representation and environmental pressure that permits
+attributable application of actor-invented structure without making executable
+syntax synthesis the dominant bottleneck. Calibrate opportunity, contradiction,
+machinery correction, decisive ablation, and old-carrier impossibility before
+authorizing a candidate.
 
 ## Prediction errors
 
@@ -153,3 +162,9 @@ input. A valid rejection closes this one-shot family as the next route.
   schema-dialect gate ran only after scarce actor output. Future hosted
   candidates must complete every locally decidable validity preflight before
   starting the backend. The invalid outputs cannot be scientific evidence.
+- OT-0062 showed that repairing validity did not repair learner reliability.
+  Schema conformance hid a second interface boundary: fresh actors often
+  returned oversized or semantically non-Boolean expressions, while the one
+  exact committed predicate was not revised when a distinct target arrived.
+  The next family must alter the representational demand rather than add syntax
+  examples, retry the prompt, or loosen interpreter safety.

@@ -337,6 +337,16 @@ promoted result. One fresh OT-0062 task is therefore authorized under unchanged
 scientific gates. This repairs validity sequencing; it supplies no evidence for
 or against actor predicate invention.
 
+OT-0062 then tested the repaired path validly and rejected it. Candidate vectors
+were `[4,0,4]` and `[4,4,4]` with every operational gate passing. Four sources
+were rejected by the safe interpreter, one safe source was contact-imperfect,
+and one safe membership predicate committed with zero heldout errors and
+decisive ablations. A later fresh context repeated that predicate unchanged
+after the target changed. This closes categorical-predicate synthesis as the
+next learner route. The informative boundary is no longer carrier expression
+or deterministic application; it is reliable construction and revision of the
+carrier by fresh actors under sparse consequence evidence.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

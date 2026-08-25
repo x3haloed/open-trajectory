@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ot-0062-categorical-predicate-representation-escape-candidate-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 796637,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e871773c4c0bf40c41943d8c82925d353d11efff",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "private-reproducible",
+  "experiment_id": "OT-0062",
+  "input_manifests": [
+    "evidence/manifests/OT-0061/ot-0061-hosted-schema-preflight-repair-calibration-001.json",
+    "evidence/manifests/OT-0059/ot-0059-categorical-predicate-carrier-calibration-001.json",
+    "evidence/manifests/OT-0057/ot-0057-categorical-description-application-calibration-001.json",
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json"
+  ],
+  "kind": "categorical-predicate-representation-escape-candidate",
+  "limitations": [
+    "Private task, actor-authored predicates, hosted outputs, and deployment receipts remain private.",
+    "A pass is one bounded representation-escape foothold and not developmental transfer or widened OT-2 evidence.",
+    "The generic safe interpreter remains a researcher-built causal exoskeleton."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0062-categorical-predicate-representation-escape-candidate-001",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3c14d84e6c6f12102c08b772bc0a2f3baab7de39e758a3c6c2c398b688554920"
+}

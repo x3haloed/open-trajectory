@@ -149,7 +149,12 @@ hosted output: the schema change was exactly one redundant-keyword deletion,
 fail-closed preflight order and the interpreter-owned 256-byte limit were
 preserved, and all 32 carrier worlds retained their prior result. Exactly one
 newly derived OT-0062 candidate is authorized under the unchanged scientific
-gates; this is protocol evidence, not representation escape.
+gates; this is protocol evidence, not representation escape. OT-0062 was then
+validly rejected with every operational gate passing: candidate errors were
+`[4,0,4]` and `[4,4,4]`. One novel predicate committed and ablated decisively,
+but it was not revised after a distinct target change; the other five proposals
+did not commit. The one-shot categorical-predicate learner family is therefore
+closed as the next route, with no Phase I foothold claimed.
 
 ## Quick start
 

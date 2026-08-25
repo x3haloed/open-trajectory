@@ -682,7 +682,7 @@ ablations. The immediate sequence is:
   and hosted output remained absent. Exactly one fresh OT-0062 learner is now
   authorized under the unchanged OT-0060 scientific gate and a newly derived
   task; OT-0060 remains invalid and unrescored.
-- **OT-0062 (run-locked; unexecuted):** execute exactly one replacement
+- **OT-0062:** execute exactly one replacement
   learner on a new private task derived only after the generic implementation
   commit. Preserve OT-0060's prompt, orientation, scientific endpoints,
   controls, deployment identity, and resource budgets; use only OT-0061's
@@ -691,7 +691,21 @@ ablations. The immediate sequence is:
   diagnostics are forbidden inputs. A valid `[0,0,0]` result in both workers
   with every causal and ablation gate may establish the first bounded Phase I
   foothold; a valid rejection consumes the authorization and closes this
-  one-shot family as the next route.
+  one-shot family as the next route. The locked run was valid and rejected.
+  Every operational and attribution gate passed, but candidate errors were
+  `[4,0,4]` and `[4,4,4]`. Four sources were interpreter-invalid, one was safe
+  but contact-imperfect, and one novel 40-byte membership predicate committed
+  with zero heldout errors and decisive constant/literal/source ablations. A
+  later fresh context repeated that source unchanged after the target changed,
+  so correction failed. The sole authorization is consumed and this learner
+  family is closed as the next route.
+- **Next Phase I search:** do not modify the categorical predicate prompt,
+  grammar, schema, task family, or thresholds. Review materially different
+  representations and environmental pressures, then prospectively calibrate
+  the cheapest world where actor-invented structure can be applied exactly
+  without requiring reliable executable-syntax synthesis. It must still expose
+  machinery-level contradiction, correction, ablation, and old-carrier
+  impossibility before any candidate is authorized.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
