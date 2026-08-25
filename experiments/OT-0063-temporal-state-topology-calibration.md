@@ -1,6 +1,6 @@
 # OT-0063 — Temporal state-topology calibration
 
-- **Status:** run-locked; unexecuted
+- **Status:** promoted; one fresh OT-0064 topology learner authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free temporal environment and generic state-topology carrier
 - **Candidate output:** forbidden
@@ -90,3 +90,32 @@ author and revise state topology from completed consequences. OT-0063 is only
 world, impossibility, generic-carrier, correction-opportunity, and control
 evidence. It is not actor invention, representation escape, transfer, widened
 OT-2, integrated development, or OT-3/TAAA evidence.
+
+## Result and decision
+
+The locked public-reconstructible run promoted all sixteen worlds twice in
+forward and reverse order. Hidden reference machines scored `[0,0,0]` and
+pre-update states scored `[4,8,8]`. The first machine scored `[0,8,3]` across
+the regimes and the second `[4,0,8]`, establishing maximal first contradiction
+and distinct later incompleteness before correction. All reference topology
+fingerprints differed, and output-only relabeling could not become contact-
+perfect after either change.
+
+Every four-weight and stateless current-event policy incurred four of eight
+errors. Complete rows were at least 994 bytes, so at most one fit the 1,024-byte
+budget; every allowed projection left at least five contact-consistent temporal
+hypotheses with divergent heldout behavior. Empty, digest, verbatim, no-
+persistence, fixed-side, alternating, stateless, and fixed-reference lineages
+failed. One-state collapse, per-cue reset, transition deletion, and cue-edge
+deletion each removed the advantage. Invalid, incomplete, unreachable, over-
+budget, and contact-imperfect updates preserved exact parents; projection,
+restore, rollback, surface, schema, order, replay, tests, audit, evidence,
+privacy, and repository-size gates passed. Candidate and hosted output remained
+absent.
+
+Final disposition: `promoted`. Exactly one fresh OT-0064 learner may now be
+frozen to author and revise state/transition topology from completed
+consequences. This remains candidate-free temporal-world, carrier, and hidden-
+opportunity evidence only—not actor invention or representation escape. The
+artifact is identified by
+`evidence/manifests/OT-0063/ot-0063-temporal-state-topology-calibration-001.json`.

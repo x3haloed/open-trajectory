@@ -156,6 +156,15 @@ but it was not revised after a distinct target change; the other five proposals
 did not commit. The one-shot categorical-predicate learner family is therefore
 closed as the next route, with no Phase I foothold claimed.
 
+The next materially different candidate-free family, OT-0063, has promoted a
+sequential environment where current-event selectors are provably stateless and
+a small finite-state topology is sufficient. Across all sixteen worlds,
+reference machines reached `[0,0,0]`, became wrong under temporal regime
+changes, and recovered through distinct topology changes; compression, fixed
+controls, structural ablations, safe failure, rollback, replay, tests, and audit
+passed without actor or hosted output. One fresh OT-0064 topology learner is
+authorized. This is opportunity evidence only, not endogenous construction.
+
 ## Quick start
 
 Requires Python 3.11 or newer. The evidence CLI has no runtime dependencies;

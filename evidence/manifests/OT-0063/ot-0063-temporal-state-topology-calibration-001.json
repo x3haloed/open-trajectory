@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ot-0063-temporal-state-topology-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 70072,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8a5e7b4fbe0df392480387768187260290fd5d54",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0063",
+  "input_manifests": [
+    "evidence/manifests/OT-0062/ot-0062-categorical-predicate-representation-escape-candidate-001.json",
+    "evidence/manifests/OT-0061/ot-0061-hosted-schema-preflight-repair-calibration-001.json",
+    "evidence/manifests/OT-0059/ot-0059-categorical-predicate-carrier-calibration-001.json",
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json"
+  ],
+  "kind": "temporal-state-topology-candidate-free-calibration",
+  "limitations": [
+    "Candidate output and hosted model calls are forbidden.",
+    "Controller-private reference machines prove opportunity only and are not endogenous evidence.",
+    "A pass authorizes at most one fresh OT-0064 learner and is not representation-escape evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0063-temporal-state-topology-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0063_harness.py --output $EVIDENCE/runs/OT-0063/ot-0063-temporal-state-topology-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "1415304044a9508b867b42e791cde19715cddc43af96dbbc477ec99b4a5bb2b1"
+}

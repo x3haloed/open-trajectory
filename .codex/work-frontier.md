@@ -130,13 +130,15 @@ syntax synthesis the dominant bottleneck. Calibrate opportunity, contradiction,
 machinery correction, decisive ablation, and old-carrier impossibility before
 authorizing a candidate.
 
-OT-0063 is run-locked and unexecuted as that candidate-free calibration. Its
-sequential world hides cue history from final-event selectors; a generic
-finite-state transducer exposes actor-chosen state and transition topology.
-Parity, suffix, and modular-count regimes force distinct reference topologies,
-later harm, and correction. Compression, stateless impossibility, fixed
-lineages, state/transition/cue-edge ablations, safe update, rollback, surface,
-schema, replay, test, audit, evidence, and privacy gates precede any learner.
+OT-0063 promoted that candidate-free calibration across all sixteen worlds
+twice. References scored `[0,0,0]`, pre-update states `[4,8,8]`, frozen first
+`[0,8,3]`, and frozen second `[4,0,8]`; every topology fingerprint changed and
+output-only correction failed contact. Stateless policies scored four errors,
+rows were at least 994 bytes, at most one fit, and at least five divergent
+hypotheses survived. Fixed lineages, real topology ablations, safe failure,
+identity, rollback, surface, schema, replay, test, audit, evidence, and privacy
+gates passed with no candidate or hosted output. One fresh OT-0064 topology
+learner is authorized under a separately frozen protocol.
 
 ## Prediction errors
 

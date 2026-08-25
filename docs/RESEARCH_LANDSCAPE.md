@@ -368,6 +368,16 @@ count regimes. The topology must change between regimes, and state collapse,
 per-cue reset, transition deletion, and cue-edge deletion are decisive
 ablations. Candidate-free calibration must pass before any learner is exposed.
 
+The locked OT-0063 calibration promoted all sixteen temporal worlds. Hidden
+references reached `[0,0,0]`; prior machines became maximally wrong and then
+distinctly incomplete; topology changed at every correction and output-only
+relabeling could not satisfy contact. Stateless policies remained fixed at four
+errors, while the raw-contact budget admitted at most one 994-byte-or-larger
+row and left at least five divergent hypotheses. Real state, reset,
+transition, and cue-edge ablations removed the advantage. This authorizes one
+fresh OT-0064 learner and establishes opportunity only; whether fresh actors can
+construct and revise the topology remains completely open.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

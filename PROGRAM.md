@@ -706,7 +706,7 @@ ablations. The immediate sequence is:
   without requiring reliable executable-syntax synthesis. It must still expose
   machinery-level contradiction, correction, ablation, and old-carrier
   impossibility before any candidate is authorized.
-- **OT-0063 (run-locked; unexecuted):** calibrate a sequential world in
+- **OT-0063:** calibrate a sequential world in
   which final events omit cue history, so every four-weight and stateless
   current-event policy is structurally fixed at four of eight errors. A generic
   bounded finite-state transducer permits arbitrary actor-chosen state IDs,
@@ -716,7 +716,16 @@ ablations. The immediate sequence is:
   distinct topology fingerprints. Freeze compression, fixed lineages,
   one-state, reset, transition, cue-edge, invalid-update, rollback, surface,
   replay, test, audit, evidence, and privacy gates without candidate or hosted
-  output. A complete pass may authorize one fresh OT-0064 learner only.
+  output. A complete pass may authorize one fresh OT-0064 learner only. The
+  locked public run promoted all sixteen worlds twice. References scored
+  `[0,0,0]`, pre-update states `[4,8,8]`, frozen first `[0,8,3]`, and frozen
+  second `[4,0,8]`; all topology fingerprints changed and output-only
+  relabeling failed contact. Stateless policies scored four errors, rows were at
+  least 994 bytes, at most one fit, and at least five heldout-divergent
+  hypotheses survived. Every fixed lineage, real topology ablation, safe-
+  failure, identity, rollback, surface, schema, replay, test, audit, evidence,
+  and privacy gate passed without candidate or hosted output. Exactly one fresh
+  OT-0064 topology learner is authorized.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
