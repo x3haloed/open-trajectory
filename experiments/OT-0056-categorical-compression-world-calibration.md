@@ -1,0 +1,61 @@
+# OT-0056 — Categorical compression-world calibration
+
+- **Status:** prospectively frozen; unexecuted
+- **Evidence class:** public-reconstructible if valid
+- **Target:** candidate-free non-expression representation environment
+- **Candidate output:** forbidden
+- **Hosted calls:** forbidden
+- **Predecessor:** rejected OT-0055 numeric descriptive application
+
+## Frozen hypothesis and cheapest falsifier
+
+A categorical world can make both the promoted four-weight selector and every
+bounded exact-row inheritance structurally inadequate while preserving a short,
+revisable descriptive distinction. The world uses sixteen private opaque flag
+identities. One flag and polarity determine which event is preferred. Fifteen
+diagnostic contact pairs each eliminate only one alternative flag hypothesis;
+the exact raw record exceeds the inheritance budget, while a description naming
+one flag and polarity fits.
+
+Reject if any calibrated task lacks all-real-weight impossibility, exact
+reference `[0,0,0]`, maximal harm under contradiction, distinct third-regime
+correction, a raw record larger than budget, a certificate that every allowed
+exact-row projection leaves multiple endpoint-divergent hypotheses, failing
+empty/fixed/digest/verbatim controls, exact restore, or deterministic replay.
+Invalidate on lock, test, audit, evidence, privacy, or repository-size failure.
+Candidate or hosted output invalidates the design.
+
+## Frozen world and controls
+
+Each event exposes opaque categorical flags plus four numeric selector features.
+Within every pair the numeric features are identical, so every real weight
+vector ties; event-ID tie-breaking is arranged to miss four of eight holdouts.
+The categorical reference selects the event where the target flag is on or off.
+
+Contact contains one diagnostic pair per alternative flag. The target predicts
+the preferred event on every row. Each alternative agrees on all rows except its
+own diagnostic row. Thus omitting any diagnostic leaves the target and that
+alternative observationally indistinguishable. Unique eight-bit heldout flag
+codes make those hypotheses diverge later.
+
+Freeze a 1,024-byte inheritance budget. Exact contact pairs are atomic: no
+partial row, derived statistic, recompression, or actor selection counts as the
+verbatim control. Exhaustively enumerate every subset of complete rows that
+fits and certify none identifies one heldout behavior. A digest-only branch
+receives full raw identity without contents. All are private calibration
+controls only.
+
+Regime one uses one flag and polarity; regime two flips polarity; regime three
+uses a distinct flag. Reference states must reach `[0,0,0]`; the frozen first
+state must score eight errors after contradiction; and the second must fail the
+distinct third regime. Every snapshot has exact identity, parent, restore, and
+rollback.
+
+## Promotion and claim limit
+
+Promote only if the complete mechanically generated family passes twice from a
+clean lock with candidate and hosted output absent. A pass may authorize one
+OT-0057 candidate-free hosted application calibration. It is world,
+impossibility, compression, and hidden-opportunity evidence only—not descriptive
+application, learner invention, representation escape, transfer, widened OT-2,
+integrated development, or OT-3/TAAA.

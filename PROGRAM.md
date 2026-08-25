@@ -589,6 +589,17 @@ ablations. The immediate sequence is:
   insufficient on heldout cases. Keep application, opaque, fixed, no-state,
   equal-byte, reset, and independent-outcome controls. Do not relax OT-0055 or
   repeat its full-verbatim numeric task.
+- **OT-0056 (protocol frozen; unexecuted):** candidate-free categorical world
+  with sixteen opaque flags, fifteen diagnostic contact pairs, eight heldout
+  pairs, and a 1,024-byte inheritance limit. Both events in every pair have
+  identical four-number selector features, certifying failure for every real
+  weight vector. Each exact row rules out only one alternative flag; exhaustive
+  whole-row projections within budget must leave contact-indistinguishable
+  hypotheses whose unique heldout codes diverge. Freeze hidden descriptive
+  `[0,0,0]` opportunity, contradiction, distinct correction, fixed, empty,
+  digest, verbatim, parent, restore, rollback, order, replay, test, audit,
+  evidence, and privacy gates. Candidate and hosted output are forbidden. A
+  pass may authorize one OT-0057 application calibration only.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

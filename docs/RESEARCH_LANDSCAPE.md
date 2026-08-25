@@ -281,6 +281,14 @@ re-inferable. The next environmental pressure should combine non-arithmetic
 categorical application with a raw record larger than the inheritance budget,
 so abstraction is structurally necessary rather than favored by expectation.
 
+OT-0056 instantiates that pressure with opaque categorical flags and a teaching-
+dimension-style diagnostic set. Each complete row eliminates only one
+alternative rule, the raw set exceeds active inheritance, and heldout codes
+separate every surviving hypothesis. This makes exact-row insufficiency
+enumerable while leaving a short flag-and-polarity description. It tests a new
+world and representation pressure, not another container around arithmetic
+program synthesis.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

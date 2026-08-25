@@ -63,6 +63,13 @@ non-arithmetic categorical world and a raw completed record larger than the
 active inheritance budget, with prospective insufficiency for every allowed
 verbatim projection. No candidate is authorized.
 
+OT-0056 is the active candidate-free world calibration. Sixteen opaque flags
+and fifteen one-hypothesis diagnostic rows must make every real four-weight
+selector and every complete-row projection within 1,024 bytes endpoint-
+insufficient, while a hidden short descriptive state supports contradiction and
+distinct correction. Candidate and hosted output are forbidden; only a complete
+pass may authorize one OT-0057 application calibration.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

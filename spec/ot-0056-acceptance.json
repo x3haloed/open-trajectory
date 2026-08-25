@@ -1,0 +1,30 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0056",
+  "evaluation_epoch": "post-OT-0055 categorical compression-world calibration",
+  "flag_count": 16,
+  "diagnostic_contact_pairs": 15,
+  "heldout_pairs": 8,
+  "regime_count": 3,
+  "active_inheritance_byte_limit": 1024,
+  "candidate_outputs": false,
+  "hosted_model_calls": 0,
+  "authorized_application_calibration_count": 1,
+  "future_application_experiment_id": "OT-0057",
+  "claim_limit": "public deterministic categorical compression-world calibration and at most one OT-0057 application-calibration authorization; no descriptive application, learner invention, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "every real four-weight setting is endpoint-equivalent and receives four heldout errors in every regime",
+    "the hidden descriptive reference reaches errors [0,0,0], its first state receives eight errors under contradiction, and a distinct third flag requires another correction",
+    "the complete raw contact record exceeds 1024 bytes while every exact complete-row projection within 1024 bytes leaves at least two contact-indistinguishable hypotheses with different heldout behavior",
+    "empty, digest-only, all fixed selectors, and every allowed verbatim projection fail the endpoint",
+    "state identity, immutable parent, exact restore, rollback, reverse-order evaluation, and deterministic replay pass",
+    "candidate output and hosted calls remain absent",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "OT-0055 remains rejected and is not rescored or repaired.",
+    "Opaque flag identities and reference descriptions are controller-private opportunity controls.",
+    "The verbatim control permits exact whole rows only; derived or recompressed content would be a different candidate representation.",
+    "A pass authorizes application calibration only and is not endogenous-substrate evidence."
+  ]
+}
