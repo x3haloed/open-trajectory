@@ -1,6 +1,6 @@
 # OT-0060 — Categorical-predicate representation-escape candidate
 
-- **Status:** prospectively frozen; unimplemented
+- **Status:** implemented; unexecuted; private task not derived
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** OT-0059, exactly one fresh learner candidate

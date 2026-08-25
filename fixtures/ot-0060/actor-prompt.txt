@@ -1,0 +1,12 @@
+Use the generic orientation and only the current encounter JSON to author the
+next bounded predicate source. Completed contact outcomes are the evidence for
+the update. The heldout world is sealed. Do not call tools, inspect files, use
+the network, or infer hidden controller fields.
+
+Generic orientation:
+{{ORIENTATION}}
+
+Current encounter:
+{{ACTOR_VIEW}}
+
+Return exactly one schema-conforming JSON object and no explanation.
