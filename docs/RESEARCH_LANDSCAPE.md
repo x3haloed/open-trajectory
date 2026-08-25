@@ -462,6 +462,16 @@ from consequences. Such an operation must later be made wrong by a change in
 evidence structure and revised by a fresh process; otherwise it is merely a new
 fixed researcher-designed optimizer.
 
+The epoch disposition does not authorize that hypothesis as a learner. It
+identifies the missing experimental affordance more narrowly: a
+candidate-owned, independently receipted structural-discrepancy object must
+cross a reset and causally support preservation, revision, or set-down without
+controller best-candidate selection. Candidate-free calibration must also make
+the resulting reconstruction operation itself later harmful and revisable.
+Until that substrate exists, another expression, branch, transducer, predicate,
+or complete-partition run would reopen a closed search space rather than test a
+new developmental mechanism.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

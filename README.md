@@ -202,9 +202,9 @@ OT-0068 supplied that prospective replacement and passed all sixteen public
 candidate-free worlds. Every target was uniquely identifiable among 4,140
 partitions; all 32,768 raw-row subsets per regime were measured; at most one
 row fit; at least 877 heldout-divergent alternatives survived; and exact replay
-remained at four errors. This authorizes one fresh OT-0069 learner comparison.
-It is calibrated opportunity only, not actor invention or representation
-escape.
+remained at four errors. It authorized one OT-0069 learner comparison, now
+consumed by valid rejection. It is calibrated opportunity only, not actor
+invention or representation escape.
 
 OT-0069 consumed that authorization in a valid two-worker learner run. Both
 workers constructed and committed the correct initial grouping. Neither passed
@@ -214,6 +214,16 @@ the correct third grouping; the other remained anchored. Scores were `[0,8,0]`
 and `[0,8,4]`. The full-partition learner family is closed without a Phase I
 foothold. The next search must change what is inherited toward an actor-authored
 reconstruction/update operation, not retry the grouping prompt or threshold.
+
+The endogenous-substrate epoch therefore ends in informative exhaustion, not a
+positive foothold. Multiple valid and materially distinct learner families
+sometimes produced useful actor-authored structure but did not reproduce
+complete construction and correction across independent lineages. No learner
+is authorized. The smallest missing affordance is a bounded candidate-owned
+discrepancy-to-revision object that can carry proposal-local structural failure
+through a reset without letting the controller select the answer. The full
+bounded disposition is in
+[`docs/ENDOGENOUS_SUBSTRATE_EPOCH.md`](docs/ENDOGENOUS_SUBSTRATE_EPOCH.md).
 
 ## Quick start
 

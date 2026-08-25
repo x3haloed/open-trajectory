@@ -1,6 +1,6 @@
 # OT-0068 — Identifiable equivalence-partition calibration
 
-- **Status:** promoted; one fresh OT-0069 learner authorized
+- **Status:** promoted; authorization consumed by rejected OT-0069
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free relational-distinction environment and carrier
 - **Candidate output:** forbidden
@@ -113,7 +113,8 @@ All identifiability, predecessor-harm, membership-change, output-only,
 fixed-lineage, structural-ablation, contact-perfect over-budget, safe-failure,
 identity, restore, rollback, surface, schema, deterministic-replay, test,
 evidence, privacy, and repository-size gates passed. OT-0068 therefore
-authorizes exactly one separately frozen fresh OT-0069 learner. This is only a
+authorized exactly one separately frozen fresh OT-0069 learner, subsequently
+consumed by its valid rejection. This is only a
 public deterministic environment/carrier opportunity and does not establish
 actor invention, representation escape, developmental transfer, widened OT-2,
 integrated development, or OT-3/TAAA progress.

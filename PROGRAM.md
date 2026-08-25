@@ -827,7 +827,7 @@ ablations. The immediate sequence is:
   membership-level correction, safe failure, rollback, and surface exclusions
   before authorizing any learner. Do not reuse OT-0067's nonexistent
   authorization or weaken its gate.
-- **OT-0068 (promoted; one fresh OT-0069 learner authorized):** prospectively repairs the
+- **OT-0068 (promoted; authorization consumed by rejected OT-0069):** prospectively repairs the
   relational world rather than OT-0067's acceptance. Freeze three two-block
   partitions whose sealed balanced heldouts leave every target uniquely
   identifiable among all 4,140 partitions while making the preceding
@@ -842,17 +842,9 @@ ablations. The immediate sequence is:
   bytes, the raw record at least 6,393, exactly sixteen of 32,768 projections
   fit, at least 877 divergent partitions survived, and every replay scored
   four. Every control, safe-failure, rollback, surface, test, audit, and
-  privacy gate passed without candidate or hosted output. Exactly one fresh
-  OT-0069 learner is authorized; this remains opportunity evidence only.
-- **Next Phase I experiment:** freeze OT-0069 before any hosted output. Two
-  independent three-reset lineages must construct a generic partition from
-  completed resolved-side consequences, use it causally on heldouts, then
-  restructure membership after both contradictions. Compare unchanged,
-  no-persistence, digest, legal verbatim, fixed partitions, fixed sides,
-  alternating, and appropriate naive grouping controls under the same contact
-  and inheritance budgets. Require exact attribution, decisive membership and
-  complete-partition ablations, safe failure, rollback, fresh task identity,
-  and valid reproduction. A valid failure consumes the sole authorization.
+  privacy gate passed without candidate or hosted output. It authorized one
+  OT-0069 learner, now consumed by valid rejection; this remains opportunity
+  evidence only.
 - **OT-0069 (rejected; authorization consumed; full-partition learner family closed):** the sole authorized learner.
   Two independent three-reset lineages receive only generic partition surfaces,
   their exact bounded parent, public pair contact, prior selections, and
@@ -870,14 +862,18 @@ ablations. The immediate sequence is:
   worker one reconstructed and committed the correct new grouping while worker
   two remained anchored. All operational gates passed. Authorization is
   consumed; do not retry the full-partition prompt, task, schema, or threshold.
-- **Next Phase I search:** change the inherited authority from complete
-  grouping contents to an actor-authored reconstruction or update operation.
-  Candidate-free calibration must first show a bounded generic operation can
-  reconstruct relational state from completed consequences, that every current
-  content-only carrier remains inadequate, and that a later change in outcome
-  semantics or evidence structure makes the operation itself harmful and
-  requires structural revision. Do not supply a desirable operation menu or
-  count automatic controller inference as actor-authored machinery.
+- **Epoch disposition (informative exhaustion):** no learner is authorized.
+  Valid candidates across bounded expressions, staged expressions, branching
+  ledgers, categorical predicates, temporal transducers, and equivalence
+  partitions failed complete reproducible construction/correction. OT-0069
+  proves the carrier and from-scratch relational inference can succeed while
+  inherited-state structural revision remains unreliable. Another attempt is
+  scientifically distinct only after candidate-free calibration of a bounded
+  candidate-owned discrepancy-to-revision object that separates proposal,
+  independent validation, fresh revision, and adoption; preserves a zero-error
+  proposal without controller best-candidate selection; and later becomes
+  harmful and structurally revisable itself. See
+  `docs/ENDOGENOUS_SUBSTRATE_EPOCH.md`.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

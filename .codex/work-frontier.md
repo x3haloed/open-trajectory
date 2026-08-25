@@ -2,292 +2,94 @@
 
 ## Outcome
 
-Reach either the positive endogenous-developmental foothold or informative
-exhaustion defined by the active Codex Goal. A single experiment, mechanism,
-or bounded promotion is not sufficient.
+The active endogenous-developmental-substrate epoch reached informative
+exhaustion, not the positive foothold. The normative target is unchanged. No
+learner is authorized. OT-3/TAAA remains separable and suspended.
 
-## Goal invariants
+## Invariants
 
-- Endogenous developmental machinery must be consequence-causal, structurally
-  beyond the promoted selector and goal-contract exoskeletons, independently
-  correctable, and tested outside its originating world before an integrated
-  claim.
-- Complete resets, independent outcomes, prospective gates, equal budgets,
-  decisive ablations, content-addressed evidence, rollback, privacy, and
-  append-only negative history remain mandatory.
-- TAAA remains a separable suspended branch and cannot count as developmental
-  evidence.
+- Preserve complete resets, independently owned consequences, prospective
+  gates, equal budgets, decisive ablations, rollback, content-addressed
+  evidence, privacy, and append-only negative history.
+- Current weighted-selector and durable-goal results remain bounded causal
+  exoskeletons, not endogenous developmental machinery.
+- Do not promote component success, self-report, resemblance to a reference,
+  or controller-private opportunity as endpoint evidence.
+- Do not reopen a failed prompt, task, grammar, carrier, or threshold without a
+  prospectively calibrated causal affordance that changes the hypothesis.
 
-## Evaluation regime
+## Authoritative epoch disposition
 
-- **Epoch:** post-OT-0056 categorical compression-world application
-  calibration; no learner candidate is authorized.
-- **Anchors:** OT-0048 proves all real settings of the promoted four-weight
-  carrier fail the endpoint while a hidden bounded opportunity exists.
-  OT-0049 rejected reliable one-shot compact-expression synthesis. OT-0051
-  validated the staged protocol without actor output. OT-0052 validly rejected
-  the staged candidate with both workers at `[0,0,4]`; its authorization is
-  consumed.
-- **Active criterion:** before another scarce candidate, prospectively
-  calibrate a materially different representation family. It must preserve
-  independent consequence causation and expose preservation, replacement,
-  rejected updates, committed-successor rollback, and later correction without
-  supplying a useful distinction or strategy menu.
-- **Closed path:** do not retry the bounded single-expression family by adding
-  turns, changing prompts, relaxing bounds, or rescoring OT-0049/OT-0052.
+The cross-family synthesis is
+`docs/ENDOGENOUS_SUBSTRATE_EPOCH.md`. Six prospectively valid learner routes
+failed complete reproducible construction and correction:
 
-OT-0053 promoted its candidate-free comparison. Its branching ledger retains
-up to three actor-authored structural alternatives and makes an exact active
-identity causal. Controller-private branches test opportunity only. Promotion
-requires all 48 calibrated worlds plus distinct selected-branch deletion,
-no-credit, rejected-update preservation, committed-successor rollback,
-old-carrier, scaled-holdout, correction, surface, replay, test, audit, and
-privacy gates. The locked run passed all 48 worlds twice with `[4,8,4]` to
-`[0,0,0]`, exact active-branch deletion, no-credit and rejected-update parent
-preservation, real-successor rollback, and no actor or hosted output. Exactly
-one fresh OT-0054 candidate is authorized and unconsumed.
+- OT-0049 bounded expressions: `[0,0,4]`, `[4,0,0]`;
+- OT-0052 staged expressions: both `[0,0,4]`;
+- OT-0054 branching ledgers: `[4,4,4]`, `[4,4,0]`;
+- OT-0062 categorical predicates: `[4,0,4]`, `[4,4,4]`;
+- OT-0066 temporal transducers: both `[4,4,4]`; and
+- OT-0069 equivalence partitions: `[0,8,0]`, `[0,8,4]`.
 
-OT-0054 validly rejected the scarce branching comparison with worker errors
-`[4,4,4]` and `[4,4,0]`. Five of six proposal ledgers contained no
-contact-perfect branch; the only success used one branch, so branching selection
-was not causal. The authorization is consumed. One-shot, residual-revision, and
-multi-branch variants are now closed inside the bounded arithmetic-expression
-carrier. No candidate is authorized; a new calibration must change the
-actor-authored representation and environmental pressure, not its container.
+These are materially different representations and interaction topologies.
+All listed runs were scientifically valid rather than operationally
+invalidated. Each authorization is consumed and each one-shot family is closed
+as the next route.
 
-OT-0055 validly rejected the numeric descriptive application protocol.
-Reference errors were `[0,1,0]` and `[0,0,0]`; opaque controls uniformly failed,
-but worker two's verbatim control independently solved two regimes before its
-reference condition. No learner is authorized. The next calibration must use a
-non-arithmetic categorical world and a raw completed record larger than the
-active inheritance budget, with prospective insufficiency for every allowed
-verbatim projection. No candidate is authorized.
+OT-0067 separately preserved a candidate-free protocol impossibility. OT-0068
+prospectively repaired it and proved relational opportunity across all 4,140
+partitions and all 32,768 raw-row subsets per regime before OT-0069. Therefore
+OT-0069 cannot be explained by an impossible gate, raw replay sufficiency,
+diagnostic/heldout overlap, or carrier inexpressibility.
 
-OT-0056 promoted the candidate-free categorical compression world. All 32
-cases passed twice: hidden reference `[0,0,0]`, old carrier/no-state
-`[4,4,4]`, maximal polarity contradiction, nonzero distinct-third-regime
-failure, and exact correction. The raw 15-row record was about 7.8 KB; at most
-one exact row fit in 1,024 bytes, leaving at least fifteen heldout-divergent
-hypotheses. Structural all-real-weight and all-allowed-verbatim certificates,
-fixed controls, exact identity, rollback, order, replay, tests, audit, evidence,
-privacy, and repository-size gates passed with no actor or hosted output.
+## Smallest reproduced obstruction
 
-OT-0057 validly rejected fresh natural-language application. Reference errors
-were `[0,2,0]` and `[0,0,2]`; opaque errors were `[2,6,2]` for both workers;
-one-row verbatim errors were `[4,6,4]` and `[4,2,2]`. Every structural,
-deployment, reset, resource, test, audit, evidence, privacy, and repository-size
-gate passed, and no learner output occurred. The conditional OT-0058 learner
-authorization did not arise; OT-0058 remains unauthorized and unexecuted.
+Under complete resets, the current one-turn full-state proposal interface does
+not reliably turn independently receipted discrepancy against harmful inherited
+structure into an exact valid structural successor across two lineages, even
+when the model can infer the structure from scratch and the carrier is proven
+sufficient.
 
-Natural-language descriptions are now closed as the next exact application
-route after independent numeric and categorical failures. The next calibration
-must change the application substrate: a generic controller-deterministic
-categorical predicate language is the leading materially different family. It
-must not supply a target, polarity, categorical mode, solved example, or menu of
-desirable operations, and it must precede any learner authorization.
+OT-0069 localizes this boundary. Both workers independently authored and
+committed the correct initial grouping. At the first contradiction, one novel
+proposal missed one diagnostic relation and the other copied the harmful
+parent. At the second, one lineage reconstructed the correct grouping and the
+other remained anchored. Safe commit prevented drift but left no
+candidate-owned structural discrepancy object that could cause a later fresh
+revision.
 
-OT-0059 promoted the candidate-free calibration for that family. It uses one
-bounded safe Boolean expression over a public event object, with generic
-membership, equality, and Boolean syntax executed deterministically. Across all
-32 OT-0056 worlds it must preserve old-carrier impossibility, raw compression,
-contradiction, distinct correction, fixed controls, decisive structural
-ablations, invalid-update parent identity, committed rollback, surface
-exclusion, order, replay, test, audit, evidence, and privacy gates. All 32 cases
-passed twice with hidden reference `[0,0,0]`, old-carrier/no-state `[4,4,4]`, at
-most one inherited raw row, at least fifteen surviving hypotheses, decisive
-constant/literal ablations, exact unsafe-update preservation, committed
-rollback, interpreter safety, surface, order, replay, test, audit, evidence,
-and privacy gates. No actor or hosted output occurred.
+Earlier evidence bounds nearby repairs: OT-0052 showed that forced fresh
+revision can overwrite a zero-error proposal; OT-0054 showed that branching
+cannot help when the proposal set lacks a viable member; OT-0066 separated
+topology recovery from grounded output application.
 
-OT-0060 is operationally invalidated with no scientific disposition. Its frozen
-schema included unsupported `maxLength`, making the deterministic schema-subset
-gate impossible; this should have been detected before all six actor contexts
-ran. Candidate vectors `[4,5,3]` and `[4,4,4]`, five noncommitting sources, and
-one contact-perfect/five-heldout-error source are preserved as non-dispositive
-diagnostics only. The OT-0060 task is retired and cannot be retried.
+## Requirement for a scientifically distinct future attempt
 
-OT-0059's sole learner authorization remains unconsumed under the explicit
-impossible-gate rule. OT-0061 promoted the candidate-free repair. It removed
-only `maxLength`, preserved exact 256/257-byte interpreter enforcement, caused
-zero/one starts for invalid/valid schemas, and retained all 32 OT-0059 promoted
-worlds with deterministic replay and no hosted output. Exactly one fresh
-OT-0062 task is authorized under unchanged OT-0060 scientific gates. It must be
-newly derived and invoke the promoted preflight before any hosted-side effect;
-OT-0060 remains invalid, retired, and unrescored.
+Do not authorize another learner until a candidate-free calibration establishes
+a new bounded discrepancy-to-revision substrate that:
 
-OT-0062 validly rejected the sole replacement candidate. Every operational and
-attribution gate passed; candidate vectors were `[4,0,4]` and `[4,4,4]`. Four
-sources were interpreter-invalid, one safe source was contact-imperfect, and
-one novel 40-byte membership source committed with zero errors and decisive
-ablations. The later fresh context repeated it unchanged after the target
-changed. The authorization is consumed and the categorical-predicate learner
-family is closed as the next route.
+1. executes an actor-authored provisional structure against completed
+   independent contact;
+2. lets exact proposal-local structural failures cross a complete reset as a
+   candidate-owned receipted object;
+3. lets a fresh process preserve, revise, or set down the proposal without a
+   controller choosing the best candidate;
+4. loses revision advantage when that discrepancy object is ablated;
+5. carries a symbol-generic reconstruction/update operation rather than a
+   copied complete solution;
+6. later makes that operation harmful and requires operation-level structural
+   revision; and
+7. preserves exact parent identity, committed-successor rollback, provenance,
+   equal budgets, and further correction.
 
-Do not tune that prompt, grammar, schema, task family, or threshold. Reorient to
-a materially different representation and environmental pressure that permits
-attributable application of actor-invented structure without making executable
-syntax synthesis the dominant bottleneck. Calibrate opportunity, contradiction,
-machinery correction, decisive ablation, and old-carrier impossibility before
-authorizing a candidate.
+Another turn, prompt edit, validation scalar, candidate portfolio, or relaxed
+bound is insufficient. The missing affordance must causally separate proposal,
+independent validation, revision, and adoption.
 
-OT-0063's sealed summary reported promotion, but a pre-candidate audit found one
-heldout sequence reused in diagnostic contact for regimes one and two across
-all cases. The harness omitted the frozen empty-intersection gate and assigned
-the verbatim fallback instead of executing exact replay. The artifact and
-original summary remain preserved; the promotion is operationally invalidated
-with no scientific disposition.
+## Positive condition still unmet
 
-OT-0064 is unauthorized and unexecuted. Its protocol remains preserved, but no
-implementation, task, or candidate output exists and it cannot be revived. A
-new candidate-free calibration must derive disjoint diagnostic/heldout sets,
-execute exact-sequence replay causally, and rerun the complete topology and
-validity regime before any newly numbered learner authorization.
-
-OT-0065 validly promoted as that replacement. It removed
-heldouts from the diagnostic search pool, gates empty intersections, and
-executes every allowed retained-row subset through exact replay. Every other
-OT-0063 topology, compression, fixed-lineage, ablation, update, rollback,
-surface, schema, order, replay, test, audit, evidence, and privacy gate remains
-unchanged. All sixteen worlds passed twice; overlap was zero, every executed
-empty or budget-legal one-row replay scored four errors, references scored
-`[0,0,0]`, frozen predecessors exposed both contradictions, and every frozen
-control passed. Exactly one fresh OT-0066 learner is authorized. This cannot
-revive OT-0064 or rescore OT-0063 and is not representation-escape evidence.
-
-OT-0066 is implemented but unlocked, with no private task derived. It may
-consume OT-0065's sole authorization only on a task derived after the generic
-implementation commit. Two independent three-reset lineages must reach
-`[0,0,0]`, author and twice restructure bounded state topology, survive exact
-causal controls and decisive structural ablations, and reproduce under the
-locked deployment and resource regime. OT-0064 material is excluded and
-remains unauthorized.
-
-OT-0066's first candidate-free task derivation exposed a pre-lock
-serialization defect: canonical JSON restored diagnostic sequences as lists,
-but structural disjointness tried to hash them directly. The raw task is
-preserved and retired. No run lock, backend, actor context, or candidate output
-existed, so authorization remains unconsumed. A tuple-normalization repair and
-serialized-task regression must precede a distinct replacement task.
-
-The repaired OT-0066 implementation derived a distinct replacement task that
-passed sealed structural readback, but lock validation caught that its manually
-supplied 40-character implementation identity differed from clean `HEAD`. That
-task is also preserved and retired before lock or hosted execution. Task
-preparation must now prove exact clean-HEAD identity before writing bytes. The
-learner remains unexecuted and authorization unconsumed.
-
-The identity-enforcing OT-0066 implementation derived a third distinct task
-directly from verified clean `HEAD`. It passed complete structural calibration
-after sealed readback. The task, implementation, instrumented backend, model,
-TLS bundle, and every fixed input are now run-locked. The learner remains
-unexecuted and authorization unconsumed.
-
-OT-0066 validly rejected. Every operational and attribution gate passed, but
-both workers remained `[4,4,4]` and no machine committed. All six outputs were
-valid, bounded, novel, and contact-imperfect. Five used one state. The sole
-three-state proposal recovered the controller-private regime-two transition
-fingerprint but inverted all fifteen diagnostic and all eight heldout outputs.
-OT-0065's authorization is consumed and the temporal-transducer learner family
-is closed as the next route. The smallest live obstruction is reliable
-interpretation and application of completed consequences, not carrier
-expressibility alone.
-
-The next materially different family is a data-structural equivalence
-partition, not executable syntax or temporal code. OT-0067 was candidate-free:
-eight opaque symbols, explicit resolved-side completed
-consequences, a generic within/across interpreter, all set partitions as the
-controller hypothesis class, certified raw/replay insufficiency, two later
-membership contradictions, fixed lineages, decisive partition ablations, safe
-failure, and rollback. A valid pass may authorize OT-0068 only.
-
-The locked reconstruction reproduced the impossible frozen gate without any
-candidate or hosted output. Regime three has exactly four target-same pairs on which the previous
-partition is wrong; a balanced all-wrong heldout must hide all four. The
-all-singleton partition differs from the target only on those pairs, so it is
-indistinguishable from every available diagnostic. All 495 legal heldout
-choices fail. OT-0067 is rejected, preserved in a public manifest, and cannot
-authorize a learner. A successor must be a newly numbered candidate-free
-calibration that proves coexistence of predecessor harm and target
-identifiability before any learner is exposed.
-
-Candidate-free controller search found such a distinct world. OT-0068 passed
-around three two-block partitions, including a crossed
-third grouping with eight target-same and eight target-different predecessor
-contradictions. Its fixed heldouts leave all three targets uniquely identifiable
-from fifteen diagnostics. It also repairs OT-0067's resource-envelope error:
-one presentation per row and a 620-byte budget permit exactly one raw row while
-a contact-perfect maximum-identifier reference fails projection. The
-implementation must enumerate all 32,768 subsets rather than assume the row
-bound. All sixteen cases passed twice: references `[0,0,0]`, prior states
-`[4,8,8]`, minimum 877 surviving alternatives, and exact replay four for all
-sixteen legal projections. Every operational gate passed without candidate or
-hosted output. Exactly one fresh OT-0069 learner is authorized.
-
-OT-0069 validly rejected as the sole learner: two independent lineages,
-three fresh actor contexts each, exact 620-byte inheritance, completed
-resolved-side consequences, contact-perfect commit, `[0,0,0]` heldout,
-membership-level correction twice, full fixed/naive/verbatim controls,
-decisive ablations, safe failure, rollback, and instrumented hosted receipts.
-The private task was mechanically derived from exact clean implementation
-identity and every operational gate passed. Worker one scored `[0,8,0]` and
-worker two `[0,8,4]`. Both independently committed the correct initial
-grouping. At the first contradiction, one novel proposal missed one diagnostic
-relation and the other copied the harmful inherited grouping. At the second,
-one lineage reconstructed the correct grouping and the other remained
-anchored. Authorization is consumed and complete-partition replacement is
-closed as a one-shot learner family. The next representation must carry an
-actor-authored reconstruction/update operation and make that operation itself
-later falsifiable and revisable.
-
-## Prediction errors
-
-- OT-0052 showed that a zero-error proposal can be degraded by a fresh revision
-  even when its exact validation is inherited. The unresolved question is what
-  representation lets later contact choose among preserving, revising, and
-  abandoning actor-authored machinery without moving that choice into a
-  researcher-authored controller policy.
-- Digest-only retention preserved attribution for oversized proposals but may
-  discard the structure needed for reconstruction. A new family must either
-  make bounded structural alternatives available or prospectively show that
-  loss is not the limiting factor.
-- The OT-0052 rollback gate treated a rejected update as if an uncommitted
-  successor existed. Future calibration must separately test exact no-change
-  preservation and rollback of an actually committed successor.
-- OT-0054 showed that retaining alternatives cannot help when proposal
-  generation supplies no viable member. The smallest unresolved capability is
-  reliable invention of a useful structural distinction in a representation
-  that does not demand compact arithmetic-program synthesis.
-- OT-0055 showed that a descriptive state is not uniquely causal when full raw
-  contact fits in the same projection and a fresh process can re-infer from it.
-  The unresolved affordance is a world where bounded abstraction is necessary,
-  application is reliable, and raw-record insufficiency is certified rather
-  than assumed.
-- OT-0057 removed the raw-record confound but still missed exact reference
-  application in two of six regimes. The remaining bottleneck is therefore the
-  model-mediated natural-language application interface, not categorical world
-  opportunity or verbatim sufficiency. A next family must make application
-  attributable and exact without supplying the learned distinction.
-- OT-0060 exposed a sequencing failure in validity enforcement: a deterministic
-  schema-dialect gate ran only after scarce actor output. Future hosted
-  candidates must complete every locally decidable validity preflight before
-  starting the backend. The invalid outputs cannot be scientific evidence.
-- OT-0062 showed that repairing validity did not repair learner reliability.
-  Schema conformance hid a second interface boundary: fresh actors often
-  returned oversized or semantically non-Boolean expressions, while the one
-  exact committed predicate was not revised when a distinct target arrived.
-  The next family must alter the representational demand rather than add syntax
-  examples, retry the prompt, or loosen interpreter safety.
-- OT-0063 showed that a summary can satisfy implemented gates while violating a
-  frozen natural-language invariant the harness never encoded. Candidate-free
-  calibration is not low risk: set disjointness and every control's causal
-  execution must be asserted directly, not inferred from assigned scores.
-- OT-0066 pre-lock task readback showed that in-memory calibration is
-  insufficient when canonical evidence changes container types. Every private
-  task must pass the complete structural regime after serialization and
-  readback before it can enter a run lock.
-- OT-0066's valid candidate run showed that a generic structural carrier can
-  expose the right topology without yielding a usable update: one process
-  recovered the relevant transition fingerprint while inverting consequence
-  semantics, and five others collapsed to one-state machines. The next search
-  must change the consequence/application affordance or representation rather
-  than retry transducer synthesis.
+There is no reproducible promoted endogenous machinery; no machinery-level
+cross-domain transfer; no widened OT-2 standing result for a self-authored
+commitment; and no integrated lineage. No evidence supports consciousness,
+personhood, general autonomy, unrestricted self-development, or OT-3/TAAA
+progress.
