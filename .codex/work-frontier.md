@@ -107,9 +107,11 @@ one contact-perfect/five-heldout-error source are preserved as non-dispositive
 diagnostics only. The OT-0060 task is retired and cannot be retried.
 
 OT-0059's sole learner authorization remains unconsumed under the explicit
-impossible-gate rule. Before a fresh candidate, freeze and run a candidate-free
-repair that removes only the redundant schema keyword, preserves the exact
-interpreter byte bound, and moves schema-subset validation before hosted output.
+impossible-gate rule. OT-0061 is prospectively frozen as a candidate-free
+repair: remove only the redundant schema keyword, preserve exact 256/257-byte
+interpreter enforcement, prove fail-closed preflight ordering with a local
+sentinel, and rerun all 32 OT-0059 worlds without hosted output. A pass may
+authorize one fresh OT-0062 task under unchanged OT-0060 scientific gates.
 
 ## Prediction errors
 

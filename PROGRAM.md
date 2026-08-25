@@ -666,11 +666,15 @@ ablations. The immediate sequence is:
   no scientific disposition. Five sources did not commit and the sole contact-
   perfect source scored five heldout errors. Under the impossible-gate rule,
   OT-0059's authorization remains unconsumed, while the OT-0060 task is retired.
-- **Next protocol repair:** candidate-free calibration must remove only the
+- **OT-0061 (protocol frozen; unimplemented):** candidate-free calibration must remove only the
   redundant `maxLength` schema keyword, retain the interpreter's exact 256-byte
-  enforcement, and execute schema-subset validation before any hosted context.
-  A pass may reauthorize one fresh candidate on a newly derived task; it does
-  not rescore OT-0060 or alter any scientific endpoint.
+  enforcement, and execute schema-subset validation before any hosted-side
+  effect. It compares the schemas recursively, exercises exact 256/257-byte
+  interpreter boundaries, proves invalid-schema fail-closed ordering with a
+  local sentinel, and reruns the complete 32-world OT-0059 calibration without
+  candidate or hosted output. A pass may authorize exactly one fresh OT-0062
+  candidate on a newly derived task under unchanged OT-0060 scientific gates;
+  it does not rescore OT-0060 or alter any endpoint.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

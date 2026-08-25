@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0061",
+  "evaluation_epoch": "post-OT-0060 candidate-free hosted-schema preflight repair",
+  "old_schema": "fixtures/ot-0059/actor-output.schema.json",
+  "repaired_schema": "fixtures/ot-0061/actor-output.schema.json",
+  "required_removed_path": "properties.source.maxLength",
+  "old_unsupported_keywords": ["maxLength"],
+  "repaired_unsupported_keywords": [],
+  "maximum_source_bytes": 256,
+  "carrier_case_count": 32,
+  "candidate_outputs": false,
+  "hosted_model_calls": 0,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0062",
+  "claim_limit": "public deterministic protocol-repair calibration and at most one fresh OT-0062 learner authorization; no learner invention, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "the repaired schema differs from the immutable old schema only by deletion of properties.source.maxLength",
+    "the old schema has exactly unsupported keyword maxLength and the repaired schema has none",
+    "the repaired schema retains exact object, required source string, and no-extra-property validation",
+    "the independent safe interpreter accepts an exactly 256-byte safe source and rejects the same source at 257 bytes",
+    "an invalid-schema preflight raises before any hosted-start sentinel or workspace side effect and a valid-schema preflight invokes the sentinel exactly once",
+    "all 32 OT-0059 carrier worlds retain their exact promoted outcome in forward and reverse order",
+    "OT-0060 private task, actor sources, outputs, and world are absent from fixed inputs and calibration output",
+    "candidate output and hosted calls remain absent",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "OT-0060 remains operationally invalid with no scientific disposition and is never rescored.",
+    "OT-0059's sole learner authorization remains unconsumed until this calibration passes.",
+    "Removing a redundant schema constraint does not relax the interpreter-owned source limit.",
+    "OT-0062, if authorized, must use a newly derived task and unchanged scientific thresholds.",
+    "A pass is protocol validity evidence only and not endogenous-substrate evidence."
+  ]
+}
