@@ -263,6 +263,15 @@ viable member. Further search should change the actor-authored representation
 and environmental pressure, not add hypotheses around the same arithmetic
 expression carrier.
 
+A genuinely different lead is to separate descriptive rule induction from
+fresh rule application. Natural language can carry hypotheses without requiring
+the learner to synthesize bounded executable syntax, but interpretation is
+model-mediated and must be calibrated against equal-byte controls before any
+learner claim. OT-0055 tests application only; controller-authored descriptions
+are opportunity controls, never endogenous evidence
+([natural-language induction](https://arxiv.org/abs/2212.10923),
+[iterative hypothesis refinement](https://openreview.net/pdf?id=bNt7oajl2a)).
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

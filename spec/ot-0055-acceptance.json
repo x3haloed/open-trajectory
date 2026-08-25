@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0055",
+  "evaluation_epoch": "post-OT-0054 descriptive-rule application calibration",
+  "candidate_learner_outputs": false,
+  "task_regimes": 3,
+  "independent_workers": 2,
+  "application_conditions": ["private-reference-description", "byte-equal-opaque", "byte-equal-verbatim-contact"],
+  "hosted_application_turns": 18,
+  "active_choice_budget": 8,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0056",
+  "claim_limit": "private candidate-free calibration that fresh processes can causally apply a bounded descriptive rule; at most one OT-0056 learner authorization and no representation-escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "one private task is mechanically derived only after the clean generic implementation commit",
+    "both counterbalanced private-reference workers reach heldout errors [0,0,0]",
+    "every byte-equal opaque and verbatim-contact regime retains at least one error",
+    "all conditions receive identical heldout pairs, active choices, state-projection bytes, model, output budget, tools, and fresh-context treatment",
+    "deployment, response, catalog, ETag, inventory, reset, resource, test, audit, evidence, privacy, and repository-size gates pass",
+    "no learner, proposal, revision, or candidate output occurs"
+  ],
+  "red_line_review": [
+    "OT-0049, OT-0052, and OT-0054 remain rejected and are not retried or rescored.",
+    "The controller-authored reference rule proves carrier opportunity only and can never count as endogenous machinery.",
+    "A pass authorizes one learner comparison but is not representation-escape evidence.",
+    "The description template and scoring rule are never changed after reference results are unsealed."
+  ]
+}
