@@ -95,8 +95,8 @@ ablations, invalid-update parent identity, committed rollback, surface
 exclusion, order, replay, test, audit, evidence, and privacy gates. Only a full
 pass may authorize one OT-0060 learner.
 The generic interpreter, complete calibration family, structural ablations,
-safe-failure cases, and evidence path are implemented; no run lock has yet been
-frozen.
+safe-failure cases, and evidence path are prospectively locked at implementation
+`187a7b7`.
 
 ## Prediction errors
 
