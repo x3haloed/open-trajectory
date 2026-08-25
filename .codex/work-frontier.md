@@ -115,6 +115,12 @@ OT-0062 task is authorized under unchanged OT-0060 scientific gates. It must be
 newly derived and invoke the promoted preflight before any hosted-side effect;
 OT-0060 remains invalid, retired, and unrescored.
 
+OT-0062 is prospectively frozen as the sole replacement candidate. It must
+derive a new task after its generic implementation commit, retain every OT-0060
+scientific endpoint and budget, use the repaired schema, and run the OT-0061
+preflight before any hosted-side effect. OT-0060 private material is forbidden
+input. A valid rejection closes this one-shot family as the next route.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

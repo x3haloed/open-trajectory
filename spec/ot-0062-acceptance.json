@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0062",
+  "evaluation_epoch": "post-OT-0061 categorical-predicate representation-escape candidate",
+  "authorization_manifest": "evidence/manifests/OT-0061/ot-0061-hosted-schema-preflight-repair-calibration-001.json",
+  "retired_task_sha256": "7f182fe7c79132dd410e2109871c38534da08dec0042ef4c4715a773c5c70478",
+  "independent_workers": 2,
+  "regimes_per_worker": 3,
+  "fresh_contexts_per_worker": 3,
+  "active_inheritance_byte_limit": 1024,
+  "maximum_source_bytes": 256,
+  "maximum_ast_nodes": 31,
+  "deployment_epoch": {"requested_model": "gpt-5.6-luna"},
+  "direct_inventory": {
+    "sha256": "b970b69dbf7459cc52d3aeca3d02ed9ece172abaa3378d3fbea5a9ca8bc50841",
+    "tool_count": 3
+  },
+  "resource_budget": {
+    "actor_turns": 6,
+    "output_tokens_per_turn": 4000,
+    "actor_input_tokens_total": 250000,
+    "actor_output_tokens_total": 24000,
+    "wall_seconds": 1200,
+    "actor_tool_calls": 0
+  },
+  "claim_limit": "private time-bounded first categorical-predicate representation-escape foothold if every gate passes; no transfer, widened OT-2, integrated developmental, consciousness, personhood, general autonomy, unrestricted self-development, or OT-3 evidence",
+  "promotion_gate": [
+    "one private task is mechanically derived only after the clean generic implementation commit and OT-0061 authorization is unconsumed; its seed and hash differ from retired OT-0060",
+    "the OT-0061 supported-schema preflight passes before workspace, proxy, backend, or actor-output side effects",
+    "both independent workers commit safe contact-perfect actor-authored sources and reach heldout errors [0,0,0]",
+    "the first source becomes maximally harmful under contradiction, the second fails the distinct third target, and fresh updates recover",
+    "every committed source and snapshot is exact, bounded, absent from its parent and actor-reachable fixed inputs, and deterministically replayable",
+    "withholding the completed receipt preserves the exact parent in every regime",
+    "unchanged, no-persistence, digest, allowed verbatim, every real four-weight projection, and every fixed predicate lineage fail the complete endpoint under equal capacity",
+    "constant-AST, actor-literal deletion, and complete-source deletion each remove the candidate advantage",
+    "invalid, unsafe, oversized, and contact-imperfect outputs preserve the exact parent; committed restore and rollback are exact",
+    "all six encounters have distinct fresh threads, workspaces, and responses with exact model, catalog, ETag, inventory, parse, tool, resource, and causal-boundary receipts",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "OT-0060's private task, actor-authored sources, outputs, world, and diagnostics are forbidden actor or task inputs and cannot change this protocol.",
+    "OT-0059's hidden reference source is excluded from every actor-reachable input and comparison success cannot count as actor invention.",
+    "The interpreter remains an explicit researcher-built causal exoskeleton; only actor-authored structural state and its corrections are candidate evidence.",
+    "A source that merely encodes weights, selects a researcher-authored mode, copies a solved witness, or fails either decisive ablation is rejected.",
+    "Self-report, explanation, apparent insight, and syntax resemblance are not outcome evidence.",
+    "A pass is Phase I only and cannot trigger widened OT-2 before a separately calibrated cross-domain transfer test."
+  ]
+}

@@ -682,6 +682,16 @@ ablations. The immediate sequence is:
   and hosted output remained absent. Exactly one fresh OT-0062 learner is now
   authorized under the unchanged OT-0060 scientific gate and a newly derived
   task; OT-0060 remains invalid and unrescored.
+- **OT-0062 (protocol frozen; unimplemented):** execute exactly one replacement
+  learner on a new private task derived only after the generic implementation
+  commit. Preserve OT-0060's prompt, orientation, scientific endpoints,
+  controls, deployment identity, and resource budgets; use only OT-0061's
+  repaired schema and require its preflight before workspace, proxy, backend,
+  or actor-output side effects. OT-0060's task, outputs, sources, world, and
+  diagnostics are forbidden inputs. A valid `[0,0,0]` result in both workers
+  with every causal and ablation gate may establish the first bounded Phase I
+  foothold; a valid rejection consumes the authorization and closes this
+  one-shot family as the next route.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
