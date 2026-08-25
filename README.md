@@ -180,6 +180,15 @@ learner. It is environment and correction-opportunity evidence only, not actor
 invention or representation escape; OT-0063 remains invalid and OT-0064 remains
 unauthorized.
 
+OT-0066 consumed that authorization in a valid two-worker candidate run. Every
+operational and attribution gate passed, but neither lineage committed a
+machine and both remained `[4,4,4]`. Five of six valid bounded proposals were
+one-state machines; the only three-state proposal recovered the relevant
+transition topology while inverting every diagnostic and heldout output. The
+temporal-transducer learner family is therefore closed as the next route. This
+is negative evidence: carrier expressibility and topology opportunity did not
+become consequence-grounded construction or correction.
+
 ## Quick start
 
 Requires Python 3.11 or newer. The evidence CLI has no runtime dependencies;

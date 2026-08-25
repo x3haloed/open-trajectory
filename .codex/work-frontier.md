@@ -182,6 +182,16 @@ after sealed readback. The task, implementation, instrumented backend, model,
 TLS bundle, and every fixed input are now run-locked. The learner remains
 unexecuted and authorization unconsumed.
 
+OT-0066 validly rejected. Every operational and attribution gate passed, but
+both workers remained `[4,4,4]` and no machine committed. All six outputs were
+valid, bounded, novel, and contact-imperfect. Five used one state. The sole
+three-state proposal recovered the controller-private regime-two transition
+fingerprint but inverted all fifteen diagnostic and all eight heldout outputs.
+OT-0065's authorization is consumed and the temporal-transducer learner family
+is closed as the next route. The smallest live obstruction is reliable
+interpretation and application of completed consequences, not carrier
+expressibility alone.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision
@@ -228,3 +238,9 @@ unexecuted and authorization unconsumed.
   insufficient when canonical evidence changes container types. Every private
   task must pass the complete structural regime after serialization and
   readback before it can enter a run lock.
+- OT-0066's valid candidate run showed that a generic structural carrier can
+  expose the right topology without yielding a usable update: one process
+  recovered the relevant transition fingerprint while inverting consequence
+  semantics, and five others collapsed to one-state machines. The next search
+  must change the consequence/application affordance or representation rather
+  than retry transducer synthesis.

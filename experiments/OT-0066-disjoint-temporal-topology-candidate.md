@@ -1,6 +1,6 @@
 # OT-0066 — Disjoint temporal-topology candidate
 
-- **Status:** run-locked; unexecuted; two pre-lock tasks retired
+- **Status:** rejected; authorization consumed; temporal-transducer learner family closed
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** promoted OT-0065; exactly one fresh learner candidate
@@ -129,3 +129,33 @@ from its verified clean `HEAD`. That task passed the complete structural regime
 after sealed readback. Its task identity, implementation, instrumented backend,
 TLS bundle, model, and every fixed input are frozen in
 `spec/ot-0066-run-lock.json`. No actor output has occurred.
+
+## Result and decision
+
+The locked private-reproducible run was valid and rejected. All six fresh
+contexts completed with distinct threads, workspaces, and response receipts.
+The exact model, catalog, ETag, inventory, schema, prehosted sequencing, parse,
+tool, hidden-authority, projection, usage, wall-clock, test, audit, evidence,
+privacy, and repository-size gates passed. Structural calibration retained zero
+diagnostic/heldout overlap, actual replay errors of four for every budget-legal
+projection, hidden-reference `[0,0,0]`, and the frozen contradictions.
+
+Neither lineage committed a machine. Candidate and pre-update errors were
+`[4,4,4]` for both workers. All six actor outputs were valid, bounded, novel
+machines but contact-imperfect. Their state counts were `[1,3,1]` and
+`[1,1,1]`; contact errors were `[7,15,6]` and `[7,11,6]`. Five proposals were
+one-state topologies. The remaining three-state proposal reproduced the
+controller-private regime-two transition fingerprint while assigning the
+opposite output semantics: it was wrong on all fifteen diagnostic sequences
+and all eight heldouts. Safe update validation preserved the exact parent in
+every encounter.
+
+Final disposition: `rejected`. OT-0065's sole authorization is consumed and the
+one-shot temporal-transducer learner family is closed as the next route. The
+result does not establish representation escape. It narrows the obstruction:
+the generic carrier can express the needed topology, and one fresh process can
+recover that topology shape, but the lineage did not reliably interpret
+completed consequences, construct a contact-perfect machine, commit one, or
+reach later machinery correction. Do not tune this prompt, task, schema,
+transducer grammar, or threshold. The private artifact is identified by
+`evidence/manifests/OT-0066/ot-0066-disjoint-temporal-topology-candidate-001.json`.

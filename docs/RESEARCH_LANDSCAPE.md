@@ -396,6 +396,17 @@ authorizes one fresh OT-0066 learner comparison. It strengthens the case that
 temporal topology is a valid next search space, but supplies no evidence yet
 that a fresh process can construct or revise that topology.
 
+OT-0066 tested that question validly and rejected it. Both independent
+lineages remained `[4,4,4]`; all six proposals were valid and bounded but
+contact-imperfect, and no topology committed. Five proposals collapsed to one
+state. One proposal recovered the controller-private regime-two transition
+fingerprint but inverted all diagnostic and heldout outputs. This distinguishes
+structural expressibility from grounded application: exposing a generic graph
+or transducer carrier does not ensure that fresh processes interpret completed
+consequences correctly enough to construct or revise it. The next search
+should change the representation or consequence/application affordance, not
+add transducer examples or retry its prompt.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

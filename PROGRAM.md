@@ -768,7 +768,7 @@ ablations. The immediate sequence is:
   surface, schema, replay, test, audit, evidence, and privacy gate passed with
   no candidate or hosted output. This validly authorizes exactly one newly
   frozen OT-0066 learner and remains opportunity evidence only.
-- **OT-0066 (run-locked; unexecuted; two pre-lock tasks retired):** consume
+- **OT-0066 (rejected; authorization consumed; family closed):** consume
   OT-0065's sole
   authorization only after a generic implementation commit and a newly derived
   private task. Two independent three-reset lineages must author contact-
@@ -792,7 +792,17 @@ ablations. The immediate sequence is:
   identity-enforcing implementation then derived a third distinct task from
   verified clean `HEAD`; it passed complete structural calibration after
   sealed readback and is now run-locked with the instrumented backend, model,
-  TLS bundle, and all fixed inputs. No actor output has occurred.
+  TLS bundle, and all fixed inputs. The valid run completed all six fresh
+  contexts with every operational gate passing but rejected the endpoint.
+  Candidate and pre-update errors were `[4,4,4]` for both workers; no machine
+  committed. All outputs were valid, bounded, novel, and contact-imperfect.
+  State counts were `[1,3,1]` and `[1,1,1]`, with contact errors `[7,15,6]`
+  and `[7,11,6]`. The sole three-state output recovered the regime-two
+  transition fingerprint but inverted every diagnostic and heldout output.
+  Authorization is consumed and this one-shot temporal-transducer learner
+  family is closed. The next route must change the representation or
+  consequence/application affordance, not this prompt, task, grammar, schema,
+  or threshold.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
