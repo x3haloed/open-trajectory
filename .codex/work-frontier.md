@@ -169,6 +169,13 @@ preserved and retired. No run lock, backend, actor context, or candidate output
 existed, so authorization remains unconsumed. A tuple-normalization repair and
 serialized-task regression must precede a distinct replacement task.
 
+The repaired OT-0066 implementation derived a distinct replacement task that
+passed sealed structural readback, but lock validation caught that its manually
+supplied 40-character implementation identity differed from clean `HEAD`. That
+task is also preserved and retired before lock or hosted execution. Task
+preparation must now prove exact clean-HEAD identity before writing bytes. The
+learner remains unexecuted and authorization unconsumed.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

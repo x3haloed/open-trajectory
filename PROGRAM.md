@@ -768,7 +768,8 @@ ablations. The immediate sequence is:
   surface, schema, replay, test, audit, evidence, and privacy gate passed with
   no candidate or hosted output. This validly authorizes exactly one newly
   frozen OT-0066 learner and remains opportunity evidence only.
-- **OT-0066 (implemented; unlocked; no task derived):** consume OT-0065's sole
+- **OT-0066 (implemented; unlocked; two pre-lock tasks retired):** consume
+  OT-0065's sole
   authorization only after a generic implementation commit and a newly derived
   private task. Two independent three-reset lineages must author contact-
   perfect bounded transducers, reach `[0,0,0]`, and materially change topology
@@ -783,7 +784,11 @@ ablations. The immediate sequence is:
   normalization defect during immediate structural readback. No hosted side
   effect or candidate output occurred; the task is retired, the authorization
   remains unconsumed, and a narrow repaired implementation must precede a
-  distinct replacement task.
+  distinct replacement task. That replacement passed sealed structural
+  readback, but lock validation caught that its manually supplied 40-character
+  implementation identity differed from clean `HEAD`. It too is retired before
+  lock or hosted execution. Task preparation must now prove exact clean-HEAD
+  identity before writing another task; authorization remains unconsumed.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

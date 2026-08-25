@@ -331,7 +331,20 @@ def fixed_input_paths() -> dict[str, Path]:
     }
 
 
-def prepare_task_manifest(path: Path, implementation_commit: str) -> dict[str, Any]:
+def require_task_derivation_identity(
+    repo: Path, implementation_commit: str
+) -> None:
+    expected_task_seed(implementation_commit)
+    if git_output(repo, "status", "--porcelain=v1"):
+        raise RuntimeError("OT-0066 task derivation requires a clean implementation")
+    if git_output(repo, "rev-parse", "HEAD") != implementation_commit:
+        raise RuntimeError("OT-0066 task derivation identity differs from clean HEAD")
+
+
+def prepare_task_manifest(
+    repo: Path, path: Path, implementation_commit: str
+) -> dict[str, Any]:
+    require_task_derivation_identity(repo, implementation_commit)
     task = build_task(expected_task_seed(implementation_commit))
     validate_task(task)
     structural = structural_calibration(task)
@@ -1324,7 +1337,9 @@ def main(argv: list[str] | None = None) -> int:
         print(
             json.dumps(
                 prepare_task_manifest(
-                    args.prepare_task_manifest.resolve(), args.implementation_commit
+                    repo,
+                    args.prepare_task_manifest.resolve(),
+                    args.implementation_commit,
                 ),
                 sort_keys=True,
             )

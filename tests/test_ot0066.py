@@ -16,6 +16,7 @@ from open_trajectory_harness.ot0066 import (
     execute_worker,
     expected_task_seed,
     machine_novelty,
+    require_task_derivation_identity,
     structural_calibration,
     validate_task,
     worker_contact,
@@ -52,6 +53,17 @@ class OT0066Tests(unittest.TestCase):
         self.assertLess(
             source.index("workspace.mkdir"), source.index("SanitizedResponsesProxy")
         )
+
+    def test_task_derivation_requires_exact_clean_head(self) -> None:
+        commit = "a" * 40
+
+        def clean_head(repo, *args):
+            return "" if args[0] == "status" else commit
+
+        with patch.object(ot0066, "git_output", side_effect=clean_head):
+            require_task_derivation_identity(Path.cwd(), commit)
+            with self.assertRaises(RuntimeError):
+                require_task_derivation_identity(Path.cwd(), "b" * 40)
 
     def test_worker_counterbalance_changes_order_only(self) -> None:
         contact = self.task["world"]["regimes"][0]["contact"]

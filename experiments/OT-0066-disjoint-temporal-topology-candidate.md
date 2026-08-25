@@ -1,6 +1,6 @@
 # OT-0066 — Disjoint temporal-topology candidate
 
-- **Status:** implemented; unlocked; no task derived
+- **Status:** implemented; unlocked; two pre-lock tasks retired
 - **Evidence class:** private-reproducible if valid
 - **Target:** first bounded endogenous-substrate foothold
 - **Authorization:** promoted OT-0065; exactly one fresh learner candidate
@@ -116,3 +116,10 @@ The raw task remains preserved as invalid pre-lock material; it cannot be run.
 A narrow tuple-normalization repair and serialized-task regression test must be
 committed before deriving a distinct replacement task from the repaired
 implementation identity. The authorization remains unconsumed.
+
+The repaired implementation then derived a distinct replacement task that
+passed sealed readback, but lock validation showed that its manually supplied
+40-character implementation identity did not equal the actual clean `HEAD`.
+That task is also preserved and retired before lock or hosted execution. Task
+preparation must now fail closed unless the supplied full identity equals a
+clean `HEAD`; only another repaired implementation may derive the next task.
