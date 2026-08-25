@@ -99,10 +99,14 @@ constant/literal ablations, exact unsafe-update preservation, committed
 rollback, interpreter safety, surface, order, replay, test, audit, evidence,
 and privacy gates. No actor or hosted output occurred.
 
-Exactly one fresh OT-0060 learner is authorized. Its protocol must freeze the
+Exactly one fresh OT-0060 learner is authorized. Its protocol freezes the
 three-regime, two-worker, six-context candidate path and all causal ablations
-before deriving a new private task. OT-0059's hidden reference source must not
-enter any actor-reachable input.
+before deriving a new private task. Both workers must reach `[0,0,0]`; later
+contradiction and target change must force two source corrections; no-credit,
+constant-AST, actor-literal deletion, complete-source deletion, old-carrier,
+fixed, verbatim, invalid-update, restore, rollback, reset, deployment, resource,
+replay, test, audit, evidence, and privacy gates are frozen. OT-0059's hidden
+reference source must not enter any actor-reachable input.
 
 ## Prediction errors
 
