@@ -347,6 +347,27 @@ next learner route. The informative boundary is no longer carrier expression
 or deterministic application; it is reliable construction and revision of the
 carrier by fresh actors under sparse consequence evidence.
 
+Current work on dynamic memory organization suggests topology as a useful next
+search axis without supplying evidence for this program. A-MEM lets generated
+notes acquire attributes and links that evolve as later notes arrive
+([A-MEM](https://arxiv.org/abs/2502.12110)); SAGE couples a graph-memory writer
+to a reader whose retrieval feedback changes later graph construction
+([SAGE](https://arxiv.org/abs/2605.12061)). Both systems preinstall substantial
+note, graph, reader, and optimization machinery and primarily score retrieval or
+downstream answers. Their relevant hypothesis is narrower: actor-authored
+topology may be easier to construct and revise than executable source while
+remaining inspectable and ablatable. It must still be tested against fixed
+topology, content-only change, stale-graph harm, and later correction.
+
+OT-0063 prospectively instantiates the smallest version of that hypothesis as a
+temporal finite-state world, not by importing either architecture. Final events
+omit cue history, making every current-event selector stateless and provably
+insufficient. A generic bounded transducer permits actor-chosen states and
+edges; hidden references test opportunity across parity, suffix, and modular-
+count regimes. The topology must change between regimes, and state collapse,
+per-cue reset, transition deletion, and cue-edge deletion are decisive
+ablations. Candidate-free calibration must pass before any learner is exposed.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

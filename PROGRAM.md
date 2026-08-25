@@ -706,6 +706,17 @@ ablations. The immediate sequence is:
   without requiring reliable executable-syntax synthesis. It must still expose
   machinery-level contradiction, correction, ablation, and old-carrier
   impossibility before any candidate is authorized.
+- **OT-0063 (protocol frozen; unimplemented):** calibrate a sequential world in
+  which final events omit cue history, so every four-weight and stateless
+  current-event policy is structurally fixed at four of eight errors. A generic
+  bounded finite-state transducer permits arbitrary actor-chosen state IDs,
+  outputs, and cue transitions without naming parity, suffix, modular count, or
+  a desirable topology. Hidden references must solve three temporal regimes,
+  become maximally wrong then structurally incomplete, and correct through
+  distinct topology fingerprints. Freeze compression, fixed lineages,
+  one-state, reset, transition, cue-edge, invalid-update, rollback, surface,
+  replay, test, audit, evidence, and privacy gates without candidate or hosted
+  output. A complete pass may authorize one fresh OT-0064 learner only.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

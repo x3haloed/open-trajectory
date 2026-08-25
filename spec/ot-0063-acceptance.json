@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0063",
+  "evaluation_epoch": "post-OT-0062 candidate-free temporal state-topology calibration",
+  "scenario_count": 16,
+  "cue_count": 2,
+  "diagnostic_bundle_count": 15,
+  "presentations_per_bundle": 4,
+  "heldout_choices_per_regime": 8,
+  "regime_count": 3,
+  "active_inheritance_byte_limit": 1024,
+  "minimum_complete_row_bytes": 513,
+  "maximum_allowed_rows": 1,
+  "minimum_temporal_hypotheses": 12,
+  "maximum_machine_states": 6,
+  "candidate_outputs": false,
+  "hosted_model_calls": 0,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0064",
+  "claim_limit": "public deterministic temporal-world and generic state-topology carrier calibration with at most one fresh OT-0064 learner authorization; no actor invention, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all sixteen temporal worlds pass twice in forward and reverse order without candidate or hosted output",
+    "every real four-weight setting and every stateless current-event policy is endpoint-equivalent and wrong on four heldout choices in every regime",
+    "hidden reference machines reach [0,0,0], the first is wrong on all eight contradiction heldouts, the second is wrong on at least four distinct-third-regime heldouts, and corrections recover",
+    "reference topology fingerprints change between regimes and an output-only change cannot satisfy correction",
+    "the raw fifteen-bundle contact exceeds 1024 bytes, at most one complete row fits, and every allowed exact-row projection leaves at least two heldout-divergent temporal hypotheses",
+    "empty, digest, verbatim, fixed-side, alternating, stateless, frozen-prior, and every fixed reference-machine lineage fail the complete endpoint",
+    "one-state collapse, per-cue reset, necessary-transition deletion, and actor-variable cue-edge deletion each remove the reference advantage",
+    "the generic carrier validates exact cue authority, determinism, completeness, reachability, byte/state bounds, safe failure, identity, restore, and rollback",
+    "actor-reachable generic surfaces contain no parity, suffix, modulo, reference machine, solved sequence, regime, or topology hint",
+    "the output schema uses only the supported hosted subset",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "The finite-state interpreter is an explicit causal exoskeleton; hidden machines prove opportunity only.",
+    "A future learner must author a state/transition topology and later materially change it; selecting a supplied mode or changing only an output label is rejected.",
+    "OT-0062 remains rejected and its predicate prompt, grammar, schema, task family, and thresholds stay closed.",
+    "External graph-memory architectures are hypothesis sources only and are not imported as substrate implementations.",
+    "A pass authorizes one learner comparison but is not representation-escape evidence."
+  ]
+}

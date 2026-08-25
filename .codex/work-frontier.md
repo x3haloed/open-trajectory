@@ -130,6 +130,14 @@ syntax synthesis the dominant bottleneck. Calibrate opportunity, contradiction,
 machinery correction, decisive ablation, and old-carrier impossibility before
 authorizing a candidate.
 
+OT-0063 is prospectively frozen as that candidate-free calibration. Its
+sequential world hides cue history from final-event selectors; a generic
+finite-state transducer exposes actor-chosen state and transition topology.
+Parity, suffix, and modular-count regimes force distinct reference topologies,
+later harm, and correction. Compression, stateless impossibility, fixed
+lineages, state/transition/cue-edge ablations, safe update, rollback, surface,
+schema, replay, test, audit, evidence, and privacy gates precede any learner.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision
