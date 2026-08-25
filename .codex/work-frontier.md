@@ -210,6 +210,16 @@ authorize a learner. A successor must be a newly numbered candidate-free
 calibration that proves coexistence of predecessor harm and target
 identifiability before any learner is exposed.
 
+Candidate-free controller search found such a distinct world. OT-0068 is now
+prospectively frozen around three two-block partitions, including a crossed
+third grouping with eight target-same and eight target-different predecessor
+contradictions. Its fixed heldouts leave all three targets uniquely identifiable
+from fifteen diagnostics. It also repairs OT-0067's resource-envelope error:
+one presentation per row and a 620-byte budget permit exactly one raw row while
+a contact-perfect maximum-identifier reference fails projection. The
+implementation must enumerate all 32,768 subsets rather than assume the row
+bound. A pass may authorize OT-0069 only.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision
