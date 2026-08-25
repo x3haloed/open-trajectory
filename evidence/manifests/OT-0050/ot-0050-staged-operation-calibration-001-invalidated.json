@@ -1,0 +1,36 @@
+{
+  "artifact_id": "ot-0050-staged-operation-calibration-001-invalidated",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 106126,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "716504561d938041a101f9ba606cf9a4b4b20a4e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0050",
+  "input_manifests": [
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json",
+    "evidence/manifests/OT-0049/ot-0049-e12-representation-escape-candidate-001.json"
+  ],
+  "kind": "staged-operation-calibration-invalidated",
+  "limitations": [
+    "The frozen evidence-class token was rejected by the recorder; no scientific calibration disposition or OT-0051 authorization exists.",
+    "Candidate actor outputs and hosted model calls were forbidden and none occurred.",
+    "The retained raw output is operational invalidation evidence only and must not be rescored as a promoted calibration."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0050-staged-operation-calibration-001-invalidated",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "28f3aa0c67c7b71dc0c824b663f5293da73eabf8596be5e29e4420644d50bae6"
+}

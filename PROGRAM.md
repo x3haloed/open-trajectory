@@ -470,7 +470,7 @@ ablations. The immediate sequence is:
   evidence, and privacy paths remained valid. E12 is consumed. This closes
   reliable one-shot executable synthesis from one consequence packet under
   the frozen interface, not the expressiveness of executable operations.
-- **OT-0050 (locked; unexecuted; candidate-free only):** calibrate a
+- **OT-0050:** attempted to calibrate a
   materially different staged operation-construction world before authorizing
   any candidate. A provisional actor-authored operation must receive an
   independent completed-contact residual and validity receipt before a later
@@ -479,7 +479,16 @@ ablations. The immediate sequence is:
   reusable structure, heldout generalization, and later contradiction without
   revealing a useful operation or converting controller search into the
   candidate. Freeze equal-budget one-shot, fixed, no-persistence, verbatim,
-  and oracle-opportunity controls; no candidate is currently authorized.
+  and oracle-opportunity controls. The deterministic computation completed,
+  but the recorder rejected the frozen `public` evidence-class token before a
+  scientific manifest existed. Operationally invalidated with no candidate or
+  hosted output and no authorization. The raw artifact is retained as
+  exploratory invalidation evidence and is not rescored.
+- **OT-0051 (next; candidate-free only):** prospectively repeat the unchanged
+  staged calibration with the repository's valid `public-reconstructible`
+  evidence class. No scientific gate, proposal family, threshold, task order,
+  or future candidate resource changes. A pass may authorize at most one fresh
+  OT-0052 candidate; no candidate is currently authorized.
 - Only then widen OT-2 toward reconstructed direction, reasons that retain
   standing, legitimate revision or supersession, and continuity across
   qualitatively different domains.

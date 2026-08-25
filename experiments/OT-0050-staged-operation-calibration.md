@@ -1,6 +1,6 @@
 # OT-0050 — Staged operation-construction calibration
 
-- **Status:** prospectively locked; unexecuted
+- **Status:** operationally invalidated; no authorization
 - **Evidence class:** public deterministic calibration if promoted
 - **Target:** candidate-free representation-escape protocol repair
 - **Candidate actor output:** forbidden
@@ -64,3 +64,17 @@ The candidate-free implementation is frozen at `6d6e292`. Its acceptance
 rule, orientation, controller, semantic bounds, tests, evidence tooling, and
 OT-0048/OT-0049 predecessor manifests are fixed by
 `spec/ot-0050-run-lock.json`. No candidate output or hosted call exists.
+
+## Result and decision
+
+The locked execution at `7165045` completed its deterministic computation but
+the evidence recorder rejected the frozen `public` evidence-class token. The
+repository's valid public token is `public-reconstructible`. No scientific
+calibration manifest was created by the harness, so the computed gates are not
+promoted or rescored. No actor output or hosted call occurred.
+
+Final disposition: `invalidated`. OT-0050 authorizes no candidate. Its raw
+operational output is preserved only as exploratory invalidation evidence by
+`evidence/manifests/OT-0050/ot-0050-staged-operation-calibration-001-invalidated.json`.
+A new candidate-free experiment must prospectively freeze the valid evidence
+class before repeating the calibration; it may not reinterpret this run.

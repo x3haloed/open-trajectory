@@ -46,7 +46,11 @@ provisional projections within 512 bytes, and pass no-credit, scaled-holdout,
 parent, restoration, surface-exclusion, reverse-order, replay, test, audit, and
 privacy gates before any OT-0051 authorization exists.
 
-Implementation `6d6e292` and all protected calibration inputs are now locked.
-The candidate-free public run is the only active comparison.
+OT-0050 was operationally invalidated because the recorder rejected its frozen
+`public` evidence-class token after deterministic computation. The raw output
+is retained as exploratory invalidation evidence; it creates no calibration
+disposition or authorization. OT-0051 must prospectively repeat the unchanged
+candidate-free design using `public-reconstructible`. No scientific gate,
+proposal family, threshold, task order, or candidate resource may change.
 
 ## Prediction errors
