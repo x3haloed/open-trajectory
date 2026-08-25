@@ -827,7 +827,7 @@ ablations. The immediate sequence is:
   membership-level correction, safe failure, rollback, and surface exclusions
   before authorizing any learner. Do not reuse OT-0067's nonexistent
   authorization or weaken its gate.
-- **OT-0068 (protocol frozen; unimplemented):** prospectively repairs the
+- **OT-0068 (implemented; unlocked):** prospectively repairs the
   relational world rather than OT-0067's acceptance. Freeze three two-block
   partitions whose sealed balanced heldouts leave every target uniquely
   identifiable among all 4,140 partitions while making the preceding
