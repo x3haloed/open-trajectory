@@ -143,6 +143,13 @@ new candidate-free calibration must derive disjoint diagnostic/heldout sets,
 execute exact-sequence replay causally, and rerun the complete topology and
 validity regime before any newly numbered learner authorization.
 
+OT-0065 is prospectively frozen as that replacement. It removes heldouts from
+the diagnostic search pool, gates empty intersections, and executes every
+allowed retained-row subset through exact replay. Every other OT-0063 topology,
+compression, fixed-lineage, ablation, update, rollback, surface, schema, order,
+replay, test, audit, evidence, and privacy gate remains unchanged. A pass may
+authorize OT-0066 only and cannot revive OT-0064 or rescore OT-0063.
+
 ## Prediction errors
 
 - OT-0052 showed that a zero-error proposal can be degraded by a fresh revision

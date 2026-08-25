@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0065",
+  "evaluation_epoch": "post-OT-0063 disjoint temporal-topology replacement calibration",
+  "scenario_count": 16,
+  "cue_count": 2,
+  "diagnostic_bundle_count": 15,
+  "presentations_per_bundle": 4,
+  "heldout_choices_per_regime": 8,
+  "regime_count": 3,
+  "active_inheritance_byte_limit": 1024,
+  "minimum_complete_row_bytes": 513,
+  "maximum_allowed_rows": 1,
+  "minimum_temporal_hypotheses": 12,
+  "maximum_machine_states": 6,
+  "candidate_outputs": false,
+  "hosted_model_calls": 0,
+  "authorized_candidate_count": 1,
+  "future_candidate_experiment_id": "OT-0066",
+  "claim_limit": "public deterministic disjoint temporal-world and generic state-topology carrier calibration with at most one fresh OT-0066 learner authorization; no actor invention, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all sixteen newly derived temporal worlds pass twice in forward and reverse order without candidate or hosted output",
+    "diagnostic and heldout cue-sequence sets have empty intersection in every regime",
+    "every allowed exact-row projection is executed through exact-sequence replay and incurs four heldout errors in every regime",
+    "every real four-weight setting and every stateless current-event policy is endpoint-equivalent and wrong on four heldout choices in every regime",
+    "hidden references reach [0,0,0], frozen first errors are [0,8,3], frozen second errors are [4,0,8], and corrections recover",
+    "reference topology fingerprints change between regimes and output-only relabeling cannot satisfy contact",
+    "the raw fifteen-bundle contact exceeds 1024 bytes, at most one complete row fits, and every allowed projection leaves at least two heldout-divergent temporal hypotheses",
+    "empty, digest, no-persistence, fixed-side, alternating, stateless, and every fixed reference-machine lineage fail the complete endpoint",
+    "one-state collapse, per-cue reset, transition deletion, and cue-edge deletion each remove the reference advantage",
+    "invalid, incomplete, unreachable, over-budget, and contact-imperfect updates preserve exact parents; identity, restore, and rollback are exact",
+    "actor-reachable generic surfaces contain no reference temporal rule, solved sequence, machine, regime, or desirable topology",
+    "the output schema uses only the supported hosted subset",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "OT-0063 remains operationally invalid and its original summary is never rescored.",
+    "OT-0064 remains unauthorized and unexecuted and cannot be revived by this result.",
+    "Exact replay must be executed from inherited rows; assigned control scores are forbidden.",
+    "The finite-state interpreter remains an explicit causal exoskeleton; hidden machines prove opportunity only.",
+    "A pass authorizes one newly numbered learner comparison but is not representation-escape evidence."
+  ]
+}

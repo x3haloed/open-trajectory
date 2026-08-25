@@ -750,6 +750,14 @@ ablations. The immediate sequence is:
   every topology, compression, fixed-control, ablation, update, rollback,
   surface, schema, replay, test, audit, evidence, and privacy gate before a
   newly numbered learner can be authorized.
+- **OT-0065 (protocol frozen; unimplemented):** prospectively replace OT-0063
+  without rescoring it. Derive new temporal worlds after removing heldout
+  sequences from the diagnostic pool, assert empty intersections, enumerate
+  every allowed retained-row subset, and execute exact-sequence replay against
+  heldouts. Preserve every other world, topology, compression, fixed-control,
+  ablation, safe-failure, identity, rollback, surface, schema, order, replay,
+  test, audit, evidence, and privacy gate. A complete pass may authorize one
+  fresh OT-0066 learner only; OT-0064 remains unauthorized.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
