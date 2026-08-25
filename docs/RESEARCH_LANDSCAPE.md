@@ -440,6 +440,15 @@ equivalence structure observable to distinguish grouping from singleton
 memorization. A successor environment should establish that combinatorial
 property prospectively before learner authorization.
 
+OT-0068 established that property in a newly frozen world rather than rescoring
+OT-0067. Three two-block partitions retained balanced predecessor-wrong
+contradictions while leaving every target identifiable. Across sixteen worlds,
+all 32,768 raw-row subsets per regime were measured; at most one row fit, at
+least 877 heldout-divergent partitions survived, and exact replay stayed at
+four errors. The generic equivalence-partition carrier and correction
+opportunity are therefore calibrated for one learner comparison. Whether a
+fresh process constructs and revises the grouping remains completely open.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more

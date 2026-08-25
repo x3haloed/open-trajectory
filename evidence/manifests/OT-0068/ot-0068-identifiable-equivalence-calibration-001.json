@@ -1,0 +1,38 @@
+{
+  "artifact_id": "ot-0068-identifiable-equivalence-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 77039,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7e600815ea6f0148729f6f98b777ea94693b026a",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0068",
+  "input_manifests": [
+    "evidence/manifests/OT-0067/ot-0067-equivalence-partition-calibration-001.json",
+    "evidence/manifests/OT-0066/ot-0066-disjoint-temporal-topology-candidate-001.json",
+    "evidence/manifests/OT-0065/ot-0065-temporal-state-topology-calibration-001.json",
+    "evidence/manifests/OT-0048/ot-0048-representation-escape-calibration-001.json"
+  ],
+  "kind": "identifiable-equivalence-partition-candidate-free-calibration",
+  "limitations": [
+    "Candidate output and hosted model calls are forbidden.",
+    "Controller-private reference partitions prove opportunity only and are not endogenous evidence.",
+    "A pass authorizes at most one fresh OT-0069 learner and is not representation-escape evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0068-identifiable-equivalence-calibration-001",
+    "recipe": "PYTHONPATH=src python3 experiments/ot_0068_harness.py --output $EVIDENCE/runs/OT-0068/ot-0068-identifiable-equivalence-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "76d8d42c59e257d2d4e5ac0d612cc69bedaebbffe26984cd454119b7bce973f6"
+}

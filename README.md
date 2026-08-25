@@ -198,6 +198,14 @@ preserves all 495 failing heldout choices. No learner is authorized; a newly
 numbered relational calibration must first prove that old-carrier harm and
 target identifiability can coexist.
 
+OT-0068 supplied that prospective replacement and passed all sixteen public
+candidate-free worlds. Every target was uniquely identifiable among 4,140
+partitions; all 32,768 raw-row subsets per regime were measured; at most one
+row fit; at least 877 heldout-divergent alternatives survived; and exact replay
+remained at four errors. This authorizes one fresh OT-0069 learner comparison.
+It is calibrated opportunity only, not actor invention or representation
+escape.
+
 ## Quick start
 
 Requires Python 3.11 or newer. The evidence CLI has no runtime dependencies;

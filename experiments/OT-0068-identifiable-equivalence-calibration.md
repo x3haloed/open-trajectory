@@ -1,6 +1,6 @@
 # OT-0068 — Identifiable equivalence-partition calibration
 
-- **Status:** run-locked; unexecuted
+- **Status:** promoted; one fresh OT-0069 learner authorized
 - **Evidence class:** public-reconstructible if valid
 - **Target:** candidate-free relational-distinction environment and carrier
 - **Candidate output:** forbidden
@@ -97,3 +97,25 @@ generic-carrier, impossibility, correction-opportunity, and control evidence
 only. It is not actor invention, representation escape, transfer, widened
 OT-2, integrated development, or OT-3/TAAA evidence. A failed or invalid
 calibration authorizes no learner.
+
+## Result and bounded promotion
+
+The locked public reconstruction passed all sixteen cases twice in forward and
+reverse order without candidate output or hosted calls. References scored
+`[0,0,0]`, prior states `[4,8,8]`, the first frozen reference `[0,8,4]`, and
+the second `[3,0,8]`. Diagnostics and heldouts were disjoint. Every regime
+enumerated all 32,768 raw-row subsets; exactly the empty projection and fifteen
+single-row projections fit. Rows were 425–427 bytes, the full record was at
+least 6,393 bytes, at least 877 endpoint-divergent partitions survived, and
+every legal exact replay scored four errors.
+
+All identifiability, predecessor-harm, membership-change, output-only,
+fixed-lineage, structural-ablation, contact-perfect over-budget, safe-failure,
+identity, restore, rollback, surface, schema, deterministic-replay, test,
+evidence, privacy, and repository-size gates passed. OT-0068 therefore
+authorizes exactly one separately frozen fresh OT-0069 learner. This is only a
+public deterministic environment/carrier opportunity and does not establish
+actor invention, representation escape, developmental transfer, widened OT-2,
+integrated development, or OT-3/TAAA progress.
+
+Evidence: `evidence/manifests/OT-0068/ot-0068-identifiable-equivalence-calibration-001.json`.

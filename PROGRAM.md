@@ -827,7 +827,7 @@ ablations. The immediate sequence is:
   membership-level correction, safe failure, rollback, and surface exclusions
   before authorizing any learner. Do not reuse OT-0067's nonexistent
   authorization or weaken its gate.
-- **OT-0068 (run-locked; unexecuted):** prospectively repairs the
+- **OT-0068 (promoted; one fresh OT-0069 learner authorized):** prospectively repairs the
   relational world rather than OT-0067's acceptance. Freeze three two-block
   partitions whose sealed balanced heldouts leave every target uniquely
   identifiable among all 4,140 partitions while making the preceding
@@ -836,7 +836,23 @@ ablations. The immediate sequence is:
   projections may fit, at least 800 heldout-divergent partitions must survive,
   and actual replay must score four. A contact-perfect padded reference must
   fail only at projection. A complete pass without candidate or hosted output
-  may authorize one newly frozen OT-0069 learner; otherwise none.
+  may authorize one newly frozen OT-0069 learner; otherwise none. The locked
+  run passed all sixteen cases twice. References were `[0,0,0]`, prior states
+  `[4,8,8]`, frozen references `[0,8,4]` and `[3,0,8]`; rows were 425–427
+  bytes, the raw record at least 6,393, exactly sixteen of 32,768 projections
+  fit, at least 877 divergent partitions survived, and every replay scored
+  four. Every control, safe-failure, rollback, surface, test, audit, and
+  privacy gate passed without candidate or hosted output. Exactly one fresh
+  OT-0069 learner is authorized; this remains opportunity evidence only.
+- **Next Phase I experiment:** freeze OT-0069 before any hosted output. Two
+  independent three-reset lineages must construct a generic partition from
+  completed resolved-side consequences, use it causally on heldouts, then
+  restructure membership after both contradictions. Compare unchanged,
+  no-persistence, digest, legal verbatim, fixed partitions, fixed sides,
+  alternating, and appropriate naive grouping controls under the same contact
+  and inheritance budgets. Require exact attribution, decisive membership and
+  complete-partition ablations, safe failure, rollback, fresh task identity,
+  and valid reproduction. A valid failure consumes the sole authorization.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.
