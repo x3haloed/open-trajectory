@@ -2,9 +2,13 @@
 
 ## Outcome
 
-The active endogenous-developmental-substrate epoch reached informative
-exhaustion, not the positive foothold. The normative target is unchanged. No
-learner is authorized. OT-3/TAAA remains separable and suspended.
+Advance the developmental outcome behind `TARGET.md`: across complete resets,
+contact should increasingly affect both what remains causally available and
+how future instances decide what deserves that availability, while independent
+reality retains correction authority. The previous endogenous-substrate epoch
+reached informative exhaustion, not the positive foothold. E13 now opens a
+trajectory-native projection direction. The normative target is unchanged, no
+learner is authorized, and OT-3/TAAA remains separable and suspended.
 
 ## Invariants
 
@@ -17,6 +21,12 @@ learner is authorized. OT-3/TAAA remains separable and suspended.
   or controller-private opportunity as endpoint evidence.
 - Do not reopen a failed prompt, task, grammar, carrier, or threshold without a
   prospectively calibrated causal affordance that changes the hypothesis.
+- Keep physical survival, active projection, and epistemic/action standing
+  separate. An inactive proposal may remain recoverable without becoming the
+  accepted state.
+- Supply only the procedural provenance needed to preserve authority. Do not
+  predeclare discrepancy, repair, merge, or importance categories that a later
+  candidate is meant to invent.
 
 ## Authoritative epoch disposition
 
@@ -65,26 +75,37 @@ topology recovery from grounded output application.
 
 ## Requirement for a scientifically distinct future attempt
 
-Do not authorize another learner until a candidate-free calibration establishes
-a new bounded discrepancy-to-revision substrate that:
+The earlier requirement for a candidate-owned discrepancy-to-revision object
+correctly identified the severed proposal-to-consequence edge but risked
+preinstalling the semantic ontology under test. E13 replaces it prospectively
+with a thinner sequence. First, OT-0070 must calibrate an append-only,
+addressable trajectory in which:
 
-1. executes an actor-authored provisional structure against completed
-   independent contact;
-2. lets exact proposal-local structural failures cross a complete reset as a
-   candidate-owned receipted object;
-3. lets a fresh process preserve, revise, or set down the proposal without a
-   controller choosing the best candidate;
-4. loses revision advantage when that discrepancy object is ablated;
-5. carries a symbol-generic reconstruction/update operation rather than a
-   copied complete solution;
-6. later makes that operation harmful and requires operation-level structural
-   revision; and
-7. preserves exact parent identity, committed-successor rollback, provenance,
-   equal budgets, and further correction.
+1. capability-separated actor-channel proposals, world-channel trials, and
+   actor-channel decisions are exactly bound but remain semantically
+   uninterpreted by the substrate;
+2. inactive failed branches remain recoverable while a separately replayed
+   pointer designates protocol-level active identity;
+3. bounded exact projection crosses a simulated reset without full raw history;
+4. synthetic actor-channel fixture decisions exercise adoption while the
+   controller validates without diagnosis, repair synthesis, ranking, or
+   projection-head selection; and
+5. set-down and rollback preserve exact branches and pointer provenance.
 
-Another turn, prompt edit, validation scalar, candidate portfolio, or relaxed
-bound is insufficient. The missing affordance must causally separate proposal,
-independent validation, revision, and adoption.
+OT-0070 is candidate-free and authorizes no learner. Only after that primitive
+passes may a separately frozen environment test whether a fresh actor can:
+
+1. decide which inactive branch deserves causal availability;
+2. preserve, revise, or set it down from completed independent contact;
+3. lose its advantage when the exact projection is withheld or misbound;
+4. outperform equal-budget raw, recent-history, and fixed-projection controls;
+5. revise its projection or update practice when later contact makes it
+   harmful; and
+6. retain exact parent identity, rollback, provenance, equal budgets, and
+   further correction.
+
+See `docs/TRAJECTORY_PROJECTION_EPOCH.md`. No prior score or disposition is
+rescored under E13.
 
 ## Positive condition still unmet
 

@@ -1,0 +1,146 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0070",
+  "evaluation_epoch": "E13 trajectory-native developmental projection",
+  "scenario_indices": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "run_order": ["forward-1", "reverse-1", "forward-2", "reverse-2"],
+  "forward_case_order": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+  "reverse_case_order": [15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1, 0],
+  "projection_byte_limit": 2048,
+  "minimum_full_trajectory_bytes": 8193,
+  "distractor_count": 16,
+  "distractor_padding_bytes": 480,
+  "trace_row_count": 3,
+  "maximum_record_bytes": 4096,
+  "candidate_outputs": false,
+  "hosted_model_calls": 0,
+  "authorized_candidate_count": 0,
+  "resource_budget": {
+    "wall_seconds": 120,
+    "fresh_reset_process_seconds": 5,
+    "maximum_raw_artifact_bytes": 1048576,
+    "actor_turns": 0,
+    "actor_tool_calls": 0,
+    "hosted_calls": 0
+  },
+  "canonicalization": {
+    "python_expression": "(json.dumps(value, sort_keys=True, separators=(',', ':')) + '\n').encode()",
+    "encoding": "UTF-8",
+    "record_identity": "lowercase SHA-256 of the canonical {source,parents,payload} bytes",
+    "parent_order": "sorted unique lowercase record identities",
+    "projection_byte_count": "length of the canonical complete projection object"
+  },
+  "record_schema": {
+    "exact_keys": ["parents", "payload", "source"],
+    "sources": ["actor-channel", "controller-channel", "world-channel"],
+    "parents": "sorted unique list of preexisting lowercase SHA-256 record identities",
+    "payload": "bounded JSON object",
+    "identical_record_semantics": "deduplicate by canonical record identity"
+  },
+  "channel_capabilities": {
+    "serializable": false,
+    "source_string_accepted_by_append": false,
+    "actor_channel_may_emit": ["actor-channel"],
+    "world_channel_may_emit": ["world-channel"],
+    "controller_channel_may_emit": ["controller-channel"]
+  },
+  "payload_schemas": {
+    "proposal": {
+      "source": "actor-channel",
+      "exact_keys": ["case_token", "occurrence", "record", "schema_version", "state"],
+      "record": "proposal",
+      "schema_version": 1,
+      "state_exact_keys": ["output"],
+      "root_parents": "empty",
+      "provisional_parents": "exactly the replay-derived current active proposal"
+    },
+    "trial": {
+      "source": "world-channel",
+      "exact_keys": ["case_token", "executor_receipt", "proposal_id", "record", "schema_version", "trace"],
+      "record": "trial",
+      "schema_version": 1,
+      "trace_length": 3,
+      "trace_row_exact_keys": ["input", "proposal_output", "resolved_output", "trial_id"],
+      "parents": "exactly [proposal_id]"
+    },
+    "decision": {
+      "source": "actor-channel",
+      "exact_keys": ["action", "case_token", "decision_token", "expected_active_id", "expected_pointer_event_id", "record", "rollback_target_id", "schema_version", "selected_proposal_id", "trial_id"],
+      "record": "decision",
+      "schema_version": 1,
+      "actions": ["adopt", "rollback", "set_down"],
+      "adopt_or_set_down_parents": "exactly decision-bound proposal, trial, and expected pointer event",
+      "rollback_parents": "exactly expected active proposal, rollback target proposal, and expected pointer event"
+    },
+    "pointer": {
+      "source": "controller-channel",
+      "exact_keys": ["action", "decision_id", "previous_pointer_event_id", "prior_active_id", "record", "resulting_active_id", "schema_version", "sequence"],
+      "record": "pointer",
+      "schema_version": 1,
+      "actions": ["adopt", "initialize", "rollback", "set_down"],
+      "transition_parents": "sorted unique decision_id, previous_pointer_event_id, and resulting_active_id; initialize parents only the resulting active proposal"
+    }
+  },
+  "projection_schema": {
+    "exact_keys": ["external_parents", "record_ids", "records", "schema_version"],
+    "schema_version": 1,
+    "record_ids": "sorted unique selected identities",
+    "records": "sorted by record_id; each entry has exact keys record and record_id",
+    "external_parents": "sorted unique parent identities referenced by selected records but not selected",
+    "selection": "exact caller-supplied record identities only; no ancestry expansion, search, summary, ranking, or recency",
+    "full_trajectory_serialization": "the same projection schema over every record identity before projection-budget enforcement"
+  },
+  "fixture_derivation": {
+    "token": "first 16 lowercase hex characters of SHA-256('ot-0070:<case>:<role>:<index>')",
+    "distractor_padding": "first 480 characters of (lowercase hex SHA-256('ot-0070:<case>:distractor:<index>:padding') repeated eight times)",
+    "append_order_placebo": "independent distractors appended once in ascending and once in descending index order",
+    "world_resolution": "resolved_output row <index> is the first 16 lowercase hex characters of SHA-256('ot-0070:<case>:resolved:<index>') and is produced only behind the world-channel capability",
+    "case_allocation": "every case exercises initialize, adopt, set_down, rollback, matching/nonmatching trial placebos, invalid binding controls, projection/reset controls, and consumer restoration",
+    "quality_placebo": "otherwise identical valid trial traces with matching versus nonmatching proposal_output/resolved_output receive identical protocol validation and pointer-transition verdicts"
+  },
+  "pointer_replay": {
+    "authority": "active identity is derived only by replaying one controller-channel pointer chain from genesis",
+    "initialize": "exactly one sequence-0 event with null prior, decision, and previous pointer event",
+    "compare_and_swap": "decision expected_pointer_event_id and expected_active_id must equal replayed current state",
+    "sequence": "increments by exactly one",
+    "single_chain": "forks, gaps, stale or replayed decisions, mismatched priors, and duplicate uses fail closed",
+    "direct_write_api": false
+  },
+  "reset_boundary": {
+    "fresh_process": true,
+    "fresh_empty_workspace": true,
+    "inherited_bytes": "canonical projection on standard input only",
+    "controller_store_serialized": false,
+    "nonprojected_lookup": "fails closed by identity"
+  },
+  "claim_limit": "public deterministic append-only trajectory, exact projection, proposal-local trial binding, capability-separated fixture channels, replay-derived active pointer, set-down, rollback, and deterministic pointer-consumer mechanics only; no actual actor authorship, useful revision, endogenous projection, selector learning, representation escape, transfer, widened OT-2, integrated developmental, or OT-3 evidence",
+  "promotion_gate": [
+    "all sixteen isomorphic histories pass in exact order forward-1, reverse-1, forward-2, reverse-2 without candidate or hosted output",
+    "records are immutable canonical {source,parents,payload} objects whose identities are SHA-256 hashes and whose sources come only from non-serializable channel capabilities",
+    "all parent identities preexist, parent input order is canonicalized, and exact canonical duplicates deduplicate",
+    "the full controller-owned trajectory exceeds 8192 bytes while the exact named proposal-plus-trial projection fits within 2048 bytes",
+    "each simulated reset uses a fresh process and empty workspace receiving only projection bytes; controller-store and nonprojected-record lookup fail closed",
+    "excluding either the exact proposal or exact bound trial makes the projected branch incomplete",
+    "inactive proposals and trials remain exactly recoverable but cannot alter replay-derived active state without a valid actor-channel decision fixture",
+    "a valid adoption fixture selects exactly one trialed proposal and the controller transition uses its exact record identity without inspecting outcome quality or ranking branches",
+    "matching and nonmatching world-trial quality placebos receive identical protocol validation and pointer-transition verdicts",
+    "set-down preserves the exact replay-derived active identity and every inactive branch",
+    "rollback appends a pointer event, restores the exact prior active identity, and deletes or rewrites no record",
+    "replay from genesis exactly reconstructs every pointer state; stale, replayed, forked, skipped, and non-CAS transitions fail closed and no direct pointer-write API exists",
+    "an outcome-blind consumer changes output only with the replay-derived active proposal, ignores inactive branches and trials, and restores the exact prior output after rollback",
+    "missing, untrialed, non-ancestor, sibling-trial, cross-bound, forged-source, controller-altered-outcome, and over-budget inputs fail closed with exact active-state preservation",
+    "consistent opaque-token alpha-renaming and permutation of independent append order or parent input order preserve every structural verdict",
+    "the projector performs exact address-selected lossless projection only and performs no semantic search, summary, ranking, ancestry expansion, or recency selection",
+    "the complete run stays within the frozen wall-time, per-reset, artifact-size, actor, tool, and hosted-call resource envelope",
+    "tests, evidence audit, privacy, and repository-size gates pass"
+  ],
+  "red_line_review": [
+    "The substrate supplies procedural provenance and pointer mechanics, not a discrepancy, repair, merge, score, truth, or projection-policy ontology.",
+    "Actor-channel records are synthetic fixtures that exercise protocol surfaces; they are not actual actor output or evidence of useful judgment.",
+    "The controller validates identity, provenance, ancestry, schema, CAS state, and budgets but does not inspect trial success, count errors, synthesize revisions, choose proposals, or select projection heads.",
+    "The deterministic consumer proves only protocol-level behavioral control by the pointer and does not establish epistemic standing.",
+    "Full raw history remains controller-owned and absent from the fresh reset process; only the exact bounded projection crosses the reset boundary.",
+    "Headlong is a hypothesis source only; no implementation, context policy, summary format, or qualitative result is imported.",
+    "A pass authorizes no learner and changes no prior experiment disposition."
+  ]
+}

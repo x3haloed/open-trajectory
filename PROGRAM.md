@@ -97,6 +97,18 @@ made this classification rule explicit.
   Its first worker timed out after five stages, invalidating the two-worker run;
   its complete second worker passed deployment and authority gates but failed
   both the temporal corrigibility chain and fixed-control lineage advantage.
+- **E13 — trajectory-native developmental projection:** beginning only after
+  the OT-0048 through OT-0069 endogenous-substrate epoch reached informative
+  exhaustion, preserve every prior result and all complete-reset, independent-
+  outcome, budget, ablation, rollback, privacy, and authority anchors. Replace
+  the prospective requirement for a researcher-shaped discrepancy object with
+  a thinner durable substrate: append-only addressable causal history, a
+  separately authoritative active pointer, and bounded exact projection of
+  actor-named records. The substrate may type procedural source and ancestry
+  but may not diagnose error, rank branches, synthesize repairs, summarize
+  history, or supply a desirable projection policy. OT-0070 is the first
+  candidate-free checkpoint and authorizes no learner. No prior candidate is
+  rescored under E13.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
@@ -874,6 +886,16 @@ ablations. The immediate sequence is:
   proposal without controller best-candidate selection; and later becomes
   harmful and structurally revisable itself. See
   `docs/ENDOGENOUS_SUBSTRATE_EPOCH.md`.
+- **E13 reorientation:** the prior disposition remains unchanged, but its
+  missing-object diagnosis is now treated as a pressure rather than a supplied
+  semantic ontology. `docs/TRAJECTORY_PROJECTION_EPOCH.md` opens a prospective
+  trajectory-native epoch in which rejected attempts can retain historical and
+  causal availability without active standing. The substrate separates raw
+  append-only history, bounded exact projection, and an authoritative active
+  pointer. It supplies no discrepancy label, repair rule, branch ranking, or
+  semantic merge. OT-0070 freezes a public candidate-free calibration of those
+  authority mechanics only; a pass authorizes no learner and no prior result is
+  rescored.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

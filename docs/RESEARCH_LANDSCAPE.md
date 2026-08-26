@@ -472,6 +472,27 @@ Until that substrate exists, another expression, branch, transducer, predicate,
 or complete-partition run would reopen a closed search space rather than test a
 new developmental mechanism.
 
+The Headlong microharness supplies a timely but non-normative topology
+hypothesis: retain an addressable append-only trajectory and treat active
+context as a projection rather than destructively replacing history
+([launch post](https://www.laude.org/updates/headlong-a-microharness-for-persistent-agents),
+[trajectory specification](https://github.com/laude-institute/headlong/blob/d8f83042c30ba34931259408077ead20e6bd93c3/design/trajectory_spec.md)).
+Its implementation does not establish Open Trajectory's result. It uses
+continuous operation rather than complete-reset attribution, trajectory merge
+does not confer a scientific status, and long-term improvement is described as
+primarily qualitative. Its useful prompt is narrower: a failed proposal can
+remain an addressable branch, an independent result can bind to that exact
+version, and a later process can receive a bounded lossless projection without
+the branch first becoming accepted truth.
+
+This suggests "pressure before ontology." A substrate need not label a record
+as a discrepancy, repair, lesson, or unfinished commitment. It can preserve
+authenticated source, causal ancestry, exact payload, and a separately owned
+active pointer, leaving later actors to invent which histories deserve causal
+availability. OT-0070 calibrates only those procedural mechanics. Whether an
+actor can author a useful projection or revision policy, later discover that it
+is harmful, and change it remains a separate candidate question.
+
 ### Multiple correction rates
 
 Useful systems may update active content quickly, selection heuristics more
