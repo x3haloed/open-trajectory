@@ -1,6 +1,6 @@
 # Trajectory-native developmental projection epoch
 
-- **Status:** prospectively opened; first calibration not yet executed
+- **Status:** active; first calibration promoted
 - **Evaluation epoch:** E13
 - **Learner authorization:** none
 - **Predecessor:** endogenous substrate epoch informative exhaustion
@@ -110,7 +110,15 @@ no learner. It establishes only that inactive causal history, separately
 derived active state, and pointer-controlled behavior can coexist as exact
 substrate mechanics rather than a narrative description.
 
-## Condition for later learner work
+The sole locked OT-0070 execution promoted all 64 case evaluations. Full
+histories were 22,904 canonical bytes, exact branch projections were 1,406
+bytes, all four normalized summaries were byte-identical, and every frozen
+authority, reset, rollback, resource, test, and audit gate passed. The result
+is receipted at
+`evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json`.
+No learner authorization became live.
+
+## Condition for later actor-bearing work
 
 A later experiment must add an independently calibrated environment in which a
 fresh actor, not the controller, uses completed trajectory contact to decide

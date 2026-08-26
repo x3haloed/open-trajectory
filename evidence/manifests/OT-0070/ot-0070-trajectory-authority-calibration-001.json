@@ -1,0 +1,33 @@
+{
+  "artifact_id": "ot-0070-trajectory-authority-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 172251,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bfda7009c788a8e0f5f8eeaa621ddf6460550117",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0070",
+  "input_manifests": [],
+  "kind": "trajectory-authority-candidate-free-calibration",
+  "limitations": [
+    "Candidate output, actor turns, and hosted calls are forbidden.",
+    "Synthetic fixture decisions are not evidence of useful judgment.",
+    "A pass authorizes no learner and establishes only procedural mechanics."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0070-trajectory-authority-calibration-001",
+    "recipe": "At the exact Git commit named by environment.git.commit and with a fresh $EVIDENCE, run OT_EVIDENCE_ROOT=$EVIDENCE PYTHONPATH=src python3 experiments/ot_0070_harness.py --reconstruct-only --output $EVIDENCE/runs/OT-0070/ot-0070-trajectory-authority-calibration-001.json"
+  },
+  "schema_version": 1,
+  "sha256": "a846269a8fd427f242006dcd17eb090a41928573f2ea8df09203133178dd89e0"
+}

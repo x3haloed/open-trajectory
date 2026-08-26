@@ -73,13 +73,13 @@ revision can overwrite a zero-error proposal; OT-0054 showed that branching
 cannot help when the proposal set lacks a viable member; OT-0066 separated
 topology recovery from grounded output application.
 
-## Requirement for a scientifically distinct future attempt
+## Promoted procedural foothold and next falsifier
 
 The earlier requirement for a candidate-owned discrepancy-to-revision object
 correctly identified the severed proposal-to-consequence edge but risked
-preinstalling the semantic ontology under test. E13 replaces it prospectively
-with a thinner sequence. First, OT-0070 must calibrate an append-only,
-addressable trajectory in which:
+preinstalling the semantic ontology under test. E13 replaced it with a thinner
+sequence. OT-0070 has now promoted an append-only, addressable trajectory in
+which:
 
 1. capability-separated actor-channel proposals, world-channel trials, and
    actor-channel decisions are exactly bound but remain semantically
@@ -92,8 +92,14 @@ addressable trajectory in which:
    projection-head selection; and
 5. set-down and rollback preserve exact branches and pointer provenance.
 
-OT-0070 is candidate-free and authorizes no learner. Only after that primitive
-passes may a separately frozen environment test whether a fresh actor can:
+The sole locked run passed all 64 evaluations. Full trajectories were 22,904
+canonical bytes, exact projections were 1,406 bytes, and every frozen gate
+passed with zero candidate or hosted output. The public receipt is
+`evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json`.
+
+OT-0070 remains candidate-free and authorizes no learner. The next work unit is
+to prospectively calibrate a separately owned environment and exact causal
+opportunity before authorizing any actor. A later fresh actor must then:
 
 1. decide which inactive branch deserves causal availability;
 2. preserve, revise, or set it down from completed independent contact;

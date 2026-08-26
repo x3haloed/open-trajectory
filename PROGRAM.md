@@ -106,9 +106,11 @@ made this classification rule explicit.
   separately authoritative active pointer, and bounded exact projection of
   actor-named records. The substrate may type procedural source and ancestry
   but may not diagnose error, rank branches, synthesize repairs, summarize
-  history, or supply a desirable projection policy. OT-0070 is the first
-  candidate-free checkpoint and authorizes no learner. No prior candidate is
-  rescored under E13.
+  history, or supply a desirable projection policy. OT-0070 promoted the first
+  candidate-free checkpoint: exact inactive history, bounded projection,
+  capability-separated provenance, replay-derived active state, set-down, and
+  append-only rollback compose across fresh processes. It authorized no
+  learner and no prior candidate is rescored under E13.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
@@ -893,9 +895,11 @@ ablations. The immediate sequence is:
   causal availability without active standing. The substrate separates raw
   append-only history, bounded exact projection, and an authoritative active
   pointer. It supplies no discrepancy label, repair rule, branch ranking, or
-  semantic merge. OT-0070 freezes a public candidate-free calibration of those
-  authority mechanics only; a pass authorizes no learner and no prior result is
-  rescored.
+  semantic merge. OT-0070's sole locked candidate-free run promoted all 64
+  cases and establishes those authority mechanics only. It authorizes no
+  learner; the next actor-bearing route still requires a prospectively
+  calibrated opportunity, exact trajectory/projection ablations, and separate
+  authorization. No prior result is rescored.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

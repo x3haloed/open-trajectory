@@ -1,7 +1,7 @@
 # OT-0070 — Trajectory authority and inactive-branch calibration
 
-- **Status:** frozen; unexecuted
-- **Evidence class:** public-reconstructible if valid
+- **Status:** executed once; promoted within the frozen claim limit
+- **Evidence class:** public-reconstructible
 - **Evaluation epoch:** E13 trajectory-native developmental projection
 - **Target:** candidate-free substrate and authority mechanics
 - **Candidate output:** forbidden
@@ -205,3 +205,29 @@ personhood, general autonomy, unrestricted self-development, or OT-3/TAAA.
 A rejection closes only this exact procedural substrate. An operational
 invalidation preserves the artifact and requires a newly numbered prospective
 repair. No result changes any OT-0048 through OT-0069 disposition.
+
+## Sealed disposition
+
+The sole locked execution at Git commit
+`bfda7009c788a8e0f5f8eeaa621ddf6460550117` promoted. All sixteen cases passed
+in each of `forward-1`, `reverse-1`, `forward-2`, and `reverse-2`; the four
+normalized summaries had the same SHA-256 identity
+`39f24a21a09b883349fa7bdebecac26a863af2b475124f01eb6a104e7ea64f83`.
+Every full trajectory occupied 22,904 canonical bytes and every selected
+proposal-plus-trial projection occupied 1,406 bytes. All frozen authority,
+binding, reset, set-down, rollback, quality-placebo, order, renaming, resource,
+test, audit, and artifact gates passed.
+
+The public raw artifact contains 172,251 bytes with SHA-256
+`a846269a8fd427f242006dcd17eb090a41928573f2ea8df09203133178dd89e0`.
+Its content-addressed receipt is
+`evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json`.
+The execution produced zero candidate outputs, actor turns, actor tool calls,
+hosted calls, or learner authorizations.
+
+This promotion removes only the procedural substrate premise: an inactive
+proposal and its independently owned trial can retain exact causal standing
+across a bounded fresh-process projection while a replay-derived pointer alone
+controls application, and set-down or rollback deletes nothing. It is not
+evidence that an actor can identify useful history, author a repair, revise a
+projection practice, or transfer developmental machinery.
