@@ -30,8 +30,8 @@ suspended.
   behavioral pass without literal reconstruction and publication verification
   authorizes no learner.
 - Do not rerun or retroactively repair OT-0071. OT-0072 remains unauthorized.
-  Any repair must use a new experiment ID and rerun the complete scientific
-  workload prospectively.
+  OT-0073 is the sole frozen repair and must rerun the complete scientific
+  workload prospectively before any OT-0074 authorization can exist.
 
 ## Evaluation regime
 
@@ -51,13 +51,15 @@ calibration because it expected the I-derived task and receipt to preexist.
 Public manifest authority was removed; attempted artifacts remain only in
 ignored failure storage. No OT-0072 authorization exists.
 
-The next admissible unit is a newly numbered candidate-free reconstruction
-repair. Before any authoritative run it must prove in tests that a clean L
+OT-0073 is frozen as the candidate-free reconstruction repair. Before any
+authoritative run it must prove in tests that a clean L
 checkout and empty evidence root mechanically regenerate byte-identical task
 and receipt artifacts, bind them to I/L, reconstruct byte-identical raw output,
 and cannot publish if any derivation, reconstruction, test, audit, or wall gate
 fails. It must rerun OT-0071's complete scientific workload; the prior raw
-summary is diagnostic evidence only, not a score to inherit.
+summary is diagnostic evidence only, not a score to inherit. The next work unit
+is OT-0073 implementation only; no task derivation is allowed before its clean
+I commit.
 
 ## Prediction errors
 

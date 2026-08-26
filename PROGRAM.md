@@ -114,8 +114,10 @@ made this classification rule explicit.
   locked execution completed the scientific workload, but literal fresh-root
   reconstruction failed because the reconstruct-only path required sealed
   derivation files to preexist. Its public authority was removed and it
-  authorizes no OT-0072. A newly numbered candidate-free replacement must prove
-  reconstruction before rerunning the same scientific gate: future-blind
+  authorizes no OT-0072. OT-0073 is now frozen as the candidate-free
+  reconstruction replacement. It must prove fresh-root task, receipt, and raw
+  byte reproduction before publication while rerunning the same scientific
+  gate: future-blind
   post-trial locators and complete raw
   request/outcome batches can ground a full actor-channel receipt plus bounded
   portable three-row projection practice; that the practice causes an exact branch-to-successor-
@@ -124,7 +126,8 @@ made this classification rule explicit.
   interpretation, practice fitting, branch choice, and outcome-based rescue
   remain forbidden. Only a pass may authorize one prospectively frozen
   OT-0072; no prior candidate is rescored under E13 and OT-0071 may not be
-  rerun or retroactively promoted.
+  rerun or retroactively promoted. Only a verified OT-0073 promotion may
+  authorize one separately frozen OT-0074.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
@@ -924,9 +927,13 @@ ablations. The immediate sequence is:
   but its literal fresh-root reconstruction recipe failed before calibration
   because the task and receipt were not regenerated. Public manifest authority
   was removed, the result is exploratory-only, and OT-0072 remains
-  unauthorized. A newly numbered candidate-free replacement must repair and
-  prospectively test reconstruction, then rerun the complete workload; OT-0071
-  may not be rerun or retroactively promoted. No prior result is rescored.
+  unauthorized. OT-0073 prospectively freezes the reconstruction repair: a
+  neutral I-derived task and receipt must regenerate in an empty evidence root,
+  a second non-authoritative full run must match authoritative raw bytes before
+  publication, and the complete OT-0071 scientific workload must rerun without
+  semantic change. OT-0071 may not be rerun or retroactively promoted. Only a
+  valid OT-0073 promotion may authorize one OT-0074; no prior result is
+  rescored.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

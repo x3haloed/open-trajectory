@@ -1,6 +1,6 @@
 # Trajectory-native developmental projection epoch
 
-- **Status:** active; first calibration promoted and second operationally invalidated
+- **Status:** active; OT-0073 reconstruction repair frozen
 - **Evaluation epoch:** E13
 - **Learner authorization:** none
 - **Predecessor:** endogenous substrate epoch informative exhaustion
@@ -164,6 +164,14 @@ the attempted artifact remains exploratory-only in ignored failure storage.
 OT-0071 is retired and authorizes no OT-0072. A newly numbered candidate-free
 repair must rerun the complete workload after proving fresh-root derivation and
 raw-byte reconstruction; the OT-0071 output cannot be promoted retroactively.
+
+OT-0073 freezes that repair without changing the scientific mechanism. It
+binds the exact OT-0071 acceptance, harness, and reset-worker bytes, derives a
+neutral receipt whose authority comes from P-to-I-to-L ancestry rather than a
+serialized Boolean, and withholds manifest publication until a second
+non-authoritative run at clean L regenerates task and receipt bytes in an empty
+evidence root and reproduces the authoritative raw artifact exactly. A valid
+pass may authorize one separately frozen OT-0074. OT-0072 remains unauthorized.
 
 ## Condition after a valid replacement promotion
 

@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0073",
+  "evaluation_epoch": "E13 trajectory-native developmental projection",
+  "status": "frozen unimplemented unexecuted",
+  "candidate_outputs": false,
+  "actor_turns": 0,
+  "actor_tool_calls": 0,
+  "hosted_model_calls": 0,
+  "scientific_protocol": {
+    "acceptance_path": "spec/ot-0071-acceptance.json",
+    "acceptance_sha256": "d88ee1e120d406e9e23fbfaae6785e617e21cfd0dcfd03b2bac00caef9b922c0",
+    "harness_path": "src/open_trajectory_harness/ot0071.py",
+    "harness_sha256": "01f874a11973e26d097f7c20b6784b64626ab35564a77692cc2970282aab83f6",
+    "reset_worker_path": "src/open_trajectory_harness/ot0071_reset_worker.py",
+    "reset_worker_sha256": "33f591755eade58868b9d89dee84cd459b8210bc78ddc270399b242c199d8455",
+    "semantic_change": false,
+    "required_run_order": ["forward-1", "reverse-1", "forward-2", "reverse-2"],
+    "required_case_count": 16,
+    "required_adopt_path_count": 144,
+    "required_set_down_path_count": 48,
+    "required_prior_replay_count": 32,
+    "required_scientific_disposition": "promoted"
+  },
+  "predecessors": {
+    "authority_manifest": "evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json",
+    "authority_manifest_sha256": "620ddefd3e22bb47c67d4630cce78c9952f14df013e6e95c5df15faaee8ba4b1",
+    "ot0071_disposition_commit": "d9f29d806679aad41d25312c49a8b93aa1606abe",
+    "ot0071_public_authority": false,
+    "ot0071_raw_as_input": false
+  },
+  "derivation": {
+    "derivation_id": "ot-0073-derivation-001",
+    "task_path": "$EVIDENCE/tasks/OT-0073/ot-0073-derivation-001.json",
+    "receipt_path": "$EVIDENCE/derivations/OT-0073/ot-0073-derivation-001.json",
+    "receipt_exact_keys": [
+      "schema_version",
+      "experiment_id",
+      "derivation_id",
+      "implementation_git_commit",
+      "task_path",
+      "task_sha256",
+      "task_bytes"
+    ],
+    "serialized_authority_field": false,
+    "authoritative_prepare_count": 1,
+    "prepare_precondition": "clean HEAD exactly I and every destination absent",
+    "collision": "retire OT-0073 without retry",
+    "reconstruction": "from clean L and empty evidence root mechanically regenerate exact task and neutral receipt bytes from I bound by L"
+  },
+  "lock": {
+    "protocol_symbol": "P",
+    "implementation_symbol": "I",
+    "execution_symbol": "L",
+    "implementation": "first clean chosen complete implementation after P with no task receipt run-lock raw or manifest",
+    "execution_parent": "L is direct child of I",
+    "execution_delta": "exactly one added spec/ot-0073-run-lock.json",
+    "protocol_frozen_paths": [
+      "TARGET.md",
+      "RED_LINES.md",
+      "PROGRAM.md",
+      "docs/EVIDENCE.md",
+      "docs/TRAJECTORY_PROJECTION_EPOCH.md",
+      "docs/WORKFLOW.md",
+      "experiments/OT-0073-fresh-root-reconstruction-calibration.md",
+      "spec/ot-0071-acceptance.json",
+      "spec/ot-0073-acceptance.json",
+      "src/open_trajectory_harness/ot0002.py",
+      "src/open_trajectory_harness/ot0070.py",
+      "src/open_trajectory_harness/ot0071.py",
+      "src/open_trajectory_harness/ot0071_reset_worker.py",
+      "src/open_trajectory_harness/trajectory.py",
+      "evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json"
+    ]
+  },
+  "execution": {
+    "run_id": "ot-0073-fresh-root-reconstruction-calibration-001",
+    "raw_path": "$EVIDENCE/runs/OT-0073/ot-0073-fresh-root-reconstruction-calibration-001.json",
+    "public_manifest_path": "evidence/manifests/OT-0073/ot-0073-fresh-root-reconstruction-calibration-001.json",
+    "failed_manifest_path": "$EVIDENCE/failures/OT-0073/ot-0073-fresh-root-reconstruction-calibration-001-manifest.json",
+    "failure_receipt_path": "$EVIDENCE/failures/OT-0073/ot-0073-fresh-root-reconstruction-calibration-001-reconstruction.json",
+    "authoritative_count": 1,
+    "authoritative_overrides": false,
+    "calibration_and_verification_wall_seconds": 240,
+    "reconstruction_wall_seconds": 240,
+    "maximum_raw_artifact_bytes": 4194304
+  },
+  "reconstruction_gate": {
+    "timing": "after sealed authoritative raw and before public manifest",
+    "checkout": "same clean L",
+    "evidence_root": "fresh temporary empty directory",
+    "copied_inputs": [],
+    "task_and_receipt_generation": "mechanical from I identity bound by L",
+    "required_comparison": ["canonical byte length", "sha256", "complete bytes"],
+    "manifest_side_effects": false,
+    "failure": "remove public authority preserve bounded ignored failure receipt authorize zero candidates"
+  },
+  "promotion_gate": [
+    "new authoritative task and neutral receipt derive once from clean I and bind exactly in L",
+    "the complete inherited OT-0071 scientific calibration passes without semantic change",
+    "all sixteen cases pass in all four traversals with identical normalized digests and receipts",
+    "all inherited pure controls causal paths interventions budgets resets tests audits and privacy gates pass",
+    "fresh-root reconstruct-only regenerates exact task and receipt bytes without copied evidence inputs",
+    "authoritative and reconstructed raw artifacts are byte-identical before manifest publication",
+    "public manifest verifies with only the OT-0070 authority manifest as input",
+    "zero candidate outputs actor turns actor tool calls and hosted calls occur"
+  ],
+  "authorization": {
+    "candidate_experiment": "OT-0074",
+    "candidate_count_if_and_only_if_promoted_and_verified": 1,
+    "candidate_count_otherwise": 0,
+    "consumption": "first OT-0074 actor or hosted side effect",
+    "multiple_tasks": false,
+    "ot0072_remains_unauthorized": true
+  },
+  "claim_limit": "public deterministic reconstruction-valid opportunity for the unchanged bounded OT-0071 receipted projection-practice mechanism; no actor authorship learned refit arbitrary-policy exclusion representation escape transfer widened OT-2 integrated development consciousness personhood general autonomy unrestricted self-development or OT-3 evidence"
+}
