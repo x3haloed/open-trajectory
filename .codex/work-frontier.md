@@ -7,8 +7,9 @@ contact should increasingly affect both what remains causally available and
 how future instances decide what deserves that availability, while independent
 reality retains correction authority. The previous endogenous-substrate epoch
 reached informative exhaustion, not the positive foothold. E13 now opens a
-trajectory-native projection direction. The normative target is unchanged, no
-learner is authorized, and OT-3/TAAA remains separable and suspended.
+trajectory-native projection direction. The normative target is unchanged,
+OT-0071 is frozen candidate-free, no learner is authorized, and OT-3/TAAA
+remains separable and suspended.
 
 ## Invariants
 
@@ -27,6 +28,18 @@ learner is authorized, and OT-3/TAAA remains separable and suspended.
 - Supply only the procedural provenance needed to preserve authority. Do not
   predeclare discrepancy, repair, merge, or importance categories that a later
   candidate is meant to invent.
+- A changed address is not by itself changed developmental machinery. Any
+  machinery-revision claim must show that the previously effective
+  relevance/update practice is behaviorally causal, becomes harmful when
+  applied unchanged, and is replaced by a behaviorally distinct practice.
+- Candidate-owned historical descriptions may depend only on contact available
+  when they are authored. Evaluator selection of fields because they will be
+  relevant to a later regime is hidden oracle authority, even when the record
+  travels through an actor channel.
+- Endpoint credit may not be exact retrieval of scored historical row records
+  or identities. A repeated structural alphabet is admissible only when scored
+  rows are fresh and the claim is limited to application inside that frozen
+  family; exact replay of earlier scored rows remains retrieval evidence.
 
 ## Authoritative epoch disposition
 
@@ -98,8 +111,27 @@ passed with zero candidate or hosted output. The public receipt is
 `evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json`.
 
 OT-0070 remains candidate-free and authorizes no learner. The next work unit is
-to prospectively calibrate a separately owned environment and exact causal
-opportunity before authorizing any actor. A later fresh actor must then:
+now frozen as a redesigned OT-0071 candidate-free opportunity calibration. Its
+first locator-matching draft was rejected before freeze: the same matcher solved
+all regimes, locator contents were chosen for future relevance, and selected
+trials exposed scored labels. The corrected sixteen-case world instead uses
+future-blind full-context locators and six independently resolved address
+attempts to ground a full actor-channel receipt plus compact three-row
+projection practice.
+
+The practice, not merely its chosen address, has causal standing. It selects
+one exact compact-mechanism branch, improves neutral genesis from four endpoint
+errors to zero, crosses successor trial, actor-decision, pointer, and fresh-row
+endpoint seams, and changes every row after each of two reversals. Prior replay
+becomes wrong for all three queries and scores four of six fresh-identity
+endpoint rows. All 27 stationary practices, six fixed permutations, 27 fixed
+clock schedules, all 2,187 one-step consequence policies,
+practice/attempt/branch ablations, reset boundaries, and one-attempt lock
+topology must pass before one OT-0072 can be authorized. OT-0071 is
+unimplemented and unexecuted.
+
+The immediate task is to implement, lock, and run OT-0071 without actors or
+hosted calls. Only a promotion may authorize a later fresh actor, which must:
 
 1. decide which inactive branch deserves causal availability;
 2. preserve, revise, or set it down from completed independent contact;

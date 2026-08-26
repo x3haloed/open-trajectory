@@ -1,6 +1,6 @@
 # Trajectory-native developmental projection epoch
 
-- **Status:** active; first calibration promoted
+- **Status:** active; first calibration promoted and second frozen
 - **Evaluation epoch:** E13
 - **Learner authorization:** none
 - **Predecessor:** endogenous substrate epoch informative exhaustion
@@ -118,16 +118,62 @@ is receipted at
 `evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json`.
 No learner authorization became live.
 
-## Condition for later actor-bearing work
+## Second checkpoint: OT-0071
 
-A later experiment must add an independently calibrated environment in which a
-fresh actor, not the controller, uses completed trajectory contact to decide
-what inactive branch deserves projection, authors a useful successor or sets
-the branch down, and later revises that projection or update practice when it
-becomes harmful. The advantage must disappear when the relevant projection is
-withheld or misbound, survive equal-budget raw and fixed-projection controls,
-and transfer beyond any representation used to discover it before a widened
-developmental claim is considered.
+OT-0071 is frozen as a public, deterministic, candidate-free opportunity
+calibration. An initial locator-matching design was rejected before freeze
+because one unchanged matcher solved every regime, evaluator-selected locator
+rows carried future relevance, and projected trials reused the scored row
+records. The corrected protocol admits three additional invariants: address
+change is not practice change; candidate-owned historical descriptions may use
+only then-available contact; and endpoint credit cannot be exact recovery of
+historical scored rows. A repeated structural alphabet is allowed only with
+fresh row identities and a correspondingly narrow claim.
+
+Sixteen cases now preserve three future-blind post-trial locators and a complete
+batch of six raw address-attempt outcomes per regime. A fresh reference fitting
+process uses outcomes for two opaque query keys and a public one-to-one world
+promise to author a full receipted practice plus a compact portable three-row
+child. A separate fresh executor applies only that child. The selected source
+coefficients are copied without correction access into a compact successor,
+which crosses independent trial, decision, pointer, and fresh-row endpoint
+seams. Neutral genesis and matched valid set-down score four of six errors; the
+first practice scores zero. The two later regimes change every practice row;
+replaying the preceding compact table remains structurally valid, becomes wrong
+for every query, and again scores four of six endpoint rows.
+
+Source, correction, and endpoint row identities are disjoint. Pre-revision
+correction consequences reach the fitting process but not practice execution or
+successor construction. Locators
+losslessly retain only the complete source context and a digest of the complete
+post-trial surface; they cannot select future-relevant fields. The controller
+treats locator and practice contents as exact actor-channel bytes, performs
+only keyed lookup and structural validation, and may not compare outcomes, fit
+a table, choose a branch, or repair a successor. OT-0071 freezes all 27
+stationary tables, all six fixed permutations, all 27 fixed clock schedules,
+all 2,187 one-step consequence policies, exact named heuristics, raw/practice
+interventions, the complete causal chain, fresh-process boundaries, and a
+one-attempt protocol-to-implementation-to-run-lock sequence.
+
+OT-0071 remains unimplemented and unexecuted. A pass may authorize exactly one
+prospectively frozen OT-0072 actor-bearing candidate. Rejection or invalidation
+authorizes none. The OT-0071 reference fitter, fixtures, semantic indices,
+cases, schedules, task, outputs, and control winners are forbidden fixed inputs
+or controller fallbacks in OT-0072.
+
+## Condition after OT-0071 promotion
+
+Only if OT-0071 promotes may a later experiment use the calibrated environment.
+A fresh actor, not the controller, must author future-blind post-trial
+locators, turn completed raw request/outcome contact into a full receipt and
+compact extensional practice, use that practice to cause one inactive branch
+projection, author a useful successor or set it down, and replace the compact
+practice twice when
+independent consequence makes prior replay harmful. The advantage must
+disappear when the practice, exact locator, attempt batch, or projection is
+withheld or misbound, survive equal-budget controls across two independent
+lineages, and transfer beyond any representation used to discover it before a
+widened developmental claim is considered.
 
 Headlong motivated the trajectory/context distinction and demonstrates that
 addressable append-only histories are operationally possible. It is a
