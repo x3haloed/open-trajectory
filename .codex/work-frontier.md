@@ -30,8 +30,8 @@ suspended.
   behavioral pass without literal reconstruction and publication verification
   authorizes no learner.
 - Do not rerun or retroactively repair OT-0071. OT-0072 remains unauthorized.
-  OT-0073 is the sole frozen repair and must rerun the complete scientific
-  workload prospectively before any OT-0074 authorization can exist.
+  OT-0073 validly promoted and authorizes exactly one OT-0074; that
+  authorization is consumed by the first actor or hosted side effect.
 
 ## Evaluation regime
 
@@ -51,15 +51,23 @@ calibration because it expected the I-derived task and receipt to preexist.
 Public manifest authority was removed; attempted artifacts remain only in
 ignored failure storage. No OT-0072 authorization exists.
 
-OT-0073 is frozen as the candidate-free reconstruction repair. Before any
-authoritative run it must prove in tests that a clean L
-checkout and empty evidence root mechanically regenerate byte-identical task
-and receipt artifacts, bind them to I/L, reconstruct byte-identical raw output,
-and cannot publish if any derivation, reconstruction, test, audit, or wall gate
-fails. It must rerun OT-0071's complete scientific workload; the prior raw
-summary is diagnostic evidence only, not a score to inherit. The next work unit
-is OT-0073 implementation only; no task derivation is allowed before its clean
-I commit.
+OT-0073 validly promoted the candidate-free reconstruction repair. The sole
+locked authoritative run and its mandatory empty-root replay each completed the
+full scientific and verification path within separate bounds. The replay
+regenerated exact neutral task/receipt bytes from I bound by L and matched the
+authoritative raw artifact byte-for-byte before publication. All sixteen cases,
+144 adopt paths, 48 set-down paths, 32 harmful prior-practice replays, pure
+controls, interventions, tests, audits, and privacy gates passed with zero
+actor or hosted calls. The public receipt is
+`evidence/manifests/OT-0073/ot-0073-fresh-root-reconstruction-calibration-001.json`.
+
+The next work unit is to freeze OT-0074 before any actor side effect. OT-0074
+must use two independent fresh lineages and forbid OT-0071/OT-0073 fixtures,
+semantic indices, schedules, reference fitter, task data, outputs, and control
+winners as fixed inputs or fallbacks. It must test whether a fresh actor can
+author future-blind locators and receipted compact practice, use them to cause a
+useful exact branch projection and successor, then replace that practice twice
+after independent consequence makes prior replay harmful.
 
 ## Prediction errors
 
@@ -67,10 +75,9 @@ I commit.
   margin. Forking the immutable common prefix before independent selected-rank
   action paths preserved all causal counts and reduced calibration from about
   196 to 165 seconds.
-- Unresolved repair requirement: reconstruction currently validates task and
-  receipt identity only after loading them from `$EVIDENCE`; it needs a
-  non-authoritative fresh-root derivation path whose exact bytes are checked
-  against the run lock before calibration.
+- Resolved: OT-0073 moved authority out of serialized receipt content and proved
+  exact task, receipt, and raw regeneration in an empty evidence root before
+  publication.
 - The positive developmental condition remains unmet: there is no reproducible
   promoted endogenous projection/update machinery, cross-domain transfer,
   widened OT-2 standing, integrated lineage, or evidence for consciousness,

@@ -1,0 +1,35 @@
+{
+  "artifact_id": "ot-0073-fresh-root-reconstruction-calibration-001",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 6674,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ada6b98c1838f75901e7b479d6348a53dbaf84f2",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "public-reconstructible",
+  "experiment_id": "OT-0073",
+  "input_manifests": [
+    "evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json"
+  ],
+  "kind": "fresh-root-reconstruction-calibration",
+  "limitations": [
+    "OT-0073 changes reconstruction authority only and reruns frozen OT-0071 science.",
+    "All actor-channel records are synthetic fixtures; no candidate output occurred.",
+    "A pass authorizes one OT-0074 but is not representation-escape evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0073-fresh-root-reconstruction-calibration-001",
+    "recipe": "At environment.git.commit with an empty $EVIDENCE, run OT_EVIDENCE_ROOT=$EVIDENCE PYTHONPATH=src python3 -m open_trajectory_harness.ot0073 --reconstruct-only"
+  },
+  "schema_version": 1,
+  "sha256": "e7a0d9aa3c4c9b6db9b3f216ac77638e3133e86f004a48a0526d98d239df9536"
+}

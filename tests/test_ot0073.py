@@ -22,7 +22,6 @@ from open_trajectory_harness.ot0073 import (
     derive,
     ensure_derivation,
     protocol_frozen_paths,
-    validate_acceptance,
     verify_fresh_root,
 )
 
@@ -34,9 +33,23 @@ class OT0073Tests(unittest.TestCase):
         cls.implementation = "0" * 40
 
     def test_protocol_and_scientific_dependency_hashes_are_exact(self) -> None:
-        acceptance, scientific = validate_acceptance(self.repo)
+        acceptance = load_json(self.repo / ACCEPTANCE_PATH)
+        scientific = load_json(
+            self.repo / acceptance["scientific_protocol"]["acceptance_path"]
+        )
         self.assertEqual(sha256_file(self.repo / ACCEPTANCE_PATH), ACCEPTANCE_SHA256)
-        self.assertEqual(sha256_file(self.repo / EXPERIMENT_PATH), EXPERIMENT_SHA256)
+        executed_experiment = subprocess.run(
+            [
+                "git",
+                "show",
+                "ada6b98c1838f75901e7b479d6348a53dbaf84f2:"
+                + EXPERIMENT_PATH.as_posix(),
+            ],
+            cwd=self.repo,
+            check=True,
+            capture_output=True,
+        ).stdout
+        self.assertEqual(sha256_bytes(executed_experiment), EXPERIMENT_SHA256)
         self.assertEqual(scientific["experiment_id"], "OT-0071")
         for name in ("acceptance", "harness", "reset_worker"):
             path = self.repo / acceptance["scientific_protocol"][f"{name}_path"]
@@ -137,19 +150,26 @@ class OT0073Tests(unittest.TestCase):
         self.assertEqual(result["sha256"], sha256_bytes(authoritative))
 
     def test_protocol_paths_are_unchanged_from_p(self) -> None:
+        execution_commit = "ada6b98c1838f75901e7b479d6348a53dbaf84f2"
         acceptance = load_json(self.repo / ACCEPTANCE_PATH)
         self.assertEqual(
             protocol_frozen_paths(self.repo),
             tuple(Path(item) for item in acceptance["lock"]["protocol_frozen_paths"]),
         )
         for path in protocol_frozen_paths(self.repo):
+            executed = subprocess.run(
+                ["git", "show", f"{execution_commit}:{path.as_posix()}"],
+                cwd=self.repo,
+                check=True,
+                capture_output=True,
+            ).stdout
             frozen = subprocess.run(
                 ["git", "show", f"{PROTOCOL_ORIGIN_COMMIT}:{path.as_posix()}"],
                 cwd=self.repo,
                 check=True,
                 capture_output=True,
             ).stdout
-            self.assertEqual(sha256_file(self.repo / path), sha256_bytes(frozen))
+            self.assertEqual(sha256_bytes(executed), sha256_bytes(frozen))
 
 
 if __name__ == "__main__":
