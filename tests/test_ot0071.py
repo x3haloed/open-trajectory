@@ -258,8 +258,14 @@ class OT0071Tests(unittest.TestCase):
             self.assertNotIn(forbidden, source)
 
     def test_protocol_paths_are_byte_identical_to_frozen_commit(self) -> None:
+        execution_commit = "5d851ea0b65dedf4a3f9db9dff0c4e80a2c8abd9"
         for path in PROTOCOL_FROZEN_PATHS:
-            current = (self.repo / path).read_bytes()
+            executed = subprocess.run(
+                ["git", "show", f"{execution_commit}:{path.as_posix()}"],
+                cwd=self.repo,
+                check=True,
+                capture_output=True,
+            ).stdout
             frozen = subprocess.run(
                 ["git", "show", f"{PROTOCOL_ORIGIN_COMMIT}:{path.as_posix()}"],
                 cwd=self.repo,
@@ -267,7 +273,7 @@ class OT0071Tests(unittest.TestCase):
                 capture_output=True,
             ).stdout
             self.assertEqual(
-                sha256_bytes(current),
+                sha256_bytes(executed),
                 sha256_bytes(frozen),
                 path.as_posix(),
             )

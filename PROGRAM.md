@@ -110,15 +110,21 @@ made this classification rule explicit.
   candidate-free checkpoint: exact inactive history, bounded projection,
   capability-separated provenance, replay-derived active state, set-down, and
   append-only rollback compose across fresh processes. It authorized no
-  learner. OT-0071 is now frozen as the second candidate-free checkpoint. It
-  must prove that future-blind post-trial locators and complete raw
+  learner. OT-0071 froze the second candidate-free checkpoint and its sole
+  locked execution completed the scientific workload, but literal fresh-root
+  reconstruction failed because the reconstruct-only path required sealed
+  derivation files to preexist. Its public authority was removed and it
+  authorizes no OT-0072. A newly numbered candidate-free replacement must prove
+  reconstruction before rerunning the same scientific gate: future-blind
+  post-trial locators and complete raw
   request/outcome batches can ground a full actor-channel receipt plus bounded
   portable three-row projection practice; that the practice causes an exact branch-to-successor-
   to-endpoint path; and that later contact makes every row harmful and a
   behaviorally distinct replacement identifiable twice. Controller locator
   interpretation, practice fitting, branch choice, and outcome-based rescue
   remain forbidden. Only a pass may authorize one prospectively frozen
-  OT-0072; no prior candidate is rescored under E13.
+  OT-0072; no prior candidate is rescored under E13 and OT-0071 may not be
+  rerun or retroactively promoted.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
@@ -914,9 +920,13 @@ ablations. The immediate sequence is:
   replay, exact-history ablations, and a complete fresh-process causal chain.
   Its first locator-matching design was rejected before freeze because it
   changed addresses without changing practice and replayed scored labels. The
-  corrected protocol is unimplemented and unexecuted. Only its promotion may
-  authorize one separately frozen OT-0072 actor-bearing candidate. No prior
-  result is rescored.
+  corrected protocol's sole locked execution completed those scientific gates,
+  but its literal fresh-root reconstruction recipe failed before calibration
+  because the task and receipt were not regenerated. Public manifest authority
+  was removed, the result is exploratory-only, and OT-0072 remains
+  unauthorized. A newly numbered candidate-free replacement must repair and
+  prospectively test reconstruction, then rerun the complete workload; OT-0071
+  may not be rerun or retroactively promoted. No prior result is rescored.
 - Only after representation escape is promoted may OT-2 widen toward
   reconstructed direction, reasons that retain standing, legitimate revision
   or supersession, and continuity across qualitatively different domains.

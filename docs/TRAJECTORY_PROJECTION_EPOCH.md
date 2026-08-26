@@ -1,6 +1,6 @@
 # Trajectory-native developmental projection epoch
 
-- **Status:** active; first calibration promoted and second frozen
+- **Status:** active; first calibration promoted and second operationally invalidated
 - **Evaluation epoch:** E13
 - **Learner authorization:** none
 - **Predecessor:** endogenous substrate epoch informative exhaustion
@@ -155,15 +155,20 @@ all 2,187 one-step consequence policies, exact named heuristics, raw/practice
 interventions, the complete causal chain, fresh-process boundaries, and a
 one-attempt protocol-to-implementation-to-run-lock sequence.
 
-OT-0071 remains unimplemented and unexecuted. A pass may authorize exactly one
-prospectively frozen OT-0072 actor-bearing candidate. Rejection or invalidation
-authorizes none. The OT-0071 reference fitter, fixtures, semantic indices,
-cases, schedules, task, outputs, and control winners are forbidden fixed inputs
-or controller fallbacks in OT-0072.
+The sole locked OT-0071 execution completed the full candidate-free workload
+and its sealed summary reported every scientific gate passing. Literal
+fresh-root reconstruction then failed before calibration because
+`--reconstruct-only` required the I-derived task and receipt to preexist rather
+than regenerating and verifying them. Public manifest authority was removed;
+the attempted artifact remains exploratory-only in ignored failure storage.
+OT-0071 is retired and authorizes no OT-0072. A newly numbered candidate-free
+repair must rerun the complete workload after proving fresh-root derivation and
+raw-byte reconstruction; the OT-0071 output cannot be promoted retroactively.
 
-## Condition after OT-0071 promotion
+## Condition after a valid replacement promotion
 
-Only if OT-0071 promotes may a later experiment use the calibrated environment.
+Only if a prospectively frozen replacement validly promotes may a later
+experiment use the calibrated environment.
 A fresh actor, not the controller, must author future-blind post-trial
 locators, turn completed raw request/outcome contact into a full receipt and
 compact extensional practice, use that practice to cause one inactive branch

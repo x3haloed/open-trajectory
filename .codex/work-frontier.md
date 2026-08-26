@@ -4,151 +4,72 @@
 
 Advance the developmental outcome behind `TARGET.md`: across complete resets,
 contact should increasingly affect both what remains causally available and
-how future instances decide what deserves that availability, while independent
-reality retains correction authority. The previous endogenous-substrate epoch
-reached informative exhaustion, not the positive foothold. E13 now opens a
-trajectory-native projection direction. The normative target is unchanged,
-OT-0071 is frozen candidate-free, no learner is authorized, and OT-3/TAAA
-remains separable and suspended.
+how later instances decide what deserves that availability, while independent
+reality retains correction authority. E13 pursues this through append-only
+trajectory history, bounded exact projection, and separately replayed active
+state. The normative target is unchanged; OT-3/TAAA remains separable and
+suspended.
 
-## Invariants
+## Goal invariants
 
 - Preserve complete resets, independently owned consequences, prospective
   gates, equal budgets, decisive ablations, rollback, content-addressed
   evidence, privacy, and append-only negative history.
-- Current weighted-selector and durable-goal results remain bounded causal
-  exoskeletons, not endogenous developmental machinery.
-- Do not promote component success, self-report, resemblance to a reference,
-  or controller-private opportunity as endpoint evidence.
-- Do not reopen a failed prompt, task, grammar, carrier, or threshold without a
-  prospectively calibrated causal affordance that changes the hypothesis.
-- Keep physical survival, active projection, and epistemic/action standing
-  separate. An inactive proposal may remain recoverable without becoming the
-  accepted state.
-- Supply only the procedural provenance needed to preserve authority. Do not
-  predeclare discrepancy, repair, merge, or importance categories that a later
-  candidate is meant to invent.
-- A changed address is not by itself changed developmental machinery. Any
-  machinery-revision claim must show that the previously effective
-  relevance/update practice is behaviorally causal, becomes harmful when
-  applied unchanged, and is replaced by a behaviorally distinct practice.
-- Candidate-owned historical descriptions may depend only on contact available
-  when they are authored. Evaluator selection of fields because they will be
-  relevant to a later regime is hidden oracle authority, even when the record
-  travels through an actor channel.
-- Endpoint credit may not be exact retrieval of scored historical row records
-  or identities. A repeated structural alphabet is admissible only when scored
-  rows are fresh and the claim is limited to application inside that frozen
-  family; exact replay of earlier scored rows remains retrieval evidence.
+- Keep historical availability, active projection, and epistemic/action
+  standing separate. A failed branch may remain recoverable without promotion.
+- The controller may validate provenance, identity, ancestry, and bounds, but
+  may not diagnose discrepancy, rank branches, fit projection practice,
+  synthesize repair, or rescue a poor consequence.
+- A machinery-revision claim requires a behaviorally causal practice that
+  becomes harmful unchanged and is replaced by a behaviorally distinct
+  practice. Changed address identity alone is insufficient.
+- Candidate-owned descriptions may depend only on contact available when
+  authored. Scored endpoints must use fresh row identities rather than exact
+  retrieval of historical scored rows.
+- Operational validity is constitutive evidence, not bookkeeping. A sealed
+  behavioral pass without literal reconstruction and publication verification
+  authorizes no learner.
+- Do not rerun or retroactively repair OT-0071. OT-0072 remains unauthorized.
+  Any repair must use a new experiment ID and rerun the complete scientific
+  workload prospectively.
 
-## Authoritative epoch disposition
+## Evaluation regime
 
-The cross-family synthesis is
-`docs/ENDOGENOUS_SUBSTRATE_EPOCH.md`. Six prospectively valid learner routes
-failed complete reproducible construction and correction:
+OT-0070 validly promoted the thin trajectory authority mechanics across 64
+candidate-free evaluations and authorizes no learner. OT-0071 then implemented
+the intended candidate-free opportunity: future-blind locators, completed raw
+attempt consequences, a receipted compact three-row practice, harmful prior
+replay, exact branch projection, compact successor, independent trial,
+decision, pointer transition, and fresh-row endpoint. Its sole locked run's raw
+summary reported all sixteen cases passing in four identical traversals, all
+144 adopt and 48 set-down paths matching pure scores, all 32 prior-practice
+replays failing as frozen, and zero actor or hosted calls.
 
-- OT-0049 bounded expressions: `[0,0,4]`, `[4,0,0]`;
-- OT-0052 staged expressions: both `[0,0,4]`;
-- OT-0054 branching ledgers: `[4,4,4]`, `[4,4,0]`;
-- OT-0062 categorical predicates: `[4,0,4]`, `[4,4,4]`;
-- OT-0066 temporal transducers: both `[4,4,4]`; and
-- OT-0069 equivalence partitions: `[0,8,0]`, `[0,8,4]`.
+OT-0071 is nevertheless operationally invalidated. In a clean L checkout with
+a fresh `$EVIDENCE`, the frozen reconstruct-only recipe failed before
+calibration because it expected the I-derived task and receipt to preexist.
+Public manifest authority was removed; attempted artifacts remain only in
+ignored failure storage. No OT-0072 authorization exists.
 
-These are materially different representations and interaction topologies.
-All listed runs were scientifically valid rather than operationally
-invalidated. Each authorization is consumed and each one-shot family is closed
-as the next route.
+The next admissible unit is a newly numbered candidate-free reconstruction
+repair. Before any authoritative run it must prove in tests that a clean L
+checkout and empty evidence root mechanically regenerate byte-identical task
+and receipt artifacts, bind them to I/L, reconstruct byte-identical raw output,
+and cannot publish if any derivation, reconstruction, test, audit, or wall gate
+fails. It must rerun OT-0071's complete scientific workload; the prior raw
+summary is diagnostic evidence only, not a score to inherit.
 
-OT-0067 separately preserved a candidate-free protocol impossibility. OT-0068
-prospectively repaired it and proved relational opportunity across all 4,140
-partitions and all 32,768 raw-row subsets per regime before OT-0069. Therefore
-OT-0069 cannot be explained by an impossible gate, raw replay sufficiency,
-diagnostic/heldout overlap, or carrier inexpressibility.
+## Prediction errors
 
-## Smallest reproduced obstruction
-
-Under complete resets, the current one-turn full-state proposal interface does
-not reliably turn independently receipted discrepancy against harmful inherited
-structure into an exact valid structural successor across two lineages, even
-when the model can infer the structure from scratch and the carrier is proven
-sufficient.
-
-OT-0069 localizes this boundary. Both workers independently authored and
-committed the correct initial grouping. At the first contradiction, one novel
-proposal missed one diagnostic relation and the other copied the harmful
-parent. At the second, one lineage reconstructed the correct grouping and the
-other remained anchored. Safe commit prevented drift but left no
-candidate-owned structural discrepancy object that could cause a later fresh
-revision.
-
-Earlier evidence bounds nearby repairs: OT-0052 showed that forced fresh
-revision can overwrite a zero-error proposal; OT-0054 showed that branching
-cannot help when the proposal set lacks a viable member; OT-0066 separated
-topology recovery from grounded output application.
-
-## Promoted procedural foothold and next falsifier
-
-The earlier requirement for a candidate-owned discrepancy-to-revision object
-correctly identified the severed proposal-to-consequence edge but risked
-preinstalling the semantic ontology under test. E13 replaced it with a thinner
-sequence. OT-0070 has now promoted an append-only, addressable trajectory in
-which:
-
-1. capability-separated actor-channel proposals, world-channel trials, and
-   actor-channel decisions are exactly bound but remain semantically
-   uninterpreted by the substrate;
-2. inactive failed branches remain recoverable while a separately replayed
-   pointer designates protocol-level active identity;
-3. bounded exact projection crosses a simulated reset without full raw history;
-4. synthetic actor-channel fixture decisions exercise adoption while the
-   controller validates without diagnosis, repair synthesis, ranking, or
-   projection-head selection; and
-5. set-down and rollback preserve exact branches and pointer provenance.
-
-The sole locked run passed all 64 evaluations. Full trajectories were 22,904
-canonical bytes, exact projections were 1,406 bytes, and every frozen gate
-passed with zero candidate or hosted output. The public receipt is
-`evidence/manifests/OT-0070/ot-0070-trajectory-authority-calibration-001.json`.
-
-OT-0070 remains candidate-free and authorizes no learner. The next work unit is
-now frozen as a redesigned OT-0071 candidate-free opportunity calibration. Its
-first locator-matching draft was rejected before freeze: the same matcher solved
-all regimes, locator contents were chosen for future relevance, and selected
-trials exposed scored labels. The corrected sixteen-case world instead uses
-future-blind full-context locators and six independently resolved address
-attempts to ground a full actor-channel receipt plus compact three-row
-projection practice.
-
-The practice, not merely its chosen address, has causal standing. It selects
-one exact compact-mechanism branch, improves neutral genesis from four endpoint
-errors to zero, crosses successor trial, actor-decision, pointer, and fresh-row
-endpoint seams, and changes every row after each of two reversals. Prior replay
-becomes wrong for all three queries and scores four of six fresh-identity
-endpoint rows. All 27 stationary practices, six fixed permutations, 27 fixed
-clock schedules, all 2,187 one-step consequence policies,
-practice/attempt/branch ablations, reset boundaries, and one-attempt lock
-topology must pass before one OT-0072 can be authorized. OT-0071 is
-unimplemented and unexecuted.
-
-The immediate task is to implement, lock, and run OT-0071 without actors or
-hosted calls. Only a promotion may authorize a later fresh actor, which must:
-
-1. decide which inactive branch deserves causal availability;
-2. preserve, revise, or set it down from completed independent contact;
-3. lose its advantage when the exact projection is withheld or misbound;
-4. outperform equal-budget raw, recent-history, and fixed-projection controls;
-5. revise its projection or update practice when later contact makes it
-   harmful; and
-6. retain exact parent identity, rollback, provenance, equal budgets, and
-   further correction.
-
-See `docs/TRAJECTORY_PROJECTION_EPOCH.md`. No prior score or disposition is
-rescored under E13.
-
-## Positive condition still unmet
-
-There is no reproducible promoted endogenous machinery; no machinery-level
-cross-domain transfer; no widened OT-2 standing result for a self-authored
-commitment; and no integrated lineage. No evidence supports consciousness,
-personhood, general autonomy, unrestricted self-development, or OT-3/TAAA
-progress.
+- Resolved: causal-grid process redundancy initially left insufficient wall
+  margin. Forking the immutable common prefix before independent selected-rank
+  action paths preserved all causal counts and reduced calibration from about
+  196 to 165 seconds.
+- Unresolved repair requirement: reconstruction currently validates task and
+  receipt identity only after loading them from `$EVIDENCE`; it needs a
+  non-authoritative fresh-root derivation path whose exact bytes are checked
+  against the run lock before calibration.
+- The positive developmental condition remains unmet: there is no reproducible
+  promoted endogenous projection/update machinery, cross-domain transfer,
+  widened OT-2 standing, integrated lineage, or evidence for consciousness,
+  personhood, general autonomy, unrestricted self-development, or OT-3/TAAA.

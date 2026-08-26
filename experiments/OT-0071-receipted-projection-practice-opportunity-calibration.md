@@ -1,13 +1,32 @@
 # OT-0071 — Receipted extensional projection-practice opportunity calibration
 
-- **Status:** frozen after adversarial redesign; unimplemented and unexecuted
-- **Evidence class:** public-reconstructible if valid
+- **Status:** operationally invalidated after the sole locked execution
+- **Evidence class:** exploratory-only; public manifest authority removed
 - **Evaluation epoch:** E13 trajectory-native developmental projection
 - **Target:** candidate-free practice-replacement opportunity
 - **Predecessor:** promoted OT-0070 trajectory mechanics
 - **Candidate output:** forbidden
 - **Actor and hosted calls:** zero
-- **Authorization on pass:** exactly one separately frozen OT-0072
+- **Authorization:** none; OT-0072 remains unauthorized
+
+## Disposition
+
+The sole P-to-I-to-L execution completed its scientific workload and its sealed
+summary reported a pass: all sixteen cases passed in all four traversals, the
+normalized verdict digest was identical, all 144 adopt paths and 48 set-down
+paths matched the pure evaluator, all 32 prior-practice replays failed with the
+frozen two-trial/four-endpoint signature, and no candidate, actor, tool, or
+hosted call occurred.
+
+Immediate literal reconstruction then invalidated publication. In a clean L
+checkout with a fresh `$EVIDENCE`, the frozen `--reconstruct-only` recipe could
+not load the I-derived task and receipt because the reconstruction path only
+validated existing sealed derivation files; it did not mechanically regenerate
+them. The public manifest was removed, and the raw artifact plus attempted
+manifest were retained only in ignored failure storage. OT-0071 may not be
+rerun, its reported promotion has no authority, and it authorizes zero OT-0072
+candidate outputs. Repair requires a new experiment ID with fresh-root task and
+receipt regeneration proven before publication.
 
 ## Frozen hypothesis and cheapest falsifier
 
