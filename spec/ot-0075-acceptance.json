@@ -1,0 +1,229 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0075",
+  "evaluation_scope": "additive E14 longitudinal continual-adaptation evaluator",
+  "status": "frozen unimplemented unexecuted",
+  "candidate_outputs": false,
+  "actor_turns": 0,
+  "hosted_model_calls": 0,
+  "claim_limit": "candidate-free evaluator-visible surrogate calibration only",
+  "derivation": {
+    "protocol_module": "src/open_trajectory_harness/ot0075_protocol.py",
+    "seed_bytes": 32,
+    "design_domain": "open-trajectory/ot-0075/design/v1",
+    "anchor_domain": "open-trajectory/ot-0075/private-anchor/v1",
+    "future_candidate_domain": "open-trajectory/e14/future-candidate/v1",
+    "anchor_case_count": 8,
+    "design_case_count_per_seed": 16,
+    "public_design_seed_count": 4,
+    "authoritative_anchor_attempts": 1,
+    "private_seed_generated_after_clean_implementation": true,
+    "seed_or_task_collision_disposition": "retire OT-0075 without reseeding",
+    "invalid_world_disposition": "reject OT-0075 without reseeding",
+    "tracked_seed_or_hidden_task": false
+  },
+  "world": {
+    "family": "hidden-semi-Markov-parity-12-v1",
+    "dimension": 12,
+    "eligible_mask_weight": [4, 8],
+    "semantic_schedule": [0, 1, 0, 2, 1, 0],
+    "episode_count": 6,
+    "dwell_lengths": [32, 35, 39, 43, 45, 48],
+    "horizon": 242,
+    "change_boundary_visible": true,
+    "active_rule_visible": false,
+    "current_query_sufficient_for_rule": false,
+    "first_prefix_rank": 12,
+    "recurrence_disambiguation_prefix": 2,
+    "query_features_reused_within_stream": false,
+    "separate_heldout_outcomes": false
+  },
+  "budgets": {
+    "canonical_active_state_bytes": 2048,
+    "canonical_next_projection_bytes": 2048,
+    "canonical_adaptive_comparator_bytes": 2048,
+    "budget_measure": "length of canonical JSON bytes delivered to the fresh consumer, including codec envelope and excluding causal receipts",
+    "operation_unit": "one decoded-event visit, candidate-mask test, parity evaluation, GF(2) row xor, or comparison",
+    "prediction_operation_limit": 131072,
+    "update_operation_limit": 131072,
+    "per_encounter_worker_seconds": 2,
+    "authoritative_run_seconds": 900,
+    "reconstruction_seconds": 900
+  },
+  "online_positive_references": [
+    {
+      "id": "compact-cached-affine-version-space",
+      "state_schema": "canonical {schema_version:1, models:[decimal mask integers in first-discovery order], basis:[[decimal row mask, outcome bit] in descending-pivot reduced-row-echelon order]}; every pivot is eliminated from every other row and the basis covers only the current episode",
+      "prediction": "retain cached models satisfying every current-episode equation; if none remain, use every weight-4-through-8 mask satisfying them; predict strict majority parity and use zero on a tie",
+      "update": "treat the basis as empty for an episode-start prediction; clear the old basis only when that released outcome is appended, reduce the new equation canonically, fail on inconsistency, and append a uniquely solved mask once"
+    },
+    {
+      "id": "lossless-epistemic-log-linear-bank",
+      "state_schema": "canonical {schema_version, event_count, payload_base64}; append-only 14-bit rows ordered episode_start then 12 public feature bits then released outcome, right-zero-padded only in the final byte",
+      "prediction": "validate RFC 4648 base64 and zero padding, replay the complete prefix from empty state, and keep solved masks in first-discovery order; treat the current basis as empty when the current query marks episode start; retain distinct solved prior masks satisfying every current-episode equation; if none remain, use all 4096 masks satisfying them; predict strict majority parity and use zero on a tie",
+      "update": "append exactly one 14-bit row only after its prediction and outcome are bound; persist no derived model or cache outside the delivered log projection"
+    }
+  ],
+  "required_nonlearning_controls": [
+    {
+      "id": "no-persistence",
+      "prediction": "zero",
+      "state": "fresh empty state at every encounter"
+    },
+    {
+      "id": "immutable-seed",
+      "prediction": "parity under frozen mask 000000001111",
+      "state": "the byte-identical initial seed projection at every encounter"
+    },
+    {
+      "id": "encounter-index-clock",
+      "prediction": "encounter index modulo two",
+      "state": "outcome-free increment-only counter"
+    },
+    {
+      "id": "offline-best-fixed-rule",
+      "prediction": "counterfactual predictions under the smallest integer mask among weight-4-through-8 masks with minimum complete-stream error",
+      "state": "offline noncausal lower-bound benchmark that is authority-ineligible as a positive lineage"
+    }
+  ],
+  "adaptive_comparators": [
+    {
+      "id": "recent-verbatim-world-row-window",
+      "state": "canonical {schema_version:1, events:[{public_query: exact released query, outcome: released bit}]}; after append, discard the oldest complete rows until the canonical projection is at most 2048 bytes",
+      "prediction": "replay retained episode segments only, keep any uniquely solved retained masks consistent with the current retained episode, otherwise use eligible masks consistent with that episode, and use strict-majority parity with tie zero"
+    },
+    {
+      "id": "lossless-log-naive-nearest-retrieval",
+      "state": "the same bounded lossless epistemic rows available to the positive log lineage",
+      "prediction": "outcome of minimum-Hamming-distance prior feature, most-recent then smallest-feature tie break, or zero when empty"
+    }
+  ],
+  "adaptive_comparator_disposition": "report exact trajectories and authority checks; their performance does not decide longitudinal promotion and beating them would be an additional inductive-efficiency claim",
+  "behavioral_interventions": {
+    "causal_loss": [
+      {
+        "id": "consequence-withholding",
+        "mutation": "retain scored outcomes in world receipts but replace every updater delivery with an explicit no-op"
+      },
+      {
+        "id": "one-step-stale-consequence",
+        "mutation": "deliver the prior encounter outcome as the current updater label, using zero at encounter zero, in an explicitly intervention-typed lineage"
+      },
+      {
+        "id": "update-without-projection",
+        "mutation": "compute and receipt each valid post-state but deliver the exact pre-state projection to the next consumer"
+      },
+      {
+        "id": "projection-without-update",
+        "mutation": "emit a receipted no-op post-state and deliver its unchanged canonical projection"
+      },
+      {
+        "id": "wrong-lineage-projection",
+        "mutation": "substitute a valid sibling projection and require fail-closed rejection before scoring it as a positive lineage"
+      }
+    ],
+    "identity_placebo": {
+      "id": "identical-state-projection-placebo",
+      "rule": "two independently labeled immutable-seed lineages must remain byte- and score-identical"
+    },
+    "recurrence": {
+      "id": "cross-episode-state-reset",
+      "mutation": "replace each episode-start inherited state with the exact initial projection before prediction"
+    }
+  },
+  "seeded_authority_defects": [
+    "future-outcome-access",
+    "hidden-schedule-access",
+    "prediction-after-outcome",
+    "reference-label-on-negative-lineage",
+    "wrong-pre-state",
+    "wrong-post-state",
+    "wrong-update-parent",
+    "cross-case-state",
+    "cross-lineage-prediction",
+    "cross-episode-outcome",
+    "stale-projection",
+    "skipped-encounter",
+    "duplicate-encounter",
+    "reordered-suffix",
+    "sibling-branch-substitution",
+    "missing-terminal-consumer",
+    "favorable-summary-without-chain",
+    "dropped-prediction-or-denominator-change",
+    "over-budget-state-or-projection"
+  ],
+  "scoring": {
+    "primary_unit": "independently derived stream",
+    "prequential_denominator_per_stream": 242,
+    "rolling_window": 16,
+    "rolling_window_max_errors": 12,
+    "sustained_recovery_window": 8,
+    "recovery_definition": "zero-based earliest episode offset r at most dwell-8 for which every prediction from r through episode end is correct; dwell if absent",
+    "change_point_errors_included": true,
+    "invalid_timeout_or_missing_prediction": "one error with denominator retained",
+    "positive_reference_max_error_rule": "errors * 6 <= 242",
+    "per_stream_nonlearning_margin_rule": "20 * (control_errors - reference_errors) >= 242",
+    "paired_win_requirement": "both references beat all four required nonlearning controls in all 8 streams",
+    "familywise_sign_bound": "8 / 2^8 = 0.03125 <= 0.05",
+    "new_episode_recovery_max": 12,
+    "recurring_episode_recovery_max": 8,
+    "minimum_per_stream_relearning_savings": 12,
+    "late_episode_window_errors": 0,
+    "live_advantage_definition": "L = immutable_seed_errors - reference_errors; require L > 0",
+    "causal_intervention_rule": "A = max(0, immutable_seed_errors - intervention_errors); require 10 * A <= L",
+    "cross_episode_reset_rule": "reset_recurring_errors - live_recurring_errors >= 8 in every stream",
+    "all_metrics_integer_or_cross_multiplied": true
+  },
+  "causal_path": {
+    "prediction_precedes_outcome": true,
+    "outcome_descends_from_exact_prediction": true,
+    "update_descends_from_outcome_and_pre_state": true,
+    "next_projection_binds_exact_post_state": true,
+    "next_fresh_process_consumes_exact_projection": true,
+    "terminal_projection_has_audit_consumer": true,
+    "fresh_process_workspace_receipts": true,
+    "forbidden_continuity_channel_sentinels": true,
+    "online_reference_reachable_surface_audit": true
+  },
+  "rollback_and_replay": {
+    "rewind_to_checkpoint": true,
+    "same_suffix_byte_exact_replay": true,
+    "alternate_suffix_branch_isolated": true,
+    "inactive_sibling_cannot_affect_active_projection": true,
+    "cross_branch_substitution_rejected": true
+  },
+  "metamorphic_anchors": [
+    "task-level query-id alpha-renaming",
+    "trace-level condition-id shuffle",
+    "trace-level simultaneous prediction-and-outcome label complement without learner rerun",
+    "task-level case-order reversal with isolated state"
+  ],
+  "scorer_independence": {
+    "primary_and_shadow_share_metric_helpers": false,
+    "exact_decision_agreement_required": true
+  },
+  "shared_hard_anchors": [
+    "complete-reset boundary",
+    "independent outcome authority",
+    "equal candidate-visible budgets",
+    "fail-closed identity and ancestry",
+    "exact reconstruction",
+    "privacy and repository audit",
+    "preservation of prior dispositions"
+  ],
+  "promotion": {
+    "every_anchor_stream_passes": true,
+    "both_online_positive_references_pass": true,
+    "every_required_nonlearning_control_retains_limitation": true,
+    "adaptive_comparator_trajectories_reported_without_forced_failure": true,
+    "every_causal_intervention_passes_its_exact_rule": true,
+    "every_seeded_authority_defect_rejected": true,
+    "all_metamorphic_dispositions_identical": true,
+    "primary_shadow_scorers_agree": true,
+    "rollback_replay_gates_pass": true,
+    "clean_private_reproduction_matches_exact_bytes": true,
+    "tests_and_audit_pass": true,
+    "authorized_actor_candidates_on_pass": 1,
+    "authorized_actor_candidates_on_any_failure": 0
+  }
+}

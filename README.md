@@ -1,9 +1,26 @@
 # Open Trajectory
 
-Open Trajectory is a falsification-first research program for persistent agents
-whose experience can change what they carry forward, later correct that
-selection function, author durable goals, and earn wider authority through
-independent evidence.
+Open Trajectory is a falsification-first research program for fresh-context
+agents whose base model is held under an immutable-revision or receipted hosted-
+epoch identity rule while experience accumulates in an external substrate,
+improves later predictions as reality changes, and eventually improves the
+learning machinery itself.
+
+The primary evidence ladder is:
+
+```text
+contact-causal inheritance
+→ longitudinal continual adaptation
+→ continual machinery refinement
+→ Open Developmental Trajectory
+```
+
+The subject may inherit a fully functional researcher-designed seed substrate.
+The first question is whether its external state updates across inference
+passes and causally lowers future prediction error over a long changing stream.
+Only the stronger second question asks whether experience improves how that
+substrate represents, retrieves, selects, or updates what later instances
+inherit.
 
 The repository is intentionally split across two storage classes:
 
@@ -24,206 +41,54 @@ environment variables, hostnames, or raw evidence.
 
 ## Current evidence horizon
 
-The repository has established a narrow OT-0 contact-causal inheritance result:
+The repository contains several bounded causal footholds:
 
-```text
-independent world outcome
-→ bounded inherited projection
-→ complete thread/workspace reset
-→ lower structural-heldout error in a fresh instance
-→ loss of the advantage under projection ablation
-→ clean reproduction in one receipted hosted epoch
-```
+- **OT-0014:** inherited external state reduced held-out error after complete
+  resets in one private, time-bounded hidden-rule envelope. The learning
+  machinery was fixed.
+- **OT-0037:** completed consequences trained and corrected a generic weighted
+  inheritance selector in one publicly reconstructible synthetic domain.
+- **OT-0045:** a durable goal contract supported bounded private, time-limited
+  goal pursuit in one synthetic domain.
+- **OT-0049 through OT-0069:** multiple prospectively tested structural
+  carriers failed to produce reliable complete construction and correction
+  across two fresh lineages. These negative results localize a one-shot
+  inherited-state revision problem; they do not falsify continual adaptation.
+- **OT-0070 and OT-0073:** append-only history, active-pointer, projection, and
+  reconstruction mechanics were exercised without actor output. Later verifier
+  probing exposed a missing fail-closed E13 case/regime binding, so reliance on
+  OT-0073's recorded promotion and authorization is suspended pending a
+  prospective repair. These are not learning results.
 
-OT-0014 supports that claim only within its private, time-bounded hidden-rule
-envelope. It does not establish OT-1. The inheritance-selection function was
-researcher-designed and fixed; no experience-induced selector change, emergent
-selection operation, or later selector correction has yet been demonstrated.
-OT-0004 remains an invalidated negative result: its free-form selector changed
-state, but stochastic selector and predictor branches prevented causal
-attribution and its aggregate behavior missed every target-level gate.
-OT-0005 removed that attribution confound with deterministic program execution
-and a passing identity-program placebo in its complete worker, but was rejected
-at its frozen carrier gate and did not produce recursive correction.
-OT-0020 later failed the exact-opportunity E4 endpoint, and OT-0021 through
-OT-0025 progressively falsified the richer-trace, single-challenger, and
-free-form portfolio carriers without target authority. OT-0026, the final
-public development falsifier, used an exact actor-authored stack score
-program plus the already-validated structured decision list. OT-0026 was
-invalidated by a post-encounter controller failure before result sealing, so it
-has no scientific carrier outcome and provides neither OT-1 evidence nor E4
-authorization.
-OT-0027 tested the materially different exemplar representation. Both actors
-committed valid casebooks but optimized positive-label frequency, converged on
-the same non-discriminative selection, and gained zero errors. This closes the
-direct exemplar path without OT-1 or E4 authority.
-OT-0028 passed its public development falsifier. Two fresh actors continued one
-actual failed OT-0027 trajectory, committed different revised casebooks, and
-independently reduced future error from eight to zero. This establishes one
-consequence-induced correction slice only, with no OT-1 or E4 authority.
-OT-0029 carried the first useful OT-0028 casebook into a later harmful
-encounter. One fresh actor reversed from sixteen to zero canary errors; the
-other reached nine and missed the frozen gate. The mixed experiment failed and
-provides no OT-1 or E4 authority.
-OT-0030 continued the failed nine-error OT-0029 revision. One fresh instance
-recovered to zero; the other reached seven, so the frozen preserved-correction
-gate failed. It demonstrates remaining correction capacity but not reproducible
-one-turn further correction, and has no OT-1 or E4 authority.
-OT-0031 tested two independent four-encounter proposal/score/revision branches.
-Both revision actors received exact candidate receipts and changed state, but
-neither improved completed or future error. The frozen validation-loop path is
-closed without OT-1 or E4 authority.
-OT-0032 passed its frozen deterministic walking skeleton. Completed outcomes
-changed the initial six-pattern state from eight errors to a zero-error learned
-state; later contradiction raised the unchanged state to sixteen errors, and a
-second update committed a different zero-error state. The unchanged-state
-ablation incurred sixteen errors, while the learned states' aggregate error was
-zero against eight for the best fixed control. This establishes public
-mechanism feasibility for outcome-optimized selector state only. The optimizer
-family and world remain researcher-authored, so it is not OT-1 or E4 evidence.
-OT-0033 passed its post-implementation blind-criterion falsifier. Completed
-selection errors changed a generic four-weight selector through three fresh
-regimes with contact errors `40 → 80 → 80` and zero errors on every post-update
-canary. Withholding outcome credit prevented every change; unchanged selectors
-retained `40 → 80 → 80` canary errors; and the adaptive aggregate beat the best
-frozen control, zero errors versus eighty. The task-specific criterion was
-mechanically fixed only after the implementation commit. This is public
-learned-criterion feasibility, not an OT-1 or evaluator-authorized result.
-OT-0034 passed the controller-only E5 calibration. All 384 weighted criteria
-passed opposite-world indistinguishability, fixed-state symmetry, outcome
-deletion/rescue, order placebos, and exact opportunity checks. Static
-reachability found no task, seed, hidden-criterion, dynamic, file, import, or
-execution authority available to the learner. E5 authorized exactly one
-fresh OT-0 integration candidate; the calibration itself is not OT-1 evidence.
-OT-0035 consumed that authorization. Both candidate workers scored zero in all
-three regimes; unchanged workers scored `[4, 8, 8]`; the best fixed lineage
-scored eight aggregate errors; and projection ablations scored three. All
-causal, behavioral, deployment, resource, novelty, test, and privacy gates
-passed except the exact unchanged-actor identity placebo: byte-identical
-ambiguous inputs produced different vectors with the same four-error score.
-OT-0035 therefore failed as frozen and did not promote OT-1.
-OT-0036 is the active candidate-free E6 calibration. It exhausts the complete
-weighted-criterion and eligible parity-pair product through the actual OT-0
-ledger using controller-deterministic application, the other attribution path
-allowed by `TARGET.md`. It does not rescore OT-0035 or execute a learner.
-All 2,304 cases passed every path, control, budget, replay, order, and authority
-gate without learner or actor output. E6 authorizes exactly one fresh
-deterministic-integration candidate; the calibration itself is not OT-1.
-OT-0037 consumed that authorization and passed every frozen gate. Two fresh
-processes reproduced the exact lineage receipt; candidate error was `[0,0,0]`,
-unchanged error `[4,8,8]`, contact error `[40,80,80]`, and the best fixed
-aggregate `8`. OT-1 is promoted as publicly reconstructible evidence within
-this bounded synthetic domain.
+What is still missing is the direct demonstration at the center of the project:
+many fresh inference passes from a base held under the existing identity rule,
+coupled only by a declared external substrate across a changing and recurring
+stream, with prediction error improving reliably relative to equal-budget
+controls and no learner-controlled model-weight update.
 
-OT-0045 later promoted a bounded private, time-limited OT-2 durable-goal result
-in one synthetic service/parity domain. It remains a successful causal
-exoskeleton, not evidence that the process constructed its developmental
-machinery or that commitments have cross-domain standing. OT-3/TAAA is a
-separable applied-governance branch; its valid unspent authorization is
-explicitly suspended.
+## Current direction
 
-The primary frontier is OT-1 representation escape. OT-0049, OT-0052, and
-OT-0054 rejected one-shot, staged-revision, and branching variants of the
-bounded arithmetic-expression family. OT-0055 then rejected numeric
-descriptive application because raw contact remained sufficient. OT-0056 has
-now promoted a candidate-free categorical compression world: every real
-four-weight selector fails, at most one of fifteen diagnostic rows fits the
-inheritance budget, at least fifteen endpoint-divergent hypotheses survive,
-and a hidden short description supports contradiction and correction. This is
-environmental opportunity only. It authorized one fresh OT-0057 application
-calibration, not a learner or a representation-escape claim. OT-0057 validly
-rejected that application interface: reference errors were `[0,2,0]` and
-`[0,0,2]`, although every opaque and one-row control failed and all operational
-gates passed. No learner was authorized. The next search must replace
-model-mediated natural-language application with a prospectively calibrated,
-controller-deterministic generic categorical carrier rather than relax the
-endpoint. OT-0059 has now promoted that candidate-free carrier across all 32
-worlds, including decisive constant-AST and literal-deletion ablations and safe
-rejection of invalid updates. It authorizes exactly one OT-0060 learner; the
-calibration itself contains no actor invention or representation-escape
-evidence. The authorized OT-0060 run was operationally invalidated by an
-unsupported output-schema keyword; its completed outputs have no scientific
-disposition and are not rescored. The authorization was preserved rather than
-consumed. OT-0061 has now promoted the required repair without candidate or
-hosted output: the schema change was exactly one redundant-keyword deletion,
-fail-closed preflight order and the interpreter-owned 256-byte limit were
-preserved, and all 32 carrier worlds retained their prior result. Exactly one
-newly derived OT-0062 candidate is authorized under the unchanged scientific
-gates; this is protocol evidence, not representation escape. OT-0062 was then
-validly rejected with every operational gate passing: candidate errors were
-`[4,0,4]` and `[4,4,4]`. One novel predicate committed and ablated decisively,
-but it was not revised after a distinct target change; the other five proposals
-did not commit. The one-shot categorical-predicate learner family is therefore
-closed as the next route, with no Phase I foothold claimed.
+Prospective E14 design makes longitudinal continual adaptation the immediate
+frontier. Before a learner runs, OT-0075 must freeze and calibrate the stream,
+horizon, cumulative and rolling prequential loss, post-change recovery,
+returning-regime retention, replication, controls, and decisive state/update/
+projection ablations. Exact encounter receipts must reconstruct the trajectory
+from the initial inherited substrate.
 
-The next materially different candidate-free family, OT-0063, initially reported a
-sequential environment where current-event selectors are provably stateless and
-a small finite-state topology is sufficient. Across all sixteen worlds,
-reference machines reached `[0,0,0]`, became wrong under temporal regime
-changes, and recovered through distinct topology changes; compression, fixed
-controls, structural ablations, safe failure, rollback, replay, tests, and audit
-passed without actor or hosted output. One fresh OT-0064 topology learner is
-authorized. A pre-candidate audit then found diagnostic/heldout overlap in two
-regimes and a verbatim control whose score was assigned rather than executed.
-The artifact and original summary remain preserved, but the promotion is
-operationally invalidated and OT-0064 is unauthorized and unexecuted. No
-temporal-topology opportunity or Phase I foothold is claimed from OT-0063.
+After that foothold, the program will test incremental learning-machinery
+refinement: a bounded, versioned actor-specified change competes prospectively
+with its unchanged parent, must improve later learning, and must remain revisable
+or recoverable when subsequent contact makes it harmful. Representation escape
+remains a stronger later test of developmental expansion, not the entrance exam
+for continual learning.
 
-OT-0065 then reran that opportunity prospectively with the missing invariants
-made causal. Across all sixteen new worlds, diagnostic and heldout sequences
-were disjoint and actual exact replay remained at four errors for every empty
-or budget-legal one-row projection. References scored `[0,0,0]`; prior states,
-the frozen first machine, and the frozen second machine scored `[4,8,8]`,
-`[0,8,3]`, and `[4,0,8]`; every frozen control passed without candidate or
-hosted output. This validly authorizes exactly one fresh OT-0066 topology
-learner. It is environment and correction-opportunity evidence only, not actor
-invention or representation escape; OT-0063 remains invalid and OT-0064 remains
-unauthorized.
-
-OT-0066 consumed that authorization in a valid two-worker candidate run. Every
-operational and attribution gate passed, but neither lineage committed a
-machine and both remained `[4,4,4]`. Five of six valid bounded proposals were
-one-state machines; the only three-state proposal recovered the relevant
-transition topology while inverting every diagnostic and heldout output. The
-temporal-transducer learner family is therefore closed as the next route. This
-is negative evidence: carrier expressibility and topology opportunity did not
-become consequence-grounded construction or correction.
-
-OT-0067 then tested the next candidate-free relational calibration without
-learner or hosted output. It rejected prospectively: the balanced contradiction
-heldout necessarily hid every relation distinguishing the third target from an
-all-singleton partition, so unique identification was impossible across the
-complete 4,140-partition hypothesis family. The public deterministic receipt
-preserves all 495 failing heldout choices. No learner is authorized; a newly
-numbered relational calibration must first prove that old-carrier harm and
-target identifiability can coexist.
-
-OT-0068 supplied that prospective replacement and passed all sixteen public
-candidate-free worlds. Every target was uniquely identifiable among 4,140
-partitions; all 32,768 raw-row subsets per regime were measured; at most one
-row fit; at least 877 heldout-divergent alternatives survived; and exact replay
-remained at four errors. It authorized one OT-0069 learner comparison, now
-consumed by valid rejection. It is calibrated opportunity only, not actor
-invention or representation escape.
-
-OT-0069 consumed that authorization in a valid two-worker learner run. Both
-workers constructed and committed the correct initial grouping. Neither passed
-the first regrouping: one novel proposal missed one diagnostic relation and the
-other copied the harmful inherited grouping. One worker later reconstructed
-the correct third grouping; the other remained anchored. Scores were `[0,8,0]`
-and `[0,8,4]`. The full-partition learner family is closed without a Phase I
-foothold. The next search must change what is inherited toward an actor-authored
-reconstruction/update operation, not retry the grouping prompt or threshold.
-
-The endogenous-substrate epoch therefore ends in informative exhaustion, not a
-positive foothold. Multiple valid and materially distinct learner families
-sometimes produced useful actor-authored structure but did not reproduce
-complete construction and correction across independent lineages. No learner
-is authorized. The smallest missing affordance is a bounded candidate-owned
-discrepancy-to-revision object that can carry proposal-local structural failure
-through a reset without letting the controller select the answer. The full
-bounded disposition is in
-[`docs/ENDOGENOUS_SUBSTRATE_EPOCH.md`](docs/ENDOGENOUS_SUBSTRATE_EPOCH.md).
+OT-0074 records suspension before any task or actor output. The underlying E13
+authorization remains unspent and is not repurposed for E14 or transferable to
+a new E13 candidate. E14 is not promoted and authorizes no learner until the
+candidate-free held-out anchor checkpoint passes. No prior experiment is
+rescored. See
+[the E14 epoch](docs/LONGITUDINAL_CONTINUAL_LEARNING_EPOCH.md) and
+[the complete program ledger](PROGRAM.md).
 
 ## Quick start
 
@@ -276,7 +141,9 @@ CI runs the audit and tests on every push and pull request.
 
 - [TARGET.md](TARGET.md) — normative research targets and stopping conditions.
 - [RED_LINES.md](RED_LINES.md) — shortcuts and leak classes that do not count.
-- [PROGRAM.md](PROGRAM.md) — staged research program.
+- [PROGRAM.md](PROGRAM.md) — staged research program and preserved result ledger.
+- [docs/LONGITUDINAL_CONTINUAL_LEARNING_EPOCH.md](docs/LONGITUDINAL_CONTINUAL_LEARNING_EPOCH.md)
+  — prospective E14 evaluation transition and next-work boundary.
 - [docs/RESEARCH_LANDSCAPE.md](docs/RESEARCH_LANDSCAPE.md) — non-normative
   hypothesis map for widening candidate generation.
 - [docs/hypotheses/](docs/hypotheses/) — attributed, non-normative design

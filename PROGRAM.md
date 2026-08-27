@@ -1,24 +1,43 @@
 # Research program
 
-## Course correction — primary developmental branch
+## Course correction — longitudinal learning before open development
 
 ```text
-OT-0 → OT-1 → OT-2 ─┬─ Open Developmental Trajectory
-                     └─ OT-3 / TAAA
+contact-causal inheritance
+→ longitudinal continual adaptation
+→ continual machinery refinement
+→ Open Developmental Trajectory
 ```
 
-Open Developmental Trajectory is primary. OT-0037's weighted selector and
-OT-0045's durable goal contract are preserved bounded promotions and successful
-causal exoskeletons, not completed developmental forms. The active frontier is
-OT-1 representation escape: a world where every parameter setting of the
-current selector fails, but an actor-invented distinction, representation, or
-update operation can succeed and later remain corrigible.
+The immediate primary frontier is a convincing many-pass demonstration of
+continual adaptation. Fresh instances from a base held under the existing
+immutable-revision or receipted hosted-epoch identity rule may inherit a fully
+functional researcher-designed substrate. No learner-controlled model-weight
+update is part of the causal path. Completed contact updates external state,
+that state reaches later instances through the declared projection, and
+prospective prediction error must improve reliably over a long changing and
+recurring stream relative to equal-budget controls.
+
+OT-0014's inherited-state result, OT-0037's weighted-selector refinement, and
+OT-0045's durable goal contract remain bounded promotions and useful causal
+footholds. None satisfies the prospective many-pass E14 gate. The
+OT-0048 through OT-0073 representation and trajectory work remains preserved
+evidence about stronger machinery-refinement hypotheses; representation escape
+is no longer the entrance test for the weaker longitudinal claim.
+
+After longitudinal adaptation is established, the program should permit small,
+versioned changes to inherited learning machinery and compare each child
+prospectively with its unchanged parent. Repeated beneficial, corrigible
+changes support continual machinery refinement. Material representation escape
+and cross-domain expansion causally specified by the subject or developmental
+process remain later evidence for Open Developmental Trajectory.
 
 TAAA is a separate applied-governance branch. OT-0046 and its E11 authorization
 remain valid, but the unspent authorization is suspended. TAAA progress is not
 evidence of deeper developmental unfolding.
 
-The developmental coordinate is encounter index, not wall-clock time:
+The developmental coordinate is encounter index, not wall-clock time. The
+basic cycle repeats many times:
 
 ```text
 prospective prediction or action
@@ -27,6 +46,7 @@ prospective prediction or action
 → permitted persistent update
 → complete context reset
 → later held-out prediction or action
+↺
 ```
 
 ## Learned program invariants
@@ -37,19 +57,25 @@ the operator stopped the run. Large checkpoint acquisition and
 resource-saturating local inference are therefore exceptional paths requiring
 explicit authorization rather than default reproduction steps.
 
-Contact-causal inheritance and recursive inheritance selection must remain
-separately named. Lower held-out error caused by inherited state is a necessary
-substrate result; it is not evidence that experience changed the function
-deciding what deserves inheritance. This distinction was restored after direct
-user review of OT-0014's target classification.
+Contact-causal inheritance, longitudinal continual adaptation, and recursive
+machinery refinement must remain separately named. Lower held-out error caused
+by inherited state is a necessary substrate result; a reproducible trajectory
+of such improvement is the longitudinal claim; neither is evidence that
+experience changed the function deciding what deserves inheritance. The
+subject may inherit the initial carrier and learning procedure. A change to
+that machinery is the stronger claim and must be evaluated against its
+unchanged parent on later encounters. The original OT-0/OT-1 distinction was
+restored after direct user review of OT-0014; the longitudinal/machinery
+distinction was added after the present outcome clarification.
 
-Selector-change comparisons must isolate the committed selector snapshot from
-execution variance. Identical-selector placebo branches must produce identical
-selections and downstream scores under controller-deterministic execution, or
-a stochastic design must prospectively power repeated estimation and pass its
-identity-policy placebo. Fresh LLM branches with uncontrolled selector or
-predictor sampling are not a selector-change ablation. OT-0004 made this
-invariant explicit.
+Longitudinal state-change, selector-change, and machinery-change comparisons
+must isolate the named state from execution variance. Identical-state placebo
+branches must produce identical selections and downstream scores under
+controller-deterministic execution, or a stochastic design must prospectively
+power paired repeated estimation, counterbalance order, replicate lineages, and
+pass the corresponding identical-substrate, identical-selector, or identical-
+machinery placebo. Fresh LLM branches with uncontrolled selector or predictor
+sampling are not a causal ablation. OT-0004 made this invariant explicit.
 
 A schema-valid actor output that violates a frozen candidate-carrier gate is a
 scientific falsifier when its actor and deployment receipts are valid, not an
@@ -114,7 +140,7 @@ made this classification rule explicit.
   locked execution completed the scientific workload, but literal fresh-root
   reconstruction failed because the reconstruct-only path required sealed
   derivation files to preexist. Its public authority was removed and it
-  authorizes no OT-0072. OT-0073 validly promoted the candidate-free
+  authorizes no OT-0072. OT-0073 was recorded as promoting the candidate-free
   reconstruction replacement. Its locked authoritative run and empty-root
   replay regenerated exact neutral task/receipt bytes, reproduced raw bytes
   before publication, and reran the same scientific gate: future-blind
@@ -124,10 +150,44 @@ made this classification rule explicit.
   to-endpoint path; and that later contact makes every row harmful and a
   behaviorally distinct replacement identifiable twice. Controller locator
   interpretation, practice fitting, branch choice, and outcome-based rescue
-  remain forbidden. Only a pass may authorize one prospectively frozen
-  OT-0072; no prior candidate is rescored under E13 and OT-0071 may not be
-  rerun or retroactively promoted. OT-0073 now authorizes one separately frozen
-  OT-0074.
+  remain forbidden. Under OT-0071, only a pass could have authorized OT-0072;
+  it did not. No prior candidate is rescored under E13, and OT-0071 may not be
+  rerun or retroactively promoted. OT-0073 recorded one separately frozen
+  OT-0074 authorization. Later direct verifier probing exposed missing fail-
+  closed cross-case successor and endpoint case/regime binding. OT-0074 records
+  suspension before task or actor output. OT-0073's generated bytes and
+  reconstruction remain preserved, but reliance on its promotion and
+  authorization now requires a newly numbered prospective E13 verifier repair.
+- **E14 design — longitudinal continual adaptation:** begins prospectively at the
+  completed OT-0073 checkpoint and before any OT-0074 actor side effect. Direct
+  user clarification is the independent anchor: continuous learning means that
+  inference passes from a base held under the existing identity rule are
+  coupled by external state updated from completed contact and that this state
+  drives reliably lower future prediction error as reality changes. E13 could
+  observe trajectory-projection mechanics and structural practice replacement,
+  but it could not distinguish the missing many-pass longitudinal claim because
+  representation escape had become its entrance gate. No candidate comparison
+  was unfinished at this boundary.
+  E14 preserves every complete-reset, independent-outcome, authority, equal-
+  budget, ablation, rollback, reconstruction, privacy, and negative-evidence
+  anchor. It does not rescore any prior experiment. OT-0073 remains a
+  reconstructed candidate-free E13 result, but OT-0074 suspends reliance on its
+  promotion and unspent authorization. That authorization cannot be transferred
+  to E14 or to a newly numbered E13 candidate. E14 is prospective and not yet
+  promoted; E13 remains the last recorded regime, with its learner authority
+  suspended. OT-0075 is reserved for a candidate-free checkpoint with design
+  worlds, a disjoint sealed anchor bundle derived from one private seed only
+  after evaluator implementation, two materially different online-admissible
+  controller references, and seeded causal defects. It must freeze and
+  calibrate a changing and recurring prequential stream, horizon, trajectory
+  statistic, cumulative error, recovery latency, retention and relearning
+  measures, replication plan, and no-state, frozen-state, clock, fixed-rule,
+  consequence, update, projection, and lineage-binding controls, while
+  reporting online history and retrieval comparators without forcing them to
+  fail. Hidden/future oracles are negative authority tests, not positive
+  references. Only a complete held-out anchor pass promotes E14. The checkpoint
+  calibrates only an evaluator-visible surrogate and cannot establish base-
+  model learning. E14 currently authorizes no learner.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
@@ -148,9 +208,12 @@ that historical checkpoint; OT-0037 later supplied the bounded promotion.
 
 **Current target status:** OT-0014 establishes bounded OT-0 contact-causal
 inheritance under E2. OT-0037 establishes bounded OT-1 with a generic weighted
-selector under E6. This does not establish cross-domain generality,
-representation escape, or developmental machinery invented beyond that causal
-exoskeleton; those are now the active OT-1 frontier.
+selector under E6. OT-0014 is a narrow causal foothold for inherited-state
+adaptation, and OT-0037 is a narrow foothold for consequence-driven selection
+refinement. Neither establishes a many-pass trajectory across changing and
+recurring reality. Longitudinal continual adaptation under E14 is now the
+active frontier. Cross-domain machinery refinement and representation escape
+remain stronger later questions.
 
 OT-0004 did not narrow the then-open status. It established that free-form policy
 prose applied and evaluated by fresh stochastic actors is not an attributable
@@ -162,17 +225,26 @@ complete worker, but not reliable or corrigible selector-program learning.
 OT-0020 left OT-1 open and closed unchanged one-step whole-program challenger
 synthesis from OT-0016's consequence receipt as a credible next experiment.
 The complete worker corrected only at the final stage, without a later canary,
-and beat the strongest fixed control by two errors rather than six. A successor
-must carry materially richer actor-visible consequence evidence or use a
-different actor-authored selector representation, while preserving controller-
-deterministic attribution. It also requires a fresh evaluator authorization;
-OT-0019's one-candidate E4 grant is exhausted.
+and beat the strongest fixed control by two errors rather than six. At that
+checkpoint, any successor would have needed materially richer actor-visible
+consequence evidence or a different actor-authored selector representation
+while preserving controller-deterministic attribution, plus fresh evaluator
+authorization. OT-0019's one-candidate E4 grant remains exhausted.
 
 Build the evaluation harness before choosing a preferred learning substrate.
 The program invents its own candidate representations, selection rules, update
-mechanisms, and correction paths. Minimal no-persistence, verbatim-event, and
-naive-retrieval implementations exist only as falsification controls; no
-external memory architecture is a candidate or dependency.
+mechanisms, and correction paths. In the original OT-0 sequence, minimal no-
+persistence, verbatim-event, and naive-retrieval implementations were frozen as
+falsification controls; no external memory architecture is a candidate or
+dependency. For E14, an online consequence log that improves later prediction
+is itself an eligible positive substrate. Compression relative to that log is a
+separate stronger claim.
+
+The subject may inherit the resulting program-authored seed substrate and its
+complete initial learning procedure. For E14, keep that machinery fixed while
+testing whether its evolving external state improves a long prospective
+trajectory. Only a later machinery-refinement experiment asks consequences to
+change how the substrate learns.
 
 OT-0 candidates establish the strict contact-causal path over hidden-rule,
 executable-software, and noisy probabilistic domains. Require structural
@@ -460,10 +532,13 @@ contact
 → preserved correction capacity
 ```
 
-## Primary frontier — Open Developmental Trajectory
+## Preserved machinery-refinement and trajectory-projection search
 
 The current weighted selector and durable goal contract remain baselines and
-ablations. The immediate sequence is:
+ablations. The following completed sequence records the former immediate
+representation-escape frontier. Its results and dispositions remain
+authoritative, but the sequence is no longer a prerequisite for the E14
+longitudinal target:
 
 - **OT-0048:** construct and calibrate the smallest representation-escape world
   in which exhaustive search over the current weighted-selector parameter space
@@ -927,14 +1002,97 @@ ablations. The immediate sequence is:
   but its literal fresh-root reconstruction recipe failed before calibration
   because the task and receipt were not regenerated. Public manifest authority
   was removed, the result is exploratory-only, and OT-0072 remains
-  unauthorized. OT-0073 validly promoted the reconstruction repair. A neutral
-  I-derived task and receipt regenerated in an empty evidence root, a second
-  non-authoritative full run matched authoritative raw bytes before
+  unauthorized. OT-0073 was recorded as promoting the reconstruction repair. A
+  neutral I-derived task and receipt regenerated in an empty evidence root, a
+  second non-authoritative full run matched authoritative raw bytes before
   publication, and the complete OT-0071 scientific workload reran without
   semantic change. All cases, causal paths, controls, interventions, tests,
   audits, and privacy gates passed with zero actor or hosted calls. OT-0071 may
-  not be rerun or retroactively promoted. Exactly one OT-0074 is now
-  authorized; no prior result is rescored.
-- Only after representation escape is promoted may OT-2 widen toward
-  reconstructed direction, reasons that retain standing, legitimate revision
-  or supersession, and continuity across qualitatively different domains.
+  not be rerun or retroactively promoted. OT-0073 recorded one OT-0074
+  authorization under E13; no prior result is rescored. Later direct verifier
+  probing exposed missing fail-closed case/regime binding, and OT-0074 now
+  records suspension before task or actor output. The generated reconstruction
+  evidence remains preserved, but promotion reliance requires a newly numbered
+  E13 verifier repair that independently earns any future learner authorization.
+
+## Primary frontier — prospective E14 longitudinal continual adaptation
+
+The next work unit is OT-0075, a candidate-free evaluator checkpoint. Design
+worlds may construct and tune E14. After evaluator implementation is frozen,
+one private 256-bit seed must be generated and a disjoint sealed anchor bundle
+mechanically derived from it and the clean implementation identity. Two
+materially different controller-private online references must pass every
+evaluator-visible surrogate gate from only current queries and previously
+released outcomes, required nonlearning controls must remain discriminating,
+and seeded causal defects must be rejected without candidate or hosted output.
+Exact horizons, task order, sample sizes, cumulative and rolling
+prequential-loss rules, recovery bounds, retention and relearning tests,
+replication, and promotion thresholds must be frozen before the anchor run. Any
+evaluation-only held-out probes must be separately typed and withheld from the
+updater.
+
+Freeze the anchor derivation function, domain tag, private-seed length,
+implementation-identity binding, one-attempt rule, and collision handling
+before evaluator implementation. An implementation identity alone is not a
+private anchor. Do not reseed or shop anchor worlds after derivation. Treat
+independently derived streams as the inferential units.
+
+Only a complete anchor pass promotes E14 and authorizes one later candidate.
+That candidate-free pass is not evidence that a base-model actor learns.
+Freeze that candidate's seed substrate and updater implementation before
+mechanically deriving a fresh post-implementation stream disjoint from design
+and anchor worlds. Static and runtime surface checks must exclude task seeds,
+regime schedules and change points, reference answers, held-out probes,
+evaluator instructions, and control winners from candidate-reachable inputs.
+The candidate-stream derivation function, domain tag, implementation binding,
+one-attempt rule, and collision handling must be frozen before candidate
+implementation; reseeding and task shopping are forbidden.
+
+The first E14 candidate should use one immutable base revision or one unchanged
+receipted hosted deployment epoch, fresh actor and workspace state at every
+encounter, no learner-controlled model-weight update, and one viable
+researcher-designed seed substrate inherited by all lineages. Every completed
+prediction receives an independent outcome, advances an immutable update
+receipt, and produces the exact bounded projection for the next actor after
+every nonterminal encounter. The terminal state and bounded projection remain
+receipted for reconstruction or a final audit consumer. Compare the live
+lineage against:
+
+- no persistence;
+- the immutable initial substrate;
+- an outcome-free clock and strongest fixed rule;
+- reported equal-budget lossless/recent history and naive retrieval, without a
+  forced-negative disposition;
+- consequence withholding and misbinding;
+- update without projection and projection without update; and
+- misbound lineage or substrate identity.
+
+Promotion requires lower prospectively frozen cumulative prequential error than
+every eligible equal-budget control, bounded recovery after each change,
+retention or faster relearning when a regime returns, causal lift from live
+state at multiple later checkpoints, independent replicated lineages, decisive
+loss of advantage under state/update/projection ablation, and clean
+reconstruction from the initial substrate plus ordered receipts. Error need not
+fall monotonically at a change point; the frozen comparative trajectory must
+improve reliably.
+
+Only after that result should the program expose a bounded machinery delta.
+Fork a versioned child and its unchanged parent from the same content state and
+give them the same prospective encounters while the child changes one
+representation, retrieval, selection, update, credit, consolidation, or
+candidate-internal evaluation or adoption operation. Authoritative outcomes,
+scoring, promotion evaluation, and the frozen commit rule remain controller-
+owned. Compare the branches prospectively, charge proposal and trial costs,
+separate author/tune, adoption-validation, and post-adoption confirmation
+windows, require a future learning advantage only on the sealed confirmation
+trajectory, and pass a decisive delta ablation. Then make the refinement harmful
+and require revision, set-down, or rollback. For a self-refinement claim, the
+actor must causally specify the useful delta rather than choose a researcher-
+supplied answer. Repeat before claiming continual meta-learning.
+
+Representation escape remains a later test of structural expansion, not a
+prerequisite for continual adaptation, the first machinery refinement, or
+widened OT-2 work. OT-2 may independently test reconstructed direction, reasons
+that retain standing, legitimate revision or supersession, and continuity
+across qualitatively different domains. Only an integrated, repeated result
+supports Open Developmental Trajectory.

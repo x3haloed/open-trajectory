@@ -43,6 +43,69 @@ invalidates the run. This evidence is at most `private-reproducible`: it is
 time-bounded and cannot by itself support a public reconstruction recipe for
 the hosted deployment.
 
+## Longitudinal trajectory evidence
+
+A longitudinal continual-adaptation claim requires an ordered causal record,
+not only an aggregate curve. For every scored encounter, raw evidence must bind:
+
+- the prediction or action recorded before the outcome;
+- the independently owned outcome and score receipt;
+- the substrate identity before and after the permitted update;
+- the update decision, including an explicit no-op when active state is
+  preserved;
+- for each nonterminal encounter, the exact bounded projection consumed by the
+  next fresh actor; for the terminal encounter, a terminal projection receipt
+  or explicit final audit-consumer receipt; and
+- the frozen regime, task, encounter, and evaluator identities.
+
+The reconstruction path must begin from the initial inherited substrate and
+replay the ordered receipts to recover every later substrate identity and
+projection, including the terminal state. A summary statistic, final snapshot,
+or selected pair of endpoints cannot substitute for that chain. Tracked
+summaries may publish bounded trajectory statistics; raw per-encounter records
+remain in the external evidence store under their content identities.
+
+The trajectory receipt must also bind the evaluator implementation identity,
+candidate seed/updater implementation identity, task-derivation identity, and
+proof that candidate implementation preceded fresh stream derivation. Hidden
+task seeds, schedules, references, and heldouts remain private inputs and enter
+tracked summaries only through allowed digests.
+
+Also bind the prospectively frozen derivation-function identity, domain tag,
+clean implementation identity, private-seed digest, derived-stream digest,
+attempt count, and any collision disposition. The private seed is generated
+only after clean implementation and remains an external input; an implementation
+identity alone is not the hidden anchor. A promoted anchor or candidate stream
+has exactly one allowed derivation attempt unless the pre-implementation
+protocol fixed a different deterministic collision rule.
+
+For each reset boundary, raw evidence also binds an opaque fresh-process
+instance identity, the exact empty workspace before and after consumption, an
+allowlisted environment fingerprint, absence of response chaining, and the
+result of prospectively planted forbidden-channel sentinels. The consumer call
+graph must exclude undeclared filesystem, network, tool, subprocess, task-
+loader, and controller-cache continuity. Rewind/replay evidence binds the
+checkpoint, byte-exact same-suffix reconstruction, isolated alternate branch,
+inactive sibling, and rejection of a projection substituted across branches.
+
+A candidate-free evaluator checkpoint must label its controller references as
+surrogates. Their prediction and update call graphs may consume only the current
+public query, their bounded inherited state, and outcomes previously released
+in order. High-scoring future- or hidden-truth oracles are retained only as
+negative authority tests. Such a checkpoint cannot supply fresh base-model
+identity or actor-behavior evidence and therefore cannot itself support a
+continual-adaptation claim.
+
+Machinery-refinement evidence additionally binds the incumbent and candidate
+machinery identities, their common parent, the bounded delta, proposal and
+adoption receipts, the author/tune, adoption-validation, and sealed post-
+adoption confirmation partitions, the exact common starting content identity
+and matched encounter evidence for both branches, and any rollback or
+replacement lineage. The proposal and frozen commit rule predate validation.
+If validation selects among alternatives, a disjoint confirmation window must
+evaluate the selected child. Evidence used to author, tune, or select a change
+cannot establish its claimed future benefit.
+
 ## Public manifest
 
 A manifest contains only:

@@ -4,7 +4,13 @@
 - **Positive foothold:** not established
 - **Live learner authorization:** none
 - **OT-3/TAAA:** separable and suspended
-- **Normative target:** unchanged
+- **Normative target:** unchanged at epoch close; later program/target
+  reorientation opened prospective E14 design
+
+This is a preserved historical disposition. Its proposed next affordance was
+the live frontier at epoch close, but E14 now places longitudinal continual
+adaptation with inherited machinery before further structural-refinement work.
+No result or negative inference in this document is rescored.
 
 ## What became known
 
@@ -38,17 +44,17 @@ raw-row subsets before OT-0069 ran. Thus OT-0069's rejection cannot be
 attributed to an impossible endpoint, raw replay sufficiency, hidden overlap,
 carrier inexpressibility, or an operational invalidation.
 
-## Precise current obstruction
+## Precise obstruction at epoch close
 
 The smallest reproduced obstruction is:
 
-> Under complete resets, the current one-turn full-state proposal interface
+> Under complete resets, the epoch's one-turn full-state proposal interface
 > does not reliably convert independently receipted discrepancy against a
 > harmful inherited structure into an exact valid structural successor across
 > two lineages, even when the same model can infer the structure from scratch
 > and the carrier is prospectively proven sufficient.
 
-The interface currently couples four causal jobs into one actor output:
+The interface coupled four causal jobs into one actor output:
 
 1. interpret completed consequences;
 2. detect which inherited structural commitments are contradicted;
@@ -92,7 +98,7 @@ This is more than another actor turn or error-count hint. It requires a new
 bounded authority object and a prospective causal separation among proposal,
 independent validation, revision, and adoption. The repository does not yet
 contain a calibrated substrate meeting those conditions. That missing
-affordance is the smallest current reason another run would be scientifically
+affordance was the smallest reason another run would have been scientifically
 different.
 
 ## Claim boundary

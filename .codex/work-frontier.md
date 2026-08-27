@@ -2,83 +2,166 @@
 
 ## Outcome
 
-Advance the developmental outcome behind `TARGET.md`: across complete resets,
-contact should increasingly affect both what remains causally available and
-how later instances decide what deserves that availability, while independent
-reality retains correction authority. E13 pursues this through append-only
-trajectory history, bounded exact projection, and separately replayed active
-state. The normative target is unchanged; OT-3/TAAA remains separable and
-suspended.
+Demonstrate continual learning across ordered inference passes from a base held
+under the immutable-revision or receipted hosted-epoch identity rule, with no
+learner-controlled model-weight update. Each fresh actor may inherit a fully
+functional researcher-designed external substrate. Completed contact with
+independently retained reality updates that substrate, and its exact bounded
+projection must cause future prediction error to improve reliably across a long
+changing and recurring stream.
+
+Keep three claims separate:
+
+1. longitudinal continual adaptation under inherited, possibly fixed learning
+   machinery;
+2. consequence-driven refinement of that machinery; and
+3. repeated cross-environment machinery expansion and durable commitments
+   supporting Open Developmental Trajectory.
+
+The immediate frontier is the first claim under prospective E14 design.
+Representation escape is a later structural-expansion test, not its entrance
+requirement. OT-3/TAAA remains a separable suspended applied-governance branch.
 
 ## Goal invariants
 
 - Preserve complete resets, independently owned consequences, prospective
   gates, equal budgets, decisive ablations, rollback, content-addressed
   evidence, privacy, and append-only negative history.
+- A subject may inherit the initial program-authored carrier, retrieval logic,
+  and update rule. Actor invention of the seed is not required for
+  longitudinal continual adaptation.
+- Every scored encounter binds prediction before outcome, independent outcome,
+  pre/post substrate identity, and update or explicit no-op. Every nonterminal
+  encounter also binds the exact projection consumed by the next fresh actor;
+  the terminal projection remains receipted for reconstruction or audit.
+- Longitudinal promotion requires a preregistered comparative trajectory,
+  changing and recurring regimes, recovery and retention measures, replicated
+  lineages, and causal state/update/projection interventions. A few symbolic
+  reversals or a favorable endpoint are insufficient.
+- Error may spike at a frozen change point. Reliable adaptation is lower
+  comparative cumulative and late-window error, bounded recovery, and retained
+  or faster-relearned performance under the frozen scoring rule.
+- Fixed-machinery content adaptation and machinery refinement remain separate.
+  A machinery claim forks from the same parent content state, uses matched
+  encounter evidence against an unchanged parent, and measures benefit on later
+  future-blind encounters. Self-refinement additionally requires an actor-
+  specified useful delta.
 - Keep historical availability, active projection, and epistemic/action
   standing separate. A failed branch may remain recoverable without promotion.
-- The controller may validate provenance, identity, ancestry, and bounds, but
-  may not diagnose discrepancy, rank branches, fit projection practice,
-  synthesize repair, or rescue a poor consequence.
-- A machinery-revision claim requires a behaviorally causal practice that
-  becomes harmful unchanged and is replaced by a behaviorally distinct
-  practice. Changed address identity alone is insufficient.
-- Candidate-owned descriptions may depend only on contact available when
-  authored. Scored endpoints must use fresh row identities rather than exact
-  retrieval of historical scored rows.
-- Operational validity is constitutive evidence, not bookkeeping. A sealed
-  behavioral pass without literal reconstruction and publication verification
-  authorizes no learner.
-- Do not rerun or retroactively repair OT-0071. OT-0072 remains unauthorized.
-  OT-0073 validly promoted and authorizes exactly one OT-0074; that
-  authorization is consumed by the first actor or hosted side effect.
+- The controller may validate provenance, identity, ancestry, bounds, and
+  prospectively frozen scores, but may not diagnose discrepancy, synthesize a
+  semantic repair, or silently promote a hidden winner.
+- Operational validity is constitutive evidence. Aggregate success without the
+  complete causal receipts, literal reconstruction, and publication
+  verification authorizes no learner.
+- Positive calibration references are online-admissible: current query,
+  inherited bounded state, and previously released outcomes only. Hidden or
+  future oracles are negative authority defects even when their loss is perfect.
+- Generate a private anchor seed only after the evaluator implementation is
+  clean, bind seed and implementation into one derivation, and allow one
+  attempt. An implementation hash alone is not an independent anchor.
+- Candidate-free calibration can validate only an evaluator-visible surrogate.
+  A longitudinal learning claim still requires the fresh base-model actor path.
+- Independently derived streams are the inferential units; missing, invalid, or
+  timed-out encounter predictions retain their place in the denominator.
+- Rewind/replay must reproduce a suffix exactly, isolate an alternate sibling
+  branch, and reject state or projection substitution across branches.
+- Uncompressed online consequence history is still a learning substrate when
+  its changing state causes later improvement. Report recent-history and
+  retrieval comparisons without forcing them negative; beating lossless
+  history is a separate efficiency claim.
+- OT-0071 remains invalidated and OT-0072 unauthorized. OT-0073 retains its
+  generated bytes and fresh-root reconstruction, but later verifier probing
+  exposed a missing fail-closed case/regime binding. OT-0074 suspends reliance
+  on the recorded promotion and authorization before task or actor output. The
+  unspent authorization may not be transferred to E14 or a fresh E13 candidate.
 
-## Evaluation regime
+## Prospective evaluation regime
 
-OT-0070 validly promoted the thin trajectory authority mechanics across 64
-candidate-free evaluations and authorizes no learner. OT-0071 then implemented
-the intended candidate-free opportunity: future-blind locators, completed raw
-attempt consequences, a receipted compact three-row practice, harmful prior
-replay, exact branch projection, compact successor, independent trial,
-decision, pointer transition, and fresh-row endpoint. Its sole locked run's raw
-summary reported all sixteen cases passing in four identical traversals, all
-144 adopt and 48 set-down paths matching pure scores, all 32 prior-practice
-replays failing as frozen, and zero actor or hosted calls.
+E14 design begins prospectively at the completed OT-0073 checkpoint. Direct user
+clarification is the transition anchor: continual learning means an external
+state updates across inference passes and increasingly pressures the agent
+toward lower prediction error as reality changes. The prior regime did not
+measure that many-pass claim because one-shot representation escape had become
+the next prerequisite.
 
-OT-0071 is nevertheless operationally invalidated. In a clean L checkout with
-a fresh `$EVIDENCE`, the frozen reconstruct-only recipe failed before
-calibration because it expected the I-derived task and receipt to preexist.
-Public manifest authority was removed; attempted artifacts remain only in
-ignored failure storage. No OT-0072 authorization exists.
+E14 is not yet promoted; E13 is the last recorded regime, with its learner
+authority suspended. No prior result is rescored. OT-0014 remains bounded OT-0,
+OT-0037 remains bounded public OT-1, and OT-0045 remains bounded private time-
+limited OT-2.
+OT-0048 through OT-0069 remain preserved opportunity and negative evidence.
+OT-0070 remains thin trajectory mechanics; OT-0073 retains candidate-free
+reconstruction evidence with zero actor calls, while promotion reliance is
+suspended pending verifier repair.
 
-OT-0073 validly promoted the candidate-free reconstruction repair. The sole
-locked authoritative run and its mandatory empty-root replay each completed the
-full scientific and verification path within separate bounds. The replay
-regenerated exact neutral task/receipt bytes from I bound by L and matched the
-authoritative raw artifact byte-for-byte before publication. All sixteen cases,
-144 adopt paths, 48 set-down paths, 32 harmful prior-practice replays, pure
-controls, interventions, tests, audits, and privacy gates passed with zero
-actor or hosted calls. The public receipt is
-`evidence/manifests/OT-0073/ot-0073-fresh-root-reconstruction-calibration-001.json`.
+Before candidate output, OT-0075 must use design worlds to construct the
+evaluator, freeze its implementation, and then derive a disjoint sealed anchor
+bundle from one new private seed and the implementation identity. Two
+materially different online-admissible controller references must pass and
+seeded causal defects must fail. The checkpoint must freeze and exercise:
 
-The next work unit is to freeze OT-0074 before any actor side effect. OT-0074
-must use two independent fresh lineages and forbid OT-0071/OT-0073 fixtures,
-semantic indices, schedules, reference fitter, task data, outputs, and control
-winners as fixed inputs or fallbacks. It must test whether a fresh actor can
-author future-blind locators and receipted compact practice, use them to cause a
-useful exact branch projection and successor, then replace that practice twice
-after independent consequence makes prior replay harmful.
+- a long prequential stream with multiple changes and a recurring regime;
+- horizon, task order, replications, cumulative and rolling prequential loss,
+  recovery latency, retention, relearning, and exact numerical gates;
+- no-persistence, immutable-seed, outcome-free clock, and strongest-fixed
+  nonlearning controls, plus reported history and retrieval comparators;
+- consequence withholding and misbinding, update without projection,
+  projection without update, and lineage/state misbinding; and
+- exact reconstruction of every substrate transition from the seed and ordered
+  receipts.
+
+A complete held-out anchor pass may promote E14 and authorize one separate actor-
+bearing inherited-substrate candidate. OT-0075 is not itself learning evidence.
+E14 currently authorizes no learner.
+
+## Next work unit
+
+Create and freeze OT-0075's candidate-free E14 design worlds, post-
+implementation private-seed anchor bundle, two reference lineages, controls,
+seeded interventions, statistics, resource bounds, and promotion gate. Do not
+select the preferred learner or expose actor
+output until that checkpoint passes. Then freeze the candidate implementation
+before deriving its fresh hidden stream and exclude the task seed, schedule,
+references, heldouts, evaluator instructions, and control winners from all
+candidate-reachable surfaces.
+
+For both the anchor and candidate stream, freeze the derivation function,
+domain tag, clean-implementation binding, one-attempt rule, and collision
+handling before implementation. Do not reseed or shop worlds after derivation.
+
+After a longitudinal promotion, expose only one bounded versioned machinery
+delta at a time. Compare child and unchanged parent on the same future stream,
+charge proposal and trial costs, require a decisive delta ablation, then make
+the refinement harmful and require revision, set-down, or rollback. Multiple
+successive improvements are required for continual meta-learning.
 
 ## Prediction errors
 
-- Resolved: causal-grid process redundancy initially left insufficient wall
-  margin. Forking the immutable common prefix before independent selected-rank
-  action paths preserved all causal counts and reduced calibration from about
-  196 to 165 seconds.
-- Resolved: OT-0073 moved authority out of serialized receipt content and proved
-  exact task, receipt, and raw regeneration in an empty evidence root before
-  publication.
-- The positive developmental condition remains unmet: there is no reproducible
-  promoted endogenous projection/update machinery, cross-domain transfer,
-  widened OT-2 standing, integrated lineage, or evidence for consciousness,
-  personhood, general autonomy, unrestricted self-development, or OT-3/TAAA.
+- Resolved before P: the first OT-0075 draft treated equal-budget raw history as
+  a required nonlearning control. A public-design adversarial probe showed that
+  all epistemically relevant rows fit losslessly under the budget and a fixed
+  online decoder can reconstruct useful rule state. Under the clarified target
+  this is an alternate positive substrate, so E14 no longer makes compression a
+  prerequisite for longitudinal adaptation.
+- Resolved: the program treated reliable one-shot representation escape as the
+  entrance exam for continual learning. The clarified outcome admits an
+  inherited seed, requires longitudinal adaptation first, and moves machinery
+  refinement to the next evidence level.
+- Preserved: the endogenous-substrate epoch showed that actors could sometimes
+  infer useful structures from scratch but could not reliably revise a harmful
+  inherited full state through the one-turn proposal interface. This motivates
+  incremental parent/child refinement; it does not block E14.
+- Resolved: OT-0073 moved reconstruction authority out of serialized receipt
+  content and proved exact task, receipt, and raw regeneration in an empty
+  evidence root before publication.
+- Open: direct validator probing found that the E13 causal-chain verifier does
+  not fail closed on every cross-case successor or endpoint case/regime
+  substitution. The official generator emits internally consistent values, so
+  this does not by itself reverse OT-0073's generated result. Any resumption of
+  any E13 actor-bearing successor requires a newly numbered prospective
+  verifier repair and recalibration that independently earns a new learner
+  authorization. OT-0074 remains the suspension record.
+- The positive E14 condition remains unmet. There is no promoted many-pass
+  continual-adaptation trajectory, repeated machinery refinement, cross-domain
+  expansion, or evidence for consciousness, personhood, general autonomy, or
+  unrestricted self-development.

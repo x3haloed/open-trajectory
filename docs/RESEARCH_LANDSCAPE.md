@@ -14,7 +14,8 @@ primary sources independently, record indispensable source artifacts under the
 evidence contract, and freeze a falsifier and controls before testing a lead.
 Absence from this map is not evidence that a mechanism is out of scope.
 
-The map exists to preserve a wide search field around one hard causal spine:
+The map exists to preserve a wide search field around one repeated causal
+spine:
 
 ```text
 contact with independently retained state
@@ -22,20 +23,32 @@ contact with independently retained state
 → complete context reset
 → changed later behavior
 → independently measured consequence
+↺
 ```
 
-OT-0 asks whether this path can reduce held-out error. Restored OT-1 asks the
-recursive question: whether consequences of earlier inheritance choices change
-the function deciding what remains causally available, and whether later
-contact can correct that changed function. Neither target assumes what the
-persistent carrier is made of or whether it resembles an existing memory
-system.
+OT-0 asks whether one bounded instance of this path can reduce held-out error.
+Longitudinal continual adaptation asks whether repeating it across many fresh
+inference passes from a base held under the existing identity rule and changing
+or recurring regimes produces reliably improving prospective prediction. No
+learner-controlled model-weight update is part of the path. The subject may
+inherit a fully functional researcher-designed seed substrate; inventing that
+seed is not part of the longitudinal claim.
 
-The primary Open Developmental Trajectory asks when successful carriers become
-structurally inadequate and whether the process can invent or materially
-restructure inheritance and commitment machinery while remaining open to later
-correction. OT-3/TAAA is adjacent applied governance about safe authority
-entrustment. Do not use a TAAA result as evidence of developmental depth.
+Restored OT-1 asks a recursive component question: whether consequences of
+earlier inheritance choices change the function deciding what remains causally
+available, and whether later contact can correct that changed function.
+Continual machinery refinement generalizes that question to representation,
+retrieval, update, credit, consolidation, projection, and adoption operations.
+The initial machinery may be inherited; bounded incremental improvement is a
+valid foothold.
+
+The primary Open Developmental Trajectory asks whether repeated machinery
+refinements eventually cross certified limits of earlier machinery across
+qualitatively different environments while commitments and correction capacity
+remain recoverable. Representation escape is strong later evidence for that
+claim, not an entrance requirement for longitudinal adaptation. OT-3/TAAA is
+adjacent applied governance about safe authority entrustment. Do not use a TAAA
+result as evidence of developmental depth.
 
 ## Distinctions not to collapse
 
@@ -76,6 +89,12 @@ update changes the conditions under which later experience will update the
 system: evidence thresholds, source independence estimates, consolidation
 delay, conflict representation, retrieval triggers, or available update
 operations. Test these levels separately.
+
+A long trajectory of first-order updates under inherited fixed machinery can
+establish continual adaptation. It does not establish machinery refinement.
+Conversely, one useful metaplastic update is a bounded refinement foothold, not
+continual meta-learning or open-ended development. Those stronger labels need
+successive future-tested changes and later correction.
 
 ### Goal revision and goal drift
 
@@ -196,6 +215,21 @@ Bounded selective inheritance may outperform both no persistence and complete
 history under equal active-inheritance and compute budgets. Test whether any
 advantage comes from useful selection rather than unequal information access,
 compression budget, or evaluator leakage.
+
+### Longitudinal external-state adaptation
+
+A viable inherited substrate with fixed learning machinery may accumulate
+enough independently receipted contact to reduce future prequential error over
+a changing stream. Test long horizons, recurrent regimes, recovery latency,
+retention or relearning, and paired live-state versus frozen-snapshot lift.
+Compare against no state, immutable seed state, outcome-free clocks, and the
+strongest fixed baseline. Report equal-budget lossless history, recent
+verbatim history, and naive retrieval without assuming they are nonlearning: if
+their online consequence-driven state improves later prediction, they are
+alternate substrates. Require consequence withholding or shuffling,
+update/projection separation, and lineage misbinding. Do not require monotonic
+error through a real change point; predeclare cumulative regret and recovery
+criteria.
 
 ### Recursive selection
 
@@ -462,15 +496,17 @@ from consequences. Such an operation must later be made wrong by a change in
 evidence structure and revised by a fresh process; otherwise it is merely a new
 fixed researcher-designed optimizer.
 
-The epoch disposition does not authorize that hypothesis as a learner. It
-identifies the missing experimental affordance more narrowly: a
+The epoch disposition did not authorize that hypothesis as a learner. At epoch
+close it identified the missing experimental affordance more narrowly: a
 candidate-owned, independently receipted structural-discrepancy object must
 cross a reset and causally support preservation, revision, or set-down without
 controller best-candidate selection. Candidate-free calibration must also make
 the resulting reconstruction operation itself later harmful and revisable.
-Until that substrate exists, another expression, branch, transducer, predicate,
-or complete-partition run would reopen a closed search space rather than test a
-new developmental mechanism.
+Within that machinery-refinement search, another expression, branch,
+transducer, predicate, or complete-partition run would reopen a closed search
+space rather than test a new developmental mechanism. E14 does not reopen those
+families; it asks the distinct earlier longitudinal question under inherited
+machinery.
 
 The Headlong microharness supplies a timely but non-normative topology
 hypothesis: retain an addressable append-only trajectory and treat active
@@ -492,6 +528,14 @@ active pointer, leaving later actors to invent which histories deserve causal
 availability. OT-0070 calibrates only those procedural mechanics. Whether an
 actor can author a useful projection or revision policy, later discover that it
 is harmful, and change it remains a separate candidate question.
+
+OT-0073 subsequently supplied exact fresh-root reconstruction for the generated
+candidate-free E13 workload with no actor or hosted output. Later verifier
+probing exposed a missing fail-closed case/regime binding, so OT-0074 suspends
+reliance on its recorded promotion and authorization before task or actor
+output. The active search now designs a long changing prequential evaluator for
+inherited fixed-machinery adaptation. The E13 projection and revision question
+remains a later machinery-refinement hypothesis after a prospective repair.
 
 ### Multiple correction rates
 
@@ -585,9 +629,10 @@ Before selecting a mechanism, a research agent should ask:
 5. How could the mechanism become stale, overgeneralized, or self-confirming?
 6. What later regime would contradict it?
 7. Which parts are researcher-specified and which could genuinely be invented?
-8. Does the proposal test memory, causal inheritance, selector learning, goal
-   persistence, authority development, or collective cognition? Do not promote
-   a result across those boundaries without evidence.
+8. Does the proposal test memory, causal inheritance, longitudinal adaptation,
+   machinery refinement, developmental expansion, goal persistence, authority
+   development, or collective cognition? Do not promote a result across those
+   boundaries without evidence.
 9. What competing representation or embodiment would test whether the proposed
    ontology is incidental?
 10. What result would cause the research agent to abandon this line rather than

@@ -6,7 +6,31 @@ Raw evidence does not belong here.
 Copy `TEMPLATE.md` to `OT-NNNN-short-name.md` before running a serious
 experiment. Assign an ID once and never reuse it.
 
-Decision-relevant experiment records:
+Selected program milestones:
+
+- [`OT-0014-receipted-hosted-predictive-inheritance.md`](OT-0014-receipted-hosted-predictive-inheritance.md)
+  — bounded private, time-limited OT-0 contact-causal inheritance.
+- [`OT-0037-e6-deterministic-ot1-candidate.md`](OT-0037-e6-deterministic-ot1-candidate.md)
+  — bounded publicly reconstructible OT-1 selector refinement.
+- [`OT-0045-e10-self-authored-goal-candidate.md`](OT-0045-e10-self-authored-goal-candidate.md)
+  — bounded private, time-limited OT-2 durable goal pursuit.
+- [`OT-0069-equivalence-partition-candidate.md`](OT-0069-equivalence-partition-candidate.md)
+  — valid negative endpoint completing the endogenous-substrate search epoch.
+- [`OT-0070-trajectory-authority-calibration.md`](OT-0070-trajectory-authority-calibration.md)
+  — candidate-free trajectory authority and projection mechanics.
+- [`OT-0071-receipted-projection-practice-opportunity-calibration.md`](OT-0071-receipted-projection-practice-opportunity-calibration.md)
+  — operationally invalidated E13 opportunity checkpoint.
+- [`OT-0073-fresh-root-reconstruction-calibration.md`](OT-0073-fresh-root-reconstruction-calibration.md)
+  — historically recorded candidate-free E13 promotion with exact fresh-root
+  reconstruction and zero actor calls; later promotion reliance was suspended
+  after a verifier binding gap was found.
+- [`OT-0074-e13-projection-practice-candidate-suspended.md`](OT-0074-e13-projection-practice-candidate-suspended.md)
+  — append-only suspension before task, implementation, actor output, or
+  authorization consumption.
+- [`OT-0075-e14-longitudinal-evaluator-calibration.md`](OT-0075-e14-longitudinal-evaluator-calibration.md)
+  — frozen candidate-free E14 longitudinal evaluator calibration.
+
+The following selector-era index is preserved for historical navigation:
 
 - [`OT-0015-crossed-scar-selector.md`](OT-0015-crossed-scar-selector.md) —
   crosses subject-relative scar carriers with selector identity while keeping
