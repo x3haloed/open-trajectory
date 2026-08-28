@@ -1,0 +1,31 @@
+{
+  "artifact_id": "ot-0077-e14-public-vector-identity-repair-001-public-checkpoint-failure",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 669,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8b550a29993bca6a8e849c8c05bb425faad9c73b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0077",
+  "input_manifests": [],
+  "kind": "e14-public-checkpoint-operational-failure",
+  "limitations": [
+    "Post-hoc compact receipt for an operationally invalid pre-private checkpoint; the retained journal is unsealed and supports no learner or evaluator-promotion claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:ot-0077-e14-public-vector-identity-repair-001-public-checkpoint-failure",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bc6757e4ca46acdb6071dcadeceff6a702651cded789bb606277693c46eecf6e"
+}

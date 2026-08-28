@@ -103,12 +103,18 @@ ancestry repair, and all 128 schema-conformant public behavior rows passed. Its
 frozen publication contract was internally inconsistent, however: the schema
 required `consequence-withholding`, while the byte count and digest identified
 the otherwise identical vector using `withholding`. The public oracle rejected
-OT-0076 before private derivation. OT-0077 must freeze one coherent identity,
-reproduce all public design vectors, freeze its implementation, and then derive
-a disjoint sealed anchor
-bundle from one new private seed and the implementation identity. Two
-materially different online-admissible controller references must pass and
-seeded causal defects must fail. The checkpoint must freeze and exercise:
+OT-0076 before private derivation. OT-0077 froze one coherent identity and a
+complete hardened implementation. Its authoritative pre-private checkpoint
+retained all 323 expected sealed lineage segments and all 77,924 encounter
+commits, but the shared 900-second authority expired during the full-suite
+verification tail, before a stage seal. Failure preservation then exposed an
+independent bound error: a 395,165,748-byte public journal was routed through a
+134,217,728-byte compressed-raw snapshot limit, so quarantine succeeded but
+its ordinary compact receipt was masked. No private attempt marker, seed, task,
+derivation, run lock, actor output, or learner authorization exists. OT-0077 is
+operationally invalidated and the wall gate remains unchanged.
+
+The successor checkpoint must retain and exercise:
 
 - a long prequential stream with multiple changes and a recurring regime;
 - horizon, task order, replications, cumulative and rolling prequential loss,
@@ -123,15 +129,24 @@ seeded causal defects must fail. The checkpoint must freeze and exercise:
   receipts.
 
 A complete held-out anchor pass may promote E14 and authorize one separate actor-
-bearing inherited-substrate candidate. OT-0077 is not itself learning evidence.
-E14 currently authorizes no learner.
+bearing inherited-substrate candidate. Candidate-free evaluator repair is not
+itself learning evidence. E14 currently authorizes no learner.
 
 ## Next work unit
 
-Freeze and implement OT-0077 and reproduce its matched counterfactuals,
-interventions, scorer agreement, receipt ancestry, and one internally coherent
-public-vector schema/byte-count/digest identity.
-Only then derive and execute its one post-implementation private-seed anchor.
+Freeze a newly numbered operational repair that keeps OT-0077's exact
+scientific task, matched counterfactuals, interventions, scoring, receipt
+ancestry, 900-second wall gate, and no-private-before-public order. It must
+overlap independent verification with the evaluator workload, preserve the
+same durable per-encounter journal semantics, seal from independently verified
+segment identities without reparsing the entire causal payload on the critical
+path, and give journal failure evidence its own explicit aggregate bound. The
+unchanged public behavior vector and primary/shadow dispositions must remain
+byte-identical.
+
+Only a clean, newly frozen implementation that passes this public checkpoint
+may derive and execute its own one-attempt post-implementation private-seed
+anchor.
 Do not select the preferred learner or expose actor output until that checkpoint
 passes. Then freeze the candidate implementation
 before deriving its fresh hidden stream and exclude the task seed, schedule,
@@ -166,6 +181,15 @@ successive improvements are required for continual meta-learning.
   while its frozen 126,413-byte digest was exactly the vector with the
   non-schema `withholding` alias. It was rejected before private derivation;
   OT-0077 must freeze one coherent identity before implementation.
+- Preserved and routed prospectively: OT-0077's public science wrote every
+  expected lineage segment, but the 900-second checkpoint expired during the
+  verification tail and therefore produced no stage seal. Its failure
+  quarantine also exceeded a raw-artifact-sized snapshot cap after the move,
+  masking the primary timeout. No private derivation began. A successor must
+  preserve the 900-second rule, overlap independent verification, remove
+  redundant full-payload parsing from the critical seal path without weakening
+  content or authority validation, and use a distinct bounded journal-failure
+  summarizer.
 
 - Resolved before P: the first OT-0075 draft treated equal-budget raw history as
   a required nonlearning control. A public-design adversarial probe showed that

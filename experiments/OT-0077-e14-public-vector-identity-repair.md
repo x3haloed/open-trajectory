@@ -1,6 +1,6 @@
 # OT-0077 — E14 public-vector identity repair
 
-- **Disposition:** `unexecuted`
+- **Disposition:** `invalidated`
 - **Scope:** candidate-free prospective publication-identity repair of the
   rejected OT-0076 evaluator
 - **Base result commit:** `877c6b49867b1d01fe99d06e0353f311b6f50df1`
@@ -8,6 +8,51 @@
 - **Actor turns / hosted-model calls:** zero
 - **E14 status before execution:** not promoted
 - **Learner authorization before execution:** none
+
+## Result
+
+The implementation was frozen at Git commit
+`8b550a29993bca6a8e849c8c05bb425faad9c73b`. Before any private derivation,
+the authoritative preparation command reran the P-frozen public checkpoint.
+The public journal retained all 323 expected sealed lineage segments and all
+77,924 expected encounter commits, but the shared 900-second authority budget
+expired during the full-suite verification tail. The stage therefore has no
+stage seal and cannot support a public-checkpoint pass.
+
+Failure preservation then exposed a separate implementation defect. The
+quarantined journal contained 324 files and 395,165,748 bytes, while the
+snapshot path incorrectly reused the 134,217,728-byte compressed-raw bound.
+The exact journal move succeeded, but capacity exhaustion prevented the normal
+compact failure receipt from being written and masked the primary timeout at
+the CLI boundary. A read-only recovery validated the retained prefix and wrote
+a post-hoc compact receipt. That receipt is operational negative evidence only;
+it is not a stage seal, reconstruction, evaluator promotion, or learner result.
+
+No attempt marker, private seed, private task, derivation receipt, or run lock
+was created. Candidate outputs, actor turns, hosted-model calls, and authorized
+learner count remain zero.
+
+## Disposition and authority
+
+OT-0077 is operationally invalidated before private derivation. E14 remains
+unpromoted and this experiment authorizes no learner. The 900-second wall gate
+must not be enlarged after this result. A newly numbered prospective repair may
+retain the exact scientific task, controls, scoring, and promotion rule while
+testing a bounded execution design that completes the public checkpoint inside
+the unchanged wall budget and preserves oversized failure journals without
+masking authority or mutation failures.
+
+## Evidence
+
+- Manifest:
+  `evidence/manifests/OT-0077/ot-0077-e14-public-vector-identity-repair-001-public-checkpoint-failure.json`
+- Receipt SHA-256:
+  `bc6757e4ca46acdb6071dcadeceff6a702651cded789bb606277693c46eecf6e`
+- Evidence class: `exploratory-only`
+- Retained journal status: incomplete, not torn, 323 sealed segments,
+  77,924 completed encounters, no stage seal
+- Retained journal aggregate SHA-256:
+  `2b626f96caa21fa37ca96fa0842665a0d059bc446ff7d2bb7859a0dfd8b21760`
 
 ## Hypothesis and bounded claim
 
