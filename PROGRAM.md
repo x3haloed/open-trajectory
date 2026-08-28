@@ -180,13 +180,16 @@ made this classification rule explicit.
   candidate, or hosted output. Its causal statistic used an unrelated immutable
   rule as the counterfactual and therefore counted fixed-prior differences as
   surviving learning; its update-without-projection path also named the wrong
-  causal pre-state after the first update. OT-0076 is the newly numbered
-  prospective repair. It preserves the exact task family and all valid OT-0075
-  gates, adds one exact matched-frozen control per reference, separates hard
-  path severing from informative one-step-stale binding, and keeps authoritative
-  updater state distinct from actor-visible projection. Hidden/future oracles
-  remain negative authority tests. Only a complete one-attempt held-out OT-0076
-  anchor pass may promote E14. The checkpoint is still an evaluator-visible
+  causal pre-state after the first update. OT-0076 implemented that newly
+  numbered matched-counterfactual repair, but its mandatory public oracle found
+  an internally inconsistent frozen publication identity before private
+  derivation: the exact schema named `consequence-withholding`, while the frozen
+  byte count and digest were generated with `withholding`. Its behavioral rows
+  and repaired dual ancestry passed, but no payload can satisfy both P-frozen
+  contracts. OT-0077 is reserved for the prospective identity-consistent
+  repair. Hidden/future oracles remain negative authority tests. Only a complete
+  one-attempt held-out OT-0077 anchor pass may promote E14. The checkpoint is
+  still an evaluator-visible
   surrogate and cannot establish base-model learning. E14 currently authorizes
   no learner.
 
@@ -1018,8 +1021,11 @@ longitudinal target:
 
 ## Primary frontier — prospective E14 longitudinal continual adaptation
 
-The next work unit is OT-0076, the candidate-free matched-counterfactual repair
-checkpoint required by OT-0075's public rejection. The exact public design
+The next work unit is OT-0077, the candidate-free identity-consistent
+matched-counterfactual repair required by the public rejections of OT-0075 and
+OT-0076. OT-0076's causal mechanics passed their 128-row public replay, but its
+schema and frozen digest named different nested intervention keys, so it was
+rejected before private derivation. The exact public design
 worlds may construct and tune E14. After evaluator implementation is frozen,
 one private 256-bit seed must be generated and a disjoint sealed anchor bundle
 mechanically derived from it and the clean implementation identity. Two

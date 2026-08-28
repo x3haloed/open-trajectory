@@ -94,9 +94,14 @@ learning, and its update-without-projection implementation did not preserve the
 claimed pre-state ancestry after the first update. It generated no private
 seed, task, attempt, candidate, actor output, or learner authority.
 
-OT-0076 is reserved for the prospective matched-counterfactual repair. It
-preserves OT-0075's exact task distribution while adding one reference-specific
-frozen-initial baseline and independent updater-state/projection ancestry. Its
+OT-0076 implemented the prospective matched-counterfactual repair and reproduced
+the intended causal behavior across all 128 public reference-stream rows, but
+its mandatory public oracle rejected the frozen design before private
+derivation. The schema required `consequence-withholding`; the byte count and
+digest identified the otherwise identical payload with `withholding`. OT-0077
+is reserved for a newly frozen, identity-consistent repair. It preserves
+OT-0075's exact task distribution, the OT-0076 reference-specific
+frozen-initial baseline, and independent updater-state/projection ancestry. Its
 design data, held-out evaluator anchors, and later candidate stream must remain
 disjoint.
 The design data may be used to construct and tune E14. After the evaluator
@@ -109,7 +114,7 @@ previously released outcomes. Every fixed control must retain its
 prospectively expected limitation, and the interventions must reject seeded
 causal defects. A future- or hidden-truth oracle is a negative authority test,
 never an admissible positive reference. No candidate or hosted output is
-permitted in OT-0076.
+permitted in OT-0077.
 
 Before evaluator implementation, freeze the anchor derivation function, domain
 tag, private-seed length, implementation-identity binding, one-attempt rule, and
@@ -223,8 +228,9 @@ None satisfies the E14 longitudinal gate, and none is rescored under it.
 
 ## Next work unit
 
-Implement the frozen OT-0076 matched-counterfactual repair, reproduce every
-public design vector and causal intervention, then—only from clean I—derive and
+Freeze and implement OT-0077 with one coherent public-vector schema, byte count,
+and digest; reproduce every public design vector and causal intervention, then—
+only from clean I—derive and
 execute its one private-seed anchor bundle. Do not expose a learner or spend the
 E13 authorization suspended by OT-0074. A complete anchor pass may promote E14
 and authorize one separately frozen inherited-substrate longitudinal candidate;

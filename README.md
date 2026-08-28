@@ -72,9 +72,12 @@ Prospective E14 design makes longitudinal continual adaptation the immediate
 frontier. OT-0075 was rejected on its public design worlds before any private
 seed or learner existed: its causal-loss statistic compared ablations with an
 unrelated immutable rule and could count a fixed prior difference as surviving
-learning. OT-0076 prospectively repairs that gate with a reference-specific
-matched-frozen counterfactual and separate updater-state/projection ancestry.
-Before a learner runs, its one sealed anchor must still calibrate the stream,
+learning. OT-0076 implemented the reference-specific matched-frozen repair but
+was also rejected before private derivation: its frozen schema required
+`consequence-withholding`, while its frozen byte count and digest identified a
+payload using the shorter `withholding` alias. OT-0077 is reserved for the
+prospective identity-consistent repair. Before a learner runs, its one sealed
+anchor must still calibrate the stream,
 horizon, prequential loss, recovery, recurrence, controls, causal ablations,
 receipts, and exact reconstruction.
 

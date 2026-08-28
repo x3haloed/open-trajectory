@@ -45,8 +45,12 @@ remain in `experiments/` and `evidence/manifests/`.
 OT-0075 was rejected on a declared public design stream before private
 derivation: an unrelated immutable control made the causal-loss rule count
 fixed-prior accuracy as surviving learning. It generated no private seed, task,
-attempt, candidate, actor output, or learner authority. Before actor output,
-OT-0076 must prospectively repair and calibrate:
+attempt, candidate, actor output, or learner authority. OT-0076 implemented the
+matched-counterfactual and dual-ancestry repair, but its public oracle found that
+the frozen schema required `consequence-withholding` while the frozen byte count
+and digest identified the otherwise identical vector using `withholding`. It
+was rejected before private derivation. Before actor output, OT-0077 must freeze
+one coherent public identity and prospectively calibrate:
 
 - a long prequential stream with multiple changes and at least one recurring
   regime;

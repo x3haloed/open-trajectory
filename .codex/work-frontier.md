@@ -98,10 +98,14 @@ OT-0075 was rejected on a public design stream before any private material was
 created. Its causal baseline compared each ablation to an unrelated immutable
 rule and could count static prior accuracy as surviving learning; its
 update-without-projection receipt ancestry also diverged from the state that
-actually caused later updates. OT-0076 prospectively preserves the task family,
-adds a matched-frozen control per reference, and separates authoritative updater
-state from actor-visible projection. It must reproduce all public design vectors,
-freeze its implementation, and then derive a disjoint sealed anchor
+actually caused later updates. OT-0076 implemented the matched-frozen and dual-
+ancestry repair, and all 128 schema-conformant public behavior rows passed. Its
+frozen publication contract was internally inconsistent, however: the schema
+required `consequence-withholding`, while the byte count and digest identified
+the otherwise identical vector using `withholding`. The public oracle rejected
+OT-0076 before private derivation. OT-0077 must freeze one coherent identity,
+reproduce all public design vectors, freeze its implementation, and then derive
+a disjoint sealed anchor
 bundle from one new private seed and the implementation identity. Two
 materially different online-admissible controller references must pass and
 seeded causal defects must fail. The checkpoint must freeze and exercise:
@@ -119,13 +123,14 @@ seeded causal defects must fail. The checkpoint must freeze and exercise:
   receipts.
 
 A complete held-out anchor pass may promote E14 and authorize one separate actor-
-bearing inherited-substrate candidate. OT-0076 is not itself learning evidence.
+bearing inherited-substrate candidate. OT-0077 is not itself learning evidence.
 E14 currently authorizes no learner.
 
 ## Next work unit
 
-Implement the frozen OT-0076 design and reproduce its matched counterfactuals,
-interventions, scorer agreement, receipt ancestry, and public-vector digest.
+Freeze and implement OT-0077 and reproduce its matched counterfactuals,
+interventions, scorer agreement, receipt ancestry, and one internally coherent
+public-vector schema/byte-count/digest identity.
 Only then derive and execute its one post-implementation private-seed anchor.
 Do not select the preferred learner or expose actor output until that checkpoint
 passes. Then freeze the candidate implementation
@@ -155,6 +160,12 @@ successive improvements are required for continual meta-learning.
   updated state but computed the next update from the stale projection. OT-0076
   carries authoritative updater state and actor-visible projection separately
   and binds each update to the exact receipted pre-state.
+- Preserved and routed prospectively: OT-0076's schema-conformant public vector
+  used `consequence-withholding` and had 127,949 bytes with SHA-256
+  `a645282da3986557ce10dfdc9a550482107fea0f7ccaab0748deedafccb1d603`,
+  while its frozen 126,413-byte digest was exactly the vector with the
+  non-schema `withholding` alias. It was rejected before private derivation;
+  OT-0077 must freeze one coherent identity before implementation.
 
 - Resolved before P: the first OT-0075 draft treated equal-budget raw history as
   a required nonlearning control. A public-design adversarial probe showed that
