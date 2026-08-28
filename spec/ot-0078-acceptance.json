@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0078",
+  "kind": "prospective-e14-operational-authority-repair",
+  "disposition_before_execution": "unexecuted",
+  "candidate_outputs": false,
+  "actor_turns": 0,
+  "hosted_model_calls": 0,
+  "base_protocol": {
+    "ot0077_plan_sha256": "bae447edbe3cd80e7e8c3a2e4ff4e9defb8acc65e9ccc58c2976a9d065de2035",
+    "ot0077_acceptance_sha256": "4a79e7cc4b82ec40d7f2a37de32716b79e4049a4af1fcc45f8551dd16a63965d",
+    "ot0077_task_protocol_sha256": "7deb8a7b01ecdf57716958956f810f67487bd24b88e98073055d2d55e1c41b48",
+    "ot0077_implementation_commit": "8b550a29993bca6a8e849c8c05bb425faad9c73b",
+    "ot0077_invalidation_record_sha256": "4e6868fa988ec93ca0ad57239070812c21b008911607026aba58a672b79bb03f",
+    "ot0077_failure_manifest_sha256": "f2de64e870a23dc032160eed6b32f6bdf2f9c02c4092355307f3cecf3bf659d3",
+    "task_distribution": "exact OT-0076 design/private-anchor derivation family, wrapped with OT-0078 experiment identity",
+    "unchanged_rules": "all OT-0077 scientific, causal, scoring, authority, lifecycle, reconstruction, 900-second wall, and promotion rules; only operational scheduling, critical-path seal verification, failure-journal capacity, and the new wrapper identity may change"
+  },
+  "derivation": {
+    "public_design_seed_count": 4,
+    "design_cases_per_seed": 16,
+    "anchor_case_count": 8,
+    "private_seed_bytes": 32,
+    "implementation_bound": true,
+    "authoritative_anchor_attempts": 1,
+    "reseed_permitted": false,
+    "collision_replacement_permitted": false,
+    "ot0075_private_material_existed": false,
+    "ot0076_private_material_existed": false,
+    "ot0077_private_material_existed": false
+  },
+  "condition_count_per_stream": 23,
+  "positive_references": [
+    "compact-cached-affine-version-space",
+    "lossless-epistemic-log-linear-bank"
+  ],
+  "global_required_controls": [
+    "no-persistence",
+    "immutable-seed",
+    "encounter-index-clock",
+    "offline-best-fixed-rule"
+  ],
+  "matched_frozen_controls": [
+    "compact-cached-affine-version-space--matched-frozen-initial",
+    "lossless-epistemic-log-linear-bank--matched-frozen-initial"
+  ],
+  "adaptive_comparators": [
+    "recent-verbatim-world-row-window",
+    "lossless-log-naive-nearest-retrieval"
+  ],
+  "per_reference_conditions": [
+    "consequence-withholding",
+    "one-step-stale-consequence",
+    "update-without-projection",
+    "projection-without-update",
+    "wrong-lineage-projection",
+    "cross-episode-state-reset"
+  ],
+  "identity_placebo": "identical-state-projection-placebo",
+  "scoring_replacements": {
+    "matched_live_lift": "B = matched_frozen_errors; E = live_errors; L = B - E; require 20 * L >= 242",
+    "paired_families": 10,
+    "paired_stream_wins_required": 8,
+    "familywise_sign_bound": "10 / 2^8 = 0.0390625 <= 0.05",
+    "hard_severings": [
+      "consequence-withholding",
+      "update-without-projection",
+      "projection-without-update"
+    ],
+    "hard_severing_rule": "A = max(0, B - intervention_errors); require A = 0 plus exact prediction/status/consumed-projection/terminal-projection equality to the matched-frozen control",
+    "stale_rule": "S = stale_errors; R = max(0, B - S); require 3 * R <= L and 20 * (S - E) >= 242",
+    "unrelated_control_invariance": "immutable-seed mutations cannot change matched causal dispositions"
+  },
+  "update_without_projection": {
+    "authoritative_state": "each valid candidate update consumes the exact prior authoritative post-state and current released outcome",
+    "actor_projection": "every next prediction consumer receives the exact matched-frozen projection",
+    "minimum_candidate_changes": 1,
+    "separate_state_and_projection_ancestry": true
+  },
+  "stale_binding": {
+    "encounter_zero_label": 0,
+    "later_label": "exact prior encounter outcome",
+    "minimum_accepted_updates": 1,
+    "minimum_changed_delivered_projections": 1,
+    "fail_closed_with_denominator_retained": true,
+    "authority_eligible": false
+  },
+  "public_design_vector": {
+    "schema_version": 1,
+    "canonicalization": "UTF-8 json.dumps(rows, sort_keys=True, separators=(',', ':')) plus one LF",
+    "row_order": "design_seed 0..3, case_index 0..15, reference order compact then lossless-log",
+    "row_keys": [
+      "design_seed",
+      "case_index",
+      "reference_id",
+      "live_errors",
+      "matched_frozen_errors",
+      "live_lift",
+      "matched_margin_pass",
+      "true_no_learning",
+      "stale_errors",
+      "stale_valid_predictions",
+      "stale_residual_lift",
+      "stale_two_thirds_loss_pass",
+      "stale_accepted_updates",
+      "stale_active_projection_changed",
+      "stale_practical_margin_pass"
+    ],
+    "true_no_learning_keys": [
+      "consequence-withholding",
+      "update-without-projection",
+      "projection-without-update"
+    ],
+    "true_no_learning_value_keys": [
+      "errors",
+      "prediction_status_trace_equal",
+      "consumed_projection_trace_equal",
+      "terminal_projection_equal",
+      "accepted_updates",
+      "candidate_changed"
+    ],
+    "ot0075_family_task_sha256s": [
+      "04be3d8a015bde4d462abfa57722896607e9aded76d92d46ce24f2952f1a0250",
+      "70e43a7896b7606df13d0f2a9b369c3105203be205b84c9205379c3aca89b5a7",
+      "b25084ca908889a7a7711cbeac48a567d423cb3a780608c25762905e09cc03af",
+      "6d1641038482943167bdde0166dc937456fc8e73361c9ae823918e68546eee93"
+    ],
+    "ot0076_wrapped_task_sha256s": [
+      "8e70ed7907cbce684e4a03fe02f2b14b58714763954f4cec5ce5b57f0fc0deb8",
+      "def07836fb74f7f9c31d76b536c5bec46ff7e7112bc9e4ce8f8bb1fc00b7a8e1",
+      "e4325bc6e29b59b67706ddda8adc0c4c4379bc96d6d67abb6fa24af3fa04e32f",
+      "bb00f00648f72b33c9c8b3360d23a1827cf3491ef6b3344eeba22ed5c51435a5"
+    ],
+    "ot0077_wrapped_task_sha256s": [
+      "69be75695c060986bb937bc5a3aef9dcc2e8bef629b1a88179c86a42d598fc38",
+      "883f19567355037403eaffa0d5ebb4fac5e50b17b163c38a21573727deab3f16",
+      "f1f3007ce2ab78f3c756a154efbc4b6d6eb5c8975152d61c1bcc8f409596be6d",
+      "efe00ac65a72f6031e9d54aa1bc2faee1eee92fc4f1cbf763a2e3ae6475a171f"
+    ],
+    "ot0078_wrapped_task_sha256s": [
+      "62afdb93fe460b74d858a30d969adecd31c857ce578a00a10f0102e697ab2495",
+      "1917e74443f907b398dad4445023f6b5a7f64e8f253875039edf91cd88e90b6b",
+      "6f1d31dcb8b50f9a3827ff7b3e118cf8f181f81542e80b2fa6daa03f1cbe0e1b",
+      "d4f9048026b16987641de9d055d27a2a939877fee277787e3dce1ddd14d1e62a"
+    ],
+    "canonical_bytes": 127949,
+    "sha256": "a645282da3986557ce10dfdc9a550482107fea0f7ccaab0748deedafccb1d603",
+    "required_reference_stream_rows": 128,
+    "required_passing_rows": 128
+  },
+  "causal_requirements": [
+    "prediction-before-outcome",
+    "outcome-descends-from-exact-prediction",
+    "update-consumes-exact-receipted-pre-state",
+    "next-projection-binds-exact-post-state-or-declared-update-without-projection-cut",
+    "next-fresh-process-consumes-exact-projection",
+    "terminal-projection-has-audit-consumer",
+    "fresh-process-and-workspace-receipts",
+    "forbidden-continuity-channel-sentinels",
+    "online-reference-reachable-surface-audit"
+  ],
+  "operational_repair": {
+    "wall_budget_seconds": 900,
+    "deadline_change_permitted": false,
+    "wall_includes_public_probe_science_verification_scoring_and_seal": true,
+    "verification_overlap_required": true,
+    "verification_results_bind_before_scoring": true,
+    "per_encounter_durability_unchanged": true,
+    "critical_seal_full_semantic_reparse_permitted": false,
+    "critical_seal_stage_open_identity": "creation-time canonical bytes plus final descriptor-relative SHA-256, byte-count, and generation rebind",
+    "critical_seal_segment_identity": "writer-validated canonical chain plus final descriptor-relative SHA-256, byte-count, generation, and exact inventory rebind",
+    "critical_seal_stage_seal_identity": "after atomic install, canonical stage-seal bytes are reopened without symlink following and rebound by descriptor-relative SHA-256, byte-count, inode, and generation through return",
+    "critical_seal_authority_rebind": "pinned segment-directory generation and inventory remain unchanged; the pinned journal-root inventory changes only from stage-open plus segments to that exact set plus one atomically O_EXCL-installed canonical stage-seal leaf, with no other transition",
+    "failure_journal_snapshot_strategy": "bounded descriptor-relative streaming copy with initial and final generation and inventory rebind",
+    "failure_journal_max_bytes": 536870912,
+    "failure_journal_max_segments": 4096,
+    "within_bound_discrepancy_must_hard_fail": "authority, inventory, symlink, generation, digest, byte-count, and content mismatches may not degrade to unreadable",
+    "byte_capacity_exhaustion_summary": "bounded-unreadable retains the primary failure and fully enumerated metadata but makes no content-identity validation claim",
+    "segment_capacity_exhaustion_must_hard_fail": true,
+    "metadata_discrepancy_after_capacity_must_hard_fail": true
+  },
+  "promotion": {
+    "purpose_must_be": "anchor",
+    "all_eight_streams_pass": true,
+    "both_references_pass_every_stream": true,
+    "all_ten_paired_families_win": true,
+    "all_hard_severings_pass": true,
+    "all_stale_binding_gates_pass": true,
+    "all_base_authority_and_rollback_gates_pass": true,
+    "primary_shadow_agreement": true,
+    "clean_private_reconstruction": true,
+    "full_tests_and_evidence_privacy_audit": true,
+    "authorized_actor_candidate_count_on_pass": 1,
+    "authorized_actor_candidate_count_on_failure": 0
+  }
+}
