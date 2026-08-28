@@ -175,19 +175,20 @@ made this classification rule explicit.
   promotion and unspent authorization. That authorization cannot be transferred
   to E14 or to a newly numbered E13 candidate. E14 is prospective and not yet
   promoted; E13 remains the last recorded regime, with its learner authority
-  suspended. OT-0075 is reserved for a candidate-free checkpoint with design
-  worlds, a disjoint sealed anchor bundle derived from one private seed only
-  after evaluator implementation, two materially different online-admissible
-  controller references, and seeded causal defects. It must freeze and
-  calibrate a changing and recurring prequential stream, horizon, trajectory
-  statistic, cumulative error, recovery latency, retention and relearning
-  measures, replication plan, and no-state, frozen-state, clock, fixed-rule,
-  consequence, update, projection, and lineage-binding controls, while
-  reporting online history and retrieval comparators without forcing them to
-  fail. Hidden/future oracles are negative authority tests, not positive
-  references. Only a complete held-out anchor pass promotes E14. The checkpoint
-  calibrates only an evaluator-visible surrogate and cannot establish base-
-  model learning. E14 currently authorizes no learner.
+  suspended. OT-0075 froze that candidate-free checkpoint but was rejected by
+  its cheapest public-design falsifier before any private seed, task, attempt,
+  candidate, or hosted output. Its causal statistic used an unrelated immutable
+  rule as the counterfactual and therefore counted fixed-prior differences as
+  surviving learning; its update-without-projection path also named the wrong
+  causal pre-state after the first update. OT-0076 is the newly numbered
+  prospective repair. It preserves the exact task family and all valid OT-0075
+  gates, adds one exact matched-frozen control per reference, separates hard
+  path severing from informative one-step-stale binding, and keeps authoritative
+  updater state distinct from actor-visible projection. Hidden/future oracles
+  remain negative authority tests. Only a complete one-attempt held-out OT-0076
+  anchor pass may promote E14. The checkpoint is still an evaluator-visible
+  surrogate and cannot establish base-model learning. E14 currently authorizes
+  no learner.
 
 OT-0004 was the first E3 candidate. Its hosted epoch is invalid because the
 frozen direct-inventory gate incorrectly assumed Luna and Terra expose the same
@@ -1017,14 +1018,18 @@ longitudinal target:
 
 ## Primary frontier — prospective E14 longitudinal continual adaptation
 
-The next work unit is OT-0075, a candidate-free evaluator checkpoint. Design
+The next work unit is OT-0076, the candidate-free matched-counterfactual repair
+checkpoint required by OT-0075's public rejection. The exact public design
 worlds may construct and tune E14. After evaluator implementation is frozen,
 one private 256-bit seed must be generated and a disjoint sealed anchor bundle
 mechanically derived from it and the clean implementation identity. Two
 materially different controller-private online references must pass every
 evaluator-visible surrogate gate from only current queries and previously
-released outcomes, required nonlearning controls must remain discriminating,
-and seeded causal defects must be rejected without candidate or hosted output.
+released outcomes. Each must beat its own exact frozen-initial counterfactual;
+hard consequence/update/projection severings must collapse to that matched
+trace, informative stale binding must lose the frozen share of lift, required
+global controls must remain discriminating, and seeded causal defects must be
+rejected without candidate or hosted output.
 Exact horizons, task order, sample sizes, cumulative and rolling
 prequential-loss rules, recovery bounds, retention and relearning tests,
 replication, and promotion thresholds must be frozen before the anchor run. Any

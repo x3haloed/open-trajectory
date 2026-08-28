@@ -42,16 +42,22 @@ remain in `experiments/` and `evidence/manifests/`.
 
 ## Prospective evaluation boundary
 
-Before actor output, OT-0075 must calibrate:
+OT-0075 was rejected on a declared public design stream before private
+derivation: an unrelated immutable control made the causal-loss rule count
+fixed-prior accuracy as surviving learning. It generated no private seed, task,
+attempt, candidate, actor output, or learner authority. Before actor output,
+OT-0076 must prospectively repair and calibrate:
 
 - a long prequential stream with multiple changes and at least one recurring
   regime;
 - frozen horizon, order, replications, cumulative and rolling prequential loss,
   post-change recovery, retention, relearning, and promotion thresholds;
-- no-persistence, immutable-seed, outcome-free clock, and strongest-fixed
-  nonlearning controls, plus reported history and retrieval comparators;
-- consequence withholding and misbinding, update without projection,
-  projection without update, and state/lineage misbinding; and
+- no-persistence, immutable-seed, outcome-free clock, strongest-fixed, and one
+  exact matched-frozen control per reference, plus reported history and
+  retrieval comparators;
+- consequence withholding, update without projection, and projection without
+  update as hard matched-trace severings; informative stale binding as a
+  separate temporal degradation test; and state/lineage misbinding; and
 - exact replay of every substrate transition from the inherited seed and
   ordered encounter receipts.
 

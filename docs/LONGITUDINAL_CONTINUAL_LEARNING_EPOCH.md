@@ -87,8 +87,18 @@ required for the first or for a bounded first refinement.
 
 ## Prospective E14 longitudinal gate
 
-OT-0075 is reserved for the candidate-free evaluator checkpoint. Its design
-data, held-out evaluator anchors, and later candidate stream must be disjoint.
+OT-0075 froze the first candidate-free evaluator checkpoint but was rejected by
+its public-design falsifier before any private derivation. Its unrelated
+immutable causal baseline could count a frozen reference prior as surviving
+learning, and its update-without-projection implementation did not preserve the
+claimed pre-state ancestry after the first update. It generated no private
+seed, task, attempt, candidate, actor output, or learner authority.
+
+OT-0076 is reserved for the prospective matched-counterfactual repair. It
+preserves OT-0075's exact task distribution while adding one reference-specific
+frozen-initial baseline and independent updater-state/projection ancestry. Its
+design data, held-out evaluator anchors, and later candidate stream must remain
+disjoint.
 The design data may be used to construct and tune E14. After the evaluator
 implementation is frozen, one private seed must be generated and sealed anchor
 worlds must be mechanically derived from that seed and the clean implementation
@@ -99,7 +109,7 @@ previously released outcomes. Every fixed control must retain its
 prospectively expected limitation, and the interventions must reject seeded
 causal defects. A future- or hidden-truth oracle is a negative authority test,
 never an admissible positive reference. No candidate or hosted output is
-permitted in OT-0075.
+permitted in OT-0076.
 
 Before evaluator implementation, freeze the anchor derivation function, domain
 tag, private-seed length, implementation-identity binding, one-attempt rule, and
@@ -213,9 +223,9 @@ None satisfies the E14 longitudinal gate, and none is rescored under it.
 
 ## Next work unit
 
-Create and freeze OT-0075's candidate-free E14 design, one post-implementation
-private-seed anchor bundle, two online-admissible controller references,
-controls, and seeded interventions. Do not expose a learner or spend the E13
-authorization suspended by OT-0074. A complete anchor pass may promote E14 and
-authorize one separately frozen inherited-substrate longitudinal candidate; it
-cannot itself supply continual-learning evidence.
+Implement the frozen OT-0076 matched-counterfactual repair, reproduce every
+public design vector and causal intervention, then—only from clean I—derive and
+execute its one private-seed anchor bundle. Do not expose a learner or spend the
+E13 authorization suspended by OT-0074. A complete anchor pass may promote E14
+and authorize one separately frozen inherited-substrate longitudinal candidate;
+it cannot itself supply continual-learning evidence.

@@ -94,8 +94,14 @@ OT-0070 remains thin trajectory mechanics; OT-0073 retains candidate-free
 reconstruction evidence with zero actor calls, while promotion reliance is
 suspended pending verifier repair.
 
-Before candidate output, OT-0075 must use design worlds to construct the
-evaluator, freeze its implementation, and then derive a disjoint sealed anchor
+OT-0075 was rejected on a public design stream before any private material was
+created. Its causal baseline compared each ablation to an unrelated immutable
+rule and could count static prior accuracy as surviving learning; its
+update-without-projection receipt ancestry also diverged from the state that
+actually caused later updates. OT-0076 prospectively preserves the task family,
+adds a matched-frozen control per reference, and separates authoritative updater
+state from actor-visible projection. It must reproduce all public design vectors,
+freeze its implementation, and then derive a disjoint sealed anchor
 bundle from one new private seed and the implementation identity. Two
 materially different online-admissible controller references must pass and
 seeded causal defects must fail. The checkpoint must freeze and exercise:
@@ -103,24 +109,26 @@ seeded causal defects must fail. The checkpoint must freeze and exercise:
 - a long prequential stream with multiple changes and a recurring regime;
 - horizon, task order, replications, cumulative and rolling prequential loss,
   recovery latency, retention, relearning, and exact numerical gates;
-- no-persistence, immutable-seed, outcome-free clock, and strongest-fixed
-  nonlearning controls, plus reported history and retrieval comparators;
-- consequence withholding and misbinding, update without projection,
-  projection without update, and lineage/state misbinding; and
+- no-persistence, immutable-seed, outcome-free clock, strongest-fixed, and
+  matched-frozen nonlearning controls, plus reported history and retrieval
+  comparators;
+- consequence withholding, update without projection, and projection without
+  update as hard severings, plus separately scored stale temporal binding and
+  lineage/state misbinding; and
 - exact reconstruction of every substrate transition from the seed and ordered
   receipts.
 
 A complete held-out anchor pass may promote E14 and authorize one separate actor-
-bearing inherited-substrate candidate. OT-0075 is not itself learning evidence.
+bearing inherited-substrate candidate. OT-0076 is not itself learning evidence.
 E14 currently authorizes no learner.
 
 ## Next work unit
 
-Create and freeze OT-0075's candidate-free E14 design worlds, post-
-implementation private-seed anchor bundle, two reference lineages, controls,
-seeded interventions, statistics, resource bounds, and promotion gate. Do not
-select the preferred learner or expose actor
-output until that checkpoint passes. Then freeze the candidate implementation
+Implement the frozen OT-0076 design and reproduce its matched counterfactuals,
+interventions, scorer agreement, receipt ancestry, and public-vector digest.
+Only then derive and execute its one post-implementation private-seed anchor.
+Do not select the preferred learner or expose actor output until that checkpoint
+passes. Then freeze the candidate implementation
 before deriving its fresh hidden stream and exclude the task seed, schedule,
 references, heldouts, evaluator instructions, and control winners from all
 candidate-reachable surfaces.
@@ -136,6 +144,17 @@ the refinement harmful and require revision, set-down, or rollback. Multiple
 successive improvements are required for continual meta-learning.
 
 ## Prediction errors
+
+- Resolved prospectively: OT-0075's public design run showed that using the
+  unrelated immutable-seed errors inside every intervention statistic could
+  assign surviving lift to a completely frozen reference prior. OT-0075 was
+  rejected before private derivation. OT-0076 uses the same reference's exact
+  frozen-initial trace as the counterfactual, requires true path severings to
+  match it exactly, and scores informative one-step-stale labels separately.
+- Resolved prospectively: OT-0075's update-without-projection path receipted an
+  updated state but computed the next update from the stale projection. OT-0076
+  carries authoritative updater state and actor-visible projection separately
+  and binds each update to the exact receipted pre-state.
 
 - Resolved before P: the first OT-0075 draft treated equal-budget raw history as
   a required nonlearning control. A public-design adversarial probe showed that

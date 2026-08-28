@@ -1,0 +1,160 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0076",
+  "kind": "prospective-e14-matched-counterfactual-repair",
+  "disposition_before_execution": "unexecuted",
+  "candidate_outputs": false,
+  "actor_turns": 0,
+  "hosted_model_calls": 0,
+  "base_protocol": {
+    "plan_sha256": "101f0e40c33373187099a1c004048d6d4d30ed4536bd9e6af28e30bc2569863d",
+    "acceptance_sha256": "792df3f94b148242e135d5ced87dec2b5299e7e73a912c91f27afcf6b6ce39c0",
+    "task_protocol_sha256": "7c208df7fc2571f5128af908eb01c81c635968d59633ab390845bbacc87587de",
+    "rejection_record_sha256": "90f751190ac718b989be6d36f75756cf45d091c6afbc70f285125901f234a591",
+    "task_distribution": "exact OT-0075 design/private-anchor derivation family, wrapped with OT-0076 experiment identity",
+    "unchanged_rules": "all OT-0075 rules except the exact replacements in this specification"
+  },
+  "derivation": {
+    "public_design_seed_count": 4,
+    "design_cases_per_seed": 16,
+    "anchor_case_count": 8,
+    "private_seed_bytes": 32,
+    "implementation_bound": true,
+    "authoritative_anchor_attempts": 1,
+    "reseed_permitted": false,
+    "collision_replacement_permitted": false,
+    "ot0075_private_material_existed": false
+  },
+  "condition_count_per_stream": 23,
+  "positive_references": [
+    "compact-cached-affine-version-space",
+    "lossless-epistemic-log-linear-bank"
+  ],
+  "global_required_controls": [
+    "no-persistence",
+    "immutable-seed",
+    "encounter-index-clock",
+    "offline-best-fixed-rule"
+  ],
+  "matched_frozen_controls": [
+    "compact-cached-affine-version-space--matched-frozen-initial",
+    "lossless-epistemic-log-linear-bank--matched-frozen-initial"
+  ],
+  "adaptive_comparators": [
+    "recent-verbatim-world-row-window",
+    "lossless-log-naive-nearest-retrieval"
+  ],
+  "per_reference_conditions": [
+    "consequence-withholding",
+    "one-step-stale-consequence",
+    "update-without-projection",
+    "projection-without-update",
+    "wrong-lineage-projection",
+    "cross-episode-state-reset"
+  ],
+  "identity_placebo": "identical-state-projection-placebo",
+  "scoring_replacements": {
+    "matched_live_lift": "B = matched_frozen_errors; E = live_errors; L = B - E; require 20 * L >= 242",
+    "paired_families": 10,
+    "paired_stream_wins_required": 8,
+    "familywise_sign_bound": "10 / 2^8 = 0.0390625 <= 0.05",
+    "hard_severings": [
+      "consequence-withholding",
+      "update-without-projection",
+      "projection-without-update"
+    ],
+    "hard_severing_rule": "A = max(0, B - intervention_errors); require A = 0 plus exact prediction/status/consumed-projection/terminal-projection equality to the matched-frozen control",
+    "stale_rule": "S = stale_errors; R = max(0, B - S); require 3 * R <= L and 20 * (S - E) >= 242",
+    "unrelated_control_invariance": "immutable-seed mutations cannot change matched causal dispositions"
+  },
+  "update_without_projection": {
+    "authoritative_state": "each valid candidate update consumes the exact prior authoritative post-state and current released outcome",
+    "actor_projection": "every next prediction consumer receives the exact matched-frozen projection",
+    "minimum_candidate_changes": 1,
+    "separate_state_and_projection_ancestry": true
+  },
+  "stale_binding": {
+    "encounter_zero_label": 0,
+    "later_label": "exact prior encounter outcome",
+    "minimum_accepted_updates": 1,
+    "minimum_changed_delivered_projections": 1,
+    "fail_closed_with_denominator_retained": true,
+    "authority_eligible": false
+  },
+  "public_design_vector": {
+    "schema_version": 1,
+    "canonicalization": "UTF-8 json.dumps(rows, sort_keys=True, separators=(',', ':')) plus one LF",
+    "row_order": "design_seed 0..3, case_index 0..15, reference order compact then lossless-log",
+    "row_keys": [
+      "design_seed",
+      "case_index",
+      "reference_id",
+      "live_errors",
+      "matched_frozen_errors",
+      "live_lift",
+      "matched_margin_pass",
+      "true_no_learning",
+      "stale_errors",
+      "stale_valid_predictions",
+      "stale_residual_lift",
+      "stale_two_thirds_loss_pass",
+      "stale_accepted_updates",
+      "stale_active_projection_changed",
+      "stale_practical_margin_pass"
+    ],
+    "true_no_learning_keys": [
+      "consequence-withholding",
+      "update-without-projection",
+      "projection-without-update"
+    ],
+    "true_no_learning_value_keys": [
+      "errors",
+      "prediction_status_trace_equal",
+      "consumed_projection_trace_equal",
+      "terminal_projection_equal",
+      "accepted_updates",
+      "candidate_changed"
+    ],
+    "base_family_task_sha256s": [
+      "04be3d8a015bde4d462abfa57722896607e9aded76d92d46ce24f2952f1a0250",
+      "70e43a7896b7606df13d0f2a9b369c3105203be205b84c9205379c3aca89b5a7",
+      "b25084ca908889a7a7711cbeac48a567d423cb3a780608c25762905e09cc03af",
+      "6d1641038482943167bdde0166dc937456fc8e73361c9ae823918e68546eee93"
+    ],
+    "wrapped_task_sha256s": [
+      "8e70ed7907cbce684e4a03fe02f2b14b58714763954f4cec5ce5b57f0fc0deb8",
+      "def07836fb74f7f9c31d76b536c5bec46ff7e7112bc9e4ce8f8bb1fc00b7a8e1",
+      "e4325bc6e29b59b67706ddda8adc0c4c4379bc96d6d67abb6fa24af3fa04e32f",
+      "bb00f00648f72b33c9c8b3360d23a1827cf3491ef6b3344eeba22ed5c51435a5"
+    ],
+    "canonical_bytes": 126413,
+    "sha256": "ec69c3fc99c062a7430ea95d46f93827008605cceec5ae1c1c118f4a3090ed7b",
+    "required_reference_stream_rows": 128,
+    "required_passing_rows": 128
+  },
+  "causal_requirements": [
+    "prediction-before-outcome",
+    "outcome-descends-from-exact-prediction",
+    "update-consumes-exact-receipted-pre-state",
+    "next-projection-binds-exact-post-state-or-declared-update-without-projection-cut",
+    "next-fresh-process-consumes-exact-projection",
+    "terminal-projection-has-audit-consumer",
+    "fresh-process-and-workspace-receipts",
+    "forbidden-continuity-channel-sentinels",
+    "online-reference-reachable-surface-audit"
+  ],
+  "promotion": {
+    "purpose_must_be": "anchor",
+    "all_eight_streams_pass": true,
+    "both_references_pass_every_stream": true,
+    "all_ten_paired_families_win": true,
+    "all_hard_severings_pass": true,
+    "all_stale_binding_gates_pass": true,
+    "all_base_authority_and_rollback_gates_pass": true,
+    "primary_shadow_agreement": true,
+    "clean_private_reconstruction": true,
+    "full_tests_and_evidence_privacy_audit": true,
+    "authorized_actor_candidate_count_on_pass": 1,
+    "authorized_actor_candidate_count_on_failure": 0
+  }
+}

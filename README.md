@@ -69,11 +69,14 @@ controls and no learner-controlled model-weight update.
 ## Current direction
 
 Prospective E14 design makes longitudinal continual adaptation the immediate
-frontier. Before a learner runs, OT-0075 must freeze and calibrate the stream,
-horizon, cumulative and rolling prequential loss, post-change recovery,
-returning-regime retention, replication, controls, and decisive state/update/
-projection ablations. Exact encounter receipts must reconstruct the trajectory
-from the initial inherited substrate.
+frontier. OT-0075 was rejected on its public design worlds before any private
+seed or learner existed: its causal-loss statistic compared ablations with an
+unrelated immutable rule and could count a fixed prior difference as surviving
+learning. OT-0076 prospectively repairs that gate with a reference-specific
+matched-frozen counterfactual and separate updater-state/projection ancestry.
+Before a learner runs, its one sealed anchor must still calibrate the stream,
+horizon, prequential loss, recovery, recurrence, controls, causal ablations,
+receipts, and exact reconstruction.
 
 After that foothold, the program will test incremental learning-machinery
 refinement: a bounded, versioned actor-specified change competes prospectively
