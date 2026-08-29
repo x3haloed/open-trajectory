@@ -51,8 +51,7 @@ authority.
 - One causal hypothesis gets one `OT-NNNN` record. Protocol, implementation,
   operational repair before meaningful actor output, execution, reconstruction,
   and disposition are phases of that experiment, not automatic new IDs.
-- Use declared encounter and repair budgets rather than transferable or
-  consumable learner-authorization tokens.
+- Declare encounter and repair budgets inside each experiment.
 - Freeze semantic authorities: actor-visible information, task order,
   independently owned outcomes, parent/control comparison, score, ablation,
   and stopping rule. Artifact hashes establish provenance but become acceptance
@@ -73,8 +72,7 @@ independently generated lineage and include a later correction opportunity. It
 should remain small enough that the candidate mechanism, not evaluator
 infrastructure, dominates the implementation.
 
-This does not require reviving E14, repairing OT-0075 through OT-0078, earning a
-learner token, or proving a complete longitudinal-learning regime first.
+No candidate-free evaluator or complete longitudinal regime is a prerequisite.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

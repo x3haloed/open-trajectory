@@ -50,11 +50,8 @@ Run one fresh successor to OT-0079 that:
 Candidate-free work is not a prerequisite. Add it only if a named false-positive
 story cannot be tested more cheaply inside the actor-bearing run.
 
-## Not active
+## Scope boundary
 
-- E14 evaluator repair and OT-0075 through OT-0078 are historical, not blockers.
-- Learner-authorization tokens are historical bookkeeping, not current research
-  authority.
 - Representation escape and Open Developmental Trajectory remain stronger
   later interpretations, not entrance tests.
 - Kernel-level adversarial containment is out of scope unless separately
