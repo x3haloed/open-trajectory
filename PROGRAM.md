@@ -1019,6 +1019,24 @@ longitudinal target:
   evidence remains preserved, but promotion reliance requires a newly numbered
   E13 verifier repair that independently earns any future learner authorization.
 
+- **OT-0079 (invalidated; exploratory-only; authorizes no learner):** a bounded
+  consequence-addressable composition pilot outside the E14 promotion path.
+  The seed selector failed motion; child 1 authored budget-feasible sequential
+  selection and beat the unchanged parent on a held-out sibling. A compound
+  later regime made child 1 harmful. Child 2 then authored already-covered
+  signal tracking with coupled feasible selection and stopping, selected the
+  one integrated safeguard, and beat unchanged child 1 on the second held-out
+  sibling. The selector-change ablation removed the advantage and two fresh
+  deterministic evaluations were byte-identical. Post-output audit then found
+  that P forbade attributes while I admitted whitelisted container-method
+  attributes used by both children. The ambiguity cannot be resolved after
+  candidate output, so the run is invalidated. Missing immutable hosted-epoch
+  receipts independently precluded promotion. The result changes no prior
+  disposition and cannot promote OT-1, E14, machinery refinement, or ODT. Its
+  hypothesis-only lesson is that composition and stopping may need one mutable
+  consequence-addressable authority; any successor must define and test the
+  exact executable carrier prospectively and may not reuse these outputs.
+
 ## Primary frontier — prospective E14 longitudinal continual adaptation
 
 The next work unit is OT-0077, the candidate-free identity-consistent

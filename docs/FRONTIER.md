@@ -36,6 +36,14 @@ repeated cross-environment expansion belongs to Open Developmental Trajectory.
   calls. Later probing found a missing fail-closed E13 case/regime binding;
   `OT-0074` suspends reliance on its recorded promotion and authorization before
   task or actor output.
+- `OT-0079` is invalidated by a post-output protocol/implementation mismatch.
+  Its actors behaviorally produced the planned budget correction, harmful
+  reversal, and novel-signal composition correction, with deterministic
+  reconstruction and a passing selector-change ablation. But the frozen text
+  forbade attributes while the implementation validator admitted whitelisted
+  container-method attributes used by both children. The behavior is retained
+  as exploratory hypothesis evidence only; it authorizes no learner and changes
+  no promoted target.
 
 No prior score or disposition is changed by E14. Exact records and receipts
 remain in `experiments/` and `evidence/manifests/`.
@@ -103,3 +111,12 @@ prerequisite for E14, a first machinery refinement, or widened OT-2 work. See
 [`LONGITUDINAL_CONTINUAL_LEARNING_EPOCH.md`](LONGITUDINAL_CONTINUAL_LEARNING_EPOCH.md)
 for the prospective transition and [`PROGRAM.md`](../PROGRAM.md) for the complete
 preserved ledger.
+
+OT-0079 narrows one future machinery-refinement hypothesis without entering
+that promotion sequence: selection and stopping may need one mutable,
+consequence-addressable composition operation. A valid successor must first
+freeze an unambiguous, executable AST surface, then add a receipted immutable
+actor epoch, independently replicated lineages, the prospective author/tune,
+adoption-validation, and sealed confirmation partitions, and the E14
+prerequisite named above. Do not rescore, repair, or relabel OT-0079 under those
+future gates.

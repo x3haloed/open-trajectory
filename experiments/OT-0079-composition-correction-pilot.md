@@ -1,6 +1,6 @@
 # OT-0079 — consequence-addressable composition correction pilot
 
-- **Disposition:** `unexecuted`
+- **Disposition:** `invalidated`
 - **Evidence class:** `exploratory-only`
 - **Target:** bounded OT-1 mechanism probe; no target promotion
 - **Actor authorization:** exactly two fresh hosted actor calls after clean I
@@ -122,3 +122,48 @@ OT-1, continual machinery refinement, E14, or Open Developmental Trajectory.
 4. **R:** evaluate once, reconstruct twice, record raw identity with
    `ot-evidence record`, run the full tests and audit, and append the exact
    disposition without changing the frozen protocol.
+
+## Observed behavior and invalidation
+
+The sole authorized run passed every implemented behavioral mechanism gate.
+Child 1 changed
+the seed's unbudgeted two-item ranking into a feasible sequential selector.  It
+completed `a_test` with `monitor + audit` at effort 3 while the unchanged seed
+selected `bastion + monitor` at effort 7 and failed motion.  The planned later
+regime then made child 1 harmful: on `b_test` it selected `binding + audit`,
+passed motion at effort 3, missed one required signal, and scored -8.
+
+Child 2 received only child 1, the public `b_train` contact, and the independent
+failure receipt.  It authored a selector that tracked already covered signals,
+ranked feasible candidates by novel signal contribution, and stopped through
+the same remaining-budget loop.  On the held-out `b_test` it selected only
+`fusion`, covered both required signals at effort 3, completed, and scored 10.
+Replacing it with unchanged child 1 removed the advantage.  The useful
+composition operation was absent from both the seed and actor prompt.
+
+Both selector snapshots passed the implemented source validator and differed from
+their parents.  Two fresh deterministic controller executions produced
+byte-identical 14,357-byte evaluation files with evaluation identity
+`ce60f866193d470aebcf5ade506c38cf990a0800de9f8bc60f3f863b31f73783`.
+The complete raw bundle is retained outside Git with SHA-256
+`da7f70af1b40291fd41a2fe408bd4413203e989f31fba305969b28805d5eaede`;
+the tracked manifest is
+`evidence/manifests/OT-0079/ot-0079-composition-correction-pilot-001.json`.
+
+Post-result protocol audit invalidated the run.  The P-frozen carrier forbids
+Python attributes, but the I validator interpreted that as a ban on reflective
+attribute access while allowing whitelisted container methods.  Child 1 used
+`list.append`; child 2 used `list.append`, `dict.get`, and `list.remove`.
+Method calls are attribute syntax under the literal frozen rule, so both
+children should have been rejected before scoring.  The tension with the same
+frozen paragraph's permission for “ordinary scalar, list, dict, and set
+operations” does not authorize choosing a favorable interpretation after
+candidate output.
+
+Final disposition: `invalidated`.  The behavior remains useful exploratory
+evidence for the composition hypothesis, but it is not valid experiment
+evidence.  A successor must prospectively define the exact AST surface and test
+the seed plus representative valid programs against it before freeze.  It may
+not reuse these actors, outputs, heldouts, or acceptance result.  OT-0079
+changes no prior disposition, authorizes no learner, and does not promote OT-1,
+E14, continual machinery refinement, or Open Developmental Trajectory.
