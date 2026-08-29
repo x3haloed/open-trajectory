@@ -4,7 +4,6 @@ import json
 import pickle
 import unittest
 
-from open_trajectory_harness.ot0002 import canonical_json, sha256_bytes
 from open_trajectory_harness.trajectory import (
     ACTOR_SOURCE,
     CONTROLLER_SOURCE,
@@ -13,6 +12,8 @@ from open_trajectory_harness.trajectory import (
     TrajectoryStore,
     WORLD_SOURCE,
     bootstrap_trajectory_store,
+    canonical_json,
+    sha256_bytes,
 )
 
 

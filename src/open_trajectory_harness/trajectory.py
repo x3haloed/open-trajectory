@@ -7,6 +7,7 @@ belongs to callers such as the OT-0070 authority calibration.
 
 from __future__ import annotations
 
+import hashlib
 import json
 import math
 import re
@@ -14,9 +15,6 @@ import secrets
 from collections.abc import Iterable, Mapping
 from types import MappingProxyType
 from typing import Any, Final
-
-from .ot0002 import canonical_json, sha256_bytes
-
 
 MAX_RECORD_BYTES: Final = 4096
 PROJECTION_BYTE_LIMIT: Final = 2048
@@ -30,6 +28,18 @@ _RECORD_ID = re.compile(r"[0-9a-f]{64}")
 _CAPABILITY_CONSTRUCTION_KEY = object()
 _CAPABILITY_INSPECTION_KEY = object()
 _STORE_BOOTSTRAP_KEY = object()
+
+
+def canonical_json(value: Any) -> bytes:
+    """Encode an ordinary JSON value with stable byte identity."""
+
+    return (json.dumps(value, sort_keys=True, separators=(",", ":")) + "\n").encode()
+
+
+def sha256_bytes(value: bytes) -> str:
+    """Return the lowercase SHA-256 identity of bytes."""
+
+    return hashlib.sha256(value).hexdigest()
 
 
 class _ChannelCapability:
