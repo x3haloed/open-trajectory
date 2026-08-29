@@ -39,15 +39,8 @@ to widen the search, not as evidence or as an implicit acceptance rule.
   separate claims.
 - Do not import an existing memory system as an OT-0 substrate or OT-1
   selector. Invent and evaluate substrate and selector mechanisms inside this
-  repository. OT-0014 is frozen OT-0 evidence, not an OT-1 promotion.
-- E14 is a prospective evaluator design, not a promoted regime. OT-0074 records
-  suspension before task or actor output; its E13 authorization is unspent but
-  nontransferable. OT-0075 is reserved for candidate-free E14 evaluator and
-  held-out-anchor calibration and currently authorizes no learner.
-- After the OT-0075 protocol-origin commit, treat its experiment record,
-  acceptance specification, and task-derivation module as P-frozen through its
-  disposition. Its private seed may be generated only after clean I and must
-  never enter Git.
+  repository; use prior systems as comparative background, not inherited
+  experimental machinery.
 
 ## Privacy and storage discipline
 
