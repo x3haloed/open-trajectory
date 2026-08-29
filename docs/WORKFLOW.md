@@ -1,130 +1,98 @@
 # Research workflow
 
-## 1. Freeze the claim
+The workflow exists to protect causal interpretation while keeping actor
+learning—not evaluator construction—the dominant activity.
 
-Create an experiment record before execution. State the hypothesis, causal
-mechanism, cheapest decisive falsifier, candidate, controls, task order,
-splits, scoring rule, resource budget, red-line review, and promotion gate.
+## 1. Name one causal hypothesis
 
-When the candidate carrier is executable, freeze machine-run conformance
-fixtures with the protocol. Exercise the seed, representative valid candidates,
-forbidden authority, size/time bounds, and ambiguous language constructs before
-authorizing actor output. A prose promise that the implementation later
-interprets is not a frozen executable surface.
+Create one stable `OT-NNNN` record for one causal hypothesis. Before actor
+output, freeze:
 
-For OT-1, freeze the seed orientation, active-inheritance budget, selector
-proposal/commit protocol, novelty rubric, unchanged-selector branches, fixed
-selector controls, selector-change ablation, later harmful regime, correction
-test, and correction-capacity test. Do not freeze the useful selection
-operation into the actor prompt or offer it as a researcher-written menu.
+- the expected mechanism and cheapest falsifier;
+- actor-visible information and inherited substrate;
+- task order and held-out boundaries;
+- independently owned outcomes and score;
+- unchanged-parent and simpler controls;
+- decisive ablation and later harmful regime when relevant;
+- actor-call, implementation, protocol-repair, and wall-time budgets; and
+- the stopping and promotion rules.
 
-For longitudinal continual adaptation, also freeze the inherited initial
-substrate, update cadence, encounter horizon, regime schedule, recurring-regime
-tests, prediction-before-outcome protocol, cumulative and rolling prequential-
-loss rules, recovery and retention gates, replication plan, equal-budget
-controls, and update, projection, withholding, and misbinding ablations.
-Identify evaluation-only held-out probes and forbid their outcomes from the
-updater during the claim window. State prospectively how transient change-point
-errors are scored. Also freeze deterministic downstream application or a
-powered paired stochastic design with counterbalanced order, replicated
-lineages, and an identical-substrate/projection placebo. The seed machinery may
-be researcher-designed; actor invention of it is not part of this claim.
+Protocol, implementation, pre-contact operational repair, execution,
+reconstruction, and disposition are phases of the same experiment. Assign a new
+ID only when the hypothesis, world, outcome, causal comparison, or acceptance
+rule materially changes.
 
-Before promoting a new longitudinal evaluator, separate design worlds from a
-sealed disjoint anchor bundle. Freeze evaluator implementation before deriving
-the anchors. Generate one private seed only after clean implementation and bind
-both identities into the derived anchor. Require two materially different
-online-admissible controller references to pass from current queries and prior
-released outcomes, fixed controls to remain discriminating, and seeded causal
-defects—including future and hidden oracles—to fail, all without candidate
-output. Only the held-out anchor result may promote the evaluator and authorize
-a candidate; it is not itself a base-model learning result.
+## 2. Cross the risky causal edge first
 
-For the actor-bearing longitudinal candidate, enforce protocol-to-
-implementation-to-task order. Promote and freeze the generic evaluator, freeze
-the candidate seed substrate and updater implementation, and only then derive a
-fresh stream from a hidden post-implementation seed. Freeze static and runtime
-surface checks excluding task seeds, regime schedules and change points,
-reference answers, held-out probes, evaluator instructions, and control winners
-from candidate reachability.
+Build the smallest actor-bearing path from inherited state through completed
+contact, independent consequence, permitted update, reset, later behavior, and
+held-out score. Do not build a general evaluator, security boundary, journal,
+or receipt framework before this path runs unless a named false-positive story
+requires it.
 
-Before evaluator or candidate implementation, freeze the task-derivation
-function, domain tag, private-seed length, binding to the clean implementation
-identity, one-attempt rule, and collision or invalid-world handling. Apply the
-same rule to held-out evaluator anchors and candidate streams. No reseeding or
-task shopping is permitted after derivation. Treat independently derived
-streams, rather than encounters within one recursive stream, as the
-inferential units.
+A candidate-free probe is allowed only when it is the cheapest discriminating
+test of that story. Its implementation cost may not exceed the candidate it
+gates without an explicit project decision.
 
-For continual machinery refinement, also freeze the modifiable surface,
-versioned parent and bounded delta, incumbent comparison, common starting
-content identity, role-based content/machinery state partition, matched
-prospective encounter evidence, adoption and confirmation windows, machinery-
-change ablation, rollback rule, later harmful regime, and correction test. A
-useful refinement may not be supplied as a researcher-authored answer. Freeze
-deterministic application or the powered paired stochastic design and its
-identical-machinery placebo.
+For executable carriers, freeze machine-run conformance fixtures before actor
+authorization. Test the seed, representative valid programs, forbidden
+authority, size/time limits, and ambiguous language constructs.
 
-Partition machinery-refinement evidence into author/tune, adoption validation,
-and sealed post-adoption confirmation. Freeze the proposal and controller commit
-rule before validation. If validation selects among alternatives, apply that
-rule prospectively and use only the disjoint confirmation window for the future-
-benefit promotion claim.
+## 3. Run privately
 
-For a hosted model-specific or actor-generation reproduction claim, also freeze
-the deployment receipt fields, parser, maximum original-to-reproduction window,
-and counterbalanced condition order. Do not begin until a sanitized pilot proves
-that every required receipt is observable. For a bounded causal-observation
-claim, freeze instead the available-provenance inventory, exact actor
-input/output retention, fresh-context enforcement, deterministic downstream
-reconstruction, and explicit model-attribution and reliability disclaimers.
+Use a fresh actor thread and fresh workspace for every learning encounter.
+Continuity may cross encounters only through the named substrate and exact
+controller projection. Write raw inputs, outputs, traces, and receipts directly
+to `$OT_EVIDENCE_ROOT` or ignored `.evidence/`.
 
-## 2. Run privately
+The controller owns world state, outcomes, scoring, snapshot identity, commits,
+and final disposition. The actor may propose substrate changes but may not
+alter those authorities.
 
-Raw inputs, outputs, traces, and receipts go directly to the external evidence
-store. Do not create them in a tracked directory and move them later.
+## 4. Compare the causal branches
 
-For a longitudinal run, write each prediction, independent outcome, update,
-and substrate identity transition directly to that store as the encounter
-completes. Also write every nonterminal next-actor projection and the terminal
-projection or final audit-consumer receipt. Do not reconstruct a causal
-trajectory afterward from an aggregate score or final state.
+Apply changed and unchanged substrates deterministically to the same held-out
+opportunity, or use a prospectively powered paired stochastic design. Treat
+self-report as a hypothesis, not evidence. A component result does not count as
+endpoint success.
 
-## 3. Publish receipts
+When a protocol deviation appears, invalidate only if it can affect actor
+information, outcome or scoring authority, branch comparability, acceptance,
+safety, or the claimed mechanism—or if materiality is uncertain. Otherwise
+disclose the nonconformance and remove only the unsupported conformance claim.
 
-Use `ot-evidence record` to content-address the artifact and create a sanitized
-manifest. Add only compact interpretation and bounded claims to the experiment
-record.
+## 5. Record the bounded result
 
-## 4. Audit before interpretation becomes authoritative
+Use `ot-evidence record` for raw-artifact identity. Keep causal validity,
+generative reproducibility, and actor provenance separate under
+`docs/CLAIM_REGIME.md`. Preserve negative results and the original interpretation
+of later-reassessed evidence.
 
-Run:
+Before a normal commit or bounded result, run:
 
 ```bash
-ot-evidence audit
-python3 -m unittest discover -s tests
+python3 scripts/verify.py fast
 ```
 
-Inspect the staged diff. The automated audit is a minimum gate, not permission
-to publish personally identifying prose intentionally placed in a report.
+Run the archival suite when historical harnesses, shared evidence machinery, or
+frozen reconstruction paths change, and before a tagged release:
 
-## 5. Assign a disposition
+```bash
+python3 scripts/verify.py archive
+```
 
-Allowed dispositions are `promoted`, `conditional`, `rejected`, `reversed`,
-`invalidated`, and `unexecuted`. A plan is never evidence. A component result
-cannot promote a complete-path claim.
+Inspect the exact staged diff. Automated checks do not authorize publication of
+sensitive material.
 
-Classify a discovered protocol deviation by claim relevance before assigning
-the disposition. Invalidate when it can affect actor information, outcome or
-scoring authority, branch comparability, acceptance, safety, or the claimed
-mechanism, or when materiality is uncertain. When an independently auditable
-deviation cannot affect any of those, retain the causal result, disclose the
-deviation, remove the unsupported conformance claim, and repair the carrier
-prospectively. Never invent a favorable materiality rule during an unfinished
-comparison.
+## 6. Stop
 
-## 6. Preserve reversals
+Stop at the frozen actor, repair, and time budgets. Do not turn a failed
+mechanism experiment into an evaluator, operating-system isolation, or
+representation-family project. A new mechanism earns a new experiment; an
+operational workaround does not.
 
-Never rewrite a failed experiment into a clean hindsight narrative. Add a new
-record, link the superseded evidence, state which premise changed, and preserve
-both manifests.
+Allowed dispositions remain `promoted`, `conditional`, `rejected`, `reversed`,
+`invalidated`, and `unexecuted`.
+
+The former workflow is preserved at `docs/archive/WORKFLOW_G1.md` for historical
+interpretation only.

@@ -62,8 +62,10 @@ to widen the search, not as evidence or as an implicit acceptance rule.
   traces, or generated caches. Git LFS is not an exception.
 - Publish raw-artifact identity through `ot-evidence record`; do not hand-author
   manifest fields that the tool can derive.
-- Run `ot-evidence audit` and the full test suite before reporting a result or
-  preparing a commit.
+- Run `python3 scripts/verify.py fast` before reporting a bounded result or
+  preparing a normal commit. Run `python3 scripts/verify.py archive` when
+  changing historical harnesses, shared evidence machinery, or frozen
+  reconstruction paths, and before a tagged release.
 - Inspect the exact staged diff. Automated scanning does not authorize
   publication of sensitive material.
 

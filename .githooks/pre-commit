@@ -4,12 +4,6 @@ set -eu
 repo_root="$(git rev-parse --show-toplevel)"
 cd "$repo_root"
 
-if [ -n "${PYTHONPATH:-}" ]; then
-    export PYTHONPATH="$repo_root/src:$PYTHONPATH"
-else
-    export PYTHONPATH="$repo_root/src"
-fi
-
 if [ -x "$repo_root/.venv/bin/python" ]; then
     python_cmd="$repo_root/.venv/bin/python"
 elif [ -x "$repo_root/.venv/Scripts/python.exe" ]; then
@@ -18,5 +12,4 @@ else
     python_cmd="python3"
 fi
 
-"$python_cmd" -m open_trajectory_evidence audit
-"$python_cmd" -m unittest discover -s tests
+"$python_cmd" scripts/verify.py fast

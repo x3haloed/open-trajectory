@@ -56,8 +56,7 @@ python3 -m venv .venv
 source .venv/bin/activate
 python3 -m pip install -r requirements-test.lock
 python3 -m pip install --no-deps -e .
-python3 -m unittest discover -s tests
-ot-evidence audit
+python3 scripts/verify.py fast
 ```
 
 Record and verify an artifact:
@@ -82,6 +81,7 @@ ot-evidence verify evidence/manifests/OT-0001/result.json
   hypothesis map.
 - [docs/EVIDENCE.md](docs/EVIDENCE.md) — evidence and privacy contract.
 - [docs/WORKFLOW.md](docs/WORKFLOW.md) — experiment lifecycle.
+- `scripts/verify.py` — fast active checks and explicit archival verification.
 - `experiments/` — immutable experiment plans and results.
 - `evidence/manifests/` — sanitized content identities.
 - `src/open_trajectory_evidence/` — evidence recording and audit tools.
