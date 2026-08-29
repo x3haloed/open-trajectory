@@ -79,6 +79,8 @@ ot-evidence verify evidence/manifests/OT-0001/result.json
 - [docs/FRONTIER.md](docs/FRONTIER.md) — sole current decision surface.
 - [docs/RESEARCH_LANDSCAPE.md](docs/RESEARCH_LANDSCAPE.md) — non-normative
   hypothesis map.
+- [docs/archive/](docs/archive/) — displaced program, workflow, epoch, harness,
+  and research-landscape history; preserved as evidence, not live authority.
 - [docs/EVIDENCE.md](docs/EVIDENCE.md) — evidence and privacy contract.
 - [docs/WORKFLOW.md](docs/WORKFLOW.md) — experiment lifecycle.
 - `scripts/verify.py` — fast active checks and explicit archival verification.
