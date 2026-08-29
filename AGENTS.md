@@ -18,7 +18,15 @@ to widen the search, not as evidence or as an implicit acceptance rule.
   petitions, and surrendered goals.
 - Promote only the complete causal path relevant to a claim. Component success
   is not endpoint success.
+- Keep causal validity, actor provenance, and generative reproducibility
+  separate. Missing hosted deployment receipts limit model-specific and
+  reproduction claims; they do not automatically erase a complete bounded
+  causal observation reconstructed from retained actor outputs.
 - Treat self-report as a hypothesis, never as outcome evidence.
+- For executable carriers, freeze and run conformance fixtures before actor
+  authorization. After output, invalidate only material or uncertain deviations
+  affecting information, authority, branch comparability, scoring, acceptance,
+  safety, or the claimed mechanism; disclose immaterial deviations instead.
 - Create a fresh actor thread and fresh workspace for every learning encounter.
   Cross-encounter continuity may pass only through the named candidate
   substrate and the exact projection recorded by the harness.

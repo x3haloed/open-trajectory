@@ -1019,7 +1019,8 @@ longitudinal target:
   evidence remains preserved, but promotion reliance requires a newly numbered
   E13 verifier repair that independently earns any future learner authorization.
 
-- **OT-0079 (invalidated; exploratory-only; authorizes no learner):** a bounded
+- **OT-0079 (conditional causal observation under G2; originally invalidated
+  under G1; authorizes no learner):** a bounded
   consequence-addressable composition pilot outside the E14 promotion path.
   The seed selector failed motion; child 1 authored budget-feasible sequential
   selection and beat the unchanged parent on a held-out sibling. A compound
@@ -1030,12 +1031,31 @@ longitudinal target:
   deterministic evaluations were byte-identical. Post-output audit then found
   that P forbade attributes while I admitted whitelisted container-method
   attributes used by both children. The ambiguity cannot be resolved after
-  candidate output, so the run is invalidated. Missing immutable hosted-epoch
-  receipts independently precluded promotion. The result changes no prior
-  disposition and cannot promote OT-1, E14, machinery refinement, or ODT. Its
-  hypothesis-only lesson is that composition and stopping may need one mutable
-  consequence-addressable authority; any successor must define and test the
-  exact executable carrier prospectively and may not reuse these outputs.
+  candidate output, so G1 invalidated the run. G2 later separated causal
+  validity, generative reproducibility, and actor provenance. The admitted
+  methods operate only on local deterministic container state and cannot change
+  actor information, controller authority, scoring, branch comparability, or
+  the claimed mechanism. G2 therefore retains the original invalidation as
+  history while admitting the result under the conditional claim scope
+  `causal-observation`; its artifact remains `exploratory-only`. Missing hosted
+  receipts still preclude model attribution and
+  generation/reliability claims. OT-0079 authorizes no learner and cannot
+  promote OT-1, E14, machinery refinement, or ODT.
+
+## Claim regime G2 — causal validity without provenance collapse
+
+OT-0079 exposed that the prior governance treated the strongest available
+provenance and protocol-conformance tier as an entrance requirement for any
+causal result. G2 replaces that rule. A complete deterministic causal path over
+retained actor outputs may support the bounded claim scope
+`causal-observation` even when the hosted generation step lacks immutable
+deployment receipts. Exact receipts
+remain mandatory for model-specific attribution, generation reproduction,
+reliability, and cross-deployment claims. Protocol deviations now invalidate
+only when material or uncertain with respect to information, authority,
+comparability, scoring, acceptance, safety, or the claimed mechanism. See
+`docs/CLAIM_REGIME.md`. Historical raw artifacts and original dispositions
+remain preserved; active summaries may state their current G2 interpretation.
 
 ## Primary frontier — prospective E14 longitudinal continual adaptation
 

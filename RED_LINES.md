@@ -92,11 +92,21 @@
   conversational continuity invalidates attribution to the candidate substrate.
 - Do not expose hidden world state, held-out answers, evaluator instructions,
   or sealed future receipts through the actor's workspace or MCP inventory.
-- Do not treat a requested hosted-model alias as a frozen base by itself. A
-  hosted promotion requires matching direct deployment receipts across the
-  original and reproduction plus a prospectively frozen temporal control.
+- Do not treat a requested hosted-model alias as an immutable base identity or
+  use it for a model-specific, generatively reproducible, frequency, or
+  cross-deployment claim. Missing deployment receipts limit provenance and
+  reproduction scope; they do not erase a separately complete deterministic
+  causal comparison made from retained actor outputs. Label the claim scope
+  `causal-observation` and claim only the observed composite path.
 - Do not generalize a hosted deployment-epoch result to an immutable checkpoint,
   exact weights, another catalog epoch, or an unbounded future deployment.
+- Do not invalidate a causal result for a protocol deviation that cannot affect
+  actor information, outcome authority, branch comparability, scoring,
+  acceptance, safety, or the claimed mechanism. Disclose the deviation and
+  remove any conformance claim. Ambiguous or material cases still fail closed.
+- Do not rely on prose alone to define an executable candidate carrier. Before
+  actor authorization, run frozen conformance fixtures covering the seed,
+  representative valid programs, forbidden authority, and boundary cases.
 
 ## Host fitness
 

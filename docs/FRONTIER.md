@@ -36,14 +36,15 @@ repeated cross-environment expansion belongs to Open Developmental Trajectory.
   calls. Later probing found a missing fail-closed E13 case/regime binding;
   `OT-0074` suspends reliance on its recorded promotion and authorization before
   task or actor output.
-- `OT-0079` is invalidated by a post-output protocol/implementation mismatch.
-  Its actors behaviorally produced the planned budget correction, harmful
-  reversal, and novel-signal composition correction, with deterministic
-  reconstruction and a passing selector-change ablation. But the frozen text
-  forbade attributes while the implementation validator admitted whitelisted
-  container-method attributes used by both children. The behavior is retained
-  as exploratory hypothesis evidence only; it authorizes no learner and changes
-  no promoted target.
+- `OT-0079` was originally invalidated under G1 by a post-output
+  protocol/implementation mismatch. Claim regime G2 preserves that history but
+  classifies the local container-method deviation as causally immaterial. Its
+  actors produced the planned budget correction, harmful reversal, and
+  novel-signal composition correction, with deterministic reconstruction and a
+  passing selector-change ablation. It now has the conditional claim scope
+  `causal-observation`: positive for the bounded mechanism, without
+  actor-generation reproducibility, model attribution, learner authorization,
+  or target promotion.
 
 No prior score or disposition is changed by E14. Exact records and receipts
 remain in `experiments/` and `evidence/manifests/`.

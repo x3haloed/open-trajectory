@@ -1,7 +1,8 @@
 # OT-0079 — consequence-addressable composition correction pilot
 
-- **Disposition:** `invalidated`
+- **Disposition:** `conditional` under claim regime G2; originally `invalidated` under G1
 - **Evidence class:** `exploratory-only`
+- **G2 claim scope:** `causal-observation`
 - **Target:** bounded OT-1 mechanism probe; no target promotion
 - **Actor authorization:** exactly two fresh hosted actor calls after clean I
 - **Claim limit:** actor-authored selector composition under deterministic local application
@@ -167,3 +168,26 @@ the seed plus representative valid programs against it before freeze.  It may
 not reuse these actors, outputs, heldouts, or acceptance result.  OT-0079
 changes no prior disposition, authorizes no learner, and does not promote OT-1,
 E14, continual machinery refinement, or Open Developmental Trajectory.
+
+## G2 reassessment
+
+Claim regime G2, frozen after this completed run and defined in
+`docs/CLAIM_REGIME.md`, separates causal validity from actor provenance and
+generative reproducibility.  It also invalidates protocol deviations only when
+they can affect information, authority, comparability, scoring, acceptance,
+safety, or the claimed mechanism.
+
+The original G1 invalidation above remains historical fact.  Under G2, the
+method/attribute mismatch is nonconforming but not causally material: the
+validator admits only named deterministic container methods; imports,
+reflection, external capabilities, and hidden controller state remain
+unavailable; both exact actor outputs are retained; and the parent comparison,
+independent outcomes, selector-change ablation, and byte-identical downstream
+reconstruction are unchanged.
+
+Current G2 disposition: `conditional`, claim scope `causal-observation`; the
+artifact remains `exploratory-only` in the storage/reconstruction taxonomy.
+OT-0079 is positive bounded evidence for the consequence-addressable
+composition mechanism.  It still cannot support actor-generation
+reproducibility, model-specific attribution, frequency, cross-domain scope, or
+promotion of OT-1, E14, continual machinery refinement, or ODT.

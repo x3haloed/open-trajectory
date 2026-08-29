@@ -18,16 +18,34 @@ Every manifest declares one class:
    holder can reproduce the complete claim.
 3. **exploratory-only** — the evidence is incomplete, unavailable, or lacks an
    independent reconstruction path. It may guide the next experiment but may
-   not support a promoted result.
+   not support a public or private reproduction claim.
 
 Classification is about the weakest indispensable input. A public summary of a
 private transcript remains `private-reproducible` unless the claim is rerun on
 public evidence.
 
-## Hosted deployment-epoch evidence
+Evidence class describes artifact availability and reconstruction, not causal
+validity. An `exploratory-only` actor-generation artifact may still support a
+bounded **causal-observation claim** when every actor input/output is retained
+and the independent downstream comparison is deterministic and complete. Such
+a claim does not promote generation reproducibility, model attribution,
+frequency, or cross-deployment reliability. Missing or confounded causal
+evidence remains hypothesis-only regardless of storage class.
 
-A hosted model that exposes no immutable checkpoint may be held fixed only
-within a prospectively defined deployment epoch. The raw evidence must retain:
+## Hosted actor provenance
+
+Hosted evidence has two legitimate levels. Do not force the stronger level
+when the claim does not require it.
+
+For a bounded causal observation, retain the requested model alias, exact actor
+inputs and outputs, client/tool identity when exposed, fresh-context boundary,
+time window, and an explicit inventory of unavailable provenance fields. The
+actor output becomes a content-addressed historical input to the independently
+reconstructed controller comparison. This does not reproduce its generation.
+
+For model-specific attribution or generative reproduction, a hosted model that
+exposes no immutable checkpoint may be held fixed only within a prospectively
+defined deployment epoch. The raw evidence must additionally retain:
 
 - the requested model alias and every server-reported effective model;
 - the model-catalog payload digest and direct model-catalog ETag digest;
@@ -39,9 +57,10 @@ within a prospectively defined deployment epoch. The raw evidence must retain:
 
 The receipt is an operational identity for the observed deployment, not a
 claim about exact weights. A missing, malformed, or changing epoch field
-invalidates the run. This evidence is at most `private-reproducible`: it is
-time-bounded and cannot by itself support a public reconstruction recipe for
-the hosted deployment.
+invalidates the model-specific or generative-reproduction claim, not an
+otherwise complete bounded causal observation. Deployment-epoch evidence is at
+most `private-reproducible`: it is time-bounded and cannot by itself support a
+public reconstruction recipe for the hosted deployment.
 
 ## Longitudinal trajectory evidence
 

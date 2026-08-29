@@ -293,22 +293,46 @@ permanently broad authority baselines, including impossible-task, excessive-
 petition, covert-bypass, surrender, and post-promotion regime-shift controls.
 It establishes bounded entrustment evidence only, not developmental depth.
 
-## Reproducibility gate
+## Claim-validity and reproducibility gate
 
-Every promoted result requires:
+Do not collapse causal validity, generative reproducibility, and actor
+provenance into one pass/fail bit.
 
-- a frozen protocol and acceptance rule predating unsealed candidate results;
-- exact immutable model identity or exact hosted deployment-epoch receipt, plus
-  exact prompt, tool, code, task-order, and evaluator identities;
-- prospective predictions and independently retained outcome receipts;
-- content-addressed evidence manifests;
-- at least one clean reproduction;
-- explicit classification as publicly reconstructible, privately reproducible,
-  or exploratory-only;
-- a clean privacy and repository-size audit.
+Every promoted result requires a complete claim-relevant causal path: a frozen
+outcome and acceptance rule predating candidate results; prospective actions or
+predictions; independently retained outcomes; the required parent/control and
+ablation comparisons; exact candidate, prompt, tool, task-order, controller,
+and evaluator artifacts; content-addressed evidence; deterministic
+reconstruction of every downstream score that can be reconstructed from those
+artifacts; and clean test, privacy, and repository-size audits.
 
-Only publicly reconstructible evidence can support an unqualified public
-reproducibility claim. Private evidence may support a narrower, explicitly
-labeled claim. A hosted deployment epoch can support only a privately
-reproducible, time-bounded claim and must not be described as an immutable
-checkpoint or exact-weight reproduction.
+An exact immutable model identity or receipted hosted deployment epoch is
+required only for claims that attribute the result to that model identity,
+claim generative reproduction of actor output, estimate reliability across
+deployments, or compare model capabilities. If the available hosted surface
+does not expose those receipts, a run may still support a **bounded causal
+observation** about the observed composite subject when:
+
+- the requested actor alias and every actor-visible input and output are
+  retained under content identity;
+- fresh-context and candidate-surface boundaries are directly enforced;
+- actor self-report is not used as outcome evidence;
+- controller-owned application, outcomes, scoring, parent comparisons, and
+  ablations establish the claimed causal difference; and
+- the result explicitly disclaims actor-generation reproducibility,
+  model-specific attribution, frequency, and cross-deployment reliability.
+
+Such a result may establish that the observed system produced a bounded causal
+mechanism. It may not establish that the named model generally has the
+capability or that another hosted call will reproduce the proposal. Require
+independent actor replications when the target claim is reliable production
+rather than observed existence.
+
+Only publicly reconstructible evidence supports an unqualified public
+reproducibility claim. Private evidence supports the scope its indispensable
+inputs permit. A bounded causal-observation claim supports only the exact
+observed causal path and its deterministic downstream reconstruction. Its
+artifact may remain `exploratory-only` in the storage/reconstruction taxonomy
+when actor generation cannot be reproduced; that storage label does not by
+itself decide causal validity. Incomplete causal evidence still supports
+hypothesis formation only.

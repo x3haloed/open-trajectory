@@ -6,6 +6,12 @@ Create an experiment record before execution. State the hypothesis, causal
 mechanism, cheapest decisive falsifier, candidate, controls, task order,
 splits, scoring rule, resource budget, red-line review, and promotion gate.
 
+When the candidate carrier is executable, freeze machine-run conformance
+fixtures with the protocol. Exercise the seed, representative valid candidates,
+forbidden authority, size/time bounds, and ambiguous language constructs before
+authorizing actor output. A prose promise that the implementation later
+interprets is not a frozen executable surface.
+
 For OT-1, freeze the seed orientation, active-inheritance budget, selector
 proposal/commit protocol, novelty rubric, unchanged-selector branches, fixed
 selector controls, selector-change ablation, later harmful regime, correction
@@ -65,11 +71,13 @@ rule before validation. If validation selects among alternatives, apply that
 rule prospectively and use only the disjoint confirmation window for the future-
 benefit promotion claim.
 
-For a hosted deployment epoch, also freeze the receipt fields, receipt parser,
-maximum original-to-reproduction window, and counterbalanced condition order.
-Do not begin candidate execution until a sanitized pilot proves that every
-required receipt is observable. Any epoch change invalidates rather than
-splitting or retrospectively repairing the run.
+For a hosted model-specific or actor-generation reproduction claim, also freeze
+the deployment receipt fields, parser, maximum original-to-reproduction window,
+and counterbalanced condition order. Do not begin until a sanitized pilot proves
+that every required receipt is observable. For a bounded causal-observation
+claim, freeze instead the available-provenance inventory, exact actor
+input/output retention, fresh-context enforcement, deterministic downstream
+reconstruction, and explicit model-attribution and reliability disclaimers.
 
 ## 2. Run privately
 
@@ -105,6 +113,15 @@ to publish personally identifying prose intentionally placed in a report.
 Allowed dispositions are `promoted`, `conditional`, `rejected`, `reversed`,
 `invalidated`, and `unexecuted`. A plan is never evidence. A component result
 cannot promote a complete-path claim.
+
+Classify a discovered protocol deviation by claim relevance before assigning
+the disposition. Invalidate when it can affect actor information, outcome or
+scoring authority, branch comparability, acceptance, safety, or the claimed
+mechanism, or when materiality is uncertain. When an independently auditable
+deviation cannot affect any of those, retain the causal result, disclose the
+deviation, remove the unsupported conformance claim, and repair the carrier
+prospectively. Never invent a favorable materiality rule during an unfinished
+comparison.
 
 ## 6. Preserve reversals
 

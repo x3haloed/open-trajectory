@@ -7,7 +7,7 @@
   "environment": {
     "architecture": "arm64",
     "git": {
-      "commit": "a51bfa1989e5026dd0451e2bd32d5cbc7a4327ee",
+      "commit": "e5dfed2dece19d3f23edfae37d7f32cc2c29e4fd",
       "dirty": true
     },
     "os_family": "Darwin",
@@ -19,9 +19,9 @@
   "input_manifests": [],
   "kind": "actor-selector-trajectory",
   "limitations": [
-    "The run is invalidated: the frozen carrier forbade attributes while the implementation validator admitted container-method attributes used by both actor children.",
+    "The frozen text forbade attributes while the implementation admitted named local container methods; G2 classifies this as disclosed nonconformance without causal materiality.",
     "Hosted actor interface exposed no immutable revision, response identifiers, catalog receipt, or bounded reproduction epoch.",
-    "The retained behavior is hypothesis evidence only and authorizes no target promotion or learner."
+    "Artifact storage class is exploratory-only; G2 claim scope is bounded causal-observation with no actor-generation reproducibility, model attribution, frequency, cross-domain scope, target promotion, or learner authorization."
   ],
   "media_type": "application/json",
   "reconstruction": {
