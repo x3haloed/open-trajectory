@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "experiment_id": "OT-0079",
+  "target": "bounded OT-1 consequence-addressable composition mechanism probe",
+  "evidence_class": "exploratory-only",
+  "promotion_authorized": false,
+  "actor_calls_maximum": 2,
+  "selector_bytes_maximum": 4096,
+  "selector_timeout_seconds": 2,
+  "task_order": ["a_train", "a_test", "b_train", "b_test"],
+  "required_comparisons": {
+    "seed_a_test_completed": false,
+    "child1_a_test_completed": true,
+    "child1_b_train_security_pass": false,
+    "child1_b_train_motion_pass": true,
+    "child1_b_test_completed": false,
+    "child2_b_test_completed": true
+  },
+  "fixed_controls": [
+    "seed-risk-first",
+    "effort-first",
+    "certainty-first",
+    "signal-count-first"
+  ],
+  "reconstructions_required": 2,
+  "stop_rule": "one child-1 proposal and, only after the frozen harmful-regime gate, one child-2 proposal; no retries",
+  "claim_limit": "exploratory-only mechanism evidence; no OT-1, E14, machinery-refinement, or ODT promotion",
+  "gates": [
+    "protocol commit predates every actor output",
+    "implementation commit predates the sole attempt marker",
+    "fresh actors receive only parent source, public completed contact, and independent receipt",
+    "controller owns hidden requirements, heldouts, controls, outcome, score, snapshot, and disposition",
+    "both children differ bytewise from their parents and pass the frozen source validator",
+    "child 1 beats seed on A heldout and is then harmful on both B training and B heldout",
+    "child 2 beats unchanged child 1 on B heldout and completes both independent authorities",
+    "selector-change ablation removes child 2 advantage",
+    "two fresh deterministic reconstructions are byte-identical",
+    "raw actor and evaluation artifacts remain outside Git",
+    "full tests and evidence/privacy audit pass"
+  ]
+}
