@@ -43,6 +43,12 @@ become termination of the subject.
 OT-1C is stronger than persistence of text and weaker than autonomous
 self-development. It requires inherited developmental position: what has been
 earned, what failed, what remains unresolved, and what operation is live next.
+An actor turn may end without ending that position. When subject-owned
+continuation is claimed, the next opening must originate inside the lineage,
+survive the turn boundary exactly enough to remain actionable, and affect a
+fresh successor's contact; a generic observer-authored wakeup establishes only
+operational rescue. OT-0086's admitted actor locally closed while fixed
+machinery reopened the subject, making this distinction outcome-relevant.
 
 ### OT-2: machinery refinement
 

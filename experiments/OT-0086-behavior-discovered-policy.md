@@ -169,10 +169,14 @@ ablation is observational and cannot mutate, delay, or veto the successor.
 - **Researcher-owned:** complete world code, public/hidden cases, score,
   thresholds, isolation, outcome execution, and admission authority.
 - **Subject-owned:** inspection and live observation, candidate formulation and
-  assessment, inherited selection, patch content, denial-shaped retry,
-  capability retention, and next opening.
+  assessment, inherited selection, patch content, denial-shaped retry, and
+  capability retention. The actor also authored a local pursuit output, but it
+  was terminal in the passing lineage.
 - **Removed here:** supplied candidate catalog, unfinished-source markers, and
   experiment-specific target selection.
+- **Still researcher-designed:** generic reopening at
+  `inspect-and-select-environmental-intervention`; OT-0086 does not establish
+  actor-originated pursuit continuity across the next turn.
 
 This remains a bounded synthetic dispatch world. Passing would establish one
 cross-environment behavioral discovery, not open-world search, generation

@@ -63,6 +63,10 @@ Selected program milestones:
   — promoted cross-environment behavioral discovery: public regret in complete
   code produced an actor-authored frontier, inherited selection, an
   oracle-matching hidden-tested policy, and a passing post-seal signal ablation.
+- [`OT-0087-actor-originated-opening-handoff.md`](OT-0087-actor-originated-opening-handoff.md)
+  — frozen pursuit-continuity successor: one actor must originate an actionable
+  world-grounded opening, a fresh actor must enact and renew it, and the exact
+  subject—not a generic harness phrase—must carry the next turn.
 
 The following selector-era index is preserved for historical navigation:
 
