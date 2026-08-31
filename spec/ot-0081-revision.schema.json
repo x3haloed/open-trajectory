@@ -9,8 +9,7 @@
       "type": "array",
       "items": {"type": "string", "enum": ["challenge.json", "challenge_generator.py"]},
       "minItems": 2,
-      "maxItems": 2,
-      "uniqueItems": true
+      "maxItems": 2
     },
     "next_pursuit": {"type": "string", "minLength": 1}
   }

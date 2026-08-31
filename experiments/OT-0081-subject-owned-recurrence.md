@@ -113,3 +113,18 @@ records the exact subject as open or quarantined from its last valid parent.
   version 5 without regression.
 - The driver will finish with no researcher-selected phase transition and an
   open subject ready to execute challenge machinery version 3.
+
+## Pre-contact operational repair
+
+The first driver invocation established the frozen three-case saturation, then
+the response API rejected `uniqueItems` in the revision report schema before
+the fresh Luna actor received a usable turn. The trace contains
+`thread.started`, `turn.started`, `invalid_json_schema`, and `turn.failed`; it
+contains no actor output, tool call, file change, binding, or actor-visible
+hidden consequence.
+
+The unsupported response-format keyword is removed prospectively. No
+hypothesis, actor prompt, subject projection, seed, world, threshold, budget,
+suite, phase rule, or promotion gate changes. The failed invocation remains in
+the external evidence store. The repaired driver must use a fresh evidence root
+and fresh actor thread.
