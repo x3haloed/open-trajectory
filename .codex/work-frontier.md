@@ -68,6 +68,10 @@ Next expose environmental enumeration: let the subject inspect a bounded but
 uncurated environment and formulate the candidate contact itself, while the
 world and admission authority remain independent.
 
+OT-0084 freezes this as an actor-discovered repository frontier: no surface
+catalog enters the workspace, candidate identities are derived after discovery,
+and the same bound frontier receives a post-seal selector ablation.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research

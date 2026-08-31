@@ -51,6 +51,10 @@ Selected program milestones:
   — promoted bounded subject-owned world routing: the inherited selector chose
   a hidden-tested novel composition, while a post-seal selector-erased replay
   chose a world-valid but developmentally denied held repetition.
+- [`OT-0084-actor-discovered-contact.md`](OT-0084-actor-discovered-contact.md)
+  — frozen prospective successor where a fresh actor must inspect one
+  repository and author the candidate frontier itself before the inherited
+  selector can route or the world can evaluate a bound intervention.
 
 The following selector-era index is preserved for historical navigation:
 
