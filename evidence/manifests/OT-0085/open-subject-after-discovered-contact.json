@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-discovered-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 181670,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "765794900619f45ec22cf5516409c87aff2b3da8",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0085",
+  "input_manifests": [
+    "evidence/manifests/OT-0085/discovered-contact-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after one independently hidden-tested actor-discovered composition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-discovered-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a9958ac0d4cf4323c078d1a2fad5a26ad15b8f874c9c62d5c7e13b413aca2ed5"
+}

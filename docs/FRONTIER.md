@@ -93,6 +93,19 @@ joint report so exact key semantics are inspectable before binding. Preserve
 the unenumerated environment, actor-authored frontier, selector, tests,
 admission, budgets, and post-seal ablation.
 
+OT-0085 passed that correction. A fresh actor authored the unenumerated
+repository frontier, the inherited selector chose joint route/score analysis,
+and a separate actor produced a hidden-tested admitted capability. The exact
+subject is open with the bound frontier and patch retained. The post-seal
+cadence control had its own undisclosed input-shape ambiguity, so OT-0085's new
+evidence is operational; OT-0083 remains the clean selector-effect anchor.
+
+The next contact should be discovered from behavior rather than conspicuous
+source stubs. Use a qualitatively different bounded world with complete code,
+observable outcome failures, and an actor-authored intervention frontier. This
+tests whether the subject can locate useful contact from consequence rather
+than merely enumerate unfinished functions.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -101,6 +114,8 @@ admission, budgets, and post-seal ablation.
   researcher-designed.
 - One bounded portfolio no longer requires the researcher to choose its
   surface, but the researcher still supplies and labels the candidate set.
+- One repository observation no longer supplies a candidate set, but its three
+  incomplete functions made the latent frontier unusually conspicuous.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

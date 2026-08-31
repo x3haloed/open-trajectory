@@ -56,8 +56,9 @@ Selected program milestones:
   selection: the bound composition produced the right semantic values under a
   reasonable key that did not match an undisclosed hidden result-key name.
 - [`OT-0085-explicit-discovered-contact-abi.md`](OT-0085-explicit-discovered-contact-abi.md)
-  — frozen same-world successor that changes only the actor-visible report
-  return ABI while preserving OT-0084's unenumerated environment and controls.
+  — promoted bounded actor-discovered contact: a fresh actor authored the
+  repository frontier and the inherited selector retained a hidden-tested
+  composition; the post-seal selector control is limited by a cadence ABI gap.
 
 The following selector-era index is preserved for historical navigation:
 

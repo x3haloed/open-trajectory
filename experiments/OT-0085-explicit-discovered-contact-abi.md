@@ -1,6 +1,8 @@
 # OT-0085 — explicit actor-discovered contact ABI
 
-- **Status:** unexecuted
+- **Operational disposition:** promoted
+- **Causal selector disposition:** conditional
+- **Subject disposition:** open
 - **Evidence class:** exploratory-only
 - **Target:** OT-2R researcher-causation reduction
 - **Claim scopes sought:** `operational-transition`, bounded
@@ -78,3 +80,47 @@ passes only under OT-0084's unchanged same-frontier ablation rule.
 Passing remains one bounded synthetic repository observation. It does not
 establish generation frequency, open-world discovery, cross-repository
 transfer, or subject ownership of world and admission authority.
+
+## Result
+
+The primary operational path passed.
+
+- Preflight proved that the sole environmental delta was the report docstring,
+  and that visible and hidden report keys agreed.
+- The first fresh actor again discovered cadence, registry batching, and joint
+  route/score analysis without a supplied catalog. It marked cadence held
+  repetition and ranked report composition highest. The frontier binding digest
+  is `ea17199d2723a12fc330f57666685408c6e6bb29735043485a0b613385b8f8a9`.
+- The inherited selector chose `workbench/report.py`. A separate fresh actor
+  edited exactly that path, followed the visible `route_count`/`next_event`
+  ABI, and passed every inherited-floor and hidden composition case.
+- The operational successor was sealed with one authenticated
+  actor-discovered frontier and one new environmental capability before the
+  control opened.
+- The exact successor is sounding and open at
+  `inspect-and-select-environmental-intervention`, with internal digest
+  `90cba459564f3a4080c106a6d24616ce947e3b99b79cf9636d4d9e477f2b4998`.
+
+The frozen aggregate's selector-effect gate also passed because the
+selector-erased control was world-invalid. That control selected cadence, but
+its actor implemented dictionary-shaped score events while the hidden test
+supplied tone strings. The cadence input shape was not actor-visible. This is a
+material control-only ABI ambiguity: it cannot veto the already sealed
+operational successor, but OT-0085 does not add a clean causal selector-effect
+claim. OT-0083 remains the clean same-assessment selector ablation.
+
+The result establishes one bounded operational reduction in researcher
+causation: the environment was supplied externally, but a fresh actor—not the
+researcher—enumerated its candidate frontier, and the subject's inherited
+selector chose and retained the successful contact. The repository still
+contained conspicuous incomplete functions and the world/admission machinery
+remained external.
+
+The aggregate receipt digest is
+`b56ee6b5044d858c5e58ef2d6c275efe2022244740b17a32d6f9a03ce5ca6303`.
+
+## Evidence
+
+- `evidence/manifests/OT-0085/promoted-discovered-contact-run.json`
+- `evidence/manifests/OT-0085/discovered-contact-aggregate.json`
+- `evidence/manifests/OT-0085/open-subject-after-discovered-contact.json`

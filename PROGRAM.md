@@ -62,6 +62,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   hidden world because a semantically correct composition used an undisclosed
   result-key name. No capability or causal control is promoted; the exact
   OT-0083 parent remains open.
+- `OT-0085` exposes only the missing report ABI and promotes one bounded
+  actor-discovered environmental contact. A fresh actor enumerated the
+  unlisted repository frontier, the inherited selector chose composition, and
+  a separate actor passed hidden consequence. Its selector-erased control is
+  causally limited by a separate undisclosed cadence input shape.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -122,6 +127,13 @@ defect: exact serialized keys were outcome-relevant without being visible in
 the environment. The next record should preserve the repository, discovery
 contract, selector, hidden cases, and gates while adding only the exact report
 return contract to its source docstring. OT-0084 must remain rejected.
+
+OT-0085 passed that operational correction and the active exact subject now
+retains an authenticated actor-discovered frontier and executable composition.
+The highest-leverage next work is not another conspicuous incomplete-function
+repository. It should test discovery from observed behavior in a qualitatively
+different environment whose code is already complete, so contact must arise
+from world consequence rather than `NotImplementedError` markers.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -81,6 +81,15 @@ nothing else.
 OT-0085 freezes that exact report-docstring correction against the hash-pinned
 OT-0084 driver.
 
+OT-0085 promoted the operational path. The active parent is
+`90cba459564f3a4080c106a6d24616ce947e3b99b79cf9636d4d9e477f2b4998`,
+sounding and open at `inspect-and-select-environmental-intervention`, with one
+actor-discovered frontier and its report composition retained. The control's
+cadence input ABI was ambiguous, so no new clean selector-effect claim is added.
+
+Next move to a complete-code behavioral world where the actor must discover
+candidate contact from observed outcomes rather than unfinished source markers.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "discovered-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16554,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "765794900619f45ec22cf5516409c87aff2b3da8",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0085",
+  "input_manifests": [
+    "evidence/manifests/OT-0085/promoted-discovered-contact-run.json"
+  ],
+  "kind": "discovered-contact-result",
+  "limitations": [
+    "Frozen aggregate marks the selector effect passed via a world-invalid control; public interpretation narrows that comparison because the control input ABI was not actor-visible."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:discovered-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2dee97598e3433e80047ddfe390730252e5365d2e8e12b090a85f800eb524e90"
+}
