@@ -42,6 +42,7 @@ FAST_MODULES = (
     "tests.test_ot_0086_behavior_discovery",
     "tests.test_ot_0087_actor_opening_handoff",
     "tests.test_ot_0088_unseen_pursuit_selection",
+    "tests.test_ot_0089_derived_liveness",
 )
 
 # Last commit in which the retired E14 evaluator lineage and its complete test
