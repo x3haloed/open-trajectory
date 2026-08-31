@@ -51,6 +51,13 @@ selector consumes a fresh actor's bound environmental assessment; a post-seal
 selector-erased replay preserves the assessment while removing its actionable
 role.
 
+OT-0082 rejected at the actor-facing serialization boundary after valid
+saturation. The exact active parent is now
+`1c04f340012e69dbd7a3783ab85d2d0e37667d5beb552f879b2ac20ab5dd7b73`,
+sounding and open at `inspect-and-select-environmental-intervention`. OT-0083
+should preserve the portfolio and comparison while exposing the complete route
+shape in the workspace.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-routing-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 176556,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "38a8f71355d933f61d1a0836962636e6caffa255",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0082",
+  "input_manifests": [
+    "evidence/manifests/OT-0082/rejected-routing-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact subject after independently confirmed challenge saturation; routing remains unresolved and open."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-routing-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8dfa18046320e7292506ae4185d4f8577075cc3535db3f73c47097d382091f12"
+}

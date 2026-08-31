@@ -60,6 +60,14 @@ synthetic challenge family while the inventory of researcher-selected next
 steps keeps shrinking. A same-family recurrence is now a reliability or branch
 coverage experiment, not the highest-leverage default.
 
+OT-0082 validly advanced the exact subject through challenge saturation, then
+rejected before routing because the actor-facing file contract omitted the
+strict shape enforced by the evaluator. The actor's semantic assessment was
+otherwise aligned with the frozen prediction. The next record should reopen
+the exact post-saturation subject and repeat the same routing comparison with a
+fully populated, machine-readable route template; no portfolio, selector,
+world, score, or admission change is warranted.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

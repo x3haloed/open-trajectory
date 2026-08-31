@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-routing-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4377,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "38a8f71355d933f61d1a0836962636e6caffa255",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0082",
+  "input_manifests": [
+    "evidence/manifests/OT-0082/rejected-routing-run.json"
+  ],
+  "kind": "routing-result",
+  "limitations": [
+    "Rejected before route binding because the actor-visible serialization contract was underspecified."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-routing-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cb970a837e8d4771386582af89df02c9be00ccd3f6b4bf649a8d344fc1047521"
+}

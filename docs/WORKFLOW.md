@@ -43,6 +43,13 @@ evaluator-facing ABI and protected authority boundary before actor
 authorization. Do not require arbitrary actor-authored programs to use a
 researcher-selected internal representation.
 
+The actor-facing mutation contract must itself be present in the isolated
+workspace in a machine-readable or fully populated form. A validator, public
+protocol, or response schema the actor cannot inspect does not communicate a
+file format. Conformance must exercise the actual seeded interface through at
+least one representative valid artifact, not only test evaluator-owned
+reference implementations.
+
 ## 3. Run the subject privately
 
 Use a fresh actor thread and fresh workspace for every learning encounter.

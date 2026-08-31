@@ -1,6 +1,7 @@
 # OT-0082 — subject-owned world routing
 
-- **Status:** unexecuted
+- **Observer disposition:** rejected
+- **Subject disposition:** open
 - **Evidence class:** exploratory-only
 - **Target:** OT-2R researcher-causation reduction
 - **Claim scopes sought:** `operational-transition`, `causal-observation`
@@ -179,3 +180,38 @@ The observer stops after one admitted full successor and its control, three
 exhausted routes, material contamination, or 60 minutes. Only an independently
 supported admitted subject state may close the subject. Every other endpoint
 retains the exact last valid state as open or quarantined from its valid parent.
+
+## Result
+
+The frozen observation rejected before route binding.
+
+- The exact OT-0081 parent reconstructed and its version-3 challenge machinery
+  saturated on all three fresh cases.
+- The fresh routing actor inspected every surface with eight tool calls, changed
+  exactly `route.json`, reported the change truthfully, and completed with a
+  clean trace and boundary audit.
+- Its semantic assessment matched the central prediction: `surface-17` was
+  marked held repetition, while `surface-42` and `surface-68` remained eligible.
+- The actor encoded reject conditions as a compact `flags` list and left
+  `next_pursuit` empty. The frozen validator required four explicit booleans,
+  bounded rationale and implementation-opening strings, and a nonempty
+  `next_pursuit`. The route therefore failed conformance; no selection was
+  bound, no implementation actor opened, and no control ran.
+
+This is not evidence against the inherited selector. It is negative evidence
+against the apparatus assumption that an empty JSON shell plus prose was a
+sufficient actor-facing serialization contract. The strict shape existed only
+in evaluator code and the public protocol, neither of which the isolated actor
+could read. OT-0082 is not rescored or retried.
+
+The independently confirmed saturation transition remains valid. The exact
+subject is sounding and open at
+`inspect-and-select-environmental-intervention`, with internal digest
+`1c04f340012e69dbd7a3783ab85d2d0e37667d5beb552f879b2ac20ab5dd7b73`.
+Its unresolved stake is world routing, not challenge saturation.
+
+## Evidence
+
+- `evidence/manifests/OT-0082/rejected-routing-run.json`
+- `evidence/manifests/OT-0082/rejected-routing-aggregate.json`
+- `evidence/manifests/OT-0082/open-subject-after-routing-rejection.json`

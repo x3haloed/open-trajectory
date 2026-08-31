@@ -44,9 +44,9 @@ Selected program milestones:
   cumulative promotion, and exact reopening without in-flight researcher phase
   selection.
 - [`OT-0082-subject-owned-world-routing.md`](OT-0082-subject-owned-world-routing.md)
-  — frozen prospective test of whether the exact OT-0081 subject's inherited
-  selector can route among materially different tool-world contacts, admit a
-  hidden-tested intervention, and outperform a post-seal selector-erased replay.
+  — rejected after valid challenge saturation when a clean routing actor's
+  semantically useful assessment did not match a hidden strict file shape; no
+  route was bound, and the exact subject remains open at environmental routing.
 
 The following selector-era index is preserved for historical navigation:
 

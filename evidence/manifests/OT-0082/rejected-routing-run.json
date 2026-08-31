@@ -1,0 +1,34 @@
+{
+  "artifact_id": "rejected-routing-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 303104,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "38a8f71355d933f61d1a0836962636e6caffa255",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0082",
+  "input_manifests": [
+    "evidence/manifests/OT-0081/open-subject-v3.json"
+  ],
+  "kind": "actor-subject-routing",
+  "limitations": [
+    "Clean routing actor output failed the frozen actor-facing route contract before selection or implementation.",
+    "Supports a bounded negative observation and exact open-subject continuation; no selector effect or world-routing promotion."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-routing-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d02019935d4735b4dfccd29745417d712b1aa5daecb3077c11c75d229fd8c2d1"
+}

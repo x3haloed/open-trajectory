@@ -47,6 +47,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   fresh-actor correction, cumulative promotion, and exact reopening with one
   fixed driver. Together with OT-0080's retained controls, this is bounded
   `recurrent-operation` evidence in one synthetic world family.
+- `OT-0082` validly advances the exact subject through fresh challenge
+  saturation, then rejects before environmental selection because the
+  actor-facing workspace did not expose the strict route shape enforced by the
+  evaluator. The clean actor assessment remains negative interface evidence;
+  no selector or world-routing claim is promoted.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
