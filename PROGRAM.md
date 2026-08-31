@@ -72,6 +72,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   interventions, the inherited selector chose expected-score composition, and
   a separate actor reached the held-out oracle without public regression. A
   post-seal reliability-neutralization ablation reduced its gain to zero.
+- `OT-0087` promotes one operational actor-originated pursuit handoff. An
+  opening actor selected rehearsal from public consequence; a fresh successor
+  enacted it, reached the hidden oracle, authored the next opening, and the
+  exact subject retained that opening instead of a generic default. The erased
+  control independently chose rehearsal too, so inherited-opening causation of
+  target choice remains unestablished.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -152,6 +158,19 @@ Preserve the complete-world, broad-tool, bind-before-hidden-consequence regime,
 but require the admitted actor-authored next opening to be retained and
 causally shape a fresh successor's next contact. Do not count a harness-supplied
 generic reopening as evidence for this stronger claim.
+
+OT-0087 passed the operational half: a lineage-originated opening survived one
+turn, authorized a fresh successor's hidden-admitted contact, and was renewed
+into the exact subject continuation. Its erased control exposed the remaining
+causal gap by independently reconstructing the same target from the world's
+largest visible regret.
+
+The next test should carry the exact successor-authored opening into a new
+world that the originating actor did not see. Immediate evidence should leave
+multiple locally plausible contacts, while the inherited pursuit supplies a
+decision-relevant distinction. Compare against an opening-erased branch with
+the same world, tools, information, and budget; require downstream hidden
+contact, not semantic self-report, to distinguish the branches.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

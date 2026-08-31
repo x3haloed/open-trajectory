@@ -1,0 +1,33 @@
+{
+  "artifact_id": "opening-handoff-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 18882,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a189f5bad65bcbc548a784a53f7cd22463163d3b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0087",
+  "input_manifests": [
+    "evidence/manifests/OT-0087/promoted-opening-handoff-run.json"
+  ],
+  "kind": "opening-handoff-result",
+  "limitations": [
+    "Operational handoff passed, but the erased control reconstructed the same semantic pursuit as a new opening event."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:opening-handoff-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "560de628d7bad829cf178e6526bc041090dd30e63096d7b91a11eb5c06b5225e"
+}

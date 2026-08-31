@@ -1,0 +1,35 @@
+{
+  "artifact_id": "promoted-opening-handoff-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4623360,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a189f5bad65bcbc548a784a53f7cd22463163d3b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0087",
+  "input_manifests": [
+    "evidence/manifests/OT-0086/open-subject-after-behavioral-discovery.json"
+  ],
+  "kind": "actor-originated-opening-handoff",
+  "limitations": [
+    "One bounded actor-originated opening handoff in a researcher-authored synthetic ensemble world.",
+    "A pre-generation successor request was rejected for an unsupported response-schema keyword; the retained trace and immaterial repair are disclosed.",
+    "The opening-erased control independently chose the same target from public regret, so target-choice causality is not established."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:promoted-opening-handoff-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "199cd3829904e8a2fc784a0ccd2b28f59b9d6ba4e75e5de89db8431e18c0dbac"
+}

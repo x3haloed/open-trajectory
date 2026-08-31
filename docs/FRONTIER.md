@@ -123,6 +123,22 @@ next useful contact before hidden consequence. A generic researcher-authored
 opening may remain as a safety fallback but cannot establish the stronger
 claim.
 
+OT-0087 crossed that operational boundary. One actor originated
+`test-risk-adjusted-rehearsal-selection`; a fresh successor enacted it through
+independently hidden consequence and authored
+`verify-risk-adjusted-rehearsal-policy-and-boundary`; the exact subject now
+reopens with that latter phrase. A pre-generation response-schema rejection was
+retained and repaired without changing actor information or authority.
+
+The opening-erased control nevertheless rediscovered the same rehearsal target
+because it had the largest immediate public regret. Thus the artifact carried
+an opening and made it authoritative, but the experiment did not show that its
+content changed which note came next. The next frontier is an unseen-world
+transfer comparison where immediate evidence leaves multiple plausible moves
+and only the inherited pursuit supplies the differentiating orientation. The
+erased branch must retain equal information and resources, and success must be
+measured by admitted downstream contact rather than prose similarity.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -136,6 +152,9 @@ claim.
 - One complete-code behavioral policy was discovered and admitted without a
   supplied candidate menu, but fixed continuation machinery—not an admitted
   actor-authored pursuit—provided the next turn's opening.
+- One actor-authored opening now survives a turn, causes an authorized contact,
+  and is renewed into the exact continuation; whether its content improves or
+  changes selection in an unseen world remains unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-opening-handoff",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 188276,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a189f5bad65bcbc548a784a53f7cd22463163d3b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0087",
+  "input_manifests": [
+    "evidence/manifests/OT-0087/opening-handoff-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries a successor-authored next opening after one hidden-admitted cross-turn handoff."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-opening-handoff",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "78c96eb00dc412f7d1e44e3874a41f1b825f5b5bd7b8c4eb42e596282fab3d73"
+}

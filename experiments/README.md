@@ -64,9 +64,10 @@ Selected program milestones:
   code produced an actor-authored frontier, inherited selection, an
   oracle-matching hidden-tested policy, and a passing post-seal signal ablation.
 - [`OT-0087-actor-originated-opening-handoff.md`](OT-0087-actor-originated-opening-handoff.md)
-  — frozen pursuit-continuity successor: one actor must originate an actionable
-  world-grounded opening, a fresh actor must enact and renew it, and the exact
-  subject—not a generic harness phrase—must carry the next turn.
+  — promoted operational pursuit handoff: one actor originated a grounded
+  opening, a fresh actor enacted and renewed it through hidden consequence,
+  and the exact subject carries the renewal; target-choice causality remains
+  conditional because the erased control independently chose the same target.
 
 The following selector-era index is preserved for historical navigation:
 

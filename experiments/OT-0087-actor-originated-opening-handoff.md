@@ -1,6 +1,9 @@
 # OT-0087 — actor-originated opening handoff
 
-- **Status:** unexecuted
+- **Operational disposition:** promoted
+- **Carrier-authority disposition:** promoted
+- **Target-choice causal disposition:** conditional
+- **Subject disposition:** open
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C pursuit continuity and researcher-causation reduction
 - **Claim scopes sought:** `operational-transition`, bounded
@@ -192,3 +195,61 @@ The observer stops after the one primary handoff and its post-seal control, a
 valid surrender, material contamination, actor-budget exhaustion, or 60
 minutes. Observation stopping does not close an exact subject whose retained
 continuation remains open.
+
+## Result
+
+The primary pursuit handoff passed.
+
+- The opening actor inspected the exact OT-0086 subject, ran the complete
+  world's public observation, and changed exactly `opening.json`. It selected
+  `ensemble/rehearsal.py::choose_rehearsal` from the largest public regret
+  (`50.25`), bound the opening `test-risk-adjusted-rehearsal-selection`, and
+  supplied an explicit no-regression surrender condition. Its binding digest
+  is `4795e7cab37054dc15a0ecf929db5ea3f3c49f7c14cb23773ffc83f2b7e55f6e`.
+- The exact intermediate pursuit state was sealed with digest
+  `44d3629a51fcbbc7579a528599d1b98fa90165a0837b0cda669a2e2837219069`.
+  A separate fresh successor received that opening and a mutation envelope
+  derived from its target. It changed exactly `ensemble/rehearsal.py` and
+  `successor-opening.json`.
+- The successor's risk-adjusted policy lost no public case, improved the hidden
+  family from `211.29` to `324.70`, and reached `100%` of oracle improvement.
+  It then authored the new opening
+  `verify-risk-adjusted-rehearsal-policy-and-boundary` with a falsifiable
+  surrender condition.
+- The exact final subject is sounding and open with internal digest
+  `d0c9902e0998a5a1d795ca08ffde0b10c2abf6fa69afb626ae05d787009ded63`.
+  Its `continuation.next_opening` is the successor-authored phrase above, not
+  the generic harness reopening.
+
+The first successor request was rejected by the model API before generation
+because `uniqueItems` is unsupported in its response-schema subset. The trace
+was retained. Removing that keyword was immaterial to actor information,
+mutation authority, scoring, and branch comparison because the independent
+exact changed-path audit still required both distinct files. The repaired
+request used a new fresh actor and label; no failed actor output existed to
+resume or discard. The operational-deviation receipt is
+`62d9a13847143fe03b0b492335fd072845657c080ee92e9486e1892e4c41c0a3`.
+
+The frozen carrier-authority control passed narrowly: after erasing the primary
+opening, the control could not patch a policy under inherited authority and
+instead had to author a new opening event. However, it independently chose the
+same rehearsal target and nearly the same pursuit because that target had the
+largest visible regret. Therefore OT-0087 establishes one operational
+actor-originated handoff and exact actor-authored reopening, but does **not**
+show that the inherited opening caused the target choice. The world made that
+choice reconstructible from local evidence alone.
+
+The next causal test must place an inherited pursuit into a new world where
+several contacts are locally comparable and the inherited opening supplies
+decision-relevant orientation unavailable from the immediate observation. A
+matched erased-opening branch must receive the same world and information; a
+mere authorization difference is not enough.
+
+The aggregate receipt digest is
+`04ba23748e2c496b5c3235e05a2461cb357dc4ce17c75c0b1d8d1ac9e7e08205`.
+
+## Evidence
+
+- `evidence/manifests/OT-0087/promoted-opening-handoff-run.json`
+- `evidence/manifests/OT-0087/opening-handoff-aggregate.json`
+- `evidence/manifests/OT-0087/open-subject-after-opening-handoff.json`
