@@ -69,6 +69,9 @@ list is preserved at `docs/archive/RED_LINES_G1.md`.
 - Do not enforce an actor-authored file shape that is absent from the actor's
   workspace. An empty JSON shell plus prose is not a machine-readable contract
   for hidden required keys.
+- Do not use a hidden serialization name, unit, ordering, or error shape as the
+  sole separator between semantically equivalent actor outputs. Exact ABI
+  requirements must be actor-visible before the output is bound.
 - Broad filesystem, network, subprocess, search, and editing tools may be part
   of a declared actor condition. Do not allow actor-written code or tool use to
   gain evaluator, evidence, credential, hidden-outcome, acceptance, or other

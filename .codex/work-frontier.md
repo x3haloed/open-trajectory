@@ -72,6 +72,12 @@ OT-0084 freezes this as an actor-discovered repository frontier: no surface
 catalog enters the workspace, candidate identities are derived after discovery,
 and the same bound frontier receives a post-seal selector ablation.
 
+OT-0084 rejected after candidate discovery and selection succeeded. The bound
+composition produced the correct semantic values under `next_score`; the
+hidden world required an undisclosed `next_event` key. The exact OT-0083 parent
+remains active. OT-0085 should expose that return ABI in the source and change
+nothing else.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research

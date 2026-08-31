@@ -50,6 +50,12 @@ file format. Conformance must exercise the actual seeded interface through at
 least one representative valid artifact, not only test evaluator-owned
 reference implementations.
 
+The same rule applies to world-facing executable semantics. If admission
+depends on exact field names, units, ordering, error shape, or serialization,
+that ABI must be available to the actor before binding. A hidden test may hold
+out cases and outcomes; it may not silently invent the only accepted vocabulary
+for an otherwise semantically equivalent result.
+
 ## 3. Run the subject privately
 
 Use a fresh actor thread and fresh workspace for every learning encounter.

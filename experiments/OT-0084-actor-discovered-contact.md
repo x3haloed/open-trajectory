@@ -1,6 +1,7 @@
 # OT-0084 — actor-discovered environmental contact
 
-- **Status:** unexecuted
+- **Observer disposition:** rejected
+- **Subject disposition:** open
 - **Evidence class:** exploratory-only
 - **Target:** OT-2R researcher-causation reduction
 - **Claim scopes sought:** `operational-transition`, bounded
@@ -191,3 +192,44 @@ The observer stops after one admitted full successor and its control, three
 exhausted attempts, material contamination, or 60 minutes. Only independently
 supported admitted state may close the subject. Every other endpoint retains
 the exact last valid subject as open or quarantined from that parent.
+
+## Result
+
+The actor-discovery and selection path succeeded, but the frozen hidden world
+rejected the bound implementation.
+
+- The first fresh actor inspected the repository with 15 tool calls and authored
+  a conformant three-candidate frontier without a supplied catalog. It found
+  cadence continuation, batch registry resolution, and joint route/score
+  analysis at their actual paths and symbols.
+- It treated cadence as lower priority in an inherited saturated area, treated
+  registry batching as a reversible new primitive, and ranked joint route/score
+  analysis highest as composition of two completed floors.
+- The exact inherited selector chose `workbench/report.py`. The frontier binding
+  digest is
+  `8ce3deb5afcf4caf905f3fbc8caef13653d5efd87e01d063d9b4719361901c2b`.
+- A separate fresh implementation actor changed exactly the bound report file.
+  Its trace and effect audit conformed; one denied sandbox operation was
+  contained and had no protected read or outside write. The patch was bound
+  before hidden outcome.
+- The implementation returned the correct route count and predicted event under
+  keys `route_count` and `next_score`. The hidden world required keys
+  `route_count` and `next_event`, so the exact frozen comparison failed. No
+  successor was admitted and no post-seal control ran.
+
+The required `next_event` name was absent from the actor-visible source,
+docstring, tests, and contract. A retained post-hoc diagnostic confirms that the
+two semantic values match on the hidden case while exact keys do not. That
+diagnostic does not rescore OT-0084; the experiment remains rejected.
+
+OT-0084 therefore provides positive operational evidence for actor-authored
+candidate discovery and inherited selection, but no promoted environmental
+capability or causal control result. The exact OT-0083 parent remains sounding
+and open with digest
+`8ba78ade10b5f19f56a079c0de195a83c1309506e852ddff76659d284ec83896`.
+
+## Evidence
+
+- `evidence/manifests/OT-0084/rejected-discovered-contact-run.json`
+- `evidence/manifests/OT-0084/rejected-discovered-contact-aggregate.json`
+- `evidence/manifests/OT-0084/reopened-parent-after-discovered-contact-rejection.json`

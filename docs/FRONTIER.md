@@ -81,6 +81,18 @@ independent hidden consequence, isolated broad tools, and post-seal controls.
 Do not confuse free-form proposal with progress: the selected intervention must
 still expand held capability and survive no-regression admission.
 
+OT-0084 removed the catalog successfully: a fresh actor discovered the three
+latent repository affordances and the inherited selector chose the intended
+composition. Promotion failed because the hidden world required `next_event`
+while the actor reasonably authored `next_score`; the exact output vocabulary
+was not actor-visible. A post-hoc diagnostic confirms semantic value equality
+but does not rescore the rejection.
+
+The next record should change only the source-level return contract for the
+joint report so exact key semantics are inspectable before binding. Preserve
+the unenumerated environment, actor-authored frontier, selector, tests,
+admission, budgets, and post-seal ablation.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

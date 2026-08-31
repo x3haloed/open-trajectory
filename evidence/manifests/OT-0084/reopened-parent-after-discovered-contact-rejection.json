@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-discovered-contact-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 179225,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8648e03f4cc52f87dcd2f849fd082dafa1e28caa",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0084",
+  "input_manifests": [
+    "evidence/manifests/OT-0084/rejected-discovered-contact-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact unchanged OT-0083 parent, still sounding and open after OT-0084 rejection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-discovered-contact-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0ac60b7370b98dc8a23f5736a3e76520aaacfca4f03686149d757269960eb10f"
+}
