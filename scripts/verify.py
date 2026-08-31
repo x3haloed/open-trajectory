@@ -40,6 +40,7 @@ FAST_MODULES = (
     "tests.test_ot_0084_discovered_contact",
     "tests.test_ot_0085_explicit_contact_abi",
     "tests.test_ot_0086_behavior_discovery",
+    "tests.test_ot_0087_actor_opening_handoff",
 )
 
 # Last commit in which the retired E14 evaluator lineage and its complete test
