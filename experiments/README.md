@@ -43,6 +43,10 @@ Selected program milestones:
   challenge revision, hidden contradiction, separate fresh-actor correction,
   cumulative promotion, and exact reopening without in-flight researcher phase
   selection.
+- [`OT-0082-subject-owned-world-routing.md`](OT-0082-subject-owned-world-routing.md)
+  — frozen prospective test of whether the exact OT-0081 subject's inherited
+  selector can route among materially different tool-world contacts, admit a
+  hidden-tested intervention, and outperform a post-seal selector-erased replay.
 
 The following selector-era index is preserved for historical navigation:
 

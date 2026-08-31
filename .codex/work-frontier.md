@@ -46,6 +46,11 @@ different admissible world contacts, reducing researcher ownership of the
 world-interface choice while retaining bind-before-consequence and independent
 admission.
 
+OT-0082 freezes this test as a three-surface tool-world portfolio. The active
+selector consumes a fresh actor's bound environmental assessment; a post-seal
+selector-erased replay preserves the assessment while removing its actionable
+role.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research
