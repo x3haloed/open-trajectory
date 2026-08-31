@@ -55,6 +55,9 @@ Selected program milestones:
   — rejected after a clean actor-authored frontier and correct inherited
   selection: the bound composition produced the right semantic values under a
   reasonable key that did not match an undisclosed hidden result-key name.
+- [`OT-0085-explicit-discovered-contact-abi.md`](OT-0085-explicit-discovered-contact-abi.md)
+  — frozen same-world successor that changes only the actor-visible report
+  return ABI while preserving OT-0084's unenumerated environment and controls.
 
 The following selector-era index is preserved for historical navigation:
 

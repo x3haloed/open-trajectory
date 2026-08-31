@@ -78,6 +78,9 @@ hidden world required an undisclosed `next_event` key. The exact OT-0083 parent
 remains active. OT-0085 should expose that return ABI in the source and change
 nothing else.
 
+OT-0085 freezes that exact report-docstring correction against the hash-pinned
+OT-0084 driver.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research
