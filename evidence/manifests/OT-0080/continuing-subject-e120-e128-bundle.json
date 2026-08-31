@@ -1,0 +1,34 @@
+{
+  "artifact_id": "continuing-subject-e120-e128-bundle",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4108800,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "681eced81ffeed83f17db748e0176069579d1011",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0080",
+  "input_manifests": [],
+  "kind": "actor-subject-trajectory",
+  "limitations": [
+    "Post-hoc adoption bundle; packaging was not part of the original frozen protocols.",
+    "Duplicate actor workspaces and seed copies are omitted; exact actor inputs, outputs, traces, audits, bindings, world receipts, protocols, harnesses, aggregates, and subject checkpoints are retained.",
+    "Hosted actors lack immutable model revision and deployment-epoch receipts.",
+    "Supports bounded operational and causal reconstruction only; no generation-frequency, cross-world, or open-developmental claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:continuing-subject-e120-e128-bundle",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e2adfc0e8247d3f969fc213dab78cffecf658ae11f3e21ac61587c85aedc8f65"
+}

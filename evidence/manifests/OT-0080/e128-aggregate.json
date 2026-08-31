@@ -1,0 +1,33 @@
+{
+  "artifact_id": "e128-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 31722,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "681eced81ffeed83f17db748e0176069579d1011",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0080",
+  "input_manifests": [
+    "evidence/manifests/OT-0080/continuing-subject-e120-e128-bundle.json"
+  ],
+  "kind": "causal-result",
+  "limitations": [
+    "Retained bounded E128 aggregate; causal interpretation depends on the full adopted trajectory bundle."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:e128-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1e8b6d5d3650acfca88ecc01fb59880692625da8930cd59c206fb343fdfd9b93"
+}

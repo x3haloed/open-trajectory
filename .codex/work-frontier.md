@@ -35,6 +35,9 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
+OT-0080 adopts the exact E128 subject and E120–E128 claim-relevant ancestry.
+The active parent is open at `execute-subject-owned-challenge-machinery`.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research

@@ -17,13 +17,13 @@ becomes unnecessary for useful continuation.
   composition and stopping.
 - `OT-0048`–`OT-0069`: negative evidence that representation-family changes
   alone do not ground inherited correction.
-- An external prospective continuing-subject lineage has now demonstrated the
+- `OT-0080` has adopted the external prospective continuing-subject lineage by
+  content identity. The retained evidence demonstrates the
   design pattern OT was missing: exact reopening after invalid encounters,
   actor-authored contact, saturation, consequence-bound non-expansion denial,
   revision of subject-owned challenge machinery, and later no-regression repair
-  by another fresh actor. Its exact evidence must cross the repository adoption
-  boundary before receiving an OT claim scope; it is already a valid design
-  anchor for this regime transition.
+  by another fresh actor. It is bounded OT-1C/OT-2 evidence and the design
+  anchor for this epoch; it is not yet OT-2R recurrence.
 
 ## Active evaluation regime
 
@@ -44,8 +44,8 @@ the lineage, or experiment completion implying subject closure are stale.
 
 ## Next work
 
-Admit a bounded slice of the external lineage or reproduce its causal pattern
-under G3. Start from an exact open subject and let one fixed driver follow its
+Start from OT-0080's exact open subject and reproduce its causal pattern under
+G3. Let one fixed driver follow its
 own next opening across multiple fresh actors. Bind actor-authored machinery
 before hidden consequence, seal each valid operational successor, and use
 controls only for the specific causal claims they test.

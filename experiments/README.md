@@ -34,6 +34,9 @@ Selected program milestones:
   authorization consumption.
 - [`OT-0075-e14-longitudinal-evaluator-calibration.md`](OT-0075-e14-longitudinal-evaluator-calibration.md)
   — frozen candidate-free E14 longitudinal evaluator calibration.
+- [`OT-0080-continuing-subject-adoption.md`](OT-0080-continuing-subject-adoption.md)
+  — post-hoc G3 adoption of the external E120–E128 causal lineage and its exact
+  open subject; bounded OT-1C/OT-2 evidence with no OT-2R promotion.
 
 The following selector-era index is preserved for historical navigation:
 

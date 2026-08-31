@@ -38,6 +38,10 @@ condition, not the permanent purpose or executive of the resulting subject.
   selection, later made it harmful, and then produced coupled composition and
   stopping that beat the unchanged parent. It does not establish generation
   reliability, model attribution, cross-domain transfer, or full OT-1.
+- `OT-0080` conditionally adopts the external E120–E128 continuing-subject
+  lineage by content identity. It establishes that OT can verify and reopen the
+  exact subject and retains the lineage's bounded causal observations. It does
+  not turn the researcher-stepped chain into OT-2R recurrence.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -80,17 +84,16 @@ authority.
 
 ## Current frontier
 
-The external prospective continuing-subject lineage is the design anchor for
-the next epoch. It has demonstrated fresh-actor reopening, exact operational
+`OT-0080` makes the external prospective continuing-subject lineage the adopted
+design anchor for the next epoch. It has demonstrated fresh-actor reopening, exact operational
 continuity after invalid encounters, actor-authored contact machinery,
 saturation, consequence-bound non-expansion denial, revision of that machinery,
 and no-regression correction by a later fresh actor. This is comparative design
-evidence until its artifacts are admitted under the repository evidence
-contract; the program should make such a chain preferred rather than force it
-into a fixed-task evaluator shape.
+evidence under the G3 repository contract; the program should make such a chain
+preferred rather than force it into a fixed-task evaluator shape.
 
-The next useful work is to admit a bounded slice of that lineage or reproduce
-its causal pattern under the subject-first regime. The observer should freeze
+The next useful work begins from OT-0080's exact open subject and prospectively
+repeats its causal pattern under the subject-first regime. The observer should freeze
 an authority and admission envelope, then follow the subject's own openings.
 Controls test particular causal claims after the operational successor is
 sealed. No candidate-free evaluator or complete longitudinal regime is a

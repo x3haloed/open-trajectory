@@ -1,0 +1,36 @@
+{
+  "artifact_id": "adoption-receipt",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 656,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "681eced81ffeed83f17db748e0176069579d1011",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0080",
+  "input_manifests": [
+    "evidence/manifests/OT-0080/continuing-subject-e120-e128-bundle.json",
+    "evidence/manifests/OT-0080/e128-open-subject.json",
+    "evidence/manifests/OT-0080/e128-aggregate.json",
+    "evidence/manifests/OT-0080/continuing-subject-harness.json"
+  ],
+  "kind": "adoption-verification",
+  "limitations": [
+    "Verifies exact local adoption and opening; does not add a new actor-generation or cross-world claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:adoption-receipt",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9cc052fcb9f4b9dc9853309df1682dd7604101e4f054c8146b65654417a9a48e"
+}
