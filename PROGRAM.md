@@ -102,6 +102,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   successor or control is promoted. This is negative evaluator evidence: exact
   continuity was calibrated preservation of unresolved contact, not mere
   repetition.
+- `OT-0092` promotes one complete actor-designed contact and consequence-renewal
+  loop. One fresh actor authored reordered multi-way probes; independent public
+  and hidden consequence passed; a second actor retired the fulfilled pursuit;
+  and an outcome-content-erased control retained it. The exact subject reopens
+  with a distinct actor-authored continuation.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -237,6 +242,19 @@ fixtures under multiple input orders and expose complete selected-id,
 max-score, maximizing-set, and tie-rule receipts. Preserve the verifier and
 policy. After that complete consequence, a separate assimilation step can
 again test whether the subject retires or revises the now-settled pursuit.
+
+OT-0092 completed that loop. The subject preserved the unresolved stake,
+authored the missing concrete cases, passed independent consequence, and used
+that complete receipt to retire the pursuit. Its erased control retained the
+old opening. This is bounded causal evidence that consequence content changes
+what the subject carries next, not merely what it can say about the past.
+
+The renewed opening now delegates novelty to `newly admitted coverage cases`.
+The next dependency is selection leverage: can the exact subject inspect its
+retained state, formulate materially different next contacts, and improve or
+apply its own choice machinery so the next surface is not supplied by the
+researcher? Preserve the complete contact/consequence/assimilation loop, but do
+not assume another coverage regression is the preferred continuation.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

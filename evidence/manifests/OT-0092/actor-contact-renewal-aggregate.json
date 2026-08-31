@@ -1,0 +1,33 @@
+{
+  "artifact_id": "actor-contact-renewal-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 23923,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "80496be638c839ddf761d0f9ba9bfc405a7db374",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0092",
+  "input_manifests": [
+    "evidence/manifests/OT-0092/promoted-actor-contact-renewal-run.json"
+  ],
+  "kind": "actor-contact-renewal-result",
+  "limitations": [
+    "Operational and bounded consequence-content causal gates passed; general recurrence and usefulness of the renewed opening remain unestablished."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-contact-renewal-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7ab055b99712ace78d3f5f9ed45b2ee9bd0fc1e35c413f094f6d3d2e02692c0c"
+}

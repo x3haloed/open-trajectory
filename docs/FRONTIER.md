@@ -199,6 +199,28 @@ position is. The next experiment should enact the exact retained opening using
 multiple orderings of the same three-or-more-way tie and complete score/set
 receipts. Only then should a post-consequence actor be expected to move on.
 
+OT-0092 enacted that contact end to end. A fresh actor authored the concrete
+reordered three-way probes and a non-lexical unique-winner control. The retained
+verifier passed them and six independently hidden multi-way, reordered,
+fractional, and near-tie cases. A separate fresh actor used all nine complete
+rows to retire the fulfilled pursuit and author a distinct opening. Only after
+the exact successor was sealed did the outcome-erased control run; it cited no
+cases and retained the old pursuit.
+
+This is the strongest current bounded loop: the subject preserved an unresolved
+stake, authored its missing contact, accepted objective consequence, and
+changed its own carried developmental position across fresh actors. The exact
+subject is sounding and open at
+`242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`.
+
+The next gap is not continuity but leverage over what comes next. Its renewed
+opening asks to test `newly admitted coverage cases`, leaving an outside party
+as the likely source of novelty. The next experiment should let the subject
+inspect the retained lineage, formulate several materially different possible
+contacts, and make or improve the consequential selection among them. Another
+researcher-supplied regression case would extend the song without expanding its
+range.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -225,6 +247,10 @@ receipts. Only then should a post-consequence actor be expected to move on.
   capability. A subsequent actor retained its opening because decisive
   reordered multi-way evidence was still absent; whether complete consequence
   then produces pursuit retirement remains untested.
+- One actor-designed contact now produced complete consequence, grounded pursuit
+  retirement, and a renewed exact subject; whether the subject can choose the
+  next materially different surface without researcher-supplied novelty remains
+  unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -44,6 +44,9 @@ The strongest footholds are:
   consequence before carrying the opening onward.
 - `OT-0091`: a rejected mandatory-revision test showing that unchanged pursuit
   can preserve genuinely missing contact rather than constitute repetition.
+- `OT-0092`: one promoted end-to-end loop from retained stake through
+  actor-authored contact and independent consequence to fresh-actor pursuit
+  retirement, with an outcome-erased control.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

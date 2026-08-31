@@ -1,6 +1,6 @@
 # OT-0092 — actor-designed contact and consequence renewal
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; operational and causal gates promoted
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C consequence-driven pursuit completion and renewal
 - **Claim scopes sought:** bounded `operational-transition` and bounded
@@ -173,3 +173,43 @@ and carries a renewed developmental position across fresh actors. It would not
 establish general recurrence reliability, semantic optimality of the new
 opening, subject ownership of hidden admission or scheduling, or indefinite
 operation.
+
+## Result
+
+The contact designer changed exactly `probe-cases.json` and authored three
+structurally admissible cases: an equal-score three-way set under two distinct
+orders and a unique-score case whose winner was not lexically greatest. The
+retained verifier passed those cases and all six sealed hidden cases, including
+four-way and fractional ties under reordered inputs and a near-tie score-priority
+case. Every complete receipt row exposed the selected id, numeric maximum,
+maximizing set, and tie-rule result.
+
+The fresh active assimilator cited all nine successful rows, dispositioned the
+old pursuit as `retire`, and authored a distinct opening. The harness sealed the
+exact sounding successor at digest
+`242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`
+before opening the control. The outcome-content-erased actor then cited no case
+ids and retained the exact old opening. Both actors were conformant; only the
+active assimilation passed the frozen consequence-grounding gate.
+
+The operational and bounded consequence-content causal predictions pass. The
+new opening is `Run the reusable verifier against newly admitted coverage
+cases, comparing selected id, maximum realized score, maximizing-id set, and
+the greatest-id tie rule with the realized-score oracle.`
+
+## Learned boundary
+
+This is one complete subject-carried developmental loop: calibrated retention,
+actor-authored contact, independent world consequence, fresh-actor retirement,
+and exact renewed continuation. The erased control shows that sealed outcome
+content, rather than contact identity or prompt alone, supplied the basis for
+moving on.
+
+The renewed opening is nevertheless weakly expansive. It asks for newly
+admitted cases but does not select or generate the next consequential surface;
+an outside party could remain the hidden source of those cases indefinitely.
+The next experiment should test whether the exact subject can inspect retained
+capabilities and consequences, formulate multiple materially distinct future
+contacts, and choose or improve the machinery that chooses among them before
+world admission. Repeating coverage regression alone is not the highest
+leverage continuation.
