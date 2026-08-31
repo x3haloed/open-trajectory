@@ -34,6 +34,8 @@ FAST_MODULES = (
     "tests.test_trajectory",
     "tests.test_ot0079",
     "tests.test_ot0079_protocol",
+    "tests.test_ot_0081_recurrence",
+    "tests.test_ot_0082_world_routing",
 )
 
 # Last commit in which the retired E14 evaluator lineage and its complete test
