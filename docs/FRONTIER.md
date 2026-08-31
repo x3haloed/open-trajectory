@@ -44,11 +44,11 @@ the lineage, or experiment completion implying subject closure are stale.
 
 ## Next work
 
-Start from OT-0080's exact open subject and reproduce its causal pattern under
-G3. Let one fixed driver follow its
-own next opening across multiple fresh actors. Bind actor-authored machinery
-before hidden consequence, seal each valid operational successor, and use
-controls only for the specific causal claims they test.
+OT-0081 is frozen to start from OT-0080's exact open subject and reproduce its
+causal pattern prospectively under G3. One fixed driver must follow the
+subject's own next opening across fresh actors, bind actor-authored machinery
+before hidden consequence, retry from retained non-expansion without researcher
+choice, and promote a cumulative correction.
 
 The decisive gap is not another memory representation. It is whether repeated
 execute → saturate → revise → contradict → correct → promote cycles can continue

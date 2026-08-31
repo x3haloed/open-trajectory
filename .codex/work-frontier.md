@@ -37,6 +37,8 @@ and preserved negative evidence.
 
 OT-0080 adopts the exact E128 subject and E120–E128 claim-relevant ancestry.
 The active parent is open at `execute-subject-owned-challenge-machinery`.
+OT-0081 prospectively tests whether one fixed driver can carry that subject
+through the next complete challenge-machinery recurrence.
 
 ## Prediction errors
 
