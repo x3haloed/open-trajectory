@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-post-consequence-assimilation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 338432,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7a8a1354c86f4ff44e0b6e52f5776b5e3e842a1c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0091",
+  "input_manifests": [
+    "evidence/manifests/OT-0090/open-subject-after-confirmation-renewal.json"
+  ],
+  "kind": "post-consequence-pursuit-assimilation",
+  "limitations": [
+    "The active actor grounded all seven visible outcomes but retained the opening because reordered multi-way and exact report evidence remained absent; the frozen revise-or-retire gate rejected and the erased control did not open."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-post-consequence-assimilation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d370ea42f265419a74464c248510de2e74fecfba4b011babd943fa089fd309e0"
+}

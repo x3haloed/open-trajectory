@@ -96,6 +96,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   authored a distinct next opening. That opening was bound before hidden
   consequence and is already partly satisfied by the admitting receipt,
   exposing the need for post-consequence pursuit assimilation.
+- `OT-0091` rejects its forced post-consequence revision hypothesis. The active
+  actor cited every successful receipt row but retained the opening because
+  reordered multi-way fixtures and exact score/set values remained absent. No
+  successor or control is promoted. This is negative evaluator evidence: exact
+  continuity was calibrated preservation of unresolved contact, not mere
+  repetition.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -219,13 +225,18 @@ subject: the actor added a hidden-admitted generalized verifier and authored a
 new opening without mutating the policy. The exact subject remains sounding and
 open.
 
-But the new opening predates the hidden consequence that admitted it. That
-receipt already confirms the multi-way and order-invariant behavior the opening
-asks to verify. The next experiment should add one fresh post-consequence
-assimilation turn. Give it the exact subject, bound pre-consequence opening,
-and sealed receipt; require it to distinguish satisfied from unresolved stakes
-and author the next opening without another researcher-selected task or world
-contact. Promotion requires the stale opening to be retired, not merely copied.
+OT-0091 tested that interpretation and falsified it. The actor used every
+visible successful row but retained the opening because the receipt did not
+contain a reordered multi-way pair or exact score reports for such fixtures.
+The frozen mandatory-revision gate correctly rejected the record, and the
+unchanged OT-0090 subject remains open.
+
+The next experiment should follow the retained opening into the missing contact
+rather than force novelty. Supply explicit three-or-more-option equal-score
+fixtures under multiple input orders and expose complete selected-id,
+max-score, maximizing-set, and tie-rule receipts. Preserve the verifier and
+policy. After that complete consequence, a separate assimilation step can
+again test whether the subject retires or revises the now-settled pursuit.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

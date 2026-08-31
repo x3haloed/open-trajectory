@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-assimilation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7177,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7a8a1354c86f4ff44e0b6e52f5776b5e3e842a1c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0091",
+  "input_manifests": [
+    "evidence/manifests/OT-0091/rejected-post-consequence-assimilation-run.json"
+  ],
+  "kind": "post-consequence-assimilation-result",
+  "limitations": [
+    "No operational successor or causal control; the exact OT-0090 subject remains open with its prior opening."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-assimilation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "43166c6474ce88659877393d133a3d7e8cf5338f43c16dbddd0aab3c0b6f7777"
+}

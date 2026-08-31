@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-assimilation-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 195735,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7a8a1354c86f4ff44e0b6e52f5776b5e3e842a1c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0091",
+  "input_manifests": [
+    "evidence/manifests/OT-0091/rejected-assimilation-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact unchanged OT-0090 parent, sounding and open after OT-0091 rejection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-assimilation-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "29ccc68d94d76538cadeef9d66cc82a116f6737ff0e74b0009df5d685b4f345b"
+}

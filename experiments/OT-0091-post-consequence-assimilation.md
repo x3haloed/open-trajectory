@@ -1,6 +1,6 @@
 # OT-0091 — post-consequence pursuit assimilation
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected at active assimilation gate
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C consequence-driven pursuit revision
 - **Claim scopes sought:** bounded `operational-transition` and bounded
@@ -163,3 +163,39 @@ what the subject carries next across a fresh actor boundary. It would not
 establish general assimilation reliability, semantic optimality of the new
 pursuit, indefinite recurrence, or subject ownership of admission and
 scheduling.
+
+## Result
+
+The active actor was fully conformant and grounded its assimilation in every
+visible public and hidden row. It correctly identified that unique selection,
+two-way ties, one three-way tie, near-tie score priority, and cost-adjusted tie
+behavior had passed. It then chose `retain`, carried the exact opening, and
+stated that reordered multi-way input and exact score/set reports for those
+fixtures remained unverified.
+
+The frozen active gate required `revise` or `retire` and a distinct opening.
+Those terms failed, so no successor was promoted and the erased control was
+correctly never opened. The exact OT-0090 parent remains sounding and open at
+digest `b1940ef7a434b60ac02436ea1e75f22179b83be096ec71075736eedcabe3f769`.
+
+## Prediction error
+
+Expected: the sealed OT-0090 receipt had satisfied the substance of the current
+opening, so evidence-grounded assimilation should retire or revise it.
+
+Observed: the receipt contained one three-way ordering and validity summaries,
+but no reordered three-way pair and no exact maximum-score values in its rows.
+The actor cited the settled cases, preserved the missing dimensions, and
+retained the opening.
+
+Uncertain before execution: whether retention would be mere repetition or
+calibrated preservation of an unresolved stake.
+
+Evidence: the bound active assimilation and exact OT-0090 receipt show that the
+retained opening asks for contact not present in the receipt. The evaluator's
+mandatory revision rule was too strong for this consequence.
+
+OT-0091 remains rejected and is not rescored. The next record should enact the
+unchanged opening against explicit reordered multi-way fixtures with complete
+score and maximizing-set receipts. Only after that consequence should
+assimilation again be expected to retire or revise the pursuit.

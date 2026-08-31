@@ -42,6 +42,8 @@ The strongest footholds are:
 - `OT-0090`: one promoted confirmation-driven renewal that adds a hidden-valid
   verifier without policy mutation and exposes the next gap: assimilating
   consequence before carrying the opening onward.
+- `OT-0091`: a rejected mandatory-revision test showing that unchanged pursuit
+  can preserve genuinely missing contact rather than constitute repetition.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

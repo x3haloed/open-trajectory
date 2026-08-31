@@ -184,17 +184,20 @@ derived liveness and sealed an exact sounding successor, demonstrating one
 confirmation-to-renewal transition: successful contact need not end the
 subject or force gratuitous policy mutation.
 
-The transition exposed a new temporal gap. The actor's next opening was bound
-before hidden consequence, as causal discipline requires. The later hidden
-receipt then satisfied much of that opening by verifying multi-way ties,
-reordered inputs, numeric scores, and greatest-id selection. Carrying the
-opening literally would now produce repetition rather than development.
+The transition appeared to expose a temporal gap: the new opening predated the
+hidden receipt and might already have been stale. OT-0091 tested that reading
+and rejected it. The active actor grounded itself in all seven successful rows
+but retained the opening because only one three-way ordering was present and
+the rows did not expose exact score reports for reordered multi-way fixtures.
+The frozen mandatory-revision gate failed, so no control opened and the exact
+OT-0090 subject remains current.
 
-The next experiment should insert a fresh post-consequence assimilation turn.
-It must receive the exact promoted subject and sealed receipt, identify which
-stake the consequence settled, retire the stale opening, and bind a genuinely
-new opening before any further world contact. The observer may validate exact
-receipt use and non-copying but may not choose the revised pursuit.
+This is a useful correction to the meaning of non-repetition. A phrase carried
+unchanged is not repetition when its world-contact condition remains unmet.
+Novel wording is not the objective; consequence-sensitive developmental
+position is. The next experiment should enact the exact retained opening using
+multiple orderings of the same three-or-more-way tie and complete score/set
+receipts. Only then should a post-consequence actor be expected to move on.
 
 ## Open uncertainty
 
@@ -219,8 +222,9 @@ receipt use and non-copying but may not choose the revised pursuit.
 - A balanced unseen-world comparison did not establish causal target selection
   from the inherited pursuit phrase; presentation order remained influential.
 - One confirmation-driven continuation remained open and expanded verification
-  capability, but its pre-consequence successor opening became partly stale
-  when the hidden receipt arrived; post-consequence assimilation is untested.
+  capability. A subsequent actor retained its opening because decisive
+  reordered multi-way evidence was still absent; whether complete consequence
+  then produces pursuit retirement remains untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
