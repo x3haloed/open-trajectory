@@ -68,6 +68,11 @@ Selected program milestones:
   opening, a fresh actor enacted and renewed it through hidden consequence,
   and the exact subject carries the renewal; target-choice causality remains
   conditional because the erased control independently chose the same target.
+- [`OT-0088-unseen-world-pursuit-selection.md`](OT-0088-unseen-world-pursuit-selection.md)
+  — frozen matched cross-world comparison: twelve counterbalanced fresh routers
+  test whether exact inherited pursuit content changes which equally useful
+  unseen-world contact is selected, with hidden-admitted active and erased
+  implementations.
 
 The following selector-era index is preserved for historical navigation:
 

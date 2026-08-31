@@ -172,5 +172,12 @@ decision-relevant distinction. Compare against an opening-erased branch with
 the same world, tools, information, and budget; require downstream hidden
 contact, not semantic self-report, to distinguish the branches.
 
+OT-0088 freezes that comparison prospectively. It uses six active and six
+pursuit-erased fresh routers, counterbalances all presentation orders, balances
+public regret and hidden opportunity across three complete contacts, and
+scores only bound target paths. Separate fresh implementers must carry the
+primary active and first erased choices through equally strong hidden world
+contact. No actor has seen the new world at protocol freeze.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
