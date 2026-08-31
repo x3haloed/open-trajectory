@@ -1,0 +1,33 @@
+{
+  "artifact_id": "conditional-derived-liveness-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 20050432,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8927d0bf6f2c19b948c0b7eac04be7903d2fccd4",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0089",
+  "input_manifests": [
+    "evidence/manifests/OT-0088/reopened-parent-after-unseen-pursuit-rejection.json"
+  ],
+  "kind": "derived-liveness-unseen-world-pursuit-selection",
+  "limitations": [
+    "Operational continuation passed with a hidden-admitted actor-authored opening and derived lifecycle state; the frozen pursuit-content causal gate failed at active 3/6 versus erased 1/6, one-sided Fisher p 0.2727."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:conditional-derived-liveness-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e9976ca99c56df603fceb57b8b79f586e501da3bdda3d9bb3db0395cb4196332"
+}

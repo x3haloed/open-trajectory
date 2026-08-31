@@ -156,6 +156,27 @@ opening and derive canonical `open` only after the substantive opening and its
 world contact pass. Everything else in OT-0088's comparison remains frozen,
 and its rejected evidence remains unchanged.
 
+OT-0089 made that sole correction. Its primary active route chose coverage; a
+fresh implementer reached the complete hidden oracle gain, authored a
+substantive five-field continuation, and yielded an exact sounding successor
+after the harness derived canonical `open`. This is a promoted operational
+transition and directly repairs OT-0088's lifecycle-token boundary.
+
+The larger causal comparison was cleanly negative under its frozen gate.
+Active routers selected reserve `3/6`; erased routers selected it `1/6`;
+one-sided Fisher `p = 0.2727`. All twelve routes conformed and both primary
+implementations passed hidden admission. The inherited phrase may have affected
+some choices, but it did not reliably overcome presentation order at the
+declared level. Target-choice causality remains unestablished.
+
+The exact new subject is open at
+`b3cd03e3ea34f60514d80d20b02f3f11ceaae56ab5139ad52b120c06ac12e626`
+with the actor-authored opening `Verify coverage selection against realized
+coverage-weighted scores, including tie behavior.` The next experiment should
+follow that opening into consequential tie contact. It should preserve derived
+liveness and hidden admission, while avoiding a researcher-chosen return to the
+failed risk-selection comparison.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -174,7 +195,10 @@ and its rejected evidence remains unchanged.
   changes selection in an unseen world remains unestablished.
 - One clean unseen-world route selected the pursuit-aligned contact, but a
   lifecycle-token mismatch prevented consequence and the frozen causal sample;
-  whether derived liveness is sufficient for robust handoff is unestablished.
+  derived liveness subsequently repaired that handoff once, but its reliability
+  across repeated continuations is unestablished.
+- A balanced unseen-world comparison did not establish causal target selection
+  from the inherited pursuit phrase; presentation order remained influential.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

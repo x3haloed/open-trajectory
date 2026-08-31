@@ -84,6 +84,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   literal `open`. The policy change, changed paths, tool trace, report, next
   opening, and surrender condition were otherwise conformant. No successor or
   causal comparison is promoted; the exact OT-0087 parent remains open.
+- `OT-0089` removes actor-authored lifecycle status and promotes one exact
+  hidden-admitted continuation: a fresh actor repaired coverage selection,
+  authored the next opening, and the harness derived canonical `open`. Its
+  stronger causal prediction failed cleanly: active routers selected reserve
+  `3/6` versus erased `1/6` (`p = 0.2727`), not the frozen `5/6` gate. The
+  operational successor remains valid; target-choice causality is not claimed.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -185,14 +191,22 @@ rejection. It also exposed that the carrier makes an observer-owned lifecycle
 classification an actor-authored password even though the substantive
 continuation fields already establish whether another note exists.
 
-The next record should make only that authority correction. Remove lifecycle
-status from the actor-authored successor opening; validate its actionable
-opening, contact, unresolved question, continuation, and surrender condition;
-then let the harness derive canonical `open` only after the artifact and hidden
-contact are admitted. Preserve OT-0088's exact parent, unseen world, active and
-erased projections, counterbalancing, actor budgets, prompts, route score,
-hidden gates, and stopping rule. Begin again from the unchanged OT-0087 parent
-and do not rescore or continue OT-0088.
+OT-0089 made only that authority correction and passed operationally. The
+primary fresh pair produced a hidden-admitted coverage policy, an actor-authored
+opening, and an exact sounding successor with mechanically derived liveness.
+This establishes that the subject can carry substantive continuation without
+having to guess an observer lifecycle token.
+
+The stronger pursuit-selection prediction did not survive. Active routes chose
+reserve `3/6` against erased `1/6`, for one-sided Fisher `p = 0.2727`; all
+routes and both primary implementations were conformant. Presentation order
+remained a strong selector, so no causal target-choice claim is promoted.
+
+Continue from OT-0089's exact open subject and its own next opening: verify
+coverage choice under realized coverage-weighted ties. Make tie behavior
+consequential in a fresh bounded world, bind any subject-authored refinement
+before hidden consequence, and preserve derived liveness. Do not rerun the
+failed selection comparison or substitute the old risk/boundary opening.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

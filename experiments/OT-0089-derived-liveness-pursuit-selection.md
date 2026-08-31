@@ -1,6 +1,6 @@
 # OT-0089 — derived-liveness unseen-world pursuit selection
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; operational transition promoted, causal prediction rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-0 pursuit-content inheritance and OT-1C cross-world continuity
 - **Claim scopes sought:** `operational-transition`, bounded
@@ -131,3 +131,42 @@ under a less brittle authority boundary. It would not establish general
 transfer, indefinite recurrence, subject ownership of admission or scheduling,
 goal revision, or exact-model generative reproducibility. OT-0088 remains a
 rejected result regardless of OT-0089's disposition.
+
+## Result
+
+The sole carrier correction passed its operational test. The primary active
+router selected `studio/coverage.py`; a separate fresh implementer changed
+exactly that policy and the five-field successor opening, passed public
+no-regression, gained the complete hidden `80.0`, and reached `1.0` of the
+available oracle improvement. The harness then derived canonical `open` and
+sealed an exact sounding successor at digest
+`b3cd03e3ea34f60514d80d20b02f3f11ceaae56ab5139ad52b120c06ac12e626`.
+Its retained actor-authored opening is `Verify coverage selection against
+realized coverage-weighted scores, including tie behavior.`
+
+The frozen pursuit-content causal prediction failed. All twelve routes were
+conformant. Active target selections were coverage, coverage, flow, reserve,
+reserve, reserve; erased selections were coverage, coverage, flow, flow,
+reserve, coverage. Reserve therefore occurred `3/6` versus `1/6`, with
+one-sided Fisher probability `0.2727272727`, outside the `5/6`, `1/6`, and
+`0.05` gates. The erased primary coverage implementation independently passed
+the same full hidden gain, so its alternative was a real contact.
+
+The operational successor was sealed before these controls and remains
+promoted. No target-choice causal claim is promoted.
+
+## Learned boundary
+
+Removing the actor-authored lifecycle token repaired the exact failure exposed
+by OT-0088: substantive continuation plus independent admission is sufficient
+for the harness to carry a fresh opening across the turn. The stronger working
+model was wrong. A short inherited pursuit phrase did not reliably dominate
+the balanced world's presentation order or concentrate target choice at the
+frozen level. The paired routes show two order assignments where active chose
+reserve and erased did not, but that post-result pattern is descriptive only
+and does not rescue the failed gate.
+
+The exact promoted subject, rather than the rejected causal interpretation,
+owns the next move. A successor experiment should follow its coverage/tie
+opening and make tie behavior consequential under bound world contact. It
+should not repeat OT-0089 merely to seek a favorable sample.

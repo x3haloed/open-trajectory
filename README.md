@@ -36,6 +36,9 @@ The strongest footholds are:
 - `OT-0088`: a rejected unseen-world continuation whose primary route selected
   the pursuit-aligned contact but whose successor carrier failed on an exact
   lifecycle literal before hidden consequence.
+- `OT-0089`: one promoted hidden-admitted continuation with harness-derived
+  liveness, alongside a clean rejection of its stronger pursuit-conditioned
+  target-selection prediction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

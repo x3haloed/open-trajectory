@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-derived-liveness",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 192108,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8927d0bf6f2c19b948c0b7eac04be7903d2fccd4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0089",
+  "input_manifests": [
+    "evidence/manifests/OT-0089/derived-liveness-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact sounding subject after one hidden-admitted coverage contact; continuation status is harness-derived and the actor-authored next opening is retained."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-derived-liveness",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1fad4c26c020dee5a366f8d9ae7561225ccf1d59098344bbfeab8d8fe1bd3a83"
+}
