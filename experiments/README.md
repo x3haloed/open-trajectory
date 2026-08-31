@@ -60,8 +60,9 @@ Selected program milestones:
   repository frontier and the inherited selector retained a hidden-tested
   composition; the post-seal selector control is limited by a cadence ABI gap.
 - [`OT-0086-behavior-discovered-policy.md`](OT-0086-behavior-discovered-policy.md)
-  — frozen cross-environment successor where complete code and observed policy
-  regret—not source stubs or a menu—must produce the actor-authored frontier.
+  — promoted cross-environment behavioral discovery: public regret in complete
+  code produced an actor-authored frontier, inherited selection, an
+  oracle-matching hidden-tested policy, and a passing post-seal signal ablation.
 
 The following selector-era index is preserved for historical navigation:
 

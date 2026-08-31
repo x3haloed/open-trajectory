@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-behavioral-discovery",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 184056,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4d29e39b73da416ed2404e3d6e327d6098d42b0d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0086",
+  "input_manifests": [
+    "evidence/manifests/OT-0086/behavioral-discovery-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after one consequence-grounded behavioral policy discovery; local implementation output still used task-closure language."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-behavioral-discovery",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "495cb6d7cc38489cac439c6064b8f7cb8459cbe00db9924d229d3bfd9cb12ff3"
+}

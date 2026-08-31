@@ -1,0 +1,33 @@
+{
+  "artifact_id": "behavioral-discovery-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15821,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4d29e39b73da416ed2404e3d6e327d6098d42b0d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0086",
+  "input_manifests": [
+    "evidence/manifests/OT-0086/promoted-behavioral-discovery-run.json"
+  ],
+  "kind": "behavioral-discovery-result",
+  "limitations": [
+    "One first-attempt operational transition and one post-seal signal ablation; no frequency or open-world generality claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:behavioral-discovery-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5465ff68d032bd80052d28be9f4935eeddfbdcc0eea2467e5a70c5d7651e008f"
+}

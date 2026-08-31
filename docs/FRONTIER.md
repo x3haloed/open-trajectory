@@ -106,6 +106,23 @@ observable outcome failures, and an actor-authored intervention frontier. This
 tests whether the subject can locate useful contact from consequence rather
 than merely enumerate unfinished functions.
 
+OT-0086 passed that test. From complete dispatch code and public outcome
+regret, a fresh actor authored three policy interventions; inherited selection
+chose expected-score composition; and a separate actor's patch reached the
+held-out oracle with no public regression. Reliability neutralization after
+sealing reduced the advantage to zero, supporting the frozen bounded causal
+interpretation.
+
+The exact subject is sounding and open, but the implementation actor locally
+reported `No further action required`. The harness's generic reopening carried
+the subject across the turn boundary. The next experiment should distinguish
+that operational rescue from subject-owned pursuit continuity: retain an
+admitted actor-authored next opening, expose it to a fresh successor in a new
+complete environment, and require it to causally constrain or prioritize the
+next useful contact before hidden consequence. A generic researcher-authored
+opening may remain as a safety fallback but cannot establish the stronger
+claim.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -116,6 +133,9 @@ than merely enumerate unfinished functions.
   surface, but the researcher still supplies and labels the candidate set.
 - One repository observation no longer supplies a candidate set, but its three
   incomplete functions made the latent frontier unusually conspicuous.
+- One complete-code behavioral policy was discovered and admitted without a
+  supplied candidate menu, but fixed continuation machinery—not an admitted
+  actor-authored pursuit—provided the next turn's opening.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

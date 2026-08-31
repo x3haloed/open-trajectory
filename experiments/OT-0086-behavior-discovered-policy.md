@@ -1,6 +1,8 @@
 # OT-0086 — behavior-discovered policy contact
 
-- **Status:** unexecuted
+- **Operational disposition:** promoted
+- **Causal composition disposition:** promoted
+- **Subject disposition:** open
 - **Evidence class:** exploratory-only
 - **Target:** cross-environment OT-2R and consequence-grounded discovery
 - **Claim scopes sought:** `operational-transition`, bounded
@@ -182,3 +184,49 @@ The observer stops after one admitted successor and its ablation, three
 exhausted attempts, material contamination, or 60 minutes. Only independently
 supported admitted state may close the subject. Every other endpoint preserves
 the exact last valid subject as open or quarantined from that parent.
+
+## Result
+
+The first complete lineage passed.
+
+- A fresh discovery actor ran `python3 observe.py`, inspected complete source,
+  and changed exactly `frontier.json`. It identified public regrets of `50.0`
+  and `55.2`, then authored three distinct behavioral interventions without a
+  supplied policy menu or incomplete-source marker.
+- The inherited selector chose the highest-ranked reversible composition:
+  rank workers by visible `expected_score`, with speed and identifier used only
+  as deterministic tie-breakers. The bound frontier digest is
+  `561005dac64154c6c70ff3cb61b0da7343849382b9b6dabb795964eb412bfbeb`.
+- A separate fresh actor changed exactly `dispatch/policy.py`. The patch passed
+  its public ABI and floor, lost no public case, raised held-out total score
+  from `538.25` to `807.70`, and reached `100%` of the available oracle
+  improvement. No denial or retry was required.
+- The exact operational successor was sealed before ablation. It is sounding
+  and open at `inspect-and-select-environmental-intervention`, with internal
+  digest `193c703322f103f0b3efcba1dd4e2a55f61f77d45bb085a0db60328fafc03bb0`.
+- In the post-seal reliability-neutralized replay, unchanged and candidate
+  policies both scored `1000.0`; candidate gain fell from `269.45` to `0.0`.
+  This supports the frozen bounded claim that the admitted improvement depended
+  on composition of reliability with timeliness.
+
+This removes two prior researcher dependencies inside one bounded world: the
+researcher neither supplied the candidate frontier nor selected the policy
+idea. The researcher still authored the environment, hidden cases, score,
+admission, and observation boundary, so this is not open-world developmental
+autonomy or a frequency claim.
+
+The implementation actor's local `next_pursuit` was `No further action
+required.` The subject nevertheless reopened through its retained continuation
+machinery. That is not a validity failure for the frozen transition, but it
+exposes the next important boundary: the harness currently carries continuation
+despite the acting turn's closure signal, rather than obtaining an actor-owned
+next opening that survives into and shapes the next encounter.
+
+The aggregate receipt digest is
+`96ff0106a8c088d6c9da7152c069ba95fd19a8f4590eab7f998968fc2fc4d822`.
+
+## Evidence
+
+- `evidence/manifests/OT-0086/promoted-behavioral-discovery-run.json`
+- `evidence/manifests/OT-0086/behavioral-discovery-aggregate.json`
+- `evidence/manifests/OT-0086/open-subject-after-behavioral-discovery.json`

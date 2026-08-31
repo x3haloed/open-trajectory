@@ -67,6 +67,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   unlisted repository frontier, the inherited selector chose composition, and
   a separate actor passed hidden consequence. Its selector-erased control is
   causally limited by a separate undisclosed cadence input shape.
+- `OT-0086` promotes one cross-environment behavior-discovered policy contact.
+  From complete code and live public regret, a fresh actor authored three
+  interventions, the inherited selector chose expected-score composition, and
+  a separate actor reached the held-out oracle without public regression. A
+  post-seal reliability-neutralization ablation reduced its gain to zero.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -134,6 +139,19 @@ The highest-leverage next work is not another conspicuous incomplete-function
 repository. It should test discovery from observed behavior in a qualitatively
 different environment whose code is already complete, so contact must arise
 from world consequence rather than `NotImplementedError` markers.
+
+OT-0086 passed that behavioral-discovery boundary on its first lineage. The
+exact subject retained the actor-authored frontier and admitted policy and
+reopened sounding. The post-seal ablation supports the frozen signal-composition
+interpretation. The implementation actor nevertheless emitted the local pursuit
+`No further action required`; fixed continuation machinery, not the actor's
+own retained opening, carried the subject onward.
+
+The next high-leverage boundary is pursuit continuity across the actor ending.
+Preserve the complete-world, broad-tool, bind-before-hidden-consequence regime,
+but require the admitted actor-authored next opening to be retained and
+causally shape a fresh successor's next contact. Do not count a harness-supplied
+generic reopening as evidence for this stronger claim.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
