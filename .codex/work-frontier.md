@@ -90,6 +90,9 @@ cadence input ABI was ambiguous, so no new clean selector-effect claim is added.
 Next move to a complete-code behavioral world where the actor must discover
 candidate contact from observed outcomes rather than unfinished source markers.
 
+OT-0086 freezes that move as a dispatch-policy world with public behavioral
+regret, hidden unchanged-policy comparison, and post-seal reliability ablation.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research
