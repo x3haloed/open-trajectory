@@ -8,6 +8,7 @@ datasets/
 artifacts/
 checkpoints/
 results/raw/
+tmp/
 
 # Secrets and machine-local configuration.
 .env

@@ -6,6 +6,11 @@ Raw evidence does not belong here.
 Copy `TEMPLATE.md` to `OT-NNNN-short-name.md` before running a serious
 experiment. Assign an ID once and never reuse it.
 
+An experiment may observe several fresh-actor transitions and may end while its
+exact subject remains open. Record observer and subject dispositions separately.
+Seal valid operational successors before controls; controls bound the stated
+causal claim rather than owning the lineage.
+
 Selected program milestones:
 
 - [`OT-0014-receipted-hosted-predictive-inheritance.md`](OT-0014-receipted-hosted-predictive-inheritance.md)

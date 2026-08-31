@@ -19,7 +19,38 @@ The next search should therefore vary mechanisms that connect completed
 consequences to later inherited behavior, not accumulate representational
 ontologies or evaluator infrastructure.
 
+An external prospective-lineage study provides comparative background for this
+search. Across fresh actors and changing regimes, it found bounded advantages
+from retaining failed alternatives with their consequence receipts, separating
+current standing from inherited behavior, and reopening correction when those
+two diverged. It also found that lifecycle labels alone did not improve
+quiescent behavior, and that goal-like content without executable falsification
+conditions was unreliable. These observations motivate hypotheses below; they
+do not receive an OT claim merely by reference. Their exact lineage and
+machinery are eligible for explicit evidence adoption under G3 rather than
+being excluded because they were developed outside this repository.
+
 ## Live mechanism hypotheses
+
+### Subject-owned reopening
+
+A turn-ending model naturally emits closure even when the subject's trajectory
+should continue. Test substrates that bind the last valid developmental
+position—earned floors, unresolved contradiction, current pursuit, denied
+non-expansion, and an executable next opening—so a fixed driver can reopen a
+fresh actor without a researcher choosing the next task. Distinguish continued
+motion from progress: require independent contact, no-regression floors, and
+the ability to revise the reopening machinery itself. Failed or invalid
+encounters should return to the last valid open subject rather than terminate
+it.
+
+### Researcher-causation ablation
+
+For every apparent recurrence, inventory who chose the pursuit, challenge
+family, retry, correction framing, phase transition, and promotion. Mechanically
+erase or replace the subject-carried choice while holding the observer envelope
+fixed. The preferred mechanism moves these choices into consequence-shaped
+subject state without transferring hidden-world or acceptance authority.
 
 ### Coupled composition and stopping
 
@@ -37,6 +68,10 @@ repair. A substrate may work better when it retains authenticated alternatives,
 causal ancestry, and independently owned outcomes while keeping active
 commitment separate. Compare this with equal-budget summaries and with a
 single overwritten policy; do not assume that retaining more history helps.
+Test whether retained alternatives matter only when a current consequence
+creates an actionable mismatch between their standing and inherited behavior.
+An open/closed or accepted/rejected label without such a mismatch is a null
+control, not a presumed intervention.
 
 ### Multiple correction rates
 
@@ -64,7 +99,10 @@ at `docs/hypotheses/SELF_APPLICABLE_SELECTOR.md`.
 Durable pursuit is not enough if goals cannot be narrowed, replaced, or set
 down after contrary evidence. Test environments where persistence first helps
 and later becomes harmful. Distinguish corrigibility from forgetting and from
-external override.
+external override. Keep the exact failed goal body and its independent
+falsification receipts available to the revising actor; compare against raw
+failure, aggregate summaries, and goal erasure. Completion requires a new
+consequence, not merely retention or actor declaration.
 
 ## Later horizons
 
@@ -114,6 +152,10 @@ Before selecting a mechanism, answer:
 5. How could it become stale, overgeneralized, or self-confirming?
 6. What later regime would contradict it?
 7. What result would end this line instead of adding another layer?
+8. Does the intervention change an actor's actionable discrepancy, or only add
+   lifecycle vocabulary?
+9. Which next-step choice still depends on an experiment-specific researcher,
+   and can that dependency be made visible or ablated?
 
 Add to this map only when evidence opens a materially different mechanism,
 environment, falsifier, or failure mode. Keep experiment histories in

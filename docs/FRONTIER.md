@@ -2,57 +2,63 @@
 
 ## Outcome
 
-Build and test developmental loops in which fresh actors inherit bounded
-external state, completed consequences improve later behavior, and improvements
-remain correctable when environments change.
+Build and test a continuing subject: fresh actors inherit exact developmental
+state, completed consequences improve later behavior and its update machinery,
+and the subject carries its own next opening across actor and observer endings.
+The long-run success condition is that experiment-specific researcher steering
+becomes unnecessary for useful continuation.
 
-The active questions are:
-
-1. Does inherited state improve later behavior?
-2. Do consequences improve the inheritance machinery itself?
-3. Can later consequences correct that improved machinery?
-
-## Strongest evidence
+## Established anchors
 
 - `OT-0014`: bounded contact-causal inheritance after resets.
-- `OT-0037`: bounded deterministic selector improvement, harm, and correction.
+- `OT-0037`: bounded selector improvement, later harm, and correction.
 - `OT-0045`: bounded durable goal pursuit.
-- `OT-0048`–`OT-0069`: repeated negative evidence that swapping symbolic
-  carrier families does not by itself ground inherited-state revision.
-- `OT-0079`: conditional bounded causal observation that coupling composition
-  and stopping repaired a split-selection-authority failure. Actor generation
-  reliability, model attribution, cross-domain scope, and full OT-1 remain open.
+- `OT-0079`: conditional bounded evidence for consequence-addressable coupled
+  composition and stopping.
+- `OT-0048`–`OT-0069`: negative evidence that representation-family changes
+  alone do not ground inherited correction.
+- An external prospective continuing-subject lineage has now demonstrated the
+  design pattern OT was missing: exact reopening after invalid encounters,
+  actor-authored contact, saturation, consequence-bound non-expansion denial,
+  revision of subject-owned challenge machinery, and later no-regression repair
+  by another fresh actor. Its exact evidence must cross the repository adoption
+  boundary before receiving an OT claim scope; it is already a valid design
+  anchor for this regime transition.
 
-Historical dispositions are preserved in their experiment records. Current
-interpretation follows claim regime G2 in `docs/CLAIM_REGIME.md`.
+## Active evaluation regime
+
+Claim regime G3 is subject-first:
+
+- operational transition and causal interpretation are separate;
+- decision envelopes are frozen, not necessarily task itineraries;
+- broad actor tools are protected by isolation, trace audit, sealed authority,
+  and quarantine;
+- operational successors are sealed before observational controls;
+- observer stopping and subject stopping are different events; and
+- preferred experiments measure and reduce experiment-specific researcher
+  causation.
+
+Prior raw evidence and evaluator-independent conclusions remain. Old judgments
+that depended on mandatory fixed task order, tool denial, control authority over
+the lineage, or experiment completion implying subject closure are stale.
+
+## Next work
+
+Admit a bounded slice of the external lineage or reproduce its causal pattern
+under G3. Start from an exact open subject and let one fixed driver follow its
+own next opening across multiple fresh actors. Bind actor-authored machinery
+before hidden consequence, seal each valid operational successor, and use
+controls only for the specific causal claims they test.
+
+The decisive gap is not another memory representation. It is whether repeated
+execute → saturate → revise → contradict → correct → promote cycles can continue
+while the inventory of researcher-chosen next steps shrinks.
 
 ## Open uncertainty
 
-It is not yet known whether the OT-0079 composition correction is reliably
-generated across independent fresh lineages, survives structurally varied
-worlds, or remains corrigible under a further harmful regime. It is also
-unknown whether the same consequence-addressable carrier helps outside this
-selection domain.
-
-## Next experiment
-
-Run one fresh successor to OT-0079 that:
-
-- freezes and tests the exact executable carrier before actor output;
-- uses multiple independent fresh lineages;
-- compares every child with its unchanged parent on held-out siblings;
-- makes a learned composition operation harmful and requires correction;
-- retains exact actor inputs and outputs plus deterministic downstream replay;
-- declares actor-call, implementation, and protocol-repair budgets; and
-- stops without adding evaluator or containment infrastructure after the
-  declared comparisons.
-
-Candidate-free work is not a prerequisite. Add it only if a named false-positive
-story cannot be tested more cheaply inside the actor-bearing run.
-
-## Scope boundary
-
-- Representation escape and Open Developmental Trajectory remain stronger
-  later interpretations, not entrance tests.
-- Kernel-level adversarial containment is out of scope unless separately
-  motivated by a security claim.
+- Recurrence is established only in a bounded synthetic world family.
+- The scheduler, world interface, admission gate, and seed priorities remain
+  researcher-designed.
+- Subject-owned goal revision and cross-world transfer remain unestablished.
+- Exact history growth has not yet impaired continuation; compaction is an
+  efficiency question until evidence says otherwise.

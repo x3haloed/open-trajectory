@@ -1,6 +1,6 @@
 # Research program
 
-Open Trajectory asks three empirical questions:
+Open Trajectory asks four empirical questions:
 
 1. Does inherited external state improve later behavior across complete context
    resets?
@@ -8,11 +8,14 @@ Open Trajectory asks three empirical questions:
    actors inherit or how they use it?
 3. When an improvement becomes harmful, can later consequences revise,
    replace, or set it down without destroying correction capacity?
+4. Can a subject carry its own developmental position and next opening across
+   actor endings until experiment-specific researcher intervention becomes
+   unnecessary for useful continuation?
 
 The longer Open Developmental Trajectory claim requires repeated positive
 answers across qualitatively different environments plus durable, corrigible
-commitments. It is an interpretation of accumulated evidence, not an entrance
-requirement for running useful mechanism experiments.
+commitments. The research program is scaffolding for discovering this
+condition, not the permanent purpose or executive of the resulting subject.
 
 ## Current evidence
 
@@ -45,34 +48,53 @@ authority.
 
 - Prefer actor-bearing mechanism experiments over candidate-free evaluator
   construction.
+- Prefer experiments that begin from the last valid open subject, follow its
+  own continuation state, and expose where the researcher is still causally
+  required. A researcher-assigned task sequence is a valid lower rung, not the
+  preferred developmental endpoint.
 - A candidate-free probe is warranted only when it is the cheapest way to
   distinguish a concrete false-positive causal story. Its implementation cost
   may not exceed the candidate it gates without an explicit project decision.
-- One causal hypothesis gets one `OT-NNNN` record. Protocol, implementation,
-  operational repair before meaningful actor output, execution, reconstruction,
-  and disposition are phases of that experiment, not automatic new IDs.
-- Declare encounter and repair budgets inside each experiment.
-- Freeze semantic authorities: actor-visible information, task order,
-  independently owned outcomes, parent/control comparison, score, ablation,
-  and stopping rule. Artifact hashes establish provenance but become acceptance
-  gates only when a mismatch could change the causal claim.
+- One causal hypothesis gets one `OT-NNNN` record. A record may observe several
+  subject transitions or stop while the subject remains open. Protocol,
+  implementation, operational repair before meaningful actor output,
+  execution, reconstruction, and disposition are phases of that experiment,
+  not automatic new IDs or subject boundaries.
+- Declare observer, actor-call, and repair budgets inside each experiment.
+  Budget exhaustion ends the observation, not an open subject.
+- Freeze semantic authorities: actor-visible information, world and outcome
+  ownership, mutation/admission envelope, parent/control comparison, score,
+  ablation, and observation stopping rule. Subject-authored task order and
+  contact are allowed when that freedom is inside the frozen envelope and bound
+  before hidden consequence.
 - Threat-model accidental experimental contamination by default. Kernel-hostile
   containment requires a separately motivated security claim.
+- Give capable actors ordinary tools inside isolated workspaces. Audit complete
+  tool traces and external effects; quarantine non-admitted effects rather than
+  making incapacity the default experimental condition.
 - Add a new carrier ontology only after observed evidence shows that the active
   carrier cannot express the required correction.
 - Keep causal validity, generative reproducibility, and actor provenance
-  separate under claim regime G2 (`docs/CLAIM_REGIME.md`).
+  separate from operational validity under claim regime G3
+  (`docs/CLAIM_REGIME.md`).
 
 ## Current frontier
 
-The next useful work is a fresh, bounded successor to OT-0079 with an
-unambiguous executable carrier and conformance fixtures frozen before actor
-output. It should test coupled composition and stopping across more than one
-independently generated lineage and include a later correction opportunity. It
-should remain small enough that the candidate mechanism, not evaluator
-infrastructure, dominates the implementation.
+The external prospective continuing-subject lineage is the design anchor for
+the next epoch. It has demonstrated fresh-actor reopening, exact operational
+continuity after invalid encounters, actor-authored contact machinery,
+saturation, consequence-bound non-expansion denial, revision of that machinery,
+and no-regression correction by a later fresh actor. This is comparative design
+evidence until its artifacts are admitted under the repository evidence
+contract; the program should make such a chain preferred rather than force it
+into a fixed-task evaluator shape.
 
-No candidate-free evaluator or complete longitudinal regime is a prerequisite.
+The next useful work is to admit a bounded slice of that lineage or reproduce
+its causal pattern under the subject-first regime. The observer should freeze
+an authority and admission envelope, then follow the subject's own openings.
+Controls test particular causal claims after the operational successor is
+sealed. No candidate-free evaluator or complete longitudinal regime is a
+prerequisite.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

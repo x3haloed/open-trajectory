@@ -10,8 +10,10 @@ to widen the search, not as evidence or as an implicit acceptance rule.
 
 ## Research discipline
 
-- Freeze a hypothesis, cheapest falsifier, controls, task order, scoring rule,
-  and promotion gate before unsealing candidate results.
+- Freeze a hypothesis, cheapest falsifier, relevant controls, decision envelope,
+  world derivation, scoring rule, observation stopping rule, and promotion gate
+  before unsealing candidate results. Subject-authored task order, contact, and
+  retries may remain open when they are inside the frozen envelope.
 - Keep plans and results distinct. Assign a stable `OT-NNNN` experiment record
   and never reuse an ID.
 - Preserve negative evidence, reversals, invalidated premises, denied authority
@@ -30,17 +32,29 @@ to widen the search, not as evidence or as an implicit acceptance rule.
 - Create a fresh actor thread and fresh workspace for every learning encounter.
   Cross-encounter continuity may pass only through the named candidate
   substrate and the exact projection recorded by the harness.
-- Keep actor, world, substrate, and evaluator authority separate. The actor may
-  propose substrate changes but may not alter sealed outcomes or final scores.
+- Keep actor, world, substrate, and evaluator authority separate. The subject
+  may own continuation state, pursuit selection, actor reopening, and proposed
+  substrate changes, but may not alter sealed outcomes, final scores, evidence,
+  or acceptance.
+- Give actors the declared tool condition, including ordinary broad tools when
+  intended. Protect authority with isolated workspaces, complete trace/effect
+  audit, sealed evaluator state, and quarantine—not artificial incapacity.
+- Seal a valid operational successor before observational controls. Controls
+  may establish or narrow a claim but may not mutate, delay, veto, or terminate
+  the sealed subject.
+- Record observer and subject dispositions separately. An ended turn, invalid
+  encounter, failed sibling, or exhausted observer budget does not close an
+  otherwise open subject.
 - A subject may inherit a fully functional, researcher-designed seed substrate
   implemented in this repository. Actor invention of the seed is not required
   for longitudinal continual adaptation. Keep fixed-machinery adaptation,
   consequence-driven machinery refinement, and open developmental expansion as
   separate claims.
-- Do not import an existing memory system as an OT-0 substrate or OT-1
-  selector. Invent and evaluate substrate and selector mechanisms inside this
-  repository; use prior systems as comparative background, not inherited
-  experimental machinery.
+- External developmental lineages and substrates may enter through an explicit
+  adoption boundary when their exact ancestry, actor artifacts, consequences,
+  authority, and reconstruction evidence satisfy the active claim regime. Do
+  not import an unexamined system or award it stronger claims merely because it
+  already exists.
 
 ## Privacy and storage discipline
 

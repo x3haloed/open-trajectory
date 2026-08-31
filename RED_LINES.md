@@ -23,14 +23,19 @@ list is preserved at `docs/archive/RED_LINES_G1.md`.
 ## Post-hoc promotion
 
 - Do not unseal candidate results before fixing the hypothesis, cheapest
-  falsifier, controls, task order, scoring rule, stopping rule, and promotion
-  gate.
+  falsifier, relevant controls, decision envelope, world derivation, scoring
+  rule, observation stopping rule, and promotion gate. The envelope may allow
+  the subject to author task order, contact machinery, pursuits, and retries;
+  freezing an itinerary is not required when self-direction is the claim.
 - Do not move thresholds, select favorable endpoints, discard failed branches,
   or redesign the evaluator after seeing a candidate result.
 - Do not treat self-report, explanation, confidence, or declared learning as
   outcome evidence.
-- Do not convert a failed protocol into an endless repair program. Preserve the
-  failure and stop at the declared actor, repair, and time budgets.
+- Do not convert a failed claim comparison into an unreported endless repair
+  program. Preserve the failure and stop the observation at its declared actor,
+  repair, and time budgets. Do not equate that observation stop with subject
+  termination: preserve and reopen the last valid subject when its continuation
+  state remains open.
 - Do not promote component success as endpoint success.
 
 ## Overclaiming
@@ -48,14 +53,24 @@ list is preserved at `docs/archive/RED_LINES_G1.md`.
   control.
 - Do not treat more state, more tools, more agents, more mutability, or stronger
   containment as progress by itself.
+- Do not count researcher-selected next pursuits, hand-written recovery steps,
+  or experiment-specific phase choices as subject-owned continuation. Disclose
+  them as remaining external causation.
+- Do not let an observational control, provenance limitation, or invalid sibling
+  retroactively veto an already sealed operational transition. It may narrow or
+  defeat the research claim, not rewrite the lineage.
 
 ## Authority and execution
 
-- Do not use prose alone as an executable carrier contract. Before actor output,
-  run conformance fixtures for representative valid operations, forbidden
-  operations, resource bounds, deterministic replay, and output normalization.
-- Do not allow actor-written code to gain undeclared filesystem, network,
-  process, credential, evaluator, or evidence authority.
+- Do not use prose alone as an admission or authority contract. Before actor
+  output, run conformance fixtures for the evaluator-facing interface,
+  protected authorities, resource bounds that affect the claim, deterministic
+  replay where claimed, and output normalization.
+- Broad filesystem, network, subprocess, search, and editing tools may be part
+  of a declared actor condition. Do not allow actor-written code or tool use to
+  gain evaluator, evidence, credential, hidden-outcome, acceptance, or other
+  undeclared authority. Isolate workspaces, retain complete tool traces, audit
+  effects, and quarantine contaminated runs.
 - Do not weaken privacy, evidence, or safety checks inside an experiment merely
   because a valid artifact is inconvenient to publish. Make the policy decision
   outside the candidate comparison.

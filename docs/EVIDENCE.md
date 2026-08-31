@@ -62,10 +62,11 @@ otherwise complete bounded causal observation. Deployment-epoch evidence is at
 most `private-reproducible`: it is time-bounded and cannot by itself support a
 public reconstruction recipe for the hosted deployment.
 
-## Longitudinal trajectory evidence
+## Continuing-subject evidence
 
-A longitudinal continual-adaptation claim requires an ordered causal record,
-not only an aggregate curve. For every scored encounter, raw evidence must bind:
+A longitudinal continual-adaptation or recurrent-operation claim requires an
+ordered causal record, not only an aggregate curve. For every scored encounter,
+raw evidence must bind:
 
 - the prediction or action recorded before the outcome;
 - the independently owned outcome and score receipt;
@@ -76,6 +77,12 @@ not only an aggregate curve. For every scored encounter, raw evidence must bind:
   next fresh actor; for the terminal encounter, a terminal projection receipt
   or explicit final audit-consumer receipt; and
 - the frozen regime, task, encounter, and evaluator identities.
+
+When the subject authors the next contact, pursuit, task order, machinery, or
+retry, also bind the pre-consequence proposal, the authority envelope that
+permitted it, and the scheduler decision that opened the next actor. When the
+observer supplies one of those choices, mark it as external causation rather
+than subject development.
 
 The reconstruction path must begin from the initial inherited substrate and
 replay the ordered receipts to recover every later substrate identity and
@@ -99,13 +106,22 @@ has exactly one allowed derivation attempt unless the pre-implementation
 protocol fixed a different deterministic collision rule.
 
 For each reset boundary, raw evidence also binds an opaque fresh-process
-instance identity, the exact empty workspace before and after consumption, an
-allowlisted environment fingerprint, absence of response chaining, and the
-result of prospectively planted forbidden-channel sentinels. The consumer call
-graph must exclude undeclared filesystem, network, tool, subprocess, task-
-loader, and controller-cache continuity. Rewind/replay evidence binds the
-checkpoint, byte-exact same-suffix reconstruction, isolated alternate branch,
-inactive sibling, and rejection of a projection substituted across branches.
+instance identity, the exact fresh workspace before consumption, an allowlisted
+environment fingerprint, absence of response chaining, and the result of
+prospectively planted forbidden-channel sentinels. Declared filesystem,
+network, tool, and subprocess use is allowed. The audit must instead establish
+that no undeclared continuity or actor-controlled path reached hidden outcomes,
+evaluator state, evidence authority, credentials, acceptance, or sibling
+workspaces. Rewind/replay evidence binds the checkpoint, byte-exact same-suffix
+reconstruction, isolated alternate branch, inactive sibling, and rejection of
+a projection substituted across branches.
+
+Every observation endpoint binds both an **observer disposition** and a
+**subject disposition**. If the observer stops while the subject is open, retain
+the exact successor projection and next opening. If an encounter is invalid,
+retain its trace and bind the reopening parent. Exact cold history may grow;
+compaction is an efficiency question unless growth itself prevents reliable
+continuation.
 
 A candidate-free evaluator checkpoint must label its controller references as
 surrogates. Their prediction and update call graphs may consume only the current
@@ -123,7 +139,10 @@ and matched encounter evidence for both branches, and any rollback or
 replacement lineage. The proposal and frozen commit rule predate validation.
 If validation selects among alternatives, a disjoint confirmation window must
 evaluate the selected child. Evidence used to author, tune, or select a change
-cannot establish its claimed future benefit.
+cannot establish its claimed future benefit. After one causal effect is
+established, later operational recurrence may cite it as an anchor rather than
+rerun controls after every valid transition; it must not claim a new causal
+effect without a new appropriate comparison.
 
 ## Public manifest
 

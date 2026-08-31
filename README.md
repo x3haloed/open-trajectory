@@ -1,13 +1,21 @@
 # Open Trajectory
 
-Open Trajectory is an empirical research program for developmental loops across
-fresh agent contexts.
+Open Trajectory is an empirical research program for continuing subjects across
+fresh agent contexts and model-turn endings.
 
-It asks three questions:
+It asks four questions:
 
 1. Does inherited external state improve later behavior?
 2. Do completed consequences improve how inheritance itself works?
 3. Can later consequences correct those improvements when they become harmful?
+4. Can the subject itself carry what matters next until the research program is
+   an observer rather than the cause of continuation?
+
+The preferred experiment starts from the last valid open subject, gives fresh
+actors the declared real tool condition, binds actor-authored contact before
+independent consequence, and follows the subject's own next opening. Controls
+bound causal claims after an operational successor is sealed; they do not own
+or terminate the lineage.
 
 The repository favors small actor-bearing causal experiments over evaluator and
 containment infrastructure. Stronger claims require stronger evidence, but the
@@ -29,7 +37,7 @@ changing expression, predicate, transducer, topology, or partition
 representations did not reliably solve grounded inherited-state revision.
 
 See [the current frontier](docs/FRONTIER.md), [the research program](PROGRAM.md),
-and [claim regime G2](docs/CLAIM_REGIME.md). The former cumulative ledger is
+and [claim regime G3](docs/CLAIM_REGIME.md). The former cumulative ledger is
 archived at [docs/archive/PROGRAM_G1.md](docs/archive/PROGRAM_G1.md).
 
 ## Repository authority
