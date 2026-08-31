@@ -68,12 +68,27 @@ the exact post-saturation subject and repeat the same routing comparison with a
 fully populated, machine-readable route template; no portfolio, selector,
 world, score, or admission change is warranted.
 
+OT-0083 made that sole interface correction and passed. The inherited selector
+routed the same bound assessment to a novel composition that passed hidden
+world tests; the selector-erased replay chose a world-valid held repetition
+that developmental admission denied. The exact subject is now open with the
+new joint capability.
+
+The next dependency is environmental enumeration. Replace the hand-curated
+three-item portfolio with a bounded environment the subject can inspect to
+discover or formulate its own candidate contact. Preserve bind-before-outcome,
+independent hidden consequence, isolated broad tools, and post-seal controls.
+Do not confuse free-form proposal with progress: the selected intervention must
+still expand held capability and survive no-regression admission.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
   family; frequency and denial/retry reliability remain unknown.
 - The scheduler, world interface, admission gate, and seed priorities remain
   researcher-designed.
+- One bounded portfolio no longer requires the researcher to choose its
+  surface, but the researcher still supplies and labels the candidate set.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

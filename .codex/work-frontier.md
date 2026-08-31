@@ -58,6 +58,16 @@ sounding and open at `inspect-and-select-environmental-intervention`. OT-0083
 should preserve the portfolio and comparison while exposing the complete route
 shape in the workspace.
 
+OT-0083 passed that correction. The active parent is
+`8ba78ade10b5f19f56a079c0de195a83c1309506e852ddff76659d284ec83896`,
+sounding and open at `inspect-and-select-environmental-intervention`, with the
+route/score composition retained as an executable environmental capability.
+The post-seal selector ablation chose a held repetition and was denied.
+
+Next expose environmental enumeration: let the subject inspect a bounded but
+uncurated environment and formulate the candidate contact itself, while the
+world and admission authority remain independent.
+
 ## Prediction errors
 
 - OT's fixed-task, stop-at-budget workflow was not neutral: it made the research

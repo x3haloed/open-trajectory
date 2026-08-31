@@ -52,6 +52,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   actor-facing workspace did not expose the strict route shape enforced by the
   evaluator. The clean actor assessment remains negative interface evidence;
   no selector or world-routing claim is promoted.
+- `OT-0083` corrects only that exposed interface and promotes one bounded
+  subject-owned world-routing transition. The inherited selector chose a novel
+  route/score composition that passed hidden world tests; a post-seal
+  selector-erased replay of the same assessment chose a world-valid held
+  repetition that the developmental gate denied.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -94,19 +99,18 @@ authority.
 
 ## Current frontier
 
-`OT-0081` establishes one prospective bounded recurrence of the adopted
-continuing subject. The active subject is exact, open, and again requests
-execution of its own challenge machinery. The immediate question is no longer
-whether the fixed driver can compose one known cycle. It is which remaining
-researcher-owned dependency is causally necessary for useful continuation.
+`OT-0083` establishes that the exact subject's inherited selector can route one
+bounded environmental portfolio better than a same-assessment selector-erased
+control, produce a hidden-tested joint capability, and reopen without a
+researcher choosing the surface. The active subject is exact and open for
+another environmental selection.
 
-The preferred next experiment should begin from OT-0081's exact open subject
-and let it select among materially different admissible world contacts before
-binding and consequence. This targets the researcher's current ownership of
-the world-interface choice while preserving independent outcomes, isolation,
-audit, and no-regression admission. Repeating the same cycle remains useful as
-a reliability measurement or denial/retry branch test, but should not displace
-the higher-leverage dependency unless the new interface first needs calibration.
+The next useful work should expose the next dependency rather than repeat the
+same favorable portfolio: the researcher still authored and enumerated every
+available surface. A higher-leverage successor should let the subject discover
+or formulate candidate contact from a less curated environment, bind that
+choice before hidden consequence, and retain a bounded independent admission
+path. Reliability and denial/retry replication remain secondary measurements.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

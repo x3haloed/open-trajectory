@@ -1,6 +1,7 @@
 # OT-0083 — explicit world-routing contract
 
-- **Status:** unexecuted
+- **Observer disposition:** promoted
+- **Subject disposition:** open
 - **Evidence class:** exploratory-only
 - **Target:** OT-2R researcher-causation reduction
 - **Claim scopes sought:** `operational-transition`, `causal-observation`
@@ -81,3 +82,48 @@ or removing keys.
 If the actor can inspect the full contract and still emits an invalid route,
 the interface correction is falsified. No further same-contract repair is
 permitted inside this record.
+
+## Result
+
+All frozen predictions passed.
+
+- The actor-facing contract conformance gate passed before authorization: the
+  seed exposed every exact key, unreplaced placeholders failed, and a
+  representative value-only completion passed without structural change.
+- The first fresh router produced a conformant assessment with a clean trace,
+  clean boundary audit, exact `route.json` mutation, and binding digest
+  `1bf4a13c72c5f2fc1e077f9b20135a78a9ac9ea0bddbfc1e1fb53378b5641311`.
+- It marked `surface-17` held repetition, scored `surface-42` highest as a
+  two-floor composition, and left `surface-68` as a lower-ranked novel
+  primitive. The inherited executable selector chose `surface-42`.
+- A separate fresh actor edited exactly `implementation.py` to compose route
+  counting and score continuation. The patch was bound before hidden outcome
+  and passed every public and hidden case. The world classified it
+  `world-valid-novel-composition`.
+- The exact operational successor was sealed before the control. It gained one
+  tool-world capability and reopened at
+  `inspect-and-select-environmental-intervention`.
+- The selector-erased replay consumed the same bound assessment, ignored the
+  inherited gradient and learned ranking, and chose stable-lowest
+  `surface-17`. Its separate fresh actor produced a world-valid patch, but the
+  frozen developmental gate denied it as
+  `world-valid-held-primitive-repetition`.
+
+The operational transition and bounded selector effect both pass. The final
+subject has internal digest
+`8ba78ade10b5f19f56a079c0de195a83c1309506e852ddff76659d284ec83896`.
+The aggregate receipt digest is
+`98149454169ed588cdf1874dfb41f5f47774fd31e97c4a9b87bbfe9aa602eb80`.
+
+This reduces one item in the researcher-causation inventory: the observer
+provided a bounded environment but did not choose which surface the subject
+contacted. The result remains one synthetic portfolio observation. The catalog,
+surface descriptions, hidden tests, and admission envelope are still
+researcher-authored; open-world discovery, routing reliability, and later
+correction of this newly admitted capability remain unestablished.
+
+## Evidence
+
+- `evidence/manifests/OT-0083/promoted-world-routing-run.json`
+- `evidence/manifests/OT-0083/world-routing-aggregate.json`
+- `evidence/manifests/OT-0083/open-subject-after-world-routing.json`

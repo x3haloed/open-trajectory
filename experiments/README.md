@@ -48,9 +48,9 @@ Selected program milestones:
   semantically useful assessment did not match a hidden strict file shape; no
   route was bound, and the exact subject remains open at environmental routing.
 - [`OT-0083-explicit-world-routing-contract.md`](OT-0083-explicit-world-routing-contract.md)
-  — frozen same-world successor that changes only the failed actor-facing
-  serialization boundary: a complete machine-readable route template replaces
-  OT-0082's empty shell.
+  — promoted bounded subject-owned world routing: the inherited selector chose
+  a hidden-tested novel composition, while a post-seal selector-erased replay
+  chose a world-valid but developmentally denied held repetition.
 
 The following selector-era index is preserved for historical navigation:
 

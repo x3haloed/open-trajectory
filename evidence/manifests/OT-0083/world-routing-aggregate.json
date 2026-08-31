@@ -1,0 +1,33 @@
+{
+  "artifact_id": "world-routing-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13748,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "365b847f07305cc7db3920408783c03bb10cfb8b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0083",
+  "input_manifests": [
+    "evidence/manifests/OT-0083/promoted-world-routing-run.json"
+  ],
+  "kind": "routing-result",
+  "limitations": [
+    "Supports one bounded operational transition and same-assessment selector ablation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:world-routing-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bc57f6043e50988976ebbb9a91c83e86e509b6afb872a98f89825a6fa7a13e7c"
+}
