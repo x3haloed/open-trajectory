@@ -532,12 +532,87 @@ def promote(prior82, intermediate: dict[str, Any], opening_run: dict[str, Any], 
     return prior82.seal(child), receipt
 
 
+def finish_observation(prior82, runtime, context, run: Path, parent: dict[str, Any], fixtures: dict[str, Any],
+                       opening_run: dict[str, Any], intermediate: dict[str, Any] | None,
+                       successor: dict[str, Any] | None, current: dict[str, Any], promoted: dict[str, Any] | None,
+                       started: float, operational_deviation: dict[str, Any] | None = None) -> int:
+    operational_passed = bool(promoted and runtime.identity_conforms(current) and current["runtime"] == "sounding" and
+        current["continuation"]["status"] == "open" and successor and successor["binding"] and
+        current["continuation"]["next_opening"] == successor["binding"]["successor_opening"]["next_opening"] and
+        current["continuation"]["next_opening"] != "inspect-and-select-environmental-intervention" and
+        len(current["tool_world_capabilities"]) == len(parent["tool_world_capabilities"]) + 1)
+    control = None
+    carrier_effect = False
+    if operational_passed:
+        (run / "sealed-operational-subject.json").write_text(json.dumps(current, indent=2, sort_keys=True) + "\n")
+        control_run = run_opening(prior82, context, run, "opening-erased-control", parent)
+        primary_digest = opening_run["binding"]["binding_digest"]
+        control_digest = control_run["binding"]["binding_digest"] if control_run["binding"] else None
+        control = {"authority": "ot-0087-post-seal-opening-erased-control", "source_subject_digest": parent["artifact_digest"],
+                   "primary_opening_binding_digest": primary_digest, "primary_opening_absent": True,
+                   "control_originated_new_opening": bool(control_run["binding"]), "control_opening_binding_digest": control_digest,
+                   "control": prior82.compact(control_run), "policy_edit_authorized": False}
+        carrier_effect = bool(control_run["audit"]["conformant"] and control_digest != primary_digest and not any(path in TARGETS for path in control_run["audit"]["changed_paths"]))
+    observer = "promoted" if operational_passed and carrier_effect else "conditional" if operational_passed else "rejected"
+    result = {"authority": "ot-0087-fixed-actor-originated-opening-handoff-driver", "source_subject_digest": parent["artifact_digest"],
+              "prior_implementation_sha256": PRIOR_SHA256, "fixture_conformance": fixtures,
+              "operational_deviation": operational_deviation, "opening": prior82.compact(opening_run),
+              "intermediate_subject_digest": intermediate["artifact_digest"] if intermediate else None,
+              "successor": prior82.compact(successor) if successor else None, "promotion_receipt": promoted,
+              "operational_transition_passed": operational_passed, "carrier_effect_passed": carrier_effect, "control": control,
+              "observer_disposition": observer, "subject_disposition": "open" if current["continuation"]["status"] == "open" else "lost",
+              "final_subject_digest": current["artifact_digest"], "next_opening": current["continuation"]["next_opening"],
+              "elapsed_seconds": round(time.time() - started, 3)}
+    result["receipt_digest"] = prior82.digest(result)
+    (run / "aggregate.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
+    (run / "final-full-subject.json").write_text(json.dumps(current, indent=2, sort_keys=True) + "\n")
+    print(json.dumps(result, indent=2, sort_keys=True))
+    return 0 if operational_passed else 2
+
+
+def resume_after_schema_rejection(prior82, runtime, repo: Path, run: Path, parent: dict[str, Any]) -> int:
+    failure_events = run / "successor-primary/events.jsonl"
+    failure_output = run / "successor-primary/actor-workspace/output.json"
+    if not failure_events.is_file() or "invalid_json_schema" not in failure_events.read_text() or "uniqueItems" not in failure_events.read_text() or failure_output.exists():
+        raise SystemExit("resume requires the retained pre-generation unsupported-schema rejection")
+    if (run / "aggregate.json").exists() or (run / "successor-primary-schema-repair").exists():
+        raise SystemExit("preserve existing OT-0087 repair evidence")
+    opening_run = {"label": "opening-primary",
+                   "output": json.loads((run / "opening-primary/output.json").read_text()),
+                   "audit": json.loads((run / "opening-primary/actor-audit.json").read_text()),
+                   "binding": json.loads((run / "opening-primary/bound-opening.json").read_text())}
+    intermediate = json.loads((run / "sealed-intermediate-pursuit.json").read_text())
+    expected_intermediate = bind_intermediate(prior82, parent, opening_run)
+    if intermediate["artifact_digest"] != expected_intermediate["artifact_digest"] or not runtime.identity_conforms(intermediate):
+        raise SystemExit("retained intermediate pursuit identity changed")
+    with __import__("tempfile").TemporaryDirectory() as directory:
+        fixtures = fixture_conformance(prior82, Path(directory))
+    if not fixtures["passed"]:
+        raise SystemExit("schema-repair preflight failed")
+    deviation_body = {"authority": "ot-0087-operational-schema-repair", "classification": "immaterial-pre-generation-request-rejection",
+                      "failed_trace": "successor-primary/events.jsonl", "error_code": "invalid_json_schema",
+                      "unsupported_keyword_removed": "uniqueItems", "actor_generation_began": False,
+                      "actor_information_changed": False, "mutation_authority_changed": False,
+                      "justification": "Exact changed-path audit still requires the selected target and successor-opening.json; duplicate output paths cannot satisfy it."}
+    deviation = {**deviation_body, "receipt_digest": prior82.digest(deviation_body)}
+    (run / "operational-deviation.json").write_text(json.dumps(deviation, indent=2, sort_keys=True) + "\n")
+    context = runtime.Context(run, repo)
+    started = time.time()
+    successor = run_successor(prior82, context, run, "successor-primary-schema-repair", intermediate, opening_run)
+    current, promoted = parent, None
+    if successor["audit"]["conformant"] and successor["binding"] and successor["world"]["developmentally_admitted"]:
+        current, promoted = promote(prior82, intermediate, opening_run, successor)
+    return finish_observation(prior82, runtime, context, run, parent, fixtures, opening_run, intermediate,
+                              successor, current, promoted, started, deviation)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo", type=Path, default=REPO)
     parser.add_argument("--store", type=Path)
     parser.add_argument("--evidence-root", type=Path)
     parser.add_argument("--preflight-only", action="store_true")
+    parser.add_argument("--resume-successor-after-schema-rejection", action="store_true")
     args = parser.parse_args()
     repo = args.repo.resolve()
     store = (args.store or repo / ".evidence").resolve()
@@ -558,6 +633,8 @@ def main() -> int:
                   "fixture_conformance": fixtures}
         print(json.dumps(result, indent=2, sort_keys=True))
         return 0 if fixtures["passed"] else 2
+    if args.resume_successor_after_schema_rejection:
+        return resume_after_schema_rejection(prior82, runtime, repo, run, parent)
     if run.exists():
         raise SystemExit("preserve existing OT-0087 evidence")
     run.mkdir(parents=True)
@@ -578,37 +655,8 @@ def main() -> int:
         successor = run_successor(prior82, context, run, "successor-primary", intermediate, opening_run)
         if successor["audit"]["conformant"] and successor["binding"] and successor["world"]["developmentally_admitted"]:
             current, promoted = promote(prior82, intermediate, opening_run, successor)
-    operational_passed = bool(promoted and runtime.identity_conforms(current) and current["runtime"] == "sounding" and
-        current["continuation"]["status"] == "open" and successor and
-        current["continuation"]["next_opening"] == successor["binding"]["successor_opening"]["next_opening"] and
-        current["continuation"]["next_opening"] != "inspect-and-select-environmental-intervention" and
-        len(current["tool_world_capabilities"]) == len(parent["tool_world_capabilities"]) + 1)
-    control = None
-    carrier_effect = False
-    if operational_passed:
-        (run / "sealed-operational-subject.json").write_text(json.dumps(current, indent=2, sort_keys=True) + "\n")
-        control_run = run_opening(prior82, context, run, "opening-erased-control", parent)
-        primary_digest = opening_run["binding"]["binding_digest"]
-        control_digest = control_run["binding"]["binding_digest"] if control_run["binding"] else None
-        control = {"authority": "ot-0087-post-seal-opening-erased-control", "source_subject_digest": parent["artifact_digest"],
-                   "primary_opening_binding_digest": primary_digest, "primary_opening_absent": True,
-                   "control_originated_new_opening": bool(control_run["binding"]), "control_opening_binding_digest": control_digest,
-                   "control": prior82.compact(control_run), "policy_edit_authorized": False}
-        carrier_effect = bool(control_run["audit"]["conformant"] and control_digest != primary_digest and not any(path in TARGETS for path in control_run["audit"]["changed_paths"]))
-    observer = "promoted" if operational_passed and carrier_effect else "conditional" if operational_passed else "rejected"
-    result = {"authority": "ot-0087-fixed-actor-originated-opening-handoff-driver", "source_subject_digest": parent["artifact_digest"],
-              "prior_implementation_sha256": PRIOR_SHA256, "fixture_conformance": fixtures,
-              "opening": prior82.compact(opening_run), "intermediate_subject_digest": intermediate["artifact_digest"] if intermediate else None,
-              "successor": prior82.compact(successor) if successor else None, "promotion_receipt": promoted,
-              "operational_transition_passed": operational_passed, "carrier_effect_passed": carrier_effect, "control": control,
-              "observer_disposition": observer, "subject_disposition": "open" if current["continuation"]["status"] == "open" else "lost",
-              "final_subject_digest": current["artifact_digest"], "next_opening": current["continuation"]["next_opening"],
-              "elapsed_seconds": round(time.time() - started, 3)}
-    result["receipt_digest"] = prior82.digest(result)
-    (run / "aggregate.json").write_text(json.dumps(result, indent=2, sort_keys=True) + "\n")
-    (run / "final-full-subject.json").write_text(json.dumps(current, indent=2, sort_keys=True) + "\n")
-    print(json.dumps(result, indent=2, sort_keys=True))
-    return 0 if operational_passed else 2
+    return finish_observation(prior82, runtime, context, run, parent, fixtures, opening_run, intermediate,
+                              successor, current, promoted, started)
 
 
 if __name__ == "__main__":

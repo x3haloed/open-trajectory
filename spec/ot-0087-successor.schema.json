@@ -17,8 +17,7 @@
         ]
       },
       "minItems": 2,
-      "maxItems": 2,
-      "uniqueItems": true
+      "maxItems": 2
     },
     "next_pursuit": {"type": "string", "minLength": 1}
   }

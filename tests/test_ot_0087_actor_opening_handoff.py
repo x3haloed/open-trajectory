@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -54,6 +55,13 @@ class OT0087Tests(unittest.TestCase):
         self.assertEqual(parent["artifact_digest"], module.PARENT_DIGEST)
         self.assertEqual(parent["active_pursuit"]["next_pursuit"], "No further action required.")
         self.assertEqual(parent["continuation"]["next_opening"], "inspect-and-select-environmental-intervention")
+
+    def test_successor_schema_uses_supported_exact_audit_subset(self):
+        schema = json.loads((ROOT / "spec/ot-0087-successor.schema.json").read_text())
+        files = schema["properties"]["files_changed"]
+        self.assertNotIn("uniqueItems", files)
+        self.assertEqual(files["minItems"], 2)
+        self.assertEqual(files["maxItems"], 2)
 
 
 if __name__ == "__main__":
