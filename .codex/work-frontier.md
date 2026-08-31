@@ -35,10 +35,16 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-OT-0080 adopts the exact E128 subject and E120–E128 claim-relevant ancestry.
-The active parent is open at `execute-subject-owned-challenge-machinery`.
-OT-0081 prospectively tests whether one fixed driver can carry that subject
-through the next complete challenge-machinery recurrence.
+OT-0081 prospectively carried the exact adopted subject through another full
+cycle under one fixed driver. The active parent has internal digest
+`c55166a1805e3ef96f059832d7199f39e53a778bad301a600d2df1c8927ec128`,
+challenge machinery version 3, executable version 5, and is open at
+`execute-subject-owned-challenge-machinery`.
+
+The next high-leverage test should let this subject select among materially
+different admissible world contacts, reducing researcher ownership of the
+world-interface choice while retaining bind-before-consequence and independent
+admission.
 
 ## Prediction errors
 

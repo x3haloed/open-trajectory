@@ -1,0 +1,35 @@
+{
+  "artifact_id": "recurrence-run-bundle",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 502784,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b692289940a20f0ce369711a23e1a490f0567141",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0081",
+  "input_manifests": [
+    "evidence/manifests/OT-0080/e128-open-subject.json"
+  ],
+  "kind": "actor-subject-recurrence",
+  "limitations": [
+    "Includes the preserved pre-contact invalid-schema invocation and the complete repaired run.",
+    "Hosted actors lack immutable model revision and deployment-epoch receipts.",
+    "Supports one bounded recurrent-operation observation in one synthetic world family; no generation-frequency or cross-world claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:recurrence-run-bundle",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0568c84a7a4579cc9add6f20b401528ba604c7f86738f18f4e805566fe5f8402"
+}

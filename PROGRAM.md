@@ -42,6 +42,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   lineage by content identity. It establishes that OT can verify and reopen the
   exact subject and retains the lineage's bounded causal observations. It does
   not turn the researcher-stepped chain into OT-2R recurrence.
+- `OT-0081` prospectively carries that exact subject through another complete
+  saturation, actor-authored challenge revision, hidden contradiction,
+  fresh-actor correction, cumulative promotion, and exact reopening with one
+  fixed driver. Together with OT-0080's retained controls, this is bounded
+  `recurrent-operation` evidence in one synthetic world family.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -84,20 +89,19 @@ authority.
 
 ## Current frontier
 
-`OT-0080` makes the external prospective continuing-subject lineage the adopted
-design anchor for the next epoch. It has demonstrated fresh-actor reopening, exact operational
-continuity after invalid encounters, actor-authored contact machinery,
-saturation, consequence-bound non-expansion denial, revision of that machinery,
-and no-regression correction by a later fresh actor. This is comparative design
-evidence under the G3 repository contract; the program should make such a chain
-preferred rather than force it into a fixed-task evaluator shape.
+`OT-0081` establishes one prospective bounded recurrence of the adopted
+continuing subject. The active subject is exact, open, and again requests
+execution of its own challenge machinery. The immediate question is no longer
+whether the fixed driver can compose one known cycle. It is which remaining
+researcher-owned dependency is causally necessary for useful continuation.
 
-The next useful work begins from OT-0080's exact open subject and prospectively
-repeats its causal pattern under the subject-first regime. The observer should freeze
-an authority and admission envelope, then follow the subject's own openings.
-Controls test particular causal claims after the operational successor is
-sealed. No candidate-free evaluator or complete longitudinal regime is a
-prerequisite.
+The preferred next experiment should begin from OT-0081's exact open subject
+and let it select among materially different admissible world contacts before
+binding and consequence. This targets the researcher's current ownership of
+the world-interface choice while preserving independent outcomes, isolation,
+audit, and no-regression admission. Repeating the same cycle remains useful as
+a reliability measurement or denial/retry branch test, but should not displace
+the higher-leverage dependency unless the new interface first needs calibration.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

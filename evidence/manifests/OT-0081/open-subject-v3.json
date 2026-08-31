@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-v3",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 174727,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b692289940a20f0ce369711a23e1a490f0567141",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0081",
+  "input_manifests": [
+    "evidence/manifests/OT-0081/recurrent-operation-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after one prospectively observed recurrence in the retained synthetic world family."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-v3",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a62944f0d144dcf582910e088f92f86b7d6f151738fc13fd9f882caff0c5de2d"
+}

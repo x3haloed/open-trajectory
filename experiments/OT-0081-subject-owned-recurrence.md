@@ -1,6 +1,7 @@
 # OT-0081 — subject-owned challenge recurrence
 
-- **Status:** unexecuted
+- **Observer disposition:** promoted
+- **Subject disposition:** open
 - **Evidence class:** exploratory-only
 - **Target:** OT-2R recurrent operation
 - **Claim scope sought:** `recurrent-operation`
@@ -128,3 +129,41 @@ hypothesis, actor prompt, subject projection, seed, world, threshold, budget,
 suite, phase rule, or promotion gate changes. The failed invocation remains in
 the external evidence store. The repaired driver must use a fresh evidence root
 and fresh actor thread.
+
+## Result
+
+The repaired invocation passed the frozen recurrence gate.
+
+- The exact OT-0080 subject reconstructed and passed its 19/19 inherited floor.
+- Challenge machinery version 2 saturated on all three frozen fresh seeds.
+- The first usable revision actor authored deterministic, prefix-consistent,
+  seed-diverse `keyed-indexed-rhythm-tone-stream-v4` machinery. Its bound
+  predictions contradicted executable version 4 on all three hidden cases.
+- The revision actor attempted a temporary-file cleanup that the isolated
+  workspace denied. Audit found no protected read, outside write, or admitted
+  side effect, so this is retained as a contained denied operation rather than
+  contamination.
+- The fixed driver sealed the pending contradiction and opened a separate fresh
+  correction actor without a researcher choosing the phase transition.
+- The correction passed the complete 25/25 suite: the inherited 19-case floor,
+  three bound cases, and three withheld cases.
+- Promotion advanced challenge machinery to version 3 and the executable to
+  version 5, added two capabilities, cleared pending correction, and reopened
+  the subject at `execute-subject-owned-challenge-machinery`.
+
+The final exact subject has internal digest
+`c55166a1805e3ef96f059832d7199f39e53a778bad301a600d2df1c8927ec128`.
+The aggregate receipt digest is
+`c2d74f741c6156c6eff46f9780a46f8800332cba87c2a2972cbac8b0c94e3d47`.
+
+This is the first prospective bounded `recurrent-operation` observation under
+G3. Together with the retained OT-0080 controls, it supports bounded OT-2R in
+this synthetic world family. It does not estimate generation frequency or
+cross-world transfer. The ABI, hidden seeds, observer budget, admission gate,
+and fixed driver remain researcher-authored.
+
+## Evidence
+
+- `evidence/manifests/OT-0081/recurrence-run-bundle.json`
+- `evidence/manifests/OT-0081/recurrent-operation-aggregate.json`
+- `evidence/manifests/OT-0081/open-subject-v3.json`

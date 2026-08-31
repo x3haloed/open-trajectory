@@ -37,6 +37,12 @@ Selected program milestones:
 - [`OT-0080-continuing-subject-adoption.md`](OT-0080-continuing-subject-adoption.md)
   — post-hoc G3 adoption of the external E120–E128 causal lineage and its exact
   open subject; bounded OT-1C/OT-2 evidence with no OT-2R promotion.
+- [`OT-0081-subject-owned-recurrence.md`](OT-0081-subject-owned-recurrence.md)
+  — first prospective bounded recurrent-operation result under G3: one fixed
+  driver carried the exact open subject through saturation, actor-authored
+  challenge revision, hidden contradiction, separate fresh-actor correction,
+  cumulative promotion, and exact reopening without in-flight researcher phase
+  selection.
 
 The following selector-era index is preserved for historical navigation:
 

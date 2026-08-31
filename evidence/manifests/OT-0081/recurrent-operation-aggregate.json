@@ -1,0 +1,33 @@
+{
+  "artifact_id": "recurrent-operation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 14867,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b692289940a20f0ce369711a23e1a490f0567141",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0081",
+  "input_manifests": [
+    "evidence/manifests/OT-0081/recurrence-run-bundle.json"
+  ],
+  "kind": "recurrence-result",
+  "limitations": [
+    "One fixed-driver operational recurrence; prior OT-0080 controls anchor causal denial and correction effects."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:recurrent-operation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ac17c957ce92c9c22936f7c5c1b75f2115b874ecd29773060237534626da72f6"
+}

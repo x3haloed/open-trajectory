@@ -24,6 +24,11 @@ becomes unnecessary for useful continuation.
   revision of subject-owned challenge machinery, and later no-regression repair
   by another fresh actor. It is bounded OT-1C/OT-2 evidence and the design
   anchor for this epoch; it is not yet OT-2R recurrence.
+- `OT-0081` prospectively followed that exact open subject through saturation,
+  actor-authored challenge revision, hidden contradiction, separate
+  fresh-actor correction, cumulative promotion, and exact reopening under one
+  fixed driver. Together with OT-0080's controls, it is the first bounded
+  `recurrent-operation` result under G3 in this world family.
 
 ## Active evaluation regime
 
@@ -44,19 +49,21 @@ the lineage, or experiment completion implying subject closure are stale.
 
 ## Next work
 
-OT-0081 is frozen to start from OT-0080's exact open subject and reproduce its
-causal pattern prospectively under G3. One fixed driver must follow the
-subject's own next opening across fresh actors, bind actor-authored machinery
-before hidden consequence, retry from retained non-expansion without researcher
-choice, and promote a cumulative correction.
+Begin from OT-0081's exact open subject. Expose one more researcher-owned
+dependency: selection of the kind of world contact. The subject should choose
+among materially different admissible contact surfaces, bind its choice and
+prediction machinery before hidden consequence, and remain governed by
+independent outcomes, isolated effects, audit, and cumulative admission.
 
-The decisive gap is not another memory representation. It is whether repeated
-execute → saturate → revise → contradict → correct → promote cycles can continue
-while the inventory of researcher-chosen next steps shrinks.
+The decisive gap is whether continuation can widen beyond a researcher-chosen
+synthetic challenge family while the inventory of researcher-selected next
+steps keeps shrinking. A same-family recurrence is now a reliability or branch
+coverage experiment, not the highest-leverage default.
 
 ## Open uncertainty
 
-- Recurrence is established only in a bounded synthetic world family.
+- Recurrence has one prospective bounded observation in one synthetic world
+  family; frequency and denial/retry reliability remain unknown.
 - The scheduler, world interface, admission gate, and seed priorities remain
   researcher-designed.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
