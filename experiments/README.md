@@ -47,6 +47,10 @@ Selected program milestones:
   — rejected after valid challenge saturation when a clean routing actor's
   semantically useful assessment did not match a hidden strict file shape; no
   route was bound, and the exact subject remains open at environmental routing.
+- [`OT-0083-explicit-world-routing-contract.md`](OT-0083-explicit-world-routing-contract.md)
+  — frozen same-world successor that changes only the failed actor-facing
+  serialization boundary: a complete machine-readable route template replaces
+  OT-0082's empty shell.
 
 The following selector-era index is preserved for historical navigation:
 
