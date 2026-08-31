@@ -90,6 +90,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   stronger causal prediction failed cleanly: active routers selected reserve
   `3/6` versus erased `1/6` (`p = 0.2727`), not the frozen `5/6` gate. The
   operational successor remains valid; target-choice causality is not claimed.
+- `OT-0090` promotes one confirmation-driven renewal. A fresh successor
+  preserved the admitted policy, built a reusable coverage verifier, passed
+  hidden two-way, three-way, reordered, near-tie, and cost-tie cases, and
+  authored a distinct next opening. That opening was bound before hidden
+  consequence and is already partly satisfied by the admitting receipt,
+  exposing the need for post-consequence pursuit assimilation.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -207,6 +213,19 @@ coverage choice under realized coverage-weighted ties. Make tie behavior
 consequential in a fresh bounded world, bind any subject-authored refinement
 before hidden consequence, and preserve derived liveness. Do not rerun the
 failed selection comparison or substitute the old risk/boundary opening.
+
+OT-0090 followed that opening and passed. Confirmation did not close the
+subject: the actor added a hidden-admitted generalized verifier and authored a
+new opening without mutating the policy. The exact subject remains sounding and
+open.
+
+But the new opening predates the hidden consequence that admitted it. That
+receipt already confirms the multi-way and order-invariant behavior the opening
+asks to verify. The next experiment should add one fresh post-consequence
+assimilation turn. Give it the exact subject, bound pre-consequence opening,
+and sealed receipt; require it to distinguish satisfied from unresolved stakes
+and author the next opening without another researcher-selected task or world
+contact. Promotion requires the stale opening to be retired, not merely copied.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

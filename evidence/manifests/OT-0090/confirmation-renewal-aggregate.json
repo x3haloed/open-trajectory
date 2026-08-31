@@ -1,0 +1,33 @@
+{
+  "artifact_id": "confirmation-renewal-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11310,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ca0ad6b5bb84ca75e8e5921700676451e580a57",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0090",
+  "input_manifests": [
+    "evidence/manifests/OT-0090/promoted-confirmation-renewal-run.json"
+  ],
+  "kind": "confirmation-renewal-result",
+  "limitations": [
+    "Operational transition passed; post-consequence pursuit assimilation remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:confirmation-renewal-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ffda13a286a7bd184b88b795bb6825af5a036cda95188eb61324fbadd15eaae1"
+}

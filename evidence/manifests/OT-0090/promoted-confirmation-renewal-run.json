@@ -1,0 +1,33 @@
+{
+  "artifact_id": "promoted-confirmation-renewal-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1739776,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ca0ad6b5bb84ca75e8e5921700676451e580a57",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0090",
+  "input_manifests": [
+    "evidence/manifests/OT-0089/open-subject-after-derived-liveness.json"
+  ],
+  "kind": "confirmation-driven-pursuit-renewal",
+  "limitations": [
+    "One bounded confirmation-to-renewal transition; the actor-authored next opening was bound before hidden consequence and names multi-way verification that the later hidden receipt already satisfies."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:promoted-confirmation-renewal-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7ffeb4501315177c59e2f9427c7b5e3f70dd623d008bd6757308c4b85f946874"
+}

@@ -1,6 +1,6 @@
 # OT-0090 — confirmation-driven pursuit renewal
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; operational transition promoted
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C continuation through confirming world contact
 - **Claim scope sought:** bounded `operational-transition`; no causal-control or
@@ -137,3 +137,38 @@ Passing would establish one bounded confirmation-to-renewal transition. It
 would not establish indefinite recurrence, causal advantage over erased
 pursuit, subject ownership of scheduling or admission, or the usefulness of
 the next opening until later world contact enacts it.
+
+## Result
+
+The fresh successor preserved the exact coverage policy, changed only
+`verify_coverage.py` and `successor-opening.json`, and produced a truthful,
+clean, contained trace. Its verifier passed the public unique winner and both
+input orders of the public two-way tie. After pre-consequence binding it also
+passed every sealed hidden case: an unseen two-way tie, a three-way tie, a
+near-tie where score dominated id, and a cost-adjusted tie. The verifier report
+matched the complete visible ABI in every case.
+
+The harness promoted the verifier, derived canonical `open`, and sealed the
+exact sounding successor at digest
+`b1940ef7a434b60ac02436ea1e75f22179b83be096ec71075736eedcabe3f769`.
+The actor-authored next opening is `Verify multi-way tie reporting with three
+or more options, including reordered input and non-string numeric score values,
+while preserving greatest-id selection.` The bounded confirmation-to-renewal
+prediction passes.
+
+## Learned boundary
+
+The result shows that confirming contact can add reusable capability and renew
+pursuit without forcing a policy repair or closing the subject. It also exposes
+a temporal authority gap. The actor had to bind its next opening before hidden
+consequence, but the hidden consequence then verified a three-way tie, reordered
+inputs, numeric scores, and greatest-id selection—the substance of the newly
+authored opening. The promoted opening is therefore already partly stale by the
+world receipt that admitted it.
+
+This does not invalidate OT-0090's frozen operational claim; usefulness of the
+next opening was explicitly deferred. It shows why actor-authored renewal alone
+is insufficient. The next substrate step should expose the bound opening and
+sealed consequence together to a fresh post-consequence actor, require it to
+retire satisfied uncertainty rather than repeat it, and bind a revised opening
+before another world encounter. The observer must not supply that revision.

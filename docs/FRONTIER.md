@@ -177,6 +177,25 @@ follow that opening into consequential tie contact. It should preserve derived
 liveness and hidden admission, while avoiding a researcher-chosen return to the
 failed risk-selection comparison.
 
+OT-0090 followed that exact opening. A fresh successor left the admitted policy
+unchanged, authored a reusable coverage verifier, and passed hidden two-way,
+three-way, reordered, near-tie, and coordination-cost cases. The harness
+derived liveness and sealed an exact sounding successor, demonstrating one
+confirmation-to-renewal transition: successful contact need not end the
+subject or force gratuitous policy mutation.
+
+The transition exposed a new temporal gap. The actor's next opening was bound
+before hidden consequence, as causal discipline requires. The later hidden
+receipt then satisfied much of that opening by verifying multi-way ties,
+reordered inputs, numeric scores, and greatest-id selection. Carrying the
+opening literally would now produce repetition rather than development.
+
+The next experiment should insert a fresh post-consequence assimilation turn.
+It must receive the exact promoted subject and sealed receipt, identify which
+stake the consequence settled, retire the stale opening, and bind a genuinely
+new opening before any further world contact. The observer may validate exact
+receipt use and non-copying but may not choose the revised pursuit.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -199,6 +218,9 @@ failed risk-selection comparison.
   across repeated continuations is unestablished.
 - A balanced unseen-world comparison did not establish causal target selection
   from the inherited pursuit phrase; presentation order remained influential.
+- One confirmation-driven continuation remained open and expanded verification
+  capability, but its pre-consequence successor opening became partly stale
+  when the hidden receipt arrived; post-consequence assimilation is untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
