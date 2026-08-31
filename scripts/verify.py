@@ -44,6 +44,7 @@ FAST_MODULES = (
     "tests.test_ot_0088_unseen_pursuit_selection",
     "tests.test_ot_0089_derived_liveness",
     "tests.test_ot_0090_confirmation_renewal",
+    "tests.test_ot_0091_post_consequence_assimilation",
 )
 
 # Last commit in which the retired E14 evaluator lineage and its complete test
