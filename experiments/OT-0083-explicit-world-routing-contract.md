@@ -57,7 +57,8 @@ Each fresh router workspace now contains:
 
 The actor still edits exactly `route.json`. It remains free to choose every
 assessment value. The response-output schema is unchanged. The evaluator's
-route validator and selector operation are unchanged.
+structural, type, and range validation and the selector operation are
+unchanged; the sole added check rejects an unreplaced placeholder.
 
 Before actor authorization, conformance must prove that the seeded template
 enumerates exactly the validator's required structure, fails while placeholders
