@@ -46,6 +46,7 @@ FAST_MODULES = (
     "tests.test_ot_0090_confirmation_renewal",
     "tests.test_ot_0091_post_consequence_assimilation",
     "tests.test_ot_0092_actor_contact_renewal",
+    "tests.test_ot_0093_saturation_self_allocation",
 )
 
 # Last commit in which the retired E14 evaluator lineage and its complete test
