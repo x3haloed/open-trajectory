@@ -139,6 +139,23 @@ and only the inherited pursuit supplies the differentiating orientation. The
 erased branch must retain equal information and resources, and success must be
 measured by admitted downstream contact rather than prose similarity.
 
+OT-0088 began that frozen unseen-world comparison. Its conformant primary
+active router selected the prospectively aligned reserve policy from three
+balanced complete contacts, even with reserve last in presentation order. The
+fresh implementer then made the intended bounded policy correction and authored
+a useful next opening, but labeled that opening `ready` rather than the visible
+required literal `open`. The prospective audit rejected it before binding or
+hidden consequence, so the remaining eleven routes and erased implementation
+were correctly never opened. One primary route cannot establish the causal
+effect.
+
+This failure identifies the next smallest substrate correction. Lifecycle
+status belongs to the harness's admission state, not to the subject's authored
+musical content. The next record should remove `status` from the actor-authored
+opening and derive canonical `open` only after the substantive opening and its
+world contact pass. Everything else in OT-0088's comparison remains frozen,
+and its rejected evidence remains unchanged.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -155,6 +172,9 @@ measured by admitted downstream contact rather than prose similarity.
 - One actor-authored opening now survives a turn, causes an authorized contact,
   and is renewed into the exact continuation; whether its content improves or
   changes selection in an unseen world remains unestablished.
+- One clean unseen-world route selected the pursuit-aligned contact, but a
+  lifecycle-token mismatch prevented consequence and the frozen causal sample;
+  whether derived liveness is sufficient for robust handoff is unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

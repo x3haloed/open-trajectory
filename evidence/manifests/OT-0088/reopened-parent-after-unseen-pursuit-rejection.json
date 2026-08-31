@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-unseen-pursuit-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 188276,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c84b059ee7a88e09a0cce3ccf0ac77ca6103cc85",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0088",
+  "input_manifests": [
+    "evidence/manifests/OT-0088/rejected-unseen-pursuit-aggregate.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact unchanged OT-0087 parent, still sounding and open after OT-0088 rejection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-unseen-pursuit-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "78c96eb00dc412f7d1e44e3874a41f1b825f5b5bd7b8c4eb42e596282fab3d73"
+}

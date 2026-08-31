@@ -1,6 +1,6 @@
 # OT-0088 — unseen-world pursuit-conditioned selection
 
-- **Status:** unexecuted
+- **Status:** executed; rejected at the primary implementation boundary
 - **Evidence class:** exploratory-only
 - **Target:** OT-0 pursuit-content inheritance and OT-1C cross-world continuity
 - **Claim scopes sought:** `operational-transition`, bounded
@@ -217,3 +217,44 @@ Stop after one primary implementation, twelve frozen route samples, one
 post-seal erased implementation, material contamination, actor-budget
 exhaustion, or 90 minutes. No replacement samples are allowed. Observation
 stopping does not close an exact subject whose retained continuation is open.
+
+## Result
+
+The experiment stopped at its first frozen operational boundary. The primary
+active router was conformant and selected `studio/reserve.py` despite reserve
+appearing last in its assigned presentation order. This matches the
+prospectively declared pursuit-aligned target and is directionally consistent
+with the inherited opening influencing unfamiliar-world selection, but one
+route is not the frozen causal comparison.
+
+The fresh implementer then changed exactly `studio/reserve.py` and
+`successor-opening.json`, truthfully reported both paths, compiled the policy,
+used only contained broad-tool effects, and implemented the correct
+risk-adjusted scorer. It also authored a substantive next opening and
+falsifiable surrender condition. However, it wrote successor status `ready`
+where the actor-visible contract required exact status `open`. The artifact
+therefore failed prospective conformance before binding and before hidden
+world consequence. The driver correctly performed no hidden evaluation,
+promotion, replicas, or erased-branch implementation.
+
+The prediction that the primary router would select reserve received one
+clean, unscored-consistency observation. The operational and causal hypotheses
+are rejected for this record. No OT-0088 capability or opening enters the
+subject. The exact OT-0087 parent remains sounding and open at digest
+`d0c9902e0998a5a1d795ca08ffde0b10c2abf6fa69afb626ae05d787009ded63`.
+
+## Learned boundary
+
+The failure was not file-event granularity or hidden evaluator vocabulary. The
+required literal was visible in `successor-opening-contract.json`; the actor
+used a nearby lifecycle synonym anyway. This exposes an unnecessary split in
+authority: the actor owns the substantive continuation, while the harness
+already owns whether a valid admitted successor is operationally open. A
+successor carrier should not make subject continuity depend on reproducing an
+observer lifecycle token when actionable opening, unresolved contact, and
+surrender content are already present.
+
+The next record may remove actor-authored lifecycle status and derive canonical
+`open` mechanically after substantive successor validation. It must preserve
+the OT-0088 parent, world, projections, routes, prompts, samples, scores,
+admission gates, stopping rule, and raw rejection. OT-0088 is not rescored.

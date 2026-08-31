@@ -31,6 +31,11 @@ The strongest footholds are:
 - `OT-0045`: bounded durable goal pursuit; and
 - `OT-0079`: conditional bounded evidence that making composition and stopping
   one consequence-addressable program repaired a split-authority failure.
+- `OT-0087`: one operational actor-originated pursuit handoff across a fresh
+  successor; and
+- `OT-0088`: a rejected unseen-world continuation whose primary route selected
+  the pursuit-aligned contact but whose successor carrier failed on an exact
+  lifecycle literal before hidden consequence.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

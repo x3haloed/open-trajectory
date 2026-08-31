@@ -78,6 +78,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   exact subject retained that opening instead of a generic default. The erased
   control independently chose rehearsal too, so inherited-opening causation of
   target choice remains unestablished.
+- `OT-0088` cleanly selects the prospectively pursuit-aligned reserve contact
+  on its primary active route, then rejects before hidden consequence because
+  the implementer wrote successor status `ready` instead of the visible exact
+  literal `open`. The policy change, changed paths, tool trace, report, next
+  opening, and surrender condition were otherwise conformant. No successor or
+  causal comparison is promoted; the exact OT-0087 parent remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -172,12 +178,21 @@ decision-relevant distinction. Compare against an opening-erased branch with
 the same world, tools, information, and budget; require downstream hidden
 contact, not semantic self-report, to distinguish the branches.
 
-OT-0088 freezes that comparison prospectively. It uses six active and six
-pursuit-erased fresh routers, counterbalances all presentation orders, balances
-public regret and hidden opportunity across three complete contacts, and
-scores only bound target paths. Separate fresh implementers must carry the
-primary active and first erased choices through equally strong hidden world
-contact. No actor has seen the new world at protocol freeze.
+OT-0088 froze that comparison prospectively and reached the predicted primary
+reserve route, but its implementation stopped on a visible exact lifecycle
+literal: the actor authored `ready` rather than `open`. This was a valid
+rejection. It also exposed that the carrier makes an observer-owned lifecycle
+classification an actor-authored password even though the substantive
+continuation fields already establish whether another note exists.
+
+The next record should make only that authority correction. Remove lifecycle
+status from the actor-authored successor opening; validate its actionable
+opening, contact, unresolved question, continuation, and surrender condition;
+then let the harness derive canonical `open` only after the artifact and hidden
+contact are admitted. Preserve OT-0088's exact parent, unseen world, active and
+erased projections, counterbalancing, actor budgets, prompts, route score,
+hidden gates, and stopping rule. Begin again from the unchanged OT-0087 parent
+and do not rescore or continue OT-0088.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

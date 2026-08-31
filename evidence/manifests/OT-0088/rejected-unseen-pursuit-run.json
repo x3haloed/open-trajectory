@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-unseen-pursuit-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3581440,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c84b059ee7a88e09a0cce3ccf0ac77ca6103cc85",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0088",
+  "input_manifests": [
+    "evidence/manifests/OT-0087/open-subject-after-opening-handoff.json"
+  ],
+  "kind": "unseen-world-pursuit-selection",
+  "limitations": [
+    "Primary active route selected the prospectively aligned reserve contact, but its implementation used status ready where the visible successor contract required open; no hidden consequence, successor promotion, replicas, or erased branch followed."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-unseen-pursuit-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e57f87d2df153f92ae543735ed579ad7a4b3f9c3e13e490556ccec7ca92dd2e2"
+}

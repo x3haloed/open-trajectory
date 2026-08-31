@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-unseen-pursuit-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 24178,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c84b059ee7a88e09a0cce3ccf0ac77ca6103cc85",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0088",
+  "input_manifests": [
+    "evidence/manifests/OT-0088/rejected-unseen-pursuit-run.json"
+  ],
+  "kind": "unseen-world-pursuit-selection-result",
+  "limitations": [
+    "The run stopped at the frozen primary boundary; target-choice causality and operational transfer are unestablished."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-unseen-pursuit-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "239c1d1bb41dc867086305f58c03a42c827e917d72d0b3e32f6e4d92155ffc02"
+}
