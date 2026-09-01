@@ -146,6 +146,8 @@ The strongest footholds are:
   literal `cross` token despite grounded “materially different contexts.”
 - `OT-0127`: exact contextual-transfer re-audit promotes the retained third
   cycle and yields an open subject after three subject-selected contacts.
+- `OT-0128`: clean reproduction fails at cycle one when a fresh actor grounds
+  recovery latency in its route but regenerates the inherited canonical opening.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

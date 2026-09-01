@@ -566,5 +566,12 @@ again from the exact OT-0124 parent under the final continuation-owned scheduler
 and bounded contextual-transfer rule, authorize three fresh actors, and permit
 no between-cycle repair or contract change.
 
+OT-0128 rejects that clean reproduction at cycle one. Selector causation and
+the grounded route reproduce, but the fresh actor independently regenerates the
+old authoritative opening and even self-checks that wrong equality. The next
+mechanism should stop asking actors to synchronize the same stake across route
+and opening prose: make the grounded route the authoring authority and compile
+the canonical continuation mechanically before promotion.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

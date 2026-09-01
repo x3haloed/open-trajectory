@@ -1,0 +1,31 @@
+{
+  "artifact_id": "clean-three-cycle-reproduction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7371,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "fd171d46945bbd100d894949e0ae42d9f0c35a7f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0128",
+  "input_manifests": [],
+  "kind": "clean-three-cycle-reproduction-result",
+  "limitations": [
+    "Zero cycles promoted. The actor preserved recovery latency in route and action evidence but erased it from the separately authored canonical opening."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:clean-three-cycle-reproduction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "de359f850d384fedcf4505483420a7816b58bb19408aac679b8dd9bd3e0abcc9"
+}

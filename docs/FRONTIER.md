@@ -760,6 +760,23 @@ exact OT-0124 parent: three fresh actors, the final continuation-owned scheduler
 and bounded contextual-transfer rule frozen from the start, decisive selector
 controls at every node, and no between-cycle intervention.
 
+OT-0128 rejects immediately under that clean test. Selector causation again
+reproduces, and the fresh actor grounds recovery latency in its route and action
+evidence, but it separately regenerates the inherited authoritative opening
+verbatim. Its own tool check asserts that this stale equality is correct and its
+report confuses the lifecycle reserve `3` with the developmental content being
+carried. No later actor is authorized.
+
+This is the current central mechanism failure: one grounded stake is authored
+once in `route-assimilation.remaining_uncertainty` and then stochastically
+restated into several continuation fields. Clean reliability fails at that
+lossy synchronization edge. The next substrate should retire actor-authored
+canonical-opening prose, treat the grounded route as the single authoring
+authority, and deterministically compile the next opening consumed by the
+scheduler. The actor may still decide route, uncertainty, surrender, and
+registry identity; the carrier must prevent an accepted route from erasing
+itself during restatement.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -867,6 +884,9 @@ controls at every node, and no between-cycle intervention.
   contextual-transfer language.
 - Exact bounded re-audit now promotes that third cycle; clean full-chain
   recurrence under the final frozen scheduler remains unestablished.
+- Clean reproduction fails at cycle one because a fresh actor grounds the new
+  uncertainty once but loses it while independently authoring canonical opening
+  prose; deterministic continuation compilation remains untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

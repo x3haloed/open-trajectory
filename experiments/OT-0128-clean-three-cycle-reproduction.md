@@ -1,6 +1,6 @@
 # OT-0128 — clean three-cycle reproduction
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected at cycle one
 - **Evidence class:** exploratory-only
 - **Target:** cleanly reproduce three recurrent subject-selected world contacts
   under the final scheduler design
@@ -62,3 +62,22 @@ Passing would establish one clean three-cycle reproduction of the final bounded
 scheduler design. It would still not establish open-ended world generation,
 arbitrary-domain transfer, subject-authored scheduling machinery, or indefinite
 continuation.
+
+## Result
+
+The clean reproduction rejects at its first fresh actor and authorizes no later
+actor. The corrected selector again chooses the sealed oracle-ranked joint
+contact while the exact pre-correction control chooses the overbuilt decoy. The
+actor cleanly cites all four cases, retains the selector, routes `extend`, and
+grounds recovery latency in `route-assimilation.remaining_uncertainty`, the
+action's expected information, rationale, and surrender condition.
+
+It nevertheless regenerates the inherited authoritative opening verbatim and
+omits recovery latency from `continuation_after_contact`. Its own tool check
+incorrectly asserts that equality with the inherited opening is desired, then
+reports that the opening carries “the full remaining reserve of 3.” This is a
+genuine generative reliability failure, not an evaluator miss. The substrate
+currently asks one grounded stake to be independently rewritten into several
+prose representations. The next mechanism should make the grounded route the
+single authoring authority and compile the canonical continuation
+deterministically from it, eliminating the lossy restatement edge.
