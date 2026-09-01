@@ -392,6 +392,13 @@ resample. It should make both failures machine-readable, give the exact artifact
 to one fresh corrector, bind the revision, and resume the same contact if the
 corrected artifact passes.
 
+OT-0105 freezes that invalid encounter as developmental input. It reconstructs
+the exact wrapper artifact, derives explicit container-shape and numeric-bound
+failures, and gives one fresh corrector authority over only `contact.json` under
+an explicit canonical schema. A passing revision must be bound before the
+unchanged independent scorer and fresh assimilation. Only after sealing a
+successor does a matched failure-detail-erased corrector run.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
