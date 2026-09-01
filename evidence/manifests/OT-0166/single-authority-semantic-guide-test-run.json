@@ -1,0 +1,33 @@
+{
+  "artifact_id": "single-authority-semantic-guide-test-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 927701,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b3e0ca2841e1a02db79a022866c2a488652790c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0166",
+  "input_manifests": [
+    "evidence/manifests/OT-0165/semantic-guide-interference-replication-aggregate.json"
+  ],
+  "kind": "run-archive",
+  "limitations": [
+    "Twenty matched choices; guide improves dependencies but harms two ordinary routes and is not promoted."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:single-authority-semantic-guide-test-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "45659daf4db09211a78b823c2c23fe0b0128f8e1f101aaf83f211c94dc1b4757"
+}

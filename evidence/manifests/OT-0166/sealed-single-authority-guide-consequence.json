@@ -1,0 +1,33 @@
+{
+  "artifact_id": "sealed-single-authority-guide-consequence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5159,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b3e0ca2841e1a02db79a022866c2a488652790c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0166",
+  "input_manifests": [
+    "evidence/manifests/OT-0166/single-authority-semantic-guide-test-aggregate.json"
+  ],
+  "kind": "world-result",
+  "limitations": [
+    "Exact matched rows retain dependency gain and two guide-caused ordinary false overrides."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-single-authority-guide-consequence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0b22138770ab9236446e917f1f23f76fe746fa07538cff7ccc81df2b90f47db7"
+}

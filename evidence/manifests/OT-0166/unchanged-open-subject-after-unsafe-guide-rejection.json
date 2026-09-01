@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-unsafe-guide-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 459953,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b3e0ca2841e1a02db79a022866c2a488652790c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0166",
+  "input_manifests": [
+    "evidence/manifests/OT-0166/single-authority-semantic-guide-test-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Unchanged exact OT-0156 subject; causally useful but unsafe guide not installed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-unsafe-guide-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1acad03537168887a1d3abff22a7663d62a08c392c565995da48aee60532933e"
+}

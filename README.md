@@ -277,6 +277,10 @@ The strongest footholds are:
   that actors received two competing stakes—the inherited subject opening and
   a synthetic request—so no guide effect is promoted and the dual-authority
   evaluation interface must be repaired.
+- `OT-0166`: the repaired sole-stake interface reveals a real artifact effect:
+  guide present 8/10 versus erased 6/10, with dependency selection 5/5 versus
+  1/5. The guide also harms two ordinary routes, so it is retained for
+  consequence correction rather than installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

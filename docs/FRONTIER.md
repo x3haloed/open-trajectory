@@ -1425,6 +1425,19 @@ projection per case with that case installed as the sole active stake, omit the
 competing request file, and then repeat a matched exact-guide comparison. Only
 after that correction can guide necessity be judged cleanly.
 
+OT-0166 resolves the ambiguity and reveals a genuine but unsafe artifact effect.
+With one active stake per projection, guide present scores 8/10 versus erased
+6/10. It raises dependency selection from 1/5 to 5/5 and routes the exact carried
+stake correctly, but lowers ordinary-route accuracy from 5/5 to 3/5 by inferring
+an unstated prior composition for retained options and a compatibility flag.
+
+Do not install it. Preserve both causal gain and harm. The next record should
+expose the two false overrides to one fresh guide corrector, require the full
+known dependency and ordinary floors, bind revised guide bytes before a new
+single-authority matched portfolio, and score the unchanged 8/10 guide only
+after sealing. This is now a direct consequence-driven artifact-correction
+test, not another representation search.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

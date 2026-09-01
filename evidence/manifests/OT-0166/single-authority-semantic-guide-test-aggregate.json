@@ -1,0 +1,33 @@
+{
+  "artifact_id": "single-authority-semantic-guide-test-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 72176,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b3e0ca2841e1a02db79a022866c2a488652790c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0166",
+  "input_manifests": [
+    "evidence/manifests/OT-0164/exact-semantic-guide-comparison-aggregate.json"
+  ],
+  "kind": "test-result",
+  "limitations": [
+    "Guide present 8/10 versus erased 6/10; causal dependency gain coexists with ordinary-route harm."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:single-authority-semantic-guide-test-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4a9fce5e235d70047946d046f36f6fa1f472a3c29397db719bee05a5e754e1a7"
+}

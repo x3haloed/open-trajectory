@@ -38,3 +38,23 @@ state.
 If both branches are strong or equal, treat the guide as redundant under the
 correct actor interface and stop attempting to promote it merely because its
 active branch succeeds.
+
+## Result
+
+All twenty fresh actors passed complete trace and effects audit and bound before
+scoring. Under sole-stake projections, guide present scored 8/10 versus guide
+erased 6/10, meeting the frozen two-case causal advantage. The guide transformed
+dependency selection from erased 1/5 to active 5/5 and routed the exact carried
+stake correctly.
+
+The guide also caused two ordinary-route errors: it inferred an unstated prior
+composition and floor for one retained-options request and one compatibility
+flag. Erased passed ordinary routes 5/5; guide present passed only 3/5. Thus the
+artifact is causally powerful and directionally useful but overgeneralized and
+unsafe to install. Nothing was promoted; exact OT-0156 remains current,
+sounding, and open.
+
+Preserve the exact guide and clean single-authority consequence. The next record
+should give one fresh guide corrector both false overrides, require the complete
+known dependency gain and ordinary floor, bind a revised guide, and compare it
+against the unchanged 8/10 guide on a fresh single-authority portfolio.

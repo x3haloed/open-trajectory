@@ -1129,5 +1129,18 @@ Repair the selection projection so each case is the sole active stake and
 remove the competing request file. Preserve guide bytes, cases, matched fresh
 actors, bind-before-score discipline, and exact subject ancestry.
 
+OT-0166 makes that authority repair and exposes the guide's real causal shape.
+All twenty actors pass audit. Guide present scores 8/10 versus erased 6/10 and
+raises dependency selection from 1/5 to 5/5, including the exact carried stake.
+It simultaneously lowers ordinary-route accuracy from 5/5 to 3/5 by inventing
+unstated prior composition and floor for retained options and a compatibility
+flag.
+
+This is causal artifact improvement with objective harm, not promotion. Preserve
+the guide and single-authority receipt. Give one fresh guide corrector those
+false overrides, require the complete known dependency gain and ordinary floor,
+then bind before a new matched single-authority portfolio. Compare the unchanged
+8/10 guide after sealing.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
