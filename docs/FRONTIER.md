@@ -1041,6 +1041,23 @@ published recovery-filename schema and actual-effects authority, without
 resampling. Then perform the already-frozen matched selector comparison and
 reserve floor before any installation.
 
+OT-0144 makes that reconstruction and passes. Corrected selection chooses
+latency-relative cadence and passes all three shifted recovery histories;
+unchanged selection chooses fixed delay and fails all three, with stable
+controls preserved. The exact quantum-relative reserve capability still passes
+q256 nine of nine. One fresh later actor reuses recovery cadence successfully
+on three new shifts, while the post-seal fixed control fails all shifts.
+
+Exact open subject
+`e61e5291641c54e0ec4ce1794c1fa43e5a0ac968f73f1cb31be0c3e2ff3e3510`
+carries both domains and asks whether the transferred priority survives a
+contradictory operating regime. Test that next. Construct a regime where scaling
+to observed maximum latency violates an independent deadline or stability
+constraint while a bounded alternative remains valid. Preserve exact reserve
+and ordinary recovery floors, bind correction before hidden consequence, and
+require the selector to revise or surrender scale invariance rather than defend
+its previous cross-domain success.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

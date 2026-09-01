@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-recovery-reconstruction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 27424,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "00380e3094b58daee879d158596051a7cbaeafb2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0144",
+  "input_manifests": [
+    "evidence/manifests/OT-0143/retained-recovery-amendment-portfolio.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Bounded cross-domain selector-transfer result; does not establish universal scale invariance or later corrigibility under contradiction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-recovery-reconstruction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "75ac34ff42f783f534ef28ad4c555e7dd39926c58aa3b1aee44e4fb884024414"
+}

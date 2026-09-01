@@ -803,5 +803,22 @@ report literal, and reconstruct the exact portfolio without another portfolio
 actor. Only then run matched corrected/unchanged selectors, reserve
 no-regression, installation, and the still-unused recovery reuse actor.
 
+OT-0144 completes that reconstruction and transfers the learned selector
+relation across domains. On the exact recovery portfolio, corrected selects
+latency-relative and passes all shifted histories; reconstructed unchanged
+selects fixed delay and passes none, while both preserve stable controls. The
+exact reserve q256 floor remains nine of nine. A fresh later actor reuses the
+recovery strategy on three new shifts without revision; fixed delay again fails
+all shifts after the active successor is sealed.
+
+Exact open subject
+`e61e5291641c54e0ec4ce1794c1fa43e5a0ac968f73f1cb31be0c3e2ff3e3510`
+carries both capability families and opens a later contradictory recovery
+regime. This is bounded cross-domain transfer, not a universal endorsement of
+scale invariance. The next test must make latency-relative cadence harmful or
+invalid under an independently owned regime, then require consequence to revise
+or surrender the transferred selector priority while preserving reserve and
+ordinary recovery floors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

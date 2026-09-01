@@ -1,6 +1,6 @@
 # OT-0144 — exact recovery portfolio reconstruction
 
-- **Status:** frozen; not run
+- **Status:** completed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** bind OT-0143's exact retained recovery portfolio under audited
   effects authority, complete the cross-domain selector comparison, preserve the
@@ -55,3 +55,37 @@ constitutional selection from reserve contact to recovery cadence. It would not
 establish universal scale invariance, subject-authored amendment languages,
 autonomous world choice, or corrigibility of the transferred priority under a
 later contradictory regime.
+
+## Result
+
+The effects-based reconstruction passed. Exact retained OT-0143 portfolio bytes
+bound under the published recovery filename while the stale forced report
+literal remained disclosed and nonauthoritative.
+
+Corrected and reconstructed unchanged selectors were bound on that exact
+portfolio before recovery consequence. Corrected selected latency-relative
+factor one and passed all three shifted histories at required delays 64, 96, and
+128 plus both stable controls. Unchanged selected fixed delay 32, failed all
+three shifts, and passed both controls.
+
+Before installation, the exact retained quantum-relative reserve capability
+passed q256 with nine adversarial distinctions and three confirmations. The
+subject then retained both reserve and recovery capabilities and an amended
+cross-domain constitution.
+
+One fresh actor preserved exact recovery-strategy and constitution bytes. On
+new required delays 160, 192, and 224 plus a stable control, retained
+latency-relative cadence passed every history without revision. After sealing
+the operational successor, fixed delay 32 failed all three shifted histories
+and passed its control. Corrected-selector erasure reproduced that fixed choice.
+
+Exact sounding open subject
+`e61e5291641c54e0ec4ce1794c1fa43e5a0ac968f73f1cb31be0c3e2ff3e3510`
+retains both capability families and asks whether latency-relative recovery
+remains useful under a later contradictory regime.
+
+This is bounded cross-domain transfer of consequence-improved constitutional
+selection. It does not make scale invariance a universal priority. The next
+required test is whether independently owned contradictory consequence can
+revise or surrender the transferred preference while retaining both established
+floors.

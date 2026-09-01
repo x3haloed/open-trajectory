@@ -196,6 +196,10 @@ The strongest footholds are:
   cross-domain recovery portfolio, but a reused response schema forces the old
   portfolio filename and rejects the otherwise clean actual mutation before
   binding or hidden consequence.
+- `OT-0144`: exact effects reconstruction completes cross-domain transfer. The
+  corrected selector's latency-relative choice passes all shifted recovery
+  histories while unchanged fixed delay passes none; reserve q256 remains 9/9,
+  and later recovery reuse succeeds without revision.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
