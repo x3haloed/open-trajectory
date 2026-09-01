@@ -1,0 +1,29 @@
+{
+  "artifact_id": "flat-truthful-replication-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12135424,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9befdb77ca51ab4a618f4dd4111cbac646e07d2",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0189",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:flat-truthful-replication-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a37de15e032c892636f4ee951b5b38283951db9949d745ba2a90b46dcd5f2d20"
+}

@@ -1,6 +1,6 @@
 # OT-0189 — flat-schema truthful receipt-effect replication
 
-- **Status:** design and executable conformance frozen; not run
+- **Status:** complete; invalidated by fixed exact-change audit expectation
 - **Evidence class:** exploratory-only
 - **Target:** obtain a valid replication of consequence-associated executable
   route revision after repairing OT-0187/0188's reporting interfaces
@@ -50,3 +50,25 @@ contrast. Passing establishes a replicated consequence-associated increase in
 correct machinery revision and later direct operative use, but not receipt
 exclusivity, autonomous ontology discovery, interpreter self-revision, or
 indefinite recurrence.
+
+## Result
+
+The flat schema succeeds in live actor execution. Actors can truthfully report
+both exact retention and one-file revision. Behavioral results are 7/8 full
+passes with the contradiction versus 2/8 under receipt erasure; the original
+route retains its 10/10 contextual floor and fails wider contact 0/6, and
+identity remains 18/18.
+
+The run is still invalid. `run_repair` passes
+`["executable-route.json"]` to the generic audit for every actor. That argument
+is the exact expected-change set, not an allowlist. All seven exact-retain
+actors truthfully report no changed paths, satisfy the new local predicate, and
+then fail `exact_changes` because the production audit expects one file.
+One active actor retains; six controls retain. All security traces are clean.
+
+This defect materially affects binding and scoring, so the 7/8 versus 2/8
+behavior is descriptive only. Exact parent `40818aa8...` remains open. The
+next new-ID replication must derive the audit expectation from the already
+validated action: `[]` for retain and the sole route path for revise. Its
+preflight must exercise the production exact-change predicate for both path
+sets, not merely the local report predicate.

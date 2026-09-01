@@ -1941,3 +1941,17 @@ revise variants, then run conformance fixtures through the same audit path for
 both. Only after both pass may a new-ID replication reuse OT-0187's unchanged
 sample, semantic information, Fisher boundary, interleaving, and direct-use
 gate. This is repair of an invalid experiment, not resampling a valid rejection.
+
+OT-0188 stops before actor execution because the response API rejects the
+schema's top-level `oneOf`. OT-0189 replaces it with a supported flat schema,
+and live actors truthfully report retain or revise. Its behavioral split is
+7/8 receipt-visible versus 2/8 erased control, but it too is invalid: the
+generic audit receives the route path as an exact expected change for every
+actor. Seven truthful retain actions therefore fail only because their empty
+patch differs from that fixed expectation. All traces remain clean.
+
+The remaining interface repair is now exact. After local action/file
+conformance succeeds, pass `[]` to the production audit for retain and the
+route path for revise. Preflight both exact-change branches through that same
+predicate before a new sample opens. No behavioral result from OT-0187 or
+OT-0189 may be promoted through this correction.

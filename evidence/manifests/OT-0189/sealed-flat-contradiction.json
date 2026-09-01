@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-flat-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2318,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9befdb77ca51ab4a618f4dd4111cbac646e07d2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0189",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-flat-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b1124c17e52bee4d76d2765163acf8b2096f231fd0cbc44a1f5c49abdd4e1a09"
+}

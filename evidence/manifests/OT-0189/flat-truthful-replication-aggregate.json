@@ -1,0 +1,29 @@
+{
+  "artifact_id": "flat-truthful-replication-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 142087,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9befdb77ca51ab4a618f4dd4111cbac646e07d2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0189",
+  "input_manifests": [],
+  "kind": "experiment-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:flat-truthful-replication-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bba4d3fcaeeb0643699485ab189589473ac38e97238e70529ef69a9341694bfe"
+}
