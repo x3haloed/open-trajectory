@@ -1,6 +1,6 @@
 # OT-0190 — action-derived exact-audit receipt-effect replication
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** design and executable conformance frozen; not run
 - **Evidence class:** exploratory-only
 - **Target:** obtain the first valid large replication of consequence-associated
   executable route revision after making retention exact through every audit
