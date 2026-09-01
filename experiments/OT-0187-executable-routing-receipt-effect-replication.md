@@ -1,6 +1,6 @@
 # OT-0187 — executable-routing receipt-effect replication
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** design and executable conformance frozen; not run
 - **Evidence class:** exploratory-only
 - **Target:** determine whether OT-0186's 4/4 versus 2/4 correction difference
   is a replicable consequence-receipt effect while preserving executable use
