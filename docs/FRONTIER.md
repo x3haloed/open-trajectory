@@ -471,6 +471,13 @@ admission and scoring. Promotion requires the admitted interface to cause a
 real contact and leave another exact open successor. A proposal alone does not
 count.
 
+OT-0109 freezes that complete path. The actor must choose the new boundary and
+author the interface declaration, operation, public validator, and contact.
+Independent authority binds the package before deriving hidden cases, checks
+novelty, reversibility, public-contract agreement, and oracle behavior, then
+admits and uses it before a separate fresh assimilation. There is no repair or
+replacement proposal inside the record.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
