@@ -1166,5 +1166,19 @@ the gate. Preserve its exact bytes and test the corrected and original guides
 on a larger, newly sealed single-authority portfolio with enough matched cases
 to distinguish a stable boundary improvement from a narrow sample effect.
 
+OT-0169 supplies that stronger test without another correction opportunity.
+Across 32 clean fresh actors, the exact corrected guide scores 16/16 while the
+exact original scores 13/16. All eight dependencies route correctly under both
+guides; the original falsely promotes three ordinary cue-rich cases, while the
+corrected guide preserves all eight ordinary routes. The result meets the
+frozen three-case advantage exactly.
+
+Install the exact corrected guide in the open successor subject and retain its
+two-step correction ancestry plus both matched world receipts. The next
+question is no longer whether the guide can improve isolated selections. It is
+whether a fresh later successor, starting only from the promoted subject
+projection, actually uses the installed selector to choose and invoke the
+mechanism required by its continuing stake.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

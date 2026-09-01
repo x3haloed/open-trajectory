@@ -289,6 +289,10 @@ The strongest footholds are:
   hidden 10/10 versus the original guide's 9/10. The corrected guide prevents
   one false composed override, but the one-case advantage misses the frozen
   two-case causal-strength gate, so nothing is installed.
+- `OT-0169`: the exact corrected guide replicates at 16/16 versus the exact
+  original guide's 13/16 across 32 clean fresh actors. It prevents three false
+  composed overrides, meets the frozen three-case advantage, and is installed
+  in an open successor subject. Exact later use remains untested.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

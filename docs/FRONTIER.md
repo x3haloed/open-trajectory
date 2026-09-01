@@ -1462,6 +1462,20 @@ it against the exact original on a larger new single-authority portfolio. The
 next test should increase discriminating power, not retroactively weaken the
 failed gate.
 
+OT-0169 provides that larger exact comparison. All 32 fresh actors pass audit.
+The corrected guide scores 16/16; the original scores 13/16 and falsely
+promotes three ordinary cue-rich cases. The corrected guide therefore meets
+the frozen three-case advantage, routes the exact current stake correctly, and
+is installed in open successor subject `9db80e4a...` without changing the stake
+or unauthorized parent state.
+
+The artifact now has replicated causal standing, but its use remains isolated
+inside evaluation projections. The next experiment must begin from the
+promoted subject and test exact later use through the normal continuation path:
+a fresh successor should inherit the active stake and installed guide, select
+the composed mechanism, and use that mechanism to make authorized world
+contact. A selector receipt alone is not endpoint success.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

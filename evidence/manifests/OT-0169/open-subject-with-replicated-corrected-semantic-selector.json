@@ -1,0 +1,29 @@
+{
+  "artifact_id": "open-subject-with-replicated-corrected-semantic-selector",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 474476,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "21312111b95e15f48b044800ce024ea0b1e25dfe",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0169",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-replicated-corrected-semantic-selector",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "231f347473e51189e8624f8f7283f8da122285f958d066d1ceb3b65728ecc758"
+}

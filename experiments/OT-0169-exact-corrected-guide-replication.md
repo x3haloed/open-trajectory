@@ -1,6 +1,6 @@
 # OT-0169 — exact corrected guide replication
 
-- **Status:** frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** distinguish a stable semantic-boundary improvement from the
   one-case OT-0168 advantage
@@ -43,3 +43,23 @@ the subject unchanged. Do not revise this gate after unsealing results.
 Passing would establish a replicated causal selection advantage for the
 consequence-corrected semantic artifact. Exact later use by the continuing
 subject would remain required.
+
+## Result
+
+All 32 fresh choices were bound and passed complete trace and effects audit.
+The exact corrected guide scored 16/16, with dependency 8/8 and ordinary 8/8.
+The exact original guide scored 13/16: it preserved dependency 8/8 but falsely
+promoted three ordinary cases—a regression checksum, established current
+options, and a token naming a prior pass—to the composed route.
+
+The corrected guide therefore meets the frozen three-case advantage exactly.
+It routes the exact current stake to `corrected-identity-gated-extension`, is
+installed as the active developmental mechanism selector, and produces open
+successor subject digest
+`9db80e4a3b64291ac7dbf4f0afcc2c2c1166878ccc5280d38c6320a72cacd29d`.
+The active stake and all unauthorized parent state remain exact.
+
+This establishes replicated causal improvement from the consequence-corrected
+artifact. It does not yet establish later subject use: the next experiment
+must start from this promoted subject and require a fresh successor to use the
+installed selector in an actual continuation.

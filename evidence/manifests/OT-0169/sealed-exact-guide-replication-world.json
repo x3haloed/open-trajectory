@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-exact-guide-replication-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 8136,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "21312111b95e15f48b044800ce024ea0b1e25dfe",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0169",
+  "input_manifests": [],
+  "kind": "world-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-exact-guide-replication-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a2ef0aaf77802a233a151efea91fb1d66895d070a03780e3fb5b1f9aa50d7462"
+}
