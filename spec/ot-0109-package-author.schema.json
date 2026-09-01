@@ -12,8 +12,7 @@
         "enum": ["interface.json", "operation.py", "conformance.py", "contact.json"]
       },
       "minItems": 4,
-      "maxItems": 4,
-      "uniqueItems": true
+      "maxItems": 4
     },
     "interface_id": {"const": "joint-capability-frontier"},
     "case_count": {"const": 3}
