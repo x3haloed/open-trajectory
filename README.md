@@ -178,6 +178,10 @@ The strongest footholds are:
   encounters through reuse, automatic widening, retained objective failure,
   consequence-addressed capability correction, and later no-repair reuse. The
   observer stops while the exact open subject points to encounter five.
+- `OT-0139`: the recurrent subject retains the predicted q16 failure and
+  correctly exhausts its truthful correction envelope. A fresh actor passes the
+  visible constitutional checker, but hidden provenance/digest requirements
+  reject its otherwise exact two-file change before hidden correction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

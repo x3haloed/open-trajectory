@@ -1,0 +1,33 @@
+{
+  "artifact_id": "preactor-invalid-response-schema",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 122880,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "26a95dbcea79fc5feb43bb045143ff12d8399dc2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0139",
+  "input_manifests": [
+    "evidence/manifests/OT-0138/open-subject-with-encounter-scheduler.json"
+  ],
+  "kind": "apparatus-observation",
+  "limitations": [
+    "Zero-actor launch rejected by hosted response-schema dialect before model output, mutation, or hidden consequence; retained as pre-actor operational-repair evidence."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:preactor-invalid-response-schema",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "710f86c80d90db5ad2a21a4fe0fcc20925d354f095cac7e36d85468697ac1e1b"
+}

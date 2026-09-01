@@ -726,7 +726,16 @@ bounded result survives, but future correction authority is contradictory.
 OT-0139 prospectively unifies that authority at the truthful ceiling 10, then
 tests whether exact quantum-sixteen failure can exhaust and revise the
 subject-resident envelope itself while preserving prior floors and open
-continuation.
+continuation. The q16 failure and public exhaustion certificate pass. The
+constitutional actor sets both offsets and the ceiling to the least passing
+value 16 and passes its executable checker, but hidden binding rejects because
+it also expects unannounced provenance fields and a recomputed content digest.
+
+No constitutional successor is promoted. Preserve the exact actor bytes and
+open failure-bearing subject. The next record should make the semantic ceiling
+the only actor-authored constitutional authority, mechanically derive parent,
+cause, and digest fields from it, and reconstruct OT-0139 without another
+constitutional actor before hidden comparison and later verification.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,6 +1,6 @@
 # OT-0139 — consequence-revised developmental constitution
 
-- **Status:** frozen; not run
+- **Status:** completed; rejected before hidden constitutional correction
 - **Evidence class:** exploratory-only
 - **Target:** force the exact OT-0138 scheduler to exhaust its truthful legal
   correction envelope, then revise that envelope from retained consequence and
@@ -91,3 +91,38 @@ cardinality remain enforced by the actor-effects audit and phase-specific
 mutation envelope, so the repair changes no actor information, experimental
 authority, scoring, comparison, or acceptance condition. Hypothesis, fixtures,
 actors, worlds, task order, and all promotion gates remain frozen.
+
+## Result
+
+The first substantive actor exactly reused offsets eight at quantum sixteen.
+The strengthened sealed world produced the frozen partial failure: only the
+three joint-extremes cases distinguished, all six joint-high and joint-low
+cases failed, and all three controls remained invariant. That complete failure
+entered exact open subject
+`e5e5338ae4f15f37ac2f6c7c243206e067e28dda439bbf1460f1fd0bf4448afe`.
+
+The stable scheduler exhaustively checked symmetric public offsets one through
+the meta-ceiling. None through the truthful current ceiling 10 passed; 16 was
+the least passing offset. It therefore authorized `revise-constitution` for one
+fresh actor.
+
+That actor changed exactly two files. It set both program offsets to 16 and
+changed only `program_offset_ceiling` from 10 to 16. The visible executable
+checker reported that the world and contract both passed, and the trace audit
+found no protected or outside effects. One failed shell command used zsh's
+read-only variable `status` after the checker had already passed; the actor
+reran the exact diff successfully, so this command error affects no information,
+state, or acceptance authority.
+
+The frozen hidden binder nevertheless rejected the action before hidden
+correction because it expected the actor also to fill parent and cause receipt
+fields and recompute `constitution_digest`. Those requirements were absent from
+the actor contract and executable checker, which explicitly asked it to change
+only the authorized ceiling. No constitutional successor or verification actor
+is promoted.
+
+This is negative single-authority evidence, not a substantive failure of the
+proposed constitutional change. The exact actor-authored semantic bytes are
+retained. A prospective correction should derive provenance fields and content
+identity mechanically from those bytes and the bound failure, then re-audit and
+consequence the exact action without resampling the constitutional actor.

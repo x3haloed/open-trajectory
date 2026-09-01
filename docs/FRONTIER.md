@@ -960,6 +960,23 @@ envelope and authorizes a prospectively bounded revision of the correction
 constitution itself, with old-regime no-regression and later no-repair reuse.
 Do not replace this with another observer-authored per-cycle itinerary.
 
+OT-0139 reaches that boundary but rejects before hidden constitutional
+correction. Exact reuse at q16 produces the predicted three-of-nine failure and
+the subject retains it. Exhaustive public search finds no passing symmetric
+offset through ceiling 10 and identifies 16 as least sufficient. A fresh actor
+then sets both offsets and only the authorized ceiling to 16; its executable
+checker passes and its broad-tool trace is contained.
+
+The hidden binder additionally requires the actor to author parent provenance,
+cause provenance, and a recomputed constitution digest, none of which appear in
+the visible contract or checker. This duplicates the constitutional statement
+across one semantic field and three bookkeeping fields. No successor is
+promoted. Reconstruct the exact retained actor action under a prospective
+single-authority compiler: actor authors the semantic ceiling once; substrate
+derives lineage and content identity. Then open the same hidden failed bases,
+require the q8 floor, install both capability and constitution, and authorize a
+fresh later reuse without resampling the constitutional actor.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

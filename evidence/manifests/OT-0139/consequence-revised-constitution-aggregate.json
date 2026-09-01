@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-revised-constitution-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 34728,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "26a95dbcea79fc5feb43bb045143ff12d8399dc2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0139",
+  "input_manifests": [
+    "evidence/manifests/OT-0138/open-subject-with-encounter-scheduler.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "The q16 failure is valid and the constitutional actor passed its visible checker, but no constitutional successor or later reuse is promoted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-revised-constitution-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0b9374033ff8ec6844dae3af40ec305c72277f6451884b95a6bd6f31b26125d1"
+}
