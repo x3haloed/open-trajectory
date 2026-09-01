@@ -1,6 +1,6 @@
 # OT-0177 — coherent consequence-authored authority projection
 
-- **Status:** frozen; not run
+- **Status:** complete; rejected under an underinclusive acceptance model
 - **Evidence class:** exploratory-only
 - **Target:** test whether a publicly enforced compositional authority type lets
   a fresh actor author the released-consequence projection and whether that
@@ -56,3 +56,34 @@ authority revision remain required.
 Reject without resampling if the actor cannot author the exact coherent
 projection. End this typed-projection mechanism line if populated and erased
 branches do not separate or if populated labels do not improve contact.
+
+## Result
+
+The fresh authority actor passed complete trace and effects audit, changed only
+the authorized file, and passed the new compositional checker. It authored:
+
+- `reset-carrier`: `history-only` / `regression-only`;
+- `viable-branch-carrier`: `operative` / `none`;
+- `prediction-corrector`: `operative` / `active-authority`; and
+- the corrected identity-gated extension: `surrendered` /
+  `regression-only`.
+
+The projection did not match the frozen exact assignment, so no binding,
+selector actor, or hidden confirmation followed. Exact open subject
+`3770a9d5...` remains current.
+
+The coherent output exposes a prediction error in the frozen acceptance model.
+The released OT-0172 consequence already shows viable-branch behavior passing
+all three relevant harm cases, while the renewed stake names
+correction-from-error. Therefore both viable branching and prediction
+correction have public standing before new contact. Requiring viable branching
+to be `unrelated` asks the state projection to contain the still-hidden winner,
+not the live possibilities supported at the subject's current position.
+
+The run remains rejected under its frozen gate, and the actor's other floor
+assignments are not retrospectively accepted. But the expected exact projection
+is underinclusive, so OT-0177 cannot adjudicate typed authority's downstream
+effect. Preserve the clean coherent output as a hypothesis substrate. The next
+test should let current consequence determine admissibility, let new contact
+differentiate live mechanisms, and let a later actor revise authority from that
+contact before requiring successful reuse.

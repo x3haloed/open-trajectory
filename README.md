@@ -324,6 +324,11 @@ The strongest footholds are:
   `active-authority` for one mechanism, contradicting the public meanings of
   those fields. No selector actors or hidden cases open, and the exact subject
   remains unchanged.
+- `OT-0177`: public pair constraints yield a clean coherent projection, but the
+  frozen exact gate rejects it for keeping both viable branching and prediction
+  correction operative. OT-0172 had already given both public standing, so the
+  gate is underinclusive: it demands the hidden winner rather than representing
+  live possibilities before contact.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

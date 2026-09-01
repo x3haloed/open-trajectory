@@ -1734,3 +1734,18 @@ semantically composable, not merely two independent enums. The smallest next
 test should make invalid status/floor pairs unrepresentable or reject them in
 the public checker, preserve substantive classification authority with the
 fresh actor, and retain OT-0176's exact populated-versus-erased causal test.
+
+OT-0177 supplies the coherent type but invalidates the proposed exact-answer
+gate. Its clean actor retains both viable branching and prediction correction
+as operative. That is consistent with the available consequence: viable
+branching already passes the three harmed cases, while the new stake names
+correction from error. New contact, not the pre-contact projection, is what can
+distinguish them.
+
+The current frontier is therefore a live-authority learning transition. Admit
+coherent possibilities to the extent warranted by already bound receipts;
+choose and contact without future access; carry the resulting support or
+contradiction into a fresh authority revision; and require that revision to
+improve later selection while the subject remains open. An evaluator-specified
+unique pre-contact winner would recreate the external researcher as the hidden
+causal selector and does not count.

@@ -1,0 +1,29 @@
+{
+  "artifact_id": "coherent-authority-projection-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 363122,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f66a5dc5e190afa06c792fddd2e2fb5a994e92ab",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0177",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:coherent-authority-projection-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f33be363d3ff5126a5693822b3b1a6473c7447fefc624e1504df9db75cb96e63"
+}

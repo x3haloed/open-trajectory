@@ -1,0 +1,29 @@
+{
+  "artifact_id": "coherent-live-authority-hypothesis",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 532,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f66a5dc5e190afa06c792fddd2e2fb5a994e92ab",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0177",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:coherent-live-authority-hypothesis",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "983875c0a7a50f9f9466a2023a82c5a6bdf83947fa4524443531b5fb803789dd"
+}

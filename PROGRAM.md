@@ -1290,5 +1290,24 @@ assignments. Then repeat the populated-versus-field-erased comparison under new
 contact if and only if a fresh actor authors the exact released-consequence
 projection.
 
+OT-0177 makes the type-level repair successfully: its clean actor authors a
+coherent projection and the public checker accepts every pair. The frozen exact
+gate nevertheless rejects it because the actor keeps both viable branching and
+prediction correction operative. That rejection reveals a deeper evaluator
+error. OT-0172's public consequence already shows viable branching at 3/3 on
+the harmed cases, while its renewed stake explicitly follows
+correction-from-error. Both are live before the unopened contact differentiates
+them.
+
+Do not make authority state an answer key. It should carry which possibilities
+still have standing at the subject's present position, including unresolved
+competition, while bound consequence removes or revises standing later. The
+next experiment should prospectively admit a coherent live-set hypothesis from
+public receipts, bind a choice without access to the new outcome, expose the
+chosen route to consequence, and then test whether a fresh actor can revise the
+authority state and improve a later choice. Score the transition through
+contact and revision, not pre-contact agreement with the observer's hidden
+winner.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
