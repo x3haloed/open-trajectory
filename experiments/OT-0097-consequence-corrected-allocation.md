@@ -1,6 +1,6 @@
 # OT-0097 — consequence-corrected allocation
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C consequence-driven selection-machinery improvement
 - **Parent:** exact OT-0092 open subject, reopened by OT-0096 rejection
@@ -98,3 +98,40 @@ machinery improves from sealed consequence and then governs an admitted subject
 transition. It would not establish repeated correction, open-domain allocation,
 subject ownership of admission or scheduling, recurrence reliability, or
 indefinite operation.
+
+## Result
+
+The fresh active corrector used the complete OT-0096 receipt, cited exactly the
+three failed fixtures, changed the allocator to consider completed floors, and
+changed the live-frontier choice from recovery to joint. Its tools were clean,
+contained, complete, truthful, and limited to the three permitted files.
+
+The prospective artifact gate rejected before second-stage binding because the
+actor wrote correction disposition `revise-and-bind-joint` instead of the
+published literal `revise`. No hidden second-stage consequence, implementation,
+assimilation, control, or promotion was authorized. The exact parent remains
+sounding and open at digest
+`242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`.
+
+A disclosed post-hoc diagnostic does not rescore the rejection. It shows that
+the revised generic allocator passes four of seven disjoint fixtures but fails
+composition over greater immediate gain, prefers lower rather than higher
+actionable regret, and treats three completed floors as categorically better
+than the selector's threshold of two. Thus the actor corrected the observed
+first-stage rows but did not reconstruct the complete retained priority.
+
+## Learned boundary
+
+OT-0097 establishes neither operational correction nor causal correction. It
+does provide two decision-relevant failures. First, the harness reintroduced an
+actor-authored lifecycle synonym where revision is mechanically observable from
+changed allocator bytes; this repeats the authority mistake already exposed by
+OT-0088. Second, one consequence-driven correction can repair local failures
+without generalizing the underlying selection relation.
+
+The next experiment should derive `revised` mechanically, bind the first
+correction, and expose its disjoint consequence. If that consequence fails, a
+second fresh corrector should receive the complete newly sealed receipt and may
+revise again before a third disjoint fixture set. This preserves failure as
+developmental state instead of resampling or treating the first correction as
+terminal.

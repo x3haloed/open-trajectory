@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-consequence-corrected-allocation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1500672,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6b25dcc952eed4db06f549fd1d3de841933f968",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0097",
+  "input_manifests": [
+    "evidence/manifests/OT-0096/typed-choice-self-allocation-aggregate.json"
+  ],
+  "kind": "consequence-corrected-allocation",
+  "limitations": [
+    "One bounded fresh correction rejected before second-stage binding on correction disposition vocabulary."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-consequence-corrected-allocation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8a8cef6ecc544fcb82e58e2874c6957d4651055dc5eeaf4944b64ad1dfa1deaf"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-corrected-allocation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4169,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6b25dcc952eed4db06f549fd1d3de841933f968",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0097",
+  "input_manifests": [
+    "evidence/manifests/OT-0096/typed-choice-self-allocation-aggregate.json"
+  ],
+  "kind": "consequence-corrected-allocation-result",
+  "limitations": [
+    "Post-hoc second-stage diagnostic is disclosed but does not rescore; implementation and control did not run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-allocation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "68258e0c60e7ca1e87cf447d1e7246d9eefff80b7cb5b9499c51db69dc98df46"
+}

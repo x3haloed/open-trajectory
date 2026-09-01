@@ -274,6 +274,21 @@ outcome-content-erased corrector should bound whether the consequence, rather
 than prompt or source alone, causes repair. Do not use replacement sampling or
 rescore OT-0096.
 
+OT-0097 made the first failure developmental. A fresh actor cited all three
+failed OT-0096 fixtures, added completed-floor priority, and changed the choice
+to joint. The prospective gate stopped because the actor wrote
+`revise-and-bind-joint` instead of the published `revise` literal. This is a
+reintroduced lifecycle-token error: allocator byte change already determines
+whether revision occurred.
+
+The more important post-hoc diagnostic is that the local repair passes only
+four of seven disjoint cases. It places expansion before composition, negates
+regret, and ranks raw floor count rather than the retained two-floor threshold.
+The next experiment should derive revision mechanically, seal the first
+generalization consequence, and—on failure—let a second fresh actor correct it
+before a third disjoint gate. The intended mechanism is iterative consequence
+correction, not single-turn reconstruction or favorable resampling.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -316,6 +331,9 @@ rescore OT-0096.
   all-string choice validator rejected natural typed facts before binding.
 - Typed choice now reaches hidden consequence; one-shot executable selector
   embodiment failed to carry the compositional preference reliably.
+- One fresh corrector repaired the observed allocator failures locally but did
+  not reconstruct the full priority on disjoint cases; correction itself must
+  acquire consequence continuity.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

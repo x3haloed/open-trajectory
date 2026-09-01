@@ -128,6 +128,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   binding, then rejects substantively. Its allocator omits the retained
   completed-floor composition preference, selects recovery by stable id, and
   fails three of five hidden fixture families. The exact parent remains open.
+- `OT-0097` gives that complete failure receipt to a fresh corrector. The actor
+  cites all three failures, adds completed-floor priority, and switches to
+  joint, but an actor-authored disposition synonym rejects before hidden
+  binding. Post hoc, the local repair still fails three of seven disjoint
+  fixtures. The parent remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -282,8 +287,11 @@ audit and exposed the next interface mismatch: natural Boolean/numeric choice
 facts were rejected by an undisclosed all-string validator. The next record
 publishes and enforces those objective types. OT-0096 then reaches the real
 mechanism boundary: one-shot selector embodiment is unreliable. The next record
-should turn the failed hidden allocator receipt into correction contact for a
-fresh actor and require generalization to a disjoint second fixture set.
+turns the failed hidden allocator receipt into correction contact. OT-0097 shows
+that a fresh actor does repair the observed cases but both reintroduced lifecycle
+vocabulary and shallow generalization stop promotion. The next record should
+derive revision mechanically and allow newly sealed generalization failure to
+cause a second correction before a third disjoint test.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
