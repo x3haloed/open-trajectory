@@ -1,6 +1,6 @@
 # OT-0202 — canonical stake compilation
 
-- **Status:** design frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** exact new-ID repair of OT-0201's incompatible successor compiler
 - **Parent:** exact OT-0199 open successor `08c877ff...`
@@ -28,3 +28,21 @@ Promotion again requires twelve clean fresh actors, active 6/6, controls at
 most 2/6, advantage at least four, exact renewal, canonical candidate, route
 16/16, identity 18/18, and an open successor. On passage install the renewal,
 active-01 contact and consequence, then open generalized mechanism invention.
+
+## Result
+
+Preflight reconstructs canonical candidate `e9a92b5d...`, confirms the exact
+stake key set, and successfully constructs the production OT-0184 downstream
+consumer seed. The fresh cohort passes active 6/6 versus control 0/6. All
+twelve audits, exact renewal, route 16/16, and identity 18/18 pass.
+
+Open successor `af704625...` installs the completed-pursuit assimilation,
+subject-authored `contactable-distinction` source and target expression,
+active-01 contact plus sealed consequence, and canonical active stake
+`contact-next-distinction`. Its direct opening is to invent and consequence-
+test a mechanism for the subject-authored `contactable-target` pursuit.
+
+This promotes one bounded transition from completed capability to an actor-
+chosen expansion of what the subject can perceive and pursue, with causal
+control over fresh successor contact. The new target's mechanism, utility under
+independent external contact, and recurrent renewal remain unestablished.

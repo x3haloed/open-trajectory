@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-target-language-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 573795,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1f26537cc7c3d23c54d4652a9070dcd994bd8510",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0202",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Open successor requests mechanism invention for the subject-authored contactable-target pursuit."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-target-language-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8377ec20a5094fd8c65dd298ab9387e10cdc1f73ee533844aa269cdbff781fcc"
+}

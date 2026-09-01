@@ -1,0 +1,31 @@
+{
+  "artifact_id": "canonical-stake-compilation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10832384,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1f26537cc7c3d23c54d4652a9070dcd994bd8510",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0202",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Promotes one bounded subject-authored target-language expansion; generalized mechanism invention and external usefulness remain open."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:canonical-stake-compilation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c36e20c597a445cdc3045331cec4cf6004e82a98852632af7349422cb22c560d"
+}

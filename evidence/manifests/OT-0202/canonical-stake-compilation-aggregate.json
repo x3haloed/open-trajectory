@@ -1,0 +1,31 @@
+{
+  "artifact_id": "canonical-stake-compilation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 199949,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1f26537cc7c3d23c54d4652a9070dcd994bd8510",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0202",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Fresh contact cohort passes 6/6 active versus 0/6 controls under suite-level novelty."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:canonical-stake-compilation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9239903476c495eaf75eea6fc24dfe9880c923ebf384a412d30b3cecc0415170"
+}

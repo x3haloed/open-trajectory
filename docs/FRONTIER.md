@@ -2226,3 +2226,23 @@ The new-ID repair must canonicalize the identifier during compilation, assert
 the exact active-stake key set, and exercise a production downstream stake
 consumer before actor authorization. Reuse the exact OT-0200 renewal proposal,
 suite-level evaluator, control, schedule, and gates only after that preflight.
+
+OT-0202 makes the canonical mapping and preflights the candidate through the
+production OT-0184 downstream stake consumer. Fresh contacts pass active 6/6
+versus erased controls 0/6. All twelve audits, canonical stake checks, route
+16/16, and identity 18/18 pass.
+
+Open successor `af704625...` is the first valid state in this chain that carries
+the subject's own expansion of its target language. It assimilates completed
+latent work, installs `contactable-distinction` as a new world source, binds the
+`contactable-target` expression and falsifiable contact contract, and opens
+generalized mechanism invention. The observer selected neither the semantic
+source nor the target expression.
+
+The frontier is now consequence-bearing use of that expansion. Start from the
+exact successor and let a fresh actor invent a scoped mechanism using the new
+source. Execute it on sealed active-01 contact, replay all inherited floors,
+and then expose it to independently varied contact whose source membership is
+not chosen to flatter the mechanism. Completion should return to pursuit
+renewal; failure should correct or surrender the authored distinction. Do not
+treat internal contactability alone as external usefulness.

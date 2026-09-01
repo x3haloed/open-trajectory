@@ -422,6 +422,10 @@ The strongest footholds are:
   control 0/6, but promotion is invalid. Its successor compiler emits
   `pursuit_id` where canonical stake machinery requires `stake_id`. Preserve
   the behavioral evidence; do not use successor `c0066270...`.
+- `OT-0202`: the canonical compiler repair passes active 6/6 versus controls
+  0/6, all audits and floors, and a real downstream stake consumer. Open
+  successor `af704625...` carries the subject-authored target-language
+  expansion and requests mechanism invention for that chosen pursuit.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

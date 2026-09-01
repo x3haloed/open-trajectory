@@ -1638,5 +1638,19 @@ established executable stake shape, and pass a real downstream stake consumer
 in preflight. Then repeat the unchanged 6+6 suite-level comparison with fresh
 actors.
 
+OT-0202 makes that exact repair. Canonical candidate `e9a92b5d...` passes a
+production downstream stake consumer before authorization. The fresh cohort
+then reaches active 6/6 versus control 0/6 with all twelve audits, suite-level
+novelty, route 16/16, and identity 18/18.
+
+Open successor `af704625...` carries a completed-pursuit assimilation and the
+subject's own new `contactable-distinction` source, executable target, success
+and surrender boundaries, active contact, and sealed consequence. The subject
+has therefore selected and made contactable a new direction without an
+observer choosing its semantic target. Next invent and directly execute a
+mechanism in the expanded source language. Then test that mechanism against
+independently varied contact before treating the new distinction as useful or
+renewing again.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
