@@ -430,6 +430,15 @@ test whether the subject can author a new contact interface plus executable
 public conformance contract, have independent authority admit it, and bind its
 use across a later actor ending.
 
+OT-0107 freezes the smallest exit test without overriding the subject's current
+opening. The exact OT-0106 joint binding must first cause another independently
+scored contact. Only the fresh successor action space widens: assimilation may
+bind either a registered contact or a new `registry-extension` pursuit. The
+operational transition can promote either valid choice; the prospective
+research prediction is that the subject exits the now-repeated two-interface
+alternation. A history-erased control runs only after an extension successor is
+sealed.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -487,13 +496,10 @@ use across a later actor ending.
 - The corrected assimilation promotes that whole chain, and the outcome-erased
   control does not reproduce it. Recurrence from the promoted subject and
   reduced dependence on researcher scheduling remain unestablished.
-- One normalized fixed-driver run now promotes two consecutive fresh
-  contact/assimilation cycles and ends with a subject-selected switch from joint
-  probing to allocator challenge. Cross-interface execution of that bound
-  switch remains unobserved.
-- The successor-selected allocator switch is now executed and promoted after
-  two fresh consequence corrections. The registry itself remains
-  researcher-authored and closed to subject-originated interface expansion.
+- A fixed-driver lineage now promotes three fresh contact/assimilation cycles,
+  including a successor-selected allocator switch completed after two
+  consequence corrections. The registry itself remains researcher-authored and
+  closed to subject-originated interface expansion.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
