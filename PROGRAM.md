@@ -1394,5 +1394,20 @@ adversarial slice where naive viable filtering admits unobserved options. This
 targets the remaining researcher-owned contact selector rather than adding
 another memory artifact.
 
+OT-0183 removes that favorable-contact choice. A fresh actor authors concrete
+contact whose public and renamed hidden variants falsify viable filtering and
+prediction correction while an evaluator-only semantic composition passes.
+Without seeing that control answer, the correction actor independently authors
+`options ∩ outcome − blocked`; the friendly-contact control retains existing
+machinery.
+
+The claim rejects at successor use. The inherited selector ignores the novel
+active-authority mechanism and chooses viable filtering, so active and control
+both score 0/4. The new expression itself passes 4/4, but it also cannot replace
+prediction correction globally on seven prior cases. Exact parent
+`40818aa8...` remains current. Next expose this selection failure and floor
+boundary to a fresh repair actor and require joint correction of mechanism
+scope and selection machinery, followed by mixed and prior-context reuse.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

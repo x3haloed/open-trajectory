@@ -1839,3 +1839,25 @@ both supportive and adversarial cases, and the world must be chosen only after
 the specification is bound. Compare against property-only compilation. A
 researcher-authored friendly mapping from label to world no longer counts as
 sufficient pursuit causality.
+
+OT-0183 crosses the contact-selection boundary but rejects the full machinery
+claim. The subject actor authors four cases that falsify viable filtering 3/4
+and prediction correction 1/4 on both public and renamed hidden contact. The
+withheld semantic composition passes 4/4. The active correction actor then
+independently authors the equivalent executable expression
+`options ∩ outcome − blocked`; the friendly-contact control retains its route.
+
+The inherited selector nevertheless chooses viable filtering in both branches,
+so both fail the common mixed world 0/4. The novel expression is also not a
+global replacement: it fails all seven prior prediction contexts because those
+worlds do not enumerate observed outcomes among options. Prediction correction
+remains operative, and exact parent `40818aa8...` stays open.
+
+The next dependency is joint development of mechanism and selection scope.
+Carry the exact authored contact, correction, successor-selection failure, and
+prior-floor results to a fresh repair actor. Let it change the selector,
+mechanism scope, pursuit, authority, or a coherent combination. Then require
+fresh selectors to choose the new composition on mixed contact, prediction
+correction on prior observation-led contexts, and viable filtering on prior
+blocked-option contexts. A lexical guide amendment or globally dominant new
+mechanism is insufficient.

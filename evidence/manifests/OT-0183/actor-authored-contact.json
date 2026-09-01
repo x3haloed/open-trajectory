@@ -1,0 +1,29 @@
+{
+  "artifact_id": "actor-authored-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 353,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "07bd8e4283a93c4d4bac98638c2531cb58dade20",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0183",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-authored-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "58951e9d0b884348d640ed31a1a64e8760c24c2b6ef6c52f134835278ab7528e"
+}

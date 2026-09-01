@@ -349,6 +349,10 @@ The strongest footholds are:
   cases, and the inherited floor 18/18. Both raw and delta branches retire the
   completed stake 4/4 and pass successor contact 4/4, so raw consequence is
   sufficient and open successor `40818aa8...` omits the noncausal delta.
+- `OT-0183`: a fresh subject actor authors contact that falsifies both installed
+  routes, and a correction actor invents the passing semantic composition. The
+  inherited selector ignores the novel mechanism and both branches score 0/4,
+  so the correction is retained as evidence but not installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

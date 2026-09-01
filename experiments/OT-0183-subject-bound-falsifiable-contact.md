@@ -1,6 +1,6 @@
 # OT-0183 — subject-bound falsifiable contact and machinery composition
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** complete; rejected at successor selection and no-regression gate
 - **Evidence class:** exploratory-only
 - **Target:** test whether the subject can choose contact that falsifies its
   current route, use that consequence to author a more general mechanism, and
@@ -97,3 +97,40 @@ part of the control. Passing establishes one bounded chain from subject-chosen
 falsification through machinery composition and later advantage. It does not
 establish recurrence across another uncurated contact or eliminate the fixed
 typed contact language and sealed compiler as remaining researcher structure.
+
+## Result
+
+All five fresh actors pass complete trace and contained-effects audit. The
+contact actor authors four concrete cases with both required boundaries. On
+both authored and renamed hidden variants, viable filtering passes only 1/4
+and prediction correction passes 3/4; the evaluator-only semantic composition
+passes 4/4. The property-only control passes its favorable world 3/3.
+
+The active correction actor receives no semantic-control answer and nonetheless
+authors `observed-unblocked-contact-corrector`, executable as
+`options ∩ outcome − blocked`. It gives that mechanism active authority while
+keeping viable branching and prediction correction operative. The control
+correction actor retains the exact parent machinery. This is bounded evidence
+that subject-chosen falsification changes machinery authorship.
+
+The complete causal claim fails downstream. The inherited selector ignores
+the newly active mechanism and chooses viable branching in the active branch;
+both active and control branches therefore score 0/4 on the common mixed world.
+The authored expression itself would score 4/4 there, but component quality
+cannot substitute for successor use.
+
+The authored expression also scores 0/7 when applied globally to the prior
+prediction-correction floors because those earlier regimes do not place
+observed outcomes inside the option enumeration. This does not erase those
+floors—the actor kept prediction correction operative—but it shows that the
+new mechanism needs a contextual scope rather than global replacement.
+
+No correction or mechanism is installed. Exact open parent
+`40818aa8c898da506378ab82ddebe6682c5edc8b524f5e1bb2025bb391cf2747`
+remains current. The next experiment should carry the exact contact,
+actor-authored mechanism, authority projection, selection failure, and floor
+results to one fresh repair actor. It may revise selector machinery, mechanism
+scope, pursuit, or authority. A later fresh selector must choose the composed
+mechanism on mixed contact while still routing prior prediction and viable
+contexts to their retained mechanisms. This targets joint development of a
+novel operation and the machinery that knows when to use it.
