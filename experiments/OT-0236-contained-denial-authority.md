@@ -1,6 +1,6 @@
 # OT-0236 — contained-denial authority
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0234 subject `053ed81d...`
 - **Fresh actors:** zero
@@ -20,4 +20,12 @@ prospective consequence. Operational parent state must remain unchanged.
 
 ## Result
 
-Not yet run.
+G10 scores 11/11, preserves all eight hard anchors, and improves the
+denial-specific cases from 2/3 to 3/3. The exact OT-0235 event trace classifies
+the denied side effect as an incidental runtime-cache attempt with mechanically
+contained effects.
+
+OT-0235 remains rejected. Exact successor `ad47d3bb...` changes no operational
+contact, phase, or pending state; it installs G10 and retains the exact correction
+candidate as eligible but unadmitted. The next experiment may open prospective
+consequence without resampling an actor.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contained-denial-authority-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5334,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c335aea11aaeb58d9f1473b816a296887e352eb0",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0236",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Synthetic held-out authority transition plus one retained macOS toolchain-denial classification; broader denial provenance families remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contained-denial-authority-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e46a2be54207e8f4ec11df94534948ff3d4cce5244e30f29ffba1a779afd6d6d"
+}

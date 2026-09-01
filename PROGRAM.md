@@ -2107,5 +2107,19 @@ must retain rejection for outside mutations, protected access, traversal,
 suspicious commands, incomplete traces, or ambiguous denial evidence. Only then
 may the exact retained candidate receive prospective consequence.
 
+OT-0236 promotes G10 at that boundary. It scores 11/11, preserves all eight hard
+anchors, and improves the denial-specific cases from 2/3 to 3/3. The retained
+OT-0235 event trace supports `incidental-runtime-cache-denied`: the sandbox
+successfully denied the toolchain cache attempts while exact effects, complete
+trace, no-traversal paths, no suspicious commands, and no outside mutations all
+remain mechanically established.
+
+Exact successor `ad47d3bb...` does not alter the pending contact or operational
+phase. It keeps OT-0235 rejected, installs G10 prospectively, and carries the
+exact correction source and decision as eligible but unadmitted. The next
+experiment should open a new follow-up world on that candidate without another
+actor; admission still requires 6/6 versus unchanged 2/6 and exact installation
+inside the actor-authored extension.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

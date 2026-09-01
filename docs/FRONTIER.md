@@ -2718,3 +2718,17 @@ hard rejection of outside effects, traversal, protected access, suspicious
 commands, incomplete traces, or uncertain denial provenance. OT-0235 must not be
 rescored or resampled; a qualifying retained candidate may receive a newly
 opened prospective world only after that rule passes frozen controls.
+
+OT-0236 promotes that rule as G10. The challenger scores 11/11, preserves all
+eight hard anchors, and improves denial-specific handling from 2/3 to 3/3. It
+accepts only classified `incidental-runtime-cache-denied` events when exact
+effects, complete trace, accepted no-traversal paths, no suspicious commands,
+no protected access, and no outside effects all hold. Ambiguous denial evidence
+still rejects.
+
+Exact successor `ad47d3bb...` preserves OT-0235's rejection and every
+operational field while carrying its exact candidate as eligible but unadmitted.
+The frontier is now prospective consequence without actor resampling. Rebuild
+the outward environment from exact subject state, compare the retained patch on
+six new cases against unchanged 2/6, and install it only on a decisive 6/6
+result. The inherited registry must remain unchanged.

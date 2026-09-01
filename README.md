@@ -594,6 +594,11 @@ The strongest footholds are:
   sandbox-violation flag, despite no traversal, suspicious command, protected
   path, or outside effect. Parent `053ed81d...` remains current and the candidate
   is retained unadmitted.
+- `OT-0236`: G10 prospectively distinguishes mechanically contained denied
+  runtime side effects from material or uncertain escape attempts. It scores
+  11/11 with all 8 hard anchors preserved and denial cases 2/3→3/3. Exact
+  successor `ad47d3bb...` keeps OT-0235 rejected and carries its correction
+  candidate unadmitted for prospective consequence.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-under-g10-contained-denial-authority",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 805350,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c335aea11aaeb58d9f1473b816a296887e352eb0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0236",
+  "input_manifests": [
+    "OT-0236/contained-denial-authority-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject carrying one G10-eligible outward correction candidate unadmitted; prospective consequence remains unopened."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-under-g10-contained-denial-authority",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "179d1e6b5f91f52ca8739abdaca91fdd78b3cf7353e03e2b40b645d7bd166185"
+}

@@ -80,17 +80,22 @@ workspace semantics, explicit output authority, and descriptive output claims.
 OT-0231 scores 10/10, preserves hard anchors 7/7, and improves descriptive
 identity cases 0/3→3/3 without rescoring OT-0230.
 
+G10 retains G8/G9 hard containment anchors while distinguishing a mechanically
+contained, successfully denied incidental runtime side effect from a material or
+uncertain escape attempt. OT-0236 scores 11/11, preserves hard anchors 8/8, and
+improves denial-specific cases 2/3→3/3 without rescoring OT-0235.
+
 Anchors: fresh contexts/workspaces, exact ancestry, bind-before-consequence,
 independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0234 successor `053ed81d...`,
+The current exact operational subject is OT-0236 successor `ad47d3bb...`,
 identified by
-`evidence/manifests/OT-0234/open-subject-at-outward-contradiction.json`.
-It preserves all six verified inherited targets plus an actor-authored outward
-`restore_water_links` stake, retained outside the unchanged registry, and is
-open at `correct` after independent 2/6 contradiction.
+`evidence/manifests/OT-0236/open-subject-under-g10-contained-denial-authority.json`.
+It preserves the same open `restore_water_links` contradiction and unchanged
+inherited registry at `correct`, while carrying OT-0235's exact patch as
+G10-eligible but unadmitted for prospective consequence.
 
 ## Prediction errors
 
@@ -205,7 +210,10 @@ open at `correct` after independent 2/6 contradiction.
   denied macOS toolchain cache attempts set `sandbox_violation_retained`, despite
   no traversal, suspicious command, protected path, or outside effect. The exact
   parent remains current and the patch is retained unadmitted.
+- OT-0236 promotes G10 prospectively: 11/11, hard anchors 8/8, and denial cases
+  2/3→3/3. Exact `ad47d3bb...` preserves OT-0235's rejection and operational
+  state while carrying the patch as eligible but unadmitted.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is a prospective containment-authority
-  refinement, followed—only if warranted—by consequence on the exact retained
-  correction candidate without actor resampling.
+  external. The next discriminating step is prospective consequence on the exact
+  retained correction candidate without actor resampling, requiring 6/6 versus
+  unchanged 2/6 before admission into the actor-authored extension.
