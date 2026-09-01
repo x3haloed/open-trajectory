@@ -3,11 +3,11 @@
   "availability": {
     "local_object": true
   },
-  "bytes": 108,
+  "bytes": 1226,
   "environment": {
     "architecture": "arm64",
     "git": {
-      "commit": "c1d08290fed039567dc727aca2af37609ad18d9d",
+      "commit": "9a28f6fd9ba0751c0a4f500fd5db618bb785edff",
       "dirty": true
     },
     "os_family": "Darwin",
@@ -25,5 +25,5 @@
     "recipe": null
   },
   "schema_version": 1,
-  "sha256": "58feac0af4d83636891abcfef59e7aeebfa22e5f7186e7280d36c3b69ce2f644"
+  "sha256": "29585b5ba0dd0cb0cf84a7959e182f7cf020f012e8f73c38f1e9d2db7fbe8cc9"
 }
