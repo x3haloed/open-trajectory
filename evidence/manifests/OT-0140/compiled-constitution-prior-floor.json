@@ -1,0 +1,33 @@
+{
+  "artifact_id": "compiled-constitution-prior-floor",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3393,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8c84b54eb0b79467b09b505fcb15e67ab2fa0407",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0140",
+  "input_manifests": [
+    "evidence/manifests/OT-0139/open-subject-with-retained-q16-failure.json"
+  ],
+  "kind": "world-receipt",
+  "limitations": [
+    "Exact q8 no-regression receipt for the compiled OT-0139 program; OT-0140 observer failure prevented installation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:compiled-constitution-prior-floor",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ec00deeb7493acb3496c256ba8aca9db82378eabfc0e9b4accc4bad75a8a38d6"
+}
