@@ -1044,5 +1044,18 @@ success conditions while retaining property compatibility as one signal, bind
 before hidden consequence, and compare the unchanged property-only selector
 only after sealing a corrected successor.
 
+OT-0158 obtains a clean public-valid selector but rejects before binding. One
+fresh actor changes only `selector.py`; in its actual workspace the source
+passes all four public portfolios and preserves inputs. Independent loading
+returns no callable because the source imports `re`, while the frozen evaluator
+forbids all imports and the actor-visible contract never publishes that grammar.
+
+No hidden portfolio opens and the exact OT-0156 subject remains current. This is
+an apparatus ABI mismatch, not negative selector evidence. Preserve the exact
+source. The next record should change only the evaluator boundary to admit the
+exact `re` import through a constrained importer, reconstruct the same public
+result without a new actor, bind, then score the still-sealed six hidden
+portfolios and unchanged property-only control.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

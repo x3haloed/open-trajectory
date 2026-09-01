@@ -1323,6 +1323,23 @@ unchanged property-only control. Promotion must install selector machinery that
 later routes the current stake to the corrected extension while retaining
 ordinary reset selection where its endpoint is actually sufficient.
 
+OT-0158 rejects before binding but preserves an exact candidate. A fresh actor
+authors a selector that passes public 4/4 in its workspace, uses capability
+phrases as dependency overrides, and retains property routing as the default.
+Its trace and effects are clean.
+
+The independent evaluator returns no callable because the source contains
+`import re`. All imports were forbidden by an unpublished runtime restriction;
+the actor-visible checker tested only function presence. No hidden portfolio
+opens and the exact subject remains unchanged. Treat this as an apparatus ABI
+failure, not selector evidence.
+
+The next record should admit only the exact `re` import through a constrained
+importer, reconstruct the retained source and public 4/4 without another actor,
+bind it, and run the still-sealed hidden 6-case comparison. Preserve every
+portfolio, candidate description, score, old-selector control, and promotion
+gate from OT-0158.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

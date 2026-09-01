@@ -247,6 +247,10 @@ The strongest footholds are:
   stake whose substantive endpoint requires the corrected extension and its
   floor. Reset passes transport but fails the endpoint; the retained extension
   passes every requirement.
+- `OT-0158`: a fresh actor authors a selector that passes all four public
+  portfolios locally, but independent binding rejects its undisclosed `re`
+  import before execution. No hidden portfolio opens and the subject is
+  unchanged.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

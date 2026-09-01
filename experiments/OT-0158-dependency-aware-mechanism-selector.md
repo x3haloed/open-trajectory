@@ -42,3 +42,22 @@ sounding and open.
 Passing would establish one corrected dependency-aware mechanism selector. It
 would not establish exact later reuse, consequence-driven revision after later
 selector harm, or open-ended candidate discovery.
+
+## Result
+
+The run rejected before binding or hidden consequence. The fresh actor changed
+only `selector.py`, passed complete trace and effects audit, and truthfully
+reported public 4/4 from its workspace. Its selector used exact capability
+phrases as substantive override evidence while preserving property routing as
+the default.
+
+Independent loading returned no callable because the source contains
+`import re`. The frozen evaluator prohibited every import and omitted
+`__import__`, but the actor-visible checker required only function presence and
+the prompt did not disclose a no-import source grammar. This is an apparatus ABI
+failure, not evidence against the selector's public behavior.
+
+No binding exists, no hidden portfolio opened, and the exact OT-0156 subject
+remains current. Preserve the exact selector source. The next record should
+admit only its `re` import under a constrained importer, reconstruct public
+results without another actor, and run the still-sealed hidden portfolios.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-public-valid-selector-source",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1604,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3c7884cf6c0ef8d360f11040a55d4ce64edd0659",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0158",
+  "input_manifests": [
+    "evidence/manifests/OT-0157/property-only-selection-falsifier-aggregate.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Exact clean actor source passed public portfolios in its workspace but was not bound because the independent evaluator forbade its undisclosed `re` import."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:exact-public-valid-selector-source",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "64bbbf05603bf23e47678d6d11b24de62619a8fcc5b7653c1a12c0cf5663f518"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "dependency-aware-mechanism-selector-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5699,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3c7884cf6c0ef8d360f11040a55d4ce64edd0659",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0158",
+  "input_manifests": [
+    "evidence/manifests/OT-0157/property-only-selection-falsifier-aggregate.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Invalid selector endpoint under an apparatus ABI mismatch; no hidden portfolios opened and subject unchanged."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:dependency-aware-mechanism-selector-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6ae187d4bc219e50dff581ed9dce76f694ebf9408f591a9d34e64d438a9572fa"
+}
