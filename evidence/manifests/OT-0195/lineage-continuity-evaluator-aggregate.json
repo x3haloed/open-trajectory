@@ -1,0 +1,31 @@
+{
+  "artifact_id": "lineage-continuity-evaluator-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 249535,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "22e950eb749b5ec0639083f436ffdb3360704736",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0195",
+  "input_manifests": [],
+  "kind": "aggregate-result",
+  "limitations": [
+    "Bounded fresh-actor comparison under a synthetic world grammar."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:lineage-continuity-evaluator-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ebd224bbf8724d39efb80f64afc5b50bf8d78d9f210ae3939fb6413a1e25ae9f"
+}

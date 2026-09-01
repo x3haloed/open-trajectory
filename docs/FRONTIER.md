@@ -2079,3 +2079,25 @@ does not satisfy either branch. Freeze this rule for a new held-out cohort and
 retain both prior rejections. If it passes decisively, install the corrected
 direct subject and the first actor-authored sealed contact, then use that
 contact—not another evaluator repair—as the next recurrence input.
+
+OT-0195 passes that prospective test. `E0195` scores active 6/6 versus control
+1/6, advantage five; the retained exact-stake comparator scores 6/6 versus 0/6.
+All twelve audits, deterministic transition replay, route floor 16/16, and
+identity 18/18 pass. Open successor `7346933d...` installs the direct pursuit
+transition, active evaluation epoch, actor-authored reopening, and sealed next
+contact.
+
+The promoted contact is consequential rather than confirmatory. Active-01
+predicts `viable-branch-carrier`; hidden contact falsifies it 0/4, while
+`observed-unblocked-contact-corrector` passes 4/4. Its contact ID and short
+rationale retain immaterial template wording, but the changed cases, stake
+rationale, hypothesis, hidden transformation, and mechanism split are genuine.
+
+The frontier is now the second recurrence update. Start from exact successor
+`7346933d...`; evaluate its inherited executable pursuit predicates against the
+retained OT-0195 contact, bind the resulting operation directly, and preserve
+all earlier floors. Determine mechanically whether the current route already
+selects the survivor for this contact or whether the subject must add a
+non-regressing distinction. Do not insert another successor vote between the
+predicate receipt and state transition, and do not reopen evaluator design
+unless the new consequence contradicts it.

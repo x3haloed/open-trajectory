@@ -1552,5 +1552,17 @@ exact target retention or valid revision from the actor's current stake that
 preserves the live property and opens targeted discriminating contact. Validate
 that rule on another held-out cohort; do not retroactively promote OT-0194.
 
+OT-0195 validates that rule prospectively. Lineage continuity passes 6/6 active
+versus 1/6 controls, while the exact-stake comparator is 6/6 versus 0/6. All
+actors and old floors pass. Open successor `7346933d...` carries the corrected
+direct transition, evaluation epoch `E0195`, and active-01's sealed next contact.
+
+That contact predicts `viable-branch-carrier`; hidden consequence kills it 0/4
+while `observed-unblocked-contact-corrector` passes 4/4. The next dependency is
+now recurrence rather than another continuity evaluator. Resolve this exact
+retained consequence through the subject's inherited executable pursuit
+predicates, preserve every prior route floor, and bind the resulting operation
+directly before opening later contact.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

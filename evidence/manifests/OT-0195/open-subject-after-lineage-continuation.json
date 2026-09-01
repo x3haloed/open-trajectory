@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-lineage-continuation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 530506,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "22e950eb749b5ec0639083f436ffdb3360704736",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0195",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Promoted bounded subject; second consequence-driven update remains unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-lineage-continuation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6b4384ad4dfb857c385d130bba63a950a769f5425a3e524efc7fa4d4e86c9af7"
+}

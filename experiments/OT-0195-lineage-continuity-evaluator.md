@@ -1,6 +1,6 @@
 # OT-0195 — lineage continuity evaluator
 
-- **Status:** design frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** validate pursuit continuity as exact retention or
   consequence-grounded revision of the live lineage, without rewarding stale
@@ -53,3 +53,28 @@ Passing establishes one direct pursuit transition whose unresolved lineage
 causes fresh successor contact without requiring verbatim stake repetition.
 It does not establish a second update; the promoted sealed consequence must be
 resolved next under fixed machinery.
+
+## Result
+
+`E0195` passes the complete prospective gate: active 6/6 versus control 1/6,
+advantage five. The retained `E0194` comparator is active 6/6 versus control
+0/6. All twelve actors pass complete audit, the corrected direct transition
+replays exactly, the installed route remains 16/16, identity remains 18/18,
+and no global future-mechanism authority is introduced.
+
+Open successor `7346933d...` installs evaluation epoch `E0195`, the direct
+pursuit transition, active-01's reopening, and its sealed hidden consequence.
+The actor retains stake `discover-latent-unblocked-contacts` and predicts
+`viable-branch-carrier`. Hidden contact falsifies that mechanism 0/4 while
+`observed-unblocked-contact-corrector` passes 4/4. This retained contradiction
+is the required input to cycle two.
+
+Active-01 leaves immaterial template wording in `contact_id` and the short
+contact rationale. Its four cases, stake rationale, routing hypothesis, hidden
+transformation, discriminating mechanism split, exact mutation, and audit are
+substantive; disclose the residue without invalidating the comparison.
+
+Next resolve the sealed consequence from the promoted subject. Apply inherited
+executable pursuit predicates first, then determine whether the installed route
+already owns the surviving mechanism for this contact or needs a non-regressing
+distinction. Do not ask another actor to reselect the completed OT-0195 stake.

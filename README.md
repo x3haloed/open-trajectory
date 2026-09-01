@@ -393,6 +393,10 @@ The strongest footholds are:
   one miss is a world-grounded refinement of the carried stake, not pursuit
   loss. The prospective gate rejects, and OT admits that continuity must allow
   coherent stake revision rather than demand exact repetition.
+- `OT-0195`: the prospective lineage evaluator passes 6/6 active versus 1/6
+  controls. Open successor `7346933d...` installs the direct pursuit transition
+  and an actor-authored next contact whose prediction is then falsified 0/4;
+  the surviving alternative passes 4/4 and remains open for cycle two.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

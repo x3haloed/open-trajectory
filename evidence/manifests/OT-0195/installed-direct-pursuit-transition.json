@@ -1,0 +1,31 @@
+{
+  "artifact_id": "installed-direct-pursuit-transition",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 616,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "22e950eb749b5ec0639083f436ffdb3360704736",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0195",
+  "input_manifests": [],
+  "kind": "derived-transition-receipt",
+  "limitations": [
+    "Deterministic transition from retained bounded receipts."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:installed-direct-pursuit-transition",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4321edd41734c24eea1e97cd36a93fbe6a6c770de98780f168423938fbcd1913"
+}
