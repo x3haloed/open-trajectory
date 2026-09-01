@@ -85,11 +85,11 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0231 successor `9a9c49cc...`,
+The current exact operational subject is OT-0232 successor `dd0bac4e...`,
 identified by
-`evidence/manifests/OT-0231/open-subject-under-g9-output-authority.json`. It is
-open at `assimilate`, preserves two correction cycles, and carries the sole
-remaining contact as G9-eligible but unadmitted content.
+`evidence/manifests/OT-0232/open-subject-at-final-registry-contradiction.json`.
+It contains all six registry targets, preserves two correction cycles, and is
+open at `correct` on unresolved `allocate_backup_power`.
 
 ## Prediction errors
 
@@ -188,6 +188,9 @@ remaining contact as G9-eligible but unadmitted content.
 - OT-0231 resolves that authority error prospectively. G9 passes 10/10 and
   retains the qualified-consistent OT-0230 decision inside exact `9a9c49cc...`
   without altering the rejection or opening hidden consequence.
+- OT-0232 binds that retained contact under G9 without another actor. Independent
+  2/6 consequence yields exact `dd0bac4e...`, with every registry target now in
+  the ledger and the last one unresolved.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is consequence on the retained
-  sole-target decision without actor resampling.
+  external. The next discriminating step is final-target correction reuse and
+  then the all-target saturation dispatch.

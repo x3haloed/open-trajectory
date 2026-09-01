@@ -2056,5 +2056,12 @@ Exact successor `9a9c49cc...` keeps OT-0230 rejected and carries its contact as
 unadmitted content. The next experiment may open prospective consequence without
 resampling the actor.
 
+OT-0232 opens that consequence without another actor. The retained contact
+passes G6, routes G7 contact, and receives independent 2/6 contradiction. Exact
+successor `dd0bac4e...` now contains all six registry targets and dispatches
+`correct` on `allocate_backup_power`. Reuse correction once more; after admission,
+the decisive boundary is whether all-target local verification routes outward
+rather than returning to parameter repetition.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

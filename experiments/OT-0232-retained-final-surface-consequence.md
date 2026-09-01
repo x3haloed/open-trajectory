@@ -1,6 +1,6 @@
 # OT-0232 — retained final-surface consequence
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact G9 subject `9a9c49cc...`
 - **Actor budget:** none; OT-0230 actor must not be resampled
@@ -20,4 +20,9 @@ target substitution, or historical rescore is permitted.
 
 ## Result
 
-Not yet run.
+The retained contact reconstructs, binds under G9, passes G6 with four new
+inputs, and routes G7 `contact` without another actor. Public contact remains
+4/4; independent consequence is unresolved at 2/6. All gates pass. Exact
+successor `dd0bac4e...` contains all six registry targets, marks
+`allocate_backup_power` unresolved, remains open, and dispatches `correct`.
+Receipt `0e648346...` promotes the bounded claim while OT-0230 stays rejected.

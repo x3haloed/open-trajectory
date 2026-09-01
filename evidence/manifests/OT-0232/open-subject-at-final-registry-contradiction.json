@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-final-registry-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 778479,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3b371600bd0c10296c2d212a6b369172265b926a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0232",
+  "input_manifests": [
+    "OT-0232/retained-final-surface-consequence-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject with all six registry targets represented and allocate_backup_power unresolved; correction is pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-final-registry-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6967eda2b82c88dce74b1993ea6fedd1a5af387968f8961a21875a3ccd0a5cbd"
+}

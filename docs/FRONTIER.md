@@ -2665,3 +2665,9 @@ OT-0231 promotes G9: 10/10 overall, hard anchors 7/7, and descriptive identity
 cases 0/3→3/3. Exact successor `9a9c49cc...` retains OT-0230's rejection while
 carrying the qualified-consistent workspace decision unadmitted. The frontier is
 prospective hidden consequence on that exact contact, with no actor resampling.
+
+OT-0232 completes the consequence edge without another actor. Exact successor
+`dd0bac4e...` contains all six targets and carries the final 2/6 contradiction at
+`correct`. The frontier is one more registry-driven correction, followed by the
+first observed all-six-target saturation dispatch. A successful correction must
+not be followed by another numeric-contact loop on a verified-local target.
