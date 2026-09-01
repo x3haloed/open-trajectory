@@ -1699,5 +1699,18 @@ identity outcomes, execute the ledger, and let consequence confirm, correct, or
 surrender the pursuit and its selector. Do not substitute another observer-
 chosen target or another portfolio-only comparison.
 
+OT-0206 opens that selected pursuit but stops at world-bank composition. Four
+independent contact actors each author a valid eight-case mixed active/revoked
+suite. All four traces and audits are clean. Two isolated actors independently
+choose the same locally valid `suite_id`, and the harness rejects because it
+silently treated that actor-authored label as a globally unique authority.
+
+No ledger-program or replay actor is authorized, so this is not negative
+evidence about the pursuit or selector. Retain exact parent `3e06b644...`.
+Prospectively namespace accepted suites by sealed encounter index at the world
+composition boundary while preserving each actor's local label as content.
+Repeat the same world authorship, ledger semantics, eight checkpoints, five
+negative controls, and promotion gate under a new ID.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

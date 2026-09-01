@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-parent-after-ledger-apparatus-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 604552,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9a0d260218799007c02630983691fb9c55288c8e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0206",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact OT-0205 parent retained after local suite labels collided across isolated world actors."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-parent-after-ledger-apparatus-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "94672fd46a15caaf98313f098e5c30f396315ad9e6c08cd7608715fe59331709"
+}

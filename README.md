@@ -440,6 +440,11 @@ The strongest footholds are:
   `3e06b644...` installs the selector and its selected contact-correction-ledger
   pursuit, which now requires independent consequence rather than more
   selection-only evidence.
+- `OT-0206`: four independent contact actors pass cleanly, but the run rejects
+  before ledger authorization because two isolated actors choose the same valid
+  local suite label and an unpublished global-uniqueness condition rejects the
+  bank. Exact parent `3e06b644...` remains open pending prospective
+  observer-owned encounter namespacing.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

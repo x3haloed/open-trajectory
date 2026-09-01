@@ -2315,3 +2315,24 @@ Success may retain the selector. Contradiction must be able to correct or
 surrender the selector and selected pursuit without erasing the lineage's
 earlier earned floors. A portfolio-only comparison cannot answer this next
 question.
+
+OT-0206 attempts that world contact. Four fresh world actors each pass the
+actor-visible suite checker and complete clean audits. The run stops before any
+ledger program is authorized because contact actors one and four independently
+use the same valid local `suite_id`. The frozen harness additionally requires
+global suite-id uniqueness, but no isolated actor can see another actor's label
+and no actor-visible contract assigns it global naming authority.
+
+Expected: four individually valid independent suites would compose into one
+sealed bank. Observed: all four are valid, but two local labels collide.
+Uncertain: resolved at the apparatus boundary—the evaluator incorrectly used
+actor-local content as global identity. Evidence: OT-0206 aggregate
+`208de887...`; all four `accepted` fields and audits pass, while checkpoint one
+alone prevents later authorization.
+
+Retain exact parent `3e06b644...`; no selected-pursuit behavior has yet been
+observed. The prospective repair is mechanical: at sealing, assign each suite
+an observer-owned encounter namespace and retain the actor's `suite_id` as
+local content. Freeze the namespace conformance fixture before fresh actors and
+rerun every other OT-0206 condition unchanged. Do not retroactively compose or
+promote the existing run.

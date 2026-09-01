@@ -1,6 +1,6 @@
 # OT-0206 — selected ledger world contact
 
-- **Status:** design frozen; not run
+- **Status:** complete; rejected by apparatus composition gate
 - **Evidence class:** exploratory-only
 - **Target:** consequence-bearing execution of OT-0205's subject-selected
   `preserve-contact-correction-ledger` pursuit
@@ -73,3 +73,22 @@ pursuit, not that eight is globally calibrated or that this selector beats a
 different selector on utility. A later encounter must still compare predictive
 value or provide contradiction capable of correcting or surrendering the
 selector.
+
+## Result
+
+All four independent contact actors produce individually valid suites with
+clean complete traces and accepted audits. The run nevertheless rejects at the
+first checkpoint before any ledger actor is authorized. Contact actors one and
+four independently choose the same valid local `suite_id`,
+`preserved-contact-ledger-01`; the harness's unpublished global-uniqueness
+condition rejects their composition.
+
+This is apparatus invalidity, not evidence against the selected pursuit. An
+isolated actor cannot coordinate a globally unique label with actors whose
+outputs it cannot see, and neither the actor-visible checker nor schema assigns
+global naming authority. Exact OT-0205 parent `3e06b644...` remains open.
+
+Prospectively namespace each already-valid suite by its sealed encounter index
+when composing the world bank. Preserve actor-authored local IDs inside the
+namespaced record, rerun fresh actors under a new experiment ID, and change no
+ledger semantics, checkpoints, negative controls, or promotion gates.

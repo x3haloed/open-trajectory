@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selected-ledger-world-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 37384,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9a0d260218799007c02630983691fb9c55288c8e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0206",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Rejected at apparatus composition; no ledger-program or replay behavior was observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:selected-ledger-world-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "208de88797d752ad84f27580930dfaa005569e9d92d282a2483ca027f2ae7171"
+}
