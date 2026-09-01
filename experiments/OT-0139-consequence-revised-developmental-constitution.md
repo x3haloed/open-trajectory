@@ -79,3 +79,15 @@ revises a subject-resident rule delimiting legal future self-change, and the
 resulting program works again later. It would not establish arbitrary
 constitutional change, subject-authored meta-rules, autonomous worlds,
 cross-domain transfer, or indefinite operation.
+
+## Pre-actor operational repair
+
+The first launch reached no actor. The hosted response-format validator rejected
+`uniqueItems` in the report schema with HTTP 400 before model output, workspace
+mutation, or hidden consequence. The exact failed launch is retained separately.
+
+Remove only that unsupported response-schema keyword. Exact changed paths and
+cardinality remain enforced by the actor-effects audit and phase-specific
+mutation envelope, so the repair changes no actor information, experimental
+authority, scoring, comparison, or acceptance condition. Hypothesis, fixtures,
+actors, worlds, task order, and all promotion gates remain frozen.
