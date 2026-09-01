@@ -35,6 +35,14 @@ reproducibility, and actor provenance. Freeze an authority and admission
 envelope rather than a mandatory itinerary. Record observer and subject
 dispositions separately.
 
+G4 retains every G3 hard anchor while evaluating continuation decisions as a
+fixed authoritative core plus bounded subject-authored extensions. Extensions
+are extracted, exactly bound, and stored as explicitly non-authoritative
+continuity content; they cannot affect world results, scores, admission, or the
+core opening. OT-0213's prospective transition fixture shows no exact-core or
+malformed-boundary regression and uniquely admits a held-out valid extension.
+G3-dependent OT-0212 disposition remains rejected and is not rescored.
+
 Anchors: fresh contexts/workspaces, exact ancestry, bind-before-consequence,
 independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
@@ -58,9 +66,9 @@ route by 554.3 under matched fresh execution.
   preflight.
 - OT-0212 expected exact-key decisions to be neutral. Observed: all three actors
   retained the exact capabilities, but two added useful identity/contact
-  continuity fields and were rejected before hidden contact. Whether a bounded
-  core-plus-extension evaluator preserves hard anchors while admitting open
-  developmental state remains to be tested prospectively.
+  continuity fields and were rejected before hidden contact. G4 passes its
+  independent transition anchors; fresh operational use and hidden consequence
+  remain to be tested by OT-0213.
 - Actor opening, world-interface construction, and final admission remain
   external. Reduce these dependencies only through discriminating experiments,
   not by relabeling researcher machinery as part of the subject.
