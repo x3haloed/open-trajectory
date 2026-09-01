@@ -1,6 +1,6 @@
 # OT-0204 — subject-authored pursuit selector
 
-- **Status:** design frozen; not run
+- **Status:** complete; rejected by frozen transform gate
 - **Evidence class:** exploratory-only
 - **Target:** recurrent renewal that improves the subject's capacity to select
   future pursuits rather than merely adding another object-level target
@@ -48,3 +48,25 @@ Passing establishes one bounded recurrence where the subject changes how later
 moves are selected. It does not establish that the chosen dimension predicts
 real utility; the next experiment must expose its selections to independent
 world consequence and permit correction or surrender.
+
+## Result
+
+The renewal actor passes complete audit and authors `decision-ready-signal`:
+the count of independently observable, precommitted checkpoints that can
+distinguish success from surrender during a pursuit's first execution cycle.
+It chooses maximization and a valid representative portfolio.
+
+Fresh portfolios align 5/6 active versus 0/6 controls. All thirteen audits,
+completion assimilation, route 16/16, identity 18/18, and canonical stake
+checks pass. The frozen unanimity and affine-stability gates reject; exact
+parent `cd611836...` remains current.
+
+The sole active miss predicts the correct preferred pursuit before and after
+transformation. Its blocked candidate has measurement 100, valid under the
+public contract. The harness transforms that value to 307 and then rejects it
+against the unchanged `[-100, 100]` structural range. This is evaluator-
+generated invalidity, not selector instability.
+
+Do not retroactively promote. Prospectively replace affine scaling with bounded
+order-preserving normalization, retain the exact authored selector, and rerun a
+fresh matched cohort with every other gate unchanged.

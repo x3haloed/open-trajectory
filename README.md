@@ -430,6 +430,10 @@ The strongest footholds are:
   inventors run. Every inventor generalizes 27/27; observed and viable
   baselines score 0/27 and latent 1/27. Open successor `cd611836...` carries
   completion and returns the subject to self-directed renewal.
+- `OT-0204`: a fresh actor authors `decision-ready-signal` to improve pursuit
+  selection. Portfolios align 5/6 active versus 0/6 controls, but the frozen
+  transform turns one valid blocked score of 100 into invalid 307. Preserve the
+  rejection and exact parent pending a bounded prospective transform.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

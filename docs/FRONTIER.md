@@ -2269,3 +2269,23 @@ capacity to select future moves—such as making the value, cost, uncertainty, o
 reversibility of candidate pursuits contactable—and then causally constrain
 fresh successors. The observer may enforce nonrepetition and world contact but
 may not choose which such dimension matters.
+
+OT-0204's renewal actor chooses `decision-ready-signal`: the number of
+independently observable, precommitted first-cycle checkpoints that distinguish
+success from surrender. This is a selection-level property, not another option
+partition. Its executable selector maximizes that dimension while excluding
+blocked pursuits and preserving tied extrema.
+
+The downstream result is active 5/6 versus erased control 0/6. All thirteen
+audits, exact completion, route 16/16, identity 18/18, and canonical stake
+checks pass, but the frozen gate rejects. Active-06 selects the same pursuit
+before and after transformation; its blocked candidate's valid score 100 is
+multiplied to 307, then rejected by the harness's unchanged structural range.
+
+This is a prospective evaluator repair, not evidence for promotion. Retain
+exact parent `cd611836...` and the exact selector binding. Replace affine
+scaling with bounded order-preserving normalization that preserves ties and
+direction, then run a fresh matched 6+6 cohort. If it passes, install the
+selected pursuit and expose its `decision-ready-signal` measurement to
+independent outcome, where the subject must be allowed to retain, correct, or
+surrender the selector.

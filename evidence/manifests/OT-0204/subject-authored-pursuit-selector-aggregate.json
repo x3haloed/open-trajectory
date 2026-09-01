@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-authored-pursuit-selector-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 191299,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b8540d1bba9200c0d1dd8e383d5fa46ee03c5799",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0204",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Valid selector renewal; active 5/6 versus controls 0/6 under a transform with one apparatus-induced structural rejection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-pursuit-selector-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "32db58ea623a9c121a208799785c558234362a96b0facd5062a3a8d7743779c8"
+}

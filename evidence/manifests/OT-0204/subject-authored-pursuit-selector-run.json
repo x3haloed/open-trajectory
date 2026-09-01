@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-authored-pursuit-selector-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12926464,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b8540d1bba9200c0d1dd8e383d5fa46ee03c5799",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0204",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Frozen affine transform generated an out-of-range blocked measurement in one active portfolio; exact parent retained."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-pursuit-selector-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "52f97f1d77755cedddf3c9fffd079edcb79440717f145ba44ea0b0169247ac3f"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-parent-after-selector-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 593585,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b8540d1bba9200c0d1dd8e383d5fa46ee03c5799",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0204",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact OT-0203 parent retained; no selector promoted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-parent-after-selector-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e058b3ec96300397b282daf4faff19b7593a59061f45381366bdb1f2de9767a6"
+}

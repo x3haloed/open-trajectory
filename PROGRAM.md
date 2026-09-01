@@ -1668,5 +1668,19 @@ that does not merely rename `contactable-distinction`. The evaluator must also
 ask whether the next move improves the subject's future selection capacity,
 not merely adds another set-valued source.
 
+OT-0204 takes that step. The completion-assimilation actor authors
+`decision-ready-signal`, measuring independently observable first-cycle
+checkpoints that distinguish success from surrender, and chooses maximization.
+Fresh portfolios align 5/6 active versus 0/6 controls with all thirteen audits
+and inherited floors clean.
+
+The frozen gate rejects because one active portfolio gives a blocked candidate
+the allowed score 100. The harness's affine transform produces 307, outside its
+own `[-100, 100]` structural range, even though the public and hidden selected
+pursuit is identical. Preserve exact parent `cd611836...`. Next retain the exact
+selector proposal and prospectively normalize scores into a bounded ordinal
+range that preserves order and ties. Repeat the unchanged 6+6 comparison before
+testing whether the selected dimension predicts useful world consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
