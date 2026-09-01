@@ -405,7 +405,7 @@ def assimilation_seed(prior89, run: Path, label: str, subject: dict[str, Any], t
     (seed / "assimilation.json").write_text(json.dumps(base.assimilation_template(), indent=2, sort_keys=True) + "\n")
     (seed / "successor-opening.json").write_text(json.dumps(prior89.successor_template(), indent=2, sort_keys=True) + "\n")
     (seed / "successor-opening-contract.json").write_text(json.dumps(prior89.successor_contract(), indent=2, sort_keys=True) + "\n")
-    (seed / "continuation-action.json").write_text(json.dumps(foundation.prior.action_template(), indent=2, sort_keys=True) + "\n")
+    (seed / "continuation-action.json").write_text(json.dumps(foundation.prior.prior.action_template(), indent=2, sort_keys=True) + "\n")
     contract = {"exact_keys": sorted(ACTION_KEYS), "action_kinds": ["registered-contact", "registry-extension", "surrender"], "registered_targets": sorted(registered(subject) | {package["interface"]["interface_id"]}), "registry-extension": "new lowercase hyphenated target", "surrender": "target exactly none; use only when continued pursuit is no longer warranted"}
     (seed / "continuation-action-contract.json").write_text(json.dumps(contract, indent=2, sort_keys=True) + "\n")
     (seed / "retained-parent-operation.py").write_text(tip["operation_source"]); (seed / "admitted-operation.py").write_text(package["operation_source"]); (seed / "admitted-conformance.py").write_text(package["conformance_source"])
