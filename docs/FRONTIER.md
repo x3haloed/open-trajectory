@@ -739,6 +739,18 @@ output, prospectively make `next_opening` the sole semantic scheduler authority,
 retain structural/newness validation for `action_target`, and continue the
 remaining fixed nodes without resampling cycle-one selection or consequence.
 
+OT-0126 performs that compression. Retained cycle one and fresh cycle two both
+promote, and `continuation.next_opening` alone selects the following frozen
+node. Cycle three again records the corrected oracle choice against the
+pre-correction decoy control and a clean, exact fresh route. It rejects because
+`continuation_after_contact` says “in materially different contexts” while the
+lexical evaluator requires the token `cross`; the authoritative next opening
+itself says “across materially different contexts.” This is a bounded evaluator
+miss, not absent cross-context pursuit. Publish the exact equivalence rule,
+re-audit retained cycle-three bytes, and retain exact open subject
+`7055c37a6f29f39e84690ca01c1e9ab78f7aa55798dd073bffd5a879b504cd77`
+after the first two promotions.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -841,6 +853,9 @@ remaining fixed nodes without resampling cycle-one selection or consequence.
 - The first fixed-scheduler recurrence attempt preserves the next stake in the
   authoritative opening but reveals a duplicated semantic-routing requirement
   on the registry id; no second-cycle actor was authorized.
+- Continuation-owned scheduling then promotes two cycles and reaches a third;
+  the remaining rejection is a literal-token miss on semantically grounded
+  contextual-transfer language.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

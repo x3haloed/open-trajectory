@@ -1,0 +1,31 @@
+{
+  "artifact_id": "continuation-owned-scheduler-recurrence-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1582080,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5bd27131277c2f9a65960da96306350c942e66eb",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0126",
+  "input_manifests": [],
+  "kind": "continuation-owned-scheduler-recurrence-run",
+  "limitations": [
+    "Retained cycle one and fresh cycle two promoted; fresh cycle three was semantically grounded but rejected by a literal cross-token requirement on continuation_after_contact."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:continuation-owned-scheduler-recurrence-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d20935f7ca0f61552336ada22c4e1c46208035dde3b9c8571f1e0ad92a5116d5"
+}

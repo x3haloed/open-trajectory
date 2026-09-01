@@ -141,6 +141,9 @@ The strongest footholds are:
 - `OT-0125`: the first fixed-scheduler cycle preserves recovery latency in the
   authoritative opening but rejects before promotion on a duplicated semantic
   routing requirement imposed on the registry id.
+- `OT-0126`: continuation-owned scheduling promotes two cycles and reaches a
+  third oracle-selected contact; the final transition rejects on a brittle
+  literal `cross` token despite grounded “materially different contexts.”
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

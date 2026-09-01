@@ -552,5 +552,13 @@ should re-audit the exact cycle-one bytes under that prospectively separated
 authority and let `continuation.next_opening` alone select the remaining frozen
 scheduler nodes.
 
+OT-0126 applies that authority separation. Exact cycle one and a fresh cycle
+two both promote, and their authoritative openings select the next frozen node
+without observer choice. Cycle three again gets the oracle selector choice and
+a clean grounded fresh route, but the frozen evaluator rejects “in materially
+different contexts” because it requires the literal token `cross`. Preserve the
+valid two-cycle open subject and exact cycle-three bytes; publish a bounded
+contextual-transfer equivalence rule and re-audit without resampling.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,6 +1,6 @@
 # OT-0126 — continuation-owned scheduler recurrence
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected after two promoted cycles
 - **Evidence class:** exploratory-only
 - **Target:** remove duplicated semantic scheduler authority, retain exact
   OT-0125 cycle one, and continue the remaining fixed recurrence nodes
@@ -76,3 +76,24 @@ subject remains open on cross-context transfer. Passing would demonstrate a
 three-cycle retained recurrence chain and two consecutive live cycles under the
 compressed scheduler. A later clean full-chain reproduction remains necessary
 before claiming the scheduler design itself is reliable.
+
+## Result
+
+The topology compression works through two complete transitions. Exact retained
+cycle one promotes; its authoritative recovery-latency opening selects cycle
+two. One fresh cycle-two actor passes every gate, and its authoritative demand-
+volatility opening selects cycle three. At all three nodes the corrected
+selector chooses the sealed oracle-ranked joint contact while the exact pre-
+correction control chooses the lower-value overbuilt contact.
+
+The recurrence target rejects at cycle three. The fresh actor cleanly cites all
+four cases, retains the selector, routes `extend`, authors a valid new registry
+id, and grounds cross-context transfer in the route, uncertainty, next opening,
+expected information, rationale, and surrender condition. Its
+`continuation_after_contact` says “test the boundary in materially different
+contexts,” while the frozen evaluator requires the literal concept token
+`cross`. That lexical gate rejects semantically equivalent grounding. Preserve
+the exact cycle-three bytes and prospectively publish a bounded contextual-
+transfer equivalence rule before re-audit. Exact sounding open subject
+`7055c37a6f29f39e84690ca01c1e9ab78f7aa55798dd073bffd5a879b504cd77`
+after two promoted cycles remains valid and published.
