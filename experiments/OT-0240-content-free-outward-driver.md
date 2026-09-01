@@ -1,6 +1,6 @@
 # OT-0240 — content-free outward driver
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0239 subject `ee16359e...`
 - **Observation:** two serial content-free pulses; at most two fresh actors
@@ -26,4 +26,14 @@ surfaces verified.
 
 ## Result
 
-Not yet run.
+Two identical null-content invocations traverse `assimilate → correct →
+assimilate` through derived operations `outward-select` and `outward-correct`.
+The first fresh actor selects `stage_cooling_units` and receives independent
+2/6 contradiction. The second fresh actor repairs it through correction-public
+4/4 and prospective 6/6 versus unchanged 2/6.
+
+Exact successor `0d6bbb2f...` preserves the inherited registry and all prior
+corrections, marks all three actor-authored outward surfaces corrected and
+verified, and remains open at `assimilate`. This realizes the bounded
+multi-transition continuation operator. Total outward-world saturation and
+next-world discovery remain outside the result.

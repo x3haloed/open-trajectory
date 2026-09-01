@@ -612,6 +612,11 @@ The strongest footholds are:
   actor-authored interface. Public 4/4 and prospective 6/6 beat unchanged 2/6.
   Exact successor `ee16359e...` preserves both outward corrections, leaves the
   inherited registry untouched, and remains open at `assimilate`.
+- `OT-0240`: one reusable operator consumes two identical null pulses and derives
+  `outward-select` then `outward-correct`. Two fresh actors select and repair the
+  final unregistered surface through 2/6 contradiction, public 4/4, and
+  prospective 6/6 versus unchanged 2/6. Exact successor `0d6bbb2f...` remains
+  open with all three outward surfaces corrected and verified.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

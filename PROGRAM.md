@@ -2168,5 +2168,23 @@ successor. The operator must carry no target, surface-specific branch, or fixed
 one-step itinerary. Test it across at least the remaining outward selection and
 its correction boundary.
 
+OT-0240 realizes that bounded operator. Each invocation receives an exact subject
+and a null pulse, creates a fresh actor context, derives the operation from the
+subject phase, opens independent consequence, and returns the exact successor.
+Two identical invocations derive `outward-select` then `outward-correct`. The
+first actor selects `stage_cooling_units` and receives 2/6 contradiction; the
+second reaches correction-public 4/4 and prospective 6/6 versus unchanged 2/6.
+Exact successor `0d6bbb2f...` preserves every prior correction and the inherited
+registry, marks all three outward surfaces corrected and verified, and remains
+open at `assimilate`.
+
+The next boundary is total saturation of the currently inspectable outward
+world. The current phase alone would still say `outward-select`, even though no
+uncontacted surface remains. Do not spend another actor to rediscover that
+mechanical fact. The selector must prospectively incorporate outward-world
+saturation and route a null pulse to environment expansion rather than an
+impossible local selection. The resulting expansion must be actor-authored from
+an inspectable broader world, not a researcher-supplied fourth target.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

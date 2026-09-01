@@ -2778,3 +2778,21 @@ the active phase and all targets from state, invoke the appropriate fresh actor
 or consequence edge, and emit the exact successor. No experiment-specific target,
 surface branch, or prescribed phase may enter the pulse. Run it across more than
 one transition so one-step dispatch cannot masquerade as sustained continuation.
+
+OT-0240 realizes that multi-transition slice. Two identical null-content pulses
+derive `outward-select` then `outward-correct` from exact state. The first fresh
+actor selects `stage_cooling_units` and receives independent 2/6 contradiction;
+the second fresh actor reaches correction-public 4/4 and prospective 6/6 versus
+unchanged 2/6. Exact successor `0d6bbb2f...` preserves the inherited registry and
+both prior outward corrections, with all three outward surfaces now corrected
+and verified at open `assimilate`.
+
+The new frontier is saturation-aware continuation beyond the frozen outward
+world. OT-0240's selector uses phase alone; at this successor it would derive
+`outward-select` even though no eligible local surface remains. This is a known
+driver blind spot, so do not invoke another actor under the old rule. A
+prospective selector revision must distinguish `assimilate + remaining surface`
+from `assimilate + saturated environment`, preserve existing phase behavior, and
+route the latter to actor-authored environment expansion under a null pulse. The
+expansion world must be inspectable but must not contain an observer-selected
+replacement target or registry entry.
