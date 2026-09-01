@@ -154,6 +154,12 @@ The strongest footholds are:
   cleanly promotes three fresh cycles; corrected selectors choose all three
   sealed oracle contacts while their exact pre-correction controls choose all
   three decoys.
+- `OT-0131`: one invalid apparatus observation retaining a decisive
+  subject-originated contact and grounded route before an observer validator
+  lookup crashes prior to promotion.
+- `OT-0132`: exact no-resampling reconstruction promotes that originated
+  contact beyond the closed graph; a changed-opening control chooses a different
+  surface but fails the stronger decisive-contact score.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

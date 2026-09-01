@@ -1,6 +1,6 @@
 # OT-0132 — exact originated-contact reconstruction
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; operationally promoted; stronger causal prediction rejected
 - **Evidence class:** exploratory-only
 - **Target:** reconstruct OT-0131's retained active path under the correct
   opening-validator lookup, then run its already-frozen post-seal control
@@ -48,3 +48,33 @@ closed OT-0130 world graph, retained through the route-only carrier, and one
 matched observation that opening content changes the contacted surface. It
 would not establish frequency, open-domain search, indefinite continuation, or
 subject ownership of the compiler, world, or admission authority.
+
+## Result
+
+The exact retained OT-0131 active path passed every reconstruction gate. The
+contact author had selected `reserve_for_context` and bound two adversarial
+cross-context interleavings plus one same-behavior control before consequence.
+The independent outputs remained exactly `16/5`, `27/9`, and `4/4`. Both
+retained actor traces were accepted, every route case citation was exact, the
+selector bytes were unchanged, and the corrected validator lookup admitted the
+deterministically compiled cycle-four continuation.
+
+Exact sounding open subject
+`172d512704c47e2ff1f54faf47889229110cd64cbede4ef1ddba7f364e604bb9`
+now reopens on:
+
+> Open continuation-4-3e181bf5dcab: Whether this context-local reserve
+> boundary transfers to materially different context pairs and demand patterns
+> remains unresolved.
+
+The fresh post-seal control was clean and did change contact surface under the
+recovery-latency opening: it selected `recovery_window` rather than
+`reserve_for_context`. Its contact did not pass the stronger frozen consequence
+gate, however. Only `north-local-peak-foreign-return` distinguished installed
+from reference output; the other two cases were confirmations, yielding one
+distinguishing case and two confirmations rather than the required two and one.
+
+Operational transition therefore passes. The pursuit-conditioned causal claim
+is rejected under its frozen score. The result supports subject-oriented
+contact generation once, but does not yet establish that opening content
+reliably produces independently decisive contacts.

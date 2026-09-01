@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-originated-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 342717,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b3c84622350383dc69f88c6b8a2033c4e1f221f1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0132",
+  "input_manifests": [],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after one actor-originated contact beyond the OT-0130 graph; compiler, world, admission, and observation boundary remain researcher-authored."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-originated-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "102ddc8292eded3774a407738b2845d6f82c2a4e5270f5a4fc33087681080de3"
+}

@@ -819,6 +819,37 @@ route-only/projection carrier. Preserve the fixed compiler for this comparison;
 subject-authored compiler revision is a later and separate claim after contact
 generation crosses the boundary.
 
+OT-0131 crosses contact generation behaviorally but not operationally. A fresh
+actor follows the exact subject's demand-volatility transfer opening into a
+complete repository with no contact menu, chooses `reserve_for_context`, and
+binds two adversarial mixed-context cases plus one confirmation before hidden
+reference output. Independent consequence is decisive and a fresh route actor
+advances the uncertainty. A wrong observer module lookup then crashes before
+compiled binding, promotion, or control. Preserve it as invalid apparatus
+evidence; do not count it as a transition.
+
+OT-0132 corrects only that lookup and reconstructs every retained byte without
+another active or route actor. All identity, trace, contact, world, route,
+selector, compiler, and successor gates pass. Exact sounding open subject
+`172d512704c47e2ff1f54faf47889229110cd64cbede4ef1ddba7f364e604bb9`
+now carries a new context-local reserve transfer stake beyond the original
+three-node graph.
+
+The post-seal matched control changes target exactly with the changed opening:
+the active stake produces `reserve_for_context`, while the recovery-latency
+opening produces `recovery_window`. Do not overclaim this topical separation.
+The control contact has only one distinguishing case and two confirmations, so
+the frozen pursuit-conditioned decisive-contact claim is negative.
+
+The current mechanism has now crossed closed-itinerary dependence once. The
+next frontier is contact-design reliability and leverage. Continue from the
+exact OT-0132 subject in another complete environment, but let the actor execute
+public metamorphic or differential self-checks of its proposed contact before
+binding. Hidden consequence must remain independently sealed and authoritative.
+The discriminating question is whether retained experience can improve the
+process that selects and constructs future world contact—not merely keep the
+topic continuous. Do not repair or rerun the failed OT-0132 control.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -931,9 +962,12 @@ generation crosses the boundary.
   uncertainty once but loses it while independently authoring canonical opening
   prose; deterministic continuation compilation remains untested.
 - Route-only authoring with deterministic downstream compilation now promotes
-  three clean fresh cycles. Contact generation beyond the closed world graph,
-  open-ended scheduling, and subject-authored compiler evolution remain
-  untested.
+  three clean fresh cycles. Longer recurrence, open-ended scheduling, and
+  subject-authored compiler evolution remain untested.
+- One exact subject-originated contact now promotes beyond the closed world
+  graph. A changed opening also changes the control's selected surface, but that
+  control fails decisive consequence; reliable pursuit-conditioned contact
+  construction remains unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

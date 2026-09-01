@@ -1,0 +1,31 @@
+{
+  "artifact_id": "exact-originated-contact-reconstruction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1764352,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b3c84622350383dc69f88c6b8a2033c4e1f221f1",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0132",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "One exact reconstructed active path and one fresh matched control in a bounded synthetic repository; operational promotion passed, but the stronger pursuit-conditioned contact gate failed because the control produced only one distinguishing case."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-originated-contact-reconstruction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "51442324ca5af44de3817a048abd8aa5e5b7fe325951c908062d9d2da927ce6b"
+}

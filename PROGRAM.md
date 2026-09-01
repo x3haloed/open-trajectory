@@ -600,5 +600,33 @@ next contact outside the frozen three-node graph while preserving independent
 world consequence, bind-before-outcome order, exact reopening, and the same
 single-authority projection discipline.
 
+OT-0131 does originate that contact: a fresh actor follows the retained
+demand-volatility transfer opening into a complete unenumerated capacity
+repository, chooses `reserve_for_context`, and binds two adversarial
+cross-context cases plus one confirmation before independent consequence. A
+fresh route actor then grounds and advances the result. The observer crashes on
+a wrong validator attribute before binding compilation, so OT-0131 remains an
+invalid apparatus observation and promotes nothing.
+
+OT-0132 reconstructs those exact retained bytes under the correct already-loaded
+validator and promotes sounding open subject
+`172d512704c47e2ff1f54faf47889229110cd64cbede4ef1ddba7f364e604bb9`.
+This removes the closed world itinerary as a necessary cause of the next useful
+contact in one bounded observation: the subject's carried stake orients a fresh
+actor, the actor authors the contact, the world consequences it independently,
+and the compact carrier preserves the resulting new stake.
+
+The matched control gives a calibrated negative result. Changing only the
+opening from demand-volatility transfer to recovery latency changes the chosen
+function from `reserve_for_context` to `recovery_window`, but the control authors
+only one distinguishing case under the frozen two-plus-one consequence gate.
+The next high-leverage question is therefore reliability of contact realization,
+not whether opening prose can influence topical choice. Continue from the exact
+OT-0132 subject into another fresh complete environment and require the actor to
+make its proposed contact executable against public self-checks before binding,
+while keeping the independent hidden consequence authoritative. This tests
+whether the substrate can improve its own contact-selection and contact-design
+fitness rather than merely carry another pursuit sentence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

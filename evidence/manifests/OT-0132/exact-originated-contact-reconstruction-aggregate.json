@@ -1,0 +1,31 @@
+{
+  "artifact_id": "exact-originated-contact-reconstruction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 17593,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b3c84622350383dc69f88c6b8a2033c4e1f221f1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0132",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Aggregate separates the passed operational transition from the failed stronger causal comparison; no frequency, open-domain, or indefinite-continuation claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-originated-contact-reconstruction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "51ad9cd2f7fb7373c22be6ec8f0dbec02d3964fba3eac7ff53c2dc553b6ac436"
+}
