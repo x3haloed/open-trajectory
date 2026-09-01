@@ -64,12 +64,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0221 successor `b5c955a4...`,
+The current exact operational subject is OT-0222 successor `5a205d35...`,
 identified by
-`evidence/manifests/OT-0221/open-subject-after-continuation-pulse.json`. It
-preserves the full lineage, the relief correction, a later recovery consequence,
-and a new G6-live unreceipted relief contact. Its fixed driver has completed
-three encounters across two invocations and is again at `observer-stop`.
+`evidence/manifests/OT-0222/open-subject-after-two-reusable-invocations.json`.
+It preserves the full lineage and two additional independent successes. Its
+shared invoker has completed two calls on its own output; the subject is open,
+pulse-eligible, and G6-live at `observer-stop`.
 
 ## Prediction errors
 
@@ -122,9 +122,12 @@ three encounters across two invocations and is again at `observer-stop`.
   correction, and one fresh actor reopens a different G6-valid relief contact.
   All gates pass across the invocation boundary; the pulse-erased parent remains
   stopped and the pulse supplies no task content.
+- OT-0222 extracts one reusable invoker and calls it twice serially. Relief and
+  recovery each pass 6/6 and fresh actors reopen a different target. Every gate
+  passes. Observed next error: the subject alternates corrected functions with
+  new numeric inputs, so contact novelty need not imply developmental widening.
 - Environment construction, hidden-world authorship, final admission, and the
   timing of each content-free pulse remain external. The next discriminating
-  step is not another bespoke wake experiment: make this pulse/driver pairing a
-  reusable recurrent invocation and test whether it eventually opens a new
-  semantic surface rather than endlessly varying inputs on three corrected
-  functions.
+  step is a prospective saturation transition that leaves reusable recurrence
+  intact but prevents parameter-only success from masquerading as an indefinitely
+  live local frontier.

@@ -2561,3 +2561,16 @@ leaving OT-0220's original bounded claim rejected. The new frontier is whether
 the same pulse/driver composition can continue repeatedly without a researcher
 writing a new experiment for each wake, and whether it can escape parameter
 novelty inside this now-correct three-function environment.
+
+OT-0222 makes the pulse/driver pairing reusable. Shared function `continue_once`
+is called twice without modification, taking its exact first output as the
+second input. Relief then recovery each receive independent 6/6 consequence;
+two fresh actors produce different-target G6 reopenings; both subjects conform.
+Exact successor `5a205d35...` is again pulse-eligible and G6-live.
+
+The reusable mechanism is no longer the frontier. Its success exposes a
+saturation problem: with all visible functions corrected, fresh numeric cases
+can maintain G6 novelty while the subject alternates relief and recovery. The
+next test must distinguish useful unresolved contact from parameter-only
+confirmation and route saturation into subject-visible widening or truthful
+local completion without treating either as global song termination.

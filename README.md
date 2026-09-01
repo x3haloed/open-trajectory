@@ -524,6 +524,12 @@ The strongest footholds are:
   G6-valid relief contact with 4/4 public agreement. Exact open successor
   `b5c955a4...` returns to observer-stop, completing the missing
   cross-invocation edge while preserving OT-0220's original rejection.
+- `OT-0222`: shared harness function `continue_once` consumes its own exact
+  output twice: relief 6/6 reopens recovery, then recovery 6/6 reopens relief,
+  with two fresh accepted actors and no per-call target or phase code. Exact
+  successor `5a205d35...` remains pulse-eligible. This promotes reusable bounded
+  continuation, not semantic growth; the corrected three-function world now
+  risks endless parameter novelty.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-two-reusable-invocations",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 693479,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4d01a10536b2e807603eebe91dd16ded23040cdc",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0222",
+  "input_manifests": [
+    "OT-0222/reusable-pulse-invoker-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open G6-live pulse-eligible subject after two reusable invocations; continued parameter novelty may represent saturation rather than development."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-two-reusable-invocations",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "405145e573d2a2f435943b6340d21d3b2a128832c001313a149e00cc76fdd88c"
+}

@@ -1,6 +1,6 @@
 # OT-0222 — reusable pulse-driven invoker
 
-- **Status:** frozen; not yet run
+- **Status:** completed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** reusable cross-invocation OT-1C machinery
 - **Parent:** exact OT-0221 open subject `b5c955a4...`
@@ -76,4 +76,22 @@ be stagnation; saturation and widening remain the next frontier.
 
 ## Result
 
-Not yet run.
+Promoted. The same shared invoker SHA `9eaf9375...` completed two serial calls,
+with its exact first output used as the second input. Invocation one exposed the
+pending relief package to independent 6/6 consequence and a fresh actor reopened
+recovery. Invocation two exposed that recovery package to independent 6/6
+consequence and another fresh actor reopened relief. Both adjacent targets
+changed, both actors were accepted, and both exact outputs conform.
+
+Exact successor `5a205d35...` is open, pulse-eligible, at `observer-stop`, and
+G6-live with unreceipted contact `64a3aa8e...`. Every frozen gate and control
+passes. This realizes reusable cross-invocation continuation for the decisive
+success path; no experiment-specific phase or target code was added between
+calls.
+
+The result also makes the next weakness concrete. Encounters four and five
+alternate relief and recovery after all three installed functions are already
+correct. G6 correctly distinguishes new behavioral inputs, but those inputs may
+only prolong local confirmation. Reusability is promoted; semantic expansion is
+not. The next experiment must make saturation decision-relevant before allowing
+the reusable invoker to continue indefinitely.

@@ -1941,5 +1941,20 @@ minimal wake signal carries subject-owned developmental content into the next
 invocation. The external pulse and fixed environment remain disclosed causal
 components.
 
+OT-0222 extracts pulse eligibility, receipt construction, phase dispatch,
+failure returns, correction callback routing, assimilation, pending compilation,
+and observer stop into one shared `continue_once` invoker. The exact OT-0221
+subject enters that function twice. Relief passes 6/6 and reopens recovery;
+the exact first successor enters the unchanged function, recovery passes 6/6,
+and a second fresh actor reopens relief. Both outputs conform and exact successor
+`5a205d35...` is open, pulse-eligible, and G6-live.
+
+This promotes reusable bounded cross-invocation continuation. It also separates
+continuation from development more sharply: after correction of all three
+visible callables, actors can alternate targets while supplying indefinitely
+new numeric inputs. G6 contact remains real, but repeated confirmation may be a
+saturated local song. The next machinery must detect that condition and make
+widening or truthful local surrender preferable to parameter-only recurrence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
