@@ -1,6 +1,6 @@
 # OT-0192 — executable pursuit consequence before machinery correction
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** design and executable conformance frozen; not run
 - **Evidence class:** exploratory-only
 - **Target:** make the subject-authored stake decide whether hidden consequence
   demands pursuit revision or route correction before a successor acts
