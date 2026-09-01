@@ -1,6 +1,6 @@
 # OT-0217 — two-handoff contact-bearing continuation
 
-- **Status:** design in progress; actors unauthorized
+- **Status:** frozen; not yet run
 - **Evidence class:** exploratory-only
 - **Target:** operational G5 liveness across actor and world boundaries
 - **Parent:** exact OT-0216 subject `b579ce63...`
@@ -29,6 +29,12 @@ tools.
 The environment registry mechanically exposes existing callable identities and
 ABIs to G5; it does not rank them. Completed-contact canonical inputs are
 derived only from the exact subject.
+
+Preflight freezes the target geometry: the admitted `schedule_recovery`
+capability matches all six sealed reference outcomes, while relief and
+maintenance each match two of six and therefore remain unresolved. This makes
+the inherited subject position decision-relevant without making a wrong target
+invalid at the contract layer.
 
 ## First handoff: unresolved to live
 
@@ -60,8 +66,9 @@ manufacture a next contact.
 ## Second handoff: consequence to a new live contact
 
 A fresh assimilator receives the exact pre-consequence subject, bound contact,
-and sealed receipt. It must retain, revise, or surrender the resolved contact
-according to consequence and bind a new G5 package before ending its turn.
+the complete bound-contact bytes, and the raw sealed receipt. It must retain,
+revise, or surrender the resolved contact according to consequence and bind a
+new G5 package before ending its turn.
 
 To establish widening rather than case churn, the new package must select a
 different existing callable from the just-resolved contact, contain four cases,
@@ -85,6 +92,10 @@ Freeze before actors:
 - G5 malformed, renamed, one-new-input, and prose-only controls;
 - route 16/16 and identity 18/18 floors; and
 - successor compilation and retained-package replay.
+
+Both actor-visible checkers, both prospective subject compilers, all three valid
+new-contact fixtures, renamed-completed and template controls, source identity,
+and the target geometry pass before authorization.
 
 Promotion requires both fresh actors and audits accepted, a G5-valid first
 package, decisive independent consequence, an exact consequence-driven
