@@ -385,7 +385,7 @@ def advance_tip(tip: dict[str, Any], package: dict[str, Any]):
 
 
 def registered(subject: dict[str, Any]) -> set[str]:
-    return set(foundation.prior.REGISTERED) | {row["interface_id"] for row in subject.get("interface_registry_extensions", [])}
+    return set(foundation.prior.prior.REGISTERED) | {row["interface_id"] for row in subject.get("interface_registry_extensions", [])}
 
 
 def valid_action(value: Any, subject: dict[str, Any]) -> bool:
@@ -517,7 +517,7 @@ def fixture_conformance(initial_tip: dict[str, Any]):
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(); parser.add_argument("--repo", type=Path, default=REPO); parser.add_argument("--store", type=Path); parser.add_argument("--evidence-root", type=Path); parser.add_argument("--preflight-only", action="store_true"); args = parser.parse_args()
+    parser = argparse.ArgumentParser(); parser.add_argument("--repo", type=Path, default=REPO); parser.add_argument("--store", type=Path); parser.add_argument("--evidence-root", type=Path); parser.add_argument("--preflight-only", action="store_true"); parser.add_argument("--reconstruct-stopped", action="store_true"); args = parser.parse_args()
     repo = args.repo.resolve(); store = (args.store or repo / ".evidence").resolve(); run = (args.evidence_root or store / "runs/OT-0111").resolve()
     prior92 = base.mechanism.load_prior(); _, _, prior89, p82 = base.mechanism.prior_chain(prior92); runtime = p82.load_runtime(repo, store)
     subject = load_parent(p82, repo, store); tip = load_initial_tip(p82, repo, store); fixtures = fixture_conformance(tip); selection = extract_action(p82, subject)
@@ -525,6 +525,10 @@ def main() -> int:
     if args.preflight_only:
         result = {"parent_digest": subject["artifact_digest"], "parent_object_sha256": PARENT_OBJECT_SHA256, "base_implementation_sha256": BASE_SHA256, "initial_package_digest": tip["binding_digest"], "fixture_conformance": fixtures, "initial_action": selection}
         print(json.dumps(result, indent=2, sort_keys=True)); return 0 if valid_parent and fixtures["passed"] else 2
+    if args.reconstruct_stopped:
+        package = json.loads((run / "cycle-1-package-author" / "bound-package.json").read_text()); admission = json.loads((run / "cycle-1-admission-receipt.json").read_text()); audit = json.loads((run / "cycle-1-package-author" / "actor-audit.json").read_text()); output = json.loads((run / "cycle-1-package-author" / "output.json").read_text()); world = world_contact(p82, 1, package, admission)
+        body = {"authority": "ot-0111-stopped-observation-reconstruction", "source_subject_digest": subject["artifact_digest"], "cycle_one_package_author": {"output": output, "audit": audit, "binding": package}, "cycle_one_admission": admission, "reconstructed_world_receipt": world, "promoted_cycle_count": 0, "two_cycle_target_passed": False, "observer_disposition": "rejected", "subject_disposition": "open", "final_subject_digest": subject["artifact_digest"], "continuation_action": subject["actor_originated_pursuit_openings"][-1].get("continuation_action"), "next_opening": subject["continuation"]["next_opening"], "stopping_error": "post-package implementation error resolving the inherited registered-interface constant before assimilation seed creation", "scientific_actor_count": 1}
+        body["receipt_digest"] = p82.digest(body); (run / "reconstructed-world-receipt.json").write_text(json.dumps(world, indent=2, sort_keys=True) + "\n"); (run / "aggregate.json").write_text(json.dumps(body, indent=2, sort_keys=True) + "\n"); (run / "final-full-subject.json").write_text(json.dumps(subject, indent=2, sort_keys=True) + "\n"); print(json.dumps(body, indent=2, sort_keys=True)); return 0
     if run.exists(): raise SystemExit("preserve existing OT-0111 evidence")
     run.mkdir(parents=True); (run / "fixture-conformance.json").write_text(json.dumps(fixtures, indent=2, sort_keys=True) + "\n")
     if not valid_parent or not fixtures["passed"]: raise SystemExit("pre-actor conformance failed")
