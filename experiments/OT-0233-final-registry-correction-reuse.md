@@ -1,6 +1,6 @@
 # OT-0233 — final registry correction reuse
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0232 subject `dd0bac4e...`
 - **Actor budget:** one fresh corrector; no replacement
@@ -21,4 +21,12 @@ separate next claim.
 
 ## Result
 
-Not yet run.
+The single fresh corrector was accepted under G8. Its exact target-local
+revision reached public 4/4 and prospective 6/6 while the unchanged parent
+remained 2/6. The exact successor `5ec3a3c6...` marks all six registry targets
+`verified-local`, remains open, and dispatches `assimilate`.
+
+This promotes third-target reuse of the same registry-driven correction path.
+It does not establish that assimilation at a completed registry can originate
+and bind a pursuit outside that registry; that saturation dispatch is the next
+claim.

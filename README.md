@@ -577,6 +577,11 @@ The strongest footholds are:
 - `OT-0232`: G9 binds that retained contact without another actor. Independent
   consequence returns 2/6, and exact successor `dd0bac4e...` now represents all
   six registry targets with `allocate_backup_power` unresolved at `correct`.
+- `OT-0233`: unchanged registry-driven correction machinery repairs that final
+  target. Public 4/4 and prospective 6/6 beat unchanged 2/6. Exact successor
+  `5ec3a3c6...` is open at `assimilate` with all six registry targets
+  `verified-local`; the next test is whether saturation opens a pursuit outside
+  the completed registry rather than manufacturing more local contact.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

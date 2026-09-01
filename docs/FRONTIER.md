@@ -2671,3 +2671,17 @@ OT-0232 completes the consequence edge without another actor. Exact successor
 `correct`. The frontier is one more registry-driven correction, followed by the
 first observed all-six-target saturation dispatch. A successful correction must
 not be followed by another numeric-contact loop on a verified-local target.
+
+OT-0233 completes that correction with the unchanged generic machinery. One
+fresh actor reaches public 4/4; prospective consequence reaches 6/6 while the
+unchanged parent remains 2/6. Exact successor `5ec3a3c6...` is open at
+`assimilate` with all six registry targets `verified-local`.
+
+The frontier is now outward continuation at local saturation. The next fresh
+actor must receive the exact subject and a world it can inspect, but no assigned
+target or observer-authored replacement registry entry. A promotion requires a
+new, executable, independently consequence-testable pursuit outside the six
+completed surfaces. Merely varying inputs to a verified target fails G7;
+declaring completion may truthfully close the local frontier but must not close
+the subject. The experiment should distinguish these outcomes before actor
+output and retain any unresolved outward stake exactly.

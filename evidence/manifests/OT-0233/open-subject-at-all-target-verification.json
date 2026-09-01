@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-all-target-verification",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 786470,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "004e9b80c0fd516522073fecda5fbaeb5c9dd9e8",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0233",
+  "input_manifests": [
+    "OT-0233/final-registry-correction-reuse-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject with all six registry targets verified-local at assimilation; outward saturation dispatch remains pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-all-target-verification",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fef2920de626ff52172f7bc89a047ffed261d8e05468d837f73cbea13f8242e8"
+}

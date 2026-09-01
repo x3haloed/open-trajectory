@@ -1,0 +1,31 @@
+{
+  "artifact_id": "final-registry-correction-reuse-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12342,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "004e9b80c0fd516522073fecda5fbaeb5c9dd9e8",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0233",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh correction actor on the final synthetic registry target; all-target saturation dispatch remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:final-registry-correction-reuse-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2b5ad473dd2d5d305792123369159551d071b691f1368885ebf7fe42307bfd08"
+}

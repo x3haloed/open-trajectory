@@ -2063,5 +2063,18 @@ successor `dd0bac4e...` now contains all six registry targets and dispatches
 the decisive boundary is whether all-target local verification routes outward
 rather than returning to parameter repetition.
 
+OT-0233 reuses the unchanged registry-driven corrector on that final target.
+One fresh actor produces an exact contained revision accepted under G8; public
+4/4 and prospective 6/6 beat unchanged 2/6. Exact successor `5ec3a3c6...`
+marks all six targets `verified-local`, remains open, and dispatches
+`assimilate`.
+
+The local registry is now exhausted without ending the subject. The next claim
+is not another correction cycle. A fresh assimilation must recognize saturation
+and originate a world-contactable pursuit outside the six-target inventory,
+without receiving a target or replacement registry entry from the observer.
+Failure to find such a pursuit is an informative local limit; inventing another
+numeric case on a verified target is not continuation progress.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

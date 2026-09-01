@@ -85,11 +85,11 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0232 successor `dd0bac4e...`,
+The current exact operational subject is OT-0233 successor `5ec3a3c6...`,
 identified by
-`evidence/manifests/OT-0232/open-subject-at-final-registry-contradiction.json`.
-It contains all six registry targets, preserves two correction cycles, and is
-open at `correct` on unresolved `allocate_backup_power`.
+`evidence/manifests/OT-0233/open-subject-at-all-target-verification.json`.
+It contains all six registry targets, preserves three generalized correction
+cycles, and is open at `assimilate` with every local target `verified-local`.
 
 ## Prediction errors
 
@@ -191,6 +191,10 @@ open at `correct` on unresolved `allocate_backup_power`.
 - OT-0232 binds that retained contact under G9 without another actor. Independent
   2/6 consequence yields exact `dd0bac4e...`, with every registry target now in
   the ledger and the last one unresolved.
+- OT-0233 reuses the unchanged registry-driven corrector on the final target.
+  Public 4/4 and prospective 6/6 beat unchanged 2/6, yielding exact open
+  `5ec3a3c6...` at assimilation with all six targets verified-local.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is final-target correction reuse and
-  then the all-target saturation dispatch.
+  external. The next discriminating step is all-target saturation dispatch: a
+  fresh actor must originate a consequence-testable pursuit outside the completed
+  registry without an observer-assigned target or replacement registry entry.
