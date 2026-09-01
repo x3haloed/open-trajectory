@@ -1,6 +1,6 @@
 # OT-0105 — consequence-corrected cross-interface contact
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C cross-interface recurrence with consequence-driven contact
   correction
@@ -71,3 +71,34 @@ establish one bounded cross-interface recurrence that survives an invalid first
 contact through explicit consequence-driven correction. It would not establish
 generic correction across interfaces, indefinite recurrence, or subject-authored
 interface invention.
+
+## Result
+
+The exact OT-0104 artifact and conformance receipt reconstructed successfully.
+The fresh corrector removed all wrapper objects, produced four canonical
+frontier arrays, brought every numeric field within bounds, retained allocator
+bytes, edited only `contact.json`, and completed a clean truthful trace.
+
+The revised artifact passed exact shape, order reversal, expansion, regret, and
+stable-id tie checks. It failed two objective coverage checks. First, it reduced
+all filtered-decoy expansion and regret values to zero, so no ineligible contact
+was numerically competitive with the selected live contact. Second, its
+composition case compared one completed floor with two; it did not include an
+eligible more-than-two-floor competitor that a two-floor contact beats on the
+next priority, which is required to distinguish the Boolean threshold from raw
+floor count.
+
+No contact binding, world receipt, assimilation, successor, or post-seal
+control exists. The exact OT-0103 parent remains sounding and open. OT-0105
+therefore does not establish corrected cross-interface recurrence. It does
+establish one directional correction: explicit consequence repaired every
+reported structural and bounds defect without regressing four other coverage
+dimensions.
+
+The next record should retain this exact revised artifact and expose the two
+new machine-derived coverage failures to a second fresh corrector. The actor-
+visible contract must state their operational certificates, not only their
+names: an ineligible decoy must dominate the selected contact numerically, and
+an eligible exactly-two-floor contact must beat an eligible more-than-two-floor
+contact through a later priority. Bind the second revision before unchanged
+world scoring; do not restart from OT-0104 or sample a replacement.

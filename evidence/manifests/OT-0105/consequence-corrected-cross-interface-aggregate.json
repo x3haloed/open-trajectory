@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-corrected-cross-interface-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4437,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0390a6d385543dd153cd876cb6ab56f98a7611d6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0105",
+  "input_manifests": [
+    "evidence/manifests/OT-0104/bound-cross-interface-recurrence-aggregate.json"
+  ],
+  "kind": "consequence-corrected-cross-interface-result",
+  "limitations": [
+    "No world receipt or successor promotion; exact revised contact is retained only in the raw run archive."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-cross-interface-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "33602c0b5587df3642b01508017b6f03c119eae5c28e21c468c809b93f77f14f"
+}

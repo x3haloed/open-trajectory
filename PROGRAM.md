@@ -168,6 +168,10 @@ condition, not the permanent purpose or executive of the resulting subject.
   contact is rejected before scoring because it uses an under-specified wrapper
   shape and also exceeds the visible numeric bounds. The exact OT-0103 parent
   remains open.
+- `OT-0105` carries that exact invalid contact into a fresh correction. The
+  actor repairs wrapper shape and all bounds violations while preserving four
+  coverage dimensions, but fails the operational filtered-decoy and Boolean
+  threshold certificates. No world score or successor is produced.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -348,6 +352,9 @@ OT-0104 enters that phase directly but produces an invalid contact. The next
 boundary is developmental handling of invalid subject-authored contact: expose
 the exact conformance receipt to a fresh corrector, bind one revision, and
 resume the same fixed action rather than sampling a replacement.
+OT-0105 makes the first correction directionally but reveals two further
+semantic failures. The next record should carry the exact revised bytes and
+machine receipt into a second correction rather than resetting the contact.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

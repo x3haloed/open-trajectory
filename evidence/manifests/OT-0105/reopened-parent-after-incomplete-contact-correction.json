@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-incomplete-contact-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 221051,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0390a6d385543dd153cd876cb6ab56f98a7611d6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0105",
+  "input_manifests": [
+    "evidence/manifests/OT-0104/reopened-parent-after-invalid-allocator-contact.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact OT-0103 parent reopened after incomplete allocator-contact correction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-incomplete-contact-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "39f7450e965f752604ed4b2b795cd76e0e1212a6d6e242da0c72355fecfce883"
+}

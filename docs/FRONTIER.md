@@ -399,6 +399,14 @@ an explicit canonical schema. A passing revision must be bound before the
 unchanged independent scorer and fresh assimilation. Only after sealing a
 successor does a matched failure-detail-erased corrector run.
 
+OT-0105 rejects after directional correction. The fresh actor canonicalizes all
+four frontiers, repairs every numeric bound, and preserves order, expansion,
+regret, and stable ties. It lowers filtered decoys until filtering is no longer
+tested and compares two floors only against one floor, so it does not test the
+Boolean threshold against a larger raw count. The next record should carry
+these exact revised bytes plus explicit machine-derived coverage certificates
+into a second fresh correction, then resume unchanged scoring if they pass.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

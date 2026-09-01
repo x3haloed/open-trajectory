@@ -80,6 +80,9 @@ The strongest footholds are:
 - `OT-0104`: one rejected cross-interface continuation whose subject binding
   entered allocator contact directly, but whose authored frontier artifact had
   an under-specified wrapper shape and out-of-bounds decoy values.
+- `OT-0105`: one rejected consequence-correction run that repaired shape,
+  bounds, and four coverage dimensions, while leaving filtered-decoy dominance
+  and Boolean-threshold coverage untested.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

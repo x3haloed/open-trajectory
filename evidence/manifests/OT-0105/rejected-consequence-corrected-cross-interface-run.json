@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-consequence-corrected-cross-interface-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1486848,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0390a6d385543dd153cd876cb6ab56f98a7611d6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0105",
+  "input_manifests": [
+    "evidence/manifests/OT-0104/rejected-bound-cross-interface-recurrence-run.json"
+  ],
+  "kind": "consequence-corrected-cross-interface-contact",
+  "limitations": [
+    "One rejected first correction; shape and bounds were repaired, but two semantic coverage certificates still failed before scoring."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-consequence-corrected-cross-interface-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ea3314039fc3776aaee4c6ffca8be85add781820f2c05fc1cef2ffcb3cf19edd"
+}
