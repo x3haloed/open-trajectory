@@ -25,8 +25,10 @@ It must identify both observed failure classes:
 
 - each `frontiers` entry is a wrapper object where the executable interface
   requires a bare array of contacts;
-- four filtered-decoy `predicted_expansion` and `public_regret` values exceed
-  the published inclusive numeric bound `[0, 200]`.
+- sixteen filtered-decoy field occurrences exceed the published inclusive
+  numeric bound `[0, 200]`: four unique values (`996` through `999`) appear in
+  both `predicted_expansion` and `public_regret` and are duplicated by the
+  required reversed frontier.
 
 Before actor authorization, publish an explicit canonical contact schema in the
 workspace: root keys are exactly `interface_id` and `frontiers`; `frontiers`
