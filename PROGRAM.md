@@ -1194,5 +1194,20 @@ Preserve the successful contact and denied successor. Repeat from the exact
 OT-0169 parent with only the validator vocabulary repaired and with disjoint
 world cases; do not reuse the now-opened hidden cases.
 
+OT-0171 repairs exactly that boundary. Three clean fresh actors complete the
+full chain: the installed guide selects the composed extension; the exact
+source passes new public 3/3, disjoint hidden 3/3, and floor 18/18; a fresh
+assimilator authors an `identity-gated-branch-filtering` stake; and a fresh
+successor uses the unchanged installed guide to bind the composed mechanism
+again. Exact open subject `41080699...` retains the selector and all
+unauthorized parent state.
+
+This closes the immediate later-use gap. The next high-leverage test is
+corrigibility of the installed selector in operation: introduce a later regime
+where applying the composed route to the subject's stake is objectively
+harmful, preserve the current guide as the unchanged control, and require
+consequence to revise or surrender the selection boundary without closing the
+subject or regressing the established ordinary/dependency floors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -298,6 +298,10 @@ The strongest footholds are:
   assimilator is then rejected because the observer excludes an installed
   extension property admitted by the actor-visible checker; the record is
   invalidated and no successor is sealed.
+- `OT-0171`: the repaired shared-vocabulary continuation passes across three
+  fresh actors. The installed selector authorizes exact extension contact,
+  consequence authors a new stake, and the open successor reuses the selector
+  to bind its next composed mechanism while preserving the 18/18 floor.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1489,6 +1489,21 @@ vocabulary mismatch in a new record, use disjoint consequence cases, and keep
 the selector, candidate mechanisms, selection path, mutation envelope, actor
 budgets, and promotion gate unchanged.
 
+OT-0171 makes that exact repair and passes. Three clean fresh actors span
+installed-guide selection, exact corrected-extension contact, consequence-
+driven next-stake authorship, and successor reopening. New public and hidden
+contact score 3/3, the accumulated floor remains 18/18, and the fresh successor
+again selects the composed mechanism for its new identity-gated stake. Exact
+open subject `41080699...` retains the installed guide and all unauthorized
+parent state.
+
+The selector is now causally supported and operationally recurrent. The next
+gap is later harm: expose this exact successor to a regime in which its current
+composed choice is objectively wrong, then require consequence-driven revision
+or surrender of the selection boundary, an unchanged-guide comparison, floor
+preservation, and another open continuation. Persistent use without this
+reversal would not establish corrigibility.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

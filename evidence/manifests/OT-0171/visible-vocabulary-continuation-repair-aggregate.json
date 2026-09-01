@@ -1,0 +1,29 @@
+{
+  "artifact_id": "visible-vocabulary-continuation-repair-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 24901,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "756b9580264c3872e70fea73894146b64292f5bf",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0171",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:visible-vocabulary-continuation-repair-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "478438a53a23e86772b1fac480c22e6c1c6bb7ecf5f1f4fd69093f5b75e1cb3b"
+}
