@@ -1,6 +1,6 @@
 # OT-0112 — retained generic-expansion recurrence
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; one cycle promoted, recurrence target rejected
 - **Evidence class:** exploratory-only
 - **Target:** promote the exact admitted OT-0111 package and complete the
   automatically selected second expansion under the generic driver
@@ -45,3 +45,28 @@ recurrence target. Preserve the last exact valid subject. Passing would
 establish two successive subject-authored expansion promotions under the same
 generic machinery, not arbitrary synthesis, autonomous admission, cross-domain
 transfer, frequency, or indefinite continuation.
+
+## Result
+
+One pre-inference action-template lookup defect was repaired inside the frozen
+protocol budget. The retained OT-0111 package then assimilated cleanly and
+promoted exact open successor
+`a17ee73828db76ca2f384bb2a1dced9fd12cb22590fbfac028e2106ba635e67b`.
+Its fresh assimilator grounded itself in all three coordination rows and chose
+the new pursuit `joint-capability-frontier-coordination-recovery`, causing the
+unchanged driver to open cycle two automatically.
+
+The cycle-two actor cleanly authored all four package files, but the structural
+gate rejected before binding. It represented reversibility as a structured
+object rather than the admitted Boolean/string forms and instantiated the
+abstract score expression with its selected field names. Post hoc semantic
+normalization makes the exact contact, operation, three authored cases, eight
+diagnostic hidden cases, and all parent-recovery checks pass. Its public
+validator nevertheless accepts an inherited coordination penalty above the
+declared bound, so one substantive contract defect remains.
+
+The two-cycle target is rejected with one promoted cycle. The next record
+should begin from the exact promoted successor, retain the exact cycle-two
+package, broaden only semantically equivalent declaration forms, expose the
+inherited-bound disagreement to one fresh corrector, and resume admission and
+assimilation without resampling the package.

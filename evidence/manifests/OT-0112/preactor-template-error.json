@@ -1,0 +1,33 @@
+{
+  "artifact_id": "preactor-template-error",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 39424,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "23b3bce43defabfe558c8badb577e348e8910a66",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0112",
+  "input_manifests": [
+    "evidence/manifests/OT-0111/stopped-generic-expansion-run.json"
+  ],
+  "kind": "experiment-preflight-error",
+  "limitations": [
+    "One preserved pre-inference action-template module-depth failure repaired before the scientific run."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:preactor-template-error",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "46ae0800b665710aadbb7a4017e508541e0160090df03a898fd7abe4c0539db0"
+}

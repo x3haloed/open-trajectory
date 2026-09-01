@@ -539,6 +539,19 @@ lookup, begins at the never-run cycle-one assimilation, seals any valid
 successor, and opens the unchanged generic second-cycle machinery only if that
 successor itself binds another registry extension.
 
+OT-0112 promotes the retained first expansion. Its assimilator selects a new
+coordination/recovery extension and the unchanged driver opens cycle two. The
+second package is behaviorally valid post hoc but uses richer declaration
+forms than the gate and its public validator omits one inherited term bound.
+The two-cycle target rejects with exact open successor
+`a17ee73828db76ca2f384bb2a1dced9fd12cb22590fbfac028e2106ba635e67b`.
+
+The next record should preserve both that successor and the exact second
+package. Admit semantically equivalent declaration structures, bind the
+package, expose the inherited-bound disagreement to one fresh corrector, and
+resume the generic admission and assimilation path without another invention
+sample.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

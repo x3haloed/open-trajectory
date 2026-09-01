@@ -104,6 +104,9 @@ The strongest footholds are:
 - `OT-0111`: one rejected generic two-cycle run whose clean depth-two package
   passed independent hidden admission before a driver constant-resolution
   error stopped the observation prior to assimilation.
+- `OT-0112`: one partial generic recurrence that promotes the retained first
+  expansion and automatically opens a second; the second package stops on
+  declaration representation and one inherited-bound validator defect.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

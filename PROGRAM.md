@@ -202,6 +202,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   hidden, oracle, and reversibility admission. A wrong module-depth lookup then
   stops the driver before assimilation. The two-cycle target is rejected and
   the exact OT-0110 parent remains open.
+- `OT-0112` promotes that exact admitted package and lets its fresh assimilator
+  choose the next extension, which the unchanged driver opens automatically.
+  The second actor authors a behaviorally sound package but fails declaration
+  representation and one inherited-bound public-contract check. One cycle is
+  promoted; the two-cycle target is rejected.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -416,6 +421,11 @@ but not recurrence: a driver constant-resolution error stops before the first
 assimilation. The next record should reconstruct the exact admitted package,
 repair only that lookup, and continue the already-fixed recurrence path without
 resampling cycle-one invention.
+OT-0112 completes that retained promotion and reaches an automatically opened
+second package. The next record should retain its exact bytes, accept the
+semantically equivalent declaration forms, give the inherited-bound failure to
+one fresh contract corrector, and resume hidden admission and assimilation
+from the exact promoted OT-0112 successor.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

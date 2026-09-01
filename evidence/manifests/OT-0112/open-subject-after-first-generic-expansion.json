@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-first-generic-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 263237,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "23b3bce43defabfe558c8badb577e348e8910a66",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0112",
+  "input_manifests": [
+    "evidence/manifests/OT-0110/open-subject-after-interface-admission.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after one promoted retained generic expansion; second package remains unbound."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-first-generic-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cb1dd1523b992b6b8f1ecdf72b746f3412843b633d57f6cc06e563ca67263fcb"
+}
