@@ -1809,3 +1809,26 @@ refine the pursuit. A deterministic developmental delta may be compared with
 the raw completion evidence, but it may summarize only the frozen score and
 transition; it may not author the next stake. Promotion still requires bound
 downstream contact, not narrative agreement.
+
+OT-0182 first completes the active stake without relying on that disputed
+interpretation. Prediction correction passes the exact named cases 3/3, a
+disjoint uniquely discriminating set 3/3, and the accumulated floor 18/18.
+After that sealed receipt, both the raw branch and the developmental-delta
+branch retire the completed stake in 4/4 fresh actors. All eight renew on option
+expansion; all eight successors select viable branching and pass contact 3/3.
+Raw consequence is sufficient, so the delta is not installed. Exact open
+subject `40818aa8...` carries the first fixed-order raw successor.
+
+The result also isolates the next hidden causal component. Actors selected the
+property, but the harness compiled that label into a favorable world. The new
+stakes refer to preserving observed contacts, while the known disjoint cases
+show naive viable filtering admits unobserved decoys. That is a legitimate open
+pressure, not a completed capability, and the 3/3 friendly slice does not settle
+it.
+
+Next require the subject to bind a concrete contact specification from its own
+question, success condition, and surrender condition. Consequence must include
+both supportive and adversarial cases, and the world must be chosen only after
+the specification is bound. Compare against property-only compilation. A
+researcher-authored friendly mapping from label to world no longer counts as
+sufficient pursuit causality.

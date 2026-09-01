@@ -1,6 +1,6 @@
 # OT-0182 — exact stake completion and developmental delta
 
-- **Status:** frozen; not run
+- **Status:** complete; raw completion receipt sufficient; promoted
 - **Evidence class:** exploratory-only
 - **Target:** complete the exact active stake, then test whether a deterministic
   developmental transition projection causally improves post-completion
@@ -81,3 +81,42 @@ seed-root suffix so seed and evidence paths are disjoint. It does not alter
 actor-visible bytes, task order, candidate or control, worlds, score, gate, or
 budgets. The repaired invocation must use a new evidence root and fresh actors,
 including a fresh completion selector.
+
+## Result
+
+The repaired run completes all seventeen fresh actors with clean complete
+traces and contained effects. The completion selector binds prediction
+correction. It passes the exact revoked-identity cases 3/3, the disjoint cases
+3/3 while every alternative mechanism scores 0/3 there, and the inherited
+floor 18/18. Completion receipt
+`45cf7d4944f78741a6825839cbb9b4564581fc6ed94de7d5f795cbf8b03e501b`
+therefore makes the active stake genuinely complete.
+
+All four populated-delta actors and all four field-erased/raw actors retire the
+completed correction stake. Every actor independently renews on
+`option-expansion`; all eight fresh successors select viable branching and pass
+their bound three-case contact 3/3. The frozen `raw-sufficient` rule therefore
+applies. The deterministic developmental delta has no measured causal value and
+is not installed.
+
+Exact open successor
+`40818aa8c898da506378ab82ddebe6682c5edc8b524f5e1bb2025bb391cf2747`
+uses the first valid raw-evidence successor in fixed order. Its active stake is
+`preserve-observed-viable-contacts-next`, and its installed active mechanism is
+viable branching. Prediction correction remains operative, so the completed
+correction floor is not globally replaced.
+
+This is the first replicated post-completion pursuit transition in this line:
+exact objective consequence is itself sufficient for fresh actors to retire a
+fulfilled stake, author a different opening, and cause matching successor
+contact. A summary artifact is unnecessary here.
+
+The contact remains only a bounded opening, not completion of the new stake.
+The property-to-world compiler selected a favorable option-expansion slice;
+the actor did not choose concrete cases, and known disjoint evidence shows that
+viable branching does not yet return only observed contacts. The next test
+must remove that researcher-owned favorable-contact choice. Let the subject
+bind a concrete contact specification derived from its authored success and
+surrender conditions, then consequence-test it on both supportive and
+adversarial cases. A property label routed to a friendly world no longer
+counts as sufficient pursuit causality.

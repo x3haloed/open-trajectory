@@ -1,0 +1,29 @@
+{
+  "artifact_id": "partial-pre-assimilation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 68176,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b11ce8857af3e3ac5a70f46bfcbc8140004c57ad",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0182",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:partial-pre-assimilation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0aa1ec36a234365b2133c777df20c4c6ff4481f0ca9fd6cbd04e03ee29afd154"
+}

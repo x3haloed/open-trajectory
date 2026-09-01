@@ -1378,5 +1378,21 @@ by the stake: correction on the revoked-identity cases plus the accumulated
 18-case floor. Then compare post-completion assimilation with and without a
 deterministic developmental delta that does not prescribe the next pursuit.
 
+OT-0182 completes that exact contact: prediction correction passes the three
+named cases, three disjoint cases, and the accumulated floor 18/18. Four of
+four fresh actors with raw completion evidence and four of four with the
+deterministic delta retire the completed stake. All eight renew on option
+expansion; their fresh successors select viable branching and pass 3/3. Raw
+evidence is therefore sufficient, the delta is noncausal and omitted, and open
+successor `40818aa8...` carries the first raw-authored transition.
+
+The new opening is not yet fulfilled. Its property-selected world was a
+favorable slice chosen by the harness, while the actor authored only a property
+and prose criteria. The next experiment should make the subject bind concrete
+contact derived from those criteria before consequence, including an
+adversarial slice where naive viable filtering admits unobserved options. This
+targets the remaining researcher-owned contact selector rather than adding
+another memory artifact.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

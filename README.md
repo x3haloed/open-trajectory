@@ -345,6 +345,10 @@ The strongest footholds are:
   successor passes new contact 3/3. The exact old-pursuit control selects the
   same mechanism and also passes 3/3, rejecting pursuit-content causality while
   preserving open operational successor `37cac3c6...`.
+- `OT-0182`: exact correction contact passes 3/3 named cases, 3/3 disjoint
+  cases, and the inherited floor 18/18. Both raw and delta branches retire the
+  completed stake 4/4 and pass successor contact 4/4, so raw consequence is
+  sufficient and open successor `40818aa8...` omits the noncausal delta.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

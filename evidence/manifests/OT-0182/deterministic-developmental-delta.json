@@ -1,0 +1,29 @@
+{
+  "artifact_id": "deterministic-developmental-delta",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 760,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b11ce8857af3e3ac5a70f46bfcbc8140004c57ad",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0182",
+  "input_manifests": [],
+  "kind": "candidate-substrate",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:deterministic-developmental-delta",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "acb325bccabcb107dd2bb3f69c287522a01be4c28b3f4dae4858cc69ec0fae39"
+}

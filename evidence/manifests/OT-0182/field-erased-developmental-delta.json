@@ -1,0 +1,29 @@
+{
+  "artifact_id": "field-erased-developmental-delta",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 748,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b11ce8857af3e3ac5a70f46bfcbc8140004c57ad",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0182",
+  "input_manifests": [],
+  "kind": "control-substrate",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:field-erased-developmental-delta",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "96c2d6e8ebcb0f3e3201a751953b7d081ae1380ee040a31a4d411e852cb6a0b3"
+}

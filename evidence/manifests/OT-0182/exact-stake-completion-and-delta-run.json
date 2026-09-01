@@ -1,0 +1,29 @@
+{
+  "artifact_id": "exact-stake-completion-and-delta-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2669142,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b11ce8857af3e3ac5a70f46bfcbc8140004c57ad",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0182",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-stake-completion-and-delta-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fbeeb6555c16d0a98cecf3853aae67487b29dfda9fd2ddc8f14d753e9ac7d734"
+}
