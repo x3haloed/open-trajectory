@@ -90,12 +90,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0236 successor `ad47d3bb...`,
+The current exact operational subject is OT-0237 successor `8b4d245e...`,
 identified by
-`evidence/manifests/OT-0236/open-subject-under-g10-contained-denial-authority.json`.
-It preserves the same open `restore_water_links` contradiction and unchanged
-inherited registry at `correct`, while carrying OT-0235's exact patch as
-G10-eligible but unadmitted for prospective consequence.
+`evidence/manifests/OT-0237/open-subject-after-outward-correction.json`.
+It contains a world-verified corrected `restore_water_links` extension outside
+the unchanged inherited registry and is open at `assimilate` for recurrent
+outward selection.
 
 ## Prediction errors
 
@@ -213,7 +213,11 @@ G10-eligible but unadmitted for prospective consequence.
 - OT-0236 promotes G10 prospectively: 11/11, hard anchors 8/8, and denial cases
   2/3→3/3. Exact `ad47d3bb...` preserves OT-0235's rejection and operational
   state while carrying the patch as eligible but unadmitted.
+- OT-0237 opens prospective consequence without another actor. The retained
+  patch reaches 6/6 versus unchanged 2/6; exact `8b4d245e...` installs it inside
+  the actor-authored extension and returns to assimilation while leaving the
+  inherited registry untouched.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is prospective consequence on the exact
-  retained correction candidate without actor resampling, requiring 6/6 versus
-  unchanged 2/6 before admission into the actor-authored extension.
+  external. The next discriminating step is a fresh recurrent outward selection
+  from the corrected subject, excluding both the inherited registry and the
+  completed outward target without supplying a replacement target.

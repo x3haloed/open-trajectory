@@ -2121,5 +2121,20 @@ experiment should open a new follow-up world on that candidate without another
 actor; admission still requires 6/6 versus unchanged 2/6 and exact installation
 inside the actor-authored extension.
 
+OT-0237 opens that world without another actor. The exact retained patch reaches
+6/6 on six new cases while unchanged remains 2/6. Exact successor `8b4d245e...`
+installs the correction inside the actor-authored environment extension, resolves
+the pending contact, marks `restore_water_links` verified-local, preserves the
+inherited registry unchanged, and dispatches `assimilate`. OT-0235 remains
+rejected; admission is earned only by OT-0237's prospective receipt.
+
+The next claim is recurrent outward continuation. A fresh actor should receive
+this exact corrected subject and the same still-inspectable unregistered world,
+with no assigned target or replacement registry entry. It must not reopen the
+verified water-link contact. A useful result selects and binds another real
+uncontacted surface, receives independent consequence, and leaves the subject
+open; inability to find one should remain visible rather than being replaced by
+parameter repetition.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

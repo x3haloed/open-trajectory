@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-outward-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 812181,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bf2998e05d9388120af35ec07ade92cc3b0a7350",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0237",
+  "input_manifests": [
+    "OT-0237/retained-outward-correction-consequence-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after one corrected actor-authored outward interface; selection of another outward pursuit remains pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-outward-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fc6783c749b671058a10135a861b2d6238b13ad5ecdcc194eebfea53950969e5"
+}

@@ -2732,3 +2732,18 @@ The frontier is now prospective consequence without actor resampling. Rebuild
 the outward environment from exact subject state, compare the retained patch on
 six new cases against unchanged 2/6, and install it only on a decisive 6/6
 result. The inherited registry must remain unchanged.
+
+OT-0237 completes that consequence edge with no new actor. The retained patch
+reaches 6/6 while unchanged remains 2/6. Exact successor `8b4d245e...` installs
+the source only in the actor-authored extension, resolves the outward contact,
+marks it verified-local, preserves the inherited registry unchanged, and remains
+open at `assimilate`. OT-0235 remains rejected.
+
+The frontier is now recurrence after outward correction. Give one fresh actor
+the exact corrected subject and the same unregistered executable world, without
+an assigned target, visible reference, registry file, or replacement entry. The
+verified `restore_water_links` surface must not qualify as new. Promotion requires
+another actor-authored executable contact outside both the inherited registry and
+the completed outward surface, followed by independent consequence and an exact
+open successor. This distinguishes a one-time registry escape from a continuing
+capacity to turn outward again.

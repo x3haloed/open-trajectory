@@ -599,6 +599,10 @@ The strongest footholds are:
   11/11 with all 8 hard anchors preserved and denial cases 2/3→3/3. Exact
   successor `ad47d3bb...` keeps OT-0235 rejected and carries its correction
   candidate unadmitted for prospective consequence.
+- `OT-0237`: without another actor, the retained outward correction reaches 6/6
+  versus unchanged 2/6. Exact successor `8b4d245e...` installs it only inside
+  the actor-authored extension, preserves the inherited registry unchanged, and
+  remains open at `assimilate`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

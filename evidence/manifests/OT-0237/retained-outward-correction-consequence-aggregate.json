@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-outward-correction-consequence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9002,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bf2998e05d9388120af35ec07ade92cc3b0a7350",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0237",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Zero-actor prospective consequence on one retained correction candidate; recurrent outward assimilation remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-outward-correction-consequence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a615ad1d461e06a47b3b7e9264044340d80073e7d38925b1c91b449bd82f1fd9"
+}
