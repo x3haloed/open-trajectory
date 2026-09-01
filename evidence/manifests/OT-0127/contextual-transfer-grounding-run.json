@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contextual-transfer-grounding-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 352256,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ed9afc7fab8c0177a614b97cb8cede34895e5a5",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0127",
+  "input_manifests": [],
+  "kind": "contextual-transfer-grounding-run",
+  "limitations": [
+    "Deterministic exact-byte re-audit completing a retained three-cycle chain; no new actor or selector/world sample was introduced."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:contextual-transfer-grounding-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b7dee9fbade4ead7bc17c23d1599019ba20116b6a80f958fce4f328ab3ecbbbc"
+}

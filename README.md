@@ -144,6 +144,8 @@ The strongest footholds are:
 - `OT-0126`: continuation-owned scheduling promotes two cycles and reaches a
   third oracle-selected contact; the final transition rejects on a brittle
   literal `cross` token despite grounded “materially different contexts.”
+- `OT-0127`: exact contextual-transfer re-audit promotes the retained third
+  cycle and yields an open subject after three subject-selected contacts.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

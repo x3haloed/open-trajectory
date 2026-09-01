@@ -1,6 +1,6 @@
 # OT-0127 — contextual-transfer grounding
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; passed
 - **Evidence class:** exploratory-only
 - **Target:** re-audit exact retained OT-0126 cycle-three bytes under a bounded
   semantic-equivalence rule
@@ -50,3 +50,13 @@ grounds contextual transfer. Stop without promotion on any mismatch.
 Passing would complete the retained three-cycle chain. It would not establish
 a clean full-chain reproduction, open-ended semantic interpretation, or a
 general natural-language evaluator; those remain separate requirements.
+
+## Result
+
+Every exact reconstruction and bounded equivalence check passes. The retained
+cycle-three route binds without changing any actor, selector, world, case,
+action, or opening byte. Exact sounding open subject
+`81606d5468bdbc100698f48629a6021dbf81ad07d6521f17f84acbb8aec8869a`
+now carries the cross-context transfer opening after three retained scheduler
+cycles. The bounded operational-transition target passes. A clean full-chain
+reproduction from the OT-0124 parent remains the decisive reliability test.

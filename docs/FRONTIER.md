@@ -751,6 +751,15 @@ re-audit retained cycle-three bytes, and retain exact open subject
 `7055c37a6f29f39e84690ca01c1e9ab78f7aa55798dd073bffd5a879b504cd77`
 after the first two promotions.
 
+OT-0127 passes that exact re-audit. Exact sounding open subject
+`81606d5468bdbc100698f48629a6021dbf81ad07d6521f17f84acbb8aec8869a`
+now carries cross-context transfer after three retained subject-selected world
+contacts. This establishes the assembled causal chain, not reliability of the
+final scheduler design. The decisive next test is a clean reproduction from the
+exact OT-0124 parent: three fresh actors, the final continuation-owned scheduler
+and bounded contextual-transfer rule frozen from the start, decisive selector
+controls at every node, and no between-cycle intervention.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -856,6 +865,8 @@ after the first two promotions.
 - Continuation-owned scheduling then promotes two cycles and reaches a third;
   the remaining rejection is a literal-token miss on semantically grounded
   contextual-transfer language.
+- Exact bounded re-audit now promotes that third cycle; clean full-chain
+  recurrence under the final frozen scheduler remains unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -560,5 +560,11 @@ different contexts” because it requires the literal token `cross`. Preserve th
 valid two-cycle open subject and exact cycle-three bytes; publish a bounded
 contextual-transfer equivalence rule and re-audit without resampling.
 
+OT-0127 passes that exact re-audit and promotes an open subject after three
+retained scheduler cycles. The next dependency is clean reproduction: start
+again from the exact OT-0124 parent under the final continuation-owned scheduler
+and bounded contextual-transfer rule, authorize three fresh actors, and permit
+no between-cycle repair or contract change.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

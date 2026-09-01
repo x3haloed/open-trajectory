@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contextual-transfer-grounding-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2479,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ed9afc7fab8c0177a614b97cb8cede34895e5a5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0127",
+  "input_manifests": [],
+  "kind": "contextual-transfer-grounding-result",
+  "limitations": [
+    "Three-cycle retained recurrence passes under a bounded contextual-transfer equivalence rule; clean full-chain reproduction remains required."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contextual-transfer-grounding-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "db52870dd3a788dbf47c244d38391c67b022a26164ef4a454c97fd1abd4aa855"
+}
