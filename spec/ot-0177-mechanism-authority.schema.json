@@ -1,0 +1,53 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["mechanisms"],
+  "properties": {
+    "mechanisms": {
+      "type": "array",
+      "minItems": 4,
+      "maxItems": 4,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["mechanism_id", "status", "floor_role"],
+        "properties": {
+          "mechanism_id": {"type": "string", "minLength": 1},
+          "status": {
+            "enum": ["operative", "surrendered", "history-only", "unrelated"]
+          },
+          "floor_role": {
+            "enum": ["active-authority", "regression-only", "none"]
+          }
+        },
+        "oneOf": [
+          {
+            "properties": {
+              "status": {"const": "operative"},
+              "floor_role": {"enum": ["active-authority", "none"]}
+            }
+          },
+          {
+            "properties": {
+              "status": {"const": "surrendered"},
+              "floor_role": {"enum": ["regression-only", "none"]}
+            }
+          },
+          {
+            "properties": {
+              "status": {"const": "history-only"},
+              "floor_role": {"enum": ["regression-only", "none"]}
+            }
+          },
+          {
+            "properties": {
+              "status": {"const": "unrelated"},
+              "floor_role": {"const": "none"}
+            }
+          }
+        ]
+      }
+    }
+  }
+}
