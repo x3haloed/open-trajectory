@@ -1087,5 +1087,17 @@ Preserve the exact corrected source and receipt; next require structural
 dependency evidence rather than broader lexical overlap, with the full known
 floor and new ordinary hard negatives.
 
+OT-0162 cleanly reaches that full known floor 18/18 by explicitly conjoining
+revised machinery, machinery reference, and earned-floor words. On held-out
+relational paraphrases it scores only 4/10—unchanged from its exact parent and
+below property-only 5/10—and also over-selects the extension on two ordinary
+hard negatives.
+
+This resolves the active prediction error against another fixed lexical
+selector patch. Preserve its source and consequence, but test a different
+embodiment next: a retained semantic selection artifact should guide fresh
+selection actors over individual unseen stakes, with matched artifact-erased
+controls and choices bound before world consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

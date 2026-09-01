@@ -261,6 +261,10 @@ The strongest footholds are:
 - `OT-0161`: a clean consequence-grounded correction reaches known 10/10 and
   held-out 6/8 versus both controls' 4/8. It preserves every ordinary hard
   negative but misses two unseen extension paraphrases, so is rejected.
+- `OT-0162`: a second clean correction reaches the accumulated known floor
+  18/18 but falls back to held-out 4/10, equal to its parent and below
+  property-only 5/10. Fixed lexical selector correction is now the rejected
+  representation hypothesis, not the next default.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

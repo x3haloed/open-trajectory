@@ -1,0 +1,33 @@
+{
+  "artifact_id": "relational-dependency-selector-correction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 399488,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "613a2bacecf04c30a9f97d9c7bba53d5f9712328",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0162",
+  "input_manifests": [
+    "evidence/manifests/OT-0161/consequence-corrected-mechanism-selector-aggregate.json"
+  ],
+  "kind": "run-archive",
+  "limitations": [
+    "Fresh correction passes known 18/18 but held-out only 4/10; no promotion."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:relational-dependency-selector-correction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "57592e9e64e53c9d66600d3862b97f36bd2085eb60f77f6b885ad28360c68ab1"
+}

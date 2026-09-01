@@ -1,0 +1,33 @@
+{
+  "artifact_id": "sealed-hidden-relational-selector-consequence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3109,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "613a2bacecf04c30a9f97d9c7bba53d5f9712328",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0162",
+  "input_manifests": [
+    "evidence/manifests/OT-0162/relational-dependency-selector-correction-aggregate.json"
+  ],
+  "kind": "world-result",
+  "limitations": [
+    "Corrected selector passes 4/10 held-out relational cases; exact failures and false overrides retained."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-hidden-relational-selector-consequence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "545efbaa821138815003bdf5cad37bd41b31c7b33f39141b0b4b35bf2cd9c0fd"
+}

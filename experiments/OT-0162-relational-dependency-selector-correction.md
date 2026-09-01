@@ -45,3 +45,21 @@ Passing would establish a second consequence correction and one relational
 generalization. Failure dominated by new paraphrases despite an 18/18 known
 floor would count against fixed lexical selector programs and motivate testing
 a model-mediated semantic selector artifact rather than another synonym patch.
+
+## Result
+
+The fresh actor passed complete trace and effects audit, changed only
+`selector.py`, and truthfully reached the full known floor 18/18. It explicitly
+encoded a conjunction of revised machinery, machinery reference, and earned
+floor.
+
+Held-out performance was 4/10: identical to its exact parent and below the
+property-only control's 5/10. Four of five unseen extension dependencies still
+fell back to coarse property, and lexical overlap also over-selected the
+extension on two ordinary hard negatives. Inputs remained unchanged and every
+output was a presented id.
+
+No selector was installed; exact OT-0156 remains current, sounding, and open.
+This resolves the prediction error against another fixed lexical-program
+correction. Preserve the exact 18/18 source and 4/10 receipt, but move the next
+test to a retained semantic guidance artifact used by fresh selection actors.

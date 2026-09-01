@@ -1378,6 +1378,20 @@ both misses to a fresh successor and require structural dependency evidence
 rather than broader lexical overlap, with the complete 18-case known floor,
 fresh ordinary hard negatives, and the exact 6/8 source as post-seal control.
 
+OT-0162 supplies that successor and reaches the known floor 18/18, but held-out
+performance collapses to 4/10—equal to its exact parent and below property-only
+5/10. Four of five unseen dependencies still fall back to coarse property, and
+two ordinary hard negatives trigger false extension overrides. The clean actor
+and exact runtime remove apparatus ambiguity.
+
+Stop adding lexical rules to the fixed selector program. The next discriminating
+experiment should let retained consequence become a compact semantic guidance
+artifact used by fresh selection actors on individual unseen stakes. Compare
+matched artifact-present and artifact-erased branches, bind choices before
+world consequence, and require ordinary-route preservation as well as
+dependency selection. This tests whether the artifact can improve a fresh
+model's semantic choice rather than trying to replace that model with regexes.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
