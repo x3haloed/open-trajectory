@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-operative-reactivation-guide-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9169,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "646ade441d7eb8e0a8a53df783c48cd03de6fb28",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0174",
+  "input_manifests": [],
+  "kind": "world-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-operative-reactivation-guide-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "759c5be85198a45ccd5d064ad2b46ccc4453055edb594cff35ea1800fb8a2773"
+}

@@ -311,6 +311,10 @@ The strongest footholds are:
   `prediction-corrector` and preserves 10/11 known cases. It over-tightens
   operative status for one membership-reactivation dependency, so the hidden
   portfolio remains unopened and nothing is installed.
+- `OT-0174`: the repaired guide reaches known 11/11 and hidden 12/12 versus the
+  original installed guide's 9/12. Its immediate parent also reaches hidden
+  12/12, so the frozen immediate-effect gate fails and the exact 3,823-byte
+  guide is retained but not installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

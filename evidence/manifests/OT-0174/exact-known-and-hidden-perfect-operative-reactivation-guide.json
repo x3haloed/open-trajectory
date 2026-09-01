@@ -1,0 +1,29 @@
+{
+  "artifact_id": "exact-known-and-hidden-perfect-operative-reactivation-guide",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3823,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "646ade441d7eb8e0a8a53df783c48cd03de6fb28",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0174",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:exact-known-and-hidden-perfect-operative-reactivation-guide",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c4d2dc8f4adccc6927ae31df72be15637310e593b9b0d4a64963832bcf2856d1"
+}

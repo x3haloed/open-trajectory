@@ -1244,5 +1244,19 @@ with its earned floor makes it operative. Do not weaken the defeated-
 composition exception. Require known 11/11 before opening the exact unchanged
 hidden comparison.
 
+OT-0174 makes that repair and reaches known 11/11 plus hidden 12/12. The exact
+original installed guide scores 9/12, falsely promoting three defeated-
+composition history cases, so the complete corrected lineage has a decisive
+three-case advantage. The 3,685-byte immediate parent also scores 12/12,
+however. The final reactivation amendment has no effect on this hidden sample
+and misses its frozen at-least-one immediate-parent gate.
+
+Do not install and do not lower the gate. Preserve the exact 3,823-byte final
+guide, its perfect floors, and the three-way receipt. A new exact comparison
+should concentrate on affirmative restore/reactivate/replay/resume language
+against matched defeated-history controls. Require a decisive final-versus-
+immediate-parent advantage before using OT-0174's final-versus-original result
+as the broader correction anchor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

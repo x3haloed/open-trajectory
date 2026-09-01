@@ -1538,6 +1538,18 @@ restoring, replaying, or reactivating a named composition with its floor is
 continued operation. Keep the defeated-composition exception and require exact
 known 11/11 before opening OT-0173's unchanged hidden portfolio.
 
+OT-0174 restores known 11/11 and reaches hidden 12/12. It preserves both six-
+case hidden floors and beats the exact originally installed guide 12–9. But
+the immediate 3,685-byte guide also reaches 12/12, so the new amendment has no
+effect on that portfolio and the frozen immediate-parent gate rejects
+promotion.
+
+Exact subject `3770a9d5...` remains current. Preserve the 3,823-byte final guide
+and three-way receipt. Test final versus immediate parent on a fresh portfolio
+that directly contrasts affirmative restoration/reactivation/replay/resumption
+of named composition plus floor against similarly worded defeated-history
+cases. Do not infer the missing local effect from the broader 12–9 result.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

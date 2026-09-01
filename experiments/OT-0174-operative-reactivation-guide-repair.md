@@ -1,6 +1,6 @@
 # OT-0174 — operative reactivation guide repair
 
-- **Status:** frozen; not run
+- **Status:** complete; rejected at the immediate-parent causal gate
 - **Evidence class:** exploratory-only
 - **Target:** repair OT-0173's sole known miss without weakening its defeated-
   composition correction
@@ -42,3 +42,23 @@ On pass, install the final corrected guide in the exact open parent, preserve
 both correction ancestors and all unauthorized state, and retain the active
 correction stake and continuation exactly. Exact later prediction-corrector
 contact remains required.
+
+## Result
+
+The clean 3,823-byte guide successor restores known 11/11. It routes both the
+exact harmed stake to `prediction-corrector` and membership reactivation to the
+composed extension, while preserving every prior ordinary and dependency case.
+
+All 36 hidden actors pass audit. The final guide scores hidden 12/12 with
+revoked-history 6/6 and active-composition 6/6. It decisively beats the exact
+original installed guide, which scores 9/12 by falsely promoting three revoked-
+history cases.
+
+The immediate 3,685-byte parent also scores 12/12. Therefore the final guide's
+advantage over that parent is zero, missing the frozen at-least-one gate. No
+guide is installed and exact open subject `3770a9d5...` remains current.
+
+Preserve the final guide and all three-way receipts. The next test should not
+lower the gate. Compare exact final and immediate-parent guides on a newly
+sealed portfolio specifically powered around affirmative restoration,
+reactivation, replay, and resumption versus defeated-composition history.
