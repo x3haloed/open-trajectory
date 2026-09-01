@@ -1,0 +1,29 @@
+{
+  "artifact_id": "open-subject-after-live-authority-later-use",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 483540,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3218c69f572e82465f622da564f93fe2db9d5c99",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0179",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-live-authority-later-use",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7a2e8295d9313f6f4c8b991ffded2ea8ea5b555eeb66bbb173763f835cf02ed6"
+}

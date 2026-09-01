@@ -333,6 +333,10 @@ The strongest footholds are:
   consequence. Populated authority yields prediction correction and complete
   contact in 10/10 fresh actors versus 2/10 under exact field erasure. Open
   successor `c9e406bf...` carries the tested artifact and world receipt.
+- `OT-0179`: exact later use replicates on four disjoint cases. The installed
+  artifact yields correct selection and contact in 6/6 fresh actors versus 1/6
+  after field erasure. Open successor `76ea326b...` retains exact selector bytes
+  and adds the later-use receipt.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

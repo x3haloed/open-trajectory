@@ -1324,5 +1324,20 @@ material contradiction to one operative authority assignment, give the bound
 receipt to a fresh actor, and test whether it revises the carried projection
 without losing the surrender boundary or established selection/contact floor.
 
+OT-0179 supplies exact later use. Six of six fresh actors starting from the
+installed projection select prediction correction and pass four new cases;
+after exact field erasure, only one of six does so and the other five return to
+the surrendered extension. The exact selector and projection remain unchanged
+in open successor `76ea326b...`, which adds the independent later-use receipt.
+
+The next test may now introduce later harm without conflating correction with
+initial reliability. Use a regime where blindly returning observed outcomes is
+objectively wrong but viable filtering succeeds. Preserve both OT-0178 and
+OT-0179 floors. A fresh actor must use the contradiction to revise what has
+current standing, and a later fresh actor must select the repaired route and
+pass new contact. Because the two earlier regimes still require prediction
+correction, watch for a new substrate limitation: a single global status may be
+unable to express context-scoped authority without regressing a true floor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

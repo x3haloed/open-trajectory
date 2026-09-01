@@ -1,6 +1,6 @@
 # OT-0179 — live-authority later use
 
-- **Status:** frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** test whether OT-0178's exact installed live-authority selector is
   used again from its promoted subject on disjoint world contact
@@ -40,3 +40,22 @@ establish correction after later harm.
 Reject without resampling if the installed and erased branches do not separate.
 Use the observed failure class, not another lexical amendment, to select the
 next mechanism.
+
+## Result
+
+All twelve fresh actors pass complete trace and effects audit, and all choices
+bind before the disjoint world opens. The exact installed projection yields
+`prediction-corrector` and complete four-case contact for 6/6 actors. Exact
+field erasure yields prediction correction and complete contact for 1/6; the
+other five actors return to the surrendered identity-gated extension.
+
+The installed artifact leads by five actors on both selection and contact. Its
+selector and projection byte-values and bindings remain exact, and the later-use
+receipt is appended without changing the active stake or any unauthorized
+parent field.
+
+Open successor
+`76ea326b3290c0f9a7b4952b2cdbd0170fccc838e0138ea600814171204f0ce5`
+therefore carries one exact disjoint later-use receipt. This closes the
+one-shot-use gap. Later objective harm, authority revision, preservation of the
+now-replicated floor, and revised reuse remain untested.

@@ -1761,3 +1761,15 @@ use from the promoted subject. Then expose one currently operative assignment
 to objective contradiction and require a fresh actor to revise the projection,
 with a matched unchanged control and later reuse. The subject must preserve the
 earned surrender and contact floors while changing what still has standing.
+
+OT-0179 closes the immediate later-use gap: installed authority produces 6/6
+correct choices and contacts on four disjoint cases, versus 1/6 under exact
+field erasure. Exact open subject `76ea326b...` carries the unchanged artifact
+and new reuse receipt.
+
+Proceed to later harm. The decisive question is whether consequence can change
+authority without flattening away a context in which the old route remains
+valid. A global status flip that fixes the new regime but destroys OT-0178 and
+OT-0179 is not correction. The next substrate may need authority scoped by
+world conditions; that need should be demonstrated by the harm/revision result,
+not assumed in advance.

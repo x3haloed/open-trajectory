@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-live-authority-later-use-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3604,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3218c69f572e82465f622da564f93fe2db9d5c99",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0179",
+  "input_manifests": [],
+  "kind": "world-receipt",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-live-authority-later-use-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0391e299fe20bf59cdf0aad4862e131e1b97490ea979eaf4fd3960d28aedd215"
+}
