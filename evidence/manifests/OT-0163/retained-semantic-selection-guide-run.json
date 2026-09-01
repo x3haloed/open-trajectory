@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-semantic-selection-guide-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 43638,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7c5407c2c432772d0991e9fd5a0198f092368f64",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0163",
+  "input_manifests": [
+    "evidence/manifests/OT-0162/relational-dependency-selector-correction-aggregate.json"
+  ],
+  "kind": "run-archive",
+  "limitations": [
+    "Guide author completed; driver directory collision stopped before the first choice actor."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:retained-semantic-selection-guide-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "daf06a92ae7a4bc8c181e705b112f5bf5e44f932a6bc7b13ffeff9d17403b26d"
+}

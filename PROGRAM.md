@@ -1099,5 +1099,12 @@ embodiment next: a retained semantic selection artifact should guide fresh
 selection actors over individual unseen stakes, with matched artifact-erased
 controls and choices bound before world consequence.
 
+OT-0163 obtains that artifact but stops before comparison. One fresh actor
+cleanly authors a 2,745-byte semantic guide grounded in all 28 opened cases. A
+driver staging directory then collides with the actor runtime's evidence label
+before the first choice actor. Preserve the exact guide and audit. Reconstruct
+its binding without another guide actor and change only the seed-directory
+namespace before running the unchanged twenty choices.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -265,6 +265,10 @@ The strongest footholds are:
   18/18 but falls back to held-out 4/10, equal to its parent and below
   property-only 5/10. Fixed lexical selector correction is now the rejected
   representation hypothesis, not the next default.
+- `OT-0163`: one clean actor authors a compact semantic selection guide, but a
+  driver-owned/actor-owned directory collision stops before the first matched
+  choice. The exact guide is retained; no semantic result or subject change is
+  claimed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

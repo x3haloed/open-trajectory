@@ -1392,6 +1392,13 @@ world consequence, and require ordinary-route preservation as well as
 dependency selection. This tests whether the artifact can improve a fresh
 model's semantic choice rather than trying to replace that model with regexes.
 
+OT-0163 cleanly authors that guide but stops before the first matched choice.
+The driver uses `semantic-choice-01-active` both as a staging parent and as the
+actor runtime's evidence label, causing `FileExistsError`. No selection outcome
+opens. Preserve the exact 2,745-byte guide and clean audit; next reconstruct its
+binding without a new guide actor, move seed staging to a disjoint namespace,
+and run the otherwise unchanged twenty-choice comparison.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

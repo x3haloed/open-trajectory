@@ -50,3 +50,20 @@ Passing would establish one causal artifact effect on fresh model-mediated
 semantic selection and operational routing of the current stake. It would not
 yet establish exact later reuse under a new scheduler encounter, revision after
 later semantic-guide harm, or selection among newly invented mechanisms.
+
+## Result
+
+The guide author completed cleanly and truthfully, changing only
+`selection-guide.md`. The exact 2,745-byte guide distinguishes ordinary direct
+routes from dependency on admitted/corrected composed machinery plus its earned
+floor, and explicitly treats cue words as evidence rather than switches.
+
+The driver then stopped before the first selection actor. It pre-created
+`semantic-choice-01-active` as a seed parent, while the actor runtime owns that
+same label as its evidence directory and raised `FileExistsError`. No choice was
+generated or scored, no hidden comparison opened, and the subject is unchanged.
+
+This is an apparatus staging-namespace failure, not semantic-guide evidence.
+Preserve the exact guide and audit. The next record should reconstruct its
+binding without another guide actor, stage choice seeds under disjoint names,
+and run the unchanged twenty-choice comparison.
