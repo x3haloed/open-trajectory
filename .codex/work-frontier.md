@@ -22,6 +22,8 @@ no longer depends on experiment-specific researcher choices.
   improves selection or correction, and reduces hidden researcher causation.
 - Exact history may grow while it remains reconstructible and does not prevent
   continuation.
+- Actor-authored local labels are content. Cross-actor identity belongs to the
+  sealing authority unless the actor-visible contract grants broader scope.
 
 ## Evaluation regime
 
@@ -35,72 +37,20 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-OT-0081 prospectively carried the exact adopted subject through another full
-cycle under one fixed driver. The active parent has internal digest
-`c55166a1805e3ef96f059832d7199f39e53a778bad301a600d2df1c8927ec128`,
-challenge machinery version 3, executable version 5, and is open at
-`execute-subject-owned-challenge-machinery`.
-
-The next high-leverage test should let this subject select among materially
-different admissible world contacts, reducing researcher ownership of the
-world-interface choice while retaining bind-before-consequence and independent
-admission.
-
-OT-0082 freezes this test as a three-surface tool-world portfolio. The active
-selector consumes a fresh actor's bound environmental assessment; a post-seal
-selector-erased replay preserves the assessment while removing its actionable
-role.
-
-OT-0082 rejected at the actor-facing serialization boundary after valid
-saturation. The exact active parent is now
-`1c04f340012e69dbd7a3783ab85d2d0e37667d5beb552f879b2ac20ab5dd7b73`,
-sounding and open at `inspect-and-select-environmental-intervention`. OT-0083
-should preserve the portfolio and comparison while exposing the complete route
-shape in the workspace.
-
-OT-0083 passed that correction. The active parent is
-`8ba78ade10b5f19f56a079c0de195a83c1309506e852ddff76659d284ec83896`,
-sounding and open at `inspect-and-select-environmental-intervention`, with the
-route/score composition retained as an executable environmental capability.
-The post-seal selector ablation chose a held repetition and was denied.
-
-Next expose environmental enumeration: let the subject inspect a bounded but
-uncurated environment and formulate the candidate contact itself, while the
-world and admission authority remain independent.
-
-OT-0084 freezes this as an actor-discovered repository frontier: no surface
-catalog enters the workspace, candidate identities are derived after discovery,
-and the same bound frontier receives a post-seal selector ablation.
-
-OT-0084 rejected after candidate discovery and selection succeeded. The bound
-composition produced the correct semantic values under `next_score`; the
-hidden world required an undisclosed `next_event` key. The exact OT-0083 parent
-remains active. OT-0085 should expose that return ABI in the source and change
-nothing else.
-
-OT-0085 freezes that exact report-docstring correction against the hash-pinned
-OT-0084 driver.
-
-OT-0085 promoted the operational path. The active parent is
-`90cba459564f3a4080c106a6d24616ce947e3b99b79cf9636d4d9e477f2b4998`,
-sounding and open at `inspect-and-select-environmental-intervention`, with one
-actor-discovered frontier and its report composition retained. The control's
-cadence input ABI was ambiguous, so no new clean selector-effect claim is added.
-
-Next move to a complete-code behavioral world where the actor must discover
-candidate contact from observed outcomes rather than unfinished source markers.
-
-OT-0086 freezes that move as a dispatch-policy world with public behavioral
-regret, hidden unchanged-policy comparison, and post-seal reliability ablation.
+The current exact open subject is OT-0207 successor `a3bcf6b1...`, identified by
+`evidence/manifests/OT-0207/open-subject-after-selected-ledger-completion.json`.
+It carries a consequence-tested selected ledger pursuit and an explicit receipt
+that comparative utility of `decision-ready-signal` remains unresolved.
 
 ## Prediction errors
 
-- OT's fixed-task, stop-at-budget workflow was not neutral: it made the research
-  apparatus a hidden causal component of continuation.
-- Tool denial was an unnecessarily narrow safety model. Broad tools are
-  compatible with valid evidence when effects are isolated, audited, and
-  quarantined.
-- The current recurrence evidence remains bounded to one synthetic world
-  family; cross-world subject-owned continuation is open.
-- Scheduler, world interface, seed priorities, and admission remain external.
-  Future experiments should expose and reduce these dependencies one at a time.
+- Recurrence evidence is still concentrated in related synthetic set/contact
+  worlds; cross-world subject-owned continuation remains open.
+- The retained selector has caused selection and one chosen pursuit completed,
+  but its score was prospectively mapped to checkpoints after selection. Its
+  comparative outcome value and calibration remain unknown.
+- No later regime has yet made `decision-ready-signal` harmful and caused the
+  subject to revise or surrender it.
+- Actor opening, world-interface construction, and final admission remain
+  external. Reduce these dependencies only through discriminating experiments,
+  not by relabeling researcher machinery as part of the subject.
