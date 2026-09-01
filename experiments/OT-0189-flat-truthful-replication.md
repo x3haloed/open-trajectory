@@ -1,6 +1,6 @@
 # OT-0189 — flat-schema truthful receipt-effect replication
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** design and executable conformance frozen; not run
 - **Evidence class:** exploratory-only
 - **Target:** obtain a valid replication of consequence-associated executable
   route revision after repairing OT-0187/0188's reporting interfaces
