@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-corrigible-cross-domain-selector",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 414600,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "92f04e2dff57aab79ddd4ca96852c9deb13e419a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0145",
+  "input_manifests": [
+    "evidence/manifests/OT-0144/open-subject-with-cross-domain-recovery-capability.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject retains three bounded capability roles; materially different world choice remains externally supplied."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-corrigible-cross-domain-selector",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2461dabccf5a00b6d7ed7c37a87e73eb0f80fbd2a9bfe3d0b77ca8f5e6fd8cd5"
+}

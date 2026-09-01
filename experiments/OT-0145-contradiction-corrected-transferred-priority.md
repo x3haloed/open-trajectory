@@ -78,3 +78,41 @@ constitutional priority: the selector gains a new consequence-grounded feature
 rather than defending scale invariance universally, while prior domain floors
 survive. It would not establish subject-authored feature languages, autonomous
 regime choice, or indefinite self-direction.
+
+## Result
+
+The complete run passed. On the first actor-authored portfolio, the inherited
+selector chose latency-relative cadence. It passed both public histories, then
+failed all three deadline-shifted hidden histories while the capped alternative
+passed all three. That comparative contradiction was retained in the subject.
+
+One fresh corrector changed only selector priority and passed the executable
+checker. The compiled selector added `constraint_compatible` immediately after
+`public_pass`, ahead of scale invariance. On a second independently authored
+portfolio, corrected and exact unchanged selectors were bound under identical
+information before hidden consequence. Corrected chose deadline-capped cadence
+and passed all three shifted histories plus control; unchanged chose pure
+latency-relative cadence, failed all three shifts, and passed control.
+
+Before installation, exact retained reserve contact passed q256 with nine
+distinctions and three confirmations, and ordinary unconstrained recovery
+passed three shifted histories plus control. The capped rule was installed as a
+third context-specific capability rather than replacing either older role.
+
+A fourth fresh actor then reused the exact capped strategy without revision on
+three new deadline-shifted histories plus control, passing all four. After the
+active successor was sealed, pure latency-relative cadence failed all three
+shifted histories. Erasing the v3 selector reproduced the unchanged harmful
+choice. All four actor traces were clean, contained, exactly scoped, and
+truthfully reported.
+
+Exact sounding open subject
+`8e4099de425271c78471cdb8d0cfadb335d14a8755d200f6793df427f65edc37`
+retains reserve, ordinary recovery, and deadline-recovery capabilities and asks
+which materially different world to contact next.
+
+This establishes bounded consequence-driven correction of a successfully
+transferred constitutional priority while retaining prior capability floors.
+The researcher still supplied the deadline world, candidate families, derived
+feature vocabulary, and next experiment. The next decisive reduction is that
+external control, not another selector-priority fixture.

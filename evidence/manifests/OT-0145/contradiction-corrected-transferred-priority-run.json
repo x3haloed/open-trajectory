@@ -1,0 +1,33 @@
+{
+  "artifact_id": "contradiction-corrected-transferred-priority-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2723328,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "92f04e2dff57aab79ddd4ca96852c9deb13e419a",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0145",
+  "input_manifests": [
+    "evidence/manifests/OT-0144/open-subject-with-cross-domain-recovery-capability.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded deadline contradiction and held-out correction; feature vocabulary, candidate families, and world remain researcher-designed."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:contradiction-corrected-transferred-priority-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e818a0c37f0bfbd7ee686e072b96d477c79d556a65c3aa4f0c29678d0d29ad0b"
+}

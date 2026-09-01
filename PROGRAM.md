@@ -820,5 +820,28 @@ invalid under an independently owned regime, then require consequence to revise
 or surrender the transferred selector priority while preserving reserve and
 ordinary recovery floors.
 
+OT-0145 supplies that contradiction and passes. The inherited selector chooses
+pure latency-relative cadence on the first deadline portfolio, then fails all
+three shifted hidden histories while the capped alternative passes all three.
+The exact comparative failure becomes subject state. One fresh corrector adds
+derived constraint compatibility ahead of scale invariance without changing
+any other selector machinery.
+
+On a second independently authored portfolio, corrected and exact unchanged
+selectors are bound before hidden consequence. Corrected selects capped cadence
+and passes every shifted history; unchanged selects pure relative cadence and
+passes none. Exact q256 reserve and unconstrained recovery floors remain intact.
+A fourth fresh actor reuses the installed capped strategy on three new shifts
+without revision, and selector erasure reproduces the harmful old choice.
+
+Exact open subject
+`8e4099de425271c78471cdb8d0cfadb335d14a8755d200f6793df427f65edc37`
+retains three context-specific capability roles. This is bounded corrigibility
+of a previously useful transferred constitutional priority. The main remaining
+external cause is no longer the ability to correct that priority: it is the
+researcher's authorship of the world family, amendment families, feature
+language, and experiment transition. The next work should reduce one of those
+causes while preserving bind-before-outcome authority and cumulative floors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -200,6 +200,10 @@ The strongest footholds are:
   corrected selector's latency-relative choice passes all shifted recovery
   histories while unchanged fixed delay passes none; reserve q256 remains 9/9,
   and later recovery reuse succeeds without revision.
+- `OT-0145`: an independent deadline makes that transferred priority harmful.
+  A fresh correction adds constraint compatibility; on a held-out portfolio the
+  corrected selector passes every shift while its unchanged parent passes none,
+  with both prior capability floors and later exact reuse preserved.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

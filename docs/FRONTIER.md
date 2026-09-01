@@ -1058,6 +1058,29 @@ and ordinary recovery floors, bind correction before hidden consequence, and
 require the selector to revise or surrender scale invariance rather than defend
 its previous cross-domain success.
 
+OT-0145 performs that test and passes. The inherited selector chooses pure
+latency-relative cadence on the first deadline-constrained portfolio and fails
+all three shifted hidden histories; the capped alternative passes all three.
+One fresh corrector changes only selector semantics, adding mechanically derived
+constraint compatibility ahead of scale invariance.
+
+On an independently authored held-out portfolio, corrected and exact unchanged
+selectors are bound under identical information before consequence. Corrected
+chooses capped cadence and passes all three shifts plus control. Unchanged
+chooses pure relative cadence and fails all shifts while preserving control.
+Reserve q256 and ordinary unconstrained recovery floors both pass. One later
+fresh actor reuses the exact capped capability on three new shifts without
+revision, and post-seal pure relative control again fails every shift.
+
+Exact open subject
+`8e4099de425271c78471cdb8d0cfadb335d14a8755d200f6793df427f65edc37`
+therefore carries a corrected selector and three distinct capability roles. The
+next decisive frontier is not another researcher-designed contradiction. Reduce
+the researcher's causal role in supplying the amendment feature language or in
+choosing the next materially different world. The subject must still bind its
+proposal before consequence, preserve cumulative floors, and remain corrigible
+under authority it does not control.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1189,7 +1212,8 @@ its previous cross-domain success.
   constitution itself remains researcher-authored; consequence-driven revision
   of one declared constitutional ceiling is now established once, while
   consequence-corrected choice among two actor-authored amendment families is
-  now established once. Open amendment-language invention, cross-domain
-  transfer, and subject-authored seed priorities remain unestablished.
+  established, transferred across domains, and corrected after later harm in
+  one bounded chain. Open amendment-language invention, subject-selected world
+  transition, and subject-authored seed priorities remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
