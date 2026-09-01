@@ -1,6 +1,6 @@
 # OT-0190 — action-derived exact-audit receipt-effect replication
 
-- **Status:** design and executable conformance frozen; not run
+- **Status:** complete; promoted executable routing repair
 - **Evidence class:** exploratory-only
 - **Target:** obtain the first valid large replication of consequence-associated
   executable route revision after making retention exact through every audit
@@ -48,3 +48,28 @@ this contrast. Passing establishes a replicated consequence-associated
 increase in correct machinery revision and later direct operative use, but not
 receipt exclusivity, autonomous ontology discovery, interpreter self-revision,
 or indefinite recurrence.
+
+## Result
+
+Every frozen gate passes. All eight contradiction-visible actors revise the
+blocked-option route to viable filtering and their exact bound routes pass
+direct confirmation 16/16. Three of eight receipt-erased controls independently
+make a full passing repair. The active advantage is five, exceeding the frozen
+minimum four and the prospective `1/26` boundary.
+
+All sixteen actors pass trace, effects, mutation, report, and action-derived
+exact-change audit. Four controls truthfully retain an empty patch and remain
+bound. The original route preserves observation-led and mixed contact 10/10
+while failing wider blocked-option contact 0/6. Identity remains 18/18.
+
+Open successor
+`8f29e6a86c23f30e73378f222827a109f08a1f6d5eafc9766d0d9b43e44e6a35`
+installs the OT-0183 composed mechanism, sealed contradiction receipt, and
+prospectively selected `active-01` executable route. Later confirmation
+executes the bound route directly; no successor model re-decides its bindings.
+
+This establishes a replicated consequence-associated increase in correct
+selection-machinery revision and operative use. It does not establish receipt
+exclusivity, autonomous ontology discovery, interpreter self-revision, or
+indefinite recurrence. Next challenge the installed route outside its current
+three-regime partition while requiring preservation of every earned floor.

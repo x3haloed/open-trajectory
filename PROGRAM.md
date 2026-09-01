@@ -1474,5 +1474,22 @@ preflight demonstrates that the complete audit accepts both paths. Preserve
 OT-0187's sample, semantic inputs, exact probability boundary, interleaving,
 direct execution, and all contextual floors.
 
+OT-0188 stops before actor execution because `oneOf` is unsupported by the
+response API. OT-0189's flat schema works, but its fixed exact-change audit
+still invalidates truthful retention. OT-0190 derives the exact audit path set
+from the validated action and produces the first valid large replication.
+
+All eight contradiction-visible actors repair the blocked-option route and
+pass direct execution 16/16, versus three of eight erased controls. The
+advantage is five, all sixteen audits pass, the original contextual floor is
+10/10, and identity remains 18/18. Open successor `8f29e6a8...` installs the
+OT-0183 mechanism, sealed contradiction, and prospectively chosen executable
+route.
+
+The next dependency is recurrent boundary revision. Challenge the installed
+route with later contact outside its fixed three-regime partition. The subject
+must preserve all earned floors and bind any needed distinction or route
+extension before direct later use.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

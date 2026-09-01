@@ -1,0 +1,29 @@
+{
+  "artifact_id": "action-derived-exact-audit-replication-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12239872,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "439f1562b302d7a9c754c687663d2dbe71ea5c46",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0190",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:action-derived-exact-audit-replication-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4a1499726c4c54a445f4a849001dd6ccedf07fafbac8aadc92287e4bc6cee55c"
+}

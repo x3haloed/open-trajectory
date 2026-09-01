@@ -370,6 +370,10 @@ The strongest footholds are:
   full passes, but is invalid: a schema that requires one changed file makes
   truthful exact retention impossible for two controls. All traces are clean;
   no result is promoted from the materially non-comparable audit gate.
+- `OT-0190`: action-derived exact auditing yields the first valid large
+  replication: contradiction-visible repairs pass 8/8 versus 3/8 controls,
+  all sixteen audits pass, and open successor `8f29e6a8...` carries the
+  directly executable repaired route.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

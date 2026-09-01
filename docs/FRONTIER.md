@@ -1955,3 +1955,22 @@ conformance succeeds, pass `[]` to the production audit for retain and the
 route path for revise. Preflight both exact-change branches through that same
 predicate before a new sample opens. No behavioral result from OT-0187 or
 OT-0189 may be promoted through this correction.
+
+OT-0190 makes that correction and passes the complete prospective gate. All
+eight receipt-visible actors revise the route and pass direct confirmation
+16/16; three of eight erased controls do likewise. The active advantage is
+five, all sixteen actors pass complete audit, the original route's other
+contexts remain 10/10, and identity remains 18/18.
+
+Open successor `8f29e6a8...` carries the independently invented OT-0183
+mechanism and exact `active-01` route corrected by objective contradiction.
+The route occupies the decision edge: later contact executes its bytes without
+asking a fresh model to vote again. This is the first valid replicated
+consequence-associated improvement to the subject's selection machinery.
+
+The frontier moves to recurrence beyond the fixed ontology. Introduce later
+contact that no installed regime can route without losing an earned floor.
+Require the subject to bind a new distinction or coherent route extension,
+then execute it directly while replaying every old context. Do not merely add a
+fourth researcher-authored label-answer pair; the contradiction must constrain
+the subject's own extension before hidden confirmation.
