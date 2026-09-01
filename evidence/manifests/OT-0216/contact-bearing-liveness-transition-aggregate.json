@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contact-bearing-liveness-transition-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9314,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "acd2de3f1784d0a607013d9b72f894df66c21a46",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0216",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Deterministic prospective evaluator transition; contact importance and world success remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contact-bearing-liveness-transition-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6274a64ddeb7cc47c398ed1653bbdd656cd5db947d4c4be14de7cfe8fa50e55f"
+}

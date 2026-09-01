@@ -1852,5 +1852,20 @@ its phrase as unresolved. The next evaluation transition must require a bound,
 executable contact whose independent receipt is still absent; word novelty is
 not enough.
 
+OT-0216 performs that prospective G4→G5 transition without actors or historical
+rescoring. G5 retains descriptive prose but derives continuation liveness only
+from a content-addressed executable contact with fixed predicates, no existing
+independent receipt, and at least two canonical case inputs absent from
+completed contact for the target. Case IDs, order, and prose do not affect the
+canonical identity.
+
+G5 classifies all 3 construction fixtures and 16/16 seeded held-out
+live/stale/malformed fixtures correctly; G4's lexical rule distinguishes 7/16.
+Every pre-existing operational field and receipt remains exact, route remains
+16/16, identity remains 18/18, and exact subject `b579ce63...` conforms. Its
+continuation stays operationally open while liveness is explicitly unresolved.
+Future continuation must now arrive carrying executable unreceipted contact and
+still requires independent world consequence for admission.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

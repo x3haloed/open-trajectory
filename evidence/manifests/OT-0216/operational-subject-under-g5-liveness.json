@@ -1,0 +1,33 @@
+{
+  "artifact_id": "operational-subject-under-g5-liveness",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 633908,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "acd2de3f1784d0a607013d9b72f894df66c21a46",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0216",
+  "input_manifests": [
+    "OT-0216/contact-bearing-liveness-transition-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Operationally open subject with unresolved continuation liveness until executable unreceipted contact is bound."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:operational-subject-under-g5-liveness",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7352d41f4035f27e6af1e16e2769cf4a1a531685c3aba96768a9b8e02675bae9"
+}

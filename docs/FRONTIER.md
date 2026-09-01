@@ -2481,3 +2481,16 @@ liveness rule: an accepted opening must bind executable contact and predicates
 whose independent consequence receipt is absent. Validate that challenger
 against held-out live, missing, duplicate, and paraphrased openings without
 weakening G4's hard anchors.
+
+OT-0216 promotes that challenger as G5. It canonicalizes target, ABI, predicates,
+and case inputs while excluding prose, case IDs, and order. A continuation is
+live only with four executable cases, at least two canonical inputs absent from
+completed contact for that target, and no existing independent receipt. The
+package gains no world or admission authority.
+
+G5 passes 16/16 seeded live/stale/malformed anchors while the incumbent lexical
+rule distinguishes 7/16. It preserves every OT-0215 operational field and
+produces exact subject `b579ce63...` with its prose opening explicitly
+liveness-unresolved. The next work is now concrete: let a fresh actor bind a
+G5-valid contact from a complete unenumerated environment, then expose it to an
+independent world. Do not supply the target merely to make the new carrier pass.

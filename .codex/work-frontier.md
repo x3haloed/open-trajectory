@@ -43,17 +43,25 @@ core opening. OT-0213's prospective transition fixture shows no exact-core or
 malformed-boundary regression and uniquely admits a held-out valid extension.
 G3-dependent OT-0212 disposition remains rejected and is not rescored.
 
+G5 retains G4 and adds contact-bearing continuation liveness. Descriptive prose
+does not reopen the subject by itself. A live continuation must bind an
+executable four-case contact with fixed success/surrender/unresolved predicates,
+no existing independent receipt, and at least two canonical inputs absent from
+completed contact for its target. Canonical identity excludes prose, local case
+IDs, and order. OT-0216's seeded transition bundle passes 16/16 versus G4's
+7/16 liveness discrimination. Historical operational outcomes are not rescored.
+
 Anchors: fresh contexts/workspaces, exact ancestry, bind-before-consequence,
 independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0215 successor `f0e044c2...`,
+The current exact operational subject is OT-0216 successor `b579ce63...`,
 identified by
-`evidence/manifests/OT-0215/open-subject-after-artifact-conditioned-continuation.json`.
+`evidence/manifests/OT-0216/operational-subject-under-g5-liveness.json`.
 It preserves the prior lineage and adds a hidden-admitted `schedule_recovery`
-implementation. Its continuation is marked open, but the semantic liveness of
-that phrase is unresolved.
+implementation plus the G5 transition receipt. Its continuation is marked open,
+but contact-bearing liveness is explicitly unresolved.
 
 ## Prediction errors
 
@@ -78,12 +86,11 @@ that phrase is unresolved.
 - OT-0215 shows artifact-conditioned target choice: full, opening-only, and
   contact-only branches select and complete recovery 3/3 across source order;
   neither does so 1/3 and otherwise follows the middle function.
-- Expected: retiring completed recovery-capacity contact would produce a
-  distinct live pursuit. Observed: the assimilator authored a near-paraphrase
-  that passed exact-string inequality. Uncertain: whether the subject has a new
-  missing stake at all. Evidence: OT-0215 assimilation decision and its already
-  completed 4+2/6-of-6 recovery-capacity receipt.
+- G5 resolves the lexical evaluator blind spot prospectively: renamed,
+  reordered, paraphrased, already-receipted, and insufficiently new contact no
+  longer creates liveness. The current phrase remains unresolved rather than
+  being erased or treated as a new stake.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. Before following the phrase, prospectively transition from lexical
-  distinctness to executable contact-bearing liveness, preserving all G4 hard
-  anchors and the OT-0215 operational result.
+  external. The immediate test is whether a fresh actor can bind a G5-valid
+  contact from a complete environment without an observer-selected target and
+  carry it into independent consequence.

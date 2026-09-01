@@ -1,6 +1,6 @@
 # OT-0216 — contact-bearing continuation liveness
 
-- **Status:** frozen; not yet run; no actors required
+- **Status:** promoted; G5 active prospectively
 - **Evidence class:** exploratory-only
 - **Target:** prospective G4 → G5 evaluation-regime transition
 - **Construction evidence:** OT-0215 assimilation accepted lexical novelty while
@@ -119,4 +119,23 @@ later correction remain required.
 
 ## Result
 
-Not yet run.
+The frozen transition passed. G5 classified all 3/3 construction fixtures and
+16/16 seeded held-out fixtures correctly. The incumbent lexical rule
+distinguished only 7/16 held-out live/stale pairs. G5 rejected renamed and
+reordered completed cases under the same canonical identity, rejected a package
+with only one new canonical input, rejected prose-only and malformed forms, and
+accepted both genuinely unreceipted packages including the valid G4-extension
+variant.
+
+Every OT-0215 operational field, capability, receipt, continuation phrase, and
+status remained exact. Route stayed 16/16, identity stayed 18/18, and exact
+successor `b579ce63...` conforms. It adds only the G5 transition receipt and a
+`continuation_liveness` record. The subject remains operationally `open`, while
+the inherited prose opening is correctly marked `unresolved` because it carries
+no executable unreceipted contact.
+
+G5 is active for future continuation admission. No historical operational
+result was rescored. The next experiment should give a fresh actor the exact
+subject and a complete environment, require it to bind a G5-valid contact
+without an observer-selected target, then let independent consequence—not the
+package or prose—decide whether that contact joins the subject.

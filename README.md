@@ -491,6 +491,12 @@ The strongest footholds are:
   corrected behavior; open successor `f0e044c2...` is valid. Its assimilator's
   next opening is probably a paraphrase of completed contact, exposing that
   exact-string distinctness does not establish developmental liveness.
+- `OT-0216`: G5 replaces lexical liveness with content-addressed executable
+  contact that lacks an independent receipt. It classifies 16/16 seeded
+  live/stale/malformed anchors versus G4's 7/16, preserves every operational
+  subject field, and yields exact subject `b579ce63...`. The old phrase remains
+  operationally open but explicitly liveness-unresolved until a fresh actor
+  binds real missing contact.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
