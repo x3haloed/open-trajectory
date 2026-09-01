@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-target-abi-stop",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 285103,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb86f53dac8e9161d7eaa7d1f35e9b427006e4d6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0115",
+  "input_manifests": [
+    "evidence/manifests/OT-0114/open-subject-after-second-generic-expansion.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Byte-exact unchanged OT-0114 subject after the rejected assimilation; the admitted third package and exact assimilation output remain retained externally."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-target-abi-stop",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "75f9f7a00f641c4e2be208ae7aab3499f62731f82e1ea9a4035d4ebb9c12601f"
+}

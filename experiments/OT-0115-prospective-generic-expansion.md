@@ -1,6 +1,6 @@
 # OT-0115 — prospective generic expansion
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected at continuation-action validation
 - **Evidence class:** exploratory-only
 - **Target:** promote one uninterrupted subject-selected interface expansion
   under a prospective generic driver
@@ -62,3 +62,26 @@ prospectively operational continuation under a fixed generic driver. It would
 not establish frequency, arbitrary interfaces, cross-domain transfer,
 autonomous admission, indefinite continuation, or that every future correction
 is recoverable in one attempt.
+
+## Result
+
+The fresh author produced a clean exact four-file resilience package. Its
+validator agreed with all seven public mutations without correction. The
+operation and contact passed three authored and eight single-derivation hidden
+oracle cases, every structural and coverage gate, both parent projections,
+independent admission, and world contact.
+
+The fresh assimilator then produced valid grounded assimilation, preserved the
+exact package bytes, cited all three passed authored cases, and authored a valid
+successor opening. Its continuation target was
+`joint-capability-frontier-coordination-recovery-resilience-extension`, a
+lowercase hyphenated novel target exactly as the public contract required. The
+target is 68 characters. An inherited internal regex silently capped targets at
+64 characters, so the assimilation audit rejected and no promotion occurred.
+The exact OT-0114 parent remains open.
+
+OT-0115 is rejected for its promotion target, but it passes the substantive
+prospective package, admission, and contact path. The next record should retain
+the exact package, receipts, and assimilation bytes, publish a bounded target
+length that includes the existing 68-character output, re-audit that output
+without resampling, and promote only if every other frozen gate remains exact.

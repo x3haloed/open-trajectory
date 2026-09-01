@@ -1,0 +1,33 @@
+{
+  "artifact_id": "stopped-prospective-third-expansion-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2325504,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb86f53dac8e9161d7eaa7d1f35e9b427006e4d6",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0115",
+  "input_manifests": [
+    "evidence/manifests/OT-0114/concrete-consequence-second-expansion-run.json"
+  ],
+  "kind": "prospective-generic-expansion-run",
+  "limitations": [
+    "The subject-selected package passed public and hidden admission, reversibility, and world contact; promotion stopped only because an unpublished 64-character action-target limit rejected a valid 68-character fresh continuation target."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:stopped-prospective-third-expansion-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "687ad840998a0ead55bbbb664276f9d9ce6569c204416411b356d9bfb41493d8"
+}

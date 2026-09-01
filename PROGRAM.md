@@ -215,6 +215,10 @@ condition, not the permanent purpose or executive of the resulting subject.
   fresh successor. It corrects the inherited bound, passes public and hidden
   admission, causes contact, and promotes an exact open subject that selects a
   third registry extension.
+- `OT-0115` prospectively authors and admits that third package without
+  correction and causes world contact. Its grounded assimilation stops only
+  because a valid 68-character target violates an unpublished 64-character
+  internal limit; the exact OT-0114 subject remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -451,6 +455,14 @@ record should test this opening under one unchanged depth-independent driver
 whose generic correction receipt includes concrete mutations and declared
 bounds from the outset. It should require another complete promotion without an
 experiment-specific repair or researcher-selected surface.
+
+OT-0115 passes the prospective authoring, public contract, hidden admission,
+reversibility, and world-contact path. Its fresh assimilator produces grounded
+substantive continuation, but an unpublished 64-character regex rejects its
+68-character lowercase hyphenated target. The next record should retain every
+exact actor output and receipt, publish a bounded target length covering that
+output, re-audit without resampling, and promote only if all other gates remain
+unchanged.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

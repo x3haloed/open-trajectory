@@ -1,0 +1,33 @@
+{
+  "artifact_id": "stopped-prospective-third-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 33432,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb86f53dac8e9161d7eaa7d1f35e9b427006e4d6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0115",
+  "input_manifests": [
+    "evidence/manifests/OT-0114/concrete-consequence-second-expansion-aggregate.json"
+  ],
+  "kind": "prospective-generic-expansion-result",
+  "limitations": [
+    "The package and contact path passed, but the frozen experiment rejected before promotion on an undisclosed continuation-target length constraint."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:stopped-prospective-third-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7bd538b92cb365f5ac6a1b2ccb2c72192b4eba119efac2937f325d905c673d62"
+}

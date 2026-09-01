@@ -113,6 +113,9 @@ The strongest footholds are:
 - `OT-0114`: one promoted concrete-consequence correction that carries the
   failed patch through a fresh successor, hidden admission, world contact, and
   grounded assimilation into an exact open subject selecting a third extension.
+- `OT-0115`: one rejected prospective third expansion whose package passes
+  public and hidden admission, reversibility, and contact before an unpublished
+  64-character continuation-target limit rejects grounded assimilation.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

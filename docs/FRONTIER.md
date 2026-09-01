@@ -588,6 +588,21 @@ from this exact subject, make concrete mutation receipts a generic correction
 facility before actor output, and require one complete extension promotion with
 no experiment-specific repair or researcher-selected contact.
 
+OT-0115 reaches that prospective contact. A clean fresh author creates the
+subject-selected resilience package; it needs no correction and passes every
+public, hidden, oracle, coverage, reversibility, and world gate. The fresh
+assimilator also produces grounded assimilation, exact byte retention, and a
+substantively new opening.
+
+Promotion stops on a hidden ABI: the contract permits a new lowercase
+hyphenated target, but the inherited validator silently limits it to 64
+characters. The actor's compositional target is 68 characters. The exact
+OT-0114 subject remains open, while the package, contact receipts, and
+assimilation bytes are retained. The next record should publish a bounded
+length that includes this exact target, re-audit the retained assimilation
+without resampling, and complete promotion only if every other gate still
+passes.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -664,6 +679,9 @@ no experiment-specific repair or researcher-selected contact.
 - Concrete mutation values and declared bounds allowed the next fresh successor
   to repair that exact failed patch; the second generic expansion is now
   promoted and has opened a third subject-selected extension.
+- The third subject-selected extension passes prospectively through hidden
+  admission and world contact; only an unpublished continuation-target length
+  limit prevents promotion of its retained grounded assimilation.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
