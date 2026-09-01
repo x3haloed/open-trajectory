@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "case_count"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["contact.json"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "case_count": {"type": "integer", "minimum": 3, "maximum": 4}
+  }
+}

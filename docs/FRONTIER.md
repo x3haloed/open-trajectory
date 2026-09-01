@@ -337,6 +337,15 @@ the correction. This establishes one bounded causal chain in which selection
 machinery improves through repeated consequence and then governs a promoted
 subject transition.
 
+The next work unit changes the question rather than extending the successful
+correction ladder. OT-0102 freezes one two-cycle driver over a bounded registry
+of independently scored joint-boundary and allocator-challenge contacts. The
+exact OT-0101 opening must route the first contact; the first fresh assimilator
+must bind the second; and the unchanged driver must begin cycle two without a
+researcher selecting its pursuit. This directly tests recurrence from the
+promoted subject while keeping researcher-authored interfaces and admission
+authority explicit.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "selected_interface"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["next-interface.json"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "selected_interface": {
+      "type": "string",
+      "enum": ["joint-boundary-probe", "allocator-challenge"]
+    }
+  }
+}
