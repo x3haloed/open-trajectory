@@ -208,6 +208,10 @@ The strongest footholds are:
   total selector program composed from raw simulation/context primitives. It
   passes two later actor-authored portfolios, preserves all prior floors, and
   remains exact through fresh-actor reuse.
+- `OT-0147`: that program becomes harmful in a throughput world and a fresh
+  actor corrects it to reconcile lower and upper output bounds, winning the
+  held-out comparison with all floors intact. Later reuse stops on an
+  unpublished exact candidate-key constraint after a clean portfolio edit.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

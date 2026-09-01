@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-pending-corrected-program-reuse",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 422450,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7f86563ff73db7d4bfd9921fd2ab79e2b49da7f4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0147",
+  "input_manifests": [
+    "evidence/manifests/OT-0146/open-subject-with-actor-authored-selector-program.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject contains installed cross-world correction; later reuse remains unresolved after portfolio ABI rejection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-pending-corrected-program-reuse",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d3f5361c7ff278ab8e9059701ecb42ab17efce1f60960251bf0cad28966b3aa8"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "cross-world-selector-program-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 58297,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7f86563ff73db7d4bfd9921fd2ab79e2b49da7f4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0147",
+  "input_manifests": [
+    "evidence/manifests/OT-0146/open-subject-with-actor-authored-selector-program.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Partial bounded result; no later exact corrected-program reuse or post-seal control occurred."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cross-world-selector-program-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5dffa5d039a827301f13c7ece1e5cca99c38bc468cf87638a2f3cf060fa4988b"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "cross-world-selector-program-correction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3292672,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7f86563ff73db7d4bfd9921fd2ab79e2b49da7f4",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0147",
+  "input_manifests": [
+    "evidence/manifests/OT-0146/open-subject-with-actor-authored-selector-program.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "Cross-world contradiction, correction, held-out comparison, and installation passed; later reuse stopped on an unpublished exact candidate-key constraint."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:cross-world-selector-program-correction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8857490205c453a91bd1c57e98ee055acd44cc0b76f69f998d6c90b46b6cd064"
+}

@@ -866,5 +866,23 @@ materially different world where lower simulated output is not automatically
 the right relation. Consequence must transfer, revise, or surrender the program
 without returning feature authorship to the researcher.
 
+OT-0147 performs that contradiction and most of the correction chain. In a
+throughput world, the exact lower-output program selects capped throughput and
+fails all three shifted demands. A fresh corrector composes raw upper-bound then
+lower-bound comparisons in the same total grammar. On a held-out portfolio,
+corrected passes every shift and unchanged passes none. Reserve, ordinary
+recovery, and deadline-recovery floors all pass, and the corrected program
+installs as a successor without erasing its parent.
+
+Later reuse stops on apparatus rather than consequence. A fresh portfolio actor
+passes the public checker and changes only the authorized file, but includes an
+extra explanatory `amendment` field per candidate. The hidden validator's exact
+key set was absent from the checker. No reuse actor or later world opens. Exact
+open subject
+`7b07e2aa41054f09807fc5fb408c6de63d60aeaa15d29e561b9c37eb9b3fce49`
+awaits corrected-program reuse. Reconstruct that exact portfolio under a
+published semantic projection; do not resample it or repeat the already-passed
+cross-world correction.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1104,6 +1104,24 @@ failure authorize actor revision inside the same grammar. Preserve all existing
 floors and compare against the unchanged program. This tests cross-world
 corrigibility of actor-authored semantics rather than another same-family reuse.
 
+OT-0147 reaches that result through installation. The old program chooses low
+capped throughput and fails all three shifted demands. A fresh actor composes
+generic maximum and minimum output comparisons, preserving deadline behavior.
+On held-out throughput consequence the corrected program passes every shift and
+the unchanged program passes none. Reserve, ordinary-recovery, and deadline
+floors pass before the corrected program becomes subject capability state.
+
+The later portfolio is semantically valid and its actor trace is clean, but it
+adds explanatory `amendment` fields allowed by the public checker and forbidden
+by an unpublished exact-key validator. No reuse actor opens. Continue from exact
+subject `7b07e2aa41054f09807fc5fb408c6de63d60aeaa15d29e561b9c37eb9b3fce49`.
+Publish a deterministic semantic projection that preserves the retained
+candidate ids, strategies, rationales, and surrender conditions while disclosing
+the extra fields. Then run the still-unused reuse actor, bind the corrected
+program before new throughput consequence, and open the unchanged control only
+after sealing the active successor. Do not repeat correction or resample the
+portfolio.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1237,8 +1255,10 @@ corrigibility of actor-authored semantics rather than another same-family reuse.
   consequence-corrected choice among two actor-authored amendment families is
   established, transferred across domains, and corrected after later harm in
   one bounded chain. One actor-authored selector program now replaces the named
-  feature vocabulary and survives later reuse, but cross-world program transfer
-  remains open. Autonomous amendment-language invention, subject-selected world
-  transition, and subject-authored seed priorities remain unestablished.
+  feature vocabulary; cross-world contradiction, correction, held-out advantage,
+  and installation now pass, while later reuse remains blocked by one disclosed
+  portfolio ABI mismatch. Autonomous amendment-language invention,
+  subject-selected world transition, and subject-authored seed priorities remain
+  unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

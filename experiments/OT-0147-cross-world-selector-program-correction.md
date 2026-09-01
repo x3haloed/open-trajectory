@@ -56,3 +56,35 @@ actor.
 Passing would establish bounded cross-world corrigibility of actor-authored
 selector computation. It would not establish autonomous world selection,
 unbounded language evolution, or indefinite self-direction.
+
+## Result
+
+The complete target rejected after a strong partial result. The exact inherited
+one-term program chose capped throughput and failed all three shifted hidden
+demands; the relative alternative passed all three. The contradiction was
+retained in the subject.
+
+One fresh corrector changed only `selector-program.json`. Without named derived
+features, it composed two raw relations: reject output above the applicable
+maximum, then reject output below the applicable minimum. Its checker and clean
+complete trace passed. On a second fresh portfolio, the corrected program passed
+all three shifted throughput histories while the unchanged program failed all
+three. Exact reserve q256, ordinary recovery, and deadline-recovery floors all
+passed. The corrected program installed as a successor while retaining its
+actor-authored parent.
+
+The third portfolio actor then made one clean, truthful, exactly scoped edit and
+passed the visible executable checker, but added an explanatory `amendment`
+field to each candidate. The hidden binder required an unpublished exact
+candidate-key set and rejected before binding. No reuse actor, later world, or
+post-seal control opened.
+
+Exact open subject
+`7b07e2aa41054f09807fc5fb408c6de63d60aeaa15d29e561b9c37eb9b3fce49`
+contains the installed cross-world-corrected program and awaits exact reuse.
+
+This establishes the bounded cross-world contradiction, correction, held-out
+advantage, installation, and no-regression floors, but not later reuse. The next
+record should reconstruct the exact retained portfolio by projecting its known
+semantic fields, disclose the extra explanatory fields, and run only the
+still-unused reuse actor and post-seal control.
