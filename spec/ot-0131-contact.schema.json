@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "contact_target"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["contact-proposal.json"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "contact_target": {
+      "type": "string",
+      "enum": ["reserve_for_context", "recovery_window"]
+    }
+  }
+}
