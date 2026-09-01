@@ -1231,5 +1231,18 @@ authority. Require the exact current correction stake to select
 beat the unchanged guide on a sealed revocation portfolio, and only then make
 confirmation contact.
 
+OT-0173 makes the first correction cleanly but stops at its known gate. The new
+guide routes the exact harmed stake to `prediction-corrector` and preserves all
+six known ordinary routes. It reaches only four of five genuine composed
+dependencies because “reactivate the admitted membership boundary together
+with every validation” is not treated as explicit operative status. Known
+score is 10/11; the sealed twelve-case comparison remains unopened.
+
+Preserve the exact 3,685-byte guide and its one miss. A fresh successor should
+clarify that restoring, replaying, or reactivating a named prior composition
+with its earned floor makes it operative. Do not weaken the defeated-
+composition exception. Require known 11/11 before opening the exact unchanged
+hidden comparison.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

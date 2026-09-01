@@ -307,6 +307,10 @@ The strongest footholds are:
   guide then wrongly routes the new correction stake back to the harmful
   extension, rejecting the full claim but retaining exact open pre-selection
   successor `3770a9d5...` as the current operational state.
+- `OT-0173`: a clean guide correction routes the harmed successor stake to
+  `prediction-corrector` and preserves 10/11 known cases. It over-tightens
+  operative status for one membership-reactivation dependency, so the hidden
+  portfolio remains unopened and nothing is installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

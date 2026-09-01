@@ -1525,6 +1525,19 @@ only as regression history. Require the current stake to route to
 `prediction-corrector`, retain prior floors, beat the unchanged guide on sealed
 revocation cases, and preserve another open successor after contact.
 
+OT-0173 corrects the harmed stake but over-tightens the operative boundary. The
+clean 3,685-byte guide reaches known 10/11: current correction becomes
+`prediction-corrector`, all six ordinary routes survive, and four of five
+active compositions survive. The one miss treats “reactivate the admitted
+membership boundary together with every validation” as ordinary reset rather
+than affirmative operation of the composed boundary.
+
+The known gate prevents all hidden execution; exact subject `3770a9d5...`
+remains current. Preserve the guide and repair only operative-status evidence:
+restoring, replaying, or reactivating a named composition with its floor is
+continued operation. Keep the defeated-composition exception and require exact
+known 11/11 before opening OT-0173's unchanged hidden portfolio.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

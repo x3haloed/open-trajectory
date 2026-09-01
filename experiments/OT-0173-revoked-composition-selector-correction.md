@@ -1,6 +1,6 @@
 # OT-0173 — revoked-composition selector correction
 
-- **Status:** frozen; not run
+- **Status:** complete; rejected at the known-floor gate
 - **Evidence class:** exploratory-only
 - **Target:** correct the installed semantic selector after it reactivated a
   surrendered composition for a world-grounded correction stake
@@ -46,3 +46,25 @@ retain the prior selector and correction ancestry, append the harm and matched
 world receipts, preserve every unauthorized parent field, and leave the exact
 subject sounding open. Exact later use and prediction-correction contact remain
 required; this record establishes machinery correction, not endpoint reuse.
+
+## Result
+
+The clean 3,685-byte guide successor fixed the exact harmed stake: a fresh
+actor selected `prediction-corrector`. It preserved all six ordinary known
+routes and four of five genuine composed dependencies, reaching known 10/11.
+
+The sole miss was `sole-reactivate-membership`. The actor interpreted the new
+requirement that a prior composition be “operative” as absent because the stake
+said “reactivate,” even though reactivating the admitted boundary together with
+every earned validation is precisely continued operation. It selected
+`reset-carrier` instead of the composed extension.
+
+The 11 known actors and guide corrector all passed audit. The known gate failed,
+so no hidden case opened, no guide was bound or installed, and exact open
+subject `3770a9d5...` remains current. The aggregate's `fresh_actor_count: 36`
+records the frozen budget; only 12 actors actually ran.
+
+Preserve the exact 3,685-byte guide as the next correction parent. Amend the
+operative-status test so restoring, replaying, or reactivating a named prior
+composition with its earned floor is affirmative operation, not ambiguity.
+Require known 11/11 before opening the unchanged OT-0173 hidden portfolio.

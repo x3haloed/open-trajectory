@@ -1,0 +1,29 @@
+{
+  "artifact_id": "exact-known-10-of-11-revoked-composition-guide",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3685,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5384ed5a02c0cec8e46e9cb046838c93b7254dfe",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0173",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:exact-known-10-of-11-revoked-composition-guide",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8564216884986cdc332a386b6240805481030dc296b42df2eddca0ebfe1d92ae"
+}
