@@ -1,0 +1,33 @@
+{
+  "artifact_id": "contradiction-corrected-developmental-extension-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2043904,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5fbc40f3edc3b2ce2adeae628ca760a47f294712",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0155",
+  "input_manifests": [
+    "evidence/manifests/OT-0154/open-subject-after-exact-extension-reuse.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded correction of one retained extension under an explicit compatibility regime; exact corrected reuse remains untested."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:contradiction-corrected-developmental-extension-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3f10fcbc2647d096faa7be34772348018adf0e44a09e94514faf7a721236dade"
+}

@@ -236,6 +236,10 @@ The strongest footholds are:
 - `OT-0154`: a later scheduler encounter routes and executes those exact
   retained source bytes on new public and hidden cases without an implementation
   actor. Reuse passes 3/3 and consequences into a routeable correction stake.
+- `OT-0155`: a later compatibility regime makes that retained extension fail
+  hidden 0/3 while preserving its old 12/12 floor. A fresh corrector reaches
+  hidden 3/3 and floor 12/12, installs the corrected source, and selects it for
+  the next stake.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

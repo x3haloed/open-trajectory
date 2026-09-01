@@ -999,5 +999,21 @@ make this retained operation harmful under a later objective regime, require a
 fresh consequence-grounded correction to beat it on held-out cases while
 preserving its existing floor, and then require exact corrected reuse.
 
+OT-0155 passes correction of expanded machinery. A later explicit compatibility
+regime makes the exact retained extension score public 1/3 and hidden 0/3 while
+still passing its complete earlier 12/12 floor. One fresh actor changes only the
+operation source so explicit compatibility governs when present and exact
+identity remains the fallback. It passes public 3/3 and floor 12/12 before
+binding, then independent hidden 3/3 and floor 12/12.
+
+After sealing, the unchanged operation remains hidden 0/3 and floor 12/12. A
+second fresh actor authors the corrected extension itself as the next stake.
+Exact open subject
+`f785946d2ad17df2ce81f7efb3effed0cb9c66da8577dc297e1f7100f649af96`
+installs the corrected binding and retains its exact parent plus correction
+ancestry. The next record should execute those corrected bytes exactly on a new
+compatibility portfolio, preserve both the old and new floors, and consequence
+the result forward without another corrector.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -56,3 +56,24 @@ Passing would establish one bounded consequence correction of subject-authored
 expanded machinery with no regression. Exact corrected reuse, repeated
 extension correction, and selection between competing extensions would remain
 separate claims.
+
+## Result
+
+The correction passed. The fresh corrector changed only `operation.py`, made
+explicit `compatible` authoritative when present, and preserved exact-identity
+fallback otherwise. It passed public contradiction 3/3 and the retained floor
+12/12 before binding. Independent hidden consequence then passed 3/3 plus the
+same 12/12 floor.
+
+After sealing, the unchanged parent operation scored 0/3 on the new hidden
+regime while retaining its old 12/12 floor. The corrected operation therefore
+wins exactly where later world contact makes its parent harmful without
+rewriting what counted as prior success.
+
+A second fresh actor passed audit and authored
+`identity-gated-branch-filtering` as the next stake, explicitly requiring the
+corrected compatibility behavior and preserved floor. Exact sounding open
+subject
+`f785946d2ad17df2ce81f7efb3effed0cb9c66da8577dc297e1f7100f649af96`
+installs the corrected binding while retaining its exact parent and correction
+ancestry. Exact later corrected reuse remains the next required test.

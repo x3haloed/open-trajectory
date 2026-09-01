@@ -1,0 +1,33 @@
+{
+  "artifact_id": "contradiction-corrected-developmental-extension-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 26873,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5fbc40f3edc3b2ce2adeae628ca760a47f294712",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0155",
+  "input_manifests": [
+    "evidence/manifests/OT-0154/open-subject-after-exact-extension-reuse.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Establishes one held-out extension correction with a retained 12-case floor, not arbitrary or repeated correction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contradiction-corrected-developmental-extension-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "40e64e0b55b37da9cdd3d544dab62def3f688cc27ef96ab8a96a9af4109ebdae"
+}

@@ -1264,6 +1264,26 @@ while preserving the prior floor. The unchanged retained operation is the
 post-seal control. If correction promotes, require exact later reuse before
 treating expanded machinery as durably corrigible.
 
+OT-0155 passes that correction. A later compatibility field reverses the exact
+retained extension's fitness: it scores public 1/3 and hidden 0/3 while keeping
+its old 12/12 floor. One fresh corrector makes explicit compatibility
+authoritative when present and exact identity the fallback. The bound correction
+passes public 3/3, independent hidden 3/3, and the full floor 12/12. The
+post-seal unchanged control remains hidden 0/3 and floor 12/12.
+
+A second fresh actor selects the corrected extension itself as the next stake.
+Exact sounding open subject
+`f785946d2ad17df2ce81f7efb3effed0cb9c66da8577dc297e1f7100f649af96`
+installs the corrected binding while retaining its exact parent and correction
+ancestry.
+
+The next record should reuse, not repair. Route the carried stake through the
+exact corrected binding, execute new compatibility cases plus both retained
+floors, bind before hidden consequence, and require a fresh assimilator to move
+the subject forward. The uncorrected parent remains the post-seal control.
+Passing would establish expansion, later use, later harm, no-regression
+correction, and corrected reuse in one retained lineage.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1408,6 +1428,7 @@ treating expanded machinery as durably corrigible.
   Reliability beyond one bounded run remains unestablished. One new property
   and executable operation now pass independent admission and become the exact
   next stake, and exact later scheduler use now passes. Repeated expansion and
-  correction of a faulty extension remain unestablished.
+  correction of a faulty extension now passes once with a preserved floor;
+  exact corrected reuse and repeated correction remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
