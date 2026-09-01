@@ -1,0 +1,33 @@
+{
+  "artifact_id": "sealed-corrected-constitutional-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4125,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a5074f390076cef11562ba6cc02b8975baadf592",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0140",
+  "input_manifests": [
+    "evidence/manifests/OT-0139/open-subject-with-retained-q16-failure.json"
+  ],
+  "kind": "world-receipt",
+  "limitations": [
+    "Bounded deterministic consequence of exact OT-0139 actor program on identical failure bases; invalid observer transition prevents successor claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-corrected-constitutional-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "06fd5c88d671029023ce0da803518e295bd415fef18db58d1d04ab57f60ae3a7"
+}

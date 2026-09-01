@@ -182,6 +182,9 @@ The strongest footholds are:
   correctly exhausts its truthful correction envelope. A fresh actor passes the
   visible constitutional checker, but hidden provenance/digest requirements
   reject its otherwise exact two-file change before hidden correction.
+- `OT-0140`: exact no-resampling provenance compilation binds that change and
+  passes the identical q16 correction 9/9 plus q8 no-regression 9/9, but an
+  observer binding-key mismatch prevents installation and later verification.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

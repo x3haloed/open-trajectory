@@ -737,5 +737,17 @@ the only actor-authored constitutional authority, mechanically derive parent,
 cause, and digest fields from it, and reconstruct OT-0139 without another
 constitutional actor before hidden comparison and later verification.
 
+OT-0140 performs that exact compilation and the substantive comparison passes:
+offsets sixteen produce nine of nine distinctions on the identical q16 failure
+bases versus the unchanged parent's three, and preserve nine of nine at q8. An
+observer binding-key mismatch then crashes before installation: the compiler
+published `compiled_constitution` while the inherited transition requested
+`constitution`. No verification actor runs and no successor is promoted.
+
+Continue by exact reconstruction, not resampling. Alias the already-bound
+compiled object into the transition ABI, reuse OT-0140's exact hidden and floor
+receipts, install the subject, and spend only the still-unused fresh
+verification actor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

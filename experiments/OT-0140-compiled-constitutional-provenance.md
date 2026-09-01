@@ -1,6 +1,6 @@
 # OT-0140 — compiled constitutional provenance
 
-- **Status:** frozen; not run
+- **Status:** invalid apparatus observation; no successor promoted
 - **Evidence class:** exploratory-only
 - **Target:** reconstruct OT-0139's exact retained constitutional action under
   one semantic authoring authority, then consequence, install, and later reuse
@@ -61,3 +61,27 @@ subject-resident developmental constitution with mechanically compiled
 bookkeeping and later no-repair reuse. It would not establish actor-authored
 meta-rules, arbitrary constitutional change, cross-world transfer, or
 indefinite operation.
+
+## Result
+
+The exact-source reconstruction and compiler-erased control passed. The
+compiler bound OT-0139's unchanged offsets-sixteen action and semantic ceiling,
+derived parent and cause provenance, and produced a valid content-addressed
+constitution without another constitutional actor.
+
+On the identical retained quantum-sixteen failure bases, the exact program
+produced nine of nine adversarial distinctions and three confirmations, versus
+the unchanged parent's three of nine. New quantum-eight no-regression bases
+also produced nine distinctions and three confirmations.
+
+The observer then crashed before subject installation because the compiled
+binding exposed the derived object under `compiled_constitution` while the
+inherited transition function requested `constitution`. No verification actor
+ran and no successor is promoted. Because hidden corrected consequence was
+already visible, this is retained as an invalid apparatus observation rather
+than repaired and rerun under the same ID.
+
+The exact binding and receipts remain useful for no-resampling reconstruction.
+A new record should alias the already-bound compiled constitution into the
+published transition ABI, reuse the exact hidden and floor receipts, install the
+successor, and authorize only the still-unrun fresh verification actor.

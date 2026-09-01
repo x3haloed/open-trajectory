@@ -977,6 +977,15 @@ derives lineage and content identity. Then open the same hidden failed bases,
 require the q8 floor, install both capability and constitution, and authorize a
 fresh later reuse without resampling the constitutional actor.
 
+OT-0140 compiles that exact action and proves the substantive correction before
+an observer failure. The derived binding passes; the exact program changes the
+identical q16 result from three of nine to nine of nine and preserves nine of
+nine at q8. Installation crashes because one side names the derived object
+`compiled_constitution` and the inherited transition expects `constitution`.
+No later actor runs. OT-0141 should make only that published ABI alias, reuse
+the exact binding and world receipts, install without another constitutional
+actor, and run the still-unused verification encounter.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

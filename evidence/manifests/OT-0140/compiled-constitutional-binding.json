@@ -1,0 +1,33 @@
+{
+  "artifact_id": "compiled-constitutional-binding",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2841,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a5074f390076cef11562ba6cc02b8975baadf592",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0140",
+  "input_manifests": [
+    "evidence/manifests/OT-0139/open-subject-with-retained-q16-failure.json"
+  ],
+  "kind": "mechanism-binding",
+  "limitations": [
+    "Exact semantic action with mechanically derived provenance; transition integration remained invalid in OT-0140."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:compiled-constitutional-binding",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "541445427dc795775cd258185eb36cc0cab3ac18eac97600aad7cb214d3c5a7f"
+}

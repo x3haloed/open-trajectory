@@ -1,0 +1,33 @@
+{
+  "artifact_id": "compiled-constitutional-provenance-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 26624,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a5074f390076cef11562ba6cc02b8975baadf592",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0140",
+  "input_manifests": [
+    "evidence/manifests/OT-0139/open-subject-with-retained-q16-failure.json"
+  ],
+  "kind": "apparatus-observation",
+  "limitations": [
+    "Invalid observer transition after exact compiled binding and hidden receipts: binding key compiled_constitution did not match inherited transition key constitution; no successor or verification actor."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:compiled-constitutional-provenance-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "31b86da5221f68ddc510aa429241ed458f49c7662cedf33bb35aea21324ce9e9"
+}
