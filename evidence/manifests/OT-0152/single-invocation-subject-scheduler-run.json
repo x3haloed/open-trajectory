@@ -1,0 +1,33 @@
+{
+  "artifact_id": "single-invocation-subject-scheduler-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4676608,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca6ba7a71afaa264089f0af13b2641e6db9a781d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0152",
+  "input_manifests": [
+    "evidence/manifests/OT-0151/open-subject-with-third-actor-authored-stake.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded three-encounter invocation under a fixed three-property vocabulary, catalog, compiler, and synthetic world family."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:single-invocation-subject-scheduler-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "16bc49b35b6312fc5d9a3a6ceb328a5f363a274c874a439187a0c0235adc25df"
+}

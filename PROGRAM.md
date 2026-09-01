@@ -945,5 +945,23 @@ can run multiple stakes under one fixed scheduler invocation and whether the
 property/world language itself can widen, rather than merely cycling within
 three researcher-designed properties.
 
+OT-0152 passes the single-invocation test. One unchanged scheduler reads each
+successive exact subject's active stake, binds and compiles it, opens fresh
+contact and assimilation actors, seals the successor, and repeats three times.
+The driver contains an encounter budget but no property itinerary. The carried
+sequence is `option-expansion`, `continuity-under-reset`, `option-expansion`;
+all six actors pass audit, every hidden world passes 3/3, and each consequence
+authors a different next stake that selects the following encounter.
+
+Exact open subject
+`48e830dcc1090cecf53a0da521a463d44d0ea0e635bcd68dc11e9371d24feaec`
+retains all earlier floors and five subject-selected world capabilities. The
+observer stops after three encounters while the subject remains open with a
+fourth actor-authored continuity stake. This is bounded recurrence, not
+indefinite continuation: the developmental vocabulary, world catalog, compiler,
+and synthetic surfaces remain researcher-designed. Reduce that remaining cause
+next by testing whether world consequence can authorize a new property and its
+executable contact outside the closed three-property catalog.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

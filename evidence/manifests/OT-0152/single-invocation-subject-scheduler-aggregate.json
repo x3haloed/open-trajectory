@@ -1,0 +1,33 @@
+{
+  "artifact_id": "single-invocation-subject-scheduler-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 49604,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca6ba7a71afaa264089f0af13b2641e6db9a781d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0152",
+  "input_manifests": [
+    "evidence/manifests/OT-0151/open-subject-with-third-actor-authored-stake.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Establishes bounded recurrence without an itinerary; not indefinite continuation or open-ended property/world invention."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:single-invocation-subject-scheduler-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9cd67695c02a318542ff0114a9cb56173647f6bcc2380df32c893d4fc6b7f95b"
+}

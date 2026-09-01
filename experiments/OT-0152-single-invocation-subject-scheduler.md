@@ -69,3 +69,31 @@ disposition. Passing would establish bounded multi-encounter recurrence under
 one unchanged scheduler invocation. It would not establish indefinite
 continuation, expansion beyond the fixed three-property language/catalog, or
 fitness of the chosen stakes outside these toy worlds.
+
+## Result
+
+The single invocation passed all frozen gates in 181.5 seconds. Its successive
+exact subjects carried the unscripted property sequence `option-expansion`,
+`continuity-under-reset`, `option-expansion`, selecting branching, reset, and
+branching surfaces respectively. All six unique fresh actors passed
+exact-change, truthfulness, contained-effects, and complete-trace audit. Each
+public contact passed, every independent hidden consequence passed 3/3, and all
+post-seal erasure and changed-property controls passed.
+
+Each assimilator retired the completed stake and authored a different next
+stake. The exact successor digest from each encounter became the source of the
+next encounter, and its active stake supplied the next carried property. No
+property itinerary existed in the driver.
+
+Exact open subject
+`48e830dcc1090cecf53a0da521a463d44d0ea0e635bcd68dc11e9371d24feaec`
+retains all prior capabilities and five selected-world capabilities. When the
+observer stopped at its frozen budget, the subject remained open with a fourth
+actor-authored stake: verify which carried capability remains coherent through
+reset and re-entry.
+
+This establishes bounded multi-encounter recurrence inside one unchanged
+scheduler invocation. The sequence used only two of the three fixed properties
+and remains confined to the researcher-designed vocabulary, catalog, compiler,
+and toy worlds. The next discriminating experiment should test
+consequence-driven expansion beyond that closed developmental language.

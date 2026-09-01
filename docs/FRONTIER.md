@@ -1194,6 +1194,30 @@ variant should also expose a property the fixed catalog cannot realize and let
 consequence authorize language/catalog expansion; otherwise a long run may only
 cycle through three supplied worlds.
 
+OT-0152 passes the single-invocation recurrence test. One unchanged scheduler
+completes three exact successor-linked encounters with no property itinerary:
+`option-expansion`, `continuity-under-reset`, then `option-expansion`. Six fresh
+actors pass exact effects and trace audit, all three independent hidden worlds
+pass 3/3, and each consequence authors a different next stake that becomes the
+following encounter's actual route. Erasure blocks every route and changing the
+property changes its surface.
+
+Exact open subject
+`48e830dcc1090cecf53a0da521a463d44d0ea0e635bcd68dc11e9371d24feaec`
+retains five selected-world capabilities and remains open after the frozen
+observer budget with a fourth actor-authored continuity stake. This removes
+separate observer invocations as a causal requirement for bounded recurrence.
+
+The highest-leverage dependency is now the closed developmental language. The
+next experiment should create a consequence the existing three properties and
+surfaces cannot adequately address, make that mismatch observable before
+authorization, and let fresh actors propose a new property plus executable
+contact package. Independent conformance and hidden consequence must govern
+admission; the actor may not rewrite sealed outcomes, existing capability
+floors, or the acceptance gate. A control retaining the closed catalog should
+fail or remain unable to route. Passing must install the new language/contact
+as subject state and let the unchanged scheduler use it in a later encounter.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1333,7 +1357,9 @@ cycle through three supplied worlds.
   blind actor-originated priority now causes and completes a distinct useful
   world route, and consequence authors the next stake. A second transition now
   consumes that stake and authors a third without between-cycle researcher
-  world choice. Single-invocation recurrence and an open-ended property language
-  remain unestablished.
+  world choice. One unchanged invocation now completes three more exact
+  successor-linked encounters and stops while the subject remains open.
+  Reliability beyond one bounded run and an open-ended property language remain
+  unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

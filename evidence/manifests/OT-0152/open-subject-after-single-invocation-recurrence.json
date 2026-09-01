@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-single-invocation-recurrence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 440040,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca6ba7a71afaa264089f0af13b2641e6db9a781d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0152",
+  "input_manifests": [
+    "evidence/manifests/OT-0151/open-subject-with-third-actor-authored-stake.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries a fourth actor-authored stake within the fixed property language after the observer budget ended."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-single-invocation-recurrence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "486ffd07a18bc0794dcf27e0dda40de1ca704ac87b66eb59ab521bae22698fab"
+}

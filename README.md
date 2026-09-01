@@ -225,6 +225,10 @@ The strongest footholds are:
 - `OT-0151`: unchanged machinery consumes that continuity stake, selects reset
   contact, passes every hidden case, and consequences it into a third
   actor-authored stake—without between-cycle researcher world choice.
+- `OT-0152`: one unchanged scheduler invocation completes three exact
+  successor-linked encounters with no property itinerary. Six fresh actors pass
+  audit, all hidden worlds pass, and the observer stops while the exact subject
+  remains open with a fourth actor-authored stake.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
