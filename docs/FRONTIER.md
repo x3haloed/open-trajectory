@@ -1922,3 +1922,22 @@ increase repair reliability, but the retained state already supports the same
 inference. Next use a prospectively larger matched replication of the unchanged
 contrast. Keep those semantic inputs rather than weakening the control, and
 predeclare a threshold capable of distinguishing the observed partial effect.
+
+OT-0187's larger sample reaches the prospective behavioral threshold: all
+eight receipt-visible actors repair the route and pass 16/16, compared with
+three of eight erased controls. It cannot be admitted. The shared output
+schema requires every actor to report the route file as changed, while the
+frozen action space explicitly permits exact retention. Two controls retain
+the file, observe an empty diff, and then have no truthful schema-valid report.
+
+All sixteen security traces and effects audits are clean. The failure is a
+material experimental-interface contradiction because it changes control
+acceptance and scoring. Treat the 8/8 versus 3/8 split as descriptive only,
+not as a successful replication.
+
+The immediate next dependency is therefore narrow but causal: make retention
+representable. Freeze a report schema with exact zero-file retain and one-file
+revise variants, then run conformance fixtures through the same audit path for
+both. Only after both pass may a new-ID replication reuse OT-0187's unchanged
+sample, semantic information, Fisher boundary, interleaving, and direct-use
+gate. This is repair of an invalid experiment, not resampling a valid rejection.

@@ -366,6 +366,10 @@ The strongest footholds are:
   contradiction-visible repairs pass 16/16. Two of four receipt-erased actors
   infer the same repair, however, so the 4/4 versus 2/4 advantage misses the
   frozen causal threshold and no route is installed.
+- `OT-0187`: the larger replication produces 8/8 active versus 3/8 control
+  full passes, but is invalid: a schema that requires one changed file makes
+  truthful exact retention impossible for two controls. All traces are clean;
+  no result is promoted from the materially non-comparable audit gate.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

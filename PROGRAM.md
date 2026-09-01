@@ -1459,5 +1459,20 @@ semantic inputs visible in both branches; hiding them would manufacture the
 claim. Freeze the sample and threshold prospectively, and continue to require
 direct execution plus all three contextual floors.
 
+OT-0187 produces the predicted 8/8 receipt-visible versus 3/8 erased-control
+full-pass split, but the experiment is invalid at its actor-conformance gate.
+Two controls retain the route exactly. The frozen output schema requires one
+changed file even though retention is explicitly allowed, so those actors
+cannot report their valid no-change action truthfully. All traces and effects
+are clean, but the contradiction materially affects control acceptance and
+branch comparability.
+
+Do not promote the descriptive split. Exact parent `40818aa8...` remains
+current. A new replication is allowed only after its schema admits both exact
+retention with zero changed files and revision of the sole route file, and
+preflight demonstrates that the complete audit accepts both paths. Preserve
+OT-0187's sample, semantic inputs, exact probability boundary, interleaving,
+direct execution, and all contextual floors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

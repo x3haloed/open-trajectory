@@ -1,6 +1,6 @@
 # OT-0187 — executable-routing receipt-effect replication
 
-- **Status:** design and executable conformance frozen; not run
+- **Status:** complete; invalidated by retain/report interface contradiction
 - **Evidence class:** exploratory-only
 - **Target:** determine whether OT-0186's 4/4 versus 2/4 correction difference
   is a replicable consequence-receipt effect while preserving executable use
@@ -74,3 +74,36 @@ interpreter, or indefinite recurrence.
 If the replication rejects, retain OT-0186's direct-execution result as an
 engineering property only. Do not continue resampling the same contrast merely
 to obtain a favorable split; reorient to a different causal question.
+
+## Result
+
+The behavioral comparison reaches the preregistered boundary decisively:
+contradiction-visible actors repair and pass 16/16 in 8/8 branches, while
+receipt-erased controls do so in 3/8. The original route again passes its
+observation-led and mixed floors 10/10 and fails wider blocked-option contact
+0/6. All sixteen traces and effects audits are clean, and identity remains
+18/18.
+
+The complete result is nevertheless invalid. Two erased-control actors retain
+`executable-route.json` byte-for-byte and truthfully report an empty diff in
+their note. The frozen result schema requires
+`files_changed: ["executable-route.json"]` even though the experiment explicitly
+permits retain or revise. Both actors therefore have no truthful schema-valid
+way to report retention: claiming the required changed path contradicts the
+actual empty patch, while reporting no changed file violates the schema.
+
+Both controls take the required schema branch and are correctly rejected by
+the generic file/report conformance audit. This is not a security or effects
+failure, but it materially affects control acceptance, scoring, and branch
+comparability. The 8/8 versus 3/8 split is descriptive evidence only and cannot
+authorize promotion. Exact parent
+`40818aa8c898da506378ab82ddebe6682c5edc8b524f5e1bb2025bb391cf2747`
+remains open.
+
+The next experiment may repeat this comparison under a new ID because OT-0187
+is invalid rather than an unfavorable valid sample. First replace the output
+schema with a frozen retain-or-revise report that permits either an empty
+`files_changed` list for exact retention or the sole route file for revision.
+Preflight both branches and prove the audit accepts each before authorizing any
+new actor. Keep the same sample size, Fisher boundary, semantic inputs,
+interleaving, direct confirmation, and promotion gate.

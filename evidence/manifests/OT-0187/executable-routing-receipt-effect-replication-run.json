@@ -1,0 +1,29 @@
+{
+  "artifact_id": "executable-routing-receipt-effect-replication-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12206080,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4799640fabc4aaf30eeda3a9d9df90883b4ca74d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0187",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:executable-routing-receipt-effect-replication-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6eacc7a13920fea8e3bfa53a1748df73378a346a49b8933bf204fc40315da827"
+}
