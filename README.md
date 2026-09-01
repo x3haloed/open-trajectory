@@ -456,6 +456,17 @@ The strongest footholds are:
   yield-only, and effort-only controls each pass 0/4. Open successor
   `ab119b11...` preserves the ledger and installs the consequence-corrected
   selector for recurrent use.
+- `OT-0209` and `OT-0210`: both stop before actor contact on prospectively
+  preserved response-schema incompatibilities—first a constant without an
+  explicit type, then unsupported `uniqueItems`. Neither changes the subject or
+  informs hidden consequence.
+- `OT-0211`: the supported-schema repetition lets a fresh actor author three
+  executable code pursuits. The corrected selector chooses the hidden-oracle
+  policy while its inherited parent chooses a policy 554.3 points worse under
+  matched fresh execution. Open successor `9cb26c73...` retains the completed
+  pursuit and an actor-authored next opening. A malformed actor-visible public
+  helper is disclosed; independent authoritative scoring and branch validity
+  remain intact, and the helper must be repaired before carrier reuse.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

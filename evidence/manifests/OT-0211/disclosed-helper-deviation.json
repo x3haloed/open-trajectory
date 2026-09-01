@@ -1,0 +1,31 @@
+{
+  "artifact_id": "disclosed-helper-deviation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1291,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "82fe3b1f5718e56df8792fef7a8f629b95765076",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0211",
+  "input_manifests": [],
+  "kind": "deviation-audit",
+  "limitations": [
+    "Post-run classification of an actor-visible helper failure; does not alter raw output or authoritative scores."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:disclosed-helper-deviation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "da46223ec4df637c03ae11e400b17cfc18c2aaa644ee402424f733f7d5865e95"
+}

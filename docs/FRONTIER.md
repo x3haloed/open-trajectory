@@ -2386,11 +2386,32 @@ a selector that caused an earlier successful pursuit is later made harmful by
 world cost, revised from public consequence, and decisively beats its unchanged
 parent on sealed contact.
 
-The frontier is corrected-selector recurrence without an observer-selected
-candidate menu. Start from the exact successor. A fresh renewal actor should
-assimilate the completed ledger and author materially different executable
-pursuits with the raw cost/contact/branch fields required by the corrected
-selector. Bind the exact latest selector, choose before hidden consequence, and
-execute the selected pursuit. Compare selector erasure or the exact harmful
-parent under matched information. Promotion requires another open subject and
-must not treat selection alone as completion.
+OT-0209 and OT-0210 preserve two apparatus failures before actor contact. The
+first response schema omits an explicit type beside a constant; the second
+retains unsupported `uniqueItems`. Neither observes candidate output or hidden
+consequence. OT-0211 makes only those prospective compatibility repairs and
+reaches the scientific path.
+
+A fresh actor inspects a complete dispatch repository and public regret, then
+authors three materially different executable policies. The world derives all
+selector fields from execution rather than actor declaration and binds
+portfolio `da586f2a...` before hidden contact. The corrected selector chooses
+the expected-score composition; the inherited checkpoint maximizer chooses
+reliability alone. Separate matched fresh actors integrate each exact source.
+
+The corrected route reaches 100% of hidden oracle improvement and scores 554.3
+above control. The inherited route remains executable but is actively harmful.
+All three audits, exact integration bindings, retained ledger and corrected
+selector, route 16/16, identity 18/18, and successor identity pass. The
+actor-visible helper failed because its baseline was malformed, but it carried
+no unique information: the actor reconstructed the same public calculation
+from visible inputs and authoritative scoring was separate. Preserve this as a
+disclosed tooling deviation and repair the helper before reusing the carrier.
+
+Exact open successor `9cb26c73...` carries the completed cross-world code
+pursuit and the actor-authored opening to test newly observed dispatch
+combinations, changing the selector only when fresh regret warrants it. The
+frontier is no longer first recurrence. It is repeated continuation from that
+opening in another objective encounter, plus causal reduction of observer-owned
+world construction, metric projection, and admission. Do not replace the
+actor's opening with a researcher-selected task merely to obtain another pass.

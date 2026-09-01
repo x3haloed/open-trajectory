@@ -1,0 +1,32 @@
+{
+  "artifact_id": "subject-authored-code-pursuit-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 28905,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "82fe3b1f5718e56df8792fef7a8f629b95765076",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0211",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded synthetic dispatch world; does not establish open-domain or indefinite recurrence.",
+    "Actor-visible helper failed; actor independently reconstructed public measurement and a separate evaluator scored the bound portfolio."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-code-pursuit-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "85008d205623f2597dfb07f98b9b815f0e44a1a1776dbe8b8748aa458872969c"
+}

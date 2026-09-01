@@ -37,17 +37,24 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact open subject is OT-0208 successor `ab119b11...`, identified by
-`evidence/manifests/OT-0208/open-subject-after-cost-selector-correction.json`.
-It preserves the completed selected ledger and carries an objectively corrected
-pursuit selector whose unchanged parent fails all sealed cost portfolios.
+The current exact open subject is OT-0211 successor `9cb26c73...`, identified by
+`evidence/manifests/OT-0211/open-subject-after-code-pursuit.json`. It preserves
+the completed selected ledger and corrected pursuit selector, plus one admitted
+cross-world code pursuit selected from an actor-authored executable portfolio.
+The corrected route reached the hidden oracle and beat the inherited-selector
+route by 554.3 under matched fresh execution.
 
 ## Prediction errors
 
-- Recurrence evidence is still concentrated in related synthetic set/contact
-  worlds; cross-world subject-owned continuation remains open.
-- The corrected selector has not yet chosen and completed a new subject-authored
-  pursuit; recurrence and transfer outside its calibration world remain open.
+- One corrected-selector recurrence now crosses from ledger cost calibration
+  into a behavioral code world, but repeated recurrence across another newly
+  encountered world remains open.
+- The actor authored the next opening, but the observer still supplied the
+  bounded world family, metric projection, and admission interface.
+- OT-0211's actor-visible portfolio helper was malformed. The actor recovered
+  from visible facts and independent authoritative scoring remained valid, but
+  this carrier cannot be reused until the helper is repaired and executed in
+  preflight.
 - Actor opening, world-interface construction, and final admission remain
   external. Reduce these dependencies only through discriminating experiments,
   not by relabeling researcher machinery as part of the subject.

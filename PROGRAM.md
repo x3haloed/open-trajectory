@@ -1752,5 +1752,38 @@ the correction. Next let the subject author candidate pursuits without an
 observer-supplied menu, use the corrected selector to choose, and execute the
 choice against independent consequence.
 
+OT-0209 freezes that recurrence test against a complete dispatch code world,
+but its response schema is rejected before actor contact because a constant
+property lacks an explicit type. OT-0210 prospectively adds the type and reaches
+the next API check, which rejects unsupported `uniqueItems`. Both runs are
+apparatus invalidations with no actor output and no hidden observation; exact
+parent `ab119b11...` remains open throughout.
+
+OT-0211 removes only the unsupported keyword and repeats the scientific design.
+A fresh actor inspects public behavioral regret and authors three executable
+policy pursuits. Mechanically derived public consequence binds the portfolio
+before hidden contact. The exact corrected selector chooses expected-score
+composition; its exact inherited parent chooses reliability alone. Separate
+fresh actors integrate both bound sources under matched authority.
+
+The corrected route loses no public case, gains `269.45` hidden score over
+unchanged, and reaches the hidden oracle. The inherited route is executable but
+loses `284.85` from unchanged, leaving a `554.3` corrected-control gap. All
+three audits, exact ledger and selector retention, route 16/16, identity 18/18,
+and successor identity pass. An actor-visible helper malformed its baseline;
+the actor truthfully reported this and reconstructed equivalent measurement
+from already-visible facts. A separate authoritative evaluator scored the
+bound portfolio and hidden information remained sealed, so the tooling defect
+is disclosed rather than used to rescore the run. Repair it before carrier
+reuse.
+
+Open successor `9cb26c73...` now establishes one cross-world recurrence from a
+subject-authored executable portfolio through corrected selection, fresh-actor
+execution, and independent consequence. It carries the actor-authored next
+opening: test the selector on newly observed dispatch combinations and revise
+only upon fresh regret. The next frontier is repeated recurrence under that
+opening while reducing observer ownership of world construction, metric
+projection, and admission.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
