@@ -434,6 +434,12 @@ The strongest footholds are:
   selection. Portfolios align 5/6 active versus 0/6 controls, but the frozen
   transform turns one valid blocked score of 100 into invalid 307. Preserve the
   rejection and exact parent pending a bounded prospective transform.
+- `OT-0205`: bounded ordinal normalization prospectively repairs that apparatus
+  error. Fresh portfolios pass 6/6 with the selector versus 0/6 erased
+  controls; route 16/16 and identity 18/18 remain intact. Open successor
+  `3e06b644...` installs the selector and its selected contact-correction-ledger
+  pursuit, which now requires independent consequence rather than more
+  selection-only evidence.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

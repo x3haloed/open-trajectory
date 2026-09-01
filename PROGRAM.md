@@ -1682,5 +1682,22 @@ selector proposal and prospectively normalize scores into a bounded ordinal
 range that preserves order and ties. Repeat the unchanged 6+6 comparison before
 testing whether the selected dimension predicts useful world consequence.
 
+OT-0205 makes that prospective repair. Its preflight reproduces OT-0204's sole
+miss, proves the old affine transform invalid against the published range, and
+proves that bounded ordinal normalization preserves the same order, ties, and
+selection. Twelve fresh actors then pass the unchanged comparison: populated
+selector 6/6 versus selector-erased control 0/6, with all audits clean, route
+16/16, identity 18/18, and the exact `decision-ready-signal` binding retained.
+
+Open successor `3e06b644...` installs the selector and the canonical pursuit it
+selects, `preserve-contact-correction-ledger`. The subject has now recurrently
+changed not only what it pursues but how it chooses among later pursuits, and
+that change has survived fresh actors and a matched erasure control. This is
+still a selection-capacity result, not a utility result. Next honor the selected
+pursuit: independently author contact over the inherited unblocked and revoked
+identity outcomes, execute the ledger, and let consequence confirm, correct, or
+surrender the pursuit and its selector. Do not substitute another observer-
+chosen target or another portfolio-only comparison.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

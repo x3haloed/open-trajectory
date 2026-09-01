@@ -1,0 +1,31 @@
+{
+  "artifact_id": "bounded-selector-normalization-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11090432,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9ff96f26cd47f9147a78687a418abdcfeecc755c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0205",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Hosted actor provenance is retained locally; the run establishes bounded selector recurrence, not downstream utility."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:bounded-selector-normalization-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "74b075c71e4cfca3c21b7c68b1621cd2fee65e9df1707a9995220da60dbd4e29"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "bounded-selector-normalization-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 175833,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9ff96f26cd47f9147a78687a418abdcfeecc755c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0205",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Active 6/6 versus controls 0/6 under bounded order-preserving normalization; downstream utility remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:bounded-selector-normalization-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2e093bb84790053a5d47df7a01ed75377dfe6a13a990632f3f3ed7e3764ec0d7"
+}

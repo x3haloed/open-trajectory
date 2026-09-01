@@ -1,6 +1,6 @@
 # OT-0205 — bounded selector normalization
 
-- **Status:** design frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** prospective repair of OT-0204's harness-generated score-range
   violation
@@ -31,3 +31,24 @@ Passing establishes one bounded recurrent change to pursuit selection. It does
 not show that `decision-ready-signal` predicts actual utility; the selected
 pursuit must next encounter independent consequence capable of correcting or
 surrendering the selector.
+
+## Result
+
+The prospective repair passes every frozen gate. Twelve fresh actors are
+accepted with clean audits. Populated-selector subjects select stably under
+bounded normalization 6/6, compared with 0/6 selector-erased controls. The
+advantage is six; the installed route floor remains 16/16 and the identity
+floor remains 18/18. The exact selector binding `eb8053c7...` is unchanged.
+
+Open successor `3e06b644...` installs the actor-authored
+`decision-ready-signal` selector and the canonically selected
+`preserve-contact-correction-ledger` stake. Its continuation asks whether one
+ledger can preserve every observed unblocked contact while retaining the
+corrected revoked-identity outcome.
+
+This repairs OT-0204's apparatus error and establishes bounded recurrent change
+to how the subject selects its next pursuit. It does not establish that the
+selected dimension predicts useful consequence. Next execute the selected
+ledger pursuit against independently authored world contact, preserving an
+honest path for consequence to correct or surrender both the pursuit and its
+selector.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-selector-renewal",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 604552,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9ff96f26cd47f9147a78687a418abdcfeecc755c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0205",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Selector and selected pursuit are installed; independent world consequence has not yet validated the selected dimension."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-selector-renewal",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "94672fd46a15caaf98313f098e5c30f396315ad9e6c08cd7608715fe59331709"
+}

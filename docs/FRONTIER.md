@@ -2289,3 +2289,29 @@ direction, then run a fresh matched 6+6 cohort. If it passes, install the
 selected pursuit and expose its `decision-ready-signal` measurement to
 independent outcome, where the subject must be allowed to retain, correct, or
 surrender the selector.
+
+OT-0205 applies only that prospective repair. Preflight reproduces the exact
+OT-0204 failure, confirms that the old affine value is structurally invalid,
+and confirms that bounded ordinal normalization keeps every value in range
+while preserving order, ties, direction, and selection. The fresh cohort then
+passes active 6/6 versus selector-erased control 0/6. All twelve audits are
+clean; exact selector identity, route 16/16, identity 18/18, bounded hidden
+stability, and the canonical selected stake all pass.
+
+Open successor `3e06b644...` carries the actor-authored
+`decision-ready-signal` selector and its selected
+`preserve-contact-correction-ledger` stake. This is the first clean recurrence
+in this chain where completion leads the subject to change how later pursuits
+are selected, that changed selector causally constrains fresh actors, and the
+result is installed into another open subject.
+
+The frontier is now world correction of the selected pursuit and selector.
+Honor the subject's selected ledger stake rather than replacing it with an
+observer-selected task. Independently author the relevant unblocked contacts
+and revoked-identity outcomes before the ledger actor runs; require exact,
+ordered preservation and an independent replay. Then expose whether the number
+of first-cycle decision-ready checkpoints actually predicted useful completion.
+Success may retain the selector. Contradiction must be able to correct or
+surrender the selector and selected pursuit without erasing the lineage's
+earlier earned floors. A portfolio-only comparison cannot answer this next
+question.
