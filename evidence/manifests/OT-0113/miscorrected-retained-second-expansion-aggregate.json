@@ -1,0 +1,33 @@
+{
+  "artifact_id": "miscorrected-retained-second-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15337,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "97347fefdfc5f9d639ebd3cc8c7414e83beb3747",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0113",
+  "input_manifests": [
+    "evidence/manifests/OT-0112/retained-generic-recurrence-aggregate.json"
+  ],
+  "kind": "retained-expansion-correction-result",
+  "limitations": [
+    "The correction was clean and exactly scoped but changed the wrong bound; public conformance still failed and the exact OT-0112 parent remained open."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:miscorrected-retained-second-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ade981d0b90b59b9ec25ab52aef3b253fbb6a5049ae5c9ba0498cdd517e93c87"
+}

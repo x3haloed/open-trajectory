@@ -558,6 +558,20 @@ while independent execution continues to own semantics. The exact package must
 then survive one receipt-driven validator correction, hidden admission, world
 use, and fresh assimilation without resampling.
 
+OT-0113 rejects at that correction. The actor's patch is clean, truthful, and
+exactly scoped, but it raises `recovery_interaction_penalty` to 100 rather than
+lowering the inherited `coordination_penalty` maximum. The public fixture still
+fails, so no hidden admission, world contact, or assimilation occurs and the
+exact OT-0112 subject remains open.
+
+The result localizes a consequence-legibility dependency: a named failing row
+and Boolean outcome did not expose enough of the contradiction for a fresh
+actor to distinguish two plausible bound changes. The next record should retain
+the exact package and failed patch, add the concrete counterexample values and
+the authoritative field bounds to the public receipt, and permit one fresh
+successor correction. It should preserve independent scoring and reject rather
+than repair if the actor still chooses the wrong semantics.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -628,6 +642,9 @@ use, and fresh assimilation without resampling.
 - One retained subject-authored package has now been corrected from consequence,
   independently admitted on hidden cases, used, and carried across a later
   actor ending. Recurrence of that expansion mechanism remains unestablished.
+- A second retained package remains behaviorally viable, but one correction
+  attempt demonstrates that fixture labels and Boolean outcomes alone may not
+  make the governing contradiction legible to a fresh successor.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

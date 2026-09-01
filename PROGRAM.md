@@ -207,6 +207,10 @@ condition, not the permanent purpose or executive of the resulting subject.
   The second actor authors a behaviorally sound package but fails declaration
   representation and one inherited-bound public-contract check. One cycle is
   promoted; the two-cycle target is rejected.
+- `OT-0113` retains that second package and gives its public disagreement to one
+  fresh corrector. The actor makes an exactly scoped, truthful change but
+  repairs the new field's bound rather than the inherited field's bound. The
+  gate rejects before hidden contact and preserves the exact OT-0112 subject.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -426,6 +430,14 @@ second package. The next record should retain its exact bytes, accept the
 semantically equivalent declaration forms, give the inherited-bound failure to
 one fresh contract corrector, and resume hidden admission and assimilation
 from the exact promoted OT-0112 successor.
+
+OT-0113 retains those bytes but falsifies the assumption that a fixture name
+and pass/fail row are sufficient correction contact. The fresh actor changes
+only the authorized validator, yet raises the new interaction field's bound
+instead of enforcing the inherited coordination bound. The next record should
+carry the exact package and failed correction forward, expose the concrete
+counterexample plus the relevant declared bounds, and ask one fresh successor
+to correct from that consequence without prescribing an implementation.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

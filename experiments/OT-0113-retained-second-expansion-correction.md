@@ -1,6 +1,6 @@
 # OT-0113 — retained second-expansion correction
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected at public correction
 - **Evidence class:** exploratory-only
 - **Target:** consequence-correct and promote the exact OT-0112 second package
 - **Parent:** exact OT-0112 subject at
@@ -59,3 +59,27 @@ promotion across the OT-0112/OT-0113 lineage, with one consequence-driven public
 contract correction. It does not establish uninterrupted fixed-driver
 recurrence, arbitrary synthesis, autonomous admission, frequency, cross-domain
 transfer, or indefinite continuation.
+
+## Result
+
+The retained package reconstructed and bound exactly. Its public disagreement
+again isolated one failing row: `inherited-field-out-of-bounds`. The fresh
+corrector changed only `conformance.py`, reported the change truthfully, and
+left a complete clean trace. It nevertheless changed the wrong bound. The
+original validator capped both `context_penalty` and the new
+`recovery_interaction_penalty` at 10; the actor raised the new field to 100
+while leaving inherited `coordination_penalty` at 100. The independent fixture
+therefore still passed the forbidden inherited value.
+
+The gate rejected before hidden admission, world contact, or assimilation. No
+repair or resampling occurred, and exact subject
+`a17ee73828db76ca2f384bb2a1dced9fd12cb22590fbfac028e2106ba635e67b`
+remains open with the same continuation.
+
+This is a substantive correction-interface failure, not evidence against the
+retained package. The actor received the failing fixture's name and Boolean
+outcome but not the counterexample value or the already-declared bounds that
+made the disagreement diagnostic. The next record should preserve the exact
+package and failed patch, expose the concrete public counterexample and relevant
+field declarations as consequence, and give a fresh successor one correction
+attempt. It must not identify the source line or prescribe the patch.

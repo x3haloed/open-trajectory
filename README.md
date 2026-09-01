@@ -107,6 +107,9 @@ The strongest footholds are:
 - `OT-0112`: one partial generic recurrence that promotes the retained first
   expansion and automatically opens a second; the second package stops on
   declaration representation and one inherited-bound validator defect.
+- `OT-0113`: one rejected retained correction whose clean, exactly scoped actor
+  patch changed the wrong field bound, showing that a fixture label and Boolean
+  disagreement alone were insufficient correction contact.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
