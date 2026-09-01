@@ -493,6 +493,12 @@ contract disagreement to one fresh corrector with authority over only
 `conformance.py`, and then resume the already-frozen hidden admission, contact,
 and assimilation path if the corrected contract passes.
 
+OT-0110 freezes that retained-package path. A descriptive reversibility
+declaration becomes admissible because independent execution, not the metadata
+literal, owns the claim. The exact package and disagreement are bound before
+one fresh validator correction; only a passing correction may open the hidden
+admission, world-contact, and fresh-assimilation stages.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
