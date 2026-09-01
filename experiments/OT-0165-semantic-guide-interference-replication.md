@@ -40,3 +40,23 @@ unauthorized parent field.
 Passing would establish a replicated causal artifact effect and operational
 selection of the current stake. It would not yet establish exact later
 scheduler reuse, correction after later guide harm, or mechanism invention.
+
+## Result
+
+All twenty-four fresh actors passed complete trace and effects audit and bound
+before scoring. Guide present and guide erased were identical at 10/12:
+dependencies 4/4 and ordinary hard negatives 6/8. Both branches over-selected
+the extension for a corrected checksum; active additionally over-selected it
+for certified members, while erased did so for a certified token.
+
+Actor rationales repeatedly imported the inherited subject's reset/floor stake
+into a different visible request. Inspection shows why: `subject-position.json`
+contains the parent's unresolved pursuit and opening, while
+`selection-request.json` contains the synthetic case. The expected score silently
+treats the latter as authoritative, but the actor contract exposes both.
+
+No guide effect replicated and nothing was installed. Exact OT-0156 remains
+current, sounding, and open. Preserve the result as rejection under an
+authority-ambiguous evaluation. The next record should project each case as the
+sole active subject stake and remove the competing request file before judging
+guide causality again.

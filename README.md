@@ -273,6 +273,10 @@ The strongest footholds are:
   guide-erased 9/10. The guide prevents one erased actor from substituting the
   inherited active stake for its visible ordinary request, but the one-case
   advantage misses the frozen causal gate, so nothing is installed.
+- `OT-0165`: replication yields identical 10/12 branches. Rationales reveal
+  that actors received two competing stakes—the inherited subject opening and
+  a synthetic request—so no guide effect is promoted and the dual-authority
+  evaluation interface must be repaired.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

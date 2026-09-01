@@ -1,0 +1,33 @@
+{
+  "artifact_id": "semantic-guide-interference-replication-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 84540,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4cdc95236fc11ebef97b1fa6bed933b57b28830c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0165",
+  "input_manifests": [
+    "evidence/manifests/OT-0164/sealed-semantic-selection-consequence.json"
+  ],
+  "kind": "test-result",
+  "limitations": [
+    "Guide present and erased both 10/12; subject projection and synthetic request exposed competing stake authorities."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:semantic-guide-interference-replication-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2a9e6628e779e809435a7b943557c79395526c1b8781fa671ef710ed14c4c059"
+}

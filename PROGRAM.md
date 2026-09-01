@@ -1118,5 +1118,16 @@ identified mechanism next on a new matched portfolio where visible ordinary
 requests compete with the inherited active stake; require a decisive replicated
 advantage and continued dependency competence.
 
+OT-0165 rejects that replication: guide present and erased are both 10/12, with
+dependencies 4/4 and ordinary hard negatives 6/8. The shared rationales expose
+a deeper apparatus issue. `subject-position.json` still carries the inherited
+reset/floor pursuit while a separate synthetic request claims to be current;
+the score silently privileges the latter, but the actor sees two authorities.
+
+Do not interpret the identical score as clean semantic-guide falsification.
+Repair the selection projection so each case is the sole active stake and
+remove the competing request file. Preserve guide bytes, cases, matched fresh
+actors, bind-before-score discipline, and exact subject ancestry.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

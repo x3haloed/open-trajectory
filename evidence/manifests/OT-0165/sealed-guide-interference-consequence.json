@@ -1,0 +1,33 @@
+{
+  "artifact_id": "sealed-guide-interference-consequence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 6051,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4cdc95236fc11ebef97b1fa6bed933b57b28830c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0165",
+  "input_manifests": [
+    "evidence/manifests/OT-0165/semantic-guide-interference-replication-aggregate.json"
+  ],
+  "kind": "world-result",
+  "limitations": [
+    "Identical 10/12 matched score under authority-ambiguous actor inputs; exact rows retained."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-guide-interference-consequence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5c44485567c6ff4d9dc59162a5af143452984ba4ad55f7bdfe57edaddb1343b1"
+}

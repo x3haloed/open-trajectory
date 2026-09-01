@@ -1412,6 +1412,19 @@ on new matched requests where the visible ordinary stake competes with inherited
 context, while retaining dependency cases as a competence floor. Require a
 decisive advantage before installing the artifact.
 
+OT-0165 does not replicate the advantage: both branches score 10/12, with
+dependencies 4/4 and ordinary hard negatives 6/8. Both branches' rationales
+sometimes answer the inherited reset/floor opening instead of the synthetic
+request. The interface presents those as separate files without an explicit
+authority relation, while the evaluator silently treats the synthetic request
+as sole truth.
+
+This comparison is rejected and nothing is installed, but it also identifies
+an apparatus authority ambiguity. The next record must construct one subject
+projection per case with that case installed as the sole active stake, omit the
+competing request file, and then repeat a matched exact-guide comparison. Only
+after that correction can guide necessity be judged cleanly.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
