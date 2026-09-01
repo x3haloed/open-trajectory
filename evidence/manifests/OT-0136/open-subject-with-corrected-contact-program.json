@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-corrected-contact-program",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 367191,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "661665407fe5ffd7859a7cf7d1cbf3a8c2052659",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0136",
+  "input_manifests": [],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact subject carries corrected program bytes and remains operationally open; its next opening has a nested canonical prefix and incomplete provenance wording requiring a prospective carrier correction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-corrected-contact-program",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d7bdeb5dd979ce41f1b63bd1642b1ae0e8755abd5e5fc84006243867cb2a10e5"
+}

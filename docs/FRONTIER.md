@@ -901,6 +901,31 @@ no-regression, exact promotion, and a later reuse without repair. This attacks
 the remaining difference between carrying a useful tool and increasing the
 subject's capacity to build better future contact from experience.
 
+OT-0136 answers that bounded question positively. The retained unit-offset
+program produces zero of six adversarial distinctions in a new sealed band-four
+reserve regime. One fresh corrector changes only both offsets from `1` to `4`.
+The revision produces six of six distinctions on the identical quantized bases,
+preserves four of four on sealed raw-spread bases, replaces the retained
+capability by exact content identity, and later produces two of two distinctions
+on a new sealed base without repair. A fresh route actor retains those corrected
+bytes and cites every correction and no-regression case.
+
+This is the strongest current recursive-capacity result: objective consequence
+changes subject machinery for producing better future objective contact. It is
+still bounded, and the correctable fields, public checker, hidden regimes,
+retention schema, and admission rule are researcher-designed.
+
+The exact operational subject is
+`60576efe0d9fa7aef6c6455b092ec2b358a61d536fe38946c2a9dfc8f1fe42c3`,
+but do not treat its opening as clean. The route actor embedded the prior
+canonical opening inside `remaining_uncertainty`, producing nested `Open`
+prefixes, and its “single-insertion” provenance clause omits the later joint
+tests. The machinery result survives; clean developmental continuation does not
+yet. The next record should make uncertainty a structured question plus
+separate evidence scope, deterministically strip lifecycle prefixes from the
+question projection, and reconstruct this exact accepted route without another
+corrector or resampled world.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1023,7 +1048,8 @@ subject's capacity to build better future contact from experience.
   and hands generated consequence to a fresh route actor. The final subject does
   not retain the program bytes at OT-0134; OT-0135 then installs those exact
   bytes as subject capability state and causally reuses them. Consequence-driven
-  revision of the retained generator remains untested.
+  revision is then established once in OT-0136, while arbitrary correction and
+  clean open-ended continuation remain untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

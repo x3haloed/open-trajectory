@@ -672,5 +672,28 @@ sealed no-regression checks, and later reuse the revised bytes without another
 repair. That would test whether the capacity to make useful contact itself
 improves from consequence.
 
+OT-0136 performs that test. The exact retained unit-offset program first scores
+zero of six adversarial distinctions under a new sealed band-four reserve
+regime. One fresh corrector changes only both offsets from `1` to `4`; corrected
+bytes score six of six on the identical quantized bases, preserve four of four
+raw-regime distinctions, become the retained capability, and score two of two
+on a later sealed reuse without repair. A fresh route actor preserves the
+corrected bytes and all 15 exact correction/no-regression cases.
+
+This is a bounded positive answer to the recursive capacity question:
+consequence improved machinery for making future consequence, not merely a
+domain belief or next-pursuit sentence. The correction interface, banded world,
+admission, and legal mutation fields remain researcher-designed.
+
+The promoted subject is operationally open at
+`60576efe0d9fa7aef6c6455b092ec2b358a61d536fe38946c2a9dfc8f1fe42c3`,
+but its compiled opening exposes a remaining carrier defect. The actor placed a
+full prior `Open continuation-6…` string inside `remaining_uncertainty`, causing
+a nested canonical opening, and described provenance as “single-insertion”
+despite later joint evidence. Before another developmental contact, publish a
+structured uncertainty ABI that separates the question from provenance, re-audit
+the exact route into a clean canonical opening without changing corrected
+capability or consequence, and preserve OT-0136's original output unchanged.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

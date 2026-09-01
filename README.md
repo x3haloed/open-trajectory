@@ -169,6 +169,9 @@ The strongest footholds are:
 - `OT-0135`: the exact admitted program becomes subject capability state, is
   reused without a program-author turn on nine joint cases, survives promotion,
   and has a byte-erased no-binding control.
+- `OT-0136`: objective quantized-regime failure causes a minimal retained
+  program revision that beats its unchanged parent 6/6 to 0/6, preserves the
+  raw floor, and works again without repair; its compiled opening is nested.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

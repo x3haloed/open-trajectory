@@ -1,0 +1,31 @@
+{
+  "artifact_id": "consequence-corrected-contact-program-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 34451,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "661665407fe5ffd7859a7cf7d1cbf3a8c2052659",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0136",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Aggregate supports the retained-program correction comparison and no-regression/reuse claims; it does not establish clean long-horizon opening generation or arbitrary machinery revision."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-contact-program-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "eaf2b299a7c31a5b9678b1795d4197f38a35250683a6fc50913b0c472ff7d661"
+}

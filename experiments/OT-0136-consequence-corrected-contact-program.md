@@ -1,6 +1,6 @@
 # OT-0136 — consequence-corrected contact program
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; corrected capability promoted with continuation caveat
 - **Evidence class:** exploratory-only
 - **Target:** let objective failure revise the retained contact-making
   capability, preserve its prior floor, and reuse the revision without repair
@@ -68,3 +68,31 @@ subject's retained capacity to make future world contact, with an unchanged
 parent comparison, prior-floor preservation, and later reuse. It would not
 establish arbitrary machinery revision, frequency, subject-authored correction
 schemas, indefinite operation, or autonomous world/admission authority.
+
+## Result
+
+The exact retained unit-offset program first produced zero of six adversarial
+distinctions in the sealed band-four reserve regime while all three controls
+remained invariant. One fresh corrector changed only `high_offset` and
+`low_offset`, both from `1` to `4`, and passed the executable public checker.
+
+On the identical sealed quantized bases, corrected bytes produced six of six
+adversarial distinctions and three confirmations. They also preserved four of
+four adversarial distinctions and two controls on sealed raw-spread bases. The
+unchanged parent remained at zero of six, so the improvement is comparative and
+consequence-addressed rather than a favorable resample.
+
+The corrected program became exact subject capability
+`contact-program-66446a39105e2009`. A separate fresh route actor cited all 15
+quantized and raw cases, retained exact selector and corrected-program bytes,
+and passed deterministic cycle-seven compilation. Post-seal reuse on a new
+quantized base produced two distinctions and one confirmation without repair.
+
+Exact subject
+`60576efe0d9fa7aef6c6455b092ec2b358a61d536fe38946c2a9dfc8f1fe42c3`
+is operationally open and carries the corrected capability. Its opening has a
+carrier-quality defect: the actor put the full prior `Open continuation-6…`
+phrase inside `remaining_uncertainty`, so canonical compilation nested that
+opening. The added “single-insertion” provenance phrase is also incomplete after
+the lineage's joint tests. These defects limit clean continuation claims but do
+not invalidate the exact failure/correction/no-regression/reuse comparison.

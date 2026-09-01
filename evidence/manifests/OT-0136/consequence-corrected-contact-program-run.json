@@ -1,0 +1,31 @@
+{
+  "artifact_id": "consequence-corrected-contact-program-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1680896,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "661665407fe5ffd7859a7cf7d1cbf3a8c2052659",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0136",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded quantized-regime correction with two fresh actors and deterministic later reuse; the final opening is operationally open but contains a nested prior-opening prefix and an incomplete single-insertion provenance phrase."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-contact-program-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b236751be8009577cd90960d1c876ecc08edade0be78e1f3de92680fcbd8dc4e"
+}
