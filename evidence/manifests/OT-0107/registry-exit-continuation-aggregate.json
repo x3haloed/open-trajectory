@@ -1,0 +1,33 @@
+{
+  "artifact_id": "registry-exit-continuation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2876,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "593a0efab8f5568043ca5b565c29e965f05a1134",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0107",
+  "input_manifests": [
+    "evidence/manifests/OT-0106/iterated-contact-correction-aggregate.json"
+  ],
+  "kind": "registry-exit-continuation-result",
+  "limitations": [
+    "No world receipt, assimilation, extension decision, or successor promotion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:registry-exit-continuation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ea21bcf1cc92797927ecbcfedef52249d67612bad132494c5273327523f0f4d4"
+}

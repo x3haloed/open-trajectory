@@ -439,6 +439,14 @@ research prediction is that the subject exits the now-repeated two-interface
 alternation. A history-erased control runs only after an extension successor is
 sealed.
 
+OT-0107 rejects before the registry-exit decision. The bound joint action runs
+and authors three otherwise conformant boundary cases, but option ids are
+integers while an undisclosed validator requires strings. Retyping only those
+six ids makes all frozen checks pass. The next record should make id semantics
+explicit, accept a consistent comparable string or integer type per case,
+re-audit the exact retained contact without resampling, and continue into the
+already-frozen extension-aware assimilation.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

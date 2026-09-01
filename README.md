@@ -86,6 +86,9 @@ The strongest footholds are:
 - `OT-0106`: one promoted iterated-correction run completing the subject-bound
   allocator interface, independent scoring, grounded assimilation, and an exact
   open successor; its diagnostic-erased control also found the correction.
+- `OT-0107`: one rejected registry-exit attempt whose exact bound joint contact
+  was substantively valid but stopped on an undisclosed string-only option-id
+  validator before extension-aware assimilation.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

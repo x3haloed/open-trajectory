@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-registry-exit-continuation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 925184,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "593a0efab8f5568043ca5b565c29e965f05a1134",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0107",
+  "input_manifests": [
+    "evidence/manifests/OT-0106/open-subject-after-cross-interface-correction.json"
+  ],
+  "kind": "registry-exit-continuation",
+  "limitations": [
+    "One rejected registry-exit attempt; a serialization-only option-id mismatch stopped contact before assimilation."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-registry-exit-continuation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "34139f9e1c23c98e682eda7bd5d8db10a0f5632752d488fe22eacf7b448adc50"
+}

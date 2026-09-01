@@ -177,6 +177,10 @@ condition, not the permanent purpose or executive of the resulting subject.
   assimilation promotes an exact open cross-interface successor. A
   coverage-detail-erased control also corrects the artifact, so diagnostic
   content causality is not isolated.
+- `OT-0107` honors the exact joint continuation but stops before extension-aware
+  assimilation. Its three substantive boundary cases are rejected only because
+  integer option ids violate an undisclosed string-only validator; the public
+  contract did not specify id type. The OT-0106 parent remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -364,6 +368,10 @@ OT-0106 does so and completes the cross-interface transition. The next frontier
 is no longer another alternation inside the two-interface registry; it is
 subject-authored expansion of the registry under independent conformance and
 world admission.
+OT-0107 reaches the next bound contact but exposes a serialization-only id ABI
+defect before the registry-exit decision. The next record should broaden the
+published id contract, re-audit the exact contact without resampling, and then
+run the already-bound extension-aware assimilation.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
