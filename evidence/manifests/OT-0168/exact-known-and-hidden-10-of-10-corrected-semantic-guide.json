@@ -1,0 +1,29 @@
+{
+  "artifact_id": "exact-known-and-hidden-10-of-10-corrected-semantic-guide",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2999,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7a1c2991e0589f874936abd73e4a4bfb0a2a1b38",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0168",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:exact-known-and-hidden-10-of-10-corrected-semantic-guide",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3a14153250902aba9aac85fc7b8adf7b2950ed9599729ed3ffc4bca4e791c0af"
+}

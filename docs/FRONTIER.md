@@ -1449,6 +1449,19 @@ established behavior count, while continuing to forbid invention of an
 unstated prior composition or history. Keep the 10/10 known gate and the same
 sealed hidden comparison.
 
+OT-0168 completes that exact correction. The fresh successor guide and all 30
+selection actors pass audit. The corrected guide reaches known 10/10 and fresh
+hidden 10/10, while the original guide reaches hidden 9/10. The separating
+case is an ordinary membership token that the original guide falsely promotes
+to the composed route.
+
+This is positive causal evidence, but it misses the frozen two-case advantage
+and original-at-most-8/10 controls. Nothing is installed; the subject remains
+exactly unchanged and open. Preserve the 2,999-byte corrected guide and compare
+it against the exact original on a larger new single-authority portfolio. The
+next test should increase discriminating power, not retroactively weaken the
+failed gate.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

@@ -285,6 +285,10 @@ The strongest footholds are:
   over-tightens dependency evidence, reaching known 9/10 and dependency 4/5.
   Hidden comparison remains unopened; the exact guide becomes the next
   correction parent.
+- `OT-0168`: a second clean guide successor reaches known 10/10 and fresh
+  hidden 10/10 versus the original guide's 9/10. The corrected guide prevents
+  one false composed override, but the one-case advantage misses the frozen
+  two-case causal-strength gate, so nothing is installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

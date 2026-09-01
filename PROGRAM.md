@@ -1153,5 +1153,18 @@ accepted/proven history and established behavior as explicit floor evidence
 without weakening the rule against inventing an unstated prior composition or
 floor. Require known 10/10 before opening the unchanged hidden comparison.
 
+OT-0168 makes that exact amendment through a second clean guide successor. The
+2,999-byte guide reaches known 10/10 and fresh hidden 10/10, preserving both
+5/5 dependency and 5/5 ordinary floors. The unchanged original guide reaches
+hidden 9/10; its sole failure is an ordinary membership token that it
+incorrectly promotes to the composed route.
+
+The correction therefore has a causal effect, but only a one-case advantage.
+That misses the frozen requirement that the original score at most 8/10 and
+the corrected guide lead by at least two. Do not install it and do not lower
+the gate. Preserve its exact bytes and test the corrected and original guides
+on a larger, newly sealed single-authority portfolio with enough matched cases
+to distinguish a stable boundary improvement from a narrow sample effect.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,29 @@
+{
+  "artifact_id": "exact-semantic-guide-correction-continuation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 921593,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7a1c2991e0589f874936abd73e4a4bfb0a2a1b38",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0168",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-semantic-guide-correction-continuation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2a1085b82633927f2215519e43ca0c1b0cbeef59ab74b7f0bc79a4cbad8e9547"
+}

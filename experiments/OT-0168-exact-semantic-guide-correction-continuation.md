@@ -1,6 +1,6 @@
 # OT-0168 — exact semantic guide correction continuation
 
-- **Status:** frozen; not run
+- **Status:** complete; rejected at the frozen causal-strength gate
 - **Evidence class:** exploratory-only
 - **Target:** repair the sole OT-0167 known-floor miss without surrendering its
   restored ordinary-route boundary
@@ -41,3 +41,22 @@ the active stake, continuation, and every unauthorized parent field.
 Passing would establish consequence-driven correction of a causally active
 artifact through two fresh guide successors, with known harm repaired and a
 fresh held-out advantage. Exact later scheduler reuse would remain required.
+
+## Result
+
+The clean guide successor made the narrow intended amendment and produced an
+exact 2,999-byte guide. All 31 fresh actors passed complete trace and effects
+audit. The corrected guide scored 10/10 on the known floor, including both
+5/5 dependency and 5/5 ordinary cases.
+
+On the still-unopened hidden portfolio, the corrected guide scored 10/10 while
+the original guide scored 9/10. The sole separating case was an ordinary
+membership token: the corrected guide chose `reset-carrier`, while the original
+guide incorrectly inferred a composed dependency.
+
+This is a real one-case causal improvement, but it misses both frozen strength
+controls: the original guide was required to score at most 8/10 and the
+corrected advantage was required to be at least two. The result is therefore
+rejected, no guide is installed, and the exact OT-0156 subject remains
+unchanged and open. Preserve the corrected guide for a larger matched
+replication; do not lower the gate after seeing this result.
