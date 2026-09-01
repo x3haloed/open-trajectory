@@ -90,12 +90,11 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0240 successor `0d6bbb2f...`,
+The current exact operational subject is OT-0241 successor `b23c7e30...`,
 identified by
-`evidence/manifests/OT-0240/open-subject-after-content-free-outward-driver.json`.
-It preserves three corrected and world-verified actor-authored outward extensions
-outside the unchanged inherited registry and is open at `assimilate`, with the
-currently inspectable outward world saturated.
+`evidence/manifests/OT-0241/open-subject-at-environment-expansion.json`.
+It preserves the saturated three-surface outward world and all corrections at
+open `assimilate`, while routing the next null pulse to `expand-environment`.
 
 ## Prediction errors
 
@@ -227,7 +226,10 @@ currently inspectable outward world saturated.
 - OT-0240 realizes a bounded content-free driver across two serial transitions.
   Identical null pulses derive selection then correction; exact `0d6bbb2f...`
   has all three outward surfaces corrected and verified.
+- OT-0241 promotes a saturation-aware operation selector: 8/8 with all seven
+  existing routes preserved. Exact `b23c7e30...` changes no operational state
+  and routes the next null pulse to environment expansion.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is a prospective saturation-aware
-  selector that routes a null pulse from this exhausted outward world into
-  actor-authored environment expansion rather than impossible local selection.
+  external. The next discriminating step is a live actor-authored environment
+  expansion from a broader inspectable world under a content-free pulse, with no
+  observer-selected target or registry entry.

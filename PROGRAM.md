@@ -2186,5 +2186,18 @@ saturation and route a null pulse to environment expansion rather than an
 impossible local selection. The resulting expansion must be actor-authored from
 an inspectable broader world, not a researcher-supplied fourth target.
 
+OT-0241 promotes that selector without invoking an actor. The challenger scores
+8/8, preserves all seven existing operation routes, and uniquely maps saturated
+assimilation to `expand-environment`. Exact successor `b23c7e30...` installs the
+selector while preserving phase, contacts, extensions, and world state exactly.
+
+The next experiment must realize the expansion edge. A null pulse should create
+one fresh actor in a broader inspectable world containing multiple executable
+regions but no registry, reference oracle, target list, or assigned task. The
+actor must author a bounded next environment/contact interface whose consequence
+can be independently opened. The observer may construct and seal the world but
+may not choose the region pursued. A useful successor must preserve the saturated
+world as completed history rather than replacing it.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

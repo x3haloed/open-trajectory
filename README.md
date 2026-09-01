@@ -617,6 +617,10 @@ The strongest footholds are:
   final unregistered surface through 2/6 contradiction, public 4/4, and
   prospective 6/6 versus unchanged 2/6. Exact successor `0d6bbb2f...` remains
   open with all three outward surfaces corrected and verified.
+- `OT-0241`: a prospective saturation-aware selector scores 8/8, preserves all
+  seven existing routes, and changes saturated assimilation from impossible
+  `outward-select` to `expand-environment`. Exact successor `b23c7e30...`
+  preserves operational state and awaits a live null-pulse expansion.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

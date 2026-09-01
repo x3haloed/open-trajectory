@@ -2796,3 +2796,18 @@ from `assimilate + saturated environment`, preserve existing phase behavior, and
 route the latter to actor-authored environment expansion under a null pulse. The
 expansion world must be inspectable but must not contain an observer-selected
 replacement target or registry entry.
+
+OT-0241 promotes the saturation-aware selector without spending an actor. It
+scores 8/8, preserves all seven existing routes, and uniquely changes saturated
+assimilation from `outward-select` to `expand-environment`. Exact successor
+`b23c7e30...` changes no operational contact, phase, extension, or world state.
+
+The frontier is now the live expansion edge. A content-free pulse must open one
+fresh actor in a broader inspectable executable world with multiple possible
+regions and no observer-selected target, registry file, visible reference, or
+task content. The actor must author the next bounded environment/contact
+interface; independent consequence must determine whether it joins the subject.
+The completed three-surface world remains retained history. Passing one such
+edge still will not eliminate external world construction, but it will show that
+the subject—not the researcher—selects where expansion continues inside the
+available objective world.

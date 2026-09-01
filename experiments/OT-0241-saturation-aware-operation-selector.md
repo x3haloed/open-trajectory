@@ -1,6 +1,6 @@
 # OT-0241 — saturation-aware operation selector
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0240 subject `0d6bbb2f...`
 - **Fresh actors:** zero
@@ -19,4 +19,11 @@ contacts, extensions, or world state. Do not invoke an actor under the old rule.
 
 ## Result
 
-Not yet run.
+The challenger scores 8/8, preserves all seven existing routes, and uniquely
+corrects saturated assimilation from `outward-select` to `expand-environment`.
+Exact successor `b23c7e30...` installs the selector while preserving phase,
+contacts, extensions, and world state exactly.
+
+No actor was invoked. The subject remains open at `assimilate`; its next
+content-free operation is now environment expansion. Live actor-authored
+expansion remains the next claim.

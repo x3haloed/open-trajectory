@@ -1,0 +1,31 @@
+{
+  "artifact_id": "saturation-aware-operation-selector-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4719,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "52612f9cff7c4776333e904628ebae87aabd283b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0241",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Deterministic held-out selector transition at one saturated synthetic outward world; live actor-authored environment expansion remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:saturation-aware-operation-selector-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "10bf5ea52516678a8566a6d14bf1acd59aab60ebcd9945f60f7e93f7a34c0a4e"
+}
