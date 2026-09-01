@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-package-correction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 891392,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "563f1d5bba54bd1be273562dfb17fa10ac6b2e9c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0110",
+  "input_manifests": [
+    "evidence/manifests/OT-0109/rejected-subject-authored-interface-run.json"
+  ],
+  "kind": "subject-authored-interface-correction-admission",
+  "limitations": [
+    "One bounded corrected package admission and successor; no correction-frequency, open-domain, or indefinite-continuation claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:retained-package-correction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "96a8a00bd1be16daf68de1e1511c8ee64ea36414d2509027f4e0538ca5913ac1"
+}

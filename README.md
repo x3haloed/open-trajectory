@@ -97,6 +97,10 @@ The strongest footholds are:
   authored a working consequential and reversible operation/contact pair, but
   stopped on an unpublished declaration type and a public validator that
   omitted published upper bounds.
+- `OT-0110`: one promoted retained-package correction whose subject-authored
+  interface passed public and hidden admission, caused world contact, and
+  survived grounded assimilation into an exact open successor pursuing another
+  registry extension.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

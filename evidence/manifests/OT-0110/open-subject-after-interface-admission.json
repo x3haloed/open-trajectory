@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-interface-admission",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 244706,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "563f1d5bba54bd1be273562dfb17fa10ac6b2e9c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0110",
+  "input_manifests": [
+    "evidence/manifests/OT-0108/open-subject-after-registry-exit.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after one bounded subject-authored interface correction, independent admission, use, and assimilation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-interface-admission",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ebb5c52f4fdc46a9e6fe7c83377d5fb731d160b7c566a64f16a0a18dde706503"
+}

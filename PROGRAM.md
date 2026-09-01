@@ -192,6 +192,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   hoc, but binding stops on an unpublished Boolean-only declaration field. Its
   public validator also omits published upper bounds. No hidden contact occurs;
   the exact OT-0108 parent remains open for package correction.
+- `OT-0110` retains that package, gives its exact bounds disagreement to one
+  fresh corrector, and changes only the public validator. The corrected package
+  passes three authored and eight hidden oracle cases plus reversibility,
+  receives independent admission, causes world contact, and promotes an exact
+  open successor that chooses another registry extension.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -395,6 +400,12 @@ remaining public validator genuinely accepts out-of-range values. The next
 record should accept the exact descriptive declaration, bind the retained
 package, expose the bounds disagreement to one fresh corrector, and resume the
 same admission path without resampling the proposal.
+OT-0110 completes that path. The subject-authored package survives one
+consequence-driven contract correction, hidden admission, use, and grounded
+fresh assimilation. The exact successor now pursues
+`joint-capability-frontier-extension`. The next decisive work should test
+whether this is a repeatable developmental operation rather than immediately
+hard-code the newly named surface.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

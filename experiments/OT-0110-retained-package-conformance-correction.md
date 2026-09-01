@@ -1,6 +1,6 @@
 # OT-0110 — retained-package conformance correction
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; operationally promoted
 - **Evidence class:** exploratory-only
 - **Target:** consequence-driven correction and admission of the exact
   subject-authored OT-0109 interface package
@@ -76,3 +76,27 @@ subject-authored interface that survived consequence-driven contract correction,
 independent hidden admission, real use, and a later actor ending. It would not
 establish open-domain invention, autonomous admission authority, correction
 frequency, or indefinite continuation.
+
+## Result
+
+The exact OT-0109 package bound under the repaired declaration semantics. Its
+public validator disagreed only on the frozen out-of-range mutation. One fresh
+corrector changed exactly `conformance.py`, added the missing base and new-field
+upper bounds, and passed every public contract fixture with a clean trace.
+
+After that correction was bound, the driver derived one private hidden set.
+The unchanged operation matched the independent composed-score oracle on all
+three authored cases and all eight hidden cases, while every zero-boundary and
+field-removal reversibility check passed. Independent authority admitted the
+package and the exact authored contact completed successfully.
+
+A later fresh assimilator grounded itself in all three world rows, retained the
+allocator, joint capability, and corrected package byte-for-byte, and selected
+a new `joint-capability-frontier-extension` pursuit. The exact sounding open
+successor is
+`331b301de6308c1867ae3abeef09db4d29c70e1b0a49ea881ab9d11047ae6f65`.
+
+This establishes one bounded subject-authored registry expansion through
+consequence-driven correction, independent hidden admission, real use, and a
+later actor ending. It does not establish frequency, open-domain invention,
+autonomous admission authority, or indefinite continuation.

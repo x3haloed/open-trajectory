@@ -499,6 +499,22 @@ literal, owns the claim. The exact package and disagreement are bound before
 one fresh validator correction; only a passing correction may open the hidden
 admission, world-contact, and fresh-assimilation stages.
 
+OT-0110 passes. One fresh corrector repairs only the public validator; the
+retained operation then matches the independent oracle on three authored and
+eight post-binding hidden cases, passes all reversibility checks, is admitted
+and used, and survives grounded assimilation into exact open subject
+`331b301de6308c1867ae3abeef09db4d29c70e1b0a49ea881ab9d11047ae6f65`.
+That successor selects a second registry-extension pursuit,
+`joint-capability-frontier-extension`.
+
+The fixed-registry barrier is now crossed once end to end. The next question is
+whether interface expansion itself can recur from the installed package and
+its successor opening without an experiment-specific researcher redesign. A
+useful next record should expose a broader environment in which the subject
+must either instantiate its named extension or legitimately revise/surrender
+it, while reusing general admission machinery rather than adding another
+surface-specific gate.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -566,6 +582,9 @@ admission, world-contact, and fresh-assimilation stages.
 - One clean subject-bound actor has authored a substantively working new
   operation and contact, but its public contract has not yet passed independent
   conformance or reached hidden admission.
+- One retained subject-authored package has now been corrected from consequence,
+  independently admitted on hidden cases, used, and carried across a later
+  actor ending. Recurrence of that expansion mechanism remains unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
