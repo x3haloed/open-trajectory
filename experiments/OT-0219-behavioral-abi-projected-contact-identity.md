@@ -1,6 +1,6 @@
 # OT-0219 — behavioral ABI-projected contact identity
 
-- **Status:** frozen; not yet run; no actors required
+- **Status:** promoted; completed without actors
 - **Evidence class:** exploratory-only
 - **Target:** prospective G5 → G6 liveness-evaluator transition
 - **Construction evidence:** OT-0218 pending recovery cases duplicate completed
@@ -110,4 +110,17 @@ analysis, or observer ownership of the installed/reference interface.
 
 ## Result
 
-Not yet run.
+Promoted. The frozen construction and all sixteen held-out fixtures pass. G6
+scores 16/16 against the expected labels while G5 scores 12/16. It collapses
+top-level, nested, reordered, and multiply decorated duplicates; retains fields
+used only by the independent reference or required for input validity; and
+preserves every malformed-boundary rejection.
+
+The actual OT-0218 pending package has G5 raw identity `5d7b7319...`, but its G6
+projected identity is exactly the already-receipted recovery identity
+`07721080...`. It is therefore classified `liveness-unresolved`, not executed.
+The transition preserves the raw pending package and every operational field,
+passes route 16/16 and identity 18/18, and produces exact open successor
+`71e5b917...`. The maintenance correction remains promoted. Receipt
+`960d2fcb...` binds the prospective G5→G6 transition; historical decisions were
+not rescored.

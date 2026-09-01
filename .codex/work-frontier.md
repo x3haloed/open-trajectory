@@ -51,17 +51,25 @@ completed contact for its target. Canonical identity excludes prose, local case
 IDs, and order. OT-0216's seeded transition bundle passes 16/16 versus G4's
 7/16 liveness discrimination. Historical operational outcomes are not rescored.
 
+G6 retains every G5 anchor but computes contact identity from a mechanically
+derived behavioral ABI projection. It removes a mapping field only when both
+installed and independently frozen reference executions remain valid and
+exactly unchanged. OT-0219 scores 16/16 on the frozen bundle versus G5's 12/16,
+collapses ignored decoration, and retains reference-only and validity-relevant
+fields. Historical world observations and operational outcomes are not
+rescored.
+
 Anchors: fresh contexts/workspaces, exact ancestry, bind-before-consequence,
 independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0218 successor `2d5a0cf4...`,
+The current exact operational subject is OT-0219 successor `71e5b917...`,
 identified by
-`evidence/manifests/OT-0218/live-subject-after-unresolved-consequence-correction.json`.
-It preserves the full lineage and adds a world-confirmed maintenance correction.
-Its stored liveness says `live`, but that interpretation is invalidated pending
-an ABI-projected evaluator transition.
+`evidence/manifests/OT-0219/operational-subject-under-g6-projection.json`. It
+preserves the full lineage, the world-confirmed maintenance correction, and the
+raw pending package. G6 classifies that package liveness-unresolved because its
+behavioral projection is already receipted.
 
 ## Prediction errors
 
@@ -100,7 +108,10 @@ an ABI-projected evaluator transition.
   canonical novelty denoted new contact. Observed: ABI projection collapses all
   four inputs exactly. Uncertain: the correct projection mechanism for each
   callable without observer-authored semantic field lists.
-- Environment construction, hidden-world authorship, and final admission remain
-  external. Before further contact, prospectively replace G5 raw-input identity
-  with mechanically derived callable-ABI projection and reclassify only future
-  liveness.
+- OT-0219 resolves the observed projection error prospectively. G6 scores 16/16
+  versus G5's 12/16 and correctly collapses the pending package to completed
+  contact without altering operational state or historical decisions.
+- Environment construction, hidden-world authorship, final admission, and the
+  choice of each next experiment remain external. The next discriminating step
+  must require genuinely new G6 contact and test recurrence under fixed
+  machinery rather than another observer-scripted single transition.

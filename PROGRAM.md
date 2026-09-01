@@ -1894,5 +1894,21 @@ though ABI projection makes them exact duplicates. Preserve the successor and
 correction, but mark liveness unresolved. The next prospective transition must
 canonicalize contact through the callable's admitted input projection.
 
+OT-0219 performs that prospective G5→G6 transition. For each case, G6 removes a
+mapping field only when both the installed callable and independently frozen
+reference remain valid and return exactly unchanged output, repeating to a
+deterministic fixed point. Contact identity hashes the resulting behavioral ABI
+projection rather than raw JSON. It preserves all G5 hard anchors and grants no
+new world, scoring, or admission authority.
+
+G6 scores 16/16 on the frozen held-out bundle versus G5's 12/16. It collapses
+ignored top-level and nested decoration while retaining capacity required for
+validity and probability used only by the reference. The actual pending
+recovery package projects exactly to already-receipted contact, so it remains
+preserved but liveness-unresolved. Every operational field and pending byte is
+exact, route remains 16/16, identity remains 18/18, and open successor
+`71e5b917...` conforms. The next contact must be behaviorally new under G6;
+mere representational expansion cannot carry continuation.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

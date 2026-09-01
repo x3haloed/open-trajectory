@@ -1,0 +1,31 @@
+{
+  "artifact_id": "behavioral-abi-projection-transition-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16429,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5d043de84d127681469cd295d0b376b0e2cfdc19",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0219",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Deterministic bounded Python/JSON evaluator transition; semantic importance and arbitrary-program equivalence remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:behavioral-abi-projection-transition-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4dc60056b99ca0dee4b8f047d70e13bf713161e648b4f9d1b218c44b28277358"
+}

@@ -2517,3 +2517,18 @@ are completed OT-0215 inputs plus an ignored `world` field. G5's raw-JSON
 canonicalizer is blind to callable semantics and awards false liveness. The next
 work is a prospective ABI-projected canonicalizer that collapses irrelevant
 decoration while retaining genuinely new admitted fields and inputs.
+
+OT-0219 promotes that canonicalizer as G6. It deterministically removes a field
+only when deletion preserves validity and exact output in both the installed
+callable and independently frozen reference. The frozen bundle scores 16/16
+under G6 versus 12/16 under G5, including nested decoration, reference-only
+relevance, validity-relevant fields, malformed boundaries, and genuinely new
+contact.
+
+The actual pending package projects exactly to already-receipted recovery
+contact. It is preserved but liveness-unresolved; exact successor
+`71e5b917...` retains the complete operational lineage and correction. The next
+frontier is no longer evaluator repair for this known failure. It is obtaining
+genuinely behaviorally new contact under G6 and determining whether the fixed
+machinery can carry origin, consequence, correction, and reopening repeatedly
+without an experiment-specific researcher choosing each transition.

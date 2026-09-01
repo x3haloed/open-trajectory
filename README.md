@@ -507,6 +507,11 @@ The strongest footholds are:
   conforms. Its nominally new recovery package duplicates completed inputs plus
   an ignored `world` field, exposing that G5 raw-JSON canonicalization is
   gameable. Correction stands; reopening liveness does not.
+- `OT-0219`: G6 derives contact identity from the fields that affect installed
+  or independently frozen reference behavior. It scores 16/16 against G5's
+  12/16, collapses the decorated recovery package to its completed contact,
+  preserves all operational state and raw pending bytes, and yields exact open
+  subject `71e5b917...` with liveness explicitly unresolved.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
