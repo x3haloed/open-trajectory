@@ -915,5 +915,20 @@ should remove only that unsupported response-schema keyword, reconstruct the
 stake binding and route from exact bytes, and run the still-unspent contact and
 assimilation actors without another stake author.
 
+OT-0150 completes that exact continuation. A fresh implementer receives the
+already-selected branching world, authors `all-viable`, and passes all three
+hidden cases. A separate fresh assimilator retires the fulfilled
+`option-expansion` stake and authors `continuity-under-reset`, asking what useful
+signal can survive a destructive boundary without blocked branches.
+
+Property erasure leaves no route; changing only the property selects a distinct
+world. Exact open subject
+`7b7ac1eb99804860379006dcbe7341975c3d8a4ad169d3f0514d6fb9ffaa0585`
+retains the branching capability and the actor-authored continuity stake. This
+is one bounded subject-originated next-world transition, not recurrence. The
+next record should let unchanged machinery consume that exact next stake,
+select reset-carrier, complete consequence, and author another stake without a
+researcher choosing pursuit or world between cycles.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

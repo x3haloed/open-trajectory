@@ -1,0 +1,34 @@
+{
+  "artifact_id": "exact-blind-stake-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15178,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "80a3cf43e293845d9f3a2580f562fec9ec29f83a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0150",
+  "input_manifests": [
+    "evidence/manifests/OT-0149/exact-blind-option-expansion-stake.json",
+    "evidence/manifests/OT-0149/compiled-option-expansion-world-route.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Establishes one subject-originated bounded world transition, not recurrence from the resulting actor-authored next stake."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-blind-stake-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a2ec6fb378d44238ad4c52715ea87e68b8edd865afc560eab5bdfa1cc8f868fb"
+}

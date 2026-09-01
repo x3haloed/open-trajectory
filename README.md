@@ -219,6 +219,9 @@ The strongest footholds are:
   before any worlds exist, causing deterministic selection of a branching
   surface. Contact generation never begins because the response API rejects an
   unsupported `uniqueItems` keyword.
+- `OT-0150`: exact continuation completes that blind stake. Fresh contact passes
+  all hidden branching cases; consequence retires it into an actor-authored
+  continuity stake, while erasure and changed-property controls alter routing.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

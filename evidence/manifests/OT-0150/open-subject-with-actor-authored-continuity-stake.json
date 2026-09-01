@@ -1,0 +1,34 @@
+{
+  "artifact_id": "open-subject-with-actor-authored-continuity-stake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 427642,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "80a3cf43e293845d9f3a2580f562fec9ec29f83a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0150",
+  "input_manifests": [
+    "evidence/manifests/OT-0149/exact-blind-option-expansion-stake.json",
+    "evidence/manifests/OT-0149/compiled-option-expansion-world-route.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries a fresh actor-authored continuity-under-reset stake; recurrence from it remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-actor-authored-continuity-stake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "afb8473b4d722c5faf4146b294f334e90316c2fa89443c64406981a4b84b19fa"
+}

@@ -1156,6 +1156,27 @@ assimilation into a different next stake, and post-seal route controls. The
 apparatus repair must not alter the property vocabulary, catalog, compiler,
 world cases, policy language, or promotion gate.
 
+OT-0150 reconstructs the exact blind stake and route and passes. One fresh
+implementer authors `all-viable`; independent branching consequence passes all
+three hidden cases. A second fresh actor retires the fulfilled stake and authors
+`continuity-under-reset`, specifically preserving useful branching signal while
+omitting blocked branches. Exact opening bytes now carry that question.
+
+Post-seal erasure removes routability and changing the property selects a
+different world. Exact open subject
+`7b7ac1eb99804860379006dcbe7341975c3d8a4ad169d3f0514d6fb9ffaa0585`
+therefore contains the first complete priority-before-opportunity transition in
+this chain.
+
+The next discriminating test is recurrence, not another blind first choice.
+Run an unchanged generic driver from the actor-authored continuity stake. It
+must compile directly to reset-carrier, authorize a fresh contact actor, pass
+independent consequence, and let another fresh assimilator author a third stake.
+No researcher may choose the property, route, world, or next pursuit between
+these cycles. Preserve the exact catalog/compiler and all prior capabilities;
+seal before controls. Passing would turn one subject-originated world choice
+into a two-cycle subject-directed sequence.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1292,8 +1313,8 @@ world cases, policy language, or promotion gate.
   feature vocabulary; cross-world contradiction, correction, held-out advantage,
   installation, and later exact reuse now pass. Autonomous amendment-language
   invention and subject-authored seed priorities remain unestablished. One
-  blind actor-originated priority now causes a distinct world route, but the
-  useful contact and successor transition remain unobserved after a
-  pre-generation schema rejection.
+  blind actor-originated priority now causes and completes a distinct useful
+  world route, and consequence authors the next stake. Recurrence from that
+  stake and an open-ended property language remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -34,3 +34,34 @@ capabilities, the selected-world capability, and the actor-authored next opening
 Passing would establish one bounded priority-before-opportunity world transition
 across fresh actors. It would not establish recurrence from the new stake or an
 open-ended property language.
+
+## Result
+
+The exact continuation passed. OT-0149's clean `option-expansion` stake binding
+and `viable-branch-carrier` route reconstructed by digest, and the retained
+contact events proved that no prior contact content existed.
+
+One fresh implementer changed only `policy.json` and `contact-action.json`,
+selected `all-viable`, passed both public branching cases, and produced a clean,
+contained, truthful trace. Bound policy then passed all three independently
+hidden branching cases, preserving every unblocked option.
+
+A second fresh actor received full consequence, retired the fulfilled stake,
+and authored a distinct `continuity-under-reset` stake. Its question asks what
+useful signal or commitment can survive the next destructive boundary without
+carrying blocked branches. That exact actor-authored question is now the next
+opening.
+
+After sealing the successor, property erasure yielded no route and changing
+only the property selected the distinct prediction-correction world. Exact open
+subject
+`7b7ac1eb99804860379006dcbe7341975c3d8a4ad169d3f0514d6fb9ffaa0585`
+retains every prior capability plus the selected branching capability and new
+stake.
+
+This establishes one bounded priority-before-opportunity transition: a blind
+actor-originated stake causally selected a useful world across later fresh
+actors without experiment-specific world choice after the stake was known. The
+next decisive test is recurrence: the unchanged driver must consume the
+actor-authored continuity stake and open the reset-carrier world without a new
+researcher-selected pursuit.
