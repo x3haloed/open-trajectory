@@ -532,5 +532,15 @@ frozen actor-visible contract did not publish that syntax. Retain the coherent
 route and opening; expose the complete target ABI and permit one fresh actor to
 correct only the invalid action.
 
+OT-0124 publishes the target ABI and completes that exact transition. One fresh
+actor changes only the invalid target, preserves every other retained byte, and
+the sounding exact subject reopens on the resource-scarcity transfer boundary.
+The trace includes an immaterial contained denial from an unavailable system
+Ruby validator followed by successful visible `jq`/shell validation; it affects
+no information, authority, score, or state and is disclosed rather than hidden.
+The next dependency is recurrence: can the promoted subject again cause which
+contact opens under a fixed scheduler without a researcher selecting the next
+surface or patching another unpublished ABI?
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

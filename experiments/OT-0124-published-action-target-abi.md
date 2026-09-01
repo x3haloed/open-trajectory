@@ -1,6 +1,6 @@
 # OT-0124 — published action-target ABI
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; passed
 - **Evidence class:** exploratory-only
 - **Target:** correct only the invalid OT-0123 registry target and reconstruct
   the complete subject-selected contact transition
@@ -46,3 +46,21 @@ Reject at the first mismatch or invalid action. No replacement actor, synonym
 relaxation, or second correction is allowed. Passing would establish the exact
 bounded operational transition left incomplete by OT-0122 and OT-0123; it would
 not add a new causal selector claim or establish recurrence.
+
+## Result
+
+The one fresh actor changed exactly one line: it replaced the descriptive
+target with `resource-scarcity-transfer-boundary-extension` and retained every
+other action field and every retained route/opening byte. The corrected action
+passes the complete published ABI. Exact reconstruction promotes sounding open
+subject
+`2ce904e9cbdb853e9e0086d050397991fad7fa8cc5bb416d480db3f1ede30aa4`,
+whose authoritative next opening is the resource-scarcity transfer boundary.
+
+The trace contains one immaterial denied operation: after `node` was absent,
+system Ruby was denied while trying to validate the visible JSON. It named no
+protected path, changed no outside file, exposed no hidden information, and did
+not affect selection, scoring, or acceptance. The actor then completed the same
+ABI validation with `jq` and shell. The normalized audit accepts the contained
+denial; disclose it rather than describing the trace as denial-free. The frozen
+bounded operational-transition target passes.

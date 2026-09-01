@@ -1,0 +1,31 @@
+{
+  "artifact_id": "published-action-target-abi-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 8100,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "75db0ac002a0acdfafa8c889b2b0db8eae551780",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0124",
+  "input_manifests": [],
+  "kind": "published-action-target-abi-result",
+  "limitations": [
+    "Completes the exact bounded OT-0122/OT-0123 transition; recurrence and subject authorship of the finite world envelope remain unestablished."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:published-action-target-abi-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e8aaaea4fdd68b99484ef64e45072e637a1f693bbbb58af16db060d6958cfe45"
+}

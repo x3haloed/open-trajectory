@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-subject-selected-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 324691,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "75db0ac002a0acdfafa8c889b2b0db8eae551780",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0124",
+  "input_manifests": [],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact sounding open subject whose corrected selector caused the selected world contact and whose authoritative next opening carries the grounded resource-scarcity extension."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-subject-selected-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3b23424da18906eb4e869525e6c53badfc3ef0b5f5e4fc16aa2dc66f06277dad"
+}

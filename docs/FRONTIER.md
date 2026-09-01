@@ -705,6 +705,24 @@ syntax to the actor. The next test should retain the exact coherent route and
 opening, disclose the complete action-target ABI, and allow one fresh actor to
 correct only `continuation-action.json` before reconstruction and promotion.
 
+OT-0124 passes that exact correction. One fresh actor changes only the target
+to `resource-scarcity-transfer-boundary-extension`, preserves all other action,
+route, and opening bytes, and exact sounding subject
+`2ce904e9cbdb853e9e0086d050397991fad7fa8cc5bb416d480db3f1ede30aa4`
+reopens on the resource-scarcity transfer boundary. A contained denied system
+Ruby validation attempt is immaterial: no protected path, outside effect,
+hidden information, authority change, or score change occurred, and the actor
+completed the same visible validation with `jq` and shell.
+
+The chain now contains a bounded subject-caused choice of which sealed world
+surface opens, a consequence-derived extension route, correction of two exposed
+continuation ABI failures, and an authoritative successor opening that carries
+the newly grounded stake. The next decisive test is recurrence under a fixed
+scheduler: expose a new prospectively sealed envelope matching the carried
+resource-scarcity pursuit and let the promoted subject again choose, receive
+consequence, and transition without a researcher selecting the surface or
+repairing the transition between cycles.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -801,6 +819,9 @@ correct only `continuation-action.json` before reconstruction and promotion.
   authoritative opening.
 - A fresh exact-world router then repaired every semantic extension check, but
   an unpublished registry-target syntax still prevented operational promotion.
+- Publishing that final target ABI now yields an exact open subject after the
+  subject-selected contact; recurrence of the whole selection/contact/route
+  mechanism remains unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

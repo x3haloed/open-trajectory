@@ -135,6 +135,9 @@ The strongest footholds are:
   claimed extension repeats the authoritative opening unchanged.
 - `OT-0123`: an exact-world fresh router repairs all semantic extension checks;
   promotion is rejected on an unpublished registry-target syntax constraint.
+- `OT-0124`: one exact one-field correction under the published target ABI
+  promotes the complete subject-selected contact transition and reopens on the
+  grounded resource-scarcity extension.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

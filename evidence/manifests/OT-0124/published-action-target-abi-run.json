@@ -1,0 +1,31 @@
+{
+  "artifact_id": "published-action-target-abi-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 463360,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "75db0ac002a0acdfafa8c889b2b0db8eae551780",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0124",
+  "input_manifests": [],
+  "kind": "published-action-target-abi-run",
+  "limitations": [
+    "One fresh actor corrected only the registry target and the exact subject reopened; a contained denied system-Ruby validation attempt was immaterial and was followed by successful jq/shell validation."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:published-action-target-abi-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "51038172deaceb4f4c4eff7b3975a663a67acdbf302417b9fa2b455c9eff5f57"
+}
