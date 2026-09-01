@@ -1,0 +1,31 @@
+{
+  "artifact_id": "incomplete-preflight-fixture",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 511,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a5c346ce3984b955ab37b39347296e22ad86061c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0198",
+  "input_manifests": [],
+  "kind": "conformance-result",
+  "limitations": [
+    "Static fixtures passed but did not exercise production control seed projection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:incomplete-preflight-fixture",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "12bfe38af155a6141851f0a71c9e634a73bd809598f00bd9aaa1ffc0550499d1"
+}

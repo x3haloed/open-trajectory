@@ -1,6 +1,6 @@
 # OT-0198 — bounded set-expression invention
 
-- **Status:** design frozen; not run
+- **Status:** invalid; stopped before actor authorization
 - **Evidence class:** exploratory-only
 - **Target:** invent and directly execute the missing latent-selection mechanism
   requested by exact OT-0197 subject `4f154a4b...`
@@ -52,3 +52,15 @@ Passing establishes a consequence-requested expansion of selection machinery
 in direct use. It does not establish that the explicit invention receipt was
 causally necessary unless the separate cohort gate passes, nor does it establish
 post-capability self-directed continuation until a later actor chooses it.
+
+## Result
+
+The run stops before any model actor is authorized. The control projection
+removes `artifact_digest`, while the shared production active-position projector
+requires exact subject identity. Static fixtures did not exercise active and
+control seed construction through that production path.
+
+No behavioral evidence exists and no subject changes. Preserve the partial run
+and exact OT-0197 parent. A new-ID correction must keep the control subject's
+artifact digest while erasing only the latest operation fields, and preflight
+both branch seeds through the production projector before authorization.

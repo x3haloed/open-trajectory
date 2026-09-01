@@ -1,0 +1,31 @@
+{
+  "artifact_id": "pre-actor-control-projection-failure-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3584,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a5c346ce3984b955ab37b39347296e22ad86061c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0198",
+  "input_manifests": [],
+  "kind": "raw-run-archive",
+  "limitations": [
+    "Harness stopped before actor authorization because control subject identity was removed."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:pre-actor-control-projection-failure-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "416b4b94e669eb8c5065c8fb82aeca140d1bf4cef5adfc4d89e3ccce23bacd66"
+}

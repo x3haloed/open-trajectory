@@ -2149,3 +2149,15 @@ new mechanism only to the latent target, and execute it directly on the sealed
 contact. Promotion must preserve every previous route and identity floor. After
 that capability exists, require the subject—not the observer—to decide what
 remaining contact should follow its completion.
+
+OT-0198 stops before any actor is authorized. Its control construction removes
+the subject artifact digest, but the production active-position projector
+requires exact identity. The static conformance suite did not construct both
+branch seeds, so it failed to expose the interface error.
+
+This is invalid apparatus, not negative behavioral evidence. Retain exact
+parent `4f154a4b...` and the partial run. A corrected new-ID experiment may reuse
+the frozen AST language, operational/causal claim separation, actor schedule,
+and gates only after preflight carries both active and operation-erased control
+subjects through the same production seed projector. Erase latest operation
+contents without erasing `artifact_digest`.

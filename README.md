@@ -405,6 +405,9 @@ The strongest footholds are:
   latent pursuit plus matching contact contract. Later actors produce aligned
   contact 6/6 versus controls 2/6; no installed mechanism passes. Open successor
   `4f154a4b...` therefore carries a direct mechanism-invention opening.
+- `OT-0198`: invalid before actor authorization. Its erased control removed the
+  subject digest required by the production projector. No behavioral result is
+  claimed; the corrected replication must preflight both branch seeds.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

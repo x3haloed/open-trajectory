@@ -1587,5 +1587,12 @@ mechanism language to express a world-grounded latent selector, execute it on
 the sealed contact, and bind it only to this target while replaying all prior
 routes. Prediction tokens may not be used as a shortcut source.
 
+OT-0198 freezes that test but stops before actor authorization. The control
+projection deletes `artifact_digest`, and the production subject-position
+projector requires it. Static preflight missed the branch seed path. Preserve
+the invalid run. The new-ID repair must erase only operation authority, retain
+exact subject identity, and construct both active and control seeds during
+preflight before reusing the unchanged invention language and gates.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
