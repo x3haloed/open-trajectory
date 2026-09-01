@@ -375,6 +375,13 @@ and the second pursuit came from the first successor rather than a researcher.
 The next decisive test is whether that same structure crosses interface
 families by executing the exact successor-bound allocator challenge.
 
+OT-0104 freezes that cross-interface edge. It gives the fixed driver no router
+or fallback: the sole contact action must be extracted from the exact OT-0103
+subject's final `allocator-challenge` binding. A matched binding-erased
+projection must yield no action before fresh contact begins. Passing requires a
+new allocator challenge, independent reference agreement, grounded
+assimilation, and another exact open successor.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
