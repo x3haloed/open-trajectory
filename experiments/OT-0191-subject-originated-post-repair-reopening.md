@@ -1,6 +1,6 @@
 # OT-0191 — subject-originated post-repair reopening
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** design and executable conformance frozen; not run
 - **Evidence class:** exploratory-only
 - **Target:** test whether the promoted subject can assimilate completed repair,
   choose its next falsifiable contact, and causally reopen useful motion without
