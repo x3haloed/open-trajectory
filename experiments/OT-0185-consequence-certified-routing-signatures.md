@@ -1,6 +1,6 @@
 # OT-0185 — consequence-certified routing signatures
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** design and executable conformance frozen; not run
 - **Evidence class:** exploratory-only
 - **Target:** replace ungrounded capability declarations with behavioral
   signatures and test whether a fresh actor can repair scoped selection from
