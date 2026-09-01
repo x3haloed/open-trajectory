@@ -1,6 +1,6 @@
 # OT-0213 — extensible continuity retention
 
-- **Status:** frozen; not yet run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** prospective G4 evaluation transition and exact scientific repeat
   of OT-0212
@@ -63,4 +63,33 @@ extension bound, or successor identity. Failure retains exact parent
 
 ## Result
 
-Not yet run.
+The G4 transition passes every construction and held-out anchor. Four fresh
+world actors then author eight discriminating suites. All seven actor audits are
+clean. The retained policy reaches 24/24 public and 24/24 sealed hidden oracles;
+speed-only reaches 12/24 public and 13/24 hidden, while reliability-only reaches
+11/24 public and 8/24 hidden. Retained-score advantages are `630.7` and
+`4629.74` public, then `611.75` and `5025.79` hidden.
+
+All three fresh assimilation actors retain the exact policy and selector and
+use G4 extensions, contributing six, six, and seven fields. The lineage actor's
+six identity/contact receipts are exactly bound under non-authoritative content
+digest `559426e3...`; none affects scoring, hidden contact, or admission. Route
+16/16, identity 18/18, exact ledger/selector/policy retention, and successor
+identity all pass.
+
+Open successor `e25c60f9...` carries retention receipt `10020ecd...`, the G4
+continuity extension, and an actor-authored reopening to test another fresh
+dispatch suite and retain unless new regret appears.
+
+This establishes repeated consequence-bearing continuation, contact-warranted
+non-change, and bounded actor-authored state expansion. It also exposes the next
+limit: under unchanged expected-score semantics, every new parameter-only suite
+must confirm the installed policy. Repeating that opening indefinitely would be
+continuity as repetition, not expansion. The next mechanism must let the
+subject open semantically new objective contact without an observer choosing
+the new pursuit for it.
+
+Evidence:
+
+- `evidence/manifests/OT-0213/extensible-continuity-retention-aggregate.json`
+- `evidence/manifests/OT-0213/open-subject-after-extensible-retention.json`

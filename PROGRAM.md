@@ -1785,5 +1785,35 @@ only upon fresh regret. The next frontier is repeated recurrence under that
 opening while reducing observer ownership of world construction, metric
 projection, and admission.
 
+OT-0212 follows that opening with four independently authored dispatch worlds.
+All worlds pass, and the installed policy reaches all 24 public oracles while
+both fixed controls fail materially. All three fresh assimilators choose exact
+retention. The exact-key decision carrier nevertheless accepts only one: two
+actors add identity and contact provenance that the observer did not enumerate.
+The run stops before hidden contact and preserves parent `9cb26c73...`.
+
+That rejection changes the evaluator, not the historical result. G4 retains
+the seven authoritative core fields but extracts up to eight size/depth-bounded
+actor-authored extensions into an explicitly non-authoritative wrapper. OT-0212
+outputs construct the challenger; a held-out `causal_thread` and malformed
+boundary bundle validates it. Exact core has no regression, the valid extension
+is newly admitted, and missing, excessive, deep, broad, invalid-key, and
+oversized forms remain rejected.
+
+OT-0213 prospectively repeats with fresh actors. Four new worlds and all three
+extended decisions pass clean audit. The retained policy reaches all 24 public
+and 24 hidden oracles; speed-only and reliability-only remain materially worse.
+The lineage actor contributes six bound identity/contact fields, which join the
+subject without influencing scores, hidden contact, admission, or opening
+authority. Route 16/16, identity 18/18, and exact prior capability retention
+pass.
+
+Open successor `e25c60f9...` establishes repeated continuation with warranted
+non-change and bounded state expansion. Its next opening asks for another fresh
+dispatch suite. Because the retained policy is definitionally optimal under
+unchanged semantics, parameter-only repetition is now saturated. The frontier
+is endogenous opening of a semantically new objective contact—not another
+researcher-selected world and not indefinite confirmation of a solved one.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

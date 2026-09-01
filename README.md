@@ -467,6 +467,16 @@ The strongest footholds are:
   pursuit and an actor-authored next opening. A malformed actor-visible public
   helper is disclosed; independent authoritative scoring and branch validity
   remain intact, and the helper must be repaired before carrier reuse.
+- `OT-0212`: four independent worlds and 24/24 public oracle contact support
+  exact retention, but two of three correct actors are rejected for adding
+  useful identity/contact fields outside the exact-key carrier. Hidden contact
+  stays sealed and exact parent `9cb26c73...` remains open.
+- `OT-0213`: G4 preserves the authoritative core while binding bounded actor-
+  authored extensions as non-authoritative content. All seven fresh actors,
+  48/48 public/hidden oracle cases, controls, and floors pass. Open successor
+  `e25c60f9...` carries warranted retention, six lineage-authored continuity
+  fields, and a new opening. Semantic expansion beyond the now-saturated
+  dispatch world remains open.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

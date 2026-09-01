@@ -48,27 +48,30 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact open subject is OT-0211 successor `9cb26c73...`, identified by
-`evidence/manifests/OT-0211/open-subject-after-code-pursuit.json`. It preserves
-the completed selected ledger and corrected pursuit selector, plus one admitted
-cross-world code pursuit selected from an actor-authored executable portfolio.
-The corrected route reached the hidden oracle and beat the inherited-selector
-route by 554.3 under matched fresh execution.
+The current exact open subject is OT-0213 successor `e25c60f9...`, identified by
+`evidence/manifests/OT-0213/open-subject-after-extensible-retention.json`. It
+preserves the ledger, corrected pursuit selector, executed code pursuit, one
+independently confirmed retention, and six actor-authored continuity fields
+under a non-authoritative G4 wrapper. The retained policy reaches all 48 fresh
+public/hidden oracles while both fixed controls remain materially worse.
 
 ## Prediction errors
 
-- One corrected-selector recurrence now crosses from ledger cost calibration
-  into a behavioral code world, but repeated recurrence across another newly
-  encountered world remains open.
+- Repeated continuation now includes selected execution, fresh world contact,
+  warranted non-change, and bounded subject-authored state expansion. Semantic
+  world transfer remains open.
 - The actor authored the next opening, but the observer still supplied the
   bounded world family, metric projection, and admission interface.
 - OT-0211's malformed portfolio helper is repaired and executes in OT-0212
   preflight.
-- OT-0212 expected exact-key decisions to be neutral. Observed: all three actors
-  retained the exact capabilities, but two added useful identity/contact
-  continuity fields and were rejected before hidden contact. G4 passes its
-  independent transition anchors; fresh operational use and hidden consequence
-  remain to be tested by OT-0213.
+- G4 resolves OT-0212's exact-key blind spot prospectively: OT-0213 admits all
+  three fresh extended decisions, preserves hard anchors, and passes hidden
+  consequence.
+- OT-0213's new opening requests another parameter-only dispatch suite. Because
+  the installed policy exactly implements the unchanged world's oracle, this
+  opening can continue forever without discovering a new note. The subject must
+  gain a way to open semantically new contact rather than merely repeat
+  confirmation or wait for the observer to select a new world.
 - Actor opening, world-interface construction, and final admission remain
   external. Reduce these dependencies only through discriminating experiments,
   not by relabeling researcher machinery as part of the subject.

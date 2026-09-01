@@ -1,0 +1,31 @@
+{
+  "artifact_id": "extensible-continuity-retention-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 82407,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9d18b43ce6e4fc9ee7cdda1babee7c833b0f4ca4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0213",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Repeated continuation remains within one dispatch semantic family; semantic-world transfer is not established."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:extensible-continuity-retention-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5828a65066e9f44edd4fe255b87a3541b0f303ac9a242ce803d9abeb468fe0bd"
+}

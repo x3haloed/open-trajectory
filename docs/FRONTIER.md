@@ -2415,3 +2415,32 @@ frontier is no longer first recurrence. It is repeated continuation from that
 opening in another objective encounter, plus causal reduction of observer-owned
 world construction, metric projection, and admission. Do not replace the
 actor's opening with a researcher-selected task merely to obtain another pass.
+
+OT-0212 follows the opening with four independently authored worlds. All 24
+public cases confirm the retained policy and discriminate both controls. All
+three fresh actors retain the exact policy and selector, but two add useful
+identity/contact continuity fields and fail the exact-key decision carrier.
+Hidden contact remains sealed; preserve exact parent `9cb26c73...`.
+
+G4 addresses the revealed evaluator blind spot without granting extensions
+authority. The seven-field core remains the sole input to action, scoring,
+admission, and reopening. Bounded additional JSON is extracted, exactly bound,
+and retained under a non-authoritative wrapper. Held-out anchors admit a novel
+valid extension while preserving rejection of missing, excessive, deep, broad,
+invalid-key, and oversized state.
+
+OT-0213 validates G4 operationally. Four fresh worlds, three fresh assimilation
+actors, 24/24 public and 24/24 hidden oracle contact, both controls, route 16/16,
+identity 18/18, and successor identity all pass. Every assimilator contributes
+extensions; the lineage actor's six fields persist under digest `559426e3...`
+without entering any authoritative calculation.
+
+Exact open successor `e25c60f9...` now demonstrates repeated continuation,
+contact-warranted retention, and subject-authored expansion of its own bounded
+state. But its reopening remains inside the same solved dispatch semantics.
+Because expected-score policy equals the oracle by definition, further
+parameter-only suites cannot create informative regret. The current frontier is
+to let the subject originate a semantically new world contact and its pursuit
+interface, then let independent consequence admit or reject it. The observer
+may seal authority and safety bounds, but must not choose the new objective or
+mistake another guaranteed confirmation cycle for expansion.
