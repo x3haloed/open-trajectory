@@ -719,12 +719,14 @@ scheduler code, world generator, correction envelope, and transition admission
 remain researcher-designed.
 
 The next dependency is therefore no longer a hand-written per-encounter driver.
-It is the fixed developmental constitution itself. At quantum sixteen the
-current legal offset range is exhausted, creating a sharp next test: can exact
-failure authorize revision of the mutation envelope or scheduler machinery,
-rather than merely another parameter inside it, while preserving prior floors
-and open continuation? Freeze that authority boundary before contact and keep
-subject stopping distinct from the observer budget.
+It is the fixed developmental constitution itself. Preflight inspection finds
+that OT-0138's visible action envelope said 1–16 while its inherited structural
+validator still capped offsets at 10. No OT-0138 action exceeded eight, so the
+bounded result survives, but future correction authority is contradictory.
+OT-0139 prospectively unifies that authority at the truthful ceiling 10, then
+tests whether exact quantum-sixteen failure can exhaust and revise the
+subject-resident envelope itself while preserving prior floors and open
+continuation.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

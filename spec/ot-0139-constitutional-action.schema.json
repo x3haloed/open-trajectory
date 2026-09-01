@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "action"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["encounter-action.json", "developmental-constitution.json"]
+      },
+      "uniqueItems": true,
+      "minItems": 1,
+      "maxItems": 2
+    },
+    "action": {
+      "type": "string",
+      "enum": ["reuse", "revise-program", "revise-constitution", "surrender"]
+    }
+  }
+}

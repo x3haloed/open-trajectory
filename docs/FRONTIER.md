@@ -950,13 +950,15 @@ repairs the apparatus after launch. It remains fixed-machinery development:
 the scheduler, generator, mutation envelope, and admission rule were authored
 prospectively by the researcher.
 
-The next decisive boundary is exposed by the subject's own next opening. At
-quantum sixteen the current correction envelope caps offsets at sixteen, so a
-subsequent widening failure cannot be solved indefinitely by the same bounded
-parameter move. Test whether retained objective failure can authorize a
-prospectively bounded revision of the correction envelope or scheduler update
-machinery itself, then require old-regime no-regression and a later no-repair
-reuse. Do not replace this with another observer-authored per-cycle itinerary.
+The next decisive boundary is exposed by the subject's own next opening and one
+preflight prediction error. OT-0138's visible action envelope allowed offsets
+through 16, but its inherited structural validator still caps them at 10. No
+accepted OT-0138 program exceeded eight, so its result is unchanged. Before
+more contact, publish one subject-resident parameterized validator at the
+truthful ceiling 10. Then test whether quantum-sixteen failure exhausts that
+envelope and authorizes a prospectively bounded revision of the correction
+constitution itself, with old-regime no-regression and later no-repair reuse.
+Do not replace this with another observer-authored per-cycle itinerary.
 
 ## Open uncertainty
 
