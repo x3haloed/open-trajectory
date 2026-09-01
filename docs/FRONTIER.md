@@ -407,6 +407,13 @@ Boolean threshold against a larger raw count. The next record should carry
 these exact revised bytes plus explicit machine-derived coverage certificates
 into a second fresh correction, then resume unchanged scoring if they pass.
 
+OT-0106 freezes that second correction. It starts from the exact OT-0105
+canonical bytes, requires the four already-passing coverage dimensions to stay
+fixed, and exposes operational certificates for filtered-decoy dominance and
+the two-or-more Boolean threshold. A passing revision is bound before unchanged
+world scoring and fresh assimilation; only then does a matched
+coverage-detail-erased corrector run.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
