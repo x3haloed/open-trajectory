@@ -14,7 +14,7 @@
       "minItems": 4,
       "maxItems": 4
     },
-    "interface_id": {"const": "joint-capability-frontier"},
-    "case_count": {"const": 3}
+    "interface_id": {"type": "string", "const": "joint-capability-frontier"},
+    "case_count": {"type": "integer", "const": 3}
   }
 }
