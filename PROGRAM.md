@@ -2076,5 +2076,20 @@ without receiving a target or replacement registry entry from the observer.
 Failure to find such a pursuit is an informative local limit; inventing another
 numeric case on a verified target is not continuation progress.
 
+OT-0234 crosses that boundary once. The fresh actor receives the exact subject
+and an inspectable executable world with no registry file, visible reference,
+assigned target, or observer-authored replacement entry. It discovers
+`restore_water_links`, authors its own path, callable, stake, and four cases,
+and passes public execution plus G8/G9 authority checks. Independent consequence
+returns 2/6. Exact successor `053ed81d...` retains the actor-authored environment
+extension outside the unchanged inherited registry and dispatches `correct`.
+
+The next question is whether correction can follow that self-authored interface.
+Do not retrofit the target into the old registry or supply a water-specific
+repair. Reconstruct the installed source and target from exact retained state,
+open a fresh generic corrector against the world receipt, and require prospective
+consequence against the unchanged control. After successful correction, test
+whether another assimilation can turn outward again without a researcher target.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

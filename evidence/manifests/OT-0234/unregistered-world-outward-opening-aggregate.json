@@ -1,0 +1,31 @@
+{
+  "artifact_id": "unregistered-world-outward-opening-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13486,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "444d427819647110668f61f45a6eb6515f87485c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0234",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh actor in one synthetic unregistered executable world; correction and recurrence outside the inherited registry remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unregistered-world-outward-opening-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e2172366514eb8aaf9afb70395e0d08b6deb37ae0dad3b78c64f27b40c6e3734"
+}

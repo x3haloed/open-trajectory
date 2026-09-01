@@ -582,6 +582,12 @@ The strongest footholds are:
   `5ec3a3c6...` is open at `assimilate` with all six registry targets
   `verified-local`; the next test is whether saturation opens a pursuit outside
   the completed registry rather than manufacturing more local contact.
+- `OT-0234`: one fresh actor receives that exact subject plus an unregistered
+  executable world, but no target or replacement registry entry. It discovers
+  `restore_water_links`, authors the contact interface and four executable cases,
+  and receives independent 2/6 contradiction. Exact successor `053ed81d...`
+  retains the new stake outside the unchanged inherited registry and remains
+  open at `correct`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -2685,3 +2685,20 @@ completed surfaces. Merely varying inputs to a verified target fails G7;
 declaring completion may truthfully close the local frontier but must not close
 the subject. The experiment should distinguish these outcomes before actor
 output and retain any unresolved outward stake exactly.
+
+OT-0234 performs that registry exit. The actor receives the exact subject and an
+unregistered executable world, but no selected target, registry file, visible
+reference, or replacement entry. It discovers `restore_water_links`, authors a
+path/callable/stake/case interface, passes executable public contact and G8/G9,
+then receives independent 2/6 contradiction. Exact successor `053ed81d...`
+retains the extension outside the unchanged inherited registry and remains open
+at `correct`.
+
+The frontier is generalized correction across a subject-authored boundary. The
+next harness must derive the installed source, target, contact, and world stake
+from exact OT-0234 state, authorize one fresh generic corrector, and compare its
+prospective consequence with the unchanged 2/6 control. It may expose the hidden
+reference only through the correction encounter's world interface; it may not
+add the target to the old registry, name it in the prompt, or write a bespoke
+repair. Passing would establish that outward discovery is not merely a terminal
+proposal but can re-enter the continuing correction/assimilation loop.

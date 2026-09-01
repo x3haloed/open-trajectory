@@ -85,11 +85,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0233 successor `5ec3a3c6...`,
+The current exact operational subject is OT-0234 successor `053ed81d...`,
 identified by
-`evidence/manifests/OT-0233/open-subject-at-all-target-verification.json`.
-It contains all six registry targets, preserves three generalized correction
-cycles, and is open at `assimilate` with every local target `verified-local`.
+`evidence/manifests/OT-0234/open-subject-at-outward-contradiction.json`.
+It preserves all six verified inherited targets plus an actor-authored outward
+`restore_water_links` stake, retained outside the unchanged registry, and is
+open at `correct` after independent 2/6 contradiction.
 
 ## Prediction errors
 
@@ -194,7 +195,12 @@ cycles, and is open at `assimilate` with every local target `verified-local`.
 - OT-0233 reuses the unchanged registry-driven corrector on the final target.
   Public 4/4 and prospective 6/6 beat unchanged 2/6, yielding exact open
   `5ec3a3c6...` at assimilation with all six targets verified-local.
+- OT-0234 crosses the saturation boundary. With no assigned target, registry
+  file, visible reference, or replacement entry, a fresh actor discovers
+  `restore_water_links`, authors an executable contact, and receives independent
+  2/6 contradiction. Exact `053ed81d...` retains it outside the inherited
+  registry and dispatches correction.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is all-target saturation dispatch: a
-  fresh actor must originate a consequence-testable pursuit outside the completed
-  registry without an observer-assigned target or replacement registry entry.
+  external. The next discriminating step is generic correction through the
+  actor-authored interface without retrofitting it into the inherited registry
+  or supplying a target-specific repair.
