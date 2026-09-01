@@ -1,0 +1,33 @@
+{
+  "artifact_id": "typed-choice-self-allocation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 20059,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1522eda213fde181a1f7f73f7a294cdfdf8f772d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0096",
+  "input_manifests": [
+    "evidence/manifests/OT-0095/reopened-parent-after-choice-type-rejection.json"
+  ],
+  "kind": "typed-choice-self-allocation-result",
+  "limitations": [
+    "Implementation and control did not run because the bound allocator failed hidden fixtures."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:typed-choice-self-allocation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2e2b637221abecf8d072a1d33d7a4509a0786c2487bafb7bae3357b4b1cf61f3"
+}

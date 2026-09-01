@@ -124,6 +124,10 @@ condition, not the permanent purpose or executive of the resulting subject.
   the actor uses Boolean saturation and numeric expansion while an unpublished
   validator requires every choice value to be a string. Its live frontier,
   retirement, joint choice, and allocator remain post-hoc valid.
+- `OT-0096` clears those apparatus boundaries and reaches exact pre-hidden
+  binding, then rejects substantively. Its allocator omits the retained
+  completed-floor composition preference, selects recovery by stable id, and
+  fails three of five hidden fixture families. The exact parent remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -276,7 +280,10 @@ the frontier and allocator conditions, but a lexical `../` command audit rejecte
 contained execution from nested observation directories. OT-0095 repaired the
 audit and exposed the next interface mismatch: natural Boolean/numeric choice
 facts were rejected by an undisclosed all-string validator. The next record
-should publish and enforce those objective types, then rerun the unchanged path.
+publishes and enforces those objective types. OT-0096 then reaches the real
+mechanism boundary: one-shot selector embodiment is unreliable. The next record
+should turn the failed hidden allocator receipt into correction contact for a
+fresh actor and require generalization to a disjoint second fixture set.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

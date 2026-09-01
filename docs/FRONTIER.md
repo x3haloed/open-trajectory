@@ -259,6 +259,21 @@ equal the chosen live contact, and the remaining semantic fields must be
 nonempty strings. Preserve every other OT-0095 condition. This is the smallest
 causal test left by the observed failure, not a rescore of OT-0095.
 
+OT-0096 made that correction and finally reached hidden allocator consequence.
+The actor's live frontier, retirement, typed choice, binding, tools, and audit
+all passed. Its allocator nevertheless omitted the retained completed-floor
+composition preference, selected recovery by id, and failed both real-frontier
+orders plus the renamed fixture. This is the first substantive self-allocation
+failure after clearing the three apparatus defects.
+
+The next experiment should make that failure developmental rather than merely
+terminal. Seal a complete first-stage allocator receipt, expose it to a fresh
+corrector with the bound frontier and retained selector, permit revision only
+of `allocate.py`, and bind before a disjoint second-stage fixture set. An
+outcome-content-erased corrector should bound whether the consequence, rather
+than prompt or source alone, causes repair. Do not use replacement sampling or
+rescore OT-0096.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -299,6 +314,8 @@ causal test left by the observed failure, not a rescore of OT-0095.
   normalization. End-to-end operational self-allocation remains unestablished.
 - Normalized boundary auditing now works in one run, but an undisclosed
   all-string choice validator rejected natural typed facts before binding.
+- Typed choice now reaches hidden consequence; one-shot executable selector
+  embodiment failed to carry the compositional preference reliably.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

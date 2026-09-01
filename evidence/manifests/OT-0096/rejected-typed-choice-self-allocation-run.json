@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-typed-choice-self-allocation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1750528,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1522eda213fde181a1f7f73f7a294cdfdf8f772d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0096",
+  "input_manifests": [
+    "evidence/manifests/OT-0095/reopened-parent-after-choice-type-rejection.json"
+  ],
+  "kind": "typed-choice-self-allocation",
+  "limitations": [
+    "One bounded active allocation rejected after exact binding on hidden allocator conformance."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-typed-choice-self-allocation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fd1a7f2e4d8c151f72ab2c52ab958ca48dae8621066cf28004f2fe221015b7c5"
+}

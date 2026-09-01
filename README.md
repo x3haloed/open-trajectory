@@ -56,6 +56,8 @@ The strongest footholds are:
   traversal rule in the contained-effects audit.
 - `OT-0095`: one rejected normalized-audit correction that admitted contained
   tool use and exposed an unpublished all-string choice ABI.
+- `OT-0096`: one rejected typed-choice run that reached exact binding and then
+  exposed a substantive failure to embody the retained compositional selector.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
