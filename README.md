@@ -477,6 +477,13 @@ The strongest footholds are:
   `e25c60f9...` carries warranted retention, six lineage-authored continuity
   fields, and a new opening. Semantic expansion beyond the now-saturated
   dispatch world remains open.
+- `OT-0214`: after proving that opening saturated, a fresh actor inspects a
+  complete repository and independently originates an expected-loss recovery
+  contact. Public 3+1 and sealed 4+2 consequence pass; a second fresh actor
+  retires the solved opening, retains the exact contact program, and authors a
+  new recovery-capacity pursuit. Open successor `3f439d58...` is the first
+  bounded subject-originated semantic expansion in this chain. Recurrence and
+  observer-independent world/admission authority remain open.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

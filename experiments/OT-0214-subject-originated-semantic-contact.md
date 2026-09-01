@@ -1,6 +1,6 @@
 # OT-0214 — subject-originated semantic contact after saturation
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Target:** leave a solved semantic regime without an observer-selected target
 - **Parent:** exact OT-0213 open successor `e25c60f9...`
@@ -108,4 +108,25 @@ full long-horizon goal.
 
 ## Result
 
-Not yet run.
+The run passed every frozen gate. The originator selected `order_recovery`
+without a prompt-level surface list and authored `expected-loss-recovery-order`:
+three public cases where severity-only order diverged from expected unrecovered
+loss plus one confirming case. Its public package passed 3 distinctions + 1
+confirmation, bound before hidden contact under digest `9acf7197...`, and added
+no non-authoritative fields.
+
+The independently sealed six-case world produced 4 distinctions + 2
+confirmations, receipt `54228350...`. The fresh assimilator cleanly retired the
+saturated single-job opening, retained the exact admitted policy, selector, and
+contact package, and authored a distinct recovery-capacity pursuit. Both actor
+audits were clean. Route remained 16/16, identity remained 18/18, the retained
+package replayed the exact hidden result after sealing, and the byte-erased
+control could not bind contact.
+
+Exact open successor `3f439d58...` retains the subject-originated executable
+contact program and receipt. This establishes the bounded transition claimed
+above. It does not establish recurrent semantic origination: the observer still
+constructed the available environment, sealed the hidden cases, and owned final
+admission. The next experiment should follow the actor-authored opening and ask
+whether retained semantic-contact machinery can be enacted and then widened
+again without an observer choosing the next implementation target.

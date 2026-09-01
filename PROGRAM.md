@@ -1815,5 +1815,23 @@ unchanged semantics, parameter-only repetition is now saturated. The frontier
 is endogenous opening of a semantically new objective contact—not another
 researcher-selected world and not indefinite confirmation of a solved one.
 
+OT-0214 proves that saturation mechanically, then exposes a complete operations
+repository without a prompt-level target catalog. A fresh actor selects
+`order_recovery`, binds four executable cases and exact success/surrender
+predicates, and passes its public 3+1 contact. The independently sealed world
+passes 4 distinctions + 2 confirmations. A second fresh actor retires the
+saturated opening, retains the exact policy, selector, and new contact program,
+and authors a distinct recovery-capacity pursuit. Both audits, retained-byte
+replay, byte-erased control, route 16/16, identity 18/18, and successor sealing
+pass.
+
+Exact open successor `3f439d58...` establishes one bounded subject-originated
+semantic expansion. The actor chose what mattered inside the available world;
+the observer did not assign its callable or repair its package. This does not
+yet make the research program optional: the observer still chose the bounded
+environment, authored sealed consequence, and controlled admission. The next
+frontier is recurrence from the retained semantic-contact program and authored
+opening, with another measurable reduction in target choice by the observer.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-semantic-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 626842,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1809e2b25658929af97bb4c71761d6043b0f79b6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0214",
+  "input_manifests": [
+    "OT-0214/subject-originated-semantic-contact-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Open bounded subject; hidden-world construction and final admission authority remain external."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-semantic-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f497ce17f9f944d95889ab7d5b3490054514a7ce3622b9578cd85714653aac12"
+}

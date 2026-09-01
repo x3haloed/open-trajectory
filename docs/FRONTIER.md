@@ -2444,3 +2444,21 @@ to let the subject originate a semantically new world contact and its pursuit
 interface, then let independent consequence admit or reject it. The observer
 may seal authority and safety bounds, but must not choose the new objective or
 mistake another guaranteed confirmation cycle for expansion.
+
+OT-0214 crosses that boundary once. Exact-source proof first closes the old
+single-job opening. In a complete repository with no prompt-level surface list,
+a fresh actor discovers `order_recovery` and binds an expected-unrecovered-loss
+contact. Its four public cases pass 3 distinctions + 1 confirmation; the sealed
+world independently passes 4+2. A second fresh actor retires the solved opening,
+retains the exact contact program, and opens recovery-capacity contact. Both
+audits and all inherited floors pass; retained bytes replay the world result and
+an erased package cannot bind it.
+
+Exact open successor `3f439d58...` is therefore the first bounded semantic
+expansion originated by the continuing subject in this chain. The next work is
+not another observer-selected semantic target. Follow its exact authored
+recovery-capacity opening, require the retained contact program to constrain
+real executable contact, and test whether the subject can widen again after
+consequence. Recurrent self-originated expansion remains the decisive gap, as
+do observer ownership of environment construction, hidden consequence, and
+final admission.

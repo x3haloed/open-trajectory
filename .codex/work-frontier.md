@@ -48,18 +48,18 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact open subject is OT-0213 successor `e25c60f9...`, identified by
-`evidence/manifests/OT-0213/open-subject-after-extensible-retention.json`. It
-preserves the ledger, corrected pursuit selector, executed code pursuit, one
-independently confirmed retention, and six actor-authored continuity fields
-under a non-authoritative G4 wrapper. The retained policy reaches all 48 fresh
-public/hidden oracles while both fixed controls remain materially worse.
+The current exact open subject is OT-0214 successor `3f439d58...`, identified by
+`evidence/manifests/OT-0214/open-subject-after-semantic-contact.json`. It
+preserves the ledger, corrected pursuit selector, executed code pursuit,
+warranted retention, G4 continuity, and a subject-originated expected-loss
+recovery contact program. Its next opening asks for a sealed multi-job
+recovery-capacity test.
 
 ## Prediction errors
 
 - Repeated continuation now includes selected execution, fresh world contact,
-  warranted non-change, and bounded subject-authored state expansion. Semantic
-  world transfer remains open.
+  warranted non-change, bounded subject-authored state expansion, and one
+  subject-originated transition into a new semantic contact.
 - The actor authored the next opening, but the observer still supplied the
   bounded world family, metric projection, and admission interface.
 - OT-0211's malformed portfolio helper is repaired and executes in OT-0212
@@ -69,9 +69,13 @@ public/hidden oracles while both fixed controls remain materially worse.
   consequence.
 - OT-0213's new opening requests another parameter-only dispatch suite. Because
   the installed policy exactly implements the unchanged world's oracle, this
-  opening can continue forever without discovering a new note. The subject must
-  gain a way to open semantically new contact rather than merely repeat
-  confirmation or wait for the observer to select a new world.
-- Actor opening, world-interface construction, and final admission remain
-  external. Reduce these dependencies only through discriminating experiments,
-  not by relabeling researcher machinery as part of the subject.
+  opening could continue forever without discovering a new note. OT-0214
+  correctly retires it after exact saturation and opens a semantic contact from
+  source inspection rather than an observer-supplied target list.
+- The OT-0214 originator chose `order_recovery`, passed public 3+1 and hidden
+  4+2 contact, and its fresh assimilator retained that exact program and opened
+  recovery-capacity contact. This is one expansion, not recurrence.
+- Environment construction, hidden-world authorship, and final admission remain
+  external. The immediate test is whether the exact authored opening and
+  retained contact machinery constrain the next executable contact and support
+  another widening without observer target choice.
