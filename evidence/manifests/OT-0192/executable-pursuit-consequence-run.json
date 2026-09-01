@@ -1,0 +1,31 @@
+{
+  "artifact_id": "executable-pursuit-consequence-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5079552,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5f1387516ce4972eb5297e1b9bea35609fd23648",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0192",
+  "input_manifests": [],
+  "kind": "raw-run-archive",
+  "limitations": [
+    "Private raw actor outputs and tool traces; no hosted deployment receipts."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:executable-pursuit-consequence-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f71b8ca2f1f38f26272e7a6d68af259719721035d2748c1eacc9014e70441404"
+}

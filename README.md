@@ -378,6 +378,11 @@ The strongest footholds are:
   falsifies its predicted route. Active successors choose the exact correction
   4/6 versus controls 0/6, but promotion rejects because prose stake conditions
   leave route correction versus stake revision mechanically ambiguous.
+- `OT-0192`: a fresh actor makes pursuit consequence executable. Its predicates
+  mechanically select `retain-and-advance`; successors recover that operation
+  5/6 versus predicate-erased controls 2/6. The valid gate rejects by one active
+  vote and one advantage point, exposing the remaining redundant model vote
+  between an evaluated receipt and its authoritative installation.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

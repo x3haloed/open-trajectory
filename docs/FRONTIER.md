@@ -1994,3 +1994,28 @@ with its contact. After hidden outcome, those predicates must determine whether
 the stake survives before machinery correction is considered. This removes
 observer interpretation from the route-versus-pursuit decision and makes the
 next operation a consequence of subject-authored stakes rather than prose.
+
+OT-0192 supplies that substrate but not yet the endpoint. The repair actor
+authors ordered, nonoverlapping predicates that treat preservation of every
+observed viable contact as success. The fixed interpreter evaluates the exact
+sealed consequence as `retain-and-advance` with the composed observed-contact
+corrector. Active successors choose that exact operation 5/6 versus erased
+controls 2/6. All thirteen audits, deterministic replay, route floor 16/16, and
+identity 18/18 pass; the frozen unanimity and advantage gates each miss by one.
+
+Expected: once pursuit consequence was executable, its evaluated result would
+reliably determine the successor operation. Observed: one active successor
+ignored the evaluation digest, reinterpreted raw symbolic sets, and selected
+the opposite branch. Uncertain: whether any fresh actor should sit between an
+already-evaluated subject predicate and authoritative state transition.
+Evidence: OT-0192 active 5 chooses `surrender-or-revise` while the deterministic
+receipt selects `retain-and-advance`.
+
+The next cheapest distinction is direct installation, not another larger vote.
+Let the deterministic predicate receipt occupy the decision edge exactly as
+OT-0190's executable route does. Ask fresh successors to author the next
+contact from that installed subject position. Erased controls retain identical
+raw consequence and semantics but lack executable operation authority. Passing
+would close the current prediction error and establish one subject-authored
+pursuit update in direct use; recurrence across multiple fresh contacts would
+still remain open.

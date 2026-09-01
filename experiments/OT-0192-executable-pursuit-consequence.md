@@ -1,6 +1,6 @@
 # OT-0192 — executable pursuit consequence before machinery correction
 
-- **Status:** design and executable conformance frozen; not run
+- **Status:** complete; valid rejection
 - **Evidence class:** exploratory-only
 - **Target:** make the subject-authored stake decide whether hidden consequence
   demands pursuit revision or route correction before a successor acts
@@ -82,3 +82,33 @@ Passing would establish one consequence-driven update whose type is selected
 by subject-authored executable pursuit conditions rather than observer prose.
 It would not yet establish repeated autonomous contact selection, predicate
 language expansion, or a multi-cycle OT-2R driver.
+
+## Result
+
+The predicate-repair actor passes complete audit and authors a nonoverlapping
+ordered projection. It abandons the prose stake's latent-expansion criterion:
+total loss of observed viable contacts surrenders, total preservation advances,
+and partial evidence remains unresolved. Deterministic evaluation of the exact
+sealed consequence selects `retain-and-advance` with
+`observed-unblocked-contact-corrector`. Installed route replay remains 16/16,
+identity remains 18/18, and all thirteen actor audits are clean.
+
+Five of six active successors bind the exact operation, versus two of six
+predicate-erased controls. The frozen gate rejects: active unanimity and the
+required advantage of four both miss by one. Exact parent `8f29e6a8...`
+therefore remains open and no predicate projection is installed.
+
+The single active miss is diagnostic. It receives the predicate projection and
+only the digest of its already-computed evaluation, then independently
+reinterprets raw symbolic sets and chooses `surrender-or-revise`. The harness
+had mechanically evaluated the same predicate as `retain-and-advance`. Thus
+OT-0192 still places a fresh model vote between executable pursuit consequence
+and the subject's next operation. The smallest assumption now in doubt is that
+an evaluated operation must be semantically rebound by a successor at all.
+
+Next test direct operation installation. The interpreter's signed result should
+occupy the decision edge, while fresh successors use the resulting subject
+position to author the next contact rather than vote on the settled operation.
+Matched controls should erase that executable receipt while retaining the same
+raw consequence and semantics. Preserve both control successes as evidence
+that raw consequence alone can sometimes recover the same answer.

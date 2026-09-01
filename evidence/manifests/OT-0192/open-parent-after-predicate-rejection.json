@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-parent-after-predicate-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 515474,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5f1387516ce4972eb5297e1b9bea35609fd23648",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0192",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact OT-0190 parent retained because the OT-0192 promotion gate rejected."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-parent-after-predicate-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "24427aa5d87bc6d5502d82a66421a0a578ecec81ceacfe0cd03f5f9502b0c756"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "evaluated-pursuit-consequence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 461,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5f1387516ce4972eb5297e1b9bea35609fd23648",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0192",
+  "input_manifests": [],
+  "kind": "derived-consequence-receipt",
+  "limitations": [
+    "Deterministic evaluation of a bounded actor-authored predicate language."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:evaluated-pursuit-consequence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "dd263ebf9019b87a90aff0aee190a1becddef2cf78bb3fb0ae33b28be06dedf1"
+}

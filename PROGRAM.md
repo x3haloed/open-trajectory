@@ -1509,5 +1509,20 @@ the authored stake. Bind them before hidden contact and derive stake revision
 versus route correction from their evaluated receipts, not observer prose
 interpretation. Preserve the authored-contact ablation and all old floors.
 
+OT-0192 does so. A fresh actor authors ordered, nonoverlapping pursuit
+predicates, and the fixed interpreter evaluates the exact hidden consequence as
+`retain-and-advance` with the observed-contact corrector. Active successors bind
+that operation 5/6 versus erased controls 2/6; every audit and inherited floor
+passes. The prospective endpoint rejects because unanimity and advantage each
+miss by one.
+
+The miss localizes another unnecessary interpretation boundary. Active
+successors receive the executable projection but not the already-evaluated
+operation, then are asked to derive it again from raw sets. One recomputes the
+wrong branch. Next let the deterministic evaluation receipt install the
+operation directly. Successor actors should inherit the resulting position and
+open its next contact; they should not vote on a decision the subject's own
+predicate machinery has already made.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
