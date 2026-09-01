@@ -2336,3 +2336,33 @@ an observer-owned encounter namespace and retain the actor's `suite_id` as
 local content. Freeze the namespace conformance fixture before fresh actors and
 rerun every other OT-0206 condition unchanged. Do not retroactively compose or
 promote the existing run.
+
+OT-0207 applies that repair and nothing else. Preflight reconstructs OT-0206's
+exact collision, verifies all four local suites and audits, assigns
+`sealed-encounter-01` through `-04`, and proves that every local label and case
+remains unchanged. The fresh run then reaches the previously unopened path.
+
+Four ledger-program actors each pass all 16 public and 16 sealed hidden cases.
+Five frozen wrong programs fail for the intended distinct reasons. Two later
+fresh actors receive the installed program and full sealed bank and reproduce
+the same exact 32-entry ledger, digest `b80f8f6d...`. All ten actor audits,
+eight decision-ready checkpoints, route 16/16, identity 18/18, and successor
+identity conformance pass.
+
+Open successor `a3bcf6b1...` now carries consequence-bearing completion of the
+subject-selected `preserve-contact-correction-ledger` pursuit across
+independently authored contact and fresh replay. Its selector consequence
+receipt records both facts that matter: the selected measurement 8 matched
+eight passed prospective checkpoints, and comparative selector utility remains
+unresolved. The checkpoint set was designed after the selection but before its
+world run, so it cannot independently validate the selector's calibration.
+
+The frontier is now correction of pursuit-selection machinery by outcome value,
+not another proof that the selected ledger can run. Assimilate the completion,
+then prospectively compare materially different candidate pursuits whose
+outcome value is independently derived after selection, or introduce a regime
+where more first-cycle checkpoints imposes real cost or delay. Bind the exact
+retained selector and an unchanged or corrected alternative before consequence.
+Promotion must let the subject retain, revise, or surrender
+`decision-ready-signal` according to that contact while preserving the ledger
+and earlier earned floors.

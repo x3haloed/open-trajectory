@@ -1712,5 +1712,26 @@ composition boundary while preserving each actor's local label as content.
 Repeat the same world authorship, ledger semantics, eight checkpoints, five
 negative controls, and promotion gate under a new ID.
 
+OT-0207 makes only that prospective namespacing repair. Its fixture reproduces
+the prior collision, assigns four observer-owned sealed encounter identities,
+and retains every local label and actor-authored case. Fresh execution then
+passes every gate: four contact authors, four ledger-program authors, and two
+replay actors all complete clean audits; each program passes 16/16 public and
+16/16 hidden cases; both replays produce exact 32-entry ledger digest
+`b80f8f6d...`; and all five negative controls fail.
+
+Open successor `a3bcf6b1...` installs the ledger capability and consequence,
+marks `preserve-contact-correction-ledger` complete, and explicitly records
+that its selected measurement 8 corresponded to eight passed checkpoints. The
+receipt also preserves the limit: those checkpoints were prospectively bound
+from the selected value, so this is successful selected-pursuit consequence,
+not independent calibration or comparative utility of the selector.
+
+Next assimilate the completion without discarding that uncertainty. Expose
+`decision-ready-signal` to a prospective comparison across pursuits with
+independently derived outcome value, or to a regime where maximizing early
+checkpoints becomes harmful. Consequence must be able to retain, revise, or
+surrender the selector; another same-family completion cannot establish that.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

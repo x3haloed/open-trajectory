@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-selected-ledger-completion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 613304,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "053b12faf0bf8406c47ce8323757de68e1143e67",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0207",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Ledger capability and consequence are installed; the retained pursuit selector still requires comparative or contradictory consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-selected-ledger-completion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "49dcb5aa66a4f2e2433c7a3c6cd57b60564ab10130db4020febde87ba41d58be"
+}

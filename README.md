@@ -445,6 +445,12 @@ The strongest footholds are:
   local suite label and an unpublished global-uniqueness condition rejects the
   bank. Exact parent `3e06b644...` remains open pending prospective
   observer-owned encounter namespacing.
+- `OT-0207`: encounter namespacing repairs only that composition boundary. Four
+  ledger programs pass 16/16 public and 16/16 hidden cases each; two fresh
+  actors replay the same exact 32-entry ledger; all eight checkpoints and five
+  negative controls discriminate correctly. Open successor `a3bcf6b1...`
+  records selected-pursuit completion while leaving comparative selector
+  utility unresolved.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

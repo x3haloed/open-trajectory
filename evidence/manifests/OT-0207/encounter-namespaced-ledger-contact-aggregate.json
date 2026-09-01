@@ -1,0 +1,31 @@
+{
+  "artifact_id": "encounter-namespaced-ledger-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 168533,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "053b12faf0bf8406c47ce8323757de68e1143e67",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0207",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "All eight bound checkpoints pass across ten actors; the checkpoint count was prospectively bound from the selected measurement, not independently calibrated."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:encounter-namespaced-ledger-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "671abe194badb09c08638f6da167f270d89d4a85fba5fe307e62443964caeee3"
+}

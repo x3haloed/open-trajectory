@@ -1,0 +1,31 @@
+{
+  "artifact_id": "encounter-namespaced-ledger-contact-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13965312,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "053b12faf0bf8406c47ce8323757de68e1143e67",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0207",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Selected pursuit completes in one synthetic ledger world family; comparative selector utility remains unresolved."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:encounter-namespaced-ledger-contact-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "56e09576c5bf2c6e61428fd8def6865b393eeaea81c7eaf9a55f72c4772b62d7"
+}
