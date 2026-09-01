@@ -161,6 +161,9 @@ exact OT-0092 subject remains sounding and open at digest
 A disclosed post-hoc diagnostic does not rescore the rejection. It confirms
 that the actor's live frontier passes the corrected OT-0094 structural audit
 and its generic allocator passes all five frozen hidden fixture families.
+Subsequent OT-0095 analysis also exposed a latent, actor-undocumented choice
+type mismatch in this output; OT-0094 therefore did not pass every substantive
+artifact condition even aside from its primary command-audit rejection.
 
 ## Learned boundary
 

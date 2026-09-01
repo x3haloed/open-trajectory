@@ -246,6 +246,19 @@ command's effective in-workspace directory; reject paths resolving outside,
 protected-path references, actual outside file effects, and ambiguous traversal.
 This is an evaluation-apparatus repair, not evidence that OT-0094 passed.
 
+OT-0095 made that repair: its normalized audit admitted all 24 commands while
+retaining rejection of unresolved and outside traversal in preflight. The actor
+again produced the exact live frontier, retirement, joint choice, and a
+hidden-valid generic allocator post hoc. Binding then failed because it encoded
+saturation as a Boolean and predicted expansion as a number, while a validator
+not described in the actor contract required all choice fields to be strings.
+
+The next record should make the choice ABI explicit and objective: Boolean
+saturation must agree with the exhaustive certificate, numeric expansion must
+equal the chosen live contact, and the remaining semantic fields must be
+nonempty strings. Preserve every other OT-0095 condition. This is the smallest
+causal test left by the observed failure, not a rescore of OT-0095.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -284,6 +297,8 @@ This is an evaluation-apparatus repair, not evidence that OT-0094 passed.
 - The corrected live-frontier actor repeated the substantive success, but the
   broad-tool audit rejected a nested in-workspace `../` reference without path
   normalization. End-to-end operational self-allocation remains unestablished.
+- Normalized boundary auditing now works in one run, but an undisclosed
+  all-string choice validator rejected natural typed facts before binding.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -52,8 +52,10 @@ The strongest footholds are:
   hidden-valid generic allocator, while the frozen gate required the dead
   pursuit to remain an actionable contact.
 - `OT-0094`: one rejected live-frontier correction whose actor passed the
-  substantive allocation conditions post hoc but exposed an overbroad lexical
+  frontier and allocator conditions post hoc but exposed an overbroad lexical
   traversal rule in the contained-effects audit.
+- `OT-0095`: one rejected normalized-audit correction that admitted contained
+  tool use and exposed an unpublished all-string choice ABI.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

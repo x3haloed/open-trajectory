@@ -1,0 +1,33 @@
+{
+  "artifact_id": "normalized-boundary-self-allocation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 18124,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5ff55a4ae3329a8fe52ad169df09cf85b7764ef7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0095",
+  "input_manifests": [
+    "evidence/manifests/OT-0094/reopened-parent-after-live-frontier-rejection.json"
+  ],
+  "kind": "normalized-boundary-self-allocation-result",
+  "limitations": [
+    "Normalized command audit passed; implementation and control did not run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:normalized-boundary-self-allocation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a161c07ae73038d42bb2c92275effb88cd2ee9b45f2bd2aec0ae9dbdd93f499f"
+}

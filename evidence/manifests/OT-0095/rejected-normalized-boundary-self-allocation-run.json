@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-normalized-boundary-self-allocation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1272832,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5ff55a4ae3329a8fe52ad169df09cf85b7764ef7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0095",
+  "input_manifests": [
+    "evidence/manifests/OT-0094/reopened-parent-after-live-frontier-rejection.json"
+  ],
+  "kind": "normalized-boundary-self-allocation",
+  "limitations": [
+    "One bounded rejection before binding on an undocumented choice-type validator."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-normalized-boundary-self-allocation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "90ace319ae7f9b31dea53c4fe190e0a3fd2399659301118deab2313c6f4e1ab6"
+}

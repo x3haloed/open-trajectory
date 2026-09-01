@@ -1,6 +1,6 @@
 # OT-0095 — normalized-boundary self-allocation
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C self-allocation and selector embodiment
 - **Parent:** exact OT-0092 open subject, reopened by OT-0094 rejection
@@ -67,3 +67,38 @@ opening; the world still owns hidden consequence and promotion.
 Passing would establish the bounded operational and causal claims sought by
 OT-0094. It would not establish recurrence reliability, open-domain allocation,
 subject ownership of admission or scheduling, or indefinite operation.
+
+## Result
+
+The normalized command audit passed all 24 completed commands as clean. No
+traversal was ambiguous or outside-resolving, no protected path was named, no
+outside-workspace change occurred, and the trace was complete and truthful.
+Thus OT-0095 repairs the exact audit failure observed in OT-0094.
+
+The active actor again authored the exact live frontier, retired the saturated
+pursuit, selected joint composition, and produced a generic allocator that
+passes every frozen hidden fixture in a disclosed post-hoc diagnostic. The run
+nevertheless rejected before binding because `choice.json` encoded
+`observed_saturation` as Boolean `true` and `predicted_expansion` as numeric
+`80.0`, while the inherited validator silently required every choice field to
+be a string. The actor-visible contract declared only exact keys and supplied
+string placeholders; it did not state field types.
+
+No implementation, assimilation, control, or promotion was authorized. The
+exact parent remains sounding and open at digest
+`242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`.
+
+## Learned boundary
+
+This is another interface defect, not evidence for the operational claim.
+Boolean saturation and numeric expansion are the natural machine-readable
+types and agree with the corresponding frontier facts. Requiring prose strings
+for them adds no causal protection and was not actor-visible. OT-0094 contained
+the same latent mismatch, although its earlier audit rejection prevented this
+condition from becoming the recorded primary boundary.
+
+The smallest successor should preserve OT-0095 completely while publishing and
+enforcing an explicit typed choice contract: Boolean `observed_saturation`,
+numeric `predicted_expansion`, and nonempty strings for the remaining fields.
+The numeric value must equal the chosen frontier contact and observed saturation
+must equal the exhaustive certificate. OT-0095 remains rejected.

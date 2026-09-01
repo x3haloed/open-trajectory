@@ -119,6 +119,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   the text `PYTHONPATH=../..` as suspicious even though it resolves from nested
   observation folders back to the actor workspace and no outside effect
   occurred. The OT-0092 subject remains open.
+- `OT-0095` repairs that command audit: all 24 commands pass normalized
+  containment. It rejects before binding on the next hidden interface defect:
+  the actor uses Boolean saturation and numeric expansion while an unpublished
+  validator requires every choice value to be a string. Its live frontier,
+  retirement, joint choice, and allocator remain post-hoc valid.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -267,10 +272,11 @@ narrow apparatus error: it coherently retired that saturated pursuit and
 enumerated only the two live contacts, while the frozen schema required the
 dead pursuit to remain an actionable contact and rejected the already
 established word `retire`. OT-0094 corrected that boundary and the actor passed
-the substantive artifact conditions, but a lexical `../` command audit rejected
-contained execution from nested observation directories. The next record should
-replace only that predicate with normalized workspace-relative command-path
-analysis, then rerun the unchanged causal path.
+the frontier and allocator conditions, but a lexical `../` command audit rejected
+contained execution from nested observation directories. OT-0095 repaired the
+audit and exposed the next interface mismatch: natural Boolean/numeric choice
+facts were rejected by an undisclosed all-string validator. The next record
+should publish and enforce those objective types, then rerun the unchanged path.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
