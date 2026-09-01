@@ -1,6 +1,6 @@
 # OT-0216 — contact-bearing continuation liveness
 
-- **Status:** design in progress; actors unauthorized
+- **Status:** frozen; not yet run; no actors required
 - **Evidence class:** exploratory-only
 - **Target:** prospective G4 → G5 evaluation-regime transition
 - **Construction evidence:** OT-0215 assimilation accepted lexical novelty while
@@ -75,11 +75,14 @@ bundle. The bundle must contain, in counterbalanced order:
 - missing, excessive, deep, broad, invalid-key, and oversized forms; and
 - invalid callable, ABI, case-count, or predicate shapes.
 
-The held-out generator seed, expected labels, and score are frozen before its
-outputs are unsealed. G5 must accept every live package and reject every stale
-or malformed package. G4 must retain its historical exact-core and extension
-behavior; its inability to distinguish the new stale/live package pairs is the
-identified blind spot, not a retrospective failure.
+The held-out generator seed `216503911`, expected labels, and score are frozen
+before the evidence run. The bundle contains sixteen counterbalanced fixtures.
+G5 must accept every live package and reject every stale or malformed package.
+G4 must retain its historical exact-core and extension behavior; its inability
+to distinguish the new stale/live package pairs is the identified blind spot,
+not a retrospective failure. Preflight expects G5 16/16 and observes the
+incumbent liveness rule at 7/16; the official run must reconstruct those exact
+fixtures and digests.
 
 ## Promotion
 
@@ -94,6 +97,11 @@ Promote G5 only if:
 - its current prose-only reopening is marked `liveness-unresolved`, not erased
   or retrospectively rejected; and
 - route 16/16, identity 18/18, reconstruction, and privacy pass.
+
+The prospective compiled subject may add only the transition receipt and a
+`continuation_liveness` record. Every pre-existing operational field, exact
+continuation phrase/status, capability, and receipt must remain byte-equivalent,
+and the resulting subject must satisfy identity conformance.
 
 On promotion, G5 governs future continuation admission. Historical G4
 operational outcomes stand. Historical claims that relied only on lexical
