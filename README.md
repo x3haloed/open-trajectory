@@ -293,6 +293,11 @@ The strongest footholds are:
   original guide's 13/16 across 32 clean fresh actors. It prevents three false
   composed overrides, meets the frozen three-case advantage, and is installed
   in an open successor subject. Exact later use remains untested.
+- `OT-0170`: installed-guide later selection and exact extension contact pass,
+  including new hidden 3/3 and accumulated floor 18/18. The conforming
+  assimilator is then rejected because the observer excludes an installed
+  extension property admitted by the actor-visible checker; the record is
+  invalidated and no successor is sealed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

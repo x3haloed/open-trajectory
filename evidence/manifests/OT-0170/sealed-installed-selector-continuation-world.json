@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-installed-selector-continuation-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5363,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "631ad95b5153db5928d360e46e074fc823a27c17",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0170",
+  "input_manifests": [],
+  "kind": "world-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-installed-selector-continuation-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "76200b12de5559454486b9bb0e6e9834419794c89edc053b6a64ae622983357e"
+}

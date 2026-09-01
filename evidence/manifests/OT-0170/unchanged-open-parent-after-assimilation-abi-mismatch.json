@@ -1,0 +1,29 @@
+{
+  "artifact_id": "unchanged-open-parent-after-assimilation-abi-mismatch",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 474476,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "631ad95b5153db5928d360e46e074fc823a27c17",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0170",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-parent-after-assimilation-abi-mismatch",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "231f347473e51189e8624f8f7283f8da122285f958d066d1ceb3b65728ecc758"
+}

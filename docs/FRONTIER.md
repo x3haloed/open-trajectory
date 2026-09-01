@@ -1476,6 +1476,19 @@ a fresh successor should inherit the active stake and installed guide, select
 the composed mechanism, and use that mechanism to make authorized world
 contact. A selector receipt alone is not endpoint success.
 
+OT-0170 reaches world contact successfully. The installed guide causes a fresh
+actor to select the composed mechanism; the exact corrected extension then
+passes new public 3/3, hidden 3/3, and the complete 18/18 floor. The attempted
+successor is invalidated by an interface contradiction: its visible vocabulary
+and checker admit the installed extension property, while the observer-side
+validator silently excludes it. The actor's one-file output otherwise passes
+trace, effects, truthfulness, and its visible checker.
+
+No successor is sealed, so OT-0169 remains current. Repair only that allowed-
+vocabulary mismatch in a new record, use disjoint consequence cases, and keep
+the selector, candidate mechanisms, selection path, mutation envelope, actor
+budgets, and promotion gate unchanged.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

@@ -1,0 +1,29 @@
+{
+  "artifact_id": "installed-selector-continuation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 19801,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "631ad95b5153db5928d360e46e074fc823a27c17",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0170",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:installed-selector-continuation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bdcaa48ac2ef66c57ae65c75a86c6ebab49564fb25d9434b398338326eda79c6"
+}

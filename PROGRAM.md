@@ -1180,5 +1180,19 @@ whether a fresh later successor, starting only from the promoted subject
 projection, actually uses the installed selector to choose and invoke the
 mechanism required by its continuing stake.
 
+OT-0170 observes that complete path through consequence: a fresh actor uses the
+installed guide to select the composed mechanism, the choice authorizes the
+exact corrected extension, and new public 3/3, hidden 3/3, and accumulated
+floor 18/18 all pass. The record cannot promote, however, because its inherited
+assimilation validator contradicts its actor-visible contract. The actor
+chooses the installed extension property as a different next stake and passes
+the visible checker, but the observer validator silently allows only the three
+closed-catalog properties.
+
+Treat OT-0170 as invalidated at the successor ABI, not as selector failure.
+Preserve the successful contact and denied successor. Repeat from the exact
+OT-0169 parent with only the validator vocabulary repaired and with disjoint
+world cases; do not reuse the now-opened hidden cases.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

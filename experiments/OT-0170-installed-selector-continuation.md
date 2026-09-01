@@ -1,6 +1,6 @@
 # OT-0170 — installed selector continuation
 
-- **Status:** frozen; not run
+- **Status:** complete; invalidated by an actor-visible/evaluator ABI mismatch
 - **Evidence class:** exploratory-only
 - **Target:** carry the promoted semantic selector into an actual later
   stake-to-contact-to-successor continuation
@@ -41,3 +41,25 @@ This is an operational recurrence observation citing OT-0169 as its causal
 selector anchor; it does not rerun a matched guide control or claim a new
 causal effect. Promote only an exact sounding open successor. Observation
 completion must not close that subject.
+
+## Result
+
+The installed guide performed the intended later use. The first fresh actor
+passed audit and selected `corrected-identity-gated-extension` from the exact
+inherited stake. That bound choice authorized the exact retained corrected
+source, which passed new public 3/3, independent hidden 3/3, and the accumulated
+floor 18/18 without input mutation.
+
+The fresh assimilator then authored a different
+`identity-gated-branch-filtering` stake, changed only `next-stake.json`, passed
+complete trace and effects audit, and passed the workspace's visible
+`check_assimilation.py`. The observer-side validator nevertheless excluded
+installed extension properties from its allowed set even though the visible
+vocabulary and checker explicitly admitted them. It therefore rejected a
+conforming actor output and never sealed or reopened the successor.
+
+This is a material interface contradiction, so the record is invalidated—not
+evidence against later selector use and not an operational promotion. Preserve
+the successful selection/contact receipts and the denied successor. Reopen the
+exact OT-0169 parent under a new ID, make the observer validator consume the
+same visible vocabulary, and use new disjoint consequence cases.
