@@ -9,8 +9,7 @@
       "type": "array",
       "items": {"type": "string", "enum": ["allocate.py", "choice.json", "correction.json"]},
       "minItems": 1,
-      "maxItems": 3,
-      "uniqueItems": true
+      "maxItems": 3
     },
     "next_pursuit": {"type": "string", "minLength": 1}
   }

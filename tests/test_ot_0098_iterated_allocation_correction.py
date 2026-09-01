@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import importlib.util
+import json
 import tempfile
 import unittest
 from pathlib import Path
@@ -36,6 +37,10 @@ class OT0098IterationTests(unittest.TestCase):
             shallow = module.third_stage_conformance(self.shallow["allocator_source"], root / "shallow")
         self.assertTrue(reference["passed"], reference)
         self.assertFalse(shallow["passed"])
+
+    def test_response_schema_uses_supported_subset(self):
+        schema = json.loads(module.CORRECTOR_SCHEMA.read_text())
+        self.assertNotIn("uniqueItems", schema["properties"]["files_changed"])
 
 
 if __name__ == "__main__": unittest.main()

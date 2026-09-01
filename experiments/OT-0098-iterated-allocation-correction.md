@@ -74,3 +74,14 @@ selection machinery from successive objective consequences, followed by an
 admitted subject transition. It would not establish unbounded recurrence,
 open-domain allocation, subject ownership of admission or scheduling, or
 indefinite operation.
+
+## Pre-generation schema repair
+
+The first driver invocation reached the actor API but generated no actor
+content. The API rejected response-schema keyword `uniqueItems` before sampling;
+the event trace contains only `thread.started`, `turn.started`, the schema error,
+and `turn.failed`. No permitted artifact changed. Preserve that attempt as raw
+evidence and remove only the unsupported redundant keyword. Exact changed-path
+uniqueness remains independently enforced by the trace and workspace audit.
+This is an operational pre-generation repair inside OT-0098, not a replacement
+actor after meaningful output.
