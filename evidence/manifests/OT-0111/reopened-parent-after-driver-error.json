@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-driver-error",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 244706,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b9b85bff77aa3c2c1c83ba0c1e039459ea0263cf",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0111",
+  "input_manifests": [
+    "evidence/manifests/OT-0110/open-subject-after-interface-admission.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact OT-0110 parent reopened after a post-package pre-assimilation driver implementation error."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-driver-error",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ebb5c52f4fdc46a9e6fe7c83377d5fb731d160b7c566a64f16a0a18dde706503"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "stopped-generic-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 19268,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b9b85bff77aa3c2c1c83ba0c1e039459ea0263cf",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0111",
+  "input_manifests": [
+    "evidence/manifests/OT-0110/retained-package-correction-aggregate.json"
+  ],
+  "kind": "generic-interface-expansion-result",
+  "limitations": [
+    "The two-cycle target is rejected; the exact OT-0110 parent remains the last valid subject."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:stopped-generic-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5c7e2c440bb0098a35cf4fb8f1cf06e9a5ea8955da7c4811db514f198f45afa9"
+}

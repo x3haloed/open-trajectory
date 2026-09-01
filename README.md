@@ -101,6 +101,9 @@ The strongest footholds are:
   interface passed public and hidden admission, caused world contact, and
   survived grounded assimilation into an exact open successor pursuing another
   registry extension.
+- `OT-0111`: one rejected generic two-cycle run whose clean depth-two package
+  passed independent hidden admission before a driver constant-resolution
+  error stopped the observation prior to assimilation.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

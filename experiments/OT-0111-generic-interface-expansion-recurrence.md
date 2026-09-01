@@ -1,6 +1,6 @@
 # OT-0111 — generic interface-expansion recurrence
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; rejected before cycle-one assimilation
 - **Evidence class:** exploratory-only
 - **Target:** two recurrent subject-authored interface expansions under one
   dynamically parameterized driver
@@ -104,3 +104,26 @@ Passing establishes two bounded recurrent interface expansions under one
 generic driver. It does not establish arbitrary program synthesis, autonomous
 admission authority, cross-domain transfer, generation frequency, or indefinite
 continuation.
+
+## Result
+
+Cycle one's fresh actor cleanly authored `joint-capability-frontier-extension`
+with new fields `coordination_penalty` and `coordination_cost`. It changed
+exactly the four authorized files, required no contract correction, passed all
+public fixtures, matched the recursive independent oracle on all three authored
+and eight post-binding hidden cases, and passed every parent-recovery check.
+Independent authority admitted the package and the deterministic authored
+world receipt passes.
+
+The driver then failed before creating the assimilation seed because its
+registered-interface helper resolved the inherited constant from the wrong
+module depth. This is an experiment implementation error after meaningful
+actor output. The frozen protocol allowed no post-output repair, so no
+assimilation actor ran, no cycle promoted, and cycle two did not open. A later
+reconstruction records the exact stopped state without resuming it.
+
+The two-cycle target is rejected. The exact OT-0110 subject remains open at
+`331b301de6308c1867ae3abeef09db4d29c70e1b0a49ea881ab9d11047ae6f65`.
+The admitted component package may be retained as developmental input for a new
+record that repairs only constant resolution, reconstructs the exact package,
+and resumes from assimilation without resampling invention.

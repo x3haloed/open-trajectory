@@ -1,0 +1,33 @@
+{
+  "artifact_id": "stopped-generic-expansion-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1111552,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b9b85bff77aa3c2c1c83ba0c1e039459ea0263cf",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0111",
+  "input_manifests": [
+    "evidence/manifests/OT-0110/open-subject-after-interface-admission.json"
+  ],
+  "kind": "generic-interface-expansion-recurrence",
+  "limitations": [
+    "Cycle-one package passed independent admission and deterministic world reconstruction, but a post-output driver implementation error stopped before assimilation; zero cycles promoted."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:stopped-generic-expansion-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "199fede2ee3c8fd9f8b48f81bdf8ffd19c0a91cf2a71142c8dcfb6202e35a9d8"
+}

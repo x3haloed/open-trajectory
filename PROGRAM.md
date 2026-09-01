@@ -197,6 +197,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   passes three authored and eight hidden oracle cases plus reversibility,
   receives independent admission, causes world contact, and promotes an exact
   open successor that chooses another registry extension.
+- `OT-0111` implements a dynamic depth-independent extension kernel and its
+  cycle-one actor authors a clean new coordination boundary that passes public,
+  hidden, oracle, and reversibility admission. A wrong module-depth lookup then
+  stops the driver before assimilation. The two-cycle target is rejected and
+  the exact OT-0110 parent remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -406,6 +411,11 @@ fresh assimilation. The exact successor now pursues
 `joint-capability-frontier-extension`. The next decisive work should test
 whether this is a repeatable developmental operation rather than immediately
 hard-code the newly named surface.
+OT-0111 demonstrates that the generic kernel can admit a second-level package,
+but not recurrence: a driver constant-resolution error stops before the first
+assimilation. The next record should reconstruct the exact admitted package,
+repair only that lookup, and continue the already-fixed recurrence path without
+resampling cycle-one invention.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

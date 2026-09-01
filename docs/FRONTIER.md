@@ -522,6 +522,18 @@ automatically opens a second expansion only when the first sealed successor
 binds it. Two promoted expansions are required; the actor chooses both new
 boundary vocabularies and the intervening continuation.
 
+OT-0111 rejects before cycle-one assimilation. Its clean actor-authored
+coordination extension passes the dynamic kernel at depth two, including three
+authored and eight hidden oracle cases plus parent recovery. The driver then
+resolves the registered-interface constant from the wrong inherited module and
+stops before opening the fresh assimilator. No cycle promotes and the exact
+OT-0110 parent remains open.
+
+The next record should preserve this admitted package rather than regenerate
+it. Repair only the module-depth lookup, reconstruct and bind the exact package
+and receipts, then resume the frozen assimilation and automatic second-cycle
+path under the unchanged generic kernel.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
