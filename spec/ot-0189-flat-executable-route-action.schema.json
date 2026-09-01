@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "note"],
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": ["retain-executable-route", "revise-executable-route"]
+    },
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "const": "executable-route.json"},
+      "maxItems": 1
+    },
+    "note": {"type": "string", "minLength": 1}
+  }
+}
