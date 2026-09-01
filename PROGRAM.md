@@ -142,6 +142,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   actor fixes regret direction and passes seven of nine fourth-stage cases; raw
   floor count still fails both Boolean-threshold orders. The exact parent
   remains open while the correction lineage continues.
+- `OT-0100` completes the fourth correction: the allocator passes all eight
+  fifth-stage regressions and governs a fully hidden-admitted joint
+  implementation. Fresh assimilation is substantively grounded but rejects on
+  an exact `retain` literal and hidden-only citation rule. No successor is yet
+  promoted.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -305,8 +310,10 @@ executable rule improves materially but incompletely. The next record should
 carry the two newly sealed failures into a third fresh correction and require a
 fourth disjoint generalization gate before contact. OT-0099 does so, fixes
 regret direction, and isolates the last observed error to threshold semantics.
-The next record should carry that exact receipt into a fourth correction and a
-fifth disjoint gate.
+OT-0100 carries that receipt into a fourth correction, passes the fifth gate,
+and reaches admitted joint consequence. The remaining boundary is final
+assimilation authority: derive retention from bytes and accept passed public and
+hidden receipt rows, then promote the exact existing chain without resampling.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

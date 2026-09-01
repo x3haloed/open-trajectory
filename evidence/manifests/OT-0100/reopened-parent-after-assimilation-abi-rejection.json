@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-assimilation-abi-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 199395,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f531573f3c4070d140d3cd07a6152a047fce8209",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0100",
+  "input_manifests": [
+    "evidence/manifests/OT-0099/reopened-parent-after-third-correction-rejection.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact parent remains authoritative because OT-0100 rejected before promotion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-assimilation-abi-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9c52deedb8be0727854e8e2558e2d9cdd95c509003dd505078608cf167a175d0"
+}

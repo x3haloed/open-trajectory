@@ -314,6 +314,18 @@ disjoint gate before implementation. The repeated directional changes are now
 the central evidence; the lineage should not reset before it either reaches
 operational promotion or stops improving.
 
+OT-0100 completes the observed correction sequence. The fourth fresh actor
+changes raw floor count to the Boolean threshold and passes all eight fifth-stage
+regressions. The corrected allocator then selects joint, a separate implementer
+reaches full public and hidden oracle totals, and the world admits the contact.
+
+Promotion stops only at assimilation. The fresh actor retains allocator bytes,
+cites all six passed rows, and authors a substantive opening, but a validator
+requires exact literal `retain` and excludes public ids from grounding. The next
+experiment should carry the exact correction and admitted implementation—not
+resample them—derive retention mechanically, allow passed rows from both sealed
+partitions, and seal the successor before the erased correction control.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -365,6 +377,9 @@ operational promotion or stops improving.
 - A third consequence corrected regret direction and left only threshold
   semantics failing. The machinery is converging across exact fresh-actor
   successors, but no corrected allocator has yet been promoted.
+- A fourth consequence completed the generic allocator and caused an admitted
+  joint implementation. Promotion remains blocked only by an assimilation ABI
+  that reintroduced exact lifecycle text and hidden-only citations.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

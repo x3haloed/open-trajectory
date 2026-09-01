@@ -1,0 +1,33 @@
+{
+  "artifact_id": "threshold-corrected-allocation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 20885,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f531573f3c4070d140d3cd07a6152a047fce8209",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0100",
+  "input_manifests": [
+    "evidence/manifests/OT-0099/third-consequence-correction-aggregate.json"
+  ],
+  "kind": "threshold-corrected-allocation-result",
+  "limitations": [
+    "Allocator and implementation passed; no successor or control was promoted because assimilation rejected."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:threshold-corrected-allocation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "698f1bfd37f47e57f023da83ab3f1d1f007d617a54502ebae528f8cd2527b409"
+}

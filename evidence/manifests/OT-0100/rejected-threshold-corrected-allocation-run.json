@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-threshold-corrected-allocation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2808832,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f531573f3c4070d140d3cd07a6152a047fce8209",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0100",
+  "input_manifests": [
+    "evidence/manifests/OT-0099/rejected-third-consequence-correction-run.json"
+  ],
+  "kind": "threshold-corrected-allocation",
+  "limitations": [
+    "Four-step allocator correction and admitted implementation; rejected at final assimilation ABI."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-threshold-corrected-allocation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "059fee2819f8698ba55f47041b9f81d486cf44438fd01e10ade37f8927c9db7a"
+}

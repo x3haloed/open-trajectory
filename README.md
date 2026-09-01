@@ -65,6 +65,9 @@ The strongest footholds are:
   semantic errors.
 - `OT-0099`: one rejected third-correction run that fixed regret direction and
   reached seven of nine new cases, leaving only Boolean-threshold semantics.
+- `OT-0100`: one rejected threshold-correction run whose fourth fresh corrector
+  generalized fully and caused an admitted joint implementation before a final
+  assimilation ABI mismatch.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
