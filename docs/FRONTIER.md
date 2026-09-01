@@ -2366,3 +2366,31 @@ retained selector and an unchanged or corrected alternative before consequence.
 Promotion must let the subject retain, revise, or surrender
 `decision-ready-signal` according to that contact while preserving the ledger
 and earlier earned floors.
+
+OT-0208 performs that correction test. Four independent world actors first seal
+eight portfolios under net continuation value: independently contacted surfaces
+plus reversible branches minus checkpoint count times checkpoint cost. Every
+portfolio makes the inherited checkpoint-count maximum uniquely harmful and
+separates it from net value, yield-only, and effort-only choices.
+
+Four fresh correctors see only the public half and each revise the selector.
+Every corrected program selects 4/4 public and 4/4 sealed hidden optima. The
+exact unchanged selector, yield-only, and effort-only controls each select 0/4
+hidden optima. All eight audits are clean. The OT-0207 ledger binding and
+completion receipt remain exact, route 16/16 and identity 18/18 pass, and the
+successor conforms.
+
+Open successor `ab119b11...` carries both selector generations and objective
+correction receipt `6cfcc452...`. This closes the immediate corrigibility gap:
+a selector that caused an earlier successful pursuit is later made harmful by
+world cost, revised from public consequence, and decisively beats its unchanged
+parent on sealed contact.
+
+The frontier is corrected-selector recurrence without an observer-selected
+candidate menu. Start from the exact successor. A fresh renewal actor should
+assimilate the completed ledger and author materially different executable
+pursuits with the raw cost/contact/branch fields required by the corrected
+selector. Bind the exact latest selector, choose before hidden consequence, and
+execute the selected pursuit. Compare selector erasure or the exact harmful
+parent under matched information. Promotion requires another open subject and
+must not treat selection alone as completion.

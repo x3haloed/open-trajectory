@@ -451,6 +451,11 @@ The strongest footholds are:
   negative controls discriminate correctly. Open successor `a3bcf6b1...`
   records selected-pursuit completion while leaving comparative selector
   utility unresolved.
+- `OT-0208`: four independent cost worlds make the inherited selector harmful.
+  Fresh correctors pass 4/4 hidden portfolios while the unchanged selector,
+  yield-only, and effort-only controls each pass 0/4. Open successor
+  `ab119b11...` preserves the ledger and installs the consequence-corrected
+  selector for recurrent use.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

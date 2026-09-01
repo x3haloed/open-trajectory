@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cost-corrected-pursuit-selector-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11972608,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "24127ae0f95ebeb8824d551ec640dfa403fb2bf2",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0208",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Correction is demonstrated in one bounded synthetic cost regime; corrected-selector recurrence and cross-domain transfer remain untested."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:cost-corrected-pursuit-selector-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "78eeddb6392b019edba1c64645fc188287dab4d66563ff56bab98a005b804de3"
+}

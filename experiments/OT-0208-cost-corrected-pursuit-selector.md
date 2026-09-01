@@ -1,6 +1,6 @@
 # OT-0208 — cost-corrected pursuit selector
 
-- **Status:** design frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** objective correction of OT-0207's retained
   `decision-ready-signal` pursuit selector
@@ -62,3 +62,20 @@ machinery under a bounded cost regime. It does not establish cross-domain
 utility or recurrence of the corrected selector; the next experiment must let
 the subject use it to choose and execute another pursuit without an observer-
 selected candidate menu.
+
+## Result
+
+All eight fresh actors and audits pass. Four independent world authors seal
+four public and four hidden portfolios. The inherited
+`decision-ready-signal` selector selects 0/4 hidden net-value optima; yield-only
+and effort-only controls also select 0/4.
+
+All four fresh correctors revise the selector to net continuation value and pass
+4/4 public plus 4/4 hidden portfolios. The installed correction binding is
+`ea5d27fe...`. The exact OT-0207 ledger binding and completion receipt remain
+unchanged; route 16/16, identity 18/18, and successor identity conformance pass.
+
+Open successor `ab119b11...` retains the harmful selector in history, installs
+the corrected selector, and carries the objective correction receipt. Next let
+the subject author a new pursuit portfolio and require the corrected selector
+to choose and execute one pursuit outside this cost-calibration encounter.

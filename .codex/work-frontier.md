@@ -37,20 +37,17 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact open subject is OT-0207 successor `a3bcf6b1...`, identified by
-`evidence/manifests/OT-0207/open-subject-after-selected-ledger-completion.json`.
-It carries a consequence-tested selected ledger pursuit and an explicit receipt
-that comparative utility of `decision-ready-signal` remains unresolved.
+The current exact open subject is OT-0208 successor `ab119b11...`, identified by
+`evidence/manifests/OT-0208/open-subject-after-cost-selector-correction.json`.
+It preserves the completed selected ledger and carries an objectively corrected
+pursuit selector whose unchanged parent fails all sealed cost portfolios.
 
 ## Prediction errors
 
 - Recurrence evidence is still concentrated in related synthetic set/contact
   worlds; cross-world subject-owned continuation remains open.
-- The retained selector has caused selection and one chosen pursuit completed,
-  but its score was prospectively mapped to checkpoints after selection. Its
-  comparative outcome value and calibration remain unknown.
-- No later regime has yet made `decision-ready-signal` harmful and caused the
-  subject to revise or surrender it.
+- The corrected selector has not yet chosen and completed a new subject-authored
+  pursuit; recurrence and transfer outside its calibration world remain open.
 - Actor opening, world-interface construction, and final admission remain
   external. Reduce these dependencies only through discriminating experiments,
   not by relabeling researcher machinery as part of the subject.

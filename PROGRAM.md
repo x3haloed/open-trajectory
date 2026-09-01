@@ -1733,5 +1733,24 @@ independently derived outcome value, or to a regime where maximizing early
 checkpoints becomes harmful. Consequence must be able to retain, revise, or
 surrender the selector; another same-family completion cannot establish that.
 
+OT-0208 supplies that harmful regime. Four independent world actors author
+eight cost/value portfolios before correction. On the four sealed portfolios,
+the inherited `decision-ready-signal` selector selects zero net-value optima;
+yield-only and effort-only controls also score 0/4.
+
+Four later fresh actors receive only public consequence and revise the selector
+to subtract checkpoint effort from independently contacted surfaces plus
+reversible branches. Every correction passes 4/4 public and 4/4 hidden
+portfolios. All eight audits, exact ledger and completion preservation, route
+16/16, identity 18/18, and successor identity conformance pass.
+
+Open successor `ab119b11...` retains the old selector as correction history and
+installs corrected binding `ea5d27fe...`. This establishes bounded
+consequence-driven correction of pursuit-selection machinery after an earlier
+successful use became harmful. It does not establish recurrence or transfer of
+the correction. Next let the subject author candidate pursuits without an
+observer-supplied menu, use the corrected selector to choose, and execute the
+choice against independent consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

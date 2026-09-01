@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cost-corrected-pursuit-selector-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 79284,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "24127ae0f95ebeb8824d551ec640dfa403fb2bf2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0208",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Corrected selectors pass 4/4 hidden versus unchanged, yield-only, and effort-only at 0/4; world value is a frozen synthetic formula."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cost-corrected-pursuit-selector-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fcd28a83db3194c377e2d8b8178c5e5f2bc16549d4a7127cf43ce1ea66705c0d"
+}
