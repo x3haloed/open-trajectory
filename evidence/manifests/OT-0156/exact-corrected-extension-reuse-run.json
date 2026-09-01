@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-corrected-extension-reuse-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1243648,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "eb7a662d865a379e22dfebf48592d25c02b432c3",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0156",
+  "input_manifests": [
+    "evidence/manifests/OT-0155/open-subject-with-corrected-developmental-extension.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One exact corrected reuse under a synthetic compatibility regime; repeated correction and mechanism selection remain untested."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-corrected-extension-reuse-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7e70b672a1d5ef5f59958ae5796cce75d71cd9188d5ac1b00911e2090ebe4389"
+}

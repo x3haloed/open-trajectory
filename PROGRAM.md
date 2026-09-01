@@ -1015,5 +1015,21 @@ ancestry. The next record should execute those corrected bytes exactly on a new
 compatibility portfolio, preserve both the old and new floors, and consequence
 the result forward without another corrector.
 
+OT-0156 passes exact corrected reuse. The scheduler resolves the active stake
+only through corrected binding `4dee8764...` and executes its retained source
+without a corrector or implementation actor. New public contact passes 3/3;
+independent hidden consequence passes 3/3 and the accumulated floor 18/18. The
+uncorrected ancestor remains new-hidden 1/3 and legitimate-floor 12/12.
+
+Extension erasure blocks the active route. One fresh post-consequence actor
+authors a routeable `continuity-under-reset` stake grounded in compatibility
+reuse and complete floor preservation. Exact open subject
+`11939f321c268875791ffcc6c6d0b0522d003477d61a72f58e5de1e6e403dbdd`
+retains the entire expansion, reuse, later-harm, correction, and corrected-reuse
+chain. The next dominant researcher cause is choosing between fixed and expanded
+mechanisms. Expose both under balanced, competing consequences and require the
+subject's retained selection machinery and stake to bind the better contact
+before sealed outcomes, with state-erased and selector-erased controls.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

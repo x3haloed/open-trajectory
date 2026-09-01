@@ -240,6 +240,9 @@ The strongest footholds are:
   hidden 0/3 while preserving its old 12/12 floor. A fresh corrector reaches
   hidden 3/3 and floor 12/12, installs the corrected source, and selects it for
   the next stake.
+- `OT-0156`: the scheduler exactly reuses that corrected source without a
+  corrector, passing new hidden 3/3 and accumulated floor 18/18. Its uncorrected
+  ancestor remains 1/3 on the new world and 12/12 on its earned floor.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -40,3 +40,22 @@ Passing would establish expansion, later reuse, later harm, correction with no
 regression, and exact corrected reuse in one lineage. Repeated expansion and
 correction, and subject-owned choice between competing extension mechanisms,
 would remain unestablished.
+
+## Result
+
+Exact corrected reuse passed. The scheduler routed only through corrected
+binding `4dee8764...`, executed its retained source without a corrector or
+implementation actor, and passed new public 3/3. Independent hidden consequence
+then passed 3/3 and the complete accumulated floor 18/18 without input mutation.
+
+The uncorrected ancestor scored new hidden 1/3 while preserving its legitimate
+old floor 12/12. Erasing the installed extension blocked routing. One fresh
+post-consequence actor passed audit and authored a routeable
+`continuity-under-reset` stake grounded in compatibility reuse and preservation
+of the full floor.
+
+Exact sounding open subject
+`11939f321c268875791ffcc6c6d0b0522d003477d61a72f58e5de1e6e403dbdd`
+retains expansion, reuse, correction ancestry, and corrected-reuse receipts.
+This completes one expansion-to-harm-to-corrected-reuse chain. Subject-owned
+selection among competing fixed and expanded mechanisms remains unestablished.

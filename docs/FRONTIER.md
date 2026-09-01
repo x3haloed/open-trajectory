@@ -1284,6 +1284,28 @@ the subject forward. The uncorrected parent remains the post-seal control.
 Passing would establish expansion, later use, later harm, no-regression
 correction, and corrected reuse in one retained lineage.
 
+OT-0156 passes exact corrected reuse. The scheduler resolves the active stake
+only through the installed corrected binding and executes its retained bytes
+without a corrector or implementation actor. New public contact passes 3/3;
+independent hidden consequence passes 3/3 and the accumulated floor 18/18. The
+uncorrected ancestor remains new-hidden 1/3 while preserving its earned 12/12
+floor. Extension erasure blocks routing.
+
+One fresh post-consequence actor selects `continuity-under-reset` next. Exact
+sounding open subject
+`11939f321c268875791ffcc6c6d0b0522d003477d61a72f58e5de1e6e403dbdd`
+retains expansion, later use, later harm, correction ancestry, and exact
+corrected-reuse receipts. One full expansion-to-corrected-reuse chain is now
+established.
+
+The next experiment should move from mechanism execution to mechanism choice.
+Present balanced contacts where the fixed reset carrier and corrected extension
+are both locally plausible but only one satisfies the current carried stake and
+sealed consequence. Require retained subject state and selector machinery to
+bind the choice before hidden outcomes. Compare state-erased and selector-erased
+controls after sealing. Passing should improve later choice, not merely show
+that both mechanisms remain executable.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1429,6 +1451,7 @@ correction, and corrected reuse in one retained lineage.
   and executable operation now pass independent admission and become the exact
   next stake, and exact later scheduler use now passes. Repeated expansion and
   correction of a faulty extension now passes once with a preserved floor;
-  exact corrected reuse and repeated correction remain unestablished.
+  exact corrected reuse now passes. Repeated correction and subject-owned
+  selection among competing fixed and expanded mechanisms remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
