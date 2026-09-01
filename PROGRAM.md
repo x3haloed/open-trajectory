@@ -843,5 +843,28 @@ researcher's authorship of the world family, amendment families, feature
 language, and experiment transition. The next work should reduce one of those
 causes while preserving bind-before-outcome authority and cumulative floors.
 
+OT-0146 removes the named feature vocabulary from one selector-authoring step.
+A fresh actor receives the exact OT-0145 contradiction plus a total JSON
+expression grammar whose primitives expose raw public validity, strategy
+simulation, operating context, structure size, and identity. It authors a
+one-term program ranking candidates by simulated output at the admissible
+maximum—without receiving or recreating `constraint_compatible`.
+
+The program binds before a held-out portfolio exists, matches the passing v3
+choice on that independently authored portfolio, and beats the exact harmful
+v2 control three shifts to zero. Reserve and ordinary recovery floors pass. The
+program becomes subject capability state and later survives exact fresh-actor
+reuse on another actor-authored portfolio, again passing all three shifts while
+the old control passes none.
+
+Exact open subject
+`d300f2d5fb158a7650eab45e8d3a2c0c3445b216e2f4f9aef830a6bdebbef54c`
+retains both readable selector history and the actor-authored program. The
+researcher still defines the total grammar, deadline-family portfolios, and
+operating envelope. The next test should expose this compact program to a
+materially different world where lower simulated output is not automatically
+the right relation. Consequence must transfer, revise, or surrender the program
+without returning feature authorship to the researcher.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

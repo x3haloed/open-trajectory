@@ -1081,6 +1081,29 @@ choosing the next materially different world. The subject must still bind its
 proposal before consequence, preserve cumulative floors, and remain corrigible
 under authority it does not control.
 
+OT-0146 reduces the first of those causes. Its fresh corrector receives raw
+portfolio structure, exact comparative consequence, and a total expression
+grammar with no named derived features. It authors a one-term program ranking
+candidates by simulated output at the admissible operating maximum. The program
+is bound before a new portfolio exists.
+
+On two later independently authored portfolios, the retained program chooses
+deadline-capped cadence and passes every shifted history. The exact old selector
+control chooses pure relative cadence and fails every shift. Exact reserve and
+ordinary recovery floors pass, the readable v3 selector remains present, and a
+fresh actor reuses the exact program without revision.
+
+Exact open subject
+`d300f2d5fb158a7650eab45e8d3a2c0c3445b216e2f4f9aef830a6bdebbef54c`
+now carries actor-authored selector computation. Its one-term “lower simulated
+output” relation is intentionally not treated as universal. The next decisive
+world must separate deadline usefulness from that literal relation—for example,
+a domain where sufficient output has a lower bound or where too little action
+is harmful. Bind exact program behavior before consequence, then let retained
+failure authorize actor revision inside the same grammar. Preserve all existing
+floors and compare against the unchanged program. This tests cross-world
+corrigibility of actor-authored semantics rather than another same-family reuse.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1213,7 +1236,9 @@ under authority it does not control.
   of one declared constitutional ceiling is now established once, while
   consequence-corrected choice among two actor-authored amendment families is
   established, transferred across domains, and corrected after later harm in
-  one bounded chain. Open amendment-language invention, subject-selected world
+  one bounded chain. One actor-authored selector program now replaces the named
+  feature vocabulary and survives later reuse, but cross-world program transfer
+  remains open. Autonomous amendment-language invention, subject-selected world
   transition, and subject-authored seed priorities remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

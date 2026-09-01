@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-actor-authored-selector-program",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 416858,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6d894759b4f5a812d93baa885bb20dcc211d081d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0146",
+  "input_manifests": [
+    "evidence/manifests/OT-0145/open-subject-with-corrigible-cross-domain-selector.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject retains actor-authored selector program; transfer beyond deadline recovery remains unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-actor-authored-selector-program",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "aa3bbe9ea2238e8668e63cdadfc45e4283fb88b045fc51518bb8bfd8e0375b1e"
+}

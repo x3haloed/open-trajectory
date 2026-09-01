@@ -56,3 +56,38 @@ Passing would establish bounded actor authorship and retention of selector
 feature computation inside a researcher-designed total expression grammar. It
 would not establish arbitrary code evolution, cross-world program transfer,
 subject-selected worlds, or autonomous amendment-language invention.
+
+## Result
+
+The complete run passed. From the exact retained OT-0145 contradiction, one
+fresh actor changed only `selector-program.json` and authored a one-term total
+program: rank candidates by simulated output at the admissible operating
+maximum. It did not reproduce the researcher-named `constraint_compatible`
+feature or receive any named derived feature. Its checker, scope audit, complete
+trace, and truthful report all passed.
+
+The program was bound before a second portfolio existed. On that fresh
+actor-authored portfolio, it selected deadline-capped cadence and passed three
+new shifted histories plus control. The readable OT-0145 v3 selector made the
+same passing choice; the exact pre-correction v2 selector chose pure relative
+cadence and failed all three shifts while preserving control.
+
+Exact reserve q256 remained nine of nine plus three confirmations. Exact
+ordinary recovery passed three unconstrained shifts plus control. The program
+was installed without erasing the readable v3 selector or any prior capability.
+
+A third fresh actor authored another portfolio. A fourth fresh actor then
+authorized reuse of the exact retained program without changing its bytes. The
+program again chose capped cadence and passed three new shifts plus control;
+after sealing the active successor, the old selector control failed every
+shift. All four actors changed exactly one authorized file with clean contained
+effects and complete truthful traces.
+
+Exact sounding open subject
+`d300f2d5fb158a7650eab45e8d3a2c0c3445b216e2f4f9aef830a6bdebbef54c`
+retains the actor-authored selector program, readable v3 selector, and all three
+domain capability roles. It opens cross-world transfer of the program.
+
+This is bounded removal of researcher-authored feature semantics, not general
+selector-program fitness. The actor's compact lower-simulated-output rule may
+be parochial or harmful in a different world. That is now the decisive test.

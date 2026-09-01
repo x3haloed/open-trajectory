@@ -204,6 +204,10 @@ The strongest footholds are:
   A fresh correction adds constraint compatibility; on a held-out portfolio the
   corrected selector passes every shift while its unchanged parent passes none,
   with both prior capability floors and later exact reuse preserved.
+- `OT-0146`: a fresh actor replaces the named feature reorder with a retained
+  total selector program composed from raw simulation/context primitives. It
+  passes two later actor-authored portfolios, preserves all prior floors, and
+  remains exact through fresh-actor reuse.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
