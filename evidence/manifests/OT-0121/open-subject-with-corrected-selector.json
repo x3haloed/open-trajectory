@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-corrected-selector",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 320102,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6dd99842a68f9657578efe3fbb407336908718cb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0121",
+  "input_manifests": [
+    "evidence/manifests/OT-0120/open-subject-with-world-improved-selector.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject with consequence-corrected selector and renewed subject-originated pursuit."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-corrected-selector",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9cf2c12727748086c311d3565e50e552f1dcb9131a6c1d66018b96cbed47ad07"
+}

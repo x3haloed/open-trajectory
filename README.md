@@ -128,6 +128,8 @@ The strongest footholds are:
   its successor renews the exact still-unresolved opening.
 - `OT-0120`: one promoted exact grounded renewal installing the world-improved
   selector in an open subject without erasing its still-missing contact.
+- `OT-0121`: one promoted contradictory selector correction—12/12 and zero
+  regret versus 4/12 and 768 regret—with exact prior-world no-regression replay.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

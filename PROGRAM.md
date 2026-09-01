@@ -508,5 +508,11 @@ an observable cost, making the promoted heuristic incomplete, and compare one
 fresh correction against the unchanged promoted selector while replaying the
 prior held-out floor.
 
+OT-0121 passes that contradictory correction. The fresh revised selector beats
+the unchanged promoted selector 12/12 to 4/12 with zero versus 768 regret and
+replays the exact prior hidden world at 12/12 with zero regret. A clean fresh
+assimilation promotes an open corrected subject. The next dependency is
+reducing researcher causation over which world or regime is opened next.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

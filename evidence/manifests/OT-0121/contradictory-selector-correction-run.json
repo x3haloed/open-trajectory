@@ -1,0 +1,33 @@
+{
+  "artifact_id": "contradictory-selector-correction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1478656,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6dd99842a68f9657578efe3fbb407336908718cb",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0121",
+  "input_manifests": [
+    "evidence/manifests/OT-0120/grounded-selector-renewal-promotion-run.json"
+  ],
+  "kind": "contradictory-selector-correction-run",
+  "limitations": [
+    "One promoted selector was corrected in one later synthetic portfolio regime with exact prior-world replay; recurrence, cross-domain transfer, and researcher-independent world generation remain unestablished."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:contradictory-selector-correction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f1546a92b196a5f4abd58d063794df072bc9339d985afe6402ba6bc5dfa8be0b"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "contradictory-selector-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 31703,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6dd99842a68f9657578efe3fbb407336908718cb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0121",
+  "input_manifests": [
+    "evidence/manifests/OT-0120/grounded-selector-renewal-promotion-aggregate.json"
+  ],
+  "kind": "contradictory-selector-correction-result",
+  "limitations": [
+    "Corrected selector achieved 12/12 and zero regret against 4/12 and 768 regret for the unchanged promoted selector, while replaying the prior hidden world at 12/12."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contradictory-selector-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d1d57501744a4967feba7f9b64f525cd53d1e77d7690341f81cda3dc52cd0a7c"
+}

@@ -662,6 +662,22 @@ promoted monotone resilience heuristic becomes systematically incomplete. A
 fresh correction must beat the unchanged promoted selector on hidden later
 portfolios while replaying the exact prior hidden floor.
 
+OT-0121 passes. One fresh correction adds the observed resilience carry cost
+without breaking contacts where that field is absent. It scores 12/12 with zero
+regret in the later hidden world against 4/12 and 768 regret for the unchanged
+promoted selector, while replaying the exact earlier hidden world at 12/12 with
+zero regret and all four floors. Clean grounded assimilation promotes exact
+open subject
+`1d309731183215aaa650f20a46164415ba6ca0348453ac383acdf45b18609aa5`.
+
+The lineage now operationally joins continuity, held-out selector improvement,
+later contradiction, no-regression correction, and renewed pursuit across fresh
+actors. The remaining central gap is external causation: the observer still
+designed and selected the later regime. The next experiment should freeze a
+multi-surface world envelope and let the subject's installed corrected selector
+choose which contact to open, then let consequence rather than a researcher
+determine whether to use, correct, extend, or surrender it.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -749,6 +765,9 @@ portfolios while replaying the exact prior hidden floor.
   after a contained denied diagnostic in the assimilator trace.
 - That selector is now installed in an exact open subject whose grounded
   continuation renews genuinely missing contact rather than forcing novelty.
+- A later objective regime has now made that selector harmful and a fresh
+  corrected selector beats it decisively while preserving the exact earlier
+  hidden floor.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
