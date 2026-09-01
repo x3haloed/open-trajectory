@@ -1004,6 +1004,31 @@ cadence or representation cost—and let retained consequence improve which
 self-change rule governs later encounters. Preserve subject liveness, exact
 prior floors, and independent consequence.
 
+OT-0142 performs that selector test and passes. Two fresh portfolio actors
+independently author minimal absolute and quantum-relative amendments. Both pass
+current q32 contact. The inherited selector chooses the smaller absolute patch,
+whose sealed q64 consequence is three of nine versus the relative alternative's
+nine of nine. A fresh corrector changes only selector priority, ranking derived
+scale invariance before mutation surface.
+
+On a held-out second portfolio, corrected and unchanged selectors receive
+identical information and are bound before hidden consequence. Corrected chooses
+relative and passes q64 nine of nine; unchanged chooses absolute and fails at
+three of nine. The active subject retains the relative strategy. A later fresh
+actor reuses it at q128 for nine of nine, while the post-seal absolute control
+scores zero of nine. Exact open subject
+`a66da59648c69b0b963be36da25e37156ad55f12598d749964c02e5bfb8dce4d`
+continues toward q256.
+
+This establishes a bounded improvement in selection among different future
+self-change rules, not merely another parameter correction. The next test
+should not remain in reserve-band arithmetic. Carry the corrected selector's
+learned priority into a materially different contact family with actor-authored
+amendments and a matched unchanged selector. Require that scale invariance or
+the more general learned relation is objectively useful there, preserve the
+complete reserve floor, and let failure correct or surrender the transferred
+priority rather than making it dogma.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1134,7 +1159,8 @@ prior floors, and independent consequence.
   encounter without between-cycle researcher intervention. The developmental
   constitution itself remains researcher-authored; consequence-driven revision
   of one declared constitutional ceiling is now established once, while
-  subject-authored meta-rules and choice among constitutional amendments remain
-  unestablished.
+  consequence-corrected choice among two actor-authored amendment families is
+  now established once. Open amendment-language invention, cross-domain
+  transfer, and subject-authored seed priorities remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

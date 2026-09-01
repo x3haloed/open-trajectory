@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-adaptive-constitutional-selector",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 405953,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dfd0848a19c0ddacd025d81d3af09da6996c464f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0142",
+  "input_manifests": [
+    "evidence/manifests/OT-0141/open-subject-with-revised-developmental-constitution.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries consequence-corrected constitutional selector and quantum-relative contact strategy under a bounded researcher-defined amendment language."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-adaptive-constitutional-selector",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "43513ba001d53287f6cc129c4f4f122bffb2826029572bc74cf334780f4583ce"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-corrected-constitutional-selection-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3341824,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dfd0848a19c0ddacd025d81d3af09da6996c464f",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0142",
+  "input_manifests": [
+    "evidence/manifests/OT-0141/open-subject-with-revised-developmental-constitution.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded four-actor constitutional-selection correction in one synthetic reserve family; amendment language, seed selector, worlds, and admission remain researcher-designed."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-constitutional-selection-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "703ba0d5ee80267b5197ea4574d0d9c014b9b1c16fd88661e3a50983b56fe533"
+}

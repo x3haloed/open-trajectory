@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-corrected-constitutional-selection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 126369,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dfd0848a19c0ddacd025d81d3af09da6996c464f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0142",
+  "input_manifests": [
+    "evidence/manifests/OT-0141/open-subject-with-revised-developmental-constitution.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Bounded matched selector-improvement result; does not establish cross-domain transfer, open amendment invention, or subject-authored seed priorities."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-constitutional-selection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4ab80b6f281d1e823023c581056f8549a60e1866c03aa6f800161d9268804073"
+}

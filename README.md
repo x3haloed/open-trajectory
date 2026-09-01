@@ -188,6 +188,10 @@ The strongest footholds are:
 - `OT-0141`: exact transition projection installs the consequence-revised
   ceiling and capability; a fresh actor reuses both unchanged at q16, and the
   exact open subject continues toward q32 after the observer stops.
+- `OT-0142`: comparative future consequence corrects machinery selecting among
+  actor-authored constitutional amendments. On a held-out portfolio the changed
+  selector wins 9/9 to its unchanged parent's 3/9, and its retained
+  quantum-relative rule later wins 9/9 to the absolute control's 0/9.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

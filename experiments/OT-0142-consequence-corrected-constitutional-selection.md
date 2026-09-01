@@ -1,6 +1,6 @@
 # OT-0142 — consequence-corrected constitutional selection
 
-- **Status:** frozen; not run
+- **Status:** completed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** make choice among materially different self-change rules
   consequence-addressable, correct a myopic inherited selector, and retain the
@@ -95,3 +95,48 @@ scale-relative rule widens later contact without another constitutional repair.
 It would not establish open-ended amendment languages, subject-authored seed
 priorities, autonomous world generation, cross-domain transfer, or indefinite
 operation.
+
+## Result
+
+All four fresh actors and contained workspaces passed their exact mutation and
+trace audits. Both portfolio actors independently authored one least-passing
+absolute amendment and one least-passing quantum-relative amendment inside the
+published language.
+
+On the first portfolio, both candidates passed public q32. The inherited
+selector preferred the smaller mutation surface and selected absolute offset
+32. Sealed q64 consequence produced only three of nine adversarial distinctions
+for that choice while the unselected quantum-relative factor-one candidate
+produced nine of nine; all controls remained invariant. The exact comparative
+failure entered the subject.
+
+One fresh corrector changed only selector priority semantics, moving derived
+`scale_invariant` ahead of `lower_mutation_surface`. Parent identity, cause,
+version, and content digest were compiled mechanically. Retrospectively the
+corrected selector chose the passing first candidate while its unchanged parent
+still chose the failed one.
+
+On the second independently authored portfolio, corrected and unchanged
+selectors were bound under identical information before sealed q64 consequence.
+The corrected selector chose quantum-relative factor one and produced nine of
+nine distinctions plus three confirmations. The exact unchanged selector chose
+absolute offset 32 and again produced only three of nine plus three controls.
+
+The active branch installed the corrected selector, quantum-relative strategy,
+and adaptive constitution. A fourth fresh actor preserved their exact bytes and
+reused the strategy at q128, producing nine of nine distinctions and three
+controls without another amendment. Only after sealing that operational
+successor, the held-out absolute strategy was applied at q128 and produced zero
+of nine distinctions while controls remained invariant.
+
+Exact sounding open subject
+`a66da59648c69b0b963be36da25e37156ad55f12598d749964c02e5bfb8dce4d`
+points beyond observation to q256. Erasing the corrected selector reproduces
+the unchanged branch's absolute choice on the held-out portfolio.
+
+This is a bounded matched case where consequence improves machinery selecting
+among materially different rules for future self-change, and the chosen rule
+expands later contact without another constitutional repair. The amendment
+language, initial priority, world family, and admission remain
+researcher-designed; cross-domain transfer and subject-authored priorities are
+not established.

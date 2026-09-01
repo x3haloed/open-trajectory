@@ -765,5 +765,31 @@ choose or alter the meta-rule itself across materially different pressures,
 without handing the actor one preselected constitutional field and one uniquely
 passing amendment.
 
+OT-0142 makes that selection machinery consequence-addressable. Two fresh
+actors independently author held-out portfolios containing minimal absolute
+and quantum-relative constitutional amendments. The inherited selector's
+smaller-mutation priority chooses absolute offset 32, which passes q32 but fails
+future q64 at three of nine while the relative alternative passes nine of nine.
+One fresh corrector moves derived scale invariance ahead of mutation surface.
+
+On the second portfolio, corrected and exact unchanged selectors are bound
+under identical information before hidden q64 consequence. Corrected selects
+relative and passes nine of nine; unchanged selects absolute and fails at three
+of nine. The selected strategy becomes subject capability and a fourth fresh
+actor reuses it at q128 for nine of nine. The post-seal absolute control scores
+zero of nine. Exact open subject
+`a66da59648c69b0b963be36da25e37156ad55f12598d749964c02e5bfb8dce4d`
+points to q256.
+
+This is the strongest current answer to “improve the capacity to select better
+future moves”: consequence changes a selector over different self-change rules,
+the changed selector beats its unchanged parent on a held-out actor-authored
+portfolio, and the selected rule expands later contact. The remaining external
+causes are now sharper: the researcher defines the amendment language and
+initial feature vocabulary, supplies the reserve world, and still chooses the
+experiment family. Next test transfer of the selector's learned priority into a
+materially different world where scale invariance is relevant but neither
+candidate representation nor contact metric is the reserve program.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
