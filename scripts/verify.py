@@ -53,6 +53,7 @@ FAST_MODULES = (
     "tests.test_ot_0097_consequence_corrected_allocation",
     "tests.test_ot_0098_iterated_allocation_correction",
     "tests.test_ot_0099_third_consequence_allocation_correction",
+    "tests.test_ot_0100_threshold_corrected_allocation",
 )
 
 # Last commit in which the retired E14 evaluator lineage and its complete test
