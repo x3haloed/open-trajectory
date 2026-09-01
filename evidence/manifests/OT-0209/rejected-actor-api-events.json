@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-actor-api-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 855,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a4e8bcb9ce2cdc6b2f3dcc63e588a480644f5f77",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0209",
+  "input_manifests": [],
+  "kind": "actor-event-stream",
+  "limitations": [
+    "Contains only thread startup and invalid-schema API failure; no actor output."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-actor-api-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ebfa2019e58bccc4d13c1c600fb218226de0c96f6e5d50cc75261df2d7064979"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "invalid-before-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 875,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a4e8bcb9ce2cdc6b2f3dcc63e588a480644f5f77",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0209",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Actor API rejected the frozen response schema before model contact; no hypothesis evidence was produced."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:invalid-before-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "013faf60953773ff3dbc59aa48e72a73a31fb1ed9ad100170c27f2da5d54c85d"
+}

@@ -1,6 +1,6 @@
 # OT-0209 — subject-authored executable code pursuit
 
-- **Status:** frozen; not yet run
+- **Status:** invalid before actor contact
 - **Evidence class:** exploratory-only
 - **Target:** recurrence and cross-world use of OT-0208's corrected pursuit
   selector
@@ -89,4 +89,19 @@ the external world and admission interfaces.
 
 ## Result
 
-Not yet run.
+The frozen preflight passed, but the first actor invocation was rejected by the
+actor API before model contact. Both response schemas used `const` for the
+`action` property without an explicit JSON `type`; the API returned
+`invalid_json_schema`. No candidate output exists, hidden consequence remained
+sealed, and no scientific gate was evaluated.
+
+This is a material apparatus invalidation because preflight checked only schema
+presence, not the stricter response-format shape. The exact OT-0208 parent
+`ab119b11...` remains sounding and open. A successor experiment may make only
+the prospective schema repair, add a conformance fixture for typed constants,
+and repeat the otherwise frozen test.
+
+Evidence:
+
+- `evidence/manifests/OT-0209/invalid-before-contact-aggregate.json`
+- `evidence/manifests/OT-0209/rejected-actor-api-events.json`
