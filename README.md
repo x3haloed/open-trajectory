@@ -222,6 +222,9 @@ The strongest footholds are:
 - `OT-0150`: exact continuation completes that blind stake. Fresh contact passes
   all hidden branching cases; consequence retires it into an actor-authored
   continuity stake, while erasure and changed-property controls alter routing.
+- `OT-0151`: unchanged machinery consumes that continuity stake, selects reset
+  contact, passes every hidden case, and consequences it into a third
+  actor-authored stake—without between-cycle researcher world choice.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

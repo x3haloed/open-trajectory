@@ -1177,6 +1177,23 @@ these cycles. Preserve the exact catalog/compiler and all prior capabilities;
 seal before controls. Passing would turn one subject-originated world choice
 into a two-cycle subject-directed sequence.
 
+OT-0151 passes that recurrence. The exact carried continuity stake binds and
+selects reset-carrier without a stake or routing actor. Fresh implementation
+passes all three hidden reset cases; fresh consequence assimilation authors a
+third stake: expand viable moves from the carried signal without reopening
+blocked branches. Property erasure removes routing and a changed property
+selects another world.
+
+Exact open subject
+`f1fcfba3742e8302f4c0e36f1c92faf6e173c112e78ef20fc9a8fcb2e992f787`
+therefore closes the bounded two-transition test. The strongest next experiment
+should combine these transitions under one unchanged scheduler invocation,
+starting from the exact third stake and stopping only at a frozen encounter
+budget. It should not preselect the stake itinerary. A more discriminating
+variant should also expose a property the fixed catalog cannot realize and let
+consequence authorize language/catalog expansion; otherwise a long run may only
+cycle through three supplied worlds.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1314,7 +1331,9 @@ into a two-cycle subject-directed sequence.
   installation, and later exact reuse now pass. Autonomous amendment-language
   invention and subject-authored seed priorities remain unestablished. One
   blind actor-originated priority now causes and completes a distinct useful
-  world route, and consequence authors the next stake. Recurrence from that
-  stake and an open-ended property language remain unestablished.
+  world route, and consequence authors the next stake. A second transition now
+  consumes that stake and authors a third without between-cycle researcher
+  world choice. Single-invocation recurrence and an open-ended property language
+  remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

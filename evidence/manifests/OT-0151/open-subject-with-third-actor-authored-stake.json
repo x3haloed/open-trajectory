@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-third-actor-authored-stake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 430717,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f5a802f223762124f4b9e6e68e2ab1cc3966aeeb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0151",
+  "input_manifests": [
+    "evidence/manifests/OT-0150/open-subject-with-actor-authored-continuity-stake.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries a third actor-authored option-expansion stake within the fixed property language."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-third-actor-authored-stake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a88602cfcaceeb8d0389cddb829899965127791d7e542252535e6146c6305e13"
+}

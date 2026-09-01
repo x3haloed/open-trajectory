@@ -930,5 +930,20 @@ next record should let unchanged machinery consume that exact next stake,
 select reset-carrier, complete consequence, and author another stake without a
 researcher choosing pursuit or world between cycles.
 
+OT-0151 passes that recurrence. The exact carried continuity stake binds and
+compiles directly to reset-carrier. A fresh implementer authors `carry`, passes
+all hidden resets, and a separate fresh assimilator retires the stake into a
+third actor-authored `option-expansion` pursuit grounded in the preserved
+signal. Erasure and changed-property controls again alter routing.
+
+Exact open subject
+`f1fcfba3742e8302f4c0e36f1c92faf6e173c112e78ef20fc9a8fcb2e992f787`
+contains two selected-world capabilities and a third active stake. OT-0150 plus
+OT-0151 are a bounded two-transition sequence with no between-cycle researcher
+choice of pursuit or world. The next work should test whether the same process
+can run multiple stakes under one fixed scheduler invocation and whether the
+property/world language itself can widen, rather than merely cycling within
+three researcher-designed properties.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
