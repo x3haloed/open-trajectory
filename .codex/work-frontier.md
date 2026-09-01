@@ -200,7 +200,12 @@ open at `correct` after independent 2/6 contradiction.
   `restore_water_links`, authors an executable contact, and receives independent
   2/6 contradiction. Exact `053ed81d...` retains it outside the inherited
   registry and dispatches correction.
+- OT-0235's generic actor derives that outward target, makes an exact local
+  repair, and reaches correction-public 4/4. G8 rejects before follow-up because
+  denied macOS toolchain cache attempts set `sandbox_violation_retained`, despite
+  no traversal, suspicious command, protected path, or outside effect. The exact
+  parent remains current and the patch is retained unadmitted.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is generic correction through the
-  actor-authored interface without retrofitting it into the inherited registry
-  or supplying a target-specific repair.
+  external. The next discriminating step is a prospective containment-authority
+  refinement, followed—only if warranted—by consequence on the exact retained
+  correction candidate without actor resampling.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-outward-correction-source",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1104,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ef8f71b7357488e9cb255ce3e685ad7ed223fe15",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0235",
+  "input_manifests": [
+    "OT-0235/outward-interface-correction-aggregate.json"
+  ],
+  "kind": "candidate-source",
+  "limitations": [
+    "Mechanically exact target-local candidate source retained after OT-0235 rejection; it is not admitted and has not received prospective follow-up consequence."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:retained-outward-correction-source",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8c8e7467bd1c3777677b04fe1ec40f229c6b11a68737179a3a2807551a7b157d"
+}

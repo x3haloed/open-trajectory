@@ -1,0 +1,31 @@
+{
+  "artifact_id": "outward-interface-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3705,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ef8f71b7357488e9cb255ce3e685ad7ed223fe15",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0235",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "The actor produced a target-local public-4-of-4 correction, but G8 rejected before prospective consequence because an incidental denied toolchain cache operation set sandbox_violation_retained."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:outward-interface-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a0833f16a12bb1e6cc88dd3b1078839814ccef043e44572dfb7fc39f0fd46080"
+}

@@ -2091,5 +2091,21 @@ open a fresh generic corrector against the world receipt, and require prospectiv
 consequence against the unchanged control. After successful correction, test
 whether another assimilation can turn outward again without a researcher target.
 
+OT-0235 attempts that correction and rejects before follow-up. The fresh actor
+derives the target, produces an exact target-local patch, and reaches visible
+4/4. Ordinary `python3` and `git` checks also cause macOS tooling to attempt and
+fail system-temp cache writes. G8 sees `sandbox_violation_retained` and rejects,
+even though the audit records exact expected changes, complete trace, accepted
+no-traversal command paths, no suspicious commands, no protected path, and no
+outside file effects. Exact parent `053ed81d...` remains current; the candidate
+and audit are retained unadmitted.
+
+This is now an audit-authority frontier. Do not rescore OT-0235 or rerun its
+actor. Prospectively distinguish a contained denied incidental side effect from
+an attempted escape with material effect or intent uncertainty. Any challenger
+must retain rejection for outside mutations, protected access, traversal,
+suspicious commands, incomplete traces, or ambiguous denial evidence. Only then
+may the exact retained candidate receive prospective consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

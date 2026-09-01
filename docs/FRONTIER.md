@@ -2702,3 +2702,19 @@ reference only through the correction encounter's world interface; it may not
 add the target to the old registry, name it in the prompt, or write a bespoke
 repair. Passing would establish that outward discovery is not merely a terminal
 proposal but can re-enter the continuing correction/assimilation loop.
+
+OT-0235 reaches the behavioral threshold but rejects at audit. Its fresh actor
+derives `restore_water_links` from retained state, changes exactly that function
+and the correction decision, reports both exactly, and passes correction-public
+4/4. During ordinary `python3` and `git` checks, macOS tooling attempts denied
+system-temp cache writes. G8 treats the retained sandbox-denial bit as fatal.
+
+The exact audit also shows accepted no-traversal command paths, no suspicious
+commands, no protected path, no outside file changes, exact expected effects,
+and a complete trace. Parent `053ed81d...` therefore remains current and the
+candidate is retained unadmitted. The immediate frontier is a prospective audit
+rule that accepts only mechanically proven contained denials while preserving
+hard rejection of outside effects, traversal, protected access, suspicious
+commands, incomplete traces, or uncertain denial provenance. OT-0235 must not be
+rescored or resampled; a qualifying retained candidate may receive a newly
+opened prospective world only after that rule passes frozen controls.

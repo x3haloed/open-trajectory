@@ -588,6 +588,12 @@ The strongest footholds are:
   and receives independent 2/6 contradiction. Exact successor `053ed81d...`
   retains the new stake outside the unchanged inherited registry and remains
   open at `correct`.
+- `OT-0235`: a fresh generic corrector derives that outward interface, makes an
+  exact target-local repair, and reaches correction-public 4/4. G8 rejects before
+  follow-up because denied macOS toolchain cache attempts set its undifferentiated
+  sandbox-violation flag, despite no traversal, suspicious command, protected
+  path, or outside effect. Parent `053ed81d...` remains current and the candidate
+  is retained unadmitted.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
