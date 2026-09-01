@@ -1,0 +1,31 @@
+{
+  "artifact_id": "identity-preserving-set-invention-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 86769,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4298cc338015c6bda02b02af8f4059a9922ee5f5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0199",
+  "input_manifests": [],
+  "kind": "aggregate-result",
+  "limitations": [
+    "Operational transition promoted; explicit receipt causal necessity not supported."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:identity-preserving-set-invention-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "58e5073a97486ff3b5ccbaf57facc02f6541296f58cf2fc358cefa54312106d6"
+}

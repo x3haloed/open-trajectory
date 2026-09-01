@@ -1,0 +1,31 @@
+{
+  "artifact_id": "identity-preserving-set-invention-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 24522752,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4298cc338015c6bda02b02af8f4059a9922ee5f5",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0199",
+  "input_manifests": [],
+  "kind": "raw-run-archive",
+  "limitations": [
+    "Private raw actor outputs and tool traces; no hosted deployment receipts."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:identity-preserving-set-invention-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ee31c55f44fb0b05d1e9c5918f1e034257d90d1fe0dddb6e97b690913ed83117"
+}

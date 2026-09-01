@@ -408,6 +408,11 @@ The strongest footholds are:
 - `OT-0198`: invalid before actor authorization. Its erased control removed the
   subject digest required by the production projector. No behavioral result is
   claimed; the corrected replication must preflight both branch seeds.
+- `OT-0199`: active-01 invents and directly executes the missing latent selector
+  4/4 while preserving route 16/16 and identity 18/18, promoting open successor
+  `08c877ff...`. The separate attribution test rejects: active actors pass 4/6
+  versus controls 6/6, showing that the executable target and contact—not the
+  explicit invention receipt—were sufficient for this capability expansion.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -2161,3 +2161,27 @@ the frozen AST language, operational/causal claim separation, actor schedule,
 and gates only after preflight carries both active and operation-erased control
 subjects through the same production seed projector. Erase latest operation
 contents without erasing `artifact_digest`.
+
+OT-0199 repairs only that projection and reaches the actor test. Active-01
+invents a prediction-independent latent selector equivalent to
+`options - outcome - blocked`, executes it 4/4 on sealed contact, and preserves
+the route floor 16/16 and identity floor 18/18. Open successor `08c877ff...`
+carries the new scoped mechanism and the opening to assimilate the completed
+capability and choose the next executable pursuit.
+
+The operational transition promotes, but its proposed causal explanation does
+not. The replication is active 4/6 versus erased control 6/6, with all twelve
+audits clean. Controls infer the expression from the coupled target and contact;
+two active actors are distracted by the explicit consequence and choose an
+observed-contact selector. Therefore do not treat an explicit invention receipt
+as necessary machinery.
+
+The frontier is now post-capability continuation. Start from exact successor
+`08c877ff...` and expose the completed latent pursuit plus its direct success
+receipt to a fresh actor. The actor must assimilate or retire it, preserve all
+earned floors, and author the next executable pursuit and contact boundary.
+Observed-unblocked and latent-unblocked are already earned; renaming either is
+repetition. If no live direction exists in the present target language, the
+subject must expand that language or leave an actionable surrender boundary.
+The observer may evaluate coherence and consequence but may not select the next
+target on the subject's behalf.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-01-latent-set-mechanism",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 582,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4298cc338015c6bda02b02af8f4059a9922ee5f5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0199",
+  "input_manifests": [],
+  "kind": "actor-authored-executable-mechanism",
+  "limitations": [
+    "One operationally promoted actor mechanism; replication active 4/6 and controls 6/6."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-01-latent-set-mechanism",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "053bf64f002924814717c04d1212900463cba5e5d0ded279e0682ddc6665da5e"
+}

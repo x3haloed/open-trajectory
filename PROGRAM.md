@@ -1594,5 +1594,20 @@ the invalid run. The new-ID repair must erase only operation authority, retain
 exact subject identity, and construct both active and control seeds during
 preflight before reusing the unchanged invention language and gates.
 
+OT-0199 makes that exact repair. Active-01 invents a scoped executable latent
+selector, passes sealed direct execution 4/4, and preserves route 16/16 plus
+identity 18/18. Open successor `08c877ff...` therefore carries the completed
+capability and a direct post-completion opening.
+
+The matched causal cohort does not support the explicit invention receipt:
+active actors pass 4/6 versus operation/consequence-erased controls 6/6. All
+audits are clean. Coupled executable target and contact are sufficient for the
+model to infer the missing expression; populated consequence distracts two
+active actors toward the already-observed set. Preserve both verdicts. Next use
+the exact promoted successor and require a fresh actor to assimilate or retire
+the completed latent pursuit and choose its own genuinely new executable
+direction. If the current target vocabulary is exhausted, expansion of that
+vocabulary is part of the subject's move, not an observer-selected next target.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
