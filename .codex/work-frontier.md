@@ -24,6 +24,9 @@ no longer depends on experiment-specific researcher choices.
   continuation.
 - Actor-authored local labels are content. Cross-actor identity belongs to the
   sealing authority unless the actor-visible contract grants broader scope.
+- A subject can add bounded continuity content without rejection merely because
+  the observer did not pre-enumerate its shape; such extensions acquire no
+  evaluator, world, scoring, or admission authority by being retained.
 
 ## Evaluation regime
 
@@ -51,10 +54,13 @@ route by 554.3 under matched fresh execution.
   encountered world remains open.
 - The actor authored the next opening, but the observer still supplied the
   bounded world family, metric projection, and admission interface.
-- OT-0211's actor-visible portfolio helper was malformed. The actor recovered
-  from visible facts and independent authoritative scoring remained valid, but
-  this carrier cannot be reused until the helper is repaired and executed in
+- OT-0211's malformed portfolio helper is repaired and executes in OT-0212
   preflight.
+- OT-0212 expected exact-key decisions to be neutral. Observed: all three actors
+  retained the exact capabilities, but two added useful identity/contact
+  continuity fields and were rejected before hidden contact. Whether a bounded
+  core-plus-extension evaluator preserves hard anchors while admitting open
+  developmental state remains to be tested prospectively.
 - Actor opening, world-interface construction, and final admission remain
   external. Reduce these dependencies only through discriminating experiments,
   not by relabeling researcher machinery as part of the subject.

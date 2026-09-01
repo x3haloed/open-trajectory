@@ -1,6 +1,6 @@
 # OT-0212 — contact-warranted retention and reopening
 
-- **Status:** frozen; not yet run
+- **Status:** complete; rejected before hidden contact
 - **Evidence class:** exploratory-only
 - **Target:** repeated continuation from OT-0211's actor-authored opening without
   compulsive self-modification
@@ -76,4 +76,34 @@ external world/evaluator/admission authority.
 
 ## Result
 
-Not yet run.
+All four independent world actors pass complete audit and author eight valid,
+discriminating suites. On the 24 public cases, the retained policy reaches
+24/24 oracles. Speed-only reaches 8/24 and reliability-only 10/24, both with
+large score loss.
+
+All three assimilation actors then choose `retain` for the exact installed
+policy and corrected selector and author new openings. Only the second decision
+passes the frozen exact-key carrier. Actors one and three add useful continuity
+content—retained policy/selector identities, and for actor three the exact
+contact identity. Those additions make their otherwise correct decisions fail
+the observer-enumerated seven-key schema. One contained denied system-library
+operation appears in actor one's trace; the boundary classifier accepts it and
+records no protected read or outside write.
+
+Because only one of three decisions binds, hidden contact remains sealed and no
+successor is compiled. Exact parent `9cb26c73...` remains sounding and open.
+OT-0212 is not negative evidence about contact-warranted retention: it is
+negative evidence about treating exact observer-enumerated state shape as a
+neutral continuity carrier.
+
+This opens a prospective evaluation transition. Preserve the seven required
+core fields and every hard authority boundary, but allow bounded additional
+subject-authored continuity content under an explicitly non-authoritative
+wrapper. Compare that challenger against held-out valid-extension and malformed
+anchors, then repeat fresh actors under a new experiment ID. Do not rescore or
+promote this run.
+
+Evidence:
+
+- `evidence/manifests/OT-0212/rejected-contact-warranted-retention.json`
+- `evidence/manifests/OT-0212/reopened-parent-after-retention-rejection.json`

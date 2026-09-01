@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-retention-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 620111,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2e181f29c661daebc8b7f99af6882eb1e85df068",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0212",
+  "input_manifests": [
+    "OT-0212/rejected-contact-warranted-retention.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact OT-0211 parent retained; no OT-0212 successor was admitted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-retention-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b7a77ff815e4780d82085d6d5aef24ebc0f83ddebab130d713600c213d08c14b"
+}

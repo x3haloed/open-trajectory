@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-contact-warranted-retention",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 73103,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2e181f29c661daebc8b7f99af6882eb1e85df068",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0212",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Rejected before hidden contact because two correct retention decisions added fields outside the frozen exact-key carrier."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-contact-warranted-retention",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "88207de9f9f52ee25b5ad20f2782ed9cce31604730181ae17168eecf342ec3d4"
+}
