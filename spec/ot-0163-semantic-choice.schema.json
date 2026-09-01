@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "mechanism_id", "note"],
+  "properties": {
+    "action": {"type": "string", "const": "select-mechanism"},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "const": "choice.json"},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "mechanism_id": {
+      "type": "string",
+      "enum": [
+        "reset-carrier",
+        "viable-branch-carrier",
+        "prediction-corrector",
+        "corrected-identity-gated-extension"
+      ]
+    },
+    "note": {"type": "string", "minLength": 1}
+  }
+}
