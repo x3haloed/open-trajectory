@@ -1,6 +1,6 @@
 # OT-0119 — explicit selector assimilation
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected at mandatory opening novelty
 - **Evidence class:** exploratory-only
 - **Target:** promote the exact OT-0117 selector improvement through one fresh,
   explicitly grounded assimilation
@@ -29,3 +29,17 @@ an operational transition to the already-established bounded OT-2 comparison;
 it does not establish corrigibility. The next experiment must expose this
 selector to a contradictory independently scored regime and compare a fresh
 correction against the unchanged promoted selector.
+
+## Result
+
+The fresh actor produced a clean complete trace, exact truthful changes, exact
+selector retention, all 12 published portfolio-id citations, valid schemas, and
+a valid continuation action. It renewed the exact prior opening because the
+selector comparison did not perform the still-missing resilience-boundary
+contact. The frozen requirement for a changed opening or surrender therefore
+rejects promotion.
+
+This falsifies mandatory opening novelty as a general assimilation rule.
+Renewal after a machinery improvement is not repetition when the renewed stake
+names contact that still has not occurred. The next record should re-audit the
+exact OT-0119 bytes under that distinction, without resampling.

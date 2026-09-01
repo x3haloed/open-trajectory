@@ -124,6 +124,8 @@ The strongest footholds are:
   on a contained denied diagnostic operation.
 - `OT-0118`: one rejected exact re-audit showing that the denied command target
   is unprovable and the assimilation citation namespace was unpublished.
+- `OT-0119`: one clean explicitly grounded assimilation rejected only because
+  its successor renews the exact still-unresolved opening.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

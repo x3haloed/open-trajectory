@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-renewed-opening",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 305331,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c4d28a2a79663f1f17b4bdef6a688ee8dbebc7b4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0119",
+  "input_manifests": [
+    "evidence/manifests/OT-0118/unchanged-open-subject-after-retained-audit-rejection.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Byte-exact unchanged open subject; the improved selector and exact renewed-opening assimilation remain retained externally."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-renewed-opening",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3ad82e07c8bc455d2cb84b9818a614e326432c5d12f4e2981d1033843fbda4a9"
+}

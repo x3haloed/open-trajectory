@@ -642,6 +642,14 @@ the operational subject remains the exact OT-0116 parent. Publish the citation
 namespace and run one fresh assimilation over the exact retained selector and
 world receipt, with no selector or hidden-world resampling.
 
+OT-0119 supplies that contract and gets a clean, grounded, exact fresh
+assimilation. It rejects solely because the successor renews the same opening.
+The completed contact improved the selector, while the opening still names a
+separate resilience-boundary contact that has not occurred. Mandatory novelty
+would erase that unresolved stake; the next record should re-audit the exact
+bytes under a gate distinguishing unchanged state from changed machinery that
+carries a still-unresolved pursuit.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "renewed-opening-selector-assimilation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4153,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c4d28a2a79663f1f17b4bdef6a688ee8dbebc7b4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0119",
+  "input_manifests": [
+    "evidence/manifests/OT-0118/rejected-retained-selector-assimilation-audit-aggregate.json"
+  ],
+  "kind": "explicit-selector-assimilation-result",
+  "limitations": [
+    "The explicit citation correction passed; mandatory opening novelty alone prevented promotion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:renewed-opening-selector-assimilation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3f865070310d60a6385b1ddca3e3d2e2e856c00a2f58f63e4886228a336335c5"
+}

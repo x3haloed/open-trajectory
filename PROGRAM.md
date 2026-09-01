@@ -496,5 +496,10 @@ exact selector and world receipt, publish both accepted citation namespaces or
 one unambiguous machine list, and run one fresh assimilation only. It must not
 resample the selector or hidden portfolios.
 
+OT-0119 passes that explicit grounding path but rejects because the actor
+renews the exact still-unresolved opening. The next record should retain the
+exact assimilation and permit renewal only when completed consequence changed
+machinery while the renewed opening names distinct contact that remains absent.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

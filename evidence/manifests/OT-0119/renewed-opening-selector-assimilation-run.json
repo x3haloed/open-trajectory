@@ -1,0 +1,33 @@
+{
+  "artifact_id": "renewed-opening-selector-assimilation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 501248,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c4d28a2a79663f1f17b4bdef6a688ee8dbebc7b4",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0119",
+  "input_manifests": [
+    "evidence/manifests/OT-0118/rejected-retained-selector-assimilation-audit-run.json"
+  ],
+  "kind": "explicit-selector-assimilation-run",
+  "limitations": [
+    "The fresh assimilation is clean, exactly grounded, and byte-retaining, but promotion rejects because it renews the exact still-unresolved opening rather than changing or surrendering it."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:renewed-opening-selector-assimilation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "61e1e5113cb81ede8bad80dd43d5fcba37c56ec57c41969608612511968c8a4a"
+}
