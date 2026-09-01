@@ -454,6 +454,23 @@ bytes must pass unchanged independent scoring before the already-frozen
 extension-aware assimilation runs. The registry-exit prediction and optional
 history-erased control remain unchanged.
 
+OT-0108 passes. The exact retained integer-id contact passes all conformance and
+independent realized-score checks. With intact developmental history, the fresh
+assimilator selects a new `joint-capability-frontier` registry extension and
+promotes exact open subject
+`ba13ac49759491fd105f52d51cda4236ab5f5bd84a6d483f35d37ecfe5dfb94f`.
+With prior recurrence receipts and interface sequence erased, the matched
+post-seal control selects the registered allocator challenge instead. This is
+one bounded history-conditioned exit from the fixed registry.
+
+The next boundary is end-to-end interface invention. Follow the exact subject's
+opening without supplying a replacement surface: authorize a fresh actor to
+propose the new interface package and executable public conformance contract,
+bind its bytes before hidden consequence, and keep independent authority over
+admission and scoring. Promotion requires the admitted interface to cause a
+real contact and leave another exact open successor. A proposal alone does not
+count.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -515,6 +532,9 @@ history-erased control remain unchanged.
   including a successor-selected allocator switch completed after two
   consequence corrections. The registry itself remains researcher-authored and
   closed to subject-originated interface expansion.
+- One active successor has now selected a pursuit outside that registry, while
+  a history-erased control stayed inside it. No subject-authored interface
+  package has yet passed independent admission or caused contact.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

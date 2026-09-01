@@ -89,6 +89,10 @@ The strongest footholds are:
 - `OT-0107`: one rejected registry-exit attempt whose exact bound joint contact
   was substantively valid but stopped on an undisclosed string-only option-id
   validator before extension-aware assimilation.
+- `OT-0108`: one promoted exact-contact repair whose intact lineage selected a
+  new registry-extension pursuit while its history-erased control selected a
+  registered interface, yielding an exact open successor for interface
+  invention and admission.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

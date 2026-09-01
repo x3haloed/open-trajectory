@@ -1,6 +1,6 @@
 # OT-0108 — semantic-id registry exit
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; operationally promoted
 - **Evidence class:** exploratory-only
 - **Target:** subject-originated exit from a researcher-authored contact registry
 - **Parent:** exact OT-0106 subject at
@@ -62,3 +62,23 @@ extension would additionally establish one bounded subject-originated pursuit
 outside the closed registry. It would not establish a valid interface package,
 independent admission of that package, successful use, open-domain invention,
 or autonomous admission authority.
+
+## Result
+
+The exact retained OT-0107 contact passed the published semantic-id validator
+without changing or resampling its bytes. All three integer-id cases matched
+the independent realized-score oracle, selecting ids `2`, `4`, and `6`.
+
+The active fresh assimilator grounded its update in those receipts, preserved
+the retained machinery, and selected a `registry-extension` pursuit named
+`joint-capability-frontier`. It promoted an exact sounding, open successor at
+`ba13ac49759491fd105f52d51cda4236ab5f5bd84a6d483f35d37ecfe5dfb94f`.
+The post-seal recurrence-history-erased control instead selected the registered
+`allocator-challenge` interface. Both actors were conformant and clean.
+
+This is one bounded causal observation that inherited developmental history can
+change whether a fresh successor exits a fixed interface registry after the
+same newly completed contact. It does not establish selection frequency or that
+the requested new interface can be authored, independently admitted, or used.
+The next experiment should follow the exact successor's own opening and test
+that complete path.

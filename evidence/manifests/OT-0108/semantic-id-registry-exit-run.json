@@ -1,0 +1,33 @@
+{
+  "artifact_id": "semantic-id-registry-exit-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 818688,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4294208ff8d3496b8d931999486df88d045a01f8",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0108",
+  "input_manifests": [
+    "evidence/manifests/OT-0107/rejected-registry-exit-continuation-run.json"
+  ],
+  "kind": "registry-exit-continuation",
+  "limitations": [
+    "One bounded registry-extension selection and one post-seal history-erased control; no frequency or open-domain invention claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:semantic-id-registry-exit-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ee4d32ea3c32a0cc5b2cb55dbf674bfe8697b7a51e9de55f9ac1ebf7ac9b4fb9"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "semantic-id-registry-exit-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 19440,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4294208ff8d3496b8d931999486df88d045a01f8",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0108",
+  "input_manifests": [
+    "evidence/manifests/OT-0107/registry-exit-continuation-aggregate.json"
+  ],
+  "kind": "registry-exit-continuation-result",
+  "limitations": [
+    "The active lineage selected registry extension while one history-erased control selected a registered contact; one paired observation does not establish frequency."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:semantic-id-registry-exit-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a0b36dfe2b5804d2ab579cb506c2e9856569798f72f81e4505f298e53f1f4f22"
+}

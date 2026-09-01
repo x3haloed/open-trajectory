@@ -181,6 +181,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   assimilation. Its three substantive boundary cases are rejected only because
   integer option ids violate an undisclosed string-only validator; the public
   contract did not specify id type. The OT-0106 parent remains open.
+- `OT-0108` repairs only that semantic ABI and scores the exact retained bytes.
+  All three cases pass. The active lineage selects a new
+  `joint-capability-frontier` registry extension and promotes an exact open
+  successor, while a post-seal history-erased control selects the registered
+  allocator challenge. This isolates one bounded history-conditioned registry
+  exit, not successful interface invention or admission.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -372,6 +378,12 @@ OT-0107 reaches the next bound contact but exposes a serialization-only id ABI
 defect before the registry-exit decision. The next record should broaden the
 published id contract, re-audit the exact contact without resampling, and then
 run the already-bound extension-aware assimilation.
+OT-0108 makes that repair and passes. The intact lineage chooses registry
+extension; the matched history-erased control chooses a registered contact.
+The exact open subject now requires a new `joint-capability-frontier` interface.
+The next record should let a fresh successor author that interface and its
+public executable contract, bind it before hidden consequence, and require
+independent admission and successful use before promotion.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
