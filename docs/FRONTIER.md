@@ -447,6 +447,13 @@ explicit, accept a consistent comparable string or integer type per case,
 re-audit the exact retained contact without resampling, and continue into the
 already-frozen extension-aware assimilation.
 
+OT-0108 freezes that semantic repair without changing the contact. Option ids
+may be nonempty strings or integers, but must be distinct and consistently typed
+within each case so greatest-id comparison remains total. The exact OT-0107
+bytes must pass unchanged independent scoring before the already-frozen
+extension-aware assimilation runs. The registry-exit prediction and optional
+history-erased control remain unchanged.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
