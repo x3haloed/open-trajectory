@@ -119,6 +119,9 @@ The strongest footholds are:
 - `OT-0116`: one promoted exact re-audit under a published bounded target
   contract, yielding an open subject with three generic expansions and a fourth
   subject-selected opening.
+- `OT-0117`: one passed matched selector-improvement comparison—12/12 and zero
+  regret versus 4/12 and 548 regret—whose later subject promotion is rejected
+  on a contained denied diagnostic operation.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-assimilation-audit-stop",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 305331,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "415aeb347ea64080fb4cede96074a7343ce271f4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0117",
+  "input_manifests": [
+    "evidence/manifests/OT-0116/open-subject-after-third-generic-expansion.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Byte-exact unchanged OT-0116 subject; the improved selector and grounded assimilation remain retained externally but unpromoted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-assimilation-audit-stop",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3ad82e07c8bc455d2cb84b9818a614e326432c5d12f4e2981d1033843fbda4a9"
+}

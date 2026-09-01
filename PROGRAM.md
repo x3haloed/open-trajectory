@@ -222,6 +222,10 @@ condition, not the permanent purpose or executive of the resulting subject.
 - `OT-0116` publishes a 3–128-character target contract, re-audits every exact
   OT-0115 byte and receipt without resampling, and promotes an open subject
   carrying three generic expansions and a fourth subject-selected opening.
+- `OT-0117` turns that opening into a world-grounded selector revision. The
+  bound selector beats its inherited control 12/12 to 4/12 with zero versus 548
+  regret, but subject promotion rejects on one contained denied diagnostic in
+  the later assimilator trace.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -475,6 +479,14 @@ the repaired prospective machinery for multiple cycles in one invocation,
 without a researcher choosing surfaces or intervening between cycles, and
 treat the observation budget as a pause in observation rather than closure of a
 sounding subject.
+
+OT-0117 establishes the missing bounded selector-improvement comparison under
+matched hidden portfolios while correctly withholding the operational
+transition. The next record should re-audit the retained assimilation without
+resampling, treating the denied `shasum` diagnostic as non-material only if the
+equivalent successful byte comparison, exact effects, and all other gates
+reconstruct. After promotion, a contradictory portfolio regime should test
+whether the improved selector can itself be corrected.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

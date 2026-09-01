@@ -619,6 +619,21 @@ intervene between cycles. A fixed observer budget may end the observation but
 must preserve any sounding open successor rather than interpreting continued
 music as failure.
 
+Reorientation showed that another synthetic extension would not test improved
+future-move selection. OT-0117 instead applies the subject's resilience opening
+to its inherited executable allocator in an independently scored portfolio
+world. The fresh revised selector achieves 12/12 and zero regret on held-out
+portfolios; its exact inherited control achieves 4/12 and 548 regret, while all
+four inherited floor cases remain correct. This is the strongest current
+bounded OT-2 selector-improvement comparison.
+
+The subject transition remains rejected. The fresh assimilator produced valid,
+grounded, byte-retaining output but attempted `shasum`; macOS denied its system
+Perl, after which `cmp` verified the same bytes. The frozen clean-trace gate
+therefore stops promotion. Retain and re-audit those exact bytes under a
+prospectively stated materiality rule before opening the required contradictory
+regime.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -701,6 +716,9 @@ music as failure.
 - Re-auditing that exact output under the published bounded target contract
   promotes the third generic expansion and leaves a fourth subject-selected
   extension open.
+- A world-grounded revised selector now decisively beats its exact inherited
+  control on held-out portfolios, but its subject transition remains unpromoted
+  after a contained denied diagnostic in the assimilator trace.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

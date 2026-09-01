@@ -1,6 +1,6 @@
 # OT-0117 — world-grounded selector expansion
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; selector claim passed, subject promotion rejected
 - **Evidence class:** exploratory-only
 - **Target:** improve the exact subject's executable pursuit selector on held-out
   objective portfolios rather than append another synthetic scoring term
@@ -74,3 +74,25 @@ It would not establish later corrigibility, recurrence of selector refinement,
 cross-domain transfer, frequency, or indefinite continuation. The next regime
 must make this improvement harmful or incomplete before corrigibility is
 claimed.
+
+## Result
+
+The fresh reviser changed only `selector.py` under a clean exact trace. Its
+bound resilience-aware selector scored all 12 hidden portfolios correctly with
+zero regret and preserved all four no-shortfall floor cases. The exact inherited
+selector scored 4 of 12 with total regret 548 on the identical portfolios. The
+frozen OT-2 matched comparison therefore passes decisively.
+
+The later fresh assimilator produced grounded valid continuation bytes and
+preserved the selector exactly. Its trace also contains one contained denied
+filesystem operation: macOS blocked the system Perl invoked by `shasum`. The
+actor then verified the same byte-retention property with `cmp`; no outside
+effect or protected-path access occurred. Because the frozen protocol required
+a clean trace, OT-0117 rejects subject promotion and preserves the exact OT-0116
+parent.
+
+The next record should retain every exact selector, world, and assimilation
+byte, prospectively classify a contained denied diagnostic with a successful
+equivalent verification as disclosed but non-material, and re-audit without
+resampling. A later contradictory portfolio regime remains required before
+selector corrigibility is claimed.

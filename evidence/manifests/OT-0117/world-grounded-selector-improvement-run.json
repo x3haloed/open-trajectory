@@ -1,0 +1,33 @@
+{
+  "artifact_id": "world-grounded-selector-improvement-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 690688,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "415aeb347ea64080fb4cede96074a7343ce271f4",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0117",
+  "input_manifests": [
+    "evidence/manifests/OT-0116/retained-third-expansion-promotion-run.json"
+  ],
+  "kind": "selector-improvement-comparison-run",
+  "limitations": [
+    "The bound selector beat its exact inherited control 12/12 to 4/12 with zero versus 548 regret; subject promotion was rejected because the later assimilator encountered one contained denied shasum operation before verifying the same byte-retention property with cmp."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:world-grounded-selector-improvement-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7bcf18e0fa7454bdc1efc401616ff715786ec58889a71705612ca2d1723f144e"
+}
