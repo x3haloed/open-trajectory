@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "action_kind", "action_target"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["continuation-action.json"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "action_kind": {"type": "string", "enum": ["registry-extension"]},
+    "action_target": {"type": "string", "pattern": "^[a-z][a-z0-9-]{2,127}$"}
+  }
+}
