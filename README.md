@@ -341,6 +341,10 @@ The strongest footholds are:
   fresh actor chooses an authority-only correction; the revised state reaches
   6/6 new contacts versus unchanged 1/6 while preserving prior prediction
   floors 4/4. Open successor `5044e9d6...` retains both mechanisms as operative.
+- `OT-0181`: a fresh actor refines the confirmed pursuit and its operational
+  successor passes new contact 3/3. The exact old-pursuit control selects the
+  same mechanism and also passes 3/3, rejecting pursuit-content causality while
+  preserving open operational successor `37cac3c6...`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

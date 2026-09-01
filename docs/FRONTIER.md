@@ -1787,3 +1787,19 @@ harm, revision, and confirmation receipts. A fresh actor should decide whether
 the question is fulfilled or still missing a named contact, author any next
 opening, and causally constrain a new encounter. Mere lexical change does not
 count, but neither does mechanically retaining a now-settled pursuit.
+
+OT-0181 advances the operational lineage but falsifies pursuit-content
+causality in the frozen comparison. One fresh assimilator authors a changed
+correction stake; its successor selects prediction correction and passes 3/3.
+The post-seal exact old-pursuit control selects the same mechanism and also
+passes 3/3. Exact open subject `37cac3c6...` is retained, while the causal claim
+is rejected.
+
+The observed failure is not missing history. All four exact ordered world
+receipts were present and cited. The actor nevertheless treated an earlier
+revoked-identity discrepancy as unresolved after later correction had already
+been confirmed. The next experiment should therefore test a compact
+consequence-compiled developmental delta against raw history alone. It may
+identify what changed, what confirmation settled, and what floors remain, but
+must leave the next stake and mechanism to the actor. Promotion requires a
+bound downstream contact difference; cleaner narration is insufficient.

@@ -1,0 +1,29 @@
+{
+  "artifact_id": "post-confirmation-pursuit-assimilation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 17720,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9b2d04fa8577326eee1dea73c89cbbf10af5aa7d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0181",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:post-confirmation-pursuit-assimilation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ec69cd99cbd4931e4f7a774a458d1b480673562ede54d0c8ed3c19acd5a03cc2"
+}

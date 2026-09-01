@@ -1362,5 +1362,21 @@ the pursuit and author the next opening. Then require that opening to constrain
 fresh contact before hidden consequence. This prevents successful machinery
 correction from becoming stable repetition.
 
+OT-0181 passes the operational handoff but rejects that stronger causal claim.
+The assimilator authors a changed correction stake, and the exact successor
+selects prediction correction and passes sealed contact 3/3. After sealing, the
+unchanged old-pursuit control selects the same mechanism and also passes 3/3.
+Exact ordered receipts and mandatory citation therefore did not make the
+developmental change legible enough to alter downstream action. Open successor
+`37cac3c6...` remains valid, but its new pursuit is not causally distinguished.
+
+The next test should add a deterministic consequence-compiled developmental
+delta alongside the exact receipts. The delta may state what changed, what the
+confirmation settled, and which prior floors remain; it may not author the
+next stake or prescribe a mechanism. Compare fresh actors with and without that
+projection, bind their authored stakes before hidden contact, and require a
+downstream causal difference. This tests whether development needs a compact
+transition representation rather than an ever larger undifferentiated history.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

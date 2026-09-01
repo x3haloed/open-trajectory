@@ -1,0 +1,29 @@
+{
+  "artifact_id": "open-subject-after-noncausal-pursuit-refinement",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 495006,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9b2d04fa8577326eee1dea73c89cbbf10af5aa7d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0181",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-noncausal-pursuit-refinement",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1f665d1275539f1eff7d36d3a7f61b9ead74e1c3136146255edf7f735b97ef88"
+}

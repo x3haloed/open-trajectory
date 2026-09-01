@@ -1,6 +1,7 @@
 # OT-0181 — post-confirmation pursuit assimilation
 
-- **Status:** frozen; not run
+- **Status:** complete; operational transition promoted; pursuit-content causal
+  claim rejected
 - **Evidence class:** exploratory-only
 - **Target:** turn OT-0180's completed correction into a changed developmental
   position whose actor-authored next stake opens and passes fresh contact
@@ -53,3 +54,38 @@ only the operational transition and preserve the negative causal result.
 Reject operational promotion at the first failed assimilation, audit, binding,
 hidden contact, ancestry, or liveness gate. Passing establishes one
 post-confirmation handoff, not recurrent self-directed pursuit assimilation.
+
+## Result
+
+All three fresh actors pass complete trace and effects audit. The assimilator
+chooses `refine-current` and authors a materially different
+`correction-from-error` stake, `restore-missing-revoked-contact`, while citing
+the four exact ordered world receipts. The active successor selects prediction
+correction and passes its sealed three-case contact 3/3. Exact open operational
+successor
+`37cac3c6873efacd1ad314cf71035130bcd1fbaea5e87c00e2774b79eaccd05e`
+carries the authored assimilation, selection, and contact receipt.
+
+The post-seal unchanged-pursuit control also selects prediction correction and
+passes the identical contact 3/3. Pursuit content is therefore not causal in
+this comparison. The actor has redescribed the already-observed
+revoked-identity discrepancy as the next unresolved stake even though the
+ordered chain includes the later harm, authority revision, and successful
+confirmation. Exact raw receipts plus a requirement to cite them preserved
+history but did not reliably convey which developmental relation had changed
+or which question had become settled.
+
+This is a split result, not a rejected lineage. The operational transition is
+promoted because its actor-authored stake opens and completes valid fresh
+contact under the frozen rule. The stronger claim that post-confirmation
+pursuit content causally moved the subject is rejected and retained as negative
+evidence.
+
+The next candidate should test a consequence-compiled developmental delta: a
+compact deterministic projection of the exact receipt chain that distinguishes
+the position before harm, the actor-chosen change, what confirmation settled,
+what prior floors remain true, and what remains genuinely open. It must not
+prescribe the next pursuit. Compare it against the same exact raw history
+without that projection, bind actor-authored successor stakes before hidden
+contact, and require a downstream causal difference rather than semantic
+agreement.

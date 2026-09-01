@@ -1,0 +1,29 @@
+{
+  "artifact_id": "actor-authored-refined-pursuit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1923,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9b2d04fa8577326eee1dea73c89cbbf10af5aa7d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0181",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-authored-refined-pursuit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4051bb04b9ab7df434be68da39ffca7c621efbf1c624f70efba2e75916bd0e6d"
+}

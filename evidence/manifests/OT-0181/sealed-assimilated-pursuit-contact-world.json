@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-assimilated-pursuit-contact-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1375,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9b2d04fa8577326eee1dea73c89cbbf10af5aa7d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0181",
+  "input_manifests": [],
+  "kind": "world-receipt",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-assimilated-pursuit-contact-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "14335f306839acfe96e1682531d369882ea6e4e0e28c5d62d920a529493f7924"
+}
