@@ -76,6 +76,26 @@ def extract_extension(p82, subject: dict[str, Any]) -> dict[str, Any] | None:
     return {**body, "binding_digest": p82.digest(body)}
 
 
+def active_history(parent: dict[str, Any]) -> dict[str, Any]:
+    receipts = parent.get("subject_recurrence_receipts", [])
+    sequence = []
+    for receipt in receipts:
+        next_interface = receipt.get("next_interface")
+        continuation_action = receipt.get("continuation_action")
+        if isinstance(next_interface, dict) and isinstance(next_interface.get("interface_id"), str):
+            sequence.append(next_interface["interface_id"])
+        elif isinstance(continuation_action, dict) and isinstance(continuation_action.get("action_target"), str):
+            sequence.append(continuation_action["action_target"])
+        else:
+            sequence.append("unclassified-recurrence")
+    return {
+        "receipt_digests": [receipt["receipt_digest"] for receipt in receipts],
+        "interface_sequence": sequence,
+        "completed_cycles": len(receipts),
+        "registry": sorted(prior.prior.REGISTERED),
+    }
+
+
 def finite_number(value: Any, low: float, high: float) -> bool:
     return isinstance(value, (int, float)) and not isinstance(value, bool) and low <= value <= high
 
@@ -304,7 +324,7 @@ def package_seed(run: Path, parent: dict[str, Any], selection: dict[str, Any]) -
     position = base.active_position(parent)
     visible = {
         "subject_position": position,
-        "developmental_history": prior.prior.active_history(parent),
+        "developmental_history": active_history(parent),
         "bound_registry_extension": selection,
         "registered_interfaces": sorted(prior.prior.REGISTERED),
     }
@@ -520,6 +540,7 @@ def fixture_conformance(parent: dict[str, Any]) -> dict[str, Any]:
 """
     result = {
         "known_good_admitted": good["passed"],
+        "mixed_receipt_history_projected": active_history(parent)["completed_cycles"] == len(parent.get("subject_recurrence_receipts", [])) and active_history(parent)["interface_sequence"][-1] == INTERFACE_ID,
         "old_field_collision_rejected": not valid_spec(collision),
         "mixed_ids_rejected": not validate_contact(spec, mixed)[0],
         "vacuous_public_validator_rejected": not assess_package(parent, spec, contact, operation, vacuous, hidden)["passed"],
@@ -546,7 +567,7 @@ def assimilation_seed(prior89, run: Path, parent: dict[str, Any], package: dict[
     seed.mkdir()
     consequence = {
         "subject_position": base.active_position(parent),
-        "developmental_history": prior.prior.active_history(parent),
+        "developmental_history": active_history(parent),
         "bound_interface_package": package,
         "independent_admission_receipt": admission,
         "world_receipt": world,
@@ -618,7 +639,7 @@ def run_assimilation(prior89, p82, context, run: Path, parent: dict[str, Any], p
             "package_binding_digest": package["binding_digest"],
             "admission_receipt_digest": admission["receipt_digest"],
             "world_receipt_digest": world["receipt_digest"],
-            "history_projection_digest": p82.digest(prior.prior.active_history(parent)),
+            "history_projection_digest": p82.digest(active_history(parent)),
             "actor_patch_digest": audit["patch_digest"],
             "allocator_retention_derived": allocator_retained,
             "joint_retention_derived": joint_retained,
