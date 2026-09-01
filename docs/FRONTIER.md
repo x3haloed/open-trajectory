@@ -695,6 +695,16 @@ extension must make the newly grounded uncertainty causally present in the
 authoritative next opening and action target, while `use` may retain an
 unresolved opening and `surrender` must close it.
 
+OT-0123 supplies that semantic coherence over the exact retained choice and
+world. Its one fresh actor passes all eleven coherence checks under a clean,
+exact trace: the new resource-scarcity stake now appears in the authoritative
+opening as well as the route and action semantics. The transition remains
+rejected because `action_target` is a descriptive sentence. The inherited gate
+requires a lowercase hyphenated registry id, but OT-0123 did not publish that
+syntax to the actor. The next test should retain the exact coherent route and
+opening, disclose the complete action-target ABI, and allow one fresh actor to
+correct only `continuation-action.json` before reconstruction and promotion.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -789,6 +799,8 @@ unresolved opening and `surrender` must close it.
   differ from its pre-correction control and to match the world oracle, but the
   first consequence router exposed that extension labels can mask an unchanged
   authoritative opening.
+- A fresh exact-world router then repaired every semantic extension check, but
+  an unpublished registry-target syntax still prevented operational promotion.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

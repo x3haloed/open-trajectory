@@ -524,5 +524,13 @@ extension requires semantic change in the authoritative continuation, not only
 an extension label or rationale. Reuse the exact selection and consequence in
 one fresh assimilation under that published coherence contract.
 
+OT-0123 makes the semantic repair: all eleven coherence checks pass, including
+a changed authoritative opening that carries resource scarcity. Promotion is
+still rejected because the actor writes a descriptive sentence where the
+inherited action validator expects a lowercase hyphenated registry id, and the
+frozen actor-visible contract did not publish that syntax. Retain the coherent
+route and opening; expose the complete target ABI and permit one fresh actor to
+correct only the invalid action.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,6 +1,6 @@
 # OT-0123 — authoritative extension coherence
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** repair the exact OT-0122 consequence transition without
   resampling its subject choice or world
@@ -68,3 +68,22 @@ be assimilated into a genuinely extended authoritative continuation once the
 continuation ABI states the missing semantic invariant. It would not establish
 general semantic grounding, repeated autonomous scheduling, or subject
 authorship of world envelopes.
+
+## Result
+
+The substantive hypothesis passed and the operational transition did not. The
+one fresh actor retained the selector, cited the exact four cases, changed the
+authoritative opening, and carried `resource scarcity` through the route,
+remaining uncertainty, continuation after contact, next opening, expected
+information, and action target. All eleven frozen coherence checks passed under
+a clean, exact, truthful trace.
+
+The actor represented `action_target` as a descriptive sentence. The inherited
+validator requires a lowercase hyphenated registry identifier, but the frozen
+OT-0123 actor-visible contract disclosed only that the target must be new and
+contain the concepts `resource` and `scarcity`. The unpublished syntax makes
+the action structurally invalid, so no binding or promotion exists. Preserve
+the coherent route and opening as retained candidate bytes. The next cheapest
+test is one fresh correction of only `continuation-action.json` under the exact
+published target grammar, followed by exact reconstruction of the complete
+transition.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "authoritative-extension-coherence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4703,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "02fbe12d2bf9d34c2c3720d815b8cab26bc6830a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0123",
+  "input_manifests": [],
+  "kind": "authoritative-extension-coherence-result",
+  "limitations": [
+    "One exact-world fresh assimilation achieved authoritative semantic extension but did not pass the inherited action-target syntax validator."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:authoritative-extension-coherence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d624d9e4073319109fcc997fb1aa76b5831552a22c81f4924c0591f10db84cb7"
+}

@@ -133,6 +133,8 @@ The strongest footholds are:
 - `OT-0122`: the corrected selector causally opens the oracle-ranked surface
   rather than its control's inferior surface; promotion is rejected because a
   claimed extension repeats the authoritative opening unchanged.
+- `OT-0123`: an exact-world fresh router repairs all semantic extension checks;
+  promotion is rejected on an unpublished registry-target syntax constraint.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
