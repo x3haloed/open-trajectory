@@ -1,0 +1,29 @@
+{
+  "artifact_id": "consequence-revised-executable-routing-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 6375936,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b6ce449e9fef53c7b246ba50ec0cd189fd80d852",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0186",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-revised-executable-routing-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "41459ea3a5e8ae290928d01e861016ef67f489f85cc4219a9a31924a10268f47"
+}

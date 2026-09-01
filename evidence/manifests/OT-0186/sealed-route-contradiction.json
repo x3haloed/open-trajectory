@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-route-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2178,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b6ce449e9fef53c7b246ba50ec0cd189fd80d852",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0186",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-route-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d8092370bd0b85191bf482c9eeb11c2b84c09843dc384f6996fa87a5e5b30434"
+}

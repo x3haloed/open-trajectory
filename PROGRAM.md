@@ -1441,5 +1441,23 @@ Later encounters should execute the bound router directly. Preserve an exact
 router-erasure comparison and all contextual floors; mechanically executing an
 uncertified actor preference does not count.
 
+OT-0186 validates the operative half and rejects decisive receipt attribution
+at its frozen threshold. The inherited route fails wider blocked-option
+contact 0/3 while viable filtering passes 3/3. All four receipt-visible actors
+repair the route and direct execution passes all three regimes 16/16. All
+audits are clean and identity remains 18/18.
+
+Two of four receipt-erased actors independently make the same repair from the
+mechanism semantics and option-expansion stake. The 4/4 versus 2/4 advantage is
+two, below the required three, so exact parent `40818aa8...` remains current.
+This is evidence that represented state can become operative without successor
+reinterpretation, but not yet that the contradiction receipt caused revision.
+
+Next replicate the unchanged active/erased contrast with enough fresh actors
+to distinguish a stable probabilistic receipt effect from chance. Keep all
+semantic inputs visible in both branches; hiding them would manufacture the
+claim. Freeze the sample and threshold prospectively, and continue to require
+direct execution plus all three contextual floors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

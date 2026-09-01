@@ -362,6 +362,10 @@ The strongest footholds are:
   Active and erased branches both score 0/6; five workspaces choose the novel
   mechanism but contradict it in their final report, and the route adds no
   reliable advantage. Exact parent `40818aa8...` remains open.
+- `OT-0186`: direct execution fixes successor reinterpretation: all four
+  contradiction-visible repairs pass 16/16. Two of four receipt-erased actors
+  infer the same repair, however, so the 4/4 versus 2/4 advantage misses the
+  frozen causal threshold and no route is installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

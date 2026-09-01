@@ -1,0 +1,29 @@
+{
+  "artifact_id": "consequence-revised-executable-routing-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 102860,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b6ce449e9fef53c7b246ba50ec0cd189fd80d852",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0186",
+  "input_manifests": [],
+  "kind": "experiment-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-revised-executable-routing-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7186ee6fe158dff5cd5a8c201455331b58ac7a0553625b2114600e03e5760fcd"
+}

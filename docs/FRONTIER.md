@@ -1903,3 +1903,22 @@ exact behavior is tested before admission, including a hidden case that
 resolves signature ties by retained floor ownership. Bound successors should
 execute it directly; they may reopen it only after receipted contradiction.
 Compare exact execution with router erasure and preserve all contextual floors.
+
+OT-0186 makes the represented decision operative and obtains a real but
+non-decisive receipt effect. The inherited route fails its new public
+contradiction 0/3. Four of four receipt-visible actors revise it, and their
+exact bound routes pass disjoint direct execution 16/16. All eight actor audits
+and the 18-case identity floor pass.
+
+Two of four receipt-erased actors also repair the route by reasoning from the
+unchanged mechanism semantics and active option-expansion stake. The resulting
+4/4 versus 2/4 full-pass difference misses the frozen advantage threshold by
+one. No route is promoted.
+
+The causal architecture is no longer the immediate obstruction: accepted
+route bytes can occupy the decision edge and carry a correction without a new
+model vote. The unresolved question is attribution. The world receipt may
+increase repair reliability, but the retained state already supports the same
+inference. Next use a prospectively larger matched replication of the unchanged
+contrast. Keep those semantic inputs rather than weakening the control, and
+predeclare a threshold capable of distinguishing the observed partial effect.

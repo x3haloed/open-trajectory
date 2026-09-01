@@ -1,6 +1,6 @@
 # OT-0186 — consequence-revised executable routing
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** complete; rejected at frozen causal-advantage gate
 - **Evidence class:** exploratory-only
 - **Target:** test whether receipted contradiction can revise represented route
   state into an operative selector that later encounters execute rather than
@@ -88,3 +88,37 @@ later direct use across fresh encounters. It would not establish discovery of
 the regime ontology, correction after an unenumerated regime, actor revision
 of the fixed interpreter, or long-run recurrence without researcher-authored
 contact.
+
+## Result
+
+The frozen contradiction behaves exactly: the OT-0185 blocked-option route
+fails 0/3 because it drops the unobserved allowed option, while viable
+filtering passes 3/3. The original route later retains observation-led and
+mixed floors 10/10 but fails all six disjoint wider blocked-option cases.
+
+All four contradiction-visible actors revise the blocked-option route to
+viable filtering, retain prediction correction and the OT-0183 composition in
+their other contexts, and pass direct executable confirmation 16/16. All eight
+actors pass complete trace, effects, mutation, and file/report conformance
+audit. The identity floor remains 18/18. Direct execution therefore removes
+OT-0185's successor reinterpretation failure.
+
+Two of four contradiction-erased controls also infer the same repair from the
+mechanism semantics and active option-expansion stake; the other two retain the
+failed route and score 10/16. Active/control full-pass counts are 4/4 versus
+2/4, an advantage of two rather than the frozen minimum three. The complete
+promotion gate rejects.
+
+No executable route or OT-0183 mechanism is installed. Exact parent
+`40818aa8c898da506378ab82ddebe6682c5edc8b524f5e1bb2025bb391cf2747`
+remains open. OT-0186 establishes a bounded engineering result—bound route
+state can directly preserve a corrected decision—but does not decisively
+attribute correction to the new world receipt because the retained state
+already contains enough semantic evidence for some actors to infer it.
+
+The next test should replicate the same frozen comparison at a sample size
+that can distinguish a probabilistic receipt effect from the observed 50%
+receipt-erased inference rate. Do not hide the stake or mechanism semantics to
+manufacture separation. Predeclare the larger threshold before new actors run;
+if the effect does not replicate, retain executable routing only as an
+engineering affordance rather than evidence of consequence-caused correction.

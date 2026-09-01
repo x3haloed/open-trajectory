@@ -1,0 +1,29 @@
+{
+  "artifact_id": "active-01-executable-route",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1269,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b6ce449e9fef53c7b246ba50ec0cd189fd80d852",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0186",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-01-executable-route",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c51d5eac4ed7edd31341143cf28355bfdae22a3640d53664a72e45923f7443c3"
+}
