@@ -552,6 +552,12 @@ package, expose the inherited-bound disagreement to one fresh corrector, and
 resume the generic admission and assimilation path without another invention
 sample.
 
+OT-0113 freezes that retained completion. It accepts structured reversibility
+declarations and field-instantiated score expressions only as metadata forms,
+while independent execution continues to own semantics. The exact package must
+then survive one receipt-driven validator correction, hidden admission, world
+use, and fresh assimilation without resampling.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
