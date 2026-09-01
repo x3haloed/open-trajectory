@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "selected_target"],
+  "properties": {
+    "action": {"type": "string", "const": "open-outward-contact"},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["outward-opening.json"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "selected_target": {"type": "string", "minLength": 1}
+  }
+}
