@@ -1,0 +1,31 @@
+{
+  "artifact_id": "unresolved-consequence-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 28043,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8dd5b5c5eba994a16cdd14db2bf9a4a86faf9851",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0218",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded maintenance correction and G5 reopening; the pending recovery contact has not yet received independent consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unresolved-consequence-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "397c27f2c1a3e582880b3ff19e0a8ceb399b6882166a6554e899feb4640fd211"
+}

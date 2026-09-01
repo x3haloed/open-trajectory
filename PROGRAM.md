@@ -1881,5 +1881,18 @@ experiment begins from `ee5b552a...`, exposes the exact package and public/world
 rows to a fresh corrector, and requires revision, retention, or surrender plus a
 new G5-valid pending contact.
 
+OT-0218 completes the correction path. A fresh actor revises only
+`schedule_maintenance`, moves the original package from 1/4 to 4/4, and reaches
+6/6 on new sealed cases while the unchanged control remains 2/6. A second fresh
+actor assimilates both receipts; exact successor `2d5a0cf4...` conforms. This
+promotes the bounded unresolved-consequence correction claim.
+
+Its G5 reopening exposes a new evaluator failure. The pending recovery package
+copies all four completed OT-0215 inputs and adds only a top-level `world` field
+ignored by the callable. Raw-JSON canonicalization counts four new inputs even
+though ABI projection makes them exact duplicates. Preserve the successor and
+correction, but mark liveness unresolved. The next prospective transition must
+canonicalize contact through the callable's admitted input projection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

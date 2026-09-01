@@ -1,6 +1,7 @@
 # OT-0218 — unresolved-consequence correction handoff
 
-- **Status:** frozen; not yet run
+- **Status:** promoted correction; pending-contact liveness interpretation
+  invalidated by post-run ABI projection
 - **Evidence class:** exploratory-only
 - **Target:** correction and reopening from an unresolved G5 world receipt
 - **Parent:** exact OT-0217 live intermediate `ee5b552a...`
@@ -114,4 +115,22 @@ observer-authored environments and admission.
 
 ## Result
 
-Not yet run.
+The corrector revised exactly `schedule_maintenance`, passed all four original
+cases, and bound source `172afa93...`. Six new sealed cases then passed 6/6
+while the unchanged control remained 2/6. A fresh assimilator retained the
+revision and exact successor `2d5a0cf4...` conforms with route 16/16 and identity
+18/18. The bounded unresolved-consequence correction claim is promoted.
+
+The assimilator also bound a different-target `schedule_recovery` package,
+which passed the frozen G5 raw-JSON novelty rule and package replay. Exact
+post-run inspection shows all four case inputs are the already-completed
+OT-0215 recovery inputs with only an added top-level `world` field. The callable
+ignores that field. Removing it makes every input exactly equal to completed
+contact.
+
+Therefore the G5 reopening interpretation is invalid: causally irrelevant JSON
+decoration manufactured four nominally new inputs. Preserve exact successor
+`2d5a0cf4...`, the correction receipts, and the raw package, but treat its
+continuation liveness as unresolved. Before executing that package, replace raw
+canonicalization prospectively with callable-ABI projection and prove the
+decorated duplicates collapse to their completed identities.

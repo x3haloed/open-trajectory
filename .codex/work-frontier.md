@@ -56,12 +56,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0217 intermediate `ee5b552a...`,
+The current exact operational subject is OT-0218 successor `2d5a0cf4...`,
 identified by
-`evidence/manifests/OT-0217/live-subject-before-unresolved-contact-assimilation.json`.
-It preserves the prior lineage and carries a G5-valid pending maintenance-risk
-contact. The external OT-0217 receipt resolves neither success nor surrender;
-that consequence has not yet been incorporated into the subject artifact.
+`evidence/manifests/OT-0218/live-subject-after-unresolved-consequence-correction.json`.
+It preserves the full lineage and adds a world-confirmed maintenance correction.
+Its stored liveness says `live`, but that interpretation is invalidated pending
+an ABI-projected evaluator transition.
 
 ## Prediction errors
 
@@ -94,6 +94,13 @@ that consequence has not yet been incorporated into the subject artifact.
   the actor widens to maintenance, then public 1/4 and hidden 2/6 contact leave
   the stake unresolved. The exact live intermediate survives; the second actor
   is never authorized.
+- OT-0218 assimilates and repairs that contradiction: maintenance moves 1/4→4/4
+  public and 2/6→6/6 sealed while unchanged stays 2/6. Its next recovery package
+  duplicates completed inputs plus an ignored `world` field. Expected: raw
+  canonical novelty denoted new contact. Observed: ABI projection collapses all
+  four inputs exactly. Uncertain: the correct projection mechanism for each
+  callable without observer-authored semantic field lists.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The immediate test is fresh-actor assimilation of the exact
-  unresolved maintenance consequence, followed by a new G5-valid reopening.
+  external. Before further contact, prospectively replace G5 raw-input identity
+  with mechanically derived callable-ABI projection and reclassify only future
+  liveness.

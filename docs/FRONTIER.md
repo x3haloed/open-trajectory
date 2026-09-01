@@ -2506,3 +2506,14 @@ attempt. Give a fresh actor the exact live subject, bound maintenance package,
 and raw 1/4 + 2/6 evidence. Require it to retain, revise, or surrender the
 maintenance mechanism and bind the next executable G5 contact. Preserve the
 unresolved receipt even if correction fails.
+
+OT-0218 repairs the contradiction. The fresh corrector changes only maintenance,
+passes the original 4/4 and new sealed 6/6 while unchanged remains 2/6; a second
+fresh actor assimilates the receipts and exact successor `2d5a0cf4...` conforms.
+This is a complete bounded correction cycle from unresolved contact.
+
+Do not execute its pending recovery package yet. All four nominally new inputs
+are completed OT-0215 inputs plus an ignored `world` field. G5's raw-JSON
+canonicalizer is blind to callable semantics and awards false liveness. The next
+work is a prospective ABI-projected canonicalizer that collapses irrelevant
+decoration while retaining genuinely new admitted fields and inputs.

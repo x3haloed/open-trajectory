@@ -1,0 +1,33 @@
+{
+  "artifact_id": "live-subject-after-unresolved-consequence-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 648237,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8dd5b5c5eba994a16cdd14db2bf9a4a86faf9851",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0218",
+  "input_manifests": [
+    "OT-0218/unresolved-consequence-correction-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Open subject with corrected maintenance capability and an unreceipted pending recovery contact; environment and admission remain external."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:live-subject-after-unresolved-consequence-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "888b8c0a5008f1514c4624e78164245e4b54baf5e717eafc62a846b5920cce21"
+}

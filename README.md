@@ -502,6 +502,11 @@ The strongest footholds are:
   contact matches 1/4 and the sealed world 2/6, so consequence is unresolved
   and the second actor never opens. This is preserved contradiction, not a run
   to retry; the next work is fresh-actor assimilation and correction.
+- `OT-0218`: fresh correction repairs maintenance from public 1/4 to 4/4 and
+  sealed 2/6 to 6/6 while unchanged remains 2/6; exact successor `2d5a0cf4...`
+  conforms. Its nominally new recovery package duplicates completed inputs plus
+  an ignored `world` field, exposing that G5 raw-JSON canonicalization is
+  gameable. Correction stands; reopening liveness does not.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
