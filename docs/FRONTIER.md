@@ -1504,6 +1504,27 @@ or surrender of the selection boundary, an unchanged-guide comparison, floor
 preservation, and another open continuation. Persistent use without this
 reversal would not establish corrigibility.
 
+OT-0172 produces the later harm and reveals a useful two-stage correction. The
+retained extension falls to public and hidden 0/3 under revoked identity
+authority, while ordinary viable behavior scores 3/3 and the extension's old
+floor remains 18/18. A clean fresh actor explicitly surrenders the falsified
+pursuit and authors a grounded correction-from-error successor stake. Exact
+open operational successor `3770a9d5...` is sealed before reopening and remains
+the lineage head.
+
+The full record rejects one step later. The unchanged guide treats mentions of
+the revoked identity prediction and historical floor as active composed
+dependency, selects the old extension again, and fails confirmation. The
+observer's predicted viable-branch successor was too narrow—the actor's
+correction stake is coherent—but the guide's return to the objectively harmful
+extension is not.
+
+Correct the selector from that exact consequence. The new boundary must
+distinguish an active composed dependency from a surrendered composition kept
+only as regression history. Require the current stake to route to
+`prediction-corrector`, retain prior floors, beat the unchanged guide on sealed
+revocation cases, and preserve another open successor after contact.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

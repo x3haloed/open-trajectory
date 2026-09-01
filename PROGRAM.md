@@ -1209,5 +1209,27 @@ harmful, preserve the current guide as the unchanged control, and require
 consequence to revise or surrender the selection boundary without closing the
 subject or regressing the established ordinary/dependency floors.
 
+OT-0172 separates two correction layers. Revoked identity authority makes the
+current extension score public and hidden 0/3 while ordinary viable behavior
+scores 3/3; the extension's legitimate old floor remains 18/18. A clean fresh
+actor fires the inherited surrender condition and authors a different
+`correction-from-error` stake grounded in the discrepancy. That exact
+operational transition seals open successor `3770a9d5...`.
+
+The unchanged guide then fails on the successor: references to the stale
+revoked-identity prediction and preserved regression floor pull selection back
+to the composed extension. The frozen full gate expected viable-branch routing
+and confirmation, so OT-0172 is rejected beyond the valid surrender boundary.
+Do not erase that boundary or install the failed post-surrender state.
+
+Continue from `3770a9d5...`. This is now genuine selector harm rather than a
+reason to force the subject's pursuit into the observer's predicted property.
+A fresh guide corrector should learn that a revoked/surrendered composition may
+remain in history as a regression floor without retaining active routing
+authority. Require the exact current correction stake to select
+`prediction-corrector`, preserve prior true-dependency and ordinary floors,
+beat the unchanged guide on a sealed revocation portfolio, and only then make
+confirmation contact.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

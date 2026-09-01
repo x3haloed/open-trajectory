@@ -302,6 +302,11 @@ The strongest footholds are:
   fresh actors. The installed selector authorizes exact extension contact,
   consequence authors a new stake, and the open successor reuses the selector
   to bind its next composed mechanism while preserving the 18/18 floor.
+- `OT-0172`: later harm causes a clean actor to surrender the falsified
+  identity-gated pursuit while its old floor remains 18/18. The unchanged
+  guide then wrongly routes the new correction stake back to the harmful
+  extension, rejecting the full claim but retaining exact open pre-selection
+  successor `3770a9d5...` as the current operational state.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

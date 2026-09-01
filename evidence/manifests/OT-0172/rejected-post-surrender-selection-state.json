@@ -1,0 +1,29 @@
+{
+  "artifact_id": "rejected-post-surrender-selection-state",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 482114,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8c79db28090e25394d147ccde2ad94f4c365188f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0172",
+  "input_manifests": [],
+  "kind": "invalidated-branch-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-post-surrender-selection-state",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "addf3ef11a7456e7db1c7f46678079bf2e5e6aad2270bad6a7cf2f11d484b495"
+}

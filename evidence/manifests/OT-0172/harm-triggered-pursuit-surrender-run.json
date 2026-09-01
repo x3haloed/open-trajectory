@@ -1,0 +1,29 @@
+{
+  "artifact_id": "harm-triggered-pursuit-surrender-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 517159,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8c79db28090e25394d147ccde2ad94f4c365188f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0172",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:harm-triggered-pursuit-surrender-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "daa46af754fb1211bd100402271b26534f441a56b122c803adfc35c33f8daaff"
+}

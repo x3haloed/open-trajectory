@@ -1,0 +1,29 @@
+{
+  "artifact_id": "sealed-revoked-identity-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 6108,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8c79db28090e25394d147ccde2ad94f4c365188f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0172",
+  "input_manifests": [],
+  "kind": "world-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-revoked-identity-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d4c8cc9bdaa1589861a385e80f1f1c581f92821d6adf32c59d313cbeaad7eaf8"
+}

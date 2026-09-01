@@ -1,0 +1,29 @@
+{
+  "artifact_id": "valid-surrender-successor-reconstruction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 556,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8c79db28090e25394d147ccde2ad94f4c365188f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0172",
+  "input_manifests": [],
+  "kind": "reconstruction-receipt",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:valid-surrender-successor-reconstruction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "70f53278bf80908c826859ff838431ecb973d3486ec6fb67c8b083eb5dc7a565"
+}
