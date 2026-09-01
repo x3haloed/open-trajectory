@@ -174,6 +174,10 @@ The strongest footholds are:
   raw floor, and works again without repair; its compiled opening is nested.
 - `OT-0137`: deterministic structured projection removes that live nesting,
   preserves exact historical actor output, and carries evidence scope separately.
+- `OT-0138`: one unchanged subject-scheduled driver carries four fresh
+  encounters through reuse, automatic widening, retained objective failure,
+  consequence-addressed capability correction, and later no-repair reuse. The
+  observer stops while the exact open subject points to encounter five.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,6 +1,6 @@
 # OT-0138 — subject-scheduled encounter loop
 
-- **Status:** frozen; not run
+- **Status:** completed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** run selection, widening, failure, correction, and verified reuse
   from subject-resident scheduler state under one unchanged driver
@@ -92,3 +92,38 @@ Passing would establish bounded recurrent developmental control by retained
 subject state under one stable driver. It would not establish a subject-authored
 scheduler, autonomous world construction, arbitrary capability revision, or an
 indefinite run.
+
+## Result
+
+The one frozen invocation passed every gate with four distinct fresh actors and
+workspaces. Subject state authorized actions `reuse`, `reuse`, `revise`, and
+`reuse` without an observer-written encounter itinerary.
+
+At reserve quantum four, exact retained offsets four produced all six
+adversarial distinctions and three confirmations. That success mechanically
+widened the next quantum to eight. Exact reuse at eight then produced the
+predicted partial failure: three of six adversarial distinctions, with all
+three controls still invariant. The complete negative receipt entered the
+subject and alone authorized correction.
+
+The correction actor changed only both offsets from four to eight. On the
+identical failed bases, revised bytes produced six of six distinctions versus
+the unchanged parent's three of six, and they preserved six of six on new
+quantum-four no-regression cases. The subject retained the revised capability
+and marked verification due. A fourth fresh actor reused those exact bytes on
+new quantum-eight bases, again producing six of six distinctions and three
+confirmations without repair.
+
+The observer stopped after four encounters. Exact sounding open subject
+`ad3acd37d497840a26c77b8a449571aa1bcaa03f915c882fc0f3924ad47e6b0f`
+did not stop: its scheduler points to encounter five at reserve quantum sixteen
+and its canonical opening says that contact remains unresolved. Removing only
+the scheduler from the sealed successor leaves no authoritative next
+encounter.
+
+This establishes one bounded recurrent loop in which subject-resident state,
+under one unchanged driver, determines reuse, widening, failure retention,
+correction authorization, verification, and the next opening. The scheduler,
+world family and generator, legal mutation fields, admission rule, and
+four-encounter observation limit remain researcher-designed. The result does
+not establish subject-authored transition machinery or indefinite operation.

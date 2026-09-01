@@ -933,17 +933,30 @@ exact `0/6 → 6/6`, raw `4/4`, and later reuse `2/2` evidence scope. Exact open
 subject `8ed20a053a3663570a94b551c1d44e5dac9ddb6e8447853b6c1862bc4769b367`
 retains the corrected program capability and has one canonical lifecycle prefix.
 
-Reorient here. Additional hand-authored reserve regimes would improve frequency
-evidence but preserve the largest hidden causal component: the outside
-researcher still chooses the next world, target, correction shape, and driver.
-The next high-leverage experiment should freeze one stable recurring encounter
-ABI and a bounded inspectable environment, then let the exact subject and fresh
-actors choose or formulate contact, receive independent consequence, revise
-retained machinery when needed, and reopen for several cycles without
-experiment-specific intervention. Observer stopping remains distinct from
-subject stopping. A pass must include at least one self-selected reuse, one
-objective failure, one retained machinery revision, and one later no-repair
-reuse inside the same unmodified driver invocation.
+OT-0138 freezes that stable recurring encounter boundary and passes it once.
+One unchanged invocation follows subject-resident scheduler state through four
+fresh actors: retained offsets four pass quantum four; success widens to eight;
+unchanged reuse retains an objective three-of-six failure; that failure alone
+authorizes a minimal offsets-eight revision; the revision beats its unchanged
+parent six-to-three on identical bases and preserves the quantum-four floor;
+and a later fresh actor reuses exact revised bytes at quantum eight without
+repair. Actor traces show only authorized in-workspace changes.
+
+The observation ends, but exact open subject
+`ad3acd37d497840a26c77b8a449571aa1bcaa03f915c882fc0f3924ad47e6b0f`
+points to encounter five at quantum sixteen. This is the strongest current
+bounded recurrence result because no outside researcher selects an encounter or
+repairs the apparatus after launch. It remains fixed-machinery development:
+the scheduler, generator, mutation envelope, and admission rule were authored
+prospectively by the researcher.
+
+The next decisive boundary is exposed by the subject's own next opening. At
+quantum sixteen the current correction envelope caps offsets at sixteen, so a
+subsequent widening failure cannot be solved indefinitely by the same bounded
+parameter move. Test whether retained objective failure can authorize a
+prospectively bounded revision of the correction envelope or scheduler update
+machinery itself, then require old-regime no-regression and a later no-repair
+reuse. Do not replace this with another observer-authored per-cycle itinerary.
 
 ## Open uncertainty
 
@@ -1070,5 +1083,10 @@ reuse inside the same unmodified driver invocation.
   revision is then established once in OT-0136, while arbitrary correction and
   clean open-ended continuation remain untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
+- One stable subject-scheduled driver now spans success, widening, objective
+  failure, retained capability correction, verification, and a fifth open
+  encounter without between-cycle researcher intervention. The developmental
+  constitution itself remains researcher-authored; consequence-driven revision
+  of that constitution is unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-encounter-scheduler",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 379554,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "62f7a20dcf9347ccc8c42c36af589b0ba92f1ec2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0138",
+  "input_manifests": [
+    "evidence/manifests/OT-0137/open-subject-with-structured-continuation.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject points to encounter five at quantum sixteen under fixed researcher-designed scheduler machinery."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-encounter-scheduler",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0d20a019034edb6339937c504db6ee68a174f51ab94973d1898f7cbde75a887a"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-scheduled-encounter-loop-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1915392,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "62f7a20dcf9347ccc8c42c36af589b0ba92f1ec2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0138",
+  "input_manifests": [
+    "evidence/manifests/OT-0137/open-subject-with-structured-continuation.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded four-encounter run in one synthetic reserve family; scheduler, world generator, authorization rule, mutation envelope, and observation limit are researcher-designed."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:subject-scheduled-encounter-loop-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "931a4a99a6f95a81add140f5012d08936326216f60f17bac0d278f6c738e5859"
+}

@@ -703,15 +703,28 @@ subject `8ed20a053a3663570a94b551c1d44e5dac9ddb6e8447853b6c1862bc4769b367`
 has one canonical opening prefix; a normalization-erased reconstruction
 reproduces two.
 
-The local carrier defect is closed. The larger goal is not. An outside
-researcher still chooses each new regime and writes each successor driver. The
-next mechanism should therefore be a recurring encounter driver, not another
-hand-written one-off world: it must read the subject's live structured question
-and retained capabilities, let a fresh actor originate the next bounded contact
-or machinery revision through a stable generic ABI, consequence it independently,
-and reopen automatically across several cycles. The observer may supply a
-bounded environment and stopping budget but may not choose each regime, target,
-or repair after the run starts.
+OT-0138 removes the next researcher dependency inside one bounded world family.
+One unchanged driver reads authoritative scheduler state carried in the exact
+subject. Four fresh actors and isolated workspaces then enact exact reuse at
+quantum four, automatic widening, predicted partial failure at quantum eight,
+failure-authorized minimal correction from offsets four to eight, prior-floor
+preservation, and later exact reuse without repair. The corrected program beats
+its unchanged parent on identical failed bases, six distinctions to three.
+
+The observer stops after four encounters while exact sounding open subject
+`ad3acd37d497840a26c77b8a449571aa1bcaa03f915c882fc0f3924ad47e6b0f`
+points to encounter five at quantum sixteen. This is bounded recurrent
+developmental control by subject-resident state, not indefinite operation. The
+scheduler code, world generator, correction envelope, and transition admission
+remain researcher-designed.
+
+The next dependency is therefore no longer a hand-written per-encounter driver.
+It is the fixed developmental constitution itself. At quantum sixteen the
+current legal offset range is exhausted, creating a sharp next test: can exact
+failure authorize revision of the mutation envelope or scheduler machinery,
+rather than merely another parameter inside it, while preserving prior floors
+and open continuation? Freeze that authority boundary before contact and keep
+subject stopping distinct from the observer budget.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

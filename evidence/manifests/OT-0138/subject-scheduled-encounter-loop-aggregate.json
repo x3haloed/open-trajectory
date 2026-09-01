@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-scheduled-encounter-loop-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 54767,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "62f7a20dcf9347ccc8c42c36af589b0ba92f1ec2",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0138",
+  "input_manifests": [
+    "evidence/manifests/OT-0137/open-subject-with-structured-continuation.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Bounded operational and comparative result only; does not establish indefinite operation, subject-authored scheduling, or autonomous world construction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-scheduled-encounter-loop-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2881334c2b68c9dc9d52e8322db6a68ba7d2fed1980af698e29e929a9a9fcf6e"
+}
