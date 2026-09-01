@@ -1,6 +1,6 @@
 # OT-0143 — cross-domain constitutional selector transfer
 
-- **Status:** frozen; not run
+- **Status:** completed; rejected before binding
 - **Evidence class:** exploratory-only
 - **Target:** test whether OT-0142's consequence-corrected preference for
   scale-invariant self-change transfers from reserve contact to a materially
@@ -69,3 +69,29 @@ improved constitutional selection. It would not establish that scale invariance
 is universally correct, open amendment-language invention, autonomous world
 choice, or subject-authored priorities. A later contradictory regime must still
 be able to correct or surrender the transferred priority.
+
+## Result
+
+The fresh actor authored the exact predicted recovery portfolio: fixed delay 32
+and latency-relative factor one. It ran the executable checker successfully,
+changed only `recovery-amendment-portfolio.json`, inspected the exact diff, and
+truthfully named that file in its note. Its full tool trace is contained.
+
+The actor report was nevertheless nonconformant because OT-0143 reused the
+OT-0142 response schema, whose only permitted structured `files_changed` literal
+was `amendment-portfolio.json`. Every OT-0143 visible contract, mutation
+envelope, checker, seed repository, and actual effect instead named
+`recovery-amendment-portfolio.json`. Forced by the hosted schema, the actor's
+structured field named the old file while its prose note named the real one.
+
+The audit correctly rejected the contradictory report before portfolio binding.
+No hidden recovery world opened, no selector comparison occurred, and no reuse
+actor ran. A later final-check KeyError followed because the observer assumed a
+promoted cross-domain subject despite the earlier rejection; it adds no
+experimental information.
+
+No subject transition is promoted. The exact portfolio bytes and trace are
+retained. A new record should prospectively make actual audited effects and the
+recovery filename authoritative, re-audit the exact actor workspace without
+resampling, then run the frozen matched world, reserve floor, installation, and
+still-unused reuse actor.

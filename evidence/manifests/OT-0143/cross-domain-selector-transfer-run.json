@@ -1,0 +1,33 @@
+{
+  "artifact_id": "cross-domain-selector-transfer-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 699904,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6be37765d3000bc3df82bff7607e0a59ae8692d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0143",
+  "input_manifests": [
+    "evidence/manifests/OT-0142/open-subject-with-adaptive-constitutional-selector.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "Rejected before binding because reused report schema required amendment-portfolio.json while visible contract and actual mutation named recovery-amendment-portfolio.json; no hidden recovery world opened."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:cross-domain-selector-transfer-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a9f790373c4cae70643c7ecea56a980704bd4e1f84b47b821f01e6db9d1df7d3"
+}

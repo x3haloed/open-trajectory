@@ -192,6 +192,10 @@ The strongest footholds are:
   actor-authored constitutional amendments. On a held-out portfolio the changed
   selector wins 9/9 to its unchanged parent's 3/9, and its retained
   quantum-relative rule later wins 9/9 to the absolute control's 0/9.
+- `OT-0143`: a fresh actor authors and publicly validates the predicted
+  cross-domain recovery portfolio, but a reused response schema forces the old
+  portfolio filename and rejects the otherwise clean actual mutation before
+  binding or hidden consequence.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

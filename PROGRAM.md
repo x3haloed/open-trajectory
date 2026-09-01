@@ -791,5 +791,17 @@ experiment family. Next test transfer of the selector's learned priority into a
 materially different world where scale invariance is relevant but neither
 candidate representation nor contact metric is the reserve program.
 
+OT-0143 begins that transfer but rejects before binding. A fresh actor authors
+the exact fixed-delay and latency-relative recovery portfolio and passes its
+checker. The reused response schema permits only OT-0142's old
+`amendment-portfolio.json` literal while every visible OT-0143 authority and
+actual effect names `recovery-amendment-portfolio.json`. No hidden world opens.
+
+Preserve the exact actor workspace. The next record should publish the recovery
+filename ABI, derive truth from audited effects rather than the stale forced
+report literal, and reconstruct the exact portfolio without another portfolio
+actor. Only then run matched corrected/unchanged selectors, reserve
+no-regression, installation, and the still-unused recovery reuse actor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

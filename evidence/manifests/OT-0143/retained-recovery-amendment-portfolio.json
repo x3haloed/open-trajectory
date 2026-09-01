@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-recovery-amendment-portfolio",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 859,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6be37765d3000bc3df82bff7607e0a59ae8692d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0143",
+  "input_manifests": [
+    "evidence/manifests/OT-0142/open-subject-with-adaptive-constitutional-selector.json"
+  ],
+  "kind": "actor-artifact",
+  "limitations": [
+    "Exact actor-authored portfolio passed its executable checker but was not bound because of the contradictory report filename ABI."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-recovery-amendment-portfolio",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "05ddc9e0b7d0807b07a9d1cf9adde6a247fc8caa7a900905e94466627eb99a9a"
+}

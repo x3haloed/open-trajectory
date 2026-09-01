@@ -1029,6 +1029,18 @@ the more general learned relation is objectively useful there, preserve the
 complete reserve floor, and let failure correct or surrender the transferred
 priority rather than making it dogma.
 
+OT-0143 obtains the exact intended recovery-cadence portfolio but rejects before
+binding on a stale report ABI. The actor edits and publicly validates only
+`recovery-amendment-portfolio.json`; the reused hosted schema forces its
+structured report to name OT-0142's `amendment-portfolio.json`. The prose note,
+workspace diff, checker, mutation envelope, and trace all name the real recovery
+file. No hidden consequence opens.
+
+This is not cross-domain evidence yet. Re-audit the retained portfolio under a
+published recovery-filename schema and actual-effects authority, without
+resampling. Then perform the already-frozen matched selector comparison and
+reserve floor before any installation.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
