@@ -107,6 +107,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   and hidden consequence passed; a second actor retired the fulfilled pursuit;
   and an outcome-content-erased control retained it. The exact subject reopens
   with a distinct actor-authored continuation.
+- `OT-0093` rejects before implementation on a frontier/disposition ontology
+  mismatch. The actor retired the saturated pursuit, discovered the two live
+  contacts, selected joint composition, and authored a generic allocator that
+  passes all frozen hidden fixtures post hoc. The harness instead required the
+  dead pursuit to remain a third contact and did not admit the lineage's
+  established `retire` literal. The OT-0092 subject remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -249,12 +255,13 @@ that complete receipt to retire the pursuit. Its erased control retained the
 old opening. This is bounded causal evidence that consequence content changes
 what the subject carries next, not merely what it can say about the past.
 
-The renewed opening now delegates novelty to `newly admitted coverage cases`.
-The next dependency is selection leverage: can the exact subject inspect its
-retained state, formulate materially different next contacts, and improve or
-apply its own choice machinery so the next surface is not supplied by the
-researcher? Preserve the complete contact/consequence/assimilation loop, but do
-not assume another coverage regression is the preferred continuation.
+The renewed opening delegates novelty to `newly admitted coverage cases`.
+OT-0093 tested whether the exact subject could redirect itself and exposed a
+narrow apparatus error: it coherently retired that saturated pursuit and
+enumerated only the two live contacts, while the frozen schema required the
+dead pursuit to remain an actionable contact and rejected the already
+established word `retire`. The next record should correct only that ontology
+and vocabulary, then rerun the complete contact/consequence/assimilation path.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

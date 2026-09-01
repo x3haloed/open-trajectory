@@ -213,13 +213,23 @@ changed its own carried developmental position across fresh actors. The exact
 subject is sounding and open at
 `242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`.
 
-The next gap is not continuity but leverage over what comes next. Its renewed
-opening asks to test `newly admitted coverage cases`, leaving an outside party
-as the likely source of novelty. The next experiment should let the subject
-inspect the retained lineage, formulate several materially different possible
-contacts, and make or improve the consequential selection among them. Another
-researcher-supplied regression case would extend the song without expanding its
-range.
+OT-0093 attacked that leverage gap and rejected before implementation, but its
+actor behavior sharply located the boundary. The fresh actor used objective
+saturation to retire the inherited coverage pursuit, discovered the two live
+recovery and joint contacts, selected the joint composition, and embodied a
+generic allocator that passes every frozen hidden fixture in a disclosed
+post-hoc diagnostic. The frozen harness required the retired coverage pursuit
+to remain a third member of the actionable frontier and recognized
+`surrender`/`deprioritize` but not the lineage's established `retire` literal.
+
+The next experiment should be an exact interface correction, not a new
+mechanism search. Represent current-pursuit disposition separately from the
+live actionable frontier; accept the existing `retain`/`revise`/`retire`
+assimilation vocabulary; and preserve OT-0093's world, balanced alternatives,
+hidden allocator fixtures, fresh actors, broad tools, bind-before-hidden order,
+implementation, assimilation, promotion, and post-seal erasure control. The
+test remains whether self-allocation reaches admitted consequence and becomes
+retained subject machinery.
 
 ## Open uncertainty
 
@@ -251,6 +261,11 @@ range.
   retirement, and a renewed exact subject; whether the subject can choose the
   next materially different surface without researcher-supplied novelty remains
   unestablished.
+- One self-allocation actor retired a saturated opening, discovered two live
+  alternatives, selected the compositional one, and authored a hidden-valid
+  generic allocator post hoc; the operational path remains unestablished
+  because the frozen frontier schema conflated retired pursuits with live
+  contacts.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

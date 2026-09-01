@@ -1,0 +1,33 @@
+{
+  "artifact_id": "saturation-self-allocation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 14779,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b14c9e468e458fc2f0ecdc306fd3e1491009bbf7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0093",
+  "input_manifests": [
+    "evidence/manifests/OT-0092/open-subject-after-actor-contact-renewal.json"
+  ],
+  "kind": "saturation-self-allocation-result",
+  "limitations": [
+    "Prospective rejection before implementation; post-hoc allocator diagnostic is disclosed but does not rescore."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:saturation-self-allocation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e63807908d102a22554a6bb5eb3f50ace3af6f4b39a1ebdab4958fccd2ff7ac0"
+}

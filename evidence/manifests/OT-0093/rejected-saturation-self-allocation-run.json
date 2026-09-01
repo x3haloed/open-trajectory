@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-saturation-self-allocation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1728512,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b14c9e468e458fc2f0ecdc306fd3e1491009bbf7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0093",
+  "input_manifests": [
+    "evidence/manifests/OT-0092/open-subject-after-actor-contact-renewal.json"
+  ],
+  "kind": "saturation-triggered-self-allocation",
+  "limitations": [
+    "One bounded rejected active allocation in a synthetic world; implementation and control did not run."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-saturation-self-allocation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "89228d9037bf062b87083db3fc2dccc398fcf1e36a72e8771953f591983c03a0"
+}

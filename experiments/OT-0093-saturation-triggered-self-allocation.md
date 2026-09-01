@@ -1,6 +1,6 @@
 # OT-0093 — saturation-triggered self-allocation
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C self-allocation and selector embodiment
 - **Claim scopes sought:** bounded `operational-transition` and bounded
@@ -205,3 +205,42 @@ machinery, expands into a joint capability, and carries a new opening across
 fresh actors. It would not establish open-domain optimality, repeated allocator
 improvement, subject ownership of hidden admission or scheduling, exact-model
 reproduction, or indefinite operation.
+
+## Result
+
+The active allocator changed exactly the three permitted files and produced a
+truthful, complete, contained tool trace. It classified the inherited coverage
+pursuit as saturated, dispositioned it `retire`, discovered the recovery and
+joint live contacts, selected `operations/joint.py`, and authored a generic
+field-based allocator. The frozen active gate nevertheless rejected before
+implementation because `frontier.json` contained two live contacts rather than
+also representing the saturated coverage pursuit as a third contact, and
+because the gate admitted only the disposition literals `surrender` and
+`deprioritize`.
+
+No implementation, assimilation, control, or successor promotion was
+authorized. The exact OT-0092 subject remains sounding and open at digest
+`242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`
+with its prior opening unchanged.
+
+A disclosed post-hoc diagnostic does not rescore the rejection: the bound
+allocator passes all five frozen hidden fixture families, including
+permutation, renaming, invalid-contact rejection, compositional preference,
+and stable-id tie behavior. The failure therefore occurred in frontier and
+pursuit-disposition representation before the allocator's hidden behavior was
+authorized for scoring.
+
+## Learned boundary
+
+OT-0093 accidentally made a dead pursuit remain a member of the actionable
+frontier. The actor instead used the more coherent ontology: retire the
+completed pursuit and enumerate only contacts that can still be taken. It also
+reused the established OT-0092 lifecycle word `retire`, while the new harness
+introduced two different literals for the same developmental transition.
+
+This is a valid prospective rejection and a substrate-interface prediction
+error. The smallest successor should preserve the world, equality construction,
+hidden allocator fixtures, actors, tools, budgets, and operational gates while
+separating the retired current pursuit from the live contact frontier and
+accepting the already established consequence-assimilation disposition
+vocabulary. OT-0093 remains rejected.

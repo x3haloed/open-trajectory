@@ -47,6 +47,10 @@ The strongest footholds are:
 - `OT-0092`: one promoted end-to-end loop from retained stake through
   actor-authored contact and independent consequence to fresh-actor pursuit
   retirement, with an outcome-erased control.
+- `OT-0093`: one rejected self-allocation attempt that localized an apparatus
+  ontology error: the actor retired the saturated pursuit and produced a
+  hidden-valid generic allocator, while the frozen gate required the dead
+  pursuit to remain an actionable contact.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

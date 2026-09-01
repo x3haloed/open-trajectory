@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-allocation-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 199395,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b14c9e468e458fc2f0ecdc306fd3e1491009bbf7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0093",
+  "input_manifests": [
+    "evidence/manifests/OT-0092/open-subject-after-actor-contact-renewal.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact OT-0092 parent remains authoritative because OT-0093 rejected before promotion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-allocation-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9c52deedb8be0727854e8e2558e2d9cdd95c509003dd505078608cf167a175d0"
+}
