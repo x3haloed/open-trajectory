@@ -1,0 +1,31 @@
+{
+  "artifact_id": "exact-transferable-contact-program-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1437184,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d30d4f606328778907afcc0e0923df9bffc8c592",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0134",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "One exact retained program, three sealed bases, and one fresh route actor in a bounded synthetic capacity domain; no arbitrary contact-language, frequency, indefinite-operation, or carrier-self-revision claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-transferable-contact-program-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4ebf5307201193eafd46f0af5e3007f37911ebbb7b75a50b19875d22df9ca136"
+}

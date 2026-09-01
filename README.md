@@ -160,6 +160,12 @@ The strongest footholds are:
 - `OT-0132`: exact no-resampling reconstruction promotes that originated
   contact beyond the closed graph; a changed-opening control chooses a different
   surface but fails the stronger decisive-contact score.
+- `OT-0133`: one rejected transferable-program run whose actor passes the
+  executable public checker but follows a visible `exactly midpoint` literal
+  rejected by the inconsistent hidden validator.
+- `OT-0134`: exact retained-program reconstruction transfers four public
+  witnesses and two controls to six sealed witnesses and three controls, then
+  promotes a new open subject; durable program-byte inheritance remains open.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

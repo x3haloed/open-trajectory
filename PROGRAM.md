@@ -628,5 +628,29 @@ while keeping the independent hidden consequence authoritative. This tests
 whether the substrate can improve its own contact-selection and contact-design
 fitness rather than merely carry another pursuit sentence.
 
+OT-0133 authors that stronger contact form and passes its executable public
+checker, but rejects before hidden consequence on an apparatus contradiction:
+the visible contract requires literal `exactly midpoint` while the hidden
+validator accepts only `midpoint`. No hidden base opens and the OT-0132 subject
+remains unchanged.
+
+OT-0134 publishes the visible literal as authoritative and reuses the exact
+program without another program actor. The program generates six adversarial
+and three confirmation cases across three sealed context pairs and demand
+patterns; every hidden transfer gate passes. A fresh route actor cites all nine
+cases and promotes exact open subject
+`7cc630ed46b2da021439e6688e0b5cea65deccbb753ec8b98c2e2f21aad70f78`
+with a new joint-insertion opening.
+
+This is the first bounded generative contact handoff in the current chain: an
+actor authors a procedure rather than a finite case list, checks it publicly,
+and a later actor receives its independently generated consequences. The exact
+subject does not yet retain the program bytes, however. It retains the contact
+identity, result, and next stake. The next experiment should prospectively make
+independently admitted contact programs subject capabilities, reconstruct this
+exact program by binding identity, and require a later encounter to reuse it on
+multiple simultaneous foreign insertions without a new program author. Only
+then would the contact generator itself—not merely what it taught—continue.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

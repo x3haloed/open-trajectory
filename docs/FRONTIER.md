@@ -850,6 +850,32 @@ The discriminating question is whether retained experience can improve the
 process that selects and constructs future world contact—not merely keep the
 topic continuous. Do not repair or rerun the failed OT-0132 control.
 
+OT-0133 takes the first contact-program step. Its fresh actor chooses
+`reserve_for_context`, writes one declarative metamorphic program, and runs the
+public checker successfully: four adversarial transformations distinguish and
+two midpoint controls confirm. The run rejects before binding because the
+visible contract says `exactly midpoint` while an inconsistent hidden validator
+expects `midpoint`. No hidden contact occurs.
+
+OT-0134 makes only that authority correction and reconstructs the exact retained
+program. On three sealed bases with new contexts, ranges, lengths, and insertion
+positions, the program generates six distinguishing high/low cases and three
+confirming controls. A fresh route actor grounds all nine and promotes exact
+open subject
+`7cc630ed46b2da021439e6688e0b5cea65deccbb753ec8b98c2e2f21aad70f78`
+on joint foreign-context insertion.
+
+Do not collapse two different continuity claims. The program survives its
+author ending and causes the next actor's consequence, so one generative contact
+handoff is established. But the promoted subject carries only binding and world
+receipt identities, route assimilation, and the next opening; it does not carry
+the program bytes. The next experiment should add an admitted contact-program
+capability ledger prospectively, retain the exact OT-0134 program by content
+identity, and require a later encounter to reuse it on multiple simultaneous
+foreign insertions without a program-author turn. Hidden consequence and the
+route-only carrier remain authoritative. This tests whether the listening
+instrument itself becomes part of the continuing subject.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -968,6 +994,9 @@ topic continuous. Do not repair or rerun the failed OT-0132 control.
   graph. A changed opening also changes the control's selected surface, but that
   control fails decisive consequence; reliable pursuit-conditioned contact
   construction remains unestablished.
+- One actor-authored contact program now transfers from public to sealed bases
+  and hands generated consequence to a fresh route actor. The final subject does
+  not retain the program bytes, so durable generator reuse remains untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

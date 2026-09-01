@@ -1,0 +1,31 @@
+{
+  "artifact_id": "exact-transferable-contact-program-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16350,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d30d4f606328778907afcc0e0923df9bffc8c592",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0134",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Aggregate summarizes one bounded public-to-hidden contact-program transfer and exact open promotion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-transferable-contact-program-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0ec882e9ac7e01a9c8998b9e62d486683ce4e0fed09ef52c78e0c1b4feb2cc11"
+}

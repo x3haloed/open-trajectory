@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-transferable-contact-program",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 348762,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d30d4f606328778907afcc0e0923df9bffc8c592",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0134",
+  "input_manifests": [],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after one generative contact-program transfer; the world, contact language, compiler, and admission remain researcher-authored."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-transferable-contact-program",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "79cfc152d8de30eb0749136b91907222a13f68feeb2336319da3632e334e804a"
+}
