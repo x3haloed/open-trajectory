@@ -1,0 +1,31 @@
+{
+  "artifact_id": "route-only-recurrent-subject-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1719808,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9d3f5dc8d491a1dbc666cb7cdca666c5dbaef045",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0130",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "One clean bounded three-cycle run in a fixed researcher-authored synthetic world graph; no arbitrary-domain, open-ended scheduling, subject-authored compiler, or model-specific reproduction claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:route-only-recurrent-subject-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7266253da72ff7859c27944038f533a0a7b2aa3e30f94c0f2dc0ea1c60c4081f"
+}

@@ -579,5 +579,26 @@ registry action and expected-information topic. The remaining mechanism change
 is now sharper: compile both continuation action and canonical opening from the
 single accepted route, leaving no stochastic restatement edge after grounding.
 
+OT-0130 makes that compression and passes a clean three-cycle reproduction from
+the exact OT-0124 parent. Three fresh actors each author one grounded route; the
+fixed carrier deterministically compiles every action and wake representation.
+All three corrected selections match their sealed oracles while all three exact
+pre-correction controls select decoys, and all three sounding successors promote
+without replacement, repair, or between-cycle researcher choice. Exact open
+subject `34c8ce6ded8640e0394578804d6badc08a2fe69b51a852c8fe8bec4624b565f3`
+now carries contextual transfer beyond the observation boundary.
+
+The preferred mechanism is therefore no longer multiple actor-authored mirrors
+of developmental state. Let the actor make the consequence-grounded judgment
+once; let a small deterministic carrier project the redundant operational forms
+needed to wake, dispatch, and validate later turns. The next frontier is not a
+fourth fixed node. It is to remove a more causal researcher dependency: the
+closed world inventory and fixed continuation compiler still determine what
+kind of music can follow even though the researcher no longer chooses each note.
+The next experiment should let the retained subject formulate or discover a
+next contact outside the frozen three-node graph while preserving independent
+world consequence, bind-before-outcome order, exact reopening, and the same
+single-authority projection discipline.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

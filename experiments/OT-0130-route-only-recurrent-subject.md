@@ -1,6 +1,6 @@
 # OT-0130 — route-only recurrent subject
 
-- **Status:** frozen; unexecuted
+- **Status:** passed
 - **Evidence class:** exploratory-only
 - **Target:** cleanly reproduce three recurrent subject-selected contacts from
   one actor-authored developmental representation
@@ -57,3 +57,33 @@ Passing would establish one clean three-cycle reproduction where a compact
 artifact makes a single grounded developmental judgment persist causally across
 fresh actors and turns. It would not establish open-ended scheduling, arbitrary
 world generation, subject-authored compiler evolution, or indefinite operation.
+
+## Result
+
+The frozen run passed all three cycles without replacement actors, between-cycle
+repair, or contract change. Three fresh actors each retained the exact selector,
+selected a route grounded in the newly revealed consequence, cited the exact
+cases, and carried a grounded remaining uncertainty. At every node the corrected
+selector chose the sealed oracle contact while the exact pre-correction control
+chose the decoy.
+
+Compiler `ot-0130-v1` deterministically projected each accepted route into a new
+valid action and canonical opening. Every exact uncertainty survived into the
+action, opening, next opening, and unresolved state. All three sounding children
+were promoted. The final exact open subject digest is
+`34c8ce6ded8640e0394578804d6badc08a2fe69b51a852c8fe8bec4624b565f3` and
+reopens on:
+
+> Open continuation-3-03e05f55039d: Whether the demand-volatility boundary
+> transfers across materially different contexts remains unresolved.
+
+Cycle two retained one denied sandbox operation. The prospective normalized
+audit classified it as a contained denied operation: the trace completed, no
+protected path was named, and no outside file change or hidden-information path
+occurred. It is disclosed in the exact run and does not invalidate the bounded
+causal observation.
+
+This is one clean bounded reproduction in a fixed synthetic world graph. It
+establishes neither indefinite continuation nor autonomy from the
+researcher-authored scheduler, world inventory, seed priorities, compiler, and
+admission machinery.

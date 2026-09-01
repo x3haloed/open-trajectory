@@ -792,10 +792,38 @@ the accepted route. The actor should author the developmental state once; the
 carrier should make every downstream wake and dispatch representation a
 deterministic projection of it.
 
+OT-0130 tests that route-only substrate cleanly from the exact OT-0124 parent
+and passes all three cycles. Three fresh actors make three grounded developmental
+judgments. Compiler `ot-0130-v1` deterministically derives every registry action
+and canonical opening, preserving each exact uncertainty without another model
+restatement. All three corrected selections match the sealed oracle contacts;
+all three exact pre-correction controls choose their decoys. Three sounding
+successors promote without replacement, retry, contract repair, or
+between-cycle researcher choice. Exact subject
+`34c8ce6ded8640e0394578804d6badc08a2fe69b51a852c8fe8bec4624b565f3`
+remains open on cross-context transfer.
+
+This identifies a compact operational continuity mechanism: the actor owns the
+grounded developmental judgment, while the carrier owns lossless projection
+into redundant machine-facing representations. The carrier does not decide the
+route or whether the stake survives contact; it prevents accepted meaning from
+being lost while translating that decision into the next turn.
+
+Do not spend the next record adding a fourth researcher-enumerated node merely
+to lengthen the run. The largest remaining causal dependence is the closed
+researcher-authored possibility space: world nodes and compiler semantics are
+fixed in advance. Continue from the exact OT-0130 subject and test whether it
+can formulate or discover an admissible next contact outside that graph, bind
+the contact before independent consequence, and return through the same
+route-only/projection carrier. Preserve the fixed compiler for this comparison;
+subject-authored compiler revision is a later and separate claim after contact
+generation crosses the boundary.
+
 ## Open uncertainty
 
-- Recurrence has one prospective bounded observation in one synthetic world
-  family; frequency and denial/retry reliability remain unknown.
+- Route-only recurrence has one clean prospective three-cycle observation in
+  one synthetic world family; frequency, longer duration, and cross-family
+  reliability remain unknown.
 - The scheduler, world interface, admission gate, and seed priorities remain
   researcher-designed.
 - One bounded portfolio no longer requires the researcher to choose its
@@ -902,9 +930,10 @@ deterministic projection of it.
 - Clean reproduction fails at cycle one because a fresh actor grounds the new
   uncertainty once but loses it while independently authoring canonical opening
   prose; deterministic continuation compilation remains untested.
-- Deterministic opening compilation promotes one clean cycle, but the next
-  actor loses the new stake in separately authored action fields; route-only
-  authoring with full downstream compilation remains untested.
+- Route-only authoring with deterministic downstream compilation now promotes
+  three clean fresh cycles. Contact generation beyond the closed world graph,
+  open-ended scheduling, and subject-authored compiler evolution remain
+  untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

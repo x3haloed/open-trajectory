@@ -150,6 +150,10 @@ The strongest footholds are:
   recovery latency in its route but regenerates the inherited canonical opening.
 - `OT-0129`: deterministic opening compilation promotes one clean fresh cycle;
   cycle two rejects when independently authored action fields repeat cycle one.
+- `OT-0130`: route-only authoring plus deterministic action/opening compilation
+  cleanly promotes three fresh cycles; corrected selectors choose all three
+  sealed oracle contacts while their exact pre-correction controls choose all
+  three decoys.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
