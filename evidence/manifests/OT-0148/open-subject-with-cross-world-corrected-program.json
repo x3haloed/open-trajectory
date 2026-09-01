@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-cross-world-corrected-program",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 423325,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "631f58754c13544485f4d5fe0e100bf26deb44bd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0148",
+  "input_manifests": [
+    "evidence/manifests/OT-0147/open-subject-pending-corrected-program-reuse.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries corrected selector-program history and all prior capabilities; subject-selected next-world contact remains unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-cross-world-corrected-program",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fc91e4851408e6a28863d0dd4fd2e2e64625bea84484df72d1f4c4247c6ac54f"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-corrected-program-reuse-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 619008,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "631f58754c13544485f4d5fe0e100bf26deb44bd",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0148",
+  "input_manifests": [
+    "evidence/manifests/OT-0147/open-subject-pending-corrected-program-reuse.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded exact reconstruction and corrected-program reuse; next-world selection remains researcher-owned."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-corrected-program-reuse-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "538e29feea8f0ef5559b2681ffc709bf7a55e8a9b53e04fd557d0cc6c77ebe00"
+}

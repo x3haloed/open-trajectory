@@ -212,6 +212,9 @@ The strongest footholds are:
   actor corrects it to reconcile lower and upper output bounds, winning the
   held-out comparison with all floors intact. Later reuse stops on an
   unpublished exact candidate-key constraint after a clean portfolio edit.
+- `OT-0148`: exact semantic projection preserves that retained portfolio and
+  completes corrected-program reuse. The active program passes all shifted
+  throughput demands while its unchanged parent fails all after sealing.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

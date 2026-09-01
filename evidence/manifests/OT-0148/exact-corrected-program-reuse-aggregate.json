@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-corrected-program-reuse-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 24227,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "631f58754c13544485f4d5fe0e100bf26deb44bd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0148",
+  "input_manifests": [
+    "evidence/manifests/OT-0147/open-subject-pending-corrected-program-reuse.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Completes bounded cross-world correction and reuse, not autonomous world selection or indefinite self-direction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-corrected-program-reuse-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f9ebde08850c3cba5e99b409482e86147bd948be8031db4161f34a35686280b6"
+}

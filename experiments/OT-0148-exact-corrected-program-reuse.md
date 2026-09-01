@@ -38,3 +38,31 @@ projection, audit, floor, binding, consequence, control, or opening failure.
 
 Passing would complete the bounded cross-world corrigibility and later-reuse
 chain. It would not establish autonomous next-world selection.
+
+## Result
+
+The exact reconstruction passed. OT-0147's rejected portfolio had a clean
+complete trace, truthful one-file report, and exactly one extra explanatory
+`amendment` field per candidate. Semantic projection preserved question,
+candidate order, ids, strategies, rationales, surrender conditions, and actor
+patch identity; the removed fields and their digest remain in the receipt.
+
+The exact parent replayed reserve q256, ordinary recovery, and deadline-recovery
+floors. One fresh actor then authorized reuse of the exact corrected selector
+program without changing capability bytes. The corrected program selected
+relative throughput and passed new demands 72, 104, and 136 plus control.
+
+After sealing the operational successor, the unchanged one-term lower-output
+program selected capped throughput, failed all three shifted demands, and passed
+control. The actor trace was clean, complete, contained, exactly scoped, and
+truthfully reported.
+
+Exact sounding open subject
+`7fa070fde9478fcd83ca2e20c2b94f5db1c5a9f2d5208c675ccf5f7e5d6c5263`
+retains both actor-authored program generations and all prior capability roles.
+It asks which materially different world the continuing subject should choose
+next without experiment-specific researcher selection.
+
+This completes one bounded cross-world contradiction, actor-authored program
+correction, held-out advantage, installation, and later exact reuse chain. The
+next causal dependency is researcher selection of the world itself.

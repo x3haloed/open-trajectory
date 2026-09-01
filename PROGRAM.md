@@ -884,5 +884,23 @@ awaits corrected-program reuse. Reconstruct that exact portfolio under a
 published semantic projection; do not resample it or repeat the already-passed
 cross-world correction.
 
+OT-0148 completes that exact reconstruction and reuse. Semantic projection
+preserves all governing candidate fields, order, and actor patch identity while
+retaining the extra explanatory fields and their digest in the receipt. No
+portfolio or correction actor is resampled.
+
+One fresh actor authorizes exact corrected-program reuse. The corrected program
+selects relative throughput and passes three new shifted demands plus control.
+After sealing, its unchanged lower-output parent selects capped throughput and
+fails all three shifts while preserving control. Exact open subject
+`7fa070fde9478fcd83ca2e20c2b94f5db1c5a9f2d5208c675ccf5f7e5d6c5263`
+retains both program generations and all earlier capability roles.
+
+The bounded evidence now includes consequence-driven correction and later reuse
+of actor-authored selector computation across opposing upper-bound and
+lower-bound worlds. The next dominant researcher cause is selection and
+construction of the next world contact itself. Reduce that cause next; do not
+spend another experiment merely varying output bounds.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

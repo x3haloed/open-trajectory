@@ -1122,6 +1122,25 @@ program before new throughput consequence, and open the unchanged control only
 after sealing the active successor. Do not repeat correction or resample the
 portfolio.
 
+OT-0148 performs that exact reconstruction and passes. The projection preserves
+every governing semantic field and actor patch identity while retaining the two
+extra explanatory fields and their digest. One fresh actor authorizes exact
+corrected-program reuse. Corrected selection passes new throughput demands 72,
+104, and 136 plus control; after sealing, the unchanged lower-output program
+fails all three shifts and preserves control.
+
+Exact open subject
+`7fa070fde9478fcd83ca2e20c2b94f5db1c5a9f2d5208c675ccf5f7e5d6c5263`
+carries both actor-authored program generations, their correction history, and
+all earlier capabilities. The highest-leverage next test is now world-choice
+causation. Give a fresh subject-bound actor access to multiple executable,
+materially different contact surfaces without telling it which one is next.
+Its inherited opening and carried developmental state must produce and bind a
+world-contact choice before hidden consequence. Compare an exact opening/state
+ablation under identical surfaces, and require the active choice to create a
+useful successor rather than merely name a domain. Preserve the full capability
+floor and keep world consequence external to actor authority.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1256,9 +1275,8 @@ portfolio.
   established, transferred across domains, and corrected after later harm in
   one bounded chain. One actor-authored selector program now replaces the named
   feature vocabulary; cross-world contradiction, correction, held-out advantage,
-  and installation now pass, while later reuse remains blocked by one disclosed
-  portfolio ABI mismatch. Autonomous amendment-language invention,
-  subject-selected world transition, and subject-authored seed priorities remain
-  unestablished.
+  installation, and later exact reuse now pass. Autonomous amendment-language
+  invention, subject-selected world transition, and subject-authored seed
+  priorities remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
