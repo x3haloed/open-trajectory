@@ -289,6 +289,19 @@ generalization consequence, and—on failure—let a second fresh actor correct 
 before a third disjoint gate. The intended mechanism is iterative consequence
 correction, not single-turn reconstruction or favorable resampling.
 
+OT-0098 gives correction that continuity. The exact shallow repair is bound,
+its predicted three failures are sealed, and a second fresh actor uses those
+rows to move composition ahead of expansion. The revised allocator is generic,
+grounded, joint-selecting, and passes six of eight third-stage cases. It still
+negates actionable regret and uses raw floor count rather than the retained
+two-or-more threshold, so promotion correctly stops.
+
+This is directional evidence that consequences improve the selection machinery
+across fresh actors, but the operational claim remains open. The next experiment
+should make the third-stage receipt the next developmental input, bind a third
+correction, and require a fourth disjoint gate before admitted contact. Do not
+reset to the original allocator or sample replacements.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -334,6 +347,9 @@ correction, not single-turn reconstruction or favorable resampling.
 - One fresh corrector repaired the observed allocator failures locally but did
   not reconstruct the full priority on disjoint cases; correction itself must
   acquire consequence continuity.
+- A second consequence and fresh corrector improved that rule across most new
+  cases, while two exact semantic errors remained. Multi-update correction is
+  now observed directionally but not yet promoted into the subject.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

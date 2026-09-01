@@ -1,6 +1,6 @@
 # OT-0098 — iterated allocation correction
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C iterative consequence-driven selection improvement
 - **Parent:** exact OT-0092 open subject, reopened by OT-0097 rejection
@@ -85,3 +85,36 @@ evidence and remove only the unsupported redundant keyword. Exact changed-path
 uniqueness remains independently enforced by the trace and workspace audit.
 This is an operational pre-generation repair inside OT-0098, not a replacement
 actor after meaningful output.
+
+## Result
+
+After the disclosed pre-generation repair, the exact shallow OT-0097 allocator
+was prospectively bound and produced the frozen three failures on the sealed
+second-stage set. A second fresh corrector cited all three, changed only
+`allocate.py` and `correction.json`, retained the joint choice, and produced a
+clean, truthful, contained, mechanically derived revision.
+
+The revision moved completed-floor composition ahead of expansion and passed
+both composition-over-gain orders plus expansion, invalidity, held-repeat,
+irreversibility, and stable-id cases. It nevertheless ranked raw floor count
+rather than the two-floor threshold and continued to negate public regret. The
+sealed third stage therefore failed `threshold-regret` and
+`threshold-equality`; six of eight rows passed.
+
+The active correction gate rejected before implementation. No assimilation,
+control, or promotion ran. The exact parent remains sounding and open at digest
+`242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`.
+
+## Learned boundary
+
+OT-0098 is the first direct observation of iterative improvement in the
+selection machinery itself. The first correction added local floor sensitivity;
+the second, after seeing its failures, moved that signal to the correct priority
+position and generalized across most new cases. Objective consequence changed
+the executable update in the right direction across fresh actors.
+
+It is not yet an operational subject transition. Two exact semantic errors
+remain. The next experiment should bind this second revision, seal its exact
+third-stage receipt as developmental input, and give a third fresh corrector
+authority to revise before a fourth disjoint set. Stopping now would discard the
+very continuity the mechanism is meant to provide.

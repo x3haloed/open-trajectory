@@ -133,6 +133,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   joint, but an actor-authored disposition synonym rejects before hidden
   binding. Post hoc, the local repair still fails three of seven disjoint
   fixtures. The parent remains open.
+- `OT-0098` carries the shallow repair into a second sealed consequence and a
+  second fresh corrector. The actor moves composition ahead of expansion and
+  passes six of eight third-stage cases, but raw floor count and negative regret
+  still fail two rows. This is directional machinery improvement, not yet an
+  operational transition.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -291,7 +296,10 @@ turns the failed hidden allocator receipt into correction contact. OT-0097 shows
 that a fresh actor does repair the observed cases but both reintroduced lifecycle
 vocabulary and shallow generalization stop promotion. The next record should
 derive revision mechanically and allow newly sealed generalization failure to
-cause a second correction before a third disjoint test.
+cause a second correction before a third disjoint test. OT-0098 does so and the
+executable rule improves materially but incompletely. The next record should
+carry the two newly sealed failures into a third fresh correction and require a
+fourth disjoint generalization gate before contact.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

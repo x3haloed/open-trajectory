@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-iterated-allocation-correction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1564672,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d5456d99b8067a8b2ff54fc6941d665c3b74fcc4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0098",
+  "input_manifests": [
+    "evidence/manifests/OT-0097/rejected-consequence-corrected-allocation-run.json"
+  ],
+  "kind": "iterated-allocation-correction",
+  "limitations": [
+    "One bounded second correction plus a disclosed pre-generation schema repair; rejected on two third-stage cases."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-iterated-allocation-correction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c8dfca1f535bb362aa5b73a8b386f55fd41a0c00deaa3fbbabd973bb1300fe31"
+}

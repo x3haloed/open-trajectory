@@ -60,6 +60,9 @@ The strongest footholds are:
   exposed a substantive failure to embody the retained compositional selector.
 - `OT-0097`: one rejected consequence-correction run whose fresh actor repaired
   observed cases locally but did not generalize the complete priority.
+- `OT-0098`: one rejected iterated-correction run whose second fresh corrector
+  improved the allocator to six of eight disjoint cases while leaving two
+  semantic errors.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
