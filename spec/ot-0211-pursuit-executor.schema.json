@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "next_pursuit"],
+  "properties": {
+    "action": {"type": "string", "const": "integrate-selected-pursuit"},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["dispatch/policy.py"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "next_pursuit": {"type": "string", "minLength": 1}
+  }
+}

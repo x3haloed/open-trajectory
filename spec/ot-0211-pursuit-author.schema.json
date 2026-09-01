@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "next_pursuit"],
+  "properties": {
+    "action": {"type": "string", "const": "author-executable-pursuit-portfolio"},
+    "files_changed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": [
+          "frontier.json",
+          "proposals/policy-1.py",
+          "proposals/policy-2.py",
+          "proposals/policy-3.py"
+        ]
+      },
+      "minItems": 4,
+      "maxItems": 4
+    },
+    "next_pursuit": {"type": "string", "minLength": 1}
+  }
+}
