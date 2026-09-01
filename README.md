@@ -329,6 +329,10 @@ The strongest footholds are:
   correction operative. OT-0172 had already given both public standing, so the
   gate is underinclusive: it demands the hidden winner rather than representing
   live possibilities before contact.
+- `OT-0178`: the exact OT-0177 live projection is admitted prospectively by
+  consequence. Populated authority yields prediction correction and complete
+  contact in 10/10 fresh actors versus 2/10 under exact field erasure. Open
+  successor `c9e406bf...` carries the tested artifact and world receipt.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

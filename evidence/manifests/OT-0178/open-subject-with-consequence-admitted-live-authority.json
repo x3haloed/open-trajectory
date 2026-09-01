@@ -1,0 +1,29 @@
+{
+  "artifact_id": "open-subject-with-consequence-admitted-live-authority",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 483014,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "408ed715f4fd5527d622251dc868158eb225598e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0178",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-consequence-admitted-live-authority",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c3e4bdef78959227a6d60bb03701d5d8fdfd3c6f01e82ded2c076e932c1a2b40"
+}

@@ -1309,5 +1309,20 @@ authority state and improve a later choice. Score the transition through
 contact and revision, not pre-contact agreement with the observer's hidden
 winner.
 
+OT-0178 first tests the missing downstream causal effect without changing the
+OT-0177 bytes. Ten of ten fresh actors with the live projection select
+prediction correction and pass all three still-unopened confirmation cases.
+Under exact status/floor erasure, only two of ten do so; eight return to the
+surrendered harmful extension and fail complete contact. All twenty choices are
+bound before outcome and all audits pass.
+
+Install exact open successor `c9e406bf...`. The projection has now earned
+operational standing from what it causes, not from pre-contact agreement with an
+observer answer key. The next test should begin only from that promoted subject
+and require exact later selector use on disjoint contact. Then introduce a
+material contradiction to one operative authority assignment, give the bound
+receipt to a fresh actor, and test whether it revises the carried projection
+without losing the surrender boundary or established selection/contact floor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

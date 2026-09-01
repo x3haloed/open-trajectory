@@ -1,0 +1,29 @@
+{
+  "artifact_id": "consequence-admitted-live-authority-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1278177,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "408ed715f4fd5527d622251dc868158eb225598e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0178",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-admitted-live-authority-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cef42a3e4ba889c738f4ff3e6670b09b5240b5b5ceaf0ff470364d93270b3bfa"
+}

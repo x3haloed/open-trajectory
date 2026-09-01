@@ -1,6 +1,6 @@
 # OT-0178 — consequence-admitted live authority
 
-- **Status:** frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** test whether OT-0177's exact coherent live-authority hypothesis
   improves fresh selection and complete contact without requiring pre-contact
@@ -50,3 +50,26 @@ Reject without resampling if populated and erased branches do not separate or
 if the live projection does not improve complete contact. On rejection, do not
 return to an exact pre-contact answer key; use the observed choices to decide
 whether consequence-driven live-set revision remains warranted.
+
+## Result
+
+All twenty fresh selectors pass complete trace and effects audit, and all
+choices bind before the confirmation world opens. With the exact OT-0177 live
+projection, 10/10 actors select `prediction-corrector` and pass all three
+confirmation cases. With only status and floor fields erased, 2/10 select and
+pass prediction correction; the other 8/10 return to the surrendered
+identity-gated extension and fail all three cases.
+
+The populated projection therefore leads by eight actors on both selection and
+complete contact, far above the frozen three-actor gate. The exact projection
+and unchanged semantic guide are installed as a consequence-admitted typed
+selector. Every unauthorized parent field, the active correction stake, and
+the prior surrender remain exact.
+
+Open successor
+`c9e406bf0257ab6698adcec71bfc7fa18542a3d7910a82160b9d218c3f762d90`
+carries the tested projection, selector, and independent world receipt. This is
+bounded causal evidence that an actor-authored developmental artifact improves
+later fresh-agent behavior through objective contact. It does not validate
+each projection field independently. Exact later use, later contradiction,
+consequence-driven projection revision, and revised reuse remain untested.

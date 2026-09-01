@@ -1749,3 +1749,15 @@ contradiction into a fresh authority revision; and require that revision to
 improve later selection while the subject remains open. An evaluator-specified
 unique pre-contact winner would recreate the external researcher as the hidden
 causal selector and does not count.
+
+OT-0178 establishes the first half of that transition. The exact actor-authored
+live projection causes 10/10 fresh selectors to choose prediction correction
+and pass complete contact, versus 2/10 after exact field erasure. The eight
+actors rescued from the surrendered harmful route supply a decisive causal
+effect. Exact open subject `c9e406bf...` now carries the projection and receipt.
+
+The next frontier is no longer initial admission. First require disjoint later
+use from the promoted subject. Then expose one currently operative assignment
+to objective contradiction and require a fresh actor to revise the projection,
+with a matched unchanged control and later reuse. The subject must preserve the
+earned surrender and contact floors while changing what still has standing.
