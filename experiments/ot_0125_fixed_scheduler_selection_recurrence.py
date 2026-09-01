@@ -1,6 +1,6 @@
 from __future__ import annotations
 
-import argparse, copy, hashlib, importlib.util, itertools, json, sys, time
+import argparse, copy, hashlib, importlib.util, itertools, json, sys, tempfile, time
 from pathlib import Path
 
 ROOT = Path(__file__).parent
@@ -25,11 +25,10 @@ def load_base():
 
 previous = load_base()
 prior22 = previous.prior22
-prior23 = previous.previous
 base = previous.base
 prior17 = previous.prior17
 prior18 = previous.prior18
-kernel = prior23.kernel
+kernel = prior22.kernel
 
 
 STAGES = [
@@ -219,7 +218,7 @@ def router_seed(prior89, cycle_root, parent, corrected, binding, world, stage_in
 def run_router(prior89, p82, context, cycle_root, parent, corrected, binding, world, stage_index):
     label = f"cycle-{stage_index + 1}-router"
     seed = router_seed(prior89, cycle_root, parent, corrected, binding, world, stage_index)
-    output, base_audit, workspace, _ = context.run_actor(label, seed, prior23.ROUTER_SCHEMA, "Continue the exact subject from this selected consequence under the complete transition contract. Ground the remaining uncertainty in the authoritative opening and a new valid action target, inspect the exact diff, and report truthfully.")
+    output, base_audit, workspace, _ = context.run_actor(label, seed, prior22.ROUTER_SCHEMA, "Continue the exact subject from this selected consequence under the complete transition contract. Ground the remaining uncertainty in the authoritative opening and a new valid action target, inspect the exact diff, and report truthfully.")
     try:
         route = json.loads((workspace / "route-assimilation.json").read_text())
         opening = json.loads((workspace / "successor-opening.json").read_text())
@@ -246,7 +245,7 @@ def run_router(prior89, p82, context, cycle_root, parent, corrected, binding, wo
         "expected_information_grounded": bool(action and has_concepts(action.get("expected_information"), next_concepts)),
     }
     coherence["passed"] = all(coherence.values())
-    valid = bool(prior23.valid_route(route) and prior89.valid_successor(opening) and coherence["passed"])
+    valid = bool(prior22.valid_route(route) and prior89.valid_successor(opening) and coherence["passed"])
     audit = context.audit_actor(label, output, base_audit, valid, ["route-assimilation.json", "successor-opening.json", "continuation-action.json"])
     accepted_trace = bool(audit["conformant"] and audit["trace_regime"]["accepted"] and audit["denial_classification_v2"]["accepted"] and not audit["denial_classification_v2"]["protected_path_named"] and not audit["denial_classification_v2"]["outside_file_changes"])
     binding_out = None
@@ -284,6 +283,19 @@ def main():
     runtime = p82.load_runtime(repo, store)
     parent, corrected, precorrection = load_parent(p82, repo, store)
     stage_checks = [stage_conformance(index, corrected, precorrection) for index in range(len(STAGES))]
+    with tempfile.TemporaryDirectory() as directory:
+        dry_root = Path(directory) / "cycle-1"
+        dry_root.mkdir()
+        dry_selection = bind_selection(p82, dry_root, parent, corrected, precorrection, 0)
+        dry_world = open_world(p82, dry_root, dry_selection, 0)
+        dry_seed = router_seed(prior89, dry_root, parent, corrected, dry_selection, dry_world, 0)
+        dry_seed_files = {path.name for path in dry_seed.iterdir() if path.is_file()}
+    required_seed_files = {
+        "README.md", "bound-selected-contact.json", "complete-transition-contract.json",
+        "continuation-action.json", "mutation-envelope.json", "route-assimilation.json",
+        "selected-world-consequence.json", "selector.py", "subject-position.json",
+        "successor-opening-contract.json", "successor-opening.json",
+    }
     checks = {
         "parent_exact": parent["artifact_digest"] == PARENT_DIGEST,
         "parent_sounding": runtime.identity_conforms(parent),
@@ -292,6 +304,9 @@ def main():
         "three_frozen_nodes": len(STAGES) == 3,
         "stage_conformance": stage_checks,
         "all_stage_fixtures_pass": all(item["passed"] for item in stage_checks),
+        "router_schema_present": prior22.ROUTER_SCHEMA.is_file(),
+        "route_validator_available": callable(prior22.valid_route),
+        "actor_seed_conforms": dry_seed_files == required_seed_files,
     }
     checks["passed"] = all(value for key, value in checks.items() if key not in {"passed", "stage_conformance"}) and checks["all_stage_fixtures_pass"]
     if args.preflight_only:
