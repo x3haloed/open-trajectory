@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-third-expansion-promotion-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 320000,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0718fb017897ce1bc416ffd3ca78842654ce3aa9",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0116",
+  "input_manifests": [
+    "evidence/manifests/OT-0115/stopped-prospective-third-expansion-run.json"
+  ],
+  "kind": "retained-assimilation-abi-repair-run",
+  "limitations": [
+    "One exact retained prospective expansion promoted after publishing a bounded continuation-target length; frequency, cross-domain transfer, and multi-cycle uninterrupted recurrence remain unestablished."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:retained-third-expansion-promotion-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e956a542579cb4c1235a106f6589f2af21d5166cdea5377f7db6f20b7cf5dd15"
+}

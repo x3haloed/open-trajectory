@@ -603,6 +603,22 @@ length that includes this exact target, re-audit the retained assimilation
 without resampling, and complete promotion only if every other gate still
 passes.
 
+OT-0116 completes that retained promotion. A published 3–128-character target
+contract accepts the exact 68-character action; every other package,
+admission, world, assimilation, trace, citation, and byte-retention check
+replays unchanged. Exact sounding subject
+`597fd631b365952423cb1908a7bb201af0116b4a2e707bd1a07514cf93205786`
+is open with three promoted subject-authored extensions and a fourth
+subject-selected opening.
+
+The next decisive test is no longer another single retained repair. Run the
+repaired prospective generic machinery for multiple cycles in one invocation
+from this exact subject. The subject must choose each next surface; concrete
+public correction receipts may operate generically; no researcher may
+intervene between cycles. A fixed observer budget may end the observation but
+must preserve any sounding open successor rather than interpreting continued
+music as failure.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -682,6 +698,9 @@ passes.
 - The third subject-selected extension passes prospectively through hidden
   admission and world contact; only an unpublished continuation-target length
   limit prevents promotion of its retained grounded assimilation.
+- Re-auditing that exact output under the published bounded target contract
+  promotes the third generic expansion and leaves a fourth subject-selected
+  extension open.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -1,6 +1,6 @@
 # OT-0116 — retained assimilation target ABI
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; passed
 - **Evidence class:** exploratory-only
 - **Target:** promote the exact OT-0115 package and assimilation without actor
   resampling after publishing the continuation-target length contract
@@ -44,3 +44,24 @@ another actor sample. It would establish one prospectively authored and
 admitted generic continuation after two prior promoted expansions, not
 frequency, cross-domain transfer, autonomous admission, indefinite
 continuation, or unrestricted target syntax.
+
+## Result
+
+The reconstruction passed every frozen check. The retained package binding,
+author and assimilator patch digests, clean traces, public contract, hidden and
+authored oracle rows, reversibility, admission and world receipts, immutable
+sources, grounded citations, and both JSON schemas all replayed exactly. The
+old validator rejected the retained 68-character target; the published 3–128
+validator accepted it without changing any actor byte.
+
+The retained assimilation promoted exact sounding subject
+`597fd631b365952423cb1908a7bb201af0116b4a2e707bd1a07514cf93205786`.
+It remains open and carries the actor-selected fourth expansion,
+`joint-capability-frontier-coordination-recovery-resilience-extension`.
+
+The frozen target passes. Together OT-0115 and OT-0116 establish one
+prospectively authored, independently admitted, world-tested third generic
+expansion after two prior promoted expansions. The next experiment should use
+the repaired prospective machinery from this exact subject for multiple cycles
+in one invocation, with observation limits ending the run rather than closing
+an otherwise sounding subject.

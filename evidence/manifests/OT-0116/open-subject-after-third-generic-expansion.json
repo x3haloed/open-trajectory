@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-third-generic-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 305331,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0718fb017897ce1bc416ffd3ca78842654ce3aa9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0116",
+  "input_manifests": [
+    "evidence/manifests/OT-0115/unchanged-open-subject-after-target-abi-stop.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after three promoted generic interface expansions; the fourth subject-selected extension remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-third-generic-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3ad82e07c8bc455d2cb84b9818a614e326432c5d12f4e2981d1033843fbda4a9"
+}

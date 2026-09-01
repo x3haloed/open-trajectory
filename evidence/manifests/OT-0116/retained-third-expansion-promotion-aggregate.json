@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-third-expansion-promotion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5848,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0718fb017897ce1bc416ffd3ca78842654ce3aa9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0116",
+  "input_manifests": [
+    "evidence/manifests/OT-0115/stopped-prospective-third-expansion-aggregate.json"
+  ],
+  "kind": "retained-assimilation-abi-repair-result",
+  "limitations": [
+    "The exact OT-0115 output was re-audited without actor resampling and promoted under a published 3-to-128-character target contract."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-third-expansion-promotion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0676a19faa415571cf31f6ac39249c197fd728698868108a129bd6c805991062"
+}

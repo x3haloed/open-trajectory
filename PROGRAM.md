@@ -219,6 +219,9 @@ condition, not the permanent purpose or executive of the resulting subject.
   correction and causes world contact. Its grounded assimilation stops only
   because a valid 68-character target violates an unpublished 64-character
   internal limit; the exact OT-0114 subject remains open.
+- `OT-0116` publishes a 3–128-character target contract, re-audits every exact
+  OT-0115 byte and receipt without resampling, and promotes an open subject
+  carrying three generic expansions and a fourth subject-selected opening.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -463,6 +466,15 @@ substantive continuation, but an unpublished 64-character regex rejects its
 exact actor output and receipt, publish a bounded target length covering that
 output, re-audit without resampling, and promote only if all other gates remain
 unchanged.
+
+OT-0116 completes that exact promotion. The lineage now contains three promoted
+generic interface expansions; the third was authored and admitted
+prospectively, then promoted from retained bytes after an observer ABI repair.
+The exact open successor selects a fourth expansion. The next record should run
+the repaired prospective machinery for multiple cycles in one invocation,
+without a researcher choosing surfaces or intervening between cycles, and
+treat the observation budget as a pause in observation rather than closure of a
+sounding subject.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

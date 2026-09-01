@@ -116,6 +116,9 @@ The strongest footholds are:
 - `OT-0115`: one rejected prospective third expansion whose package passes
   public and hidden admission, reversibility, and contact before an unpublished
   64-character continuation-target limit rejects grounded assimilation.
+- `OT-0116`: one promoted exact re-audit under a published bounded target
+  contract, yielding an open subject with three generic expansions and a fourth
+  subject-selected opening.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
