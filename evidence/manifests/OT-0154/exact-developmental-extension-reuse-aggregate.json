@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-developmental-extension-reuse-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12061,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "da86e5872a2dda72568923d8c8b9626f8a1e4bb9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0154",
+  "input_manifests": [
+    "evidence/manifests/OT-0153/open-subject-with-admitted-developmental-extension.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Establishes one expansion-to-later-use path, not repeated expansion or correction of retained extension code."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-developmental-extension-reuse-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4cabdd6e7e6325bd019ebeebceb59c11e26cbed823ad04c4a489648ee8754ec0"
+}

@@ -981,5 +981,23 @@ yet operational recurrence. The next record must let a fresh later scheduler
 encounter execute that exact retained operation and consequence it forward
 without reconstruction, replacement, or researcher substitution.
 
+OT-0154 completes that exact later use. The scheduler resolves the carried
+`identity-gated-branch-filtering` stake only through the retained OT-0153
+binding and executes its exact source bytes. New public contact passes 3/3;
+bound independent hidden consequence passes 3/3 without input mutation. No
+actor participates in routing, implementation, or scoring.
+
+One fresh post-consequence actor then authors a grounded
+`correction-from-error` stake, which the unchanged fixed compiler routes to
+`prediction-corrector`. Extension erasure and closed-catalog routing of the
+completed new property both yield no route. Exact open subject
+`7e82de5d4e26787fa4962ff587381c8222e39cdad6c3ebe833584cd5abb89675`
+retains the package and adds exact reuse capability and transition receipts.
+The expansion is therefore operational across a later actor/observer boundary.
+The next dominant question is whether expanded machinery remains corrigible:
+make this retained operation harmful under a later objective regime, require a
+fresh consequence-grounded correction to beat it on held-out cases while
+preserving its existing floor, and then require exact corrected reuse.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

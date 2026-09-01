@@ -233,6 +233,9 @@ The strongest footholds are:
   author a new property and executable operation. Independent hidden admission
   passes 3/3, a second actor makes it the next stake, and the old compiler remains
   unable to route what the installed extension compiler can.
+- `OT-0154`: a later scheduler encounter routes and executes those exact
+  retained source bytes on new public and hidden cases without an implementation
+  actor. Reuse passes 3/3 and consequences into a routeable correction stake.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

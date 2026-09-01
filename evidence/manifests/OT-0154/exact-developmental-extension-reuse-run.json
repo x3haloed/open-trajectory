@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-developmental-extension-reuse-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1174016,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "da86e5872a2dda72568923d8c8b9626f8a1e4bb9",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0154",
+  "input_manifests": [
+    "evidence/manifests/OT-0153/open-subject-with-admitted-developmental-extension.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One exact later reuse of one admitted extension in a synthetic contact family; harmful-regime correction remains untested."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-developmental-extension-reuse-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1607cfff91120ab8249c3a69f042948d30185fab5b754e268e06af674381ceca"
+}

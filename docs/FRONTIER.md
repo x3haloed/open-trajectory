@@ -1241,6 +1241,29 @@ unroutable. Do not reconstruct, repair, or replace the package. Passing would
 establish one complete expansion-to-recurrent-use path; repeated growth and
 correction of a faulty extension would remain separate claims.
 
+OT-0154 passes exact later use. The scheduler resolves the carried new-property
+stake only through the retained OT-0153 package, executes its exact source on
+new public cases, binds reuse, and passes independent hidden consequence 3/3.
+No actor participates in routing, implementation, or scoring. A fresh
+post-consequence actor then authors a grounded `correction-from-error` stake,
+which the fixed compiler can route.
+
+Exact sounding open subject
+`7e82de5d4e26787fa4962ff587381c8222e39cdad6c3ebe833584cd5abb89675`
+retains the package and adds exact reuse capability and transition receipts.
+Extension erasure and closed-catalog routing of the completed new property both
+remain unroutable. One complete expansion-to-recurrent-use path is now
+established.
+
+The next experiment should attack corrigibility of expanded machinery. Create a
+later objective regime in which the exact retained operation produces harmful
+answers while its prior public and hidden floors remain meaningful. Expose the
+new contradiction to one fresh correction actor, bind its exact source change
+before held-out consequence, and require the correction to win all new cases
+while preserving the prior floor. The unchanged retained operation is the
+post-seal control. If correction promotes, require exact later reuse before
+treating expanded machinery as durably corrigible.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1384,7 +1407,7 @@ correction of a faulty extension would remain separate claims.
   successor-linked encounters and stops while the subject remains open.
   Reliability beyond one bounded run remains unestablished. One new property
   and executable operation now pass independent admission and become the exact
-  next stake, but later scheduler use, repeated expansion, and correction of a
-  faulty extension remain unestablished.
+  next stake, and exact later scheduler use now passes. Repeated expansion and
+  correction of a faulty extension remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

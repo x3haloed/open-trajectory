@@ -46,3 +46,23 @@ Passing would establish one complete expansion-to-later-use transition across
 an actor and observer boundary. It would not establish repeated extension
 growth, correction of a harmful extension, or that the expanded selector can
 choose when extension is better than a fixed property.
+
+## Result
+
+Exact reuse passed. The scheduler resolved the carried
+`identity-gated-branch-filtering` stake only through the retained OT-0153
+binding, loaded the exact retained source, and passed three new public cases.
+The bound reuse then passed all three independently sealed hidden cases without
+input mutation. No actor participated in routing, implementation, or scoring.
+
+One fresh post-consequence actor changed only `next-stake.json`, passed complete
+trace and effects audit, and authored a grounded `correction-from-error` stake.
+The unchanged closed compiler routes that following stake to
+`prediction-corrector`. After sealing, both extension erasure and asking the
+closed compiler to route the completed new property produced no route.
+
+Exact sounding open subject
+`7e82de5d4e26787fa4962ff587381c8222e39cdad6c3ebe833584cd5abb89675`
+retains the installed extension and adds exact reuse capability and transition
+receipts. This completes one expansion-to-later-use path. Correction after a
+later regime makes retained extension machinery harmful remains untested.

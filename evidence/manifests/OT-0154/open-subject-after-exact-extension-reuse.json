@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-exact-extension-reuse",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 446167,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "da86e5872a2dda72568923d8c8b9626f8a1e4bb9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0154",
+  "input_manifests": [
+    "evidence/manifests/OT-0153/open-subject-with-admitted-developmental-extension.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject retains one reused extension and carries a fixed-catalog correction stake; extension correction is untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-exact-extension-reuse",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7a934471062a6658380557b7ad10318aa91b42e6ffb26159db0857736cdc5fcf"
+}
