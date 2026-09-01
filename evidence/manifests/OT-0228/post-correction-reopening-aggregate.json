@@ -1,0 +1,31 @@
+{
+  "artifact_id": "post-correction-reopening-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 21959,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "63aeaea0662012a8d6bb68f93f86a3b91de59f90",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0228",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh Luna actor choosing between two remaining synthetic planning surfaces; correction of the selected second surface and further recurrence remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:post-correction-reopening-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b5f108cc327f51eac658310e82a1c0e9a9eb64d764bbba2ce5c2d68fb4a72c9e"
+}

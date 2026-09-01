@@ -2635,3 +2635,10 @@ and unchanged remains 2/6. Exact successor `126d7e41...` admits the correction
 and dispatches `assimilate`. The current frontier is whether a fresh actor can
 assimilate this exact receipt and select a genuinely live next G7 operation—
 widening if the local frontier is saturated—without a researcher target.
+
+OT-0228 crosses that edge. The fresh actor selects `schedule_evacuation` from
+the two uncontacted surfaces without a target hint. Public 1/4 and sealed 2/6
+contact make the new stake unresolved; exact successor `9028a297...` is open at
+`correct`. The frontier is now correction-mechanism reuse on a second
+subject-selected target, followed by another assimilation rather than a
+planning-specific experiment itinerary.

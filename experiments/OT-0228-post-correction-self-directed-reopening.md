@@ -1,6 +1,6 @@
 # OT-0228 — post-correction self-directed reopening
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0227 subject `126d7e41...`
 - **Actor budget:** one fresh assimilator; no replacement
@@ -37,4 +37,9 @@ open-ended continuation.
 
 ## Result
 
-Not yet run.
+The single fresh actor selected previously uncontacted `schedule_evacuation`
+without a supplied target. Its exact one-file report and mechanical effects pass
+G8; its four behaviorally new public cases execute validly and match 1/4. The
+sealed world confirms unresolved consequence at 2/6. All gates pass. Exact
+successor `9028a297...` marks the selected target unresolved, remains open, and
+dispatches `correct`. Receipt `f7dde060...` promotes the bounded claim.

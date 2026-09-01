@@ -557,6 +557,10 @@ The strongest footholds are:
   exposes it prospectively to consequence. Revised behavior reaches 6/6 versus
   unchanged 2/6. Exact successor `126d7e41...` installs the correction, resolves
   the new-module contradiction, and dispatches `assimilate`.
+- `OT-0228`: a fresh post-correction actor receives two uncontacted surfaces and
+  no target. It selects `schedule_evacuation`, binds four new cases, and receives
+  public 1/4 plus independent 2/6 contradiction. Exact successor `9028a297...`
+  remains open and dispatches a second generalized correction cycle.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

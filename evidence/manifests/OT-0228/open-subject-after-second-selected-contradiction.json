@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-second-selected-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 747352,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "63aeaea0662012a8d6bb68f93f86a3b91de59f90",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0228",
+  "input_manifests": [
+    "OT-0228/post-correction-reopening-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after a second subject-selected contradiction; schedule_evacuation correction is pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-second-selected-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "dd75fefc512e79b2760c1533cab1ae44b9f0accf31957332fb95dcd8692f74e5"
+}

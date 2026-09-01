@@ -2023,5 +2023,12 @@ resolves the pending contradiction, marks the target verified-local, remains
 open, and dispatches `assimilate`. The next step is fresh post-correction
 assimilation and G7 selection, not another correction or retrospective rescore.
 
+OT-0228 performs that assimilation with one fresh actor and no assigned target.
+Of two uncontacted registry surfaces it selects `schedule_evacuation`, passes G8
+with exact reporting, binds four behaviorally new cases, and receives public 1/4
+plus independent 2/6 contradiction. Exact successor `9028a297...` retains the
+new stake and dispatches `correct`. The next step is reuse of registry-driven
+correction on this second selected target, not another bespoke repair harness.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
