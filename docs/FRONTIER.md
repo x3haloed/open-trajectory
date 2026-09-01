@@ -1218,6 +1218,29 @@ floors, or the acceptance gate. A control retaining the closed catalog should
 fail or remain unable to route. Passing must install the new language/contact
 as subject state and let the unchanged scheduler use it in a later encounter.
 
+OT-0153 passes the installation half of that test. The current stake encounters
+a complete capability-coherence contact whose identity comparison and branch
+filtering are not jointly expressible by any fixed catalog entry. One fresh
+actor authors `identity-gated-branch-filtering` and an executable
+`realize_contact` operation. It passes public 3/3, binds before hidden
+materialization, and passes independent hidden 3/3 without mutating input.
+
+A second fresh actor then authors a grounded new-property stake. Exact sounding
+open subject
+`7c87508db3a882e0cf4dd3c8830533c27ceb005712b99c8d11c96a5527f387e0`
+retains the exact package, admission capability, expansion transition, and new
+opening. The frozen closed compiler cannot route it; the installed
+extension-aware compiler can.
+
+The next record should test exact later use, not another proposal. Start from
+that exact subject, let the scheduler consume the carried new-property stake,
+resolve its route only from retained package state, execute the exact retained
+operation on new public and sealed hidden cases, and let a fresh consequence
+actor author the following stake. An extension-erased control must remain
+unroutable. Do not reconstruct, repair, or replace the package. Passing would
+establish one complete expansion-to-recurrent-use path; repeated growth and
+correction of a faulty extension would remain separate claims.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1359,7 +1382,9 @@ as subject state and let the unchanged scheduler use it in a later encounter.
   consumes that stake and authors a third without between-cycle researcher
   world choice. One unchanged invocation now completes three more exact
   successor-linked encounters and stops while the subject remains open.
-  Reliability beyond one bounded run and an open-ended property language remain
-  unestablished.
+  Reliability beyond one bounded run remains unestablished. One new property
+  and executable operation now pass independent admission and become the exact
+  next stake, but later scheduler use, repeated expansion, and correction of a
+  faulty extension remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

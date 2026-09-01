@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-admitted-developmental-extension",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 444726,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f1e4395ed7d78993e3415d9c315cb35139ffb25e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0153",
+  "input_manifests": [
+    "evidence/manifests/OT-0152/open-subject-after-single-invocation-recurrence.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries one admitted new-property stake whose retained operation has not yet been reused by a later scheduler encounter."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-admitted-developmental-extension",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "13f02b5ea7e2fbcaf198ab1fba0f40415638bce8a441436346a22e5c5b7ba771"
+}

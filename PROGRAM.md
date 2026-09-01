@@ -963,5 +963,23 @@ and synthetic surfaces remain researcher-designed. Reduce that remaining cause
 next by testing whether world consequence can authorize a new property and its
 executable contact outside the closed three-property catalog.
 
+OT-0153 passes that bounded expansion. The exact OT-0152 stake encounters a
+complete capability-coherence contact whose required identity comparison and
+branch filtering are not jointly represented by any fixed catalog entry. A
+fresh actor authors `identity-gated-branch-filtering` and a restricted
+`realize_contact` operation. Exact binding precedes hidden materialization; the
+operation passes public 3/3 and independent hidden 3/3 without input mutation.
+
+Only after admission, a second fresh actor authors a grounded stake using the
+exact new property. Exact open subject
+`7c87508db3a882e0cf4dd3c8830533c27ceb005712b99c8d11c96a5527f387e0`
+retains every prior capability and installs the package, admission capability,
+expansion receipt, and new-property opening. The old closed compiler still
+cannot route it; the extension-aware compiler selects the retained exact
+operation. This is one consequence-authorized language/contact expansion, not
+yet operational recurrence. The next record must let a fresh later scheduler
+encounter execute that exact retained operation and consequence it forward
+without reconstruction, replacement, or researcher substitution.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

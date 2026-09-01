@@ -68,3 +68,28 @@ developmental language and executable contact set. It would not establish
 arbitrary property invention, correction of a faulty extension, repeated
 extension growth, or later use by the unchanged recurrent scheduler. Exact
 later use is the required next test.
+
+## Result
+
+The expansion passed. One fresh actor authored
+`identity-gated-branch-filtering` plus a restricted executable
+`realize_contact` operation. It changed only the two authorized files, passed
+complete trace and effects audit, matched all three public cases, and was bound
+before hidden materialization. Independent consequence then passed all three
+disjoint hidden cases without input mutation.
+
+Only after that receipt existed, a second fresh actor authored a grounded stake
+using the exact new property. Its patch and trace passed, and the successor was
+sealed before compiler controls. The unchanged closed compiler returned no
+route; the extension-aware compiler selected the exact retained binding and
+operation.
+
+Exact sounding open subject
+`7c87508db3a882e0cf4dd3c8830533c27ceb005712b99c8d11c96a5527f387e0`
+retains every parent field and capability while adding the package, admitted
+capability, expansion transition, and new-property opening.
+
+This establishes one bounded consequence-authorized developmental-language and
+contact expansion. The objective contact and admission machinery remain
+researcher-designed. The retained extension has not yet caused a later contact;
+exact scheduler reuse is the next required test.

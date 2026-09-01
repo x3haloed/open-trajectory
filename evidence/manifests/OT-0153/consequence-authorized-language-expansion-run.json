@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-authorized-language-expansion-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1969664,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f1e4395ed7d78993e3415d9c315cb35139ffb25e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0153",
+  "input_manifests": [
+    "evidence/manifests/OT-0152/open-subject-after-single-invocation-recurrence.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One bounded extension beyond a fixed three-property catalog in a synthetic contact family; later scheduler reuse remains untested."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-authorized-language-expansion-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d8a1568415b7e48ade5fcf5a15a76c04d89a9821eb9feeebbfd7f728ea4a127c"
+}

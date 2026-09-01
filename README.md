@@ -229,6 +229,10 @@ The strongest footholds are:
   successor-linked encounters with no property itinerary. Six fresh actors pass
   audit, all hidden worlds pass, and the observer stops while the exact subject
   remains open with a fourth actor-authored stake.
+- `OT-0153`: objective mismatch with that closed catalog causes a fresh actor to
+  author a new property and executable operation. Independent hidden admission
+  passes 3/3, a second actor makes it the next stake, and the old compiler remains
+  unable to route what the installed extension compiler can.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
