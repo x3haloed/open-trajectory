@@ -1,6 +1,6 @@
 # OT-0120 — grounded opening renewal
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; passed
 - **Evidence class:** exploratory-only
 - **Target:** promote the exact OT-0119 selector and renewed-opening assimilation
   without resampling
@@ -26,3 +26,17 @@ or cannot distinguish what was learned from what remains open. Reconstruct and
 bind the exact OT-0119 bytes, install the improved selector, and seal a sounding
 successor without resampling. Corrigibility still requires the next
 contradictory independently scored regime.
+
+## Result
+
+Every frozen reconstruction and renewal check passes. The exact selector,
+12/12 versus 4/12 world comparison, clean OT-0119 assimilation, portfolio-id
+citations, machinery update, distinct remaining uncertainty, renewed opening,
+and falsifiable surrender condition bind without changing an actor byte.
+
+Exact sounding subject
+`94bad6975b902e6e181ff125ea58c44c2c8c090f11c534f74351691f3ccf124f`
+is promoted open with the world-improved selector installed. Its renewed
+resilience-boundary pursuit remains causally downstream of the lineage rather
+than observer replacement. The next record must make the promoted heuristic
+harmful or incomplete under independent consequence and test fresh correction.

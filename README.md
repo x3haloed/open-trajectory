@@ -126,6 +126,8 @@ The strongest footholds are:
   is unprovable and the assimilation citation namespace was unpublished.
 - `OT-0119`: one clean explicitly grounded assimilation rejected only because
   its successor renews the exact still-unresolved opening.
+- `OT-0120`: one promoted exact grounded renewal installing the world-improved
+  selector in an open subject without erasing its still-missing contact.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "grounded-selector-renewal-promotion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3724,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "38eb9febe9f42fc1540b158463cf77d7212412cb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0120",
+  "input_manifests": [
+    "evidence/manifests/OT-0119/renewed-opening-selector-assimilation-aggregate.json"
+  ],
+  "kind": "grounded-selector-renewal-result",
+  "limitations": [
+    "The exact retained assimilation promoted under a grounded-renewal gate; this does not yet establish corrigibility."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:grounded-selector-renewal-promotion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "618f408cd773827acc62b19dd2781930bccec26f4271ebfece8c3c453da09417"
+}

@@ -650,6 +650,18 @@ would erase that unresolved stake; the next record should re-audit the exact
 bytes under a gate distinguishing unchanged state from changed machinery that
 carries a still-unresolved pursuit.
 
+OT-0120 passes that distinction. Exact open subject
+`94bad6975b902e6e181ff125ea58c44c2c8c090f11c534f74351691f3ccf124f`
+now installs the held-out-improved selector and renews the missing
+resilience-boundary contact. Continuity, non-repetition, and improved
+future-contact selection are operationally joined in one subject state.
+
+The decisive next test is corrigibility. Introduce an independently scored
+later regime where excess resilience carries an observable cost, so the
+promoted monotone resilience heuristic becomes systematically incomplete. A
+fresh correction must beat the unchanged promoted selector on hidden later
+portfolios while replaying the exact prior hidden floor.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -735,6 +747,8 @@ carries a still-unresolved pursuit.
 - A world-grounded revised selector now decisively beats its exact inherited
   control on held-out portfolios, but its subject transition remains unpromoted
   after a contained denied diagnostic in the assimilator trace.
+- That selector is now installed in an exact open subject whose grounded
+  continuation renews genuinely missing contact rather than forcing novelty.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

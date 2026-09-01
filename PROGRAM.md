@@ -501,5 +501,12 @@ renews the exact still-unresolved opening. The next record should retain the
 exact assimilation and permit renewal only when completed consequence changed
 machinery while the renewed opening names distinct contact that remains absent.
 
+OT-0120 passes that exact re-audit and promotes an open subject with the
+world-improved selector installed. The next record should honor its renewed
+resilience-boundary pursuit with a later regime where resilience itself carries
+an observable cost, making the promoted heuristic incomplete, and compare one
+fresh correction against the unchanged promoted selector while replaying the
+prior held-out floor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

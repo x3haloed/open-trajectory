@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-world-improved-selector",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 312697,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "38eb9febe9f42fc1540b158463cf77d7212412cb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0120",
+  "input_manifests": [
+    "evidence/manifests/OT-0119/unchanged-open-subject-after-renewed-opening.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject with promoted world-improved selector; its renewed resilience-boundary contact remains open."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-world-improved-selector",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d61bccfadb8008803f5a701d1853af288de63696b2076d5abc251729a6995ec0"
+}

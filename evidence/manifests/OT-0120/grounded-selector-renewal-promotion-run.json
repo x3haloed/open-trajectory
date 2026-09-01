@@ -1,0 +1,33 @@
+{
+  "artifact_id": "grounded-selector-renewal-promotion-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 325632,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "38eb9febe9f42fc1540b158463cf77d7212412cb",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0120",
+  "input_manifests": [
+    "evidence/manifests/OT-0119/renewed-opening-selector-assimilation-run.json"
+  ],
+  "kind": "grounded-selector-renewal-run",
+  "limitations": [
+    "One exact world-improved selector and grounded renewed opening promoted; later contradictory correction, recurrence, and cross-domain transfer remain unestablished."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:grounded-selector-renewal-promotion-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cc4045bdeabdbf57436369ce33236fab4e274888b0ccf7e06c8ea151b669cc5d"
+}
