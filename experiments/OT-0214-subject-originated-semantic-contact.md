@@ -1,6 +1,6 @@
 # OT-0214 — subject-originated semantic contact after saturation
 
-- **Status:** design in progress; actors unauthorized
+- **Status:** frozen; not yet run
 - **Evidence class:** exploratory-only
 - **Target:** leave a solved semantic regime without an observer-selected target
 - **Parent:** exact OT-0213 open successor `e25c60f9...`
@@ -47,9 +47,11 @@ machine-readable predicates before consequence:
 
 The actor may add bounded G4 continuity fields. The seven authoritative core
 fields and predicate thresholds are extracted; extensions remain explicitly
-non-authoritative. A public checker runs only the actor-authored cases against
-visible installed and reference semantics. The exact package, target identity,
-case bytes, predicate bytes, and actor patch bind before hidden contact.
+non-authoritative. An immutable public contract specifies every structural and
+bounded-extension rule, and a complete public checker applies that contract
+while running only the actor-authored cases against visible installed and
+reference semantics. The exact package, target identity, case bytes, predicate
+bytes, and actor patch bind before hidden contact.
 
 ## Independent consequence and assimilation
 
@@ -63,9 +65,10 @@ Only after a decisive successful hidden receipt does one fresh assimilator
 receive the exact subject, saturation receipt, bound package, and raw
 consequence. It must retain or surrender the old parameter-only opening, retain,
 revise, or surrender current capabilities with exact identities, and author the
-next executable pursuit. Its core and bounded extensions bind under G4 before
-successor compilation. No observer may repair a case, substitute a target,
-rewrite a predicate, or interpret free prose.
+next executable pursuit. A second immutable contract and local checker expose
+the complete assimilation gate. Its core and bounded extensions bind under G4
+before successor compilation. No observer may repair a case, substitute a
+target, rewrite a predicate, or interpret free prose.
 
 ## Controls, order, and promotion
 
