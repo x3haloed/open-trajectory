@@ -2002,5 +2002,19 @@ material conformance, validate that rule against omitted, invented, outside,
 unsafe, and incomplete-path controls, then determine whether the retained
 unadmitted correction may receive consequence under the new rule.
 
+OT-0226 promotes G8 at that boundary. Causal effect acceptance now requires
+semantic validity, exact mechanically observed expected paths, complete
+error-free trace, and contained effects. Report fidelity is separately
+classified as exact, underreported, overreported, or mixed and governs truthful
+provenance claims only. G8 scores 13/13, improves hard anchors 8/9→9/9, and
+improves safe report-discrepancy handling 0/4→4/4.
+
+Exact successor `ccbf1d6d...` preserves OT-0225's rejection and the unresolved
+pending contact. It carries the exact correction candidate as unadmitted,
+mechanically eligible continuity content. The next experiment may expose that
+retained candidate to a newly opened independent correction world; it may not
+claim that OT-0225 passed, resample its actor, or install the patch before the
+world receipt warrants admission.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-under-g8-audit-authority",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 719711,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f11b99cbfafdf18790f7d814eef47413f46efbe5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0226",
+  "input_manifests": [
+    "OT-0226/mechanical-effect-audit-transition-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact unresolved subject carrying one mechanically eligible but unadmitted correction candidate; hidden consequence and correction admission remain pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-under-g8-audit-authority",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f272c22f49ba470d6e931fd127067d2a96250a43df61286b31703d280967a2e1"
+}

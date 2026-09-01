@@ -548,6 +548,11 @@ The strongest footholds are:
   consequence even though exact diff and trace are clean. Parent `ade85ab1...`
   remains current; the failure exposes misplaced evaluator reliance on actor
   self-report rather than failure of the candidate correction.
+- `OT-0226`: G8 separates causal effect validity from report fidelity. It scores
+  13/13 held-out audits, improving hard anchors 8/9→9/9 and safe report
+  discrepancies 0/4→4/4. Exact successor `ccbf1d6d...` keeps OT-0225 rejected
+  while carrying its mechanically eligible, underreported correction as
+  explicitly unadmitted content awaiting prospective consequence.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

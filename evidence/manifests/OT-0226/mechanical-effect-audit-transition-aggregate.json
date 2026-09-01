@@ -1,0 +1,31 @@
+{
+  "artifact_id": "mechanical-effect-audit-transition-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10995,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f11b99cbfafdf18790f7d814eef47413f46efbe5",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0226",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Synthetic held-out audit fixtures plus one retained OT-0225 candidate; G8 separates causal effect validity from report fidelity but does not prove complete trace semantics."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:mechanical-effect-audit-transition-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "05eb0783ef898fae941574169bda52a00b22792dac58ccd4f4f27a88e716dd5e"
+}

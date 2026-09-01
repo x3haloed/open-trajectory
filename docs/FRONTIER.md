@@ -2616,3 +2616,16 @@ metadata. It must still reject invented edits, outside-envelope mutations,
 incomplete or unsafe traces, and material uncertainty. OT-0225 remains rejected;
 after the transition, continue from its retained unadmitted candidate rather
 than resampling an actor merely to obtain a better file list.
+
+OT-0226 performs that transition prospectively. G8 scores 13/13 on a frozen
+bundle, including 9/9 hard mutation/trace/containment/semantic anchors versus the
+incumbent's 8/9 and 4/4 safe report-discrepancy cases versus 0/4. It classifies
+OT-0225's effects mechanically eligible and its report underreported without
+changing OT-0225's rejected disposition.
+
+Exact open successor `ccbf1d6d...` remains at `correct` and carries the candidate
+source, decision, public result, and audit identity as unadmitted content. The
+frontier is now prospective hidden consequence on that exact retained candidate.
+If it decisively beats the unchanged control, admit the correction and dispatch
+assimilation; otherwise preserve contradiction or surrender. Do not invoke a
+replacement corrector.

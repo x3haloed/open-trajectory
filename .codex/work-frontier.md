@@ -69,18 +69,23 @@ targets route to correction; verified-local targets route to widening. OT-0223
 scores 16/16 operation classifications versus G6's 10/16 without rescoring
 historical outcomes.
 
+G8 retains G7 and makes exact mechanical effects, complete error-free traces,
+containment, and semantic validity authoritative for causal acceptance. Actor
+path reports are classified separately and limit truthful-provenance claims.
+OT-0226 scores 13/13, improves hard anchors 8/9→9/9, and improves safe report
+discrepancies 0/4→4/4 without rescoring OT-0225.
+
 Anchors: fresh contexts/workspaces, exact ancestry, bind-before-consequence,
 independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0224 successor `ade85ab1...`,
+The current exact operational subject is OT-0226 successor `ccbf1d6d...`,
 identified by
-`evidence/manifests/OT-0224/open-subject-after-semantic-widening-contact.json`.
-It preserves the full lineage, the selected planning surface, the bound contact,
-and independent 2/6 contradiction. The subject is open at driver phase
-`correct`; `prioritize_inspections` is unresolved while the three prior targets
-remain verified-local.
+`evidence/manifests/OT-0226/open-subject-under-g8-audit-authority.json`. It
+preserves the unresolved 2/6 contact and carries OT-0225's exact candidate as
+mechanically eligible but unadmitted content. The subject remains open at
+`correct`; no correction capability or hidden follow-up receipt has been added.
 
 ## Prediction errors
 
@@ -157,8 +162,11 @@ remain verified-local.
   must prospectively admit harmless report omissions without weakening rejection
   of actual outside-envelope edits, unsafe/incomplete traces, invented reported
   paths, or materially uncertain mutation. OT-0225 must not be rescored.
+- OT-0226 resolves the authority error prospectively. G8 passes 13/13, preserves
+  or improves every hard anchor, and treats the retained candidate as causally
+  eligible but underreported. It retains that candidate inside exact successor
+  `ccbf1d6d...` without installing it or altering OT-0225.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. After the audit transition, the next discriminating step is hidden
-  consequence on the retained unadmitted correction, followed by recurrence if
-  warranted, without resampling the actor or adding a planning-specific
-  researcher itinerary.
+  external. The next discriminating step is hidden consequence on the retained
+  unadmitted correction, followed by recurrence if warranted, without resampling
+  the actor or adding a planning-specific researcher itinerary.

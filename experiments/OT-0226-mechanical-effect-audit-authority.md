@@ -1,6 +1,6 @@
 # OT-0226 — mechanical-effect audit authority
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** deterministic-transition
 - **Target:** prospective G7 → G8 evaluator transition
 - **Operational parent:** exact OT-0224 subject `ade85ab1...`
@@ -59,4 +59,14 @@ reconstruction, conformant successor, route 16/16, identity 18/18, and privacy.
 
 ## Result
 
-Not yet run.
+G8 passes all 13 held-out fixtures. It improves the nine hard anchors from 8/9
+under the incumbent to 9/9 by rejecting an accepted trace with a nonzero error
+count, and improves the four report-discrepancy fixtures from 0/4 to 4/4 without
+weakening actual-effect, containment, semantic, or trace gates.
+
+Applied prospectively, G8 classifies the retained OT-0225 candidate's exact
+effects as causally eligible and its report as `underreported`; truthful
+provenance remains unsupported. OT-0225 stays rejected. Exact successor
+`ccbf1d6d...` remains open and unresolved at `correct`, retains the candidate as
+unadmitted content, and grants it no installed capability or world receipt.
+Aggregate receipt `b80a598e...` promotes the transition.
