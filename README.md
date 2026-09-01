@@ -397,6 +397,10 @@ The strongest footholds are:
   controls. Open successor `7346933d...` installs the direct pursuit transition
   and an actor-authored next contact whose prediction is then falsified 0/4;
   the surviving alternative passes 4/4 and remains open for cycle two.
+- `OT-0196`: cycle-two preflight discovers that the latent prose stake conflicts
+  with observed-contact predicates and world scoring. A clean repair actor
+  chooses the executable observed target, so the latent-only gate rejects before
+  the cohort. The next repair must update stake and contact contract together.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

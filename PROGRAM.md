@@ -1564,5 +1564,17 @@ retained consequence through the subject's inherited executable pursuit
 predicates, preserve every prior route floor, and bind the resulting operation
 directly before opening later contact.
 
+OT-0196 finds that this direct resolution would be unsound. The active prose
+stake names latent discovery, but predictions are not option tokens, the old
+world scores observed contact, and inherited predicates also test observed
+contact. A fresh repair actor cleanly chooses an observed-contact contract with
+advisory predictions. The latent-only gate rejects before downstream actors.
+
+The unresolved authority conflict is inside the subject state, not actor noise.
+Next allow coupled assimilation of stake and executable contact contract. The
+actor may retire the incoherent representations and bind one canonical target,
+but the next target must move beyond the already-earned observed-contact floor.
+Then test whether that coupled state causally constrains fresh contact authors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

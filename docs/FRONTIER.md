@@ -2101,3 +2101,30 @@ selects the survivor for this contact or whether the subject must add a
 non-regressing distinction. Do not insert another successor vote between the
 predicate receipt and state transition, and do not reopen evaluator design
 unless the new consequence contradicts it.
+
+Cycle-two conformance contradicts that plan before transition. The promoted
+prose stake asks for latent-option discovery, but active-01 prediction strings
+are not option members, its hidden world expects observed-unblocked contact,
+and inherited success predicates also reference observed-unblocked rather than
+latent-unblocked. The old interpreter therefore declares success on a question
+the contact did not test.
+
+OT-0196 exposes this mismatch to a fresh contract-repair actor. The actor passes
+complete audit but chooses `observed-unblocked` with advisory predictions. The
+frozen latent-alignment gate rejects immediately and no cohort runs. Exact
+parent `7346933d...` remains current.
+
+Expected: preserve the latent stake and repair contact. Observed: preserve the
+executable observed-contact authority and revise the contract around it.
+Uncertain: which state owns current pursuit when prose stake, executable
+predicates, and world contract disagree. Evidence: OT-0196's clean actor-authored
+contract plus mismatch receipt `2e30a591...`.
+
+The next interface must permit coupled correction. Give one actor authority to
+retire the incoherent stake/predicate/contact tuple and bind one executable
+next stake whose target set exactly matches its contact contract. Preserve the
+observed-contact result as an earned floor, so the new target cannot simply
+repeat `observed-unblocked`. Then run matched fresh contact authors with the
+coupled binding present or erased. This tests whether the subject can repair the
+machinery that makes its own pursuits contactable, not whether an observer can
+choose latent contact on its behalf.
