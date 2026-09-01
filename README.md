@@ -68,6 +68,9 @@ The strongest footholds are:
 - `OT-0100`: one rejected threshold-correction run whose fourth fresh corrector
   generalized fully and caused an admitted joint implementation before a final
   assimilation ABI mismatch.
+- `OT-0101`: one promoted derived-retention run carrying the exact corrected
+  allocator through grounded fresh assimilation; its outcome-erased control
+  did not reproduce the correction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -147,6 +147,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   implementation. Fresh assimilation is substantively grounded but rejects on
   an exact `retain` literal and hidden-only citation rule. No successor is yet
   promoted.
+- `OT-0101` carries that exact correction and admitted consequence without
+  resampling. A fresh assimilator retains the allocator bytes, grounds itself
+  in both public and hidden passed rows, and authors a new opening. The exact
+  successor is promoted; a post-seal outcome-erased control remains unable to
+  repair the threshold defect or ground the same revision.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -311,9 +316,11 @@ carry the two newly sealed failures into a third fresh correction and require a
 fourth disjoint generalization gate before contact. OT-0099 does so, fixes
 regret direction, and isolates the last observed error to threshold semantics.
 OT-0100 carries that receipt into a fourth correction, passes the fifth gate,
-and reaches admitted joint consequence. The remaining boundary is final
-assimilation authority: derive retention from bytes and accept passed public and
-hidden receipt rows, then promote the exact existing chain without resampling.
+and reaches admitted joint consequence. OT-0101 derives retention from bytes,
+accepts passed public and hidden receipt rows, and promotes the exact chain
+without resampling. The next boundary is recurrence from that exact subject:
+let its actor-authored joint opening and retained allocator shape contact in a
+qualitatively new world while reducing researcher choice over update timing.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

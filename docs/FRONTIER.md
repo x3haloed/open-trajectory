@@ -326,6 +326,17 @@ experiment should carry the exact correction and admitted implementation—not
 resample them—derive retention mechanically, allow passed rows from both sealed
 partitions, and seal the successor before the erased correction control.
 
+OT-0101 performs that exact promotion. Without resampling the correction or
+implementation, a fresh assimilator retains allocator bytes, cites passed rows
+from both sealed partitions, and authors a new joint-boundary opening. The exact
+subject is promoted at
+`b7b3494c0a0b8ab99ec35d9ad40250b531bb184bce99d3b5a45310baf00f3886`.
+The post-seal outcome-erased control is conformant but cannot ground the erased
+failures and leaves both threshold regressions broken. It does not reproduce
+the correction. This establishes one bounded causal chain in which selection
+machinery improves through repeated consequence and then governs a promoted
+subject transition.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -380,6 +391,9 @@ partitions, and seal the successor before the erased correction control.
 - A fourth consequence completed the generic allocator and caused an admitted
   joint implementation. Promotion remains blocked only by an assimilation ABI
   that reintroduced exact lifecycle text and hidden-only citations.
+- The corrected assimilation promotes that whole chain, and the outcome-erased
+  control does not reproduce it. Recurrence from the promoted subject and
+  reduced dependence on researcher scheduling remain unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

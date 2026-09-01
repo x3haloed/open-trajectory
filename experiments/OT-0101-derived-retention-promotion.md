@@ -1,6 +1,6 @@
 # OT-0101 — derived-retention promotion
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C promotion of consequence-improved selection machinery
 - **Parent:** exact OT-0092 open subject, reopened by OT-0100 rejection
@@ -53,3 +53,38 @@ assimilates consequence, and the exact subject carries both machinery and a new
 opening across the turn boundary. It would not establish open-domain or
 indefinite recurrence, subject ownership of scheduling/admission, or broad-world
 optimality.
+
+## Result
+
+The fresh assimilator was conformant and edited exactly the two authorized
+artifacts. It retained the corrected allocator byte-for-byte, cited all two
+public and all four hidden passed rows, and authored a substantive successor
+opening. One denied sandbox operation was contained and left no retained
+outside effect, so it passed the frozen broad-tool audit. Retention was derived
+from byte identity rather than actor lifecycle vocabulary.
+
+The resulting subject was promoted at digest
+`b7b3494c0a0b8ab99ec35d9ad40250b531bb184bce99d3b5a45310baf00f3886`.
+It carries the admitted joint capability, the exact generic allocator, and the
+five-entry allocation-correction history. Its next opening is:
+
+> Open the next joint case at the boundary where recovery risk and overload
+> trade against recovery value and capacity; record the realized score and
+> compare it with the declared oracle.
+
+The post-seal outcome-erased control was conformant. It changed the allocator,
+but could not cite the erased failed fixture ids, was not grounded in the same
+revision consequence, and continued to fail both threshold regressions. It did
+not reproduce the complete correction gate. Both the operational-transition
+and outcome-content-causal predictions therefore passed.
+
+This is the first promoted chain in which selection machinery improves through
+several successive objective consequences across fresh actors, each inheriting
+the exact prior bytes and newly sealed failures; the final machinery
+generalizes, governs contact, survives fresh assimilation, and becomes part of
+the sounding subject. The high-level goal remains open: scheduling, fixtures,
+and admission are still researcher-owned, and recurrence from this newly
+promoted subject has not yet been tested. The next experiment should begin from
+this exact successor and its own opening, expose it to a qualitatively new
+world, and reduce the researcher's role in choosing when and how the next
+update occurs.

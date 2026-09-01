@@ -1,0 +1,33 @@
+{
+  "artifact_id": "derived-retention-promotion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15868,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4e45101123f5adb3129a25ae984316db50dde8fd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0101",
+  "input_manifests": [
+    "evidence/manifests/OT-0100/threshold-corrected-allocation-aggregate.json"
+  ],
+  "kind": "derived-retention-promotion-result",
+  "limitations": [
+    "One bounded promoted chain; recurrence and researcher-independent scheduling remain unestablished."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:derived-retention-promotion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "259c94c91750502263776d8f0d2cfdc9c9db8a2fc222e2abe17cd2da9fd45222"
+}

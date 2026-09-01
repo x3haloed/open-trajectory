@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-derived-retention-promotion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 207341,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4e45101123f5adb3129a25ae984316db50dde8fd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0101",
+  "input_manifests": [
+    "evidence/manifests/OT-0100/reopened-parent-after-assimilation-abi-rejection.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact sounding subject after one promoted multi-update allocator correction chain."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-derived-retention-promotion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "af7ccc587abda92c4810b39eb9c4a3008800ad6d4d065db1634fd76d4a14fb55"
+}
