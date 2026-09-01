@@ -418,6 +418,10 @@ The strongest footholds are:
   but the frozen unanimity gate rejects. Both misses execute the right target
   and expose that per-case novelty wrongly forbids boundary coincidence with an
   earned function; exact parent `08c877ff...` remains current.
+- `OT-0201`: the prospective suite-level evaluator reaches active 6/6 versus
+  control 0/6, but promotion is invalid. Its successor compiler emits
+  `pursuit_id` where canonical stake machinery requires `stake_id`. Preserve
+  the behavioral evidence; do not use successor `c0066270...`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

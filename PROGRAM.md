@@ -1625,5 +1625,18 @@ under suite-level functional novelty: an earned function may coincide on an
 individual boundary case but may not match the complete contact. Do not change
 the renewal, cohort size, control, or other gates.
 
+OT-0201 prospectively repairs only that evaluator and reaches active 6/6 versus
+control 0/6 with all twelve audits and inherited floors clean. Its reported
+promotion is nevertheless invalid: the successor compiler installs
+`pursuit_id` inside `active_developmental_stake`, but canonical stake consumers
+require `stake_id`. The identity conformance check is blind to this interface.
+
+Retain exact parent `08c877ff...` and preserve the behavioral split without a
+subject transition. The new-ID repair must map the actor-authored pursuit
+identity into canonical `stake_id`, assert that compiled stake keys match the
+established executable stake shape, and pass a real downstream stake consumer
+in preflight. Then repeat the unchanged 6+6 suite-level comparison with fresh
+actors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "suite-level-target-novelty-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 210471,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "469e12060bf6c74f38dfdbc3389bc1a0ca01c35f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0201",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Aggregate reports promotion before post-run successor compatibility audit found a material compiler defect."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:suite-level-target-novelty-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a652aabf54fa618be099a8590a1f1645d865e8b08cd08813bf3acc62b8ab3bc3"
+}

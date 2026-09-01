@@ -1,0 +1,31 @@
+{
+  "artifact_id": "invalid-incompatible-successor",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 573422,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "469e12060bf6c74f38dfdbc3389bc1a0ca01c35f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0201",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Do not use as a parent: active_developmental_stake contains pursuit_id instead of required stake_id."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:invalid-incompatible-successor",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "527b552f696237dabe5cdadd25502bca5db7a7faed10cdea2603542ef0af8c48"
+}

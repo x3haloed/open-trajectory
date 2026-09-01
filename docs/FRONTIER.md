@@ -2209,3 +2209,20 @@ renewal proposal. It must reject if any earned target function matches the new
 function across the whole contact, but permit isolated extensional coincidence.
 Run a fresh 6+6 interleaved contact cohort with the binding populated or erased,
 and preserve every other OT-0200 gate. Do not rescore OT-0200 into promotion.
+
+OT-0201's prospective evaluator reaches active 6/6 versus control 0/6. All
+twelve audits, exact renewal reconstruction, route 16/16, and identity 18/18
+pass. Suite-level functional novelty therefore repairs the OT-0200 measurement
+error.
+
+The claimed successor is still invalid. Post-run inspection finds that its
+compiler copies actor field `pursuit_id` into `active_developmental_stake`,
+where established stake consumers require `stake_id`. Generic runtime identity
+conformance does not cover this interface, so reported successor
+`c0066270...` cannot carry the next note.
+
+Preserve the 6/6 versus 0/6 observation but retain exact parent `08c877ff...`.
+The new-ID repair must canonicalize the identifier during compilation, assert
+the exact active-stake key set, and exercise a production downstream stake
+consumer before actor authorization. Reuse the exact OT-0200 renewal proposal,
+suite-level evaluator, control, schedule, and gates only after that preflight.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "suite-level-target-novelty-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10649600,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "469e12060bf6c74f38dfdbc3389bc1a0ca01c35f",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0201",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Behavioral gate passed 6/6 versus 0/6, but successor compiler emitted pursuit_id where canonical stake_id is required; promotion invalid."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:suite-level-target-novelty-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0a4015eb0988446076d08259b76633c0bab2ea61297aa94687c4aadd1af081d6"
+}

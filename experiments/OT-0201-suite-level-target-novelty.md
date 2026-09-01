@@ -1,6 +1,6 @@
 # OT-0201 — suite-level target novelty
 
-- **Status:** design frozen; not run
+- **Status:** invalid after behavioral passage; successor compiler incompatible
 - **Evidence class:** exploratory-only
 - **Target:** prospective repair of OT-0200's per-case novelty evaluator
 - **Parent:** exact OT-0199 open successor `08c877ff...`
@@ -38,3 +38,19 @@ On failure retain exact parent.
 Passing establishes one subject-authored target-language expansion that
 causally constrains later contact. It does not establish mechanism invention,
 external usefulness, or recurrent autonomous renewal.
+
+## Result
+
+The prospective evaluator behaves as predicted. Active contacts pass 6/6
+versus controls 0/6; all twelve audits, exact renewal identity, route 16/16,
+and identity 18/18 pass. The driver reports successor `c0066270...`.
+
+Post-run compatibility inspection invalidates promotion. The compiler copies
+the renewal's `pursuit_id` into `active_developmental_stake`, while canonical
+stake consumers require `stake_id`. Runtime identity conformance does not test
+that interface. The defect materially breaks the claimed continuing successor.
+
+Preserve the behavioral split but do not use `c0066270...` as a parent. Exact
+parent `08c877ff...` remains current. A new-ID repair must map `pursuit_id` to
+canonical `stake_id`, prohibit `pursuit_id` in the compiled active stake, and
+preflight at least one real downstream stake consumer before fresh actors run.
