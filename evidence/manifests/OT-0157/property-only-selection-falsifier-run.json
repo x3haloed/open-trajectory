@@ -1,0 +1,33 @@
+{
+  "artifact_id": "property-only-selection-falsifier-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 475136,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b8aa5ca83d82222363bd292923f0db9066b636dd",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0157",
+  "input_manifests": [
+    "evidence/manifests/OT-0156/open-subject-after-exact-corrected-extension-reuse.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "One deterministic balanced comparison showing property-only routing misses substantive stake dependencies; corrected selector behavior remains untested."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:property-only-selection-falsifier-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3222ff5bd31dc7c1fe21c0c015ad77596a5ae70acee3251c111151a996132236"
+}

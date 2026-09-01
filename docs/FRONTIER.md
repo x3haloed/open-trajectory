@@ -1306,6 +1306,23 @@ bind the choice before hidden outcomes. Compare state-erased and selector-erased
 controls after sealing. Passing should improve later choice, not merely show
 that both mechanisms remain executable.
 
+OT-0157 falsifies the current property-only selector on that exact comparison.
+It chooses `reset-carrier`, which passes transport 3/3 but fails compatibility
+and the accumulated 18-case floor. The retained corrected extension passes the
+full endpoint. Property erasure blocks the fixed route, while changing only the
+coarse token selects the extension binding. The exact OT-0156 subject remains
+unchanged and open.
+
+The next record should correct selection, not add another mechanism. Give one
+fresh actor the exact stake, both executable mechanisms, the observed endpoint
+contradiction, and a generic selector representation over raw stake requirements
+and candidate capabilities. Require public cases where property compatibility
+is sufficient and cases where retained dependencies override it. Bind the
+corrected selector before balanced hidden portfolios; seal before scoring the
+unchanged property-only control. Promotion must install selector machinery that
+later routes the current stake to the corrected extension while retaining
+ordinary reset selection where its endpoint is actually sufficient.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

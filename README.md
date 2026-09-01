@@ -243,6 +243,10 @@ The strongest footholds are:
 - `OT-0156`: the scheduler exactly reuses that corrected source without a
   corrector, passing new hidden 3/3 and accumulated floor 18/18. Its uncorrected
   ancestor remains 1/3 on the new world and 12/12 on its earned floor.
+- `OT-0157`: the coarse property compiler then selects reset transport for a
+  stake whose substantive endpoint requires the corrected extension and its
+  floor. Reset passes transport but fails the endpoint; the retained extension
+  passes every requirement.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

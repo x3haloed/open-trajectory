@@ -1031,5 +1031,18 @@ mechanisms. Expose both under balanced, competing consequences and require the
 subject's retained selection machinery and stake to bind the better contact
 before sealed outcomes, with state-erased and selector-erased controls.
 
+OT-0157 shows the current compiler fails that choice. From the exact OT-0156
+stake, property-only routing selects `reset-carrier`. It passes signal transport
+3/3 but supplies neither compatibility contact nor the accumulated 18-case
+floor, so the substantive endpoint fails. The retained corrected extension
+passes reset availability, compatibility 3/3, and floor 18/18.
+
+Property erasure blocks routing; changing only the coarse property token selects
+the extension binding. The exact subject remains unchanged and open. Correct
+the selector next: selection must attend to exact capability dependencies and
+success conditions while retaining property compatibility as one signal, bind
+before hidden consequence, and compare the unchanged property-only selector
+only after sealing a corrected successor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

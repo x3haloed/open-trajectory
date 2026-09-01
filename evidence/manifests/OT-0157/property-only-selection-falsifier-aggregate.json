@@ -1,0 +1,33 @@
+{
+  "artifact_id": "property-only-selection-falsifier-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10967,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b8aa5ca83d82222363bd292923f0db9066b636dd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0157",
+  "input_manifests": [
+    "evidence/manifests/OT-0156/open-subject-after-exact-corrected-extension-reuse.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Negative selection evidence in one synthetic comparison; subject state is unchanged."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:property-only-selection-falsifier-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ecf8085a826cf309dac448cb3121c9c83aaacf20ac4cb4a780c463897f868f30"
+}

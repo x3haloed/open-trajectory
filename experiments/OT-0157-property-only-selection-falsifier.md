@@ -39,3 +39,17 @@ This is a negative selection result. It does not promote or modify the subject.
 Passing would justify correcting selection machinery to attend to the subject's
 retained capability dependencies and success condition before another world is
 opened.
+
+## Result
+
+The falsifier passed. The unchanged compiler selected `reset-carrier` from the
+coarse `continuity-under-reset` token. That mechanism passed all three transport
+cases but supplied neither compatibility contact nor the accumulated floor, so
+it failed the full endpoint. The already-retained corrected extension passed
+reset availability, compatibility 3/3, and floor 18/18.
+
+Erasing the property blocked the fixed route; changing only the property to the
+installed extension id selected its exact corrected binding. The exact OT-0156
+subject remains unchanged, sounding, and open. This rejects property-only
+routing for the current developmental state and makes substantive
+dependency-aware selector correction the next experiment.
