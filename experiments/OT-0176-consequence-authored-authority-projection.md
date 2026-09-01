@@ -1,6 +1,6 @@
 # OT-0176 — consequence-authored authority projection
 
-- **Status:** frozen; not run
+- **Status:** complete; rejected before selector comparison
 - **Evidence class:** exploratory-only
 - **Target:** test whether explicitly inherited mechanism authority and floor
   roles repair the prose-only selector failure through held-out contact
@@ -51,3 +51,29 @@ exact later use and consequence-driven status revision remain required.
 End this mechanism line if populated and erased branches do not separate, or if
 the populated projection merely changes labels without improving held-out
 contact.
+
+## Result
+
+The sole fresh authority actor passed complete trace and effects audit and
+changed only `mechanism-authority.json`. Its projection was syntactically
+conformant but failed the frozen semantic binding. For `reset-carrier`, it
+combined `history-only`—defined as having no current authority—with
+`active-authority`—defined as current routing authority. It also differed from
+the released consequence projection, which classified that candidate as
+unrelated to the active correction stake with no owned floor.
+
+The observer therefore rejected the authority projection before binding. No
+selection actor ran, and the matched active/field-erased comparison and hidden
+confirmation remained unopened. No typed selector was installed; exact open
+subject `3770a9d5...` remains current.
+
+This result does not test whether a correct typed projection improves later
+selection. It falsifies the stronger assumption that a fresh actor can reliably
+author a semantically coherent two-axis authority record from independent prose
+definitions while the public checker validates only shape and vocabulary.
+
+Do not respond by prescribing the expected four rows. The next candidate should
+make contradictory status/floor combinations unrepresentable or publicly
+rejectable, while leaving the actor responsible for the substantive authority
+classification. Freeze that type-level correction before a new author sees any
+new contact, and retain the exact populated-versus-erased downstream test.

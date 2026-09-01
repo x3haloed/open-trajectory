@@ -1274,5 +1274,21 @@ operative, surrendered, and history-only mechanisms and distinguishes active
 floor authority from retained regression floor. Ablate only those fields while
 holding prose, guide resources, candidates, and world contact fixed.
 
+OT-0176 tests the first such projection but rejects it before downstream
+selection. The clean authority actor authors a syntactically valid row whose
+`history-only` status denies current authority while its `active-authority`
+floor role asserts current routing authority. Because the frozen projection
+must match the released consequence exactly, no projection is bound and none
+of the twenty selector actors or hidden confirmation cases run.
+
+The typed-authority hypothesis therefore remains untested; the failed premise
+is that independently typed axes plus prose definitions are already a coherent
+actor-facing language. The next experiment should change only that language:
+encode or publicly check the legal status/floor combinations so contradiction
+cannot cross the authoring boundary, but do not reveal the expected mechanism
+assignments. Then repeat the populated-versus-field-erased comparison under new
+contact if and only if a fresh actor authors the exact released-consequence
+projection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

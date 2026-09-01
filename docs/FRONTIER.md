@@ -1719,3 +1719,18 @@ correct status serialization.
   selection among competing fixed and expanded mechanisms remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
+
+## Current continuation after OT-0176
+
+The active later lineage remains exact surrender successor `3770a9d5...`.
+OT-0176 did not reach its typed-authority ablation: its one clean author paired
+`history-only` with `active-authority`, an internally contradictory combination
+under the visible field meanings, so binding stopped before selector actors or
+hidden contact.
+
+The next dependency is now narrower than mechanism selection. A subject-owned
+authority projection needs an actor-facing type system whose legal values are
+semantically composable, not merely two independent enums. The smallest next
+test should make invalid status/floor pairs unrepresentable or reject them in
+the public checker, preserve substantive classification authority with the
+fresh actor, and retain OT-0176's exact populated-versus-erased causal test.

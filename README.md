@@ -319,6 +319,11 @@ The strongest footholds are:
   final guide 14/16 versus immediate parent 15/16. The final guide adds one
   active-operation miss while both share one defeated-history miss, falsifying
   further lexical amendment as the default direction.
+- `OT-0176`: the first consequence-authored typed authority projection stops
+  before downstream comparison. Its clean actor combines `history-only` with
+  `active-authority` for one mechanism, contradicting the public meanings of
+  those fields. No selector actors or hidden cases open, and the exact subject
+  remains unchanged.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

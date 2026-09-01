@@ -1,0 +1,29 @@
+{
+  "artifact_id": "consequence-authored-authority-projection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5731,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "690d3c727acb3eb5c872f44305056697fc780823",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0176",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-authored-authority-projection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f83c4315abfce7b5fe70c24a96b9a6fdb7a2df36fde04d0b7b01ae86f3b61ad8"
+}

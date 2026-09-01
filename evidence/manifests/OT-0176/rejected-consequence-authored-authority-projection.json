@@ -1,0 +1,29 @@
+{
+  "artifact_id": "rejected-consequence-authored-authority-projection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 521,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "690d3c727acb3eb5c872f44305056697fc780823",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0176",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-consequence-authored-authority-projection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0c7b46e05881e2c524abf4ea74b4258cf17814da840ce0565130f63b31bf2a2a"
+}
