@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "selected_target"],
+  "properties": {
+    "action": {"type": "string", "const": "expand-environment"},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["environment-expansion.json"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "selected_target": {"type": "string", "minLength": 1}
+  }
+}

@@ -2199,5 +2199,15 @@ can be independently opened. The observer may construct and seal the world but
 may not choose the region pursued. A useful successor must preserve the saturated
 world as completed history rather than replacing it.
 
+OT-0242 freezes this actor-authored expansion test. The inspectable opportunity
+set spans three modules and four executable surfaces, while the prompt and seed
+contain no target list, registry, reference oracle, assigned task, or preferred
+region. One fresh actor receives the null-derived `expand-environment`
+operation and may author one bounded contact. Promotion requires G10 acceptance,
+independent sealed 2/6 contradiction, exact retention of the completed outward
+world, and an open `correct` successor. This isolates subject-side region choice
+inside an observer-constructed world; it does not yet claim autonomous world
+acquisition or generalized correction of the new module shape.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

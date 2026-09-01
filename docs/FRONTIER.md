@@ -2811,3 +2811,13 @@ The completed three-surface world remains retained history. Passing one such
 edge still will not eliminate external world construction, but it will show that
 the subject—not the researcher—selects where expansion continues inside the
 available objective world.
+
+OT-0242 freezes that live edge. The broader visible world contains four
+executable candidates across mobility, communications, and supplies modules,
+but no registry, target list, assigned task, reference implementation, or
+preferred region. One null pulse derives `expand-environment`; one fresh actor
+may author only a bounded expansion/contact document. G10 and independent
+sealed 2/6 consequence remain authoritative. Promotion additionally requires
+retaining the saturated three-surface world unchanged and ending open at
+`correct` on the actor-selected contact. The observer still constructs the
+available world; autonomous world acquisition is not claimed.
