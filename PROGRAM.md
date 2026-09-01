@@ -1970,5 +1970,20 @@ Exact successor `03b6c4d6...` preserves the package and all historical evidence,
 disables the reusable pulse, remains open, and changes its driver phase to
 `widen`. Local completion is no longer confused with global subject closure.
 
+OT-0224 follows that dispatch in a complete six-target repository without an
+assigned target. The single fresh actor chooses previously uncontacted
+`prioritize_inspections`, binds four behaviorally new inputs, passes public
+execution, and enters exact intermediate `eddeeba3...` before hidden contact.
+The independent world returns 2/6 rather than silently confirming the local
+policy. Exact successor `ade85ab1...` retains the contradiction, marks the new
+target unresolved, remains open, and dispatches `correct`.
+
+This promotes one saturation-caused, subject-selected semantic widening through
+objective consequence. It does not yet show that the fixed machinery can
+correct a target from the newly added module or recur from that correction.
+The next experiment must use the exact successor and generalize correction and
+reopening across the registry-defined implementation/reference pair, without a
+researcher selecting a replacement target or writing a one-off planning repair.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

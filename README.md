@@ -535,6 +535,13 @@ The strongest footholds are:
   three registered targets as locally verified. Exact successor `03b6c4d6...`
   preserves the G6-valid pending package but disables another pulse and routes
   the still-open subject to target-unspecified widening.
+- `OT-0224`: one fresh actor receives a complete six-target repository but no
+  assigned target. It selects previously uncontacted `prioritize_inspections`,
+  binds four behaviorally new cases, and passes public execution. Independent
+  consequence returns 2/6, so exact successor `ade85ab1...` retains the new
+  stake as unresolved and routes itself to correction. A disclosed observer
+  indexing fault is repaired by exact reconstruction without rerunning actor or
+  world output.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

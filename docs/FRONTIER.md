@@ -2587,3 +2587,17 @@ successor `03b6c4d6...` disables the pulse and dispatches `widen`. The frontier
 is now an actual widening encounter: a fresh actor must select and bind a new
 semantic surface without the observer supplying its target, while the harness
 retains independent world and admission authority.
+
+OT-0224 completes that encounter once. With no prompt- or contract-level target,
+the fresh actor selects `prioritize_inspections` from three uncontacted planning
+surfaces and binds four G6-new inputs. Public execution is valid; independent
+hidden consequence returns 2/6. Exact open successor `ade85ab1...` preserves the
+new surface and contradiction in its ledger and dispatches `correct`.
+
+The current frontier is generalized correction after self-selected widening.
+The subject's retained environment names the selected installed/reference pair,
+and the world receipt supplies the stake. A fresh corrector should revise,
+retain, or surrender that mechanism under the same registry-driven machinery;
+subsequent independent consequence must then select assimilation, correction,
+or widening. Do not replace the selected target, discard the contradiction, or
+introduce a planning-specific repair path merely to complete the cycle.

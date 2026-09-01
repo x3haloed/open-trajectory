@@ -1,6 +1,6 @@
 # OT-0224 — target-unspecified semantic widening
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Target:** subject-directed widening after G7 local saturation
 - **Parent:** exact OT-0223 open subject `03b6c4d6...`
@@ -93,4 +93,23 @@ creation, or open-ended domain discovery.
 
 ## Result
 
-Not yet run.
+The single fresh actor selected `prioritize_inspections`; neither its prompt nor
+contract named a target. Its four-case package had four behaviorally new G6
+inputs, passed the actor-visible checker and public execution, and G7 dispatched
+`contact`. The clean audit changed only `widening-decision.json`.
+
+The exact intermediate subject `eddeeba3...` bound that selected surface before
+hidden consequence. The six-case independent world executed validly and matched
+the magnitude-greedy installed policy to the consequence-weighted reference on
+2/6 cases, producing retained unresolved receipt `f56ac214...`. The final exact
+subject `ade85ab1...` adds the target to its ledger as `unresolved`, remains open,
+and routes its fixed recurrence driver to `correct`. Every frozen gate passes;
+aggregate receipt `ff01c405...` promotes the bounded claim.
+
+The first observer invocation crashed after writing the actor binding,
+intermediate subject, and hidden receipt because its final gate indexed the
+ledger one level too shallow. No actor or world was rerun. A committed recovery
+path reconstructed the retained audit, binding, public execution, intermediate,
+hidden result, and receipt exactly in an isolated copy, then resumed only the
+deterministic observer on the canonical evidence. This disclosed recovery does
+not strengthen the claim beyond the retained bounded observation.

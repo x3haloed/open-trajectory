@@ -74,12 +74,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0223 successor `03b6c4d6...`,
+The current exact operational subject is OT-0224 successor `ade85ab1...`,
 identified by
-`evidence/manifests/OT-0223/open-subject-at-local-saturation.json`. It preserves
-the full lineage and byte-exact G6-valid pending package, but G7 marks all three
-registered targets verified-local. The subject is open at driver phase `widen`;
-parameter-only pulse recurrence is disabled.
+`evidence/manifests/OT-0224/open-subject-after-semantic-widening-contact.json`.
+It preserves the full lineage, the selected planning surface, the bound contact,
+and independent 2/6 contradiction. The subject is open at driver phase
+`correct`; `prioritize_inspections` is unresolved while the three prior targets
+remain verified-local.
 
 ## Prediction errors
 
@@ -139,7 +140,13 @@ parameter-only pulse recurrence is disabled.
 - OT-0223 resolves that evaluator error prospectively. G7 scores 16/16 versus
   G6's 10/16, derives all three targets as verified-local, preserves the pending
   package, and routes the open subject to widening rather than another pulse.
-- Environment construction, hidden-world authorship, final admission, and the
-  widening environment remain external. The next discriminating step is a fresh
-  target-unspecified widening actor whose selected semantic surface receives
-  independent contact and re-enters reusable recurrence under G7.
+- OT-0224 follows that route without an assigned target. The actor selects
+  `prioritize_inspections`, binds four new projected inputs, and independent
+  consequence returns 2/6. The exact subject carries the new target and
+  contradiction into `correct`. An observer indexing fault occurred only after
+  the retained actor, intermediate, and hidden receipt were written; exact
+  reconstruction repaired it without resampling either causal input.
+- Environment construction, hidden-world authorship, and final admission remain
+  external. The next discriminating step is registry-driven correction of the
+  selected planning target and recurrence after that correction, with no
+  planning-specific researcher itinerary.

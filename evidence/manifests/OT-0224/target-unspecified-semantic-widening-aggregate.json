@@ -1,0 +1,31 @@
+{
+  "artifact_id": "target-unspecified-semantic-widening-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 22388,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ef5970771e866eb44d864d3516a759ce6a0aa8de",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0224",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh Luna actor selecting within a researcher-designed six-target synthetic inventory; new-path correction and reusable recurrence remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:target-unspecified-semantic-widening-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9c359a16a1b44ee0f03b565dbcbb0124f90c959ea3a050c4db685041c2f44329"
+}

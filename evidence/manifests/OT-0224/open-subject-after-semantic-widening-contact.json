@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-semantic-widening-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 713775,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ef5970771e866eb44d864d3516a759ce6a0aa8de",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0224",
+  "input_manifests": [
+    "OT-0224/target-unspecified-semantic-widening-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after one selected new planning surface and independent world contact; correction and recurrence on the new module are pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-semantic-widening-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8b73922c6749c74ab158c8dce1a7d4cd1255e0b6df1c5f60ba987b9a861cbecd"
+}
