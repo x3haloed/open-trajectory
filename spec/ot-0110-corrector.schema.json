@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "corrected_failure"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["conformance.py"]},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "corrected_failure": {"type": "string", "minLength": 1}
+  }
+}
