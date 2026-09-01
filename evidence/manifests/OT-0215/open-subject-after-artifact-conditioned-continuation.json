@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-artifact-conditioned-continuation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 632713,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e9c03fd2a398bf36bb6b6f4af26ba24b7e066d26",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0215",
+  "input_manifests": [
+    "OT-0215/artifact-conditioned-semantic-continuation-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Open bounded subject; environment construction, hidden consequence, and final admission remain external."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-artifact-conditioned-continuation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8bca8295079689da11f301ebb2a083e7144c05ff84c367ee0a81a1fc727faa97"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "artifact-conditioned-semantic-continuation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 258537,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e9c03fd2a398bf36bb6b6f4af26ba24b7e066d26",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0215",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded three-target environment; opening and retained contact are redundant cues, not yet recurrent semantic widening."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:artifact-conditioned-semantic-continuation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7489789e35d40e9356bdf2c684716d3db85d4ffc19819f4f48fe0869d3d111c6"
+}

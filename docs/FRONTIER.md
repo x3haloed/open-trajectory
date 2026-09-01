@@ -2462,3 +2462,22 @@ real executable contact, and test whether the subject can widen again after
 consequence. Recurrent self-originated expansion remains the decisive gap, as
 do observer ownership of environment construction, hidden consequence, and
 final admission.
+
+OT-0215 shows that this carried content is causal, not decorative. The
+prospective actor selects and corrects recovery capacity, passes public 3+1 and
+sealed 4+2 contact, reaches 6/6 corrected hidden behavior, and yields exact
+successor `f0e044c2...` before controls. Full, opening-only, and contact-only
+branches each make the coherent move 3/3 across rotated source order. Neither
+makes it 1/3; its choices track the rotating middle function. Thus either the
+opening or retained executable contact independently carries enough orientation
+to override presentation bias in this bounded environment.
+
+The assimilator then exposes the next blind spot: it retires the completed
+opening but authors a semantically near-identical phrase, which passes the
+exact-string inequality. Operational promotion and the artifact-causality
+result stand, but a live new opening does not. Before another continuation
+comparison, replace lexical distinctness prospectively with a contact-bearing
+liveness rule: an accepted opening must bind executable contact and predicates
+whose independent consequence receipt is absent. Validate that challenger
+against held-out live, missing, duplicate, and paraphrased openings without
+weakening G4's hard anchors.

@@ -1,6 +1,7 @@
 # OT-0215 — artifact-conditioned semantic continuation
 
-- **Status:** frozen; not yet run
+- **Status:** promoted; causal interpretation supported; reopening liveness
+  unresolved
 - **Evidence class:** exploratory-only
 - **Target:** causal use of the carried subject position in choosing and
   completing the next semantic move
@@ -144,4 +145,34 @@ subject ownership of hidden-world and admission authority.
 
 ## Result
 
-Not yet run.
+The prospective full-subject actor selected `schedule_recovery`, changed only
+that function, and reused the exact four OT-0214 expected-loss cases as its
+public contact. It passed exactly 3 improvements + 1 confirmation publicly and
+4 + 2 across six sealed cases, with corrected behavior 6/6. A fresh assimilator
+cleanly retained the move, route remained 16/16, identity remained 18/18, and
+exact open successor `f0e044c2...` sealed before controls.
+
+All twelve move actors passed their public contracts and hidden target-local
+worlds. Complete coherent recovery continuation was:
+
+- full subject: 3/3;
+- opening only: 3/3;
+- retained contact only: 3/3; and
+- neither: 1/3.
+
+The neither actors selected `allocate_relief`, `schedule_maintenance`, and
+`schedule_recovery` as those functions rotated through the middle source
+position. Every artifact-bearing actor selected `schedule_recovery` in every
+order. The frozen comparison passes. In this bounded environment, either the
+opening or retained executable contact was independently sufficient to override
+presentation-order choice; their conjunction was not necessary.
+
+The new subject is operationally valid, but its reopening exposes an evaluator
+blind spot. The assimilator declared the completed opening retired, then wrote
+“Test whether recovery ordering remains correct when recovery jobs compete for
+limited capacity and losses can be jointly recovered”—a near-paraphrase of the
+contact just completed. The exact-string distinctness gate accepted it. Do not
+erase or rescore the operational and causal observations, but do not claim a
+live new developmental opening from this phrase alone. The next record must
+prospectively require an executable unresolved contact package rather than
+lexical non-equality.

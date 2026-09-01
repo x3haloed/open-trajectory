@@ -484,6 +484,13 @@ The strongest footholds are:
   new recovery-capacity pursuit. Open successor `3f439d58...` is the first
   bounded subject-originated semantic expansion in this chain. Recurrence and
   observer-independent world/admission authority remain open.
+- `OT-0215`: the exact subject, opening-only, and retained-contact-only branches
+  each choose and correct recovery capacity 3/3 across rotated source order;
+  the neither branch does so 1/3 and otherwise follows the middle source
+  position. The prospective full actor passes public 3+1, hidden 4+2, and 6/6
+  corrected behavior; open successor `f0e044c2...` is valid. Its assimilator's
+  next opening is probably a paraphrase of completed contact, exposing that
+  exact-string distinctness does not establish developmental liveness.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

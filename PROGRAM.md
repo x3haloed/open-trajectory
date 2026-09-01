@@ -1833,5 +1833,24 @@ environment, authored sealed consequence, and controlled admission. The next
 frontier is recurrence from the retained semantic-contact program and authored
 opening, with another measurable reduction in target choice by the observer.
 
+OT-0215 tests whether that artifact actually changes the next move. The
+prospective full actor selects `schedule_recovery`, authors a valid correction,
+passes public 3+1 and sealed 4+2 contact, and reaches 6/6 corrected hidden
+behavior. A fresh assimilator and exact successor `f0e044c2...` pass before
+controls. Across rotated source order, full, opening-only, and contact-only
+branches each complete coherent recovery continuation 3/3; the neither branch
+does so 1/3. Its three target choices follow the rotating middle source
+position. Either retained artifact component independently overrides that
+presentation bias in this environment.
+
+The successor's liveness is not established. Its assimilator retires the old
+opening but authors a near-paraphrase of the recovery-capacity contact already
+completed. G4's exact-string inequality accepts this because G4 governs core
+shape and bounded extensions, not whether a pursuit still names missing world
+contact. Preserve the operational successor and causal comparison, but treat
+its phrase as unresolved. The next evaluation transition must require a bound,
+executable contact whose independent receipt is still absent; word novelty is
+not enough.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

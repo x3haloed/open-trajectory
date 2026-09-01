@@ -48,12 +48,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact open subject is OT-0214 successor `3f439d58...`, identified by
-`evidence/manifests/OT-0214/open-subject-after-semantic-contact.json`. It
-preserves the ledger, corrected pursuit selector, executed code pursuit,
-warranted retention, G4 continuity, and a subject-originated expected-loss
-recovery contact program. Its next opening asks for a sealed multi-job
-recovery-capacity test.
+The current exact operational subject is OT-0215 successor `f0e044c2...`,
+identified by
+`evidence/manifests/OT-0215/open-subject-after-artifact-conditioned-continuation.json`.
+It preserves the prior lineage and adds a hidden-admitted `schedule_recovery`
+implementation. Its continuation is marked open, but the semantic liveness of
+that phrase is unresolved.
 
 ## Prediction errors
 
@@ -75,7 +75,15 @@ recovery-capacity test.
 - The OT-0214 originator chose `order_recovery`, passed public 3+1 and hidden
   4+2 contact, and its fresh assimilator retained that exact program and opened
   recovery-capacity contact. This is one expansion, not recurrence.
+- OT-0215 shows artifact-conditioned target choice: full, opening-only, and
+  contact-only branches select and complete recovery 3/3 across source order;
+  neither does so 1/3 and otherwise follows the middle function.
+- Expected: retiring completed recovery-capacity contact would produce a
+  distinct live pursuit. Observed: the assimilator authored a near-paraphrase
+  that passed exact-string inequality. Uncertain: whether the subject has a new
+  missing stake at all. Evidence: OT-0215 assimilation decision and its already
+  completed 4+2/6-of-6 recovery-capacity receipt.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The immediate test is whether the exact authored opening and
-  retained contact machinery constrain the next executable contact and support
-  another widening without observer target choice.
+  external. Before following the phrase, prospectively transition from lexical
+  distinctness to executable contact-bearing liveness, preserving all G4 hard
+  anchors and the OT-0215 operational result.
