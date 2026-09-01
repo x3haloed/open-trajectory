@@ -1366,17 +1366,17 @@ OT-0181 passes the operational handoff but rejects that stronger causal claim.
 The assimilator authors a changed correction stake, and the exact successor
 selects prediction correction and passes sealed contact 3/3. After sealing, the
 unchanged old-pursuit control selects the same mechanism and also passes 3/3.
-Exact ordered receipts and mandatory citation therefore did not make the
-developmental change legible enough to alter downstream action. Open successor
-`37cac3c6...` remains valid, but its new pursuit is not causally distinguished.
+The changed pursuit wording therefore did not alter downstream action. Open
+successor `37cac3c6...` remains valid, but its new pursuit is not causally
+distinguished.
 
-The next test should add a deterministic consequence-compiled developmental
-delta alongside the exact receipts. The delta may state what changed, what the
-confirmation settled, and which prior floors remain; it may not author the
-next stake or prescribe a mechanism. Compare fresh actors with and without that
-projection, bind their authored stakes before hidden contact, and require a
-downstream causal difference. This tests whether development needs a compact
-transition representation rather than an ever larger undifferentiated history.
+Reorientation corrects the first interpretation of this null. OT-0180's
+confirmation settled a new blocked-outcome authority correction, not the older
+revoked-identity stake. OT-0181's actor may legitimately have kept that stake
+open. Before testing a transition projection, complete the exact contact named
+by the stake: correction on the revoked-identity cases plus the accumulated
+18-case floor. Then compare post-completion assimilation with and without a
+deterministic developmental delta that does not prescribe the next pursuit.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

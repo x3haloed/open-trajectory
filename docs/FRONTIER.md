@@ -1795,11 +1795,17 @@ The post-seal exact old-pursuit control selects the same mechanism and also
 passes 3/3. Exact open subject `37cac3c6...` is retained, while the causal claim
 is rejected.
 
-The observed failure is not missing history. All four exact ordered world
-receipts were present and cited. The actor nevertheless treated an earlier
-revoked-identity discrepancy as unresolved after later correction had already
-been confirmed. The next experiment should therefore test a compact
-consequence-compiled developmental delta against raw history alone. It may
-identify what changed, what confirmation settled, and what floors remain, but
-must leave the next stake and mechanism to the actor. Promotion requires a
-bound downstream contact difference; cleaner narration is insufficient.
+The first interpretation of this null was itself too strong and is reversed.
+OT-0180 confirmed an authority correction under later blocked-outcome harm; it
+did not complete the older revoked-identity pursuit. The OT-0181 actor may have
+been correct to refine it. The result establishes only that the refinement was
+not causally different from the prior wording.
+
+The next experiment must first make the active stake genuinely decidable. Bind
+prediction correction before reopening the named revoked-identity cases, and
+require both complete target contact and the accumulated 18-case floor. Only
+after that receipt exists should fresh actors decide whether to retire or
+refine the pursuit. A deterministic developmental delta may be compared with
+the raw completion evidence, but it may summarize only the frozen score and
+transition; it may not author the next stake. Promotion still requires bound
+downstream contact, not narrative agreement.

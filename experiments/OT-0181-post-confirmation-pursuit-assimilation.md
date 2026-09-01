@@ -68,12 +68,8 @@ carries the authored assimilation, selection, and contact receipt.
 
 The post-seal unchanged-pursuit control also selects prediction correction and
 passes the identical contact 3/3. Pursuit content is therefore not causal in
-this comparison. The actor has redescribed the already-observed
-revoked-identity discrepancy as the next unresolved stake even though the
-ordered chain includes the later harm, authority revision, and successful
-confirmation. Exact raw receipts plus a requirement to cite them preserved
-history but did not reliably convey which developmental relation had changed
-or which question had become settled.
+this comparison. The changed wording did not alter the selected route or the
+world contact.
 
 This is a split result, not a rejected lineage. The operational transition is
 promoted because its actor-authored stake opens and completes valid fresh
@@ -81,11 +77,18 @@ contact under the frozen rule. The stronger claim that post-confirmation
 pursuit content causally moved the subject is rejected and retained as negative
 evidence.
 
-The next candidate should test a consequence-compiled developmental delta: a
-compact deterministic projection of the exact receipt chain that distinguishes
-the position before harm, the actor-chosen change, what confirmation settled,
-what prior floors remain true, and what remains genuinely open. It must not
-prescribe the next pursuit. Compare it against the same exact raw history
-without that projection, bind actor-authored successor stakes before hidden
-contact, and require a downstream causal difference rather than semantic
-agreement.
+## Interpretation reversal
+
+Reorientation after publication exposed that the initial explanation of the
+null was too strong. OT-0180 confirmed correction of authority in a new
+blocked-outcome regime; it did not complete the older active stake concerning
+the revoked-identity discrepancy. The OT-0181 actor may therefore have been
+right to refine rather than retire that pursuit. What OT-0181 establishes is
+only that its refinement was not causally distinguished from the old wording.
+
+OT-0181's own 3/3 contact is the first new evidence directed at the refined
+stake, but the stake also requires the named revoked-identity cases and the
+18-case accumulated floor. The next experiment should complete that exact
+contact before asking a successor to assimilate completion. Only then is a
+consequence-compiled developmental delta a fair candidate rather than an
+observer-authored instruction to abandon a possibly open stake.
