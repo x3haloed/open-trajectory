@@ -53,3 +53,30 @@ next-world transition across fresh actors without experiment-specific world
 selection after the priority is known. The property vocabulary, compiler, and
 world catalog remain researcher-designed; recurrence from the actor-authored
 next stake would remain untested.
+
+## Result
+
+The endpoint is invalid on apparatus, after a valid blind stake and route.
+
+The first fresh actor saw no world catalog or surface ids, changed only
+`next-stake.json`, passed its checker, and truthfully selected
+`option-expansion`. Its exact stake asks how the subject can widen future paths
+without losing coherence or accumulated capability. The clean complete trace
+and one-file patch bound before the world catalog materialized.
+
+Fixed compilation then selected `viable-branch-carrier`, the unique world
+surface for that property. This is the first half of the intended causal path:
+an actor-originated priority, authored before opportunity exposure, changed
+which world was routed.
+
+The contact actor produced no output. The hosted response API rejected the
+contact schema before generation because `uniqueItems` is unsupported in that
+response-format dialect. Its retained event stream contains only thread start,
+turn start, the schema error, and turn failure; there were no content or tool
+events.
+
+No world contact, consequence, assimilation, successor, or control exists. The
+exact OT-0148 parent remains authoritative. Continue by reconstructing the
+exact stake binding and route, publishing a response schema without
+`uniqueItems`, and authorizing the still-unspent contact and assimilation
+actors. Do not resample the blind stake.

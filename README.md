@@ -215,6 +215,10 @@ The strongest footholds are:
 - `OT-0148`: exact semantic projection preserves that retained portfolio and
   completes corrected-program reuse. The active program passes all shifted
   throughput demands while its unchanged parent fails all after sealing.
+- `OT-0149`: a clean fresh actor blindly originates an `option-expansion` stake
+  before any worlds exist, causing deterministic selection of a branching
+  surface. Contact generation never begins because the response API rejects an
+  unsupported `uniqueItems` keyword.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

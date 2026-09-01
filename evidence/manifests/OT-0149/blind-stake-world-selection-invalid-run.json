@@ -1,0 +1,33 @@
+{
+  "artifact_id": "blind-stake-world-selection-invalid-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 796672,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "83279b26a87555a17129085e6dcd48a853502de3",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0149",
+  "input_manifests": [
+    "evidence/manifests/OT-0148/open-subject-with-cross-world-corrected-program.json"
+  ],
+  "kind": "experiment-run",
+  "limitations": [
+    "Blind stake and compiled route are valid; contact actor generation never began because the hosted response schema rejected uniqueItems."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:blind-stake-world-selection-invalid-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f62b6c8df03bde540b85a3e436bb05222d541498998edc9b114999e2f499e0e5"
+}

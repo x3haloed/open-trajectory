@@ -902,5 +902,18 @@ lower-bound worlds. The next dominant researcher cause is selection and
 construction of the next world contact itself. Reduce that cause next; do not
 spend another experiment merely varying output bounds.
 
+OT-0149 obtains a blind priority and route before an apparatus rejection. One
+fresh actor sees the exact subject position and a neutral three-property
+vocabulary but no world catalog, ids, code, cases, or ordering. It authors and
+binds `option-expansion`. Only afterward does fixed compilation materialize the
+catalog and select `viable-branch-carrier`.
+
+The second actor never generates. The hosted response schema dialect rejects
+`uniqueItems` before content or tool use. This invalidates the endpoint but not
+the exact clean stake or deterministic route. Preserve both. The next record
+should remove only that unsupported response-schema keyword, reconstruct the
+stake binding and route from exact bytes, and run the still-unspent contact and
+assimilation actors without another stake author.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

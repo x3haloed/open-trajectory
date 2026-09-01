@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-blind-option-expansion-stake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 833,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "83279b26a87555a17129085e6dcd48a853502de3",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0149",
+  "input_manifests": [
+    "evidence/manifests/OT-0148/open-subject-with-cross-world-corrected-program.json"
+  ],
+  "kind": "actor-output",
+  "limitations": [
+    "Exact clean blind stake output; not yet installed into a successor subject."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-blind-option-expansion-stake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "84d248ff157054d61e7ddfc29eee7b238a7ef59d2ce5829a1e2c87bdbad4a8a2"
+}

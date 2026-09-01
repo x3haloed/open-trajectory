@@ -1141,6 +1141,21 @@ ablation under identical surfaces, and require the active choice to create a
 useful successor rather than merely name a domain. Preserve the full capability
 floor and keep world consequence external to actor authority.
 
+OT-0149 establishes the blind-choice prefix and then stops pre-generation. A
+fresh actor sees no worlds and authors `option-expansion`, asking how to widen
+future paths without losing coherence or accumulated capability. Exact binding
+precedes catalog construction; fixed compilation then selects the unique
+`viable-branch-carrier` surface.
+
+The contact actor has no sampled content: the response API rejects the schema's
+unsupported `uniqueItems` keyword before generation. Continue from the exact
+OT-0148 subject plus retained OT-0149 stake and route. Publish a compatible
+two-file response schema, reconstruct the binding without a new stake actor,
+then require public implementation, hidden branching consequence, fresh
+assimilation into a different next stake, and post-seal route controls. The
+apparatus repair must not alter the property vocabulary, catalog, compiler,
+world cases, policy language, or promotion gate.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1276,7 +1291,9 @@ floor and keep world consequence external to actor authority.
   one bounded chain. One actor-authored selector program now replaces the named
   feature vocabulary; cross-world contradiction, correction, held-out advantage,
   installation, and later exact reuse now pass. Autonomous amendment-language
-  invention, subject-selected world transition, and subject-authored seed
-  priorities remain unestablished.
+  invention and subject-authored seed priorities remain unestablished. One
+  blind actor-originated priority now causes a distinct world route, but the
+  useful contact and successor transition remain unobserved after a
+  pre-generation schema rejection.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "compiled-option-expansion-world-route",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 659,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "83279b26a87555a17129085e6dcd48a853502de3",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0149",
+  "input_manifests": [
+    "evidence/manifests/OT-0149/exact-blind-option-expansion-stake.json"
+  ],
+  "kind": "binding-receipt",
+  "limitations": [
+    "Deterministic route from exact bound stake; selected-world contact did not begin."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:compiled-option-expansion-world-route",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fb9dacd0812fd7bd8491f6bb54a96df60b449aad8cf5a2da217d64f05c13bc64"
+}
