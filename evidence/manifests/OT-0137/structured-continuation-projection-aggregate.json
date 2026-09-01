@@ -1,0 +1,31 @@
+{
+  "artifact_id": "structured-continuation-projection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10268,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8d94b8bf816a8c36780ca54a776c85b6469d695",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0137",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Aggregate establishes one bounded projection repair and an ablated reproduction of the prior nested defect."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:structured-continuation-projection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5cfa42de84acd264173be28b44dd803d7c7a249e31bc79c057edef554c2b8b41"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "structured-continuation-projection-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 384000,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8d94b8bf816a8c36780ca54a776c85b6469d695",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0137",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "Deterministic reconstruction of one exact accepted route; no new world contact or actor-authored carrier evolution claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:structured-continuation-projection-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "41b6726ebbb6c04a08b336268ed9a5062a361afc11063d43220f31c370c0414f"
+}

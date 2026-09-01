@@ -695,5 +695,23 @@ structured uncertainty ABI that separates the question from provenance, re-audit
 the exact route into a clean canonical opening without changing corrected
 capability or consequence, and preserve OT-0136's original output unchanged.
 
+OT-0137 performs that deterministic correction. It leaves the exact historical
+route and actor-originated opening untouched, projects the first complete
+unresolved question into the live continuation, and stores the `0/6 → 6/6`,
+raw `4/4`, and reuse `2/2` evidence as a separate structured scope. Exact open
+subject `8ed20a053a3663570a94b551c1d44e5dac9ddb6e8447853b6c1862bc4769b367`
+has one canonical opening prefix; a normalization-erased reconstruction
+reproduces two.
+
+The local carrier defect is closed. The larger goal is not. An outside
+researcher still chooses each new regime and writes each successor driver. The
+next mechanism should therefore be a recurring encounter driver, not another
+hand-written one-off world: it must read the subject's live structured question
+and retained capabilities, let a fresh actor originate the next bounded contact
+or machinery revision through a stable generic ABI, consequence it independently,
+and reopen automatically across several cycles. The observer may supply a
+bounded environment and stopping budget but may not choose each regime, target,
+or repair after the run starts.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

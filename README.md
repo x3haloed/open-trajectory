@@ -172,6 +172,8 @@ The strongest footholds are:
 - `OT-0136`: objective quantized-regime failure causes a minimal retained
   program revision that beats its unchanged parent 6/6 to 0/6, preserves the
   raw floor, and works again without repair; its compiled opening is nested.
+- `OT-0137`: deterministic structured projection removes that live nesting,
+  preserves exact historical actor output, and carries evidence scope separately.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,6 +1,6 @@
 # OT-0137 — structured continuation projection
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** repair OT-0136's live nested opening without rewriting its exact
   actor route, capability, or world evidence
@@ -39,3 +39,24 @@ reproduces OT-0136's nested defect.
 Passing would repair one carrier projection boundary. It would not add world
 contact, establish actor-authored carrier evolution, or strengthen OT-0136's
 machinery claim beyond its exact evidence.
+
+## Result
+
+The deterministic reconstruction passed every gate. It extracted the clean
+question from OT-0136's exact actor-authored uncertainty, retained exact
+corrected capability bytes, and preserved both the historical route and
+actor-originated opening unchanged.
+
+The new projection receipt separately records the unchanged program's `0/6`
+failure, corrected quantized `6/6`, raw no-regression `4/4`, and later reuse
+`2/2` with their content identities. The normalization-erased projection
+reproduces two nested `Open continuation-` prefixes; the structured projection
+has exactly one.
+
+Exact sounding open subject
+`8ed20a053a3663570a94b551c1d44e5dac9ddb6e8447853b6c1862bc4769b367`
+now reopens on:
+
+> Open continuation-7-0c63918099a6: Whether the reserve boundary continues to
+> transfer under three or more foreign-context insertions that jointly alter
+> observed demand spread and context composition remains unresolved.

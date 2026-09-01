@@ -926,6 +926,25 @@ separate evidence scope, deterministically strip lifecycle prefixes from the
 question projection, and reconstruct this exact accepted route without another
 corrector or resampled world.
 
+OT-0137 closes that projection defect deterministically. The exact actor route
+and historical opening remain unchanged; the live continuation now contains
+one clean unresolved question, while a separate projection receipt carries
+exact `0/6 → 6/6`, raw `4/4`, and later reuse `2/2` evidence scope. Exact open
+subject `8ed20a053a3663570a94b551c1d44e5dac9ddb6e8447853b6c1862bc4769b367`
+retains the corrected program capability and has one canonical lifecycle prefix.
+
+Reorient here. Additional hand-authored reserve regimes would improve frequency
+evidence but preserve the largest hidden causal component: the outside
+researcher still chooses the next world, target, correction shape, and driver.
+The next high-leverage experiment should freeze one stable recurring encounter
+ABI and a bounded inspectable environment, then let the exact subject and fresh
+actors choose or formulate contact, receive independent consequence, revise
+retained machinery when needed, and reopen for several cycles without
+experiment-specific intervention. Observer stopping remains distinct from
+subject stopping. A pass must include at least one self-selected reuse, one
+objective failure, one retained machinery revision, and one later no-repair
+reuse inside the same unmodified driver invocation.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

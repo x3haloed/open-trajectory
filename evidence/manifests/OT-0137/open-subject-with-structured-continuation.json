@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-structured-continuation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 370445,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8d94b8bf816a8c36780ca54a776c85b6469d695",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0137",
+  "input_manifests": [],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject has one clean structured live continuation; retention and projection machinery remain researcher-designed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-structured-continuation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c5a324384e4c4d1163a796759b0bc8582c7ccad80d3ea901817f3124a17155ad"
+}
