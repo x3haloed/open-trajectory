@@ -74,6 +74,9 @@ The strongest footholds are:
 - `OT-0102`: one rejected two-cycle recurrence run whose inherited opening
   caused a novel oracle-valid joint contact before an ordered multi-file audit
   defect stopped the first promotion.
+- `OT-0103`: one promoted fixed-driver run reconstructing that first cycle and
+  completing a second fresh cycle; its exact open successor binds an allocator
+  challenge as the next interface.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

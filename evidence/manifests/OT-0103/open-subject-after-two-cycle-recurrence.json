@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-two-cycle-recurrence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 221051,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a6ba49401ebb8596ed768d938f11fb5c48d198ae",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0103",
+  "input_manifests": [
+    "evidence/manifests/OT-0102/reopened-parent-after-audit-order-rejection.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact sounding subject after two fixed-driver recurrence cycles, with allocator-challenge bound next."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-two-cycle-recurrence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "39f7450e965f752604ed4b2b795cd76e0e1212a6d6e242da0c72355fecfce883"
+}

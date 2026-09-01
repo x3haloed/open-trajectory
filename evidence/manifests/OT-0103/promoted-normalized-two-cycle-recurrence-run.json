@@ -1,0 +1,33 @@
+{
+  "artifact_id": "promoted-normalized-two-cycle-recurrence-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1112576,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a6ba49401ebb8596ed768d938f11fb5c48d198ae",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0103",
+  "input_manifests": [
+    "evidence/manifests/OT-0102/rejected-two-cycle-subject-recurrence-run.json"
+  ],
+  "kind": "normalized-two-cycle-subject-recurrence",
+  "limitations": [
+    "One bounded two-cycle recurrence under a researcher-designed driver and two-interface registry; opening-content causality was not isolated."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:promoted-normalized-two-cycle-recurrence-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "64cd20c34a465f19411db9f1e75864b114784cb48d077dc352149cbc58d9069f"
+}

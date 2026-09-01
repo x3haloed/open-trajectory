@@ -1,6 +1,6 @@
 # OT-0103 — normalized recurrence continuation
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** bounded OT-1C recurrence and an OT-2R foothold
 - **Parent:** exact OT-0101 promoted subject at
@@ -62,3 +62,41 @@ Passing would establish two bounded subject-driven recurrences under one fixed
 driver and bounded interface registry, with the second pursuit supplied by the
 first successor rather than the researcher. It would not establish indefinite
 recurrence, open-domain interface invention, or autonomous admission authority.
+
+## Result
+
+The exact retained OT-0102 assimilation passed normalized path-set audit,
+grounding, machinery retention, and the actual promotion path. It sealed a
+cycle-one successor at digest
+`41ac9de74fde76b58e954066912e31ee6bdf1eeb585a7bdc3ad25500fb5c6861`
+without resampling any cycle-one actor.
+
+That successor's bound `joint-boundary-probe` directly started cycle two. A
+fresh contact author produced three further novel conformant cases, including
+penalty-induced winner reversals and narrow boundaries. The retained joint
+capability matched the independent oracle on all three. A fresh assimilator
+cited all three passed rows, retained both machinery byte sequences, and
+promoted the second successor. One denied sandbox operation was contained and
+left no outside retained effect, so it passed the frozen broad-tool audit.
+
+The final exact subject is sounding and open at
+`5537d3e7c1e0326fe6bb4140746df2ae9419e99398bb2da09a899365cb47c172`.
+It binds `allocator-challenge` as its next interface and opens:
+
+> Present four novel allocator frontier cases covering filters, composition
+> threshold, expansion, regret, order, and stable ties; record the retained
+> result and reference result for each case, including any stable-tie
+> resolution.
+
+The opening-erased control was conformant and also selected
+`joint-boundary-probe`. The run therefore does not isolate the inherited
+opening wording as the cause of that route. It does establish the operational
+claim: under one fixed driver and registry, two successive fresh contacts and
+assimilations crossed complete actor endings, and cycle two was supplied by the
+first successor's bound action rather than an experiment-specific researcher
+choice.
+
+The next experiment should start from this exact subject and execute its bound
+`allocator-challenge`. That is the more discriminating recurrence test because
+the subject has now changed interface families rather than merely requesting
+another case from the same family.

@@ -157,6 +157,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   actor-authored cases. A substantively grounded assimilation is rejected by
   ordered-list comparison of an otherwise identical changed-path set, so cycle
   two is not reached and the OT-0101 parent remains open.
+- `OT-0103` normalizes that audit, promotes the exact retained first cycle, and
+  lets its bound interface start a fresh second cycle without researcher pursuit
+  selection. The second contact and assimilation pass, yielding an exact open
+  successor that binds `allocator-challenge`. The opening-erased control also
+  selects the joint probe, so this is operational recurrence rather than an
+  isolated opening-content effect.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -329,7 +335,10 @@ qualitatively new world while reducing researcher choice over update timing.
 OT-0102 reaches that contact but exposes an ordered multi-file audit defect
 before promotion. The next record should repair only that comparison, re-audit
 the retained output without resampling it, and continue the already-bound
-second cycle if the repaired audit passes.
+second cycle if the repaired audit passes. OT-0103 does so and promotes two
+successive cycles under one fixed driver. The next boundary is cross-interface
+recurrence: begin from its exact subject and execute the successor-bound
+`allocator-challenge` without researcher phase selection.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

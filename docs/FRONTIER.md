@@ -364,6 +364,17 @@ new actor is authorized. Only then may the already-bound interface start a
 fresh second contact under the unchanged registry and scorers. This preserves
 the valid developmental work while keeping OT-0102's rejection intact.
 
+OT-0103 passes. The retained cycle-one output promotes exactly, its bound joint
+interface starts a fresh second contact, and the second contact and assimilation
+also promote. The resulting subject is sounding and open at
+`5537d3e7c1e0326fe6bb4140746df2ae9419e99398bb2da09a899365cb47c172`,
+with `allocator-challenge` bound next. The opening-erased router also chooses the
+joint interface, so route causality is not isolated. The bounded advance is
+operational: two fresh consequence cycles continued under one fixed driver,
+and the second pursuit came from the first successor rather than a researcher.
+The next decisive test is whether that same structure crosses interface
+families by executing the exact successor-bound allocator challenge.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -421,6 +432,10 @@ the valid developmental work while keeping OT-0102's rejection intact.
 - The corrected assimilation promotes that whole chain, and the outcome-erased
   control does not reproduce it. Recurrence from the promoted subject and
   reduced dependence on researcher scheduling remain unestablished.
+- One normalized fixed-driver run now promotes two consecutive fresh
+  contact/assimilation cycles and ends with a subject-selected switch from joint
+  probing to allocator challenge. Cross-interface execution of that bound
+  switch remains unobserved.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.
