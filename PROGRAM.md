@@ -2049,5 +2049,12 @@ decisions, and descriptive output claims. A mismatched descriptive identity
 should limit provenance, not causal validity, unless the contract explicitly
 declares that output field authoritative.
 
+OT-0231 promotes G9 on ten held-out cases. It preserves all seven hard anchors
+and improves descriptive identity handling 0/3→3/3. The retained OT-0230 target
+claim is `qualified-consistent`; exact workspace semantics remain authoritative.
+Exact successor `9a9c49cc...` keeps OT-0230 rejected and carries its contact as
+unadmitted content. The next experiment may open prospective consequence without
+resampling the actor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

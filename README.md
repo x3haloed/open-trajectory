@@ -570,6 +570,10 @@ The strongest footholds are:
   bare symbol. The claim rejects before hidden consequence. Exact parent remains
   current, exposing that G8 fixed path self-report authority but not descriptive
   output identity authority generally.
+- `OT-0231`: G9 separates schema/action transport, authoritative workspace
+  semantics, mechanical effects, and descriptive output claims. It scores 10/10,
+  preserves hard anchors 7/7, and improves identity variants 0/3→3/3. Exact
+  successor `9a9c49cc...` carries OT-0230's contact unadmitted for consequence.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

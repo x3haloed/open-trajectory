@@ -1,6 +1,6 @@
 # OT-0231 — output-claim authority
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** deterministic-transition
 - **Operational parent:** exact OT-0229 subject `2ecb779c...`
 - **Prediction-error input:** rejected OT-0230 receipt `fb05c537...`
@@ -28,4 +28,9 @@ privacy.
 
 ## Result
 
-Not yet run.
+G9 passes all ten held-out cases, preserves hard anchors 7/7, and improves
+descriptive identity cases from incumbent 0/3 to 3/3. The retained OT-0230
+decision is causally eligible with `qualified-consistent` provenance. OT-0230
+remains rejected. Exact successor `9a9c49cc...` stays open at `assimilate`,
+preserves the prior operation, and carries the contact as unadmitted content.
+Receipt `fb6bff59...` promotes the transition.

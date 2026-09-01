@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-under-g9-output-authority",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 763249,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "49d9d4f2d2a2aa766dbf8320e31caf85c3274353",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0231",
+  "input_manifests": [
+    "OT-0231/output-claim-authority-transition-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact subject carrying one G9-eligible but unadmitted sole-surface contact; hidden consequence remains pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-under-g9-output-authority",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1857f536cd57320d229d1c86a9f79c72e4cb7f6d7bd40a5456a66121651b7c47"
+}

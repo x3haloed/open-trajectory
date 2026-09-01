@@ -75,16 +75,21 @@ path reports are classified separately and limit truthful-provenance claims.
 OT-0226 scores 13/13, improves hard anchors 8/9→9/9, and improves safe report
 discrepancies 0/4→4/4 without rescoring OT-0225.
 
+G9 retains G8 and separates schema/action transport, mechanically authoritative
+workspace semantics, explicit output authority, and descriptive output claims.
+OT-0231 scores 10/10, preserves hard anchors 7/7, and improves descriptive
+identity cases 0/3→3/3 without rescoring OT-0230.
+
 Anchors: fresh contexts/workspaces, exact ancestry, bind-before-consequence,
 independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0229 successor `2ecb779c...`,
+The current exact operational subject is OT-0231 successor `9a9c49cc...`,
 identified by
-`evidence/manifests/OT-0229/open-subject-after-second-generalized-correction.json`.
-It preserves two generalized correction cycles, is open at `assimilate`, and
-has one registry target still uncontacted.
+`evidence/manifests/OT-0231/open-subject-under-g9-output-authority.json`. It is
+open at `assimilate`, preserves two correction cycles, and carries the sole
+remaining contact as G9-eligible but unadmitted content.
 
 ## Prediction errors
 
@@ -180,7 +185,9 @@ has one registry target still uncontacted.
   qualifies the target label. Uncertain: how broadly output self-report remains
   coupled to causal validity beyond changed paths. Evidence: rejected receipt
   `fb05c537...` and retained decision manifest under OT-0230.
+- OT-0231 resolves that authority error prospectively. G9 passes 10/10 and
+  retains the qualified-consistent OT-0230 decision inside exact `9a9c49cc...`
+  without altering the rejection or opening hidden consequence.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is a prospective output-authority
-  transition, then consequence on the retained sole-target decision without
-  actor resampling.
+  external. The next discriminating step is consequence on the retained
+  sole-target decision without actor resampling.

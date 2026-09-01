@@ -2660,3 +2660,8 @@ output identity is self-report just as `files_changed` is. Keep action/schema
 completion, exact workspace semantics, mechanical effects, and descriptive
 claims separate; preserve OT-0230's rejection, then continue its retained
 unadmitted decision without resampling if the challenger passes held-out anchors.
+
+OT-0231 promotes G9: 10/10 overall, hard anchors 7/7, and descriptive identity
+cases 0/3→3/3. Exact successor `9a9c49cc...` retains OT-0230's rejection while
+carrying the qualified-consistent workspace decision unadmitted. The frontier is
+prospective hidden consequence on that exact contact, with no actor resampling.
