@@ -515,6 +515,13 @@ must either instantiate its named extension or legitimately revise/surrender
 it, while reusing general admission machinery rather than adding another
 surface-specific gate.
 
+OT-0111 freezes a stronger recurrence test than another named-surface harness.
+One driver derives the next interface contract and oracle from the evolving
+package-chain tip, permits one receipt-driven public-contract correction, and
+automatically opens a second expansion only when the first sealed successor
+binds it. Two promoted expansions are required; the actor chooses both new
+boundary vocabularies and the intervening continuation.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
