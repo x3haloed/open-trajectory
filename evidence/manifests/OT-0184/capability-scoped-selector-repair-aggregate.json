@@ -1,0 +1,29 @@
+{
+  "artifact_id": "capability-scoped-selector-repair-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 98800,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "09f2a87a406856b7459fa54894c378997fe442a4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0184",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:capability-scoped-selector-repair-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8df08f5ba4efd5ef626a8aab108dd93bb93949ad4629f665f693f50495e8eea7"
+}

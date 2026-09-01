@@ -1,0 +1,29 @@
+{
+  "artifact_id": "open-parent-after-nondiscriminating-selector",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 506760,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "09f2a87a406856b7459fa54894c378997fe442a4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0184",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-parent-after-nondiscriminating-selector",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9857931faa9ad7f3839591b08c5195bc5f2bbcbe097d25d096f1e60b68d0ffca"
+}

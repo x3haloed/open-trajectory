@@ -1861,3 +1861,22 @@ fresh selectors to choose the new composition on mixed contact, prediction
 correction on prior observation-led contexts, and viable filtering on prior
 blocked-option contexts. A lexical guide amendment or globally dominant new
 mechanism is insufficient.
+
+OT-0184 shows that adding typed fields is not enough. Its fresh repair actor
+assigns both `observed-source` and `blocked-exclusion` to every mechanism. The
+resulting projection cannot distinguish candidates: repaired and erased
+branches both choose viable filtering and fail mixed contact 0/6. Prior
+observation-led and blocked-option routing still passes 4/4 through the legacy
+guide, and the identity floor remains 18/18.
+
+The new obstruction is capability grounding. Actor declarations are
+hypotheses, not earned selection authority. Exact parent `40818aa8...` remains
+open with OT-0183 and OT-0184 failures retained externally.
+
+Next freeze independent behavioral probes for each capability and run every
+operative mechanism before compiling any signature. Give the receipted
+signatures plus the nondiscriminating actor projection to a fresh repair actor.
+It may retain, narrow, or replace the selector. Promotion still requires a
+decisive signature-versus-erasure advantage on mixed contact and exact routing
+on both prior context families. Do not replace behavioral grounding with a
+stricter declaration answer key.

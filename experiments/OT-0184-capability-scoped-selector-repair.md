@@ -1,6 +1,6 @@
 # OT-0184 — capability-scoped selector repair after novel-mechanism rejection
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** complete; rejected at capability-grounding gate
 - **Evidence class:** exploratory-only
 - **Target:** test whether exact OT-0183 selection failure lets a fresh actor
   repair the selector and scope a novel mechanism without erasing the prior
@@ -84,3 +84,33 @@ Passing would establish one consequence-driven joint repair of mechanism scope
 and selection machinery. It would not establish recurrence under a later scope
 contradiction, eliminate the fixed two-capability vocabulary, or make the
 researcher optional for generating the next world family.
+
+## Result
+
+All seventeen fresh actors pass complete trace and effects audit. The repair
+actor chooses `revise`, supplies the complete typed structure, and correctly
+assigns the exact active stake both `observed-source` and
+`blocked-exclusion`. It also assigns both capabilities to every presented
+mechanism, including reset, viable filtering, prediction correction, the
+surrendered extension, and the OT-0183 composition.
+
+The projection is therefore complete but non-discriminating. All six repaired
+selectors and all six field-erased controls follow the legacy guide to viable
+filtering and fail the six-case mixed world 0/6. The repaired advantage is zero.
+The two observation-led prior selectors choose prediction correction and pass,
+the two blocked-option selectors choose viable filtering and pass, and the
+identity floor remains 18/18; those successes arise from the retained guide,
+not the new projection.
+
+No selector or OT-0183 mechanism is installed. Exact parent
+`40818aa8c898da506378ab82ddebe6682c5edc8b524f5e1bb2025bb391cf2747`
+remains open. This falsifies admission of actor-declared capability labels as
+selection authority without objective behavioral grounding.
+
+The next test should treat each declared capability as a hypothesis. Freeze
+small capability probes, execute every operative mechanism on them, and compile
+the earned capability signature from consequence rather than self-report. Give
+that signature and OT-0184's nondiscriminating projection to a fresh actor to
+decide whether to retain, narrow, or replace the selector rule. Compare against
+an exact signature-erased control on mixed contact and retain the contextual
+no-regression gates.

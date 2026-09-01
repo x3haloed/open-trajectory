@@ -353,6 +353,10 @@ The strongest footholds are:
   routes, and a correction actor invents the passing semantic composition. The
   inherited selector ignores the novel mechanism and both branches score 0/4,
   so the correction is retained as evidence but not installed.
+- `OT-0184`: a fresh repair actor authors a typed selector projection but gives
+  every mechanism both capabilities. Repaired and erased branches both choose
+  viable filtering and score 0/6, rejecting ungrounded capability declarations
+  as selector authority.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

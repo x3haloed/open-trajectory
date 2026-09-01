@@ -1409,5 +1409,17 @@ prediction correction globally on seven prior cases. Exact parent
 boundary to a fresh repair actor and require joint correction of mechanism
 scope and selection machinery, followed by mixed and prior-context reuse.
 
+OT-0184 supplies that repair interface but rejects actor-declared capability
+labels as authority. The actor assigns both visible capabilities to all five
+mechanisms. All six repaired and all six erased-control selectors therefore
+choose viable filtering and fail mixed contact 0/6. Four prior-context actors
+and the 18-case identity floor pass through retained machinery, not the repair.
+
+Exact parent `40818aa8...` remains current. Next consequence-test capability
+declarations themselves: execute each mechanism on fixed observed-source and
+blocked-exclusion probes, compile earned signatures from scores, and let a
+fresh actor revise selection using those receipts. Preserve signature erasure,
+mixed contact, and contextual floors as the causal comparison.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
