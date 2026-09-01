@@ -252,14 +252,14 @@ def main() -> int:
             counts[regime] += 1
             index = counts[regime]
             label = f"post-completion-{regime}-{index:02d}"
-            root = run / label
+            root = run / (label + "-authoring")
             root.mkdir()
             assimilation = run_assimilation(context, prior131, p82, root, label, completed_subject, completion, projection, candidates)
             candidate = compile_successor(p82, completed_subject, assimilation["binding"]) if assimilation["binding"] else completed_subject
             rows.append({"regime": regime, "index": index, "assimilation": assimilation, "candidate": candidate})
         for row in rows:
             label = f"post-completion-{row['regime']}-{row['index']:02d}-successor-selection"
-            root = run / label
+            root = run / (label + "-authoring")
             root.mkdir()
             selection = run_selection(context, prior131, p82, root, label, row["candidate"], candidates, completion)
             row["selection"] = selection

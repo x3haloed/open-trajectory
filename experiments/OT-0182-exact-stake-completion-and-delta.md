@@ -70,3 +70,14 @@ All seventeen actors must pass complete trace and effects audit for the
 assimilation claim. Passing establishes one exact completion and at most one
 post-completion transition. It does not establish recurrent self-directed
 development or eliminate researcher-authored contact families.
+
+## Operational repair before assimilation output
+
+The first invocation stopped after the completion actor and before the first
+assimilation actor. The driver used the same path for an assimilation seed root
+and that actor's evidence directory; the evidence context refused to overwrite
+the existing directory. The partial run is retained. Repair changes only the
+seed-root suffix so seed and evidence paths are disjoint. It does not alter
+actor-visible bytes, task order, candidate or control, worlds, score, gate, or
+budgets. The repaired invocation must use a new evidence root and fresh actors,
+including a fresh completion selector.
