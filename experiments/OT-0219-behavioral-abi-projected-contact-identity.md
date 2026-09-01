@@ -1,6 +1,6 @@
 # OT-0219 — behavioral ABI-projected contact identity
 
-- **Status:** design in progress; actors unauthorized
+- **Status:** frozen; not yet run; no actors required
 - **Evidence class:** exploratory-only
 - **Target:** prospective G5 → G6 liveness-evaluator transition
 - **Construction evidence:** OT-0218 pending recovery cases duplicate completed
@@ -74,6 +74,12 @@ either implementation, accept every genuinely new package, and reject stale or
 malformed packages. G5's historical raw decisions are preserved; the bundle
 measures the identified blind spot, not a retrospective reclassification of
 past operational results.
+
+The seeded bundle contains sixteen fixtures. Preflight expects G6 16/16 and
+observes G5 at 12/16. Separate anchors require determinism under key and case
+order, collapse of ignored top-level and nested decoration, retention of
+capacity needed for validity, and retention of probability used only by the
+independent relief reference.
 
 ## Promotion
 
