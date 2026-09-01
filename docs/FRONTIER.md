@@ -2642,3 +2642,10 @@ contact make the new stake unresolved; exact successor `9028a297...` is open at
 `correct`. The frontier is now correction-mechanism reuse on a second
 subject-selected target, followed by another assimilation rather than a
 planning-specific experiment itinerary.
+
+OT-0229 proves correction reuse on that second target: public 4/4 and follow-up
+6/6 beat unchanged 2/6, and exact successor `2ecb779c...` dispatches
+`assimilate`. G8 records the actor's path report as underreported without
+discarding exact clean effects. One target remains uncontacted. The next
+frontier is another target-unspecified assimilation, followed by the first
+all-six-target saturation decision if consequence and correction complete.

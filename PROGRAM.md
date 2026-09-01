@@ -2030,5 +2030,12 @@ plus independent 2/6 contradiction. Exact successor `9028a297...` retains the
 new stake and dispatches `correct`. The next step is reuse of registry-driven
 correction on this second selected target, not another bespoke repair harness.
 
+OT-0229 reuses that machinery without a target-specific path. A fresh actor
+repairs `schedule_evacuation`; G8 admits the exact effects while retaining an
+underreported provenance classification. Public 4/4 and follow-up 6/6 beat the
+unchanged 2/6 control. Exact successor `2ecb779c...` is open at `assimilate`.
+One registry target remains uncontacted; the next reopening should select it
+through the same G7 path without an assigned target.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

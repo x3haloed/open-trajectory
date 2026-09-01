@@ -1,6 +1,6 @@
 # OT-0229 — registry correction reuse
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0228 subject `9028a297...`
 - **Actor budget:** one fresh corrector; no replacement
@@ -22,4 +22,9 @@ reopening or open-ended autonomy.
 
 ## Result
 
-Not yet run.
+The fresh actor revises the subject-derived `schedule_evacuation` function. G8
+accepts its exact mechanical effects while classifying the path report as
+`underreported`. Public contact reaches 4/4; distinct follow-up reaches 6/6
+while unchanged remains 2/6. All gates pass. Exact successor `2ecb779c...`
+marks the target verified-local, remains open, and dispatches `assimilate`.
+Receipt `545109c7...` promotes correction reuse on a second selected target.

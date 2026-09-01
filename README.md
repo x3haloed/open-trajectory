@@ -561,6 +561,10 @@ The strongest footholds are:
   no target. It selects `schedule_evacuation`, binds four new cases, and receives
   public 1/4 plus independent 2/6 contradiction. Exact successor `9028a297...`
   remains open and dispatches a second generalized correction cycle.
+- `OT-0229`: unchanged registry-driven correction machinery repairs the second
+  selected target. G8 accepts exact effects while recording underreported path
+  provenance; public 4/4 and follow-up 6/6 beat unchanged 2/6. Exact successor
+  `2ecb779c...` is open at `assimilate` with one registry target uncontacted.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

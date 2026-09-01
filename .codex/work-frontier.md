@@ -80,12 +80,11 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0228 successor `9028a297...`,
+The current exact operational subject is OT-0229 successor `2ecb779c...`,
 identified by
-`evidence/manifests/OT-0228/open-subject-after-second-selected-contradiction.json`.
-It preserves the prior correction, the fresh post-correction assimilation, and
-public 1/4 plus independent 2/6 evacuation contradiction. It is open at
-`correct`.
+`evidence/manifests/OT-0229/open-subject-after-second-generalized-correction.json`.
+It preserves two generalized correction cycles, is open at `assimilate`, and
+has one registry target still uncontacted.
 
 ## Prediction errors
 
@@ -172,6 +171,9 @@ public 1/4 plus independent 2/6 evacuation contradiction. It is open at
 - OT-0228's fresh actor chooses `schedule_evacuation` from two uncontacted
   surfaces without a target hint. Public 1/4 and sealed 2/6 consequence produce
   a second subject-selected unresolved correction cycle in exact `9028a297...`.
+- OT-0229 reuses registry-driven correction on that second target. Public 4/4
+  and follow-up 6/6 beat unchanged 2/6; G8 admits effects while retaining
+  underreported provenance, yielding exact open `2ecb779c...` at assimilation.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is reuse of registry-driven correction
-  on this second target, followed by another fresh assimilation.
+  external. The next discriminating step is target-unspecified assimilation onto
+  the sole remaining uncontacted target, then the all-target saturation boundary.

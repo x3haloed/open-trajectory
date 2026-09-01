@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-second-generalized-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 754986,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "893294f7e9d5e92d0db14db34c97529be22aafba",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0229",
+  "input_manifests": [
+    "OT-0229/registry-correction-reuse-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after correction reuse on schedule_evacuation; one registry target remains uncontacted and further assimilation is pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-second-generalized-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "dc7c93623d63c3c3736e17ffe801631b68d258f75ef650a822f0d1f709ea2c12"
+}

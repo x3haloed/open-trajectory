@@ -1,0 +1,31 @@
+{
+  "artifact_id": "registry-correction-reuse-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12165,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "893294f7e9d5e92d0db14db34c97529be22aafba",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0229",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh correction actor on a second synthetic planning target; report fidelity was underreported and post-correction reopening remains pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:registry-correction-reuse-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9f9c7908f02eca07aef8c1a5e3dd6b7ad428bccfa44009512958dab66ab13d52"
+}
