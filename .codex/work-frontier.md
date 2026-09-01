@@ -64,12 +64,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0220 successor `e3dd8685...`,
+The current exact operational subject is OT-0221 successor `b5c955a4...`,
 identified by
-`evidence/manifests/OT-0220/open-subject-after-fixed-g6-observation.json`. It
-preserves the full lineage, recovery success, relief contradiction and
-correction, and a new G6-live unreceipted recovery contact. Its fixed driver is
-at `observer-stop`; this is an observation boundary, not subject closure.
+`evidence/manifests/OT-0221/open-subject-after-continuation-pulse.json`. It
+preserves the full lineage, the relief correction, a later recovery consequence,
+and a new G6-live unreceipted relief contact. Its fixed driver has completed
+three encounters across two invocations and is again at `observer-stop`.
 
 ## Prediction errors
 
@@ -117,7 +117,14 @@ at `observer-stop`; this is an observation boundary, not subject closure.
   enough for later consequence inside two encounters. Observed: relief was the
   second target, so the claim rejects solely for missing post-correction contact
   inside the observation window. The exact subject remains open and G6-live.
+- OT-0221 resolves the timing uncertainty with a content-free pulse. The exact
+  already-bound recovery package receives 6/6 world consequence after relief
+  correction, and one fresh actor reopens a different G6-valid relief contact.
+  All gates pass across the invocation boundary; the pulse-erased parent remains
+  stopped and the pulse supplies no task content.
 - Environment construction, hidden-world authorship, final admission, and the
-  choice to reopen an observer-stopped invocation remain external. The next
-  discriminating step is exact resumption of OT-0220's already-bound pending
-  contact under the same transition rule, not a new actor-originated task.
+  timing of each content-free pulse remain external. The next discriminating
+  step is not another bespoke wake experiment: make this pulse/driver pairing a
+  reusable recurrent invocation and test whether it eventually opens a new
+  semantic surface rather than endlessly varying inputs on three corrected
+  functions.

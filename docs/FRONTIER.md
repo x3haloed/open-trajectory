@@ -2546,3 +2546,18 @@ contact remains actionable. The next frontier is cross-invocation continuation:
 resume exactly that contact under the same rule and test whether the world after
 correction supplies the missing causal edge. Do not rerun OT-0220 or originate a
 replacement pursuit.
+
+OT-0221 resumes exactly that successor with a content-free pulse. The pulse is
+eligible only for an open, G6-live, unreceipted subject at `observer-stop`; it
+adds one bounded allowance and changes phase to `contact` without naming a task
+or target. The already-bound recovery package then passes independent 6/6
+contact after the relief correction. A fresh actor assimilates the receipt and
+reopens a different-target relief package with four new G6 projected inputs and
+4/4 public agreement.
+
+Exact open successor `b5c955a4...` returns to `observer-stop` with live contact
+`0764c7c7...`. This establishes the missing cross-invocation causal edge while
+leaving OT-0220's original bounded claim rejected. The new frontier is whether
+the same pulse/driver composition can continue repeatedly without a researcher
+writing a new experiment for each wake, and whether it can escape parameter
+novelty inside this now-correct three-function environment.

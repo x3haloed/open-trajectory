@@ -1925,5 +1925,21 @@ observer-stop with unreceipted contact `248e0d12...`. The next experiment must
 resume this exact developmental position under the same transition rule rather
 than originate a new task or rewrite the successful path.
 
+OT-0221 supplies only a content-free continuation pulse. Eligibility requires
+the exact open subject, `observer-stop`, G6-live liveness, a matching
+unreceipted pending package, and exhausted declared allowances. The pulse
+appends a receipt, adds one encounter and actor allowance, and changes phase to
+`contact`; it supplies no pursuit, target, package, code, world, or score.
+
+The already-bound recovery package then reaches independent 6/6 consequence,
+which occurs after the retained relief correction. One fresh actor assimilates
+that receipt and binds a different-target relief package with four new G6
+projected inputs and 4/4 public agreement. All gates pass; exact successor
+`b5c955a4...` is open, G6-live, and again at `observer-stop`. This promotes the
+bounded cross-invocation edge and shows that the observation can stop while a
+minimal wake signal carries subject-owned developmental content into the next
+invocation. The external pulse and fixed environment remain disclosed causal
+components.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

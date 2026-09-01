@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-continuation-pulse",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 679501,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "59990edc0902ada7937f757e3b78a3b93411b857",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0221",
+  "input_manifests": [
+    "OT-0221/cross-invocation-continuation-pulse-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open G6-live subject at observer-stop; the newly bound relief contact has not yet received independent consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-continuation-pulse",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "aea9e607877ea60f0f7b36bc5be1b5f937b949ede966b086d7e7bedf12b6cc60"
+}

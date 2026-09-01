@@ -518,6 +518,12 @@ The strongest footholds are:
   recurrence claim rejects because correction occurred at the final observed
   encounter, leaving no later consequence inside the frozen window. Exact open
   G6-live successor `e3dd8685...` survives for resumption.
+- `OT-0221`: a content-free continuation pulse resumes that exact subject
+  without choosing a task or target. Its already-bound recovery contact passes
+  6/6 after the relief correction; one fresh assimilator reopens a different
+  G6-valid relief contact with 4/4 public agreement. Exact open successor
+  `b5c955a4...` returns to observer-stop, completing the missing
+  cross-invocation edge while preserving OT-0220's original rejection.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

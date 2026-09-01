@@ -1,6 +1,6 @@
 # OT-0221 — cross-invocation continuation pulse
 
-- **Status:** frozen; not yet run
+- **Status:** completed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** cross-invocation OT-1C and cumulative OT-2R recurrence
 - **Parent:** exact OT-0220 open subject `e3dd8685...`
@@ -76,4 +76,20 @@ world construction, or elimination of the external pulse.
 
 ## Result
 
-Not yet run.
+Promoted. The pulse changed only the fixed driver phase and one-unit observation
+allowances, appended its exact receipt, and preserved the pending package byte
+for byte. Encounter three then exposed the already-bound recovery contact to
+independent consequence and matched 6/6. This is the first world consequence
+after OT-0220's retained relief correction.
+
+One fresh assimilator accepted the exact receipt and bound a different-target
+`allocate_relief` package. G6 admits all four projected inputs as new; public
+execution matches 4/4. Exact successor `b5c955a4...` conforms, remains open and
+G6-live, and returns to `observer-stop` with pending contact `0764c7c7...`.
+
+Every frozen gate and control passes. The pulse-erased parent remains stopped;
+closed, unresolved, receipted, and already-running variants reject; the pulse
+contains no target or task content. OT-0220's bounded claim remains rejected,
+while the cumulative OT-0220→OT-0221 chain now contains recovery success,
+relief contradiction, relief correction, later recovery consequence, and
+another executable reopening across an actual invocation boundary.
