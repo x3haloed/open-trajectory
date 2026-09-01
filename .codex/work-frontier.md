@@ -20,6 +20,10 @@ no longer depends on experiment-specific researcher choices.
   claims, not the subject.
 - Preferred progress preserves earned floors, opens coherent future contact,
   improves selection or correction, and reduces hidden researcher causation.
+- A live developmental operation must still be capable of changing a mattering
+  state. Once a bounded local surface is independently verified, more examples
+  alone cannot keep that frontier live; continuation must widen or truthfully
+  complete the local pursuit without closing the subject globally.
 - Exact history may grow while it remains reconstructible and does not prevent
   continuation.
 - Actor-authored local labels are content. Cross-actor identity belongs to the
