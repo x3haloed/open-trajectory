@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-second-generic-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 285103,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b264ed63f755d0202f6537aaf041f7b698be0949",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0114",
+  "input_manifests": [
+    "evidence/manifests/OT-0113/unchanged-open-subject-after-miscorrection.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject after the second generic expansion promotion; its next extension remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-second-generic-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "75f9f7a00f641c4e2be208ae7aab3499f62731f82e1ea9a4035d4ebb9c12601f"
+}

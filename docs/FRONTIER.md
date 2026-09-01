@@ -572,6 +572,22 @@ the authoritative field bounds to the public receipt, and permit one fresh
 successor correction. It should preserve independent scoring and reject rather
 than repair if the actor still chooses the wrong semantics.
 
+OT-0114 passes that correction. The fresh successor begins from OT-0113's exact
+failed validator and receives the actual mutated contact, its one-field delta,
+and the authoritative inherited terms. It caps `coordination_cost` at 100,
+passes all public fixtures, and leaves a clean exactly scoped trace. The package
+then passes three authored and eight hidden oracle cases plus reversibility,
+causes world contact, and survives grounded fresh assimilation.
+
+Exact open subject
+`fb918f194026d60e5cf0af656100efa465fccb56b61c5e219d558cb137db4880`
+now carries two promoted subject-authored extensions and selects a third,
+`joint-capability-frontier-coordination-recovery-resilience`. The next decisive
+test is uninterrupted recurrence: use the unchanged depth-independent driver
+from this exact subject, make concrete mutation receipts a generic correction
+facility before actor output, and require one complete extension promotion with
+no experiment-specific repair or researcher-selected contact.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -645,6 +661,9 @@ than repair if the actor still chooses the wrong semantics.
 - A second retained package remains behaviorally viable, but one correction
   attempt demonstrates that fixture labels and Boolean outcomes alone may not
   make the governing contradiction legible to a fresh successor.
+- Concrete mutation values and declared bounds allowed the next fresh successor
+  to repair that exact failed patch; the second generic expansion is now
+  promoted and has opened a third subject-selected extension.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

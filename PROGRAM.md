@@ -211,6 +211,10 @@ condition, not the permanent purpose or executive of the resulting subject.
   fresh corrector. The actor makes an exactly scoped, truthful change but
   repairs the new field's bound rather than the inherited field's bound. The
   gate rejects before hidden contact and preserves the exact OT-0112 subject.
+- `OT-0114` carries that failed patch and a concrete counterexample into one
+  fresh successor. It corrects the inherited bound, passes public and hidden
+  admission, causes contact, and promotes an exact open subject that selects a
+  third registry extension.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -438,6 +442,15 @@ instead of enforcing the inherited coordination bound. The next record should
 carry the exact package and failed correction forward, expose the concrete
 counterexample plus the relevant declared bounds, and ask one fresh successor
 to correct from that consequence without prescribing an implementation.
+
+OT-0114 passes that test. Concrete consequence lets a fresh successor repair
+the exact failed patch; independent admission, contact, and grounded
+assimilation then promote the second generic expansion. The exact open successor
+selects `joint-capability-frontier-coordination-recovery-resilience`. The next
+record should test this opening under one unchanged depth-independent driver
+whose generic correction receipt includes concrete mutations and declared
+bounds from the outset. It should require another complete promotion without an
+experiment-specific repair or researcher-selected surface.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

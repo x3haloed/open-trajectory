@@ -1,0 +1,33 @@
+{
+  "artifact_id": "concrete-consequence-second-expansion-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1889280,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b264ed63f755d0202f6537aaf041f7b698be0949",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0114",
+  "input_manifests": [
+    "evidence/manifests/OT-0113/miscorrected-retained-second-expansion-run.json"
+  ],
+  "kind": "concrete-consequence-expansion-correction-run",
+  "limitations": [
+    "One retained synthetic package completed correction, hidden admission, contact, and assimilation after a concrete public consequence; uninterrupted recurrence, frequency, and cross-domain transfer remain unestablished."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:concrete-consequence-second-expansion-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ac6657d630f7ec645371eb6071efbf98508fe574a23c925c29730e905105e729"
+}

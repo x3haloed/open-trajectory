@@ -1,0 +1,33 @@
+{
+  "artifact_id": "concrete-consequence-second-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 36901,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b264ed63f755d0202f6537aaf041f7b698be0949",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0114",
+  "input_manifests": [
+    "evidence/manifests/OT-0113/miscorrected-retained-second-expansion-aggregate.json"
+  ],
+  "kind": "concrete-consequence-expansion-correction-result",
+  "limitations": [
+    "One exact second expansion promoted across a two-corrector consequence chain; the result does not measure repeatability."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:concrete-consequence-second-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "57cc87ddfa778352adef060d909fc4ebceb52710ab6c79f3ad21ca5d5acedf77"
+}

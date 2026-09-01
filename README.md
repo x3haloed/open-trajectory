@@ -110,6 +110,9 @@ The strongest footholds are:
 - `OT-0113`: one rejected retained correction whose clean, exactly scoped actor
   patch changed the wrong field bound, showing that a fixture label and Boolean
   disagreement alone were insufficient correction contact.
+- `OT-0114`: one promoted concrete-consequence correction that carries the
+  failed patch through a fresh successor, hidden admission, world contact, and
+  grounded assimilation into an exact open subject selecting a third extension.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
