@@ -2246,3 +2246,26 @@ and then expose it to independently varied contact whose source membership is
 not chosen to flatter the mechanism. Completion should return to pursuit
 renewal; failure should correct or surrender the authored distinction. Do not
 treat internal contactability alone as external usefulness.
+
+OT-0203 makes the capability generalize before allowing completion. Six fresh
+contact actors first author and seal 27 hidden cases. Six mechanism actors then
+see the inherited subject and only its prior promoted contact; all six invent
+prediction-free mechanisms that pass the unseen bank 27/27. Observed and viable
+baselines score 0/27, latent scores 1/27, and mechanically forbidden
+prediction-copy scores 27/27. All twelve audits, route 16/16, identity 18/18,
+and canonical stake checks pass.
+
+Open successor `cd611836...` carries the generalized mechanism, independent-
+contact receipt, completed `contact-next-distinction` stake, and direct
+`assimilate-completion-and-renew` operation. This closes one complete cycle
+whose pursuit and target language were chosen inside the lineage rather than by
+the observer.
+
+The frontier is recurrent renewal with selection improvement. Start from the
+exact successor and let fresh actors assimilate completion and author the next
+executable direction. A valid next move must not rename the completed source or
+merely add an arbitrary fourth set partition. It should change the subject's
+capacity to select future moves—such as making the value, cost, uncertainty, or
+reversibility of candidate pursuits contactable—and then causally constrain
+fresh successors. The observer may enforce nonrepetition and world contact but
+may not choose which such dimension matters.

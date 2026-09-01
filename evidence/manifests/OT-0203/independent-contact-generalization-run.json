@@ -1,0 +1,31 @@
+{
+  "artifact_id": "independent-contact-generalization-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 18526208,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "51ae3df88c8fd94be7bc8e26d06745fb53987935",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0203",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Promotes generalized capability in a bounded authored set world; recurrent renewal and external-world utility remain open."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:independent-contact-generalization-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9b9bf06dcb58084db15aa141de10c283c2292f9e9d9b4466f66991f99109ab33"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "independent-contact-generalization-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 320835,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "51ae3df88c8fd94be7bc8e26d06745fb53987935",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0203",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Six mechanisms generalize 27/27 over contacts sealed before invention; prediction-copy leakage is diagnostic only and forbidden."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:independent-contact-generalization-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d120bbe74d9d9634ae5b6b4850219f85e3f36b4b1887a34231d3638467d5537b"
+}

@@ -1652,5 +1652,21 @@ mechanism in the expanded source language. Then test that mechanism against
 independently varied contact before treating the new distinction as useful or
 renewing again.
 
+OT-0203 separates world authorship from mechanism authorship in time. Six fresh
+contact actors first seal 27 hidden cases. Six later mechanism actors see only
+the inherited pursuit and prior promoted contact; every one invents a
+prediction-free mechanism and passes the unseen bank 27/27. Retained observed
+and viable mechanisms score 0/27, latent scores 1/27, while forbidden
+prediction-copy scores 27/27 as the expected leakage diagnostic. All twelve
+audits and inherited floors pass.
+
+Open successor `cd611836...` installs the generalized capability and an exact
+completion receipt for the subject-authored pursuit. It returns to renewal
+without an observer-selected next target. Next test recurrence: expose that
+completion to fresh renewal actors and require another executable direction
+that does not merely rename `contactable-distinction`. The evaluator must also
+ask whether the next move improves the subject's future selection capacity,
+not merely adds another set-valued source.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

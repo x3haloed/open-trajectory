@@ -1,6 +1,6 @@
 # OT-0203 — independent-contact mechanism generalization
 
-- **Status:** design frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** turn the OT-0202 subject-authored pursuit into a generalized
   executable capability rather than a one-contact fit
@@ -45,3 +45,21 @@ receipt, and a completion receipt for the subject-authored pursuit. Reopen the
 subject at post-completion renewal. Passing establishes generalized capability
 inside this bounded set world, not usefulness under an external natural world
 or recurrent self-renewal.
+
+## Result
+
+All six contact actors pass audit and author aligned suite-novel contact before
+mechanism invention begins. Their token-renamed bank contains 27 hidden cases.
+All six later mechanism actors pass complete audit and independently invent a
+prediction-free expression equivalent to the subject-authored source minus
+blocked members. Every mechanism passes 27/27 without seeing the bank.
+
+Observed-unblocked scores 0/27, viable-unblocked 0/27, and latent-unblocked
+1/27. Prediction-copy scores 27/27 but is mechanically excluded from the
+grammar, confirming the importance of the source boundary. The authored target,
+route 16/16, identity 18/18, exact ancestry, and canonical stake all pass.
+
+Open successor `cd611836...` installs active-01's generalized mechanism,
+independent-bank receipt, and completion receipt for `contact-next-distinction`.
+It reopens at: "Assimilate the completed subject-authored pursuit and choose
+the next executable direction."

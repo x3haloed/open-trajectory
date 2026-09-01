@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-independent-generalization",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 593585,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "51ae3df88c8fd94be7bc8e26d06745fb53987935",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0203",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Open successor carries completion and requests another self-directed renewal."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-independent-generalization",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e058b3ec96300397b282daf4faff19b7593a59061f45381366bdb1f2de9767a6"
+}

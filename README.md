@@ -426,6 +426,10 @@ The strongest footholds are:
   0/6, all audits and floors, and a real downstream stake consumer. Open
   successor `af704625...` carries the subject-authored target-language
   expansion and requests mechanism invention for that chosen pursuit.
+- `OT-0203`: six contact actors seal 27 hidden cases before six mechanism
+  inventors run. Every inventor generalizes 27/27; observed and viable
+  baselines score 0/27 and latent 1/27. Open successor `cd611836...` carries
+  completion and returns the subject to self-directed renewal.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
