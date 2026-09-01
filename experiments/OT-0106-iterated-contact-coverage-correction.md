@@ -1,6 +1,6 @@
 # OT-0106 — iterated contact coverage correction
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; promoted
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C cross-interface recurrence through iterated
   consequence-driven contact correction
@@ -60,3 +60,35 @@ invalid contact through two successive consequence-driven fresh-actor
 corrections before objective contact and promotion. It would not establish
 generic correction, indefinite recurrence, open-domain contact-interface
 invention, or autonomous admission authority.
+
+## Result
+
+The exact OT-0105 canonical contact and coverage consequence reconstructed.
+The fresh second corrector changed only `contact.json`, retained allocator
+bytes, preserved the four passing dimensions, and repaired both remaining
+certificates. All six coverage checks passed. The retained allocator then
+matched the independent reference on all four frontiers.
+
+Fresh assimilation was conformant and grounded in all four passed world rows.
+It retained both machinery byte sequences, authored a new opening, and bound
+`joint-boundary-probe`. The exact promoted subject is sounding and open at
+`db9d56536015a20252811eca59f827c2e96a693c04bf4b54a4ff06bbb67d7d86`.
+Its next opening is:
+
+> Open joint-boundary-probe and author three novel joint cases near the
+> recovery-risk and overload tradeoff, recording the retained choice and
+> realized-score oracle result for each case.
+
+The post-seal coverage-detail-erased corrector also produced a conformant,
+oracle-valid correction. The specific machine diagnostic content is therefore
+not isolated as causally necessary in this sample. The operational result
+stands: one subject-bound cross-interface action survived an invalid initial
+contact and two successive fresh-actor corrections, reached independent world
+consequence, and promoted an exact continuing successor.
+
+The next work should not merely alternate inside the demonstrated
+two-interface registry. Reorient on the remaining external scaffold: the
+researcher still authored the complete interface set. The next discriminating
+step is whether the subject can propose a new contact interface and executable
+conformance contract that independent world authority can admit, bind, and use
+after another actor ending.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "iterated-contact-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 39412,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "51f86bdc8fa97dca5bf2db5dc3593c221ba72ebc",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0106",
+  "input_manifests": [
+    "evidence/manifests/OT-0105/consequence-corrected-cross-interface-aggregate.json"
+  ],
+  "kind": "iterated-contact-correction-result",
+  "limitations": [
+    "Operational recurrence passed; diagnostic-content causality, generic correction, and interface invention remain unestablished."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:iterated-contact-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "93b00a6870ea48f25268c8f3a5818cf05f0e9c0c006550c976501e7de5a85b08"
+}

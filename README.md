@@ -83,6 +83,9 @@ The strongest footholds are:
 - `OT-0105`: one rejected consequence-correction run that repaired shape,
   bounds, and four coverage dimensions, while leaving filtered-decoy dominance
   and Boolean-threshold coverage untested.
+- `OT-0106`: one promoted iterated-correction run completing the subject-bound
+  allocator interface, independent scoring, grounded assimilation, and an exact
+  open successor; its diagnostic-erased control also found the correction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

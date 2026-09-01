@@ -414,6 +414,22 @@ the two-or-more Boolean threshold. A passing revision is bound before unchanged
 world scoring and fresh assimilation; only then does a matched
 coverage-detail-erased corrector run.
 
+OT-0106 passes operationally. The second correction preserves four prior
+dimensions, repairs filtered-decoy dominance and Boolean threshold coverage,
+and matches the independent reference on all four frontiers. Fresh grounded
+assimilation promotes an exact open subject at
+`db9d56536015a20252811eca59f827c2e96a693c04bf4b54a4ff06bbb67d7d86`.
+The coverage-detail-erased control also finds a valid correction, so receipt
+content is not isolated as necessary. The durable advance is cross-interface
+recurrence through two fresh corrections and objective consequence.
+
+The fixed two-interface registry is now the conspicuous external scaffold.
+Repeating joint and allocator contacts would increase recurrence count without
+addressing the target's strongest remaining gap. The next experiment should
+test whether the subject can author a new contact interface plus executable
+public conformance contract, have independent authority admit it, and bind its
+use across a later actor ending.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -475,6 +491,9 @@ coverage-detail-erased corrector run.
   contact/assimilation cycles and ends with a subject-selected switch from joint
   probing to allocator challenge. Cross-interface execution of that bound
   switch remains unobserved.
+- The successor-selected allocator switch is now executed and promoted after
+  two fresh consequence corrections. The registry itself remains
+  researcher-authored and closed to subject-originated interface expansion.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

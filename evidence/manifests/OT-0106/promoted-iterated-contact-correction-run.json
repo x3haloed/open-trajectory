@@ -1,0 +1,33 @@
+{
+  "artifact_id": "promoted-iterated-contact-correction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2783232,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "51f86bdc8fa97dca5bf2db5dc3593c221ba72ebc",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0106",
+  "input_manifests": [
+    "evidence/manifests/OT-0105/rejected-consequence-corrected-cross-interface-run.json"
+  ],
+  "kind": "iterated-contact-coverage-correction",
+  "limitations": [
+    "One bounded cross-interface transition after two contact corrections; the coverage-detail-erased control also reproduced a valid correction."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:promoted-iterated-contact-correction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a61e4873ca87a35584f4e511fa43f6a2b11b7783fc59979d078deda2f6910d3b"
+}

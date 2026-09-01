@@ -172,6 +172,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   actor repairs wrapper shape and all bounds violations while preserving four
   coverage dimensions, but fails the operational filtered-decoy and Boolean
   threshold certificates. No world score or successor is produced.
+- `OT-0106` carries the exact revised bytes into a second fresh correction. All
+  six coverage gates and four independent allocator comparisons pass; grounded
+  assimilation promotes an exact open cross-interface successor. A
+  coverage-detail-erased control also corrects the artifact, so diagnostic
+  content causality is not isolated.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -355,6 +360,10 @@ resume the same fixed action rather than sampling a replacement.
 OT-0105 makes the first correction directionally but reveals two further
 semantic failures. The next record should carry the exact revised bytes and
 machine receipt into a second correction rather than resetting the contact.
+OT-0106 does so and completes the cross-interface transition. The next frontier
+is no longer another alternation inside the two-interface registry; it is
+subject-authored expansion of the registry under independent conformance and
+world admission.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
