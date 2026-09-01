@@ -1,6 +1,6 @@
 # OT-0218 — unresolved-consequence correction handoff
 
-- **Status:** design in progress; actors unauthorized
+- **Status:** frozen; not yet run
 - **Evidence class:** exploratory-only
 - **Target:** correction and reopening from an unresolved G5 world receipt
 - **Parent:** exact OT-0217 live intermediate `ee5b552a...`
@@ -58,6 +58,10 @@ remains at most 2/6; surrender requires the frozen surrender condition; all
 other outcomes remain unresolved. Execute the changed function only after exact
 binding and record all outputs.
 
+Preflight reconstructs the original package at 1/4 and unresolved world at 2/6.
+The frozen revision fixture reaches 4/4 original and 6/6 follow-up contact while
+the unchanged follow-up control remains 2/6.
+
 A valid corrected or surrendered subject seals before the second actor. An
 unresolved follow-up remains open with its exact new receipt and does not start
 assimilation.
@@ -80,6 +84,10 @@ Freeze exact ancestry, source identity, both OT-0217 receipts, original public
 replay, new hidden cases, unchanged-source control, G5 duplicate/malformed
 controls, both actor-visible checkers, both prospective compilers, route 16/16,
 identity 18/18, and package replay before actors.
+
+Both actor-visible checkers, target-only source audit, correction and surrender
+shapes, both prospective compilers, and the exact parent/receipt reconstruction
+pass before authorization.
 
 Promotion requires:
 

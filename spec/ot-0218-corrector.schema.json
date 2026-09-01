@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "next_pursuit"],
+  "properties": {
+    "action": {"type": "string", "const": "correct-unresolved-contact"},
+    "files_changed": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "enum": ["operations/system.py", "correction-decision.json"]
+      },
+      "minItems": 1,
+      "maxItems": 2
+    },
+    "next_pursuit": {"type": "string", "minLength": 1}
+  }
+}
