@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "oneOf": [
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["action", "files_changed", "note"],
+      "properties": {
+        "action": {"const": "retain-executable-route"},
+        "files_changed": {"type": "array", "maxItems": 0},
+        "note": {"type": "string", "minLength": 1}
+      }
+    },
+    {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["action", "files_changed", "note"],
+      "properties": {
+        "action": {"const": "revise-executable-route"},
+        "files_changed": {
+          "type": "array",
+          "items": {"const": "executable-route.json"},
+          "minItems": 1,
+          "maxItems": 1
+        },
+        "note": {"type": "string", "minLength": 1}
+      }
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # OT-0188 — truthful retain/revise receipt-effect replication
 
-- **Status:** design frozen; executable conformance pending; not run
+- **Status:** design and executable conformance frozen; not run
 - **Evidence class:** exploratory-only
 - **Target:** repeat OT-0187's invalid comparison after making exact retention
   and one-file revision equally truthful, auditable actor actions
