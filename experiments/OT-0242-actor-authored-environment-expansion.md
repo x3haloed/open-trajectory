@@ -1,6 +1,6 @@
 # OT-0242 — actor-authored environment expansion
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0241 subject `b23c7e30...`
 - **Fresh actors:** one, no retry
@@ -35,3 +35,24 @@ The observer still constructs and seals the available broader world. This test
 does not claim autonomous world acquisition, correction reuse across the new
 module shape, or indefinite continuation. It tests who chooses the region and
 pursuit inside a real multi-region opportunity set.
+
+## Result
+
+The null pulse derived `expand-environment`. The sole fresh actor chose the
+communications region and `position_relay_kits`, authored four executable cases,
+and passed G10 with exactly one changed file. Independent sealed consequence
+returned 2/6, so exact successor `e3a403f7...` remains open at `correct` on the
+actor-selected stake. The saturated three-surface world, all earlier
+corrections, and the inherited registry are unchanged.
+
+The actor's descriptive output used `path:symbol`; the inherited claim-fidelity
+helper recognizes only `symbol` or `path::symbol` and therefore labels that
+summary inconsistent. The authoritative decision document, changed path, and
+selected callable agree exactly. Descriptive output is not outcome authority,
+so this observed classifier narrowness neither changes the frozen gate nor the
+promotion.
+
+The next claim is generalized correction reuse across the new module shape.
+Target, path, installed source, and contradiction must come from exact state;
+the prompt must not name the relay target; and prospective consequence must
+reach 6/6 against unchanged 2/6 before returning to assimilation.

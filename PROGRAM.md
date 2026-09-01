@@ -2209,5 +2209,20 @@ world, and an open `correct` successor. This isolates subject-side region choice
 inside an observer-constructed world; it does not yet claim autonomous world
 acquisition or generalized correction of the new module shape.
 
+OT-0242 promotes that edge. The sole fresh actor chooses the communications
+region and `position_relay_kits`, authors four executable contacts, and passes
+G10. Independent sealed consequence returns 2/6. Exact successor `e3a403f7...`
+preserves the completed three-surface world and inherited registry, retains the
+broader visible epoch, and remains open at `correct` on the actor-selected
+stake. The observer supplied the opportunity set but did not choose its region
+or target.
+
+The actor's descriptive summary uses `path:symbol`, outside the inherited
+helper's `symbol`/`path::symbol` spellings. Exact workspace semantics and the
+authoritative decision agree, so this non-authoritative fidelity label does not
+change promotion. The next experiment must generalize correction from exact
+expanded-world state, reach prospective 6/6 versus unchanged 2/6 without naming
+the selected target in its prompt, and preserve all earlier epochs.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

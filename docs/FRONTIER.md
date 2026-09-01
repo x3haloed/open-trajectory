@@ -2821,3 +2821,25 @@ sealed 2/6 consequence remain authoritative. Promotion additionally requires
 retaining the saturated three-surface world unchanged and ending open at
 `correct` on the actor-selected contact. The observer still constructs the
 available world; autonomous world acquisition is not claimed.
+
+OT-0242 crosses the live expansion edge. The sole fresh actor selects the
+communications region and `position_relay_kits`, authors four executable cases,
+and passes G10 with exactly one changed file. Independent sealed consequence is
+2/6. Exact successor `e3a403f7...` retains every completed outward extension and
+the inherited registry, adds the actor-selected broader-world epoch, and remains
+open at `correct`.
+
+The descriptive output spells the selected identity as `path:symbol`, whereas
+the inherited helper recognizes only `symbol` or `path::symbol`; it consequently
+reports inconsistent fidelity. The authoritative decision document, exact
+changed file, and selected callable agree, so the non-authoritative summary does
+not alter the frozen result. This exposes classifier narrowness, not a causal
+disagreement.
+
+The next frontier is correction-mechanism generality beyond the original
+single-file outward world. A fresh corrector must derive the new target, module,
+installed source, and contradiction from exact state; receive an independently
+opened full-field correction interface without a target-naming prompt; alter
+only the selected callable; and earn prospective 6/6 against unchanged 2/6.
+Then the content-free driver must be shown to re-enter assimilation and continue
+from this expanded epoch.

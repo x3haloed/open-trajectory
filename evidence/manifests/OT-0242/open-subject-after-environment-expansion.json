@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-environment-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 870116,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "37ee628e1ebae2f66d5b7862a13c60ef8afdd715",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0242",
+  "input_manifests": [
+    "OT-0242/actor-authored-environment-expansion-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after one actor-selected region and one sealed contradiction; correction reuse and autonomous world acquisition remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-environment-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "533af19bf7047e372e0c93e3b44ec8d436cad4f8cdf7379acad7fa9292cf2ccd"
+}

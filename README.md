@@ -621,6 +621,11 @@ The strongest footholds are:
   seven existing routes, and changes saturated assimilation from impossible
   `outward-select` to `expand-environment`. Exact successor `b23c7e30...`
   preserves operational state and awaits a live null-pulse expansion.
+- `OT-0242`: that null pulse opens a three-region, four-candidate executable
+  world with no assigned target. The sole fresh actor selects communications and
+  `position_relay_kits`, passes G10, and receives sealed 2/6 contradiction.
+  Exact successor `e3a403f7...` preserves the completed outward world and remains
+  open at `correct` on the actor-selected stake.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

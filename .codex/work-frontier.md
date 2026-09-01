@@ -90,11 +90,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0241 successor `b23c7e30...`,
+The current exact operational subject is OT-0242 successor `e3a403f7...`,
 identified by
-`evidence/manifests/OT-0241/open-subject-at-environment-expansion.json`.
-It preserves the saturated three-surface outward world and all corrections at
-open `assimilate`, while routing the next null pulse to `expand-environment`.
+`evidence/manifests/OT-0242/open-subject-after-environment-expansion.json`.
+It preserves the saturated three-surface outward world and all corrections,
+retains an actor-selected communications epoch, and is open at `correct` after
+independent 2/6 contradiction of `position_relay_kits`.
 
 ## Prediction errors
 
@@ -229,7 +230,15 @@ open `assimilate`, while routing the next null pulse to `expand-environment`.
 - OT-0241 promotes a saturation-aware operation selector: 8/8 with all seven
   existing routes preserved. Exact `b23c7e30...` changes no operational state
   and routes the next null pulse to environment expansion.
+- OT-0242 realizes that expansion once. One null pulse opens a three-region,
+  four-candidate world; the sole fresh actor selects communications and
+  `position_relay_kits`; G10 accepts; sealed consequence returns 2/6; exact
+  `e3a403f7...` remains open at `correct` with all prior world history retained.
+- The actor's descriptive `path:symbol` identity falls outside the inherited
+  helper's `symbol`/`path::symbol` spellings, but the authoritative decision and
+  exact changed file agree. This is a narrow non-authoritative classifier, not a
+  causal mismatch, and the frozen gate is unchanged.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is a live actor-authored environment
-  expansion from a broader inspectable world under a content-free pulse, with no
-  observer-selected target or registry entry.
+  external. The next discriminating step is generalized correction from the
+  actor-selected module and exact contradiction, followed by content-free
+  re-entry into assimilation.

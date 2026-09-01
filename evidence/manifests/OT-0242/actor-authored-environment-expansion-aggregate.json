@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actor-authored-environment-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15583,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "37ee628e1ebae2f66d5b7862a13c60ef8afdd715",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0242",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh actor in one observer-constructed synthetic multi-region world; hosted model identity and generative reproducibility are not claimed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-authored-environment-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fe4550f4fa0dd64ac3694f9bf05420b63b13d20def9e98b156dab756e5a373df"
+}
