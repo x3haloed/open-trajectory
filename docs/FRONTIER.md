@@ -634,6 +634,14 @@ therefore stops promotion. Retain and re-audit those exact bytes under a
 prospectively stated materiality rule before opening the required contradictory
 regime.
 
+OT-0118 finds that the retained trace cannot satisfy that rule: the denied
+command is absent and its recorded target is unknown. It also finds an
+unpublished grounding ABI—the actor cited selected contact ids while the gate
+expected portfolio ids. The world-grounded selector comparison remains valid;
+the operational subject remains the exact OT-0116 parent. Publish the citation
+namespace and run one fresh assimilation over the exact retained selector and
+world receipt, with no selector or hidden-world resampling.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

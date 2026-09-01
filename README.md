@@ -122,6 +122,8 @@ The strongest footholds are:
 - `OT-0117`: one passed matched selector-improvement comparison—12/12 and zero
   regret versus 4/12 and 548 regret—whose later subject promotion is rejected
   on a contained denied diagnostic operation.
+- `OT-0118`: one rejected exact re-audit showing that the denied command target
+  is unprovable and the assimilation citation namespace was unpublished.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

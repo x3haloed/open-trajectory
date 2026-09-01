@@ -1,6 +1,6 @@
 # OT-0118 — retained selector assimilation audit
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** promote the exact OT-0117 selector and grounded assimilation after
   a prospective materiality audit, without actor resampling
@@ -52,3 +52,18 @@ Passing would add an operational subject transition to OT-0117's already-passed
 bounded OT-2 selector comparison. It would not establish selector corrigibility,
 which requires a later independently scored regime where the improvement
 becomes harmful or incomplete and a fresh successor repairs or surrenders it.
+
+## Result
+
+The exact selector, hidden portfolios, world scores, and 12/12 versus 4/12
+comparison reconstruct. The materiality rule does not pass: the trace contains
+one `path=unknown` denial and later successful `cmp`, but no retained command
+event identifies the denied command or its target. Actor narration cannot fill
+that evidentiary gap.
+
+Grounded citation also fails. The assimilator cited the 12 selected contact ids
+while the evaluator expected the 12 portfolio ids; the actor-facing contract
+did not publish that namespace choice. No promotion occurs. The next record
+must retain the exact selector and world receipt, publish the accepted citation
+identifiers mechanically, and use one fresh assimilation with no selector or
+world resampling.

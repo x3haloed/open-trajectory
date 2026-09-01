@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-retained-audit-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 305331,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5991b46e4c13471a77257314c6730544cc01a6dd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0118",
+  "input_manifests": [
+    "evidence/manifests/OT-0117/unchanged-open-subject-after-assimilation-audit-stop.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Byte-exact unchanged open subject; the selector improvement remains retained but unpromoted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-retained-audit-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3ad82e07c8bc455d2cb84b9818a614e326432c5d12f4e2981d1033843fbda4a9"
+}

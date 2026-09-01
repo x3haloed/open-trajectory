@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-retained-selector-assimilation-audit-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4567,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5991b46e4c13471a77257314c6730544cc01a6dd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0118",
+  "input_manifests": [
+    "evidence/manifests/OT-0117/world-grounded-selector-improvement-aggregate.json"
+  ],
+  "kind": "retained-selector-assimilation-audit-result",
+  "limitations": [
+    "No promotion: trace materiality is unprovable and citation grounding fails under the unpublished identifier namespace."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-retained-selector-assimilation-audit-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f94b55157dbb424e85369d8e0150d3b5ccfa44146d3c1104f1796f81f32f6308"
+}

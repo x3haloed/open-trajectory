@@ -226,6 +226,9 @@ condition, not the permanent purpose or executive of the resulting subject.
   bound selector beats its inherited control 12/12 to 4/12 with zero versus 548
   regret, but subject promotion rejects on one contained denied diagnostic in
   the later assimilator trace.
+- `OT-0118` reconstructs that exact evidence but rejects promotion: the denied
+  command target is absent from retained events, and the assimilator used an
+  unpublished contact-id rather than portfolio-id citation namespace.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -487,6 +490,11 @@ resampling, treating the denied `shasum` diagnostic as non-material only if the
 equivalent successful byte comparison, exact effects, and all other gates
 reconstruct. After promotion, a contradictory portfolio regime should test
 whether the improved selector can itself be corrected.
+
+OT-0118 correctly withholds that re-audit. The next record should preserve the
+exact selector and world receipt, publish both accepted citation namespaces or
+one unambiguous machine list, and run one fresh assimilation only. It must not
+resample the selector or hidden portfolios.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

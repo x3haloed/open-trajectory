@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-retained-selector-assimilation-audit-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 312832,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5991b46e4c13471a77257314c6730544cc01a6dd",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0118",
+  "input_manifests": [
+    "evidence/manifests/OT-0117/world-grounded-selector-improvement-run.json"
+  ],
+  "kind": "retained-selector-assimilation-audit-run",
+  "limitations": [
+    "The exact selector comparison reconstructs, but the denied command target is absent from retained events and assimilation cites selected contact ids rather than unpublished portfolio-id citation keys."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-retained-selector-assimilation-audit-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e52fe99cb1a0019d13fec6b0e6e5aa656f80aabda4d06aeee3263ade14de2b33"
+}
