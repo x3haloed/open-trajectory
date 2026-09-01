@@ -2037,5 +2037,17 @@ unchanged 2/6 control. Exact successor `2ecb779c...` is open at `assimilate`.
 One registry target remains uncontacted; the next reopening should select it
 through the same G7 path without an assigned target.
 
+OT-0230 reaches that sole target mechanically: its decision passes G6, routes
+G7 contact, and reaches public 4/4 with exact contained effects. But the output
+reports a qualified target label while the workspace uses the bare symbol. The
+semantic gate rejects before hidden consequence. Preserve exact parent
+`2ecb779c...` and the unadmitted decision; do not retry or rescore OT-0230.
+
+This reveals that G8's authority split was too narrow. Prospectively separate
+schema-valid transport/action completion, mechanically authoritative workspace
+decisions, and descriptive output claims. A mismatched descriptive identity
+should limit provenance, not causal validity, unless the contract explicitly
+declares that output field authoritative.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -2649,3 +2649,14 @@ OT-0229 proves correction reuse on that second target: public 4/4 and follow-up
 discarding exact clean effects. One target remains uncontacted. The next
 frontier is another target-unspecified assimilation, followed by the first
 all-six-target saturation decision if consequence and correction complete.
+
+OT-0230's workspace does select the sole remaining target and passes G6, G7,
+public 4/4, exact effects, and clean trace. Its output uses a qualified target
+label rather than the bare symbol, so the semantic gate rejects before hidden
+consequence. Exact parent `2ecb779c...` remains current.
+
+The immediate frontier is a prospective generalization of G8: descriptive
+output identity is self-report just as `files_changed` is. Keep action/schema
+completion, exact workspace semantics, mechanical effects, and descriptive
+claims separate; preserve OT-0230's rejection, then continue its retained
+unadmitted decision without resampling if the challenger passes held-out anchors.

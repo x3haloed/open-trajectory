@@ -565,6 +565,11 @@ The strongest footholds are:
   selected target. G8 accepts exact effects while recording underreported path
   provenance; public 4/4 and follow-up 6/6 beat unchanged 2/6. Exact successor
   `2ecb779c...` is open at `assimilate` with one registry target uncontacted.
+- `OT-0230`: the actor mechanically selects the sole remaining target and passes
+  public 4/4, but reports a qualified target label where the observer expects a
+  bare symbol. The claim rejects before hidden consequence. Exact parent remains
+  current, exposing that G8 fixed path self-report authority but not descriptive
+  output identity authority generally.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

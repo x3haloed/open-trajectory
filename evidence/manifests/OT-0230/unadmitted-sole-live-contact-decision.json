@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unadmitted-sole-live-contact-decision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4108,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2fcc3c65582aa604bfa6751842c3099db8f05e31",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0230",
+  "input_manifests": [
+    "OT-0230/sole-live-reopening-aggregate.json"
+  ],
+  "kind": "actor-output",
+  "limitations": [
+    "Retained decision passes G6, G7 contact, public 4/4, exact effect and complete trace checks but is unbound and has no hidden world receipt."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unadmitted-sole-live-contact-decision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7c3436ff35487d19d258af45c32c8e95b59e79440ccb0fe3e2c807eb29f83b9a"
+}

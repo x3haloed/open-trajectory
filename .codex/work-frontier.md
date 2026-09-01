@@ -174,6 +174,13 @@ has one registry target still uncontacted.
 - OT-0229 reuses registry-driven correction on that second target. Public 4/4
   and follow-up 6/6 beat unchanged 2/6; G8 admits effects while retaining
   underreported provenance, yielding exact open `2ecb779c...` at assimilation.
+- Expected: exact G8 effects plus a mechanically validated workspace target
+  would permit sole-surface reopening. Observed: OT-0230 passes G6, G7, public
+  4/4, exact effects, and clean trace but rejects because descriptive output
+  qualifies the target label. Uncertain: how broadly output self-report remains
+  coupled to causal validity beyond changed paths. Evidence: rejected receipt
+  `fb05c537...` and retained decision manifest under OT-0230.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is target-unspecified assimilation onto
-  the sole remaining uncontacted target, then the all-target saturation boundary.
+  external. The next discriminating step is a prospective output-authority
+  transition, then consequence on the retained sole-target decision without
+  actor resampling.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "sole-live-reopening-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7047,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2fcc3c65582aa604bfa6751842c3099db8f05e31",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0230",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Frozen claim rejected before hidden consequence because output selected_target used a qualified label rather than the mechanically validated workspace symbol."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sole-live-reopening-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "88909f888ef7bfb39ae9b70d7c2c47512692364f86ae967599da26a11d8fc36a"
+}
