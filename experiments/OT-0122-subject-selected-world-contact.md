@@ -1,6 +1,6 @@
 # OT-0122 — subject-selected sealed world contact
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** reduce researcher causation over which world surface opens next
 - **Claim scopes sought:** bounded `operational-transition` and bounded
@@ -98,3 +98,23 @@ Passing would establish one bounded subject-caused world-surface choice whose
 consequence governs a fresh successor transition. It would not establish
 subject authorship of the envelope, repeated autonomous scheduling, open-domain
 world discovery, or indefinite continuation.
+
+## Result
+
+The bounded causal-selection portion passed. The exact corrected selector chose
+`joint-boundary` invariantly; the immediate pre-correction control chose
+`carry-heavy-boundary`; and the sealed world oracle ranked `joint-boundary`
+highest. The one fresh router had a clean, exact, truthful trace, retained the
+selector bytes, cited all four selected-branch cases, and correctly classified
+the consequence as `extend`.
+
+The operational transition is nevertheless rejected after evaluation-regime
+audit. Although the actor grounded a new resource-scarcity uncertainty in its
+assimilation, action rationale, expected information, and continuation after
+contact, its authoritative `successor-opening.next_opening` exactly repeated
+the parent's opening and did not name resource scarcity. The frozen harness
+mistakenly accepted non-surrender as sufficient evidence of extension. Preserve
+the raw aggregate's apparent promotion as evidence of that gate defect; no
+subject checkpoint is published. The next test must retain the exact selection
+and world receipt while requiring the authoritative next opening to encode the
+newly grounded uncertainty.

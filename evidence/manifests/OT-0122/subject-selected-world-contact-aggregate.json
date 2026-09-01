@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-selected-world-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10069,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "14375fa821f3a390e1955dbbbc03e53b7336a4ac",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0122",
+  "input_manifests": [],
+  "kind": "subject-selected-world-contact-result",
+  "limitations": [
+    "Raw aggregate reports promotion under the frozen harness; a post-run evaluation-regime audit invalidates that promotion because route extend did not alter the authoritative next opening."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-selected-world-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1ff70dc18ba986b915aa5c6ad4a4410cdf15689dd3567735c9e26c9454558149"
+}

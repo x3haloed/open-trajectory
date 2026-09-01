@@ -678,6 +678,23 @@ multi-surface world envelope and let the subject's installed corrected selector
 choose which contact to open, then let consequence rather than a researcher
 determine whether to use, correct, extend, or surrender it.
 
+OT-0122 removes that one phase choice in a bounded envelope. The exact corrected
+selector invariantly opens the sealed oracle-ranked `joint-boundary`; its exact
+pre-correction control instead opens `carry-heavy-boundary`. One clean fresh
+successor sees only the selected consequence, retains the selector, cites all
+four cases, and correctly routes the consequence as `extend`.
+
+Promotion is rejected. The successor grounds a new resource-scarcity
+uncertainty everywhere except the authoritative `next_opening`, which repeats
+the inherited pursuit verbatim. The frozen evaluator was blind to that semantic
+incoherence because it treated any non-surrender action as compatible with
+`extend`. The raw apparent pass is preserved but invalidated; there is no
+promoted OT-0122 subject. The decisive next test is one fresh assimilation over
+the exact retained selection and world receipt under a published rule: an
+extension must make the newly grounded uncertainty causally present in the
+authoritative next opening and action target, while `use` may retain an
+unresolved opening and `surrender` must close it.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -768,6 +785,10 @@ determine whether to use, correct, extend, or surrender it.
 - A later objective regime has now made that selector harmful and a fresh
   corrected selector beats it decisively while preserving the exact earlier
   hidden floor.
+- That corrected selector has now caused the next sealed world surface to
+  differ from its pre-correction control and to match the world oracle, but the
+  first consequence router exposed that extension labels can mask an unchanged
+  authoritative opening.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -514,5 +514,15 @@ replays the exact prior hidden world at 12/12 with zero regret. A clean fresh
 assimilation promotes an open corrected subject. The next dependency is
 reducing researcher causation over which world or regime is opened next.
 
+OT-0122 establishes the bounded causal choice but rejects the transition. The
+exact corrected selector, not the observer, opens the sealed oracle-ranked
+joint contact while its pre-correction control opens a different inferior
+contact. A clean grounded successor routes the consequence as `extend`, but its
+authoritative next opening repeats the inherited pursuit and omits the newly
+grounded resource-scarcity uncertainty. The apparent harness pass is invalid:
+extension requires semantic change in the authoritative continuation, not only
+an extension label or rationale. Reuse the exact selection and consequence in
+one fresh assimilation under that published coherence contract.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
