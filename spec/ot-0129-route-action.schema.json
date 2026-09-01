@@ -1,0 +1,18 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "route", "action_kind", "action_target"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["route-assimilation.json", "continuation-action.json"]},
+      "minItems": 2,
+      "maxItems": 2
+    },
+    "route": {"type": "string", "enum": ["use", "correct", "extend", "surrender"]},
+    "action_kind": {"type": "string", "enum": ["registered-contact", "registry-extension", "surrender"]},
+    "action_target": {"type": "string", "minLength": 1}
+  }
+}
