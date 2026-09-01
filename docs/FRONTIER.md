@@ -43,6 +43,13 @@ Claim regime G3 is subject-first:
 - preferred experiments measure and reduce experiment-specific researcher
   causation.
 
+After OT-0182, pursuit-causality evaluation additionally requires a bound
+contact specification capable of both support and contradiction. Property-only
+routing into a researcher-authored favorable world may establish operational
+contact, but it cannot by itself establish subject-owned recurrence. A clean
+falsification that is retained and changes the next developmental move counts
+as progress; pass-only world selection does not.
+
 Prior raw evidence and evaluator-independent conclusions remain. Old judgments
 that depended on mandatory fixed task order, tool denial, control authority over
 the lineage, or experiment completion implying subject closure are stale.

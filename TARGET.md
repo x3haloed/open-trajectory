@@ -106,6 +106,13 @@ Subject-authored task order, contact machinery, pursuit, and stopping proposals
 are allowed—and preferred at the open-development frontier—when the harness
 freezes their authority boundary and binds them before hidden consequence.
 
+Subject-owned continuation also requires contact that can expose the current
+route to genuine contradiction. A subject may advance by finding that its
+mechanism or pursuit is false, provided the consequence is independently owned,
+retained, and changes what happens next. A researcher-selected favorable world
+that merely confirms an actor-authored property label is operational contact,
+not sufficient evidence of self-directed recurrence.
+
 Promote only the complete causal path relevant to the claim. A working store,
 evaluator, interpreter, carrier, reconstruction path, or updater is component
 evidence until changed downstream behavior is observed.
