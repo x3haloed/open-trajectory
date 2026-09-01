@@ -530,6 +530,11 @@ The strongest footholds are:
   successor `5a205d35...` remains pulse-eligible. This promotes reusable bounded
   continuation, not semantic growth; the corrected three-function world now
   risks endless parameter novelty.
+- `OT-0223`: G7 adds a receipt-derived verification-debt ledger above G6. It
+  classifies 16/16 held-out operations versus G6's 10/16 and recognizes all
+  three registered targets as locally verified. Exact successor `03b6c4d6...`
+  preserves the G6-valid pending package but disables another pulse and routes
+  the still-open subject to target-unspecified widening.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

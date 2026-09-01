@@ -1,0 +1,31 @@
+{
+  "artifact_id": "verification-debt-liveness-transition-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9902,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b230cef3ab7cae67dd1fa9eb51ff4308d227292e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0223",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Deterministic bounded three-target ledger transition; local verification states and thresholds do not establish global correctness or general saturation detection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:verification-debt-liveness-transition-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e1a8d01acddfba96f5e4bcaf619e3ced222b5dea4e76bda14b4dd9417191025f"
+}

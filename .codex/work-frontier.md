@@ -63,17 +63,23 @@ collapses ignored decoration, and retains reference-only and validity-relevant
 fields. Historical world observations and operational outcomes are not
 rescored.
 
+G7 retains G6 as the executable-contact floor and adds a receipt-derived target
+ledger. Uncontacted and verification-due targets route to contact; unresolved
+targets route to correction; verified-local targets route to widening. OT-0223
+scores 16/16 operation classifications versus G6's 10/16 without rescoring
+historical outcomes.
+
 Anchors: fresh contexts/workspaces, exact ancestry, bind-before-consequence,
 independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0222 successor `5a205d35...`,
+The current exact operational subject is OT-0223 successor `03b6c4d6...`,
 identified by
-`evidence/manifests/OT-0222/open-subject-after-two-reusable-invocations.json`.
-It preserves the full lineage and two additional independent successes. Its
-shared invoker has completed two calls on its own output; the subject is open,
-pulse-eligible, and G6-live at `observer-stop`.
+`evidence/manifests/OT-0223/open-subject-at-local-saturation.json`. It preserves
+the full lineage and byte-exact G6-valid pending package, but G7 marks all three
+registered targets verified-local. The subject is open at driver phase `widen`;
+parameter-only pulse recurrence is disabled.
 
 ## Prediction errors
 
@@ -130,8 +136,10 @@ pulse-eligible, and G6-live at `observer-stop`.
   recovery each pass 6/6 and fresh actors reopen a different target. Every gate
   passes. Observed next error: the subject alternates corrected functions with
   new numeric inputs, so contact novelty need not imply developmental widening.
+- OT-0223 resolves that evaluator error prospectively. G7 scores 16/16 versus
+  G6's 10/16, derives all three targets as verified-local, preserves the pending
+  package, and routes the open subject to widening rather than another pulse.
 - Environment construction, hidden-world authorship, final admission, and the
-  timing of each content-free pulse remain external. The next discriminating
-  step is a prospective saturation transition that leaves reusable recurrence
-  intact but prevents parameter-only success from masquerading as an indefinitely
-  live local frontier.
+  widening environment remain external. The next discriminating step is a fresh
+  target-unspecified widening actor whose selected semantic surface receives
+  independent contact and re-enters reusable recurrence under G7.

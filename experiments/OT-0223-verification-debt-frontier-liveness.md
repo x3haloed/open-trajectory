@@ -1,6 +1,6 @@
 # OT-0223 — verification-debt frontier liveness
 
-- **Status:** frozen; not yet run; no actors required
+- **Status:** completed; promoted without actors
 - **Evidence class:** exploratory-only
 - **Target:** prospective G6 → G7 liveness-evaluator transition
 - **Parent:** exact OT-0222 open subject `5a205d35...`
@@ -91,4 +91,19 @@ an independent world, or establish that four ledger states suffice generally.
 
 ## Result
 
-Not yet run.
+Promoted. G7 classifies all sixteen held-out operation fixtures correctly versus
+G6's 10/16. It preserves G6 rejection of stale and malformed contact, keeps
+uncontacted and verification-due targets live, routes retained contradiction to
+correction, and routes G6-new examples on verified-local targets to widening.
+
+The exact current relief package remains G6-valid with four new projected
+inputs. The derived ledger marks recovery, maintenance, and relief
+`verified-local`, so G7 dispatches `widen`. Every pending byte, capability,
+receipt, and historical outcome remains exact; only the new ledger, transition,
+liveness, generic opening, and driver phase change. Reusable pulse eligibility
+becomes false and exact open successor `03b6c4d6...` conforms.
+
+The local song has not ended. Its next authorized operation is no longer another
+example on the three verified targets; it is a fresh widening encounter without
+an observer-supplied target. No semantic surface has yet been selected or
+contacted.

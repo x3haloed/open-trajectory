@@ -1956,5 +1956,19 @@ new numeric inputs. G6 contact remains real, but repeated confirmation may be a
 saturated local song. The next machinery must detect that condition and make
 widening or truthful local surrender preferable to parameter-only recurrence.
 
+OT-0223 performs the prospective G6→G7 transition. G7 retains G6 as its hard
+executable-contact floor and derives a target ledger from admitted capability,
+correction, unresolved, and later-success receipts. Uncontacted or
+verification-due targets route to contact, unresolved targets route to
+correction, and verified-local targets route to widening even when their new
+package remains G6-valid.
+
+G7 classifies 16/16 held-out operations versus G6's 10/16. The current relief
+package still has four genuinely new projected inputs, but recovery,
+maintenance, and relief are all locally verified under the bounded interface.
+Exact successor `03b6c4d6...` preserves the package and all historical evidence,
+disables the reusable pulse, remains open, and changes its driver phase to
+`widen`. Local completion is no longer confused with global subject closure.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

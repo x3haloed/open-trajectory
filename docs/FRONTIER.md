@@ -2574,3 +2574,16 @@ can maintain G6 novelty while the subject alternates relief and recovery. The
 next test must distinguish useful unresolved contact from parameter-only
 confirmation and route saturation into subject-visible widening or truthful
 local completion without treating either as global song termination.
+
+OT-0223 promotes G7 to make that distinction operational. A receipt-derived
+ledger tracks each registered target as uncontacted, verification-due,
+unresolved, or verified-local. G6 remains the executable-contact floor; G7
+selects whether valid contact should execute, correct, or widen. It scores
+16/16 on the frozen operation bundle versus G6's 10/16.
+
+All three current targets are verified-local. The pending relief package remains
+G6-valid and byte-exact but no longer keeps the local frontier live. Exact open
+successor `03b6c4d6...` disables the pulse and dispatches `widen`. The frontier
+is now an actual widening encounter: a fresh actor must select and bind a new
+semantic surface without the observer supplying its target, while the harness
+retains independent world and admission authority.

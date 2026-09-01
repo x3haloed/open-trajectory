@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-local-saturation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 695895,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b230cef3ab7cae67dd1fa9eb51ff4308d227292e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0223",
+  "input_manifests": [
+    "OT-0223/verification-debt-liveness-transition-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open locally saturated subject awaiting a widening encounter; no new semantic surface has yet been selected or contacted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-local-saturation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5d76e75a0d23c8f8752c35b56cc0419c5b04d4cde16b9edb3324fdd352697241"
+}
