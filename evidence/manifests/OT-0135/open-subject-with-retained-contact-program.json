@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-retained-contact-program",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 356966,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ac510e0e85fd7ed52b5a6102541438bbd052ef69",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0135",
+  "input_manifests": [],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries one admitted program capability; its retention schema, composition interface, world, and admission remain researcher-designed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-retained-contact-program",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0cd77e142c767951a504b155fafd3eada605e8501eade1c35ba46ced207a71af"
+}

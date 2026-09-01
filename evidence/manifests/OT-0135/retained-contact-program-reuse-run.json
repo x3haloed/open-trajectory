@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-contact-program-reuse-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 903680,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ac510e0e85fd7ed52b5a6102541438bbd052ef69",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0135",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "One researcher-designed capability-retention schema, one retained program, one deterministic joint composition, and one fresh route actor in a bounded synthetic domain; no subject-authored retention machinery, frequency, or indefinite-operation claim."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:retained-contact-program-reuse-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "da766eddabc391f3e36eb6aa8631e21c916399acabb69b49ee7c977e602d874e"
+}

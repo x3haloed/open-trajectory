@@ -166,6 +166,9 @@ The strongest footholds are:
 - `OT-0134`: exact retained-program reconstruction transfers four public
   witnesses and two controls to six sealed witnesses and three controls, then
   promotes a new open subject; durable program-byte inheritance remains open.
+- `OT-0135`: the exact admitted program becomes subject capability state, is
+  reused without a program-author turn on nine joint cases, survives promotion,
+  and has a byte-erased no-binding control.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

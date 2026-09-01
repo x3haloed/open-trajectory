@@ -876,6 +876,31 @@ foreign insertions without a program-author turn. Hidden consequence and the
 route-only carrier remain authoritative. This tests whether the listening
 instrument itself becomes part of the continuing subject.
 
+OT-0135 performs that correction. Exact admitted program
+`2b8bc56b6cd2bfcc597bb18ac1a7e06a943862825c803e6e8d68178cef317f5d`
+becomes one content-addressed capability in the subject. The current opening
+mechanically selects it; fixed joint composition generates contact across three
+new sealed bases without another program-author turn. Six adversarial cases
+distinguish, three controls confirm, and a fresh route actor preserves exact
+program and selector bytes while promoting open subject
+`32c77eea52c662e9002172131d6e04c02978c151524b1deed942db9ae53f1402`.
+Erasing only the program bytes leaves the same post-seal scheduler unable to
+bind contact.
+
+This is the first current result where a learned listening instrument, not just
+its lesson, is materially inside the continuing subject and causally reused.
+Do not call the retention machinery self-authored: its capability ledger and
+joint compiler are fixed researcher-designed substrate.
+
+The next frontier is consequence-driven improvement of that instrument. Expose
+the exact retained program to a new reserve regime where its unit offsets are
+valid but too weak to cross the operative boundary. Bind and preserve that
+negative contact, then authorize a fresh program corrector with the exact
+failure receipt. Require a minimal retained revision, public and sealed
+no-regression, exact promotion, and a later reuse without repair. This attacks
+the remaining difference between carrying a useful tool and increasing the
+subject's capacity to build better future contact from experience.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -996,7 +1021,9 @@ instrument itself becomes part of the continuing subject.
   construction remains unestablished.
 - One actor-authored contact program now transfers from public to sealed bases
   and hands generated consequence to a fresh route actor. The final subject does
-  not retain the program bytes, so durable generator reuse remains untested.
+  not retain the program bytes at OT-0134; OT-0135 then installs those exact
+  bytes as subject capability state and causally reuses them. Consequence-driven
+  revision of the retained generator remains untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

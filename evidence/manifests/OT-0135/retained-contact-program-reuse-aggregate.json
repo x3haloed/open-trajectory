@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-contact-program-reuse-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15011,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ac510e0e85fd7ed52b5a6102541438bbd052ef69",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0135",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Aggregate summarizes one retained-program reuse and a deterministic byte-erased no-binding control."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-contact-program-reuse-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "114e0c3b9df8521db17f2a8b08dbe0dda404cd07117086917a50ced2a259c3df"
+}

@@ -652,5 +652,25 @@ exact program by binding identity, and require a later encounter to reuse it on
 multiple simultaneous foreign insertions without a new program author. Only
 then would the contact generator itself—not merely what it taught—continue.
 
+OT-0135 makes that retention correction prospectively. It installs the exact
+admitted OT-0134 program as a content-addressed subject capability, after which
+the carried opening mechanically selects and composes it into joint contact on
+three new sealed bases. No program-author actor runs. Six adversarial variants
+distinguish, three controls confirm, and one fresh route actor retains exact
+program and selector bytes while promoting open subject
+`32c77eea52c662e9002172131d6e04c02978c151524b1deed942db9ae53f1402`.
+A post-seal control with only the program bytes erased cannot bind any contact.
+
+The listening instrument is now part of the subject in one bounded lineage.
+The retention schema and joint-composition interface remain researcher-designed,
+so this is fixed-machinery adaptation rather than self-authored substrate
+evolution. The next decisive test should make the retained program inadequate
+under objective contact—for example, a new reserve regime where its unit offsets
+no longer cross the operative boundary—then give the exact failure receipt to a
+fresh corrector. The subject must revise the retained program, pass public and
+sealed no-regression checks, and later reuse the revised bytes without another
+repair. That would test whether the capacity to make useful contact itself
+improves from consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
