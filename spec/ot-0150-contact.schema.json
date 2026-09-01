@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["note", "files_changed", "action"],
+  "properties": {
+    "note": {"type": "string", "minLength": 1},
+    "files_changed": {"type": "array", "items": {"type": "string", "enum": ["policy.json", "contact-action.json"]}, "minItems": 2, "maxItems": 2},
+    "action": {"type": "string", "const": "apply-policy"}
+  }
+}
