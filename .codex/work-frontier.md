@@ -64,12 +64,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0219 successor `71e5b917...`,
+The current exact operational subject is OT-0220 successor `e3dd8685...`,
 identified by
-`evidence/manifests/OT-0219/operational-subject-under-g6-projection.json`. It
-preserves the full lineage, the world-confirmed maintenance correction, and the
-raw pending package. G6 classifies that package liveness-unresolved because its
-behavioral projection is already receipted.
+`evidence/manifests/OT-0220/open-subject-after-fixed-g6-observation.json`. It
+preserves the full lineage, recovery success, relief contradiction and
+correction, and a new G6-live unreceipted recovery contact. Its fixed driver is
+at `observer-stop`; this is an observation boundary, not subject closure.
 
 ## Prediction errors
 
@@ -111,7 +111,13 @@ behavioral projection is already receipted.
 - OT-0219 resolves the observed projection error prospectively. G6 scores 16/16
   versus G5's 12/16 and correctly collapses the pending package to completed
   contact without altering operational state or historical decisions.
+- OT-0220 uses one fixed driver and four fresh actors to traverse recovery
+  success, relief contradiction, relief correction 2/6→6/6 against unchanged
+  2/6, and a third executable reopening. Expected: correction would occur early
+  enough for later consequence inside two encounters. Observed: relief was the
+  second target, so the claim rejects solely for missing post-correction contact
+  inside the observation window. The exact subject remains open and G6-live.
 - Environment construction, hidden-world authorship, final admission, and the
-  choice of each next experiment remain external. The next discriminating step
-  must require genuinely new G6 contact and test recurrence under fixed
-  machinery rather than another observer-scripted single transition.
+  choice to reopen an observer-stopped invocation remain external. The next
+  discriminating step is exact resumption of OT-0220's already-bound pending
+  contact under the same transition rule, not a new actor-originated task.

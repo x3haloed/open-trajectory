@@ -1,6 +1,6 @@
 # OT-0220 — fixed G6 subject recurrence
 
-- **Status:** frozen; not yet run
+- **Status:** completed; recurrence claim rejected; open successor preserved
 - **Evidence class:** exploratory-only
 - **Target:** bounded OT-1C recurrence and an OT-2R foothold
 - **Parent:** exact OT-0219 open subject `71e5b917...`
@@ -115,4 +115,25 @@ novelty beyond this repository, or removal of all outside causation.
 
 ## Result
 
-Not yet run.
+The fixed invocation accepted four fresh actors and completed two independent
+contact encounters on two actor-selected targets. The originator selected
+`schedule_recovery`; its sealed world matched 6/6. The first assimilator then
+selected `allocate_relief`; its sealed world matched 2/6 and entered the subject
+as unresolved contradiction. A fresh corrector changed only relief allocation,
+reached 6/6 on new sealed cases while the unchanged parent remained 2/6, and a
+fresh assimilator reopened a G6-valid `schedule_recovery` contact.
+
+The recurrence claim rejects on exactly one frozen gate. Because the
+contradiction occurred in encounter two, the two-encounter observation contains
+no later world consequence after correction. All other gates pass: two contacts,
+two targets, one corrected contradiction, four accepted fresh actors, exact
+identity and route floors, stale-pending and driver-erasure controls, and exact
+open successor `e3dd8685...`.
+
+The rejected claim does not erase the operational lineage. The exact successor
+is G6-live with unreceipted contact `248e0d12...` and opening “Open
+independent-recovery-expected-loss-order…”. Its driver is at `observer-stop`,
+not subject closure. The cheapest next test is to resume that exact pending
+contact under the same transition rule and ask whether independent consequence
+after the retained correction completes the causal order the bounded window
+could not observe.

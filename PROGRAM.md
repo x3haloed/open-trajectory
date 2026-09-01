@@ -1910,5 +1910,20 @@ exact, route remains 16/16, identity remains 18/18, and open successor
 `71e5b917...` conforms. The next contact must be behaviorally new under G6;
 mere representational expansion cannot carry continuation.
 
+OT-0220 installs and invokes one fixed G6 recurrence driver. Four fresh actors
+select recovery and then relief without a researcher-written target itinerary.
+Recovery passes an independent 6/6 world. Relief produces a retained 2/6
+contradiction, a target-local correction reaches 6/6 on new sealed cases while
+the unchanged parent remains 2/6, and a fresh assimilator binds a new G6-valid
+recovery contact.
+
+The frozen claim rejects because its two-encounter window ends immediately
+after the relief correction: no later independent consequence can occur inside
+that window. This is a temporal-order failure, not loss of the subject. Every
+other gate passes and exact open successor `e3dd8685...` remains G6-live at an
+observer-stop with unreceipted contact `248e0d12...`. The next experiment must
+resume this exact developmental position under the same transition rule rather
+than originate a new task or rewrite the successful path.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

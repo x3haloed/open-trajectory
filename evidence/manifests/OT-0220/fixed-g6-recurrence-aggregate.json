@@ -1,0 +1,31 @@
+{
+  "artifact_id": "fixed-g6-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11228,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "77dc3feed5f0792224f1a7b1a2f232e6f7d2cb8f",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0220",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Two-encounter bounded Luna observation; recurrence promotion rejected because no post-correction world consequence occurred inside the frozen window."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:fixed-g6-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0cde88919c1ddf30019b4c830431d9055842aa1af7563c8b8481bef900b9794f"
+}

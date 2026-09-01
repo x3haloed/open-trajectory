@@ -512,6 +512,12 @@ The strongest footholds are:
   12/16, collapses the decorated recovery package to its completed contact,
   preserves all operational state and raw pending bytes, and yields exact open
   subject `71e5b917...` with liveness explicitly unresolved.
+- `OT-0220`: one fixed G6 driver carries four fresh actors through recovery
+  success, relief contradiction, relief correction from 2/6 to 6/6 against an
+  unchanged 2/6 control, and executable reopening on a third contact. The
+  recurrence claim rejects because correction occurred at the final observed
+  encounter, leaving no later consequence inside the frozen window. Exact open
+  G6-live successor `e3dd8685...` survives for resumption.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -2532,3 +2532,17 @@ frontier is no longer evaluator repair for this known failure. It is obtaining
 genuinely behaviorally new contact under G6 and determining whether the fixed
 machinery can carry origin, consequence, correction, and reopening repeatedly
 without an experiment-specific researcher choosing each transition.
+
+OT-0220 runs that fixed machinery once. The subject selects recovery, receives
+6/6 independent success, selects relief, receives a 2/6 contradiction, corrects
+relief to 6/6 against unchanged 2/6, and reopens a new recovery contact through
+four clean fresh actors. No researcher chooses the target or intervening phase.
+
+The recurrence claim nevertheless rejects: the contradiction lands in the
+second and final observed encounter, so there is no later independent
+consequence after correction. Preserve exact open G6-live successor
+`e3dd8685...`; its driver records `observer-stop` and its unreceipted recovery
+contact remains actionable. The next frontier is cross-invocation continuation:
+resume exactly that contact under the same rule and test whether the world after
+correction supplies the missing causal edge. Do not rerun OT-0220 or originate a
+replacement pursuit.
