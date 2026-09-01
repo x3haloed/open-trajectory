@@ -1,0 +1,31 @@
+{
+  "artifact_id": "held-out-continuation-evaluator-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 249369,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3e3b143e53aec9b92df7f6d06159ecb1c0c9a819",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0194",
+  "input_manifests": [],
+  "kind": "aggregate-result",
+  "limitations": [
+    "Prospective exact-stake gate rejected; raw grounded-revision behavior retained."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:held-out-continuation-evaluator-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9517ec541c46c8711c2868069140eeffe2892492837e2bb575e775cb48b0420a"
+}

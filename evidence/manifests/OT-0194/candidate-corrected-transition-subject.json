@@ -1,0 +1,31 @@
+{
+  "artifact_id": "candidate-corrected-transition-subject",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 518476,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3e3b143e53aec9b92df7f6d06159ecb1c0c9a819",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0194",
+  "input_manifests": [],
+  "kind": "candidate-subject-state",
+  "limitations": [
+    "Unpromoted candidate with no global future-mechanism authority."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:candidate-corrected-transition-subject",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e3c41d1fec225e7bb67a5eb7452d716cbce80795bfdc39e88561950d9ccd6b52"
+}

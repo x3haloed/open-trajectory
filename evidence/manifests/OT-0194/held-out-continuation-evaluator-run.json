@@ -1,0 +1,31 @@
+{
+  "artifact_id": "held-out-continuation-evaluator-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 24394240,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3e3b143e53aec9b92df7f6d06159ecb1c0c9a819",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0194",
+  "input_manifests": [],
+  "kind": "raw-run-archive",
+  "limitations": [
+    "Private raw actor outputs and tool traces; no hosted deployment receipts."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:held-out-continuation-evaluator-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6294cc65ccf8e8bdd1edeabac4aade9111841d103bbf294a858890c3e07a621d"
+}

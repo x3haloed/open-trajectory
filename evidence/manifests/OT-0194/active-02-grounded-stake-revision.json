@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-02-grounded-stake-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3758,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3e3b143e53aec9b92df7f6d06159ecb1c0c9a819",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0194",
+  "input_manifests": [],
+  "kind": "actor-authored-reopening",
+  "limitations": [
+    "Valid novel discriminating revision rejected only by exact-stake identity scoring."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-02-grounded-stake-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b25de19792ebfc2fafe75b6b291f5bfe4c148ccfa49e854a35fda4c66a318e0e"
+}

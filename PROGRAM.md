@@ -1539,5 +1539,18 @@ fresh cohort on the actual continuation invariant: inherited stake plus real
 contact capable of changing the next move. A false next prediction remains
 useful consequence, not failure to continue.
 
+OT-0194 removes the global mechanism field and prospectively compares the old
+and corrected evaluators on fresh actors. The challenger reaches active 5/6
+versus control 0/6; the incumbent is 0/6 versus 0/6. Every contact, audit, and
+old floor passes, but the frozen unanimity gate rejects.
+
+The lone active miss is a consequence-grounded stake refinement. It preserves
+`option-expansion`, sharpens latent discovery into observed/latent separation,
+and opens novel discriminating contact. Requiring exact stake bytes therefore
+confuses continuity with repetition. Next freeze lineage continuity as either
+exact target retention or valid revision from the actor's current stake that
+preserves the live property and opens targeted discriminating contact. Validate
+that rule on another held-out cohort; do not retroactively promote OT-0194.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

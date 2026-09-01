@@ -113,6 +113,12 @@ retained, and changes what happens next. A researcher-selected favorable world
 that merely confirms an actor-authored property label is operational contact,
 not sufficient evidence of self-directed recurrence.
 
+Pursuit continuity is continuity of the unresolved lineage under consequence,
+not byte-identical repetition of a stake. A fresh actor may retain the exact
+stake or make a consequence-grounded revision that preserves its live boundary
+and opens discriminating contact. An evaluator that counts only verbatim stake
+retention cannot distinguish continuity from stagnation.
+
 Promote only the complete causal path relevant to the claim. A working store,
 evaluator, interpreter, carrier, reconstruction path, or updater is component
 evidence until changed downstream behavior is observed.

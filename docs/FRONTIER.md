@@ -2056,3 +2056,26 @@ do not rescore OT-0193 into a promotion. If the challenger preserves every hard
 anchor and again separates transitioned successors from controls, install the
 direct subject and its first sealed next contact, then resolve that consequence
 as the second recurrence cycle.
+
+OT-0194 provides that held-out comparison. `E0193` scores 0/6 active versus 0/6
+control. Challenger `E0194` scores 5/6 active versus 0/6 control. All actors,
+novel targeted contacts, public and hidden discrimination checks, corrected
+transition replay, route floor, and identity floor pass. The frozen unanimity
+gate rejects, so no evaluator or subject is promoted.
+
+The one challenger miss is an anchor-level contradiction to exact-stake
+scoring. Active-02 revises the carried latent-discovery stake into a sharper
+observed-versus-latent distinction because retained consequence over-returned
+an observed contact. It preserves `option-expansion`, declares the missing
+mechanism distinction unclassified, and authors valid novel discriminating
+contact. Penalizing that move rewards repetition and suppresses correction.
+
+Admit the goal invariant: pursuit continuity is continuity of an unresolved
+lineage under consequence, not identical stake bytes. The next evaluator must
+accept either exact transitioned-stake retention or a valid revision from the
+actor's actual current stake that preserves the live property and opens
+targeted discriminating contact. A control that merely retains its older stake
+does not satisfy either branch. Freeze this rule for a new held-out cohort and
+retain both prior rejections. If it passes decisively, install the corrected
+direct subject and the first actor-authored sealed contact, then use that
+contact—not another evaluator repair—as the next recurrence input.

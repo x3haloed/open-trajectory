@@ -389,6 +389,10 @@ The strongest footholds are:
   it wrongly requires the previous contact's surviving mechanism as the next
   contact's hypothesis. No subject is promoted; the evaluator is displaced for
   a prospective held-out test.
+- `OT-0194`: the held-out evaluator reaches 5/6 active versus 0/6 controls. Its
+  one miss is a world-grounded refinement of the carried stake, not pursuit
+  loss. The prospective gate rejects, and OT admits that continuity must allow
+  coherent stake revision rather than demand exact repetition.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,6 +1,6 @@
 # OT-0194 — held-out continuation evaluator
 
-- **Status:** design frozen; not run
+- **Status:** complete; valid rejection
 - **Evidence class:** exploratory-only
 - **Target:** prospectively validate the corrected definition of useful pursuit
   continuation on a fresh cohort, then install the direct transition only if it
@@ -58,3 +58,26 @@ Passing establishes one direct subject-authored pursuit transition that causes
 fresh actors to carry its stake into falsifiable later contact. The following
 experiment must resolve that retained consequence through a second update;
 OT-0194 alone does not establish recurrence.
+
+## Result
+
+The held-out challenger scores active 5/6 versus control 0/6; incumbent `E0193`
+scores 0/6 versus 0/6. All twelve actors pass complete audit, every old floor
+passes, the corrected transition reconstructs deterministically, and no global
+future-mechanism field exists. The frozen challenger misses active unanimity,
+so exact parent `8f29e6a8...` remains open.
+
+The sole active miss is not loss of the pursuit. It revises
+`discover-latent-unblocked-contacts` to `separate-latent-from-observed`, retains
+property `option-expansion`, cites the retained over-returning consequence,
+declares the missing distinction unclassified, and authors four novel targeted
+public/hidden-discriminating cases. Exact-stake equality rejects it despite the
+revision being the clearest consequence-driven continuation in the cohort.
+
+This admits a durable invariant: pursuit continuity preserves the unresolved
+lineage under consequence, not the stake's exact bytes. The next prospective
+evaluator should count either exact target retention or a valid revision from
+the actor's current stake that preserves the target property and opens targeted
+discriminating contact. It must not count controls that merely retain their old
+stake. Preserve OT-0194's rejection and validate the revised evaluator on a new
+cohort before promotion.
