@@ -2136,5 +2136,20 @@ uncontacted surface, receives independent consequence, and leaves the subject
 open; inability to find one should remain visible rather than being replaced by
 parameter repetition.
 
+OT-0238 demonstrates that recurrence once. The fresh actor receives exact
+`8b4d245e...` and the same unregistered world, excludes the six inherited
+targets and verified `restore_water_links`, and selects
+`dispatch_mobile_clinics`. Its actor-authored contact executes, passes G10, and
+receives independent 2/6 contradiction. Exact successor `a16dd995...` retains
+the corrected water-link implementation, leaves the inherited registry
+unchanged, and dispatches `correct` on the new outward stake.
+
+The next claim is correction reuse across actor-authored interfaces. Derive the
+new target and current installed source from exact state, open a correction-world
+interface with the consequence fields omitted by the originating contact, and
+require a target-local repair plus prospective 6/6 versus unchanged 2/6. Do not
+name the clinic target in the prompt or add either outward surface to the old
+registry.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-recurrent-outward-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 825396,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "17583db3534f110b12256d2d898340014593d985",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0238",
+  "input_manifests": [
+    "OT-0238/recurrent-outward-selection-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after a second actor-authored outward contact and independent contradiction; generalized correction reuse remains pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-recurrent-outward-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2f97a4906b8e7b3bd253391efde80e23a29783a8d51d2be816bf01e70ebaf8fd"
+}

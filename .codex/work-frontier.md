@@ -90,12 +90,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0237 successor `8b4d245e...`,
+The current exact operational subject is OT-0238 successor `a16dd995...`,
 identified by
-`evidence/manifests/OT-0237/open-subject-after-outward-correction.json`.
-It contains a world-verified corrected `restore_water_links` extension outside
-the unchanged inherited registry and is open at `assimilate` for recurrent
-outward selection.
+`evidence/manifests/OT-0238/open-subject-at-recurrent-outward-contradiction.json`.
+It preserves the world-verified corrected `restore_water_links` extension and
+adds an unresolved actor-authored `dispatch_mobile_clinics` contact, outside the
+unchanged inherited registry, open at `correct`.
 
 ## Prediction errors
 
@@ -217,7 +217,10 @@ outward selection.
   patch reaches 6/6 versus unchanged 2/6; exact `8b4d245e...` installs it inside
   the actor-authored extension and returns to assimilation while leaving the
   inherited registry untouched.
+- OT-0238 demonstrates recurrent outward selection once. A fresh actor excludes
+  the completed water-link surface, selects `dispatch_mobile_clinics`, and
+  receives independent 2/6 contradiction. Exact `a16dd995...` preserves the
+  prior correction and dispatches another outward correction.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is a fresh recurrent outward selection
-  from the corrected subject, excluding both the inherited registry and the
-  completed outward target without supplying a replacement target.
+  external. The next discriminating step is generic correction reuse on the
+  second actor-authored interface without target naming or registry retrofit.

@@ -603,6 +603,11 @@ The strongest footholds are:
   versus unchanged 2/6. Exact successor `8b4d245e...` installs it only inside
   the actor-authored extension, preserves the inherited registry unchanged, and
   remains open at `assimilate`.
+- `OT-0238`: a fresh actor turns outward again without an assigned target. It
+  excludes the completed water-link surface, selects `dispatch_mobile_clinics`,
+  authors executable contact, and receives independent 2/6 contradiction. Exact
+  successor `a16dd995...` preserves the prior correction and remains open at
+  `correct`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

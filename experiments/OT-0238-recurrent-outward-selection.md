@@ -1,6 +1,6 @@
 # OT-0238 — recurrent outward selection
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0237 subject `8b4d245e...`
 - **Actor budget:** one fresh assimilation actor; no replacement
@@ -20,4 +20,13 @@ registry, retained corrected source, and exact open successor. No retry.
 
 ## Result
 
-Not yet run.
+The single fresh actor selected `dispatch_mobile_clinics`, excluding both the
+six inherited targets and completed `restore_water_links`. Its actor-authored
+contact executed publicly, passed G10, and received independent 2/6
+contradiction.
+
+Exact successor `a16dd995...` preserves the corrected water-link source, retains
+the inherited registry unchanged, carries the new clinic-dispatch stake as
+unresolved, and remains open at `correct`. This promotes one recurrence of
+outward selection; correction reuse on the second outward interface remains
+untested.

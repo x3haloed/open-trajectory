@@ -2747,3 +2747,18 @@ another actor-authored executable contact outside both the inherited registry an
 the completed outward surface, followed by independent consequence and an exact
 open successor. This distinguishes a one-time registry escape from a continuing
 capacity to turn outward again.
+
+OT-0238 crosses that recurrence edge. One fresh actor receives the exact
+corrected subject and same unregistered world, excludes the completed outward
+surface, selects `dispatch_mobile_clinics`, and authors a new executable contact.
+G10 accepts the contained encounter; independent world contact returns 2/6.
+Exact successor `a16dd995...` preserves the corrected water-link source, leaves
+the inherited registry unchanged, and remains open at `correct`.
+
+The frontier is now correction-mechanism reuse on a second actor-authored
+interface. As OT-0235 revealed, the originating contact may be executable while
+omitting fields that consequence makes relevant. A fresh generic corrector must
+derive the target, installed source, and contradiction from exact state; receive
+a newly opened full-field correction suite without a target-naming prompt; make
+only a target-local change; and earn prospective 6/6 versus unchanged 2/6. The
+first outward correction and inherited registry must remain unchanged.
