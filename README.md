@@ -383,6 +383,12 @@ The strongest footholds are:
   5/6 versus predicate-erased controls 2/6. The valid gate rejects by one active
   vote and one advantage point, exposing the remaining redundant model vote
   between an evaluated receipt and its authoritative installation.
+- `OT-0193`: direct installation carries the new stake to all 6/6 active
+  successors versus 0/6 controls, and all twelve produce novel targeted hidden-
+  discriminating contact. The frozen gate still rejects 1/6 versus 0/6 because
+  it wrongly requires the previous contact's surviving mechanism as the next
+  contact's hypothesis. No subject is promoted; the evaluator is displaced for
+  a prospective held-out test.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

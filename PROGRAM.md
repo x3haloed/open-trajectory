@@ -1524,5 +1524,20 @@ operation directly. Successor actors should inherit the resulting position and
 open its next contact; they should not vote on a decision the subject's own
 predicate machinery has already made.
 
+OT-0193 installs that transition directly. All six active successors retain
+the newly active latent-contact stake while all six controls retain the older
+observed-contact stake. Every one of the twelve authors a novel, targeted,
+publicly and secretly discriminating contact, with complete audits and floors.
+
+The frozen endpoint nevertheless rejects 1/6 versus 0/6 because it also demands
+that every new contact predict the mechanism that survived the prior contact.
+Five active actors instead choose the installed blocked-option mechanism for a
+fresh blocked-plus-latent problem. The score and candidate state incorrectly
+turn a past survivor into global authority over future hypotheses. Preserve the
+rejection. Next remove that global mechanism field and prospectively evaluate a
+fresh cohort on the actual continuation invariant: inherited stake plus real
+contact capable of changing the next move. A false next prediction remains
+useful consequence, not failure to continue.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

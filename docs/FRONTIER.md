@@ -2019,3 +2019,40 @@ raw consequence and semantics but lack executable operation authority. Passing
 would close the current prediction error and establish one subject-authored
 pursuit update in direct use; recurrence across multiple fresh contacts would
 still remain open.
+
+OT-0193 performs the direct transition. Its frozen score rejects active 1/6
+versus control 0/6, with all audits and inherited floors clean. No candidate is
+promoted. The raw outputs expose a specific evaluation failure: active stake
+continuity is 6/6 while controls preserve the old stake 6/6, and all twelve
+contacts are novel, targeted, and discriminating on public and sealed hidden
+cases.
+
+The failed score additionally requires each next contact to predict
+`observed-unblocked-contact-corrector`, solely because that mechanism survived
+the previous contact. Five active actors choose `viable-branch-carrier` for the
+new blocked-option problem. This is not evidence of lost pursuit continuity:
+the installed route assigns that mechanism to blocked-option contact and its
+capability record names option expansion. More fundamentally, a new prediction
+is permitted to be false if it creates discriminating world contact.
+
+Evaluation epoch transition:
+
+- incumbent `E0193`: exact stake continuity, novel targeted public/hidden
+  discrimination, and equality between next hypothesis and previous survivor;
+- independent anchors: exact inherited stake, complete audits, unchanged old
+  floors, valid novel contact, observed blocked plus latent option in every
+  case, and candidate discrimination before and after hidden transformation;
+- displaced field: equality between the prior survivor and next hypothesis;
+- stale conclusion: OT-0193's 1/6 behavioral score does not measure pursuit
+  continuity, though its frozen rejection remains authoritative for promotion;
+- challenger: score the anchors, retain any valid installed or explicitly
+  unclassified next hypothesis, and let sealed consequence judge that claim in
+  the following update.
+
+The candidate state also overreaches by copying the prior survivor into a
+global `active_developmental_mechanism`. Remove that field in the challenger.
+Compare incumbent and challenger prospectively on one fresh held-out cohort;
+do not rescore OT-0193 into a promotion. If the challenger preserves every hard
+anchor and again separates transitioned successors from controls, install the
+direct subject and its first sealed next contact, then resolve that consequence
+as the second recurrence cycle.

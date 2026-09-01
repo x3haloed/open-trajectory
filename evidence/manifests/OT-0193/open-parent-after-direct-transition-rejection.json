@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-parent-after-direct-transition-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 515474,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9ade6612f3ffca93cf29821506e96504044bd8d6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0193",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact OT-0190 parent retained because the frozen OT-0193 gate rejected."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-parent-after-direct-transition-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "24427aa5d87bc6d5502d82a66421a0a578ecec81ceacfe0cd03f5f9502b0c756"
+}

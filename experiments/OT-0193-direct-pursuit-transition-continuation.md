@@ -1,6 +1,6 @@
 # OT-0193 — direct pursuit transition and continuation
 
-- **Status:** design frozen; not run
+- **Status:** complete; valid rejection with evaluator displacement
 - **Evidence class:** exploratory-only
 - **Target:** let an evaluated subject-authored pursuit predicate change the
   subject directly, then test whether fresh actors continue from that changed
@@ -75,3 +75,34 @@ Passing establishes one subject-authored pursuit consequence installed and
 used to originate later world contact without successor reinterpretation. It
 does not establish a second consequence-driven update, repeated recurrence, or
 open predicate-language expansion.
+
+## Result
+
+The direct transition reconstructs deterministically as candidate subject
+`44f0adff...`; route replay remains 16/16 and identity remains 18/18. All twelve
+fresh actors pass complete audit. Every actor authors contact that is novel,
+targeted, and discriminating on both public and sealed hidden cases.
+
+Under the frozen mechanism-specific score, active continuation is 1/6 and
+control is 0/6, so promotion rejects and exact parent `8f29e6a8...` remains
+open. The raw split on pursuit continuity is different: all six active actors
+retain exact stake `discover-latent-unblocked-contacts`; all six controls retain
+the older `preserve-observed-viable-contacts-next` stake.
+
+Five active actors predict `viable-branch-carrier` for their fresh blocked-plus-
+latent contacts. The frozen evaluator marks them wrong because the prior
+contact's transition receipt names `observed-unblocked-contact-corrector` as its
+survivor. That requirement is not a valid continuation invariant. The active
+route assigns `viable-branch-carrier` to blocked-option contact, its capability
+record names option expansion, and a novel falsifiable hypothesis is allowed to
+be wrong. The harness conflated the mechanism that survived the previous
+encounter with the hypothesis that must govern the next encounter. Its direct
+child also incorrectly promotes that survivor to a global
+`active_developmental_mechanism` field.
+
+Preserve the frozen rejection and raw evidence. At the next evaluation epoch,
+remove the global future-mechanism assignment. Score direct-transition use by
+exact stake continuity plus valid, novel, targeted, discriminating contact;
+retain the next mechanism prediction as a falsifiable claim whose sealed
+consequence informs the following update. Validate this challenger on a fresh
+held-out cohort rather than retroactively promoting OT-0193.

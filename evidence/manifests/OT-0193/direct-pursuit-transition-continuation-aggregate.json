@@ -1,0 +1,31 @@
+{
+  "artifact_id": "direct-pursuit-transition-continuation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 259198,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9ade6612f3ffca93cf29821506e96504044bd8d6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0193",
+  "input_manifests": [],
+  "kind": "aggregate-result",
+  "limitations": [
+    "Frozen mechanism-specific gate rejected; raw continuation properties remain decision-relevant."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:direct-pursuit-transition-continuation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a9c4f543f8dddc23d121b6cc612b16fc2c41656096f51fe90db5038eff637d63"
+}
