@@ -1,6 +1,6 @@
 # OT-0217 — two-handoff contact-bearing continuation
 
-- **Status:** frozen; not yet run
+- **Status:** rejected after first handoff; intermediate live subject preserved
 - **Evidence class:** exploratory-only
 - **Target:** operational G5 liveness across actor and world boundaries
 - **Parent:** exact OT-0216 subject `b579ce63...`
@@ -118,4 +118,24 @@ environment, hidden-world, and admission authority.
 
 ## Result
 
-Not yet run.
+The originator passed its contract and clean audit, but widened the inherited
+expected-loss orientation to `schedule_maintenance` rather than choosing the
+preflight-favored recovery surface. It bound four new canonical inputs under
+contact identity `895aa8ed...`. Public execution was valid and matched the
+independent reference on 1/4 cases. Exact intermediate subject `ee5b552a...`
+sealed before hidden consequence with G5 liveness `live`.
+
+The sealed maintenance world was valid and matched 2/6. That satisfies neither
+the actor-bound success predicate nor surrender, and it fails the world
+promotion gate. Outcome is `unresolved`; the second actor was correctly never
+authorized. Route remains 16/16 and identity remains 18/18.
+
+This rejects the planned two-handoff claim while advancing the operational
+subject through one valid handoff. Do not rerun to obtain the expected recovery
+choice. Preserve exact intermediate `ee5b552a...` and world receipt
+`0dd175ff...`. The next record should give a fresh actor the pending maintenance
+package plus its 1/4 public and 2/6 sealed consequence, require a bounded
+revision, retention, or surrender, and end with a new G5-valid contact. Until
+that assimilation occurs, the subject's pending record still says
+`unreceipted`; the external aggregate is authoritative evidence that consequence
+now exists.

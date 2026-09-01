@@ -1867,5 +1867,19 @@ continuation stays operationally open while liveness is explicitly unresolved.
 Future continuation must now arrive carrying executable unreceipted contact and
 still requires independent world consequence for admission.
 
+OT-0217 obtains that contact. The fresh actor chooses maintenance rather than
+the preflight-favored recovery surface, carrying expected-loss orientation into
+a distinct expected-maintenance-risk contact. Its exact package passes G5 with
+four new inputs and clean audit; intermediate subject `ee5b552a...` seals live
+before consequence. Public behavior matches 1/4 and the independently sealed
+world 2/6. This is neither success nor surrender, so the second actor is not
+authorized and the two-handoff claim rejects.
+
+The valid first handoff remains subject state. The external unresolved receipt
+must now enter correction rather than be discarded or rerun away. The next
+experiment begins from `ee5b552a...`, exposes the exact package and public/world
+rows to a fresh corrector, and requires revision, retention, or surrender plus a
+new G5-valid pending contact.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

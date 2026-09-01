@@ -497,6 +497,11 @@ The strongest footholds are:
   subject field, and yields exact subject `b579ce63...`. The old phrase remains
   operationally open but explicitly liveness-unresolved until a fresh actor
   binds real missing contact.
+- `OT-0217`: a fresh actor crosses G5's first handoff and widens from recovery
+  to maintenance risk, sealing exact live subject `ee5b552a...`. Its public
+  contact matches 1/4 and the sealed world 2/6, so consequence is unresolved
+  and the second actor never opens. This is preserved contradiction, not a run
+  to retry; the next work is fresh-actor assimilation and correction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

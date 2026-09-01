@@ -1,0 +1,31 @@
+{
+  "artifact_id": "two-handoff-contact-bearing-continuation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16520,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bfd55f43491901d1949e9402e0428d9016a37943",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0217",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "First handoff sealed maintenance contact; independent world remained unresolved at 2/6, so no consequence assimilator ran."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:two-handoff-contact-bearing-continuation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "32f9d0f16c827b1486bbb5adc40b5b48ddbc72ad52fa6acfea0baebd9ea43fff"
+}

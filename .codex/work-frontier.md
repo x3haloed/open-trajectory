@@ -56,12 +56,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0216 successor `b579ce63...`,
+The current exact operational subject is OT-0217 intermediate `ee5b552a...`,
 identified by
-`evidence/manifests/OT-0216/operational-subject-under-g5-liveness.json`.
-It preserves the prior lineage and adds a hidden-admitted `schedule_recovery`
-implementation plus the G5 transition receipt. Its continuation is marked open,
-but contact-bearing liveness is explicitly unresolved.
+`evidence/manifests/OT-0217/live-subject-before-unresolved-contact-assimilation.json`.
+It preserves the prior lineage and carries a G5-valid pending maintenance-risk
+contact. The external OT-0217 receipt resolves neither success nor surrender;
+that consequence has not yet been incorporated into the subject artifact.
 
 ## Prediction errors
 
@@ -90,7 +90,10 @@ but contact-bearing liveness is explicitly unresolved.
   reordered, paraphrased, already-receipted, and insufficiently new contact no
   longer creates liveness. The current phrase remains unresolved rather than
   being erased or treated as a new stake.
+- OT-0217 crosses the first real G5 handoff but contradicts the expected target:
+  the actor widens to maintenance, then public 1/4 and hidden 2/6 contact leave
+  the stake unresolved. The exact live intermediate survives; the second actor
+  is never authorized.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The immediate test is whether a fresh actor can bind a G5-valid
-  contact from a complete environment without an observer-selected target and
-  carry it into independent consequence.
+  external. The immediate test is fresh-actor assimilation of the exact
+  unresolved maintenance consequence, followed by a new G5-valid reopening.

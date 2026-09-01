@@ -2494,3 +2494,15 @@ produces exact subject `b579ce63...` with its prose opening explicitly
 liveness-unresolved. The next work is now concrete: let a fresh actor bind a
 G5-valid contact from a complete unenumerated environment, then expose it to an
 independent world. Do not supply the target merely to make the new carrier pass.
+
+OT-0217 obtains that contact. The fresh actor independently widens to
+maintenance risk and seals exact live subject `ee5b552a...`. Its four public
+cases match the installed policy 1/4; six sealed cases match 2/6. The outcome is
+correctly unresolved, so no second actor runs and the planned two-handoff claim
+rejects.
+
+The frontier is now consequence assimilation, not another contact-origination
+attempt. Give a fresh actor the exact live subject, bound maintenance package,
+and raw 1/4 + 2/6 evidence. Require it to retain, revise, or surrender the
+maintenance mechanism and bind the next executable G5 contact. Preserve the
+unresolved receipt even if correction fails.
