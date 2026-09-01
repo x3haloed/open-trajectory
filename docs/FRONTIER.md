@@ -986,6 +986,24 @@ No later actor runs. OT-0141 should make only that published ABI alias, reuse
 the exact binding and world receipts, install without another constitutional
 actor, and run the still-unused verification encounter.
 
+OT-0141 makes that exact projection and passes. The already-bound constitution
+and capability install without another constitutional actor. One fresh
+verification actor preserves both exact byte sets; new q16 consequence produces
+nine of nine distinctions and three controls. Exact open subject
+`11064b5e2a318b3acb78a3785f8de634e43c92dd4a23b22df6811449194fd6f6`
+now points to q32 after observer stop.
+
+This closes one bounded higher-order correction loop, but not constitutional
+autonomy. The researcher still selected the only revisable constitutional
+field, defined exhaustion, supplied least-sufficient growth as the meta-policy,
+and made one amendment uniquely passing. Do not merely repeat q32 ceiling
+doubling. The next discriminating environment should create at least two
+initially plausible constitutional responses under materially different
+pressures—for example expanding contact strength versus changing encounter
+cadence or representation cost—and let retained consequence improve which
+self-change rule governs later encounters. Preserve subject liveness, exact
+prior floors, and independent consequence.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in
@@ -1115,6 +1133,8 @@ actor, and run the still-unused verification encounter.
   failure, retained capability correction, verification, and a fifth open
   encounter without between-cycle researcher intervention. The developmental
   constitution itself remains researcher-authored; consequence-driven revision
-  of that constitution is unestablished.
+  of one declared constitutional ceiling is now established once, while
+  subject-authored meta-rules and choice among constitutional amendments remain
+  unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

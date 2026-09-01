@@ -749,5 +749,21 @@ compiled object into the transition ABI, reuse OT-0140's exact hidden and floor
 receipts, install the subject, and spend only the still-unused fresh
 verification actor.
 
+OT-0141 completes that reconstruction. The exact compiled constitution and
+offsets-sixteen capability install from retained receipts. One fresh
+verification actor preserves both, produces nine of nine distinctions plus
+three controls on new q16 bases, and leaves exact sounding open subject
+`11064b5e2a318b3acb78a3785f8de634e43c92dd4a23b22df6811449194fd6f6`
+pointing to q32 after the observer stops.
+
+This is one bounded positive higher-order loop: consequence exhausts a legal
+self-change boundary carried by the subject, an actor revises its semantic
+ceiling, compiled bookkeeping makes the revision installable, and a later actor
+reuses it. Repeating ceiling doubling in the same reserve family would mostly
+measure frequency. The next mechanism question is whether consequence can help
+choose or alter the meta-rule itself across materially different pressures,
+without handing the actor one preselected constitutional field and one uniquely
+passing amendment.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

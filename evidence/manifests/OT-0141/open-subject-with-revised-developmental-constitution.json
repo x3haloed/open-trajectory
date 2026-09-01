@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-revised-developmental-constitution",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 390856,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a4e58d31afd6f749e503482ad315b2825943ac97",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0141",
+  "input_manifests": [
+    "evidence/manifests/OT-0140/compiled-constitutional-binding.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact open subject carries offsets-sixteen capability and ceiling-sixteen constitution under fixed researcher-designed meta-rule, pointing to q32."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-revised-developmental-constitution",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "aa7208c2f85ecc764f838201928ac5438be435ae5138f99cf0bd6596e5dc076c"
+}

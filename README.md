@@ -185,6 +185,9 @@ The strongest footholds are:
 - `OT-0140`: exact no-resampling provenance compilation binds that change and
   passes the identical q16 correction 9/9 plus q8 no-regression 9/9, but an
   observer binding-key mismatch prevents installation and later verification.
+- `OT-0141`: exact transition projection installs the consequence-revised
+  ceiling and capability; a fresh actor reuses both unchanged at q16, and the
+  exact open subject continues toward q32 after the observer stops.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
