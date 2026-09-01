@@ -2151,5 +2151,22 @@ require a target-local repair plus prospective 6/6 versus unchanged 2/6. Do not
 name the clinic target in the prompt or add either outward surface to the old
 registry.
 
+OT-0239 promotes that reuse. The fresh generic corrector derives
+`dispatch_mobile_clinics`, changes exactly that function and its correction
+decision, passes correction-public 4/4, and reaches prospective 6/6 while
+unchanged remains 2/6. G10 accepts the encounter. Exact successor `ee16359e...`
+preserves the verified water-link extension, marks clinic dispatch corrected and
+verified, leaves the inherited registry unchanged, and dispatches `assimilate`.
+
+The repeated local causal pattern is now evidenced twice: outward selection,
+contradiction, consequence-expanded correction, verification, and assimilation.
+The next claim should not be another manually sequenced copy. Extract one
+subject-driven continuation operator that reads exact phase and state, chooses
+the warranted action class (`assimilate` outward or `correct`), invokes the
+corresponding fresh actor when required, opens consequence, and returns an exact
+successor. The operator must carry no target, surface-specific branch, or fixed
+one-step itinerary. Test it across at least the remaining outward selection and
+its correction boundary.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

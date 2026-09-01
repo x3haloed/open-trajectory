@@ -90,12 +90,11 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0238 successor `a16dd995...`,
+The current exact operational subject is OT-0239 successor `ee16359e...`,
 identified by
-`evidence/manifests/OT-0238/open-subject-at-recurrent-outward-contradiction.json`.
-It preserves the world-verified corrected `restore_water_links` extension and
-adds an unresolved actor-authored `dispatch_mobile_clinics` contact, outside the
-unchanged inherited registry, open at `correct`.
+`evidence/manifests/OT-0239/open-subject-after-second-outward-correction.json`.
+It preserves two corrected and world-verified actor-authored outward extensions
+outside the unchanged inherited registry and is open at `assimilate`.
 
 ## Prediction errors
 
@@ -221,6 +220,10 @@ unchanged inherited registry, open at `correct`.
   the completed water-link surface, selects `dispatch_mobile_clinics`, and
   receives independent 2/6 contradiction. Exact `a16dd995...` preserves the
   prior correction and dispatches another outward correction.
+- OT-0239 reuses the same generic G10 correction path on that second outward
+  interface. Public 4/4 and prospective 6/6 beat unchanged 2/6; exact
+  `ee16359e...` preserves both corrections and returns to assimilation.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is generic correction reuse on the
-  second actor-authored interface without target naming or registry retrofit.
+  external. The next discriminating step is extracting one phase-derived,
+  content-free continuation operator and running it across multiple transitions,
+  so the researcher no longer selects each local harness invocation.

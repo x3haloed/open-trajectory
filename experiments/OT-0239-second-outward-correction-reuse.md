@@ -1,6 +1,6 @@
 # OT-0239 — second outward correction reuse
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0238 subject `a16dd995...`
 - **Actor budget:** one fresh generic corrector; no replacement
@@ -20,4 +20,12 @@ fresh correction and exact open `assimilate` successor. No retry.
 
 ## Result
 
-Not yet run.
+The fresh generic corrector derives `dispatch_mobile_clinics`, makes an exact
+target-local revision, passes correction-public 4/4, and reaches prospective
+6/6 while unchanged remains 2/6. G10 accepts the encounter.
+
+Exact successor `ee16359e...` preserves the first corrected outward extension,
+marks the second corrected and verified, retains the inherited registry
+unchanged, and remains open at `assimilate`. This promotes correction-mechanism
+reuse across two actor-authored interfaces. Autonomous phase orchestration
+remains untested.

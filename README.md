@@ -608,6 +608,10 @@ The strongest footholds are:
   authors executable contact, and receives independent 2/6 contradiction. Exact
   successor `a16dd995...` preserves the prior correction and remains open at
   `correct`.
+- `OT-0239`: the same generic G10 correction mechanism repairs that second
+  actor-authored interface. Public 4/4 and prospective 6/6 beat unchanged 2/6.
+  Exact successor `ee16359e...` preserves both outward corrections, leaves the
+  inherited registry untouched, and remains open at `assimilate`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

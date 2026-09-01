@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-second-outward-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 832137,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6beb828fd3f1c5859aa4ccfc8731842dde6fe241",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0239",
+  "input_manifests": [
+    "OT-0239/second-outward-correction-reuse-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject with two corrected actor-authored outward interfaces; self-resuming orchestration remains pending."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-second-outward-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "88c29d0d57e2b8b778d93ba850300b9579f04e6fb41b85058bec44492462b18e"
+}

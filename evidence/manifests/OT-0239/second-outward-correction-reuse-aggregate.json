@@ -1,0 +1,31 @@
+{
+  "artifact_id": "second-outward-correction-reuse-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13915,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6beb828fd3f1c5859aa4ccfc8731842dde6fe241",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0239",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh correction reuse on the second actor-authored outward interface; autonomous phase orchestration remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:second-outward-correction-reuse-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d6a1c4af746dab9419aa69d5f4fbc61bcae1cf8536e3a5593d021995e04c9667"
+}

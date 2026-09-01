@@ -2762,3 +2762,19 @@ derive the target, installed source, and contradiction from exact state; receive
 a newly opened full-field correction suite without a target-naming prompt; make
 only a target-local change; and earn prospective 6/6 versus unchanged 2/6. The
 first outward correction and inherited registry must remain unchanged.
+
+OT-0239 demonstrates that reuse. A fresh generic corrector derives
+`dispatch_mobile_clinics`, performs an exact target-local repair, passes visible
+4/4, and reaches prospective 6/6 while unchanged remains 2/6. Exact successor
+`ee16359e...` preserves the first corrected outward extension, marks the second
+corrected and verified, leaves the inherited registry unchanged, and remains
+open at `assimilate`.
+
+The frontier has moved from component generality to orchestration generality.
+Selection and correction each recur, but the researcher still chooses which
+harness to invoke next. The next experiment should extract a single continuation
+operator whose input is an exact subject and a content-free pulse. It must derive
+the active phase and all targets from state, invoke the appropriate fresh actor
+or consequence edge, and emit the exact successor. No experiment-specific target,
+surface branch, or prescribed phase may enter the pulse. Run it across more than
+one transition so one-step dispatch cannot masquerade as sustained continuation.
