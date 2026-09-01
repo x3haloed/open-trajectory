@@ -777,6 +777,21 @@ scheduler. The actor may still decide route, uncertainty, surrender, and
 registry identity; the carrier must prevent an accepted route from erasing
 itself during restatement.
 
+OT-0129 removes actor authority over canonical opening prose. The first clean
+fresh cycle now promotes, with exact uncertainty retained by deterministic
+compiler `ot-0129-v1`. Cycle two's fresh actor again grounds demand volatility
+correctly in its route, but independently copies cycle one's registry target
+and recovery-latency expected information into the action. The action gate
+rejects and no cycle-three actor runs.
+
+This further localizes the reliable subject contribution: consequence
+interpretation, route, exact citations, and remaining uncertainty recur; prose
+and identifiers independently regenerated after that point do not. The next
+substrate should compile both continuation action and canonical opening from
+the accepted route. The actor should author the developmental state once; the
+carrier should make every downstream wake and dispatch representation a
+deterministic projection of it.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -887,6 +902,9 @@ itself during restatement.
 - Clean reproduction fails at cycle one because a fresh actor grounds the new
   uncertainty once but loses it while independently authoring canonical opening
   prose; deterministic continuation compilation remains untested.
+- Deterministic opening compilation promotes one clean cycle, but the next
+  actor loses the new stake in separately authored action fields; route-only
+  authoring with full downstream compilation remains untested.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

@@ -1,6 +1,6 @@
 # OT-0129 — compiled continuation recurrence
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected after one promoted cycle
 - **Evidence class:** exploratory-only
 - **Target:** eliminate lossy multi-field continuation restatement and cleanly
   reproduce three recurrent subject-selected contacts
@@ -69,3 +69,20 @@ Passing would establish one clean three-cycle reproduction in which the carrier
 mechanically prevents grounded uncertainty from being lost between route and
 turn continuation. It would not establish open-ended scheduling, subject-
 authored compiler changes, arbitrary-domain transfer, or indefinite operation.
+
+## Result
+
+The continuation compiler fixes OT-0128's failure. Cycle one has a clean exact
+fresh actor, corrected oracle selector choice against the decoy control, one
+grounded route, deterministic compilation with exact uncertainty retention,
+and sounding promotion to subject
+`5db2471f153b0adf2815c1217a45b8320991bf9858515bd943f131e6118f1f22`.
+
+Cycle two's fresh actor again grounds the new demand-volatility uncertainty
+correctly in `route-assimilation`, but copies cycle one's registry target and
+expected-information topic into `continuation-action`. The newness and grounding
+gates reject, so no cycle-three actor is authorized. This isolates the remaining
+lossy restatement edge: the grounded route is reliable; independently authored
+action prose and identity are not. The next substrate should compile the
+continuation action as well as the canonical opening from the single accepted
+route, leaving the actor only one developmental representation to author.

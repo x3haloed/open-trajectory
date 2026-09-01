@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-one-compiled-cycle",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 329130,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a7ebcaf420ff6d15513f03cd27f0bc391e905ea6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0129",
+  "input_manifests": [],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact sounding open subject after one clean fresh compiled-continuation cycle."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-one-compiled-cycle",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "17c41fa3cd13756fb4062971e856e194d3d7242944ef358ab628d8c33de50a8e"
+}

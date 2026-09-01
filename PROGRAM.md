@@ -573,5 +573,11 @@ mechanism should stop asking actors to synchronize the same stake across route
 and opening prose: make the grounded route the authoring authority and compile
 the canonical continuation mechanically before promotion.
 
+OT-0129 compiles the canonical continuation and cleanly promotes cycle one.
+Cycle two again grounds its new uncertainty in the route but copies the prior
+registry action and expected-information topic. The remaining mechanism change
+is now sharper: compile both continuation action and canonical opening from the
+single accepted route, leaving no stochastic restatement edge after grounding.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

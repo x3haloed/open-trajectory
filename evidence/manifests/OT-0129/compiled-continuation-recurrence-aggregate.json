@@ -1,0 +1,31 @@
+{
+  "artifact_id": "compiled-continuation-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 22216,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a7ebcaf420ff6d15513f03cd27f0bc391e905ea6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0129",
+  "input_manifests": [],
+  "kind": "compiled-continuation-recurrence-result",
+  "limitations": [
+    "One of three cycles promoted. No cycle-three actor was authorized; route grounding remained reliable while actor-authored action synchronization failed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:compiled-continuation-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ce92d9fc8d38237863f20a4f07a9068594e364155b9c2949455634685deb0ba2"
+}

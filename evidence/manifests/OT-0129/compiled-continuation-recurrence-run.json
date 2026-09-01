@@ -1,0 +1,31 @@
+{
+  "artifact_id": "compiled-continuation-recurrence-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1214976,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a7ebcaf420ff6d15513f03cd27f0bc391e905ea6",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0129",
+  "input_manifests": [],
+  "kind": "compiled-continuation-recurrence-run",
+  "limitations": [
+    "Canonical continuation compilation promoted cycle one exactly; cycle two stopped when the fresh actor copied the prior registry action and expected-information topic despite grounding the new route."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:compiled-continuation-recurrence-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f8bb076986418e4223c675fd51bd15bc3fe76592efa4b2f04858267358164bbc"
+}

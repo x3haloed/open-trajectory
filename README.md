@@ -148,6 +148,8 @@ The strongest footholds are:
   cycle and yields an open subject after three subject-selected contacts.
 - `OT-0128`: clean reproduction fails at cycle one when a fresh actor grounds
   recovery latency in its route but regenerates the inherited canonical opening.
+- `OT-0129`: deterministic opening compilation promotes one clean fresh cycle;
+  cycle two rejects when independently authored action fields repeat cycle one.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
