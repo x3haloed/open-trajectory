@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-selector-runtime-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 459953,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "28610d05665b8af4a08bcf90a8dbe817ccaa9880",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0159",
+  "input_manifests": [
+    "evidence/manifests/OT-0158/dependency-aware-mechanism-selector-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Unchanged exact OT-0156 subject; OT-0159 did not bind selector or open hidden consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-selector-runtime-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1acad03537168887a1d3abff22a7663d62a08c392c565995da48aee60532933e"
+}

@@ -1057,5 +1057,15 @@ exact `re` import through a constrained importer, reconstruct the same public
 result without a new actor, bind, then score the still-sealed six hidden
 portfolios and unchanged property-only control.
 
+OT-0159 makes that exact import repair but exposes a second undisclosed runtime
+boundary. The retained source loads as a callable, then all four public calls
+raise `NameError` because the evaluator safe builtins omit `next`. Independent
+public score is 0/4; no binding exists and the hidden portfolio remains sealed.
+
+This again rejects the apparatus, not the candidate. Add only `next` to the
+disclosed safe builtins, reconstruct the exact retained source and unchanged
+public portfolio without another actor, and preserve every hidden case,
+candidate, score, control, parent, and promotion gate.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

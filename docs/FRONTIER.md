@@ -1340,6 +1340,18 @@ bind it, and run the still-sealed hidden 6-case comparison. Preserve every
 portfolio, candidate description, score, old-selector control, and promotion
 gate from OT-0158.
 
+OT-0159 admits exactly that import but rejects before binding again. The exact
+source loads as a callable, then every public invocation raises `NameError`
+because the evaluator's safe builtins omit `next`, which the retained source
+uses for ordinary candidate lookup. Public reconstruction is 0/4; no hidden
+portfolio opens and the exact OT-0156 subject remains unchanged.
+
+The next record should add only `next` to the disclosed safe builtins and repeat
+exact reconstruction without another actor. Preserve the exact source, audit,
+parent, portfolios, candidates, answers, old-selector control, hidden seal, and
+promotion gate. This is still apparatus-contract repair, not selector
+resampling or evidence against the retained candidate.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

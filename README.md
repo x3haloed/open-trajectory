@@ -251,6 +251,9 @@ The strongest footholds are:
   portfolios locally, but independent binding rejects its undisclosed `re`
   import before execution. No hidden portfolio opens and the subject is
   unchanged.
+- `OT-0159`: exact reconstruction admits only that `re` import, then rejects
+  public execution 0/4 because the evaluator's safe builtins also omitted
+  `next`. Hidden cases remain sealed and the exact subject is unchanged.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

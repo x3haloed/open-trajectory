@@ -1,0 +1,33 @@
+{
+  "artifact_id": "selector-runtime-abi-diagnostic",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 419,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "28610d05665b8af4a08bcf90a8dbe817ccaa9880",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0159",
+  "input_manifests": [
+    "evidence/manifests/OT-0159/exact-selector-abi-reconstruction-aggregate.json"
+  ],
+  "kind": "diagnostic",
+  "limitations": [
+    "Post-run deterministic diagnosis of the public invocation failure; not actor output or outcome evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:selector-runtime-abi-diagnostic",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4ee08c2c314fa379a9b57ff28165d89fe514696d4cc457efef0bd92967f3f7b3"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-selector-abi-reconstruction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4189,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "28610d05665b8af4a08bcf90a8dbe817ccaa9880",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0159",
+  "input_manifests": [
+    "evidence/manifests/OT-0158/exact-public-valid-selector-source.json"
+  ],
+  "kind": "test-result",
+  "limitations": [
+    "Public reconstruction stops 0/4 at an undisclosed next builtin omission; hidden portfolio remains sealed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-selector-abi-reconstruction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "13fc23c03b1734805ffd9a1096ed4cdb0e97919647b72e58aa0ae4a184000e90"
+}

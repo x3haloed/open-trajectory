@@ -43,3 +43,19 @@ Passing would establish that the rejected OT-0158 candidate was valid under a
 disclosed minimal ABI and that it generalizes across the frozen hidden
 portfolio. It would not establish exact later use by the continuing subject,
 revision after later selector harm, or open-ended mechanism discovery.
+
+## Result
+
+The run rejected before binding or hidden consequence. The exact source passed
+the frozen import grammar and loaded as a callable, but all four public calls
+raised `NameError: name 'next' is not defined` inside the evaluator. The safe
+builtins inherited from OT-0158 omit `next`, although the exact retained source
+uses it for ordinary candidate lookup. Independent public score was therefore
+0/4; no binding exists, no hidden portfolio opened, and the exact OT-0156
+subject remains current.
+
+This is a second apparatus ABI failure, not selector evidence. OT-0159 proves
+that source admission alone did not publish the callable runtime contract. The
+next record should add only `next` to the disclosed safe builtins, reconstruct
+the exact source and public result without another actor, and leave every
+candidate, portfolio, score, control, parent, and hidden seal unchanged.
