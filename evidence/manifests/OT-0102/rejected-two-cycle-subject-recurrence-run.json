@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-two-cycle-subject-recurrence-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2082816,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a6ef633da3380a5bf54f8b23fe493b84cae50382",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0102",
+  "input_manifests": [
+    "evidence/manifests/OT-0101/open-subject-after-derived-retention-promotion.json"
+  ],
+  "kind": "two-cycle-subject-recurrence",
+  "limitations": [
+    "One rejected recurrence attempt; a multi-file audit ordering defect stopped promotion after one valid actor-authored contact."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-two-cycle-subject-recurrence-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0263d499ed2ce6d0c7058e97f5514abbc1adb06076a34f9fabc2ce221ef46042"
+}

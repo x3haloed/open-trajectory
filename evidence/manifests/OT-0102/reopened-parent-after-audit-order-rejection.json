@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-audit-order-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 207341,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a6ef633da3380a5bf54f8b23fe493b84cae50382",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0102",
+  "input_manifests": [
+    "evidence/manifests/OT-0101/open-subject-after-derived-retention-promotion.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact OT-0101 parent reopened after OT-0102 rejected its first assimilation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-audit-order-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "af7ccc587abda92c4810b39eb9c4a3008800ad6d4d065db1634fd76d4a14fb55"
+}

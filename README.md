@@ -71,6 +71,9 @@ The strongest footholds are:
 - `OT-0101`: one promoted derived-retention run carrying the exact corrected
   allocator through grounded fresh assimilation; its outcome-erased control
   did not reproduce the correction.
+- `OT-0102`: one rejected two-cycle recurrence run whose inherited opening
+  caused a novel oracle-valid joint contact before an ordered multi-file audit
+  defect stopped the first promotion.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

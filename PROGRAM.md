@@ -152,6 +152,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   in both public and hidden passed rows, and authors a new opening. The exact
   successor is promoted; a post-seal outcome-erased control remains unable to
   repair the threshold defect or ground the same revision.
+- `OT-0102` begins recurrence from that exact successor. Its opening routes to
+  a novel joint-boundary contact and the retained capability passes all three
+  actor-authored cases. A substantively grounded assimilation is rejected by
+  ordered-list comparison of an otherwise identical changed-path set, so cycle
+  two is not reached and the OT-0101 parent remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -321,6 +326,10 @@ accepts passed public and hidden receipt rows, and promotes the exact chain
 without resampling. The next boundary is recurrence from that exact subject:
 let its actor-authored joint opening and retained allocator shape contact in a
 qualitatively new world while reducing researcher choice over update timing.
+OT-0102 reaches that contact but exposes an ordered multi-file audit defect
+before promotion. The next record should repair only that comparison, re-audit
+the retained output without resampling it, and continue the already-bound
+second cycle if the repaired audit passes.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

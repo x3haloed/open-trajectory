@@ -1,6 +1,6 @@
 # OT-0102 — two-cycle subject recurrence
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** bounded OT-1C recurrence and an OT-2R foothold
 - **Parent:** exact OT-0101 promoted subject at
@@ -110,3 +110,35 @@ Passing would establish two bounded subject-driven recurrences under one fixed
 driver and bounded world registry. It would not establish indefinite
 recurrence, open-domain interface invention, autonomous admission authority,
 or freedom from researcher-designed seed machinery.
+
+## Result
+
+The exact inherited opening routed cleanly to `joint-boundary-probe`. A second
+fresh actor then authored three novel, conformant boundary cases exercising
+nonzero recovery risk and overload, a penalty-induced winner change, and a
+nonzero narrow oracle margin. The retained joint capability agreed with the
+independent realized-score oracle on all three cases.
+
+The first assimilator substantively completed all three authorized files. It
+cited all three passed case ids, retained allocator and joint-capability bytes,
+authored a falsifiable new opening, and bound `joint-boundary-probe` for the
+next cycle. Its trace was clean and its report truthful. Promotion nevertheless
+failed because the inherited audit sorts observed changed paths but compares
+them to the caller's unsorted expected list. The observed and expected path
+sets were identical; their list order differed. The audit also separately
+reported only one file-change tool event even though its inventory found all
+three changed files, but event count was not the failing gate.
+
+Under the frozen implementation this is a rejection. No cycle-one successor
+was promoted, cycle two and the opening-erased control were not run, and the
+exact OT-0101 parent remains sounding and open. The result does not establish
+recurrence. It does establish that the inherited opening can route a fresh
+actor into a novel objective contact and that the retained capability survives
+that contact.
+
+The next record should change only multi-file audit comparison from ordered-list
+equality to normalized set equality, add a representative three-file audit
+fixture, and re-audit the exact retained OT-0102 cycle-one output without
+resampling router, contact, or assimilator. If it passes, seal that successor
+and let the already-bound interface start cycle two under the same fixed
+registry and scoring rules.

@@ -346,6 +346,18 @@ researcher selecting its pursuit. This directly tests recurrence from the
 promoted subject while keeping researcher-authored interfaces and admission
 authority explicit.
 
+OT-0102 reaches the first contact but not the first promotion. The inherited
+opening cleanly routes to the joint boundary; a fresh actor authors three novel
+valid cases; and retained behavior equals the independent oracle on all three.
+The fresh assimilation then changes exactly its three permitted files,
+preserves both machinery byte sequences, cites every passed row, and binds the
+same registered interface for cycle two. The audit rejects because it sorts
+observed paths but compares them with an unsorted expected list. This is an
+apparatus ordering defect, and OT-0102 remains rejected under its frozen
+implementation. The next record should normalize multi-file comparison, test
+that audit path before authorization, re-audit the exact retained output, and
+continue without replacement sampling.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
