@@ -49,6 +49,7 @@ FAST_MODULES = (
     "tests.test_ot_0093_saturation_self_allocation",
     "tests.test_ot_0094_live_frontier_self_allocation",
     "tests.test_ot_0095_normalized_boundary_self_allocation",
+    "tests.test_ot_0096_typed_choice_self_allocation",
 )
 
 # Last commit in which the retired E14 evaluator lineage and its complete test
