@@ -1421,5 +1421,25 @@ blocked-exclusion probes, compile earned signatures from scores, and let a
 fresh actor revise selection using those receipts. Preserve signature erasure,
 mixed contact, and contextual floors as the causal comparison.
 
+OT-0185 grounds those declarations but rejects readable routing as sufficient
+causal machinery. Independent execution gives prediction correction the
+observation-led signature, viable filtering the blocked-option signature, and
+the OT-0183 composition the blocked-option plus mixed signature. A fresh actor
+authors the right mixed route but the wrong tied blocked-option owner.
+
+Only two of six active workspaces follow the populated mixed route, while
+three of six erased controls rediscover it from the visible matrix. All five
+then contradict their workspace choice in the structured report and lose
+binding authority. Effective active and control contact are both 0/6. Prior
+routes remain 4/4 and identity remains 18/18, but neither depends on the repair.
+
+Exact parent `40818aa8...` remains current. The next candidate must make an
+accepted repair executable state, not advice that every successor is invited
+to reconsider. Let a fresh actor author the router, consequence-test the exact
+program including the tied-floor case, and bind it only after conformance.
+Later encounters should execute the bound router directly. Preserve an exact
+router-erasure comparison and all contextual floors; mechanically executing an
+uncertified actor preference does not count.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,29 @@
+{
+  "artifact_id": "certified-signature-matrix",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4391,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c1d08290fed039567dc727aca2af37609ad18d9d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0185",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:certified-signature-matrix",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ca7c2f8634a95a50b645b5c47b3868bd316c5c4c2e22791b3df3e763fe69450c"
+}

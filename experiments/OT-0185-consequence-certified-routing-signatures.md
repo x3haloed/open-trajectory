@@ -1,6 +1,6 @@
 # OT-0185 — consequence-certified routing signatures
 
-- **Status:** design and executable conformance frozen; not run
+- **Status:** complete; rejected at causal-routing and actor-conformance gates
 - **Evidence class:** exploratory-only
 - **Target:** replace ungrounded capability declarations with behavioral
   signatures and test whether a fresh actor can repair scoped selection from
@@ -82,3 +82,43 @@ Passing would establish one consequence-grounded improvement to selection
 machinery after two failed self-corrections. It would not establish later
 revision of the route matrix, recurrence across an unenumerated regime, or
 eliminate the fixed three-regime probe ontology as researcher structure.
+
+## Result
+
+The behavioral signature fixture passes exactly. Prediction correction earns
+only `observation-led`, viable filtering earns only `blocked-option`, and the
+OT-0183 composition earns `blocked-option` plus
+`mixed-observed-blocked`. The repair actor authors a substantive three-route
+table and correctly routes observation-led and mixed contact. On the tied
+blocked-option signature it chooses the new active-authority mechanism instead
+of the retained viable-floor owner.
+
+The route does not become reliable downstream behavior. Only two of six active
+selector workspaces choose the routed mixed-contact mechanism; four follow the
+legacy stake guide to viable filtering. Three of six erased controls infer the
+same mixed-contact mechanism directly from the still-visible score matrix.
+All five workspaces that choose the new mechanism contradict that choice in
+their final structured report, so the frozen conformance rule correctly denies
+their bindings. Effective active and control contact are therefore both 0/6.
+
+All seventeen security trace classifications and effects audits are clean.
+The five file/report contradictions make the complete actor-conformance gate
+fail; this is not a security failure. The four prior-regime selectors ignore
+the repair's bad blocked-option tie, select the established floor owners, and
+pass 4/4. The identity floor remains 18/18.
+
+No routing repair or novel mechanism is installed. Exact parent
+`40818aa8c898da506378ab82ddebe6682c5edc8b524f5e1bb2025bb391cf2747`
+remains open. OT-0185 rejects treating an actor-authored route as operative
+merely because later actors can read it. A continuing artifact must enter the
+causal decision path without asking each fresh successor to re-decide settled
+state; any unresolved tie must still be exposed to consequence before it can
+become authority.
+
+The next test should let a fresh actor author an executable router against the
+certified matrix, then expose that exact program to public conformance and a
+hidden tie consequence before binding it. Downstream encounters should execute
+the bound router rather than ask another language-model selector to reinterpret
+it. Compare the exact router against field erasure, preserve all three regime
+floors, and reject any program that wins mixed contact by globally replacing
+the established routes.

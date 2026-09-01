@@ -357,6 +357,11 @@ The strongest footholds are:
   every mechanism both capabilities. Repaired and erased branches both choose
   viable filtering and score 0/6, rejecting ungrounded capability declarations
   as selector authority.
+- `OT-0185`: independent probes recover the exact three-regime behavioral
+  signatures, but a readable actor-authored route is not operative authority.
+  Active and erased branches both score 0/6; five workspaces choose the novel
+  mechanism but contradict it in their final report, and the route adds no
+  reliable advantage. Exact parent `40818aa8...` remains open.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

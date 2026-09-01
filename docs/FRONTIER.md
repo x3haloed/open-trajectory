@@ -1880,3 +1880,26 @@ It may retain, narrow, or replace the selector. Promotion still requires a
 decisive signature-versus-erasure advantage on mixed contact and exact routing
 on both prior context families. Do not replace behavioral grounding with a
 stricter declaration answer key.
+
+OT-0185 produces the missing grounding but exposes a deeper causal break. Its
+independent three-regime matrix exactly distinguishes prediction correction,
+viable filtering, and the OT-0183 composition. The repair actor authors a
+complete route, correctly choosing the mixed mechanism but choosing it over
+the retained viable-floor owner on a tied blocked-option signature.
+
+Readable route state does not reliably govern fresh successors. Two of six
+active workspaces follow it; four revert to the legacy stake guide. Three of
+six route-erased controls independently recover the mixed answer from the
+visible score matrix. All five novel choices are contradicted by their final
+structured reports and are correctly denied binding authority. Effective
+active and control outcomes are both 0/6. Security traces and effects are
+clean, prior regimes remain 4/4, and identity remains 18/18.
+
+The governing distinction is now between a represented decision and an
+operative decision. Once consequence has settled a route, asking every fresh
+actor to choose again discards the very continuity the artifact was meant to
+carry. The next candidate should be an actor-authored executable router whose
+exact behavior is tested before admission, including a hidden case that
+resolves signature ties by retained floor ownership. Bound successors should
+execute it directly; they may reopen it only after receipted contradiction.
+Compare exact execution with router erasure and preserve all contextual floors.
