@@ -1,6 +1,6 @@
 # OT-0180 — actor-chosen correction layer after later harm
 
-- **Status:** frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** test whether objective later harm lets a fresh subject actor
   choose the appropriate correction layer, improve new contact, and preserve
@@ -69,3 +69,39 @@ Reject without resampling at the first failed actor, binding, comparison,
 no-regression, ancestry, or liveness gate. End the flat global-authority line if
 an authority-only correction cannot preserve old and new contexts; do not add
 context fields unless this record makes that limitation consequential.
+
+## Result
+
+All eighteen fresh actors pass complete trace and effects audit. The exact
+installed selector first chooses `prediction-corrector`, which fails all three
+blocked-outcome harm cases; viable filtering passes all three.
+
+The correction actor chooses `revise-authority`. It leaves the active pursuit
+unchanged, keeps both viable branching and prediction correction operative,
+moves `active-authority` from prediction correction to viable branching, and
+retains prediction correction with no owned floor. Reset remains history-only
+with its regression floor, and the identity-gated extension remains surrendered
+with its regression floor.
+
+After binding, the corrected branch selects viable filtering and passes four
+new cases for 6/6 actors. The exact unchanged parent receives the same complete
+harm receipt but succeeds for only 1/6; the other five actors retain harmful
+prediction replacement. The corrected branch leads by five. Four additional
+fresh actors using the revised projection with the exact prior pursuit and
+receipts all select prediction correction and reconstruct the OT-0178/0179
+floor, so contextual harm does not erase the earlier route.
+
+Exact open successor
+`5044e9d6c3f5fbf58dfc0dc2b67a9798b49c203a37b4521bcd1ad23c71f4779c`
+carries the actor-chosen authority revision and complete receipts. This is one
+bounded consequence-driven correction-rate choice: the actor changes global
+priority without globally surrendering a still-useful mechanism. It does not
+establish recurrent correction-layer choice.
+
+The correction succeeds but confirmation is not yet assimilated into pursuit
+state: the exact successor remains open on the same question. The next record
+should give the completed harm, revision, confirmation, and prior floors to one
+fresh post-consequence actor, require it to decide whether that pursuit is now
+fulfilled or still genuinely unresolved, and then require its authored next
+opening to affect fresh contact. Do not force novelty merely because the
+authority correction passed.

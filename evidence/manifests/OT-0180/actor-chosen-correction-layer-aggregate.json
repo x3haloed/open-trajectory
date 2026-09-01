@@ -1,0 +1,29 @@
+{
+  "artifact_id": "actor-chosen-correction-layer-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 79337,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "863673439b2b1278a85d76abe73ed884c0dab60b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0180",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-chosen-correction-layer-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "efc6887d1936c3ee7eef0af805999532648414839de019a7f39da3a67b23090a"
+}

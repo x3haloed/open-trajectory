@@ -1773,3 +1773,17 @@ valid. A global status flip that fixes the new regime but destroys OT-0178 and
 OT-0179 is not correction. The next substrate may need authority scoped by
 world conditions; that need should be demonstrated by the harm/revision result,
 not assumed in advance.
+
+OT-0180 answers that bounded question positively without adding scoped fields.
+Prediction correction first fails the new harm 0/3. A fresh actor chooses
+authority-only correction, moving active floor authority to viable branching
+while leaving prediction correction operative. Corrected later contact is 6/6
+versus unchanged 1/6 under identical harm information, and prior-context reuse
+remains 4/4. Exact open subject `5044e9d6...` carries the revision.
+
+The next dependency is pursuit assimilation after successful machinery
+correction. The active question and opening remain unchanged despite complete
+harm, revision, and confirmation receipts. A fresh actor should decide whether
+the question is fulfilled or still missing a named contact, author any next
+opening, and causally constrain a new encounter. Mere lexical change does not
+count, but neither does mechanically retaining a now-settled pursuit.

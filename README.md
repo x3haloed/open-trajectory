@@ -337,6 +337,10 @@ The strongest footholds are:
   artifact yields correct selection and contact in 6/6 fresh actors versus 1/6
   after field erasure. Open successor `76ea326b...` retains exact selector bytes
   and adds the later-use receipt.
+- `OT-0180`: later blocked-outcome harm defeats prediction correction 0/3. A
+  fresh actor chooses an authority-only correction; the revised state reaches
+  6/6 new contacts versus unchanged 1/6 while preserving prior prediction
+  floors 4/4. Open successor `5044e9d6...` retains both mechanisms as operative.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

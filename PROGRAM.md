@@ -1339,5 +1339,28 @@ pass new contact. Because the two earlier regimes still require prediction
 correction, watch for a new substrate limitation: a single global status may be
 unable to express context-scoped authority without regressing a true floor.
 
+OT-0180 passes that later-harm chain without requiring a new context ontology.
+The exact installed selector first chooses prediction correction and fails the
+blocked-outcome regime 0/3. One fresh actor is free to retain, revise pursuit,
+revise authority, or revise both. It chooses authority alone: viable branching
+inherits active floor authority, prediction correction remains operative
+without an owned floor, and the surrendered extension remains unchanged.
+
+The revised state then selects viable filtering and passes 6/6 disjoint
+contacts versus the exact unchanged state's 1/6 under the same harm receipt.
+Four fresh prior-context actors still select prediction correction and pass the
+OT-0178/0179 floor. Exact open successor `5044e9d6...` therefore demonstrates
+one consequence-driven choice of correction layer and a plural authority state
+that changes priority without forgetting a still-useful route.
+
+The remaining immediate gap is post-confirmation pursuit assimilation. The
+subject has changed machinery and passed new contact, but its authoritative
+opening still asks the same pre-confirmation question. Give the full ordered
+receipt chain to one fresh actor and let it retain the pursuit only if a
+specific contact condition remains absent; otherwise it must retire or revise
+the pursuit and author the next opening. Then require that opening to constrain
+fresh contact before hidden consequence. This prevents successful machinery
+correction from becoming stable repetition.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

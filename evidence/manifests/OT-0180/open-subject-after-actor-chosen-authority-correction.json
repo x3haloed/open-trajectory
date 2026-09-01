@@ -1,0 +1,29 @@
+{
+  "artifact_id": "open-subject-after-actor-chosen-authority-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 488204,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "863673439b2b1278a85d76abe73ed884c0dab60b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0180",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-actor-chosen-authority-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9bfcfca2ada71020a48fab30d265201adcf708bad85a1e53384b8936a00755e1"
+}
