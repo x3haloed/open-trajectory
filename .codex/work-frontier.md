@@ -146,7 +146,19 @@ remain verified-local.
   contradiction into `correct`. An observer indexing fault occurred only after
   the retained actor, intermediate, and hidden receipt were written; exact
   reconstruction repaired it without resampling either causal input.
+- OT-0225's registry-driven actor changes exactly the selected function and
+  decision, passes the checker and public 4/4, but reports only the decision in
+  its structured changed-path list. The exact allowed-path diff and complete
+  clean trace disagree with that self-report. The observer rejects before hidden
+  consequence, leaving `ade85ab1...` current and the candidate patch retained
+  but unadmitted.
+- This contradicts the intended authority boundary: self-report is a hypothesis,
+  while mechanically observed effects are outcome evidence. The next evaluator
+  must prospectively admit harmless report omissions without weakening rejection
+  of actual outside-envelope edits, unsafe/incomplete traces, invented reported
+  paths, or materially uncertain mutation. OT-0225 must not be rescored.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is registry-driven correction of the
-  selected planning target and recurrence after that correction, with no
-  planning-specific researcher itinerary.
+  external. After the audit transition, the next discriminating step is hidden
+  consequence on the retained unadmitted correction, followed by recurrence if
+  warranted, without resampling the actor or adding a planning-specific
+  researcher itinerary.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unadmitted-registry-correction-source",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1200,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5623cf97909c132c8f1977eac804cc99a1fd8bfc",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0225",
+  "input_manifests": [
+    "OT-0225/registry-driven-correction-aggregate.json"
+  ],
+  "kind": "actor-output",
+  "limitations": [
+    "Retained target-local actor source passed the visible checker and public 4/4 but was not bound or exposed to hidden consequence under OT-0225."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:unadmitted-registry-correction-source",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bc1226f20ca300da74a4c47bb72dfb99f007e9d63daec3de2b9c91795142b23b"
+}

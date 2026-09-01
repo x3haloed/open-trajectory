@@ -542,6 +542,12 @@ The strongest footholds are:
   stake as unresolved and routes itself to correction. A disclosed observer
   indexing fault is repaired by exact reconstruction without rerunning actor or
   world output.
+- `OT-0225`: the registry-driven corrector changes exactly the selected target
+  function, passes its visible checker and public 4/4, but its structured output
+  omits that source path from `files_changed`. The audit rejects before hidden
+  consequence even though exact diff and trace are clean. Parent `ade85ab1...`
+  remains current; the failure exposes misplaced evaluator reliance on actor
+  self-report rather than failure of the candidate correction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

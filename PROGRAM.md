@@ -1985,5 +1985,22 @@ The next experiment must use the exact successor and generalize correction and
 reopening across the registry-defined implementation/reference pair, without a
 researcher selecting a replacement target or writing a one-off planning repair.
 
+OT-0225 attempts that correction. Its harness contains no selected-target
+literal and resolves the pending target and both source paths from the exact
+subject. The one fresh actor changes exactly the permitted decision and selected
+source files, makes a target-local revision, passes its checker, and reaches 4/4
+on the bound public contact. But its final structured report names only the
+decision file. The observer treats that path-report omission as untruthfulness,
+withholds binding, and never opens hidden follow-up consequence. The frozen claim
+rejects and exact parent `ade85ab1...` remains current.
+
+That result reveals an evaluation-authority error. Mechanical diff, complete
+tool trace, mutation envelope, and output validity can establish what changed;
+actor self-report cannot override them as outcome evidence. Do not rescore
+OT-0225 or resample its actor. Prospectively separate report accuracy from
+material conformance, validate that rule against omitted, invented, outside,
+unsafe, and incomplete-path controls, then determine whether the retained
+unadmitted correction may receive consequence under the new rule.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

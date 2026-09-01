@@ -2601,3 +2601,18 @@ retain, or surrender that mechanism under the same registry-driven machinery;
 subsequent independent consequence must then select assimilation, correction,
 or widening. Do not replace the selected target, discard the contradiction, or
 introduce a planning-specific repair path merely to complete the cycle.
+
+OT-0225's candidate correction reaches the visible causal threshold but is not
+admitted. The fresh actor changes exactly the registry-selected function and
+decision, passes the target-local checker, and reaches public 4/4. Its structured
+`files_changed` list omits the source path despite the exact diff and its own
+prose acknowledging the revision. The audit therefore rejects before hidden
+consequence. Exact OT-0224 subject `ade85ab1...` remains current and unresolved.
+
+The immediate frontier is now the audit authority boundary, not another
+corrector. A prospective rule must make mechanical trace and exact diff
+authoritative for actual mutation while retaining report mismatch as disclosed
+metadata. It must still reject invented edits, outside-envelope mutations,
+incomplete or unsafe traces, and material uncertainty. OT-0225 remains rejected;
+after the transition, continue from its retained unadmitted candidate rather
+than resampling an actor merely to obtain a better file list.

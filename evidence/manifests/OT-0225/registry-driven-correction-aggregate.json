@@ -1,0 +1,31 @@
+{
+  "artifact_id": "registry-driven-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 6258,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5623cf97909c132c8f1977eac804cc99a1fd8bfc",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0225",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Frozen claim rejected before hidden follow-up because actor self-report omitted one mechanically observed changed path; no correction binding or world receipt was admitted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:registry-driven-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6137920575ee09407c4f41b68733437c7bac02a68bdd2a4c588d7eb9dc072054"
+}
