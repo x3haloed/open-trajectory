@@ -1,6 +1,6 @@
 # OT-0133 — transferable contact program
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; rejected before hidden consequence
 - **Evidence class:** exploratory-only
 - **Target:** replace one-shot contact cases with an actor-authored contact
   program that transfers to sealed context pairs and demand patterns
@@ -59,3 +59,22 @@ the subject's carried stake to unseen world instances and survives another
 actor ending. It would not establish arbitrary contact languages, autonomous
 world generation, frequency, indefinite operation, or subject-authored changes
 to the carrier itself.
+
+## Result
+
+The sole contact-program actor selected `reserve_for_context`, authored positive
+high and low offsets with a foreign-context prefix, changed exactly
+`contact-program.json`, and ran the declared public checker. All four public
+adversarial transformations changed installed output and both midpoint controls
+remained unchanged. Its trace was complete, clean, and truthful.
+
+The run rejected before binding because the visible contract described
+`control_mode` as “exactly midpoint.” The actor therefore authored the literal
+`"exactly midpoint"`, while the harness's unpublished validator accepted only
+`"midpoint"`. No hidden base was opened and no route actor was authorized. The
+exact OT-0132 subject remains open.
+
+This is an apparatus contract inconsistency, not negative transfer evidence.
+The next record may publish the visible literal as authoritative, re-audit the
+exact retained program and trace without replacement, and open hidden
+consequence only if every other frozen condition remains exact.

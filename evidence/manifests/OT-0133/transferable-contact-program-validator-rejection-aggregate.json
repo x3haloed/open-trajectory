@@ -1,0 +1,31 @@
+{
+  "artifact_id": "transferable-contact-program-validator-rejection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2911,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3821531c8ac6666c336cca26170d4ff8deb4e053",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0133",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Aggregate records a pre-hidden apparatus rejection; it establishes no transfer or operational transition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:transferable-contact-program-validator-rejection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8f688cd87e897c0faf1516c50f1ebf86ab02d32b8c6674e077ad1a7995898723"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "transferable-contact-program-validator-rejection-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1067520,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3821531c8ac6666c336cca26170d4ff8deb4e053",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0133",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "The exact actor-authored program passed the declared public checker but the harness rejected the visible contract literal exactly-midpoint due to an inconsistent unpublished validator literal midpoint; no hidden world or route actor opened."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:transferable-contact-program-validator-rejection-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cb2ae3a87af244bbb39884f5b4d89a7ed65e7efff6650743ecbfec36ef154c67"
+}
