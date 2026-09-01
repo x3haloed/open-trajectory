@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-semantic-guide-comparison-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 893089,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dcac3ae268044f0c33e32230883bb10a3581ab23",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0164",
+  "input_manifests": [
+    "evidence/manifests/OT-0163/exact-clean-semantic-selection-guide.json"
+  ],
+  "kind": "run-archive",
+  "limitations": [
+    "Twenty matched choices; guide present 10/10 versus erased 9/10, below frozen causal gate."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-semantic-guide-comparison-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fd13b86ff0700929fd0b05b056acd3369daf62c6b632e59d649ae86493192b76"
+}

@@ -1399,6 +1399,19 @@ opens. Preserve the exact 2,745-byte guide and clean audit; next reconstruct its
 binding without a new guide actor, move seed staging to a disjoint namespace,
 and run the otherwise unchanged twenty-choice comparison.
 
+OT-0164 completes all twenty matched choices cleanly. Guide present is perfect
+10/10; guide erased is 9/10. The sole erased failure is revealing: it selects
+the extension for an ordinary retained-options request and justifies that choice
+from the inherited subject's active reset/floor stake, while the guide-present
+actor answers the visible request correctly.
+
+The one-case advantage misses the frozen two-case causal gate, so no promotion
+occurs. Preserve this as directional evidence that the guide may prevent
+inherited-stake interference. The next record should replicate that mechanism
+on new matched requests where the visible ordinary stake competes with inherited
+context, while retaining dependency cases as a competence floor. Require a
+decisive advantage before installing the artifact.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

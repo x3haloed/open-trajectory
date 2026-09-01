@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-semantic-guide-comparison-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 71224,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dcac3ae268044f0c33e32230883bb10a3581ab23",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0164",
+  "input_manifests": [
+    "evidence/manifests/OT-0163/semantic-guide-driver-failure.json"
+  ],
+  "kind": "test-result",
+  "limitations": [
+    "One ten-case matched portfolio; directional one-case artifact advantage is not decisive."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-semantic-guide-comparison-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b4649083fe8e6d99e85c65520333467246026a017265b28426c52a990a87fa4c"
+}

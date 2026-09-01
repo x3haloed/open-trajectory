@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-semantic-guide-comparison",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 459953,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dcac3ae268044f0c33e32230883bb10a3581ab23",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0164",
+  "input_manifests": [
+    "evidence/manifests/OT-0164/exact-semantic-guide-comparison-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Unchanged exact OT-0156 subject; one-case artifact advantage missed promotion gate."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-semantic-guide-comparison",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1acad03537168887a1d3abff22a7663d62a08c392c565995da48aee60532933e"
+}

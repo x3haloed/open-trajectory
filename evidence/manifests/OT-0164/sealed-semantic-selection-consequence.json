@@ -1,0 +1,33 @@
+{
+  "artifact_id": "sealed-semantic-selection-consequence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5207,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dcac3ae268044f0c33e32230883bb10a3581ab23",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0164",
+  "input_manifests": [
+    "evidence/manifests/OT-0164/exact-semantic-guide-comparison-aggregate.json"
+  ],
+  "kind": "world-result",
+  "limitations": [
+    "Guide-present 10/10 and guide-erased 9/10; exact matched rows retained."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-semantic-selection-consequence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "225cec82a57a71f775cccd955f0ece99c953be2877123179f19139bf1ef28fb1"
+}

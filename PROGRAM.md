@@ -1106,5 +1106,17 @@ before the first choice actor. Preserve the exact guide and audit. Reconstruct
 its binding without another guide actor and change only the seed-directory
 namespace before running the unchanged twenty choices.
 
+OT-0164 completes the exact comparison with twenty clean fresh actors. Guide
+present passes 10/10; guide erased passes 9/10. The sole erased error answers an
+ordinary retained-options request with the extension and cites the inherited
+active reset/floor stake, while the guide-present actor stays scoped to the
+visible request.
+
+That one-case advantage misses the frozen causal gate, so nothing is installed.
+Preserve it as a directional artifact effect, not promotion evidence. Test the
+identified mechanism next on a new matched portfolio where visible ordinary
+requests compete with the inherited active stake; require a decisive replicated
+advantage and continued dependency competence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

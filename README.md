@@ -269,6 +269,10 @@ The strongest footholds are:
   driver-owned/actor-owned directory collision stops before the first matched
   choice. The exact guide is retained; no semantic result or subject change is
   claimed.
+- `OT-0164`: twenty clean matched actors yield guide-present 10/10 versus
+  guide-erased 9/10. The guide prevents one erased actor from substituting the
+  inherited active stake for its visible ordinary request, but the one-case
+  advantage misses the frozen causal gate, so nothing is installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
