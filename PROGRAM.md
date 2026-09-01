@@ -1609,5 +1609,21 @@ the completed latent pursuit and choose its own genuinely new executable
 direction. If the current target vocabulary is exhausted, expansion of that
 vocabulary is part of the subject's move, not an observer-selected next target.
 
+OT-0200 lets the subject make that move. One clean renewal actor assimilates
+the exact latent completion and authors a new source, target expression,
+success/surrender boundary, and representative contact. The chosen
+`contactable-distinction` is not supplied by the observer. A populated binding
+then produces aligned fresh contact 4/6 versus 0/6 controls; all thirteen audits
+and inherited floors pass.
+
+The frozen unanimity gate rejects. Both active misses use the correct source
+and expression but include one adversarial case where blocking a contactable
+member makes the new target extensionally equal the observed target. Across
+each full suite, the new function still separates. Preserve the rejection and
+exact parent `08c877ff...`. Next evaluate the retained renewal prospectively
+under suite-level functional novelty: an earned function may coincide on an
+individual boundary case but may not match the complete contact. Do not change
+the renewal, cohort size, control, or other gates.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

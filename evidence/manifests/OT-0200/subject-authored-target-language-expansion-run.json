@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-authored-target-language-expansion-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12972032,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b3771c7897c32e4c1503e8da77be7f322d00fde7",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0200",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [
+    "Frozen unanimity gate rejected active 4/6 despite controls 0/6; no subject promoted."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-target-language-expansion-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "60a7df4261771b964743aed50e3b7aa8099e7eb65967799a4a979edb7d82a912"
+}

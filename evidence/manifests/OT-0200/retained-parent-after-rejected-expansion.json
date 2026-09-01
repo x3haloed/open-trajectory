@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-parent-after-rejected-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 549624,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b3771c7897c32e4c1503e8da77be7f322d00fde7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0200",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact OT-0199 parent retained because OT-0200 promotion gate rejected."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-parent-after-rejected-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "441a4e26610df135e89804c27795aa5aa40357c098297cfbc85750fc7e4c5a68"
+}

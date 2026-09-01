@@ -1,6 +1,6 @@
 # OT-0200 — subject-authored target-language expansion
 
-- **Status:** design frozen; not run
+- **Status:** complete; rejected by frozen unanimity gate
 - **Evidence class:** exploratory-only
 - **Target:** post-capability pursuit renewal without an observer-selected target
 - **Parent:** exact OT-0199 open successor `08c877ff...`
@@ -68,3 +68,27 @@ mechanism for the subject-authored target. On failure, retain exact parent.
 Passing establishes one bounded subject-authored expansion of what the lineage
 can make contactable. It does not establish that the new distinction is useful
 outside this set world, that a mechanism exists, or that renewal recurs.
+
+## Result
+
+The renewal actor passes complete audit and assimilates the exact completion
+receipt. It authors `contactable-distinction`, defined as a world-provided set
+of alternatives belonging to the next jointly contactable distinction, and
+targets that source minus blocked alternatives. Its representative cases,
+success condition, surrender condition, and executable contract are valid and
+do not repeat an earned target function.
+
+Fresh contacts align 4/6 active versus 0/6 controls. All thirteen audits, the
+completion receipt, route 16/16, and identity 18/18 pass. The frozen active 6/6
+gate therefore rejects and exact parent `08c877ff...` remains current.
+
+Both active misses use the correct source and execute the correct expression.
+Each includes one boundary case where blocking a contactable counterpart makes
+the new target extensionally equal `observed-unblocked`. The remaining cases
+separate the functions. The per-case novelty rule therefore confuses a useful
+boundary coincidence with repetition.
+
+Do not retroactively promote. Prospectively test suite-level functional
+novelty: no earned target function may match the authored target over the whole
+contact, while individual cases may coincide. Reuse the exact retained renewal
+proposal and run a fresh matched cohort.

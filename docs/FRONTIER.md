@@ -2185,3 +2185,27 @@ repetition. If no live direction exists in the present target language, the
 subject must expand that language or leave an actionable surrender boundary.
 The observer may evaluate coherence and consequence but may not select the next
 target on the subject's behalf.
+
+OT-0200 reaches that interface. A fresh actor assimilates the exact completed
+latent pursuit and authors `contactable-distinction`: a new world-provided set,
+an executable target expression subtracting blocked members, and matching
+success, surrender, and contact conditions. Its complete trace is clean and
+the proposal is valid without an observer-selected semantic target.
+
+The downstream cohort is active 4/6 versus erased control 0/6. All thirteen
+audits, completion identity, route 16/16, and identity 18/18 pass, but the
+frozen active-unanimity gate rejects. Exact parent `08c877ff...` remains
+authoritative.
+
+The two misses localize an evaluator error rather than loss of the authored
+pursuit. Both use the exact selected source and expression. Each deliberately
+blocks a contactable counterpart in one case, making that case's output equal
+the old observed set while the other cases still distinguish the new target
+function. Requiring every case to differ suppresses precisely the boundary
+contact that could falsify the new distinction.
+
+Freeze a prospective suite-level novelty evaluator for the exact retained
+renewal proposal. It must reject if any earned target function matches the new
+function across the whole contact, but permit isolated extensional coincidence.
+Run a fresh 6+6 interleaved contact cohort with the binding populated or erased,
+and preserve every other OT-0200 gate. Do not rescore OT-0200 into promotion.

@@ -413,6 +413,11 @@ The strongest footholds are:
   `08c877ff...`. The separate attribution test rejects: active actors pass 4/6
   versus controls 6/6, showing that the executable target and contact—not the
   explicit invention receipt—were sufficient for this capability expansion.
+- `OT-0200`: one fresh actor validly assimilates completion and authors a new
+  executable world distinction. Contacts align 4/6 active versus 0/6 controls,
+  but the frozen unanimity gate rejects. Both misses execute the right target
+  and expose that per-case novelty wrongly forbids boundary coincidence with an
+  earned function; exact parent `08c877ff...` remains current.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

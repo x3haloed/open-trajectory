@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-authored-target-language-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 145703,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b3771c7897c32e4c1503e8da77be7f322d00fde7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0200",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [
+    "Valid renewal and decisive cohort advantage, but frozen active unanimity gate failed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-target-language-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "744c3d549dd4ab302a10758b64808b5deef1e489233ceffd32688a9194b9cfac"
+}
