@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-bound-cross-interface-recurrence-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1089536,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3a68327bc6b8b9a3bbe29951b8cd75bc5ce7755e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0104",
+  "input_manifests": [
+    "evidence/manifests/OT-0103/open-subject-after-two-cycle-recurrence.json"
+  ],
+  "kind": "bound-cross-interface-recurrence",
+  "limitations": [
+    "One rejected cross-interface attempt; the subject binding entered allocator contact, but the authored artifact failed shape and numeric-bound conformance before scoring."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-bound-cross-interface-recurrence-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6629b6e9864405503b713ec7e331cafe1d1fa214c793222396d12954345eb9c9"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-invalid-allocator-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 221051,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3a68327bc6b8b9a3bbe29951b8cd75bc5ce7755e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0104",
+  "input_manifests": [
+    "evidence/manifests/OT-0103/open-subject-after-two-cycle-recurrence.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact OT-0103 parent reopened after invalid allocator contact."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-invalid-allocator-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "39f7450e965f752604ed4b2b795cd76e0e1212a6d6e242da0c72355fecfce883"
+}

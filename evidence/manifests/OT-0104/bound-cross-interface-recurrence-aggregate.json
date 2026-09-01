@@ -1,0 +1,33 @@
+{
+  "artifact_id": "bound-cross-interface-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11041,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3a68327bc6b8b9a3bbe29951b8cd75bc5ce7755e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0104",
+  "input_manifests": [
+    "evidence/manifests/OT-0103/normalized-two-cycle-recurrence-aggregate.json"
+  ],
+  "kind": "bound-cross-interface-recurrence-result",
+  "limitations": [
+    "No world receipt or successor promotion; cross-interface recurrence remains unestablished."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:bound-cross-interface-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "93d5e549d05b3fe0332c97b59f3db8c2e361e4a4c7b9c8187aedfbf1fae622b6"
+}

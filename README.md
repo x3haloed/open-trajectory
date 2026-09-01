@@ -77,6 +77,9 @@ The strongest footholds are:
 - `OT-0103`: one promoted fixed-driver run reconstructing that first cycle and
   completing a second fresh cycle; its exact open successor binds an allocator
   challenge as the next interface.
+- `OT-0104`: one rejected cross-interface continuation whose subject binding
+  entered allocator contact directly, but whose authored frontier artifact had
+  an under-specified wrapper shape and out-of-bounds decoy values.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

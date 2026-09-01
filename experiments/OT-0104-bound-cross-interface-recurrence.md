@@ -1,6 +1,6 @@
 # OT-0104 — bound cross-interface recurrence
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C recurrence across contact interfaces and an OT-2R foothold
 - **Parent:** exact OT-0103 subject at
@@ -52,3 +52,33 @@ It would not establish open-domain interface invention, indefinite recurrence,
 or autonomous admission authority. The next decision should be based on the
 successor's own bound interface and on whether the two-interface registry has
 become the limiting scaffold.
+
+## Result
+
+The exact subject binding derived `allocator-challenge`; the matched
+binding-erased projection yielded no action. A fresh contact actor therefore
+entered the new interface family without a router or researcher-selected
+fallback. Its trace and mutation boundary were clean and it edited only
+`contact.json`.
+
+The contact was rejected before world scoring. The actor represented each of
+the four frontiers as a case object containing `case_id`, declared coverage,
+`contacts`, and predicted retained/reference results, while the validator
+expected each frontier to be a bare contact array. The public contract did not
+state that container shape explicitly. Independently, four filtered-decoy
+expansion and regret values were `996` through `999`, outside the published
+`[0, 200]` numeric bounds. The latter is a substantive visible-contract
+violation, so accepting the richer wrapper shape cannot rescue this run.
+
+No world receipt or assimilation exists, no successor was promoted, and the
+exact OT-0103 parent remains sounding and open with `allocator-challenge`
+bound. This does not establish cross-interface recurrence. It does establish
+that the subject binding, rather than an experiment-specific route choice,
+caused entry into the allocator contact-authoring phase.
+
+The next record should make the frontier container ABI explicit and turn this
+invalid encounter into developmental input. A fresh corrector should receive
+the exact retained artifact, public contract, and machine-readable shape and
+bounds failures; it may revise only `contact.json`. Bind that revision before
+scoring, then continue independent consequence and assimilation if it passes.
+Do not sample a replacement contact author.

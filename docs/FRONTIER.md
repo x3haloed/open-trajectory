@@ -382,6 +382,16 @@ projection must yield no action before fresh contact begins. Passing requires a
 new allocator challenge, independent reference agreement, grounded
 assimilation, and another exact open successor.
 
+OT-0104 rejects before world scoring. The subject binding does enter
+`allocator-challenge` directly, and binding erasure leaves no action, but the
+fresh contact uses case-wrapper objects where the validator expected bare
+frontier arrays. That container ABI was not explicit. More importantly, four
+decoy values exceed the published numeric bounds, so the artifact remains
+invalid even under a wrapper-aware projection. The next experiment should not
+resample. It should make both failures machine-readable, give the exact artifact
+to one fresh corrector, bind the revision, and resume the same contact if the
+corrected artifact passes.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world

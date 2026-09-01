@@ -163,6 +163,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   successor that binds `allocator-challenge`. The opening-erased control also
   selects the joint probe, so this is operational recurrence rather than an
   isolated opening-content effect.
+- `OT-0104` executes the successor-bound switch to `allocator-challenge`
+  without a router; binding erasure leaves the driver with no action. The fresh
+  contact is rejected before scoring because it uses an under-specified wrapper
+  shape and also exceeds the visible numeric bounds. The exact OT-0103 parent
+  remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -339,6 +344,10 @@ second cycle if the repaired audit passes. OT-0103 does so and promotes two
 successive cycles under one fixed driver. The next boundary is cross-interface
 recurrence: begin from its exact subject and execute the successor-bound
 `allocator-challenge` without researcher phase selection.
+OT-0104 enters that phase directly but produces an invalid contact. The next
+boundary is developmental handling of invalid subject-authored contact: expose
+the exact conformance receipt to a fresh corrector, bind one revision, and
+resume the same fixed action rather than sampling a replacement.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
