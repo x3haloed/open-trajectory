@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-corrected-mechanism-selector-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 395052,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "95d01e0de6172ce940f35107292aa351e44d5a30",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0161",
+  "input_manifests": [
+    "evidence/manifests/OT-0160/complete-selector-runtime-reconstruction-aggregate.json"
+  ],
+  "kind": "run-archive",
+  "limitations": [
+    "Fresh correction passes known 10/10 but held-out only 6/8; no promotion."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-mechanism-selector-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "da6a3f3a68a0f16fff367b331cb7d57d34fef6f5db98838ace064dd6ec86bbe7"
+}

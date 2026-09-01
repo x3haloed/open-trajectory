@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-corrected-selector-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 459953,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "95d01e0de6172ce940f35107292aa351e44d5a30",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0161",
+  "input_manifests": [
+    "evidence/manifests/OT-0161/consequence-corrected-mechanism-selector-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Unchanged exact OT-0156 subject; 6/8 corrected selector was not installed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-corrected-selector-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1acad03537168887a1d3abff22a7663d62a08c392c565995da48aee60532933e"
+}

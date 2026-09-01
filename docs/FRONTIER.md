@@ -1368,6 +1368,16 @@ preserving all four public cases, all three ordinary hidden routes, presented-id
 and input-preservation constraints. Bind before a new held-out paraphrase
 portfolio; compare the unchanged 4/6 selector only after sealing.
 
+OT-0161 cleanly improves from that consequence but remains below promotion. One
+fresh actor passes audit and known 10/10, then reaches held-out 6/8 versus both
+controls' 4/8 while preserving every ordinary hard negative. The remaining
+misses are `learned compatibility gate` and `amended branch identity logic`.
+
+Preserve the exact 10/10 source and 6/8 receipt. The next record should expose
+both misses to a fresh successor and require structural dependency evidence
+rather than broader lexical overlap, with the complete 18-case known floor,
+fresh ordinary hard negatives, and the exact 6/8 source as post-seal control.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

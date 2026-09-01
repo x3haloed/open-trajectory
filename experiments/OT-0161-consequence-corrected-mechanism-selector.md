@@ -48,3 +48,13 @@ successor remains sounding and open.
 Passing would establish one consequence-driven correction of actor-authored
 mechanism-selection machinery. It would not establish exact later use,
 correction after a distinct later harm, or open-ended candidate discovery.
+
+## Result
+
+The fresh actor passed complete trace and effects audit, changed only
+`selector.py`, and truthfully passed the known floor 10/10. Held-out consequence
+improved from both controls' 4/8 to 6/8, with every ordinary hard negative
+preserved. It still misrouted `learned compatibility gate` and `amended branch
+identity logic` to their coarse-property mechanisms. No selector was installed;
+exact OT-0156 remains current, sounding, and open. Preserve this exact source
+and receipt as the next correction parent; do not resample it.

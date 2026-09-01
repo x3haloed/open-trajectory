@@ -1079,5 +1079,13 @@ public-valid binding and sealed hidden receipt, expose the failure to one fresh
 corrector under the now-published runtime, require the old 4/6 result as a
 control, and retain ordinary-route and input-preservation floors.
 
+OT-0161 yields a clean one-file correction: known performance rises from 8/10
+to 10/10 and held-out performance rises from both controls' 4/8 to 6/8, while
+all ordinary hard negatives remain correct. It still misses `learned
+compatibility gate` and `amended branch identity logic`. Nothing is installed.
+Preserve the exact corrected source and receipt; next require structural
+dependency evidence rather than broader lexical overlap, with the full known
+floor and new ordinary hard negatives.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

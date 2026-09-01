@@ -258,6 +258,9 @@ The strongest footholds are:
   exact selector passes public 4/4 and hidden 4/6 versus property-only 3/6;
   exact-phrase dependency matching fails two paraphrased extension cases, so
   nothing is installed.
+- `OT-0161`: a clean consequence-grounded correction reaches known 10/10 and
+  held-out 6/8 versus both controls' 4/8. It preserves every ordinary hard
+  negative but misses two unseen extension paraphrases, so is rejected.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
