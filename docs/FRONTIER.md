@@ -358,6 +358,12 @@ implementation. The next record should normalize multi-file comparison, test
 that audit path before authorization, re-audit the exact retained output, and
 continue without replacement sampling.
 
+OT-0103 freezes that minimal repair. It must reconstruct and re-audit the exact
+three retained cycle-one files under normalized path-set equality before any
+new actor is authorized. Only then may the already-bound interface start a
+fresh second contact under the unchanged registry and scorers. This preserves
+the valid developmental work while keeping OT-0102's rejection intact.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
