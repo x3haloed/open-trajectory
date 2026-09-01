@@ -1576,5 +1576,16 @@ actor may retire the incoherent representations and bind one canonical target,
 but the next target must move beyond the already-earned observed-contact floor.
 Then test whether that coupled state causally constrains fresh contact authors.
 
+OT-0197 passes that test. One actor binds a canonical `latent-unblocked` stake
+and matching contact contract. Six of six active successors author aligned
+contact versus two of six erased controls. All audits and old floors pass, and
+all installed mechanisms fail every active hidden case.
+
+Open successor `4f154a4b...` carries the second consequence-driven update and a
+direct `open-mechanism-invention` operation. Next let a fresh actor expand the
+mechanism language to express a world-grounded latent selector, execute it on
+the sealed contact, and bind it only to this target while replaying all prior
+routes. Prediction tokens may not be used as a shortcut source.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

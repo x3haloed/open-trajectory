@@ -1,6 +1,6 @@
 # OT-0197 — coupled executable pursuit assimilation
 
-- **Status:** design frozen; not run
+- **Status:** complete; promoted
 - **Evidence class:** exploratory-only
 - **Target:** replace conflicting prose stake, executable predicate, and world
   target with one canonical pursuit whose stake and contact contract agree
@@ -59,3 +59,27 @@ direct invention opening. On failure, retain exact parent.
 Passing establishes a second consequence-driven update to the subject's own
 pursuit/contact machinery. The next experiment must invent and validate the
 missing mechanism; OT-0197 alone does not establish that capability.
+
+## Result
+
+The assimilation actor passes complete audit, retires the incoherent tuple, and
+binds one coupled pursuit with `target_set = latent-unblocked` in both stake and
+contact contract. Its prose sometimes calls this a fresh prediction target, but
+the executable fields, checker, and downstream behavior are unambiguous.
+
+All six active successors author aligned contacts versus two of six binding-
+erased controls, meeting the frozen advantage of four. All thirteen audits,
+mismatch replay, route 16/16, and identity 18/18 pass. Every active hidden
+contact discriminates installed mechanisms and leaves all of them at 0/4.
+
+Open successor `4f154a4b...` carries the coupled pursuit, active-01 contact and
+sealed latent consequence, and direct `open-mechanism-invention` operation.
+This is the second consequence-driven update in the current recurrence chain:
+world contact changes the subject's machinery for making pursuits contactable,
+and that corrected machinery causally constrains later actors.
+
+Next expand the executable mechanism language just enough to express a
+world-grounded latent selector (`options - outcome - blocked`). Bind it only to
+the new target, execute it directly on the sealed contact, and replay every old
+route and identity floor. Do not use actor prediction tokens as the mechanism's
+source.

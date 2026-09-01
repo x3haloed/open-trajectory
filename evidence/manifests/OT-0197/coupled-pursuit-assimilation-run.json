@@ -1,0 +1,31 @@
+{
+  "artifact_id": "coupled-pursuit-assimilation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11212288,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6c7c41626dce3d73284620da90639671ce74170",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0197",
+  "input_manifests": [],
+  "kind": "raw-run-archive",
+  "limitations": [
+    "Private raw actor outputs and tool traces; no hosted deployment receipts."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:coupled-pursuit-assimilation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "34cae95060c37c7da622e4031dfdc6713978ecb77e41a07c1fe004ed8326acf2"
+}

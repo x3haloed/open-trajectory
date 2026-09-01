@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actor-authored-coupled-pursuit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1694,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6c7c41626dce3d73284620da90639671ce74170",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0197",
+  "input_manifests": [],
+  "kind": "actor-authored-substrate",
+  "limitations": [
+    "Actor prose uses prediction-target language; executable target is unambiguously latent-unblocked."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-authored-coupled-pursuit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e74005b746661dc1c9f7444a846f29e0feb04e6697c7300022711cd90ebaf6e0"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-coupled-pursuit-assimilation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 545430,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6c7c41626dce3d73284620da90639671ce74170",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0197",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Promoted subject opens mechanism invention; invented capability not yet demonstrated."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-coupled-pursuit-assimilation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4ab90697d555d42228076ed21c3c8a2ba98810028e672316dbece6e82b6bdc26"
+}

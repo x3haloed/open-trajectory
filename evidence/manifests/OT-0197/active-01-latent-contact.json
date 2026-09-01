@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-01-latent-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1642,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6c7c41626dce3d73284620da90639671ce74170",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0197",
+  "input_manifests": [],
+  "kind": "actor-authored-contact",
+  "limitations": [
+    "Bounded four-case contact; hidden consequence is retained in aggregate and subject."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-01-latent-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c0a0a1897332e112f733f2bf1ce1e281649e73849ed4a8fa27f228720b73a67d"
+}

@@ -401,6 +401,10 @@ The strongest footholds are:
   with observed-contact predicates and world scoring. A clean repair actor
   chooses the executable observed target, so the latent-only gate rejects before
   the cohort. The next repair must update stake and contact contract together.
+- `OT-0197`: a fresh actor retires the incoherent tuple and binds one executable
+  latent pursuit plus matching contact contract. Later actors produce aligned
+  contact 6/6 versus controls 2/6; no installed mechanism passes. Open successor
+  `4f154a4b...` therefore carries a direct mechanism-invention opening.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

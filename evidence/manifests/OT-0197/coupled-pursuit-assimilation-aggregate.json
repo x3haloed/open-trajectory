@@ -1,0 +1,31 @@
+{
+  "artifact_id": "coupled-pursuit-assimilation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 198644,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6c7c41626dce3d73284620da90639671ce74170",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0197",
+  "input_manifests": [],
+  "kind": "aggregate-result",
+  "limitations": [
+    "Bounded fresh-actor comparison under a synthetic set world."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:coupled-pursuit-assimilation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4a1f16b79e0a1c4eda6f5e16246e52dcd68fcdd78e047baca3adc335fa08e93e"
+}

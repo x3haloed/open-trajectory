@@ -2128,3 +2128,24 @@ repeat `observed-unblocked`. Then run matched fresh contact authors with the
 coupled binding present or erased. This tests whether the subject can repair the
 machinery that makes its own pursuits contactable, not whether an observer can
 choose latent contact on its behalf.
+
+OT-0197 promotes that coupled correction. The assimilation actor retires the
+incoherent tuple and binds `latent-unblocked` as both the machine-readable stake
+target and contact-contract target. Its prose uses some loose prediction-target
+language, but executable fields and behavior agree.
+
+Active successors author aligned contact 6/6 versus erased controls 2/6,
+advantage four. All thirteen audits, mismatch replay, route 16/16, and identity
+18/18 pass. Every installed mechanism fails all four hidden cases for every
+active contact. Open successor `4f154a4b...` retains active-01's sealed contact
+and a direct `open-mechanism-invention` operation.
+
+This is a genuine second update in the recurrence chain: retained consequence
+causes the subject to revise how pursuits bind contact, and the new machinery
+changes fresh successor behavior. The next missing capability is now concrete.
+Permit one bounded executable set-expression expansion capable of selecting
+`options - outcome - blocked`, prohibit prediction tokens as a source, bind the
+new mechanism only to the latent target, and execute it directly on the sealed
+contact. Promotion must preserve every previous route and identity floor. After
+that capability exists, require the subject—not the observer—to decide what
+remaining contact should follow its completion.
