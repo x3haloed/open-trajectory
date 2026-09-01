@@ -1,6 +1,6 @@
 # OT-0215 — artifact-conditioned semantic continuation
 
-- **Status:** design in progress; actors unauthorized
+- **Status:** frozen; not yet run
 - **Evidence class:** exploratory-only
 - **Target:** causal use of the carried subject position in choosing and
   completing the next semantic move
@@ -51,7 +51,12 @@ conditions match. The ablations are controls only and cannot replace the
 lineage. Their semantic-contact and opening identities must be checked
 mechanically before actor authorization.
 
-Use repeated fresh actors and counterbalanced repository presentation orders.
+Use three fresh actors per branch and three counterbalanced source-definition
+orders. The full branch's first actor is the prospective lineage actor; if its
+move passes sealed consequence, a fresh assimilator seals the operational
+successor before any control branch runs. The remaining eleven actors then
+complete the matched causal comparison.
+
 Every actor receives exactly one projection in an isolated fresh workspace.
 No actor sees another branch, branch label, expected target, sealed case, or
 score.
@@ -90,8 +95,17 @@ capacity-bearing recovery callable, a valid joint contact, a hidden-improving
 correction with no admitted regression, and a valid consequence-driven
 successor. Target words or prose similarity alone score zero.
 
-Freeze sample count, order schedule, exact hidden cases, scoring, and the
-between-branch decision rule before actors. Do not require every partial
+The environment contains `schedule_recovery`, `allocate_relief`, and
+`schedule_maintenance`, each with the same capacity-allocation shape and the
+same frozen case geometry. Every valid public fixture contains exactly three
+baseline errors corrected by the patch and one baseline-confirming boundary;
+every sealed six-case fixture contains exactly four correctable errors and two
+confirmations. Presentation order rotates across the three actors in each
+branch.
+
+The causal comparison requires at least two of three complete coherent moves in
+the full branch, at most one of three in the neither branch, and a strictly
+higher full-branch count. Do not require every partial
 ablation to fail: the opening may primarily orient target choice while the
 retained contact program primarily improves executable contact quality. The
 factorial result should expose those roles rather than force a single
@@ -99,12 +113,16 @@ all-or-nothing story.
 
 ## Promotion boundary
 
-Promotion requires the exact full-subject branch to yield a clean admitted
-successor and a predeclared branch comparison showing that carried subject
-content materially improves the primary endpoint or one of its mechanistic
-components. The exact parent remains the lineage whenever the full branch fails
-causal, audit, sealed-world, regression, or successor gates. Control outcomes
-never veto an already valid operational successor; they limit only the causal
+Operational promotion requires the prospective full-subject actor to select
+`schedule_recovery`, pass public 3+1 and sealed 4+2 contact, reach 6/6 corrected
+hidden behavior without changing any other function or module-level machinery,
+and yield a clean fresh-actor assimilation and conforming successor. The exact
+parent remains the lineage whenever that path fails an audit, world,
+regression, or successor gate. The successor is sealed before controls.
+
+The predeclared branch comparison separately determines whether carried subject
+content materially improved the primary endpoint. Control outcomes never veto
+an already valid operational successor; they limit only the causal
 interpretation.
 
 A pass would establish that the artifact does more than persist: its carried
