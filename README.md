@@ -374,6 +374,10 @@ The strongest footholds are:
   replication: contradiction-visible repairs pass 8/8 versus 3/8 controls,
   all sixteen audits pass, and open successor `8f29e6a8...` carries the
   directly executable repaired route.
+- `OT-0191`: the subject authors a novel post-repair stake and contact that
+  falsifies its predicted route. Active successors choose the exact correction
+  4/6 versus controls 0/6, but promotion rejects because prose stake conditions
+  leave route correction versus stake revision mechanically ambiguous.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

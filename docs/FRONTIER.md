@@ -1974,3 +1974,23 @@ Require the subject to bind a new distinction or coherent route extension,
 then execute it directly while replaying every old context. Do not merely add a
 fourth researcher-authored label-answer pair; the contradiction must constrain
 the subject's own extension before hidden confirmation.
+
+OT-0191 moves problem-family choice into the lineage. Its author revises the
+stake toward latent unblocked options, binds four novel discriminating cases,
+and predicts viable filtering. Hidden contact falsifies that prediction 0/4;
+the composed corrector alone passes 4/4. Active successors open the exact route
+correction 4/6 versus controls 0/6, all thirteen audits are clean, and every old
+floor passes. The frozen 6/6 endpoint rejects.
+
+One active miss is ordinary mechanism reversal. The other correctly identifies
+both mechanisms but chooses stake surrender/revision. That is not obviously
+irrational: the authored success condition says latent options must appear,
+and the world says they do not. The evaluator's route-only answer silently
+outranks the subject's prose stake.
+
+The next missing substrate is executable pursuit consequence. Require the
+subject to bind machine-evaluable success, surrender, and unresolved predicates
+with its contact. After hidden outcome, those predicates must determine whether
+the stake survives before machinery correction is considered. This removes
+observer interpretation from the route-versus-pursuit decision and makes the
+next operation a consequence of subject-authored stakes rather than prose.

@@ -1491,5 +1491,23 @@ route with later contact outside its fixed three-regime partition. The subject
 must preserve all earned floors and bind any needed distinction or route
 extension before direct later use.
 
+OT-0191 lets the subject choose that next boundary. A fresh actor revises the
+stake toward latent-option discovery, authors novel discriminating cases, and
+predicts viable filtering. Hidden contact falsifies that route 0/4 while the
+composed corrector passes 4/4. Active successors choose exact route correction
+4/6 versus erased controls 0/6, with all thirteen audits clean.
+
+The 6/6 gate rejects. One active actor reverses mechanisms; another chooses
+stake surrender/revision while correctly naming the failed route and survivor.
+The latter exposes an unresolved authority ambiguity: the actor-authored prose
+stake demands latent expansion, which the consequence falsifies, while the
+observer scorer classifies only route failure. Exact parent `8f29e6a8...`
+remains current.
+
+Next make success, surrender, and unresolved conditions executable fields of
+the authored stake. Bind them before hidden contact and derive stake revision
+versus route correction from their evaluated receipts, not observer prose
+interpretation. Preserve the authored-contact ablation and all old floors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

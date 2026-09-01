@@ -1,6 +1,6 @@
 # OT-0191 — subject-originated post-repair reopening
 
-- **Status:** design and executable conformance frozen; not run
+- **Status:** complete; rejected at active-unanimity endpoint
 - **Evidence class:** exploratory-only
 - **Target:** test whether the promoted subject can assimilate completed repair,
   choose its next falsifiable contact, and causally reopen useful motion without
@@ -72,3 +72,32 @@ gate passes. Passing would establish one subject-originated post-repair contact
 and causal reopening under a fixed driver. It would not yet establish repeated
 OT-2R recurrence, removal of the inherited case grammar, or autonomous world
 access beyond the bounded harness.
+
+## Result
+
+The author passes complete audit and produces a novel discriminating reopening.
+It revises the stake from preservation of observed contacts to discovery of
+latent unblocked options, authors four fresh cases, and predicts the installed
+viable route. Hidden contact falsifies that prediction 0/4; the composed
+observed-unblocked corrector alone passes 4/4. Prior route floor remains 16/16
+and identity remains 18/18.
+
+Four of six active successors choose the frozen exact operation—open route
+correction from viable filtering to the surviving composition—versus zero of
+six reopening-erased controls. All thirteen actors pass complete audit and the
+causal advantage is four, but active unanimity fails.
+
+One active miss reverses failed and surviving mechanisms. The other chooses
+`surrender-or-revise` while naming the correct failed and surviving mechanisms.
+That choice is substantively defensible: the actor-authored stake's prose
+success condition demands latent-option expansion, and hidden consequence
+falsifies it. The frozen scorer instead treats the event solely as route
+failure. Because success and surrender conditions are prose, the harness cannot
+mechanically decide which interpretation owns authority.
+
+No reopening is installed. Exact parent `8f29e6a8...` remains open. OT-0191
+rejects the 6/6 endpoint while showing a strong 4/6 versus 0/6 causal effect.
+The next test should require subject-authored stakes to bind executable outcome
+predicates for success, surrender, and unresolved contact before hidden
+consequence. The fixed driver can then derive stake revision versus machinery
+correction without interpreting prose.

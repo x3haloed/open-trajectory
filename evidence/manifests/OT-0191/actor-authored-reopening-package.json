@@ -1,0 +1,29 @@
+{
+  "artifact_id": "actor-authored-reopening-package",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3774,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3bf1987458a4aa5936756909c6105a2146223a5e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0191",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-authored-reopening-package",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9c15554b28b2cfcdafb8d133b9c6b0c322870d471091e608109c0ff028fe393d"
+}
