@@ -197,7 +197,7 @@ def router_seed(prior89, cycle_root, parent, corrected, binding, world, stage_in
     (seed / "bound-selected-contact.json").write_text(json.dumps(binding, indent=2, sort_keys=True) + "\n")
     (seed / "selected-world-consequence.json").write_text(json.dumps(actor_world, indent=2, sort_keys=True) + "\n")
     (seed / "selector.py").write_text(corrected)
-    (seed / "route-assimilation.json").write_text(json.dumps(prior23.route_template(), indent=2, sort_keys=True) + "\n")
+    (seed / "route-assimilation.json").write_text(json.dumps(prior22.route_template(), indent=2, sort_keys=True) + "\n")
     (seed / "successor-opening.json").write_text(json.dumps(prior89.successor_template(), indent=2, sort_keys=True) + "\n")
     (seed / "successor-opening-contract.json").write_text(json.dumps(prior89.successor_contract(), indent=2, sort_keys=True) + "\n")
     (seed / "continuation-action.json").write_text(json.dumps(kernel.foundation.prior.prior.action_template(), indent=2, sort_keys=True) + "\n")
