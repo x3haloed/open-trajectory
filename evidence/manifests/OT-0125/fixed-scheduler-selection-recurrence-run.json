@@ -1,0 +1,31 @@
+{
+  "artifact_id": "fixed-scheduler-selection-recurrence-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 501248,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4000eaeb7c189e9787a6e4b995c5ae30e4fbc21d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0125",
+  "input_manifests": [],
+  "kind": "fixed-scheduler-selection-recurrence-run",
+  "limitations": [
+    "Cycle one selector causation and authoritative consequence grounding passed, but recurrence stopped before promotion because the registry target omitted latency under a frozen dual-authority scheduler gate."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:fixed-scheduler-selection-recurrence-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a96880f0ccfc29208a13cbc98df36138b9c7359e6641559ad7546db1112c63a7"
+}

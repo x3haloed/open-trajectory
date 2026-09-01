@@ -138,6 +138,9 @@ The strongest footholds are:
 - `OT-0124`: one exact one-field correction under the published target ABI
   promotes the complete subject-selected contact transition and reopens on the
   grounded resource-scarcity extension.
+- `OT-0125`: the first fixed-scheduler cycle preserves recovery latency in the
+  authoritative opening but rejects before promotion on a duplicated semantic
+  routing requirement imposed on the registry id.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

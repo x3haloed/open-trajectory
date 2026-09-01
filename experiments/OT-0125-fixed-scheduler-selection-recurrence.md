@@ -1,6 +1,6 @@
 # OT-0125 — fixed-scheduler selection recurrence
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** recur the complete subject-selection/contact/route/continuation
   loop without experiment-specific intervention between cycles
@@ -93,3 +93,24 @@ including fresh actors and decisive selector controls, without between-cycle
 researcher intervention. It would not establish an open-ended scheduler,
 subject-authored world generation, arbitrary-domain transfer, or indefinite
 continuation.
+
+## Result
+
+Cycle one's selection and consequence assimilation were substantively strong.
+The exact corrected selector chose the sealed oracle-ranked
+`resource-scarcity-joint`; its pre-correction control chose the lower-value
+overbuilt contact. The one fresh actor had a clean, exact, truthful trace,
+cited all four exact cases, retained the selector, routed `extend`, and grounded
+recovery latency in the route, remaining uncertainty, continuation after
+contact, authoritative next opening, expected information, rationale, and
+surrender condition.
+
+The frozen recurrence gate rejects before promotion because the compact valid
+registry id `resource-scarcity-recovery-boundary` omits `latency`. No cycle-two
+or cycle-three actor was authorized. This isolates duplicated scheduling
+authority: the machine-facing registry target and the developmental
+`next_opening` were both required to encode the complete semantic routing key.
+The exact evidence shows that `next_opening` preserved the full stake while the
+registry id preserved valid dispatch identity. Retain the cycle-one bytes and
+prospectively make the authoritative continuation—not the registry id—the sole
+semantic scheduler input before continuing recurrence.

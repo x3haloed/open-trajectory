@@ -542,5 +542,15 @@ The next dependency is recurrence: can the promoted subject again cause which
 contact opens under a fixed scheduler without a researcher selecting the next
 surface or patching another unpublished ABI?
 
+OT-0125 starts that recurrence but rejects at cycle one. Selector causation,
+oracle choice, exact consequence grounding, and the authoritative recovery-
+latency opening all pass; the compact registry target omits `latency`, so the
+frozen scheduler refuses promotion and authorizes no later actor. This exposes
+duplicated authority rather than lost continuity: `action_target` owns registry
+identity while `next_opening` owns the full developmental stake. The next test
+should re-audit the exact cycle-one bytes under that prospectively separated
+authority and let `continuation.next_opening` alone select the remaining frozen
+scheduler nodes.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

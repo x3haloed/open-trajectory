@@ -723,6 +723,22 @@ resource-scarcity pursuit and let the promoted subject again choose, receive
 consequence, and transition without a researcher selecting the surface or
 repairing the transition between cycles.
 
+OT-0125 rejects before its first promotion. The subject selector still causes
+the oracle-ranked contact while its exact pre-correction control selects the
+inferior decoy. The fresh actor then cleanly grounds recovery latency throughout
+the authoritative continuation, but its valid compact registry id is
+`resource-scarcity-recovery-boundary` and omits the word `latency`. The frozen
+driver required both the registry id and `next_opening` to carry the full
+scheduler concept pair, so later actors were correctly not authorized.
+
+This is duplicated authority. `action_target` identifies a registry extension;
+`continuation.next_opening` carries the developmental question that should wake
+and route the next turn. Requiring both to be lossless semantic mirrors creates
+an unnecessary synchronization edge. Preserve the exact OT-0125 cycle-one
+output, prospectively make `next_opening` the sole semantic scheduler authority,
+retain structural/newness validation for `action_target`, and continue the
+remaining fixed nodes without resampling cycle-one selection or consequence.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -822,6 +838,9 @@ repairing the transition between cycles.
 - Publishing that final target ABI now yields an exact open subject after the
   subject-selected contact; recurrence of the whole selection/contact/route
   mechanism remains unestablished.
+- The first fixed-scheduler recurrence attempt preserves the next stake in the
+  authoritative opening but reveals a duplicated semantic-routing requirement
+  on the registry id; no second-cycle actor was authorized.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

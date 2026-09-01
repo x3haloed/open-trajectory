@@ -1,0 +1,31 @@
+{
+  "artifact_id": "fixed-scheduler-selection-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7503,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4000eaeb7c189e9787a6e4b995c5ae30e4fbc21d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0125",
+  "input_manifests": [],
+  "kind": "fixed-scheduler-selection-recurrence-result",
+  "limitations": [
+    "Zero cycles promoted; no cycle-two or cycle-three actor was authorized. The authoritative next opening carried recovery latency while the registry target did not."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:fixed-scheduler-selection-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a52ddb0962b8df7cfe04bebc22dabc334b8f6f3964a6a3a6ba8fa25d950e0287"
+}
