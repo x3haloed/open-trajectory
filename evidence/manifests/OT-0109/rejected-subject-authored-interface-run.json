@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-subject-authored-interface-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 386048,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f40b6b7d83bc6e0301bb5cb257e1b6ba391f7c7c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0109",
+  "input_manifests": [
+    "evidence/manifests/OT-0108/open-subject-after-registry-exit.json"
+  ],
+  "kind": "subject-authored-interface-admission",
+  "limitations": [
+    "One clean actor package rejected before binding; no hidden cases, world contact, assimilation, or successor promotion."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-subject-authored-interface-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1f71d70994b16a0dc3e05c9587a1d005defe9a0349c214af48f005bcd2666395"
+}

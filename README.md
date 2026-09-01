@@ -93,6 +93,10 @@ The strongest footholds are:
   new registry-extension pursuit while its history-erased control selected a
   registered interface, yielding an exact open successor for interface
   invention and admission.
+- `OT-0109`: one rejected end-to-end interface attempt whose clean actor
+  authored a working consequential and reversible operation/contact pair, but
+  stopped on an unpublished declaration type and a public validator that
+  omitted published upper bounds.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

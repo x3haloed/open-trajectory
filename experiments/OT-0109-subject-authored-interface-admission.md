@@ -1,6 +1,6 @@
 # OT-0109 — subject-authored interface admission
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; rejected before package binding
 - **Evidence class:** exploratory-only
 - **Target:** end-to-end subject-authored expansion of the contact registry
 - **Parent:** exact OT-0108 subject at
@@ -102,3 +102,33 @@ OT-0108 parent. Stop after the operational path. Passing would establish one
 bounded subject-authored registry expansion through independent admission and
 use. It would not establish open-domain interface invention, autonomous
 admission authority, selection frequency, or indefinite continuation.
+
+## Result
+
+Three implementation defects stopped before model inference and were repaired
+without consuming the scientific actor: the inherited history projector did
+not recognize newer continuation-action receipts, and the hosted response
+schema subset rejected two otherwise valid JSON Schema constructs. Their raw
+traces are retained separately.
+
+The single package actor then completed cleanly, changed exactly the four
+authorized files, and reported them truthfully. It chose `context_penalty` and
+`option_burden`, authored a strict-looking validator, implemented the composed
+score, and produced three unique cases.
+
+The package was rejected before binding. Its `reversible_projection` value was
+a truthful descriptive string, while the independent validator required the
+undisclosed literal Boolean `true`. This is an apparatus ABI defect, not
+evidence against package reversibility. Post hoc replacement of only that value
+with `true` makes the exact contact pass every coverage gate; the exact
+operation matches the independent oracle on all three cases and passes every
+zero-boundary reversibility check.
+
+A second, substantive defect remains: the actor-authored public validator
+checks nonnegativity but omits the published upper bounds, so it accepts the
+frozen out-of-range mutation. Under the frozen no-repair rule, no package was
+bound, no hidden seed was generated, and no world or assimilation actor ran.
+The exact OT-0108 subject remains open. The next experiment should repair the
+apparatus type boundary, carry the exact package and explicit public-contract
+failure into one fresh correction, and resume independent admission without a
+replacement proposal.

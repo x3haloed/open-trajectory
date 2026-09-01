@@ -187,6 +187,11 @@ condition, not the permanent purpose or executive of the resulting subject.
   successor, while a post-seal history-erased control selects the registered
   allocator challenge. This isolates one bounded history-conditioned registry
   exit, not successful interface invention or admission.
+- `OT-0109` follows that extension into a clean four-file interface package.
+  Its operation, cases, consequential boundary, and reversibility work post
+  hoc, but binding stops on an unpublished Boolean-only declaration field. Its
+  public validator also omits published upper bounds. No hidden contact occurs;
+  the exact OT-0108 parent remains open for package correction.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -384,6 +389,12 @@ The exact open subject now requires a new `joint-capability-frontier` interface.
 The next record should let a fresh successor author that interface and its
 public executable contract, bind it before hidden consequence, and require
 independent admission and successful use before promotion.
+OT-0109 authors the package but rejects it before binding. The first failure is
+an observer-only representation choice for the reversibility declaration; the
+remaining public validator genuinely accepts out-of-range values. The next
+record should accept the exact descriptive declaration, bind the retained
+package, expose the bounds disagreement to one fresh corrector, and resume the
+same admission path without resampling the proposal.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

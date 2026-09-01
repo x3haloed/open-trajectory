@@ -478,6 +478,21 @@ novelty, reversibility, public-contract agreement, and oracle behavior, then
 admits and uses it before a separate fresh assimilation. There is no repair or
 replacement proposal inside the record.
 
+OT-0109 rejects before package binding. After three preserved pre-inference
+implementation repairs, the one scientific actor cleanly authors all four
+files. Its exact operation and contact pass post hoc oracle, coverage, and
+reversibility checks. The gate nevertheless required an undisclosed Boolean
+`reversible_projection` while the actor supplied a truthful descriptive string.
+After that apparatus mismatch is removed, one substantive error remains: the
+public validator omits the published numeric upper bounds and accepts the
+frozen out-of-range mutation.
+
+The next experiment should retain rather than replace this package. Broaden the
+declaration semantics, bind the exact clean output, give its exact public-
+contract disagreement to one fresh corrector with authority over only
+`conformance.py`, and then resume the already-frozen hidden admission, contact,
+and assimilation path if the corrected contract passes.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -542,6 +557,9 @@ replacement proposal inside the record.
 - One active successor has now selected a pursuit outside that registry, while
   a history-erased control stayed inside it. No subject-authored interface
   package has yet passed independent admission or caused contact.
+- One clean subject-bound actor has authored a substantively working new
+  operation and contact, but its public contract has not yet passed independent
+  conformance or reached hidden admission.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

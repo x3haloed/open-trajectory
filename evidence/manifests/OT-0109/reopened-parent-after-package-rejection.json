@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-package-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 233857,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f40b6b7d83bc6e0301bb5cb257e1b6ba391f7c7c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0109",
+  "input_manifests": [
+    "evidence/manifests/OT-0108/open-subject-after-registry-exit.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact OT-0108 parent reopened after package conformance rejection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-package-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ed088039df81c86fca24bd707766090f74e99e0f75010c0da780f6ecfb974bfb"
+}

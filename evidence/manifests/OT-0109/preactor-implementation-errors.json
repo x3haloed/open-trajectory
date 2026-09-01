@@ -1,0 +1,33 @@
+{
+  "artifact_id": "preactor-implementation-errors",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 215552,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f40b6b7d83bc6e0301bb5cb257e1b6ba391f7c7c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0109",
+  "input_manifests": [
+    "evidence/manifests/OT-0108/open-subject-after-registry-exit.json"
+  ],
+  "kind": "experiment-preflight-errors",
+  "limitations": [
+    "Three preserved pre-inference launcher failures repaired before the single scientific actor attempt: mixed receipt projection and two response-schema compatibility defects."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:preactor-implementation-errors",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c01420cddb1822e67fbfab0dcc2cb096dd2a6b307320f5fd23911a2feeca03b1"
+}
