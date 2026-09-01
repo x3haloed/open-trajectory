@@ -1,6 +1,6 @@
 # OT-0188 — truthful retain/revise receipt-effect replication
 
-- **Status:** design and executable conformance frozen; not run
+- **Status:** stopped before actor authorization; response schema rejected
 - **Evidence class:** exploratory-only
 - **Target:** repeat OT-0187's invalid comparison after making exact retention
   and one-file revision equally truthful, auditable actor actions
@@ -50,3 +50,19 @@ establish a replicated consequence-associated increase in correct route
 revision plus direct operative use. It would not show receipt exclusivity,
 autonomous regime discovery, interpreter self-revision, or indefinite
 recurrence. A valid rejection ends resampling of this contrast.
+
+## Operational result
+
+The first driver invocation stops before model execution. The actor response
+format API rejects the top-level `oneOf` in the frozen report schema with
+`invalid_json_schema`. The retained event stream contains a thread start,
+turn start, schema error, and failed turn; no actor output or branch result
+exists. Fresh actor count is zero.
+
+OT-0188 therefore has no empirical outcome and cannot promote or reject the
+receipt-effect claim. Exact parent `40818aa8...` remains current. A new-ID
+successor should use a flat API-supported schema with `action` as an enum and
+`files_changed` allowing zero or one route path, while enforcing the two legal
+cross-field combinations in the frozen local conformance predicate. Its
+preflight must explicitly reject response schemas containing unsupported
+composition keywords before any actor runtime call.

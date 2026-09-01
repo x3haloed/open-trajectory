@@ -1,0 +1,29 @@
+{
+  "artifact_id": "truthful-retain-revise-pre-actor-stop",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 516,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8bef420470c398658a6f6ddb8fd287112867376b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0188",
+  "input_manifests": [],
+  "kind": "experiment-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:truthful-retain-revise-pre-actor-stop",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "859c235b7a9fc1f83e7e9b720053df5177aaaf56a7e59ada21d1a7f1ed26a123"
+}
