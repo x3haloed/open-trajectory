@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-known-9-of-10-corrected-semantic-guide",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2809,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "59105b014c62d1e0df1940542a439a89653cc86e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0167",
+  "input_manifests": [
+    "evidence/manifests/OT-0167/consequence-corrected-semantic-guide-aggregate.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Clean 2,809-byte guide repairs ordinary floor but misses one accepted-history dependency."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:exact-known-9-of-10-corrected-semantic-guide",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f73334652d169d601728919a01aff42e20e5a812ab72233eb62356703b0768c5"
+}

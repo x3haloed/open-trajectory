@@ -281,6 +281,10 @@ The strongest footholds are:
   guide present 8/10 versus erased 6/10, with dependency selection 5/5 versus
   1/5. The guide also harms two ordinary routes, so it is retained for
   consequence correction rather than installed.
+- `OT-0167`: one clean guide successor repairs the ordinary floor to 5/5 but
+  over-tightens dependency evidence, reaching known 9/10 and dependency 4/5.
+  Hidden comparison remains unopened; the exact guide becomes the next
+  correction parent.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

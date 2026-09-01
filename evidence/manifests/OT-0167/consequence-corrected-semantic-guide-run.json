@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-corrected-semantic-guide-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 400042,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "59105b014c62d1e0df1940542a439a89653cc86e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0167",
+  "input_manifests": [
+    "evidence/manifests/OT-0166/single-authority-semantic-guide-test-aggregate.json"
+  ],
+  "kind": "run-archive",
+  "limitations": [
+    "Fresh guide correction reaches known 9/10; hidden comparison remains unopened."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-corrected-semantic-guide-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7bd6cd7c545b09ef0781e2bcc7a4177d051527dbff4a4b7f68800af02e784fca"
+}

@@ -1142,5 +1142,16 @@ false overrides, require the complete known dependency gain and ordinary floor,
 then bind before a new matched single-authority portfolio. Compare the unchanged
 8/10 guide after sealing.
 
+OT-0167 performs that correction cleanly. The revised guide fixes both ordinary
+false overrides and reaches ordinary 5/5, but over-tightens the dependency
+boundary: `complete accepted history` is not treated as explicit earned-floor
+evidence, so one real filter dependency falls back to branch expansion. Known
+score is 9/10 and hidden comparison remains unopened.
+
+Preserve the exact 2,809-byte guide and receipt. A fresh successor should add
+accepted/proven history and established behavior as explicit floor evidence
+without weakening the rule against inventing an unstated prior composition or
+floor. Require known 10/10 before opening the unchanged hidden comparison.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

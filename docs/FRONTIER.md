@@ -1438,6 +1438,17 @@ single-authority matched portfolio, and score the unchanged 8/10 guide only
 after sealing. This is now a direct consequence-driven artifact-correction
 test, not another representation search.
 
+OT-0167 cleanly corrects the guide and stops at its known gate. Ordinary routes
+rise from 3/5 to 5/5, but dependencies fall from 5/5 to 4/5 because `complete
+accepted history` is not recognized as explicit earned-floor evidence. Known
+score is 9/10; no hidden actor runs and nothing is installed.
+
+Preserve the exact 2,809-byte successor guide. The next fresh corrector should
+amend only the explicit floor boundary so accepted/proven history and
+established behavior count, while continuing to forbid invention of an
+unstated prior composition or history. Keep the 10/10 known gate and the same
+sealed hidden comparison.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

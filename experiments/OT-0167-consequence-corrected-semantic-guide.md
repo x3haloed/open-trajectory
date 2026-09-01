@@ -46,3 +46,19 @@ Passing would establish consequence-driven improvement of a causally active
 artifact, correction of its observed harm, and operational routing of the
 current stake. It would not yet establish exact later scheduler reuse or
 correction under a distinct later regime.
+
+## Result
+
+The fresh guide corrector passed complete trace and effects audit, changed only
+`selection-guide.md`, and truthfully produced a 2,809-byte guide. Ten fresh
+known-floor actors all passed audit. The correction repaired both ordinary
+false overrides and reached ordinary 5/5, but lost one dependency:
+`sole-enumerate-through-filter` routed to the branch carrier because its
+`complete accepted history` was not recognized as explicit earned-floor
+evidence. Known score was 9/10, dependency 4/5.
+
+The corrected binding gate therefore did not open and no hidden actor ran. No
+guide was installed; exact OT-0156 remains current, sounding, and open. Preserve
+the exact provisional guide and 9/10 receipt. The next correction should admit
+explicit accepted/proven history and established behavior as floor evidence
+while retaining the prohibition on inventing unstated composition or history.
