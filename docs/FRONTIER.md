@@ -534,6 +534,11 @@ it. Repair only the module-depth lookup, reconstruct and bind the exact package
 and receipts, then resume the frozen assimilation and automatic second-cycle
 path under the unchanged generic kernel.
 
+OT-0112 freezes that exact recovery. It repairs only the inherited constant
+lookup, begins at the never-run cycle-one assimilation, seals any valid
+successor, and opens the unchanged generic second-cycle machinery only if that
+successor itself binds another registry extension.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
