@@ -302,6 +302,18 @@ should make the third-stage receipt the next developmental input, bind a third
 correction, and require a fourth disjoint gate before admitted contact. Do not
 reset to the original allocator or sample replacements.
 
+OT-0099 continues the same exact bytes. A third fresh actor uses the two sealed
+failures to correct regret direction without regressing composition priority,
+expansion, filters, or stable ties. The new rule passes seven of nine fourth-stage
+cases. Its sole remaining error is raw floor count: it still distinguishes four
+floors from two after both cross the selector's two-or-more threshold.
+
+The next experiment should bind this third revision, carry both threshold-order
+failures as consequence, and require a fourth fresh correction to pass a fifth
+disjoint gate before implementation. The repeated directional changes are now
+the central evidence; the lineage should not reset before it either reaches
+operational promotion or stops improving.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -350,6 +362,9 @@ reset to the original allocator or sample replacements.
 - A second consequence and fresh corrector improved that rule across most new
   cases, while two exact semantic errors remained. Multi-update correction is
   now observed directionally but not yet promoted into the subject.
+- A third consequence corrected regret direction and left only threshold
+  semantics failing. The machinery is converging across exact fresh-actor
+  successors, but no corrected allocator has yet been promoted.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

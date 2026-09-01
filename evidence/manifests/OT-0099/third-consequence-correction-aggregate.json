@@ -1,0 +1,33 @@
+{
+  "artifact_id": "third-consequence-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10964,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1998da6219bf28a615e216f407ef316b40b64515",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0099",
+  "input_manifests": [
+    "evidence/manifests/OT-0098/iterated-allocation-correction-aggregate.json"
+  ],
+  "kind": "third-consequence-allocation-correction-result",
+  "limitations": [
+    "Seven of nine fourth-stage cases passed; implementation and control did not run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:third-consequence-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b8245e313ff102c75f2e7b7ba319b4f420920723f42e9327eb2ba4a6df550f58"
+}

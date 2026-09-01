@@ -63,6 +63,8 @@ The strongest footholds are:
 - `OT-0098`: one rejected iterated-correction run whose second fresh corrector
   improved the allocator to six of eight disjoint cases while leaving two
   semantic errors.
+- `OT-0099`: one rejected third-correction run that fixed regret direction and
+  reached seven of nine new cases, leaving only Boolean-threshold semantics.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

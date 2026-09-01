@@ -1,6 +1,6 @@
 # OT-0099 — third-consequence allocation correction
 
-- **Status:** frozen; unexecuted
+- **Status:** executed; rejected
 - **Evidence class:** exploratory-only
 - **Target:** OT-1C multi-update selection-machinery improvement
 - **Parent:** exact OT-0092 open subject, reopened by OT-0098 rejection
@@ -60,3 +60,35 @@ successive world consequences improve selection machinery enough to govern and
 survive an admitted subject transition. It would not establish open-domain or
 unbounded recurrence, subject ownership of admission or scheduling, or
 indefinite operation.
+
+## Result
+
+The third fresh corrector cited both sealed third-stage failures, changed only
+`allocate.py` and `correction.json`, retained joint selection, and produced a
+clean, truthful, contained, mechanically derived revision. It corrected public
+regret from negative to positive urgency while preserving composition-first
+ranking, expansion, rejection filters, and stable id.
+
+The bound revision passed positive regret, composition dominance, composition
+expansion, invalidity, held/irreversible rejection, and both stable-id orders.
+It still ranked raw completed-floor count, so four floors defeated two despite
+both satisfying the retained threshold. Both Boolean-threshold orders failed;
+seven of nine fourth-stage rows passed.
+
+The correction gate rejected before implementation. No assimilation, control,
+or promotion ran. The exact parent remains sounding and open at digest
+`242939d5c83a8897f081d12743c084ddd0f640a9d78d29764660822a982ac795`.
+
+## Learned boundary
+
+The third consequence caused another correct directional update: the actor
+fixed one of the two remaining semantic dimensions without regressing the
+others. The executable machinery has improved across three fresh correctors,
+from recovery selection, to local floor sensitivity, to composition-first, to
+correct regret direction. Only threshold semantics remains.
+
+The next experiment should bind this third revision and its exact fourth-stage
+receipt, give a fourth fresh corrector the two threshold failures, and require a
+fifth disjoint gate before admitted contact. This is not favorable resampling:
+each successor inherits the previous actor's exact bytes and only newly sealed
+consequence.

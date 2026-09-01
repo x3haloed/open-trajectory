@@ -1,0 +1,33 @@
+{
+  "artifact_id": "reopened-parent-after-third-correction-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 199395,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1998da6219bf28a615e216f407ef316b40b64515",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0099",
+  "input_manifests": [
+    "evidence/manifests/OT-0098/reopened-parent-after-iterated-correction-rejection.json"
+  ],
+  "kind": "subject-checkpoint",
+  "limitations": [
+    "Exact parent remains authoritative because OT-0099 rejected before promotion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reopened-parent-after-third-correction-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9c52deedb8be0727854e8e2558e2d9cdd95c509003dd505078608cf167a175d0"
+}
