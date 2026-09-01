@@ -1,6 +1,6 @@
 # OT-0131 — subject-originated contact beyond the closed graph
 
-- **Status:** frozen; unexecuted
+- **Status:** completed; invalid apparatus observation
 - **Evidence class:** exploratory-only
 - **Target:** originate, bind, consequence, and retain one useful contact outside
   the OT-0130 three-node world graph
@@ -88,3 +88,31 @@ outside the fixed OT-0130 graph and returns through the compact carrier. It
 would not establish open-domain search, arbitrary-world validity, contact
 frequency, indefinite operation, subject-authored compiler evolution, or
 subject ownership of world and admission authority.
+
+## Result
+
+The active contact author completed cleanly and changed only the proposal. It
+selected `reserve_for_context` from the complete source and authored two
+cross-context adversarial interleavings plus one same-behavior control. The
+proposal was bound before reference output. Independent consequence then
+confirmed exact installed/reference results `16/5`, `27/9`, and `4/4`, so the
+originated contact was decisive and exactly aligned with the inherited
+demand-volatility transfer opening.
+
+The fresh consequence router also completed cleanly. It selected `extend`,
+cited all three exact cases, retained the selector bytes, and authored the new
+uncertainty: “Whether this context-local reserve boundary transfers to
+materially different context pairs and demand patterns remains unresolved.”
+
+The observer then raised `AttributeError` while checking the deterministic
+opening because it looked for `prior89` as a module attribute instead of using
+the already loaded runtime value. This occurred after meaningful actor output
+but before the compiled route could bind, the subject could promote, or the
+post-seal control could run. OT-0131 therefore has no operational or causal
+disposition. Its exact actor outputs remain useful retained evidence but are not
+promoted.
+
+The next record may correct only that observer lookup and re-audit the retained
+proposal, consequence, route, traces, and compiler output without authorizing a
+replacement active actor or resampling the world. If exact promotion succeeds,
+only then may it authorize the already-frozen post-seal control.

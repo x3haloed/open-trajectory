@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-originated-contact-apparatus-failure-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 303616,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7337f60f244b7093514754db89acb27f3d2ab779",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0131",
+  "input_manifests": [],
+  "kind": "experiment-run",
+  "limitations": [
+    "The active contact and route actors completed and are retained, but an observer module-attribute error stopped validation before compilation binding, promotion, and the post-seal control; OT-0131 has no valid operational disposition."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:subject-originated-contact-apparatus-failure-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f10823da02e986078f87438b19ad5ae5f362dc8c18e033752059c65415f41f71"
+}
