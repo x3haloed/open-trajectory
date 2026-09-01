@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-selector-hidden-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 459953,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "21a506968dbae92f8eac0fcf9f101001c8b878b5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0160",
+  "input_manifests": [
+    "evidence/manifests/OT-0160/complete-selector-runtime-reconstruction-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Unchanged exact OT-0156 subject; failed selector was not installed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-selector-hidden-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1acad03537168887a1d3abff22a7663d62a08c392c565995da48aee60532933e"
+}

@@ -254,6 +254,10 @@ The strongest footholds are:
 - `OT-0159`: exact reconstruction admits only that `re` import, then rejects
   public execution 0/4 because the evaluator's safe builtins also omitted
   `next`. Hidden cases remain sealed and the exact subject is unchanged.
+- `OT-0160`: the complete minimal runtime reaches the frozen hidden test. The
+  exact selector passes public 4/4 and hidden 4/6 versus property-only 3/6;
+  exact-phrase dependency matching fails two paraphrased extension cases, so
+  nothing is installed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

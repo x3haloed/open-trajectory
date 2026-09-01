@@ -1067,5 +1067,17 @@ disclosed safe builtins, reconstruct the exact retained source and unchanged
 public portfolio without another actor, and preserve every hidden case,
 candidate, score, control, parent, and promotion gate.
 
+OT-0160 completes that runtime and reaches the frozen hidden comparison. The
+exact retained source passes public 4/4, then hidden 4/6 versus the unchanged
+property-only selector's 3/6. All ordinary routes pass, but only one of three
+extension-dependent cases routes correctly.
+
+The failed cases express the dependency as `compatibility-certified extension`
+and `retained extension`; the selector recognizes only exact candidate
+capability phrases. Treat this as grounded selector contradiction. Preserve the
+public-valid binding and sealed hidden receipt, expose the failure to one fresh
+corrector under the now-published runtime, require the old 4/6 result as a
+control, and retain ordinary-route and input-preservation floors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "complete-selector-runtime-reconstruction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9723,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "21a506968dbae92f8eac0fcf9f101001c8b878b5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0160",
+  "input_manifests": [
+    "evidence/manifests/OT-0158/exact-public-valid-selector-source.json"
+  ],
+  "kind": "test-result",
+  "limitations": [
+    "One frozen hidden portfolio; exact phrase selector improves on property-only but misses two paraphrased dependencies."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:complete-selector-runtime-reconstruction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6841982d9ab17699b2e55f37e9eecaba33ceee41a26f00e490cd224a05d5df25"
+}

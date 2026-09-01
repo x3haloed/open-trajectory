@@ -1,0 +1,33 @@
+{
+  "artifact_id": "complete-selector-runtime-reconstruction-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 107874,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "21a506968dbae92f8eac0fcf9f101001c8b878b5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0160",
+  "input_manifests": [
+    "evidence/manifests/OT-0159/exact-selector-abi-reconstruction-aggregate.json"
+  ],
+  "kind": "run-archive",
+  "limitations": [
+    "Exact selector passes public 4/4 but hidden only 4/6; no selector promotion."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:complete-selector-runtime-reconstruction-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "58f9d3f01bd5c2613174cf4e9b15517d4630dcdeeefa86959c1a78452bf4e84d"
+}

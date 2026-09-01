@@ -1352,6 +1352,22 @@ parent, portfolios, candidates, answers, old-selector control, hidden seal, and
 promotion gate. This is still apparatus-contract repair, not selector
 resampling or evidence against the retained candidate.
 
+OT-0160 reaches the frozen selector test. The exact candidate passes public 4/4
+and hidden 4/6, improving on property-only 3/6 but missing the 6/6 gate. All
+ordinary routes pass. Exact capability-phrase matching recognizes `identity
+gated filtering`, but not the paraphrased extension dependencies
+`compatibility-certified extension` and `retained extension`; those cases fall
+back to their harmful coarse properties. No selector is installed and exact
+OT-0156 remains current and open.
+
+The next record should treat the sealed 4/6 result as consequence against the
+public-valid selector. Give one fresh corrector the exact source, published
+runtime contract, public portfolios, and complete failed hidden receipt.
+Require a source change that reaches a frozen correction portfolio while
+preserving all four public cases, all three ordinary hidden routes, presented-id
+and input-preservation constraints. Bind before a new held-out paraphrase
+portfolio; compare the unchanged 4/6 selector only after sealing.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

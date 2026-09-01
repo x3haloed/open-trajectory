@@ -44,3 +44,23 @@ Passing would establish one dependency-aware selector correction and hidden
 generalization under an explicit executable ABI. It would not establish exact
 later subject use, correction after later selector harm, or open-ended mechanism
 discovery.
+
+## Result
+
+The complete runtime reconstruction reached the intended causal test and
+rejected the exact selector. It reproduced public 4/4, bound the exact retained
+source, and opened the unchanged hidden portfolio. Hidden score was 4/6 versus
+the property-only control's 3/6.
+
+All three ordinary fixed routes passed. Of the three substantive extension
+dependencies, only the case containing the exact phrase `identity gated
+filtering` routed to the extension. `compatibility-certified extension` and
+`retained extension` did not match the candidate's exact capability phrases, so
+the selector fell back to their coarse reset and correction properties. Inputs
+remained unchanged and every observed id was presented.
+
+This is negative selector evidence, not another apparatus failure. No selector
+or capability was installed and exact OT-0156 remains current, sounding, and
+open. The retained candidate nevertheless improves the frozen hidden score by
+one case and localizes the defect: lexical phrase equality does not recover
+substantive dependencies expressed by nearby but non-identical language.
