@@ -1,6 +1,6 @@
 # OT-0175 — exact operative-status replication
 
-- **Status:** frozen; not run
+- **Status:** complete; rejected and amendment hypothesis falsified
 - **Evidence class:** exploratory-only
 - **Target:** test whether OT-0174's exact reactivation amendment has a stable
   causal effect over its immediate parent
@@ -35,3 +35,25 @@ ancestors, cite OT-0174's broader final-versus-original receipt and this local-
 effect receipt, preserve the active correction stake and every unauthorized
 field, and leave the subject sounding open. Exact later contact remains
 required.
+
+## Result
+
+All 32 fresh actors pass complete trace and effects audit. The exact final guide
+scores 14/16: active-operation 7/8 and defeated-history 7/8. Its immediate
+parent scores 15/16: active-operation 8/8 and defeated-history 7/8.
+
+Both guides mistake a receipt replay proving revocation for
+`prediction-corrector` rather than `reset-carrier`. The final guide additionally
+mistakes returning a named learned membership operation to active use with its
+certified outcomes for ordinary reset. It is one case worse than its parent,
+not three cases better.
+
+No guide is installed and exact open subject `3770a9d5...` remains current.
+Together with OT-0174's zero immediate-parent advantage, this falsifies the
+3,823-byte operative-status amendment as a stable improvement.
+
+Do not continue lexical patching by default. The recurring failure is that
+fresh actors must infer mechanism authority status from prose. The next
+candidate should carry explicit consequence-authored status—operative,
+surrendered, or history-only—and distinguish active floor authority from a
+retained regression floor, then ablate that typed status under matched contact.

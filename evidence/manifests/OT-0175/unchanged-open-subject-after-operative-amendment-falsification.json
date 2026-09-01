@@ -1,0 +1,29 @@
+{
+  "artifact_id": "unchanged-open-subject-after-operative-amendment-falsification",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 479903,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bd26250817da0ab7ab6178c99c4d1914527aff89",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0175",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-operative-amendment-falsification",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c6cbeff13a7c69b2124337c1cdbe6038cca9aaa71fee14ef98f59ee5a270a303"
+}

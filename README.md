@@ -315,6 +315,10 @@ The strongest footholds are:
   original installed guide's 9/12. Its immediate parent also reaches hidden
   12/12, so the frozen immediate-effect gate fails and the exact 3,823-byte
   guide is retained but not installed.
+- `OT-0175`: exact local-effect replication reverses the apparent amendment:
+  final guide 14/16 versus immediate parent 15/16. The final guide adds one
+  active-operation miss while both share one defeated-history miss, falsifying
+  further lexical amendment as the default direction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

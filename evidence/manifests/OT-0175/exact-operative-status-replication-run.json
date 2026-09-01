@@ -1,0 +1,29 @@
+{
+  "artifact_id": "exact-operative-status-replication-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 968623,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bd26250817da0ab7ab6178c99c4d1914527aff89",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0175",
+  "input_manifests": [],
+  "kind": "run-archive",
+  "limitations": [],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:exact-operative-status-replication-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f75e237001ad2a53ec446f02374a90ac66907e6cfaa2ab894d535dc3fc44cb8f"
+}

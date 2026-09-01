@@ -1,0 +1,29 @@
+{
+  "artifact_id": "exact-operative-status-replication-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 119423,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bd26250817da0ab7ab6178c99c4d1914527aff89",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0175",
+  "input_manifests": [],
+  "kind": "test-result",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-operative-status-replication-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9c4c418feb49e939f4dca6214328a2d9ed3940809c1c8127d0c8e6068e793b47"
+}

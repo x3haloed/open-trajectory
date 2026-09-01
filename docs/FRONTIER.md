@@ -1550,6 +1550,26 @@ that directly contrasts affirmative restoration/reactivation/replay/resumption
 of named composition plus floor against similarly worded defeated-history
 cases. Do not infer the missing local effect from the broader 12–9 result.
 
+OT-0175 falsifies that amendment on the targeted replication. The final guide
+scores 14/16 and its immediate parent 15/16. Both fail one defeated-history
+receipt case; the final guide additionally fails one explicit return-to-active-
+use dependency. No guide is installed and exact subject `3770a9d5...` remains
+current.
+
+The frontier is no longer another prose edit. Across OT-0172–OT-0175, fresh
+actors repeatedly reconstruct whether a mentioned composition and floor are
+active authority or retained history, and small wording changes move errors
+rather than eliminating them. This is evidence that the current prose-only
+stake projection does not reliably carry the authority distinction.
+
+The next candidate should let consequence author a compact typed authority
+projection: prior mechanism status (`operative`, `surrendered`, or
+`history-only`), floor role (`active-authority` or `regression-only`), and the
+ordinary route supported by the new stake. Compare it against an exact field-
+erased projection with identical prose, candidates, guide resources, and world
+contact. Require downstream selection and contact improvement, not merely
+correct status serialization.
+
 ## Open uncertainty
 
 - Route-only recurrence has one clean prospective three-cycle observation in

@@ -1258,5 +1258,21 @@ against matched defeated-history controls. Require a decisive final-versus-
 immediate-parent advantage before using OT-0174's final-versus-original result
 as the broader correction anchor.
 
+OT-0175 runs that exact comparison and reverses the local hypothesis. The final
+guide scores 14/16 while its immediate parent scores 15/16. Both misclassify a
+revocation receipt replay as correction instead of continuity; the final guide
+alone demotes returning an explicitly named learned membership operation to
+active use with its certified outcomes. The reactivation amendment is not a
+stable improvement and is now rejected as the next default.
+
+This repeated failure changes the representation diagnosis. The subject's
+prose stake can mention a prior mechanism and floor without making clear,
+reliably enough for fresh actors, whether each remains active authority or only
+historical regression evidence. Stop asking another sentence to reconstruct
+that status. Test a consequence-authored typed authority projection that names
+operative, surrendered, and history-only mechanisms and distinguishes active
+floor authority from retained regression floor. Ablate only those fields while
+holding prose, guide resources, candidates, and world contact fixed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
