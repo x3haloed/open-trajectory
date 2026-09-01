@@ -231,6 +231,21 @@ implementation, assimilation, promotion, and post-seal erasure control. The
 test remains whether self-allocation reaches admitted consequence and becomes
 retained subject machinery.
 
+OT-0094 made that exact correction. Its actor retired the saturated pursuit,
+authored the exact two-contact live frontier, chose joint composition, and
+produced a generic allocator that passes all frozen hidden fixtures post hoc.
+The run rejected before binding for a different apparatus reason: the
+contained-effects audit flags every textual `../`, including
+`PYTHONPATH=../..` after changing into a nested observation directory where the
+path resolves back to the actor workspace. The complete trace records no
+outside-workspace change or protected-path access.
+
+The next record should preserve OT-0094 and change only command-boundary
+classification. Normalize statically identifiable relative paths against each
+command's effective in-workspace directory; reject paths resolving outside,
+protected-path references, actual outside file effects, and ambiguous traversal.
+This is an evaluation-apparatus repair, not evidence that OT-0094 passed.
+
 ## Open uncertainty
 
 - Recurrence has one prospective bounded observation in one synthetic world
@@ -266,6 +281,9 @@ retained subject machinery.
   generic allocator post hoc; the operational path remains unestablished
   because the frozen frontier schema conflated retired pursuits with live
   contacts.
+- The corrected live-frontier actor repeated the substantive success, but the
+  broad-tool audit rejected a nested in-workspace `../` reference without path
+  normalization. End-to-end operational self-allocation remains unestablished.
 - Subject-owned goal revision and cross-world transfer remain unestablished.
 - Exact history growth has not yet impaired continuation; compaction is an
   efficiency question until evidence says otherwise.

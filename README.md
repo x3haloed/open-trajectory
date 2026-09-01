@@ -51,6 +51,9 @@ The strongest footholds are:
   ontology error: the actor retired the saturated pursuit and produced a
   hidden-valid generic allocator, while the frozen gate required the dead
   pursuit to remain an actionable contact.
+- `OT-0094`: one rejected live-frontier correction whose actor passed the
+  substantive allocation conditions post hoc but exposed an overbroad lexical
+  traversal rule in the contained-effects audit.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

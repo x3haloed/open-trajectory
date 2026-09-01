@@ -1,0 +1,33 @@
+{
+  "artifact_id": "live-frontier-self-allocation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 17422,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "89eaa215b0650c008a3593f75771fbb743e15d29",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0094",
+  "input_manifests": [
+    "evidence/manifests/OT-0093/reopened-parent-after-allocation-rejection.json"
+  ],
+  "kind": "live-frontier-self-allocation-result",
+  "limitations": [
+    "No implementation or control ran because the active command audit rejected."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:live-frontier-self-allocation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9d409e5e80ba0b80901b77056e8a63addf6b381c5f7aa3b6b5b7be621c89090b"
+}

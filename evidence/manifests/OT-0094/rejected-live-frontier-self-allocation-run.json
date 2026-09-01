@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-live-frontier-self-allocation-run",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1522688,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "89eaa215b0650c008a3593f75771fbb743e15d29",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0094",
+  "input_manifests": [
+    "evidence/manifests/OT-0093/reopened-parent-after-allocation-rejection.json"
+  ],
+  "kind": "live-frontier-self-allocation",
+  "limitations": [
+    "One bounded rejection before binding caused by lexical traversal audit; post-hoc diagnostics do not rescore."
+  ],
+  "media_type": "application/x-tar",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-live-frontier-self-allocation-run",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "beae6d5367cce99bd7e16385f365e876f37049ebddf38d8204aa4221d6b82088"
+}

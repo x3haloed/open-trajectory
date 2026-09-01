@@ -113,6 +113,12 @@ condition, not the permanent purpose or executive of the resulting subject.
   passes all frozen hidden fixtures post hoc. The harness instead required the
   dead pursuit to remain a third contact and did not admit the lineage's
   established `retire` literal. The OT-0092 subject remains open.
+- `OT-0094` corrects that ontology and the actor produces the exact live
+  frontier, retirement, joint choice, and a post-hoc hidden-valid allocator.
+  It still rejects before binding because the contained-effects audit treats
+  the text `PYTHONPATH=../..` as suspicious even though it resolves from nested
+  observation folders back to the actor workspace and no outside effect
+  occurred. The OT-0092 subject remains open.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is
@@ -260,8 +266,11 @@ OT-0093 tested whether the exact subject could redirect itself and exposed a
 narrow apparatus error: it coherently retired that saturated pursuit and
 enumerated only the two live contacts, while the frozen schema required the
 dead pursuit to remain an actionable contact and rejected the already
-established word `retire`. The next record should correct only that ontology
-and vocabulary, then rerun the complete contact/consequence/assimilation path.
+established word `retire`. OT-0094 corrected that boundary and the actor passed
+the substantive artifact conditions, but a lexical `../` command audit rejected
+contained execution from nested observation directories. The next record should
+replace only that predicate with normalized workspace-relative command-path
+analysis, then rerun the unchanged causal path.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
