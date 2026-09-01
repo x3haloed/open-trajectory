@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-retained-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 732447,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c56464153efe7dee5abf30906fda042c49da9491",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0227",
+  "input_manifests": [
+    "OT-0227/retained-correction-consequence-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject at assimilation after one G8-authorized retained correction; no fresh post-correction actor has yet reopened the frontier."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-retained-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0d65f6fc095e5b39c0686d7f4a02ba555700b1baea832a52afa903cb08354cde"
+}

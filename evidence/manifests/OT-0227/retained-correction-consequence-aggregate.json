@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-correction-consequence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4946,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c56464153efe7dee5abf30906fda042c49da9491",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0227",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One retained correction candidate and one synthetic six-case prospective world; post-correction assimilation and reopening remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-correction-consequence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e70b6fd7d4d28aa20b99874fdd22ed76764779ec75136aeabf55dba0ca8345d0"
+}

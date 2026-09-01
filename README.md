@@ -553,6 +553,10 @@ The strongest footholds are:
   discrepancies 0/4→4/4. Exact successor `ccbf1d6d...` keeps OT-0225 rejected
   while carrying its mechanically eligible, underreported correction as
   explicitly unadmitted content awaiting prospective consequence.
+- `OT-0227`: without resampling an actor, G8 binds the retained correction and
+  exposes it prospectively to consequence. Revised behavior reaches 6/6 versus
+  unchanged 2/6. Exact successor `126d7e41...` installs the correction, resolves
+  the new-module contradiction, and dispatches `assimilate`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

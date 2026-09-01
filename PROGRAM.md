@@ -2016,5 +2016,12 @@ retained candidate to a newly opened independent correction world; it may not
 claim that OT-0225 passed, resample its actor, or install the patch before the
 world receipt warrants admission.
 
+OT-0227 opens that world without another actor. The exact retained candidate
+reconstructs under G8 and reaches 6/6 on six prospective cases while unchanged
+remains 2/6. Exact successor `126d7e41...` installs the registry-path source,
+resolves the pending contradiction, marks the target verified-local, remains
+open, and dispatches `assimilate`. The next step is fresh post-correction
+assimilation and G7 selection, not another correction or retrospective rescore.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

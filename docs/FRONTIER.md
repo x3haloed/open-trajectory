@@ -2629,3 +2629,9 @@ frontier is now prospective hidden consequence on that exact retained candidate.
 If it decisively beats the unchanged control, admit the correction and dispatch
 assimilation; otherwise preserve contradiction or surrender. Do not invoke a
 replacement corrector.
+
+OT-0227 completes that consequence edge: retained revised behavior reaches 6/6
+and unchanged remains 2/6. Exact successor `126d7e41...` admits the correction
+and dispatches `assimilate`. The current frontier is whether a fresh actor can
+assimilate this exact receipt and select a genuinely live next G7 operation—
+widening if the local frontier is saturated—without a researcher target.

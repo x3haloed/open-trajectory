@@ -1,6 +1,6 @@
 # OT-0227 — retained correction prospective consequence
 
-- **Status:** frozen; not yet run
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact G8 subject `ccbf1d6d...`
 - **Actor budget:** none; OT-0225 actor must not be resampled
@@ -28,4 +28,9 @@ post-correction reopening or another widening cycle.
 
 ## Result
 
-Not yet run.
+The exact retained candidate reconstructs and binds under G8 without another
+actor. Its prospective six-case world reaches 6/6 while unchanged remains 2/6.
+All gates pass. Exact successor `126d7e41...` installs the registry-path source,
+resolves the pending contradiction, marks the target `verified-local`, remains
+open, and dispatches `assimilate`. Receipt `d5d00122...` promotes the claim while
+OT-0225 remains rejected.

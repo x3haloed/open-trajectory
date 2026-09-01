@@ -80,12 +80,11 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0226 successor `ccbf1d6d...`,
+The current exact operational subject is OT-0227 successor `126d7e41...`,
 identified by
-`evidence/manifests/OT-0226/open-subject-under-g8-audit-authority.json`. It
-preserves the unresolved 2/6 contact and carries OT-0225's exact candidate as
-mechanically eligible but unadmitted content. The subject remains open at
-`correct`; no correction capability or hidden follow-up receipt has been added.
+`evidence/manifests/OT-0227/open-subject-after-retained-correction.json`. It
+preserves the full correction chain, installs the registry-path source after
+prospective 6/6 versus unchanged 2/6 consequence, and is open at `assimilate`.
 
 ## Prediction errors
 
@@ -166,7 +165,9 @@ mechanically eligible but unadmitted content. The subject remains open at
   or improves every hard anchor, and treats the retained candidate as causally
   eligible but underreported. It retains that candidate inside exact successor
   `ccbf1d6d...` without installing it or altering OT-0225.
+- OT-0227 binds that exact retained candidate under G8 without another actor.
+  Prospective consequence reaches 6/6 versus unchanged 2/6; exact successor
+  `126d7e41...` admits the correction and dispatches assimilation.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is hidden consequence on the retained
-  unadmitted correction, followed by recurrence if warranted, without resampling
-  the actor or adding a planning-specific researcher itinerary.
+  external. The next discriminating step is fresh assimilation and G7 reopening
+  from the exact admitted correction, without a supplied target.
