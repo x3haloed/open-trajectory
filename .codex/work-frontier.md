@@ -459,3 +459,8 @@ fifth standing-feed wait.
   saturates the second independent world and re-observes its fifth wait. The
   active gap is now standing world acquisition without an experiment-specific
   outside author/provider, not another same-package correction.
+- OT-0279 freezes a subject-carried renewal policy for that gap. Empty feed at
+  the fifth wait derives a subject-blind world scout from a null opening;
+  renewal-disabled and nonempty-feed controls route to wait and wake
+  respectively. Preflight passes exact ancestry, operational preservation,
+  16/16 routing, 18/18 identity, package controls, and lineage-state exclusion.

@@ -3550,3 +3550,12 @@ non-researcher-specific, while the subject continues to choose contact,
 interpret consequence, and route correction through the same content-free
 opening. A third hand-authored package alone would add reliability evidence but
 would not reduce the decisive causal gap.
+
+OT-0279 freezes the first direct reduction of that gap. Exact `645c525e...`
+receives a generic renewal policy whose only trigger is an empty standing feed
+at `wait-provider`. A null opening then derives one subject-blind world-scout
+encounter; the actor sees no lineage state or experiment-specific target. The
+renewal-disabled control stays at the exact wait with zero actors, and a
+nonempty-feed fixture routes to wake. Promotion requires an independently
+authored novel three-surface package, exact 2/6 contact, G10 containment, and
+scanner availability while the subject remains open and waiting.

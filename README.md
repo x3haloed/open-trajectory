@@ -774,6 +774,10 @@ The strongest footholds are:
   5/6 repair becomes causal input to a later 6/6 successor; every unchanged
   control remains 2/6. The package saturates and exact `645c525e...` remains
   open at a fifth standing-feed wait.
+- `OT-0279` freezes a standing renewal policy at that fifth wait. An empty feed
+  plus null opening derives a subject-blind world-scout encounter; disabling
+  only renewal leaves the exact subject waiting, while a nonempty feed routes
+  to ordinary wake. Live output remains sealed until the freeze is pushed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

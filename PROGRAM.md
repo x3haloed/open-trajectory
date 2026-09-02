@@ -2846,5 +2846,14 @@ from the fifth wait and test whether a new world can enter through a standing,
 non-researcher-specific provision process without the experimenter selecting
 its pursuit, phase, or correction path.
 
+OT-0279 freezes that provider-renewal boundary. It installs a generic policy in
+exact `645c525e...`: only `wait-provider` plus an empty standing feed derives
+`renew-world-feed` and authorizes one subject-blind restricted world scout. The
+same subject with renewal disabled remains waiting with zero actors; a nonempty
+feed routes to wake instead of provider generation. Preflight preserves the
+operational core, fifth wait, route 16/16, identity 18/18, and excludes the
+subject digest, five seen world ids, and 29 ledger targets from the actor seed.
+Live output remains sealed until this freeze is pushed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
