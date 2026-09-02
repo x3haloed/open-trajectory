@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-seventh-wait",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1511133,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c09c5f2d135fb4a78b739fe66fd7daf627d261de",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0289",
+  "input_manifests": [
+    "evidence/manifests/OT-0289/target-scoped-disclosure-recurrence-preflight.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "This is the last valid checkpoint before the rejected renewal scout; the Bellwether candidate package is not part of subject state."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-seventh-wait",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3a6322c1e68a2f632009ae8c152857b8b2df00b5706de4bdd6fe9af5c8919d39"
+}

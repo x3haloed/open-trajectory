@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-post-invalidity-renewal-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12974,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c09c5f2d135fb4a78b739fe66fd7daf627d261de",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0289",
+  "input_manifests": [
+    "evidence/manifests/OT-0289/target-scoped-disclosure-recurrence-preflight.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "Tideglass completed and the seventh wait remained exact, but the renewal package was not admitted because G10 rejected a protected-ancestor sandbox denial."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-post-invalidity-renewal-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4ca41e7c4f49801cc9d993b06488e3733b4a6958959a5defae28c701e085ff9c"
+}

@@ -2999,5 +2999,20 @@ class; a fresh selected surface exposes two even while prior resolved disclosure
 remains retained. Exhaustion fails closed and all 36 complete suffixes pass with
 both rejected predecessors unchanged. Live output remains sealed until push.
 
+OT-0289 rejects at renewal after a valid complete Tideglass advance. Eleven
+null calls correct the retained surface, let fresh actors choose and correct the
+other two, retain a real 5/6 failure, saturate, and exactly reobserve the seventh
+wait. Exact `23cce12c...` preserves the invalidity scar and policy. The renewal
+scout then authors valid scanner-visible `bellwether-commons-v1`, but G10 rejects
+an `operation_not_permitted` denial at the protected repository root. No package
+is admitted.
+
+The generated actor workspace lives beneath `.evidence` inside that protected
+root; retained commands and effects remain workspace-local, but the denial is
+not prospectively attributable. Preserve the rejection. Next apply the
+role-neutral invalidity scar at provider wait and run the fresh provider in a
+standalone evidence/workspace root outside the repository, without weakening
+G10 or carrying Bellwether content.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

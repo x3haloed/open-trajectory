@@ -3706,3 +3706,19 @@ OT-0289 makes that sole scope correction. Prospective active and fresh target
 controls expose one and two hidden classes respectively; exhaustion fails
 closed; all 36 complete suffix branches now pass. After freeze and push, resume
 the exact post-invalidity subject through the unchanged null-pulse cycle.
+
+OT-0289 completes Tideglass operationally through a seventh exact wait. The
+retained correction reaches 6/6; fresh actors choose both remaining surfaces;
+one later repair follows a real 2/6→5/6→6/6 path; all controls remain 2/6 and the
+invalidity scar survives. Renewal then rejects because Seatbelt denies access to
+the protected repository root. The otherwise-valid Bellwether package does not
+count and exact `23cce12c...` remains waiting.
+
+This recurrence localizes an apparatus boundary: actor workspaces are currently
+nested under the repository via `.evidence`, so runtime/project discovery can
+touch a protected ancestor even when retained commands and effects remain local.
+Do not relax G10 or admit Bellwether. The next record should apply the existing
+rejection-scar transition to the provider role and run its fresh workspace from
+a standalone evidence root outside the repository tree. Success requires a new
+independently valid package and exact waiting subject; it is recovery after
+invalidity, not a rescore of OT-0289.
