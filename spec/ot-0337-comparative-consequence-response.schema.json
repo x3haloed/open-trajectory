@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "action": {"type": "string", "const": "submit-comparative-consequence-response"},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "const": "decision.json"},
+      "minItems": 1,
+      "maxItems": 1
+    }
+  },
+  "required": ["action", "files_changed"],
+  "additionalProperties": false
+}
