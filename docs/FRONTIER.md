@@ -85,13 +85,14 @@ remain the consequence-corrected allocator and later-regime repair
 (`OT-0254`), conditional failed-attempt correction (`OT-0273`–`OT-0274`), and
 the current surrender/recovery recurrence (`OT-0300`–`OT-0303`).
 
-The exact current operational subject is OT-0307 successor `e3c4be50...`.
-One fresh corrector reached independent 6/6 against unchanged 2/6; a second
-identical, actor-free opening refreshed the state to two opportunities and
-derived `expanded-select`. The world-seeking stake, all four provider
-artifacts, OT-0305's failed same-world comparison, and prior developmental and
-invalidity state remain exact. Neither the retained priority nor this correction
-establishes that the stake caused world or target choice.
+The exact current operational subject is OT-0308 successor `e9e152b3...`.
+It preserves OT-0307's two authoritative opportunities and derives
+`expanded-select`, while active continuation narrative and the prospective
+selection seed now agree with that count. The world-seeking stake, all four
+provider artifacts, OT-0305's failed same-world comparison, and prior
+developmental and invalidity state remain exact. Neither the retained priority
+nor the current world history establishes that the stake caused world or target
+choice.
 
 ## Prediction errors
 
@@ -119,21 +120,11 @@ establishes that the stake caused world or target choice.
   lacks behavioral selectivity or one catalog plus one arbitrary blind rule is
   simply too collision-prone to estimate it. Evidence: OT-0305 aggregate
   `2941a2e3...`.
-- Expected: refreshing the current subject to two remaining opportunities would
-  produce actor-facing continuation language consistent with that count.
-  Observed: exact subject `e3c4be50...` derives selection and carries a two-item
-  authoritative projection, but its inherited continuation sentence says “the
-  sole remaining” opportunity and reaches two actor-visible state files.
-  Uncertain: whether that redundant contradiction would change selection, but
-  actor-visible coherence is required before testing it. Evidence: retained
-  OT-0307 final subject and prospective selection seed.
-
-OT-0308 is frozen against exact `e3c4be50...`. Its generic derived coherence
-operation treats projection count/list/status and inherited phase as
-authoritative, fails malformed machine state closed, and repairs only active
-continuation narrative plus a receipt. Stale and coherent 0/1/2/3-opportunity
-branches pass prospectively; the exact two-versus-sole mismatch repairs to a
-coherent actor seed deriving `expanded-select`. No selection actor may run until
-this zero-actor repair is committed, pushed, and observed. After that, resume
-target-untold contact and later test the world-seeking stake across additional
-catalogs or a less collision-prone matched baseline.
+The immediate experiment should follow exact `e9e152b3...` into the derived
+target-untold selection among its two coherent opportunities. Reuse the generic
+selection, sealed 2/6 consequence, G10, and consequence-earned isolation paths;
+add the prospective actor-facing coherence gate but do not prescribe which
+surface to choose. Preserve the world-seeking stake and OT-0305 negative verdict
+without treating either as target-selection evidence. After this contact and
+its correction become developmentally interpretable, test the stake across
+additional catalogs or a less collision-prone matched baseline.

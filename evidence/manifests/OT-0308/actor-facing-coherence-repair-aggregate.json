@@ -1,0 +1,33 @@
+{
+  "artifact_id": "actor-facing-coherence-repair-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2397,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "446ad09faa1a722ed7eb6d742b289d4a615d2224",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0308",
+  "input_manifests": [
+    "evidence/manifests/OT-0308/actor-facing-coherence-repair-receipt.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One exact mismatch repair; does not establish detection of every possible actor-facing inconsistency."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-facing-coherence-repair-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0c7dd2ebc12db131de600e72095f127aeef5552adf3c89a2d9ce7994556053e1"
+}

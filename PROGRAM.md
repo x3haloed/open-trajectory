@@ -3305,5 +3305,13 @@ coherent 0/1/2/3-opportunity branches pass, the exact OT-0307 mismatch repairs
 prospectively to a coherent two-opportunity selection seed, and route 16/16 plus
 identity 18/18 remain exact. Live repair remains sealed until push.
 
+OT-0308 promotes in one content-free zero-actor opening. The exact OT-0307
+two-versus-sole mismatch derives repair; the authoritative projection remains
+byte-exact while only active continuation narrative plus a non-authoritative
+receipt changes. Exact open successor `e9e152b3...` derives `expanded-select`,
+and its prospective selection projection, subject state, summary, and README
+are coherent. Aggregate receipt `4defdcc7...`. The next live operation is again
+target-untold selection among two real surfaces.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

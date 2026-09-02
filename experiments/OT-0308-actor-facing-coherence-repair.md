@@ -1,6 +1,6 @@
 # OT-0308 — Actor-facing coherence repair
 
-- **Status:** design frozen; live repair sealed
+- **Status:** promoted actor-free repair
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0307 open subject `e3c4be50...`
 - **Invocation:** one content-free, zero-actor opening
@@ -49,3 +49,14 @@ A pass establishes one generic actor-free state-coherence repair and removes
 one source of hidden observer dependence. It does not show that the subject
 invented the checker, that all possible actor-facing contradictions are
 detectable, or that the repaired narrative changes actor behavior.
+
+## Result
+
+The sole content-free opening derives `repair-actor-facing-coherence` and uses
+zero actors. It preserves the authoritative two-opportunity projection exactly,
+changes only active `continuation.next_opening` and `unresolved` narrative plus
+the non-authoritative receipt, and reseals conformant open subject
+`e9e152b3...`. The successor derives `expanded-select`; its prospective seed
+carries the exact two-item projection, count-consistent active subject and
+summary state, and a cardinality-neutral README. Every frozen gate passes.
+Aggregate receipt `4defdcc7...`.

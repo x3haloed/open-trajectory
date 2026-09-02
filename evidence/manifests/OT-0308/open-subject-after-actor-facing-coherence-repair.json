@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-actor-facing-coherence-repair",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1597788,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "446ad09faa1a722ed7eb6d742b289d4a615d2224",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0308",
+  "input_manifests": [
+    "evidence/manifests/OT-0308/actor-facing-coherence-repair-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open successor is established only for the retained experimental lineage."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-actor-facing-coherence-repair",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "97859992a4560473f76d726532b5cc5901a0ee20c5d07c2801f7b573dc86282d"
+}
