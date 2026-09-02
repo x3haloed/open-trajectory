@@ -3201,3 +3201,9 @@ The immediate frontier is post-wait correction and recurrence. The next null
 pulse must derive the unresolved target from retained state, authorize one
 target-generic corrector, and require public 4/4 plus sealed 6/6 against the
 unchanged 2/6 control. No researcher-selected target may enter the actor prompt.
+
+OT-0259 freezes that correction with the descriptor-complete G9/G10 path earned
+by the earlier source-root and output-authority failures. The live target and
+path derive only from exact retained state. Promotion requires one fresh actor,
+public 4/4, sealed 6/6 versus unchanged 2/6, and preservation of both the full
+wait/wake history and the extended provider interface.

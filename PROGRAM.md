@@ -2508,5 +2508,10 @@ Next reuse descriptor-complete target-generic correction from this exact state.
 The target must derive only from retained bindings; public 4/4 and sealed 6/6
 must beat the unchanged 2/6 control before installation.
 
+OT-0259 freezes that reuse. One null pulse and one fresh target-generic corrector
+must traverse the descriptor-complete G9/G10 path, reach public 4/4 and sealed
+6/6 versus unchanged 2/6, and preserve the wait/wake lineage plus the extended
+provider interface.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
