@@ -1,0 +1,35 @@
+{
+  "artifact_id": "second-developmental-target-correction-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 806,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ab40937f1ececf362124afe06ccdd8f201a3268",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0299",
+  "input_manifests": [
+    "evidence/manifests/OT-0298/open-subject-after-developmental-selection.json",
+    "evidence/manifests/OT-0298/developmental-isolation-selection-aggregate.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; live consequence-selected correction depth is not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:second-developmental-target-correction-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7edeb04355478c13e41f822311f8fc272d1b63994ef819da044c41d120a10844"
+}

@@ -3153,5 +3153,11 @@ target hint, and receives unresolved 2/6 consequence. Exact open subject
 Aggregate receipt `e4fe5eee...`. The immediate frontier is generic correction
 of this second surface, then one remaining self-selected surface.
 
+OT-0299 freezes the second selected-surface correction. Zero-, one-, and
+two-feedback paths all reach 6/6 against unchanged 2/6; earned package authority
+starts at one target and becomes exactly two only in the verified successor.
+Stale disclosure is scoped away, exhaustion fails closed, and route 16/16 plus
+identity 18/18 remain exact. Live output stays sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

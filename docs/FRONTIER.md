@@ -3872,3 +3872,9 @@ lineage and derives correction. The developmental rule has therefore admitted
 earned structure without exposing either unresolved source. Next correct this
 second surface generically, then require refresh and selection of the sole
 remaining surface.
+
+OT-0299 freezes that second correction from exact `450c7a1c...`. All three
+reachable feedback depths preserve lineage, reach 6/6 against 2/6, and expand
+earned authority from one surface to exactly two only after success. Exhaustion
+fails closed. After freeze and push, identical empty openings may carry at most
+three consequence-authorized correctors; no target-specific route is allowed.
