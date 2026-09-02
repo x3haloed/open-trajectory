@@ -351,7 +351,12 @@ def router_actor_seed(root, parent, diagnostic, consequence, fixtures):
 
 def run_router_actor(context, root, parent, diagnostic, consequence, fixtures):
     label = "proposal-search-router-reviser"
-    seed = router_actor_seed(root, parent, diagnostic, consequence, fixtures)
+    attempt_root = root
+    failed_evidence = context.evidence(label)
+    if failed_evidence.exists() and not (failed_evidence / "output.json").exists():
+        label = "proposal-search-router-reviser-retry-1"
+        attempt_root = root / "retry-1"
+    seed = router_actor_seed(attempt_root, parent, diagnostic, consequence, fixtures)
     output, audit0, workspace, _ = context.run_actor(
         label, seed, ROUTER_SCHEMA, (seed / "README.md").read_text().strip()
     )
@@ -380,6 +385,7 @@ def run_router_actor(context, root, parent, diagnostic, consequence, fixtures):
     normalized = base236.classify_retained(audit, trace)
     accepted = bool(semantic and base236.g10(normalized))
     return {
+        "actor_label": label,
         "accepted": accepted,
         "source": source,
         "source_digest": hashlib.sha256(source.encode()).hexdigest() if source else None,
@@ -393,6 +399,28 @@ def run_router_actor(context, root, parent, diagnostic, consequence, fixtures):
             "transport": transport,
             "semantic": semantic,
         },
+    }
+
+
+def response_schema_conformance():
+    schema = json.loads(ROUTER_SCHEMA.read_text())
+    properties = schema.get("properties", {})
+    checks = {
+        "object_type_explicit": schema.get("type") == "object",
+        "action_type_explicit": properties.get("action", {}).get("type") == "string",
+        "files_changed_type_explicit": properties.get("files_changed", {}).get("type") == "array",
+        "files_changed_item_type_explicit": properties.get("files_changed", {}).get("items", {}).get("type") == "string",
+        "note_type_explicit": properties.get("note", {}).get("type") == "string",
+        "required_exact": set(schema.get("required", [])) == {"action", "files_changed", "note"},
+        "closed_object": schema.get("additionalProperties") is False,
+    }
+    checks["passed"] = all(checks.values())
+    return {
+        "authority": AUTHORITY + "-response-schema-repair-conformance",
+        "schema_digest": hashlib.sha256(ROUTER_SCHEMA.read_bytes()).hexdigest(),
+        "repair": "add explicit types required by the hosted response-format schema subset",
+        "allowed_output_changed": False,
+        "checks": checks,
     }
 
 
@@ -550,6 +578,9 @@ def main():
     fixtures_report = json.loads(retained.read_text()) if retained.exists() else preflight(
         run / "preflight", p82, runtime, parent, result323
     )
+    schema_report = response_schema_conformance()
+    schema_report["receipt_digest"] = p82.digest(schema_report)
+    write_json(run / "response-schema-repair-conformance.json", schema_report)
     if args.preflight_only:
         print(json.dumps(fixtures_report, indent=2, sort_keys=True))
         return 0 if fixtures_report["checks"]["passed"] else 2
@@ -591,6 +622,28 @@ def main():
 
     public = public_fixtures(parent["active_proposal_search_capability"]["applicability"], diagnostic)
     context = b.base274.context_for(core, base130, runtime, run / "actors", repo)
+    failed_actor_evidence = context.evidence("proposal-search-router-reviser")
+    transport_failure = None
+    if failed_actor_evidence.exists() and not (failed_actor_evidence / "output.json").exists():
+        events = (failed_actor_evidence / "events.jsonl").read_text()
+        failed_workspace = failed_actor_evidence / "actor-workspace"
+        changed = subprocess.run(
+            ["git", "status", "--short"], cwd=failed_workspace, text=True,
+            capture_output=True, check=True,
+        ).stdout.splitlines()
+        failure_body = {
+            "authority": AUTHORITY + "-pre-actor-transport-failure",
+            "stage": "hosted-response-schema-validation",
+            "classification": "invalid-json-schema-before-model-generation",
+            "schema_error_present": "invalid_json_schema" in events,
+            "actor_output_present": False,
+            "workspace_changes_beyond_untracked_input": changed not in ([], ["?? input.txt"]),
+            "retry_count_authorized": 1,
+            "private_seed_retained": True,
+            "diagnostic_fronts_retained": True,
+        }
+        transport_failure = {**failure_body, "receipt_digest": p82.digest(failure_body)}
+        write_json(run / "pre-actor-transport-failure.json", transport_failure)
     router_actor = run_router_actor(
         context, run / "router-revision", parent, diagnostic, consequence, public
     )
@@ -700,6 +753,8 @@ def main():
         "source_subject_digest": parent["artifact_digest"],
         "source_causal_receipt": result323["receipt_digest"],
         "private_world_seed_digest": p82.digest(seed),
+        "pre_actor_transport_failure": transport_failure,
+        "response_schema_repair_conformance": schema_report,
         "diagnostic_front_summaries": diagnostic,
         "diagnostic_incumbent_route": incumbent_route,
         "diagnostic_route_consequence": consequence,

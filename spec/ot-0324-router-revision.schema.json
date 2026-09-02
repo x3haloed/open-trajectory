@@ -4,10 +4,10 @@
   "required": ["action", "files_changed", "note"],
   "additionalProperties": false,
   "properties": {
-    "action": {"const": "revise-proposal-search-router"},
+    "action": {"type": "string", "const": "revise-proposal-search-router"},
     "files_changed": {
       "type": "array",
-      "items": {"const": "route_search.py"},
+      "items": {"type": "string", "const": "route_search.py"},
       "minItems": 1,
       "maxItems": 1
     },

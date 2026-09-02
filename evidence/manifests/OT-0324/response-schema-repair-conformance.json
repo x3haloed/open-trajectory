@@ -1,0 +1,33 @@
+{
+  "artifact_id": "response-schema-repair-conformance",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 676,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bd3587f2de247d9382cc3c49d5c27bb07dfeed68",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/consequence-revised-search-routing-preflight.json"
+  ],
+  "kind": "protocol-repair-conformance",
+  "limitations": [
+    "Pre-actor repair adds explicit JSON types without changing the allowed output; live hosted acceptance remains to be observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:response-schema-repair-conformance",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "29a34fe924f2304f9bbb4553e301e47d6e6631ec7c6579d49e1bd94c8e028419"
+}

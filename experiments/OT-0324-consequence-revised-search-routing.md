@@ -88,3 +88,15 @@ One passing run would be bounded OT-2 evidence that completed consequence
 improved executable future-move selection across fresh actors. It would not be
 a reliability estimate, proof that the learned rule is optimal or permanently
 corrigible, autonomous world generation, or full OT-2R recurrence.
+
+## Pre-actor protocol repair
+
+The first hosted request was rejected during response-schema validation before
+model generation because the `action` and array-item `const` schemas lacked
+explicit `type` keys required by the hosted schema subset. No output existed and
+the workspace retained the seeded router; only the launcher's untracked input
+file was added. The failed trace is preserved. OT-0324 adds those two types
+without changing any allowed output and permits one fresh retry under a new
+label with the identical private seed, diagnostic fronts, consequence, prompt,
+tools, and gates. A separate machine-readable repair conformance receipt must
+pass before retry.
