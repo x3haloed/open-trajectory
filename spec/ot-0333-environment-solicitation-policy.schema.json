@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "action": {
+      "type": "string",
+      "const": "author-environment-solicitation-policy"
+    },
+    "files_changed": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "policy_id": {
+      "type": "string"
+    }
+  },
+  "required": [
+    "action",
+    "files_changed",
+    "policy_id"
+  ],
+  "additionalProperties": false
+}
