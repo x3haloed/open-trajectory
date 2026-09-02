@@ -690,6 +690,10 @@ The strongest footholds are:
   the cursor, satisfies and discharges that exact wait, and retains one durable
   non-selecting world offer in open successor `f818c68e...`. No actor or epoch
   is fabricated during wake-up.
+- `OT-0258`: one fresh actor consumes that retained offer only after selecting
+  `route_supply_convoys`, authoring executable contact, and passing G10.
+  Independent sealed consequence returns 2/6; exact `315be95b...` retains the
+  new epoch and remains open at correction across the wait boundary.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,6 +1,6 @@
 # OT-0258 — post-wait actor/world contact
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0257 offered subject `f818c68e...`
 - **Fresh actors:** one, no retry
@@ -34,3 +34,14 @@ G10 acceptance; public executable contact; offer consumption only after
 acceptance; preservation of the wait and discharge receipts; a new actor-authored
 epoch; independent sealed 2/6 contradiction; an unresolved ledger target; and an
 exact open `correct` successor.
+
+## Result
+
+The one fresh actor selected `route_supply_convoys`, authored four executable
+cases, changed exactly `environment-expansion.json`, and passed G10. Only after
+acceptance did the harness consume the retained offer and bind a new coordination
+epoch. Independent sealed contact returned 2/6, leaving exact successor
+`315be95b...` open at correction with all wait and discharge history preserved.
+
+This realizes bounded resumed interaction across the wait boundary. Correction,
+new-epoch recurrence, and another complete wait/wake cycle remain unclaimed.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "post-wait-actor-world-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13469,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "09616fb4890bef5ecc186b22f9e8df4d72e389d3",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0258",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh actor realizes one bounded post-wait selection and independent contradiction; correction, recurrence through the new epoch, another wait cycle, and removal of external world/evaluator authority remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:post-wait-actor-world-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b9fe94464cfbfcf255a2ac8631efd14a5cd9db1f53847fdb80bf1b955680f652"
+}

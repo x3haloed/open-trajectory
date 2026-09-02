@@ -92,15 +92,14 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0257 successor `f818c68e...`,
+The current exact operational subject is OT-0258 successor `315be95b...`,
 identified by
-`evidence/manifests/OT-0257/open-subject-with-resumed-world-offer.json`.
+`evidence/manifests/OT-0258/open-post-wait-subject-at-coordination-contradiction.json`.
 It preserves all earlier worlds and corrections, has saturated the state-indexed
 resilience epoch, and carries a saturated zero-opportunity projection with every
-external authority flag false. Its provider cursor has since extended with one
-unseen coordination world, satisfying and discharging the durable wait. It is
-open with one non-selecting world offer; fresh actor contact across the wait
-boundary is not yet established.
+external authority flag false. Its durable wait was discharged by a real stream
+extension; a fresh actor then consumed the retained coordination offer into a
+new epoch and received independent 2/6 contradiction. It is open at `correct`.
 
 ## Prediction errors
 
@@ -329,3 +328,8 @@ boundary is not yet established.
   one unseen world, discharges the retained wait, and leaves exact `f818c68e...`
   open with a durable non-selecting offer. Next require a fresh actor to turn
   that offer into executable contact and receive independent consequence.
+- OT-0258 completes that causal slice. One fresh actor selects a real offered
+  surface, authors executable contact, passes G10, and receives sealed 2/6 after
+  the offer is consumed into a new epoch. Exact `315be95b...` remains open at
+  correction with wait and wake history intact. Next require target-generic
+  correction from retained state, then test new-epoch recurrence.

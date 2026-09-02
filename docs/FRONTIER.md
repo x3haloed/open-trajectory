@@ -3190,3 +3190,14 @@ surfaces must preflight through public execution and sealed 2/6 contradiction.
 One fresh full-tool actor receives no named target, may edit only its decision,
 and must pass G10 before the offer is consumed. Promotion requires a new retained
 epoch, independent consequence, and an exact open unresolved successor.
+
+OT-0258 promotes with one fresh actor and no retry. The actor selects
+`route_supply_convoys`, authors four executable cases, changes exactly the
+decision file, and passes G10. The offer is then consumed into a new retained
+coordination epoch; sealed consequence returns 2/6. Exact `315be95b...` remains
+open at correction with the entire wait/discharge lineage intact.
+
+The immediate frontier is post-wait correction and recurrence. The next null
+pulse must derive the unresolved target from retained state, authorize one
+target-generic corrector, and require public 4/4 plus sealed 6/6 against the
+unchanged 2/6 control. No researcher-selected target may enter the actor prompt.

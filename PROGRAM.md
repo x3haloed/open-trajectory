@@ -2499,5 +2499,14 @@ inspect the retained offer, author executable contact without a named target,
 pass G10, consume the offer only after admission, and receive sealed 2/6
 contradiction into a new retained epoch and exact open correction state.
 
+OT-0258 promotes with one actor and no retry. Actor-authored executable contact
+passes G10, consumes the retained offer into a new coordination epoch, and
+receives independent 2/6 contradiction. Exact `315be95b...` is open at
+correction with all wait and wake history preserved.
+
+Next reuse descriptor-complete target-generic correction from this exact state.
+The target must derive only from retained bindings; public 4/4 and sealed 6/6
+must beat the unchanged 2/6 control before installation.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

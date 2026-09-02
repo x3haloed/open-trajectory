@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-post-wait-subject-at-coordination-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1096032,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "09616fb4890bef5ecc186b22f9e8df4d72e389d3",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0258",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject carries one post-wait actor-selected coordination contact at sealed 2/6 and remains open at correction; the correction and further self-directed continuation are unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-post-wait-subject-at-coordination-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "456af624d5b5f4bae2b3faa1b6335f630cd18477489d01487d9578c6c580d27f"
+}
