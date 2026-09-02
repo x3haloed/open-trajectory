@@ -2343,5 +2343,13 @@ execute the complete live audit path for each candidate world family, and a
 rejected transition must remain a valid reportable outcome rather than a
 reporting exception.
 
+OT-0249 freezes the descriptor-complete repair. A shared fixture/live workspace
+evaluator derives package initializers and immutable paths from each active
+epoch. Corrected workspaces for both landscape and resilience pass the exact
+audit path and public 4/4; every resilience permutation retains the prior 4/4,
+6/6, and 2/6 controls. A rejected-transition fixture proves total aggregation.
+The live driver stops immediately on rejection and promotes only after the same
+seven-operation sequence completes without retry.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

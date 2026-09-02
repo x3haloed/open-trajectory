@@ -2990,3 +2990,12 @@ repair must derive package initialization and immutable paths from the active
 descriptor, exercise the complete live audit path across every candidate world
 family before authorization, and safely aggregate rejection without assuming a
 successful operation sequence.
+
+OT-0249 freezes that prospective repair. One shared workspace evaluator is used
+by both fixtures and live correction; package initializers and immutable source
+paths derive only from the active epoch descriptor. It passes corrected
+workspaces from both the landscape and resilience families, including exact
+immutable reads and public 4/4. All six resilience orders still pass end to end.
+A rejected first transition also passes through the live aggregate function and
+produces rejection without an exception. The live run stops at the first failed
+actor or world; only an uninterrupted seven-null-pulse traversal can promote.
