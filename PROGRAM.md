@@ -3257,5 +3257,18 @@ attribution. Aggregate receipt `2941a2e3...`. Preserve the failed comparison
 without retry and consume the already valid offer next; controls narrow the
 claim but do not erase the operational lineage.
 
+OT-0306 consumes that exact offer on its sole authorized run. One fresh
+target-untold actor chooses `sound_depth`, authors four executable public cases,
+passes G10, and binds the contact before independent package consequence. The
+sealed world returns unresolved 2/6, so exact open successor `2ce0d208...`
+derives `outward-correct`. The OT-0305 stake, all four retained provider
+artifacts, and the same-world control failure remain unchanged. Aggregate
+receipt `a4094f86...`. This is operational continuity through a failed causal
+claim, not new evidence that the stake caused world or target selection. Next
+apply the generic target-scoped correction path to the exact retained
+contradiction; admit only on prospective 6/6 versus unchanged 2/6, then let the
+subject's state determine whether correction, refresh, or stake assimilation is
+live next.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

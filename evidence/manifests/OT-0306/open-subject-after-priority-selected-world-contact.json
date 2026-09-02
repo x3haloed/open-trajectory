@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-priority-selected-world-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1590465,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2a68c26c0134adca7b217104956bebe23f6d495b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0306",
+  "input_manifests": [
+    "evidence/manifests/OT-0306/priority-selected-world-contact-aggregate.json"
+  ],
+  "kind": "open-subject",
+  "limitations": [
+    "Exact operational successor after one target-untold contact and unresolved consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-priority-selected-world-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "67eb3d47754136eb916dd4893155c75f9cb2d395ab3c4c1f838b5f00e5663e4f"
+}

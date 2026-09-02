@@ -1,6 +1,6 @@
 # OT-0306 — Priority-selected world contact
 
-- **Status:** frozen; live output unopened
+- **Status:** promoted operational transition
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0305 operational successor `071bb37d...`
 - **Actor budget:** one target-untold subject actor; no retry
@@ -76,3 +76,21 @@ establish that the stake caused world choice, that the actor's target choice was
 stake-conditioned, that the chosen target is globally useful, or that the
 stake's selection rule has improved. Those claims require later matched
 comparisons after this contact becomes developmentally interpretable.
+
+## Result
+
+The sole authorized actor passes without retry. From the exact offered subject
+and public sources, it chooses `harbor/depth.py::sound_depth`, authors four
+bounded executable cases, changes only the decision file, and passes G10. The
+choice is bound before the sealed package opens.
+
+Independent consequence returns the frozen unresolved result, 2/6. The offer
+is consumed into a new actor-authored environment epoch and exact open
+successor `2ce0d208...` derives `outward-correct`. The active world-seeking
+stake and all OT-0305 priority-contact receipts remain byte-exact, including
+the same-world active/control result that defeated priority attribution.
+
+Every frozen gate passes. Aggregate receipt `a4094f86...`. This promotes one
+bounded operational contact, not a stake-caused world-selection or target-choice
+claim. The next operation is generic consequence-driven correction of the
+selected depth surface; it must not reinterpret or retry OT-0305.

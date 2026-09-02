@@ -1,0 +1,34 @@
+{
+  "artifact_id": "bound-priority-selected-world-contact",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2791,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2a68c26c0134adca7b217104956bebe23f6d495b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0306",
+  "input_manifests": [
+    "evidence/manifests/OT-0305/open-subject-after-supported-stake-same-control.json",
+    "evidence/manifests/OT-0306/priority-selected-world-contact-actor-trace.json"
+  ],
+  "kind": "actor-contact-binding",
+  "limitations": [
+    "One actor-authored contact bound before sealed consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:bound-priority-selected-world-contact",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c2588765b43ba2cb50ba16e4cfda1769b896a99cac3929b9ca173a2883d84281"
+}

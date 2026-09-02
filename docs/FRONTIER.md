@@ -78,12 +78,13 @@ remain the consequence-corrected allocator and later-regime repair
 (`OT-0254`), conditional failed-attempt correction (`OT-0273`–`OT-0274`), and
 the current surrender/recovery recurrence (`OT-0300`–`OT-0303`).
 
-The exact current operational subject is OT-0305 successor `071bb37d...`.
-It retains the complete OT-0303 lineage, a fresh actor-authored executable
-world-seeking stake, and the independently supplied public offer for
-`harbor-three-watches-v1`. The eighth wait is discharged and its own state
-derives `expanded-select`. OT-0305 did not earn an E11 priority-causation claim:
-the active and stake-erased rules selected the same world.
+The exact current operational subject is OT-0306 successor `2ce0d208...`.
+It retains the complete OT-0303 lineage, the actor-authored executable
+world-seeking stake, and OT-0305's failed same-world causal comparison. One
+fresh target-untold actor consumed `harbor-three-watches-v1`, selected
+`sound_depth`, and received independent unresolved 2/6 consequence. The exact
+subject now derives `outward-correct`; neither OT-0305 nor OT-0306 establishes
+that the stake caused world or target choice.
 
 ## Prediction errors
 
@@ -113,10 +114,11 @@ the active and stake-erased rules selected the same world.
   `2941a2e3...`.
 
 The immediate experiment must follow the exact subject rather than retry the
-failed comparison: consume the active `harbor-three-watches-v1` offer through
-generic target-untold selection and independent consequence. Preserve the
-stake, the same-world control receipt, all four provider worlds, and E11's
-negative verdict. Consequence must decide the next operation. Only after that
-contact becomes developmentally interpretable should a later experiment test
-the stake across additional independent catalogs or a less collision-prone
-matched baseline.
+failed comparison: correct the retained `sound_depth` contradiction through the
+generic target-scoped disclosure machinery. Preserve the stake, same-world
+control receipt, all four provider worlds, and E11's negative verdict. Admit a
+revision only on prospective 6/6 against unchanged 2/6, and let the resulting
+subject state—not an experiment-specific itinerary—derive whether correction,
+opportunity refresh, or stake assimilation comes next. Only after the contact
+is developmentally interpretable should a later experiment test the stake
+across additional catalogs or a less collision-prone matched baseline.
