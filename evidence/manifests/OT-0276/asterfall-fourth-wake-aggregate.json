@@ -1,0 +1,34 @@
+{
+  "artifact_id": "asterfall-fourth-wake-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 690,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a0fbf9f99e445df67f6786949947716368cf1fa1",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0276",
+  "input_manifests": [
+    "evidence/manifests/OT-0274/open-subject-at-fourth-standing-feed-wait.json",
+    "evidence/manifests/OT-0275/independent-asterfall-world-package.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "Actor-free scanner wake and public offer are established; subject selection and retained-package consequence remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:asterfall-fourth-wake-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9172051676e60e9809e029a939fca014becbf320cb81a3e8fcb70b9e7d505f44"
+}

@@ -3510,3 +3510,8 @@ contradiction and its public projection passes the standing scanner. Exact
 `ee66f4df...` remains unchanged at the fourth wait. The immediate test is now
 causal entry: scanner-mediated wake must precede actor selection and consequence
 from the already retained sealed half.
+
+OT-0276 completes that actor-free wake. Exact `f1c8d8de...` holds Asterfall's
+public offer, preserves the four prior waits and all learned state, and routes
+to expansion without target choice. The next call must let a fresh subject
+actor choose a surface and receive 2/6 from OT-0275's retained sealed half.

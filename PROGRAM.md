@@ -2800,6 +2800,12 @@ package passes its checker, G10, target non-collision, and standing-scanner
 admission. Full digest `c4dd32e4...` and public digest `20d1854a...` remain
 external; exact `ee66f4df...` is unchanged at its fourth wait.
 
+OT-0276 promotes with zero actors. The standing scanner discovers only
+Asterfall's exact public package, discharges the fourth wait, and installs a
+non-authoritative offer without ledger or epoch change. Exact `f1c8d8de...` is
+open at environment expansion. Next require one fresh subject actor to choose
+among its three surfaces before the retained sealed half issues consequence.
+
 Next expose only that exact public projection to the standing scanner. Require
 actor-free wait discharge before any subject actor sees it; then exercise the
 existing content-free recurrence against the retained sealed package rather

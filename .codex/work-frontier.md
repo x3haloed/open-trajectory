@@ -440,3 +440,6 @@ standing-feed wait.
   ledger-novel 2/6 surfaces and passes the standing scanner; exact
   `ee66f4df...` remains untouched. Next expose only the public package and
   require actor-free fourth-wait discharge before subject selection.
+- OT-0276 discharges that wait with zero actors and no ledger or epoch change.
+  Exact `f1c8d8de...` holds only the non-authoritative public offer and routes
+  to environment expansion. Fresh subject selection is now the active edge.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-asterfall-offer",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1332840,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a0fbf9f99e445df67f6786949947716368cf1fa1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0276",
+  "input_manifests": [
+    "evidence/manifests/OT-0276/asterfall-fourth-wake-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact subject has discharged its fourth wait and holds a non-authoritative Asterfall offer; no subject actor has selected a surface."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-asterfall-offer",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "51b6e0ad79afccf31b3ee0b7f127fadcd289f8363460e34eb970376a6099c23d"
+}
