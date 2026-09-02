@@ -2709,5 +2709,11 @@ package-specific registry entries. The actor-free refresh leaves exact
 selection consequence use the retained package descriptor rather than inherited
 world registries, then complete both correction cycles to saturation and wait.
 
+OT-0272 freezes that complete suffix as eight calls to one content-free entry
+point. Public selection remains projection-derived; sealed consequence and
+correction come from the exact retained package. Both remaining-target orders
+must reach saturation, a fourth wait, and exact wait re-observation without
+adding package-specific machinery.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

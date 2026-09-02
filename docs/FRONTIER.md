@@ -3426,3 +3426,8 @@ only in selection consequence: public selection is descriptor-derived, but the
 old sealed-world evaluator cannot score these target shapes. Replace that
 evaluator with the exact retained package and require full fifth-epoch
 recurrence through saturation and waiting.
+
+OT-0272 freezes the full discriminating recurrence. Two selection/correction
+pairs must use public descriptor-derived choice plus retained-package 2/6 then
+4/4 and 6/6 versus unchanged 2/6. Actor-free refresh must exhaust the fifth
+epoch and install then exactly re-observe a fourth durable standing-feed wait.
