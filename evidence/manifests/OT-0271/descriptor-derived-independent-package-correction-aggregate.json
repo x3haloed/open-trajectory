@@ -1,0 +1,34 @@
+{
+  "artifact_id": "descriptor-derived-independent-package-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1223,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b9bdfb164c416b8522aa0dba1e37dc59b4909ce5",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0271",
+  "input_manifests": [
+    "evidence/manifests/OT-0268/independent-three-lantern-world-package.json",
+    "evidence/manifests/OT-0270/open-subject-at-independent-package-contradiction.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One independently authored package surface is corrected and two remaining opportunities are refreshed; generic selection/consequence and full fifth-epoch recurrence remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:descriptor-derived-independent-package-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "26df96778db4bd87a995f21a4acb288342136b1b39d8fda684a392b8da4e340c"
+}

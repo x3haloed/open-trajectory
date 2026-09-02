@@ -3417,3 +3417,12 @@ path, baseline, and receipt from exact subject descriptors and use a bounded
 four-example correction contact while retaining the package reference and all
 six follow-up cases world-side. After 6/6 versus unchanged 2/6, a separate
 actor-free call must refresh exactly two remaining package opportunities.
+
+OT-0271 promotes. The selected independent-package surface corrects at 4/4 and
+6/6 versus unchanged 2/6 without inherited target/reference entries; a zero-
+actor refresh exposes exactly `decide_tide` and `dispatch_lift`. Exact
+`cc0d8344...` is open at selection. The remaining registry dependency now lies
+only in selection consequence: public selection is descriptor-derived, but the
+old sealed-world evaluator cannot score these target shapes. Replace that
+evaluator with the exact retained package and require full fifth-epoch
+recurrence through saturation and waiting.

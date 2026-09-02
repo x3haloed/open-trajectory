@@ -2702,5 +2702,12 @@ examples come from bounded world disclosure; the full six-case reference stays
 sealed. No package target enters the inherited registry. All three possible
 package selections must correct prospectively before the sole live actor runs.
 
+OT-0271 promotes both calls. The fresh corrector reports exact effects and
+reaches public 4/4 plus retained-package 6/6 against unchanged 2/6 with no
+package-specific registry entries. The actor-free refresh leaves exact
+`cc0d8344...` open at the two remaining package opportunities. Next make
+selection consequence use the retained package descriptor rather than inherited
+world registries, then complete both correction cycles to saturation and wait.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-independent-package-selection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1285449,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b9bdfb164c416b8522aa0dba1e37dc59b4909ce5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0271",
+  "input_manifests": [
+    "evidence/manifests/OT-0271/descriptor-derived-independent-package-correction-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject exposes two remaining independent-package surfaces; their selection, correction, saturation, and later waiting remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-independent-package-selection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cd9b9e3d34961490053b040d54ccc5c977ff2a692c896ca8f7a27d2fe354d6fe"
+}

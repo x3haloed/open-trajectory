@@ -1,6 +1,6 @@
 # OT-0271 — descriptor-derived independent package correction
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0270 subject `0dae5089...`
 - **Fresh actors:** at most one, no retry
@@ -33,3 +33,19 @@ identical actor-free invocation must refresh from the fifth epoch's source
 descriptors and exact ledger, exposing precisely the two uncontacted package
 surfaces and routing to selection. Further selection and recurrence are separate
 claims.
+
+## Result
+
+Both content-free invocations pass. The fresh corrector derives
+`archive/permit.py::issue_permit` entirely from the exact subject, changes and
+reports exactly the selected source plus correction decision, passes G10, and
+reaches public 4/4. The retained OT-0268 package then scores the revision at 6/6
+against unchanged 2/6. No package target or reference is added to an inherited
+registry.
+
+The second invocation uses zero actors and refreshes exactly the two uncontacted
+package surfaces, `decide_tide` and `dispatch_lift`. Aggregate receipt
+`453c87ce...` promotes the result. Exact subject `cc0d8344...` preserves all
+prior wait/wake state and remains conformant and open at selection. Generic
+selection consequence, correction of both remaining surfaces, saturation, and
+another wait remain untested.

@@ -742,6 +742,10 @@ The strongest footholds are:
   public package with zero actors. One fresh subject actor then chooses a public
   surface without sealed access and receives 2/6 consequence from OT-0268's
   retained sealed half. Exact `0dae5089...` remains open at correction.
+- `OT-0271`: a descriptor-derived corrector revises that independently authored
+  surface without inherited target/reference entries, reaching public 4/4 and
+  sealed 6/6 versus unchanged 2/6. Actor-free refresh exposes the other two
+  package surfaces; exact `cc0d8344...` remains open at selection.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

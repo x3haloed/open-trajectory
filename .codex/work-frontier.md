@@ -409,3 +409,9 @@ the subject is open at `correct` and routes to correction before refresh.
   previously retained OT-0268 sealed half. Exact `0dae5089...` is open at
   correction. Next make correction and opportunity recurrence work without
   adding package-specific target machinery.
+- OT-0271 removes that correction dependency. One fresh corrector derives the
+  selected target from exact state, reaches public 4/4 and retained-package 6/6
+  versus unchanged 2/6, and reports exact effects without registry additions.
+  Actor-free refresh leaves exact `cc0d8344...` at the other two package
+  opportunities. Next generalize selection consequence, then finish this epoch
+  back to durable waiting.
