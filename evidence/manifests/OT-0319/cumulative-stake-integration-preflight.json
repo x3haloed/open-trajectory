@@ -1,0 +1,36 @@
+{
+  "artifact_id": "cumulative-stake-integration-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9402,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f670df57686a80967f7602f9f2b04233e7624d9c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0319",
+  "input_manifests": [
+    "evidence/manifests/OT-0318/open-subject-after-counterfactual-workbench-correction.json",
+    "evidence/manifests/OT-0318/counterfactual-revision-workbench-aggregate.json",
+    "evidence/manifests/OT-0315/exact-checker-materiality-reconstruction-aggregate.json",
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-raw-aggregate.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Candidate-free conformance of retained-contact reconstruction, bounded-weight reachability, mixed baselines, partial erasure, and executable workbench; not actor integration evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cumulative-stake-integration-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "65b20dd3cb8132b24b87741fd18a8f2b57aeaed3ac13994fcc46c45d25361fa5"
+}

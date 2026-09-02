@@ -130,13 +130,14 @@ current lineage.
   weights score 0/5 on OT-0314's prior regime while the parent remains 5/5.
   The mechanism is corrigible but oscillatory. Evidence: OT-0318 aggregate
   `1b16230d...`, exact child `21e90d47...`.
-- The next test should ask a fresh actor to replace the global item-wise weight
-  vector with a bounded executable catalog-level selector using only existing
-  public features. Give its counterfactual workbench both retained positive and
-  reversed contacts, and freeze a mixed private held-out trajectory. The world
-  must prove no item-wise global weighting can satisfy both because an identical
-  descriptor is correct in one catalog and wrong in the other. Promotion should
-  require an actor-authored selector at 10/10 versus exact current and prior
-  global baselines at 5/10, while erasing the earlier-history contacts removes
-  cumulative integration. This tests machinery-language expansion, not another
-  coefficient flip.
+- Expected: no bounded global item-wise weight vector could preserve both the
+  earlier and reversed distinctions, so cumulative improvement required a new
+  catalog-level selector language. Observed: OT-0319 candidate-free exhaustive
+  conformance found a legal 6/6 global-weight witness; a disjoint fixture scores
+  it 10/10 while exact current and prior stakes each score 5/10. The earlier
+  representation-limit diagnosis was false. The next live comparison therefore
+  keeps the existing stake language and gives a fresh actor jointly replayable
+  authenticated contacts from both regimes. Promotion requires an actor-authored
+  6/6 repair at private 10/10, with earlier-outcome erasure removing that
+  cumulative advantage. A new carrier is not justified unless this existing
+  action surface fails for a representational reason.
