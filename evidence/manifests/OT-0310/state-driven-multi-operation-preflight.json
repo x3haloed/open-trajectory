@@ -1,0 +1,36 @@
+{
+  "artifact_id": "state-driven-multi-operation-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1566,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d4ef457adbf989e1a54209b87966a399108869ed",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0309/open-subject-after-coherent-two-opportunity-selection.json",
+    "evidence/manifests/OT-0309/coherent-two-opportunity-selection-aggregate.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic success-path and negative-control conformance only; no OT-0310 actor output or live multi-operation chain."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:state-driven-multi-operation-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "38f438909f4b2ffaff18d0c3254bf8604b75c3ba75cbee6845494deb6c601c6a"
+}

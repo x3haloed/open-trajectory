@@ -127,15 +127,16 @@ choice.
   disclosure and canonicalize future target reports before they enter
   actor-visible continuity.
 
-Exact open subject `bf868110...` now derives correction after a fresh actor chose
-`light_watch` from two coherent opportunities and received independent 2/6
-contradiction. The immediate experiment should stop requiring a researcher to
-advance each already-derived operation separately: run the exact correction,
-actor-free projection refresh, and next target-untold selection under one
-bounded state-driven continuation harness, with per-encounter fresh actors,
-consequence-earned isolation, G10, and no target or operation choice by the
-observer. Freeze a finite safety/observation boundary, but treat reaching that
-boundary as censoring rather than closure. Preserve the world-seeking stake and
-OT-0305 negative verdict without treating either as selection evidence. Once
-the multi-operation chain is operational, return to discriminating the stake
-across additional catalogs or a less collision-prone matched baseline.
+OT-0310 is frozen against exact `bf868110...`. Reconstruction found that a
+successful correction normally makes the old projection stale before refresh,
+but OT-0308's guard rejected that transient. The amendment permits refresh only
+from a receipt-valid projection when the inherited driver, verified last-target
+state, and exact one-target resolver delta all agree; malformed, wrongly
+resealed, and authority-missing controls reject. A content-free scheduler may
+now derive and dispatch correction, refresh, coherence repair, and target-untold
+selection for up to ten operations and six fresh actors. No observer chooses an
+operation or target. Reaching a clean open budget or unsupported-operation
+boundary is censoring rather than closure. Preserve the world-seeking stake and
+OT-0305 negative verdict without treating either as selection evidence. If the
+multi-operation chain is operational, next admit its unsupported frontier or
+return to discriminating the stake across additional catalogs.

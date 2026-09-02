@@ -3332,5 +3332,18 @@ binding, execution, and world agree, so this disclosed report-format mismatch
 does not invalidate the transition. It must not be mistaken for target
 disagreement or propagated as an epistemic result.
 
+OT-0310 freezes the first bounded state-driven multi-operation continuation.
+Exact reconstruction exposed a selector-precedence defect: successful
+correction legitimately makes a receipt-valid projection stale until refresh,
+but OT-0308 rejected that transient as malformed. Refresh now wins only when
+the inherited driver derives it, the last target has correction and independent
+success authority, the old projection is receipt-valid, and the live resolver's
+error-free set differs by exactly that verified target. Three malformed or
+unauthorized variants still reject. The prospective chain traverses correction,
+refresh, coherence repair, remaining target-untold selection, a second
+correction and refresh, and saturated repair without observer operation or
+target choice. Ten operations and six actors bound observation; a clean open
+boundary is censoring, not closure. One live run is authorized only after push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
