@@ -1,0 +1,34 @@
+{
+  "artifact_id": "subject-authored-falsification-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 122406,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1aa011716fc24244a2501c423965205c50092686",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/subject-authored-falsification-exact-reconstruction.json",
+    "evidence/manifests/OT-0327/post-actor-controller-failure.json"
+  ],
+  "kind": "aggregate-result",
+  "limitations": [
+    "One bounded causal observation; not a generative reliability estimate or proof of full recurrence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-falsification-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2f5357dfd9fdcc4ab4753acb9db76e6500e502eb28d4aa869f2abf4c8d164767"
+}

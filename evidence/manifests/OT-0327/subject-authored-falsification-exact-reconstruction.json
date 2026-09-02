@@ -1,0 +1,34 @@
+{
+  "artifact_id": "subject-authored-falsification-exact-reconstruction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2053,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1aa011716fc24244a2501c423965205c50092686",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/position-authored-successor-stake.json",
+    "evidence/manifests/OT-0327/position-erased-successor-stake.json"
+  ],
+  "kind": "exact-reconstruction",
+  "limitations": [
+    "Deterministic reconstruction of retained bindings, worlds, routes, scores, audits, and exact successor; hosted generations are historical inputs."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-falsification-exact-reconstruction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7448f2b8643ca237ea55b99f41b729eeeed814b6e3ebffac1d5dd19edc8be3c8"
+}

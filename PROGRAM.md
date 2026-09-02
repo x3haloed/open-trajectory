@@ -229,7 +229,7 @@ condition, not the permanent purpose or executive of the resulting subject.
 - `OT-0118` reconstructs that exact evidence but rejects promotion: the denied
   command target is absent from retained events, and the assimilator used an
   unpublished contact-id rather than portfolio-id citation namespace.
-- `OT-0318` through `OT-0326` establish one bounded later-corrigible and
+- `OT-0318` through `OT-0327` establish one bounded later-corrigible and
   cumulative selection chain. Consequence-grounded candidate evaluation alone
   oscillated; jointly retained outcomes still failed when no proposal was
   generated; generic search produced a cumulative candidate; exact
@@ -251,9 +251,15 @@ condition, not the permanent purpose or executive of the resulting subject.
   The exact E13 assessor source was then bound to the subject. A fresh actor
   invoked the inherited assessor-router-search chain from raw fronts and
   reached 35/35 while preserving 30/30; a matched assessor-source-erased actor
-  retained at 30/35.
+  retained at 30/35. A position-bearing fresh actor then authored executable
+  falsification fronts before a private latent rule existed. Under either
+  possible rule its fronts exposed a floor-safe reachable correction; later
+  inherited assessment, routing, and search reached 40/40. A matched
+  position-erased author produced only fronts already saturated by the
+  incumbent, so its successor correctly waited at 35/40.
   This does not establish generation reliability, autonomous world generation,
-  subject-authored contact, permanently optimal routing, or full recurrence.
+  unrestricted contact-language invention, permanently optimal routing, or
+  full recurrence.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "position-authored-front-successor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 21626,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1aa011716fc24244a2501c423965205c50092686",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/position-bearing-front-author-trace.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Single hosted generation; immutable checkpoint identity unavailable."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:position-authored-front-successor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a6c17c89ccdc9c6dc426b9cb5df05225b4456458c806d82382e0d86dbb68ae14"
+}

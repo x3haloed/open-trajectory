@@ -1,6 +1,6 @@
 # OT-0327 — Subject-authored falsification fronts
 
-- **Status:** frozen — unexecuted
+- **Status:** completed — promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0326 subject `20b1db21...`
 - **Claim:** a fresh actor oriented by the exact subject position can author an
@@ -135,3 +135,38 @@ erased-author authorization, or private-world creation. The second operational
 repair changes only that lookup depth and reconstructs the exact completed
 actor output, trace, and workspace; it does not resample the actor. A retained
 receipt binds the failure and proves the private world remained absent.
+
+## Result
+
+The exact position-bearing author was reconstructed without resampling after
+the controller repair. It authored two executable fronts whose hypothesis
+embodiments differ across branch, call, and source-size dimensions. Under
+either latent slope, exactly one front makes the incumbent fail 0/4 while the
+other remains saturated 4/4; complete search finds a 4/4 correction that also
+preserves the 35-case floor and passes all five held-out cases. The actor ran
+the visible checker, changed only `front-generator.py`, and passed G10 with 22
+contained commands.
+
+The matched position-erased author also produced a safe generic two-front
+generator and passed its checker. After both sources and bindings existed, the
+private world selected `slope-3`. The active generated contact made
+`compact-first` the reachable contradiction. A later fresh actor invoked the
+inherited E13 assessor, corrected router, and complete search, adopted search's
+nearest candidate by changing call weight -5 to -9, replayed 4/4, preserved
+35/35, and passed the five disjoint generated cases for 40/40.
+
+The erased author's two fronts instead left the incumbent at 4/4 on both. Its
+later fresh successor invoked the same inherited pipeline; the router correctly
+returned no applicable opening, so it retained exactly and remained 35/40.
+All four actor encounters pass G10. Exact reconstruction reproduces both
+generators, bindings, bind-before-world order, completed fronts, world receipts,
+routes, scores, compiled child, and subject identity. Aggregate receipt
+`40220c27...` and reconstruction receipt `fa8a8225...` promote exact open child
+`b915e77d...`.
+
+This supports one bounded causal claim that inherited developmental position
+improved the authorship of useful falsification contact, not merely later
+interpretation of researcher-authored fronts. The actor still worked inside a
+researcher-defined generator ABI and binary latent-rule family. The result does
+not establish autonomous world acquisition, unrestricted experiment design,
+generation reliability, or full OT-2R recurrence.

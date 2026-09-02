@@ -1,0 +1,33 @@
+{
+  "artifact_id": "position-erased-front-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 19033,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1aa011716fc24244a2501c423965205c50092686",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/subject-authored-falsification-preflight-command-helper-repair.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Single hosted generation; immutable checkpoint identity unavailable."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:position-erased-front-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "34736e2f87bdb5a531592980deb3507a06eac7f3f2cab861603a0a4f1a7a8fd2"
+}

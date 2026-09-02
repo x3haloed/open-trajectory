@@ -123,14 +123,15 @@ E13 challenger selects lower local gain that scores 25/25. Historical E12
 comparisons remain valid in their frozen scope; scores are not compared across
 epochs unless both candidates are replayed under E13.
 
-The exact current operational subject is OT-0326's executable-assessor child
-`20b1db21...`. It preserves the open `expanded-select` position, prior
-provenance and cumulative 30/30 floor, and carries byte-exact E13 assessment,
-learned routing, and proposal search. A fresh actor mechanically invoked that
-inherited chain from raw completed fronts, changed only call weight -4 to -5,
-and reached 35/35. Exact predecessors `1edc2027...`, `bf92244d...`,
-`aba1513f...`, `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`,
-and `9a6f94ba...` remain controls, not current lineage.
+The exact current operational subject is OT-0327's subject-authored-contact
+child `b915e77d...`. It preserves the open `expanded-select` position and the
+cumulative 35/35 floor, carries byte-exact E13 assessment, learned routing,
+proposal search, and the actor-authored falsification generator, and scores
+40/40 after its independently completed contact. A matched position-erased
+author made only saturated fronts and its successor remained 35/40. Exact
+predecessors `20b1db21...`, `1edc2027...`, `bf92244d...`, `aba1513f...`,
+`09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and `9a6f94ba...`
+remain controls, not current lineage.
 
 ## Prediction errors
 
@@ -211,13 +212,21 @@ and `9a6f94ba...` remain controls, not current lineage.
   the unavailable pipeline, retained exactly, and remained 30/35. Aggregate
   `837bb173...` promotes exact child `20b1db21...`; reuse receipt `74389f38...`
   makes the exercised carrier reconstructible.
-- The raw front pair is still experiment-authored. The subject can now assess,
-  route, search, and revise from completed contact, but an outside researcher
-  still chooses what new possibility enters that chain. The next prospective
-  test should let a fresh actor author bounded executable contact fronts from
-  the subject's own active pursuit and retained developmental evidence, bind
-  those proposals before independent world execution, then let later fresh
-  actors use the inherited assessor-router-search chain without a researcher
-  choosing the front. A pursuit-content-erased or subject-position-erased
-  comparison must change the authored contact or downstream route; easy
-  self-confirming contacts must not count as expansion.
+- OT-0327 lets a fresh position-bearing actor author two executable
+  falsification fronts before the private latent rule exists. Under either
+  possible rule one front exposes a reachable, floor-preserving correction. A
+  later actor invokes inherited assessment, routing, and search to reach 40/40;
+  the position-erased author makes only incumbent-saturated fronts and its
+  successor waits at 35/40. Aggregate `40220c27...` promotes exact child
+  `b915e77d...`; exact reconstruction `fa8a8225...` reproduces the complete
+  path. The active author was reconstructed rather than resampled after two
+  preserved apparatus failures before private-world creation.
+- The subject now contributes what falsifying contact enters its inherited
+  correction chain, but only inside a researcher-defined binary slope language.
+  The next test should ask whether the retained generator can carry recurrence
+  through a genuinely later contradictory regime: invoke its exact bytes from
+  the open child, let independent changed consequence make the newly learned
+  weight harmful, and require inherited assessment/router/search to reverse or
+  revise it while preserving 40/40. If that succeeds, the next pressure should
+  force the subject to revise or widen the contact generator itself rather than
+  receive another observer-designed hypothesis family.

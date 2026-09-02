@@ -1,0 +1,33 @@
+{
+  "artifact_id": "position-erased-generator-binding",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1906,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1aa011716fc24244a2501c423965205c50092686",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/position-erased-front-generator.json"
+  ],
+  "kind": "generator-binding",
+  "limitations": [
+    "Exact erased-control generator binding before private world materialization."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:position-erased-generator-binding",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7f39d37b431f6a724fa5272aa6d2db0e0e4f127f2f08e4a224e9f75dc0efc0fc"
+}
