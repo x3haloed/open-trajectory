@@ -1,0 +1,31 @@
+{
+  "artifact_id": "exact-comparison-response-reconstruction-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 6113,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9124943dd1fc7da72dd2a553b8eab27f29292fc",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0338",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Exact retained actor, G11, consequence-authority, counterfeit, and open-successor reconstruction fixtures."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-comparison-response-reconstruction-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2d80e8698615f12c1735af16d8809d3d1caa9bb7e4d3087e95ad3c3517ef2800"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-awaiting-extended-comparison",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1973000,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9124943dd1fc7da72dd2a553b8eab27f29292fc",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0338",
+  "input_manifests": [],
+  "kind": "operational-open-subject",
+  "limitations": [
+    "Exact promoted open successor preserves the stake and requests consequence for the remaining catalogued world."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-awaiting-extended-comparison",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4cc342bbe3eb8272ab3a63a2665c82d1b930f71602be3e5c9bc06085a4f874bc"
+}

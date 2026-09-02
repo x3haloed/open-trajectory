@@ -171,6 +171,18 @@ for comparative consequence. Aggregate `f590cf57...` promotes exact open child
 `e46bb091...`, now the current operational subject. The next opening is no
 longer observer-chosen “revise the weights”; it is the subject-selected request
 to obtain comparable independent consequence for the two implicated worlds.
+
+OT-0337 compiled those two request-bound world consequences under one protocol:
+both worlds expose two eligible unresolved surfaces and every surface scores
+2/6. Its fresh actor correctly treated the tie as nondirectional and selected
+only the remaining catalogued world for comparison, but the observer then
+crashed on an incorrect imported-module path before disposition. OT-0338
+prospectively reconstructed the exact output and unchanged G11 certificate
+without resampling, while also making the declared consequence-authority gate
+executable. Aggregate `004b2581...` promotes exact open child `37ebb69a...`, now
+the current operational subject. The learned stake is still byte-exact; the
+next opening is consequence for `morrowmere-lantern-01`, selected by the prior
+actor because the first comparison failed to discriminate.
 OT-0329's rejected actor patch was never inherited.
 OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
 cumulative 45/45; the matched outcome-erased author retained the global policy

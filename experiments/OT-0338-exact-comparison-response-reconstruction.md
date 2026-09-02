@@ -1,6 +1,6 @@
 # OT-0338 — Exact comparison-response reconstruction
 
-- **Status:** frozen, unexecuted
+- **Status:** executed, promoted
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0336 child `e46bb091...`
 - **Fresh actors:** zero
@@ -25,3 +25,17 @@ exactly the requested worlds. Counterfeit decision, audit, request binding, or
 consequence authority rejects. Promotion requires exact child compilation with the parent
 stake byte-identical and the comparison extension still open. Historical
 OT-0337 remains invalid regardless of this result.
+
+## Result
+
+The exact OT-0337 actor output, workspace, audit, trace, stderr, and world
+consequences reconstructed without resampling. The correct unchanged G11 helper
+accepted the trace. The prospective receipt-authority gate accepted both exact
+request-bound outcome receipts and rejected its counterfeit fixture.
+
+The retained actor treated the 2×(2/6) result as nondiscriminating, declined
+stake revision, and selected only `morrowmere-lantern-01`, the remaining public
+candidate. Aggregate `004b2581...` promotes exact open child `37ebb69a...` with
+the incumbent stake byte-identical and the third-world consequence as its next
+opening. This does not rehabilitate OT-0337's invalid observer run or establish
+that the third world will distinguish the candidates.

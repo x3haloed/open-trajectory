@@ -1,0 +1,31 @@
+{
+  "artifact_id": "exact-comparison-response-reconstruction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7571,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9124943dd1fc7da72dd2a553b8eab27f29292fc",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0338",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Zero-resample reconstruction promotes the retained tie response and actor-selected extension to the remaining world."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-comparison-response-reconstruction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c40ad2018353d067e9bbb372b99a11abccdd2a111130180309702aa005cf3215"
+}
