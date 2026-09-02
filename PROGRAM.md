@@ -2883,5 +2883,15 @@ standing renewal policy and remains open at the fifth wait. Next discharge that
 wait actor-free from only the promoted public package, then require a fresh
 subject actor to choose its first Morrowglass surface without a target hint.
 
+OT-0281 freezes that two-opening handoff. The first null opening must discover
+only Morrowglass, discharge the fifth wait with zero actors, preserve renewal,
+and install a non-authoritative offer without ledger or epoch mutation. The
+second null opening authorizes one fresh target-untold subject actor. All three
+possible offered choices prospectively pass the public checker, exact 2/6
+retained consequence, new-epoch construction, correction-first routing, route
+16/16, and identity 18/18. An unsealed attempt with the retained-epoch compiler
+failed before actors because it resolved the prior epoch; the frozen harness
+uses the generic standing-feed offer-consumption path instead.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

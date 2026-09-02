@@ -3589,3 +3589,10 @@ policy at its fifth wait. The immediate causal test is now ordinary continuation
 rather than more evaluator work: discharge the wait from only the promoted
 public package, preserve the renewal policy, and let a fresh subject actor
 choose the first Morrowglass contact without a target hint.
+
+OT-0281 freezes that causal re-entry as two identical null openings. All three
+possible subject choices pass prospectively through the standing-feed
+offer-consumption path, exact 2/6 Morrowglass consequence, and correction-first
+routing. Wake is actor-free and preserves the renewal policy; actor seed and
+harness contain no target name. Live output remains sealed until the freeze is
+pushed.

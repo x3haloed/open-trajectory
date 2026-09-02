@@ -786,6 +786,10 @@ The strongest footholds are:
   retained Morrowglass package scanner-eligible without rescoring OT-0279. It
   promotes with zero actors; exact `cfab2a50...` remains open at the renewed
   fifth wait with the novel three-surface world available.
+- `OT-0281` freezes two identical null openings from that state: actor-free
+  Morrowglass wake, then one target-untold subject selection. All three possible
+  selections prospectively receive exact 2/6 consequence and route to
+  correction while preserving standing renewal.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

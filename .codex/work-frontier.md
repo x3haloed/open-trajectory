@@ -479,3 +479,7 @@ Morrowglass is externally promoted and unseen.
   Morrowglass world is now scanner-visible; exact `cfab2a50...` is current at
   its fifth wait. Next require actor-free wake and target-untold subject
   selection from the promoted public package.
+- OT-0281 freezes that two-opening path. Actor-free wake and all three possible
+  target-untold subject choices pass prospectively through offer consumption,
+  exact Morrowglass 2/6 consequence, renewal preservation, and correction
+  routing. Live calls remain sealed until the freeze is pushed.
