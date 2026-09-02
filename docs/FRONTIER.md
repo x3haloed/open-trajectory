@@ -3331,3 +3331,16 @@ must turn a genuinely changed provider cursor into a non-authoritative offer wit
 zero actors. The second must derive expansion, let one fresh actor choose among
 three executable surfaces without a hint, consume the offer into a new epoch,
 and retain independent contradiction with correction next.
+
+OT-0266 promotes through both identical calls. The changed cursor discharges the
+exact wait with zero actors; one clean G10 actor chooses
+`coordination/medical.py::allocate_field_clinics`, consumes the offer into a
+fourth epoch, and receives sealed 2/6. Exact `d3ef7b33...` retains both waits and
+discharges, remains open, and routes correction before refresh.
+
+The immediate operational frontier is fourth-epoch continuation through the
+same content-free recurrence. The architectural frontier is sharper: turn
+reopening and intra-epoch phase choice are no longer hidden researcher inputs in
+this bounded chain, while the provider remains an experiment-authored source of
+novel worlds. The next reductions should preserve objective external novelty
+without requiring a researcher to design each world arrival.

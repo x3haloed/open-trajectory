@@ -377,3 +377,9 @@ the subject is open at `correct` and routes to correction before refresh.
   `d62f5fc2...` saturates the epoch and remains open at a second durable wait.
   Next change the provider cursor with a new world and require this same
   architecture to discharge the wait and resume live contact.
+- OT-0266 crosses that second wake boundary. Zero-actor provider observation
+  discharges the exact wait; the next identical call lets one fresh actor choose
+  `allocate_field_clinics`, consume the offer into a fourth epoch, and receive
+  sealed 2/6. Exact `d3ef7b33...` preserves both cycles and routes correction
+  before refresh. Continue the fourth epoch, then replace experiment-authored
+  provider arrivals with a standing source of objective novelty.

@@ -2621,5 +2621,16 @@ discharge, and offer it. The second may spend one actor to choose contact and
 receive sealed consequence. The provider supplies novelty, not selection or
 developmental phase.
 
+OT-0266 promotes through both calls. Zero-actor observation discharges the exact
+second wait; one clean G10 actor chooses `allocate_field_clinics`, consumes the
+offer into a fourth epoch, and receives sealed 2/6. Exact `d3ef7b33...` retains
+both wait cycles and routes correction before stale-projection refresh.
+
+Next carry this fourth-epoch contradiction through correction and the same
+content-free intra-epoch recurrence. The larger unresolved dependency is now the
+world/provider boundary: novelty may properly arrive from outside, but provider
+extension is still an experiment-authored fixture rather than a standing live
+source.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "second-wake-to-live-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1067,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d20d0a49a0dafdacc0b1dc9edef38cc136441e67",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0266",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One second-wake and live-contact recurrence reaches contradiction; correction and the remaining fourth-epoch development cycle remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:second-wake-to-live-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f659a0b59373548cd3a7779bb8f68a9e168bdfa30fb224a7c0fd728b283c622c"
+}

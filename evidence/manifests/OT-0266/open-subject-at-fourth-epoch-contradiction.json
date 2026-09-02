@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-at-fourth-epoch-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1180033,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d20d0a49a0dafdacc0b1dc9edef38cc136441e67",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0266",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject after a second provider wake and actor-chosen contact; broader provider autonomy and unbounded recurrence remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-fourth-epoch-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b31afd9cbb620eb9a21efbd596a7ea3d513470e86086834a3213286096ec4981"
+}

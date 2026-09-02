@@ -722,6 +722,10 @@ The strongest footholds are:
   contradiction, correction, refresh, empty-provider waiting, and exact wait
   re-observation. Exact `d62f5fc2...` saturates the epoch and remains open at a
   second durable wait; the caller supplies wakeups but no target or phase.
+- `OT-0266`: a new provider world wakes that exact second wait with zero actors;
+  the next identical call lets one fresh actor select `allocate_field_clinics`,
+  consume the offer into a fourth epoch, and receive sealed 2/6. Exact
+  `d3ef7b33...` remains open with correction before refresh.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
