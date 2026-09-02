@@ -1,6 +1,6 @@
 # OT-0294 — Shared live isolation authority
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** OT-0293 live isolation-authority rejection
 - **Invocation:** unchanged two content-free openings from the OT-0290 parent
@@ -46,3 +46,20 @@ four inherited hidden-content controls fail it. OT-0293's clean actor, 2/6
 consequence, correction route, and isolation-only rejection remain exact, as do
 the corrected live driver, three selection branches, route 16/16, and identity
 18/18. Preflight receipt `f0adbb1b...`.
+
+## Bounded result
+
+Both content-free openings pass without retry. The first reproduces actor-free
+wake and exact post-wake subject `3fcb9e39...`. The second uses one fresh actor
+in an external workspace. Its trace is G10-clean, its seed passes the shared
+content-based authority, and it selects `count_crates` without being told a
+target. Sealed consequence is unresolved 2/6 versus the public policy.
+
+Exact open successor `e09f4f71...` retains the correction stake, all invalidity
+scars, and the provider recovery receipt; its next operation is
+`outward-correct`. Aggregate receipt `0ec1eb95...`.
+
+This closes the bounded causal handoff from rejected provider encounter through
+recovery, scanner wake, autonomous target selection, and objective consequence.
+It does not yet show correction of the selected surface or recurrence through
+the rest of the new world.

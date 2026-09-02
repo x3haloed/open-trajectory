@@ -1,0 +1,34 @@
+{
+  "artifact_id": "shared-live-isolation-authority-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 927,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cbc2f8c6863995e5d8e0a47198189498a0554fcd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0294",
+  "input_manifests": [
+    "evidence/manifests/OT-0294/recovered-world-selected-consequence-invocation.json",
+    "evidence/manifests/OT-0294/shared-live-isolation-authority-preflight.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded wake-and-selection handoff; not a complete correction or recurrence cycle."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:shared-live-isolation-authority-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8960716c1de9fbfbabfb99b998051d0f602402c2b83b10433cd7eff58564e6f3"
+}

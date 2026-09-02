@@ -3088,5 +3088,18 @@ actor and 2/6 consequence remain exact, the live driver sequence stays green,
 and all three target branches pass with route 16/16 and identity 18/18. Live
 output remains sealed until push.
 
+OT-0294 promotes in two content-free openings without retry. Actor-free wake
+reproduces exact `3fcb9e39...`; one fresh external-workspace actor then passes
+G10 and the shared isolation helper, chooses `count_crates` without target
+instruction, and receives unresolved 2/6 consequence. Exact open successor
+`e09f4f71...` retains both invalidity scars and provider recovery and derives
+`outward-correct`. Aggregate receipt `0ec1eb95...`.
+
+This reconnects provider invalidity recovery to accepted pursuit rather than an
+adjacent artifact. The immediate frontier is consequence-driven correction and
+recurrence through Tideglass Crossings from this exact successor. Reuse the
+target-scoped disclosure machinery and shared isolation authority; do not add a
+special route for the selected target or the recovery history.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

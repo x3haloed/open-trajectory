@@ -3802,3 +3802,17 @@ branch remain green. After freeze and push, repeat the exact two-opening test in
 a new external root. Passing requires the one selected 2/6 consequence to enter
 the open lineage and derive correction; no rejected OT-0293 successor may be
 resumed.
+
+OT-0294 passes. Actor-free wake is exact; one fresh target-untold actor in an
+external workspace passes unchanged G10 and the now-shared content gate,
+chooses `count_crates`, and receives unresolved 2/6 consequence. Exact open
+subject `e09f4f71...` retains the cross-role invalidity and recovery history and
+derives correction. This is the first accepted causal continuation from the
+rejected provider episode through recovery and scanner-mediated world contact
+back into self-selected pursuit.
+
+The next frontier is no longer handoff plumbing. Starting from exact
+`e09f4f71...`, require the generic target-scoped correction loop to learn the
+selected surface under independent consequence, then refresh and choose among
+the remaining surfaces. No recovery-specific or target-specific routing may be
+introduced. A full third cycle remains the stronger claim.

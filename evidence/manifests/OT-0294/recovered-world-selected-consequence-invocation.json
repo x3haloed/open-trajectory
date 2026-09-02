@@ -1,0 +1,35 @@
+{
+  "artifact_id": "recovered-world-selected-consequence-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11170,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cbc2f8c6863995e5d8e0a47198189498a0554fcd",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0294",
+  "input_manifests": [
+    "evidence/manifests/OT-0294/shared-live-isolation-authority-preflight.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json",
+    "evidence/manifests/OT-0290/open-subject-after-provider-recovery.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "One bounded selected consequence after provider recovery; correction has been derived but not yet attempted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:recovered-world-selected-consequence-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5fd4a21f4a4eb4686e19114da2c54da08f91df44ed7eda4cc60cb41ab287baf0"
+}
