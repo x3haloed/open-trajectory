@@ -1,0 +1,33 @@
+{
+  "artifact_id": "applicability-erased-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 27875,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "85244649a62dd0eb199d6576c8c7efb1025110b0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0323",
+  "input_manifests": [
+    "evidence/manifests/OT-0323/applicability-erased-invocation-route.json"
+  ],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Fresh matched control actor trace; model provenance remains deployment-limited."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:applicability-erased-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2fc074b8f936f6a58ef6b4db27d39c9f95dee6b8d4d658a077a007eaa3926088"
+}

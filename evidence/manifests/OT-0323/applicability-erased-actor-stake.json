@@ -1,0 +1,33 @@
+{
+  "artifact_id": "applicability-erased-actor-stake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1636,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "85244649a62dd0eb199d6576c8c7efb1025110b0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0323",
+  "input_manifests": [
+    "evidence/manifests/OT-0323/applicability-erased-actor-trace.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Control stake retained after saturated routed contacts."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:applicability-erased-actor-stake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "29e805c6d4efa7b6e381c060073975fc27bbb6cb49f63368478ae002021d9628"
+}

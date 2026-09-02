@@ -1,0 +1,33 @@
+{
+  "artifact_id": "simultaneous-search-fronts",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12378,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "85244649a62dd0eb199d6576c8c7efb1025110b0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0323",
+  "input_manifests": [
+    "evidence/manifests/OT-0323/private-multi-opening-world-seed.json"
+  ],
+  "kind": "actor-input-projection",
+  "limitations": [
+    "Two private-seed-derived completed contact fronts; held-out cases remain external."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:simultaneous-search-fronts",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9cf7f4639d7b42eab6272d08699454e82744aa39eb28a69010d2274328d26e1d"
+}

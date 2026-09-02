@@ -1,0 +1,35 @@
+{
+  "artifact_id": "applicability-routed-search-invocation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 74039,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "85244649a62dd0eb199d6576c8c7efb1025110b0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0323",
+  "input_manifests": [
+    "evidence/manifests/OT-0323/applicability-routed-actor-stake.json",
+    "evidence/manifests/OT-0323/applicability-erased-actor-stake.json",
+    "evidence/manifests/OT-0323/post-output-controller-repair.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "One bounded causal invocation-routing observation; not generation reliability, autonomous world generation, or full OT-2R."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:applicability-routed-search-invocation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "837040b93cf0786f114a9ac40fc37ee362f42df314b0afa3a94af53808cdcc0a"
+}

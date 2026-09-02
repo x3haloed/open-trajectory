@@ -321,11 +321,54 @@ def seed_actor(root, subject, contacts, route):
     return seed
 
 
-def run_actor(context, root, subject, contacts, route, label):
-    seed = seed_actor(root, subject, contacts, route)
-    output, audit0, workspace, _ = context.run_actor(
-        label, seed, SCHEMA, (seed / "README.md").read_text().strip()
+def reconstruct_completed_actor(context, seed, label):
+    evidence = context.evidence(label)
+    workspace = evidence / "actor-workspace"
+    output = json.loads((evidence / "output.json").read_text())
+    events = (evidence / "events.jsonl").read_text()
+    helpers = type(context).run_actor.__globals__
+    inventory = helpers["inventory"]
+    digest = helpers["digest"]
+    item_counts = helpers["item_counts"]
+    before = inventory(seed)
+    after = inventory(workspace)
+    changed = sorted(
+        key for key in set(before) | set(after) if before.get(key) != after.get(key)
     )
+    patch = {
+        "parent_inventory_digest": digest(before),
+        "successor_inventory_digest": digest(after),
+        "changed_paths": changed,
+        "files": {
+            key: (workspace / key).read_text()
+            for key in changed if (workspace / key).is_file()
+        },
+    }
+    base_audit = {
+        **item_counts(events),
+        "changed_paths": changed,
+        "reported_paths": sorted(output["files_changed"]),
+        "patch_digest": digest(patch),
+    }
+    return output, base_audit, workspace, patch
+
+
+def run_actor(context, root, subject, contacts, route, label):
+    evidence = context.evidence(label)
+    completed = all(
+        (evidence / name).is_file()
+        for name in ("events.jsonl", "output.json", "stderr.txt")
+    ) and (evidence / "actor-workspace").is_dir()
+    if completed:
+        seed = root / "seed"
+        output, audit0, workspace, _ = reconstruct_completed_actor(
+            context, seed, label
+        )
+    else:
+        seed = seed_actor(root, subject, contacts, route)
+        output, audit0, workspace, _ = context.run_actor(
+            label, seed, SCHEMA, (seed / "README.md").read_text().strip()
+        )
     trace = (context.evidence(label) / "events.jsonl").read_text()
     source = subject["active_proposal_search_capability"]["source"]
     try:
@@ -359,7 +402,7 @@ def run_actor(context, root, subject, contacts, route, label):
     semantic = bool(
         immutable_ok and checker_ok and search_ok and checker_invoked
         and workbench_invoked and search_invoked and candidate_from_search
-        and base.corrected_accepts(subject, candidate)
+        and base.base.corrected_accepts(subject, candidate)
         and base314.output_valid(output, changed)
     )
     expected = ["stake-revision.json"] if changed else []
@@ -373,6 +416,8 @@ def run_actor(context, root, subject, contacts, route, label):
         "output": output,
         "audit": audit,
         "g10_disposition": accepted,
+        "completed_output_reconstructed": completed,
+        "actor_resampled": False,
         "search_result": searched["parsed"] if searched else None,
         "training_replay": replayed["parsed"] if replayed else None,
         "workspace_evaluation": {
@@ -409,6 +454,14 @@ def compile_child(subject, actor, contacts, evaluation, route, p82):
         *child.get("proposal_search_invocation_receipts", []), invocation
     ]
     return p82.seal(child), binding, replay, invocation
+
+
+def write_or_verify_json(path, value):
+    if path.exists():
+        if json.loads(path.read_text()) != value:
+            raise RuntimeError(f"retained private artifact changed: {path.name}")
+        return
+    write_json(path, value)
 
 
 def preflight(root, p82, runtime, parent, result322):
@@ -527,18 +580,23 @@ def main():
 
     routed_subject, router = compile_router_subject(parent, p82)
     erased_subject, erased_capability = erase_applicability(routed_subject, p82)
-    write_json(run / "router-capability-subject.json", routed_subject)
-    write_json(run / "applicability-erased-subject.json", erased_subject)
+    write_or_verify_json(run / "router-capability-subject.json", routed_subject)
+    write_or_verify_json(run / "applicability-erased-subject.json", erased_subject)
 
-    seed = secrets.token_hex(32)
-    write_json(run / "private-multi-opening-world-seed.json", {
-        "seed": seed, "seed_digest": p82.digest(seed)
-    })
+    seed_path = run / "private-multi-opening-world-seed.json"
+    if seed_path.exists():
+        seed_record = json.loads(seed_path.read_text())
+        seed = seed_record["seed"]
+        if seed_record["seed_digest"] != p82.digest(seed):
+            raise RuntimeError("retained private seed digest mismatch")
+    else:
+        seed = secrets.token_hex(32)
+        write_json(seed_path, {"seed": seed, "seed_digest": p82.digest(seed)})
     incumbent = base316.stake_of(parent)
     fronts = offered_fronts(seed, incumbent, p82)
     summaries = front_summaries(fronts, base.SEARCH_SOURCE, incumbent)
-    write_json(run / "offered-fronts.json", fronts)
-    write_json(run / "front-search-summaries.json", summaries)
+    write_or_verify_json(run / "offered-fronts.json", fronts)
+    write_or_verify_json(run / "front-search-summaries.json", summaries)
 
     active_route_result = run_router(routed_subject, summaries)
     erased_route_result = run_router(erased_subject, summaries)
@@ -550,8 +608,8 @@ def main():
     erased_route = route_receipt(
         erased_subject, summaries, erased_route_result["parsed"], p82, erased=True
     )
-    write_json(run / "active-invocation-route.json", active_route)
-    write_json(run / "erased-invocation-route.json", erased_route)
+    write_or_verify_json(run / "active-invocation-route.json", active_route)
+    write_or_verify_json(run / "erased-invocation-route.json", erased_route)
 
     active_front = selected_front(fronts, active_route["route"])
     erased_front = selected_front(fronts, erased_route["route"])
@@ -560,6 +618,23 @@ def main():
         context, run / "candidate", routed_subject, active_front["contacts"],
         active_route, "applicability-routed-search-user",
     )
+    if actor["completed_output_reconstructed"]:
+        repair_body = {
+            "authority": AUTHORITY + "-post-output-controller-repair",
+            "failure": "checker helper referenced through the OT-0322 wrapper rather than its OT-0321 base",
+            "correction": "resolve the same frozen corrected_accepts helper through OT-0322.base",
+            "actor_output_digest": p82.digest(actor["output"]),
+            "actor_patch_digest": actor["audit"]["patch_digest"],
+            "actor_resampled": False,
+            "private_seed_reused": True,
+            "fronts_reconstructed_exactly": True,
+            "route_reconstructed_exactly": True,
+            "actor_information_changed": False,
+            "world_or_score_changed": False,
+            "branch_order_changed": False,
+        }
+        repair = {**repair_body, "receipt_digest": p82.digest(repair_body)}
+        write_or_verify_json(run / "controller-repair.json", repair)
     candidate_score = score(actor["candidate_stake"], seed, p82) if actor["accepted"] else None
     operational = bool(
         actor["accepted"] and actor["changed"]

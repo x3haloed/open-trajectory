@@ -1,0 +1,33 @@
+{
+  "artifact_id": "simultaneous-front-search-summaries",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 564,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "85244649a62dd0eb199d6576c8c7efb1025110b0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0323",
+  "input_manifests": [
+    "evidence/manifests/OT-0323/simultaneous-search-fronts.json"
+  ],
+  "kind": "actor-input-projection",
+  "limitations": [
+    "Common public summaries supplied to both routing branches."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:simultaneous-front-search-summaries",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1c165e29974f0d90722134a2da403d33d2de54f8d57c318ff555bc76fd7f6fb4"
+}

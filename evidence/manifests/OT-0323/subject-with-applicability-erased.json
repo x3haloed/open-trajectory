@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-with-applicability-erased",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1726370,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "85244649a62dd0eb199d6576c8c7efb1025110b0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0323",
+  "input_manifests": [
+    "evidence/manifests/OT-0322/open-subject-after-executable-search-reuse.json"
+  ],
+  "kind": "full-subject-control",
+  "limitations": [
+    "Matched control changes active invoke_when to null while retaining executable search and router sources."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-with-applicability-erased",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d86dad45bc75986f64549f5c9450f6805397ad0d67f5a513cc0c0fac743f821f"
+}

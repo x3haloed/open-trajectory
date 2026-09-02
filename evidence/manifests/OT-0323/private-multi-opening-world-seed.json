@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-multi-opening-world-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "85244649a62dd0eb199d6576c8c7efb1025110b0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0323",
+  "input_manifests": [
+    "evidence/manifests/OT-0323/applicability-routed-search-invocation-preflight.json"
+  ],
+  "kind": "private-world-seed",
+  "limitations": [
+    "Private post-freeze seed identity; raw seed remains external."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-multi-opening-world-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "69a196088e56720eb4632485c50dc4387549aa420ee9832f0d4e08af51ab8d06"
+}

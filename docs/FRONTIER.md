@@ -105,12 +105,13 @@ scores of 0/5. The historical actor-visible checker remained nonconformant, but
 the frozen materiality audit reconstructed every contact, score, binding, and
 child exactly and found the symmetric checker crash causally immaterial.
 
-The exact current operational subject is OT-0322's executable-search reuse child
-`09d58f1a...`. It preserves the open `expanded-select` position, prior
-provenance and cumulative 10/10 floor, and now carries the byte-exact proposal-
-search source with its causal receipt and applicability boundary. A fresh actor
-reused it to change only the call coefficient from +1 to -1 and reach 15/15.
-Exact predecessors `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
+The exact current operational subject is OT-0323's applicability-routed child
+`aba1513f...`. It preserves the open `expanded-select` position, prior
+provenance and cumulative 15/15 floor, carries byte-exact proposal search and a
+byte-exact fixed router, and records the causal route by which its applicability
+state chose a contradicted opening over a simultaneous saturated opening. A
+fresh actor changed only loop weight 0 to -3 and reached 20/20. Exact
+predecessors `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
 `9a6f94ba...` remain controls, not current lineage.
 
 ## Prediction errors
@@ -162,12 +163,22 @@ Exact predecessors `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
   source-erased actor saw identical outcomes but search was unavailable; it
   retained at 10/15. Evidence: aggregate `8cd60fd0...`, exact child
   `09d58f1a...`.
-- Search is now an exercisable inherited capability, but fixed compilation,
-  encounter choice, and invocation timing remain external. The next prospective
-  test should give exact `09d58f1a...` multiple simultaneously available
-  openings: at least one saturated surface and one independently contradicted
-  surface. A fixed driver must derive the route from the subject's retained
-  applicability state, open a fresh actor only on the selected surface, and
-  reach held-out improvement. An applicability/choice-erased branch must remove
-  the route or change the contact. This tests subject-selected invocation rather
-  than another researcher-assigned reuse.
+- OT-0323 gave exact `09d58f1a...` simultaneous saturated and contradicted
+  openings. Its compiled fixed router applied retained applicability, selected
+  the contradicted front, and a fresh actor used inherited search to reach
+  20/20 while preserving 15/15. Applicability erasure selected the saturated
+  first offer; its matched actor found no improvement and stayed 15/20.
+  Aggregate `ebb7336d...` promotes exact child `aba1513f...`. A post-output
+  checker-name repair reused the exact candidate output without resampling and
+  is bound by repair receipt `4bfbf0ac...`.
+- The retained invocation rule detects incumbent failure, not whether a useful
+  successor is reachable. With two failing fronts it breaks ties by opaque
+  front identity and may spend the next actor on a saturated dead end. The next
+  prospective test should make exact `aba1513f...` encounter one failure-bearing
+  front where bounded search cannot improve the incumbent and another where it
+  can. After the existing router demonstrably chooses the dead end, a fresh
+  machinery-revision actor should edit the executable router under a frozen
+  contract. A later fresh actor must use that retained revision on new front
+  identities/order to select reachable gain and improve the cumulative 20/20
+  floor; the unchanged-router branch must select the dead end. This tests
+  consequence-driven improvement of future-move selection itself.
