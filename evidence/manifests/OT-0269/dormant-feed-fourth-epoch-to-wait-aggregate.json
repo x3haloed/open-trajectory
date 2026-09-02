@@ -1,0 +1,31 @@
+{
+  "artifact_id": "dormant-feed-fourth-epoch-to-wait-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1747,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7822c31802f2c68b1a19e5b5e145766cf7132045",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0269",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "The fourth epoch recurs to a third durable empty-feed wait; later discovery of the retained independent package, subject choice, and package-owned consequence remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:dormant-feed-fourth-epoch-to-wait-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "410206520b1d7ae729eb96fc3f97c9eea3af7ccd44916aef4bfa9598dd2facd0"
+}

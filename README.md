@@ -734,6 +734,10 @@ The strongest footholds are:
   catalog, authors `three-lantern-courier-v1`. Its three actor-named visible
   callables each score 2/6 against sealed references and its public projection
   passes the standing scanner. The subject remains exact and unchanged.
+- `OT-0269`: ten identical content-free invocations finish the dormant fourth
+  epoch with five fresh actors, saturate it, and install then exactly re-observe
+  a third durable wait. Exact `67fafa07...` remains open on the standing scanner;
+  the independently retained package is still unconsumed.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

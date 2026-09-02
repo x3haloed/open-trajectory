@@ -397,3 +397,9 @@ the subject is open at `correct` and routes to correction before refresh.
   `f02cf7cd...`. Next finish the fourth epoch, then require the standing scanner
   to discover this dormant package and carry it through subject choice and
   independent consequence.
+- OT-0269 finishes that fourth epoch without exposing the package. Ten identical
+  content-free calls use five fresh actors for three corrections and two
+  selections, then saturate and exactly re-observe a third durable wait. Exact
+  `67fafa07...` remains open on the standing scanner. Next inject only the exact
+  OT-0268 public projection and require scanner-mediated wake before a fresh
+  subject actor chooses and encounters the retained sealed world.

@@ -2675,5 +2675,12 @@ orders of the two remaining selections and corrections, saturation, third-wait
 installation, and exact wait re-observation must all derive from serialized
 subject state. OT-0268 package identity and bytes remain outside every call.
 
+OT-0269 promotes all ten calls. Five fresh actors complete the three corrections
+and two selections while actor-free transitions refresh, saturate, install the
+third wait, and re-observe it exactly. Exact `67fafa07...` is open at that wait;
+the dormant package remains unconsumed. Next expose the exact OT-0268 public
+package through the installed scanner and require causal wait discharge before
+any fresh subject actor chooses a surface or receives sealed consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

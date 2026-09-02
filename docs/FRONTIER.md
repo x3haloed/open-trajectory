@@ -3386,3 +3386,12 @@ active feed. Ten identical invocations must derive one current correction, two
 selection/correction pairs, three refreshes, empty-feed waiting, and exact wait
 re-observation. Both remaining-target orders must pass prospectively. Promotion
 ends at a third durable wait, not package discovery.
+
+OT-0269 promotes. The ten calls preserve the frozen operation order, all five
+fresh actors pass their contact and correction gates, and actor-free recurrence
+ends at exact open subject `67fafa07...` on a third durable standing-feed wait.
+No dormant-package receipt enters the lineage. The immediate discriminating
+test is now scanner-mediated arrival: inject only OT-0268's exact public
+projection, require zero-actor wait discharge, then require a fresh subject
+actor to choose an offered surface without sealed access and receive consequence
+from OT-0268's already retained sealed half.
