@@ -1,0 +1,35 @@
+{
+  "artifact_id": "exact-weight-bound-reconstruction-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 986,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "08bd2f9bca8ccdf8d4142af87c9d9ce70f38baef",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0321",
+  "input_manifests": [
+    "evidence/manifests/OT-0320/reachable-revision-search-raw-aggregate.json",
+    "evidence/manifests/OT-0320/full-history-search-actor-stake-revision.json",
+    "evidence/manifests/OT-0320/open-subject-after-invalid-search-admission.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Post-result candidate-free conformance of public-bound-aligned admission, counterfeit rejection, legacy predicate isolation, and open child compilation; not the reconstruction result."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-weight-bound-reconstruction-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a836bef0532e3b6f27d4a034f0dcc75249e115dcf97121dd1d5dcf201d998ba3"
+}
