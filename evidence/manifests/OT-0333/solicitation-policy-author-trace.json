@@ -1,0 +1,31 @@
+{
+  "artifact_id": "solicitation-policy-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 25070,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca17e1f517674da3ed542817aba286c340f7b530",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0333",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh broad-tool actor trace for the accepted pre-world solicitation policy."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:solicitation-policy-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "755ada77d1a2c16b48df04076d98e9ecac9e08f84c2aa697ab76c47ef1be1aa1"
+}

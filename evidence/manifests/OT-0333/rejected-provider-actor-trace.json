@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-provider-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 29645,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca17e1f517674da3ed542817aba286c340f7b530",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0333",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh subject-blind broad-tool provider trace; package was rejected only by target-collision admission."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-provider-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cb169f2ed4467ef2149eac47b91765a1d577d3ccd56abf397bbd0bfeeb32c578"
+}

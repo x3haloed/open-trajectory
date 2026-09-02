@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-sized-environment-search-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1256,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca17e1f517674da3ed542817aba286c340f7b530",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0333",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic ancestry, state-resolved stake, policy, support, exhaustion, contact, and authority controls before actor authorization."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-sized-environment-search-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1bee343dd1d143130182de188905c587ba362ef3b0ae52322bc2a5ea70eaa257"
+}

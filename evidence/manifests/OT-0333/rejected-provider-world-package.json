@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-provider-world-package",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3636,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca17e1f517674da3ed542817aba286c340f7b530",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0333",
+  "input_manifests": [],
+  "kind": "retained-unadmitted-world-package",
+  "limitations": [
+    "Valid three-surface package retained for prospective collision-scope evaluation; contains sealed world material."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-provider-world-package",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f0cdd12c8529f61497762f1a3a2bbc3155bd08d9bbd44cf9ae41abd016c5633b"
+}

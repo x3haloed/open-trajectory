@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-policy-bearing-subject-before-provider-repair",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1963072,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca17e1f517674da3ed542817aba286c340f7b530",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0333",
+  "input_manifests": [],
+  "kind": "retained-unpromoted-subject",
+  "limitations": [
+    "Exact open subject contains the valid bound solicitation policy, but the experiment rejected before provider contact and it is not the current promoted lineage."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-policy-bearing-subject-before-provider-repair",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d039ea7af41d28de6b3006b3295bd8df03d67ec46d7dd80ee2ccc72befd3ab42"
+}

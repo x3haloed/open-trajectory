@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-sized-environment-search-rejected-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 19468,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ca17e1f517674da3ed542817aba286c340f7b530",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0333",
+  "input_manifests": [],
+  "kind": "rejected-aggregate",
+  "limitations": [
+    "Provider package was valid but rejected by the inherited bare-target global collision rule before selection history or world contact."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-sized-environment-search-rejected-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6b221483d5ffb7e2d45cbe86f586b1385835a22b4e31bb2bde7bd25a8af59f6e"
+}

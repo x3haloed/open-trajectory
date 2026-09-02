@@ -1,6 +1,6 @@
 # OT-0333 — Subject-sized environment search
 
-- **Status:** frozen, unexecuted
+- **Status:** rejected
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0332 open child `38e9b5dd...`
 - **Fresh actors:** one policy author, two or three subject-blind world providers,
@@ -68,3 +68,28 @@ contact claim. Any invalid actor, collision, premature/late stop, fallback,
 sealed leakage, audit failure, or nonconformant successor rejects without
 retry. The selected world is not claimed objectively better than unrequested
 worlds; this experiment tests subject-sized search and real downstream contact.
+
+## Result
+
+Rejected at the first provider, without retry. The policy actor passed G11 and
+bound `three-provider-two-support-prefix` before any future world existed. It
+chose the cautious prospective rule suggested by neither the harness nor a
+future catalog: request at most three providers, require two consecutive
+supported prefixes, and require the same winner across both. This valid actor
+output and its exact unpromoted policy-bearing subject are retained.
+
+The first subject-blind provider independently authored
+`morrow-quay-ledger-v1`. Its package is structurally valid, scanner-visible,
+world-novel, and contains three exact 2/6 surfaces. Its broad-tool trace is
+clean. Admission nevertheless rejected the whole package because the bare
+symbol `assign_berth` already occurs in the subject ledger. The new surface is
+scoped to a different world and has different executable semantics, while its
+other two surfaces are novel. No ranking, stop, selected offer, or downstream
+contact occurred. Aggregate `2f731b99...`; the promoted current subject remains
+OT-0332 child `38e9b5dd...`.
+
+This exposes an additional closed-world assumption rather than falsifying the
+solicitation policy: provider novelty is checked globally by bare callable name,
+even though retained opportunity identity also includes environment and path.
+The next experiment may prospectively test scoped collision admission against
+the exact retained package and policy output. OT-0333 remains rejected.

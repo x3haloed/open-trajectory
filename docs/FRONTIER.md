@@ -156,6 +156,16 @@ and its fresh successor scored 0/5. Exact predecessors
 `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and `9a6f94ba...`
 remain controls, not current lineage.
 
+OT-0333 prospectively asked a fresh actor to author the missing environment-
+solicitation stopping policy before future world identity. The actor passed G11
+and chose three providers, two consecutive supported prefixes, and stable-
+winner support. The first subject-blind provider then authored a valid novel
+three-surface exact-2/6 package, but inherited admission rejected it because
+`assign_berth` already exists as a bare ledger key despite the new world and
+different semantics. No selection or contact occurred; OT-0333 is rejected and
+the OT-0332 subject remains current. The exact policy, package, and clean traces
+are retained for prospective reconstruction.
+
 ## Prediction errors
 
 - The fixed world-package language and independent scorer make causal contact
@@ -172,6 +182,14 @@ remain controls, not current lineage.
   reliability estimate across goals, worlds, or models.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
+- Expected: an independently valid, world-novel provider package could enter
+  the subject's bounded future-world catalog. Observed: one of three callable
+  names collided with a historical bare ledger key, causing whole-package
+  rejection before ranking even though the world and executable semantics were
+  new and two surfaces had no collision. Uncertain: whether the smallest sound
+  repair is partial-package opportunity projection or environment-scoped
+  capability identity throughout the ledger. Evidence: OT-0333 aggregate
+  `2f731b99...` and retained package `ffea55a7...`.
 - OT-0318 resolves the missing-action question: a training-only executable
   workbench let a fresh actor propose and verify its own 3/3 repair, which
   reached private 5/5 against exact-parent 0/5; erasing outcomes made the same
