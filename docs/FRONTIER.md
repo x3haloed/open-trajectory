@@ -3693,3 +3693,11 @@ five-case correction. The unresolved compiler correctly refuses to issue a
 duplicate counterexample. Preserve the rejection. The next record should keep
 the full suffix fixed and choose prospective sabotage points from exact input
 classes absent from the current disclosure, not from a `4 + offset` index.
+
+OT-0288 repairs the active five-case branch but rejects 32/36 complete branches
+after target change. Resolved disclosure from the prior target remains in the
+subject, and the helper mistakenly treats it as the new target's disclosure.
+The next correction is target-scoped: use enlarged disclosure only when it is
+`awaiting-revision` for the currently selected target; a fresh target derives
+its disclosed set from its own four public cases. Preserve both rejections and
+the unchanged live suffix.

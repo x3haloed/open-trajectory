@@ -1,0 +1,34 @@
+{
+  "artifact_id": "rejected-current-disclosure-recurrence-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1106,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dc200374f8284d498b1df4185f59edf892540cc6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0288",
+  "input_manifests": [
+    "evidence/manifests/OT-0287/rejected-post-invalidity-tideglass-preflight.json",
+    "evidence/manifests/OT-0286/open-subject-after-invalidity-recovery-feedback.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight rejected before actors because disclosure subtraction was not scoped to the currently selected target."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-current-disclosure-recurrence-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "41981f472f7e738d64f2547d5647a95f880d4727d6187469e96fca47a5eb900f"
+}

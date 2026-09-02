@@ -2986,5 +2986,13 @@ then finds no new mismatch and fails closed. All non-branch gates pass. Preserve
 the 36-branch rejection and replace only fixed row-offset sabotage with
 selection from actual undisclosed input classes.
 
+OT-0288 makes that correction but rejects before actors on target scope. Its
+current five-case branch now works; after selecting another target, however,
+the helper subtracts the prior target's retained resolved disclosure instead of
+the new target's four public cases. Thirty-two of 36 branches fail closed. Next
+use enlarged disclosure only when its target matches the current correction and
+its status is `awaiting-revision`; otherwise derive disclosure from the current
+target's public contact.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
