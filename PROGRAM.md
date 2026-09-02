@@ -2639,5 +2639,17 @@ has no target, scoring, admission, outcome, or actor authority. The decisive
 control holds subject and package fixed: the old catalog provider remains empty
 while the standing scanner must see the new package.
 
+OT-0267 promotes with zero actors. The old provider is empty while the standing
+scanner sees the fixed held-out package; structural positives, malformed and
+duplicate negatives, ordering, filtering, false-authority, and inherited floors
+all pass. Exact `f02cf7cd...` carries the scanner without changing the current
+correction route.
+
+Next freeze the feed interface, then let a fresh world-side actor—not a subject
+actor and not experiment code—author a new package under its public schema.
+Retain that package externally by content identity. It becomes meaningful only
+if the exact subject later saturates, waits, discovers it through the installed
+scanner, and receives independent consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

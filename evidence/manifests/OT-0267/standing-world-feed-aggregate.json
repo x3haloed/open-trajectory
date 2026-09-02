@@ -1,0 +1,31 @@
+{
+  "artifact_id": "standing-world-feed-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1144,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e43aa1e83287aa9ab9eb35799a101105bcacc64d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0267",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "The standing scanner passes matched visibility and conformance controls but has not yet discovered an independently authored live package or caused a later wake."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:standing-world-feed-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "754a6c82097c59e2bf629d25defe5dafdfd0f57852cec588afbd07a8744d53c8"
+}

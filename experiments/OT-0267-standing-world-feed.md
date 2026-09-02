@@ -1,6 +1,6 @@
 # OT-0267 — standing world feed
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0266 subject `d3ef7b33...`
 - **Fresh actors:** zero
@@ -32,3 +32,22 @@ reoffer a world. The exact successor must preserve all operational, provider,
 wait/wake, epoch, ledger, projection, and pursuit state and still route the
 fourth-epoch contradiction to correction. This record does not claim a live
 future wake or world-package generation.
+
+## Result
+
+All controls pass with zero actors. The old catalog-specific provider reports
+empty on the held-out package while the standing scanner reports it available.
+Two structurally different positive packages, catalog/source order invariance,
+seen and active-offer filtering, thirteen malformed-package cases, and duplicate
+ids behave as frozen. All five external authorities remain false.
+
+Exact open successor `f02cf7cd...` retains the scanner source and logical
+`$WORLD_FEED` interface while preserving every operational field and the
+fourth-epoch correction-before-refresh route. Route 16/16, identity 18/18, and
+subject conformance pass. Aggregate receipt `d75632a3...` records the bounded
+transition.
+
+This makes feed discovery independent of per-world harness code but does not
+show a live future wake. The held-out fixture was frozen with the scanner; the
+next test requires a fresh independent world package authored only after this
+interface was committed, then eventual discovery through these exact bytes.

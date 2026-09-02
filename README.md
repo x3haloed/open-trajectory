@@ -726,6 +726,10 @@ The strongest footholds are:
   the next identical call lets one fresh actor select `allocate_field_clinics`,
   consume the offer into a fourth epoch, and receive sealed 2/6. Exact
   `d3ef7b33...` remains open with correction before refresh.
+- `OT-0267`: a standing content-addressed feed scanner detects a package the
+  old catalog provider cannot see, rejects malformed catalogs, and installs
+  without changing the live correction. Exact `f02cf7cd...` remains open; an
+  independently authored post-freeze package is the next behavioral test.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -383,3 +383,10 @@ the subject is open at `correct` and routes to correction before refresh.
   sealed 2/6. Exact `d3ef7b33...` preserves both cycles and routes correction
   before refresh. Continue the fourth epoch, then replace experiment-authored
   provider arrivals with a standing source of objective novelty.
+- OT-0267 installs that standing interface. A generic content-addressed scanner
+  sees a held-out package invisible to the old catalog provider, fails closed on
+  malformed catalogs, and preserves the exact live correction state. Exact
+  `f02cf7cd...` is open. Next let a fresh world-side actor author a package only
+  after the scanner freeze; retain it externally and require eventual discovery
+  and consequence through the exact subject rather than treating package
+  conformance as endpoint success.

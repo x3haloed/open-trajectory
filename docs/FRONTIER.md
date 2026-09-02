@@ -3351,3 +3351,13 @@ authority. It must detect a held-out package invisible to the old catalog
 provider, reject malformed or duplicate catalogs, install without changing the
 live fourth-epoch correction, and remain only component evidence until a later
 independently authored package actually wakes the subject.
+
+OT-0267 promotes with zero actors. The matched visibility split and all schema,
+ordering, filtering, false-authority, conformance, and inherited-floor controls
+pass. Exact `f02cf7cd...` retains the scanner and stays at the same correction.
+
+The immediate frontier is a post-freeze package whose semantic world is chosen
+by an independent world-side actor under the standing public schema. The package
+must remain external and dormant while the subject finishes its current epoch;
+later discovery, wake, actor choice, and sealed consequence—not package validity
+alone—will determine whether the provider dependency was actually removed.

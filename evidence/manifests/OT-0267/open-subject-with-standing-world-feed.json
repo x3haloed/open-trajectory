@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-standing-world-feed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1198743,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e43aa1e83287aa9ab9eb35799a101105bcacc64d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0267",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject carries the standing scanner while remaining at fourth-epoch correction; later package arrival, wake, and contact are unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-standing-world-feed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c7af624eaa94eb5928bf77dd56c4d9e24e2b6d0c31792474b130b7630840f8e2"
+}
