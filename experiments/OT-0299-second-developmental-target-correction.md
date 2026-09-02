@@ -1,6 +1,6 @@
 # OT-0299 — Second developmental target correction
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0298 selected-consequence subject `450c7a1c...`
 - **Invocation:** repeated identical content-free correction openings
@@ -35,3 +35,15 @@ authority begins at exactly one surface and reaches exactly two only after 6/6
 success against unchanged 2/6. The stale disclosure is scoped away, lineage is
 exact, feedback beyond exhaustion fails closed, and route 16/16 plus identity
 18/18 remain green. Preflight receipt `43287816...`.
+
+## Bounded result
+
+One content-free opening and one fresh external-workspace corrector pass. The
+actor satisfies disclosed contact; independent consequence scores the revision
+6/6 while the unchanged policy remains 2/6. Exact open subject `9d0546e6...`
+preserves invalidity/recovery lineage, has exactly two consequence-earned
+package surfaces, and derives projection refresh. Aggregate receipt
+`cb2f40eb...`.
+
+This establishes correction of the second surface, not a live sample of deeper
+feedback paths or completion of the final surface.

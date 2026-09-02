@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-second-developmental-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1548524,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "684c99c0bfd3d737138e253936f4ec58002bb249",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0299",
+  "input_manifests": [
+    "evidence/manifests/OT-0299/second-developmental-target-correction-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject before refresh and selection of its sole remaining surface."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-second-developmental-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "90acfd536deb8db19867152ff0f52364f4ba015c9a8e549cf2900b1c80886683"
+}

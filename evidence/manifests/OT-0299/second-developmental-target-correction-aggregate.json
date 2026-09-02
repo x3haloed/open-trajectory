@@ -1,0 +1,34 @@
+{
+  "artifact_id": "second-developmental-target-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 889,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "684c99c0bfd3d737138e253936f4ec58002bb249",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0299",
+  "input_manifests": [
+    "evidence/manifests/OT-0299/second-developmental-correction-invocation.json",
+    "evidence/manifests/OT-0299/second-developmental-target-correction-preflight.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded second-surface correction; final-surface recurrence is unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:second-developmental-target-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "360c2439c93316efcc2a76fbcb47a15eefab2b2931e16f5f72f56d340a96a563"
+}

@@ -3159,5 +3159,12 @@ starts at one target and becomes exactly two only in the verified successor.
 Stale disclosure is scoped away, exhaustion fails closed, and route 16/16 plus
 identity 18/18 remain exact. Live output stays sealed until push.
 
+OT-0299 promotes on its first fresh corrector. Independent consequence scores
+the public-clean revision 6/6 while the unchanged policy stays 2/6. Exact open
+subject `9d0546e6...` preserves invalidity/recovery lineage, expands earned
+authority to exactly two package surfaces, and derives refresh. Aggregate
+receipt `cb2f40eb...`. The immediate frontier is actor-free refresh, inevitable
+selection of the sole remaining surface, and its consequence-driven correction.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

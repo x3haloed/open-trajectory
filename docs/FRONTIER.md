@@ -3878,3 +3878,11 @@ reachable feedback depths preserve lineage, reach 6/6 against 2/6, and expand
 earned authority from one surface to exactly two only after success. Exhaustion
 fails closed. After freeze and push, identical empty openings may carry at most
 three consequence-authorized correctors; no target-specific route is allowed.
+
+OT-0299 passes on one fresh corrector. Its revision reaches 6/6 against the
+unchanged 2/6 policy; exact subject `9d0546e6...` retains the full lineage,
+expands consequence-earned authority from one surface to two, and derives
+refresh. Next require actor-free refresh and target-untold selection of the sole
+remaining surface, then generic correction. Although only one choice remains,
+the actor must still author the contact and survive independent consequence;
+do not collapse selection into researcher routing.
