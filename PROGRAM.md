@@ -2415,5 +2415,12 @@ opportunity projection from visible epoch source and ledger state, preserve its
 non-authoritative status, and test completed, mixed, empty, reordered, and
 descriptor-varied cases before exposing `7965191a...` to another fresh actor.
 
+OT-0253 freezes the state-derived active opportunity projection. The carrier is
+a compact projection of the already-promoted AST resolver, not a new target
+selector: every external authority flag is false. Ten held-out source/ledger
+cases must pass, including fail-closed malformed source and saturation. The
+exact parent must yield one opportunity, remain operationally unchanged, and
+retain `expanded-select`; improved actor behavior remains a separate claim.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

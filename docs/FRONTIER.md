@@ -3084,3 +3084,12 @@ and actor-visible without acquiring target-selection authority, and improve
 future move selection. Held-out cases must show that it neither reopens completed
 targets nor fabricates opportunities. Only then should a fresh actor receive the
 same content-free pulse from `7965191a...`.
+
+OT-0253 freezes that compact projection. It binds the existing generic AST
+resolver's current result into the subject, derived only from active epoch source
+and ledger state, with selection, world, scoring, and admission authority all
+explicitly false. Ten fixtures cover empty, private, completed, multi-module,
+async, latest-epoch, malformed, reordered, irrelevant-ledger, and saturated
+states; malformed source fails closed. Promotion requires exact agreement with
+the promoted resolver on `7965191a...`, one active opportunity, no hardcoded
+live target, no operational change, and the same open `expanded-select` route.
