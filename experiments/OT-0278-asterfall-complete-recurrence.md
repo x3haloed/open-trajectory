@@ -22,6 +22,16 @@ surfaces: 54 complete branches. Every branch must preserve exact ancestry,
 reach 6/6 only before admission, refresh mechanically, saturate the epoch,
 install a fifth wait, and exactly re-observe it.
 
+### Post-output apparatus correction
+
+The first live `expand-environment` report inherited OT-0274's literal
+`fourth_wait_installed` check. The actor-free transition itself correctly
+installed the fifth wait, retained five wait receipts and four discharge
+receipts, and derived `wait-provider`; only the generation-specific report
+label failed. The harness now recognizes only that exact retained failure,
+preserves its original report, relabels the already-produced transition as the
+fifth wait without resampling, and resumes from its exact subject digest.
+
 The live caller supplies only identical null pulses. Promotion accepts any
 frozen branch and requires two actor-selected remaining surfaces, three
 world-routed correction groups, no retries, retained-package 2/6 selection
