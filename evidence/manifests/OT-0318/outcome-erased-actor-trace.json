@@ -1,0 +1,35 @@
+{
+  "artifact_id": "outcome-erased-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 20121,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3ea27c4c71f6e4d0f1b24623e677b20e610b6dfb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0318",
+  "input_manifests": [
+    "evidence/manifests/OT-0318/counterfactual-revision-workbench-preflight.json",
+    "evidence/manifests/OT-0318/private-counterfactual-workbench-world-seed.json",
+    "evidence/manifests/OT-0317/open-subject-after-rejected-provenance-correction.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Matched fresh broad-tool actor found the workbench unavailable over erased outcomes and retained the exact parent."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "03880a53016a0cfaf046123e6295fade754474cb04499d4f3760b9278b5c2a28"
+}

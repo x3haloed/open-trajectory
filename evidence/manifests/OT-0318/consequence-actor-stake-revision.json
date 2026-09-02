@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-actor-stake-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1611,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3ea27c4c71f6e4d0f1b24623e677b20e610b6dfb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0318",
+  "input_manifests": [
+    "evidence/manifests/OT-0318/consequence-actor-trace.json"
+  ],
+  "kind": "actor-workspace-output",
+  "limitations": [
+    "Exact actor-authored candidate changed branch and comparison coefficients without a supplied target edit."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-actor-stake-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5233f9071ea2a60d1839939f062d979a20e93aec2514ada8e4afa8cb8b1a7fe6"
+}

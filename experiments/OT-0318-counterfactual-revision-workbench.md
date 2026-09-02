@@ -1,6 +1,6 @@
 # OT-0318 — Counterfactual revision workbench
 
-- **Status:** frozen
+- **Status:** completed — corrected child promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact subject `0a48ab16...`, retained through OT-0317
 - **Claim:** consequence-grounded proposal evaluation enables later correction
@@ -71,3 +71,24 @@ correction, while outcome erasure removes that path. It would not make global
 weight reversal cumulative learning, prove reliability, or remove the outside
 researcher. The likely next problem would be expanding machinery so one selector
 can preserve both prior and reversed distinctions instead of oscillating.
+
+## Result
+
+The counterfactual action surface passed its first causal comparison. The fresh
+consequence actor ran the inherited rule at 0/3, proposed its own edit, and
+reran the workbench at 3/3. It changed `branch_nodes` and `comparison_nodes`
+from +4 to -4 while leaving `source_bytes` at 0; the corrected checker passed
+and G10 found only the declared file change. The candidate then scored 5/5 on
+private held-out catalogs versus exact-parent 0/5.
+
+The matched erased actor ran the byte-identical workbench, received
+`authoritative-outcomes-unavailable`, retained the exact parent, and scored
+0/5. Exact promoted child is `21e90d47...`; aggregate receipt is `1b16230d...`.
+The child retains the provenance receipt, active-error receipt, workbench
+identity, and independently recomputed 3/3 counterfactual replay.
+
+The prior-regime diagnostic exposes the limit rather than hiding it: the exact
+parent remains 5/5 there and the new child scores 0/5. OT-0318 therefore
+establishes later corrigibility and an actor-usable proposal/evaluation loop,
+but not cumulative improvement. One global item-wise weight vector oscillates
+between two incompatible correlations.

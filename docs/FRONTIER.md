@@ -100,11 +100,12 @@ scores of 0/5. The historical actor-visible checker remained nonconformant, but
 the frozen materiality audit reconstructed every contact, score, binding, and
 child exactly and found the symmetric checker crash causally immaterial.
 
-The exact current operational subject is OT-0315 reconstructed selector child
-`0a48ab16...`. It preserves the OT-0312 open position and `expanded-select`
-operation while changing only the active world-seeking stake's byte coefficient
-from -1 to 0. The exact prior subject `9a6f94ba...` and matched outcome-erased
-stake remain controls, not promoted lineage.
+The exact current operational subject is OT-0318's promoted selector child
+`21e90d47...`. It preserves the open `expanded-select`
+position, retains provenance-bound contradiction plus its actor-usable
+counterfactual replay, and changes branch and comparison coefficients from +4
+to -4. Exact predecessors `0a48ab16...` and `9a6f94ba...` remain controls, not
+current lineage.
 
 ## Prediction errors
 
@@ -122,19 +123,20 @@ stake remain controls, not promoted lineage.
   reliability estimate across goals, worlds, or models.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
-- Expected: binding historical rationale and current contrary outcomes to
-  distinct typed receipts would let OT-0317's fresh actor correct the learned
-  selector. Observed: with full workflow conformance, the actor confirmed the
-  active error but retained exact `0a48ab16...` at 0/5 because no grounded
-  coefficient or target edit was supplied. The erased actor also retained at
-  0/5. Uncertain: whether the missing causal edge is an actor-usable way to test
-  successor machinery against retained consequence. Evidence: OT-0317 rejected
-  aggregate `eb5d0d29...`; OT-0316 remains the weaker raw-contact observation.
-- The next test should add an executable counterfactual workbench over only the
-  revealed training contacts. It must accept actor-proposed legal stake edits,
-  replay their selections against the bound outcomes, and report training
-  repair without exposing held-out worlds or prescribing an edit. The same tool
-  must report evaluation unavailable when outcomes are erased. Promotion still
-  requires 5/5 on disjoint private catalogs versus exact unchanged 0/5 and no
-  erased-branch advantage. This tests an action affordance for self-correction,
-  not a stronger instruction to obey contradiction.
+- OT-0318 resolves the missing-action question: a training-only executable
+  workbench let a fresh actor propose and verify its own 3/3 repair, which
+  reached private 5/5 against exact-parent 0/5; erasing outcomes made the same
+  tool unavailable and the control retained at 0/5. But the promoted global
+  weights score 0/5 on OT-0314's prior regime while the parent remains 5/5.
+  The mechanism is corrigible but oscillatory. Evidence: OT-0318 aggregate
+  `1b16230d...`, exact child `21e90d47...`.
+- The next test should ask a fresh actor to replace the global item-wise weight
+  vector with a bounded executable catalog-level selector using only existing
+  public features. Give its counterfactual workbench both retained positive and
+  reversed contacts, and freeze a mixed private held-out trajectory. The world
+  must prove no item-wise global weighting can satisfy both because an identical
+  descriptor is correct in one catalog and wrong in the other. Promotion should
+  require an actor-authored selector at 10/10 versus exact current and prior
+  global baselines at 5/10, while erasing the earlier-history contacts removes
+  cumulative integration. This tests machinery-language expansion, not another
+  coefficient flip.
