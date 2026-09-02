@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-provider-recovery",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1512944,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1994f62b81b327bf570b5edd422bffe803bf045c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0290",
+  "input_manifests": [
+    "evidence/manifests/OT-0290/role-neutral-invalidity-recovery-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject after one provider recovery; the new world remains unconsumed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-provider-recovery",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b4088851fb5240feaeca530c4d896d88f005fbe354e7eaa8d517b967de429d69"
+}

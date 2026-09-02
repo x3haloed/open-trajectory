@@ -3732,3 +3732,19 @@ Fixture recovery clears the active reopening without consuming the package and
 keeps it available only through the scanner. The live frontier is therefore
 one fresh provider in a standalone root outside `$REPO`, with no retry and no
 change to G10.
+
+OT-0290 passes that edge. Its first content-free opening uses zero actors to
+install only the provider-invalidity scar and re-derive renewal. Its second
+opening gives one fresh provider a standalone workspace outside `$REPO`; all
+six commands are clean, exactly one intended file changes, and unchanged G10
+accepts. The new valid `tideglass-crossings-v1` world is scanner-visible with
+three exact-2/6 surfaces. Exact subject `313a735c...` remains open at wait, with
+the active reopening discharged and the package still external.
+
+The apparatus boundary was therefore recoverable without constraining actor
+tools or weakening outcome authority. The next discriminating edge is not
+another provider attempt. Feed the exact recovered subject the same empty
+opening and require its standing scanner to discover Tideglass Crossings, then
+resume generic selection and consequence-driven correction while retaining the
+cross-role scar. This is the start of another recurrence test, not evidence
+that one clean external run establishes general provider reliability.

@@ -1,6 +1,6 @@
 # OT-0290 — Role-neutral invalidity recovery
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0289 seventh-wait subject `23cce12c...`
 - **Rejected encounter:** exact OT-0289 renewal invocation `ea0434d0...`
@@ -59,3 +59,23 @@ compilation excludes rejected candidate content, preserves operational state,
 and leaves the rejected operation active. Fixture recovery clears only that
 active reopening, keeps the subject waiting, remains scanner-visible, and
 preserves route 16/16 and identity 18/18. Preflight receipt `8cb56cd5...`.
+
+## Bounded result
+
+Both content-free openings passed without retry. The first used zero actors,
+installed only the provider-invalidity scar, preserved the operational waiting
+state exactly, and re-derived `renew-world-feed`. The second authorized one
+fresh provider in the standalone root. Its six commands produced exactly
+`world-package.json`; G10 classified the complete trace clean with no denial,
+outside change, suspicious command, or protected path named.
+
+The independently authored `tideglass-crossings-v1` package is valid,
+scanner-visible, and supplies three novel surfaces at exact 2/6. Recovery clears
+the active reopening while exact subject `313a735c...` remains open at the same
+wait; the package is not consumed or admitted as knowledge. Aggregate receipt
+`b537f468...`.
+
+This demonstrates one bounded provider-role recovery under the same
+non-authoritative invalidity mechanism previously exercised for correction. It
+does not establish a reliability rate, prove that external placement prevents
+all future denials, or show recurrence through the newly supplied world.

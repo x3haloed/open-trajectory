@@ -3024,5 +3024,20 @@ identity 18/18. Live output remains sealed until this freeze is pushed; the
 single fresh provider must run from a standalone evidence root outside the
 repository with G10 unchanged.
 
+OT-0290 promotes in two content-free openings without retry. The first installs
+only the provider-invalidity scar with zero actors and preserves waiting state
+exactly. The second fresh provider runs outside the repository, completes six
+clean commands, changes exactly `world-package.json`, and passes unchanged G10.
+It independently authors valid scanner-visible `tideglass-crossings-v1` with
+three exact-2/6 surfaces. Exact open subject `313a735c...` clears the active
+reopening but remains at wait; the package is still external. Aggregate receipt
+`b537f468...`.
+
+This extends bounded invalidity recovery across correction and provider roles
+without turning rejected content into authority. It does not yet show the next
+cycle. The immediate test is whether the same content-free opening consumes
+Tideglass Crossings through the standing scanner and resumes autonomous target
+selection and correction with the recovery scar retained.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

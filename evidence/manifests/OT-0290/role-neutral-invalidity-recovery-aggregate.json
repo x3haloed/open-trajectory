@@ -1,0 +1,35 @@
+{
+  "artifact_id": "role-neutral-invalidity-recovery-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1200,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1994f62b81b327bf570b5edd422bffe803bf045c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0290",
+  "input_manifests": [
+    "evidence/manifests/OT-0290/role-neutral-invalidity-recovery-preflight.json",
+    "evidence/manifests/OT-0289/rejected-post-invalidity-renewal-invocation.json",
+    "evidence/manifests/OT-0289/open-subject-at-seventh-wait.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded cross-role provider recovery; not a general reliability rate or proof that external placement eliminates every denial."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:role-neutral-invalidity-recovery-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "64f1173c911e2532cf55305d8d71dacf80c071a4c8105236308837b0d60350a7"
+}
