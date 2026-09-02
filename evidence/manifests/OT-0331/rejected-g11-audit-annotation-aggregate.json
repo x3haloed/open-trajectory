@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-g11-audit-annotation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2349,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "fccaeec2fadbdb4efc594da93a0d8ebfd18382c3",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0331",
+  "input_manifests": [],
+  "kind": "rejected-aggregate",
+  "limitations": [
+    "Only the inherited exact-audit equality proxy failed after a verified G11 annotation was added in memory."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-g11-audit-annotation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "baf277ffcd4a4e3ef4534a5db1555adf672194fb23efaf9d7b3c8656b0e50386"
+}

@@ -60,3 +60,20 @@ prospectively improved observer audit, and continue through fresh actors
 without inheriting a rejected proposal. It would not yet make the outside
 researcher optional for evaluator redesign or implement the next environment
 expansion operation.
+
+## Apparatus repair after operation one
+
+The first fresh corrector passed the public checker 4/4, passed clean G10 and
+G11 without invoking G11's recovery exception, received independent 6/6
+consequence against unchanged 2/6, and produced a conformant open child. The
+operation nevertheless stopped because the inherited workspace check compared
+the retained base audit to the in-memory audit after OT-0331 appended its G11
+certificate. The two differed only by that appended certificate.
+
+The prospective repair removes only the named certificate before exact base-
+audit comparison, then independently verifies the certificate's authority and
+its retained event/stderr digests. Missing independent Git identity, altered
+base audit, altered trace or stderr, failed G11 disposition, or any other field
+difference still rejects. The exact completed operation may then be resealed
+and resumed without actor or world resampling. Its initially rejected aggregate
+and operation remain preserved.

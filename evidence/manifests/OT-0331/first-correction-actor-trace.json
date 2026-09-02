@@ -1,0 +1,31 @@
+{
+  "artifact_id": "first-correction-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 120508,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "fccaeec2fadbdb4efc594da93a0d8ebfd18382c3",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0331",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh broad-tool actor trace retained before apparatus-only reconstruction."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:first-correction-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0450702a140040d7990c3768ceffe6d79b4bc4a25045ea5d61e6a982ad2ca594"
+}

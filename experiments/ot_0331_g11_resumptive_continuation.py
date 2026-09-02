@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import importlib.util
 import json
@@ -145,6 +146,86 @@ def run_operation(index, root, subject, operation, repo, p82, runtime, package, 
     return row, final
 
 
+def direct_fresh_workspace(root, actor):
+    certificate = actor.get("audit", {}).get("g11_attributed_command_audit")
+    if not certificate:
+        return base.direct_fresh_workspace(root, actor)
+    workspaces = sorted(root.glob("*/actor-workspace"))
+    if len(workspaces) != 1:
+        return False
+    workspace = workspaces[0]
+    evidence = workspace.parent
+    seed = root / "actor/seed"
+    try:
+        retained = json.loads((evidence / "actor-audit.json").read_text())
+        events = (evidence / "events.jsonl").read_text()
+        stderr = (evidence / "stderr.txt").read_text()
+    except (OSError, json.JSONDecodeError):
+        return False
+    expected = copy.deepcopy(actor["audit"])
+    expected.pop("g11_attributed_command_audit", None)
+    certificate_exact = bool(
+        certificate.get("authority") == g11.AUTHORITY
+        and certificate.get("event_trace_sha256") == hashlib.sha256(events.encode()).hexdigest()
+        and certificate.get("stderr_sha256") == hashlib.sha256(stderr.encode()).hexdigest()
+        and certificate.get("challenger_accepted") is True
+    )
+    return bool(
+        workspace.resolve().is_relative_to(root.resolve())
+        and workspace.resolve() != seed.resolve()
+        and (workspace / ".git").is_dir()
+        and seed.is_dir()
+        and retained == expected
+        and retained.get("conformant")
+        and retained.get("trace_regime", {}).get("accepted")
+        and retained.get("denial_classification_v2", {}).get("accepted")
+        and certificate_exact
+    )
+
+
+def reconstruct_audit_annotation_failure(run, p82):
+    aggregate = json.loads((run / "aggregate.json").read_text())
+    row = json.loads((run / "operation-01-result.json").read_text())
+    subject = json.loads((run / "operation-01-subject.json").read_text())
+    failed = [key for key, value in row["checks"].items() if not value]
+    exact = bool(
+        aggregate.get("observer_disposition") == "rejected"
+        and aggregate.get("boundary") == {"kind": "failed-operation", "operation": "outward-correct", "after_operation_count": 1}
+        and failed == ["fresh_workspace", "passed"]
+        and row.get("observer_audit_regime") == g11.AUTHORITY
+        and row.get("actor", {}).get("accepted")
+        and row.get("actor", {}).get("g10_disposition")
+        and row.get("world", {}).get("result", {}).get("matches") == 6
+        and row.get("world", {}).get("unchanged_control", {}).get("matches") == 2
+        and row.get("final_subject_digest") == subject.get("artifact_digest")
+        and direct_fresh_workspace(run / "operation-01", row["actor"])
+    )
+    if not exact:
+        raise RuntimeError("existing OT-0331 output is not the audit-annotation-only failure")
+    write_json(run / "aggregate-before-audit-annotation-repair.json", aggregate)
+    write_json(run / "operation-01-before-audit-annotation-repair.json", row)
+    body = {
+        "authority": AUTHORITY + "-audit-annotation-repair",
+        "failed_aggregate_receipt_digest": aggregate["receipt_digest"],
+        "failed_operation_receipt_digest": row["receipt_digest"],
+        "actor_patch_digest": row["actor"]["audit"]["patch_digest"],
+        "failure": "post-audit G11 certificate made the in-memory audit a strict superset of the retained base audit",
+        "repair": "compare retained base audit exactly after removing only the G11 certificate and verify that certificate against retained trace and stderr digests",
+        "actor_resampled": False,
+        "world_resampled": False,
+        "scientific_information_changed": False,
+    }
+    repair = {**body, "receipt_digest": p82.digest(body)}
+    write_json(run / "audit-annotation-repair.json", repair)
+    row.pop("receipt_digest", None)
+    row["audit_annotation_repair_receipt_digest"] = repair["receipt_digest"]
+    row["checks"]["fresh_workspace"] = True
+    row["checks"]["passed"] = base.recompute_checks(row["checks"])
+    row["receipt_digest"] = p82.digest(row)
+    write_json(run / "operation-01-result.json", row)
+    return [row], subject, 1, repair
+
+
 def preflight(root, repo, p82, runtime, parent, result329, operation1, result330, packages):
     root.mkdir(parents=True, exist_ok=True)
     package, binding = base.resolve_package(parent, packages, p82)
@@ -188,20 +269,24 @@ def main():
     if args.preflight_only:
         print(json.dumps(frozen, indent=2, sort_keys=True))
         return 0 if frozen["checks"]["passed"] else 2
-    if run.exists():
-        raise SystemExit("preserve existing OT-0331 evidence")
-    run.mkdir(parents=True)
-    write_json(run / "fixture-conformance.json", frozen)
+    repair = None
+    if (run / "aggregate.json").exists():
+        rows, subject, actor_count, repair = reconstruct_audit_annotation_failure(run, p82)
+    elif run.exists():
+        raise SystemExit("preserve incomplete OT-0331 evidence")
+    else:
+        run.mkdir(parents=True)
+        write_json(run / "fixture-conformance.json", frozen)
+        rows = []
+        subject = parent
+        actor_count = 0
     if not frozen["checks"]["passed"]:
         raise SystemExit("OT-0331 preflight failed")
     package, binding = base.resolve_package(parent, packages, p82)
-    subject = parent
-    rows = []
-    actor_count = 0
     boundary = None
     overlay = base.protected_overlay(parent)
     allowed = {"outward-correct", "refresh-opportunity-projection", driver.base308.REPAIR_OPERATION, "expanded-select"}
-    for index in range(1, MAX_OPERATIONS + 1):
+    for index in range(len(rows) + 1, MAX_OPERATIONS + 1):
         operation = driver.derive(subject, p82)
         if operation not in allowed:
             boundary = {"kind": "subject-derived-censoring-boundary", "operation": operation, "after_operation_count": len(rows)}
@@ -216,7 +301,7 @@ def main():
         row_value.pop("receipt_digest", None)
         row_value["state_resolved_package_receipt_digest"] = binding["receipt_digest"]
         row_value["contextual_overlay_exact"] = base.protected_overlay(final) == overlay
-        row_value["checks"]["fresh_workspace"] = base.direct_fresh_workspace(op_root, row_value["actor"]) if actor_needed else row_value["checks"].get("fresh_workspace", True)
+        row_value["checks"]["fresh_workspace"] = direct_fresh_workspace(op_root, row_value["actor"]) if actor_needed else row_value["checks"].get("fresh_workspace", True)
         row_value["checks"]["contextual_overlay_exact"] = row_value["contextual_overlay_exact"]
         row_value["checks"]["passed"] = base.recompute_checks(row_value["checks"])
         row_value["receipt_digest"] = p82.digest(row_value)
@@ -252,7 +337,7 @@ def main():
         "final_open_conformant": subject["continuation"]["status"] == "open" and runtime.identity_conforms(subject),
     }
     checks["passed"] = all(checks.values())
-    body = {"authority": AUTHORITY, "source_subject_digest": parent["artifact_digest"], "source_ot0329_receipt_digest": result329["receipt_digest"], "g11_transition_receipt_digest": result330["receipt_digest"], "state_resolved_package_binding": binding, "pulse": PULSE, "operation_receipt_digests": [row["receipt_digest"] for row in rows], "operations": operations, "selected_targets": selected_targets, "fresh_actor_count": actor_count, "boundary": boundary, "checks": checks, "operational_transition_passed": checks["passed"], "observer_disposition": "promoted" if checks["passed"] else "rejected", "subject_disposition": subject["continuation"]["status"], "final_subject_digest": subject["artifact_digest"]}
+    body = {"authority": AUTHORITY, "source_subject_digest": parent["artifact_digest"], "source_ot0329_receipt_digest": result329["receipt_digest"], "g11_transition_receipt_digest": result330["receipt_digest"], "audit_annotation_repair": repair, "state_resolved_package_binding": binding, "pulse": PULSE, "operation_receipt_digests": [row["receipt_digest"] for row in rows], "operations": operations, "selected_targets": selected_targets, "fresh_actor_count": actor_count, "boundary": boundary, "checks": checks, "operational_transition_passed": checks["passed"], "observer_disposition": "promoted" if checks["passed"] else "rejected", "subject_disposition": subject["continuation"]["status"], "final_subject_digest": subject["artifact_digest"]}
     aggregate = {**body, "receipt_digest": p82.digest(body)}
     write_json(run / "aggregate.json", aggregate)
     write_json(run / "final-full-subject.json", subject)

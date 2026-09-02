@@ -1,0 +1,31 @@
+{
+  "artifact_id": "completed-first-correction-before-audit-annotation-repair",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12735,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "fccaeec2fadbdb4efc594da93a0d8ebfd18382c3",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0331",
+  "input_manifests": [],
+  "kind": "completed-operation",
+  "limitations": [
+    "Actor, G11/G10, public checker, independent 6-of-6 world, unchanged 2-of-6 control, and child passed; workspace proxy rejected annotation layering."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:completed-first-correction-before-audit-annotation-repair",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "619240e34c43429c74d0d7e46be2e7b70f1b82b4c2af9bca646305d9a247af8a"
+}
