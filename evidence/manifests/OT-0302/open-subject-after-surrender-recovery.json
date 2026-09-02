@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-surrender-recovery",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1567359,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f6ccbedf685b3e12739c8545e257a2607c9c8478",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0302",
+  "input_manifests": [
+    "evidence/manifests/OT-0302/surrender-recovery-correction-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject after final-surface correction; actor-free saturation and renewed world provision remain unobserved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-surrender-recovery",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "485e7f95ea9359ca03302e128f16169074051911a9fd72349eb9b20a4d07be43"
+}

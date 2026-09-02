@@ -1,0 +1,34 @@
+{
+  "artifact_id": "surrender-recovery-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 956,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f6ccbedf685b3e12739c8545e257a2607c9c8478",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0302",
+  "input_manifests": [
+    "evidence/manifests/OT-0302/surrender-recovery-correction-invocation.json",
+    "evidence/manifests/OT-0302/surrender-recovery-correction-preflight.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One successful fresh-actor recovery from one surrender event in one synthetic world package; saturation and renewed provision remain unobserved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:surrender-recovery-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8dc7a207c8a8ffa5d4a78804a736f7158843fc2ae00fa044325504f879cd0267"
+}

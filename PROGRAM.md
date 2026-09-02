@@ -3204,5 +3204,13 @@ surrender after all cases are disclosed fails closed; six surrender controls,
 hidden-content exclusion, route 16/16, and identity 18/18 pass. Live output stays
 sealed until push.
 
+OT-0302 promotes on its first fresh recovery actor. The actor explicitly uses
+the retained surrender receipt and enlarged five-case contact, revises the
+selected surface, and passes 5/5 public cases. Independent consequence scores
+6/6 while unchanged remains 2/6; G10 is clean. Exact open subject `140e793e...`
+retains the surrender consequence, earns all three surfaces, and derives
+refresh. Aggregate receipt `29fd8f1a...`. The immediate frontier is actor-free
+saturation through exact eighth-wait recurrence, followed by renewed provision.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

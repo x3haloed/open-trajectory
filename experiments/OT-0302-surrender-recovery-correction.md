@@ -1,6 +1,6 @@
 # OT-0302 — Surrender recovery correction
 
-- **Status:** designed, not run
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0301 surrender-feedback subject `e2ee0449...`
 - **Invocation:** one or two identical content-free correction openings
@@ -48,3 +48,16 @@ The fresh seed carries the exact surrender feedback, excludes the stale
 failed-candidate projection and undisclosed content, all six negative controls
 reject, repeat surrender after disclosure exhaustion fails closed, and route
 16/16 plus identity 18/18 remain exact. Preflight receipt `52b0750d...`.
+
+## Bounded result
+
+The first fresh actor passes without retry. It explicitly grounds its revision
+in the retained surrender receipt and enlarged five-case contact, changes the
+selected surface, and passes all 5/5 disclosed cases. Independent consequence
+then scores the revision 6/6 while the unchanged policy remains 2/6; G10 is
+clean with five completed commands and no outside effects. Exact open successor
+`140e793e...` retains the surrender consequence, has all three surfaces earned,
+and derives refresh. Aggregate receipt `29fd8f1a...`.
+
+This establishes live recovery from one truthful surrender. Saturation, exact
+eighth-wait recurrence, and renewed world provision remain unobserved.

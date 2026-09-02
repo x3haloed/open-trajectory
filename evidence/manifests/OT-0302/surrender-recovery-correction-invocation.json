@@ -1,0 +1,35 @@
+{
+  "artifact_id": "surrender-recovery-correction-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12122,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f6ccbedf685b3e12739c8545e257a2607c9c8478",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0302",
+  "input_manifests": [
+    "evidence/manifests/OT-0302/surrender-recovery-correction-preflight.json",
+    "evidence/manifests/OT-0301/open-subject-after-surrender-feedback.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "One fresh corrector generation under the retained broad-tool G10 condition; hosted actor identity remains deployment-level."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:surrender-recovery-correction-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "79bd31850b1a0a849480cdf5937a28aef56ddcc26b2ca5a28345f8a33f47ca9e"
+}
