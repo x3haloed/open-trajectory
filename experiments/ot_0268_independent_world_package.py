@@ -375,6 +375,7 @@ def main():
     parser.add_argument("--store", type=Path)
     parser.add_argument("--evidence-root", type=Path)
     parser.add_argument("--preflight-only", action="store_true")
+    parser.add_argument("--reconstruct", action="store_true")
     args = parser.parse_args()
     repo = args.repo.resolve()
     store = (args.store or repo / ".evidence").resolve()
@@ -434,20 +435,26 @@ def main():
     if args.preflight_only:
         print(json.dumps(fixtures, indent=2, sort_keys=True))
         return 0 if checks["passed"] else 2
-    if run.exists():
+    if run.exists() and not args.reconstruct:
         raise SystemExit("preserve existing OT-0268 evidence")
-    run.mkdir(parents=True)
-    write_json(run / "fixture-conformance.json", fixtures)
     if not checks["passed"]:
         raise SystemExit("preflight failed")
-    context = base130.prior17.prior.prior.prior.prior.prior.prior.prior.previous.previous.prior.normalized_context(
-        base.typed.base.make_context(runtime, run / "runtime", repo)
-    )
-    seed = seed_actor(run / "actor", TEMPLATE)
     label = "independent-world-author"
-    output, base_audit, workspace, _ = context.run_actor(
-        label, seed, SCHEMA, (seed / "README.md").read_text().strip()
-    )
+    if args.reconstruct:
+        workspace = run / "runtime" / label / "actor-workspace"
+        output = json.loads((run / "runtime" / label / "output.json").read_text())
+        audit = json.loads((run / "runtime" / label / "actor-audit.json").read_text())
+        trace = (run / "runtime" / label / "events.jsonl").read_text()
+    else:
+        run.mkdir(parents=True)
+        write_json(run / "fixture-conformance.json", fixtures)
+        context = base130.prior17.prior.prior.prior.prior.prior.prior.prior.previous.previous.prior.normalized_context(
+            base.typed.base.make_context(runtime, run / "runtime", repo)
+        )
+        seed = seed_actor(run / "actor", TEMPLATE)
+        output, base_audit, workspace, _ = context.run_actor(
+            label, seed, SCHEMA, (seed / "README.md").read_text().strip()
+        )
     try:
         package = json.loads((workspace / "world-package.json").read_text())
         evaluation = evaluate_package(package, p82.digest)
@@ -467,14 +474,15 @@ def main():
     except (OSError, json.JSONDecodeError, KeyError):
         package, evaluation, checker, scan, semantic = None, {"valid": False}, None, None, False
     transport = output_valid(output, package)
-    audit = context.audit_actor(
-        label,
-        output,
-        base_audit,
-        semantic and transport,
-        ["world-package.json"],
-    )
-    trace = (context.evidence(label) / "events.jsonl").read_text()
+    if not args.reconstruct:
+        audit = context.audit_actor(
+            label,
+            output,
+            base_audit,
+            semantic and transport,
+            ["world-package.json"],
+        )
+        trace = (context.evidence(label) / "events.jsonl").read_text()
     normalized = base236.classify_retained(audit, trace)
     accepted = bool(semantic and transport and base236.g10(normalized))
     if package is not None:
@@ -494,8 +502,8 @@ def main():
         "exact_one_file_effect": audit["exact_changes"]
         and audit["changed_paths"] == ["world-package.json"],
         "truthful_clean_g10": audit["truthful"]
-        and normalized["accepted"]
-        and normalized["outside_file_changes"] == [],
+        and base236.g10(normalized)
+        and normalized["outside"] == [],
         "three_distinct_targets": bool(
             evaluation["valid"] and len(evaluation["targets"]) == 3
         ),
