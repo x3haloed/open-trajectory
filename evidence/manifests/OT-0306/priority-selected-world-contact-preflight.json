@@ -1,0 +1,36 @@
+{
+  "artifact_id": "priority-selected-world-contact-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2208,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c4aeae81637d3c2bd8ceb3b50069152584e63738",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0306",
+  "input_manifests": [
+    "evidence/manifests/OT-0305/open-subject-after-supported-stake-same-control.json",
+    "evidence/manifests/OT-0305/subject-priority-world-selection-aggregate.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic conformance only; no OT-0306 actor output or live consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:priority-selected-world-contact-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b49de226d758c2f51bf101fbee422791c0259fcc50828d84946f3a4c3444ae40"
+}
