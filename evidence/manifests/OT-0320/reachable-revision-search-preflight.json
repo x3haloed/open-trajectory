@@ -1,0 +1,36 @@
+{
+  "artifact_id": "reachable-revision-search-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3817,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "42f961d21ebf03ca34a79f2147367b50e2640f86",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0320",
+  "input_manifests": [
+    "evidence/manifests/OT-0319/cumulative-stake-integration-aggregate.json",
+    "evidence/manifests/OT-0319/open-subject-after-rejected-cumulative-integration.json",
+    "evidence/manifests/OT-0319/full-history-completed-contacts.json",
+    "evidence/manifests/OT-0319/earlier-outcome-erased-completed-contacts.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Candidate-free conformance of exhaustive consequence-grounded proposal search, erased no-improvement control, public checker, mixed baseline, and trace gates; not actor adoption evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reachable-revision-search-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "64b08a4dff6d3442e71c4d7539686c83c8687a3646cf3ac4353269fa3c680c52"
+}
