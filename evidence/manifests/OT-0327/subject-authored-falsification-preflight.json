@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-authored-falsification-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 68915,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "79ae28c652cf61a9ee3047b4c8f06bfbfb72460c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Public deterministic preflight only; no private seed or actor output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-falsification-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "def8082dc72dfcbc72522da65d9eabfac281086231b02af1afb1f261d3e5e4b1"
+}
