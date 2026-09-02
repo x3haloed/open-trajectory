@@ -3497,3 +3497,9 @@ exists. A new post-freeze world-side actor should author another package without
 subject state or a target catalog. The exact waiting subject must discover it
 through the standing scanner and traverse wake, selection, consequence-driven
 correction, saturation, and waiting without package-specific intervention.
+
+OT-0275 freezes that new world-author boundary. The sole actor sees only the
+published restricted package interface, not the subject, its pursued targets,
+or four prior world ids. Promotion requires three novel target symbols and
+three exact 2/6 contradictions under the standing scanner. The exact waiting
+subject does not advance in this component experiment.

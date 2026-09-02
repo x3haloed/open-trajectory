@@ -2785,5 +2785,13 @@ content-free recurrence to select, learn, conditionally correct, saturate, and
 wait again. This tests whether the loop generalizes beyond the single package
 whose surfaces have now all been consumed.
 
+OT-0275 freezes a second independent world-author encounter after the OT-0274
+mechanism and fourth wait exist. One fresh world-side actor receives no subject,
+pursuit, target catalog, or prior world ids. Its three-surface restricted
+package must pass the standing scanner, make every visible policy exactly 2/6
+against sealed reference, and—after output—avoid every target already in the
+exact subject ledger. The subject remains unchanged at `ee66f4df...`; package
+promotion is only an external novelty component until a later wake.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

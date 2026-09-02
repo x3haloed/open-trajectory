@@ -432,3 +432,7 @@ standing-feed wait.
   fresh successor reaches 5/5 and 6/6. Actor-free recurrence then saturates and
   exactly re-observes the fourth wait at `ee66f4df...`. Next require a newly
   authored post-freeze world to wake and exercise this same loop again.
+- OT-0275 freezes one such world-side author encounter. The fresh actor receives
+  no subject state, pursuit, target catalog, or consumed world ids. Its package
+  must contribute three ledger-novel callables, each exact 2/6 against retained
+  sealed reference, while the subject remains byte-identical at its fourth wait.
