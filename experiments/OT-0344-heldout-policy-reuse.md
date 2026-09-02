@@ -1,6 +1,6 @@
 # OT-0344 — Held-out world-policy reuse
 
-- **Status:** executed — held-out reuse and option-breadth effect promoted
+- **Status:** executed — selection effect retained; open-successor claim withdrawn
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0343 child `2b0d835e...`
 - **Fresh actors:** at most two: one selection/continuation actor and one
@@ -104,3 +104,20 @@ derived synthetic catalog. The role templates were deliberately constructed
 to discriminate the two selectors, so the result does not show autonomous
 world invention, natural-distribution frequency, universal fitness of contact
 count, or that the subject's priorities caused the policy's original form.
+
+## Post-result actionability audit
+
+The raw aggregate's `open_actor_authored_successor: true`, inherited remaining-
+opening counts, and overall causal-promotion flag are not authoritative. Exact
+child inspection found the next contact id in continuation and consequence
+text, but found no public cases, cutoff, contact specification, or subject-held
+derivation capability. A fresh successor therefore cannot materialize the next
+workspace from the substrate alone; it requires the observer's private seed.
+
+The completed selection and contact remain valid observations: exact policy
+erasure changes the selected world, and the active world's external consequence
+catalog contains four contacts versus two. The second actor also completed its
+selected contact 3/3 public and 5/5 hidden. What OT-0344 does **not** establish
+is that the three unused contacts became inherited, actionable possibilities.
+OT-0345 prospectively adds subject-only materialization as an OT-1C gate and
+tests an exact public-frontier reconstruction without resampling these actors.

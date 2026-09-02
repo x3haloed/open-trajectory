@@ -241,6 +241,16 @@ global floor remained exact 40/40, and the active lineage retains three
 openings after equivalent consumption versus one for the ablation. Aggregate
 `29d0dd27...` promotes exact open child `a69c3ffb...`.
 
+Post-result actionability audit withdraws that last promotion interpretation.
+Exact child `a69c3ffb...` carries the next contact id but no public contact
+specification or subject-held derivation capability; creating the next actor
+workspace still requires the observer's private seed. OT-0344 therefore retains
+the completed policy-caused world selection and 3/3 public plus 5/5 hidden
+contact transition, but not inherited remaining-opening breadth or an OT-1C
+open successor. Its raw overall causal-promotion flag is stale under this
+established actionability requirement. OT-0345 will test a prospective
+subject-only materialization gate and exact public-frontier reconstruction.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
@@ -270,6 +280,14 @@ the OT-0332 subject remains current. The exact policy, package, and clean traces
 are retained for prospective reconstruction.
 
 ## Prediction errors
+
+- Expected: carrying the actor-authored next contact id made OT-0344's successor
+  mechanically reopenable. Observed: the exact child contains the id but no
+  public cases, cutoff, contact specification, or subject-held derivation path;
+  only observer-private run state can build its workspace. Uncertain: whether
+  exact retention of the selected world's public contact frontier is sufficient
+  for repeated reopening without importing world authority. Evidence: child
+  `a69c3ffb...` and aggregate `29d0dd27...`.
 
 - The fixed world-package language and independent scorer make causal contact
   legible, but repeated success inside that envelope does not establish open
