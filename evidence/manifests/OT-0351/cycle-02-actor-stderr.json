@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cycle-02-actor-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 670,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ac5b0b4941d456ba087ca2f22e2e62f873b233d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0351",
+  "input_manifests": [],
+  "kind": "actor-stderr",
+  "limitations": [
+    "Hosted actor transport diagnostics retained for provenance and audit."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:cycle-02-actor-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "31b5f17317e407d1a1c8630bc4deeac62ee816efe628f6f2e8e1fff412caa9ef"
+}

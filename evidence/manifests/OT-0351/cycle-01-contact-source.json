@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cycle-01-contact-source",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 43,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ac5b0b4941d456ba087ca2f22e2e62f873b233d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0351",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Actor-authored source passed 3/3 public and 5/5 independently owned hidden cases."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:cycle-01-contact-source",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4c9d872221d436bbce800694ca7b914fabe649c9433bebbd9224d6cbd5d7dd2b"
+}

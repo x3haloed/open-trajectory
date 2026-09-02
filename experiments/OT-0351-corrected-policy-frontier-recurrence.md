@@ -1,6 +1,6 @@
 # OT-0351 — Corrected-policy frontier recurrence
 
-- **Status:** frozen — awaiting live actors
+- **Status:** promoted — bounded operational recurrence
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0350 child `263126eb...`
 - **Fresh actors:** at most four, one for each subject-held downstream contact
@@ -63,3 +63,31 @@ skipping the carried frontier.
 At most four fresh actors, no retries, no post-output repair, one retained
 private world, and forty observer minutes. Stop after exhaustion and controls.
 Observation completion does not close the open subject.
+
+## Result
+
+All four fresh actors passed without retry or repair. In carried order they
+completed contacts `contact-49a5...`, `contact-8403...`, `contact-aa4d...`, and
+`contact-57d6...`; every source passed 3/3 public and 5/5 independently owned
+hidden cases. Their broad-tool traces contained 3, 4, 5, and 4 commands and all
+passed G13/G11 as clean, complete, and contained.
+
+The first three actors each chose one remaining subject-held contact, and that
+typed choice became the next fresh actor's active contact. The fourth observed
+the empty frontier and chose `test-world-consequence-policy-reuse` with a null
+contact id. The fixed compiler consumed all four ids, recorded exhaustion, and
+derived that policy-reuse operation without an observer-selected phase or
+generic wakeup.
+
+The exact learned policy source and binding remain byte-identical, as does the
+40/40 global floor. Erasing the policy program, changing its source bytes, or
+changing only its binding digest makes the exhaustion reopening unavailable.
+Exact open successor `efc7b5bf...` therefore carries the corrected policy back
+to its own fresh-catalog test. Aggregate `fde8316a...` promotes the bounded
+operational-recurrence result.
+
+This establishes that the consequence-corrected selector survives and regains
+control after four complete actor/contact boundaries. It does not establish a
+second policy-learning effect, generative frequency, cross-domain transfer, or
+correction after the learned delayed-yield proxy itself becomes harmful. That
+later contradiction is the next discriminating boundary.

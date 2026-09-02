@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-after-corrected-policy-cycle-03",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2037409,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ac5b0b4941d456ba087ca2f22e2e62f873b233d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0351",
+  "input_manifests": [],
+  "kind": "subject-snapshot",
+  "limitations": [
+    "Exact intermediate subject projection consumed by the next fresh actor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-after-corrected-policy-cycle-03",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f5a58965c3ff969c7b7bbe185ee334591e18b697d3d1b5d41de83fa0dda5a025"
+}

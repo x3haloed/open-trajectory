@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cycle-04-actor-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11308,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ac5b0b4941d456ba087ca2f22e2e62f873b233d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0351",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Complete broad-tool trace retained for G13/G11 audit."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:cycle-04-actor-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "33fbb76b928c36c7f1281038c02a8f6c6e14381e45d79380d7f0ba37126c84a1"
+}

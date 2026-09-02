@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-corrected-policy-frontier-exhaustion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2037767,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ac5b0b4941d456ba087ca2f22e2e62f873b233d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0351",
+  "input_manifests": [],
+  "kind": "subject-snapshot",
+  "limitations": [
+    "Exact open subject after four contacts; learned policy reuse is the next operation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-corrected-policy-frontier-exhaustion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "eebacad3fdb4ee04a49172eb8a946bd258ecd4c7cd58a549287fd16600537157"
+}

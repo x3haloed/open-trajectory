@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cycle-03-actor-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 330,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0ac5b0b4941d456ba087ca2f22e2e62f873b233d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0351",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Fresh hosted actor structured output; generation is not independently reproducible."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cycle-03-actor-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2689c84d2a070147c049e21ef6b4252e028ba85ed23280a335b88042ce32cb72"
+}

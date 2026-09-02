@@ -340,6 +340,16 @@ contradiction can select its own correction phase—not that the discrepancy
 artifact uniquely supplies the cognitive insight or that the learned rule is
 already later-corrigible.
 
+OT-0351 follows that exact subject through the entire downstream frontier
+without changing its driver. Four fresh actors complete all four contacts at
+3/3 public and 5/5 hidden, pass clean G13/G11 audits, and use only their typed
+remaining-contact choices to open the next actor. The fourth actor observes
+exhaustion and routes back to policy reuse. Exact source, binding, and 40/40
+floor survive; program erasure, source tampering, or binding tampering each
+remove the next operation. Aggregate `fde8316a...` promotes exact open child
+`efc7b5bf...`. The corrected selector is now operative subject machinery across
+the whole contact frontier, but its later corrigibility remains untested.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
@@ -425,6 +435,13 @@ are retained for prospective reconstruction.
   whether the learned delayed-yield selector can itself generate a routed
   correction when a later regime makes that proxy harmful. Evidence: aggregate
   `205af67e...`, exact active child `263126eb...`.
+- OT-0351 resolves the intervening continuity question: four fresh actors carry
+  the corrected-policy child through every subject-held contact and exhaustion
+  back to exact learned-policy reuse, while source, binding, and floor remain
+  unchanged and three program-integrity ablations block reopening. The active
+  uncertainty is now the intended contradiction itself: can a later harmful
+  regime make this learned selector route and survive its own second correction?
+  Evidence: aggregate `fde8316a...`, exact child `efc7b5bf...`.
 - OT-0318 resolves the missing-action question: a training-only executable
   workbench let a fresh actor propose and verify its own 3/3 repair, which
   reached private 5/5 against exact-parent 0/5; erasing outcomes made the same
