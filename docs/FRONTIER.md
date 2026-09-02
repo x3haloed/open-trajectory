@@ -2961,3 +2961,15 @@ continuation inside this second epoch. The strongest remaining external causal
 component is no longer the researcher choosing each next harness; it is the
 observer-authored stream of objective worlds and correction/evaluation
 interfaces.
+
+OT-0248 freezes that descriptor-neutral continuation. The active streamed-world
+descriptor becomes the authority for target paths, visible sources, field
+shapes, and sealed interfaces; one receipt resolver spans every retained world
+receipt family. All six orders of the three remaining resilience surfaces pass
+the complete correction/selection fixture walk before actor authorization.
+Seven identical null pulses must then derive correction, selection, correction,
+selection, correction, selection, correction with seven fresh actors, no retry,
+and no runtime target, phase, or experiment itinerary. Promotion requires every
+correction to reach visible 4/4 and prospective 6/6 against unchanged 2/6,
+every selection to receive sealed 2/6, exact preservation of both epochs, and a
+conformant open successor at an exhausted external world stream.

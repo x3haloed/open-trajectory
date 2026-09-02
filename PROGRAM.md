@@ -2320,5 +2320,14 @@ The next experiment must generalize correction to the streamed world's
 descriptor and then continue inside that epoch. Runtime experiment dispatch is
 no longer the immediate gap; observer-authored world and evaluator supply is.
 
+OT-0248 freezes the descriptor-neutral second-epoch driver. Correction resolves
+the latest pending contradiction across all retained receipt families, while
+selection and evaluation obtain their interfaces from the active provider
+descriptor rather than a fixed directory. Six full permutation fixtures cover
+the three remaining resilience surfaces. The live comparison is seven
+identical null pulses, seven fresh actors, no retries, and no researcher-supplied
+itinerary; it must saturate the epoch and remain open when the state-indexed
+world stream has no unseen entry.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
