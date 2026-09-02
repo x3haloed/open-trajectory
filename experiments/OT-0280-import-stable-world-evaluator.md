@@ -36,3 +36,11 @@ This is evaluator correction and candidate admission with zero new actors. It
 does not establish wake or recurrence through Morrowglass. The next experiment
 must start from the exact renewed waiting subject, consume only the promoted
 public package, and let the subject choose its first contact.
+
+## Pre-live apparatus correction
+
+The deterministic package checker seeds an exclusive directory. Before live
+realization, inspection found that reusing the preflight directory would stop
+the command before evaluation. Preflight and live checker workspaces are now
+distinct; their inputs and gates are identical. The prospective suite is rerun
+and this repair is pushed before creating the zero-actor result.

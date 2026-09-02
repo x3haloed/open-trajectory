@@ -172,14 +172,14 @@ def setup(args):
     return repo, run, p82, runtime, parent, rejected, package
 
 
-def evaluate(run, p82, runtime, parent, rejected, package):
+def evaluate(run, p82, runtime, parent, rejected, package, checker_name):
     installed = base279.install(parent, p82)
     legacy = base268.evaluate_package(package, p82.digest)
     corrected = with_corrected_evaluator(base268.evaluate_package, package, p82.digest)
     corrected_negatives = with_corrected_evaluator(
         base268.negative_controls, p82.digest
     )
-    checker_root = base268.seed_actor(run / "checker-v2", package)
+    checker_root = base268.seed_actor(run / checker_name, package)
     checker_process = subprocess.run(
         ["python3", "check_package.py"],
         cwd=checker_root,
@@ -294,7 +294,10 @@ def main():
     if run.exists() and (run / "aggregate.json").exists():
         raise SystemExit("preserve completed OT-0280 evidence")
     run.mkdir(parents=True, exist_ok=True)
-    result, installed = evaluate(run, p82, runtime, parent, rejected, package)
+    checker_name = "checker-preflight" if args.preflight_only else "checker-live"
+    result, installed = evaluate(
+        run, p82, runtime, parent, rejected, package, checker_name
+    )
     write_json(run / "fixture-conformance.json", result)
     if args.preflight_only:
         print(json.dumps(result, indent=2, sort_keys=True))
