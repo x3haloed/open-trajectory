@@ -14,6 +14,13 @@ MAX_TREE_BYTES = 20 * 1024 * 1024
 MAX_BINARY_FIXTURE_BYTES = 64 * 1024
 FORBIDDEN_DIR_PARTS = {".evidence", "artifacts", "checkpoints", "data", "datasets"}
 FORBIDDEN_EVIDENCE_PARTS = {"objects", "private", "runs"}
+GENERIC_LOCAL_IDENTITY_TOKENS = {
+    "actions",
+    "runner",
+    "root",
+    "ubuntu",
+    "user",
+}
 HEAVY_EXTENSIONS = {
     ".arrow", ".bin", ".ckpt", ".gguf", ".h5", ".hdf5", ".npy",
     ".npz", ".onnx", ".parquet", ".pt", ".pth", ".safetensors",
@@ -65,7 +72,12 @@ def _local_identity_tokens(repo: Path) -> list[bytes]:
             continue
         candidates.add(value)
     return sorted(
-        {value.encode("utf-8").lower() for value in candidates if len(value.strip()) >= 4},
+        {
+            value.encode("utf-8").lower()
+            for value in candidates
+            if len(value.strip()) >= 4
+            and value.strip().lower() not in GENERIC_LOCAL_IDENTITY_TOKENS
+        },
         key=len,
         reverse=True,
     )

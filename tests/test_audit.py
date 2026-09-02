@@ -1,11 +1,12 @@
 from __future__ import annotations
 
+import subprocess
 import tempfile
 import unittest
 from pathlib import Path
 from unittest.mock import patch
 
-from open_trajectory_evidence.audit import audit_repository
+from open_trajectory_evidence.audit import _local_identity_tokens, audit_repository
 
 
 class AuditTests(unittest.TestCase):
@@ -50,6 +51,23 @@ class AuditTests(unittest.TestCase):
             ):
                 errors = audit_repository(repo)
             self.assertTrue(any("local identity token" in error for error in errors), errors)
+
+    def test_generic_ci_account_is_not_an_identity_token(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            repo = Path(temporary)
+            with (
+                patch(
+                    "open_trajectory_evidence.audit.Path.home",
+                    return_value=Path("/") / "home" / "runner",
+                ),
+                patch("open_trajectory_evidence.audit.getpass.getuser", return_value="runner"),
+                patch("open_trajectory_evidence.audit.platform.node", return_value="runner"),
+                patch(
+                    "open_trajectory_evidence.audit.subprocess.run",
+                    side_effect=subprocess.CalledProcessError(1, ["git", "config"]),
+                ),
+            ):
+                self.assertEqual(_local_identity_tokens(repo), [])
 
 
 if __name__ == "__main__":
