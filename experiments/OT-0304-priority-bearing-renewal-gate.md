@@ -1,6 +1,6 @@
 # OT-0304 — Priority-bearing renewal gate
 
-- **Status:** frozen; construction preflight passed; held-out comparison not run
+- **Status:** promoted
 - **Evidence class:** evaluator-transition checkpoint
 - **Current subject:** exact OT-0303 eighth-wait subject `e193ec50...`
 - **Fresh actors:** zero
@@ -89,3 +89,20 @@ matched provider resources and independent consequence. The active branch must
 produce contact the erased branch does not preferentially recover, without the
 stake naming a hidden answer or gaining world authority. Consequence—not the
 stake or provider—must decide use, correction, extension, or surrender.
+
+## Result
+
+E11 promotes with zero fresh actors and no subject transition. All 256
+operational truth assignments agree exactly with the incumbent. Every
+single-anchor and origin mutant behaves as frozen, and all five held-out rows
+match their predeclared labels.
+
+OT-0283 remains valid operational renewal without acquiring a priority claim.
+OT-0254 remains a causal state-conditioned choice without being relabeled as a
+subject stake. OT-0197 earns all three levels. OT-0122 retains its causal-choice
+evidence while its defective successor and the authority-breach mutant fail
+operational and priority validity. Aggregate receipt `f75fdcd7...`.
+
+Exact current subject `e193ec50...` remains byte-identical, open, conformant,
+and routed to `renew-world-feed`. The next live comparison is therefore
+prospectively governed by E11 rather than allowed to define its own success.

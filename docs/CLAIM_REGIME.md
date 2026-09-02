@@ -111,3 +111,28 @@ on controls having authority over a sealed operational successor is stale.
 
 Prior results are reclassified lazily when they become decision-relevant. No
 historical score is automatically improved by this transition.
+
+## Active evaluation epoch E11
+
+OT-0304 adds a complementary attribution gate without replacing G3 or the
+operational transition gate. E11 distinguishes:
+
+1. valid operational contact;
+2. a subject-carried condition that causally changes a move under a matched
+   condition-erased comparison; and
+3. priority-bearing contact, where that condition is an executable
+   subject-originated stake with both support and contradiction paths and
+   independent consequence changes what happens next.
+
+Operational validity has identical semantics before and after E11. A state
+index, subject-blind provider, or observer-authored assignment may remain valid
+component or operational evidence, but none is a proxy for subject priority.
+Priority attribution additionally fails when the stake is bound after contact,
+the erased control behaves the same, contact can only confirm, consequence does
+not alter the next operation, or protected authority is lost.
+
+The transition anchors are retained OT-0122, OT-0197, OT-0254, and OT-0283
+evidence plus exhaustive operational and single-anchor mutants. Conclusions
+that repeated valid same-language renewal alone establishes subject-owned
+developmental widening are stale. Their raw artifacts, operational validity,
+and narrower causal conclusions remain intact.

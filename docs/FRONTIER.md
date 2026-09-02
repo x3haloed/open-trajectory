@@ -63,6 +63,14 @@ consequence order, independent outcomes, unchanged or ablated comparisons,
 no-regression floors, privacy, and preserved negative evidence remain hard
 anchors.
 
+Evaluation epoch E11 now separates valid operational contact,
+subject-conditioned choice, and priority-bearing contact. The strongest label
+requires an executable subject-originated stake bound before contact, a matched
+stake-erased comparison that changes the move, both support and contradiction
+paths, independent consequence, and a consequence-shaped next operation. E11
+preserves all prior operational verdicts; it prevents blind novelty or a mere
+state index from silently standing in for subject priority.
+
 Repeated same-language cycles are now a reliability measure, not sufficient
 evidence of developmental widening. The strongest current selection anchors
 remain the consequence-corrected allocator and later-regime repair
@@ -70,7 +78,8 @@ remain the consequence-corrected allocator and later-regime repair
 (`OT-0254`), conditional failed-attempt correction (`OT-0273`–`OT-0274`), and
 the current surrender/recovery recurrence (`OT-0300`–`OT-0303`).
 
-The exact current operational subject is OT-0303 successor `e193ec50...`. It is
+The exact current operational subject remains OT-0303 successor `e193ec50...`.
+OT-0304 changed only the evaluation epoch and left these bytes exact. It is
 open after eight waits and seven discharges, retains all three earned Tideglass
 Crossings surfaces, provider/corrector invalidity and recovery history, and one
 truthful surrender followed by successful fresh-actor correction. Its own state
@@ -96,11 +105,12 @@ derives `renew-world-feed`; no next world has been generated or selected.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
 
-The next discriminating experiment should therefore compare standing blind
-renewal with a subject-originated, falsifiable world-seeking stake under matched
-provider resources and independent consequence. The stake may constrain what
-kind of contact is worth opening, but must not reveal or control sealed world
-content, scoring, or admission. A successful path must produce a genuinely new
-world contact that the blind control does not preferentially recover, then let
-consequence decide whether the subject uses, corrects, extends, or surrenders
-it. Merely generating another valid package is insufficient.
+The next discriminating experiment is now governed by E11: compare standing
+blind renewal with a subject-originated, falsifiable world-seeking stake under
+matched provider resources and independent consequence. Bind the stake before
+future package identity exists. It may constrain what kind of contact is worth
+opening, but must not reveal or control sealed world content, scoring, or
+admission. A successful path must produce a genuinely new world contact that
+the stake-erased control does not preferentially recover, then let consequence
+decide whether the subject uses, corrects, extends, or surrenders it. Merely
+generating another valid package is insufficient.

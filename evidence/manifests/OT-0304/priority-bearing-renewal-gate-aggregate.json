@@ -1,0 +1,37 @@
+{
+  "artifact_id": "priority-bearing-renewal-gate-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4099,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "25665950583ca3654f92ed58204010a7f326aaac",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0304",
+  "input_manifests": [
+    "evidence/manifests/OT-0304/priority-gate-preflight.json",
+    "evidence/manifests/OT-0122/subject-selected-world-contact-aggregate.json",
+    "evidence/manifests/OT-0197/coupled-pursuit-assimilation-aggregate.json",
+    "evidence/manifests/OT-0254/projected-opportunity-selection-aggregate.json",
+    "evidence/manifests/OT-0283/morrowglass-reachable-recurrence-aggregate.json"
+  ],
+  "kind": "evaluator-transition-aggregate",
+  "limitations": [
+    "Deterministic comparison over four retained historical episodes and one authority mutant; not a live renewal candidate."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:priority-bearing-renewal-gate-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "279031f73cde312e2f90e3118b76eaf41b410d71dfa44efc6ae39c8e0cee3616"
+}

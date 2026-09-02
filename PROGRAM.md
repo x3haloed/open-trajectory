@@ -3232,5 +3232,18 @@ invalidity/recovery lineage and derives `renew-world-feed`. Aggregate receipt
 `2d6bc3b0...`. The immediate frontier is renewed provider generation from this
 subject-owned opening.
 
+OT-0304 promotes evaluation epoch E11 without changing the subject. The
+challenger preserves the incumbent operational-contact verdict on all 256
+truth assignments, then separates operational novelty, subject-conditioned
+choice, and priority-bearing contact on four exact retained episodes plus one
+authority mutant. Blind OT-0283 renewal remains operational only; OT-0254 is
+state-conditioned but not a stake; OT-0197 earns all three levels; OT-0122
+retains causal-choice evidence without a valid successor; and authority loss
+fails closed. Exact subject `e193ec50...` remains open at `renew-world-feed`.
+Aggregate receipt `f75fdcd7...`. The next live renewal must bind an executable
+subject stake before future world identity, beat a matched stake-erased branch,
+remain open to contradiction, and let independent consequence determine the
+next operation.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
