@@ -129,14 +129,17 @@ stake remain controls, not promoted lineage.
   the erased actor also retained and scored 0/5. The inherited rationale says
   “all three completed contacts” and embeds the prior regime's opposite
   evidence without binding that prose to episode or receipt identities.
-  Uncertain: whether this stale-evidence ambiguity hid the current contradiction
-  or the single actor would retain even under explicit provenance. Evidence:
-  OT-0316 rejected aggregate `c321f467...`.
+  The actor also omitted the instructed checker invocation, though the observer
+  verified the unchanged file. Uncertain: whether stale-evidence ambiguity hid
+  the current contradiction, ordinary generation variance produced retention,
+  or the incomplete actor workflow matters. Evidence: OT-0316 rejected
+  aggregate `c321f467...` and retained trace.
 - The next test should derive, before actor opening, an active selection-error
   receipt bound to the new selection and outcome receipt identities, and mark
   inherited rationale as historical support bound to its prior revision. It
   must not name a coefficient or desired edit. Against exact `0a48ab16...`, a
   fresh actor seeing that provenance should revise and beat the unchanged
   parent on disjoint reversed catalogs; a matched outcome-erased actor without
-  an active error receipt should retain. Preserve OT-0316 as the exact raw-
-  contact-only negative observation rather than resampling it.
+  an active error receipt should retain. Successful actor-side checker execution
+  must be a trace-audited gate. Preserve OT-0316 as the exact raw-contact-only
+  observation rather than resampling it.

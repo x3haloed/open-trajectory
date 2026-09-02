@@ -86,6 +86,13 @@ set `directional_error: true`, but the actor appears to have treated the stale
 rationale as a current summary. The raw contact is present; its temporal and
 epistemic precedence over inherited rationale is not explicit enough.
 
+The consequence-bearing actor also did not execute `check_revision.py` despite
+the README instruction; the harness's independent post-output check accepted
+the exact unchanged stake. This does not alter the rejection or contaminate an
+admitted child, but it prevents treating the single retention event as a fully
+conformant causal negative. The next harness must audit a successful actor-side
+checker invocation from the tool trace rather than infer it from output bytes.
+
 This single draw does not establish that provenance repair will cause revision.
 The next test should preserve the exact rejection while prospectively deriving
 a typed active selection-error receipt from new outcome identities and marking
