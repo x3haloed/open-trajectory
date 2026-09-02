@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import hashlib
 import importlib.util
+import json
 import sys
 import unittest
 from pathlib import Path
@@ -39,6 +40,15 @@ class OT0348Tests(unittest.TestCase):
         compile(module.POLICY_CHECKER, "check_policy.py", "exec")
         compile(module.SELECTION_CHECKER, "check_selection.py", "exec")
         compile(module.CONTACT_CHECKER, "check_contact.py", "exec")
+
+    def test_transport_schema_uses_supported_subset(self):
+        schema = json.loads(module.CORRECTION_SCHEMA.read_text())
+        self.assertNotIn("uniqueItems", schema["properties"]["files_changed"])
+        self.assertFalse(module.correction_output_valid(
+            {"action": "revise-continuation-policy", "files_changed": ["policy.py", "policy.py"], "note": "duplicate"},
+            "revise",
+            True,
+        ))
 
 
 if __name__ == "__main__":

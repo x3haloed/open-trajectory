@@ -89,3 +89,18 @@ At most four fresh actors, no retries, no post-output protocol repair, one
 training derivation, one post-binding held-out derivation, and forty observer
 minutes. Stop after the final subject and deterministic controls are sealed.
 Observer stopping does not close an open subject.
+
+## Pre-contact transport repair
+
+The first authorization attempt reached no model sampling or actor output. The
+Responses API rejected the output schema with HTTP 400 because its supported
+strict-schema subset does not permit `uniqueItems`. The retained event trace
+contains only `thread.started`, `turn.started`, the schema error, and
+`turn.failed`; the actor workspace remained byte-identical to its seed.
+
+Before any meaningful actor output, remove only `uniqueItems` from the response
+schema. Duplicate or misordered file lists remain rejected by the frozen exact
+semantic output validator, so this changes neither actor-visible information,
+mutation authority, scoring, nor acceptance. Preserve the failed transport
+attempt separately and authorize the first substantive actor only after this
+repair is committed.
