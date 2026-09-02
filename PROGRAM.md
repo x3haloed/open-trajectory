@@ -2651,5 +2651,11 @@ Retain that package externally by content identity. It becomes meaningful only
 if the exact subject later saturates, waits, discovers it through the installed
 scanner, and receives independent consequence.
 
+OT-0268 freezes that world-side generation after the OT-0267 commit. One fresh
+actor receives no subject state or target catalog and may author only a complete
+world package under the standing public interface. Its sealed half must make all
+three visible callables independently contradictable at exactly 2/6. The exact
+subject does not advance in this component record.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

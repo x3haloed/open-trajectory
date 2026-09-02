@@ -3361,3 +3361,10 @@ by an independent world-side actor under the standing public schema. The package
 must remain external and dormant while the subject finishes its current epoch;
 later discovery, wake, actor choice, and sealed consequence—not package validity
 alone—will determine whether the provider dependency was actually removed.
+
+OT-0268 freezes the post-interface world-author boundary. A fresh world-side
+actor receives no subject state or target catalog and authors one visible-plus-
+sealed package in a published restricted execution language. Acceptance requires
+scanner admission and exactly 2/6 visible/reference agreement for each of three
+actor-named callables. The package stays external; the subject remains unchanged
+until later feed discovery.
