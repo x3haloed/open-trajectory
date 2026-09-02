@@ -23,6 +23,16 @@ No actor ran. OT-0281 now uses the standing-feed offer-consumption selector that
 constructs the Morrowglass epoch from the active offer before source resolution;
 all three dynamic choice branches pass before freeze.
 
+### Post-actor apparatus correction
+
+The live selection completes and its exact passing invocation, world receipt,
+and subject are retained. Aggregate construction then queries the epoch's
+identifier under `world_id`; the generic offer-consumption epoch names that
+field `environment_id`. No actor is retried. The aggregate builder now reads
+the retained schema field and can finalize directly from the two existing
+invocations; the unchanged three-choice preflight and archive suite must pass
+and this repair must be pushed first.
+
 ## Frozen gates
 
 Before live output, all three possible actor choices must pass the exact

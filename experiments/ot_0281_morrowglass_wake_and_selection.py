@@ -155,6 +155,51 @@ def preflight(root, p82, runtime, parent, package, result280):
     return result, offered
 
 
+def finalize_aggregate(run, fixtures, p82, runtime, parent, package, final):
+    rows = [
+        json.loads(path.read_text())
+        for path in sorted(run.glob("invocation-*-result.json"))
+    ]
+    actor = rows[-1]["actor"] if rows else None
+    gates = {
+        "preflight_passed": fixtures["checks"]["passed"],
+        "two_content_free_openings": len(rows) == 2
+        and all(row["pulse"]["content"] is None for row in rows),
+        "wake_then_selection": [row["transition"] for row in rows]
+        == ["wake-world", "expanded-select"],
+        "one_fresh_subject_actor": sum(row["fresh_actor_count"] for row in rows)
+        == 1,
+        "all_invocations_passed": all(row["checks"]["passed"] for row in rows),
+        "morrowglass_epoch_live": final["actor_authored_environment_epochs"][-1][
+            "environment_id"
+        ]
+        == package["world_id"]
+        and len(base244.remaining_epoch(final)) == 2
+        and base270.derive(final, p82) == "outward-correct",
+        "renewal_preserved": final["active_standing_world_renewal"]
+        == parent["active_standing_world_renewal"],
+        "final_open_conformant": final["continuation"]["status"] == "open"
+        and runtime.identity_conforms(final),
+    }
+    gates["passed"] = all(gates.values())
+    aggregate = {
+        "authority": AUTHORITY,
+        "source_subject_digest": parent["artifact_digest"],
+        "invocation_receipt_digests": [row["receipt_digest"] for row in rows],
+        "checks": gates,
+        "observer_disposition": "promoted" if gates["passed"] else "rejected",
+        "subject_disposition": final["continuation"]["status"],
+        "final_subject_digest": final["artifact_digest"],
+        "fresh_actor_count": 1,
+        "selected_target": actor["output"].get("selected_target") if actor else None,
+    }
+    aggregate["receipt_digest"] = p82.digest(aggregate)
+    write_json(run / "aggregate.json", aggregate)
+    write_json(run / "final-full-subject.json", final)
+    print(json.dumps(aggregate, indent=2, sort_keys=True))
+    return 0 if gates["passed"] else 2
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo", type=Path, default=REPO)
@@ -177,6 +222,11 @@ def main():
         raise SystemExit("OT-0281 unavailable")
     results = sorted(run.glob("invocation-*-result.json"))
     checkpoint = run / "checkpoint-subject.json"
+    if len(results) == 2 and checkpoint.exists():
+        retained_final = json.loads(checkpoint.read_text())
+        return finalize_aggregate(
+            run, fixtures, p82, runtime, parent, package, retained_final
+        )
     subject = json.loads(checkpoint.read_text()) if checkpoint.exists() else parent
     index = len(results) + 1
     if index not in {1, 2} or not runtime.identity_conforms(subject):
@@ -288,47 +338,7 @@ def main():
     if index == 1:
         print(json.dumps(result, indent=2, sort_keys=True))
         return 0
-    rows = [
-        json.loads(path.read_text())
-        for path in sorted(run.glob("invocation-*-result.json"))
-    ]
-    gates = {
-        "preflight_passed": fixtures["checks"]["passed"],
-        "two_content_free_openings": len(rows) == 2
-        and all(row["pulse"]["content"] is None for row in rows),
-        "wake_then_selection": [row["transition"] for row in rows]
-        == ["wake-world", "expanded-select"],
-        "one_fresh_subject_actor": sum(row["fresh_actor_count"] for row in rows)
-        == 1,
-        "all_invocations_passed": all(row["checks"]["passed"] for row in rows),
-        "morrowglass_epoch_live": final["actor_authored_environment_epochs"][-1][
-            "world_id"
-        ]
-        == package["world_id"]
-        and len(base244.remaining_epoch(final)) == 2
-        and base270.derive(final, p82) == "outward-correct",
-        "renewal_preserved": final["active_standing_world_renewal"]
-        == parent["active_standing_world_renewal"],
-        "final_open_conformant": final["continuation"]["status"] == "open"
-        and runtime.identity_conforms(final),
-    }
-    gates["passed"] = all(gates.values())
-    aggregate = {
-        "authority": AUTHORITY,
-        "source_subject_digest": parent["artifact_digest"],
-        "invocation_receipt_digests": [row["receipt_digest"] for row in rows],
-        "checks": gates,
-        "observer_disposition": "promoted" if gates["passed"] else "rejected",
-        "subject_disposition": final["continuation"]["status"],
-        "final_subject_digest": final["artifact_digest"],
-        "fresh_actor_count": 1,
-        "selected_target": actor["output"].get("selected_target") if actor else None,
-    }
-    aggregate["receipt_digest"] = p82.digest(aggregate)
-    write_json(run / "aggregate.json", aggregate)
-    write_json(run / "final-full-subject.json", final)
-    print(json.dumps(aggregate, indent=2, sort_keys=True))
-    return 0 if gates["passed"] else 2
+    return finalize_aggregate(run, fixtures, p82, runtime, parent, package, final)
 
 
 if __name__ == "__main__":
