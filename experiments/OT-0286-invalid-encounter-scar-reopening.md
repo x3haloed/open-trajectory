@@ -1,6 +1,6 @@
 # OT-0286 — Invalid-encounter scar reopening
 
-- **Status:** preflight passed; live output sealed
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0285 checkpoint `3e0268da...`
 - **Rejected encounter:** exact OT-0285 invocation `ef57212e...`
@@ -52,3 +52,20 @@ Live actor output remains sealed until preflight and this design are pushed.
 Preflight receipt `4f8421f7...` preserves the operational subject exactly,
 passes all three reachable correction depths, excludes rejected candidate
 content, and rejects five counterfeit invalid-encounter controls.
+
+## Result
+
+Both null openings pass without retry. The first installs only the scar and
+generic policy, leaving the same correction mechanically next. The second
+authorizes one fresh actor whose seed excludes OT-0285's rejected patch and
+output. Its trace is clean, its exact permitted revision passes all four
+disclosed cases, and independent consequence reaches 4/6 versus unchanged 2/6.
+The failed hypothesis and lowest canonical unseen mismatch are retained in open
+subject `ce54ab32...`, which routes to more correction. Aggregate receipt
+`5622b7b3...`.
+
+The fresh actor independently rediscovered the same incomplete source rule as
+the rejected actor. Thus this is evidence that the scarred lineage regained
+safe world contact, not that scar content improved correction choice. There is
+no scar-erased behavioral control, and one recovery does not establish a retry
+rate or justify unbounded resampling.

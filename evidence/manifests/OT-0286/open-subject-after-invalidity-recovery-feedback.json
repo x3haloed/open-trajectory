@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-invalidity-recovery-feedback",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1466852,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c05e1447892ebe07b334d2ad2aff18e27e3d2b5e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0286",
+  "input_manifests": [
+    "evidence/manifests/OT-0286/invalid-encounter-scar-reopening-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "The recovered correction remains unresolved at 4/6 with one disclosed counterexample."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-invalidity-recovery-feedback",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8af52fa9c580462f13826974baea974b63c4fa5271198ba4172fcd97b3e26d65"
+}

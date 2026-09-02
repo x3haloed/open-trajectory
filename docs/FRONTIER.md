@@ -3670,3 +3670,18 @@ fail, rejected candidate content stays absent, and every reachable correction
 depth remains valid. After freeze and push, one second null call may authorize a
 single fresh recovery actor. Its result must reach independent consequence;
 otherwise the scar is only memorialization, not liveness.
+
+OT-0286 passes that operational boundary. One null call installs only the scar;
+the next fresh actor has a clean trace, receives no rejected candidate content,
+and reaches independent 4/6 consequence versus unchanged 2/6. Exact open
+subject `ce54ab32...` retains the hypothesis and one canonical mismatch and
+derives more correction. The actor independently rediscovered the rejected
+rule, so do not claim the scar improved its choice or infer a retry-rate result.
+
+The immediate frontier returns to the second Tideglass cycle from this valid
+post-recovery state. A fresh corrector should use the retained 4/6 hypothesis
+and five-case contact, then the generic loop should resume refresh, remaining
+target choices, saturation, seventh wait, and renewal. Preserve the invalidity
+scar and policy as lineage state, but do not introduce any special route because
+of them. The cycle still passes only if later operations derive from state and
+consequence under the same content-free opening.

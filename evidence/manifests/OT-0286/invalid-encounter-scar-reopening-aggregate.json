@@ -1,0 +1,33 @@
+{
+  "artifact_id": "invalid-encounter-scar-reopening-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 935,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c05e1447892ebe07b334d2ad2aff18e27e3d2b5e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0286",
+  "input_manifests": [
+    "evidence/manifests/OT-0286/invalid-encounter-scar-reopening-preflight.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded recovery after one invalid encounter; no scar-erased behavioral control and no reliability claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:invalid-encounter-scar-reopening-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a330f68e89d9e7d09a888c5a085599e6ab6f8b3ca4c1cc7b0bab91b084ec90ec"
+}

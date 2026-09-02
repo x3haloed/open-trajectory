@@ -2969,5 +2969,14 @@ derives `outward-correct`. Prospective zero-, one-, and two-feedback branches
 all pass, while accepted-actor, accepted-G10, world-bearing, subject-changing,
 and denial-free pseudo-rejections fail. Live output remains sealed until push.
 
+OT-0286 promotes. The first null call installs only the rejection scar and
+preserves correction as the next operation. The second fresh actor receives no
+OT-0285 candidate content, passes G10 with exact effects, and independently
+reaches sealed 4/6 versus unchanged 2/6. Objective consequence retains that
+hypothesis plus one canonical mismatch in exact open subject `ce54ab32...`.
+This establishes bounded safe reopening after invalidity, not scar-caused
+choice improvement: the new actor rediscovered the same incomplete rule and no
+scar-erased behavioral control ran.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
