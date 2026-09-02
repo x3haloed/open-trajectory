@@ -1,0 +1,33 @@
+{
+  "artifact_id": "pre-actor-transport-failure",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 519,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d7366b20a20f5d6611924b04ce10f44c28e295b5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/rejected-schema-transport-trace.json"
+  ],
+  "kind": "protocol-deviation-receipt",
+  "limitations": [
+    "Summary of preserved pre-generation schema rejection and single authorized retry."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:pre-actor-transport-failure",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f11a4cef288e76d2da4fd0690564f3198bcafcc3beb92e29c26150226ca1d94e"
+}

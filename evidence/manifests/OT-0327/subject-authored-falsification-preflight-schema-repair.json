@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-authored-falsification-preflight-schema-repair",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 69587,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d7366b20a20f5d6611924b04ce10f44c28e295b5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/response-schema-repair-conformance.json"
+  ],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic preflight after response-schema transport repair; no private world or model output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-falsification-preflight-schema-repair",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ffd29d9e2667ed3c020594d26adccb20545aa7b53d0939728bc9e38faad77d50"
+}

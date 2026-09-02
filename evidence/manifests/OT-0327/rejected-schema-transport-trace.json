@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-schema-transport-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 855,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d7366b20a20f5d6611924b04ce10f44c28e295b5",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/subject-authored-falsification-preflight.json"
+  ],
+  "kind": "pre-actor-transport-trace",
+  "limitations": [
+    "Hosted request rejected at response-schema validation before model generation; no actor output."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-schema-transport-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "28eeecd9a02b7f0c7f396b1a6181e6888e72146d831a08ebd7722f784dd54a17"
+}

@@ -4,7 +4,7 @@
   "required": ["action", "files_changed", "note"],
   "additionalProperties": false,
   "properties": {
-    "action": {"const": "author-contact-front-generator"},
+    "action": {"type": "string", "const": "author-contact-front-generator"},
     "files_changed": {
       "type": "array",
       "items": {"type": "string", "const": "front-generator.py"},

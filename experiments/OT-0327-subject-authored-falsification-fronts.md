@@ -111,3 +111,19 @@ reliability, autonomous world acquisition, unrestricted contact-language
 invention, or full OT-2R recurrence. The hidden world still chooses between two
 researcher-defined semantic hypotheses; the actor authors their executable
 contact embodiments and makes either objective answer developmentally usable.
+
+## Pre-actor transport repair
+
+The first position-bearing request was rejected by hosted response-schema
+validation before model generation because the `action` property declared a
+constant without the explicit string type required by the hosted schema subset.
+No actor output exists, the seeded generator remains unchanged, and the only
+workspace addition is the launcher's untracked input. The exact failed trace is
+preserved.
+
+The repair adds only `"type": "string"` to that property. It changes no
+allowed response, actor information, world, hypothesis, score, branch,
+acceptance rule, or budget. A machine-readable conformance receipt must verify
+the explicit type of every schema property and array item before one fresh
+retry under a distinct label. The retry receives the same active subject,
+floor, contract, prompt, tools, and still-uncreated private world.
