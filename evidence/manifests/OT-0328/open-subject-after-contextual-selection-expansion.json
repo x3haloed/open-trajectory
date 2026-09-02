@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-contextual-selection-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1918044,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "continuing-subject",
+  "limitations": [
+    "Exact operational child from one bounded context-specific selector expansion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-contextual-selection-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "eb4e294f9ad9e636309fb837f125f4a54c1f26d4a36bb1e236262283c061e3ad"
+}

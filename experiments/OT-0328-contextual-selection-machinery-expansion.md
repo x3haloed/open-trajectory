@@ -1,6 +1,6 @@
 # OT-0328 — Contextual selection machinery expansion
 
-- **Status:** frozen — unexecuted
+- **Status:** completed — promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0327 subject `b915e77d...`
 - **Claim:** when reuse of the subject-authored falsification generator exposes
@@ -125,3 +125,36 @@ later exact reuse across fresh actors. It would not establish that context is
 the final representation, autonomous world acquisition, unrestricted
 self-redesign, generation reliability, or full OT-2R recurrence. The observer
 still supplies the total policy ABI and the later incompatible regime.
+
+## Result
+
+The retained OT-0327 generator was invoked in a new opaque context under the
+other bound latent rule, `slope-1`. The global incumbent scored 0/4. Complete
+search found a 4/4 global repair, but it scored only 25/40 on the earned floor,
+so the inherited E13 assessor and router correctly returned `wait`: the
+existing global-weight carrier had no non-regressive move.
+
+The consequence-bearing fresh actor changed only `selection-policy.py`. It
+authored a context-scoped policy that uses call weight -6 in the new context
+while retaining inherited weights elsewhere. Its visible score was 40/40 plus
+4/4. The matched outcome-erased actor ran the same checker and retained the
+global policy exactly. Both bindings were sealed before the five heldout
+catalogs were materialized.
+
+A separate fresh execution actor invoked the exact active policy bytes and
+bound five predictions without outcomes. Independent scoring gave 5/5 and a
+cumulative 45/45. The erased branch's separate execution actor invoked its
+exact retained bytes and scored 0/5 while preserving 40/40. All four broad-tool
+encounters pass G10; both execution seeds are outcome-free; the active child
+was sealed before erased scoring. Exact reconstruction reproduces the private
+world, E13 boundary, matched erasure, policy sources and bindings,
+bind-before-heldout order, predictions, scores, receipts, open child, and final
+identity.
+
+Aggregate receipt `fb9a9373...` and reconstruction receipt `6640e5be...`
+promote exact open child `fce8e08a...`. This is bounded causal evidence that
+completed consequence can expand selection machinery beyond the harmful
+global carrier and that a fresh successor can reuse the expansion. It is not
+yet evidence that the subject itself chose machinery expansion as its next
+pursuit: the observer supplied the later regime and total policy ABI, and the
+child's active pursuit and continuation remain unchanged.

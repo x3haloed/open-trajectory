@@ -1,0 +1,29 @@
+{
+  "artifact_id": "later-heldout-world-receipt",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 673,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "world-receipt",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:later-heldout-world-receipt",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1b2183aed096d198eca7ff1ed46d13e294a3503b879e2e079b6ed928ea044778"
+}

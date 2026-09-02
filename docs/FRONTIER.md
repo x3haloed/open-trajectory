@@ -123,13 +123,14 @@ E13 challenger selects lower local gain that scores 25/25. Historical E12
 comparisons remain valid in their frozen scope; scores are not compared across
 epochs unless both candidates are replayed under E13.
 
-The exact current operational subject is OT-0327's subject-authored-contact
-child `b915e77d...`. It preserves the open `expanded-select` position and the
-cumulative 35/35 floor, carries byte-exact E13 assessment, learned routing,
-proposal search, and the actor-authored falsification generator, and scores
-40/40 after its independently completed contact. A matched position-erased
-author made only saturated fronts and its successor remained 35/40. Exact
-predecessors `20b1db21...`, `1edc2027...`, `bf92244d...`, `aba1513f...`,
+The exact current operational subject is OT-0328's contextual-selection child
+`fce8e08a...`. It preserves the full 40/40 earned floor, byte-exact E13
+assessment, learned routing, proposal search, and actor-authored falsification
+generator, and adds an actor-authored executable policy for the independently
+contradictory later context. A separate fresh actor reused its exact bytes for
+5/5 unseen and cumulative 45/45. The matched outcome-erased author retained the
+global policy and its fresh successor scored 0/5. Exact predecessors
+`b915e77d...`, `20b1db21...`, `1edc2027...`, `bf92244d...`, `aba1513f...`,
 `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and `9a6f94ba...`
 remain controls, not current lineage.
 
@@ -221,12 +222,21 @@ remain controls, not current lineage.
   `b915e77d...`; exact reconstruction `fa8a8225...` reproduces the complete
   path. The active author was reconstructed rather than resampled after two
   preserved apparatus failures before private-world creation.
-- The subject now contributes what falsifying contact enters its inherited
-  correction chain, but only inside a researcher-defined binary slope language.
-  The next test should ask whether the retained generator can carry recurrence
-  through a genuinely later contradictory regime: invoke its exact bytes from
-  the open child, let independent changed consequence make the newly learned
-  weight harmful, and require inherited assessment/router/search to reverse or
-  revise it while preserving 40/40. If that succeeds, the next pressure should
-  force the subject to revise or widen the contact generator itself rather than
-  receive another observer-designed hypothesis family.
+- OT-0328 reuses that exact generator under the opposite later regime. The
+  incumbent fails 0/4; a global 4/4 repair regresses to 25/40, and E13 correctly
+  waits. A fresh consequence-bearing actor expands the executable selector with
+  context-scoped call weight -6, preserves visible 44/44, and a separate fresh
+  successor uses the exact bytes for heldout 5/5 and cumulative 45/45. The
+  outcome-erased author retains exactly and its successor scores 0/5. Aggregate
+  `fb9a9373...` promotes exact child `fce8e08a...`; reconstruction
+  `6640e5be...` reproduces the complete four-actor causal comparison.
+- OT-0328 resolves oscillation inside the supplied policy ABI, but exposes the
+  next missing causal edge: the new capability is appended while the subject's
+  active pursuit and continuation remain unchanged. Nothing in the current
+  subject state makes selection-machinery expansion its own next move; the
+  observer chose that experiment and invoked the sidecar. The next test should
+  begin from exact `fce8e08a...` and ask whether a fresh actor can use retained
+  developmental consequence to select and bind a machinery-level pursuit—or
+  correctly preserve the older pursuit—without being told that redesign is the
+  target. Only then should an independently opened successor enact the selected
+  path. This is more outcome-relevant than another observer-supplied context.

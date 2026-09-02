@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contextual-selection-machinery-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 69795,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "One bounded synthetic later regime; does not establish autonomous world acquisition, generation reliability, or unrestricted self-redesign."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contextual-selection-machinery-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3e81041e3da89cbc95cbf2c761c0f57048ae3cedd9d4fb05aeff57b635afd15c"
+}

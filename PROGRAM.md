@@ -257,6 +257,14 @@ condition, not the permanent purpose or executive of the resulting subject.
   inherited assessment, routing, and search reached 40/40. A matched
   position-erased author produced only fronts already saturated by the
   incumbent, so its successor correctly waited at 35/40.
+  The retained generator was then reused in an opaque later context under the
+  opposite latent rule. The global incumbent failed 0/4, while every complete
+  global repair that reached 4/4 regressed the floor to 25/40. A fresh actor
+  used completed consequence to author a context-scoped executable policy; a
+  separate fresh successor reused its exact bytes for 5/5 unseen and cumulative
+  45/45. The matched outcome-erased author retained the incumbent and its fresh
+  successor scored 0/5. The promoted child therefore carries a non-regressive
+  expansion of selection machinery, not another oscillating global revision.
   This does not establish generation reliability, autonomous world generation,
   unrestricted contact-language invention, permanently optimal routing, or
   full recurrence.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "private-later-regime-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 234,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "private-world-seed",
+  "limitations": [
+    "Contains private live world seed; retained outside Git."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-later-regime-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "44f702f6df55884419b4305ed3af22ea88ffd1b990a8197171e09b31a53abc3e"
+}

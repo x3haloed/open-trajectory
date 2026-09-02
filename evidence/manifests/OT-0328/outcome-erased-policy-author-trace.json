@@ -1,0 +1,29 @@
+{
+  "artifact_id": "outcome-erased-policy-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 29325,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-policy-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0d44d9012db0080749bdb80757ab949905a385b61c74a28f965bd294fbd50f33"
+}

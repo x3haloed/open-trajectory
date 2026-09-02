@@ -1,0 +1,29 @@
+{
+  "artifact_id": "consequence-bearing-policy-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 60579,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-bearing-policy-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9230ad9ada96d7b1ebbea0e53d1983ae7622fdddb6bdce227f8f790287a7ba8a"
+}

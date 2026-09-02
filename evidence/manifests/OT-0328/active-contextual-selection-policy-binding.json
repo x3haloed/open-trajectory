@@ -1,0 +1,29 @@
+{
+  "artifact_id": "active-contextual-selection-policy-binding",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1354,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "capability-binding",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-contextual-selection-policy-binding",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7efc8516a9cead7536735a7247590d82992c41805265c9cc553458edabe9f548"
+}

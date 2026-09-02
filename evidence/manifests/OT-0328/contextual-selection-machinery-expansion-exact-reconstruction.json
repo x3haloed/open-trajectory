@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contextual-selection-machinery-expansion-exact-reconstruction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 18435,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "exact-reconstruction",
+  "limitations": [
+    "Reconstructs retained local evidence; hosted actor deployment identity remains limited to retained traces."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contextual-selection-machinery-expansion-exact-reconstruction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a89fc0685f9fd791c0538bcbb060acceb51566b54caff0ccf8a4c290b49c6ef7"
+}

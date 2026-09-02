@@ -1,0 +1,29 @@
+{
+  "artifact_id": "outcome-erased-selection-policy-binding",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1253,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "control-binding",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-selection-policy-binding",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ce21313da2d6624e92e407b118d9d8e79ebc098c66ef28a27d7d548acdd2bc0d"
+}

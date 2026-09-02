@@ -1,0 +1,29 @@
+{
+  "artifact_id": "contextual-policy-reuse-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16358,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cac629e2468d062c2853fde72f9c47da0c4ea51f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:contextual-policy-reuse-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7b1d56751e1a6d3c95f98d2067adc265a5f793b1c8b834729bf11b5a084fc27f"
+}
