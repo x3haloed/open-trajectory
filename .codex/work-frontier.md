@@ -92,23 +92,14 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0263 successor `cd5444cb...`,
-identified by
-`evidence/manifests/OT-0263/open-stale-subject-at-registry-free-contradiction.json`.
-It preserves all earlier worlds and corrections, has saturated the state-indexed
-resilience epoch, and carries a saturated zero-opportunity projection with every
-external authority flag false. Its durable wait was discharged by a real stream
-extension; a fresh actor then consumed the retained coordination offer into a
-new epoch, received independent contradiction, and corrected it to 6/6 against
-the unchanged 2/6 control. A freshness guard has now replaced the stale prior-
-epoch projection with exactly two live, non-authoritative coordination
-opportunities. Its phase-aware freshness policy now preserves correction and all
-non-assimilation routes, refreshing stale projection state only before selection.
-Its expanded-selection admission now derives from projection, latest source/AST,
-ledger, contact shape, and workspace effects rather than a world-specific target
-registry. A fresh actor has now selected `sequence_repair_crews` through that
-path and received independent 2/6. The ledger change makes the projection stale;
-the subject is open at `correct` and routes to correction before refresh.
+The current exact operational subject is OT-0272's valid first-invocation
+successor `2b42db93...`. It preserves three completed standing-feed wait/wake
+cycles and the independently authored OT-0268 package, has selected
+`harbor/tide.py::decide_tide` without an inherited target registry, and carries
+retained-package 2/6 contradiction at correction. OT-0272's next actor passed
+the four disclosed correction cases but failed sealed consequence at 4/6; that
+candidate was not admitted, and the subject remains exactly open at the same
+correction.
 
 ## Prediction errors
 
@@ -415,3 +406,10 @@ the subject is open at `correct` and routes to correction before refresh.
   Actor-free refresh leaves exact `cc0d8344...` at the other two package
   opportunities. Next generalize selection consequence, then finish this epoch
   back to durable waiting.
+- OT-0272 generalizes selection consequence successfully for `decide_tide`, but
+  falsifies the assumed sufficiency of one four-example correction contact. The
+  exact, contained, G10-clean correction fits 4/4 public cases yet reaches only
+  4/6 against the retained package; unchanged remains 2/6. No retry occurs and
+  exact `2b42db93...` remains open. Next preserve this receipted failed attempt
+  and test world-driven additional discrimination without revealing the sealed
+  reference or letting the researcher choose tide-specific cases.

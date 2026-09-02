@@ -746,6 +746,11 @@ The strongest footholds are:
   surface without inherited target/reference entries, reaching public 4/4 and
   sealed 6/6 versus unchanged 2/6. Actor-free refresh exposes the other two
   package surfaces; exact `cc0d8344...` remains open at selection.
+- `OT-0272`: descriptor-derived selection of `decide_tide` passes and receives
+  retained-package 2/6, yielding exact open `2b42db93...`. The next fresh
+  corrector passes all four disclosed cases but only 4/6 sealed cases, so its
+  patch is rejected without retry. The result isolates bounded correction
+  contact—not routing, tools, or audit—as the present recurrence limit.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

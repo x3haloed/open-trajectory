@@ -3431,3 +3431,18 @@ OT-0272 freezes the full discriminating recurrence. Two selection/correction
 pairs must use public descriptor-derived choice plus retained-package 2/6 then
 4/4 and 6/6 versus unchanged 2/6. Actor-free refresh must exhaust the fifth
 epoch and install then exactly re-observe a fourth durable standing-feed wait.
+
+OT-0272 rejects at the first correction, with no retry. Its first invocation is
+a valid partial advance: a fresh actor selects `decide_tide`, passes public
+execution and G10, and receives retained-package 2/6, producing exact open
+subject `2b42db93...`. The fresh corrector then makes exact contained changes
+and passes every disclosed case, but its inferred storm rule reaches only 4/6
+against two undisclosed clear-weather boundary cases; unchanged remains 2/6.
+
+The immediate frontier is no longer generic target resolution. It is the
+correction-contact policy itself. A continuing subject needs a way to retain a
+failed-but-informative correction, remain unresolved, and obtain another
+bounded discriminating encounter with the world without actor resampling,
+sealed-answer leakage, package-specific semantics, or researcher selection of
+the missing case. Freeze that mechanism prospectively from exact
+`2b42db93...`; only later resume saturation and waiting.

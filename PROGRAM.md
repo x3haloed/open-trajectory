@@ -2715,5 +2715,20 @@ correction come from the exact retained package. Both remaining-target orders
 must reach saturation, a fourth wait, and exact wait re-observation without
 adding package-specific machinery.
 
+OT-0272 rejects at its second call without retry. The first fresh actor validly
+selects `decide_tide`, passes G10 and public execution, and receives exact
+retained-package 2/6, leaving open subject `2b42db93...` at correction. The
+fresh corrector then passes G10 and the complete four-case disclosed contact but
+reaches only 4/6 against the retained package; unchanged remains 2/6. Its patch
+is not admitted and the remaining six calls are not authorized.
+
+The recurrence machinery therefore reached a more substantive boundary than
+descriptor dispatch: a single bounded correction contact can be semantically
+underdetermined for an independently authored world. Next preserve the failed
+correction as receipted negative evidence and test whether unresolved correction
+can request or derive another bounded world contact, then admit only after
+objective consequence crosses the frozen gate. Do not resample this actor,
+reveal the sealed reference, or encode tide-specific semantics.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
