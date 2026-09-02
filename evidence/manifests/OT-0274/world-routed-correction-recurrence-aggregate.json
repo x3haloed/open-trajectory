@@ -1,0 +1,35 @@
+{
+  "artifact_id": "world-routed-correction-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1574,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d67003ecee963edb4a8ddfb4e0cbd46d1058bce4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0274",
+  "input_manifests": [
+    "evidence/manifests/OT-0273/open-subject-after-receipted-correction.json",
+    "evidence/manifests/OT-0268/independent-three-lantern-world-package.json",
+    "evidence/manifests/OT-0274/saturated-refresh-reporter-reconstruction.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One live independent-package correction took the one-feedback branch; recurrence on later independently authored worlds and open-ended world acquisition remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:world-routed-correction-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "52f852602ea48790c97fb1ff69704f96344742399cf26c81be0d9ed99e3c6374"
+}

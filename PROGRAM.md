@@ -2770,5 +2770,20 @@ matches retained `5de927e5...`; no actor ran. Preserve the failed receipt and
 freeze a separate reconstruction plus the prospective two-successor refresh
 check before continuing to waiting.
 
+OT-0274 promotes the one-feedback live branch. Seven identical content-free
+calls derive refresh, package selection at 2/6, correction 4/4 but 5/6,
+world-routed counterexample retention, correction 5/5 and 6/6 versus unchanged
+2/6, saturation, fourth-wait installation, and exact wait re-observation. Three
+fresh actors run without retry. The valid saturation refresh is represented by
+its separate reconstruction receipt; original reporter failure remains
+preserved. Exact `ee66f4df...` is open at the fourth standing-feed wait.
+
+The next discriminating step returns to external novelty. Author another world
+package after this mechanism freeze, without subject state or target catalog,
+then require the standing scanner to wake exact `ee66f4df...` and the same
+content-free recurrence to select, learn, conditionally correct, saturate, and
+wait again. This tests whether the loop generalizes beyond the single package
+whose surfaces have now all been consumed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

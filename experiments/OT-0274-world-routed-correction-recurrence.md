@@ -1,6 +1,6 @@
 # OT-0274 — world-routed correction recurrence
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0273 subject `c94a481f...`
 - **Fresh actors:** at most four, no retries
@@ -60,3 +60,20 @@ its exact source checkpoint, recomputes identical successor bytes, requires that
 shared live check now accepts only the two frozen refresh successors:
 `expanded-select` or `expand-environment`. This repair is archive-verified and
 pushed before the remaining actor-free wait calls.
+
+## Result
+
+Promoted across seven identical content-free calls and three fresh actors. After
+actor-free refresh, one actor selects the sole remaining package surface and
+receives retained-package 2/6. The first corrector passes disclosed 4/4 but
+reaches only 5/6: it infers weight and floor boundaries while missing the token
+condition. The world receipt routes this result to another correction, retains
+the failed candidate, and discloses the lowest unseen mismatch.
+
+The next fresh actor uses that five-case position to add the token gate, passes
+5/5, and reaches retained-package 6/6 versus unchanged 2/6. No caller chooses
+the second encounter. Actor-free refresh then saturates the package; after the
+separately receipted reporter reconstruction, the driver installs and exactly
+re-observes a fourth standing-feed wait. Exact `ee66f4df...` remains open with
+all four wait receipts, three wake receipts, both failed correction hypotheses,
+and both later admitted successors.

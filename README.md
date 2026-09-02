@@ -756,6 +756,11 @@ The strongest footholds are:
   actor reaches 5/5 public plus sealed 6/6 against unchanged 2/6. Exact
   `c94a481f...` remains open at refresh with both the failure and its successful
   successor preserved.
+- `OT-0274`: seven content-free calls refresh, select the final independent
+  package surface, route a fresh 5/6 correction failure into another encounter,
+  admit the later 6/6 successor, saturate the package, and exactly re-observe a
+  fourth wait. Exact `ee66f4df...` remains open; the caller supplies no target,
+  phase, counterexample, or iteration count.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-fourth-standing-feed-wait",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1328198,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d67003ecee963edb4a8ddfb4e0cbd46d1058bce4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0274",
+  "input_manifests": [
+    "evidence/manifests/OT-0274/world-routed-correction-recurrence-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact subject is open at a fourth empty standing-feed wait; no later independent world has yet demonstrated another wake and recurrence cycle."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-fourth-standing-feed-wait",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a72b3df2be071e77800b30362de2f00ddf82b47a9161f41a44d7b4c41dd1f715"
+}

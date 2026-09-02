@@ -3484,3 +3484,16 @@ selection after refresh, not the already-frozen expansion successor. The exact
 refreshed subject is retained and recomputes byte-identically. Preserve the
 failed receipt; a separate reconstruction and prospective two-successor check
 are frozen before the remaining wait calls.
+
+OT-0274 promotes across seven null calls. The live path includes a real 5/6
+failure: the first corrector misses a token condition, objective consequence
+retains that hypothesis and issues one unseen mismatch, and the next actor
+reaches 5/5 disclosed plus 6/6 sealed versus unchanged 2/6. The caller never
+chooses the extra encounter. Actor-free saturation and exact fourth-wait
+re-observation leave open subject `ee66f4df...`.
+
+The immediate frontier is cross-world recurrence after this feedback mechanism
+exists. A new post-freeze world-side actor should author another package without
+subject state or a target catalog. The exact waiting subject must discover it
+through the standing scanner and traverse wake, selection, consequence-driven
+correction, saturation, and waiting without package-specific intervention.

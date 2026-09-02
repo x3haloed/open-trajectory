@@ -92,13 +92,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0273 successor `c94a481f...`. It
-preserves three completed standing-feed wait/wake cycles, the independently
-authored OT-0268 package, the rejected `decide_tide` correction and its 4/6
-world consequence, and one mechanically issued counterexample. A later fresh
-actor used that retained developmental position to reach 5/5 disclosed and 6/6
-sealed versus unchanged 2/6. Only the later correction is installed. The
-subject remains open at opportunity refresh.
+The current exact operational subject is OT-0274 successor `ee66f4df...`. It
+preserves four standing-feed waits and three completed wakes, the independently
+authored OT-0268 package, two rejected correction hypotheses with objective
+consequence, and both later admitted successors. The final package surface took
+a live consequence-routed second correction encounter before reaching 6/6.
+All package opportunities are saturated; the subject remains open at the fourth
+standing-feed wait.
 
 ## Prediction errors
 
@@ -427,3 +427,8 @@ subject remains open at opportunity refresh.
   undisclosed mismatch. Prospective zero-, one-, and two-feedback branches all
   saturate the package and exactly re-observe a fourth wait. Live actors receive
   no phase, target, counterexample, or iteration count.
+- OT-0274 promotes the one-feedback branch across seven null calls. A 4/4
+  corrector reaches only 5/6; the world retains it and issues one mismatch; a
+  fresh successor reaches 5/5 and 6/6. Actor-free recurrence then saturates and
+  exactly re-observes the fourth wait at `ee66f4df...`. Next require a newly
+  authored post-freeze world to wake and exercise this same loop again.
