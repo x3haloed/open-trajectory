@@ -3325,3 +3325,9 @@ world must change the cursor, discharge this exact wait, become a non-selecting
 offer, and then be consumed by content-free reopening into fresh actor-authored
 contact and independent contradiction. The outside system may supply new world
 contact and turn wakeups, but not the target or developmental phase.
+
+OT-0266 freezes the second wake as two calls to the same entry point. The first
+must turn a genuinely changed provider cursor into a non-authoritative offer with
+zero actors. The second must derive expansion, let one fresh actor choose among
+three executable surfaces without a hint, consume the offer into a new epoch,
+and retain independent contradiction with correction next.

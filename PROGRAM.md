@@ -2615,5 +2615,11 @@ same content-free reopening architecture must consume the new offer into a fresh
 epoch and reach independent contradiction without an outside target or phase
 choice. This is the next full-cycle recurrence boundary.
 
+OT-0266 freezes that boundary as two identical content-free calls. A provider
+extension introduces one new executable world; the first call may only observe,
+discharge, and offer it. The second may spend one actor to choose contact and
+receive sealed consequence. The provider supplies novelty, not selection or
+developmental phase.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
