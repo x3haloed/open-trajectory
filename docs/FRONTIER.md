@@ -3307,3 +3307,9 @@ one substrate-driven recurrence: registry-free selection, sealed contradiction,
 target-generic correction, zero-opportunity refresh, and empty-provider wait in
 derived order. A later provider extension must then discharge that new wait and
 resume music without experiment-specific target or phase choice.
+
+OT-0265 freezes that recurrence as five calls to the same content-free entry
+point. Exact checkpoint state must derive selection, correction, refresh,
+empty-provider wait installation, and wait re-observation in order. Only the
+first two operations may spend actors; the final observation must be an exact
+no-op over an open second durable wait.

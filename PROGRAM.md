@@ -2598,5 +2598,11 @@ zero-opportunity refresh must occur in substrate-derived order without external
 target or phase dispatch. Then require saturation to become a durable wait and
 test another later provider wake rather than treating empty input as completion.
 
+OT-0265 freezes the suffix behind one repeatable content-free `advance` entry
+point. Each process reloads the exact checkpoint and derives its operation from
+subject state; the caller may reopen the process but cannot choose selection,
+correction, refresh, expansion, wait, or target. Promotion requires the five-step
+suffix to end as an idempotently re-observed second durable wait.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
