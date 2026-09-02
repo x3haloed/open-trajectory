@@ -2763,5 +2763,12 @@ immediate-success, one-feedback, and two-feedback branches all pass, terminate
 within eight calls, saturate the package, and exactly re-observe a fourth wait.
 The live run receives no phase, target, counterexample, or iteration count.
 
+OT-0274's fifth live call reveals a reporter-only saturation error after the
+valid actor-free refresh is retained: the check requires selection next although
+the frozen graph correctly derives environment expansion. Exact recomputation
+matches retained `5de927e5...`; no actor ran. Preserve the failed receipt and
+freeze a separate reconstruction plus the prospective two-successor refresh
+check before continuing to waiting.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -3477,3 +3477,10 @@ and mechanically enlarges contact; invalid output stops. All three possible
 depths—zero, one, or two counterexamples—pass prospectively and converge on
 package saturation plus exact fourth-wait re-observation within eight calls.
 Live output remains sealed.
+
+Live OT-0274 correction takes the one-feedback branch and succeeds, but the
+following actor-free saturation refresh exposes a reporter bug: it accepts only
+selection after refresh, not the already-frozen expansion successor. The exact
+refreshed subject is retained and recomputes byte-identically. Preserve the
+failed receipt; a separate reconstruction and prospective two-successor check
+are frozen before the remaining wait calls.

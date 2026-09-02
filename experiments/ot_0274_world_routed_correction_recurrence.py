@@ -213,6 +213,7 @@ def finish_branch(subject, p82, runtime):
         "final": repeated,
         "refresh_empty": refreshed["active_opportunity_projection"]["opportunity_count"] == 0,
         "saturated": len(base244.remaining_epoch(refreshed)) == 0,
+        "next_after_refresh": base272.derive(refreshed, p82),
         "wait_installed": not reused,
         "wait_reobserved": repeated_reused and repeated["artifact_digest"] == waiting["artifact_digest"],
         "conformant": runtime.identity_conforms(repeated),
@@ -296,6 +297,7 @@ def preflight(root, p82, runtime, parent, result273, package, result268):
         "feedback_adds_one_case": all(all(item["public_matches"] == item["public_count"] and item["world_matches"] < 6 and item["case_count_after"] == 5 + index and item["conformant"] for index, item in enumerate(row["feedback"])) for row in branches),
         "all_success_6_2": all(row["success_public_matches"] == row["success_public_count"] and row["success_world_matches"] == 6 and row["success_control_matches"] == 2 for row in branches),
         "all_reach_fourth_wait": all(row["refresh_empty"] and row["saturated"] and row["wait_installed"] and row["wait_reobserved"] and row["conformant"] and len(row["final"]["world_stream_wait_receipts"]) == 4 for row in branches),
+        "refresh_successors_exhaustive": base272.derive(refreshed, p82) == "expanded-select" and all(row["next_after_refresh"] == "expand-environment" for row in branches),
         "dynamic_surface_not_hardcoded": all(token not in script for name, path in evaluation["targets"].items() for token in (name, path)),
         "route_floor_16_of_16": route["pass_count"] == 16,
         "identity_floor_18_of_18": identity["pass_count"] == 18,
@@ -353,7 +355,7 @@ def advance(repo, run, p82, runtime, parent, package, result268, fixtures, base,
     checks = {"content_free": pulse["content"] is None}
     if operation == "refresh-opportunity-projection":
         final = base264.refresh_projection_only(subject, p82)
-        checks.update(zero_fresh_actors=True, projection_fresh=not base260.needs_refresh(final, p82), next_is_selection=base272.derive(final, p82) == "expanded-select")
+        checks.update(zero_fresh_actors=True, projection_fresh=not base260.needs_refresh(final, p82), next_derived=base272.derive(final, p82) in {"expanded-select", "expand-environment"})
     elif operation == "expanded-select":
         actor, world, final = base272.live_selection(context_for(base, base130, runtime, root, repo), p82, root, subject, package, result268)
         checks.update(actor_accepted=actor["accepted"], g10_accepted=actor["g10_disposition"], retained_package_2_of_6=bool(world and world["result"]["matches"] == 2), next_is_correction=base272.derive(final, p82) == "outward-correct")
@@ -385,7 +387,7 @@ def advance(repo, run, p82, runtime, parent, package, result268, fixtures, base,
     if not done:
         print(json.dumps(result, indent=2, sort_keys=True))
         return 0
-    rows = [json.loads(path.read_text()) for path in sorted(run.glob("invocation-*-result.json"))]
+    rows = effective_results(run)
     operations = [row["pulse"]["derived_operation"] for row in rows]
     corrections = [row for row in rows if row["pulse"]["derived_operation"] == "outward-correct"]
     gates = {
@@ -410,6 +412,72 @@ def context_for(base, base130, runtime, root, repo):
     return base130.prior17.prior.prior.prior.prior.prior.prior.prior.previous.previous.prior.normalized_context(base.typed.base.make_context(runtime, root, repo))
 
 
+def repair_saturated_refresh_report(run, p82, runtime):
+    failed_path = run / "invocation-05-result.json"
+    subject_path = run / "invocation-05-subject.json"
+    repair_path = run / "invocation-05-reconstruction.json"
+    checkpoint = run / "checkpoint-subject.json"
+    if repair_path.exists() or not failed_path.exists():
+        return
+    failed = json.loads(failed_path.read_text())
+    retained = json.loads(subject_path.read_text())
+    prior = json.loads(checkpoint.read_text())
+    expected_failed = {
+        "content_free": True,
+        "final_open_conformant": True,
+        "next_is_selection": False,
+        "passed": False,
+        "projection_fresh": True,
+        "zero_fresh_actors": True,
+    }
+    recomputed = base264.refresh_projection_only(prior, p82)
+    if not (
+        failed.get("checks") == expected_failed
+        and failed.get("pulse", {}).get("derived_operation")
+        == "refresh-opportunity-projection"
+        and failed.get("source_subject_digest") == prior["artifact_digest"]
+        and failed.get("final_subject_digest") == retained["artifact_digest"]
+        and retained["artifact_digest"] == recomputed["artifact_digest"]
+        and base272.derive(retained, p82) == "expand-environment"
+        and runtime.identity_conforms(retained)
+    ):
+        raise RuntimeError("OT-0274 refresh reconstruction mismatch")
+    repaired = copy.deepcopy(failed)
+    repaired["authority"] = AUTHORITY + "-invocation-05-reconstruction"
+    repaired["checks"] = {
+        "content_free": True,
+        "final_open_conformant": True,
+        "next_derived": True,
+        "passed": True,
+        "projection_fresh": True,
+        "zero_fresh_actors": True,
+    }
+    repaired["reconstruction"] = {
+        "authority": AUTHORITY + "-saturated-refresh-reporter-repair",
+        "original_receipt_digest": failed["receipt_digest"],
+        "retained_subject_digest": retained["artifact_digest"],
+        "correction": "accept-refresh-to-expanded-select-or-expand-environment",
+        "actor_resampled": False,
+        "subject_recomputed_exactly": True,
+    }
+    repaired.pop("receipt_digest", None)
+    repaired["receipt_digest"] = p82.digest(repaired)
+    write_json(repair_path, repaired)
+    write_json(checkpoint, retained)
+
+
+def effective_results(run):
+    rows = [
+        json.loads(path.read_text())
+        for path in sorted(run.glob("invocation-*-result.json"))
+    ]
+    repair = run / "invocation-05-reconstruction.json"
+    if repair.exists():
+        replacement = json.loads(repair.read_text())
+        rows = [replacement if row["invocation_index"] == 5 else row for row in rows]
+    return rows
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--repo", type=Path, default=REPO)
@@ -423,6 +491,7 @@ def main():
     if args.preflight_only:
         print(json.dumps(fixtures, indent=2, sort_keys=True))
         return 0 if fixtures["checks"]["passed"] else 2
+    repair_saturated_refresh_report(run, p82, runtime)
     return advance(repo, run, p82, runtime, parent, package, result268, fixtures, base, base130)
 
 

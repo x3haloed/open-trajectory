@@ -45,3 +45,18 @@ and an open conformant final subject.
 This closes the current independently authored package epoch. A later new world
 arrival and wake, repeated correction failures in another semantic family, and
 open-ended self-directed world acquisition remain separate claims.
+
+## Post-actor apparatus correction
+
+After both correction actors completed, invocation five performed the exact
+actor-free saturation refresh and wrote conformant successor `5de927e5...`, but
+its reporter required every refresh to lead to selection. The frozen transition
+graph correctly permits a saturated refresh to lead to environment expansion.
+No actor was authorized or resampled in this invocation.
+
+The original failed report is preserved. A prospective reconstruction validates
+its exact source checkpoint, recomputes identical successor bytes, requires that
+`expand-environment` is derived, and emits a separate repaired receipt. The
+shared live check now accepts only the two frozen refresh successors:
+`expanded-select` or `expand-environment`. This repair is archive-verified and
+pushed before the remaining actor-free wait calls.
