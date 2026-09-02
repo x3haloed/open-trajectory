@@ -3270,5 +3270,15 @@ contradiction; admit only on prospective 6/6 versus unchanged 2/6, then let the
 subject's state determine whether correction, refresh, or stake assimilation is
 live next.
 
+OT-0307 freezes one repeated entry across that complete correction transition.
+The active receipt now routes whether a fresh successor sees a failed candidate
+or a truthful surrender, rather than inheriting whichever historical seed patch
+was imported last. All seven zero-, one-, and two-consequence histories reach
+prospective 6/6 against unchanged 2/6, then a separate actor-free refresh exposes
+two opportunities and derives selection. Surrender remains non-success,
+exhaustion fails closed, six authority controls reject, protected priority and
+provider state remains exact, and route 16/16 plus identity 18/18 pass. Live
+output remains sealed until this freeze is pushed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

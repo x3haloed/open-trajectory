@@ -113,12 +113,14 @@ that the stake caused world or target choice.
   simply too collision-prone to estimate it. Evidence: OT-0305 aggregate
   `2941a2e3...`.
 
-The immediate experiment must follow the exact subject rather than retry the
-failed comparison: correct the retained `sound_depth` contradiction through the
-generic target-scoped disclosure machinery. Preserve the stake, same-world
-control receipt, all four provider worlds, and E11's negative verdict. Admit a
-revision only on prospective 6/6 against unchanged 2/6, and let the resulting
-subject state—not an experiment-specific itinerary—derive whether correction,
-opportunity refresh, or stake assimilation comes next. Only after the contact
-is developmentally interpretable should a later experiment test the stake
-across additional catalogs or a less collision-prone matched baseline.
+OT-0307 is frozen against the exact current subject. Up to four identical
+content-free openings must let the subject derive correction, route either a
+failed candidate or truthful surrender into the correct fresh successor
+projection, admit only prospective 6/6 against unchanged 2/6, and then derive a
+separate actor-free refresh exposing two remaining opportunities. The observer
+may stop at the budget or reject invalidity, but may not choose the target,
+correction history, or phase transition. All seven reachable consequence
+histories pass preflight; repeated surrender after disclosure exhaustion fails
+closed. Only after the live contact is developmentally interpretable should a
+later experiment test the stake across additional catalogs or a less collision-
+prone matched baseline.
