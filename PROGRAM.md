@@ -2480,5 +2480,10 @@ Next extend the provider with one genuinely unseen world and resume this exact
 subject. The new cursor must satisfy and discharge the retained wait condition
 before environment expansion can authorize any fresh actor.
 
+OT-0257 freezes actor-free wake-up. One new coordination world extends the
+provider catalog; only its changed cursor and unseen identity may discharge the
+OT-0256 wait and create one durable, non-selecting world offer. No actor or epoch
+is authorized yet.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

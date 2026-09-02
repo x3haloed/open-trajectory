@@ -3167,3 +3167,9 @@ The immediate frontier is causal resumption. A later provider catalog must make
 one genuinely unseen world available to this exact waiting subject. The wait
 handle must be discharged by its named condition, environment expansion must
 resume, and the old empty cursor must not itself authorize a world or actor.
+
+OT-0257 freezes the wake-up transition without an actor. The provider adds one
+inspectable coordination world; its changed cursor must satisfy the retained
+`unseen-world-available` condition, discharge the exact wait, and retain one
+non-selecting world offer. A seen-world control must remain empty, and repeated
+offer observation must be idempotent. Resumed actor contact remains separate.
