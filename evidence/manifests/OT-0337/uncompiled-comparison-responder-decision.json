@@ -1,0 +1,31 @@
+{
+  "artifact_id": "uncompiled-comparison-responder-decision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 441,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f7ca0797f7b06ea34ba06c09688ff50d7d173a70",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0337",
+  "input_manifests": [],
+  "kind": "retained-actor-output",
+  "limitations": [
+    "Exact actor-authored extension decision retained after the observer's post-output certificate-routing crash."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:uncompiled-comparison-responder-decision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "df718d8363fadfca007432e9a40871e6beddd981fb3a26104446cc47eb9bee93"
+}

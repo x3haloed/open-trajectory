@@ -1,6 +1,6 @@
 # OT-0337 — Nondiscriminating consequence expansion
 
-- **Status:** frozen, unexecuted
+- **Status:** invalid — observer crashed after actor output
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0336 child `e46bb091...`
 - **Fresh actors:** one consequence-bearing comparison responder
@@ -43,3 +43,16 @@ successor. Retention without a new pursuit is negative evidence. This
 experiment does not claim that the third world will resolve the comparison or
 that the existing world-level contact signature is a complete measure of
 fitness.
+
+## Invalid execution
+
+The actor completed with a clean one-file effect audit and chose
+`extend-comparative-consequence` for only `morrowmere-lantern-01`, explicitly
+stating that the tie did not license stake revision. The frozen observer then
+called the unchanged G11 certificate helper at the wrong imported-module depth
+and raised `AttributeError` before compiling a disposition or successor.
+
+Because the candidate output was already visible, OT-0337 will not be edited or
+rerun. OT-0338 prospectively freezes exact-output reconstruction, the correct
+unchanged G11 helper path, counterfeit controls, and zero actor resampling. The
+OT-0337 output has no standing unless that reconstruction passes.

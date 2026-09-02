@@ -1,0 +1,31 @@
+{
+  "artifact_id": "bound-comparative-world-consequences",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2438,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f7ca0797f7b06ea34ba06c09688ff50d7d173a70",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0337",
+  "input_manifests": [],
+  "kind": "world-consequence-receipts",
+  "limitations": [
+    "Two request-bound authoritative world-level contact projections; both signatures are two eligible unresolved 2-of-6 surfaces."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:bound-comparative-world-consequences",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1aed22470a41e3d087d1fe953ecbd3cd8b40f803bac5c698c69072d8405e7cec"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "nondiscriminating-consequence-expansion-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3606,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f7ca0797f7b06ea34ba06c09688ff50d7d173a70",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0337",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Frozen request ancestry, matched world-consequence, tie, revision, extension, and sealed-world blindness fixtures passed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:nondiscriminating-consequence-expansion-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "738c43963b4eee1f42ae6d4760b6af18c3f3d0638f423795d2df68ddb70fbad8"
+}

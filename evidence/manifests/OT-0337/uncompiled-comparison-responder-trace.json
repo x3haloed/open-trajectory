@@ -1,0 +1,31 @@
+{
+  "artifact_id": "uncompiled-comparison-responder-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 30452,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f7ca0797f7b06ea34ba06c09688ff50d7d173a70",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0337",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh actor completed cleanly, but the frozen observer crashed afterward on an incorrect G11 module path; output requires prospective reconstruction."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:uncompiled-comparison-responder-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8bf2076921b6f7ef35c858158efedb5b6185fc36f7b577e1202fca040747542d"
+}
