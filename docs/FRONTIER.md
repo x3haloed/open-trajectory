@@ -3722,3 +3722,13 @@ rejection-scar transition to the provider role and run its fresh workspace from
 a standalone evidence root outside the repository tree. Success requires a new
 independently valid package and exact waiting subject; it is recovery after
 invalidity, not a rescore of OT-0289.
+
+OT-0290 freezes that exact test. Its role-neutral invalidity predicate accepts
+the two retained actor-role instances and rejects accepted, clean-G10,
+world-bearing, feedback-bearing, subject-changing, and denial-free controls.
+The scar carries only operation, invocation, and audit identity; it excludes
+the rejected package and preserves the standing operational state exactly.
+Fixture recovery clears the active reopening without consuming the package and
+keeps it available only through the scanner. The live frontier is therefore
+one fresh provider in a standalone root outside `$REPO`, with no retry and no
+change to G10.

@@ -1,0 +1,35 @@
+{
+  "artifact_id": "role-neutral-invalidity-recovery-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1087,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3666da53a775a5bb9f7dc2dca07c4324aa080a8f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0290",
+  "input_manifests": [
+    "evidence/manifests/OT-0289/rejected-post-invalidity-renewal-invocation.json",
+    "evidence/manifests/OT-0289/open-subject-at-seventh-wait.json",
+    "evidence/manifests/OT-0285/rejected-tideglass-correction-invocation.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; external live workspace behavior and provider recovery are not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:role-neutral-invalidity-recovery-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "df210bfebcfefb1a3a14a164cfb091c5b9a36d5d76c08de26e7a57dda02db9c0"
+}

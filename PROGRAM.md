@@ -3014,5 +3014,15 @@ role-neutral invalidity scar at provider wait and run the fresh provider in a
 standalone evidence/workspace root outside the repository, without weakening
 G10 or carrying Bellwether content.
 
+OT-0290 freezes that cross-role recovery edge. Its fixture admits both the
+exact correction-role and provider-role invalid encounters while six
+counterfactual non-invalid variants fail. The scar excludes package and actor
+content, preserves the waiting subject's operational projection exactly, and
+re-derives the rejected provider operation. Fixture recovery clears only the
+active reopening and retains scanner availability with route 16/16 and
+identity 18/18. Live output remains sealed until this freeze is pushed; the
+single fresh provider must run from a standalone evidence root outside the
+repository with G10 unchanged.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
