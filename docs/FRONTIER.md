@@ -3469,3 +3469,11 @@ either succeed or accumulate another receipted counterexample based solely on
 world consequence. The researcher must not decide whether another correction
 encounter is needed. Saturation and a fourth wait become meaningful only after
 that conditional path works.
+
+OT-0274 freezes this recurrence as a bounded transition graph rather than one
+expected itinerary. The same null entry point derives every phase. Correction
+success routes to refresh; unresolved consequence retains the failed hypothesis
+and mechanically enlarges contact; invalid output stops. All three possible
+depths—zero, one, or two counterexamples—pass prospectively and converge on
+package saturation plus exact fourth-wait re-observation within eight calls.
+Live output remains sealed.

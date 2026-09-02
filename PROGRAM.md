@@ -2754,5 +2754,14 @@ handle either immediate success or further receipted counterexamples without
 an experiment-specific phase choice. Only after that may the lineage claim
 package saturation and reinstall a fourth durable wait.
 
+OT-0274 freezes that conditional policy inside one content-free driver. From
+exact `c94a481f...`, state derives refresh, selection, correction, saturation,
+and waiting. Each correction world receipt chooses the branch: 6/6 admits and
+refreshes; unresolved consequence retains the candidate and adds the lowest
+undisclosed mismatch before another fresh correction actor. Prospective
+immediate-success, one-feedback, and two-feedback branches all pass, terminate
+within eight calls, saturate the package, and exactly re-observe a fourth wait.
+The live run receives no phase, target, counterexample, or iteration count.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

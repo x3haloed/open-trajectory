@@ -422,3 +422,8 @@ subject remains open at opportunity refresh.
   fresh actor improves from it and passes 5/5, 6/6, and unchanged 2/6. Exact
   `c94a481f...` is open at refresh. Next make this conditional feedback policy
   recur inside the content-free driver over the final package surface.
+- OT-0274 freezes that unified recurrence. Its transition graph admits success
+  only at 6/6, otherwise retains the failed candidate and adds one canonical
+  undisclosed mismatch. Prospective zero-, one-, and two-feedback branches all
+  saturate the package and exactly re-observe a fourth wait. Live actors receive
+  no phase, target, counterexample, or iteration count.
