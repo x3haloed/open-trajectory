@@ -1,0 +1,36 @@
+{
+  "artifact_id": "priority-selected-vs-blind-downstream-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 47989,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8d3d109a245e6bbcae370c911624dae91432a338",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0312",
+  "input_manifests": [
+    "evidence/manifests/OT-0312/priority-selected-vs-blind-downstream-preflight.json",
+    "evidence/manifests/OT-0311/remaining-catalog-priority-wake-aggregate.json",
+    "evidence/manifests/OT-0311/open-subject-after-remaining-catalog-priority-wake.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One paired single-draw comparison; both branches reached the coarse hard endpoint, rejecting downstream superiority but not the prior selection effect."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:priority-selected-vs-blind-downstream-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0030c892927ce198a993babb2f906e542683fbf215e06c15680473c2d05ec7a5"
+}

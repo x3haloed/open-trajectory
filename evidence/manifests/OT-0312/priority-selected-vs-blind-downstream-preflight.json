@@ -1,0 +1,35 @@
+{
+  "artifact_id": "priority-selected-vs-blind-downstream-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2761,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8d3d109a245e6bbcae370c911624dae91432a338",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0312",
+  "input_manifests": [
+    "evidence/manifests/OT-0311/open-subject-after-remaining-catalog-priority-wake.json",
+    "evidence/manifests/OT-0311/remaining-catalog-priority-wake-aggregate.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Prospective deterministic fixtures and invalid-authority controls; not live actor evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:priority-selected-vs-blind-downstream-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "90833f012c48ee527f020791a6f980e905267c7c355e6a1b38c725c7f1185232"
+}

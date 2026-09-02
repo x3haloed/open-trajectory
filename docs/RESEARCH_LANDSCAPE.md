@@ -61,6 +61,17 @@ stop. The decisive extension of OT-0079 is independent generation across fresh
 lineages, structural variation, and correction after the learned operation
 becomes harmful.
 
+### Selection effects need discriminating consequence horizons
+
+A subject-conditioned selector can change a choice without improving the
+trajectory. OT-0312 paired the priority-selected world with the same-catalog
+digest-blind sibling and both reached the same complete correction-and-reopening
+endpoint. Do not treat changed choice, larger score margin, or successful
+continuation as selection improvement by itself. Select worlds and horizons
+where the active stake predicts a consequential difference, freeze that
+prediction, and score matched downstream paths. A uniformly solvable endpoint
+is useful operational evidence but a null test of relative fitness.
+
 ### Preserved alternatives before commitment
 
 Premature compression may erase the evidence needed to reverse a plausible

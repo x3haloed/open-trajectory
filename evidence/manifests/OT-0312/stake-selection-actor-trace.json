@@ -1,0 +1,33 @@
+{
+  "artifact_id": "stake-selection-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 53936,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8d3d109a245e6bbcae370c911624dae91432a338",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0312",
+  "input_manifests": [
+    "evidence/manifests/OT-0312/priority-selected-vs-blind-downstream-aggregate.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Raw local broad-tool trace; model identity and hosted deployment are not independently reproduced."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:stake-selection-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b1a2d8baf4761d22a5e356e35f8d021536466f2422eafd6be31b92a57d153149"
+}
