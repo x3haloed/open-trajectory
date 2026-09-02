@@ -1,0 +1,35 @@
+{
+  "artifact_id": "consequence-bearing-surrender-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1433,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "45963f4f02a969067c92474934b33bd0cc38baea",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0301",
+  "input_manifests": [
+    "evidence/manifests/OT-0301/consequence-bearing-surrender-preflight.json",
+    "evidence/manifests/OT-0300/accepted-final-surface-surrender-binding.json",
+    "evidence/manifests/OT-0300/retained-final-surface-pre-correction-subject.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One zero-actor surrender assimilation; live recovery by a fresh corrector is not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-bearing-surrender-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d9e279b55b633eb13511a4fb1ff5348dc9fb8ae8249d7b85788a5fe703cbc01c"
+}

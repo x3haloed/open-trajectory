@@ -3188,5 +3188,12 @@ unchanged 2/6 policy. Six counterfactuals fail. Exactly two surfaces remain
 earned, correction stays open, and both prospective recovery depths reach 6/6.
 Route 16/16 and identity 18/18 remain exact. Live output stays sealed until push.
 
+OT-0301 promotes in one content-free zero-actor opening. The exact surrender and
+sealed unresolved world become a non-success receipt; no candidate source or
+earned authority enters. One canonical counterexample expands the final target
+to five disclosed cases, and exact open subject `e2ee0449...` derives correction
+with two surfaces still earned. Aggregate receipt `d8354e26...`. The immediate
+frontier is one fresh recovery corrector from this inherited consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-surrender-feedback",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1563804,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "45963f4f02a969067c92474934b33bd0cc38baea",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0301",
+  "input_manifests": [
+    "evidence/manifests/OT-0301/consequence-bearing-surrender-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject after surrender feedback with correction still unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-surrender-feedback",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "81b33f5ecb091d0a9558e3c88237a01e4eaa5431b06524bcddfb5275fefedd99"
+}

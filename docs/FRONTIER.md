@@ -3914,3 +3914,11 @@ but no source, success, or earned authority. Six counterfactuals fail; exactly
 two surfaces remain earned; correction stays open; and both remaining recovery
 depths prospectively reach 6/6. After freeze and push, assimilate the surrender
 with one zero-actor content-free opening. Do not retry the surrendered actor.
+
+OT-0301 passes that transition. One zero-actor empty opening binds the exact
+surrender and sealed unresolved world, admits no source or success authority,
+and adds one canonical counterexample. Exact subject `e2ee0449...` remains open
+at correction with two earned surfaces. Surrender has therefore become
+developmental evidence rather than closure. Next give one fresh corrector this
+five-case state; success must reach 6/6 and three earned surfaces, while another
+valid unresolved result must remain consequence-bearing rather than a retry.

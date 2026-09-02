@@ -1,6 +1,6 @@
 # OT-0301 — Consequence-bearing surrender
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0300 selected final-surface subject `78f2c0e1...`
 - **Encounter:** exact accepted OT-0300 surrender binding and clean audit
@@ -43,3 +43,14 @@ or earned authority; adds exactly one canonical unchanged-policy mismatch;
 preserves two earned surfaces; and derives correction. Both remaining
 zero- and one-feedback recovery paths reach 6/6 against 2/6 with route 16/16 and
 identity 18/18. Preflight receipt `19ad91fd...`.
+
+## Bounded result
+
+One content-free zero-actor opening passes. Exact surrender and sealed world are
+bound; no candidate, success, or earned authority enters; one canonical
+counterexample expands disclosure to five cases; and exact open subject
+`e2ee0449...` derives correction with two earned surfaces unchanged. Aggregate
+receipt `d8354e26...`.
+
+This resolves the missing surrender transition. Fresh-actor recovery and final
+cycle completion remain unobserved.
