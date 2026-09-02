@@ -3526,3 +3526,9 @@ passes public execution and G10, and receives retained-package 2/6. Exact
 `bbebeb53...` is open at correction. The immediate frontier is complete
 cross-world recurrence: conditional correction, the two remaining surfaces,
 saturation, and another durable wait under the existing mechanism.
+
+OT-0278 freezes that whole suffix. Fifty-four prospective branches cover both
+remaining Asterfall orders and every permitted correction-feedback depth. All
+converge on package saturation and exact fifth-wait re-observation. The live
+caller supplies only repeated null pulses; world receipts choose every
+correction continuation.

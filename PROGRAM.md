@@ -2818,5 +2818,12 @@ Exact `bbebeb53...` remains open at correction before refresh. Next reuse the
 world-routed correction policy and content-free recurrence across this whole
 second independently authored package.
 
+OT-0278 freezes that complete recurrence as a bounded transition graph. Both
+remaining-surface orders and all zero-, one-, or two-feedback depths for each of
+three corrections produce 54 passing full branches. Identical null calls must
+let objective consequence choose correction depth, saturate Asterfall, install a
+fifth wait, and exactly re-observe it within sixteen calls. Live output remains
+sealed until this graph is pushed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

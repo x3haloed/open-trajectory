@@ -450,3 +450,6 @@ standing-feed wait.
   preserves the fourth wake and enters a second actor-authored package epoch at
   correction. Next exercise the conditional correction mechanism through the
   remaining Asterfall surfaces and another wait.
+- OT-0278 freezes that complete suffix across 54 full prospective branches:
+  both remaining-surface orders and every zero-, one-, or two-feedback depth.
+  Every branch reaches Asterfall saturation and exact fifth-wait re-observation.
