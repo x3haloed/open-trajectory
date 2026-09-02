@@ -3115,3 +3115,16 @@ or path and states every authority exclusion. Promotion requires actor-authored
 executable contact for the sole projected pair, G10, public validity, independent
 2/6 contradiction, exact history preservation, and an open `correct` successor.
 No retry is allowed; one pair does not support a model-wide generative claim.
+
+OT-0254 promotes with one fresh actor and no retry. At the matched operational
+position where OT-0252's actor changed nothing and asserted no opportunity, the
+projected actor verifies the sole pair against source and ledger, authors four
+executable generator cases, changes exactly the selection file, passes G10, and
+receives independent 2/6 contradiction. Exact successor `340a7fb5...` preserves
+the lineage and every false authority flag and is open at `correct`.
+
+This is bounded evidence that the artifact improved move selection. It does not
+yet establish recurrence or a model-wide effect. The immediate frontier is to
+reuse descriptor-complete correction on this actor-selected final surface, then
+reach exact epoch saturation. Only after saturation should empty-stream waiting
+and later resumption be tested.

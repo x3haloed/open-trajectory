@@ -2439,5 +2439,15 @@ same role. Promotion still requires the actor to author contact, pass G10 and
 public execution, receive sealed 2/6, preserve the lineage, and return open at
 correction. No retry or broad generative claim is permitted.
 
+OT-0254 promotes with one actor and no retry. Relative to OT-0252's exact
+retained non-move, the projected actor verifies the state-derived pair, authors
+executable contact, changes exactly one file, passes G10, and receives sealed
+2/6. Exact `340a7fb5...` remains open at correction with projection authority
+still false.
+
+Next correct this final actor-selected surface under the descriptor-complete
+G9/G10 interface. Promotion requires public 4/4 and sealed 6/6 versus unchanged
+2/6, after which the second epoch must be exactly saturated.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

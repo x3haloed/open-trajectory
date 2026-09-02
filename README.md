@@ -673,6 +673,10 @@ The strongest footholds are:
   actor-visible projection with no selection or world authority. Ten source and
   ledger fixtures pass; exact open successor `0c3b42bb...` carries one active
   opportunity without changing operational pursuit.
+- `OT-0254`: from the matched position where OT-0252's actor made no move, one
+  fresh actor receiving the compact projection authors the sole eligible
+  generator contact, passes G10, and receives sealed 2/6. Exact successor
+  `340a7fb5...` remains open at correction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

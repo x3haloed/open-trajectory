@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-projected-opportunity-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1069273,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "947c7bd92eaafbc8682b653453b848850e0c3d6d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0254",
+  "input_manifests": [
+    "OT-0254/projected-opportunity-selection-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The final resilience surface is actor-selected and contradicted at 2/6; correction, saturation, empty-stream waiting, and resumption remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-projected-opportunity-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a20151bf7c1311797da264f42f2fb627d91614bb9db23dce65fcee283584a0b3"
+}

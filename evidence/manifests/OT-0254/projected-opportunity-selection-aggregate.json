@@ -1,0 +1,31 @@
+{
+  "artifact_id": "projected-opportunity-selection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16882,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "947c7bd92eaafbc8682b653453b848850e0c3d6d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0254",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One matched retained non-move and one fresh projected actor support a bounded artifact-conditioned selection observation; model-wide generative improvement and recurrence are not claimed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:projected-opportunity-selection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3ca929b847e7c8c820c665cef9ec6795a59f7cd5cb5841d31d14744a6bf65211"
+}

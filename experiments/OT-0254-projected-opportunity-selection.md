@@ -1,6 +1,6 @@
 # OT-0254 — projected opportunity selection
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0253 subject `0c3b42bb...`
 - **Fresh actors:** one, no retry
@@ -31,3 +31,15 @@ is permitted.
 One retained baseline actor and one projected actor do not establish a
 model-wide generative effect. They establish a bounded matched-position causal
 observation; recurrence across later opportunities remains required.
+
+## Result
+
+Promoted with one fresh actor and no retry. Against the exact retained OT-0252
+baseline non-move, the projected actor verifies the sole pair against source and
+ledger, authors four executable generator cases, changes exactly the selection
+file, passes G10, and receives independent 2/6 contradiction.
+
+Exact successor `340a7fb5...` preserves every prior epoch and keeps every
+projection authority flag false. It is open at `correct` for the actor-selected
+final resilience surface. This is a bounded artifact-conditioned improvement in
+move selection, not yet a broad generative claim.
