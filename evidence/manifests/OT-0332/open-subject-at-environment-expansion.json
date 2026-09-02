@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-at-environment-expansion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1958498,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e8649de04b8a1121fa3bf58ce89207bbcd6af019",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0332",
+  "input_manifests": [],
+  "kind": "open-subject",
+  "limitations": [
+    "Exact open subject with saturated local epoch and derived expand-environment operation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-environment-expansion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f7d35f0b3e6ee436aa4f91c9c627112df999b5ca2cd08f50dc16ee95e65e2601"
+}

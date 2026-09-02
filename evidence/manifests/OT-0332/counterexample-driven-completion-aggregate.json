@@ -1,0 +1,31 @@
+{
+  "artifact_id": "counterexample-driven-completion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2566,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e8649de04b8a1121fa3bf58ce89207bbcd6af019",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0332",
+  "input_manifests": [],
+  "kind": "promoted-aggregate",
+  "limitations": [
+    "Bounded to one synthetic world family and stops before executing environment expansion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:counterexample-driven-completion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f4dce41861b48c00311ce41831c42b174eb6d2c3db25e1a70365b60f3ed4d818"
+}

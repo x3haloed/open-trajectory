@@ -1,0 +1,31 @@
+{
+  "artifact_id": "counterexample-driven-completion-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1619,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e8649de04b8a1121fa3bf58ce89207bbcd6af019",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0332",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic ancestry, evaluator, state, and budget gates before actor authorization."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:counterexample-driven-completion-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f228e05c529944138712367caa35c3c90d5902a4d33f4edc27310d4c4e2563cd"
+}

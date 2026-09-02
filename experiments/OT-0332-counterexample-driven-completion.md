@@ -1,6 +1,6 @@
 # OT-0332 — Counterexample-driven completion
 
-- **Status:** frozen — unexecuted
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0331 open child `c0667653...`
 - **Fresh actors:** one to three, only while state derives correction
@@ -45,3 +45,24 @@ state carries the unresolved stake and teaches fresh successors until world
 contact grants success. It would still stop before executing environmental
 expansion and would not remove the outside researcher from evaluator or handler
 construction.
+
+## Result
+
+OT-0332 passed in four content-free operations with two fresh correctors. The
+first inherited the five-case disclosure and improved the candidate from 4/6
+to 5/6; independent world contact retained a sixth counterexample requiring
+east-district admission at water 0. The next fresh actor inherited all six
+cases, passed G11, and reached exact 6/6 while unchanged remained 2/6. No actor
+received the hidden reference or prior rejected candidate as operative source.
+
+State then derived projection refresh and actor-facing coherence repair without
+fresh actors. Exact child `38e9b5dd...` has zero remaining opportunities,
+remains conformant and open, and derives `expand-environment`. Aggregate
+`03dbf563...` promotes the bounded path. G11's exceptional recovery branch was
+not needed by either actor.
+
+Together with OT-0329 and OT-0331, this establishes one uninterrupted
+developmental correction across three separately ending experiment runs: the
+subject retained contradiction and counterexamples across boundaries until
+objective contact granted success. It does not establish autonomous selection
+or implementation of the next environment expansion.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "second-ration-corrector-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 61418,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e8649de04b8a1121fa3bf58ce89207bbcd6af019",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0332",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh broad-tool actor trace for final 6-of-6 correction."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:second-ration-corrector-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9bb93f2b19e508258dc5a83efd5db252b047dc0035b1cc02bef8ed8f29392010"
+}
