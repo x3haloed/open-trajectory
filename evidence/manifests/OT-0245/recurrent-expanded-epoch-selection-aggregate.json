@@ -1,0 +1,31 @@
+{
+  "artifact_id": "recurrent-expanded-epoch-selection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15221,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2c6b94ec2b28cdcb6f19275e6776d843ec5ab0d7",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0245",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh actor selected one second surface from one retained synthetic expanded epoch; generative reproducibility and autonomous evaluator construction are not claimed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:recurrent-expanded-epoch-selection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c35b61affb03bcf2df4320b6462f28cd0228fc9551fe6bdc35bd10fee6581e5b"
+}

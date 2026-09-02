@@ -90,13 +90,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0244 successor `7218ea6a...`,
+The current exact operational subject is OT-0245 successor `5d572904...`,
 identified by
-`evidence/manifests/OT-0244/open-subject-at-expanded-selection.json`.
+`evidence/manifests/OT-0245/open-subject-at-recurrent-expanded-contradiction.json`.
 It preserves the saturated three-surface outward world and all corrections,
 retains the actor-selected communications epoch with its selected contact
-corrected and world-verified, and is open at `assimilate` with the next null
-pulse routed to `expanded-select`.
+corrected and world-verified, and is open at `correct` after actor-selected
+supplies contact receives independent 2/6 contradiction.
 
 ## Prediction errors
 
@@ -247,7 +247,11 @@ pulse routed to `expanded-select`.
   opportunity resolver scores 11/11, preserves all nine prior cases, identifies
   the three unledgered epoch surfaces, and installs `expanded-select` in exact
   `7218ea6a...` without changing operational state.
+- OT-0245 exercises that route live. A null pulse lets one fresh actor select
+  `choose_cold_chain_shipments` from the already retained epoch; G10 accepts and
+  sealed consequence returns 2/6. Exact `5d572904...` is open at `correct` with
+  all prior and epoch sources preserved.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is live actor selection of a second
-  surface from the retained expanded epoch under a null pulse, without an
-  observer-selected target or task.
+  external. The next discriminating step is repeated expanded-world correction
+  on the actor-selected supplies module, then content-free return to the two
+  remaining retained opportunities.

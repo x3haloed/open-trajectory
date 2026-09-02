@@ -2897,3 +2897,14 @@ preflighted at visible execution and sealed 2/6. Promotion requires selection of
 one eligible surface, G10 acceptance, independent contradiction, exact
 preservation of every prior extension and epoch source, and an open `correct`
 successor. The completed communications target is mechanically ineligible.
+
+OT-0245 passes the live route. The null pulse derives `expanded-select`; the sole
+fresh actor chooses `landscape/supplies.py::choose_cold_chain_shipments`, authors
+four executable cases, and passes G10 with one changed decision file. Independent
+consequence is 2/6. Exact successor `5d572904...` preserves all prior extensions
+and every epoch source and remains open at `correct`.
+
+This is recurrent opportunity use rather than another observer-provided
+expansion: the selected supplies surface was already retained before the pulse.
+The next frontier is correction reuse on this second expanded-world module,
+followed by another content-free return to the two remaining epoch surfaces.

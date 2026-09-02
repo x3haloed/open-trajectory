@@ -1,6 +1,6 @@
 # OT-0245 — recurrent expanded-epoch selection
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0244 subject `7218ea6a...`
 - **Fresh actors:** one, no retry
@@ -25,3 +25,16 @@ at `correct`. Failure is retained without retry.
 This test still uses observer-authored hidden references and acceptance. It does
 not claim recurrence after the second expanded correction or autonomous world
 construction.
+
+## Result
+
+The null pulse derived `expanded-select`. The sole fresh actor chose
+`landscape/supplies.py::choose_cold_chain_shipments`, authored four executable
+cases, and passed G10 with exactly one changed decision file. Independent sealed
+consequence returned 2/6. Exact successor `5d572904...` preserves all prior
+extensions and every retained epoch source and remains open at `correct` on the
+new actor-selected stake.
+
+The next claim is repeated expanded-world correction reuse on this second
+surface, followed by another content-free return to the still-live retained
+epoch.

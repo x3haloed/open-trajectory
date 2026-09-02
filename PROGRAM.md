@@ -2270,5 +2270,15 @@ surfaces pass visible and sealed 2/6 controls. Promotion requires G10-accepted
 actor selection, independent contradiction, preservation of every earlier
 extension and exact epoch source, and an open `correct` successor.
 
+OT-0245 promotes the live recurrence. One null pulse derives `expanded-select`;
+the fresh actor chooses `landscape/supplies.py::choose_cold_chain_shipments`
+from the retained epoch, passes G10, and receives independent 2/6 contradiction.
+Exact successor `5d572904...` preserves every prior extension and epoch source
+and remains open at `correct`.
+
+The next experiment should reuse expanded-world correction on this second
+module and then return through the content-free selector to the two remaining
+retained opportunities. No new expansion world is warranted yet.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-recurrent-expanded-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 895983,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2c6b94ec2b28cdcb6f19275e6776d843ec5ab0d7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0245",
+  "input_manifests": [
+    "OT-0245/recurrent-expanded-epoch-selection-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after recurrent retained-epoch selection and contradiction; second expanded correction reuse remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-recurrent-expanded-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3bd873fa2e010919a8c305dafcf780e5f18ccc80c4ca42b44cd8ea580dec652c"
+}

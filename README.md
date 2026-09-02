@@ -635,6 +635,10 @@ The strongest footholds are:
   callables. The prospective selector scores 11/11, preserves all nine old
   cases, and installs `expanded-select` without changing operational state.
   Exact successor `7218ea6a...` awaits live retained-epoch selection.
+- `OT-0245`: the next null pulse realizes that route. A fresh actor selects
+  `choose_cold_chain_shipments` from the retained epoch without a new opportunity
+  world, passes G10, and receives sealed 2/6 contradiction. Exact successor
+  `5d572904...` preserves every prior and retained source and is open at `correct`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
