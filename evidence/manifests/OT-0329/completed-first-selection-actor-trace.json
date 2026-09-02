@@ -1,0 +1,29 @@
+{
+  "artifact_id": "completed-first-selection-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 252744,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b344ee14252dea306a0901438e8035bc2970ff2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:completed-first-selection-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8c9cbea11ad6a512492e1f646e91fd4d6baf73ed8ded925de88b9ce7123a2a53"
+}

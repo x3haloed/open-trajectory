@@ -1,0 +1,29 @@
+{
+  "artifact_id": "completed-first-selection-operation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11598,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b344ee14252dea306a0901438e8035bc2970ff2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "completed-operation",
+  "limitations": [],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:completed-first-selection-operation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f515f6ce44a7bf5c5b4a9bec6cfc5a9e91721d6899c1120c2a96c8786694c084"
+}

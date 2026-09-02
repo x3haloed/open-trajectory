@@ -1,0 +1,31 @@
+{
+  "artifact_id": "workspace-location-repair-conformance",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3402,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b344ee14252dea306a0901438e8035bc2970ff2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "repair-conformance",
+  "limitations": [
+    "Apparatus-only path-location repair; no new actor output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:workspace-location-repair-conformance",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "22ac62cf0b6309b2bd0eb86eb55c830baea4aa9883b0646818f04e3f457a44bc"
+}

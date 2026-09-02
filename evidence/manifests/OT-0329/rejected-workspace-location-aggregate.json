@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-workspace-location-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3263,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6b344ee14252dea306a0901438e8035bc2970ff2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "rejected-aggregate",
+  "limitations": [
+    "Rejected only by obsolete outside-repository workspace proxy after otherwise valid first operation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-workspace-location-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0c5bf7953881426566f008d69ca8164d2103de7bd0bb944d2c9e52d5755f5545"
+}

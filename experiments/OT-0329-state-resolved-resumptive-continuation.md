@@ -113,6 +113,16 @@ surfaces and verifies every evolved epoch source against its own retained
 digest. Three malformed controls still fail closed. No actor was opened during
 either correction.
 
+The first live operation then passed every actor, selection, world, identity,
+and continuation check but was rejected by OT-0310's obsolete proxy that
+defined a fresh workspace as any path outside the repository. The current
+apparatus intentionally stores fresh independent Git workspaces under ignored
+`.evidence/`; G10 verified this actor's effects and trace as clean. The repair
+checks the actual retained workspace identity, independent Git root, seed
+separation, and exact clean audit. It reconstructs the completed selection and
+2/6 world receipt without resampling, then resumes at operation two. Missing
+Git identity and ambiguous-workspace fixtures fail before continuation.
+
 ## Scope
 
 One pass would establish bounded content-free resumption of an existing
