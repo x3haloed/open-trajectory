@@ -3794,3 +3794,11 @@ enter the lineage. Preserve that negative evidence. The next record should
 install the content-based predicate at the shared helper itself and add a gate
 that fixture and live isolation calls resolve to that same authority. Keep the
 offered-world precedence and every other gate unchanged.
+
+OT-0294 removes that duplicate authority. Both prospective branches and live
+acceptance now call the same content-based helper; a clean seed passes it and
+all four direct leak controls fail. The corrected driver and every inherited
+branch remain green. After freeze and push, repeat the exact two-opening test in
+a new external root. Passing requires the one selected 2/6 consequence to enter
+the open lineage and derive correction; no rejected OT-0293 successor may be
+resumed.

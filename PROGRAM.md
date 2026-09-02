@@ -3081,5 +3081,12 @@ non-authoritative. Preserve the rejection. Next install the corrected predicate
 at the one shared helper used by fixture and live paths, and prospectively prove
 that authority identity before another actor.
 
+OT-0294 freezes the content-based isolation predicate at the shared helper used
+by both prospective selection and live acceptance. Its clean seed passes that
+exact helper; all four hidden-content controls fail. OT-0293's otherwise-valid
+actor and 2/6 consequence remain exact, the live driver sequence stays green,
+and all three target branches pass with route 16/16 and identity 18/18. Live
+output remains sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
