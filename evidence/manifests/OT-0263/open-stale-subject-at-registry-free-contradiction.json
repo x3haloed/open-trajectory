@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-stale-subject-at-registry-free-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1125400,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "11ae5416349c4be457bfa6310c34961f50ced75c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0263",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject is open at a registry-free actor-selected contradiction with stale projection and correction-first routing; correction and refresh recurrence remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-stale-subject-at-registry-free-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c66a6d2e727213ea79c909a81ef4b46f4dd9c5f4f602c92149656a4318b372e8"
+}

@@ -2572,5 +2572,15 @@ prospective registry-free path; one fresh actor receives no target hint and may
 advance only through G10-admitted executable contact plus sealed 2/6, leaving a
 stale open correction state whose next operation remains correction.
 
+OT-0263 promotes with one actor and no retry. Registry-free projected selection
+authors executable `sequence_repair_crews` contact and receives sealed 2/6.
+Exact `cd5444cb...` is stale but open at `correct`, and OT-0261 routes it to
+correction first.
+
+Next execute correction and refresh as ordered separate invocations. Correction
+must reach public 4/4 and sealed 6/6 versus unchanged 2/6; the resulting stale
+assimilation state must then refresh to one remaining opportunity before another
+actor can run.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

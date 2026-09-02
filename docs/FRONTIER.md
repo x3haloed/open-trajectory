@@ -3277,3 +3277,14 @@ OT-0263 freezes that live actor encounter. Both current pairs must preflight
 through the installed registry-free regime, immutable projection, public
 execution, sealed 2/6, and correction-first stale routing. One fresh actor and no
 retry may advance only through a real projected pair and exact contained effects.
+
+OT-0263 promotes with one fresh actor and no retry. The actor selects
+`sequence_repair_crews`, authors executable contact, passes registry-free
+admission and G10, and receives sealed 2/6. Exact `cd5444cb...` preserves the
+epoch and wait/wake history, carries a stale projection, remains open at
+`correct`, and routes next to correction rather than refresh.
+
+The immediate frontier is the ordered correction/refresh sequence across an
+invocation boundary: target-generic correction must reach 4/4 and 6/6 versus
+unchanged 2/6 first; only the resulting stale `assimilate` state may refresh to
+the one remaining opportunity before another actor is authorized.

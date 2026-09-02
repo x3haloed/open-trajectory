@@ -1,0 +1,31 @@
+{
+  "artifact_id": "live-registry-free-projected-selection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15101,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "11ae5416349c4be457bfa6310c34961f50ced75c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0263",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh actor realizes one registry-free projected selection and contradiction; correction-first execution and later assimilation-time refresh remain to be exercised."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:live-registry-free-projected-selection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2569e0a012f7592cb4a2cedeabe2575c5a373986b4aeb291e951847ba5b7453d"
+}

@@ -710,6 +710,10 @@ The strongest footholds are:
   expose rejection by a stale manual provider-target registry. Registry-free
   admission accepts both plus the earlier resilience pair, rejects eleven hard
   anchors, and yields exact open `be14db5a...` without operational change.
+- `OT-0263`: one fresh actor uses that registry-free path to select
+  `sequence_repair_crews`, pass G10, and receive sealed 2/6. Exact stale
+  successor `cd5444cb...` remains open at correction and routes to correction
+  before projection refresh.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

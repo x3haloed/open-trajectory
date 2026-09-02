@@ -92,9 +92,9 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0262 successor `be14db5a...`,
+The current exact operational subject is OT-0263 successor `cd5444cb...`,
 identified by
-`evidence/manifests/OT-0262/open-subject-with-registry-free-projected-admission.json`.
+`evidence/manifests/OT-0263/open-stale-subject-at-registry-free-contradiction.json`.
 It preserves all earlier worlds and corrections, has saturated the state-indexed
 resilience epoch, and carries a saturated zero-opportunity projection with every
 external authority flag false. Its durable wait was discharged by a real stream
@@ -106,7 +106,9 @@ opportunities. Its phase-aware freshness policy now preserves correction and all
 non-assimilation routes, refreshing stale projection state only before selection.
 Its expanded-selection admission now derives from projection, latest source/AST,
 ledger, contact shape, and workspace effects rather than a world-specific target
-registry. It is open with `expanded-select` next.
+registry. A fresh actor has now selected `sequence_repair_crews` through that
+path and received independent 2/6. The ledger change makes the projection stale;
+the subject is open at `correct` and routes to correction before refresh.
 
 ## Prediction errors
 
@@ -358,3 +360,7 @@ registry. It is open with `expanded-select` next.
   both new projected pairs; registry-free admission accepts them and the prior
   positive while rejecting eleven hard anchors. Exact `be14db5a...` is ready for
   live actor use with no operational change.
+- OT-0263 realizes that live use. One fresh actor selects a current projected
+  pair, passes registry-free admission and G10, and receives sealed 2/6. Exact
+  `cd5444cb...` is stale and open at correction, with correction-first routing
+  verified. Next execute correction, then assimilation-time refresh.
