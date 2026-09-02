@@ -1,0 +1,34 @@
+{
+  "artifact_id": "changed-router-route",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1034,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/subject-with-actor-router-active.json",
+    "evidence/manifests/OT-0324/heldout-router-front-summaries.json"
+  ],
+  "kind": "selection-receipt",
+  "limitations": [
+    "Route produced by active actor-authored machinery on held-out summaries."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:changed-router-route",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9bc9d5022bc5eab4518e4813044951da90a930a06b6ee636e2aef036328440ff"
+}

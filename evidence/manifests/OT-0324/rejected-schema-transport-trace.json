@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-schema-transport-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 855,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/response-schema-repair-conformance.json"
+  ],
+  "kind": "pre-actor-transport-trace",
+  "limitations": [
+    "Hosted request rejected at response-schema validation before model generation; no actor output."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-schema-transport-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a75f948bb4cca86d262530dcb6ee0825eea13051765c38f6224d7b296dcd07a4"
+}

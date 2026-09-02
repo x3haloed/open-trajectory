@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-router-refinement-world-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/consequence-revised-search-routing-preflight.json"
+  ],
+  "kind": "private-world-seed",
+  "limitations": [
+    "Private post-freeze seed identity; raw seed remains external."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-router-refinement-world-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a4226859c3d8c271d59812c393a367c257dad201635665a7dac63cf5f6860df2"
+}

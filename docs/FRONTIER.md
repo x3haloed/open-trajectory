@@ -51,6 +51,10 @@ possibilities without acquiring authority over world outcomes or admission.
   can prove prior use but cannot substitute for a reconstructible executable
   body and its applicability boundary. Evidence: OT-0321 retains proposal-search
   receipts but not the search source.
+- A contradiction is not itself a useful opening. Continuing selection must
+  distinguish reachable, non-regressive change from failure-bearing saturation;
+  otherwise it can preserve motion while spending the next actor where no
+  development is possible. Evidence: OT-0324.
 
 ## Evaluation regime
 
@@ -105,13 +109,14 @@ scores of 0/5. The historical actor-visible checker remained nonconformant, but
 the frozen materiality audit reconstructed every contact, score, binding, and
 child exactly and found the symmetric checker crash causally immaterial.
 
-The exact current operational subject is OT-0323's applicability-routed child
-`aba1513f...`. It preserves the open `expanded-select` position, prior
-provenance and cumulative 15/15 floor, carries byte-exact proposal search and a
-byte-exact fixed router, and records the causal route by which its applicability
-state chose a contradicted opening over a simultaneous saturated opening. A
-fresh actor changed only loop weight 0 to -3 and reached 20/20. Exact
-predecessors `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
+The exact current operational subject is OT-0324's consequence-revised-routing
+child `bf92244d...`. It preserves the open `expanded-select` position, prior
+provenance and cumulative 20/20 floor, carries byte-exact proposal search, and
+actively binds a fresh actor's byte-exact router revision. That revision uses
+complete search consequence to exclude saturated failure-bearing fronts and
+prefer reachable gain. A later fresh actor followed the learned route, changed
+only call weight -1 to -3, and reached 25/25. Exact predecessors
+`aba1513f...`, `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
 `9a6f94ba...` remain controls, not current lineage.
 
 ## Prediction errors
@@ -171,14 +176,18 @@ predecessors `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
   Aggregate `ebb7336d...` promotes exact child `aba1513f...`. A post-output
   checker-name repair reused the exact candidate output without resampling and
   is bound by repair receipt `4bfbf0ac...`.
-- The retained invocation rule detects incumbent failure, not whether a useful
-  successor is reachable. With two failing fronts it breaks ties by opaque
-  front identity and may spend the next actor on a saturated dead end. The next
-  prospective test should make exact `aba1513f...` encounter one failure-bearing
-  front where bounded search cannot improve the incumbent and another where it
-  can. After the existing router demonstrably chooses the dead end, a fresh
-  machinery-revision actor should edit the executable router under a frozen
-  contract. A later fresh actor must use that retained revision on new front
-  identities/order to select reachable gain and improve the cumulative 20/20
-  floor; the unchanged-router branch must select the dead end. This tests
-  consequence-driven improvement of future-move selection itself.
+- OT-0324 made the retained invocation defect consequential: the fixed router
+  chose a 2/3, best-2/3 saturated front while a 0/3, best-3/3 front was offered.
+  A fresh actor revised the executable router to require reachable improvement
+  and rank gain. On new identities and reversed order, a later fresh actor used
+  that retained revision to reach 25/25 while the unchanged-active branch chose
+  the dead end and remained 20/25. Aggregate `bbb64f57...` promotes exact child
+  `bf92244d...`; both machinery and stake actors had clean broad-tool traces.
+- The learned router now maximizes local search gain. It does not yet know
+  whether that gain preserves the cumulative floor or widens future coherent
+  possibilities. The next prospective test should make the highest immediate-
+  gain route regress earned capability while a lower-gain route preserves the
+  floor and expands it. Completed cumulative consequence should then revise the
+  learned selection machinery, and a later contradictory regime must remain
+  able to revise that policy again. This tests later corrigibility of learned
+  machinery rather than merely another successful reuse.

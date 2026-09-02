@@ -1,6 +1,6 @@
 # OT-0324 — Consequence-revised search routing
 
-- **Status:** frozen
+- **Status:** completed — promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0323 subject `aba1513f...`
 - **Claim:** consequence can revise the executable machinery that chooses among
@@ -113,3 +113,35 @@ before adoption. The repair changes only that one-level lookup and reconstructs
 the exact completed actor output, patch, and trace; it does not resample the
 machinery actor or alter its information, consequence, world, scoring, or
 gates. A dedicated repair receipt is required in the final evidence.
+
+## Result
+
+The incumbent router selected the opaque-first diagnostic front where the stake
+passed 2/3 and complete bounded search could do no better, despite a simultaneous
+front where the stake passed 0/3 and search could reach 3/3. A fresh machinery
+actor used that completed route consequence to change only `route_search.py`.
+Its executable revision requires `improvement_found` and ranks eligible fronts
+by reachable pass-count gain before stable tie-breakers. The actor passed the
+public conformance fixtures and its broad-tool trace was clean.
+
+Both comparison branches retained the exact actor-authored source and correction
+evidence. On new front identities and reversed offer order, only the active
+binding differed. The revised router selected reachable gain; a later fresh
+actor used inherited search, changed call weight -1 to -3, replayed 3/3,
+preserved the prior 20/20 floor, and reached 25/25. The unchanged active-router
+branch selected the saturated front; its matched fresh actor found no improving
+candidate, retained exactly, and remained 20/25. The operational child was
+sealed before that control and reopens as exact subject `bf92244d...`.
+
+Every frozen gate passed. Aggregate receipt `bbb64f57...` promotes the bounded
+claim that consequence revised executable future-move selection across fresh
+actors. The result does not establish reliability, autonomous contact
+generation, permanent optimality, or full recurrence.
+
+Two disclosed apparatus repairs preserve the experiment's informational and
+causal identity. The initial hosted request was rejected before model generation
+by a response-schema transport constraint; repair receipt `6a022a42...` verifies
+the type-only correction and the retry reused the digest-checked private world.
+After the retry actor completed, a one-level frozen-helper lookup failed before
+adoption; repair receipt `fdf9b102...` reconstructs the exact completed output
+without resampling or changing any actor-visible input, world, score, or gate.

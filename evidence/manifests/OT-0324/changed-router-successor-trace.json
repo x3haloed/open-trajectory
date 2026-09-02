@@ -1,0 +1,33 @@
+{
+  "artifact_id": "changed-router-successor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 42650,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/changed-router-route.json"
+  ],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Fresh changed-route broad-tool successor trace; model provenance remains deployment-limited."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:changed-router-successor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bf35f6976fe12f1dc9915b410c90f82932031cbbb1a7bad53f41e1d92af37de8"
+}

@@ -1,0 +1,36 @@
+{
+  "artifact_id": "consequence-revised-search-routing-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 89515,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/changed-router-successor-stake.json",
+    "evidence/manifests/OT-0324/unchanged-router-successor-stake.json",
+    "evidence/manifests/OT-0324/post-machinery-output-controller-repair.json",
+    "evidence/manifests/OT-0324/pre-actor-transport-failure.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "One bounded causal machinery-refinement observation; not generation reliability, permanent optimality, or full OT-2R."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-revised-search-routing-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c786cfa3342f556e1b4afbca460d1e3efc59c7523e02f19040d677b5b5781799"
+}

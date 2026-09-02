@@ -1,0 +1,33 @@
+{
+  "artifact_id": "actor-authored-search-router",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 970,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/router-revision-actor-trace.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Actor-authored executable router candidate; authority remains bounded by retained interface and active binding."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:actor-authored-search-router",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ec292c252891ece9ec7a56505e43cc2b83478621a451fe7728f6b124fe773885"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-consequence-revised-routing",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1784526,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/consequence-revised-search-routing-aggregate.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Exact open subject after actor-authored routing refinement and one successful reuse; later harm and recurrence remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-consequence-revised-routing",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "38b041e685033bc775abeac86d0fe0f4d3d471ddab5e67482eeee30fddc332ce"
+}

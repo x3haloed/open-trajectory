@@ -1,0 +1,33 @@
+{
+  "artifact_id": "changed-router-successor-stake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1643,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/changed-router-successor-trace.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Stake revision produced after actor-authored router selected reachable gain."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:changed-router-successor-stake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5ae483a0cebae47a5f4770a0a405bfc6951309a6d8d74bb91b3238c65a9cfda1"
+}

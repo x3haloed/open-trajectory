@@ -1,0 +1,34 @@
+{
+  "artifact_id": "unchanged-router-route",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1036,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/subject-with-actor-router-inactive.json",
+    "evidence/manifests/OT-0324/heldout-router-front-summaries.json"
+  ],
+  "kind": "selection-receipt",
+  "limitations": [
+    "Route produced by unchanged active machinery on identical held-out summaries."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-router-route",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3730f6c4a36e2ca743464118330c0c5e49c2cecbe5366dd31c8f921033ca82e2"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-with-actor-router-active",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1755746,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/actor-authored-search-router.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Candidate comparison branch with actor-authored router actively bound."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-with-actor-router-active",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f12532b39679cd0ecd5dd564db8c667882f341698a257fb671c619e15bbe4bab"
+}

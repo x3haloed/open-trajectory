@@ -1,0 +1,33 @@
+{
+  "artifact_id": "router-diagnostic-front-summaries",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 560,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "915b29e0fe850a902ed2a2b4157c3e6c587d796c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0324/router-diagnostic-fronts.json"
+  ],
+  "kind": "actor-input-projection",
+  "limitations": [
+    "Public bounded-search summaries for the diagnostic routing encounter."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:router-diagnostic-front-summaries",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1cc8bdbbb02ab66d6c19ff5b7925a702687501cf132aaf19e9d7bd2a3fea73ce"
+}
