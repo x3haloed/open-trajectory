@@ -77,7 +77,8 @@ def output_valid(output,changed):
     return bool(isinstance(output,dict) and set(output)=={"action","files_changed","note"} and isinstance(output.get("note"),str) and ((output["action"]=="revise-selection-machinery" and output["files_changed"]==["selector-revision.json"] and changed) or (output["action"]=="retain-selection-machinery" and output["files_changed"]==[] and not changed)))
 
 def run_actor(context,p82,root,parent,result312,withheld):
-    seed=root/"seed"; seed=seed if seed.exists() else seed_actor(root,parent,result312,p82,withheld); stem="selector-revision-withheld" if withheld else "selector-revision-consequence"; failed=context.evidence(stem)/"events.jsonl"; label=stem+"-transport-02" if failed.exists() else stem
+    seed=root/"seed"; seed=seed if seed.exists() else seed_actor(root,parent,result312,p82,withheld); stem="selector-revision-withheld" if withheld else "selector-revision-consequence"; label=stem; index=2
+    while (context.evidence(label)/"events.jsonl").exists(): label=f"{stem}-transport-{index:02d}"; index+=1
     output,audit0,workspace,_=context.run_actor(label,seed,SCHEMA,(seed/"README.md").read_text().strip())
     try:
         rule=json.loads((workspace/"selector-revision.json").read_text()); immutable=json.loads((seed/"mutation-envelope.json").read_text())["immutable"]; immutable_ok=all((workspace/n).read_bytes()==(seed/n).read_bytes() for n in immutable); changed=rule!=INCUMBENT

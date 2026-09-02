@@ -7,7 +7,7 @@
     "action": {"enum": ["revise-selection-machinery", "retain-selection-machinery"]},
     "files_changed": {
       "type": "array",
-      "items": {"const": "selector-revision.json"},
+      "items": {"type": "string", "const": "selector-revision.json"},
       "maxItems": 1
     },
     "note": {"type": "string", "minLength": 1, "maxLength": 500}

@@ -78,3 +78,9 @@ workspace change. Remove only the unsupported keyword, retain that failed
 trace, reuse the already generated private seed byte-exactly, and distinguish
 the next transport label. This spends no candidate sample and changes no actor
 information, hidden anchor, scorer, threshold, or acceptance rule.
+
+A second pre-sampling 400 then reported that an array-item `const` also needs
+an explicit string `type` in this response-format subset. Its event stream is
+likewise output-free. Add that type and allocate monotonically distinct labels
+for any retained pre-sampling transport failures. The same seed, actor input,
+mutation contract, evaluator, scores, and one meaningful sample remain frozen.
