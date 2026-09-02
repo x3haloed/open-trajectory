@@ -1,0 +1,31 @@
+{
+  "artifact_id": "erased-corrector-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 724,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Matched consequence-erased fresh actor input."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:erased-corrector-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f1a64c3cfdcb12faa2a2c15b2c2578136e3643de5c42702db58cfb956a500e3f"
+}

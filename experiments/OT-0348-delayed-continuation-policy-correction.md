@@ -104,3 +104,29 @@ semantic output validator, so this changes neither actor-visible information,
 mutation authority, scoring, nor acceptance. Preserve the failed transport
 attempt separately and authorize the first substantive actor only after this
 repair is committed.
+
+## Result
+
+The exact incumbent selected the five-contact world and its independent
+post-contact observation reopened to zero contacts, while the two-contact
+alternative reopened to three. The active fresh actor had all three raw
+observation records—including `subject_reopened` and `new_contact_ids`—and a
+generic executable policy ABI. It nevertheless retained the incumbent bytes.
+Its rationale restated the immediate counts `5`, `3`, and `2`, called contact
+coverage the primary continuation objective, and did not mention the selected
+world's zero downstream contacts. Its four-command broad-tool trace passed G11
+and G13 cleanly.
+
+The matched consequence-erased actor also retained the exact incumbent bytes
+with a clean seven-command trace. Because the active policy did not change,
+the predeclared gate prohibited binding and the held-out seed was never
+generated. No selector or contact successor ran. Aggregate `4082e293...`
+rejects the machinery-correction hypothesis and leaves exact subject
+`708ea5a3...` open and unchanged.
+
+This is not evidence that delayed continuation is irrelevant. It is negative
+evidence that making raw downstream outcomes available beside an inherited
+policy is sufficient to make them causally salient to a fresh corrector. The
+next test should preserve the same raw information but add a subject-carried
+predicted-versus-realized discrepancy that explicitly connects what the policy
+optimized to what happened, then ablate only that connection.

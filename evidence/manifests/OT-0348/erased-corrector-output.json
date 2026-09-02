@@ -1,0 +1,31 @@
+{
+  "artifact_id": "erased-corrector-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 306,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Matched fresh actor output; no generation-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:erased-corrector-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0cc39cf1ffec39adf3a71abc8ca2287b3152886ce1e16636c14f12309deaf3a8"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "erased-corrector-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13889,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Complete broad-tool trace retained for G13 audit."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:erased-corrector-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f33d30958d06139fa6c183298ef55f44aaaeaab99e8b2c141f5c4dbc7726e699"
+}

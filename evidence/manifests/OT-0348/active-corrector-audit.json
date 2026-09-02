@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-audit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1341,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "actor-audit",
+  "limitations": [
+    "G13 clean-effect audit of one fresh actor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-audit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f5767ecbaafd9999747dd1efe9660c550af00424f211d3c7f1a3a6fc80e6be5a"
+}

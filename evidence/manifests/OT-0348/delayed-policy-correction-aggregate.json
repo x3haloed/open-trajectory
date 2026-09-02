@@ -1,0 +1,31 @@
+{
+  "artifact_id": "delayed-policy-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9246,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Rejected correction hypothesis; no held-out world was derived."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:delayed-policy-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b324d152436a96613d58bd8963963ac54770096c4e880eabe3ef05c6939c9601"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "precontact-schema-failure-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 670,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "transport-stderr",
+  "limitations": [
+    "Pre-contact transport warning stream retained."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:precontact-schema-failure-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f314200d5a07a716be1bd60ba090eb35b2cceea6f3d14bcb3374038bc8abad52"
+}

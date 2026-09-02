@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 670,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "actor-stderr",
+  "limitations": [
+    "Transport stderr retained for trace interpretation."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2342d2b7ff48b215f06d0e1868da1e3b6ad4b50bbb3d0fb2d4bc0e71588d44de"
+}

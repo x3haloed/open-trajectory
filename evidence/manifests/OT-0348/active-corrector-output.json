@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 263,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Fresh hosted actor retained the harmful incumbent; no generation-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "05deda0a9731d15853c9848b8d9e4231ef47148690fe4ffcc838e19a7a91901c"
+}

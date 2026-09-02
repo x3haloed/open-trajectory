@@ -295,6 +295,17 @@ floor remains exact, and frontier erasure has no continuation. Aggregate
 operational recurrence inside one synthetic world, not a new policy-learning
 claim.
 
+OT-0348 then makes the retained policy's immediate-count proxy harmful. The
+exact incumbent chooses five viable current contacts whose completed outcome
+reopens to zero; a two-contact alternative reopens to three. One fresh active
+corrector receives every raw downstream observation, but retains the exact
+policy and justifies only the immediate `5/3/2` counts. Its matched
+outcome-erased actor also retains. Both broad-tool traces pass G11/G13 cleanly.
+The predeclared gate therefore prevents binding and never creates the held-out
+seed. Aggregate `4082e293...` rejects the correction hypothesis and exact
+subject `708ea5a3...` remains current. Raw consequence availability alone did
+not turn a proxy/outcome inversion into an actionable correction.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
@@ -356,6 +367,14 @@ are retained for prospective reconstruction.
   actor-visible metric meanings or need a more discriminating future regime.
   Evidence: OT-0339 raw aggregate `521ac8ca...`, corrected by OT-0340
   `fae66322...`.
+- Expected: a fresh corrector given complete delayed consequence would notice
+  that the immediate-count policy selected a zero-continuation world and revise
+  the executable rule. Observed: the clean actor retained exact bytes, repeated
+  only the immediate `5/3/2` counts, and ignored the nested downstream opening
+  records; its consequence-erased peer behaved equivalently. Uncertain: whether
+  a subject-carried predicted-versus-realized discrepancy can make the same
+  bytes causally actionable without prescribing the repair. Evidence: OT-0348
+  aggregate `4082e293...`; no held-out seed was generated.
 - OT-0318 resolves the missing-action question: a training-only executable
   workbench let a fresh actor propose and verify its own 3/3 repair, which
   reached private 5/5 against exact-parent 0/5; erasing outcomes made the same

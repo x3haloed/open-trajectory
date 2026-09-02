@@ -1,0 +1,31 @@
+{
+  "artifact_id": "delayed-policy-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1898,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "conformance-receipt",
+  "limitations": [
+    "Prospective fixtures only; no actor-behavior claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:delayed-policy-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "06113a0185e4ad5200e2354461ff6d78fc9fd93b67327eda03dce320bb4af307"
+}

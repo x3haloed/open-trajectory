@@ -1,0 +1,31 @@
+{
+  "artifact_id": "delayed-policy-training-consequence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2966,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "world-consequence",
+  "limitations": [
+    "Synthetic observer-owned delayed consequence; one frozen private derivation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:delayed-policy-training-consequence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d2c4e854a4548257d0c209a5077371816ad86cb60ed467d479684d602e963703"
+}

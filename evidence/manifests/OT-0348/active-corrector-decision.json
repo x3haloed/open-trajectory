@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-decision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 502,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "726f9a5fafb2431ebff82dc446e8af337bb8083d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0348",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Actor-authored retain decision; self-report is not outcome evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-decision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0abf075489db56a86b6d6cd42a5a8f5d3aa9d6b3155740bd05d01ff329665860"
+}
