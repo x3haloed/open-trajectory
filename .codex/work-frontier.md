@@ -470,3 +470,7 @@ fifth standing-feed wait.
   observer loses allowed `max` because it treats dictionary `__builtins__` as a
   module. Preserve the candidate and prospectively repair script/import parity;
   do not resample the world actor or rescore OT-0279.
+- OT-0280 freezes that zero-actor repair. Explicit `builtins` lookup preserves
+  the allowed set and negative controls, passes standalone/import parity for all
+  21 calls, and makes the retained package checker-identical, novel, 2/6, and
+  scanner-visible while preserving exact renewed wait `cfab2a50...`.

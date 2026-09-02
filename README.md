@@ -780,6 +780,10 @@ The strongest footholds are:
   to ordinary wake. The live scout authors a G10-clean package that passes its
   published checker, but the frozen imported evaluator loses allowed `max` and
   rejects on execution. No retry occurs; the exact package is retained.
+- `OT-0280` freezes a zero-actor prospective evaluator correction. Explicit
+  `builtins` lookup preserves the allowed set and all malformed rejections,
+  makes standalone/import execution agree for all 21 calls, and makes the exact
+  retained Morrowglass package scanner-eligible without rescoring OT-0279.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

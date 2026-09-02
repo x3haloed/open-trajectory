@@ -2866,5 +2866,14 @@ observer. Preserve the rejected aggregate and candidate package. Next correct
 the evaluator prospectively, require script/import parity for every allowed
 call, and reconsider the exact retained package with zero new actors.
 
+OT-0280 freezes that prospective correction. It changes only allowed-builtin
+resolution to explicit access through Python's `builtins` module. The legacy
+imported evaluator must still reproduce `execution`; the corrected standalone
+and imported paths must agree across all 21 unchanged allowed calls, preserve
+every malformed-package rejection, and match the published checker exactly.
+The retained Morrowglass package must then pass three novel exact-2/6 surfaces,
+scanner admission, historical trace/G10 eligibility, route 16/16, and identity
+18/18 with zero fresh actors. OT-0279 remains rejected.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

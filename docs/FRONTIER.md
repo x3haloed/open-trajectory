@@ -3573,3 +3573,11 @@ The next record should replace context-sensitive builtin discovery with an
 explicit `builtins` module, prove checker/import parity across every allowed
 call and all negative controls, and evaluate the retained Morrowglass bytes
 without another actor. Historical OT-0279 remains rejected.
+
+OT-0280 freezes that exact prospective correction. Preflight reproduces the
+legacy `execution` failure, keeps the 21-name allowed set fixed, makes every
+allowed call agree between standalone and imported execution, preserves all
+malformed-package rejections, and matches the actor-visible checker exactly.
+The retained Morrowglass package becomes three ledger-novel exact-2/6 surfaces
+under the corrected evaluator, and the standing scanner sees it as available.
+Zero actors run; OT-0279's disposition is immutable.
