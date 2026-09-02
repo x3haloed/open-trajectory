@@ -3253,3 +3253,11 @@ The immediate frontier returns to live behavioral recurrence: one fresh actor
 must use the two-opportunity projection, author executable eligible contact,
 pass G10, and receive independent 2/6. The resulting stale `correct` state must
 still route to correction, not refresh.
+
+The first OT-0262 preflight authorizes no actor and exposes a hidden manual
+dependency: both projected coordination pairs pass the actor checker but fail
+observer admission because an old provider-target registry lacks the new world.
+OT-0262 now freezes registry-free admission from exact projection, latest source
+and AST opportunities, ledger, contact structure, and workspace effects. It must
+admit the two current and one earlier projected pair while rejecting eleven hard
+anchors, with zero actors and no operational change.

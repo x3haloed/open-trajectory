@@ -2552,5 +2552,12 @@ Next run one projected selection and sealed contradiction. Its exact stale
 `correct` successor must route to target-generic correction under OT-0261,
 reserving projection refresh for the later assimilation boundary.
 
+The first OT-0262 preflight exposes a remaining external vocabulary dependency:
+the actor checker accepts both new projected surfaces, while observer admission
+rejects them solely because a manually maintained provider-target registry is
+stale. OT-0262 freezes registry-free admission using exact projection, latest
+source/AST, ledger, contact shape, and workspace effects, with current and prior
+positive cases plus eleven hard rejection anchors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
