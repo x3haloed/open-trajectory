@@ -2582,5 +2582,10 @@ must reach public 4/4 and sealed 6/6 versus unchanged 2/6; the resulting stale
 assimilation state must then refresh to one remaining opportunity before another
 actor can run.
 
+OT-0264 freezes those two serialized invocations. Correction must occur first
+with one actor and full 4/4, 6/6, 2/6 controls; a separate zero-actor invocation
+must then reload the exact stale assimilating subject, refresh to one opportunity,
+preserve the phase-aware policy, and route to selection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

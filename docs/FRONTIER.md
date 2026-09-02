@@ -3288,3 +3288,9 @@ The immediate frontier is the ordered correction/refresh sequence across an
 invocation boundary: target-generic correction must reach 4/4 and 6/6 versus
 unchanged 2/6 first; only the resulting stale `assimilate` state may refresh to
 the one remaining opportunity before another actor is authorized.
+
+OT-0264 freezes that sequence as two serialized process invocations. The first
+spends one target-generic corrector and must end stale at open assimilation with
+refresh next. The second reloads that exact subject, spends no actor, refreshes
+only the projection while preserving the phase-aware policy, and must end fresh
+with one opportunity and `expanded-select` next.
