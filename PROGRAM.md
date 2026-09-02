@@ -2467,5 +2467,10 @@ the invocation boundary, and be stable under another empty observation. A later
 experiment must extend the world stream and show that this same waiting subject
 resumes rather than treating the wait as completion.
 
+OT-0256 freezes two-invocation empty-stream waiting. One null pulse may install
+one provider-bound wait handle; a separate invocation must reload it and perform
+an exact no-op under the unchanged empty cursor. No actor, fabricated world,
+operational mutation, duplicated wait state, or closure may occur.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -3149,3 +3149,10 @@ actor, fabricate no world, and close no continuation. It should retain a
 verifiable wait handle across a turn boundary; repeated emptiness must not create
 substantive duplicate state. Later stream extension and resumption remain a
 separate causal claim.
+
+OT-0256 freezes that waiting comparison as two process invocations. The first
+must bind an exact empty-provider observation into one open, actor-free wait
+handle without changing operational state. The second must reload the serialized
+subject and leave it exactly unchanged under the same provider cursor. A positive
+provider control prevents indiscriminate waiting. Provider extension remains
+outside this experiment.
