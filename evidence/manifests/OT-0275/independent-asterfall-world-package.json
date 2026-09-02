@@ -1,0 +1,33 @@
+{
+  "artifact_id": "independent-asterfall-world-package",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3565,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "67b647f8677740fcdbdfedde060457cdea8111dc",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0275",
+  "input_manifests": [
+    "evidence/manifests/OT-0274/open-subject-at-fourth-standing-feed-wait.json"
+  ],
+  "kind": "external-world-package",
+  "limitations": [
+    "One post-mechanism independently actor-authored package; it has not yet entered the waiting subject wake or learning path."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:independent-asterfall-world-package",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ad44cce3b7c5ad62271837b5f6a5bf27f286f367441102a3d387433b67fc8a17"
+}

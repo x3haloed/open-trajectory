@@ -2793,5 +2793,17 @@ against sealed reference, and—after output—avoid every target already in the
 exact subject ledger. The subject remains unchanged at `ee66f4df...`; package
 promotion is only an external novelty component until a later wake.
 
+OT-0275 promotes without retry. The subject-blind actor authors
+`asterfall-civic-ledger-v1` with novel `access_decision`, `quote_fuel`, and
+`route_status` surfaces, each exact 2/6 against retained sealed reference. The
+package passes its checker, G10, target non-collision, and standing-scanner
+admission. Full digest `c4dd32e4...` and public digest `20d1854a...` remain
+external; exact `ee66f4df...` is unchanged at its fourth wait.
+
+Next expose only that exact public projection to the standing scanner. Require
+actor-free wait discharge before any subject actor sees it; then exercise the
+existing content-free recurrence against the retained sealed package rather
+than adding Asterfall-specific target or phase machinery.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

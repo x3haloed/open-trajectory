@@ -761,6 +761,10 @@ The strongest footholds are:
   admit the later 6/6 successor, saturate the package, and exactly re-observe a
   fourth wait. Exact `ee66f4df...` remains open; the caller supplies no target,
   phase, counterexample, or iteration count.
+- `OT-0275`: after that mechanism is frozen, one subject-blind world-side actor
+  authors `asterfall-civic-ledger-v1`. Its three ledger-novel executable
+  surfaces are each exact 2/6 against sealed reference and pass the standing
+  scanner. The subject remains byte-identical at its fourth wait.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

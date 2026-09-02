@@ -1,6 +1,6 @@
 # OT-0275 — post-mechanism independent world
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0274 waiting subject `ee66f4df...`
 - **Fresh actors:** one world-side author, no retry
@@ -43,3 +43,16 @@ Package promotion does not establish wake or learning. A later experiment must
 expose only its public projection to exact `ee66f4df...` and carry the resulting
 wake through selection, objective consequence, conditional correction,
 saturation, and another durable wait.
+
+## Result
+
+The sole fresh world-side actor promotes without retry. It authors
+`asterfall-civic-ledger-v1` with three ledger-novel callables across independently
+named paths: `access_decision`, `quote_fuel`, and `route_status`. Each visible
+policy agrees with its sealed reference on exactly 2/6 cases. The actor changes
+only `world-package.json`, reports that effect exactly, and passes G10 with a
+contained denied incidental runtime operation and no outside effect.
+
+The public package digest is `20d1854a...`; full identity is `c4dd32e4...`.
+The standing scanner observes it as available with every external authority
+false. Exact subject `ee66f4df...` remains byte-identical, open, and waiting.

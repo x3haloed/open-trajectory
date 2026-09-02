@@ -436,3 +436,7 @@ standing-feed wait.
   no subject state, pursuit, target catalog, or consumed world ids. Its package
   must contribute three ledger-novel callables, each exact 2/6 against retained
   sealed reference, while the subject remains byte-identical at its fourth wait.
+- OT-0275 promotes its sole actor. `asterfall-civic-ledger-v1` contributes three
+  ledger-novel 2/6 surfaces and passes the standing scanner; exact
+  `ee66f4df...` remains untouched. Next expose only the public package and
+  require actor-free fourth-wait discharge before subject selection.

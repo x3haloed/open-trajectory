@@ -3503,3 +3503,10 @@ published restricted package interface, not the subject, its pursued targets,
 or four prior world ids. Promotion requires three novel target symbols and
 three exact 2/6 contradictions under the standing scanner. The exact waiting
 subject does not advance in this component experiment.
+
+OT-0275 promotes. One subject-blind actor authors
+`asterfall-civic-ledger-v1`; its three novel callables each create exact 2/6
+contradiction and its public projection passes the standing scanner. Exact
+`ee66f4df...` remains unchanged at the fourth wait. The immediate test is now
+causal entry: scanner-mediated wake must precede actor selection and consequence
+from the already retained sealed half.
