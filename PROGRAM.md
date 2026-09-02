@@ -2363,5 +2363,12 @@ mechanical effects and workspace semantics outrank descriptive path claims.
 Retain and classify the OT-0249 candidate prospectively; do not rescore the
 rejection or resample its actor.
 
+OT-0250 freezes a narrow interface-authority propagation rather than a new
+global evaluator. It applies the active G9/G10 boundary to streamed correction:
+action/schema and mechanically verified contained semantics remain causal;
+changed-path claims limit provenance. Six hard fixtures must remain 6/6 and four
+safe report discrepancies must improve 0/4→4/4. The retained OT-0249 candidate
+may become eligible for later consequence but cannot be installed in this test.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

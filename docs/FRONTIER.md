@@ -3016,3 +3016,12 @@ limit provenance. The next evaluator checkpoint must apply that learned rule to
 the correction transport, preserve wrong-action, malformed-schema, unsafe-trace,
 outside-effect, and semantic-invalid rejections, and classify the retained
 OT-0249 correction without rescoring or resampling it.
+
+OT-0250 freezes that correction-output authority propagation. The challenger
+keeps action/schema, workspace semantics, exact mechanical effects, complete
+trace, containment, and G10 denial classification causal while assigning the
+contents of `files_changed` provenance authority only. Six hard cases may not
+regress; four safe under/empty/over/mixed report cases must improve. Promotion
+retains the OT-0249 public-4/4 candidate as eligible for prospective consequence
+without installing it, changing operational correction state, rescoring the
+rejection, or invoking an actor.
