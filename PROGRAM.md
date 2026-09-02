@@ -3313,5 +3313,13 @@ and its prospective selection projection, subject state, summary, and README
 are coherent. Aggregate receipt `4defdcc7...`. The next live operation is again
 target-untold selection among two real surfaces.
 
+OT-0309 freezes that derived two-opportunity selection. The exact OT-0308
+subject and prospective seed are count- and phase-coherent; both target-neutral
+branches pass public execution, consequence-earned isolation, independent 2/6
+outcome, correction routing, route 16/16, and identity 18/18. Selection may add
+one new contact stake while all inherited protected state, the coherence repair,
+and OT-0305's negative priority verdict remain exact. One fresh actor is
+authorized without retry only after this freeze is pushed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

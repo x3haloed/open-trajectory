@@ -1,0 +1,37 @@
+{
+  "artifact_id": "coherent-two-opportunity-selection-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1699,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f8b7a07482f7f7d11d415349e1c322b368216a20",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0309",
+  "input_manifests": [
+    "evidence/manifests/OT-0308/open-subject-after-actor-facing-coherence-repair.json",
+    "evidence/manifests/OT-0308/actor-facing-coherence-repair-aggregate.json",
+    "evidence/manifests/OT-0305/subject-priority-world-selection-aggregate.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic two-branch conformance only; no OT-0309 actor output or live consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:coherent-two-opportunity-selection-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9fa7bfe2c6ba6c69131113c51ef37750afd1f2f7ee0c4c11b76e4e450506d643"
+}

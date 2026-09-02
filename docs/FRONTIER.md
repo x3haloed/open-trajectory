@@ -120,11 +120,12 @@ choice.
   lacks behavioral selectivity or one catalog plus one arbitrary blind rule is
   simply too collision-prone to estimate it. Evidence: OT-0305 aggregate
   `2941a2e3...`.
-The immediate experiment should follow exact `e9e152b3...` into the derived
-target-untold selection among its two coherent opportunities. Reuse the generic
-selection, sealed 2/6 consequence, G10, and consequence-earned isolation paths;
-add the prospective actor-facing coherence gate but do not prescribe which
-surface to choose. Preserve the world-seeking stake and OT-0305 negative verdict
-without treating either as target-selection evidence. After this contact and
-its correction become developmentally interpretable, test the stake across
-additional catalogs or a less collision-prone matched baseline.
+OT-0309 is frozen against exact `e9e152b3...`. One fresh target-untold actor may
+choose either of the two coherent opportunities through the generic selection,
+G10, consequence-earned isolation, and sealed 2/6 path. Both branches derive
+correction prospectively; the coherence repair and inherited protected state
+remain exact except for the one newly bound contact stake. Preserve the
+world-seeking stake and OT-0305 negative verdict without treating either as
+target-selection evidence. After this contact and its correction become
+developmentally interpretable, test the stake across additional catalogs or a
+less collision-prone matched baseline.
