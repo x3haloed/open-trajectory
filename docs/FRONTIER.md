@@ -3907,3 +3907,10 @@ world receipt, disclose one canonical counterexample without candidate source,
 leave correction active, and let the ordinary next empty opening authorize a
 fresh actor. Controls must reject surrender with source bytes, revision without
 source bytes, mismatched contact identity, and any success or earned authority.
+
+OT-0301 freezes that missing transition. Exact clean surrender and its sealed
+unresolved world yield one canonical counterexample from the unchanged policy,
+but no source, success, or earned authority. Six counterfactuals fail; exactly
+two surfaces remain earned; correction stays open; and both remaining recovery
+depths prospectively reach 6/6. After freeze and push, assimilate the surrender
+with one zero-actor content-free opening. Do not retry the surrendered actor.

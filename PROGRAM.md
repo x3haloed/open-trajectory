@@ -3181,5 +3181,12 @@ No successor exists; exact `78f2c0e1...` remains current. Next preserve accepted
 surrender plus one world counterexample as non-authoritative feedback, keep the
 correction open, and authorize a fresh successor from that consequence.
 
+OT-0301 freezes surrender as consequence-bearing non-success. It binds the exact
+clean surrender and sealed unresolved world, admits no candidate source or
+success authority, and discloses the lowest canonical mismatch from the
+unchanged 2/6 policy. Six counterfactuals fail. Exactly two surfaces remain
+earned, correction stays open, and both prospective recovery depths reach 6/6.
+Route 16/16 and identity 18/18 remain exact. Live output stays sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,36 @@
+{
+  "artifact_id": "consequence-bearing-surrender-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 958,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5e09d8ec7483f408aa22e97dd095c4455580d92d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0301",
+  "input_manifests": [
+    "evidence/manifests/OT-0300/accepted-final-surface-surrender-binding.json",
+    "evidence/manifests/OT-0300/final-surface-surrender-actor-audit.json",
+    "evidence/manifests/OT-0300/retained-final-surface-pre-correction-subject.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; the retained surrender has not yet been assimilated into the live lineage."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-bearing-surrender-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a70e67d3f98a1f6ecc03414b5e83686dd4da6ab7fd73216ed7d06f8d8a1ebfc4"
+}
