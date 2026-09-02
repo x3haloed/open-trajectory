@@ -1,6 +1,6 @@
 # OT-0279 — standing world renewal
 
-- **Status:** frozen
+- **Status:** rejected
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0278 subject `645c525e...`
 - **Fresh actors:** one subject-blind world scout, no retry
@@ -45,3 +45,22 @@ contrast, not wake, subject selection, learning, or recurrence through the new
 world. The world-side actor is still an external source of objective contact;
 the claim is that experiment-specific human world choice is no longer needed,
 not that the subject authors its own consequences.
+
+## Result
+
+The sole live null opening derives `renew-world-feed`; the renewal-disabled
+control remains at the exact wait with zero actors. One fresh subject-blind
+scout authors `morrowglass-civic-ledger-v1`, changes exactly the package file,
+reports it truthfully, and passes G10. The frozen observer nevertheless rejects
+before scanner admission because executable evaluation returns `execution`.
+No retry occurs and OT-0278's exact fifth-wait subject remains current.
+
+The retained package passes the actor-visible published checker and all three
+surfaces are exactly 2/6 there. Post-hoc diagnosis finds a context-dependent
+evaluator defect: `safe_module` obtains allowed calls such as `max` through
+attribute access on `__builtins__`. The checker process receives a module, but
+the imported lineage evaluator receives a dictionary, so `max` is absent only
+when the observer executes `levy_due`. This is not rescored. A prospective
+evaluator must use the `builtins` module explicitly, prove script/import parity
+over every allowed call, then reconsider these exact retained bytes without a
+new world actor.

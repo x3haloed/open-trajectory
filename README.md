@@ -777,7 +777,9 @@ The strongest footholds are:
 - `OT-0279` freezes a standing renewal policy at that fifth wait. An empty feed
   plus null opening derives a subject-blind world-scout encounter; disabling
   only renewal leaves the exact subject waiting, while a nonempty feed routes
-  to ordinary wake. Live output remains sealed until the freeze is pushed.
+  to ordinary wake. The live scout authors a G10-clean package that passes its
+  published checker, but the frozen imported evaluator loses allowed `max` and
+  rejects on execution. No retry occurs; the exact package is retained.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

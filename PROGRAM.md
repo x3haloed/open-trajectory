@@ -2855,5 +2855,16 @@ operational core, fifth wait, route 16/16, identity 18/18, and excludes the
 subject digest, five seen world ids, and 29 ledger targets from the actor seed.
 Live output remains sealed until this freeze is pushed.
 
+OT-0279 rejects without retry. The derived renewal and disabled control behave
+as frozen, and the sole subject-blind scout authors a truthful, exact-effect,
+G10-clean `morrowglass-civic-ledger-v1`. Its published checker verifies three
+exact 2/6 surfaces, but the imported observer returns `execution` before scanner
+admission. Diagnosis: the shared evaluator constructs its safe builtins through
+attribute access on `__builtins__`; this is a module in the checker process and
+a dictionary in the imported lineage, so allowed `max` is missing only for the
+observer. Preserve the rejected aggregate and candidate package. Next correct
+the evaluator prospectively, require script/import parity for every allowed
+call, and reconsider the exact retained package with zero new actors.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -464,3 +464,9 @@ fifth standing-feed wait.
   renewal-disabled and nonempty-feed controls route to wait and wake
   respectively. Preflight passes exact ancestry, operational preservation,
   16/16 routing, 18/18 identity, package controls, and lineage-state exclusion.
+- OT-0279 rejects before scanner admission. Renewal and the zero-actor control
+  work; the sole scout authors an exact-effect G10-clean Morrowglass package
+  that passes its published checker at 2/6 on all three targets. The imported
+  observer loses allowed `max` because it treats dictionary `__builtins__` as a
+  module. Preserve the candidate and prospectively repair script/import parity;
+  do not resample the world actor or rescore OT-0279.

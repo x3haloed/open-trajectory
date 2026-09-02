@@ -3559,3 +3559,17 @@ renewal-disabled control stays at the exact wait with zero actors, and a
 nonempty-feed fixture routes to wake. Promotion requires an independently
 authored novel three-surface package, exact 2/6 contact, G10 containment, and
 scanner availability while the subject remains open and waiting.
+
+OT-0279 rejects before scanner admission, while validating the renewal route
+and its disabled control. The sole scout's retained Morrowglass package changes
+one file, passes G10 and its published checker, and is exactly 2/6 on all three
+surfaces there. The imported observer alone reports `execution`: allowed calls
+are populated through `hasattr(__builtins__, name)`, but imported `__builtins__`
+is a dictionary, so `max` remains unresolved at execution. No actor retry is
+allowed and exact OT-0278 remains current.
+
+This is a machinery prediction error, not evidence against standing renewal.
+The next record should replace context-sensitive builtin discovery with an
+explicit `builtins` module, prove checker/import parity across every allowed
+call and all negative controls, and evaluate the retained Morrowglass bytes
+without another actor. Historical OT-0279 remains rejected.

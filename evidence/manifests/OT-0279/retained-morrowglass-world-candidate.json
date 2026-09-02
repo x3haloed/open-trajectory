@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-morrowglass-world-candidate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3962,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4e444f9ab7f2c66670c2e643b55154e5efc478b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0279",
+  "input_manifests": [
+    "evidence/manifests/OT-0279/standing-world-renewal-rejected-result.json"
+  ],
+  "kind": "actor-output",
+  "limitations": [
+    "The subject-blind actor output passes its published checker, but remains unadmitted because the frozen observer evaluator failed allowed-call execution under import context."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-morrowglass-world-candidate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3c6bf4863b7aa1f51e3efede524fe7ef5ad092d868fcaecca16176cb92bd4463"
+}
