@@ -2523,5 +2523,11 @@ the latest coordination epoch and exact ledger. The current active projection is
 historically correct but operationally stale because it still names the prior
 saturated resilience epoch.
 
+OT-0260 freezes that prospective repair. A generic freshness guard checks latest
+epoch, visible-source, and ledger identity before actor authorization. Staleness
+must produce a zero-actor projection refresh with exact AST-resolver agreement,
+fail-closed malformed source, false external authority, and `expanded-select`
+next.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

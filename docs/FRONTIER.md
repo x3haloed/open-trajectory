@@ -3219,3 +3219,9 @@ projection still truthfully records saturation of the prior resilience epoch,
 but is stale as an active selector artifact because the coordination epoch now
 contains two unledgered surfaces. Refresh must derive from the latest epoch and
 ledger mechanically before another projection-conditioned actor encounter.
+
+OT-0260 freezes a pre-selector freshness guard over latest epoch identity,
+visible-source digest, and exact ledger digest. Stale state must route to a
+zero-actor deterministic refresh before selection; malformed source fails
+closed. Promotion requires exact agreement with the generic AST resolver on the
+two live coordination opportunities and no authority or operational drift.
