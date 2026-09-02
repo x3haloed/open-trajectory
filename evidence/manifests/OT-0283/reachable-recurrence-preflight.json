@@ -1,0 +1,35 @@
+{
+  "artifact_id": "reachable-recurrence-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 983,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b7bb365871b75d0889b050ce92de578cec7836ec",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0283",
+  "input_manifests": [
+    "evidence/manifests/OT-0282/rejected-morrowglass-recurrence-preflight.json",
+    "evidence/manifests/OT-0281/open-subject-at-morrowglass-contradiction.json",
+    "evidence/manifests/OT-0280/independent-morrowglass-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; no live actor output or subject transition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reachable-recurrence-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5e223c02512c92af572ff77d352462bb939bd86826f05ee4e699f56a98bdd229"
+}
