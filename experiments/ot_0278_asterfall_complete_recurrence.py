@@ -383,8 +383,6 @@ def main():
         package,
         result275,
         fixtures,
-        route,
-        identity,
         core,
         base130,
     )

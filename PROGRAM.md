@@ -2825,5 +2825,9 @@ let objective consequence choose correction depth, saturate Asterfall, install a
 fifth wait, and exactly re-observe it within sixteen calls. Live output remains
 sealed until this graph is pushed.
 
+OT-0278's first command stops before actor authorization on a wrapper arity
+error. No invocation or actor context exists. Freeze the exact ten-argument call
+repair and rerun the unchanged 54-branch preflight before live retry.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

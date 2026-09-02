@@ -34,3 +34,11 @@ subject.
 This tests recurrence across a second independent semantic world. Continued
 world acquisition after the fifth wait and removal of the remaining external
 world-author/provider role remain separate claims.
+
+## Pre-actor apparatus correction
+
+The first live command stopped before actor authorization because the wrapper
+passed two retired preflight values into OT-0274's ten-argument transition
+entry point. No invocation directory or actor context was created. The call now
+uses the exact current signature; the unchanged 54-branch preflight is rerun and
+the repair is pushed before live retry.
