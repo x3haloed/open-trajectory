@@ -3224,5 +3224,13 @@ floors. Refresh reaches zero opportunities, expansion installs the new eighth
 wait, exact reobservation leaves the subject byte-identical, and renewal derives
 next with the complete surrender and invalidity history retained.
 
+OT-0303 promotes across three live content-free openings with zero actors.
+Operations derive exactly refresh, expansion, and wait; the eighth wait is
+installed with seven discharges and then reobserved byte-exactly. Exact open
+subject `e193ec50...` retains all three earned surfaces, surrender feedback, and
+invalidity/recovery lineage and derives `renew-world-feed`. Aggregate receipt
+`2d6bc3b0...`. The immediate frontier is renewed provider generation from this
+subject-owned opening.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

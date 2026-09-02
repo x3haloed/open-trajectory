@@ -1,0 +1,36 @@
+{
+  "artifact_id": "exact-eighth-wait-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1105,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ff0a15a1fd096e645057703b11b3e813c653126",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0303",
+  "input_manifests": [
+    "evidence/manifests/OT-0303/refresh-invocation.json",
+    "evidence/manifests/OT-0303/eighth-wait-installation-invocation.json",
+    "evidence/manifests/OT-0303/exact-wait-reobservation-invocation.json",
+    "evidence/manifests/OT-0303/exact-eighth-wait-recurrence-preflight.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One exact actor-free suffix in one lineage; renewed provider generation remains unobserved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-eighth-wait-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "780a02fe984acf77a621e98b3e4e5cb46bef62f581c5da147232ede2155d2df1"
+}

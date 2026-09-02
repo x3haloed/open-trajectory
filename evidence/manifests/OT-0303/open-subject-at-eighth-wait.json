@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-eighth-wait",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1571050,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ff0a15a1fd096e645057703b11b3e813c653126",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0303",
+  "input_manifests": [
+    "evidence/manifests/OT-0303/exact-eighth-wait-recurrence-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open waiting subject with renewed world provision derived but not yet executed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-eighth-wait",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "77a283179d4583975d6dd8321f78e5443fd97da8c591222cb783553ab56548e8"
+}

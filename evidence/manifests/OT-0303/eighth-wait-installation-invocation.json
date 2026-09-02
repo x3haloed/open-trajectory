@@ -1,0 +1,33 @@
+{
+  "artifact_id": "eighth-wait-installation-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1974,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ff0a15a1fd096e645057703b11b3e813c653126",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0303",
+  "input_manifests": [
+    "evidence/manifests/OT-0303/refresh-invocation.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "One content-free zero-actor saturation and eighth-wait installation invocation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:eighth-wait-installation-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9577e5c2544cc804f13b44621877a49b3f5c7e1d72514485638c27a2263f18e8"
+}

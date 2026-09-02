@@ -1,0 +1,33 @@
+{
+  "artifact_id": "exact-wait-reobservation-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1954,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ff0a15a1fd096e645057703b11b3e813c653126",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0303",
+  "input_manifests": [
+    "evidence/manifests/OT-0303/eighth-wait-installation-invocation.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "One content-free zero-actor exact wait reobservation; renewed provision remains unobserved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-wait-reobservation-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f049869733cb6075b34563cbc1b42aee394e3cfcb323e332ac6bfdae15e47b84"
+}

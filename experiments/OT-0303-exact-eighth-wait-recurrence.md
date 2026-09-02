@@ -1,6 +1,6 @@
 # OT-0303 — Exact eighth-wait recurrence
 
-- **Status:** designed, not run
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0302 recovered subject `140e793e...`
 - **Invocation:** three identical content-free openings
@@ -40,3 +40,15 @@ zero remaining epoch work; expansion installs a new eighth wait with seven
 discharges; reobservation is byte-exact; and renewal derives next. All retained
 consequence and earned authority remain exact, all five controls pass, and route
 16/16 plus identity 18/18 hold. Preflight receipt `4a5a28d2...`.
+
+## Bounded result
+
+All three live openings pass with zero actors and no supplied content. They
+derive exactly refresh, expansion, and wait. The second opening installs the
+eighth wait with seven discharges; the third returns the identical waiting
+subject. Exact open subject `e193ec50...` retains all three earned surfaces,
+the surrender feedback, and the invalidity/recovery lineage, and now derives
+`renew-world-feed`. Aggregate receipt `2d6bc3b0...`.
+
+This closes the recovered world's cycle through exact turn-boundary recurrence.
+The next test is renewed provider generation from this subject-owned opening.
