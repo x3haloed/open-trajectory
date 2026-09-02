@@ -2806,6 +2806,11 @@ non-authoritative offer without ledger or epoch change. Exact `f1c8d8de...` is
 open at environment expansion. Next require one fresh subject actor to choose
 among its three surfaces before the retained sealed half issues consequence.
 
+OT-0277 freezes that subject encounter as one content-free expansion call. All
+three Asterfall choices pass prospectively through public execution, offer
+consumption, new-epoch construction, retained-package 2/6, and correction-first
+routing. The live actor receives no target hint and no sealed material.
+
 Next expose only that exact public projection to the standing scanner. Require
 actor-free wait discharge before any subject actor sees it; then exercise the
 existing content-free recurrence against the retained sealed package rather

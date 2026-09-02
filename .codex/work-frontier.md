@@ -443,3 +443,6 @@ standing-feed wait.
 - OT-0276 discharges that wait with zero actors and no ledger or epoch change.
   Exact `f1c8d8de...` holds only the non-authoritative public offer and routes
   to environment expansion. Fresh subject selection is now the active edge.
+- OT-0277 freezes selection from that offer. All three actor choices pass
+  prospectively at public execution and retained-package 2/6, with correction
+  before refresh. One fresh actor receives no target hint or sealed package.

@@ -3515,3 +3515,8 @@ OT-0276 completes that actor-free wake. Exact `f1c8d8de...` holds Asterfall's
 public offer, preserves the four prior waits and all learned state, and routes
 to expansion without target choice. The next call must let a fresh subject
 actor choose a surface and receive 2/6 from OT-0275's retained sealed half.
+
+OT-0277 freezes that choice. Each of the three offered callables prospectively
+passes the exact public checker and produces a conformant unresolved 2/6
+successor. One fresh actor will choose without a target hint; live output remains
+sealed until the freeze is pushed.
