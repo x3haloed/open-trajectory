@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actionable-actor-prompt",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 404,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1907c1aadf86aa42401d2d1d1831a82e20901a07",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0345",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Subject-derived workspace prompt."
+  ],
+  "media_type": "text/markdown",
+  "reconstruction": {
+    "expected_output": "artifact:actionable-actor-prompt",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6ff5472f824bb8a04b212ba673f5961d7d159a8bc3efc64668b7be4cdc10e9c3"
+}

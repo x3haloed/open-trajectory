@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actionable-opening-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5315,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1907c1aadf86aa42401d2d1d1831a82e20901a07",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0345",
+  "input_manifests": [],
+  "kind": "evaluation-regime-conformance",
+  "limitations": [
+    "Prospective materialization anchors only; no actor transition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actionable-opening-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bff3fafa13070ad7590d4543e42986a56e58efe28eda45d2a7987031550b0d81"
+}

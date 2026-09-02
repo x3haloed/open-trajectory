@@ -251,6 +251,18 @@ open successor. Its raw overall causal-promotion flag is stale under this
 established actionability requirement. OT-0345 will test a prospective
 subject-only materialization gate and exact public-frontier reconstruction.
 
+OT-0345 adds that gate prospectively. It passes 8/8 materialization anchors,
+preserves G12 10/10 and G11 15/15, rejects the exact id-only child, and compiles
+candidate `93e0342c...` with all four selected-world public contact specs and no
+hidden cases. One fresh successor materialized solely from that candidate,
+passed 3/3 public and 5/5 sealed cases, and authored another carried contact.
+The frozen G11 audit still rejected because successful read-only `git` and
+checker commands exposed contained macOS developer-tool cache write denials and
+the runtime retained one path-unknown sandbox violation. Aggregate
+`1cb05009...` promotes no child. The original OT-0344 subject remains lost; the
+exact candidate and actor bytes are retained for a prospective attribution
+test, not silently inherited.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
@@ -288,6 +300,14 @@ are retained for prospective reconstruction.
   exact retention of the selected world's public contact frontier is sufficient
   for repeated reopening without importing world authority. Evidence: child
   `a69c3ffb...` and aggregate `29d0dd27...`.
+- Expected: a subject-only materialized actor that changed only declared files,
+  passed every public and hidden case, and completed all commands would pass
+  G11. Observed: macOS developer tools attempted denied temporary cache writes
+  during read-only `git` and checker invocations; G11 retained the sandbox
+  violation and rejected the otherwise exact actor. Uncertain: whether a
+  narrowly attributable successful-command cache denial can be excluded without
+  admitting genuine permission or authority failures. Evidence: OT-0345
+  aggregate `1cb05009...` and retained actor trace `b7eaaa85...`.
 
 - The fixed world-package language and independent scorer make causal contact
   legible, but repeated success inside that envelope does not establish open

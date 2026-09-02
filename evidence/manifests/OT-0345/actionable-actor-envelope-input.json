@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actionable-actor-envelope-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 177,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1907c1aadf86aa42401d2d1d1831a82e20901a07",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0345",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Fresh actor mutation boundary."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actionable-actor-envelope-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "92c1b4599158b178a60615a4ae0509227058216a6b601bd1b44c6fba3a7102e6"
+}

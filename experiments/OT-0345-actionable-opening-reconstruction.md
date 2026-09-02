@@ -1,6 +1,6 @@
 # OT-0345 — Actionable-opening reconstruction
 
-- **Status:** frozen; not yet executed
+- **Status:** executed — actionability correction valid; live rescue rejected
 - **Evidence class:** exploratory-only
 - **Source observation:** OT-0344 child `a69c3ffb...`
 - **Fresh actors:** at most one exact next-contact successor
@@ -56,3 +56,29 @@ breadth.
 One retained-seed reconstruction, one fresh actor, no retries, no post-output
 repair, and fifteen observer minutes. Stop after exact successor materialization
 and the two deterministic erasure controls.
+
+## Result
+
+The prospective materialization gate passed 8/8 semantic anchors while
+preserving all 10/10 G12 and 15/15 G11 anchors. It correctly rejects the exact
+OT-0344 id-only child and a frontier-erased branch. Exact reconstruction of the
+retained private derivation produced the same public receipt digest and compiled
+four public contact specifications with no hidden cases. Candidate subject
+`93e0342c...` materializes the actor-authored next contact without consulting
+the private seed or raw run directory.
+
+The one fresh actor substantively passed: its subject-derived projection was
+byte-exact, its correction scored 3/3 public and 5/5 hidden, and it authored a
+different retained contact. The frozen G11 audit nevertheless rejected the
+encounter. Read-only `git` and the successful public checker caused the macOS
+developer toolchain to attempt cache writes under a denied temporary path;
+those contained denials were visible in command output and the runtime retained
+one path-unknown sandbox violation. All commands exited zero and declared
+effects were exact, but G11 does not attribute this denial as immaterial.
+
+OT-0345 therefore promotes no operational successor. Aggregate `1cb05009...`
+retains the corrected OT-0344 interpretation and the exact semantically passing
+actor evidence, but observer disposition is rejected and subject disposition
+remains lost. A later audit refinement may reconstruct these exact bytes only
+if it first passes independent denial-attribution anchors without weakening
+permission, path, effect, semantic, or trace failures.

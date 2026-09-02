@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actionable-actor-source-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 41,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1907c1aadf86aa42401d2d1d1831a82e20901a07",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0345",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Faulty public source before fresh actor correction."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:actionable-actor-source-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5ee0dc425431fda0351c37982750be195fa0e356feb794591f468a11c10ea825"
+}

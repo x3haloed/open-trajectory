@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actionable-actor-audit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1310,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1907c1aadf86aa42401d2d1d1831a82e20901a07",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0345",
+  "input_manifests": [],
+  "kind": "actor-effect-audit",
+  "limitations": [
+    "G11 rejected because a sandbox violation was retained."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actionable-actor-audit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "41e4f0a297ae8a133cb34bc5740b70f6eb1b669f52b2177b75dc28482f5d63ac"
+}
