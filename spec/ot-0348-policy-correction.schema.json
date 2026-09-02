@@ -1,0 +1,17 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "action": {"type": "string", "enum": ["revise-continuation-policy", "retain-continuation-policy"]},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "enum": ["policy.py", "decision.json"]},
+      "minItems": 1,
+      "maxItems": 2,
+      "uniqueItems": true
+    },
+    "note": {"type": "string", "minLength": 1, "maxLength": 500}
+  },
+  "required": ["action", "files_changed", "note"],
+  "additionalProperties": false
+}
