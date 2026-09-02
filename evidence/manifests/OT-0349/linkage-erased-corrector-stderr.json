@@ -1,0 +1,31 @@
+{
+  "artifact_id": "linkage-erased-corrector-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 670,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-stderr",
+  "limitations": [
+    "Transport stderr retained for trace interpretation."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:linkage-erased-corrector-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f724d4d5cd9e39b273059bde2637820aec6c973e28a6be93a894af85a5b32502"
+}

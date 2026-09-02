@@ -1,0 +1,31 @@
+{
+  "artifact_id": "linkage-erased-corrector-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 325,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Fresh hosted actor output; no generation-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:linkage-erased-corrector-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7a0fe05f2dbd37d8b706c38dc8c77a9df55c5980bab73c4c121c1ce18f97e053"
+}

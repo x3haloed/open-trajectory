@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 19670,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Complete broad-tool trace retained for G13 audit."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8c9b9b4f8c704ae08bf6a0c51c7cd14ef5fc5e12bce49186ea00830fc12c2a17"
+}

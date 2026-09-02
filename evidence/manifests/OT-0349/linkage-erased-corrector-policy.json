@@ -1,0 +1,31 @@
+{
+  "artifact_id": "linkage-erased-corrector-policy",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 904,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Exact matched control policy source."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:linkage-erased-corrector-policy",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f683419a372af64c1ab9ee41f3c18c1e0f654b8472c4c9ed9dda6dacf77cdf5b"
+}

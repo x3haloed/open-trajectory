@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-decision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 646,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Actor-authored machinery revision decision."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-decision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8fe533758371ca3a57f245333eeedbb78b0860e5825a91185913f86d5f2aca9f"
+}

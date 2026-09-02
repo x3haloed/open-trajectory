@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actionable-prediction-error-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2760,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "conformance-receipt",
+  "limitations": [
+    "Prospective fixtures; no actor-behavior claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actionable-prediction-error-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c68c2154a1ff62bd8c49370d0a7c8656af0d479967cdd6e29f1631f3346f02b0"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actionable-prediction-error-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 23311,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Operational chain completed; linkage-erased actor made an equivalent revision, defeating the substrate-causal claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actionable-prediction-error-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "65e84f2baa31e6742f6f5d1b99cec8964c39dff13fad3415588f2477cc8786e0"
+}

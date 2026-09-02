@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 764,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Fresh hosted actor input; deployment alias limits exact model attribution."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e3861c8d71d490e291b4c0e9895933478db878a5fe447ddf636c6a58ad355edb"
+}

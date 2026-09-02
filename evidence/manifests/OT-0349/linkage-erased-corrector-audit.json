@@ -1,0 +1,31 @@
+{
+  "artifact_id": "linkage-erased-corrector-audit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1392,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-audit",
+  "limitations": [
+    "G13 contained-effect audit."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:linkage-erased-corrector-audit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cb0e6a65415233762a06c50297ef93f36e3b08fad3f8cd3969b2df3c5233fb97"
+}

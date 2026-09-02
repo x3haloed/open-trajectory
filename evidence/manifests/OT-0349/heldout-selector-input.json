@@ -1,0 +1,31 @@
+{
+  "artifact_id": "heldout-selector-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 386,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Fresh hosted actor input; deployment alias limits exact model attribution."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-selector-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b70ea36783ec2bb01f9d50fa78b990feaf106c17e410853e0a37c80542a75a24"
+}

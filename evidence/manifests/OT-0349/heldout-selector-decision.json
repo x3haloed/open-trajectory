@@ -1,0 +1,31 @@
+{
+  "artifact_id": "heldout-selector-decision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 359,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Actor-enacted bound policy selection."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-selector-decision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1f5a4f29f150c0f33c93ba9074c5eca97f85fdf1021a6a4575b00a94fac17a1f"
+}

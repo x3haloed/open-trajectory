@@ -1,0 +1,31 @@
+{
+  "artifact_id": "heldout-selector-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11631,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Complete broad-tool trace retained for G13 audit."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-selector-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fe93b4b9dea7bb82bddb69c2a78dfd4a1a303aa468a27faff8183aaca0e7413e"
+}

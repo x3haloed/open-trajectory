@@ -306,6 +306,20 @@ seed. Aggregate `4082e293...` rejects the correction hypothesis and exact
 subject `708ea5a3...` remains current. Raw consequence availability alone did
 not turn a proxy/outcome inversion into an actionable correction.
 
+OT-0349 compiles that inversion into a subject-held prediction error. Its active
+fresh actor revises the executable policy from immediate count to verified
+reopened-contact count and improves retained training yield 0→3. After exact
+binding, a disjoint private catalog gives the changed policy four downstream
+openings while exact machinery erasure gives zero. Two later fresh actors enact
+the selection and contact, pass 3/3 public plus 5/5 hidden consequence, preserve
+40/40, and produce actionable candidate subject `d80ac19e...` with four public
+contacts. But the linkage-erased actor, externally assigned the same correction
+task with identical raw consequence, independently authors an equivalent
+delayed-opening rule. Aggregate `01b8deab...` therefore supports a bounded
+operational candidate but not prediction-error causality. The control also ran
+before active binding, so exact prospective reconstruction is required before
+that candidate becomes the current subject.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
@@ -375,6 +389,15 @@ are retained for prospective reconstruction.
   a subject-carried predicted-versus-realized discrepancy can make the same
   bytes causally actionable without prescribing the repair. Evidence: OT-0348
   aggregate `4082e293...`; no held-out seed was generated.
+- Expected: adding a subject-held proxy/outcome prediction error would uniquely
+  cause policy correction against a matched raw-consequence projection.
+  Observed: the active actor corrected and its child beat exact machinery
+  erasure 4→0 on post-binding heldout contact, but the linkage-erased actor also
+  generated an equivalent operative revision after the observer opened the same
+  correction task for it. Uncertain: whether the artifact's real causal role is
+  selecting the correction operation, not changing cognition inside an already
+  selected correction turn. Evidence: OT-0349 aggregate `01b8deab...` and
+  candidate subject `d80ac19e...`.
 - OT-0318 resolves the missing-action question: a training-only executable
   workbench let a fresh actor propose and verify its own 3/3 repair, which
   reached private 5/5 against exact-parent 0/5; erasing outcomes made the same

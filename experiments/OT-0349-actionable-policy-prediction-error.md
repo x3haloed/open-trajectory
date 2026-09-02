@@ -87,3 +87,40 @@ At most four fresh actors, no retries, no post-output repair, one exact retained
 training derivation, one post-binding held-out derivation, and forty observer
 minutes. Stop after deterministic controls and subject disposition are sealed.
 Observation completion does not close an open subject.
+
+## Result
+
+The active fresh actor treated the subject-held prediction error as a
+falsification of the incumbent proxy. It changed the exact policy from immediate
+viable-contact count to independently verified reopened-contact count, passed
+the generic checker with a clean three-command G13/G11 trace, and improved the
+retained training consequence from zero to three downstream openings. Its
+source was bound before one new private held-out seed was generated.
+
+On fresh ids, order, cutoffs, and counts, the bound program selected the
+two-current/four-downstream world. Exact machinery erasure selected the
+six-current/zero-downstream world. A fresh selector enacted the bound choice;
+a fourth fresh actor repaired the chosen contact and passed 3/3 public plus 5/5
+hidden cases. Exact 40/40 floor state remained unchanged. Candidate subject
+`d80ac19e...` contains the four public downstream contact specifications and
+materializes its active opening without private state.
+
+The stronger substrate-causal claim fails. The linkage-erased actor, which
+still received the raw outcome rows and was externally placed into the same
+correction task, independently authored an operative delayed-opening policy.
+Its source differs in tie-breaking and outcome qualification, but chooses the
+same worlds as the active source on all six frozen equivalence anchors. Thus
+the active prediction-error record did not cause discovery once the observer
+had already chosen to open a correction actor.
+
+Aggregate `01b8deab...` is conditional operational evidence, not a promoted
+prediction-error mechanism claim. A protocol-order limitation also remains:
+the linkage-erased actor ran before the active binding was sealed, although its
+output was isolated and not consulted by binding or held-out generation. A
+prospective exact reconstruction must settle the operational child without
+resampling. The next causal test should give the same fixed driver active and
+linkage-erased subject states: only the active prediction error should derive
+`resolve-selection-prediction-error`; the erased branch should follow its
+unchanged policy-reuse operation. That tests whether the artifact causes the
+correction turn to happen, rather than whether it changes an already assigned
+correction task.

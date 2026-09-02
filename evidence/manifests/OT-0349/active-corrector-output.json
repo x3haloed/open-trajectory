@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 336,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Fresh hosted actor output; no generation-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ed9f06ea396534910b6c89339d2cbfd14fc275cdb5f5b9caa4e18a9625576829"
+}

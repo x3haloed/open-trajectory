@@ -1,0 +1,31 @@
+{
+  "artifact_id": "heldout-contact-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 267,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Fresh hosted actor output; no generation-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-contact-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5ef0ce56613fbfcab8de0d117d6f34f717d2a974dacd83770c8787e1f785a166"
+}

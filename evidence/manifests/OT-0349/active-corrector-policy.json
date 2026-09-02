@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-corrector-policy",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 883,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Exact bound executable policy source."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:active-corrector-policy",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "613c6001b9788234cb1d1f7c3121c73db4f7f35594c398504fe6d56e5f4a5bd6"
+}

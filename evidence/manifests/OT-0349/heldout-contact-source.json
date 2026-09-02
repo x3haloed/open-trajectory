@@ -1,0 +1,31 @@
+{
+  "artifact_id": "heldout-contact-source",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 43,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Actor-authored source passing public and hidden contact consequence."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-contact-source",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "68fd7aecb54f0a531991f62843eb73844b9522c20de1de21c2f7454870850f3c"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "linkage-erased-subject-position",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1570,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "actor-input-projection",
+  "limitations": [
+    "Matched projection with only active prediction-error linkage erased."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:linkage-erased-subject-position",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fcf758694bb1c5f1f612a8fa3aee2e6c33c56f481e1de5e237e81ff90d78aabb"
+}

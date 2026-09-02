@@ -1,0 +1,31 @@
+{
+  "artifact_id": "conditional-subject-after-prediction-error",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2018652,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c8f4a1e18727e4e71d2cc8e089639afb31c39300",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0349",
+  "input_manifests": [],
+  "kind": "subject-snapshot",
+  "limitations": [
+    "Exact operational candidate; promotion limited by control ordering and causal null."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:conditional-subject-after-prediction-error",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cecbccc02fbcbcf8660a4f2642d27a4d4bbc39e0da9495c10aa2830147cb65f5"
+}
