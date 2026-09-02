@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["action", "files_changed", "stake_id"],
+  "properties": {
+    "action": {"type": "string", "const": "author-world-seeking-stake"},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "const": "world-seeking-stake.json"},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "stake_id": {"type": "string", "minLength": 3, "maxLength": 64}
+  }
+}

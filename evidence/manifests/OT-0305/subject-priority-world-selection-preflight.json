@@ -1,0 +1,34 @@
+{
+  "artifact_id": "subject-priority-world-selection-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1050,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a4b45b2075815d1a249e7ab2344d64e711525a7d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0305",
+  "input_manifests": [
+    "evidence/manifests/OT-0304/unchanged-current-subject.json",
+    "evidence/manifests/OT-0304/priority-bearing-renewal-gate-aggregate.json"
+  ],
+  "kind": "preflight-receipt",
+  "limitations": [
+    "Construction fixtures only; no live stake or provider output has been generated."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-priority-world-selection-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "674d133208eef3783a0ad136d88f2bd1e0703ba32eac4fe6abe2f1bd8bb8bb07"
+}
