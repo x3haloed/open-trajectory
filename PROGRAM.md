@@ -3056,5 +3056,14 @@ unresolved 2/6 consequence and correction routing with scars and recovery
 receipt exact, route 16/16, and identity 18/18. Live output remains sealed until
 this freeze is pushed.
 
+OT-0292 rejects at its second live opening before any actor. Actor-free scanner
+wake succeeds and exact `3fcb9e39...` carries the offered recovered world, but
+the live driver invokes generic derivation and returns `expand-environment`
+instead of giving the active streamed offer `expanded-select` precedence. The
+preflight manually exercised the downstream selection branch and therefore did
+not test this routing edge. Preserve both the rejection and exact post-wake
+subject. Next add only offered-world precedence and test the real live derive
+sequence prospectively; retain the corrected content gate unchanged.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

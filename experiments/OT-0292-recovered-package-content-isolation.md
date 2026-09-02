@@ -1,6 +1,6 @@
 # OT-0292 — Recovered-package content isolation
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** rejected at second live opening before actor authorization
 - **Evidence class:** exploratory-only
 - **Parent:** OT-0291 zero-actor isolation rejection
 - **Invocation:** unchanged two content-free openings
@@ -49,3 +49,18 @@ cases, full case collection, and sealed filenames. Injecting each of those four
 content classes makes the predicate fail. All three unchanged choice branches
 reach unresolved 2/6 consequence and correction routing with invalidity lineage
 exact, route 16/16, and identity 18/18. Preflight receipt `1de8c346...`.
+
+## Live result
+
+The first opening passes: the scanner finds the sole recovered world, uses zero
+actors, discharges the seventh wait, preserves invalidity lineage, and produces
+exact open subject `3fcb9e39...` with an active streamed offer. The second
+opening rejects before actor authorization. The live driver calls the generic
+subject derivation directly, which returns `expand-environment`; it does not
+apply the offered-world precedence required to derive `expanded-select`.
+
+The preflight missed this because it manually exercised the downstream
+selection fixture rather than the live derivation function. Preserve the
+rejection and post-wake subject. The next design must add the single precedence
+rule and prospectively pass the actual live driver through wake and selection;
+the content-isolation correction remains valid.

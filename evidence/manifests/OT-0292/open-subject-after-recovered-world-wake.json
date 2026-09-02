@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-recovered-world-wake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1517404,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8899b800281defab011e3b9ad74fe13766742dd9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0292",
+  "input_manifests": [
+    "evidence/manifests/OT-0292/rejected-post-wake-live-routing-invocation.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open post-wake subject retained after the following routing invocation rejected without an actor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-recovered-world-wake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d82e4a800aae9478fcd08e0e1b13ba139b294300bdc118645a49301c6e2544c4"
+}

@@ -3766,3 +3766,13 @@ leaks all fail. Every unchanged target branch now passes at 2/6 with correction
 next, and all recovery lineage and standing floors remain exact. After freeze
 and push, the live test returns to two content-free openings: actor-free wake,
 then one fresh target-untold selection from the external workspace.
+
+OT-0292's live wake passes but its next opening rejects before actors. Exact
+post-wake subject `3fcb9e39...` contains the active streamed offer; the live
+driver nevertheless calls generic derivation directly and obtains
+`expand-environment` rather than `expanded-select`. The preflight's manually
+constructed selection branches did not cover that driver edge. This is an
+evaluation-regime miss as well as a routing defect. Preserve the rejection.
+The next record should change only offered-world precedence and require the
+actual prospective driver sequence to be `wake-world`, `expanded-select` before
+unsealing another live selector. Keep OT-0292's content gate exact.
