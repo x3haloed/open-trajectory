@@ -2669,5 +2669,11 @@ provider code—must discover this exact public package, discharge the resulting
 wait, and expose it to a fresh subject actor. Independent consequence must come
 from OT-0268's sealed half.
 
+OT-0269 freezes the dormant interval as ten calls to one content-free entry
+point. The active feed is deliberately empty: correction, refresh, both possible
+orders of the two remaining selections and corrections, saturation, third-wait
+installation, and exact wait re-observation must all derive from serialized
+subject state. OT-0268 package identity and bytes remain outside every call.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

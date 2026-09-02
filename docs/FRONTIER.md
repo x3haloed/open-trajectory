@@ -3380,3 +3380,9 @@ without consuming the dormant package early. Only after saturation and waiting
 may the exact standing scanner discover it. A subsequent subject actor must
 choose among its surfaces without sealed access and receive consequence from the
 already retained package; otherwise OT-0267/0268 remain component successes.
+
+OT-0269 freezes the fourth-epoch suffix with the new package absent from the
+active feed. Ten identical invocations must derive one current correction, two
+selection/correction pairs, three refreshes, empty-feed waiting, and exact wait
+re-observation. Both remaining-target orders must pass prospectively. Promotion
+ends at a third durable wait, not package discovery.
