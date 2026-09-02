@@ -1,0 +1,31 @@
+{
+  "artifact_id": "executable-assessor-retention-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 54083,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "eda2c392c807325fb79b9e02a630e705950be44d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0326",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Public deterministic preflight only; no private seed or actor output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:executable-assessor-retention-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "caa3da98742dde205c9714a209510d1e3812a3e881463d37a6fcf18f06ba6c65"
+}
