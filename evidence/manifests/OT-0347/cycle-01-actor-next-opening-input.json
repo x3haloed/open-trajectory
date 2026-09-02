@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cycle-01-actor-next-opening-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 164,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "94a7eecbfbc2f93ce1fa525edf7c031db45f52be",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0347",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Subject-derived public workspace input; hidden consequence omitted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cycle-01-actor-next-opening-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8876278bf9ff6b275159c33970c600cabb22cb2ba8a67bcef7b5fce5dc543b74"
+}

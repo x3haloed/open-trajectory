@@ -1,0 +1,31 @@
+{
+  "artifact_id": "frontier-recurrence-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5877,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "94a7eecbfbc2f93ce1fa525edf7c031db45f52be",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0347",
+  "input_manifests": [],
+  "kind": "experiment-preflight",
+  "limitations": [
+    "Prospective driver and evaluation anchors only."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:frontier-recurrence-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6e7670c818ba95c9bd5438d7abd095df6bf9b9912ff3ebfc70661a5591bc13d5"
+}

@@ -1,6 +1,6 @@
 # OT-0347 — Frontier-exhaustion recurrence
 
-- **Status:** frozen; not yet executed
+- **Status:** executed — two-cycle exhaustion recurrence promoted
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0346 child `94399d16...`
 - **Fresh actors:** at most two, one per remaining subject-held contact
@@ -57,3 +57,24 @@ autonomous world provision.
 Two fresh actors, no retries, no protocol repair, exact reuse of one prior
 private world, and twenty observer minutes. Stop after the exhaustion route and
 erasure controls are recorded; the open subject continues beyond observation.
+
+## Result
+
+The unchanged driver opened two fresh isolated actors from consecutive subject
+states. Actor one repaired `contact-21d16d1a4106f470`, passed 3/3 public and
+5/5 hidden, and selected the sole remaining contact. That exact choice became
+actor two's active contact without observer selection. Actor two repaired
+`contact-e2d582528282be65`, again passed 3/3 public and 5/5 hidden, then found
+no remaining local contact and emitted the typed
+`test-world-consequence-policy-reuse` operation with no contact id.
+
+Both actors changed only the two declared files, passed G11 directly, and
+required neither G13 attribution nor retry. All four selected-world contacts
+are now consumed, frontier erasure has no continuation, and the exact 40/40
+global floor is unchanged. Aggregate `9b293dc6...` promotes exact open subject
+`708ea5a3...`, whose next operation returns to fresh consequence-policy reuse.
+
+This is bounded operational recurrence through two actor endings and one local
+saturation boundary. It does not show new selector learning, a new world-policy
+effect, autonomous environment provision, or recurrence outside this synthetic
+contact family.

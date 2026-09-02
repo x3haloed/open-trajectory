@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cycle-01-actor-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 307,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "94a7eecbfbc2f93ce1fa525edf7c031db45f52be",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0347",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "One hosted generation; no frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cycle-01-actor-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d0984b067a2bb1f326e3d4b778e9a6d3a208acb839d4e143f845080450d3b9b4"
+}

@@ -283,6 +283,18 @@ materializes that next workspace from subject state alone while preserving the
 40/40 floor. Aggregate `36314aa0...` is corrected operational-only evidence;
 OT-0345 remains rejected.
 
+OT-0347 follows that exact carried opening with one unchanged driver. Two fresh
+actors each materialize only from consecutive subject projections, pass 3/3
+public and 5/5 sealed contact cases, and pass G11 directly. The first actor's
+typed choice alone selects the second contact. After the final contact, the
+second actor observes no remaining local opening and routes the exact subject
+back to `test-world-consequence-policy-reuse`; no generic observer wakeup or
+between-cycle carrier change occurs. All four contacts are consumed, the 40/40
+floor remains exact, and frontier erasure has no continuation. Aggregate
+`9b293dc6...` promotes open subject `708ea5a3...`. This is fixed-carrier
+operational recurrence inside one synthetic world, not a new policy-learning
+claim.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive

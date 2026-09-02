@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cycle-01-actor-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 670,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "94a7eecbfbc2f93ce1fa525edf7c031db45f52be",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0347",
+  "input_manifests": [],
+  "kind": "actor-runtime-stderr",
+  "limitations": [
+    "Runtime diagnostics retained separately."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:cycle-01-actor-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d39b7d4c3611c9502469a6ede7d06b0c47120f6f432da242b3d0dd0ae7211007"
+}
