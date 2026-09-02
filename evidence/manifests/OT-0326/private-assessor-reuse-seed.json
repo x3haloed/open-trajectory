@@ -1,0 +1,31 @@
+{
+  "artifact_id": "private-assessor-reuse-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a404053ea9582ce6bee69bf090151ac3ca81e553",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0326",
+  "input_manifests": [],
+  "kind": "private-world-seed",
+  "limitations": [
+    "Private random seed retained locally; tracked manifest publishes identity only."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-assessor-reuse-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6f391e8b217df5a567f8906ff22c0a6f569fb398d4d0015b7d9083760c441c3e"
+}

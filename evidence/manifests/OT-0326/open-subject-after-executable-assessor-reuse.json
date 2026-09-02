@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-executable-assessor-reuse",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1867430,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a404053ea9582ce6bee69bf090151ac3ca81e553",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0326",
+  "input_manifests": [
+    "evidence/manifests/OT-0326/executable-assessor-retention-reuse-aggregate.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Exact open subject carrying executable assessor, learned router, retained search, and reuse receipt."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-executable-assessor-reuse",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c8bb0598d8b82ef2d30040327ad70798eda04793ba6c5b4782db799e483f375a"
+}

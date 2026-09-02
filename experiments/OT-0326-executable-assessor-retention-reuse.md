@@ -1,6 +1,6 @@
 # OT-0326 — Executable assessor retention and reuse
 
-- **Status:** frozen
+- **Status:** completed — promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0325 subject `1edc2027...`
 - **Claim:** the exact subject can carry the executable E13 front assessor that
@@ -81,3 +81,25 @@ One passing run would establish one bounded causal reuse of a self-contained
 executable E13 assessment path across fresh actors. It would not establish
 generation reliability, actor-authored contact, autonomous world generation,
 or full OT-2R recurrence.
+
+## Result
+
+The candidate subject carried the exact E13 assessor source and its OT-0325
+causal receipt; the matched branch carried the same source digest, interface,
+history, fronts, floor, router, search, tools, and budget but no executable
+assessor body. A fresh candidate actor invoked `continue_pipeline.py`, which
+executed the inherited assessor, learned router, and retained search. The
+assessor rejected the higher local-gain candidate because it scored 25/30 on
+the floor, the router selected the lower-gain 30/30-preserving front, and search
+returned call weight -5. The actor changed only the stake, replayed 4/4,
+preserved 30/30, and reached 35/35. Its broad-tool trace was clean.
+
+The operational child was sealed before the control. The source-erased fresh
+actor ran the same pipeline, received `front-assessor-source-unavailable`, and
+retained exactly. Its broad-tool trace was clean and it remained 30/35. Every
+frozen gate passed. Aggregate receipt `837bb173...` promotes exact open child
+`20b1db21...`, including assessor reuse receipt `74389f38...`.
+
+This closes the executable assessor carrier gap in one bounded observation. It
+does not show that the subject authors the raw fronts or independently decides
+which new contact family to create.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "cumulative-floor-contacts",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 55083,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a404053ea9582ce6bee69bf090151ac3ca81e553",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0326",
+  "input_manifests": [
+    "evidence/manifests/OT-0326/private-assessor-reuse-seed.json"
+  ],
+  "kind": "cumulative-contact-floor",
+  "limitations": [
+    "Exact 30-contact cumulative floor used by the retained assessor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cumulative-floor-contacts",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "31d626bb703ad92323e6b6fe08cad9e25ffac73064d47571a3594a35bd4d8007"
+}

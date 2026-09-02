@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-assessor-successor-stake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1637,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a404053ea9582ce6bee69bf090151ac3ca81e553",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0326",
+  "input_manifests": [
+    "evidence/manifests/OT-0326/retained-assessor-successor-trace.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Pipeline-grounded candidate preserving 30/30 and reaching 35/35."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-assessor-successor-stake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "05f8b42db858ed2ae915158fb38ad8e980cfc47abba3f6c04f25d4af86f6227c"
+}

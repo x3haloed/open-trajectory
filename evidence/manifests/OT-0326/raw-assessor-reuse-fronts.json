@@ -1,0 +1,33 @@
+{
+  "artifact_id": "raw-assessor-reuse-fronts",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 18508,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a404053ea9582ce6bee69bf090151ac3ca81e553",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0326",
+  "input_manifests": [
+    "evidence/manifests/OT-0326/private-assessor-reuse-seed.json"
+  ],
+  "kind": "private-derived-world",
+  "limitations": [
+    "Identical raw completed fronts supplied to candidate and source-erased actors."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:raw-assessor-reuse-fronts",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d5a75aa65c276fea3d943220013e58c6258401da13b9362a8391b9c9d346ce87"
+}

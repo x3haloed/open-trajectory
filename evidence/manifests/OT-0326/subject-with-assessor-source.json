@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-with-assessor-source",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1829680,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a404053ea9582ce6bee69bf090151ac3ca81e553",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0326",
+  "input_manifests": [
+    "evidence/manifests/OT-0326/executable-assessor-retention-preflight.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Exact branch actively carrying the executable E13 assessor source."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-with-assessor-source",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6afa38555c406a97b98884177cf3a3546cebd765f36e8f42d02598d75ecfeed8"
+}
