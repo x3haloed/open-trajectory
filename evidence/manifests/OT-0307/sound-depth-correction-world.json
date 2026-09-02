@@ -1,0 +1,35 @@
+{
+  "artifact_id": "sound-depth-correction-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3063,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6f60f7e0c09bc6ddcf443d8aa2be136feed7405e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0307",
+  "input_manifests": [
+    "evidence/manifests/OT-0307/bound-sound-depth-correction.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "causal-result",
+  "limitations": [
+    "One bounded retained package consequence in one generated world; no cross-world reliability claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sound-depth-correction-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3384e9e1152fb0fdb67524bac530459700cf088c46f9da68f1d3a4af160a0977"
+}

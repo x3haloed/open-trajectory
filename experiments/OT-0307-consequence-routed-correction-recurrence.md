@@ -1,6 +1,6 @@
 # OT-0307 — Consequence-routed correction recurrence
 
-- **Status:** design frozen; live output sealed
+- **Status:** promoted operational transition; actor-facing wording nonconformance disclosed
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0306 open subject `2ce0d208...`
 - **Invocation:** up to four identical content-free openings
@@ -81,3 +81,25 @@ both later actor context and an actor-free next phase. One live trajectory does
 not estimate reliability across models or worlds, prove open-ended development,
 show self-redesign of the recurrence machinery, or reverse OT-0305's negative
 priority verdict.
+
+## Result
+
+The sole correction actor passes without retry. It changes only
+`sound_depth` and its decision, infers the missing `current` term from four
+public cases, and passes G10 with five clean completed commands. Independent
+consequence scores the revision 6/6 while the unchanged function remains 2/6.
+Exact successor `ab79f6e8...` derives refresh.
+
+The second identical content-free opening uses zero actors, refreshes to exactly
+two remaining surfaces, and derives `expanded-select`. Final exact open subject
+`e3c4be50...` preserves the protected stake, provider, wait, developmental, and
+invalidity state. Aggregate receipt `e9b9b725...`; every frozen gate passes.
+
+Post-result inspection disclosed one inherited wording nonconformance. The
+authoritative projection contains two opportunities and the next selection
+README tells the actor to use that projection, but `continuation.next_opening`
+still says “the sole remaining” surface and that stale sentence appears in two
+actor-visible state files. No next selection actor was authorized, so this does
+not alter OT-0307's completed correction-and-refresh observation. It does block
+the next actor prospectively: actor-facing narrative and executable projection
+must agree before selection continues.

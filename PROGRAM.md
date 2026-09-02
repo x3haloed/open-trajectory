@@ -3280,5 +3280,21 @@ exhaustion fails closed, six authority controls reject, protected priority and
 provider state remains exact, and route 16/16 plus identity 18/18 pass. Live
 output remains sealed until this freeze is pushed.
 
+OT-0307 promotes in two identical content-free openings. One fresh actor infers
+the missing `current` term in `sound_depth`, passes G10 and all 4/4 disclosed
+cases, and receives independent 6/6 consequence against unchanged 2/6. Exact
+successor `ab79f6e8...` derives refresh. The next opening uses zero actors,
+exposes two remaining opportunities, and exact open subject `e3c4be50...`
+derives selection with protected priority, provider, wait, developmental, and
+invalidity state unchanged. Aggregate receipt `e9b9b725...`.
+
+Post-result inspection finds a count-language nonconformance outside the frozen
+score: the authoritative projection has two opportunities, while the inherited
+continuation sentence says “sole remaining.” The selection README correctly
+directs the actor to the two-item projection, and no selection actor ran, so the
+bounded correction-and-refresh result stands. Do not authorize the next actor
+until generic derivation detects and repairs actor-facing projection/narrative
+disagreement; future gates require their agreement.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,36 @@
+{
+  "artifact_id": "correction-recurrence-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11680,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6f60f7e0c09bc6ddcf443d8aa2be136feed7405e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0307",
+  "input_manifests": [
+    "evidence/manifests/OT-0307/consequence-routed-correction-preflight.json",
+    "evidence/manifests/OT-0307/correction-actor-trace.json",
+    "evidence/manifests/OT-0307/bound-sound-depth-correction.json",
+    "evidence/manifests/OT-0307/sound-depth-correction-world.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "One fresh correction actor; does not estimate generation frequency or alternate feedback-path frequency."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:correction-recurrence-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f3aacf4783c4bc172f525c50510b493ee79c58d69bcaf3759f37c2b9a3c9d853"
+}

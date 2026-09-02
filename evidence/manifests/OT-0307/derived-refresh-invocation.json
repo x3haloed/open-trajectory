@@ -1,0 +1,33 @@
+{
+  "artifact_id": "derived-refresh-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1095,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6f60f7e0c09bc6ddcf443d8aa2be136feed7405e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0307",
+  "input_manifests": [
+    "evidence/manifests/OT-0307/correction-recurrence-invocation.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "Actor-free refresh establishes one bounded derived transition, not open-ended developmental expansion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:derived-refresh-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8c8e2333b239564a2a7e7478719246e620b8881c355c62b967eff3c4560a6713"
+}

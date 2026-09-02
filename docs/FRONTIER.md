@@ -63,6 +63,13 @@ consequence order, independent outcomes, unchanged or ablated comparisons,
 no-regression floors, privacy, and preserved negative evidence remain hard
 anchors.
 
+Beginning after OT-0307, actor-facing coherence is a prospective hard gate:
+machine-readable opportunity count, derived operation, continuation text, and
+the actor seed may not make contradictory cardinality or phase claims. This
+adds a signal the OT-0307 score did not observe; it does not retroactively alter
+that completed correction-and-refresh result, but it blocks a later actor until
+the exact subject is coherent.
+
 Evaluation epoch E11 now separates valid operational contact,
 subject-conditioned choice, and priority-bearing contact. The strongest label
 requires an executable subject-originated stake bound before contact, a matched
@@ -78,13 +85,13 @@ remain the consequence-corrected allocator and later-regime repair
 (`OT-0254`), conditional failed-attempt correction (`OT-0273`–`OT-0274`), and
 the current surrender/recovery recurrence (`OT-0300`–`OT-0303`).
 
-The exact current operational subject is OT-0306 successor `2ce0d208...`.
-It retains the complete OT-0303 lineage, the actor-authored executable
-world-seeking stake, and OT-0305's failed same-world causal comparison. One
-fresh target-untold actor consumed `harbor-three-watches-v1`, selected
-`sound_depth`, and received independent unresolved 2/6 consequence. The exact
-subject now derives `outward-correct`; neither OT-0305 nor OT-0306 establishes
-that the stake caused world or target choice.
+The exact current operational subject is OT-0307 successor `e3c4be50...`.
+One fresh corrector reached independent 6/6 against unchanged 2/6; a second
+identical, actor-free opening refreshed the state to two opportunities and
+derived `expanded-select`. The world-seeking stake, all four provider
+artifacts, OT-0305's failed same-world comparison, and prior developmental and
+invalidity state remain exact. Neither the retained priority nor this correction
+establishes that the stake caused world or target choice.
 
 ## Prediction errors
 
@@ -112,15 +119,21 @@ that the stake caused world or target choice.
   lacks behavioral selectivity or one catalog plus one arbitrary blind rule is
   simply too collision-prone to estimate it. Evidence: OT-0305 aggregate
   `2941a2e3...`.
+- Expected: refreshing the current subject to two remaining opportunities would
+  produce actor-facing continuation language consistent with that count.
+  Observed: exact subject `e3c4be50...` derives selection and carries a two-item
+  authoritative projection, but its inherited continuation sentence says “the
+  sole remaining” opportunity and reaches two actor-visible state files.
+  Uncertain: whether that redundant contradiction would change selection, but
+  actor-visible coherence is required before testing it. Evidence: retained
+  OT-0307 final subject and prospective selection seed.
 
-OT-0307 is frozen against the exact current subject. Up to four identical
-content-free openings must let the subject derive correction, route either a
-failed candidate or truthful surrender into the correct fresh successor
-projection, admit only prospective 6/6 against unchanged 2/6, and then derive a
-separate actor-free refresh exposing two remaining opportunities. The observer
-may stop at the budget or reject invalidity, but may not choose the target,
-correction history, or phase transition. All seven reachable consequence
-histories pass preflight; repeated surrender after disclosure exhaustion fails
-closed. Only after the live contact is developmentally interpretable should a
-later experiment test the stake across additional catalogs or a less collision-
-prone matched baseline.
+The immediate experiment starts from exact `e3c4be50...` and must repair the
+count-language mismatch before any selection actor runs. Add a generic derived
+coherence operation, not a one-off subject edit: detect disagreement among the
+authoritative projection, derived phase, continuation text, and actor seed;
+repair only the non-authoritative narrative; and prove 0/1/2/3-opportunity
+fixtures plus unchanged coherent controls. The same content-free entry should
+then reach `expanded-select` with two coherent opportunities. After that repair,
+resume target-untold contact and later test the world-seeking stake across
+additional catalogs or a less collision-prone matched baseline.
