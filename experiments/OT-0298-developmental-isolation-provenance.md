@@ -1,6 +1,6 @@
 # OT-0298 — Developmental isolation provenance
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** OT-0297 pre-actor provenance rejection
 - **Invocation:** unchanged two content-free openings from exact OT-0295 parent
@@ -33,3 +33,15 @@ prospectively binds aggregate, pulse, and both indexed result authorities to
 OT-0298. Every consequence-earned isolation control, both remaining selection
 branches, route 16/16, and identity 18/18 remain green. Preflight receipt
 `ea6dc204...`.
+
+## Bounded result
+
+Both content-free openings pass with exact OT-0298 provenance. Actor-free
+refresh exposes two remaining surfaces. One fresh external-workspace actor then
+passes G10 and consequence-earned isolation, autonomously selects `chart_tide`,
+and receives unresolved 2/6 consequence. Exact open subject `450c7a1c...`
+preserves invalidity and recovery lineage and derives correction. Aggregate
+receipt `e4fe5eee...`.
+
+This establishes renewed selection after learned structure becomes usable. It
+does not yet establish correction of the second surface or final recurrence.

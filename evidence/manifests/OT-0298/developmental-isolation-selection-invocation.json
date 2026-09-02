@@ -1,0 +1,35 @@
+{
+  "artifact_id": "developmental-isolation-selection-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11155,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "963bcbad517ba9333c7a86f0f3dc160dd838bcba",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0298",
+  "input_manifests": [
+    "evidence/manifests/OT-0298/developmental-isolation-provenance-preflight.json",
+    "evidence/manifests/OT-0295/open-subject-after-recovered-world-correction.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "One renewed selection with one earned and two unresolved surfaces; selected correction is not yet attempted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:developmental-isolation-selection-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f0e41f22222535ee80106242605d7079500232afd064aa2b2814c8e6f6a278e8"
+}

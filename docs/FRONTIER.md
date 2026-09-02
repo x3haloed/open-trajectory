@@ -3863,3 +3863,12 @@ pulse, and both invocation labels to OT-0298 while preserving the exact prior
 mislabel. All developmental-isolation controls and both selection branches
 remain green. After freeze and push, repeat actor-free refresh plus one fresh
 target-untold selection in a new external root.
+
+OT-0298 passes. Actor-free refresh exposes two remaining surfaces; one fresh
+external-workspace actor passes G10 and the consequence-earned gate, chooses
+`chart_tide` without target instruction, and receives unresolved 2/6
+consequence. Exact subject `450c7a1c...` preserves the full invalidity/recovery
+lineage and derives correction. The developmental rule has therefore admitted
+earned structure without exposing either unresolved source. Next correct this
+second surface generically, then require refresh and selection of the sole
+remaining surface.

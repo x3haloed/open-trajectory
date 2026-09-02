@@ -3145,5 +3145,13 @@ OT-0297 mislabel remains preserved. Every consequence-earned isolation control,
 both renewed-selection branches, route 16/16, and identity 18/18 stay green.
 Live output remains sealed until push.
 
+OT-0298 promotes in two exactly labeled content-free openings. Actor-free
+refresh exposes two remaining surfaces; one fresh external-workspace actor
+passes G10 and consequence-earned isolation, chooses `chart_tide` without a
+target hint, and receives unresolved 2/6 consequence. Exact open subject
+`450c7a1c...` retains invalidity and recovery lineage and derives correction.
+Aggregate receipt `e4fe5eee...`. The immediate frontier is generic correction
+of this second surface, then one remaining self-selected surface.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
