@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-contact-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7256,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Complete broad-tool trace retained for G13 audit."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:active-contact-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a0147cc3bca98a6d29f1ca7ec9a05e4f3900d2cf00623dfbc6e93ccf6aea04f7"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "sealed-control-policy-binding",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1253,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "policy-binding",
+  "limitations": [
+    "Exact incumbent source compiled for matched held-out control."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:sealed-control-policy-binding",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3d92759d316ee9281a210d44746a13cdd52b1228f95cbea2afdb801cd92ce7d3"
+}

@@ -87,3 +87,34 @@ At most five fresh actors, no retries, no post-output repair, one retained
 training consequence, one post-binding held-out derivation, and fifty observer
 minutes. Stop after both branch endpoints and deterministic controls are
 sealed. Observation completion does not close either open subject.
+
+## Result
+
+The fixed driver derived `resolve-selection-prediction-error` only for the
+error-bearing subject and `test-world-consequence-policy-reuse` for the matched
+linkage-erased subject. Consequently only the active route opened a corrector.
+That fresh actor revised immediate viable-contact count to verified reopened-
+contact count, passed a clean five-command G13/G11 trace, and improved the exact
+retained training consequence from zero to three. Binding `552d8ffb...` was
+sealed before held-out seed creation and before any control actor ran.
+
+On the one new opaque catalog, the active program selected the world with two
+current contacts and four independently verified downstream contacts. The
+unchanged control selected six current contacts and zero downstream contacts.
+Separate fresh selector and contact actors enacted both branches. All four
+passed G13/G11; both contact sources passed 3/3 public and 5/5 hidden cases.
+Exact machinery erasure reproduced the control choice, and both branches
+preserved the exact 40/40 floor.
+
+The active outcome compiles four complete public contact specifications and an
+active contact into open subject `263126eb...`; it materializes without the
+private seed. The zero-yield control does not terminate: open control subject
+`ab931654...` returns to unchanged policy reuse. Aggregate `205af67e...`
+promotes the bounded routing-causal claim.
+
+This isolates the useful role OT-0349 missed. The prediction-error artifact is
+not proven to make a model infer a correction it otherwise could not infer.
+Instead, it makes unresolved contradiction select correction as the subject's
+next pursuit, removing the observer's experiment-specific phase choice in this
+bounded transition. The revised delayed-yield rule has not yet survived a later
+regime where its own proxy becomes harmful.

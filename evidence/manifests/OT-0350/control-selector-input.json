@@ -1,0 +1,31 @@
+{
+  "artifact_id": "control-selector-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 386,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Fresh hosted actor input; deployment alias limits exact model attribution."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:control-selector-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b70ea36783ec2bb01f9d50fa78b990feaf106c17e410853e0a37c80542a75a24"
+}

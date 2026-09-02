@@ -1,0 +1,31 @@
+{
+  "artifact_id": "control-contact-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 254,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Fresh hosted actor output; no generation-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:control-contact-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c38b9b8856b4aab8f41228020aaf0bee0e1847b5afcb1a4ea2c32dc0ae29ff16"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-selector-audit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1581,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-audit",
+  "limitations": [
+    "G13 contained-effect audit."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-selector-audit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a1c0093f17fb3d043c5a9eaa183021387b5e48935ab71cda7d4744c3eddb5b90"
+}

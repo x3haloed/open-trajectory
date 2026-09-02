@@ -1,0 +1,31 @@
+{
+  "artifact_id": "control-contact-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 961,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-stderr",
+  "limitations": [
+    "Transport stderr retained for trace interpretation."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:control-contact-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1e82dc04eb459d20357ce39ee5e66b1a768cffed91f7f514df77008a67320cd6"
+}

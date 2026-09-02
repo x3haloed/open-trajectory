@@ -55,6 +55,11 @@ possibilities without acquiring authority over world outcomes or admission.
   distinguish reachable, non-regressive change from failure-bearing saturation;
   otherwise it can preserve motion while spending the next actor where no
   development is possible. Evidence: OT-0324.
+- When completed consequence contradicts active selection machinery, the
+  unresolved mismatch must be able to change the subject's mechanically derived
+  next operation. Merely making the same evidence readable inside a correction
+  turn chosen by an observer does not remove that observer from the causal loop.
+  Evidence: OT-0348 through OT-0350.
 
 ## Evaluation regime
 
@@ -320,6 +325,21 @@ operational candidate but not prediction-error causality. The control also ran
 before active binding, so exact prospective reconstruction is required before
 that candidate becomes the current subject.
 
+OT-0350 tests the artifact at the routing boundary instead. Identical raw
+consequence enters two exact-parent branches; only the active branch carries the
+valid unresolved prediction error. One fixed driver derives correction only
+there, while linkage erasure derives unchanged policy reuse and receives no
+corrector. The active actor revises and is sealed before held-out derivation or
+control output. On one new opaque catalog, active selection and contact produce
+four verified downstream openings while unchanged routing produces zero; both
+fresh selector/contact pairs pass 3/3 public, 5/5 hidden, and clean G13/G11,
+with exact 40/40 floors. Exact machinery erasure reproduces the control choice.
+Aggregate `205af67e...` promotes open subject `263126eb...`, whose four-contact
+frontier is subject-only materializable. This is bounded evidence that retained
+contradiction can select its own correction phase—not that the discrepancy
+artifact uniquely supplies the cognitive insight or that the learned rule is
+already later-corrigible.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
@@ -398,6 +418,13 @@ are retained for prospective reconstruction.
   selecting the correction operation, not changing cognition inside an already
   selected correction turn. Evidence: OT-0349 aggregate `01b8deab...` and
   candidate subject `d80ac19e...`.
+- OT-0350 resolves the routing uncertainty: when the prediction error controls
+  the fixed driver's next operation, only the active branch opens correction
+  and it reaches four held-out downstream contacts versus zero under exact
+  linkage and machinery erasure. The remaining uncertainty moves outward:
+  whether the learned delayed-yield selector can itself generate a routed
+  correction when a later regime makes that proxy harmful. Evidence: aggregate
+  `205af67e...`, exact active child `263126eb...`.
 - OT-0318 resolves the missing-action question: a training-only executable
   workbench let a fresh actor propose and verify its own 3/3 repair, which
   reached private 5/5 against exact-parent 0/5; erasing outcomes made the same

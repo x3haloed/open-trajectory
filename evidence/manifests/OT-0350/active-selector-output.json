@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-selector-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 270,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Fresh hosted actor output; no generation-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-selector-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "95104e602fdf55bf89d47fa13f7e5138458185ccd6dda7fcd4ca2a7f2fca1e11"
+}

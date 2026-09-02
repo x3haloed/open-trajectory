@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-heldout-catalog",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2593,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-input-projection",
+  "limitations": [
+    "Post-binding held-out rows shared with control."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-heldout-catalog",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "35a072da222643c9fd4e7efebe751f05c407bade937fe8fa8abdef33103baecc"
+}

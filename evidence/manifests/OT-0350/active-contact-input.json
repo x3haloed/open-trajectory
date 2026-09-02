@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-contact-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 307,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "73c8efd13b08d2aa3da77136597792b62b1f8230",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0350",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Fresh hosted actor input; deployment alias limits exact model attribution."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:active-contact-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d101da6217a89d28fa97fcccbddbc08bc44d08589bf612363b615ab42d76432f"
+}
