@@ -3832,3 +3832,13 @@ and provider recovery and derives projection refresh. The next edge is generic
 refresh followed by a fresh actor choosing between the two remaining Tideglass
 Crossings surfaces. Do not preselect the target or infer feedback reliability
 from the unselected prospective branches.
+
+OT-0296 rejects at zero-actor preflight on developmental isolation scope. The
+subject refreshes exactly, exposes the two remaining surfaces, and both choice
+branches otherwise reach prompt-neutral unresolved 2/6 consequence with
+correction next. The shared gate falsely treats the already-verified first
+surface's corrected reference source as leakage. Preserve the rejection. The
+next record should derive forbidden content from unresolved package surfaces,
+permit consequence-earned resolved content, and inject reference-source,
+hidden-case, and full-case controls for both remaining targets before live
+selection.

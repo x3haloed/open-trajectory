@@ -3116,5 +3116,13 @@ invalidity scars and provider recovery and derives projection refresh. Aggregate
 receipt `f94d93cc...`. This is one selected-surface correction; the stronger
 frontier is renewed self-selection among the two remaining surfaces.
 
+OT-0296 rejects before live actors. Exact refresh exposes two opportunities and
+both prospective selections are prompt-neutral, reach 2/6 consequence, and
+derive correction. The shared content gate alone fails because it forbids all
+current-package reference sources, including the first surface's now-verified
+corrected source legitimately retained by the subject. Preserve the rejection.
+Next scope isolation to unresolved surfaces and retain direct leak controls for
+each remaining surface.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
