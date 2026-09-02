@@ -3638,3 +3638,11 @@ record should change only the isolation predicate to test absence of the current
 Tideglass sealed cases, sealed reference sources, and full-package digest.
 Historical package identity must remain admissible; current sealed content must
 remain absent. Do not rescore OT-0284 or change the cycle graph.
+
+OT-0285 makes only that correction. Its prospective actor seeds exclude every
+current Tideglass reference source, undisclosed case, full sealed-case
+collection, and full-package digest; four injected leaks all fail. All 162
+complete branches now pass while OT-0284's exact rejection remains fixed. The
+live frontier returns to the unchanged second-cycle test: freeze and push, then
+let repeated null openings derive Tideglass wake through renewed provision
+without retries or phase-specific intervention.

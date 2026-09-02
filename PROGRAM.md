@@ -2942,5 +2942,11 @@ otherwise-passing Tideglass branches are mislabeled as sealed leakage. Preserve
 the rejection. Next replace only that stale historical proxy with direct
 absence of the current package's sealed sources, cases, and full-package digest.
 
+OT-0285 freezes that sole isolation correction. It admits historical provenance
+but directly forbids the current package's reference source, undisclosed case,
+full sealed-case collection, and full-package digest; injected controls confirm
+each leak fails. All 162 second-cycle branches now pass with OT-0284's rejection
+preserved. Live output remains sealed until this freeze is pushed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

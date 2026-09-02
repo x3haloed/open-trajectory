@@ -1,0 +1,35 @@
+{
+  "artifact_id": "current-package-isolation-second-cycle-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1227,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "900cbe0235f99e5e5d3d625d90e5f423f1e3e2cb",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0285",
+  "input_manifests": [
+    "evidence/manifests/OT-0284/rejected-tideglass-second-cycle-preflight.json",
+    "evidence/manifests/OT-0283/open-subject-at-sixth-wait.json",
+    "evidence/manifests/OT-0283/subject-blind-tideglass-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; no live actor output or subject transition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:current-package-isolation-second-cycle-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c3d22785680a518589ed39e7bf59a3e4cc455bb6fea7c7591553ec185e657ef6"
+}
