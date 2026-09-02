@@ -1,0 +1,34 @@
+{
+  "artifact_id": "exact-eighth-wait-recurrence-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 849,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "611a54e0968493a414ca179f41d32964451df607",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0303",
+  "input_manifests": [
+    "evidence/manifests/OT-0302/open-subject-after-surrender-recovery.json",
+    "evidence/manifests/OT-0302/surrender-recovery-correction-aggregate.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; the exact actor-free suffix has not yet been observed across live invocations."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-eighth-wait-recurrence-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1ee6a9cfd5484f7848f7f0e508723b614c0d01a5a2b46358634e4e34920f49f5"
+}

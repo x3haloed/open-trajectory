@@ -3212,5 +3212,17 @@ retains the surrender consequence, earns all three surfaces, and derives
 refresh. Aggregate receipt `29fd8f1a...`. The immediate frontier is actor-free
 saturation through exact eighth-wait recurrence, followed by renewed provision.
 
+OT-0303 freezes the actor-free suffix from exact recovered subject `140e793e...`.
+Three identical content-free openings must derive refresh, saturation/expansion,
+and wait in that order; install an eighth wait with seven discharges; reobserve
+the waiting subject exactly; and derive `renew-world-feed`. All three earned
+surfaces, surrender feedback, invalidity lineage, route 16/16, and identity
+18/18 remain exact. Live output stays sealed until push.
+
+OT-0303 preflight passes the exact suffix, five controls, and both standing
+floors. Refresh reaches zero opportunities, expansion installs the new eighth
+wait, exact reobservation leaves the subject byte-identical, and renewal derives
+next with the complete surrender and invalidity history retained.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
