@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-first-resumed-selection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1929933,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "92101f618d19f2dc21621bc257cbae7e4627ef98",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "open-subject",
+  "limitations": [
+    "Exact open partial child after one state-derived selection and independent 2-of-6 contradiction; continuation remains outward-correct."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-first-resumed-selection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ffce2a52c8f7891f606d71e3714ed45a4f0af281fd5fdb48b2185d567e7d2fe6"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "state-resolved-resumptive-continuation-rejected-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4199,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "92101f618d19f2dc21621bc257cbae7e4627ef98",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "rejected-aggregate",
+  "limitations": [
+    "Stopped after the second completed actor was rejected by the frozen G10 evaluator; no resampling and no operation-2 consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:state-resolved-resumptive-continuation-rejected-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a1647b7ec3ef9a724d2d865d5018747db05f27815b3a7c7bd3c944f6fed6c2fc"
+}

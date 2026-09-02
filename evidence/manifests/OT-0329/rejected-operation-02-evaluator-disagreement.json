@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-operation-02-evaluator-disagreement",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5182,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "92101f618d19f2dc21621bc257cbae7e4627ef98",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "rejected-operation",
+  "limitations": [
+    "Frozen G10 rejection; exact output retained for prospective evaluator comparison without actor resampling."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-operation-02-evaluator-disagreement",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2c37ba02207befec8898ed2e818f10260922ae906a1d3df4219b2fe15ff0ca8b"
+}

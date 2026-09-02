@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-operation-02-actor-audit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1469,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "92101f618d19f2dc21621bc257cbae7e4627ef98",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "actor-audit",
+  "limitations": [
+    "Incumbent G10 audit conflates an ordinary zsh command error with a sandbox denial."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-operation-02-actor-audit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4b77adc5fba31152ec2eb944adbd1c0dc55a4e4d78ba92d64ef495f8976f7824"
+}

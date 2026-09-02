@@ -1,6 +1,6 @@
 # OT-0329 — State-resolved resumptive continuation
 
-- **Status:** frozen — unexecuted
+- **Status:** rejected — exact partial successor retained open
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0328 subject `fce8e08a...`
 - **Claim:** one content-free scheduler authorization can resume the exact
@@ -132,3 +132,36 @@ experiment choice. It would not show that OT-0328 caused the pursuit, that the
 subject can yet execute environment expansion without another handler, or that
 the research scaffold has disappeared. It removes one concrete hidden
 researcher dependency and tests whether the song survives an extended detour.
+
+## Result
+
+The state-resolved capability binding and first content-free operation worked.
+From exact OT-0328 state, a fresh selection actor chose
+`harbor/archive.py::enter_archive` from the two live projected surfaces without
+observer target input. Independent world contact scored the inherited source
+2/6 and sealed open child `10c27b8e...`, whose next derived operation is
+`outward-correct`. The completed operation was reconstructed after the frozen
+workspace-location proxy rejected an otherwise clean actor; the repair changed
+no actor or world bytes and added direct independent-Git workspace controls.
+
+The second fresh actor then authored the correct hour-bounded revision, passed
+the immutable public checker 4/4, reported the exact two changed paths, and
+later reran the checker successfully while inspecting the exact diff. The
+frozen G10 gate nevertheless rejected it because transport stderr contained an
+unattributed filesystem policy warning (`path=unknown`). The actor's first
+combined checker command also ended nonzero after zsh rejected assignment to
+its reserved `status` variable. G10 represents both facts as one retained
+`sandbox_violation` bit and cannot attribute the warning to an actor operation.
+
+Under the frozen stop rule, the run ends rejected after two operations and two
+actors. Operation two receives no world consequence and is not resampled or
+rescored. Aggregate receipt `eefe8835...` preserves the rejection; exact open
+partial child `10c27b8e...` remains available for a later experiment. This is
+positive bounded evidence for state-resolved resumption through one autonomous
+selection and contradiction, but not for the frozen eight-operation claim.
+
+The evaluator disagreement opens a separate prospective checkpoint. Any
+replacement for G10 must preserve actual denied-operation, protected-path,
+outside-effect, traversal, suspicious-command, incomplete-trace, and inexact-
+effect rejections. OT-0329 itself remains rejected regardless of that later
+decision.
