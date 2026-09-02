@@ -3758,3 +3758,11 @@ retained by the recovery receipt without package source. Preserve the rejection.
 The next record should change only public-seed isolation to test actual current
 sealed sources, hidden cases, and the full sealed-case collection, with direct
 leak controls. The wake-and-selection claim otherwise remains unchanged.
+
+OT-0292 changes only that public-seed predicate. It permits the deliberately
+retained identity digest but directly excludes current sealed sources, hidden
+cases, the full sealed-case collection, and sealed filenames; four injected
+leaks all fail. Every unchanged target branch now passes at 2/6 with correction
+next, and all recovery lineage and standing floors remain exact. After freeze
+and push, the live test returns to two content-free openings: actor-free wake,
+then one fresh target-untold selection from the external workspace.

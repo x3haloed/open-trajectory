@@ -1,0 +1,36 @@
+{
+  "artifact_id": "recovered-package-content-isolation-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1184,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a4e57cb2849bb3dc28d7c62c170eb37cd940e9c4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0292",
+  "input_manifests": [
+    "evidence/manifests/OT-0291/rejected-recovered-world-wake-preflight.json",
+    "evidence/manifests/OT-0290/open-subject-after-provider-recovery.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json",
+    "evidence/manifests/OT-0290/role-neutral-invalidity-recovery-aggregate.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; recovered-world live wake and target selection are not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:recovered-package-content-isolation-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8b4967feb2086bdf0f0819d51aaa12a60d2e3aec386e5483b5321043b9cb0b1a"
+}

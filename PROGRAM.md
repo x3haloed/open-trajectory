@@ -3048,5 +3048,13 @@ rejection. Next replace that stale proxy only with direct checks for current
 sealed sources, hidden cases, and the full sealed-case collection, plus injected
 leak controls.
 
+OT-0292 freezes that sole correction. Its clean actor seed retains the
+content-free full-package digest while directly excluding current sealed
+sources, hidden cases, the full sealed-case collection, and sealed filenames.
+Four injected leaks each fail. All three unchanged selection branches now reach
+unresolved 2/6 consequence and correction routing with scars and recovery
+receipt exact, route 16/16, and identity 18/18. Live output remains sealed until
+this freeze is pushed.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
