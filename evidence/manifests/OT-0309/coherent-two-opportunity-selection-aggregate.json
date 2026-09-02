@@ -1,0 +1,36 @@
+{
+  "artifact_id": "coherent-two-opportunity-selection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11545,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "067833c4ce8b905f7b633f8ec259fadec5f0dfe0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0309",
+  "input_manifests": [
+    "evidence/manifests/OT-0309/coherent-two-opportunity-selection-preflight.json",
+    "evidence/manifests/OT-0309/coherent-selection-actor-trace.json",
+    "evidence/manifests/OT-0309/bound-light-watch-selection.json",
+    "evidence/manifests/OT-0309/light-watch-selection-world.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh target-untold actor selected from one two-opportunity state; this does not estimate selection frequency or show that the inherited world-seeking stake caused the choice."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:coherent-two-opportunity-selection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2d13bc7df7d8d836d93ba049ba8533c8be0c0f64000a0e0fa81ea8ba2373c49a"
+}

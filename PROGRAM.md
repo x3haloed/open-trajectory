@@ -3321,5 +3321,16 @@ one new contact stake while all inherited protected state, the coherence repair,
 and OT-0305's negative priority verdict remain exact. One fresh actor is
 authorized without retry only after this freeze is pushed.
 
+OT-0309 promotes in one content-free target-untold opening. A fresh actor selects
+`harbor/lantern.py::light_watch`, changes only the authorized file, passes four
+public cases and G10 with nine contained commands, then receives independent
+2/6 contradiction. Exact open successor `bf868110...` preserves the coherence
+repair and protected lineage while deriving correction. Aggregate receipt
+`76c9992b...`. A provenance-only output summary used `path:symbol` where the old
+fidelity helper recognizes `path::symbol`; the authoritative selection,
+binding, execution, and world agree, so this disclosed report-format mismatch
+does not invalidate the transition. It must not be mistaken for target
+disagreement or propagated as an epistemic result.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

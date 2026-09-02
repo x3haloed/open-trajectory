@@ -1,0 +1,34 @@
+{
+  "artifact_id": "bound-light-watch-selection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2796,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "067833c4ce8b905f7b633f8ec259fadec5f0dfe0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0309",
+  "input_manifests": [
+    "evidence/manifests/OT-0308/open-subject-after-actor-facing-coherence-repair.json",
+    "evidence/manifests/OT-0309/coherent-selection-actor-trace.json"
+  ],
+  "kind": "actor-binding",
+  "limitations": [
+    "Binding establishes actor selection and public contact identity before sealed consequence; it is not success authority."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:bound-light-watch-selection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fb0485fab44ae4375d6018c04b54e41de0ecde50604bd4982959878e5d047446"
+}

@@ -120,12 +120,22 @@ choice.
   lacks behavioral selectivity or one catalog plus one arbitrary blind rule is
   simply too collision-prone to estimate it. Evidence: OT-0305 aggregate
   `2941a2e3...`.
-OT-0309 is frozen against exact `e9e152b3...`. One fresh target-untold actor may
-choose either of the two coherent opportunities through the generic selection,
-G10, consequence-earned isolation, and sealed 2/6 path. Both branches derive
-correction prospectively; the coherence repair and inherited protected state
-remain exact except for the one newly bound contact stake. Preserve the
-world-seeking stake and OT-0305 negative verdict without treating either as
-target-selection evidence. After this contact and its correction become
-developmentally interpretable, test the stake across additional catalogs or a
-less collision-prone matched baseline.
+- OT-0309's authoritative target surfaces agree, but its non-authoritative
+  output summary used `path:symbol` while the inherited provenance helper
+  recognizes `path::symbol`. The resulting `inconsistent` fidelity label is a
+  representation mismatch, not evidence of target disagreement. Preserve the
+  disclosure and canonicalize future target reports before they enter
+  actor-visible continuity.
+
+Exact open subject `bf868110...` now derives correction after a fresh actor chose
+`light_watch` from two coherent opportunities and received independent 2/6
+contradiction. The immediate experiment should stop requiring a researcher to
+advance each already-derived operation separately: run the exact correction,
+actor-free projection refresh, and next target-untold selection under one
+bounded state-driven continuation harness, with per-encounter fresh actors,
+consequence-earned isolation, G10, and no target or operation choice by the
+observer. Freeze a finite safety/observation boundary, but treat reaching that
+boundary as censoring rather than closure. Preserve the world-seeking stake and
+OT-0305 negative verdict without treating either as selection evidence. Once
+the multi-operation chain is operational, return to discriminating the stake
+across additional catalogs or a less collision-prone matched baseline.

@@ -1,0 +1,35 @@
+{
+  "artifact_id": "light-watch-selection-world",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1968,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "067833c4ce8b905f7b633f8ec259fadec5f0dfe0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0309",
+  "input_manifests": [
+    "evidence/manifests/OT-0309/bound-light-watch-selection.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "causal-result",
+  "limitations": [
+    "One bounded retained-package consequence in one generated world; no cross-world reliability claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:light-watch-selection-world",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c3d549bac7ae8d1bc21f205e1f070fddeb03a4ae2b05380f9441b0dbca50fa16"
+}

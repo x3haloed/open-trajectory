@@ -1,6 +1,6 @@
 # OT-0309 — Coherent two-opportunity selection
 
-- **Status:** design frozen; live output sealed
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0308 open subject `e9e152b3...`
 - **Invocation:** one content-free target-untold selection
@@ -47,3 +47,23 @@ remains sealed until this design and apparatus are committed and pushed.
 A pass is one more operational self-selected contact from coherent state. It
 does not establish that the world-seeking stake caused the target choice, that
 the selected surface is globally preferable, or reliability across actors.
+
+## Result
+
+Promoted. One fresh actor chose `harbor/lantern.py::light_watch` without a
+target-bearing prompt, changed only the authorized selection file, passed all
+four public cases, and was accepted by G10 after nine contained tool commands.
+The independently applied sealed package then contradicted the proposal at 2/6.
+The exact open successor `bf868110...` preserves the OT-0308 coherence repair,
+all inherited protected state, and OT-0305's negative priority verdict while
+deriving `outward-correct`. Aggregate receipt `76c9992b...`.
+
+The actor's non-authoritative summary rendered the selected target as
+`path:symbol`; the retained provenance helper recognizes only bare `symbol` or
+`path::symbol`, so `target_claim_fidelity` is recorded as `inconsistent`.
+The edited selection, binding, public execution, and sealed world all agree on
+the same target. This report-only nonconformance did not affect actor
+information, acceptance, consequence, scoring, or the claimed transition, so
+the bounded result stands. It does show that future report schemas should use
+one canonical target representation rather than silently accumulating a false
+inconsistency flag in actor-visible state.

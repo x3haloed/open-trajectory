@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-coherent-two-opportunity-selection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1609318,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "067833c4ce8b905f7b633f8ec259fadec5f0dfe0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0309",
+  "input_manifests": [
+    "evidence/manifests/OT-0309/coherent-two-opportunity-selection-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open successor is established only for the retained experimental lineage."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-coherent-two-opportunity-selection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8cb629ed6f986356030f676e2e7d296eb69252d8aa7a9d6ed91c9c926e705a4f"
+}
