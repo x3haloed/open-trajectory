@@ -1,0 +1,31 @@
+{
+  "artifact_id": "priority-gate-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 624,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9a749a415d6728f70ecbcadd5b5d505647485a2f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0304",
+  "input_manifests": [],
+  "kind": "preflight-receipt",
+  "limitations": [
+    "Evaluator construction preflight only; historical anchor comparison remains sealed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:priority-gate-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "487009b9dc678a6b1d4a6d144150cf82982307ef58b8190ae75eeba5c4103dcd"
+}
