@@ -718,6 +718,10 @@ The strongest footholds are:
   6/6 against unchanged 2/6; a separate zero-actor process reloads that exact
   stale assimilating state and refreshes it to one opportunity. Exact
   `dd5a5be0...` remains open and routes next to registry-free selection.
+- `OT-0265`: five calls to one content-free entry point derive selection,
+  contradiction, correction, refresh, empty-provider waiting, and exact wait
+  re-observation. Exact `d62f5fc2...` saturates the epoch and remains open at a
+  second durable wait; the caller supplies wakeups but no target or phase.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

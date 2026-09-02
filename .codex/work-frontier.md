@@ -371,3 +371,9 @@ the subject is open at `correct` and routes to correction before refresh.
   and selection next. The next test should complete the remaining epoch suffix,
   install a new durable empty-stream wait, and then require a later provider
   extension to wake it without external target or phase dispatch.
+- OT-0265 uses five calls to one content-free entry point. State derives
+  selection, correction, refresh, wait installation, and wait re-observation;
+  exactly two actors pass 2/6 then 4/4 and 6/6 versus unchanged 2/6. Exact
+  `d62f5fc2...` saturates the epoch and remains open at a second durable wait.
+  Next change the provider cursor with a new world and require this same
+  architecture to discharge the wait and resume live contact.

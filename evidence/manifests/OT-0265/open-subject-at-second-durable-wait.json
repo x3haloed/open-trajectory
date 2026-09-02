@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-at-second-durable-wait",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1160439,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "76d38f8a89ab794d055a8b99880c864130570696",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0265",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject at a second empty-stream wait; future wake, new-world assimilation, and unbounded recurrence remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-second-durable-wait",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0299ddb6f759cf877974e7d2d1f7b290acfe7c8018995f87bf58c3e5f60e83b4"
+}

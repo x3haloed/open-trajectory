@@ -3313,3 +3313,15 @@ point. Exact checkpoint state must derive selection, correction, refresh,
 empty-provider wait installation, and wait re-observation in order. Only the
 first two operations may spend actors; the final observation must be an exact
 no-op over an open second durable wait.
+
+OT-0265 promotes through all five identical calls. Exactly two actors complete
+the remaining selection/correction pair; zero-actor refresh saturates the epoch;
+the current provider is empty; and two more calls install then exactly re-observe
+a second durable wait. Exact `d62f5fc2...` remains open with both wait cycles and
+the full provider history preserved.
+
+The immediate frontier is the second wake boundary. A genuinely new provider
+world must change the cursor, discharge this exact wait, become a non-selecting
+offer, and then be consumed by content-free reopening into fresh actor-authored
+contact and independent contradiction. The outside system may supply new world
+contact and turn wakeups, but not the target or developmental phase.

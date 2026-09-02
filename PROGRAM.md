@@ -2604,5 +2604,16 @@ subject state; the caller may reopen the process but cannot choose selection,
 correction, refresh, expansion, wait, or target. Promotion requires the five-step
 suffix to end as an idempotently re-observed second durable wait.
 
+OT-0265 promotes through all five identical calls. Exactly two fresh actors
+select and correct the sole remaining surface at 2/6 then 4/4 and 6/6 versus
+unchanged 2/6; three actor-free calls refresh, install, and exactly re-observe the
+wait. Exact `d62f5fc2...` is open at a second durable wait with the prior cycle
+preserved.
+
+Next extend the provider again and require this exact wait to discharge. The
+same content-free reopening architecture must consume the new offer into a fresh
+epoch and reach independent contradiction without an outside target or phase
+choice. This is the next full-cycle recurrence boundary.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

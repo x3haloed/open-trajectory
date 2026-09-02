@@ -1,0 +1,31 @@
+{
+  "artifact_id": "content-free-epoch-to-wait-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1309,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "76d38f8a89ab794d055a8b99880c864130570696",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0265",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One five-invocation content-free suffix reaches a second durable wait; a later provider extension has not yet demonstrated wake and renewed live contact from this exact wait."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:content-free-epoch-to-wait-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "96a1348cff42bef743b3f8a921ab5548081d1066dc790ed7553e9f97faef357b"
+}
