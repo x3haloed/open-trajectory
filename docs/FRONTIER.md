@@ -133,8 +133,8 @@ E13 challenger selects lower local gain that scores 25/25. Historical E12
 comparisons remain valid in their frozen scope; scores are not compared across
 epochs unless both candidates are replayed under E13.
 
-The exact current operational subject is OT-0332's open expansion-boundary
-child `38e9b5dd...`. It preserves OT-0328's full 40/40 earned floor, byte-exact E13
+The current promoted floor is OT-0332's open expansion-boundary child
+`38e9b5dd...`. It preserves OT-0328's full 40/40 earned floor, byte-exact E13
 assessment, learned routing, proposal search, and actor-authored falsification
 generator and contextual selection policy. Across the rejected OT-0329 and
 OT-0331 run boundary, content-free resumption resolved the environment from
@@ -147,6 +147,20 @@ fresh correctors: consequence improved 4/6 to 5/6, exposed one more
 counterexample, then improved 5/6 to 6/6 against unchanged 2/6. State derived
 refresh and coherence repair; zero local opportunities remain and the next
 operation is `expand-environment`.
+
+OT-0334 is the exact current operational continuation point `afc02a9d...`.
+Prospective scoped admission recovered OT-0333's retained first world without
+resampling it, excluded its one colliding historical target, and admitted two
+fresh clean subject-blind providers. The inherited learned stake had supported
+but different winners at prefixes two and three, so the exact subject-authored
+stopping policy refused selection at its ceiling and routed
+`revise-world-seeking-stake`. No contact actor ran. Aggregate `7599e2e1...`
+therefore rejects selected-world contact while preserving a valid open
+successor and all three candidate descriptors. The next experiment must not
+silently infer from rank instability that the stake is false: it should let a
+fresh successor confront the policy-requested revision with the absence of
+outcome labels, and either justify a consequence-bearing way to revise or
+retain the stake while changing the pursuit of evidence.
 OT-0329's rejected actor patch was never inherited.
 OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
 cumulative 45/45; the matched outcome-erased author retained the global policy

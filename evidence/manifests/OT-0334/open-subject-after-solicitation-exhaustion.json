@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-solicitation-exhaustion",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1964696,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ba4b04a7417015ba7af316992abd1ddb8c8bef7",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0334",
+  "input_manifests": [],
+  "kind": "operational-open-subject",
+  "limitations": [
+    "Exact open operational successor preserves the three-world selection history and routes stake revision; the stronger selected-world contact claim was rejected."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-solicitation-exhaustion",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7ada04bd861c22153be91e41ebda8b8c1e75f0afb3b8a303af4801be48c1ed95"
+}

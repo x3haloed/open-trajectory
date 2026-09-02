@@ -1,0 +1,31 @@
+{
+  "artifact_id": "scoped-provider-collision-recovery-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2203,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4ba4b04a7417015ba7af316992abd1ddb8c8bef7",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0334",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic ancestry, retained-provider reconstruction, scoped-collision controls, policy, offer, contact, floor, and authority fixtures before actor authorization."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:scoped-provider-collision-recovery-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c866ba44ad22f817e27f35b10e7990f84dec4cfd7743bca3d9f15b2a9f8905c5"
+}
