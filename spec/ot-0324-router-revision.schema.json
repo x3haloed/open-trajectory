@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["action", "files_changed", "note"],
+  "additionalProperties": false,
+  "properties": {
+    "action": {"const": "revise-proposal-search-router"},
+    "files_changed": {
+      "type": "array",
+      "items": {"const": "route_search.py"},
+      "minItems": 1,
+      "maxItems": 1
+    },
+    "note": {"type": "string", "minLength": 1, "maxLength": 500}
+  }
+}

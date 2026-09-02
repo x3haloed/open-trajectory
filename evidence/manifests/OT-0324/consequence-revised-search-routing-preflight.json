@@ -1,0 +1,34 @@
+{
+  "artifact_id": "consequence-revised-search-routing-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 37925,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f2fb302a16d72d3a4a8a598727978cfc3878dd2d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0324",
+  "input_manifests": [
+    "evidence/manifests/OT-0323/applicability-routed-search-invocation-aggregate.json",
+    "evidence/manifests/OT-0323/open-subject-after-applicability-routed-invocation.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Candidate-free conformance of exact ancestry, dead-end versus reachable-gain routing, safe actor-editable router ABI, active-binding control, 20/20 floor, and reachable 25/25 successor; not live actor evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-revised-search-routing-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cdc80e8d4c8966641b63d246e8ce22fbe06f540adbb0c076ab64096c667eb1de"
+}
