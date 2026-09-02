@@ -2934,5 +2934,13 @@ world remains unconsumed. Repeated renewal across it, generalization beyond the
 current package language, and consequence-driven revision of renewal itself
 remain stronger claims.
 
+OT-0284 freezes the complete second-cycle graph from Tideglass wake through
+another renewal. Its zero-actor preflight rejects only because the inherited
+public-seed helper searches for OT-0280's Morrowglass full-package digest. That
+digest now legitimately occurs in the subject's retained history, so all 162
+otherwise-passing Tideglass branches are mislabeled as sealed leakage. Preserve
+the rejection. Next replace only that stale historical proxy with direct
+absence of the current package's sealed sources, cases, and full-package digest.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

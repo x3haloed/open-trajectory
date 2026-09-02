@@ -3628,3 +3628,13 @@ same machinery, not whether a fresh bounded harness can restate the itinerary.
 Retain the new world's sealed half as independent authority and keep
 experiment-specific researcher choices out of target, phase, correction depth,
 and post-saturation continuation.
+
+OT-0284's zero-actor preflight rejects on a stale isolation proxy, not on that
+transition graph. All 162 complete second-cycle branches pass, but the inherited
+helper forbids OT-0280's historical Morrowglass full-package digest anywhere in
+the current actor seed. The subject now legitimately carries that digest in its
+lineage, so every Tideglass selection is falsely labeled non-public. The next
+record should change only the isolation predicate to test absence of the current
+Tideglass sealed cases, sealed reference sources, and full-package digest.
+Historical package identity must remain admissible; current sealed content must
+remain absent. Do not rescore OT-0284 or change the cycle graph.

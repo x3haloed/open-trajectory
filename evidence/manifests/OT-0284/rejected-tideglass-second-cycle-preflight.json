@@ -1,0 +1,35 @@
+{
+  "artifact_id": "rejected-tideglass-second-cycle-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 876,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "17416f131a48981c5f335155e84366e4df036451",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0284",
+  "input_manifests": [
+    "evidence/manifests/OT-0283/morrowglass-reachable-recurrence-aggregate.json",
+    "evidence/manifests/OT-0283/open-subject-at-sixth-wait.json",
+    "evidence/manifests/OT-0283/subject-blind-tideglass-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight rejected before actor authorization because a historical-package isolation check was overbroad; no subject transition occurred."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-tideglass-second-cycle-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e92e85dbedecb90352eac5eaa9fd8ffe1e789f186fc86b3ed5548be551e814bc"
+}
