@@ -103,6 +103,14 @@ Before a normal commit or bounded result, run:
 python3 scripts/verify.py fast
 ```
 
+The fast verifier always runs the checkout-contained suite and privacy audit.
+When the complete OT-0080 through OT-0101 external object slice is available
+under ignored `.evidence/`, it also runs that retained evidence-backed suite.
+A clean CI checkout reports that suite as unavailable rather than treating
+exploratory-only bytes as missing repository files. Use
+`python3 scripts/verify.py fast --require-local-evidence` when that external
+slice is a required precondition for the check.
+
 Run the archival suite when historical harnesses, shared evidence machinery, or
 frozen reconstruction paths change, and before a tagged release:
 
