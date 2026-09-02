@@ -31,6 +31,10 @@ receipts, and derived `wait-provider`; only the generation-specific report
 label failed. The harness now recognizes only that exact retained failure,
 preserves its original report, relabels the already-produced transition as the
 fifth wait without resampling, and resumes from its exact subject digest.
+The first repair also retained its old `passed: false` member while recomputing
+the conjunction, making failure self-perpetuating; the corrected recovery drops
+that derived member before recomputation and reconstructs only the aggregate
+rejected solely by this bug, again preserving both original reports.
 
 The live caller supplies only identical null pulses. Promotion accepts any
 frozen branch and requires two actor-selected remaining surfaces, three

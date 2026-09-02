@@ -276,14 +276,21 @@ def recover_fifth_wait_report(run, p82, runtime):
         return
     result = json.loads(path.read_text())
     checks = result.get("checks", {})
-    if not (
+    legacy_failure = (
         result.get("pulse", {}).get("derived_operation") == "expand-environment"
         and checks.get("passed") is False
         and checks.get("fourth_wait_installed") is False
         and checks.get("saturated") is True
         and checks.get("next_is_wait") is True
         and checks.get("zero_fresh_actors") is True
-    ):
+    )
+    retained_repair_failure = (
+        result.get("apparatus_correction", {}).get("classification")
+        == "inherited-generation-specific-check"
+        and checks.get("passed") is False
+        and checks.get("fifth_wait_installed") is True
+    )
+    if not (legacy_failure or retained_repair_failure):
         return
     final = json.loads(subject_path.read_text())
     exact_fifth_wait = (
@@ -295,9 +302,11 @@ def recover_fifth_wait_report(run, p82, runtime):
     )
     if not exact_fifth_wait:
         raise RuntimeError("failed OT-0278 wait report is not the exact fifth-wait case")
-    write_json(run / "invocation-10-apparatus-failure.json", result)
-    checks.pop("fourth_wait_installed")
+    if legacy_failure:
+        write_json(run / "invocation-10-apparatus-failure.json", result)
+        checks.pop("fourth_wait_installed")
     checks["fifth_wait_installed"] = True
+    checks.pop("passed", None)
     checks["passed"] = all(checks.values())
     result["checks"] = checks
     result["apparatus_correction"] = {
@@ -310,6 +319,47 @@ def recover_fifth_wait_report(run, p82, runtime):
     )
     write_json(path, result)
     write_json(run / "checkpoint-subject.json", final)
+
+
+def recover_rejected_aggregate(run, p82):
+    """Recompute the aggregate rejected solely by the retained check bug."""
+    path = run / "aggregate.json"
+    if not path.exists():
+        return
+    aggregate = json.loads(path.read_text())
+    checks = aggregate.get("checks", {})
+    if not (
+        aggregate.get("observer_disposition") == "rejected"
+        and checks.get("bounded_content_free_recurrence") is False
+        and all(value is True for key, value in checks.items() if key not in {"bounded_content_free_recurrence", "passed"})
+    ):
+        return
+    rows = [
+        json.loads(candidate.read_text())
+        for candidate in sorted(run.glob("invocation-*-result.json"))
+    ]
+    if not (
+        len(rows) <= MAX_CALLS
+        and all(row["pulse"]["content"] is None and row["checks"]["passed"] for row in rows)
+        and rows[-1]["pulse"]["derived_operation"] == "wait-provider"
+        and rows[-1]["checks"].get("wait_exact_noop") is True
+    ):
+        raise RuntimeError("rejected OT-0278 aggregate is not the exact retained check bug")
+    write_json(run / "aggregate-apparatus-failure.json", aggregate)
+    checks["bounded_content_free_recurrence"] = True
+    checks["passed"] = all(value for key, value in checks.items() if key != "passed")
+    aggregate["checks"] = checks
+    aggregate["invocation_receipt_digests"] = [row["receipt_digest"] for row in rows]
+    aggregate["observer_disposition"] = "promoted"
+    aggregate["apparatus_correction"] = {
+        "classification": "self-including-passed-recomputation",
+        "preserved_report": "aggregate-apparatus-failure.json",
+        "resampled": False,
+    }
+    aggregate["receipt_digest"] = p82.digest(
+        {key: value for key, value in aggregate.items() if key != "receipt_digest"}
+    )
+    write_json(path, aggregate)
 
 
 def finalize_wait(run, p82, runtime, parent, fixtures):
@@ -412,9 +462,14 @@ def main():
     if args.preflight_only:
         print(json.dumps(fixtures, indent=2, sort_keys=True))
         return 0 if fixtures["checks"]["passed"] else 2
-    if not fixtures["checks"]["passed"] or (run / "aggregate.json").exists():
+    if not fixtures["checks"]["passed"]:
         raise SystemExit("OT-0278 unavailable")
     recover_fifth_wait_report(run, p82, runtime)
+    recover_rejected_aggregate(run, p82)
+    if (run / "aggregate.json").exists():
+        aggregate = json.loads((run / "aggregate.json").read_text())
+        print(json.dumps(aggregate, indent=2, sort_keys=True))
+        return 0 if aggregate["checks"]["passed"] else 2
     checkpoint = run / "checkpoint-subject.json"
     subject = json.loads(checkpoint.read_text()) if checkpoint.exists() else parent
     if base272.derive(subject, p82) == "wait-provider":
