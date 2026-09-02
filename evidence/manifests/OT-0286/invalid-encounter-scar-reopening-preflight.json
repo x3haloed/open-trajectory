@@ -1,0 +1,34 @@
+{
+  "artifact_id": "invalid-encounter-scar-reopening-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 971,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e0c8b2c5408308d8fb082806f7dd2ae161cf9b3f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0286",
+  "input_manifests": [
+    "evidence/manifests/OT-0285/rejected-tideglass-correction-invocation.json",
+    "evidence/manifests/OT-0285/open-subject-at-tideglass-contradiction.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; no live scar transition or recovery actor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:invalid-encounter-scar-reopening-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "26dec70f4384169cf365fb4c47dffebf2e4e4177cc890b68755861f3858ddceb"
+}

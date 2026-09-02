@@ -2962,5 +2962,12 @@ why no content counted, keep the unresolved contact exact, and let the fixed
 opening derive another correction encounter. Any later success is recovery
 after invalidity, not evidence of one-shot reliability.
 
+OT-0286 freezes that reopening mechanism as two null calls. The first installs
+only a rejection scar and generic policy; candidate patch, decision, prose, and
+world outcome remain excluded. Operational state is byte-identical and still
+derives `outward-correct`. Prospective zero-, one-, and two-feedback branches
+all pass, while accepted-actor, accepted-G10, world-bearing, subject-changing,
+and denial-free pseudo-rejections fail. Live output remains sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

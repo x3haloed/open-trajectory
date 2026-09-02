@@ -3662,3 +3662,11 @@ leave the same correction open. The next null opening should then authorize a
 fresh encounter because the subject carries its own unresolved stake plus the
 rejection—not because the researcher retries OT-0285. Score any later success
 as recovery after invalidity, never as one-shot reliability.
+
+OT-0286 freezes this rejection-to-reopening edge. The first null call may add
+only an audit-bound, non-authoritative scar and generic invalid-encounter policy;
+all active operational state remains exact. Five counterfeit invalidity controls
+fail, rejected candidate content stays absent, and every reachable correction
+depth remains valid. After freeze and push, one second null call may authorize a
+single fresh recovery actor. Its result must reach independent consequence;
+otherwise the scar is only memorialization, not liveness.
