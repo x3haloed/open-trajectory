@@ -1,0 +1,31 @@
+{
+  "artifact_id": "consequence-before-revision-recovery-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5610,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7359da9ae71a0154811af55d74788e5ee0b9145d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0336",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh actor requested comparative consequence before selector revision, preserved the stake byte-exact, and opened an exact comparison successor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-before-revision-recovery-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "463d8d273d8b04c8f1e2c15f75a7a7c852aa59521fff399465cbefea3972281a"
+}

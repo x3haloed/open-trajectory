@@ -161,6 +161,16 @@ silently infer from rank instability that the stake is false: it should let a
 fresh successor confront the policy-requested revision with the absence of
 outcome labels, and either justify a consequence-bearing way to revise or
 retain the stake while changing the pursuit of evidence.
+
+OT-0335's hosted response schema was rejected before actor output and is
+invalid apparatus evidence only. OT-0336 prospectively repaired only that
+schema representation. Its fresh successor recognized that supported-winner
+turnover without outcomes did not authorize selector revision, retained the
+stake byte-exact, and independently bound Morrow Quay and Harbor of Three Seals
+for comparative consequence. Aggregate `f590cf57...` promotes exact open child
+`e46bb091...`, now the current operational subject. The next opening is no
+longer observer-chosen “revise the weights”; it is the subject-selected request
+to obtain comparable independent consequence for the two implicated worlds.
 OT-0329's rejected actor patch was never inherited.
 OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
 cumulative 45/45; the matched outcome-erased author retained the global policy

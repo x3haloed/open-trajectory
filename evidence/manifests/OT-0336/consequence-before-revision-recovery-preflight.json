@@ -1,0 +1,31 @@
+{
+  "artifact_id": "consequence-before-revision-recovery-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 877,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7359da9ae71a0154811af55d74788e5ee0b9145d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0336",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Reconstructed OT-0335 preflight and pre-output schema failure, then verified the sole response-schema representation repair."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-before-revision-recovery-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3616eeab57de5eb84bfdcd7e1944a94c97033724f84e0e9e8a2db4039fcb0106"
+}

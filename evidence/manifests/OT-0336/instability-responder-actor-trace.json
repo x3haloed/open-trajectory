@@ -1,0 +1,31 @@
+{
+  "artifact_id": "instability-responder-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 35741,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7359da9ae71a0154811af55d74788e5ee0b9145d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0336",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh position-bearing broad-tool actor trace; clean complete one-file effect audit under G11."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:instability-responder-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0a3b7fa5bc1aed5ecef42e02ae18025e842eead7304a7f533eae389c9e3b3571"
+}

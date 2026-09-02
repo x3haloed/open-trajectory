@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-awaiting-comparative-consequence",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1967707,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7359da9ae71a0154811af55d74788e5ee0b9145d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0336",
+  "input_manifests": [],
+  "kind": "operational-open-subject",
+  "limitations": [
+    "Exact promoted open successor binds the actor-selected turnover worlds and preserves the incumbent stake pending independent consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-awaiting-comparative-consequence",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a2e6c391d3df08179e12deda1326d86b445e99d248a59236b830abdbafc9ee78"
+}
