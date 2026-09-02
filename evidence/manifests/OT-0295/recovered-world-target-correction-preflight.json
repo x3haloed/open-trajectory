@@ -1,0 +1,35 @@
+{
+  "artifact_id": "recovered-world-target-correction-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 798,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f3043fc5267c734fecbdd383f00000f566d00e99",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0295",
+  "input_manifests": [
+    "evidence/manifests/OT-0294/open-subject-after-recovered-world-selection.json",
+    "evidence/manifests/OT-0294/shared-live-isolation-authority-aggregate.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; live consequence-selected correction depth is not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:recovered-world-target-correction-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3f881eb40685cf95934749ab25407ab45add24025bf6ad4e4b50d35a5e91b848"
+}

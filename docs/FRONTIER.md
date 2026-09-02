@@ -3816,3 +3816,11 @@ The next frontier is no longer handoff plumbing. Starting from exact
 selected surface under independent consequence, then refresh and choose among
 the remaining surfaces. No recovery-specific or target-specific routing may be
 introduced. A full third cycle remains the stronger claim.
+
+OT-0295 freezes that correction edge from exact `e09f4f71...`. The old resolved
+disclosure is correctly scoped away from the newly selected target; two hidden
+input classes remain. All zero-, one-, and two-feedback paths reach 6/6 against
+the same 2/6 control, preserve invalidity and recovery history, and derive
+refresh; exhaustion fails closed. After freeze and push, repeated identical
+empty openings may instantiate at most three fresh correctors, with each valid
+unresolved consequence—not researcher retry—carrying the next attempt.

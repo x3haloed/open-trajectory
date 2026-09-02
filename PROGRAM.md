@@ -3101,5 +3101,13 @@ recurrence through Tideglass Crossings from this exact successor. Reuse the
 target-scoped disclosure machinery and shared isolation authority; do not add a
 special route for the selected target or the recovery history.
 
+OT-0295 freezes the first recovered-world correction. Its preflight confirms
+that the retained resolved disclosure belongs to another target and is ignored,
+leaving exactly two target-scoped undisclosed classes. Zero-, one-, and
+two-feedback paths all reach 6/6 against unchanged 2/6, preserve cross-role
+invalidity lineage, and derive refresh; feedback beyond exhaustion fails
+closed. Route 16/16 and identity 18/18 remain exact. Live output stays sealed
+until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
