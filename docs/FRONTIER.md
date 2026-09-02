@@ -3886,3 +3886,9 @@ refresh. Next require actor-free refresh and target-untold selection of the sole
 remaining surface, then generic correction. Although only one choice remains,
 the actor must still author the contact and survive independent consequence;
 do not collapse selection into researcher routing.
+
+OT-0300 freezes the complete final suffix from exact `9d0546e6...`. Every
+reachable correction depth includes the explicit actor-authored final contact,
+earns all three surfaces only after consequence, saturates, installs and exactly
+reobserves an eighth wait, and derives renewal. After freeze and push, repeated
+identical empty openings may traverse that graph with no phase or target input.

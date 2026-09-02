@@ -1,0 +1,35 @@
+{
+  "artifact_id": "final-surface-to-eighth-wait-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 634,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "75697da615094b26c5a3e6ae1869c1d9b27af3e4",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0300",
+  "input_manifests": [
+    "evidence/manifests/OT-0299/open-subject-after-second-developmental-correction.json",
+    "evidence/manifests/OT-0299/second-developmental-target-correction-aggregate.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; live final-surface correction depth and eighth wait are not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:final-surface-to-eighth-wait-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bfff89b692ffe7a4b5f09d5e0a7312389ede33960773e9b177b0136637a13496"
+}

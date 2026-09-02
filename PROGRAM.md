@@ -3166,5 +3166,11 @@ authority to exactly two package surfaces, and derives refresh. Aggregate
 receipt `cb2f40eb...`. The immediate frontier is actor-free refresh, inevitable
 selection of the sole remaining surface, and its consequence-driven correction.
 
+OT-0300 freezes the full final-surface suffix. All zero-, one-, and two-feedback
+branches preserve explicit target-untold selection, reach 6/6 against unchanged
+2/6, earn all three surfaces, saturate, install and exactly reobserve an eighth
+wait, and derive renewal. Route 16/16 and identity 18/18 remain exact. Live
+output stays sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
