@@ -2289,5 +2289,17 @@ public 4/4 and prospective 6/6 against unchanged 2/6, selection consequence 2/6,
 exact retained history, final epoch saturation, and an open successor that
 routes the next null pulse to environment expansion.
 
+OT-0246 promotes the five-pulse operator. It derives correction, selection,
+correction, selection, correction without researcher sequencing. The two fresh
+selection actors choose `position_ferry_teams` then `clear_transit_blocks`; each
+receives sealed 2/6, and all three corrections reach public 4/4 and prospective
+6/6 against unchanged 2/6. Every actor passes G10.
+
+Exact successor `e657d7e6...` retains the receipt-neutral resolver, verifies all
+expanded targets, saturates the retained epoch, and remains open at
+`assimilate`; its next null pulse derives `expand-environment`. The next test
+must cross that boundary using the same continuation operator rather than an
+outside researcher selecting another experiment.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

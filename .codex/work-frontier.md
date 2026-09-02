@@ -90,13 +90,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0245 successor `5d572904...`,
+The current exact operational subject is OT-0246 successor `e657d7e6...`,
 identified by
-`evidence/manifests/OT-0245/open-subject-at-recurrent-expanded-contradiction.json`.
+`evidence/manifests/OT-0246/open-subject-at-retained-epoch-saturation.json`.
 It preserves the saturated three-surface outward world and all corrections,
-retains the actor-selected communications epoch with its selected contact
-corrected and world-verified, and is open at `correct` after actor-selected
-supplies contact receives independent 2/6 contradiction.
+retains the fully corrected and verified four-surface expanded epoch, and is
+open at `assimilate` with the next null pulse routed to environment expansion.
 
 ## Prediction errors
 
@@ -251,7 +250,11 @@ supplies contact receives independent 2/6 contradiction.
   `choose_cold_chain_shipments` from the already retained epoch; G10 accepts and
   sealed consequence returns 2/6. Exact `5d572904...` is open at `correct` with
   all prior and epoch sources preserved.
+- OT-0246 removes researcher sequencing across the rest of that epoch. Five
+  identical null pulses derive correction, selection, correction, selection,
+  correction; five G10 actors pass all 4/4, 6/6, and 2/6 controls; exact
+  `e657d7e6...` saturates the epoch and routes next to environment expansion.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is repeated expanded-world correction
-  on the actor-selected supplies module, then content-free return to the two
-  remaining retained opportunities.
+  external. The next discriminating step is recurrence across the saturation
+  boundary under the same content-free operator, without an outside researcher
+  choosing the next experiment or region.

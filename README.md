@@ -639,6 +639,11 @@ The strongest footholds are:
   `choose_cold_chain_shipments` from the retained epoch without a new opportunity
   world, passes G10, and receives sealed 2/6 contradiction. Exact successor
   `5d572904...` preserves every prior and retained source and is open at `correct`.
+- `OT-0246`: one operator consumes five more identical null pulses, deriving
+  correction, selection, correction, selection, correction without researcher
+  sequencing. Five fresh G10 actors correct supplies and both actor-ordered
+  mobility surfaces through 4/4, 6/6, and 2/6 controls. Exact successor
+  `e657d7e6...` saturates the retained epoch and routes next to expansion.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

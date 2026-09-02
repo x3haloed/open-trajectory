@@ -2918,3 +2918,21 @@ exact saturation. Both orders are preflighted end to end. Promotion requires the
 derived operation sequence `correct, select, correct, select, correct`, five G10
 actors, correction 4/4→6/6 versus 2/6 controls, selection 2/6 receipts, retained
 history, and an exact open successor whose next null pulse expands environment.
+
+OT-0246 passes the full five-pulse traversal without retry. The operator derives
+correction, selection, correction, selection, correction. Fresh actors choose
+`position_ferry_teams` then `clear_transit_blocks`; both selection contacts
+receive sealed 2/6, and supplies plus both mobility corrections reach public 4/4
+and prospective 6/6 against unchanged 2/6. All five actors pass G10.
+
+Exact successor `e657d7e6...` retains the receipt-neutral correction resolver,
+marks every expanded target verified, preserves the inherited registry, and is
+open at `assimilate`. No researcher chose the mobility order or intervening
+harness. The retained epoch is saturated and the next null pulse derives
+`expand-environment`.
+
+The frontier is now recurrence across environment epochs. The same content-free
+operator must cross saturation into another inspectable objective world, allow
+one fresh actor to choose its region without a target or task, receive
+consequence, and continue. Requiring a researcher to stop and author a new
+experiment at this boundary remains a hidden causal dependency.

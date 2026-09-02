@@ -1,6 +1,6 @@
 # OT-0246 — retained-epoch content-free driver
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0245 subject `5d572904...`
 - **Fresh actors:** five, one per pulse, no retries
@@ -33,3 +33,20 @@ and the exact open successor routes the next null pulse to
 The observer still authored the retained opportunity set, hidden references,
 and acceptance machinery. This tests autonomous orchestration across a bounded
 retained epoch, not autonomous world acquisition or indefinite continuation.
+
+## Result
+
+All five identical null pulses completed without retry and derived the frozen
+sequence. The first correction repaired supplies. Fresh selection actors then
+chose `position_ferry_teams` followed by `clear_transit_blocks`; each received
+sealed 2/6 contradiction and the following fresh corrector reached public 4/4
+and prospective 6/6 against unchanged 2/6. All five actors passed G10.
+
+Exact successor `e657d7e6...` retains the receipt-neutral correction resolver,
+marks all four expanded-epoch targets verified, preserves the inherited
+registry, and is open at `assimilate`. The retained epoch is saturated and the
+next null pulse derives `expand-environment`.
+
+The next claim is whether this same operator can cross that saturation boundary
+into another coherent environment without an experiment-specific researcher
+choosing when or where to expand.

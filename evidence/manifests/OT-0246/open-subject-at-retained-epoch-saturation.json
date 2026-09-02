@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-retained-epoch-saturation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 959051,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "710d8580c83c450deac0a60d1f456374ef0dfb3d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0246",
+  "input_manifests": [
+    "OT-0246/retained-epoch-content-free-driver-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject after complete retained-epoch traversal; the next environment expansion still requires a separately opened objective world."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-retained-epoch-saturation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7bc67c818691ab9ad9f4f01ed40fadd25a933a3a864501a585ab0793318d0b7c"
+}
