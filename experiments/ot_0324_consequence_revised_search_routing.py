@@ -587,10 +587,15 @@ def main():
     if not fixtures_report["checks"]["passed"] or (run / "aggregate.json").exists():
         raise SystemExit("OT-0324 unavailable")
 
-    seed = secrets.token_hex(32)
-    write_json(run / "private-router-refinement-world-seed.json", {
-        "seed": seed, "seed_digest": p82.digest(seed),
-    })
+    seed_path = run / "private-router-refinement-world-seed.json"
+    if seed_path.exists():
+        seed_record = json.loads(seed_path.read_text())
+        seed = seed_record["seed"]
+        if seed_record["seed_digest"] != p82.digest(seed):
+            raise RuntimeError("retained private seed digest mismatch")
+    else:
+        seed = secrets.token_hex(32)
+        write_json(seed_path, {"seed": seed, "seed_digest": p82.digest(seed)})
     stake = base316.stake_of(parent)
     diagnostic_fronts = fronts(seed, stake, p82, heldout=False)
     diagnostic = summaries(diagnostic_fronts, parent["active_proposal_search_capability"]["source"], stake)
@@ -615,10 +620,10 @@ def main():
         "outcome_authority": True,
     }
     consequence["receipt_digest"] = p82.digest(consequence)
-    write_json(run / "diagnostic-fronts.json", diagnostic_fronts)
-    write_json(run / "diagnostic-front-summaries.json", diagnostic)
-    write_json(run / "diagnostic-incumbent-route.json", incumbent_route)
-    write_json(run / "diagnostic-route-consequence.json", consequence)
+    base.write_or_verify_json(run / "diagnostic-fronts.json", diagnostic_fronts)
+    base.write_or_verify_json(run / "diagnostic-front-summaries.json", diagnostic)
+    base.write_or_verify_json(run / "diagnostic-incumbent-route.json", incumbent_route)
+    base.write_or_verify_json(run / "diagnostic-route-consequence.json", consequence)
 
     public = public_fixtures(parent["active_proposal_search_capability"]["applicability"], diagnostic)
     context = b.base274.context_for(core, base130, runtime, run / "actors", repo)

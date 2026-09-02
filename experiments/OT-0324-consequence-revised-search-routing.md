@@ -100,3 +100,8 @@ without changing any allowed output and permits one fresh retry under a new
 label with the identical private seed, diagnostic fronts, consequence, prompt,
 tools, and gates. A separate machine-readable repair conformance receipt must
 pass before retry.
+
+The restart path also loads and digest-checks the retained private seed and
+verifies the recomputed diagnostic fronts, summaries, route, and consequence
+byte-for-value before authorizing that retry; it may not regenerate or
+overwrite them.
