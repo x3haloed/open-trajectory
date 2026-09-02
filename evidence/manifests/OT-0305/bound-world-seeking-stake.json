@@ -1,0 +1,33 @@
+{
+  "artifact_id": "bound-world-seeking-stake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2003,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6de3aa21e54f5d7d5265c3490d9af6e668fcd147",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0305",
+  "input_manifests": [
+    "evidence/manifests/OT-0304/unchanged-current-subject.json"
+  ],
+  "kind": "actor-authored-stake-binding",
+  "limitations": [
+    "One fresh actor-authored stake; no generative reproduction claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:bound-world-seeking-stake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7af358b6abb4813336f938f0ac358433f5afd9954b02ae92078abf5dfb5d3663"
+}

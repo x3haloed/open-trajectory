@@ -1,0 +1,31 @@
+{
+  "artifact_id": "world-seeking-stake-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 53967,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6de3aa21e54f5d7d5265c3490d9af6e668fcd147",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0305",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Raw retained tool trace; actor provenance is deployment-bounded."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:world-seeking-stake-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a086cd2c9336aa19ecd557f64ff2899da72b1b3ba495783d31201c47e80b81e9"
+}

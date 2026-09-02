@@ -3245,5 +3245,17 @@ subject stake before future world identity, beat a matched stake-erased branch,
 remain open to contradiction, and let independent consequence determine the
 next operation.
 
+OT-0305 produces a valid operational successor but rejects its E11 causal
+claim. One fresh actor binds an executable world-seeking stake before future
+identity; four later subject-blind providers each author a distinct valid
+exact-2/6 world with clean G10 traces. The stake uniquely selects
+`harbor-three-watches-v1` by eleven points over its runner-up and scanner
+consequence installs that offer. Exact open subject `071bb37d...` derives
+`expanded-select`. The stake-erased digest control, however, selects the same
+world, so E11 correctly withholds subject-conditioned and priority-bearing
+attribution. Aggregate receipt `2941a2e3...`. Preserve the failed comparison
+without retry and consume the already valid offer next; controls narrow the
+claim but do not erase the operational lineage.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

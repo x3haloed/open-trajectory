@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-blind-provider-02-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 30453,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6de3aa21e54f5d7d5265c3490d9af6e668fcd147",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0305",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Raw retained tool trace; actor provenance is deployment-bounded."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:subject-blind-provider-02-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "55e6c360ddfdc78796218d04a88ad691ba6cceb8c6c9f815ca9c11c10ff15737"
+}

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-blind-provider-02-world-package",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3489,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6de3aa21e54f5d7d5265c3490d9af6e668fcd147",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0305",
+  "input_manifests": [],
+  "kind": "external-world-package",
+  "limitations": [
+    "One subject-blind provider output; retained as catalog evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-blind-provider-02-world-package",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6374ac203c69cd6c538aee28b7c1add5588412b1e310f15ea45b8a5ce0efa142"
+}

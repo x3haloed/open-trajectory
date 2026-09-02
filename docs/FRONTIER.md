@@ -78,12 +78,12 @@ remain the consequence-corrected allocator and later-regime repair
 (`OT-0254`), conditional failed-attempt correction (`OT-0273`–`OT-0274`), and
 the current surrender/recovery recurrence (`OT-0300`–`OT-0303`).
 
-The exact current operational subject remains OT-0303 successor `e193ec50...`.
-OT-0304 changed only the evaluation epoch and left these bytes exact. It is
-open after eight waits and seven discharges, retains all three earned Tideglass
-Crossings surfaces, provider/corrector invalidity and recovery history, and one
-truthful surrender followed by successful fresh-actor correction. Its own state
-derives `renew-world-feed`; no next world has been generated or selected.
+The exact current operational subject is OT-0305 successor `071bb37d...`.
+It retains the complete OT-0303 lineage, a fresh actor-authored executable
+world-seeking stake, and the independently supplied public offer for
+`harbor-three-watches-v1`. The eighth wait is discharged and its own state
+derives `expanded-select`. OT-0305 did not earn an E11 priority-causation claim:
+the active and stake-erased rules selected the same world.
 
 ## Prediction errors
 
@@ -104,13 +104,19 @@ derives `renew-world-feed`; no next world has been generated or selected.
   reliability estimate across goals, worlds, or models.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
+- Expected: a subject-authored weighted stake would select a different world
+  than the stake-erased digest rule on one four-world catalog. Observed: both
+  selected `harbor-three-watches-v1`, although the stake had a unique eleven-
+  point margin and the operational offer passed. Uncertain: whether the stake
+  lacks behavioral selectivity or one catalog plus one arbitrary blind rule is
+  simply too collision-prone to estimate it. Evidence: OT-0305 aggregate
+  `2941a2e3...`.
 
-The next discriminating experiment is now governed by E11: compare standing
-blind renewal with a subject-originated, falsifiable world-seeking stake under
-matched provider resources and independent consequence. Bind the stake before
-future package identity exists. It may constrain what kind of contact is worth
-opening, but must not reveal or control sealed world content, scoring, or
-admission. A successful path must produce a genuinely new world contact that
-the stake-erased control does not preferentially recover, then let consequence
-decide whether the subject uses, corrects, extends, or surrenders it. Merely
-generating another valid package is insufficient.
+The immediate experiment must follow the exact subject rather than retry the
+failed comparison: consume the active `harbor-three-watches-v1` offer through
+generic target-untold selection and independent consequence. Preserve the
+stake, the same-world control receipt, all four provider worlds, and E11's
+negative verdict. Consequence must decide the next operation. Only after that
+contact becomes developmentally interpretable should a later experiment test
+the stake across additional independent catalogs or a less collision-prone
+matched baseline.

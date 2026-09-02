@@ -1,0 +1,38 @@
+{
+  "artifact_id": "subject-priority-world-selection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 63141,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6de3aa21e54f5d7d5265c3490d9af6e668fcd147",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0305",
+  "input_manifests": [
+    "evidence/manifests/OT-0305/subject-priority-world-selection-preflight.json",
+    "evidence/manifests/OT-0305/bound-world-seeking-stake.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-01-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-02-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-04-world-package.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Operational transition passed; E11 priority-causation claim rejected because active and stake-erased controls selected the same world."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-priority-world-selection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1ccf302b117100e230f10e299cb59567af4a7ba2c53951f7fa217bf86981a741"
+}

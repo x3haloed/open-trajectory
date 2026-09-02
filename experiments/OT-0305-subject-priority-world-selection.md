@@ -1,6 +1,6 @@
 # OT-0305 — Subject-priority world selection
 
-- **Status:** frozen; preflight passed; live actors not run
+- **Status:** operational transition passed; E11 causal claim rejected
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0303/OT-0304 unchanged subject `e193ec50...`
 - **Actor budget:** one stake author plus four subject-blind providers; no retry
@@ -88,3 +88,29 @@ not that the chosen priority is globally good, that the selected package will
 be easy to learn, or that the selection rule improves itself. The selected
 world must be consumed next; its objective consequence must then support,
 correct, extend, or surrender the stake and affect later selection.
+
+## Result
+
+All five fresh actors pass without retry. The first actor binds stake
+`preserve-contact-correction-future` before any future world exists, grounding
+it in the active developmental stake, active pursuit, and waiting continuation.
+It prefers public branch and comparison structure, mildly prefers calls, and
+penalizes source bytes. Four later subject-blind providers independently author
+four valid, mutually novel exact-2/6 worlds with clean G10 traces.
+
+The catalog supports the stake: `harbor-three-watches-v1` wins by eleven points
+against a bound minimum gap of three. The scanner admits that world, discharges
+the eighth wait, and seals exact open operational successor `071bb37d...` with
+`expanded-select` live next.
+
+The E11 causal claim rejects. The stake-erased blind digest rule also selects
+`harbor-three-watches-v1`, so removing the stake does not change the move on
+this catalog. E11 therefore classifies the episode as operational contact but
+not subject-conditioned or priority-bearing contact. Aggregate receipt
+`2941a2e3...`.
+
+This same-world collision does not retroactively kill the valid offer. It does
+show that one catalog plus one arbitrary blind selector is too collision-prone
+to estimate a preference effect reliably. Preserve the failed causal claim and
+continue the exact subject into the independently supplied world; do not retry
+or resample OT-0305.
