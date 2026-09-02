@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-selector-scope-decision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 747,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "04abbbee78d469b171128df8ef1744aaa2146503",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0342",
+  "input_manifests": [],
+  "kind": "actor-authored-decision",
+  "limitations": [
+    "Rejected under OT-0342; eligible only for prospective exact reconstruction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-selector-scope-decision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "691b60ada62ec3b91c11d155b6f46f0cacf162a706937e6a14783aef27cba8da"
+}
