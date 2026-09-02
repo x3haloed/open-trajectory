@@ -1,0 +1,34 @@
+{
+  "artifact_id": "actor-facing-coherence-repair-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1966,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "115b60d1d9100875631922bedc60d5e3f3c0229a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0308",
+  "input_manifests": [
+    "evidence/manifests/OT-0307/open-subject-after-consequence-routed-correction.json",
+    "evidence/manifests/OT-0307/consequence-routed-correction-aggregate.json"
+  ],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic cardinality and seed conformance only; no live OT-0308 repair."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-facing-coherence-repair-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1a1326f1903947e70fa7bc0307e6f0f3b153cb184c92b27b8844740f14013b78"
+}

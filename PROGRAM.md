@@ -3296,5 +3296,14 @@ bounded correction-and-refresh result stands. Do not authorize the next actor
 until generic derivation detects and repairs actor-facing projection/narrative
 disagreement; future gates require their agreement.
 
+OT-0308 freezes that generic derived repair. In the assimilated opportunity
+phase, projection count/list/status and inherited operation are authoritative;
+malformed machine state fails closed. Valid machine state with contradictory
+active narrative derives an actor-free repair that changes only continuation
+language plus a receipt, then restores the inherited operation. Stale and
+coherent 0/1/2/3-opportunity branches pass, the exact OT-0307 mismatch repairs
+prospectively to a coherent two-opportunity selection seed, and route 16/16 plus
+identity 18/18 remain exact. Live repair remains sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

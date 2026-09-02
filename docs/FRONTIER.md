@@ -128,12 +128,12 @@ establishes that the stake caused world or target choice.
   actor-visible coherence is required before testing it. Evidence: retained
   OT-0307 final subject and prospective selection seed.
 
-The immediate experiment starts from exact `e3c4be50...` and must repair the
-count-language mismatch before any selection actor runs. Add a generic derived
-coherence operation, not a one-off subject edit: detect disagreement among the
-authoritative projection, derived phase, continuation text, and actor seed;
-repair only the non-authoritative narrative; and prove 0/1/2/3-opportunity
-fixtures plus unchanged coherent controls. The same content-free entry should
-then reach `expanded-select` with two coherent opportunities. After that repair,
-resume target-untold contact and later test the world-seeking stake across
-additional catalogs or a less collision-prone matched baseline.
+OT-0308 is frozen against exact `e3c4be50...`. Its generic derived coherence
+operation treats projection count/list/status and inherited phase as
+authoritative, fails malformed machine state closed, and repairs only active
+continuation narrative plus a receipt. Stale and coherent 0/1/2/3-opportunity
+branches pass prospectively; the exact two-versus-sole mismatch repairs to a
+coherent actor seed deriving `expanded-select`. No selection actor may run until
+this zero-actor repair is committed, pushed, and observed. After that, resume
+target-untold contact and later test the world-seeking stake across additional
+catalogs or a less collision-prone matched baseline.
