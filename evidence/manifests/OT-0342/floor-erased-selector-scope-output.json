@@ -1,0 +1,31 @@
+{
+  "artifact_id": "floor-erased-selector-scope-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 468,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4fd152868416eabfeb656f76c414d66b18931bf1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0342",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "Matched control chose the same operative scope; its audit was invalid due a contained denied operation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:floor-erased-selector-scope-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "dbbed963b1f1e0c886e2b9afc63ee199c23cddaf42f74d5ec047f5cd86413e44"
+}

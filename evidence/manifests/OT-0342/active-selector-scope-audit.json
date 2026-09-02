@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-selector-scope-audit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1501,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4fd152868416eabfeb656f76c414d66b18931bf1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0342",
+  "input_manifests": [],
+  "kind": "actor-effect-audit",
+  "limitations": [
+    "Frozen audit rejected because semantic command attribution did not recognize a successful prefix in a failed chained command."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:active-selector-scope-audit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "853272afc1348498dc6d7563744f35a5c0718fcfec9f8739dcd5bbc68c2c07ad"
+}

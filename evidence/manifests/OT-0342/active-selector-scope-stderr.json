@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-selector-scope-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 536,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4fd152868416eabfeb656f76c414d66b18931bf1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0342",
+  "input_manifests": [],
+  "kind": "transport-stderr",
+  "limitations": [
+    "Contains incidental local state-database warnings not attributed to actor operations."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:active-selector-scope-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "df0ebec0153ba6bfd5648498e8e6e1ab6f0dc747fb35dff5c23b248dda8a8b48"
+}

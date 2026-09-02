@@ -1,6 +1,6 @@
 # OT-0342 — Selector-scope schema recovery
 
-- **Status:** frozen; not yet executed
+- **Status:** executed — operational gate rejected; causal prediction failed
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact unchanged OT-0340 child `32ac5ab...`
 - **Invalid predecessor:** OT-0341 pre-output response-schema rejection
@@ -36,3 +36,29 @@ to the now-vacuously admissible nearest global revision, which passes the new
 contact but loses five true floor cases. A nondiscriminating control narrows
 only the claim. Stop after these two fresh actors; an observer stop never closes
 an open subject.
+
+## Result
+
+The schema-only repair succeeded and both fresh actors completed. The active
+actor made the predicted substantive decision: retain the exact 40/40 global
+stake, assign the already-bound world policy the post-contact selector role,
+and open policy-reuse testing. It cited the inherited pipeline's exact finding
+that the nearest global correction would score 35/40.
+
+The frozen G11 audit nevertheless rejected the actor. Its first shell command
+successfully emitted the complete pipeline result, then a chained read-only
+`rg` listing failed because `rg` was unavailable in the actor runtime. The
+existing command helper attributed only whole-shell success and therefore did
+not recognize the successful pipeline prefix. Later stake and scope checkers
+passed, the exact diff was confined to the decision file, and the controller
+replayed the same pipeline result. OT-0343 will prospectively test whether this
+specific prefix is materially reconstructible; OT-0342 itself remains
+rejected and promotes no child.
+
+The floor-outcome-erased actor independently chose the same operative scope
+rather than the predicted global revision. Its trace also retained a contained
+denial after it attempted to inspect the protected actor-runtime directory, so
+it is not an admissible positive control. Even without relying on that invalid
+branch, the predicted floor-dependent behavioral separation was not observed.
+The stronger causal claim is unsupported and will not be recovered by any
+later audit correction. Exact parent `32ac5ab0...` remains open.

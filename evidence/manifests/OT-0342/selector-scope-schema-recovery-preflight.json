@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selector-scope-schema-recovery-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2098,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4fd152868416eabfeb656f76c414d66b18931bf1",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0342",
+  "input_manifests": [],
+  "kind": "conformance-receipt",
+  "limitations": [
+    "Schema-only recovery fixtures; no actor behavior."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:selector-scope-schema-recovery-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "00f82630f0d7363a11574e25abbf6e4edefbe8eb9240fb1039af40c3029cd953"
+}

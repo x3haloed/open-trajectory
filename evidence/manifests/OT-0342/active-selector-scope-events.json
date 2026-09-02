@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-selector-scope-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 42301,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4fd152868416eabfeb656f76c414d66b18931bf1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0342",
+  "input_manifests": [],
+  "kind": "actor-event-trace",
+  "limitations": [
+    "Contains one chained command whose pipeline prefix succeeded before an unavailable read-only listing helper made the shell command fail."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:active-selector-scope-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "22cb8d8fa1604328562326be6324e9d70c3cfd8b7544eb57eb688ad54700b670"
+}

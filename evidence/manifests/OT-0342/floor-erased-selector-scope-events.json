@@ -1,0 +1,31 @@
+{
+  "artifact_id": "floor-erased-selector-scope-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 35133,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "4fd152868416eabfeb656f76c414d66b18931bf1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0342",
+  "input_manifests": [],
+  "kind": "actor-event-trace",
+  "limitations": [
+    "Matched-control trace retained for exact negative comparison and denial audit."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:floor-erased-selector-scope-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "518506a680612a438653bc57844e5ca2c07b9f10a322e1d69c4a6d93cce8f2cd"
+}
