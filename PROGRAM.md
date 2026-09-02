@@ -3039,5 +3039,14 @@ cycle. The immediate test is whether the same content-free opening consumes
 Tideglass Crossings through the standing scanner and resumes autonomous target
 selection and correction with the recovery scar retained.
 
+OT-0291 rejects before live actors. Exact recovery identity, scanner wake,
+three prospective 2/6 consequences, correction routing, retained scars,
+route 16/16, and identity 18/18 all pass. Each choice branch fails only the
+inherited public-seed helper because the recovered package's full digest is
+legitimately present in the content-excluding recovery receipt. Preserve the
+rejection. Next replace that stale proxy only with direct checks for current
+sealed sources, hidden cases, and the full sealed-case collection, plus injected
+leak controls.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

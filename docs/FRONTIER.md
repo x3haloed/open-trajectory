@@ -3748,3 +3748,13 @@ opening and require its standing scanner to discover Tideglass Crossings, then
 resume generic selection and consequence-driven correction while retaining the
 cross-role scar. This is the start of another recurrence test, not evidence
 that one clean external run establishes general provider reliability.
+
+OT-0291 rejects at zero-actor preflight on a stale isolation proxy. The exact
+recovered subject discovers the package, discharges the seventh wait, preserves
+its invalidity lineage, and every prospective target reaches unresolved 2/6
+consequence with correction next. But the inherited helper forbids the current
+full-package digest anywhere in the seed; that digest is now legitimately
+retained by the recovery receipt without package source. Preserve the rejection.
+The next record should change only public-seed isolation to test actual current
+sealed sources, hidden cases, and the full sealed-case collection, with direct
+leak controls. The wake-and-selection claim otherwise remains unchanged.
