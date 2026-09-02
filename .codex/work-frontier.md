@@ -94,7 +94,7 @@ and preserved negative evidence.
 
 The current exact operational subject remains OT-0247 successor `aab064d0...`,
 identified by
-`evidence/manifests/OT-0248/unchanged-open-subject-after-descriptor-audit-rejection.json`.
+`evidence/manifests/OT-0249/unchanged-open-subject-after-output-claim-rejection.json`.
 It preserves all earlier worlds and corrections, retains the state-indexed
 resilience epoch and provider receipt, and is open at `correct` after
 actor-selected shelter-bus contact receives independent 2/6 contradiction.
@@ -272,3 +272,13 @@ actor-selected shelter-bus contact receives independent 2/6 contradiction.
 - Environment construction, hidden-world authorship, and final admission remain
   external. The immediate step is a prospective descriptor-complete audit and
   total reporter before retrying second-epoch continuation in a new experiment.
+- OT-0249 resolves the descriptor and reporter faults prospectively, but the
+  first live actor exposes a separate authority regression. Exact target-local
+  effects, immutable audit, public 4/4, and clean containment pass; a duplicated
+  descriptive `files_changed` entry causes the inherited transport gate to
+  reject before hidden consequence. Exact `aab064d0...` remains open and no
+  actor is retried. Evidence: rejected receipt `45e28c16...` under OT-0249.
+- The immediate checkpoint is prospective correction-output authority: apply
+  G8/G9's already-earned mechanical-effect precedence to this interface, retain
+  the OT-0249 candidate if it passes held-out anchors, and only then expose it to
+  consequence without resampling.

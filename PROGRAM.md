@@ -2351,5 +2351,17 @@ audit path and public 4/4; every resilience permutation retains the prior 4/4,
 The live driver stops immediately on rejection and promotes only after the same
 seven-operation sequence completes without retry.
 
+OT-0249 rejects at the first transition without retry. Descriptor-derived audit
+paths, immutable comparison, exact target-local effects, public 4/4, and the
+complete trace all pass. The inherited correction transport nevertheless makes
+the actor's duplicated descriptive changed-path list causal and rejects before
+hidden consequence. Exact `aab064d0...` remains the open operational subject.
+
+The next checkpoint must carry the already-promoted G8/G9 authority separation
+into correction transport: schema/action validity remains required, but exact
+mechanical effects and workspace semantics outrank descriptive path claims.
+Retain and classify the OT-0249 candidate prospectively; do not rescore the
+rejection or resample its actor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

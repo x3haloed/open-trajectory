@@ -2999,3 +2999,20 @@ immutable reads and public 4/4. All six resilience orders still pass end to end.
 A rejected first transition also passes through the live aggregate function and
 produces rejection without an exception. The live run stops at the first failed
 actor or world; only an uninterrupted seven-null-pulse traversal can promote.
+
+OT-0249 rejects at its first live transition and stops without retry. The
+descriptor repair itself passes live: all immutable paths exist, the shared
+evaluator reports no error, mechanical effects are exact and target-local, the
+trace is clean, and correction reaches public 4/4. But the actor's structured
+`files_changed` list duplicates the decision path. The inherited correction
+transport treats that descriptive claim as causal, marks the effect
+nonconformant, and withholds hidden consequence. Exact parent `aab064d0...`
+remains open and unchanged.
+
+This is an authority-boundary regression, not another descriptor failure. G8
+and G9 already established prospectively that mechanically observed effects and
+workspace semantics are causal while output path/identity claims ordinarily
+limit provenance. The next evaluator checkpoint must apply that learned rule to
+the correction transport, preserve wrong-action, malformed-schema, unsafe-trace,
+outside-effect, and semantic-invalid rejections, and classify the retained
+OT-0249 correction without rescoring or resampling it.

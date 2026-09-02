@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-output-claim-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 975205,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "22c43e14c26b888d3a6e46c428ab5ed39cd030ad",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0249",
+  "input_manifests": [
+    "OT-0249/descriptor-complete-second-epoch-driver-rejected-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "This is the unchanged exact parent after OT-0249 stopped at its first rejected transition; the retained actor correction is not admitted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-output-claim-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "54a98bb2693bf0e8ef49b422a2a973915e39b50d7e58f9a15bfd887b7e23c720"
+}

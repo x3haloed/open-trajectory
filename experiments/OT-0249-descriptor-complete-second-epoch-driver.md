@@ -1,6 +1,6 @@
 # OT-0249 — descriptor-complete second-epoch driver
 
-- **Status:** frozen
+- **Status:** rejected
 - **Evidence class:** exploratory-only
 - **Parent:** unchanged exact OT-0248 subject `aab064d0...`
 - **Fresh actors:** at most seven; stop at the first rejected transition
@@ -34,3 +34,20 @@ is permitted.
 The world descriptors, references, hidden cases, and final admission remain
 observer-authored. Empty-stream waiting and resumption after later stream
 extension remain outside this comparison.
+
+## Result
+
+Rejected at the first transition, with no retry. The descriptor-complete repair
+worked: the shared workspace evaluator found every immutable path, reported no
+error, verified exact target-only effects, and scored the fresh correction 4/4.
+The complete trace was clean and contained.
+
+The actor's structured `files_changed` list duplicated
+`correction-decision.json` even though the mechanical audit observed exactly the
+decision and permitted resilience source. The inherited correction transport
+made that descriptive list causal, set the otherwise valid effect nonconformant,
+and withheld hidden consequence. Exact parent `aab064d0...` therefore remains
+open and unchanged. This recurs after G8/G9 had already established that output
+self-report is provenance unless explicitly authoritative; the generalized
+driver failed to carry that learned authority boundary into this correction
+interface.

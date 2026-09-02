@@ -653,6 +653,10 @@ The strongest footholds are:
   supposedly descriptor-neutral mutation audit. All are rejected without state
   change or resampling; exact reconstruction preserves the open OT-0247 parent
   and the negative evidence.
+- `OT-0249`: the descriptor-complete audit passes both world families and all
+  six resilience orders, then stops after one fresh actor when an inherited
+  transport gate makes a duplicated descriptive changed-path report override
+  exact contained 4/4 effects. The open parent remains unchanged.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
