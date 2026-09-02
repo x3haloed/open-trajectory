@@ -3128,3 +3128,12 @@ yet establish recurrence or a model-wide effect. The immediate frontier is to
 reuse descriptor-complete correction on this actor-selected final surface, then
 reach exact epoch saturation. Only after saturation should empty-stream waiting
 and later resumption be tested.
+
+OT-0255 freezes that final correction plus projection refresh. The target derives
+only from exact unresolved state; public 4/4 and prospective 6/6 versus unchanged
+2/6 pass. Applying the prospective ledger change refreshes the compact projection
+from one active opportunity to exact `saturated` with zero opportunities and all
+authority flags false. Promotion requires one fresh G10 corrector, the frozen
+consequence gates, target installation and verification, exact epoch saturation,
+an open `assimilate` successor, next operation environment expansion, and an
+empty current stream. Empty-stream waiting itself remains unclaimed.

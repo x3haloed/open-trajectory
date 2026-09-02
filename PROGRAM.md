@@ -2449,5 +2449,12 @@ Next correct this final actor-selected surface under the descriptor-complete
 G9/G10 interface. Promotion requires public 4/4 and sealed 6/6 versus unchanged
 2/6, after which the second epoch must be exactly saturated.
 
+OT-0255 freezes the final projected correction and saturation transition. One
+fresh corrector must pass public 4/4 and sealed 6/6 versus unchanged 2/6. The
+admitted ledger change must refresh the opportunity projection to saturated/zero
+without authority drift, preserve both epochs, and leave an open assimilating
+subject whose next operation is expansion while the current stream is empty.
+Waiting and later resumption remain a separate comparison.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
