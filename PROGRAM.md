@@ -3355,5 +3355,18 @@ remaining local opportunities and derives `expand-environment`. All seven
 operations pass. The unsupported-operation stop is the frozen censoring
 boundary, not closure or failure. Aggregate receipt `ac4e911a...`.
 
+OT-0311 freezes the inherited priority selector at OT-0310's exact
+`expand-environment` boundary. The active stake is byte-untuned from OT-0305.
+After an empty-release wait, the provider releases exactly the four prior
+subject-blind packages minus world ids already consumed by the subject; the
+live remainder is three packages and its ranking remains sealed. Stake and
+digest-blind control receive identical public descriptors. Promotion requires
+the stake to clear its fixed gap, choose a different world than blind, and put
+only that world into the standing offer. Unsupported selection retains the
+wait, receipts contradiction, and routes stake revision without a fallback.
+Synthetic support/contradiction, wrong-package, tampered-stake, route 16/16,
+and identity 18/18 controls pass. One actor-free live ranking is authorized only
+after push; later world contact remains necessary to establish better selection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

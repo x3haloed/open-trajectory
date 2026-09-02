@@ -136,13 +136,13 @@ then censored observation at its prospectively unsupported
 `expand-environment` operation while the subject remained open. Evidence:
 OT-0310 aggregate `ac4e911a...`.
 
-The immediate experiment should admit that exact unsupported operation into
-the state-driven dispatcher using the already retained environment-expansion
-and standing-provider authorities, then continue deriving rather than returning
-control to an observer. Preserve fresh workspaces, broad tools, G10,
-consequence-earned isolation, and the distinction between a finite observation
-boundary and closure. Freeze adversarial authority and malformed-offer controls
-before live use. Preserve the world-seeking stake and OT-0305 negative verdict
-without treating either as selection evidence; after the chain crosses into a
-new environment, use the added catalogs to revisit stake selectivity with less
-collision-prone matched controls.
+OT-0311 is frozen at that boundary. A first content-free operation installs the
+standing-provider wait; a second releases the exact three-package remainder of
+OT-0305's subject-blind catalog. The active stake is unchanged from before those
+worlds existed. It and the digest-minimum blind control receive the same public
+descriptors; no live rank has been computed. Support must clear the original
+gap and choose a different world from blind. Unsupported selection retains the
+wait and routes stake revision without a favorable substitution. A supported
+choice enters the standing offer without observer world choice. This tests the
+previously negative selectivity boundary; it does not call the selected world
+better until subsequent independent contact changes downstream behavior.

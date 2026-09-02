@@ -1,0 +1,39 @@
+{
+  "artifact_id": "remaining-catalog-priority-wake-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1572,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e51629fddfad559ce2d4a8191d03eea98ff9cc9f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0311",
+  "input_manifests": [
+    "evidence/manifests/OT-0310/open-subject-after-state-driven-continuation.json",
+    "evidence/manifests/OT-0310/state-driven-multi-operation-aggregate.json",
+    "evidence/manifests/OT-0305/subject-priority-world-selection-aggregate.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-01-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-02-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-04-world-package.json"
+  ],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Synthetic support and contradiction controls plus live-catalog identity only; the exact remaining-catalog ranking is still sealed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:remaining-catalog-priority-wake-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "37257906f039894a73a982ea32d99bb5ff2939ff301cee5aaf88dc75207556e4"
+}
