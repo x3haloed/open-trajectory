@@ -109,6 +109,20 @@ scores of 0/5. The historical actor-visible checker remained nonconformant, but
 the frozen materiality audit reconstructed every contact, score, binding, and
 child exactly and found the symmetric checker crash causally immaterial.
 
+OT-0325 opens evaluation epoch E13 at a completed-experiment boundary. E12's
+local front summary can distinguish reachable gain from saturation, but cannot
+distinguish a locally improving candidate that preserves the cumulative floor
+from one that destroys it. E13 retains every G3, G10, ancestry, authority,
+independent-outcome, bind-before-consequence, exact-reconstruction,
+no-regression, and reopening anchor. For each front it deterministically adds
+the nearest complete-search candidate's score on the cumulative floor and an
+exact floor-preservation disposition. The incumbent and challenger receive the
+same summaries. Public anchor fixtures freeze the transition before live actor
+output: E12 selects higher local gain that scores 20/25 on the floor, while the
+E13 challenger selects lower local gain that scores 25/25. Historical E12
+comparisons remain valid in their frozen scope; scores are not compared across
+epochs unless both candidates are replayed under E13.
+
 The exact current operational subject is OT-0324's consequence-revised-routing
 child `bf92244d...`. It preserves the open `expanded-select` position, prior
 provenance and cumulative 20/20 floor, carries byte-exact proposal search, and

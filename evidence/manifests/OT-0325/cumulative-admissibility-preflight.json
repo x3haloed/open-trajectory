@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cumulative-admissibility-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 45627,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "139941c524fe751b8fb2e4d9bae21200de39390d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Public deterministic preflight only; no actor output or private result."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cumulative-admissibility-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7bcf5b5ee5e4d88dd8436675aeb3f2bedc4bd82993facc292cbc1f62a968d8ab"
+}
