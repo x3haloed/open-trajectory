@@ -2370,5 +2370,15 @@ changed-path claims limit provenance. Six hard fixtures must remain 6/6 and four
 safe report discrepancies must improve 0/4→4/4. The retained OT-0249 candidate
 may become eligible for later consequence but cannot be installed in this test.
 
+OT-0250 promotes: 10/10, hard 6/6 unchanged, safe report discrepancies
+0/4→4/4. The retained OT-0249 correction satisfies action/schema, public 4/4,
+exact mechanical effects, complete trace, containment, and G10 classification;
+its duplicated path report is provenance-only. Exact `a7b3383c...` retains the
+candidate without installing it or changing operational correction state.
+
+Next expose that retained candidate to independent follow-up consequence with no
+new actor. Install only on prospective 6/6 versus unchanged 2/6, preserving the
+OT-0249 rejection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

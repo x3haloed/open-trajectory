@@ -1,6 +1,6 @@
 # OT-0250 — correction output authority propagation
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** unchanged exact OT-0249 subject `aab064d0...`
 - **Fresh actors:** zero
@@ -23,3 +23,15 @@ remain public 4/4, exact-target-local, trace-complete, contained, and
 schema/action valid. Promotion retains it as eligible for prospective sealed
 consequence without installing the patch, rescoring OT-0249, or invoking an
 actor. Operational correction state must remain unchanged and open.
+
+## Result
+
+Promoted. The challenger scores 10/10, preserves all six hard anchors, and
+improves the four safe report discrepancies from 0/4 to 4/4. Under the subject's
+active G9/G10 authorities, the retained OT-0249 correction is semantic-valid,
+public 4/4, mechanically exact, trace-complete, contained, and action/schema
+valid. Its duplicated path report is classified as underreported provenance.
+
+Exact successor `a7b3383c...` retains that candidate as eligible for prospective
+consequence and records the interface propagation. It does not install the
+source, change the unresolved contact, rescore OT-0249, or invoke an actor.

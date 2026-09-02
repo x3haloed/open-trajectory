@@ -3025,3 +3025,15 @@ regress; four safe under/empty/over/mixed report cases must improve. Promotion
 retains the OT-0249 public-4/4 candidate as eligible for prospective consequence
 without installing it, changing operational correction state, rescoring the
 rejection, or invoking an actor.
+
+OT-0250 promotes the propagation. The challenger scores 10/10, preserves all
+six hard anchors, and improves safe report discrepancies 0/4→4/4. The retained
+OT-0249 candidate is public 4/4, exact-target-local, trace-complete, contained,
+and action/schema valid; its duplicated path list now limits provenance rather
+than causal validity. Exact successor `a7b3383c...` records the propagation and
+retains the patch as eligible but unadmitted while leaving correction state
+unchanged.
+
+The next frontier is sealed consequence on that exact retained candidate without
+another actor. Only prospective 6/6 against unchanged 2/6 may install it and
+advance the subject; OT-0249 remains rejected.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "correction-output-authority-propagation-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7240,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e96a0a29d90a8dc79b021b2488f8e74056ad4017",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0250",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "A deterministic prospective interface-authority comparison retains one prior actor candidate; it does not rescore OT-0249, install the patch, or provide independent hidden consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:correction-output-authority-propagation-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a0b660753f6f77479ff49238b6c51160df3b00727f450d7d0d27b9aac9fdc468"
+}

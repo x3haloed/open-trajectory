@@ -92,12 +92,14 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject remains OT-0247 successor `aab064d0...`,
+The current exact operational subject is OT-0250 successor `a7b3383c...`,
 identified by
-`evidence/manifests/OT-0249/unchanged-open-subject-after-output-claim-rejection.json`.
+`evidence/manifests/OT-0250/open-subject-with-retained-streamed-correction.json`.
 It preserves all earlier worlds and corrections, retains the state-indexed
 resilience epoch and provider receipt, and is open at `correct` after
-actor-selected shelter-bus contact receives independent 2/6 contradiction.
+actor-selected shelter-bus contact receives independent 2/6 contradiction. The
+OT-0249 public-4/4 patch is authority-eligible but remains uninstalled pending
+independent consequence.
 
 ## Prediction errors
 
@@ -282,3 +284,8 @@ actor-selected shelter-bus contact receives independent 2/6 contradiction.
   G8/G9's already-earned mechanical-effect precedence to this interface, retain
   the OT-0249 candidate if it passes held-out anchors, and only then expose it to
   consequence without resampling.
+- OT-0250 propagates that authority boundary: hard anchors stay 6/6, four safe
+  report discrepancies improve 0/4→4/4, and exact `a7b3383c...` retains the
+  OT-0249 candidate as eligible but unadmitted. The next operation is sealed
+  follow-up consequence without another actor: 6/6 versus unchanged 2/6 is
+  required before installation.

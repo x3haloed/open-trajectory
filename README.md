@@ -657,6 +657,10 @@ The strongest footholds are:
   six resilience orders, then stops after one fresh actor when an inherited
   transport gate makes a duplicated descriptive changed-path report override
   exact contained 4/4 effects. The open parent remains unchanged.
+- `OT-0250`: the active G9/G10 authority boundary is propagated into streamed
+  correction. Hard anchors remain 6/6, safe report discrepancies improve
+  0/4→4/4, and the retained OT-0249 patch becomes eligible—but remains
+  uninstalled—inside exact open successor `a7b3383c...`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

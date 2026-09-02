@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-retained-streamed-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 981733,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e96a0a29d90a8dc79b021b2488f8e74056ad4017",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0250",
+  "input_manifests": [
+    "OT-0250/correction-output-authority-propagation-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The subject carries an eligible but unadmitted streamed correction candidate and remains operationally open at the original contradiction pending independent consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-retained-streamed-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8e7d9270a15aced5b5a392039547049d8044506de3e37a797011c4a464b3896f"
+}
