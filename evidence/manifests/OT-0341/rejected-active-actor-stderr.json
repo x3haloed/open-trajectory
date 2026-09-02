@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-active-actor-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 536,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8cccbcc6ddcdbc66b14db3b71f49fd8d76997cd9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0341",
+  "input_manifests": [],
+  "kind": "transport-stderr",
+  "limitations": [
+    "Contains incidental local runtime warnings; the retained event trace identifies response-schema rejection as the failure."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-active-actor-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9b1a188598f47cb36adc33129351d18edc274241cdbf85d5cb4e387c875aeaee"
+}

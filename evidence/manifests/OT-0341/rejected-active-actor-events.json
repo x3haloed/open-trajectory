@@ -1,0 +1,31 @@
+{
+  "artifact_id": "rejected-active-actor-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 871,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8cccbcc6ddcdbc66b14db3b71f49fd8d76997cd9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0341",
+  "input_manifests": [],
+  "kind": "actor-event-trace",
+  "limitations": [
+    "Request failed response-schema validation before actor output; supports no selector-scope behavior claim."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-active-actor-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "45637915cdc2ca3e41c465cc142c8de077025abebd1d165af49bd13a23d1547f"
+}

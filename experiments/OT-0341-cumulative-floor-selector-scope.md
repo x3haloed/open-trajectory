@@ -1,6 +1,6 @@
 # OT-0341 — Cumulative-floor selector scope
 
-- **Status:** frozen; not yet executed
+- **Status:** invalid before actor output
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0340 child `32ac5ab...`
 - **Fresh actors:** one exact-floor successor and one matched
@@ -74,3 +74,17 @@ At most two fresh actors, no actor retries, no protocol repair after output,
 and fifteen observer minutes. Stop after sealing the active disposition and
 running the matched control. Observation stopping does not close an open
 subject.
+
+## Result
+
+The first actor request was rejected by the hosted response-format validator
+before model output because `uniqueItems` is outside its supported JSON Schema
+subset. The retained event trace contains only thread start, turn start, the
+schema error, and turn failure. No output artifact exists; both editable files
+remain byte-identical to their seeds. Incidental local state-database warnings
+named no actor operation and did not cause the request rejection.
+
+No selector-scope observation, operational successor, or control exists.
+Exact parent `32ac5ab0...` remains open. OT-0342 prospectively repairs only the
+response schema representation, retains every frozen information and decision
+boundary, and does not reuse this failed actor.

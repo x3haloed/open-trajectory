@@ -1,0 +1,31 @@
+{
+  "artifact_id": "pre-output-schema-failure",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 665,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8cccbcc6ddcdbc66b14db3b71f49fd8d76997cd9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0341",
+  "input_manifests": [],
+  "kind": "invalid-apparatus-receipt",
+  "limitations": [
+    "No model output, subject transition, or control was produced."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:pre-output-schema-failure",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a9102bd7ab142bd2b9a2757eced8de6419fafca0ed8cc8226b8c365f89663afc"
+}
