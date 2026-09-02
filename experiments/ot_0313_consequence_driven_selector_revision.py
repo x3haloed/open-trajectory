@@ -77,7 +77,7 @@ def output_valid(output,changed):
     return bool(isinstance(output,dict) and set(output)=={"action","files_changed","note"} and isinstance(output.get("note"),str) and ((output["action"]=="revise-selection-machinery" and output["files_changed"]==["selector-revision.json"] and changed) or (output["action"]=="retain-selection-machinery" and output["files_changed"]==[] and not changed)))
 
 def run_actor(context,p82,root,parent,result312,withheld):
-    seed=seed_actor(root,parent,result312,p82,withheld); label="selector-revision-withheld" if withheld else "selector-revision-consequence"
+    seed=root/"seed"; seed=seed if seed.exists() else seed_actor(root,parent,result312,p82,withheld); stem="selector-revision-withheld" if withheld else "selector-revision-consequence"; failed=context.evidence(stem)/"events.jsonl"; label=stem+"-transport-02" if failed.exists() else stem
     output,audit0,workspace,_=context.run_actor(label,seed,SCHEMA,(seed/"README.md").read_text().strip())
     try:
         rule=json.loads((workspace/"selector-revision.json").read_text()); immutable=json.loads((seed/"mutation-envelope.json").read_text())["immutable"]; immutable_ok=all((workspace/n).read_bytes()==(seed/n).read_bytes() for n in immutable); changed=rule!=INCUMBENT
@@ -97,7 +97,10 @@ def main():
     retained=run/"preflight/fixture-conformance.json"; fixtures=json.loads(retained.read_text()) if retained.exists() else preflight(run/"preflight",p82,runtime,parent,result312)
     if args.preflight_only: print(json.dumps(fixtures,indent=2,sort_keys=True)); return 0 if fixtures["checks"]["passed"] else 2
     if not fixtures["checks"]["passed"] or (run/"aggregate.json").exists(): raise SystemExit("OT-0313 unavailable")
-    seed=secrets.token_hex(32); write_json(run/"private-anchor-seed.json",{"seed":seed,"seed_digest":p82.digest(seed)}); cases=anchors(seed); context=b.base274.context_for(core,base130,runtime,run/"actors",repo)
+    seed_path=run/"private-anchor-seed.json"
+    if seed_path.exists(): seed=json.loads(seed_path.read_text())["seed"]
+    else: seed=secrets.token_hex(32); write_json(seed_path,{"seed":seed,"seed_digest":p82.digest(seed)})
+    cases=anchors(seed); context=b.base274.context_for(core,base130,runtime,run/"actors",repo)
     candidate=run_actor(context,p82,run/"candidate",parent,result312,False); candidate_score=score(candidate["rule"],cases) if candidate["accepted"] else None; incumbent_score=score(INCUMBENT,cases)
     operational=bool(candidate["accepted"] and candidate["changed"] and candidate_score["pass_count"]==5 and incumbent_score["pass_count"]<=2)
     child,revision=(compile_child(parent,candidate,candidate_score,p82) if operational else (parent,None)); write_json(run/"candidate-operational-subject.json",child)

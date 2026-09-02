@@ -67,3 +67,14 @@ does not show repeated self-revision, later correction when evidence policy
 becomes harmful, reliability across actor samples, or removal of the researcher
 from choosing this experiment family. The operational child may remain valid
 if the withheld-generation control narrows the causal claim.
+
+## Pre-output transport repair
+
+The first candidate invocation reached the hosted endpoint but failed with
+`invalid_json_schema` before sampling began: the response-format service does
+not permit JSON Schema `uniqueItems`. The retained event stream contains only
+thread/turn start, that 400 error, and turn failure; there is no model output or
+workspace change. Remove only the unsupported keyword, retain that failed
+trace, reuse the already generated private seed byte-exactly, and distinguish
+the next transport label. This spends no candidate sample and changes no actor
+information, hidden anchor, scorer, threshold, or acceptance rule.
