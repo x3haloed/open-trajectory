@@ -1,6 +1,6 @@
 # OT-0280 — import-stable world evaluator
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0278 fifth-wait subject `645c525e...`
 - **Candidate:** exact retained OT-0279 Morrowglass package
@@ -44,3 +44,17 @@ realization, inspection found that reusing the preflight directory would stop
 the command before evaluation. Preflight and live checker workspaces are now
 distinct; their inputs and gates are identical. The prospective suite is rerun
 and this repair is pushed before creating the zero-actor result.
+
+## Result
+
+OT-0280 promotes with zero fresh actors. The legacy imported evaluator exactly
+reproduces OT-0279's `execution` rejection. The corrected evaluator preserves
+all 21 allowed calls, agrees with standalone execution on each, rejects every
+historical malformed package, and matches the published checker exactly.
+
+The retained `morrowglass-civic-ledger-v1` bytes contain novel `admit_vessel`,
+`assign_watch`, and `levy_due` surfaces, each exact 2/6. The standing scanner
+observes the public package as unseen with every external authority false.
+OT-0279 remains rejected; no actor is resampled. Exact `cfab2a50...` carries the
+standing renewal policy, remains open at the fifth wait, and preserves route
+16/16 and identity 18/18. Aggregate receipt: `15d39db3...`.

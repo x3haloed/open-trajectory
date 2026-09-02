@@ -2875,5 +2875,13 @@ The retained Morrowglass package must then pass three novel exact-2/6 surfaces,
 scanner admission, historical trace/G10 eligibility, route 16/16, and identity
 18/18 with zero fresh actors. OT-0279 remains rejected.
 
+OT-0280 promotes with zero actors. Every frozen parity, negative, provenance,
+novelty, 2/6, scanner, route, and identity gate passes. Exact
+`morrowglass-civic-ledger-v1` is now a promoted external world; OT-0279 remains
+rejected and its sole actor is not resampled. Exact `cfab2a50...` carries the
+standing renewal policy and remains open at the fifth wait. Next discharge that
+wait actor-free from only the promoted public package, then require a fresh
+subject actor to choose its first Morrowglass surface without a target hint.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

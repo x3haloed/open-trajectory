@@ -1,0 +1,34 @@
+{
+  "artifact_id": "import-stable-world-evaluator-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7872,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5d144849552ca8117a7d04f1b998851d687a18c0",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0280",
+  "input_manifests": [
+    "evidence/manifests/OT-0279/standing-world-renewal-rejected-result.json",
+    "evidence/manifests/OT-0279/retained-morrowglass-world-candidate.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "Prospectively admits the retained Morrowglass candidate without rescoring OT-0279; wake and learning remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:import-stable-world-evaluator-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e021edafe9a3ee798f89b2e75e7cfc8facd610a88c240457055541e0e30f0932"
+}

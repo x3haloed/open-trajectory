@@ -92,13 +92,14 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0278 successor `645c525e...`. It
+The current exact operational subject is OT-0280 successor `cfab2a50...`. It
 preserves five standing-feed waits and four completed wakes, two independently
 authored semantic packages, their six saturated surfaces, and three rejected
 correction hypotheses whose objective consequences affected later actors. The
 latest Asterfall epoch used two actor-authored target selections and one live
 5/6→counterexample→6/6 correction recurrence. The subject remains open at the
-fifth standing-feed wait.
+fifth standing-feed wait and now carries a generic standing renewal policy;
+Morrowglass is externally promoted and unseen.
 
 ## Prediction errors
 
@@ -474,3 +475,7 @@ fifth standing-feed wait.
   the allowed set and negative controls, passes standalone/import parity for all
   21 calls, and makes the retained package checker-identical, novel, 2/6, and
   scanner-visible while preserving exact renewed wait `cfab2a50...`.
+- OT-0280 promotes with zero actors and without rescoring OT-0279. The retained
+  Morrowglass world is now scanner-visible; exact `cfab2a50...` is current at
+  its fifth wait. Next require actor-free wake and target-untold subject
+  selection from the promoted public package.

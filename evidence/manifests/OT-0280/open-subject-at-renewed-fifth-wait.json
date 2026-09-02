@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-renewed-fifth-wait",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1389331,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5d144849552ca8117a7d04f1b998851d687a18c0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0280",
+  "input_manifests": [
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact subject carries standing renewal at its fifth wait; Morrowglass wake and contact remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-renewed-fifth-wait",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4b9f292751f834b909b4098a5e145446891bdf534c729580f09e71744c6f1c61"
+}

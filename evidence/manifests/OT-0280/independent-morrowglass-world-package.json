@@ -1,0 +1,33 @@
+{
+  "artifact_id": "independent-morrowglass-world-package",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3962,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "5d144849552ca8117a7d04f1b998851d687a18c0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0280",
+  "input_manifests": [
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "world-package",
+  "limitations": [
+    "World package is promoted under the import-stable evaluator but has not yet been consumed by the subject."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:independent-morrowglass-world-package",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3c6bf4863b7aa1f51e3efede524fe7ef5ad092d868fcaecca16176cb92bd4463"
+}

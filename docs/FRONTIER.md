@@ -3581,3 +3581,11 @@ malformed-package rejections, and matches the actor-visible checker exactly.
 The retained Morrowglass package becomes three ledger-novel exact-2/6 surfaces
 under the corrected evaluator, and the standing scanner sees it as available.
 Zero actors run; OT-0279's disposition is immutable.
+
+OT-0280 promotes with zero actors. The retained Morrowglass package is now
+prospectively eligible and scanner-visible, with all three novel surfaces exact
+2/6. OT-0279 remains rejected. Exact `cfab2a50...` carries the standing renewal
+policy at its fifth wait. The immediate causal test is now ordinary continuation
+rather than more evaluator work: discharge the wait from only the promoted
+public package, preserve the renewal policy, and let a fresh subject actor
+choose the first Morrowglass contact without a target hint.

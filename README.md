@@ -783,7 +783,9 @@ The strongest footholds are:
 - `OT-0280` freezes a zero-actor prospective evaluator correction. Explicit
   `builtins` lookup preserves the allowed set and all malformed rejections,
   makes standalone/import execution agree for all 21 calls, and makes the exact
-  retained Morrowglass package scanner-eligible without rescoring OT-0279.
+  retained Morrowglass package scanner-eligible without rescoring OT-0279. It
+  promotes with zero actors; exact `cfab2a50...` remains open at the renewed
+  fifth wait with the novel three-surface world available.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
