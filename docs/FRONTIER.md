@@ -3402,3 +3402,12 @@ scanner and wake semantics. The live actor sees public sources and contact
 machinery only. Promotion requires an actor-free third wake followed by one
 actor-authored public contact whose 2/6 consequence comes from the unchanged
 OT-0268 sealed package.
+
+OT-0270 promotes that complete path. The installed scanner discovers the exact
+public package and discharges the third wait with zero actors. A fresh actor,
+without sealed access or a named target, selects `issue_permit`, passes its
+public contact and G10 gates, and receives 2/6 from the retained OT-0268 sealed
+half. Exact `0dae5089...` is open at correction. The immediate frontier is no
+longer world arrival; it is descriptor-complete correction and recurrence over
+an actor-authored package whose shapes were not present in the inherited target
+machinery.

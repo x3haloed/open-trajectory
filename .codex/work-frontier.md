@@ -403,3 +403,9 @@ the subject is open at `correct` and routes to correction before refresh.
   `67fafa07...` remains open on the standing scanner. Next inject only the exact
   OT-0268 public projection and require scanner-mediated wake before a fresh
   subject actor chooses and encounters the retained sealed world.
+- OT-0270 completes that path. The standing scanner wakes the exact third wait
+  without an actor; one fresh actor then chooses `issue_permit` from public
+  package sources, passes four public cases and G10, and receives 2/6 from the
+  previously retained OT-0268 sealed half. Exact `0dae5089...` is open at
+  correction. Next make correction and opportunity recurrence work without
+  adding package-specific target machinery.

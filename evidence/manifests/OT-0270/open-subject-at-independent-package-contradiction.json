@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-independent-package-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1279166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ec0fcb5a8a6bb5f1f3c05d613ee61ad191ccd3ee",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0270",
+  "input_manifests": [
+    "evidence/manifests/OT-0270/standing-scanner-independent-package-contact-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject is at correction after 2/6 retained-package consequence; correction and further recurrence remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-independent-package-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7d24ea7c67741fbb989a13a575c8185b7bd7b42cb48a9d02e2f0087fe7c8e7a9"
+}

@@ -1,0 +1,34 @@
+{
+  "artifact_id": "standing-scanner-independent-package-contact-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1270,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ec0fcb5a8a6bb5f1f3c05d613ee61ad191ccd3ee",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0270",
+  "input_manifests": [
+    "evidence/manifests/OT-0268/independent-three-lantern-world-package.json",
+    "evidence/manifests/OT-0269/open-subject-at-third-standing-feed-wait.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "Standing-scanner wake, fresh subject choice, and retained-package consequence pass once; correction and recurrent saturation of this independently authored world remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:standing-scanner-independent-package-contact-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6c852eabb9b9ff75dee13a13e78c89e7db060e209f1cc4fc5f72a9a30229ed37"
+}

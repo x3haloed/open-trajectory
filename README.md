@@ -738,6 +738,10 @@ The strongest footholds are:
   epoch with five fresh actors, saturate it, and install then exactly re-observe
   a third durable wait. Exact `67fafa07...` remains open on the standing scanner;
   the independently retained package is still unconsumed.
+- `OT-0270`: the installed scanner wakes that exact third wait on OT-0268's
+  public package with zero actors. One fresh subject actor then chooses a public
+  surface without sealed access and receives 2/6 consequence from OT-0268's
+  retained sealed half. Exact `0dae5089...` remains open at correction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

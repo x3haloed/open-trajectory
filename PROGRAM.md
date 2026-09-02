@@ -2688,5 +2688,13 @@ must discharge the third wait without an actor. The second lets one fresh actor
 choose and publicly exercise any offered surface without the sealed half; only
 then may the retained OT-0268 references and cases issue the consequence.
 
+OT-0270 promotes both calls. The scanner wakes actor-free; one fresh subject
+actor chooses `issue_permit` from public sources, passes four public cases and
+G10, then receives 2/6 from OT-0268's unchanged sealed half. Exact `0dae5089...`
+is open at correction with three complete wait/wake cycles. Next correct this
+independently authored surface without package-specific dispatch, refresh its
+remaining opportunities, and test whether the same subject can saturate and
+wait again.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
