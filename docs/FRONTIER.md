@@ -3272,3 +3272,8 @@ The immediate frontier is live use of this reduced-dependency path. A fresh acto
 must select either current projected pair without a hint, pass registry-free
 admission and G10, and receive independent 2/6. The resulting stale contradiction
 must route to correction before refresh under OT-0261.
+
+OT-0263 freezes that live actor encounter. Both current pairs must preflight
+through the installed registry-free regime, immutable projection, public
+execution, sealed 2/6, and correction-first stale routing. One fresh actor and no
+retry may advance only through a real projected pair and exact contained effects.

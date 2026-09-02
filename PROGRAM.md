@@ -2567,5 +2567,10 @@ choice authority or operational change.
 Next exercise the new admission path with one fresh actor, independent 2/6
 consequence, and correction-first routing from the resulting stale state.
 
+OT-0263 freezes that encounter. Both projected pairs must pass the complete
+prospective registry-free path; one fresh actor receives no target hint and may
+advance only through G10-admitted executable contact plus sealed 2/6, leaving a
+stale open correction state whose next operation remains correction.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
