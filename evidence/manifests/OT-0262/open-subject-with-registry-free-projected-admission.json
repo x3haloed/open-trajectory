@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-registry-free-projected-admission",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1109509,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c3edbff52595538c14535bd57a5e58ff6399551a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0262",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject carries registry-free selection admission and remains open for projected selection; no fresh actor has yet exercised the new admission path."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-registry-free-projected-admission",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1c341bfdec9aa82c238a69bf689d82755550bfb96a33f39c147ebfd98ef77fb6"
+}

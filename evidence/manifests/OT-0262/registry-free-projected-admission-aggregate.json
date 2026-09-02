@@ -1,0 +1,31 @@
+{
+  "artifact_id": "registry-free-projected-admission-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1961,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c3edbff52595538c14535bd57a5e58ff6399551a",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0262",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Three positive and eleven hard-anchor cases establish bounded registry-free admission with zero actors; live actor use and post-selection correction/refresh sequencing remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:registry-free-projected-admission-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f8188f8fbfd70295397c21b98f2d378a76715e67a95a40c03b076b400d7b21fc"
+}

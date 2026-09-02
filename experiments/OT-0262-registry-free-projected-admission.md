@@ -1,6 +1,6 @@
 # OT-0262 — registry-free projected admission
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0261 subject `088a3628...`
 - **Fresh actors:** zero
@@ -30,3 +30,14 @@ traversal, wrong-predicate, malformed-case, duplicate-case, missing-function,
 template, and malformed-source anchors; zero actors; an installed regime with no
 selection, world, or scoring authority; no operational change; and the live
 subject still open at `expanded-select`.
+
+## Result
+
+The registry-dependent incumbent rejects both current coordination pairs. The
+challenger admits both plus the earlier resilience pair, all with public
+execution, while all eleven hard anchors reject. No world-specific target
+registry or external choice authority remains in the interface.
+
+Zero-actor successor `be14db5a...` installs the mechanical source/ledger/workspace
+regime, changes no operational state, and remains open at `expanded-select`.
+Live actor use remains unclaimed.

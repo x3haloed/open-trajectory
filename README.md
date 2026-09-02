@@ -706,6 +706,10 @@ The strongest footholds are:
   scores only 3/7 by preempting stale correction and non-selection phases. A
   phase-aware challenger scores 7/7; exact `088a3628...` refreshes only at
   assimilation and otherwise preserves inherited routing.
+- `OT-0262`: both new projected coordination pairs pass the actor checker but
+  expose rejection by a stale manual provider-target registry. Registry-free
+  admission accepts both plus the earlier resilience pair, rejects eleven hard
+  anchors, and yields exact open `be14db5a...` without operational change.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

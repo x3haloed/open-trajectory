@@ -3261,3 +3261,14 @@ OT-0262 now freezes registry-free admission from exact projection, latest source
 and AST opportunities, ledger, contact structure, and workspace effects. It must
 admit the two current and one earlier projected pair while rejecting eleven hard
 anchors, with zero actors and no operational change.
+
+OT-0262 promotes with zero actors. The incumbent rejects both new coordination
+pairs; the registry-free challenger admits both plus the earlier resilience pair
+with public execution and rejects all eleven hard anchors. Exact `be14db5a...`
+installs mechanical source/ledger/workspace admission, retains every false choice
+authority, changes no operational state, and remains open at `expanded-select`.
+
+The immediate frontier is live use of this reduced-dependency path. A fresh actor
+must select either current projected pair without a hint, pass registry-free
+admission and G10, and receive independent 2/6. The resulting stale contradiction
+must route to correction before refresh under OT-0261.

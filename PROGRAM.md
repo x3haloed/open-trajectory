@@ -2559,5 +2559,13 @@ stale. OT-0262 freezes registry-free admission using exact projection, latest
 source/AST, ledger, contact shape, and workspace effects, with current and prior
 positive cases plus eleven hard rejection anchors.
 
+OT-0262 promotes with zero actors. Both current pairs move from rejection to
+admission, the earlier projected pair remains admitted, and eleven hard anchors
+reject. Exact `be14db5a...` carries the registry-free regime with no external
+choice authority or operational change.
+
+Next exercise the new admission path with one fresh actor, independent 2/6
+consequence, and correction-first routing from the resulting stale state.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

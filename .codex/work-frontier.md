@@ -92,9 +92,9 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0261 successor `088a3628...`,
+The current exact operational subject is OT-0262 successor `be14db5a...`,
 identified by
-`evidence/manifests/OT-0261/open-subject-with-phase-aware-projection-refresh.json`.
+`evidence/manifests/OT-0262/open-subject-with-registry-free-projected-admission.json`.
 It preserves all earlier worlds and corrections, has saturated the state-indexed
 resilience epoch, and carries a saturated zero-opportunity projection with every
 external authority flag false. Its durable wait was discharged by a real stream
@@ -104,7 +104,9 @@ the unchanged 2/6 control. A freshness guard has now replaced the stale prior-
 epoch projection with exactly two live, non-authoritative coordination
 opportunities. Its phase-aware freshness policy now preserves correction and all
 non-assimilation routes, refreshing stale projection state only before selection.
-It is open with `expanded-select` next.
+Its expanded-selection admission now derives from projection, latest source/AST,
+ledger, contact shape, and workspace effects rather than a world-specific target
+registry. It is open with `expanded-select` next.
 
 ## Prediction errors
 
@@ -352,3 +354,7 @@ It is open with `expanded-select` next.
   unconditional guard scores 3/7; phase-aware precedence scores 7/7 and yields
   exact `088a3628...` with no operational change. Next exercise selection,
   contradiction, correction-first routing, then assimilation-time refresh.
+- OT-0262 removes another hidden researcher dependency. The old registry rejects
+  both new projected pairs; registry-free admission accepts them and the prior
+  positive while rejecting eleven hard anchors. Exact `be14db5a...` is ready for
+  live actor use with no operational change.
