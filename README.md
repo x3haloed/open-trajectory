@@ -714,6 +714,10 @@ The strongest footholds are:
   `sequence_repair_crews`, pass G10, and receive sealed 2/6. Exact stale
   successor `cd5444cb...` remains open at correction and routes to correction
   before projection refresh.
+- `OT-0264`: one fresh target-generic corrector reaches public 4/4 and sealed
+  6/6 against unchanged 2/6; a separate zero-actor process reloads that exact
+  stale assimilating state and refreshes it to one opportunity. Exact
+  `dd5a5be0...` remains open and routes next to registry-free selection.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

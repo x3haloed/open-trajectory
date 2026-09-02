@@ -3294,3 +3294,16 @@ spends one target-generic corrector and must end stale at open assimilation with
 refresh next. The second reloads that exact subject, spends no actor, refreshes
 only the projection while preserving the phase-aware policy, and must end fresh
 with one opportunity and `expanded-select` next.
+
+OT-0264 promotes. One corrector reaches public 4/4 and sealed 6/6 against
+unchanged 2/6, leaving exact stale `bb696151...`; a separate process reloads that
+subject exactly, spends zero actors, preserves the phase-aware policy and all
+wait/wake/provider history, and produces exact open `dd5a5be0...` with one fresh
+opportunity and `expanded-select` next.
+
+The immediate frontier is no longer ordering correction against refresh. It is
+whether this exact subject can finish the epoch and return to durable waiting as
+one substrate-driven recurrence: registry-free selection, sealed contradiction,
+target-generic correction, zero-opportunity refresh, and empty-provider wait in
+derived order. A later provider extension must then discharge that new wait and
+resume music without experiment-specific target or phase choice.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-one-fresh-opportunity",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1134099,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1fb5bc9c4c8a85710a83605656de3cac02695079",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0264",
+  "input_manifests": [],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject after one correction-refresh recurrence; future autonomous selection and longer-cycle recurrence remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-one-fresh-opportunity",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "403d4cbec1d4210560fd8506181a14ec5c6a9d45eda574aae365bb2f5ac7e956"
+}

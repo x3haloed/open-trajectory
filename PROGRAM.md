@@ -2587,5 +2587,16 @@ with one actor and full 4/4, 6/6, 2/6 controls; a separate zero-actor invocation
 must then reload the exact stale assimilating subject, refresh to one opportunity,
 preserve the phase-aware policy, and route to selection.
 
+OT-0264 promotes across both invocations. The sole corrector reaches 4/4 and
+sealed 6/6 against unchanged 2/6, producing exact stale assimilating
+`bb696151...`; the second process reloads it exactly, spends no actor, refreshes
+to one opportunity, and produces open `dd5a5be0...` with `expanded-select` next.
+
+Next complete the active epoch from this exact state: one registry-free projected
+selection, its independent contradiction, target-generic correction, and a
+zero-opportunity refresh must occur in substrate-derived order without external
+target or phase dispatch. Then require saturation to become a durable wait and
+test another later provider wake rather than treating empty input as completion.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

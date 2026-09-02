@@ -364,3 +364,10 @@ the subject is open at `correct` and routes to correction before refresh.
   pair, passes registry-free admission and G10, and receives sealed 2/6. Exact
   `cd5444cb...` is stale and open at correction, with correction-first routing
   verified. Next execute correction, then assimilation-time refresh.
+- OT-0264 carries that sequence across two real process invocations. One fresh
+  target-generic corrector reaches public 4/4 and sealed 6/6 against unchanged
+  2/6, producing exact stale `bb696151...`; a zero-actor reload then refreshes
+  only the projection and yields exact open `dd5a5be0...` with one opportunity
+  and selection next. The next test should complete the remaining epoch suffix,
+  install a new durable empty-stream wait, and then require a later provider
+  extension to wake it without external target or phase dispatch.

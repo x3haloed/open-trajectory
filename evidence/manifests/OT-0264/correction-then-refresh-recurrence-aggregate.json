@@ -1,0 +1,31 @@
+{
+  "artifact_id": "correction-then-refresh-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1162,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1fb5bc9c4c8a85710a83605656de3cac02695079",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0264",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One live correction followed by one zero-actor projection refresh across two invocations; the remaining selection, correction, saturation, and another wait/wake cycle remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:correction-then-refresh-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "403c8d75031cc47ace53975a219dc8d3c2da1f6d28dd948deb5ee6b4958c537e"
+}
