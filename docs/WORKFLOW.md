@@ -111,6 +111,11 @@ exploratory-only bytes as missing repository files. Use
 `python3 scripts/verify.py fast --require-local-evidence` when that external
 slice is a required precondition for the check.
 
+The publication workflow invokes
+`python3 scripts/verify.py fast --checkout-only` explicitly. This keeps the CI
+gate independent of runner-local files while exercising every check promised by
+a clean repository checkout.
+
 Run the archival suite when historical harnesses, shared evidence machinery, or
 frozen reconstruction paths change, and before a tagged release:
 

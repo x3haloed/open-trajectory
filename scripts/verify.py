@@ -164,14 +164,22 @@ def verify_e14_archive() -> int:
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("mode", nargs="?", choices=("fast", "archive"), default="fast")
-    parser.add_argument(
+    evidence_mode = parser.add_mutually_exclusive_group()
+    evidence_mode.add_argument(
         "--require-local-evidence",
         action="store_true",
         help="fail unless the complete OT-0080 through OT-0101 external evidence slice is available",
     )
+    evidence_mode.add_argument(
+        "--checkout-only",
+        action="store_true",
+        help="run only checks reproducible from a clean repository checkout",
+    )
     args = parser.parse_args()
     manifest_count, missing = local_evidence_inventory(REPO)
-    include_local_evidence = manifest_count > 0 and not missing
+    include_local_evidence = (
+        not args.checkout_only and manifest_count > 0 and not missing
+    )
     if args.require_local_evidence and not include_local_evidence:
         print(
             "ERROR: local evidence suite required but "
@@ -179,7 +187,9 @@ def main() -> int:
             file=sys.stderr,
         )
         return 1
-    if include_local_evidence:
+    if args.checkout_only:
+        print("running checkout-only suite (external evidence disabled explicitly)")
+    elif include_local_evidence:
         print(f"including local evidence suite ({manifest_count} external objects available)")
     else:
         print(
