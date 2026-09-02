@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-toolchain-denial-reconstruction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2000338,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "545e2bcb44f1ddff4df90e94ba78fc63dd71adbd",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0346",
+  "input_manifests": [],
+  "kind": "continuing-subject-snapshot",
+  "limitations": [
+    "Observer-designed frontier carrier; no generation-frequency or autonomous-invention claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-toolchain-denial-reconstruction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e2807ac044eb963a273a77f81166cdd83c3d0ab8334e0fe73408a3bb6fbf93e3"
+}

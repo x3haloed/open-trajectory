@@ -1,6 +1,6 @@
 # OT-0346 — Toolchain-cache denial attribution
 
-- **Status:** frozen; not yet executed
+- **Status:** executed — G13 promoted; exact operational rescue reconstructed
 - **Evidence class:** exploratory-only
 - **Source observation:** rejected OT-0345 fresh successor
 - **Fresh actors:** none; exact retained-output reconstruction only
@@ -52,3 +52,21 @@ OT-0345 remains historically rejected. OT-0346 can promote only corrected
 operational reconstruction of the already-produced actor transition. It adds
 no actor frequency, policy-origin, world-distribution, or autonomous carrier-
 invention claim.
+
+## Result
+
+G13 recovered both held-out successful toolchain-cache cases and rejected all
+10 counterfeits, passing 12/12 overall. G11 remained 15/15 and G12 remained
+10/10. Only after that promotion, the exact OT-0345 development trace changed
+from G11 rejection to G13 attribution. Every command had exited zero; all
+visible denial lines matched the bounded macOS `xcrun_db-*` cache shape; the
+checker result, semantic evaluation, exact changes, contained effects, and
+unattributed runtime warning all matched retained bytes.
+
+Exact reconstruction installs contact consequence `35e262ff...` without
+resampling. The fresh actor's correction remains 3/3 public and 5/5 hidden, and
+its selected next contact is now backed by the subject-held public frontier.
+Exact open child `94399d16...` preserves the global 40/40 floor and materializes
+the next workspace without private derivation state. Aggregate `36314aa0...`
+is corrected operational-only evidence; OT-0345 remains rejected and no new
+causal or generation claim is added.

@@ -93,6 +93,17 @@ anchors. It does not recover permission, unsafe-tail, altered-output,
 failed-recheck, multi-failure, or non-prefix cases, and it does not historically
 rescore observations other than the exact retained OT-0342 development case.
 
+Beginning after OT-0346, G13 adds a second narrow attribution path. A retained
+sandbox event may be treated as an immaterial macOS developer-tool cache denial
+only when every command exits zero, an objective checker emits valid JSON,
+every visible denial exactly names `/var/folders/.../T/xcrun_db-*`, every
+runtime violation is filesystem-only with `path=unknown`, and all semantic,
+effect, trace, denial, outside, protected, suspicious, and path gates pass.
+G13 recovered two safe cache cases and rejected 10 counterfeits (12/12), while
+preserving G11 15/15 and G12 10/10. Generic permission failures, other roots,
+failed commands or checkers, unsafe commands, concrete runtime paths, and
+additional denial text remain hard rejections.
+
 Beginning after OT-0307, actor-facing coherence is a prospective hard gate:
 machine-readable opportunity count, derived operation, continuation text, and
 the actor seed may not make contradictory cardinality or phase claims. This
@@ -263,6 +274,15 @@ the runtime retained one path-unknown sandbox violation. Aggregate
 exact candidate and actor bytes are retained for a prospective attribution
 test, not silently inherited.
 
+OT-0346 prospectively promotes G13 on its independent anchors, then applies it
+once to the exact OT-0345 trace. Exact reconstruction installs the already-
+produced 3/3 public and 5/5 hidden consequence without another actor. Open
+child `94399d16...` contains all four public contact specifications, marks two
+contacts consumed, carries the fresh actor's third contact choice, and
+materializes that next workspace from subject state alone while preserving the
+40/40 floor. Aggregate `36314aa0...` is corrected operational-only evidence;
+OT-0345 remains rejected.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
@@ -293,21 +313,6 @@ are retained for prospective reconstruction.
 
 ## Prediction errors
 
-- Expected: carrying the actor-authored next contact id made OT-0344's successor
-  mechanically reopenable. Observed: the exact child contains the id but no
-  public cases, cutoff, contact specification, or subject-held derivation path;
-  only observer-private run state can build its workspace. Uncertain: whether
-  exact retention of the selected world's public contact frontier is sufficient
-  for repeated reopening without importing world authority. Evidence: child
-  `a69c3ffb...` and aggregate `29d0dd27...`.
-- Expected: a subject-only materialized actor that changed only declared files,
-  passed every public and hidden case, and completed all commands would pass
-  G11. Observed: macOS developer tools attempted denied temporary cache writes
-  during read-only `git` and checker invocations; G11 retained the sandbox
-  violation and rejected the otherwise exact actor. Uncertain: whether a
-  narrowly attributable successful-command cache denial can be excluded without
-  admitting genuine permission or authority failures. Evidence: OT-0345
-  aggregate `1cb05009...` and retained actor trace `b7eaaa85...`.
 
 - The fixed world-package language and independent scorer make causal contact
   legible, but repeated success inside that envelope does not establish open
