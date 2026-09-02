@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-tideglass-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1464487,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dac29be78b7a3782b30cd5586f751773466b47fc",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0285",
+  "input_manifests": [
+    "evidence/manifests/OT-0285/current-package-isolation-second-cycle-preflight.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "This is the last valid checkpoint before the rejected correction encounter; the rejected candidate is not part of subject state."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-tideglass-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "199d8dd271f63c324db57b01bc7995499a0a3809937b7ad02ac20626d6f3a6e1"
+}

@@ -3646,3 +3646,19 @@ complete branches now pass while OT-0284's exact rejection remains fixed. The
 live frontier returns to the unchanged second-cycle test: freeze and push, then
 let repeated null openings derive Tideglass wake through renewed provision
 without retries or phase-specific intervention.
+
+OT-0285 passes that preflight but rejects at the first live correction. The
+actor-free wake and target-untold selection validly advance exact subject
+`3e0268da...` to Tideglass `seal_disposition` at 2/6. Its corrector passes the
+four disclosed cases with exact effects, yet an unattributed Seatbelt
+`path=unknown` denial fails G10 before sealed consequence. The candidate does
+not count and the last valid subject remains current.
+
+This is now a liveness-under-invalidity frontier. Keep G10 and the rejected
+candidate outside authority. Prospectively compile only a denial receipt into
+the subject: it should state that an attempted correction was invalid, bind the
+audit and source contact, reveal no candidate content or sealed outcome, and
+leave the same correction open. The next null opening should then authorize a
+fresh encounter because the subject carries its own unresolved stake plus the
+rejection—not because the researcher retries OT-0285. Score any later success
+as recovery after invalidity, never as one-shot reliability.

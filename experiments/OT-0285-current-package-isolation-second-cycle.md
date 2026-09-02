@@ -1,6 +1,6 @@
 # OT-0285 — Current-package isolation second cycle
 
-- **Status:** preflight passed; live output sealed
+- **Status:** rejected at first correction; partial advance retained
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0283 subject `5cbf0278...`
 - **Predecessor:** rejected OT-0284 preflight `ce7b9356...`
@@ -40,3 +40,24 @@ isolation gate for a subject that legitimately retains historical provenance.
 Preflight receipt `f0f0fa71...` passes all 162 complete branches and all four
 injected current-package leak controls while preserving OT-0284's exact rejected
 receipt.
+
+## Live result
+
+The actor-free first opening found only Tideglass and discharged the sixth wait.
+One fresh target-untold actor then selected `archive/seal.py::seal_disposition`
+and received exact 2/6 contradiction, yielding valid open checkpoint
+`3e0268da...` at correction.
+
+The first corrector made exact permitted changes and passed all four disclosed
+cases, but its retained trace contains one Seatbelt `policy_denied path=unknown`
+event with no attributable command or target. G10 correctly classifies this as
+an ambiguous contained denial and rejects before sealed consequence. The
+candidate is not admitted, no counterexample is disclosed, and the exact
+pre-attempt checkpoint remains current. No retry occurs. Invocation receipt
+`ef57212e...`.
+
+The next mechanism question is safe reopening after an invalid encounter. The
+rejection should become a non-authoritative subject scar that records why no
+content counted while preserving the exact unresolved correction and deriving
+another opening. It must not smuggle the candidate, relax G10, or treat repeated
+sampling as evidence of one-shot reliability.

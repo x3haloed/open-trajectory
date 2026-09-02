@@ -2948,5 +2948,19 @@ full sealed-case collection, and full-package digest; injected controls confirm
 each leak fails. All 162 second-cycle branches now pass with OT-0284's rejection
 preserved. Live output remains sealed until this freeze is pushed.
 
+OT-0285 rejects at its first correction without retry, after two valid partial
+advances. Actor-free wake discharges the sixth wait; one fresh actor chooses
+Tideglass `seal_disposition` and receives exact 2/6 consequence. The corrector
+then passes all four disclosed cases with exact permitted effects, but one
+unattributed `policy_denied path=unknown` event makes its G10 provenance
+ambiguous. No sealed correction consequence runs and no candidate enters the
+subject. Exact `3e0268da...` remains open at the selected contradiction.
+
+Do not weaken G10 or rescore the candidate. The next mechanism should compile
+the invalid encounter itself into a non-authoritative rejection scar: preserve
+why no content counted, keep the unresolved contact exact, and let the fixed
+opening derive another correction encounter. Any later success is recovery
+after invalidity, not evidence of one-shot reliability.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

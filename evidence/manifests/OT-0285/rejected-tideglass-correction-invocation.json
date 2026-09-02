@@ -1,0 +1,33 @@
+{
+  "artifact_id": "rejected-tideglass-correction-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5567,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "dac29be78b7a3782b30cd5586f751773466b47fc",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0285",
+  "input_manifests": [
+    "evidence/manifests/OT-0285/current-package-isolation-second-cycle-preflight.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "The correction candidate was not admitted and sealed world consequence did not run because an unattributed sandbox denial failed G10."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-tideglass-correction-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8596394b95db9d875d3e166c6fd8d337c702d0f4852e01d566d84471bf6284fc"
+}
