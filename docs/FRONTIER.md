@@ -3784,3 +3784,13 @@ route is the rejected `expand-environment`, proves the corrected route is
 controls and prospective selection branches remain green. After freeze and
 push, rerun the original two openings from exact OT-0290 parent in a fresh
 external root; do not resume or rescore OT-0292.
+
+OT-0293 corrects live routing and reaches a real clean selection, but rejects
+after consequence because isolation still has two authorities. The fixture
+overrides its branch-local `public_only` result; live acceptance calls the
+inherited digest-proxy helper directly. Thus one G10-clean selector chooses
+`count_crates` and receives unresolved 2/6, yet candidate `293d80f6...` does not
+enter the lineage. Preserve that negative evidence. The next record should
+install the content-based predicate at the shared helper itself and add a gate
+that fixture and live isolation calls resolve to that same authority. Keep the
+offered-world precedence and every other gate unchanged.

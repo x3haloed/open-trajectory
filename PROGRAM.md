@@ -3072,5 +3072,14 @@ the correction, and leaves no-offer `wait-provider` behavior unchanged. All
 OT-0292 content controls and three prospective 2/6 branches remain green with
 route 16/16 and identity 18/18. Live output remains sealed until push.
 
+OT-0293 reaches the live selected consequence but rejects it. Actor-free wake
+is exact; offered-world precedence works; one G10-clean fresh actor chooses
+`count_crates`; sealed outcome is unresolved 2/6 with correction next. Yet live
+acceptance directly calls the inherited digest-proxy isolation helper, whereas
+OT-0292 corrected only the fixture result. Candidate `293d80f6...` is therefore
+non-authoritative. Preserve the rejection. Next install the corrected predicate
+at the one shared helper used by fixture and live paths, and prospectively prove
+that authority identity before another actor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

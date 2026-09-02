@@ -1,6 +1,6 @@
 # OT-0293 — Offered-world driver precedence
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** rejected at live isolation authority after consequence
 - **Evidence class:** exploratory-only
 - **Parent:** OT-0292 exact post-wake routing rejection
 - **Invocation:** unchanged two content-free openings from the OT-0290 parent
@@ -45,3 +45,18 @@ the rejected `expand-environment` route while the corrected driver returns
 `expanded-select`. A no-offer control remains `wait-provider`. All inherited
 content-isolation controls and three 2/6 selection branches remain green, with
 route 16/16 and identity 18/18. Preflight receipt `0fcea3cc...`.
+
+## Live result
+
+Both live operations become reachable. Actor-free wake reproduces exact
+`3fcb9e39...`; the corrected driver then authorizes one fresh external-workspace
+selector. Its seven commands are G10-clean, it chooses `count_crates`, and
+sealed authority returns unresolved 2/6 consequence with correction next.
+
+The invocation nevertheless rejects because its final `public_seed_only` gate
+calls the inherited digest-proxy helper directly. OT-0292 replaced only the
+fixture result, so preflight and live evaluation have separate isolation
+authorities. The candidate successor `293d80f6...` is non-authoritative and the
+post-wake parent remains current. Preserve the rejection. The next design must
+install the corrected predicate at the shared helper called by both paths and
+assert preflight/live predicate identity before actor authorization.
