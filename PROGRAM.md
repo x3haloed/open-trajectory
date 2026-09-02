@@ -2472,5 +2472,13 @@ one provider-bound wait handle; a separate invocation must reload it and perform
 an exact no-op under the unchanged empty cursor. No actor, fabricated world,
 operational mutation, duplicated wait state, or closure may occur.
 
+OT-0256 promotes across two actual invocations. Exact `a4eea95b...` carries one
+open wait handle; unchanged empty re-observation returns the same digest with no
+actor, fabricated world, duplicate receipt, operational mutation, or closure.
+
+Next extend the provider with one genuinely unseen world and resume this exact
+subject. The new cursor must satisfy and discharge the retained wait condition
+before environment expansion can authorize any fresh actor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

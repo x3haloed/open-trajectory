@@ -92,14 +92,15 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0255 successor `d15dbd22...`,
+The current exact operational subject is OT-0256 successor `a4eea95b...`,
 identified by
-`evidence/manifests/OT-0255/open-saturated-subject-at-empty-world-stream.json`.
+`evidence/manifests/OT-0256/open-subject-waiting-on-world-stream.json`.
 It preserves all earlier worlds and corrections, has saturated the state-indexed
 resilience epoch, and carries a saturated zero-opportunity projection with every
-external authority flag false. It remains open with environment expansion next
-while the current provider stream is empty. Durable waiting and resumption are
-not yet established.
+external authority flag false. It also carries one provider-bound wait handle
+and remains open at `awaiting-world-stream-extension`; unchanged empty
+re-observation is an exact no-op. Provider extension and resumption are not yet
+established.
 
 ## Prediction errors
 
@@ -319,3 +320,8 @@ not yet established.
   and remains open for expansion although the provider currently returns no
   world. Next distinguish durable waiting from accidental closure, then test
   later stream extension and resumption separately.
+- OT-0256 distinguishes waiting from closure across two process invocations.
+  Exact `a4eea95b...` installs one actor-free provider-bound wait, then survives
+  unchanged empty re-observation with the same digest and no duplicate state.
+  Next extend the provider and require the named condition to causally discharge
+  this wait before resumed expansion.

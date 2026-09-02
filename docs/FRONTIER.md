@@ -3156,3 +3156,14 @@ handle without changing operational state. The second must reload the serialized
 subject and leave it exactly unchanged under the same provider cursor. A positive
 provider control prevents indiscriminate waiting. Provider extension remains
 outside this experiment.
+
+OT-0256 promotes. Invocation one installs a provider-bound wait handle in exact
+`a4eea95b...` with zero actors and no operational mutation. Invocation two
+reloads that serialized subject and returns the identical digest under the same
+empty cursor; it does not append a second wait receipt, fabricate a world, or
+close continuation.
+
+The immediate frontier is causal resumption. A later provider catalog must make
+one genuinely unseen world available to this exact waiting subject. The wait
+handle must be discharged by its named condition, environment expansion must
+resume, and the old empty cursor must not itself authorize a world or actor.

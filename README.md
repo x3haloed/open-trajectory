@@ -682,6 +682,10 @@ The strongest footholds are:
   `d15dbd22...` saturates the active epoch, refreshes the projection to zero
   opportunities without authority drift, and remains open for environment
   expansion while the current external stream is empty.
+- `OT-0256`: two separate process invocations turn that empty stream into one
+  durable actor-free wait. Exact `a4eea95b...` remains open; re-observing the
+  unchanged provider cursor is an exact no-op with no duplicate wait receipt,
+  fabricated world, or operational mutation.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

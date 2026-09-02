@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-waiting-on-world-stream",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1079912,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e906f4ab260207d6541c4038aef08f2e8ae8856c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0256",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject retains one durable wait handle and remains open; a later provider extension must still demonstrate actual resumption rather than merely satisfiable metadata."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-waiting-on-world-stream",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "361ef983d5b529914503bbae71d697996d8c09dda7d9556dd4f94f898fe5dc6c"
+}

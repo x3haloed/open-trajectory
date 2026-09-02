@@ -1,0 +1,31 @@
+{
+  "artifact_id": "durable-empty-stream-waiting-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1117,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e906f4ab260207d6541c4038aef08f2e8ae8856c",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0256",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Two process invocations establish bounded actor-free waiting and idempotent empty re-observation; provider extension and resumed world interaction are not yet tested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:durable-empty-stream-waiting-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a2d6fa11fea589e40baa0ff01604c240bdadf76a03b68d2eeaf3a53b36399ee7"
+}

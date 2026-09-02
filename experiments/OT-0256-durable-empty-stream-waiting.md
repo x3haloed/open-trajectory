@@ -1,6 +1,6 @@
 # OT-0256 — durable empty-stream waiting
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0255 subject `d15dbd22...`
 - **Fresh actors:** zero
@@ -39,3 +39,14 @@ Promotion requires:
 This experiment does not extend the provider or claim resumption. A later
 experiment must make a genuinely new world available and resume this exact
 waiting subject.
+
+## Result
+
+The first process invocation observed the empty provider cursor and installed
+one wait handle without an actor or operational change. Exact waiting subject
+`a4eea95b...` remained open at `awaiting-world-stream-extension`.
+
+A second process invocation reloaded that serialized subject, observed the same
+empty cursor, and returned the exact same digest with one wait receipt—not two.
+No world or epoch was fabricated. This promotes durable empty-stream waiting;
+provider extension and actual resumed contact remain unclaimed.
