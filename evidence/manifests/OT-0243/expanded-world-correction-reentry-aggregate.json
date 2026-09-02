@@ -1,0 +1,31 @@
+{
+  "artifact_id": "expanded-world-correction-reentry-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13951,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "15c29c8302808e6f7346f32af55754dd26cbcd18",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0243",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh corrector on one actor-selected expanded-world surface; autonomous correction-world construction and generative reproducibility are not claimed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:expanded-world-correction-reentry-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4dd7ce2b7451c3c316554963e479f62d2a6bb384b1e3657ae78f3923671a550d"
+}

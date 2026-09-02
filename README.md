@@ -626,6 +626,11 @@ The strongest footholds are:
   `position_relay_kits`, passes G10, and receives sealed 2/6 contradiction.
   Exact successor `e3a403f7...` preserves the completed outward world and remains
   open at `correct` on the actor-selected stake.
+- `OT-0243`: another null pulse derives correction from that exact expanded
+  state. A fresh target-generic corrector reaches public 4/4 and prospective 6/6
+  versus unchanged 2/6. Exact successor `02cb8b65...` is open at `assimilate`;
+  its post-check reveals that the active selector overlooks three unused
+  expanded-epoch surfaces.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

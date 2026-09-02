@@ -2852,3 +2852,18 @@ and its decision. G10, public 4/4, prospective 6/6, unchanged 2/6, preservation
 of every earlier extension, and exact open assimilation are the promotion gate.
 The active selector's post-correction operation is recorded but deliberately not
 gated, so any expanded-epoch counting blind spot remains visible.
+
+OT-0243 passes that slice. The null pulse derives `outward-correct`; the sole
+fresh actor derives and repairs `landscape/communications.py::position_relay_kits`
+without a target literal in the implementation or prompt. G10 accepts, public is
+4/4, and prospective consequence is 6/6 against unchanged 2/6. Exact successor
+`02cb8b65...` preserves all earlier and unselected sources and returns open at
+`assimilate`.
+
+The ungated observation then falsifies the active selector's world model. Three
+executable surfaces remain unused in the retained expanded epoch, but its old
+outward-only counter reports zero and routes to `expand-environment`. Do not
+invoke another actor under that route. The next experiment must prospectively
+replace the count input with a state-derived eligible-opportunity count spanning
+the active retained epoch, preserve all prior routes, and route this exact
+successor to selection within the expanded environment.

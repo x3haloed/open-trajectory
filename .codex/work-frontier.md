@@ -90,12 +90,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0242 successor `e3a403f7...`,
+The current exact operational subject is OT-0243 successor `02cb8b65...`,
 identified by
-`evidence/manifests/OT-0242/open-subject-after-environment-expansion.json`.
+`evidence/manifests/OT-0243/open-subject-after-expanded-world-correction.json`.
 It preserves the saturated three-surface outward world and all corrections,
-retains an actor-selected communications epoch, and is open at `correct` after
-independent 2/6 contradiction of `position_relay_kits`.
+retains the actor-selected communications epoch with its selected contact
+corrected and world-verified, and is open at `assimilate`.
 
 ## Prediction errors
 
@@ -238,7 +238,17 @@ independent 2/6 contradiction of `position_relay_kits`.
   helper's `symbol`/`path::symbol` spellings, but the authoritative decision and
   exact changed file agree. This is a narrow non-authoritative classifier, not a
   causal mismatch, and the frozen gate is unchanged.
+- OT-0243 re-enters correction under another null pulse. The target-generic
+  corrector reaches public 4/4 and prospective 6/6 versus unchanged 2/6; exact
+  `02cb8b65...` returns open at `assimilate` with all prior and unselected sources
+  preserved.
+- Expected: post-correction assimilation recognizes unused opportunities in the
+  retained expanded epoch. Observed: three surfaces remain, but the active
+  outward-only counter reports zero and selects `expand-environment`. Uncertain:
+  whether one unified opportunity resolver can preserve old-world saturation
+  while selecting within arbitrary retained epochs. Evidence: OT-0243 aggregate
+  `post_correction_observation`.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is generalized correction from the
-  actor-selected module and exact contradiction, followed by content-free
-  re-entry into assimilation.
+  external. The next discriminating step is a prospective unified opportunity
+  resolver that recognizes unused surfaces in the retained expanded epoch
+  without regressing old-world saturation or correction routes.

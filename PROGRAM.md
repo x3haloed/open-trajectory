@@ -2232,5 +2232,18 @@ fresh corrector must pass G10, visible 4/4, and prospective 6/6 against unchange
 The post-correction selector route is an observation rather than a gate, keeping
 any newly exposed expanded-epoch counting error outside this comparison.
 
+OT-0243 promotes the correction slice. One null pulse derives
+`outward-correct`; the fresh target-generic corrector passes G10, visible 4/4,
+and prospective 6/6 against unchanged 2/6. Exact successor `02cb8b65...`
+preserves every prior extension and unselected broader-world source and returns
+open at `assimilate`.
+
+The held-out post-correction observation exposes the next driver error: three
+expanded-epoch surfaces remain unused, while the active selector's original
+outward-only counter reports zero and emits `expand-environment`. Do not spend
+an actor under that route. A prospective selector revision must derive eligible
+opportunities from retained environment epochs, preserve existing routes, and
+send the exact successor into expanded-world selection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
