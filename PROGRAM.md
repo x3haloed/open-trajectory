@@ -2224,5 +2224,13 @@ change promotion. The next experiment must generalize correction from exact
 expanded-world state, reach prospective 6/6 versus unchanged 2/6 without naming
 the selected target in its prompt, and preserve all earlier epochs.
 
+OT-0243 freezes that null-pulse correction re-entry. Its implementation and
+prompt contain no literal for the actor-selected relay target; target, module,
+source, contact, and contradiction must all resolve from exact state. The sole
+fresh corrector must pass G10, visible 4/4, and prospective 6/6 against unchanged
+2/6 while preserving prior extensions and every unselected broader-world source.
+The post-correction selector route is an observation rather than a gate, keeping
+any newly exposed expanded-epoch counting error outside this comparison.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -2843,3 +2843,12 @@ opened full-field correction interface without a target-naming prompt; alter
 only the selected callable; and earn prospective 6/6 against unchanged 2/6.
 Then the content-free driver must be shown to re-enter assimilation and continue
 from this expanded epoch.
+
+OT-0243 freezes the correction re-entry slice. One null pulse at exact
+`e3a403f7...` must derive `outward-correct`; the mechanism must derive target,
+path, source, and receipt identities from state without containing the selected
+relay target as a literal. A sole fresh corrector may change only that function
+and its decision. G10, public 4/4, prospective 6/6, unchanged 2/6, preservation
+of every earlier extension, and exact open assimilation are the promotion gate.
+The active selector's post-correction operation is recorded but deliberately not
+gated, so any expanded-epoch counting blind spot remains visible.
