@@ -3850,3 +3850,10 @@ unresolved reference sources and hidden cases, the full collection, sealed
 filename, and status-only counterfeit fail. Both remaining selection branches
 now pass unchanged. After freeze and push, rerun actor-free refresh and one
 target-untold selection in a fresh external root.
+
+OT-0297 rejects before selection on live provenance, not developmental
+isolation. Actor-free refresh passes, but the inherited runner emits OT-0296
+result and pulse labels. No actor runs. Preserve the rejection. The next record
+should correct only the enclosing live authority and prospectively assert exact
+experiment, pulse, and result labels before repeating the same refresh and
+selection test.

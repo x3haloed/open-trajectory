@@ -1,6 +1,6 @@
 # OT-0297 — Consequence-earned isolation
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** rejected at first live opening before actor authorization
 - **Evidence class:** exploratory-only
 - **Parent:** OT-0296 zero-actor developmental-isolation rejection
 - **Invocation:** unchanged two content-free openings from exact OT-0295 parent
@@ -43,3 +43,14 @@ cases, the full case collection, and a sealed filename all fail. A status-only
 counterfeit also fails. Both unchanged renewed-selection branches reach 2/6
 consequence and correction with route 16/16 and identity 18/18. Preflight
 receipt `772b116d...`.
+
+## Live result
+
+The actor-free refresh behavior passes, but the invocation rejects on material
+provenance. The inherited runner emits OT-0296 authority and pulse labels because
+OT-0297 updated substrate authorities without updating the enclosing runner's
+module authority. No selector is authorized and no consequence opens.
+
+Preserve the rejection. The next design may correct only the live runner
+authority and must prospectively assert exact experiment, pulse, and result
+labels before repeating the developmental-isolation test.

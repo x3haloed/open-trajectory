@@ -3132,5 +3132,12 @@ targets, rejects seven direct controls including a status-only counterfeit, and
 passes both renewed-selection branches at 2/6 with route 16/16 and identity
 18/18. Live output remains sealed until push.
 
+OT-0297 rejects at its first live opening before actors. Refresh behavior is
+correct, but the inherited runner labels the result and pulse as OT-0296 because
+the enclosing module authority was not updated. Treat that as material actor
+provenance and branch-identity failure; do not authorize selection. Preserve the
+rejection. Next correct only runner authority and add prospective exact-label
+gates before rerunning consequence-earned isolation.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
