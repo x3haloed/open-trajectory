@@ -44,3 +44,12 @@ The six-case package and counterexample ordering remain world-side fixed
 machinery. This test shows one consequence-driven reopening after a failed
 correction, not indefinite correction recurrence, package completion, or a
 fourth wait.
+
+## Pre-actor apparatus correction
+
+After the first actor-free invocation passed, the next process stopped before
+actor authorization because `main` attempted to recreate the retained preflight
+seed directory. No actor context or output was created. Subsequent invocations
+load the exact retained preflight receipt instead; its passed gates and bytes are
+unchanged. This idempotence repair is frozen and pushed before the sole live
+actor call.

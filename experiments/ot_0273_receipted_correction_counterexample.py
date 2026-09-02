@@ -452,7 +452,12 @@ def main():
     parser.add_argument("--preflight-only", action="store_true")
     args = parser.parse_args()
     repo, run, p82, runtime, parent, failed, package, result268, base, base130 = setup(args)
-    fixtures = preflight(run / "preflight", p82, runtime, parent, failed, package, result268)
+    retained_preflight = run / "preflight/fixture-conformance.json"
+    fixtures = (
+        json.loads(retained_preflight.read_text())
+        if retained_preflight.exists()
+        else preflight(run / "preflight", p82, runtime, parent, failed, package, result268)
+    )
     if args.preflight_only:
         print(json.dumps(fixtures, indent=2, sort_keys=True))
         return 0 if fixtures["checks"]["passed"] else 2
