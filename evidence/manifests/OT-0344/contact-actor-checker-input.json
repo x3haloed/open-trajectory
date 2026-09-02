@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contact-actor-checker-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 934,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Public cases only; hidden outcome remains observer-owned."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:contact-actor-checker-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "075fe8d6b0c3f566e2c1801a8f54ddb304764e093d3ffa1c77a9c32cfdbbfc49"
+}

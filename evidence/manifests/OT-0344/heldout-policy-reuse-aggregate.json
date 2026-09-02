@@ -1,0 +1,31 @@
+{
+  "artifact_id": "heldout-policy-reuse-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 13752,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "One prospectively derived synthetic catalog; no frequency or cross-domain claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-policy-reuse-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "85be28b683c6ebd8f57693a8121eed2c338ff454ceca70f1220be09318a16bec"
+}

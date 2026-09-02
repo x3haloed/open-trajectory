@@ -1,0 +1,31 @@
+{
+  "artifact_id": "heldout-policy-reuse-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1583,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "experiment-preflight",
+  "limitations": [
+    "Synthetic anchors and exact-parent checks only; no live actor result."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-policy-reuse-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "eb4baf1769422ffdd90b2899f538ebdd48185329601cecf34a3893dac219931e"
+}

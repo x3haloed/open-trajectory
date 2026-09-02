@@ -1,6 +1,6 @@
 # OT-0344 — Held-out world-policy reuse
 
-- **Status:** frozen; not yet executed
+- **Status:** executed — held-out reuse and option-breadth effect promoted
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0343 child `2b0d835e...`
 - **Fresh actors:** at most two: one selection/continuation actor and one
@@ -75,3 +75,32 @@ At most two fresh actors, no actor retries, no post-output protocol repair, one
 private derivation attempt, and twenty observer minutes. Stop after the active
 successor is sealed and deterministic controls are scored. Observer stopping
 does not close an open subject.
+
+## Result
+
+The one allowed private derivation produced three opaque worlds in fresh order.
+The exact retained policy selected `world-7f06090437d7aa81`, whose four contacts
+were independently constructed to preserve the floor and admit correction.
+The exact descriptor-only replay selected a different two-contact world with a
+24-point descriptor margin. Reversing only the policy's primary direction also
+selected that two-contact world.
+
+The first fresh actor ran the inherited selector, accepted its selected world,
+and chose `contact-31ad140ef6607b72` from its four available contacts. Its trace
+was clean and changed only the bound decision. A second fresh actor repaired
+that contact's boundary rule, passed 3/3 public and 5/5 sealed cases, and chose
+different remaining contact `contact-5ddab6563ce8fa47` as the next opening.
+Its broad-tool trace was also clean. Exact 40/40 global stake state remained
+byte-identical.
+
+After equivalent one-contact consumption, the active architecture retains
+three reachable openings while the policy-erased descriptor path would retain
+one. Aggregate `29d0dd27...` promotes exact open child `a69c3ffb...` with two
+fresh actors and no retry or repair.
+
+This is bounded causal evidence that the retained post-contact policy changes
+selection and widens the realized next-contact landscape on one prospectively
+derived synthetic catalog. The role templates were deliberately constructed
+to discriminate the two selectors, so the result does not show autonomous
+world invention, natural-distribution frequency, universal fitness of contact
+count, or that the subject's priorities caused the policy's original form.

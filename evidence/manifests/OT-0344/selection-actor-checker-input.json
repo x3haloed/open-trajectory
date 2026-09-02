@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selection-actor-checker-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 742,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Public checker only; final admission remains observer-owned."
+  ],
+  "media_type": "text/x-python",
+  "reconstruction": {
+    "expected_output": "artifact:selection-actor-checker-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f41206e90b40d5fa553386bad0cb631f6ccfa6bc346b4db2d7103dfcd5c74938"
+}

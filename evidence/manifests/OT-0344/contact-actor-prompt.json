@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contact-actor-prompt",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 401,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Workspace prompt; response schema is tracked separately."
+  ],
+  "media_type": "text/markdown",
+  "reconstruction": {
+    "expected_output": "artifact:contact-actor-prompt",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b3845efc7a028923ac2ac37267996fa748b4e3f113eb4a38d835f7a4938fed69"
+}

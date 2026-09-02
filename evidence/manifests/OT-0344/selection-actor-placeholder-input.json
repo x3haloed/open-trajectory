@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selection-actor-placeholder-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 165,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Pre-actor neutral placeholder, not the actor decision."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:selection-actor-placeholder-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "aa38c1024ba2895cac2ae41117afa939fe8f5e7bb376bb1535e8b4193674381a"
+}

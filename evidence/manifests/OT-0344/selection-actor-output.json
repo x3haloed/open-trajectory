@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selection-actor-output",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 323,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-output",
+  "limitations": [
+    "One hosted generation; no deployment-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:selection-actor-output",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7d5150a13049b30602b67d29859fe2cf7c9553a3a186283ebab0d09625ed5157"
+}

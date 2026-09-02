@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selection-actor-subject-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1406,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Selection projection only; sibling and hidden material omitted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:selection-actor-subject-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "63b30704183b92556b9da2a8d6960530002f07ab3d550aff7c9d61ce679365b7"
+}

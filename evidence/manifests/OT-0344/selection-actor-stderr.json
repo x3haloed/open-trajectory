@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selection-actor-stderr",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 536,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-runtime-stderr",
+  "limitations": [
+    "Runtime diagnostics retained separately from semantic outcome."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:selection-actor-stderr",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2dc3b9a7f41d61f6c4c0cf80dbc19dec1b188f318ec9a4b073126a1f20484eb9"
+}

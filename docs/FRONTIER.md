@@ -229,13 +229,27 @@ only open child `2b0d835e...`. Its continuation binds descriptor stake
 post-contact selection, with next operation `test-world-consequence-policy-reuse`.
 No priority or floor-dependent causal effect is claimed.
 
+OT-0344 follows that exact subject-selected operation on one prospectively
+derived catalog. A single post-freeze private seed assigned opaque identities
+and order to three public structural roles. The retained policy selected the
+four-contact world; exact policy erasure fell back to the unchanged descriptor
+stake and selected a different two-contact world with a 24-point margin. A
+fresh actor chose one contact inside the policy-selected world. A second fresh
+actor passed 3/3 public and 5/5 sealed correction cases and authored a different
+remaining contact as its next opening. Both broad-tool traces were clean, the
+global floor remained exact 40/40, and the active lineage retains three
+openings after equivalent consumption versus one for the ablation. Aggregate
+`29d0dd27...` promotes exact open child `a69c3ffb...`.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
 branches as expansion. The subject now explicitly assigns descriptor scoring
-and viable-contact scoring different temporal roles. Its first live result is
-training evidence only; fresh reuse has not yet shown that this two-stage
-architecture selects worlds that actually leave better later possibilities.
+and viable-contact scoring different temporal roles. OT-0344 now shows one
+fresh bounded reuse in which that second stage leaves three openings after one
+completed contact versus one under exact policy erasure. The catalog roles were
+researcher-designed to discriminate the selectors, so transfer beyond this
+synthetic shape and correction under later policy harm remain open.
 OT-0329's rejected actor patch was never inherited.
 OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
 cumulative 45/45; the matched outcome-erased author retained the global policy

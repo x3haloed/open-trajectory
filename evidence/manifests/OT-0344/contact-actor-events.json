@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contact-actor-events",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10842,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Raw broad-tool trace retained for effect audit."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:contact-actor-events",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2d3590d917861a9cc0565b6f13dbb74d521dd3b17c73d349f350684964ebf221"
+}

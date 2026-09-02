@@ -1,0 +1,31 @@
+{
+  "artifact_id": "selection-actor-envelope-input",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 239,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "actor-input",
+  "limitations": [
+    "Actor mutation boundary for the selection encounter."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:selection-actor-envelope-input",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b340739dc938d22ec626ed9bf4396f40e62fa5dc1fa2a4e3160ab7ffff6b5972"
+}

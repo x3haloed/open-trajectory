@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-heldout-policy-reuse",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1989833,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "673080f4658966444471f4f339681559586707d0",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0344",
+  "input_manifests": [],
+  "kind": "continuing-subject-snapshot",
+  "limitations": [
+    "Bounded synthetic reuse only; later policy harm and broader transfer remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-heldout-policy-reuse",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "33e0b26d1acad5a1f71a7f4cb6e9c05e0bb0794b3c29c34b512048735a6dbf0f"
+}
