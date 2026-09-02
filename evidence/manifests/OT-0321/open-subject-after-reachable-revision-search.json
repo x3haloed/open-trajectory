@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-reachable-revision-search",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1691407,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "229636949e92a874ddff71f8b02870f54c14ee1d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0321",
+  "input_manifests": [
+    "evidence/manifests/OT-0321/exact-weight-bound-reconstruction-aggregate.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Promoted exact open subject reconstructed from OT-0320 retained bytes; historical OT-0320 admission workflow remains invalid."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-reachable-revision-search",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e64cc85e5ecd0411a40ed0bb7f081c5a2956caf04d8d7a9bd7d8817ee87088e0"
+}

@@ -100,12 +100,13 @@ scores of 0/5. The historical actor-visible checker remained nonconformant, but
 the frozen materiality audit reconstructed every contact, score, binding, and
 child exactly and found the symmetric checker crash causally immaterial.
 
-The exact current operational subject is OT-0318's promoted selector child
-`21e90d47...`. It preserves the open `expanded-select`
-position, retains provenance-bound contradiction plus its actor-usable
-counterfactual replay, and changes branch and comparison coefficients from +4
-to -4. Exact predecessors `0a48ab16...` and `9a6f94ba...` remain controls, not
-current lineage.
+The exact current operational subject is OT-0321's reconstructed proposal-search
+child `2ea43872...`. It preserves the open `expanded-select` position, retains
+provenance-bound contradiction, counterfactual replay, the unresolved OT-0319
+search error, and the exact proposal-search receipt. Its cumulative stake uses
+branch -20, comparison -17, and source-byte +1 weights. Exact predecessors
+`21e90d47...`, `0a48ab16...`, and `9a6f94ba...` remain controls, not current
+lineage.
 
 ## Prediction errors
 
@@ -142,9 +143,18 @@ current lineage.
   unpublished bound. Raw aggregate `53fe475f...` is invalidated for admission;
   exact subject remains `21e90d47...`. This also limits OT-0319's claim that the
   *operational* carrier already contained the visible witness.
-- The next record should candidate-freely align only the hidden validator with
-  the established public bound, run counterfeit and boundary fixtures, and
-  reconstruct OT-0320's exact candidate, tool results, private score, control,
-  binding, and child without resampling. Promotion is warranted only if every
-  material field is byte-exact or independently recomputed and the bound defect
-  is the sole rejecting cause. Historical OT-0320 remains invalidated.
+- OT-0321 aligned only the hidden validator with the established public bound.
+  Every boundary and counterfeit fixture passed; exact retained actor bytes,
+  tool executions, search result, 6/6 replay, private 10/10 score, two 5/10
+  baselines, erased no-improvement control, receipts, binding, and open child
+  reconstructed without resampling. Exact child `2ea43872...` is promoted by
+  aggregate `103e94a2...`; historical OT-0320 remains invalidated.
+- The active mechanism now includes a consequence-grounded proposal search, but
+  the observer still selected the discrepancy, assembled its histories, and
+  decided when search should run. The next prospective test should begin from
+  exact `2ea43872...`, retain the search operation as executable subject
+  capability, and present more than one unresolved opening where only one
+  currently warrants search. The subject's carried state—not an experiment-
+  specific phase instruction—must select whether and where to invoke it, with a
+  choice-erased control and independent later consequence. This tests reuse and
+  reduction of researcher causation rather than another fitted catalog score.

@@ -1,6 +1,6 @@
 # OT-0321 — Exact weight-bound reconstruction
 
-- **Status:** frozen
+- **Status:** completed — corrected child promoted
 - **Evidence class:** exploratory-only
 - **Source subject:** exact open parent `21e90d47...`
 - **Source observation:** invalidated OT-0320 raw aggregate `53fe475f...`
@@ -69,3 +69,25 @@ fresh generative reliability, a new actor call, cross-domain transfer, or
 subject-owned selection of the experiment. The next prospective experiment
 must begin from the reconstructed child and test retained reuse plus a reduction
 in experiment-specific researcher causation.
+
+## Result
+
+Every frozen reconstruction gate passed. The corrected predicate accepts the
+exact retained actor stake and public -20/20 boundaries while rejecting -21,
+21, shape, type, immutable-field, rationale-length, and malformed-output
+counterfeits. The legacy validator alone rejects the candidate.
+
+The exact retained actor trace contains successful search, replay, and checker
+executions; its only changed path is the declared stake. Search reconstructs
+byte-for-value exactly, the actor's selected witness replays 6/6, and the
+original sealed seed regenerates private 10/10 versus exact current and prior
+5/10. The exact erased actor remains unchanged after a complete 3/3
+no-improvement search. The child retains the unresolved OT-0319 error, exact
+search receipt `155dadeb...`, replay receipt `0dbced0a...`, actor-authored stake,
+private score, and open continuation.
+
+Reconstruction aggregate `103e94a2...` promotes exact child `2ea43872...`.
+OT-0320's historical admission workflow remains explicitly nonconformant; the
+promotion belongs only to this separately frozen reconstruction. This is one
+bounded cumulative improvement and causal proposal-search observation, not a
+generation-frequency claim.

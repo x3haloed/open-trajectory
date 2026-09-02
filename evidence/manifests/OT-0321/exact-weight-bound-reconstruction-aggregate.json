@@ -1,0 +1,39 @@
+{
+  "artifact_id": "exact-weight-bound-reconstruction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 27403,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "229636949e92a874ddff71f8b02870f54c14ee1d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0321",
+  "input_manifests": [
+    "evidence/manifests/OT-0321/exact-weight-bound-reconstruction-preflight.json",
+    "evidence/manifests/OT-0320/reachable-revision-search-raw-aggregate.json",
+    "evidence/manifests/OT-0320/full-history-search-actor-stake-revision.json",
+    "evidence/manifests/OT-0320/full-history-search-actor-trace.json",
+    "evidence/manifests/OT-0320/earlier-erased-search-actor-stake-revision.json",
+    "evidence/manifests/OT-0320/earlier-erased-search-actor-trace.json",
+    "evidence/manifests/OT-0320/private-search-world-seed.json"
+  ],
+  "kind": "reconstruction-aggregate",
+  "limitations": [
+    "Exact post-result reconstruction under the already public -20..20 contract; no new actor, seed, candidate, or generative reliability evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-weight-bound-reconstruction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bb1cb85714009d3bbefd1e5db3292e92a871434a9c0f7e86a2225abd6f8d7564"
+}
