@@ -1,0 +1,31 @@
+{
+  "artifact_id": "invalid-response-schema-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 893,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0723c997d1dda022579b421952f3412d37e25ec1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0335",
+  "input_manifests": [],
+  "kind": "invalid-actor-trace",
+  "limitations": [
+    "The hosted API rejected the response schema before model output or workspace mutation; this is apparatus evidence, not actor behavior."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:invalid-response-schema-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "431bf4b521cc2cb42a141a10b44b3594d448de93f8c011784ce708940e597c7a"
+}

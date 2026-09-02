@@ -1,0 +1,31 @@
+{
+  "artifact_id": "consequence-before-revision-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 987,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0723c997d1dda022579b421952f3412d37e25ec1",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0335",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Frozen ancestry, epistemic-authority, comparison, sealed-world blindness, and open-successor fixtures passed before the hosted response-format failure."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-before-revision-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f506c617a58c47d4f888e2b5ac9ed0a50ffa7cf6b9f2d1c8d4281fdcc4dd9293"
+}

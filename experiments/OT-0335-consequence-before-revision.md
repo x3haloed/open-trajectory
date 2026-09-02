@@ -1,6 +1,6 @@
 # OT-0335 — Consequence before revision
 
-- **Status:** frozen, unexecuted
+- **Status:** invalid — hosted response schema rejected before actor output
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0334 open successor `afc02a9d...`
 - **Fresh actors:** one position-bearing instability responder
@@ -50,3 +50,14 @@ experiment does not claim that either world is better, that the later
 comparison will distinguish them, or that the actor has revised selection
 machinery. It tests whether the lineage can refuse an unjustified self-change
 while turning the resulting epistemic gap into its own next pursuit.
+
+## Invalid execution
+
+The frozen preflight passed, but the hosted API rejected the response schema's
+array-valued `const` for `files_changed` before the model could produce output.
+The actor workspace remained byte-identical to its seed and the event trace
+contains only thread start, turn start, the schema error, and turn failure.
+This supplies no evidence about the hypothesis or actor behavior. OT-0335 will
+not be rerun. OT-0336 prospectively changes only that response-schema encoding
+and retains the exact parent, hypothesis, evidence packet, task, controls, and
+promotion gate.
