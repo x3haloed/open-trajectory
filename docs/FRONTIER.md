@@ -3701,3 +3701,8 @@ The next correction is target-scoped: use enlarged disclosure only when it is
 `awaiting-revision` for the currently selected target; a fresh target derives
 its disclosed set from its own four public cases. Preserve both rejections and
 the unchanged live suffix.
+
+OT-0289 makes that sole scope correction. Prospective active and fresh target
+controls expose one and two hidden classes respectively; exhaustion fails
+closed; all 36 complete suffix branches now pass. After freeze and push, resume
+the exact post-invalidity subject through the unchanged null-pulse cycle.

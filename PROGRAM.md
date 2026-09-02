@@ -2994,5 +2994,10 @@ use enlarged disclosure only when its target matches the current correction and
 its status is `awaiting-revision`; otherwise derive disclosure from the current
 target's public contact.
 
+OT-0289 freezes that target-scoped rule. The active surface exposes one hidden
+class; a fresh selected surface exposes two even while prior resolved disclosure
+remains retained. Exhaustion fails closed and all 36 complete suffixes pass with
+both rejected predecessors unchanged. Live output remains sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

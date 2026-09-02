@@ -1,0 +1,35 @@
+{
+  "artifact_id": "target-scoped-disclosure-recurrence-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1229,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "16c2ae6f9507259c651b2474881ff99d28becb7e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0289",
+  "input_manifests": [
+    "evidence/manifests/OT-0288/rejected-current-disclosure-recurrence-preflight.json",
+    "evidence/manifests/OT-0287/rejected-post-invalidity-tideglass-preflight.json",
+    "evidence/manifests/OT-0286/open-subject-after-invalidity-recovery-feedback.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; no live actor output or subject transition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:target-scoped-disclosure-recurrence-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e0e6d217a392ebda6efbbc1ceed98399abbd3e6c0b49a98481bd4053144451ab"
+}
