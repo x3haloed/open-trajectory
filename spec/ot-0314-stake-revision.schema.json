@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["action", "files_changed", "note"],
+  "additionalProperties": false,
+  "properties": {
+    "action": {"enum": ["revise-world-seeking-stake", "retain-world-seeking-stake"]},
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "const": "stake-revision.json"},
+      "maxItems": 1
+    },
+    "note": {"type": "string", "minLength": 1, "maxLength": 500}
+  }
+}
