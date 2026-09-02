@@ -46,6 +46,11 @@ possibilities without acquiring authority over world outcomes or admission.
 - Exact history may grow while it remains reconstructible and does not prevent
   reliable continuation. Compaction is an efficiency mechanism, not permission
   to erase contradiction or surrendered stakes.
+- A mechanism counts as retained subject capability only when a fresh successor
+  can mechanically exercise it from inherited state. A receipt or source digest
+  can prove prior use but cannot substitute for a reconstructible executable
+  body and its applicability boundary. Evidence: OT-0321 retains proposal-search
+  receipts but not the search source.
 
 ## Evaluation regime
 
@@ -103,10 +108,11 @@ child exactly and found the symmetric checker crash causally immaterial.
 The exact current operational subject is OT-0321's reconstructed proposal-search
 child `2ea43872...`. It preserves the open `expanded-select` position, retains
 provenance-bound contradiction, counterfactual replay, the unresolved OT-0319
-search error, and the exact proposal-search receipt. Its cumulative stake uses
-branch -20, comparison -17, and source-byte +1 weights. Exact predecessors
-`21e90d47...`, `0a48ab16...`, and `9a6f94ba...` remain controls, not current
-lineage.
+search error, and the exact proposal-search receipt. The receipt binds a tool
+digest but the child does not contain the executable search source, so reusable
+search capability is not yet established. Its cumulative stake uses branch -20,
+comparison -17, and source-byte +1 weights. Exact predecessors `21e90d47...`,
+`0a48ab16...`, and `9a6f94ba...` remain controls, not current lineage.
 
 ## Prediction errors
 
@@ -149,12 +155,13 @@ lineage.
   baselines, erased no-improvement control, receipts, binding, and open child
   reconstructed without resampling. Exact child `2ea43872...` is promoted by
   aggregate `103e94a2...`; historical OT-0320 remains invalidated.
-- The active mechanism now includes a consequence-grounded proposal search, but
-  the observer still selected the discrepancy, assembled its histories, and
-  decided when search should run. The next prospective test should begin from
-  exact `2ea43872...`, retain the search operation as executable subject
-  capability, and present more than one unresolved opening where only one
-  currently warrants search. The subject's carried state—not an experiment-
-  specific phase instruction—must select whether and where to invoke it, with a
-  choice-erased control and independent later consequence. This tests reuse and
-  reduction of researcher causation rather than another fitted catalog score.
+- Expected: OT-0321's retained proposal-search receipt made search part of the
+  active subject mechanism. Observed: the exact child contains the search result
+  and source digest but no executable source; a fresh successor cannot invoke a
+  digest. The cumulative stake improvement remains valid, but reusable search
+  capability is unestablished. The next prospective test should bind the exact
+  source to its causal receipt, retain it with an explicit applicability
+  boundary, and require a fresh actor to reuse it on a new orthogonal
+  contradiction while preserving the 10/10 floor. A source-erased matched branch
+  must remove the executable path. Only after reuse should a multi-opening test
+  ask subject state to choose whether and where search runs.

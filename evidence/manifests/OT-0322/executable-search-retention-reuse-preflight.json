@@ -1,0 +1,34 @@
+{
+  "artifact_id": "executable-search-retention-reuse-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 25195,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6f372dfc28838ae90ec81d28f7e4ef44c7e969a3",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0322",
+  "input_manifests": [
+    "evidence/manifests/OT-0321/exact-weight-bound-reconstruction-aggregate.json",
+    "evidence/manifests/OT-0321/open-subject-after-reachable-revision-search.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Candidate-free conformance of exact source retention, source-erased control, orthogonal call-only world, inherited search reuse, 10/10 floor, and 15/15 reachability; not live actor reuse evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:executable-search-retention-reuse-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "499e3d6de22747b46488cd9d693203ad0618d6ebe9d5f82cadd12a76a3f1d803"
+}
