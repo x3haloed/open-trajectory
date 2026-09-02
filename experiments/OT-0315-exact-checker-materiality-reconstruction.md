@@ -1,6 +1,6 @@
 # OT-0315 — Exact checker-materiality reconstruction
 
-- **Status:** frozen
+- **Status:** completed — exact candidate promoted
 - **Evidence class:** exploratory-only
 - **Source observation:** invalidated OT-0314 raw aggregate `945bd6b5...`
 - **Parent:** exact open subject `9a6f94ba...`
@@ -68,3 +68,24 @@ nonconformant. It establishes no new actor provenance or generative
 reproducibility, and it does not establish repeated machinery revision,
 cross-language transfer, later corrigibility, or researcher-optional
 experimental development.
+
+## Result
+
+Every frozen reconstruction and materiality gate passed. The original checker
+reproduced the same `unhashable type` failure on both exact branches; both
+retained stake files passed the corrected checker, while every negative fixture
+remained rejected. The original private seed regenerated all three training
+contacts, both actor projections, and all five held-out rows exactly. The
+candidate, parent, and outcome-erased scores remained 5/5, 0/5, and 0/5.
+
+The stake-revision binding and complete 1.66 MB child reconstructed byte for
+byte as `0a48ab16...`. Exact reconstruction receipt is `ae2a31a8...`. The
+checker defect was therefore immaterial to the bounded causal comparison, and
+that exact child is promoted. The historical actor-visible checker workflow
+remains nonconformant; OT-0315 does not rewrite OT-0314's raw aggregate or claim
+that either actor had a functioning checker.
+
+This activates the bounded E12 observation. It does not satisfy E12's later-
+correction clause. The learned zero byte penalty now needs a prospectively
+reversed regime in which syntactic branching no longer predicts coherent future
+option value, with exact-parent and consequence-erased controls.

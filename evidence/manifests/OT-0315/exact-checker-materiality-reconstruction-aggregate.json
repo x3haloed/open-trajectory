@@ -1,0 +1,42 @@
+{
+  "artifact_id": "exact-checker-materiality-reconstruction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5028,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9035c789b07579687acc9a1e1b0bff4e51f36ad1",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0315",
+  "input_manifests": [
+    "evidence/manifests/OT-0315/exact-checker-materiality-preflight.json",
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-raw-aggregate.json",
+    "evidence/manifests/OT-0314/private-option-value-world-seed.json",
+    "evidence/manifests/OT-0314/consequence-actor-trace.json",
+    "evidence/manifests/OT-0314/consequence-actor-completed-contacts.json",
+    "evidence/manifests/OT-0314/consequence-actor-stake-revision.json",
+    "evidence/manifests/OT-0314/outcome-erased-actor-trace.json",
+    "evidence/manifests/OT-0314/outcome-erased-actor-completed-contacts.json",
+    "evidence/manifests/OT-0314/outcome-erased-actor-stake-revision.json",
+    "evidence/manifests/OT-0314/checker-invalidated-candidate-subject.json"
+  ],
+  "kind": "reconstruction-aggregate",
+  "limitations": [
+    "Post-result exact forensic reconstruction; validates bounded causal materiality but adds no actor sample, deployment provenance, or generative reproducibility."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-checker-materiality-reconstruction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e94e02365aae115138cd154bffaf57cb3cc42076d6e4f7565546663e6885e838"
+}

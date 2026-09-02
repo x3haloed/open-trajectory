@@ -93,13 +93,18 @@ and the changed machinery must beat its exact unchanged parent on matched
 future catalogs where prior consequence predicts the better move. Withholding
 or misbinding the relevant consequence must remove the advantage. Abstention is
 correct when the available evidence cannot distinguish candidates; a later
-contradictory regime must still be able to revise that policy. E12 is not active
-until a candidate-bearing comparison passes these anchors.
+contradictory regime must still be able to revise that policy. OT-0315 activates
+this regime for bounded prospective use: exact reconstruction preserved
+OT-0314's 5/5 changed-machinery score against exact-parent and outcome-erased
+scores of 0/5. The historical actor-visible checker remained nonconformant, but
+the frozen materiality audit reconstructed every contact, score, binding, and
+child exactly and found the symmetric checker crash causally immaterial.
 
-The exact current operational subject is OT-0312 stake successor `9a6f94ba...`.
-It has corrected `board_ferry`, refreshed into the selected world, remains open
-with two coherent opportunities, and derives `expanded-select`. The matched
-blind sibling `1e72ad39...` is retained as control state, not promoted lineage.
+The exact current operational subject is OT-0315 reconstructed selector child
+`0a48ab16...`. It preserves the OT-0312 open position and `expanded-select`
+operation while changing only the active world-seeking stake's byte coefficient
+from -1 to 0. The exact prior subject `9a6f94ba...` and matched outcome-erased
+stake remain controls, not promoted lineage.
 
 ## Prediction errors
 
@@ -117,35 +122,13 @@ blind sibling `1e72ad39...` is retained as control state, not promoted lineage.
   reliability estimate across goals, worlds, or models.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
-- Expected: choosing a different world under the subject's stake would improve
-  one complete downstream continuation. Observed: OT-0312's stake and blind
-  branches both reached the same frozen hard endpoint with identical actor-call
-  and command counts. Uncertain: whether the current stake lacks predictive
-  fitness, or whether the uniformly correctable world family and short horizon
-  erase real differences. Evidence: OT-0312 aggregate `8299acce...`.
-- Expected: OT-0312's tie would ground revision from structural ranking to
-  consequence-history ranking. Observed: OT-0313's consequence-bearing and
-  outcome-withheld fresh actors both retained the incumbent exactly; the former
-  correctly said a tie supplies no evidence for a particular revision. The
-  private evaluator's preferred rule was therefore an externally desired leap,
-  not a consequence-grounded update. Evidence: OT-0313 aggregate
-  `6a7909ef...`.
-- The immediate test must create a directional selection error before asking
-  for machinery revision. Prospectively release a matched catalog where the
-  incumbent commits to one world before independently owned delayed consequence
-  reveals that another preserves materially more coherent future contact.
-  Retain both outcomes and the exact failed selection as subject state. Only
-  then give that contradiction to a fresh machinery reviser and compare its
-  child against the unchanged selector on disjoint held-out catalogs. A null or
-  tied outcome must continue to authorize retention, not forced novelty.
-- Expected: OT-0314's prospectively supplied actor-visible checker would enforce
-  the same bounded mutation contract as the harness validator. Observed: both
-  fresh actors found that the checker crashed on a literal-construction bug,
-  although their exact retained files independently satisfy the visible
-  contract. The consequence-bearing actor changed only the byte penalty and
-  scored 5/5 on disjoint private catalogs versus exact-parent and outcome-erased
-  scores of 0/5. Uncertain: whether the redundant checker failure was immaterial
-  to that causal comparison or changed the actors' effective interface enough
-  to defeat it. Evidence: retained OT-0314 raw aggregate `945bd6b5...` and
-  candidate `0a48ab16...`; neither is authoritative until exact no-resampling
-  reconstruction repairs only the checker and resolves materiality.
+- The learned selector has so far seen only worlds where more syntactic branches
+  and comparisons exactly predict more coherent executable routes. It is
+  unknown whether retained contrary consequence can revise that machinery when
+  branching becomes misleading or harmful. The next test must freeze a changed
+  world semantics before contact, bind selections before outcomes, and make the
+  zero-byte-penalty child fail directionally while a less branch-seeking policy
+  preserves more valid future moves. A fresh consequence-bearing reviser must
+  then beat exact unchanged `0a48ab16...` on disjoint catalogs; erased or
+  misbound consequence must remove that repair. A simple restoration of the old
+  -1 coefficient is allowed if earned, but must not be supplied as the target.
