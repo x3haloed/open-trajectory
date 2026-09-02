@@ -1,6 +1,6 @@
 # OT-0313 — Consequence-driven selector revision
 
-- **Status:** frozen
+- **Status:** completed — rejected
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0312 stake successor `9a6f94ba...`
 - **Evaluation checkpoint:** prospective E12 candidate-bearing comparison
@@ -84,3 +84,24 @@ an explicit string `type` in this response-format subset. Its event stream is
 likewise output-free. Add that type and allocate monotonically distinct labels
 for any retained pre-sampling transport failures. The same seed, actor input,
 mutation contract, evaluator, scores, and one meaningful sample remain frozen.
+
+## Result
+
+Rejected. The consequence-bearing actor inspected the exact OT-0312 tie and
+retained the incumbent byte-for-byte: a tie with
+`selection_superiority=false` supplied no evidence that a particular selector
+revision was warranted. It used four clean contained commands. The withheld
+actor independently retained the same rule with six clean commands because no
+authoritative outcome was available. Both outputs, empty diffs, and G10 audits
+are exact.
+
+The unchanged rule scores 0/5 on the private E12 anchor, so no machinery child
+is installed and exact parent `9a6f94ba...` remains open. Aggregate receipt
+`6a7909ef...`.
+
+This falsifies the experiment's learning signal, not the actor's corrigibility.
+OT-0312 showed absence of superiority, not a directional selector error. The
+next valid revision attempt needs an independently receipted case where the
+incumbent selected one world and a matched alternative demonstrably preserved
+more future value. Only that contradiction can ground which machinery property
+should change.

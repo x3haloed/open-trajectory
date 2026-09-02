@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-driven-selector-revision-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2346,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d200fdf3a0a38b01cd41482f637cb7afbd254c82",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0313",
+  "input_manifests": [
+    "evidence/manifests/OT-0312/priority-selected-vs-blind-downstream-aggregate.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Prospective fixtures and candidate-free evaluator calibration; not actor learning evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-driven-selector-revision-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "274436cff9d5a8ea7bf282e36ec8d18c20be539af6ab5c5d1929ffe90ed51c19"
+}

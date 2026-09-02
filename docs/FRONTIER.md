@@ -123,12 +123,18 @@ blind sibling `1e72ad39...` is retained as control state, not promoted lineage.
   and command counts. Uncertain: whether the current stake lacks predictive
   fitness, or whether the uniformly correctable world family and short horizon
   erase real differences. Evidence: OT-0312 aggregate `8299acce...`.
-- The immediate test is consequence-driven selector refinement, not another
-  world ranking under the same proxy. Give the exact OT-0312 tie to one fresh
-  actor and withhold it from a matched fresh actor. Freeze a bounded selector
-  language and disjoint held-out catalogs before either output. A useful child
-  must preserve hard anchors, abstain when no consequence distinguishes the
-  candidates, select the consequence-supported alternative when identities and
-  outcomes are valid, reverse under reversed evidence, and reject stale or
-  misbound receipts. Its exact unchanged parent and consequence-withheld actor
-  are controls. Actor declaration of improvement is not evidence.
+- Expected: OT-0312's tie would ground revision from structural ranking to
+  consequence-history ranking. Observed: OT-0313's consequence-bearing and
+  outcome-withheld fresh actors both retained the incumbent exactly; the former
+  correctly said a tie supplies no evidence for a particular revision. The
+  private evaluator's preferred rule was therefore an externally desired leap,
+  not a consequence-grounded update. Evidence: OT-0313 aggregate
+  `6a7909ef...`.
+- The immediate test must create a directional selection error before asking
+  for machinery revision. Prospectively release a matched catalog where the
+  incumbent commits to one world before independently owned delayed consequence
+  reveals that another preserves materially more coherent future contact.
+  Retain both outcomes and the exact failed selection as subject state. Only
+  then give that contradiction to a fresh machinery reviser and compare its
+  child against the unchanged selector on disjoint held-out catalogs. A null or
+  tied outcome must continue to authorize retention, not forced novelty.

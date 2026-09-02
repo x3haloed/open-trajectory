@@ -1,0 +1,36 @@
+{
+  "artifact_id": "consequence-driven-selector-revision-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 8759,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d200fdf3a0a38b01cd41482f637cb7afbd254c82",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0313",
+  "input_manifests": [
+    "evidence/manifests/OT-0313/consequence-driven-selector-revision-preflight.json",
+    "evidence/manifests/OT-0313/private-heldout-catalog-seed.json",
+    "evidence/manifests/OT-0312/open-stake-subject-after-downstream-comparison.json",
+    "evidence/manifests/OT-0312/priority-selected-vs-blind-downstream-aggregate.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One consequence-bearing and one withheld actor draw; tie evidence did not ground revision, so no machinery child was installed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-driven-selector-revision-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f6373c1769f4c127cbfdde10300f1b1bac589e1c1d23895cce305dc18c9ce129"
+}

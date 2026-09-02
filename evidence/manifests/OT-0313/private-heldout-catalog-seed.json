@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-heldout-catalog-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d200fdf3a0a38b01cd41482f637cb7afbd254c82",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0313",
+  "input_manifests": [
+    "evidence/manifests/OT-0313/consequence-driven-selector-revision-preflight.json"
+  ],
+  "kind": "private-evaluator-seed",
+  "limitations": [
+    "Private post-freeze seed retained only for exact reconstruction; derived catalogs were hidden from actors."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-heldout-catalog-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0d2dc129d8be094c0d1a30ecf473b1267bc3fe129dff2288e1586a620e83a76d"
+}

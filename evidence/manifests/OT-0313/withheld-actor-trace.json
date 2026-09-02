@@ -1,0 +1,33 @@
+{
+  "artifact_id": "withheld-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15102,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d200fdf3a0a38b01cd41482f637cb7afbd254c82",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0313",
+  "input_manifests": [
+    "evidence/manifests/OT-0313/consequence-driven-selector-revision-aggregate.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Raw local broad-tool trace; matched outcome-withheld actor retained the incumbent."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:withheld-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f1965aed600f40056c76eba6f735ca9667f67eabf727330efb24623be9836a12"
+}

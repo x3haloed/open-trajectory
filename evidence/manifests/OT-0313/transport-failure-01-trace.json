@@ -1,0 +1,33 @@
+{
+  "artifact_id": "transport-failure-01-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 871,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d200fdf3a0a38b01cd41482f637cb7afbd254c82",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0313",
+  "input_manifests": [
+    "evidence/manifests/OT-0313/consequence-driven-selector-revision-preflight.json"
+  ],
+  "kind": "invalid-transport-trace",
+  "limitations": [
+    "Pre-sampling invalid response-schema trace; no actor output or workspace mutation."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:transport-failure-01-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1a8e7dd8c043486cb4931b7db21cda8fd49bc39a2dcf5cd0c531e234997e359a"
+}

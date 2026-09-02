@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-rejected-selector-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1657715,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d200fdf3a0a38b01cd41482f637cb7afbd254c82",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0313",
+  "input_manifests": [
+    "evidence/manifests/OT-0313/consequence-driven-selector-revision-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Byte-identical OT-0312 parent retained open because no selector revision earned admission."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-rejected-selector-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6db3c2f39459f00d8d1a6d09882442592053c733a52af5409170f3acac5e7759"
+}
