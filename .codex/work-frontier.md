@@ -92,14 +92,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0272's valid first-invocation
-successor `2b42db93...`. It preserves three completed standing-feed wait/wake
-cycles and the independently authored OT-0268 package, has selected
-`harbor/tide.py::decide_tide` without an inherited target registry, and carries
-retained-package 2/6 contradiction at correction. OT-0272's next actor passed
-the four disclosed correction cases but failed sealed consequence at 4/6; that
-candidate was not admitted, and the subject remains exactly open at the same
-correction.
+The current exact operational subject is OT-0273 successor `c94a481f...`. It
+preserves three completed standing-feed wait/wake cycles, the independently
+authored OT-0268 package, the rejected `decide_tide` correction and its 4/6
+world consequence, and one mechanically issued counterexample. A later fresh
+actor used that retained developmental position to reach 5/5 disclosed and 6/6
+sealed versus unchanged 2/6. Only the later correction is installed. The
+subject remains open at opportunity refresh.
 
 ## Prediction errors
 
@@ -418,3 +417,8 @@ correction.
   code; a second identical null call may authorize one fresh actor on the
   resulting five-case contact. Prospective reference, identity, isolation, and
   fail-closed fixtures all pass. Live output remains sealed.
+- OT-0273 then promotes both calls. The actor-free feedback transition preserves
+  installed behavior while making the failed attempt causally available; one
+  fresh actor improves from it and passes 5/5, 6/6, and unchanged 2/6. Exact
+  `c94a481f...` is open at refresh. Next make this conditional feedback policy
+  recur inside the content-free driver over the final package surface.

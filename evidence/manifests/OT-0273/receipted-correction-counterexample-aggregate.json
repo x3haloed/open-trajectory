@@ -1,0 +1,35 @@
+{
+  "artifact_id": "receipted-correction-counterexample-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 880,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "67790ff1659fdf1efb064a7c4cb541d733576bde",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0273",
+  "input_manifests": [
+    "evidence/manifests/OT-0272/open-partial-subject-at-underdetermined-correction.json",
+    "evidence/manifests/OT-0272/underdetermined-correction-rejected-result.json",
+    "evidence/manifests/OT-0268/independent-three-lantern-world-package.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One failed correction is retained and repaired after one canonical counterexample; indefinite correction recurrence and completion of the package epoch remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:receipted-correction-counterexample-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b13dd4ce53697d26b5ef2921951c5df400d4ac34f63184bf9e69f5fc91d1c5c0"
+}

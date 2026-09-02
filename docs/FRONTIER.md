@@ -3455,3 +3455,17 @@ contact. Exact source, ledger success, and correction route stay unchanged
 until retained-package 6/6 beats the unchanged 2/6 control. Prospective fixtures
 pass and malformed failure identity, already-successful consequence, and absent
 counterexample all fail closed.
+
+OT-0273 promotes. The first call preserves the rejected 4/6 hypothesis and
+issues one canonical mismatch without installing code. The second fresh actor
+uses that retained hypothesis plus the five-case contact, passes exact effects
+and G10, and reaches 5/5 disclosed plus retained-package 6/6 versus unchanged
+2/6. Exact `c94a481f...` remains open at refresh and carries both negative
+consequence and the admitted successor.
+
+The immediate frontier is recurrence of this policy. A unified content-free
+driver should refresh, select the final package surface, and let correction
+either succeed or accumulate another receipted counterexample based solely on
+world consequence. The researcher must not decide whether another correction
+encounter is needed. Saturation and a fourth wait become meaningful only after
+that conditional path works.

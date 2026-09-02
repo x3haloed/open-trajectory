@@ -2740,5 +2740,19 @@ retained-package 6/6 versus unchanged 2/6, and an exact open successor at
 refresh. Preflight passes the exact reconstruction, successful-reference path,
 sealed-material exclusion, and malformed identity/success/no-mismatch negatives.
 
+OT-0273 promotes both calls. Actor-free feedback retains the rejected
+hypothesis and its exact 4/6 consequence, discloses only the mechanically first
+mismatch, and produces exact `10a8d2ca...` without changing installed behavior.
+One fresh actor then uses that history and five-case contact to reach 5/5,
+retained-package 6/6, and unchanged-control 2/6. Exact `c94a481f...` keeps the
+failed attempt, admits only the successful successor, remains open, and routes
+to opportunity refresh.
+
+Next test recurrence rather than celebrating the single recovery. Refresh and
+select the last package surface, then require the same correction policy to
+handle either immediate success or further receipted counterexamples without
+an experiment-specific phase choice. Only after that may the lineage claim
+package saturation and reinstall a fourth durable wait.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-receipted-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1304440,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "67790ff1659fdf1efb064a7c4cb541d733576bde",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0273",
+  "input_manifests": [
+    "evidence/manifests/OT-0273/receipted-correction-counterexample-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject is at opportunity refresh after one consequence-driven correction reopening; the two remaining package surfaces and fourth wait are unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-receipted-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2bda91df5980e97abb20e699300fe30694159b0a8c5643f2b1b1fdff9e54f45d"
+}

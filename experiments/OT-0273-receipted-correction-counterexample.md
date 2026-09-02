@@ -1,6 +1,6 @@
 # OT-0273 — receipted correction counterexample
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0272 partial subject `2b42db93...`
 - **Fresh actors:** at most one, no retry
@@ -53,3 +53,18 @@ seed directory. No actor context or output was created. Subsequent invocations
 load the exact retained preflight receipt instead; its passed gates and bytes are
 unchanged. This idempotence repair is frozen and pushed before the sole live
 actor call.
+
+## Result
+
+Both content-free invocations pass. The first adds exact failed-attempt receipt
+`1d23a257...` and its mechanically first mismatch to the subject without
+changing installed source. The second authorizes one fresh actor, which uses the
+retained failed hypothesis and five disclosed cases to infer a broader
+non-clear-sky rule. Exact effects and G10 pass; the candidate reaches disclosed
+5/5 and retained-package 6/6 versus unchanged 2/6.
+
+Exact successor `c94a481f...` retains the failed attempt as developmental
+history, admits only the later world-verified correction, remains open, and
+routes to opportunity refresh. This is one operational instance in which
+negative consequence improves future correction contact instead of terminating
+the run or causing an actor retry.

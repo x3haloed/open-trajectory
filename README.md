@@ -751,6 +751,11 @@ The strongest footholds are:
   corrector passes all four disclosed cases but only 4/6 sealed cases, so its
   patch is rejected without retry. The result isolates bounded correction
   contact—not routing, tools, or audit—as the present recurrence limit.
+- `OT-0273`: the failed 4/6 correction becomes retained developmental state;
+  the world mechanically discloses its first mismatch, and one later fresh
+  actor reaches 5/5 public plus sealed 6/6 against unchanged 2/6. Exact
+  `c94a481f...` remains open at refresh with both the failure and its successful
+  successor preserved.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
