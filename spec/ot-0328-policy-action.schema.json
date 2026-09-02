@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["action", "files_changed", "note"],
+  "additionalProperties": false,
+  "properties": {
+    "action": {
+      "type": "string",
+      "enum": ["retain-selection-policy", "revise-selection-policy"]
+    },
+    "files_changed": {
+      "type": "array",
+      "items": {"type": "string", "const": "selection-policy.py"},
+      "minItems": 0,
+      "maxItems": 1
+    },
+    "note": {"type": "string", "minLength": 1, "maxLength": 500}
+  }
+}

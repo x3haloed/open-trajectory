@@ -1,0 +1,31 @@
+{
+  "artifact_id": "contextual-selection-machinery-expansion-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 38776,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6a3edecc9c8a7feb1d66ee6e3f27287321a8d5c9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0328",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic public conformance only; no live actor output or private live world."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:contextual-selection-machinery-expansion-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8506371d42fa6ae20ec1b9df031dced0c1b0ae2ec5eb90606414e7d1c8f43d66"
+}
