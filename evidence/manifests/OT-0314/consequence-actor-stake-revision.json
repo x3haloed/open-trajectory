@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-actor-stake-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1580,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/consequence-actor-trace.json"
+  ],
+  "kind": "actor-workspace-output",
+  "limitations": [
+    "Exact retained candidate bytes; changed only the source-byte coefficient and are not promoted by the invalidated OT-0314 record."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-actor-stake-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c8dad79d42c82a74af97f2d0d1d70e5884d1dab1f77eac10985ec549da678429"
+}

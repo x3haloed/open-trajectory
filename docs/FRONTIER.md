@@ -138,3 +138,14 @@ blind sibling `1e72ad39...` is retained as control state, not promoted lineage.
   then give that contradiction to a fresh machinery reviser and compare its
   child against the unchanged selector on disjoint held-out catalogs. A null or
   tied outcome must continue to authorize retention, not forced novelty.
+- Expected: OT-0314's prospectively supplied actor-visible checker would enforce
+  the same bounded mutation contract as the harness validator. Observed: both
+  fresh actors found that the checker crashed on a literal-construction bug,
+  although their exact retained files independently satisfy the visible
+  contract. The consequence-bearing actor changed only the byte penalty and
+  scored 5/5 on disjoint private catalogs versus exact-parent and outcome-erased
+  scores of 0/5. Uncertain: whether the redundant checker failure was immaterial
+  to that causal comparison or changed the actors' effective interface enough
+  to defeat it. Evidence: retained OT-0314 raw aggregate `945bd6b5...` and
+  candidate `0a48ab16...`; neither is authoritative until exact no-resampling
+  reconstruction repairs only the checker and resolves materiality.

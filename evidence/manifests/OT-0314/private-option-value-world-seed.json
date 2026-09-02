@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-option-value-world-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-preflight.json"
+  ],
+  "kind": "private-evaluator-seed",
+  "limitations": [
+    "Private post-freeze seed retained for exact reconstruction; derived training and held-out identities were hidden as declared."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-option-value-world-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a516fd79d69ccf814c76fede5521be541fba7882d9f5b9de6a0d4e99a7b9b65b"
+}

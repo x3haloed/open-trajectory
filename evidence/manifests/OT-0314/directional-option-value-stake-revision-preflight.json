@@ -1,0 +1,34 @@
+{
+  "artifact_id": "directional-option-value-stake-revision-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2949,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0313/open-subject-after-rejected-selector-revision.json",
+    "evidence/manifests/OT-0313/consequence-driven-selector-revision-aggregate.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Prospective internal fixtures passed, but preflight failed to execute the actor-visible checker and therefore missed its runtime defect."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:directional-option-value-stake-revision-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "23c1e38cec635f2069a0ad49380acdfa070215b25510e1e1539c8320146633a5"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "checker-invalidated-candidate-subject",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1663442,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-raw-aggregate.json"
+  ],
+  "kind": "candidate-subject-state",
+  "limitations": [
+    "Exact candidate child from the positive comparison; retained for no-resampling reconstruction but not authoritative under OT-0314."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:checker-invalidated-candidate-subject",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1e05268405e598e06d255d573f243ca615d9de97003d27129ae4b70a1c7c2b50"
+}

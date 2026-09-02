@@ -1,0 +1,33 @@
+{
+  "artifact_id": "outcome-erased-actor-stake-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1391,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/outcome-erased-actor-trace.json"
+  ],
+  "kind": "actor-workspace-output",
+  "limitations": [
+    "Exact retained outcome-erased control bytes; byte-equivalent active machinery despite explanatory rationale normalization."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-actor-stake-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b1ac592c44ba13b97de990e8b6ba59f0a29b6d3468274fe9d99737b38bc0f293"
+}

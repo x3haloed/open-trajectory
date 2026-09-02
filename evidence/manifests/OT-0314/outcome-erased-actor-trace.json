@@ -1,0 +1,34 @@
+{
+  "artifact_id": "outcome-erased-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 16592,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-preflight.json",
+    "evidence/manifests/OT-0314/private-option-value-world-seed.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Matched fresh broad-tool actor trace with outcome content erased; actor observed the same broken checker and retained the incumbent."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9fd7ab9430e3265977cf838ed750784d1d44b7d789783eb1cf6ed219763633c3"
+}

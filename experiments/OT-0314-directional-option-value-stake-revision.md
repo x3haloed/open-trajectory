@@ -1,6 +1,6 @@
 # OT-0314 — Directional option-value stake revision
 
-- **Status:** frozen
+- **Status:** completed — promotion invalidated by actor-visible checker failure
 - **Evidence class:** exploratory-only
 - **Parent:** exact open subject `9a6f94ba...`
 - **Claim:** bounded consequence-driven selection-machinery refinement
@@ -70,3 +70,30 @@ self-revision, cross-language transfer, later correction, generation
 reliability, or researcher-optional experiment invention. The current local
 `expanded-select` opening remains intact while the revised world-selection
 machinery waits for its next environment boundary.
+
+## Result and protocol deviation
+
+The substantive comparison passed. Three independently executed training
+worlds each exposed the same directional error: the incumbent selected a
+one-route compact policy over a four-route conditional policy. The fresh actor
+changed only `source_bytes` from -1 to 0, explicitly citing all three outcomes,
+and scored 5/5 on private held-out identities while the exact incumbent scored
+0/5. The outcome-erased actor retained the incumbent byte-exactly and scored
+0/5. Both traces are G10-clean. Candidate operational digest is `0a48ab16...`;
+raw aggregate receipt is `945bd6b5...`.
+
+Promotion is nevertheless invalidated at the frozen interface gate. The
+actor-visible `check_revision.py` constructs its empty-dictionary default as a
+set containing a dictionary and raises `TypeError: unhashable type: 'dict'`.
+Both actors reported this failure and manually verified the fully visible
+machine-readable contract. The harness's internal validator accepted the same
+semantics, so the candidate bytes and held-out comparison remain useful exact
+evidence, but preflight failed to exercise the actual seeded checker and the
+declared executable-checker claim is false.
+
+Do not resample either actor or regenerate the private world. The next record
+should fix only that checker expression, run the repaired checker against both
+exact retained workspaces, reconstruct the aggregate from the same seed and
+actor bytes, and decide whether this interface defect was immaterial to the
+bounded causal comparison. Until then exact parent `9a6f94ba...`, not the raw
+aggregate's auto-labeled child, remains authoritative.

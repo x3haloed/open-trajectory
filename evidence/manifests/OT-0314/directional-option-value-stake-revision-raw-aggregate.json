@@ -1,0 +1,37 @@
+{
+  "artifact_id": "directional-option-value-stake-revision-raw-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 21837,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-preflight.json",
+    "evidence/manifests/OT-0314/private-option-value-world-seed.json",
+    "evidence/manifests/OT-0314/consequence-actor-stake-revision.json",
+    "evidence/manifests/OT-0314/outcome-erased-actor-stake-revision.json",
+    "evidence/manifests/OT-0313/open-subject-after-rejected-selector-revision.json"
+  ],
+  "kind": "invalidated-aggregate",
+  "limitations": [
+    "Substantive 5/5 versus 0/5 comparison retained, but raw automatic promotion is superseded because the declared actor-visible checker crashed and preflight did not exercise it."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:directional-option-value-stake-revision-raw-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "de54c7119fc64b5ec6a82ca73e9592c252b6b5c5fb9832d8a028f770031f0ff6"
+}

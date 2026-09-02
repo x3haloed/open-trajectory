@@ -1,0 +1,34 @@
+{
+  "artifact_id": "consequence-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 20320,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d9e3eb0fe13424e82043f04fcbca43acd87c480f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-preflight.json",
+    "evidence/manifests/OT-0314/private-option-value-world-seed.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "One fresh broad-tool actor trace; actor observed and reported the broken seeded checker before manually conforming to the visible contract."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "74ca7203fea58362c6db3c620774c9164978fd6d4cdfbccfbd56bb68079fe52e"
+}
