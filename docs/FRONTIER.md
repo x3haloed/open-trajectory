@@ -70,7 +70,7 @@ adds a signal the OT-0307 score did not observe; it does not retroactively alter
 that completed correction-and-refresh result, but it blocks a later actor until
 the exact subject is coherent.
 
-Evaluation epoch E11 now separates valid operational contact,
+Evaluation epoch E11 separates valid operational contact,
 subject-conditioned choice, and priority-bearing contact. The strongest label
 requires an executable subject-originated stake bound before contact, a matched
 stake-erased comparison that changes the move, both support and contradiction
@@ -78,27 +78,31 @@ paths, independent consequence, and a consequence-shaped next operation. E11
 preserves all prior operational verdicts; it prevents blind novelty or a mere
 state index from silently standing in for subject priority.
 
-Repeated same-language cycles are now a reliability measure, not sufficient
-evidence of developmental widening. The strongest current selection anchors
-remain the consequence-corrected allocator and later-regime repair
-(`OT-0101`, `OT-0117`–`OT-0121`), artifact-conditioned opportunity selection
-(`OT-0254`), conditional failed-attempt correction (`OT-0273`–`OT-0274`), and
-the current surrender/recovery recurrence (`OT-0300`–`OT-0303`).
+OT-0312 is a sparse evaluation checkpoint. Its incumbent downstream criterion
+E11-D asked whether a selected world supports one complete selection,
+contradiction, correction, refresh, repair, and reopening path. Both the
+priority-selected and blind-selected worlds passed every hard anchor, so E11-D
+is saturated for discriminating these choices. Its raw operational results and
+negative causal verdict remain valid; its endpoint may not be reused as a
+current measure of relative selection fitness.
 
-The exact current operational subject is OT-0308 successor `e9e152b3...`.
-It preserves OT-0307's two authoritative opportunities and derives
-`expanded-select`, while active continuation narrative and the prospective
-selection seed now agree with that count. The world-seeking stake, all four
-provider artifacts, OT-0305's failed same-world comparison, and prior
-developmental and invalidity state remain exact. Neither the retained priority
-nor the current world history establishes that the stake caused world or target
-choice.
+Prospective challenger E12 retains every G3, G10, ancestry, authority,
+independent-outcome, no-regression, and reopening anchor. It adds a held-out
+selection-fitness requirement: consequence must change selection machinery,
+and the changed machinery must beat its exact unchanged parent on matched
+future catalogs where prior consequence predicts the better move. Withholding
+or misbinding the relevant consequence must remove the advantage. Abstention is
+correct when the available evidence cannot distinguish candidates; a later
+contradictory regime must still be able to revise that policy. E12 is not active
+until a candidate-bearing comparison passes these anchors.
+
+The exact current operational subject is OT-0312 stake successor `9a6f94ba...`.
+It has corrected `board_ferry`, refreshed into the selected world, remains open
+with two coherent opportunities, and derives `expanded-select`. The matched
+blind sibling `1e72ad39...` is retained as control state, not promoted lineage.
 
 ## Prediction errors
 
-- Standing renewal removed the researcher from choosing a concrete next world,
-  but it did so with a subject-blind provider. This sustains novelty without yet
-  showing that novelty is pursued because it matters to the subject.
 - The fixed world-package language and independent scorer make causal contact
   legible, but repeated success inside that envelope does not establish open
   developmental expansion or self-revision of the envelope.
@@ -113,44 +117,18 @@ choice.
   reliability estimate across goals, worlds, or models.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
-- Expected: a subject-authored weighted stake would select a different world
-  than the stake-erased digest rule on one four-world catalog. Observed: both
-  selected `harbor-three-watches-v1`, although the stake had a unique eleven-
-  point margin and the operational offer passed. Uncertain: whether the stake
-  lacks behavioral selectivity or one catalog plus one arbitrary blind rule is
-  simply too collision-prone to estimate it. Evidence: OT-0305 aggregate
-  `2941a2e3...`.
-- OT-0309's authoritative target surfaces agree, but its non-authoritative
-  output summary used `path:symbol` while the inherited provenance helper
-  recognizes `path::symbol`. The resulting `inconsistent` fidelity label is a
-  representation mismatch, not evidence of target disagreement. Preserve the
-  disclosure and canonicalize future target reports before they enter
-  actor-visible continuity.
-
-Exact open subject `59a1f68c...` is the result of one state-driven run crossing
-seven operations and three fresh actors without observer operation or target
-choice. It corrected `light_watch`, refreshed and repaired its projection,
-selected and received contradiction on `admit_log`, corrected that target, and
-refreshed to a coherent saturated epoch. Every operation passed. The runner
-then censored observation at its prospectively unsupported
-`expand-environment` operation while the subject remained open. Evidence:
-OT-0310 aggregate `ac4e911a...`.
-
-Exact open subject `9abf1325...` carries the first positive priority-selection
-effect. On the prospectively defined three-package remainder, its unchanged
-stake selected `harbor-of-three-ledgers-v1` with gap 82; the same-catalog blind
-control selected `lantern-coast-operations-v1`. The selected public world alone
-entered the standing offer, without actor or observer world choice. OT-0305's
-same-choice result on the original four-package catalog remains negative rather
-than being reinterpreted. Evidence: OT-0311 aggregate `ca6b040c...`.
-
-The immediate experiment must distinguish better selection from merely
-different selection. Seal the operational contact in the stake-selected world,
-then compare its downstream continuation against a matched counterfactual
-branch carrying the blind-selected offer from the exact preselection parent.
-Hold public information, actor/tool budget, contact-selection envelope,
-independent package scoring, and observation horizon equal. Do not let either
-branch see the other's world or outcome, and do not use self-report as benefit.
-Prefer a directly consequential metric such as valid contact, correction cost,
-or coherent opportunities opened; freeze it before actors run. The live subject
-transition remains independently valid even if the causal comparison rejects.
+- Expected: choosing a different world under the subject's stake would improve
+  one complete downstream continuation. Observed: OT-0312's stake and blind
+  branches both reached the same frozen hard endpoint with identical actor-call
+  and command counts. Uncertain: whether the current stake lacks predictive
+  fitness, or whether the uniformly correctable world family and short horizon
+  erase real differences. Evidence: OT-0312 aggregate `8299acce...`.
+- The immediate test is consequence-driven selector refinement, not another
+  world ranking under the same proxy. Give the exact OT-0312 tie to one fresh
+  actor and withhold it from a matched fresh actor. Freeze a bounded selector
+  language and disjoint held-out catalogs before either output. A useful child
+  must preserve hard anchors, abstain when no consequence distinguishes the
+  candidates, select the consequence-supported alternative when identities and
+  outcomes are valid, reverse under reversed evidence, and reject stale or
+  misbound receipts. Its exact unchanged parent and consequence-withheld actor
+  are controls. Actor declaration of improvement is not evidence.
