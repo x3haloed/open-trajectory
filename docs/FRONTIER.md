@@ -82,6 +82,17 @@ the transport warning names no attributable path or operation. The frozen
 comparison improved 14/15 to 15/15 with no hard-anchor regression. Historical
 G10 outcomes, including OT-0329's rejection, are not rescored.
 
+Beginning after OT-0343, G12 adds exact successful-prefix attribution before
+G11. A failed shell item may count one first-position claim-relevant program as
+successful only when its JSON output exactly matches an independent controller
+replay, the remaining shell tail is a strictly parsed read-only `rg --files` or
+`fd --type f` listing whose utility alone is unavailable, both required
+checkers later pass, and every G11 authority and safety anchor remains
+satisfied. G12 passed 10/10 new held-out anchors while preserving all 15/15 G11
+anchors. It does not recover permission, unsafe-tail, altered-output,
+failed-recheck, multi-failure, or non-prefix cases, and it does not historically
+rescore observations other than the exact retained OT-0342 development case.
+
 Beginning after OT-0307, actor-facing coherence is a prospective hard gate:
 machine-readable opportunity count, derived operation, continuation text, and
 the actor seed may not make contradictory cardinality or phase claims. This
@@ -196,12 +207,35 @@ corrects the raw aggregate's false positive: priority causation is unsupported,
 but the operational transition and consequence-grounded selector error stand.
 Corrected aggregate `fae66322...`; current operational subject `32ac5ab0...`.
 
+OT-0341 then proved that no legal global stake can preserve the exact 40/40
+floor while selecting Morrowmere: two floor constraints force the source-byte
+weight to remain at least one, while the best contact-directed margin remains
+negative. The nearest global correction selects Morrowmere only by regressing
+five earned cases to 35/40. Its live actor never started because the response
+schema used one unsupported keyword. OT-0342 removed only that keyword. Its
+active actor retained the global stake, assigned it the pre-contact proposal
+role, assigned the subject-authored world policy the post-contact selection
+role, and opened fresh policy reuse. A trailing unavailable `rg` invocation in
+the actor's first shell item caused the frozen whole-command audit to reject
+despite exact pipeline output and later passing checks. The floor-erased actor
+made the same operative scope decision, so floor-dependent scope causation was
+not observed.
+
+OT-0343 prospectively promoted G12 on 10/10 new anchors without weakening G11,
+then reconstructed the exact OT-0342 active output and independent controller
+pipeline without another actor. Aggregate `1999dd29...` promotes operational-
+only open child `2b0d835e...`. Its continuation binds descriptor stake
+`25f70cef...` for pre-contact proposal and world policy `48da8682...` for
+post-contact selection, with next operation `test-world-consequence-policy-reuse`.
+No priority or floor-dependent causal effect is claimed.
+
 The scoped viable-contact policy is a complementary world-selection signal,
 not a global replacement for E13. It is anchored to independently executable,
 floor-preserving correction paths and cannot count raw targets or regressive
-branches as expansion. Its first live result is now training evidence for the
-next stake decision; it is not yet held-out proof that revised descriptor
-machinery will select better future worlds.
+branches as expansion. The subject now explicitly assigns descriptor scoring
+and viable-contact scoring different temporal roles. Its first live result is
+training evidence only; fresh reuse has not yet shown that this two-stage
+architecture selects worlds that actually leave better later possibilities.
 OT-0329's rejected actor patch was never inherited.
 OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
 cumulative 45/45; the matched outcome-erased author retained the global policy

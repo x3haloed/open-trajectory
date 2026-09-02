@@ -1,6 +1,6 @@
 # OT-0343 — Exact-prefix command attribution
 
-- **Status:** frozen; not yet executed
+- **Status:** executed — G12 promoted; operational transition reconstructed
 - **Evidence class:** exploratory-only
 - **Source observation:** rejected OT-0342 active actor
 - **Fresh actors:** none; exact retained-output reconstruction only
@@ -49,3 +49,19 @@ This record cannot recover OT-0342's floor-dependent causal claim. The
 floor-outcome-erased actor chose the same scope, and its invalid control audit
 is not repaired here. G12 establishes at most exact operational reconstruction
 and a better prospective command-attribution rule.
+
+## Result
+
+G12 passed 10/10 held-out prefix-attribution anchors while the incumbent
+helper recovered neither safe prefix. All 15/15 G11 safety anchors remained
+unchanged. Exact OT-0342 reconstruction found one failed shell item: the
+pipeline JSON matched an independent controller replay byte-for-value before
+the read-only `rg` tail failed. Both later checkers passed, all effects remained
+exact and contained, and corrected semantic attribution passed G11.
+
+The reconstructed actor retains the descriptor stake at 40/40, rejects the
+nearest 35/40 global correction, and binds the subject-authored world policy as
+the post-contact selection stage. Exact child `2b0d835e...` is open on a fresh
+policy-reuse test. The floor-erased branch made the same operative decision, so
+the floor-dependent causal claim remains false; this is corrected operational-
+only evidence, not a new causal comparison.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "exact-prefix-command-attribution-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 17240,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "64ed2a9831ca2011680aacc6a203568f3320d02a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0343",
+  "input_manifests": [],
+  "kind": "exact-reconstruction-aggregate",
+  "limitations": [
+    "Operational-only reconstruction; the floor-dependent causal claim remains false."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-prefix-command-attribution-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f2d79b4a4c06023d696c45510215b65e7c542b39f2edb29d9b570c8280139e72"
+}
