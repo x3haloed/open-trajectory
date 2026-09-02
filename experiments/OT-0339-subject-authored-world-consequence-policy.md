@@ -1,6 +1,6 @@
 # OT-0339 — Subject-authored world-consequence policy
 
-- **Status:** frozen, unexecuted
+- **Status:** executed — operational child promoted; priority-causal flag invalid
 - **Evidence class:** exploratory-only
 - **Operational parent:** exact OT-0338 child `37ebb69a...`
 - **Fresh actors:** one position-bearing policy author and one matched
@@ -66,3 +66,23 @@ This experiment does not assume Morrowmere wins, does not treat actor rationale
 as outcome evidence, and does not establish global world fitness. It asks
 whether the subject can author what its next consequence should mean before
 that consequence arrives.
+
+## Result
+
+Before the third consequence was compiled, the active actor authored a valid
+policy that lexicographically maximizes viable non-regressive contact count,
+then worst and mean match rate. It passed the hidden expansion bundle 5/5. All
+three retained worlds then passed the complete viability and inherited-floor
+fixtures. Morrow Quay and Harbor each exposed two viable 2/6 contacts;
+Morrowmere exposed three. The bound policy selected Morrowmere, disagreeing
+with the inherited descriptor selector's Harbor choice and routing an open,
+consequence-grounded stake-revision decision. Exact operational child
+`32ac5ab0...` is valid.
+
+The priority-erased actor independently authored the same substantive metric
+order and directions, also passed 5/5, and made the same Morrowmere selection.
+The raw aggregate's `priority_causal_claim_supported: true` is therefore wrong:
+its scorer counted differing policy ids/rationales as causal even though every
+operative field and downstream decision matched. OT-0340 freezes an exact
+interpretation correction. The raw aggregate `521ac8ca...` is retained; its
+operational result stands, while its priority-causal flag has no authority.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "priority-erased-world-consequence-policy-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15037,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "870fdc7b40780ebfd20c7f01064541fc675b946a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0339",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Matched priority-erased policy author trace with clean G11 one-file effects."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:priority-erased-world-consequence-policy-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "043334f12efd91e32785223e959774a071586fa590dbedbc02ec5acb9c8ae560"
+}

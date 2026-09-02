@@ -1,0 +1,31 @@
+{
+  "artifact_id": "subject-authored-world-consequence-policy-raw-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 17289,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "870fdc7b40780ebfd20c7f01064541fc675b946a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0339",
+  "input_manifests": [],
+  "kind": "raw-aggregate",
+  "limitations": [
+    "Operational child passed, but the embedded priority-causal boolean is invalid because it treats policy labels and rationale differences as causal despite identical behavior."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-world-consequence-policy-raw-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e43bde0c90dfe2e688aea22a7ca50334d456e3d10ab23abc2fc36d44609f6511"
+}

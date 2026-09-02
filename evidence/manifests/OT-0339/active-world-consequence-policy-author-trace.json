@@ -1,0 +1,31 @@
+{
+  "artifact_id": "active-world-consequence-policy-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 17021,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "870fdc7b40780ebfd20c7f01064541fc675b946a",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0339",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh position-bearing policy author trace with clean G11 one-file effects."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:active-world-consequence-policy-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d391b9937e672307147703ff4c86d5e5973373c2c89b5bf0511403901b631685"
+}
