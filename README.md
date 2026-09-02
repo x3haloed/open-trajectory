@@ -765,6 +765,10 @@ The strongest footholds are:
   authors `asterfall-civic-ledger-v1`. Its three ledger-novel executable
   surfaces are each exact 2/6 against sealed reference and pass the standing
   scanner. The subject remains byte-identical at its fourth wait.
+- `OT-0276`–`OT-0277`: the scanner wakes that fourth wait with zero actors; a
+  fresh subject actor then chooses Asterfall's `route_status` without a target
+  hint and receives retained-package 2/6. Exact `bbebeb53...` is open at
+  correction with the new epoch and all prior history preserved.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

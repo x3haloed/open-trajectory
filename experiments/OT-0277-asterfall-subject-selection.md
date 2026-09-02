@@ -1,6 +1,6 @@
 # OT-0277 — Asterfall subject selection
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0276 offered subject `f1c8d8de...`
 - **Fresh actors:** one subject actor, no retry
@@ -26,3 +26,12 @@ open conformant successor. No actor retry is permitted.
 
 This establishes selection and contradiction in the second independent world,
 not correction recurrence or package saturation.
+
+## Result
+
+The sole fresh actor promotes without retry. It selects
+`asterfall/routes.py::route_status` from the public offer, changes exactly the
+selection artifact, passes public execution and G10, and receives 2/6 from
+OT-0275's retained sealed half. Exact `bbebeb53...` consumes the offer into a
+new epoch, preserves the standing scanner and fourth wake, and remains open at
+correction before refresh.

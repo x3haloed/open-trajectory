@@ -2811,10 +2811,12 @@ three Asterfall choices pass prospectively through public execution, offer
 consumption, new-epoch construction, retained-package 2/6, and correction-first
 routing. The live actor receives no target hint and no sealed material.
 
-Next expose only that exact public projection to the standing scanner. Require
-actor-free wait discharge before any subject actor sees it; then exercise the
-existing content-free recurrence against the retained sealed package rather
-than adding Asterfall-specific target or phase machinery.
+OT-0277 promotes without retry. One fresh actor chooses
+`asterfall/routes.py::route_status`, passes exact effects, public execution, and
+G10, consumes the offer into a new epoch, and receives OT-0275-owned 2/6.
+Exact `bbebeb53...` remains open at correction before refresh. Next reuse the
+world-routed correction policy and content-free recurrence across this whole
+second independently authored package.
 
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

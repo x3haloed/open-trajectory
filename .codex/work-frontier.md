@@ -446,3 +446,7 @@ standing-feed wait.
 - OT-0277 freezes selection from that offer. All three actor choices pass
   prospectively at public execution and retained-package 2/6, with correction
   before refresh. One fresh actor receives no target hint or sealed package.
+- OT-0277 promotes the live `route_status` choice at 2/6. Exact `bbebeb53...`
+  preserves the fourth wake and enters a second actor-authored package epoch at
+  correction. Next exercise the conditional correction mechanism through the
+  remaining Asterfall surfaces and another wait.

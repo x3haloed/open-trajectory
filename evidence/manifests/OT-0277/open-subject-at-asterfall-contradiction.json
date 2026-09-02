@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-asterfall-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1342892,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "775500d3733d1f04a66e5a53f1486a7ef9a12a2d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0277",
+  "input_manifests": [
+    "evidence/manifests/OT-0277/asterfall-subject-selection-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject is at correction after its first Asterfall selection; package saturation and another wait remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-asterfall-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6578255423569ba65a13d99fbf392ae98211ea98e63785f0aa2db298363b30ba"
+}

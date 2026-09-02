@@ -3520,3 +3520,9 @@ OT-0277 freezes that choice. Each of the three offered callables prospectively
 passes the exact public checker and produces a conformant unresolved 2/6
 successor. One fresh actor will choose without a target hint; live output remains
 sealed until the freeze is pushed.
+
+OT-0277 promotes. The fresh actor selects `route_status` without a target hint,
+passes public execution and G10, and receives retained-package 2/6. Exact
+`bbebeb53...` is open at correction. The immediate frontier is complete
+cross-world recurrence: conditional correction, the two remaining surfaces,
+saturation, and another durable wait under the existing mechanism.
