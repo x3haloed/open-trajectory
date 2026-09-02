@@ -2432,5 +2432,12 @@ the projection under the same content-free selection contract; only authored
 executable contact plus G10 and independent 2/6 consequence may advance the
 lineage.
 
+OT-0254 freezes the one-actor behavioral test against OT-0252's retained exact
+non-move. The only actor-visible addition is the immutable non-authoritative
+projection; prompt, source, ledger, checker, and content-free pulse retain the
+same role. Promotion still requires the actor to author contact, pass G10 and
+public execution, receive sealed 2/6, preserve the lineage, and return open at
+correction. No retry or broad generative claim is permitted.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

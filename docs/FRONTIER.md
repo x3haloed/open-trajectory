@@ -3106,3 +3106,12 @@ non-move. A fresh actor from `0c3b42bb...` receives the same environment and
 ledger plus the compact projection. It must still author executable contact,
 pass G10, and receive independent 2/6 contradiction; the projection cannot bind
 or admit the target itself.
+
+OT-0254 freezes that behavioral comparison. OT-0252's exact fifth actor is the
+matched operational baseline: no changed path, no public execution, no contact.
+One fresh actor receives the same source, ledger, checker, and content-free pulse
+plus immutable `active-opportunity-projection.json`; the prompt names no target
+or path and states every authority exclusion. Promotion requires actor-authored
+executable contact for the sole projected pair, G10, public validity, independent
+2/6 contradiction, exact history preservation, and an open `correct` successor.
+No retry is allowed; one pair does not support a model-wide generative claim.
