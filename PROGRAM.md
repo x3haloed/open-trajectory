@@ -3065,5 +3065,12 @@ not test this routing edge. Preserve both the rejection and exact post-wake
 subject. Next add only offered-world precedence and test the real live derive
 sequence prospectively; retain the corrected content gate unchanged.
 
+OT-0293 freezes offered-world precedence in the actual derivation function.
+Its preflight reconstructs exact post-wake `3fcb9e39...`, reproduces the
+inherited rejected `expand-environment` route, derives `expanded-select` under
+the correction, and leaves no-offer `wait-provider` behavior unchanged. All
+OT-0292 content controls and three prospective 2/6 branches remain green with
+route 16/16 and identity 18/18. Live output remains sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

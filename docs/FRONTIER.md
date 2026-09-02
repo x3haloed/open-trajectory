@@ -3776,3 +3776,11 @@ evaluation-regime miss as well as a routing defect. Preserve the rejection.
 The next record should change only offered-world precedence and require the
 actual prospective driver sequence to be `wake-world`, `expanded-select` before
 unsealing another live selector. Keep OT-0292's content gate exact.
+
+OT-0293 adds only that precedence and extends preflight to the actual live
+driver. It reconstructs exact post-wake `3fcb9e39...`, proves the inherited
+route is the rejected `expand-environment`, proves the corrected route is
+`expanded-select`, and preserves no-offer `wait-provider`. All hidden-content
+controls and prospective selection branches remain green. After freeze and
+push, rerun the original two openings from exact OT-0290 parent in a fresh
+external root; do not resume or rescore OT-0292.
