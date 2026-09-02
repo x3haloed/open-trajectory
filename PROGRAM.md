@@ -229,7 +229,7 @@ condition, not the permanent purpose or executive of the resulting subject.
 - `OT-0118` reconstructs that exact evidence but rejects promotion: the denied
   command target is absent from retained events, and the assimilator used an
   unpublished contact-id rather than portfolio-id citation namespace.
-- `OT-0318` through `OT-0324` establish one bounded later-corrigible and
+- `OT-0318` through `OT-0325` establish one bounded later-corrigible and
   cumulative selection chain. Consequence-grounded candidate evaluation alone
   oscillated; jointly retained outcomes still failed when no proposal was
   generated; generic search produced a cumulative candidate; exact
@@ -243,8 +243,14 @@ condition, not the permanent purpose or executive of the resulting subject.
   fresh actor revised that executable invocation rule from completed
   consequence; on new identities and reversed order, a later actor used the
   revision to reach 25/25 while the unchanged-active branch remained 20/25.
+  When that learned local-gain rule later preferred a candidate that erased five
+  earned cases, another fresh actor revised it to require cumulative
+  admissibility. On new identities/order, the corrected route reached 30/30;
+  the unchanged learned route reached 5/5 locally but only 20/25 on the floor
+  and 25/30 overall.
   This does not establish generation reliability, autonomous world generation,
-  permanently optimal routing, or full recurrence.
+  a self-contained executable front assessor, permanently optimal routing, or
+  full recurrence.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is

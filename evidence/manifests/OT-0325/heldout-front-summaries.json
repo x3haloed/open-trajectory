@@ -1,0 +1,33 @@
+{
+  "artifact_id": "heldout-front-summaries",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1042,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/private-cumulative-admissibility-seed.json"
+  ],
+  "kind": "heldout-evaluator-summary",
+  "limitations": [
+    "Private held-out identities and reversed offer order; tracked manifest publishes identity only."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:heldout-front-summaries",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e932e17d3fe5ec7328fcbf5381ebf6940d86790d97cc41011a3d7aee712a31c4"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-with-cumulative-router-inactive",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1788744,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/actor-authored-cumulative-router.json"
+  ],
+  "kind": "full-subject-control",
+  "limitations": [
+    "Matched control retaining the same proposal and consequence while the prior router remains active."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-with-cumulative-router-inactive",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6261fa6856d3ccc7cb2d5833c8d3b96cbd4b68748e25c9a84d20e7f841da9fd6"
+}

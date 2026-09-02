@@ -1,6 +1,6 @@
 # OT-0325 — Cumulative-admissibility router corrigibility
 
-- **Status:** frozen
+- **Status:** completed — promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0324 subject `bf92244d...`
 - **Claim:** a learned executable future-move selector can itself be corrected
@@ -112,3 +112,32 @@ OT-0323 base. Restart is allowed only after a tracked repair changes those four
 lookups, loads and digest-checks the exact retained private seed, recomputes the
 same deterministic world, and records that no actor output existed. The repair
 does not change world derivation, actor information, scoring, controls, or gates.
+
+## Result
+
+The OT-0324 router selected the four-contact diagnostic front with local gain 4
+whose nearest searched candidate reduced the cumulative floor from 25/25 to
+20/25. It ignored the simultaneous three-contact front with local gain 3 whose
+nearest candidate preserved 25/25. A fresh machinery actor changed only
+`route_search.py`, adding `candidate_preserves_floor` to the eligibility
+boundary. Its broad-tool trace was clean and all three public fixtures passed.
+
+Both branches retained the exact proposal source and correction consequence.
+On new identities and reversed order, only active-router binding differed. The
+corrected router chose the four-contact cumulative-admissible front. A later
+fresh actor adopted the nearest search witness, changed call weight -3 to -4,
+replayed 4/4, preserved 25/25, and reached 30/30 on five unseen cases. The
+unchanged learned router chose the five-contact regressional front. Its matched
+fresh actor cleanly adopted source-byte weight -1 and replayed 5/5 locally, but
+scored only 20/25 on the inherited floor and 25/30 overall.
+
+Every frozen gate passed. Aggregate receipt `f46f9e94...` promotes exact open
+child `1edc2027...`. This is one bounded observation that learned executable
+routing remained correctable when its earlier local-gain improvement became
+harmful; it is not a reliability estimate or evidence of autonomous contact
+generation.
+
+The first live invocation's pre-actor helper failure is preserved by repair
+receipt `71199b2b...`. The exact seed was reused, no actor had been authorized,
+and world derivation, actor information, scoring, controls, and gates were
+unchanged.

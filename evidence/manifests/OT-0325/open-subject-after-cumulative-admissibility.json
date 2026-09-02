@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-cumulative-admissibility",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1822067,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/cumulative-admissibility-router-corrigibility-aggregate.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Exact open subject after later correction of learned routing machinery; recurrence remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-cumulative-admissibility",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f583b38a11e16fd597433180a6f93962c2d1532140ee957ce106a59f464ea7de"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "diagnostic-fronts",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 14447,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/private-cumulative-admissibility-seed.json"
+  ],
+  "kind": "private-derived-world",
+  "limitations": [
+    "Private derived diagnostic fronts; identities only are published."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:diagnostic-fronts",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a47e5f56b726d62f347d0f6dc8cdcc1b2856e009af8280ee80f13321f10bd205"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-with-cumulative-router-active",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1788853,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/actor-authored-cumulative-router.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Comparison branch with the actor-authored router actively bound."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-with-cumulative-router-active",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a52108909ec961eb0fc277f00017fe35964868c513bf5006a45525ca38d97c70"
+}

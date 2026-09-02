@@ -1,0 +1,33 @@
+{
+  "artifact_id": "router-revision-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 19657,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/diagnostic-route-consequence.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Raw hosted broad-tool trace retained locally; generation is not publicly reproducible."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:router-revision-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2ddba883ca926dbfd61642320b4b7e5d009a75c8ef3535466a6a137d2936b0a4"
+}

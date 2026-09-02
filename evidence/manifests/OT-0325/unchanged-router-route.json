@@ -1,0 +1,34 @@
+{
+  "artifact_id": "unchanged-router-route",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1102,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/subject-with-cumulative-router-inactive.json",
+    "evidence/manifests/OT-0325/heldout-front-summaries.json"
+  ],
+  "kind": "selection-receipt",
+  "limitations": [
+    "Matched route selected by the unchanged learned router."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-router-route",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5df01e0dfdf9d6d69834d3230f52dab21fb28b6a1135bbab3409841abdc83486"
+}

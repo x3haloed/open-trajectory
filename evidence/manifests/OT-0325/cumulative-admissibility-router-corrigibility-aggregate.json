@@ -1,0 +1,35 @@
+{
+  "artifact_id": "cumulative-admissibility-router-corrigibility-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 104203,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "0bb84f393273ce93913687ae6ab08e512faca7b2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0325",
+  "input_manifests": [
+    "evidence/manifests/OT-0325/changed-router-successor-stake.json",
+    "evidence/manifests/OT-0325/unchanged-router-successor-stake.json",
+    "evidence/manifests/OT-0325/pre-actor-controller-repair.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "One bounded causal observation; not reliability, global optionality, autonomous world generation, or full recurrence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cumulative-admissibility-router-corrigibility-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "af651071c0e432695b9f88df4f1ac0820f207377d254c46a510e3cfb22165780"
+}

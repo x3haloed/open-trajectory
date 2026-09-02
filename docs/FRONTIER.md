@@ -109,7 +109,7 @@ scores of 0/5. The historical actor-visible checker remained nonconformant, but
 the frozen materiality audit reconstructed every contact, score, binding, and
 child exactly and found the symmetric checker crash causally immaterial.
 
-OT-0325 opens evaluation epoch E13 at a completed-experiment boundary. E12's
+OT-0325 promotes evaluation epoch E13 at a completed-experiment boundary. E12's
 local front summary can distinguish reachable gain from saturation, but cannot
 distinguish a locally improving candidate that preserves the cumulative floor
 from one that destroys it. E13 retains every G3, G10, ancestry, authority,
@@ -123,15 +123,15 @@ E13 challenger selects lower local gain that scores 25/25. Historical E12
 comparisons remain valid in their frozen scope; scores are not compared across
 epochs unless both candidates are replayed under E13.
 
-The exact current operational subject is OT-0324's consequence-revised-routing
-child `bf92244d...`. It preserves the open `expanded-select` position, prior
-provenance and cumulative 20/20 floor, carries byte-exact proposal search, and
-actively binds a fresh actor's byte-exact router revision. That revision uses
-complete search consequence to exclude saturated failure-bearing fronts and
-prefer reachable gain. A later fresh actor followed the learned route, changed
-only call weight -1 to -3, and reached 25/25. Exact predecessors
-`aba1513f...`, `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
-`9a6f94ba...` remain controls, not current lineage.
+The exact current operational subject is OT-0325's cumulative-admissibility
+child `1edc2027...`. It preserves the open `expanded-select` position, prior
+provenance and cumulative 25/25 floor, carries byte-exact proposal search, and
+actively binds a fresh actor's second byte-exact router revision. That revision
+requires the nearest searched candidate to preserve the cumulative floor before
+ranking reachable local gain. A later fresh actor followed the learned route,
+changed only call weight -3 to -4, and reached 30/30. Exact predecessors
+`bf92244d...`, `aba1513f...`, `09d58f1a...`, `2ea43872...`, `21e90d47...`,
+`0a48ab16...`, and `9a6f94ba...` remain controls, not current lineage.
 
 ## Prediction errors
 
@@ -197,11 +197,20 @@ only call weight -1 to -3, and reached 25/25. Exact predecessors
   that retained revision to reach 25/25 while the unchanged-active branch chose
   the dead end and remained 20/25. Aggregate `bbb64f57...` promotes exact child
   `bf92244d...`; both machinery and stake actors had clean broad-tool traces.
-- The learned router now maximizes local search gain. It does not yet know
-  whether that gain preserves the cumulative floor or widens future coherent
-  possibilities. The next prospective test should make the highest immediate-
-  gain route regress earned capability while a lower-gain route preserves the
-  floor and expands it. Completed cumulative consequence should then revise the
-  learned selection machinery, and a later contradictory regime must remain
-  able to revise that policy again. This tests later corrigibility of learned
-  machinery rather than merely another successful reuse.
+- OT-0325 exposed OT-0324's learned local-gain router to later harm. It selected
+  a gain-4 candidate that scored only 20/25 on the cumulative floor over a
+  gain-3 candidate that preserved 25/25. A fresh actor revised the executable
+  router to require floor preservation. On new identities/order, a later actor
+  followed that revision to 30/30; the unchanged learned router's actor reached
+  5/5 locally but only 20/25 on the floor and 25/30 overall. Aggregate
+  `f46f9e94...` promotes exact child `1edc2027...`. This supplies the later
+  contradictory regime missing from OT-0324's machinery-refinement claim.
+- The exact child retains the E13-aware router but not the executable assessor
+  that derives nearest-candidate floor scores and `candidate_preserves_floor`.
+  A fresh successor cannot yet construct the router's decisive input from the
+  subject alone; the harness remains a causal component at that boundary. The
+  next prospective test should bind the exact E13 assessor source and its
+  applicability to the subject, then require a fresh actor to exercise it on
+  new fronts. A source-erased branch should retain identical history and
+  outcomes but fail to produce the admissible route. Only after this carrier
+  gap closes should the driver ask actors to author their own future contacts.
