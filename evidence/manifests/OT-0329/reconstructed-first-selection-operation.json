@@ -1,0 +1,31 @@
+{
+  "artifact_id": "reconstructed-first-selection-operation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11710,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bd11f043dcd983c25c59276685117a6b064d6c8b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "completed-operation",
+  "limitations": [
+    "Exact reconstruction after apparatus-only workspace-location repair; no actor or world resampling."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reconstructed-first-selection-operation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a562862ad04a40a9ce2ee24c7a7c2eca0e9a6d39bc1f4e269fd1d9ed987afd29"
+}
