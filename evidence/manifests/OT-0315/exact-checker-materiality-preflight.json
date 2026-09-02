@@ -1,0 +1,34 @@
+{
+  "artifact_id": "exact-checker-materiality-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 763,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "278b645d232a803e49a85deb6c5301f113847c9f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0315",
+  "input_manifests": [
+    "evidence/manifests/OT-0313/open-subject-after-rejected-selector-revision.json",
+    "evidence/manifests/OT-0314/directional-option-value-stake-revision-raw-aggregate.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Candidate-free execution of the repaired checker and negative contract fixtures; not a disposition of retained OT-0314 output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:exact-checker-materiality-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "07a27de13c0664be72bf7139b80b208ff651cccf0cf3dacd6ca78e5a6137a19f"
+}

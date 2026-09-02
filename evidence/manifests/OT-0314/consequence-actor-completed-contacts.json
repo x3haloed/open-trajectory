@@ -1,0 +1,33 @@
+{
+  "artifact_id": "consequence-actor-completed-contacts",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5529,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "278b645d232a803e49a85deb6c5301f113847c9f",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0314",
+  "input_manifests": [
+    "evidence/manifests/OT-0314/consequence-actor-trace.json"
+  ],
+  "kind": "actor-workspace-input",
+  "limitations": [
+    "Exact consequence-bearing contact projection received by the fresh actor; retained to verify branch information without transcript parsing."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-actor-completed-contacts",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3b3139bd62a5ed1f788642f8166b51b4438e6bc797c2f7cfbec7a1a4b4dd2d58"
+}
