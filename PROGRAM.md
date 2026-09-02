@@ -2485,5 +2485,14 @@ provider catalog; only its changed cursor and unseen identity may discharge the
 OT-0256 wait and create one durable, non-selecting world offer. No actor or epoch
 is authorized yet.
 
+OT-0257 promotes with zero actors. The changed provider cursor satisfies the
+retained wait and exact `f818c68e...` carries one durable coordination-world
+offer while preserving epoch, ledger, driver, projection, and pursuit state.
+
+Next authorize one fresh actor from that exact offered subject. The actor must
+choose and author executable contact without a named target, pass G10, and
+receive independent contradiction before the offer is consumed into a new
+actor-authored epoch.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

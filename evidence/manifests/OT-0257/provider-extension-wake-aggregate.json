@@ -1,0 +1,31 @@
+{
+  "artifact_id": "provider-extension-wake-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1795,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "497cd6331ed2f2c75aeb55517095d43434c6694b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0257",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "The provider extension causally discharges one retained wait and creates a durable offer without an actor; fresh actor entry and independent consequence after the wait boundary remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:provider-extension-wake-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4a94ccd5cf67c6800b6cae8818c338c29da09ffd4a7c2a8924c96c3dd2bbb871"
+}

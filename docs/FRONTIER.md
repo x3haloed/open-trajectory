@@ -3173,3 +3173,14 @@ inspectable coordination world; its changed cursor must satisfy the retained
 `unseen-world-available` condition, discharge the exact wait, and retain one
 non-selecting world offer. A seen-world control must remain empty, and repeated
 offer observation must be idempotent. Resumed actor contact remains separate.
+
+OT-0257 promotes with zero actors. The extended provider exposes exactly one
+unseen coordination world; its changed cursor satisfies the retained wait,
+produces one discharge receipt, and retains one non-selecting offer in exact
+open successor `f818c68e...`. Epoch, ledger, driver, projection, and pursuit
+state remain unchanged.
+
+The immediate frontier is resumed interaction across the wait boundary. A fresh
+actor must receive the retained offer without a named target, author executable
+contact against its visible sources, pass G10, and receive independent
+contradiction before the offered world becomes an actor-authored epoch.

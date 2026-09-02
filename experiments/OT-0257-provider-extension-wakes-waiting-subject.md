@@ -1,6 +1,6 @@
 # OT-0257 — provider extension wakes the waiting subject
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0256 waiting subject `a4eea95b...`
 - **Fresh actors:** zero
@@ -29,3 +29,14 @@ floors; and idempotent re-observation of the already offered world.
 This experiment promotes wake-up and durable offer retention only. A later
 fresh actor must inspect the offer, author contact, and receive independent
 world consequence before resumed interaction is established.
+
+## Result
+
+The extended provider changed the cursor and exposed exactly one unseen world.
+That observation satisfied the retained wait condition, produced one discharge
+receipt, and retained one non-selecting coordination-world offer in exact open
+successor `f818c68e...`. Zero actors ran; no epoch, ledger entry, driver state,
+projection, or pursuit changed.
+
+This promotes causal wake-up and offer retention. Resumed actor contact and
+independent consequence remain unclaimed.

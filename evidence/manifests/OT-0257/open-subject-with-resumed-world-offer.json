@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-resumed-world-offer",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1083229,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "497cd6331ed2f2c75aeb55517095d43434c6694b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0257",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject is awake with one retained coordination-world offer; the offer has not yet been converted into actor-authored contact or independent world consequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-resumed-world-offer",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "373236f9c558838d2d865bae5022ca077eebfaa69835d62a65eacc6f955ee118"
+}

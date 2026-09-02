@@ -686,6 +686,10 @@ The strongest footholds are:
   durable actor-free wait. Exact `a4eea95b...` remains open; re-observing the
   unchanged provider cursor is an exact no-op with no duplicate wait receipt,
   fabricated world, or operational mutation.
+- `OT-0257`: extending the provider with one unseen coordination world changes
+  the cursor, satisfies and discharges that exact wait, and retains one durable
+  non-selecting world offer in open successor `f818c68e...`. No actor or epoch
+  is fabricated during wake-up.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
