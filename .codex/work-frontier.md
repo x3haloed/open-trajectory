@@ -413,3 +413,8 @@ correction.
   exact `2b42db93...` remains open. Next preserve this receipted failed attempt
   and test world-driven additional discrimination without revealing the sealed
   reference or letting the researcher choose tide-specific cases.
+- OT-0273 freezes that next test. One actor-free transition retains the exact
+  failed candidate and mechanically selected first mismatch without installing
+  code; a second identical null call may authorize one fresh actor on the
+  resulting five-case contact. Prospective reference, identity, isolation, and
+  fail-closed fixtures all pass. Live output remains sealed.

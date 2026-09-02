@@ -2730,5 +2730,15 @@ can request or derive another bounded world contact, then admit only after
 objective consequence crosses the frozen gate. Do not resample this actor,
 reveal the sealed reference, or encode tide-specific semantics.
 
+OT-0273 freezes the smallest continuation mechanism at that boundary. The first
+content-free call must preserve the rejected candidate and its failed world
+receipt as non-authoritative subject history, mechanically disclose only the
+lowest canonical counterexample, and leave installed source and correction
+routing unchanged. The second identical call may spend one fresh actor on the
+resulting five-case correction contact. Promotion requires G10, 5/5 disclosed,
+retained-package 6/6 versus unchanged 2/6, and an exact open successor at
+refresh. Preflight passes the exact reconstruction, successful-reference path,
+sealed-material exclusion, and malformed identity/success/no-mismatch negatives.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

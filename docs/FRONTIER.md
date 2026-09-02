@@ -3446,3 +3446,12 @@ bounded discriminating encounter with the world without actor resampling,
 sealed-answer leakage, package-specific semantics, or researcher selection of
 the missing case. Freeze that mechanism prospectively from exact
 `2b42db93...`; only later resume saturation and waiting.
+
+OT-0273 freezes that consequence-driven reopening as two content-free calls.
+The first admits no code: it retains the failed hypothesis and world receipt,
+then exposes only the lowest canonical mismatch as one additional correction
+case. The second may authorize one fresh actor against the resulting five-case
+contact. Exact source, ledger success, and correction route stay unchanged
+until retained-package 6/6 beats the unchanged 2/6 control. Prospective fixtures
+pass and malformed failure identity, already-successful consequence, and absent
+counterexample all fail closed.
