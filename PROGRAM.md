@@ -2978,5 +2978,13 @@ This establishes bounded safe reopening after invalidity, not scar-caused
 choice improvement: the new actor rediscovered the same incomplete rule and no
 scar-erased behavioral control ran.
 
+OT-0287 freezes the remaining Tideglass suffix but rejects before actors. Its
+graph derives the correct remaining capacities `[1, 2, 2]`; the inherited
+fixture constructor nevertheless starts sabotage at nominal row five, which is
+already disclosed in the active five-case correction. The unresolved compiler
+then finds no new mismatch and fails closed. All non-branch gates pass. Preserve
+the 36-branch rejection and replace only fixed row-offset sabotage with
+selection from actual undisclosed input classes.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,34 @@
+{
+  "artifact_id": "rejected-post-invalidity-tideglass-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 885,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cf9ae0e34e2e2b987eeeef6ece1f9796597da316",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0287",
+  "input_manifests": [
+    "evidence/manifests/OT-0286/invalid-encounter-scar-reopening-aggregate.json",
+    "evidence/manifests/OT-0286/open-subject-after-invalidity-recovery-feedback.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight rejected before actor authorization because the inherited failure-depth constructor re-sabotaged an already disclosed case."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:rejected-post-invalidity-tideglass-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "bf82c149a89637b7ea3d18249ed70fc11b022cdabbcfc05f7d499246ab56a96e"
+}

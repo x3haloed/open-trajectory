@@ -3685,3 +3685,11 @@ target choices, saturation, seventh wait, and renewal. Preserve the invalidity
 scar and policy as lineage state, but do not introduce any special route because
 of them. The cycle still passes only if later operations derive from state and
 consequence under the same content-free opening.
+
+OT-0287's zero-actor preflight exposes one more stale fresh-contact assumption.
+It derives the right `[1, 2, 2]` capacities, but its fixture helper sabotages
+nominal row five even though that row is already disclosed in the retained
+five-case correction. The unresolved compiler correctly refuses to issue a
+duplicate counterexample. Preserve the rejection. The next record should keep
+the full suffix fixed and choose prospective sabotage points from exact input
+classes absent from the current disclosure, not from a `4 + offset` index.
