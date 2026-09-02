@@ -92,13 +92,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0251 successor `e749515a...`,
+The current exact operational subject is OT-0252 partial successor `7965191a...`,
 identified by
-`evidence/manifests/OT-0251/open-subject-after-retained-streamed-correction.json`.
+`evidence/manifests/OT-0252/open-partial-subject-after-four-suffix-transitions.json`.
 It preserves all earlier worlds and corrections, retains the state-indexed
-resilience epoch and provider receipt, and is open at `assimilate` after the
-retained shelter correction reaches sealed 6/6 versus unchanged 2/6. Three
-resilience surfaces remain available for selection.
+resilience epoch and provider receipt, and is open at `assimilate` after rescue
+and food complete four additional selection/correction transitions. One
+resilience surface remains mechanically eligible.
 
 ## Prediction errors
 
@@ -292,3 +292,14 @@ resilience surfaces remain available for selection.
   6/6 versus unchanged 2/6 and exact `e749515a...` installs it, remains open, and
   routes next to selection. Resume the descriptor-complete driver for the six
   remaining transitions rather than restarting shelter correction.
+- Expected: symmetric descriptor and G9/G10 authority plus a full source tree and
+  ledger would support the remaining six-transition suffix. Observed: OT-0252
+  admits rescue and food through four transitions, then the fifth actor leaves
+  the template unchanged and claims no eligible contact even though one source
+  surface remains mechanically eligible. The audit rejects the non-move; exact
+  `7965191a...` stays open. Evidence: reconstructed rejected receipt
+  `76015476...` under OT-0252.
+- Uncertain: whether a compact, mechanically derived, non-authoritative active
+  opportunity projection is sufficient to improve selection from this exact
+  position without turning the observer into the target selector. Test that
+  projection prospectively before another actor encounter.

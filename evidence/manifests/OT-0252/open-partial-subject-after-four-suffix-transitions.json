@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-partial-subject-after-four-suffix-transitions",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1046281,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6cbc8c4e2b165373e78095936d66ce22f93d41d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0252",
+  "input_manifests": [
+    "OT-0252/symmetric-epoch-suffix-partial-rejection-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact open partial successor has one mechanically eligible resilience surface remaining; actor-visible selection projection has not yet been improved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-partial-subject-after-four-suffix-transitions",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "cbc3cd7d0c804a8af94c3dee259ff09d54518d1ab0b2077157f13becd0a59629"
+}

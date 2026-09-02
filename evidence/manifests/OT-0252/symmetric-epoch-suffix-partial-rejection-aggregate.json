@@ -1,0 +1,31 @@
+{
+  "artifact_id": "symmetric-epoch-suffix-partial-rejection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 72257,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d6cbc8c4e2b165373e78095936d66ce22f93d41d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0252",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Four transitions are admitted and exactly reconstructed; the fifth fresh actor makes no workspace change and is rejected. The frozen reporter required non-resampling reconstruction after dereferencing a null public result."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:symmetric-epoch-suffix-partial-rejection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "786d262250f4544db43a016bb93f7c0fe1999e08c2a609e31a4dc2a398d9cbe3"
+}

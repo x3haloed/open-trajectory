@@ -665,6 +665,10 @@ The strongest footholds are:
   actor, reaches sealed 6/6 versus unchanged 2/6, and is installed. Exact open
   successor `e749515a...` routes next to selection among three remaining
   resilience surfaces.
+- `OT-0252`: symmetric descriptor and output authority carries rescue and food
+  through four admitted selection/correction transitions. A fifth fresh actor
+  makes no selection and is rejected; exact reconstructed successor
+  `7965191a...` remains open with one resilience surface mechanically eligible.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

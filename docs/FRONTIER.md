@@ -3066,3 +3066,21 @@ workspaces pass the shared live evaluator. All six orders of the three remaining
 targets pass selection 2/6 and correction 4/4→6/6 versus unchanged 2/6, preserve
 the lineage, and saturate the epoch. Live execution stops on first rejection;
 only six uninterrupted null-pulse transitions promote.
+
+OT-0252 rejects after four admitted transitions. Rescue and food each pass fresh
+selection at sealed 2/6 followed by fresh correction at public 4/4 and sealed
+6/6 versus unchanged 2/6. Exact partial successor `7965191a...` preserves those
+four transitions. The fifth actor leaves the selection template unchanged and
+asserts that no eligible contact exists; mechanical audit correctly rejects the
+non-move while one resilience surface remains eligible. The frozen reporter then
+dereferences the null public result; exact reconstruction preserves the partial
+successor and rejection without resampling.
+
+The immediate frontier is not another identical selection attempt. The actor had
+the sources and full ledger but failed to identify the remaining executable
+surface. A prospective selector projection should mechanically derive active
+opportunities from epoch source plus ledger state, make that derivation compact
+and actor-visible without acquiring target-selection authority, and improve
+future move selection. Held-out cases must show that it neither reopens completed
+targets nor fabricates opportunities. Only then should a fresh actor receive the
+same content-free pulse from `7965191a...`.

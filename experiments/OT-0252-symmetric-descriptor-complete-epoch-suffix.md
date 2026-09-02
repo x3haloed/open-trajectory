@@ -1,6 +1,6 @@
 # OT-0252 — symmetric descriptor-complete epoch suffix
 
-- **Status:** frozen
+- **Status:** rejected after four admitted transitions
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0251 subject `e749515a...`
 - **Fresh actors:** at most six; stop at the first rejected transition
@@ -36,3 +36,23 @@ correction is not rerun.
 The world descriptors, reference implementations, hidden cases, and final
 admission remain observer-authored. Empty-stream waiting and resumption after a
 later stream extension remain outside this comparison.
+
+## Result
+
+Rejected without resampling, but with a valid partial successor. The first four
+transitions pass exactly: a fresh actor selects rescue boats at sealed 2/6, a
+fresh corrector reaches public 4/4 and sealed 6/6 versus unchanged 2/6, and the
+same sequence then passes for food drops. These four transitions advance the
+exact subject to `7965191a...`.
+
+The fifth fresh actor inspects the state but leaves `expanded-selection.json`
+unchanged and reports that no eligible contact exists. Mechanical audit observes
+no changed path, public execution is absent, and the non-move is correctly
+rejected. One resilience surface remains mechanically eligible and the exact
+subject stays open at `assimilate`.
+
+The frozen aggregate writer then dereferences the explicit null public result;
+exact reconstruction records the rejected run and partial successor without
+rerunning any actor. The next substrate experiment should improve actor-visible
+move selection with a generic state-derived opportunity projection rather than
+simply presenting the same large ledger and source tree again.

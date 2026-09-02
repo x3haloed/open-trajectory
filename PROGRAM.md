@@ -2403,5 +2403,17 @@ orders pass the complete prospective path. The live run receives six identical
 null pulses, stops on first rejection, and cannot repeat the admitted shelter
 correction.
 
+OT-0252 rejects after four admitted transitions. Rescue and food each complete
+selection 2/6 and correction 4/4→6/6 versus unchanged 2/6, yielding exact open
+partial successor `7965191a...`. The fifth actor leaves the selection template
+unchanged and claims no eligible contact; mechanical audit rejects it while one
+surface remains. Exact reconstruction repairs a null-public reporting exception
+without resampling.
+
+Next improve selection capacity prospectively. Derive a compact active
+opportunity projection from visible epoch source and ledger state, preserve its
+non-authoritative status, and test completed, mixed, empty, reordered, and
+descriptor-varied cases before exposing `7965191a...` to another fresh actor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
