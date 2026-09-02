@@ -90,12 +90,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0243 successor `02cb8b65...`,
+The current exact operational subject is OT-0244 successor `7218ea6a...`,
 identified by
-`evidence/manifests/OT-0243/open-subject-after-expanded-world-correction.json`.
+`evidence/manifests/OT-0244/open-subject-at-expanded-selection.json`.
 It preserves the saturated three-surface outward world and all corrections,
 retains the actor-selected communications epoch with its selected contact
-corrected and world-verified, and is open at `assimilate`.
+corrected and world-verified, and is open at `assimilate` with the next null
+pulse routed to `expanded-select`.
 
 ## Prediction errors
 
@@ -242,13 +243,11 @@ corrected and world-verified, and is open at `assimilate`.
   corrector reaches public 4/4 and prospective 6/6 versus unchanged 2/6; exact
   `02cb8b65...` returns open at `assimilate` with all prior and unselected sources
   preserved.
-- Expected: post-correction assimilation recognizes unused opportunities in the
-  retained expanded epoch. Observed: three surfaces remain, but the active
-  outward-only counter reports zero and selects `expand-environment`. Uncertain:
-  whether one unified opportunity resolver can preserve old-world saturation
-  while selecting within arbitrary retained epochs. Evidence: OT-0243 aggregate
-  `post_correction_observation`.
+- OT-0244 resolves OT-0243's selector error prospectively. A generic AST
+  opportunity resolver scores 11/11, preserves all nine prior cases, identifies
+  the three unledgered epoch surfaces, and installs `expanded-select` in exact
+  `7218ea6a...` without changing operational state.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is a prospective unified opportunity
-  resolver that recognizes unused surfaces in the retained expanded epoch
-  without regressing old-world saturation or correction routes.
+  external. The next discriminating step is live actor selection of a second
+  surface from the retained expanded epoch under a null pulse, without an
+  observer-selected target or task.

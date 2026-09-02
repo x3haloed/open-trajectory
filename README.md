@@ -631,6 +631,10 @@ The strongest footholds are:
   versus unchanged 2/6. Exact successor `02cb8b65...` is open at `assimilate`;
   its post-check reveals that the active selector overlooks three unused
   expanded-epoch surfaces.
+- `OT-0244`: a generic source resolver finds those three unledgered public
+  callables. The prospective selector scores 11/11, preserves all nine old
+  cases, and installs `expanded-select` without changing operational state.
+  Exact successor `7218ea6a...` awaits live retained-epoch selection.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

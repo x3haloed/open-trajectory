@@ -2252,5 +2252,16 @@ all prior routes and expanded-live precedence. Promotion requires 11/11, all
 nine old cases preserved, exact recognition of the current three opportunities,
 and a conformant successor with operational state unchanged.
 
+OT-0244 promotes that revision: 11/11, all nine prior cases preserved, and both
+expanded-live cases corrected. The generic resolver identifies exactly three
+unledgered public callables. Exact successor `7218ea6a...` changes no operational
+state and routes the next null pulse to `expanded-select`.
+
+The next experiment must realize that route with one fresh actor. It receives
+the retained expanded epoch and exact ledger but no assigned target, registry,
+reference oracle, or task. Promotion requires actor-selected executable contact,
+G10 acceptance, independent consequence, preservation of the corrected
+communications surface and every unselected source, and an exact open successor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

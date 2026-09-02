@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-expanded-selection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 877672,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d08bd9c567affdb17cb5a3b20c005f488d858c77",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0244",
+  "input_manifests": [
+    "OT-0244/expanded-epoch-opportunity-selector-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "Exact open subject routing to expanded selection; no fresh actor has yet exercised that route."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-expanded-selection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fe13505ff776443d39149841aa3d1c168f1043f1492b58b56cc4cc8ba5177ca2"
+}

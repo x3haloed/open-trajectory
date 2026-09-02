@@ -1,0 +1,31 @@
+{
+  "artifact_id": "expanded-epoch-opportunity-selector-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7378,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d08bd9c567affdb17cb5a3b20c005f488d858c77",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0244",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Deterministic selector evaluation on one retained synthetic expanded epoch; live expanded-surface selection remains untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:expanded-epoch-opportunity-selector-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "90db42c1caa9267fb9ca4c95b5cbc18d7443e0deb6e8017822931c4bff16e330"
+}

@@ -1,6 +1,6 @@
 # OT-0244 — expanded-epoch opportunity selector
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0243 subject `02cb8b65...`
 - **Fresh actors:** zero
@@ -28,3 +28,14 @@ known-blind incumbent.
 This test selects only an operation class. It does not yet show that a fresh
 actor can choose and bind another surface from the retained expanded epoch or
 that correction recurs again afterward.
+
+## Result
+
+The challenger scores 11/11, preserves all nine previously valid cases, and
+corrects both expanded-live classifications from 0/2 to 2/2. Its generic source
+resolver identifies exactly the three unledgered public callables in the current
+epoch. Exact successor `7218ea6a...` changes no phase, contact, extension, epoch,
+ledger, or world receipt and routes the next null pulse to `expanded-select`.
+
+This prospectively resolves OT-0243's old-world-only counting error. Live
+selection of a second retained-epoch surface remains the next claim.

@@ -2875,3 +2875,17 @@ classifications include every prior route plus expanded-live precedence and
 mixed old/expanded cases. Promotion requires 11/11, no regression of the nine
 prior cases, exact resolution of the current three opportunities, a conformant
 successor, and no operational state change. No actor is invoked.
+
+OT-0244 promotes the resolver. The challenger scores 11/11, preserves all nine
+prior cases, and improves the two expanded-live cases from 0/2 to 2/2. It finds
+exactly `clear_transit_blocks`, `position_ferry_teams`, and
+`choose_cold_chain_shipments` from retained source plus ledger state. Exact
+successor `7218ea6a...` changes no operational field and routes the next null
+pulse to `expanded-select`.
+
+The next frontier is live recurrent selection inside the retained expanded
+epoch. One fresh actor must receive its exact sources and ledger without an
+assigned target, registry, visible reference, or task content; select one of the
+three resolved opportunities; bind executable contact; and receive independent
+consequence while preserving the corrected communications surface and every
+other source.
