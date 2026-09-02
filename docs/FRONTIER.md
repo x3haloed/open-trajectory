@@ -3411,3 +3411,9 @@ half. Exact `0dae5089...` is open at correction. The immediate frontier is no
 longer world arrival; it is descriptor-complete correction and recurrence over
 an actor-authored package whose shapes were not present in the inherited target
 machinery.
+
+OT-0271 freezes the first half of that frontier. Correction must resolve target,
+path, baseline, and receipt from exact subject descriptors and use a bounded
+four-example correction contact while retaining the package reference and all
+six follow-up cases world-side. After 6/6 versus unchanged 2/6, a separate
+actor-free call must refresh exactly two remaining package opportunities.

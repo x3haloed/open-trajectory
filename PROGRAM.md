@@ -2696,5 +2696,11 @@ independently authored surface without package-specific dispatch, refresh its
 remaining opportunities, and test whether the same subject can saturate and
 wait again.
 
+OT-0271 freezes correction and refresh as two more calls to the content-free
+entry point. Selected identities come from subject state; four correction
+examples come from bounded world disclosure; the full six-case reference stays
+sealed. No package target enters the inherited registry. All three possible
+package selections must correct prospectively before the sole live actor runs.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
