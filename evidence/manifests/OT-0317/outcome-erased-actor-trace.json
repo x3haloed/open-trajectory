@@ -1,0 +1,35 @@
+{
+  "artifact_id": "outcome-erased-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10015,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e42bf4b75bf7c9e6c77b6b11b952e387436e3c80",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0317",
+  "input_manifests": [
+    "evidence/manifests/OT-0317/provenance-bound-selection-error-preflight.json",
+    "evidence/manifests/OT-0317/private-provenance-bound-world-seed.json",
+    "evidence/manifests/OT-0316/open-subject-after-rejected-reversed-correction.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Matched fresh broad-tool actor received no authoritative active error, ran the checker, and retained the exact stake."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "034c5eaa9bcbe8bcdebf61c67dd4e4d3dc77f448d94d37fb3323b756aae73a1b"
+}

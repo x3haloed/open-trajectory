@@ -122,24 +122,19 @@ stake remain controls, not promoted lineage.
   reliability estimate across goals, worlds, or models.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
-- Expected: three typed `directional_error: true` outcomes in OT-0316 would
-  ground correction after the learned branch-count correlation reversed.
-  Observed: the fresh consequence-bearing actor retained the exact stake and
-  scored 0/5, describing the contacts as confirming the existing direction;
-  the erased actor also retained and scored 0/5. The inherited rationale says
-  “all three completed contacts” and embeds the prior regime's opposite
-  evidence without binding that prose to episode or receipt identities.
-  The actor also omitted the instructed checker invocation, though the observer
-  verified the unchanged file. Uncertain: whether stale-evidence ambiguity hid
-  the current contradiction, ordinary generation variance produced retention,
-  or the incomplete actor workflow matters. Evidence: OT-0316 rejected
-  aggregate `c321f467...` and retained trace.
-- The next test should derive, before actor opening, an active selection-error
-  receipt bound to the new selection and outcome receipt identities, and mark
-  inherited rationale as historical support bound to its prior revision. It
-  must not name a coefficient or desired edit. Against exact `0a48ab16...`, a
-  fresh actor seeing that provenance should revise and beat the unchanged
-  parent on disjoint reversed catalogs; a matched outcome-erased actor without
-  an active error receipt should retain. Successful actor-side checker execution
-  must be a trace-audited gate. Preserve OT-0316 as the exact raw-contact-only
-  observation rather than resampling it.
+- Expected: binding historical rationale and current contrary outcomes to
+  distinct typed receipts would let OT-0317's fresh actor correct the learned
+  selector. Observed: with full workflow conformance, the actor confirmed the
+  active error but retained exact `0a48ab16...` at 0/5 because no grounded
+  coefficient or target edit was supplied. The erased actor also retained at
+  0/5. Uncertain: whether the missing causal edge is an actor-usable way to test
+  successor machinery against retained consequence. Evidence: OT-0317 rejected
+  aggregate `eb5d0d29...`; OT-0316 remains the weaker raw-contact observation.
+- The next test should add an executable counterfactual workbench over only the
+  revealed training contacts. It must accept actor-proposed legal stake edits,
+  replay their selections against the bound outcomes, and report training
+  repair without exposing held-out worlds or prescribing an edit. The same tool
+  must report evaluation unavailable when outcomes are erased. Promotion still
+  requires 5/5 on disjoint private catalogs versus exact unchanged 0/5 and no
+  erased-branch advantage. This tests an action affordance for self-correction,
+  not a stronger instruction to obey contradiction.

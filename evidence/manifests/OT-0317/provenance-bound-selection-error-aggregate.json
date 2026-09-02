@@ -1,0 +1,38 @@
+{
+  "artifact_id": "provenance-bound-selection-error-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 23660,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e42bf4b75bf7c9e6c77b6b11b952e387436e3c80",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0317",
+  "input_manifests": [
+    "evidence/manifests/OT-0317/provenance-bound-selection-error-preflight.json",
+    "evidence/manifests/OT-0317/private-provenance-bound-world-seed.json",
+    "evidence/manifests/OT-0317/consequence-actor-trace.json",
+    "evidence/manifests/OT-0317/outcome-erased-actor-trace.json",
+    "evidence/manifests/OT-0317/outcome-erased-completed-contacts.json",
+    "evidence/manifests/OT-0316/open-subject-after-rejected-reversed-correction.json"
+  ],
+  "kind": "rejected-aggregate",
+  "limitations": [
+    "One paired draw; provenance made the active error legible but the consequence actor retained and scored 0/5, so correction was not supported."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:provenance-bound-selection-error-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "842fb3692a385fa2fd88bc48e04e0910d9b05a8374104a985235c6130bd8f472"
+}

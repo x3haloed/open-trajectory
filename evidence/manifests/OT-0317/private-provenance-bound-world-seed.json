@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-provenance-bound-world-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "e42bf4b75bf7c9e6c77b6b11b952e387436e3c80",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0317",
+  "input_manifests": [
+    "evidence/manifests/OT-0317/provenance-bound-selection-error-preflight.json"
+  ],
+  "kind": "private-evaluator-seed",
+  "limitations": [
+    "Private post-freeze seed retained for exact reconstruction; derived held-out identities were hidden from actors."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-provenance-bound-world-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d16a37d7fd0dc8cd5878f75575971ad8c6e7a6e895241b97f5e093c9f971e68f"
+}

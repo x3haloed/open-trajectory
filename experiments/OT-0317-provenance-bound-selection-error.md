@@ -1,6 +1,6 @@
 # OT-0317 — Provenance-bound selection error
 
-- **Status:** frozen
+- **Status:** completed — correction claim rejected
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0315 subject retained through OT-0316, `0a48ab16...`
 - **Claim:** active-error provenance enables later machinery correction
@@ -76,3 +76,28 @@ carry in OT-0316. It would not prove that this mechanism is necessary from one
 historical draw, nor that global weight reversal is cumulative learning. It
 does not establish repeated reliability, open descriptor invention, autonomous
 world choice, or researcher-optional development.
+
+## Result
+
+Both branches completed with clean G10 traces and successful actor-side checker
+execution, but the correction claim failed. The consequence-bearing actor read
+and explicitly confirmed the provenance-bound active error, then retained the
+exact stake and scored 0/5. Its final reason was that no authorized coefficient
+or target edit was supplied. The erased actor also retained and scored 0/5, as
+expected. Exact parent `0a48ab16...` remains authoritative. Rejected aggregate
+receipt is `eb5d0d29...`.
+
+This falsifies the simple theory that temporal provenance alone was the missing
+mechanism. The actor knew which evidence was current and knew the selector had
+failed. What it lacked was a grounded way to choose among many legal successor
+weights. The mutation contract and checker answer whether a proposal is
+authorized and well formed; they do not let the subject test whether its own
+proposal repairs the retained consequence.
+
+The next candidate should add an actor-visible executable counterfactual
+workbench over only the already revealed training contacts. It should score a
+proposed `stake-revision.json` by replaying its selections against those bound
+outcomes, expose no held-out data, and prescribe no edit. The same tool over
+erased outcomes must report that evaluation is unavailable. This would give the
+actor a consequence-grounded search action rather than an externally supplied
+answer.
