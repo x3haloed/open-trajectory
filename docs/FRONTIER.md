@@ -3824,3 +3824,11 @@ the same 2/6 control, preserve invalidity and recovery history, and derive
 refresh; exhaustion fails closed. After freeze and push, repeated identical
 empty openings may instantiate at most three fresh correctors, with each valid
 unresolved consequence—not researcher retry—carrying the next attempt.
+
+OT-0295 passes in one correction opening. A fresh external-workspace actor
+passes G10 and all disclosed cases; independent consequence scores the revision
+6/6 against unchanged 2/6. Exact open subject `90b6999c...` retains both scars
+and provider recovery and derives projection refresh. The next edge is generic
+refresh followed by a fresh actor choosing between the two remaining Tideglass
+Crossings surfaces. Do not preselect the target or infer feedback reliability
+from the unselected prospective branches.

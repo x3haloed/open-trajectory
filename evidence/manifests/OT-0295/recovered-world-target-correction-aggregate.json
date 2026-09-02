@@ -1,0 +1,34 @@
+{
+  "artifact_id": "recovered-world-target-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 884,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "270db3241f225415701a2f8e203af7134c1fd7d2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0295",
+  "input_manifests": [
+    "evidence/manifests/OT-0295/recovered-world-correction-invocation.json",
+    "evidence/manifests/OT-0295/recovered-world-target-correction-preflight.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded selected-surface correction; remaining-target recurrence has not yet run."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:recovered-world-target-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5b84dd448fb76c26e66a97f027e5a7746ab8894065949481ed31d5e03d67a086"
+}

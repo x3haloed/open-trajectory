@@ -1,6 +1,6 @@
 # OT-0295 — Recovered-world target correction
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** bounded result passed
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0294 accepted selected-consequence subject `e09f4f71...`
 - **Invocation:** repeated identical content-free openings until correction or rejection
@@ -49,3 +49,15 @@ after exhaustion fails closed. Every complete path reaches 6/6 against
 unchanged 2/6, preserves both scars and provider recovery, derives refresh, and
 remains conformant with route 16/16 and identity 18/18. Preflight receipt
 `f5369f36...`.
+
+## Bounded result
+
+One content-free opening and one fresh external-workspace corrector pass. The
+actor satisfies every disclosed case; independent consequence scores its
+revision 6/6 while the unchanged inherited policy remains 2/6. No feedback step
+is required. Exact open subject `90b6999c...` preserves both invalidity scars
+and the provider recovery receipt and derives `refresh-opportunity-projection`.
+Aggregate receipt `f94d93cc...`.
+
+This establishes one recovered-world correction, not a live sample of the
+prospective one- or two-feedback paths and not remaining-target recurrence.

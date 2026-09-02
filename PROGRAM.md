@@ -3109,5 +3109,12 @@ invalidity lineage, and derive refresh; feedback beyond exhaustion fails
 closed. Route 16/16 and identity 18/18 remain exact. Live output stays sealed
 until push.
 
+OT-0295 promotes on its first fresh corrector. One content-free opening produces
+a public-clean revision that independent consequence scores 6/6 while the
+unchanged policy remains 2/6. Exact open subject `90b6999c...` preserves both
+invalidity scars and provider recovery and derives projection refresh. Aggregate
+receipt `f94d93cc...`. This is one selected-surface correction; the stronger
+frontier is renewed self-selection among the two remaining surfaces.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

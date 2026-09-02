@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-recovered-world-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1530854,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "270db3241f225415701a2f8e203af7134c1fd7d2",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0295",
+  "input_manifests": [
+    "evidence/manifests/OT-0295/recovered-world-target-correction-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject before projection refresh; remaining targets are unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-recovered-world-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "162e30eaf317e21fec5069805590ef94cbcf707442d6d7baa1727523ce0957e8"
+}

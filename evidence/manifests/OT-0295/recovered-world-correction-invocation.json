@@ -1,0 +1,35 @@
+{
+  "artifact_id": "recovered-world-correction-invocation",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12016,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "270db3241f225415701a2f8e203af7134c1fd7d2",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0295",
+  "input_manifests": [
+    "evidence/manifests/OT-0295/recovered-world-target-correction-preflight.json",
+    "evidence/manifests/OT-0294/open-subject-after-recovered-world-selection.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "live-invocation",
+  "limitations": [
+    "One first-attempt correction path; prospective one- and two-feedback paths were not selected live."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:recovered-world-correction-invocation",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "67f2ab12b1679d0c701e0d77342b99174c15546a23cf5a6b25e2c11e5a0922b1"
+}
