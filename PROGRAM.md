@@ -2329,5 +2329,19 @@ identical null pulses, seven fresh actors, no retries, and no researcher-supplie
 itinerary; it must saturate the epoch and remain open when the state-indexed
 world stream has no unseen entry.
 
+OT-0248 rejects while preserving the exact open parent. The semantic fixtures
+were blind to a fixed `landscape/__init__.py` entry in the live mutation audit.
+Because the resilience world has a different package root, all seven fresh
+correction attempts are rejected before binding and the operation never advances
+to selection. The original reporter also assumes successful alternation and
+raises during aggregation; a no-resampling reconstruction records the rejected
+transitions and unchanged `aab064d0...` subject.
+
+The next experiment must repair both faults prospectively. Every path used by
+authorization or audit must derive from the active descriptor, conformance must
+execute the complete live audit path for each candidate world family, and a
+rejected transition must remain a valid reportable outcome rather than a
+reporting exception.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

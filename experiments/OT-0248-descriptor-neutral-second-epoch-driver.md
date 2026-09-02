@@ -1,6 +1,6 @@
 # OT-0248 — descriptor-neutral second-epoch driver
 
-- **Status:** frozen
+- **Status:** rejected
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0247 subject `aab064d0...`
 - **Fresh actors:** seven, one per pulse, no retries
@@ -32,3 +32,21 @@ at `assimilate` with no unseen world currently available. No retry is permitted.
 The world descriptor, reference implementations, and scoring remain
 observer-authored. Empty-stream behavior and later resumption are not part of
 this comparison.
+
+## Result
+
+Rejected without resampling. The six frozen semantic fixture walks passed, but
+the live mutation audit retained the fixed immutable path
+`landscape/__init__.py`. That path is absent in the resilience descriptor. Each
+of seven fresh correctors edited the permitted resilience function and decision,
+but the audit's immutable-path read failed before binding; all seven corrections
+were rejected and every pulse therefore re-derived `outward-correct` from the
+unchanged exact parent.
+
+The frozen reporter then assumed that alternating selection transitions existed
+and raised `TypeError` while aggregating the already retained transitions. The
+reconstruction records rejection and the unchanged open parent without invoking
+another actor. The newly learned invariant is broader than this bug: every
+authority-bearing path projection, including audit policy, must derive from the
+active world descriptor. The next preflight must exercise the complete live
+audit path for every candidate descriptor, not only semantic checker behavior.

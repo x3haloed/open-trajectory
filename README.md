@@ -649,6 +649,10 @@ The strongest footholds are:
   world; a fresh actor chooses `route_shelter_buses`, passes G10, and receives
   sealed 2/6 contradiction. Exact successor `aab064d0...` preserves both epochs
   and is open at `correct`.
+- `OT-0248`: seven fresh correction attempts expose a fixed-path leak in the
+  supposedly descriptor-neutral mutation audit. All are rejected without state
+  change or resampling; exact reconstruction preserves the open OT-0247 parent
+  and the negative evidence.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

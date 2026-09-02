@@ -31,6 +31,8 @@ no longer depends on experiment-specific researcher choices.
 - A subject can add bounded continuity content without rejection merely because
   the observer did not pre-enumerate its shape; such extensions acquire no
   evaluator, world, scoring, or admission authority by being retained.
+- Continuation across world descriptors must not depend on inherited path names
+  anywhere in authorization, mutation policy, audit, or consequence handling.
 
 ## Evaluation regime
 
@@ -90,9 +92,9 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0247 successor `aab064d0...`,
+The current exact operational subject remains OT-0247 successor `aab064d0...`,
 identified by
-`evidence/manifests/OT-0247/open-subject-at-cross-epoch-contradiction.json`.
+`evidence/manifests/OT-0248/unchanged-open-subject-after-descriptor-audit-rejection.json`.
 It preserves all earlier worlds and corrections, retains the state-indexed
 resilience epoch and provider receipt, and is open at `correct` after
 actor-selected shelter-bus contact receives independent 2/6 contradiction.
@@ -258,7 +260,15 @@ actor-selected shelter-bus contact receives independent 2/6 contradiction.
   selects an unseen resilience world from state; a fresh actor chooses
   `route_shelter_buses`; G10 and sealed 2/6 pass; exact `aab064d0...` retains both
   epochs and remains open at `correct`.
+- Expected: descriptor-neutral target and consequence resolution plus six full
+  semantic permutation fixtures would suffice for live second-epoch traversal.
+  Observed: OT-0248's mutation audit retained `landscape/__init__.py`; all seven
+  fresh correctors were rejected at the same missing immutable path, the exact
+  subject never changed, and the reporter then raised because it assumed
+  alternation had succeeded. Uncertain: whether a descriptor-complete audit and
+  rejection-total reporter are sufficient for the same seven-pulse traversal.
+  Evidence: rejected aggregate receipt `cef1d970...` and unchanged exact subject
+  `aab064d0...` under OT-0248.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is descriptor-neutral correction and
-  continuation inside the streamed resilience epoch. The main external causal
-  component is now world and evaluator supply, not runtime experiment dispatch.
+  external. The immediate step is a prospective descriptor-complete audit and
+  total reporter before retrying second-epoch continuation in a new experiment.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "descriptor-neutral-second-epoch-driver-rejected-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 26187,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "34323a32c5224c0deb68740a0e9d76e53a7cd940",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0248",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Seven fresh actor outputs are retained, but every transition was rejected by a fixed-path mutation-audit fault and the frozen reporter required exact reconstruction; no actor was resampled."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:descriptor-neutral-second-epoch-driver-rejected-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "770707c867b2afb7b86720c481612f87feaba57390e5f75ba3e1e41106b848f0"
+}

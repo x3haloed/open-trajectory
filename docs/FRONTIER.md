@@ -2973,3 +2973,20 @@ and no runtime target, phase, or experiment itinerary. Promotion requires every
 correction to reach visible 4/4 and prospective 6/6 against unchanged 2/6,
 every selection to receive sealed 2/6, exact preservation of both epochs, and a
 conformant open successor at an exhausted external world stream.
+
+OT-0248 rejects without resampling. Although all six semantic permutation
+fixtures pass, the live mutation audit still names `landscape/__init__.py` as an
+immutable file. That inherited path is absent in the resilience descriptor, so
+each of seven fresh correctors reaches the same audit exception before binding;
+every transition remains at exact parent `aab064d0...` and re-derives
+`outward-correct`. The frozen reporter then raises while assuming alternating
+selection rows. Exact reconstruction records the seven rejections and unchanged
+open subject rather than rerunning an actor.
+
+This narrows the frontier. Descriptor neutrality must cover every
+authority-bearing projection, including mutation policy and audit reads, not
+only target resolution, checking, and sealed consequence. The next prospective
+repair must derive package initialization and immutable paths from the active
+descriptor, exercise the complete live audit path across every candidate world
+family before authorization, and safely aggregate rejection without assuming a
+successful operation sequence.

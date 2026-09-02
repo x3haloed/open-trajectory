@@ -1,0 +1,33 @@
+{
+  "artifact_id": "unchanged-open-subject-after-descriptor-audit-rejection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 975205,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "34323a32c5224c0deb68740a0e9d76e53a7cd940",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0248",
+  "input_manifests": [
+    "OT-0248/descriptor-neutral-second-epoch-driver-rejected-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "This is the unchanged exact OT-0247 parent after all seven OT-0248 transitions were rejected; it remains open at the original unresolved resilience correction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:unchanged-open-subject-after-descriptor-audit-rejection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "54a98bb2693bf0e8ef49b422a2a973915e39b50d7e58f9a15bfd887b7e23c720"
+}
