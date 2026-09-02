@@ -1,0 +1,35 @@
+{
+  "artifact_id": "surrender-recovery-correction-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 956,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "ce1175137ad69165a19c7de4016f54563354cb33",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0302",
+  "input_manifests": [
+    "evidence/manifests/OT-0301/open-subject-after-surrender-feedback.json",
+    "evidence/manifests/OT-0301/consequence-bearing-surrender-aggregate.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; no fresh actor has yet attempted recovery from the surrender successor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:surrender-recovery-correction-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "143fe67d7333651d2b0e89a46bae15be1b15629468df2460be1f208fde18e393"
+}

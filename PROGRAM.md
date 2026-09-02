@@ -3195,5 +3195,14 @@ to five disclosed cases, and exact open subject `e2ee0449...` derives correction
 with two surfaces still earned. Aggregate receipt `d8354e26...`. The immediate
 frontier is one fresh recovery corrector from this inherited consequence.
 
+OT-0302 freezes fresh-actor recovery from that exact surrender successor. The
+actor projection now carries the actual surrender receipt and enlarged contact,
+not a stale failed candidate from another target. Immediate revision, one failed
+revision, and one further surrender branches all recover to independent 6/6
+against unchanged 2/6, earn the third surface, and derive refresh. Repeated
+surrender after all cases are disclosed fails closed; six surrender controls,
+hidden-content exclusion, route 16/16, and identity 18/18 pass. Live output stays
+sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
