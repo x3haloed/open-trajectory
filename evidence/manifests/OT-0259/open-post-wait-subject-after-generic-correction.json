@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-post-wait-subject-after-generic-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1102516,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a8bd9c7ff762ef0498249ea8a237c5c5ac0c3d85",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0259",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject is open at assimilation after one post-wait correction; its opportunity projection still describes the prior epoch and must be refreshed before projection-conditioned selection is claimed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-post-wait-subject-after-generic-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "db3203c887ba1b6d837b72e41646306cbd58d734d98cd1201e5ea5e22e3d3855"
+}

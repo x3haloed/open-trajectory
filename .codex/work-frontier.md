@@ -92,14 +92,17 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0258 successor `315be95b...`,
+The current exact operational subject is OT-0259 successor `5c680025...`,
 identified by
-`evidence/manifests/OT-0258/open-post-wait-subject-at-coordination-contradiction.json`.
+`evidence/manifests/OT-0259/open-post-wait-subject-after-generic-correction.json`.
 It preserves all earlier worlds and corrections, has saturated the state-indexed
 resilience epoch, and carries a saturated zero-opportunity projection with every
 external authority flag false. Its durable wait was discharged by a real stream
 extension; a fresh actor then consumed the retained coordination offer into a
-new epoch and received independent 2/6 contradiction. It is open at `correct`.
+new epoch, received independent contradiction, and corrected it to 6/6 against
+the unchanged 2/6 control. It is open at assimilation. Its active opportunity
+projection remains historically correct for the prior epoch but stale for the
+new active coordination epoch.
 
 ## Prediction errors
 
@@ -333,3 +336,8 @@ new epoch and received independent 2/6 contradiction. It is open at `correct`.
   the offer is consumed into a new epoch. Exact `315be95b...` remains open at
   correction with wait and wake history intact. Next require target-generic
   correction from retained state, then test new-epoch recurrence.
+- OT-0259 supplies that correction through the descriptor-complete G9/G10 path:
+  public 4/4 and sealed 6/6 beat unchanged 2/6, yielding exact `5c680025...` at
+  assimilation with all wait/wake state preserved. The newly visible prediction
+  error is a stale active opportunity projection still bound to the prior epoch;
+  refresh it mechanically before another actor selection.

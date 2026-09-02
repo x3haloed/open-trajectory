@@ -3207,3 +3207,15 @@ by the earlier source-root and output-authority failures. The live target and
 path derive only from exact retained state. Promotion requires one fresh actor,
 public 4/4, sealed 6/6 versus unchanged 2/6, and preservation of both the full
 wait/wake history and the extended provider interface.
+
+OT-0259 promotes with one actor and no retry. The target-generic corrector
+derives `route_supply_convoys` from retained state, passes G10 under mechanical
+effect precedence, reaches public 4/4 and sealed 6/6 against unchanged 2/6, and
+installs the correction. Exact `5c680025...` remains open at assimilation with
+the extended provider and wait/wake receipts unchanged.
+
+The next frontier is projection freshness across epoch change. The active
+projection still truthfully records saturation of the prior resilience epoch,
+but is stale as an active selector artifact because the coordination epoch now
+contains two unledgered surfaces. Refresh must derive from the latest epoch and
+ledger mechanically before another projection-conditioned actor encounter.

@@ -1,6 +1,6 @@
 # OT-0259 — post-wait generic correction
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0258 subject `315be95b...`
 - **Fresh actors:** one, no retry
@@ -21,3 +21,15 @@ immutable paths, G10 acceptance under causal mechanical effects and
 provenance-only path claims, public 4/4, sealed 6/6 versus unchanged 2/6,
 installation in the new epoch, preservation of the wait/wake history and active
 extended provider interface, and an exact open `assimilate` successor.
+
+## Result
+
+The one fresh corrector derived `route_supply_convoys` only from retained state,
+changed the exact target function and decision, and passed G10 despite an
+inaccurate duplicated path report. Mechanical effects remained authoritative.
+Public 4/4 and sealed 6/6 beat unchanged 2/6; exact successor `5c680025...`
+installs the correction, preserves the extended provider and wait/wake history,
+and remains open at assimilation.
+
+The active opportunity projection still describes the prior saturated epoch.
+Projection refresh across epoch change is the next unresolved substrate edge.

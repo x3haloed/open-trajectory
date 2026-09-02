@@ -694,6 +694,10 @@ The strongest footholds are:
   `route_supply_convoys`, authoring executable contact, and passing G10.
   Independent sealed consequence returns 2/6; exact `315be95b...` retains the
   new epoch and remains open at correction across the wait boundary.
+- `OT-0259`: the descriptor-complete target-generic corrector derives that
+  post-wait target from state, reaches public 4/4 and sealed 6/6 against
+  unchanged 2/6, and installs it. Exact `5c680025...` preserves the full
+  wait/wake lineage and extended provider while remaining open at assimilation.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

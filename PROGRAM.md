@@ -2513,5 +2513,15 @@ must traverse the descriptor-complete G9/G10 path, reach public 4/4 and sealed
 6/6 versus unchanged 2/6, and preserve the wait/wake lineage plus the extended
 provider interface.
 
+OT-0259 promotes with one actor and no retry. The state-derived correction passes
+G10, public 4/4, and sealed 6/6 against unchanged 2/6. Exact `5c680025...`
+installs it while preserving the extended provider and complete wait/wake
+history.
+
+Before another actor selection, refresh the compact opportunity projection from
+the latest coordination epoch and exact ledger. The current active projection is
+historically correct but operationally stale because it still names the prior
+saturated resilience epoch.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
