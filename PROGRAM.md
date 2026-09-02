@@ -2380,5 +2380,11 @@ Next expose that retained candidate to independent follow-up consequence with no
 new actor. Install only on prospective 6/6 versus unchanged 2/6, preserving the
 OT-0249 rejection.
 
+OT-0251 freezes the retained-candidate consequence gate. Preflight binds the
+exact candidate to its original contact and receipt without opening follow-up
+cases, confirms it remains uninstalled, and simulates a conformant successor.
+The live comparison uses zero actors and installs only on sealed 6/6 versus
+unchanged 2/6, after which the next operation must be expanded-world selection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

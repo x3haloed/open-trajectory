@@ -3037,3 +3037,10 @@ unchanged.
 The next frontier is sealed consequence on that exact retained candidate without
 another actor. Only prospective 6/6 against unchanged 2/6 may install it and
 advance the subject; OT-0249 remains rejected.
+
+OT-0251 freezes that consequence gate. Exact ancestry, original contact and
+world identity, retained candidate digest, active G9/G10 and streamed-correction
+authority, public 4/4, uninstalled source, and a simulated conformant binding
+all pass before hidden cases are opened. No actor runs. Promotion requires
+sealed 6/6 against unchanged 2/6; only that result may install the patch, verify
+the shelter surface, and return the open subject to expanded selection.
