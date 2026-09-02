@@ -2946,3 +2946,18 @@ surfaces across three modules, all preflighted at visible execution and sealed
 region. Promotion requires provider receipt, actor-chosen contact, G10,
 independent contradiction, exact retention of all prior epochs and extensions,
 and an open `correct` successor.
+
+OT-0247 passes the cross-epoch edge. The null pulse derives expansion; the
+state-indexed provider supplies the unseen resilience world; the fresh actor
+chooses `resilience/evacuation.py::route_shelter_buses`, authors executable
+contact, and passes G10. Independent consequence is 2/6. Exact successor
+`aab064d0...` retains the provider receipt and new visible epoch, preserves every
+prior epoch and extension, and remains open at `correct`. The provider refuses
+the same world after its receipt is retained.
+
+The loop has now crossed one full environment boundary without runtime
+experiment dispatch. The next frontier is descriptor-neutral correction and
+continuation inside this second epoch. The strongest remaining external causal
+component is no longer the researcher choosing each next harness; it is the
+observer-authored stream of objective worlds and correction/evaluation
+interfaces.

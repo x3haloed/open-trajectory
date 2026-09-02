@@ -2309,5 +2309,16 @@ registry, reference, target, task, or preferred region. All candidates pass
 visible execution and sealed 2/6 controls. Promotion requires G10 actor choice,
 provider and world receipts, prior-history preservation, and open correction.
 
+OT-0247 promotes the cross-epoch branch. Saturation-derived expansion obtains
+the unseen resilience world from the state-indexed stream; the fresh actor
+chooses `resilience/evacuation.py::route_shelter_buses`, passes G10, and receives
+independent 2/6 contradiction. Exact successor `aab064d0...` retains the provider
+receipt and new visible epoch, preserves every prior epoch and extension, and
+remains open at `correct`. The same world no longer qualifies once receipted.
+
+The next experiment must generalize correction to the streamed world's
+descriptor and then continue inside that epoch. Runtime experiment dispatch is
+no longer the immediate gap; observer-authored world and evaluator supply is.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

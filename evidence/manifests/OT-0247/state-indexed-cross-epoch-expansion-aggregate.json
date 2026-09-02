@@ -1,0 +1,31 @@
+{
+  "artifact_id": "state-indexed-cross-epoch-expansion-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15356,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6c4c77a92f3f0105b062713e6e60ad01678573ac",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0247",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One fresh actor crossed into one observer-authored streamed world; autonomous world creation, evaluator authorship, hosted identity, and generative reproducibility are not claimed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:state-indexed-cross-epoch-expansion-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6d76384acdc99d5f1e21adf71b01da4f3ef2b1a235f1ffb6ef33baf68af757ef"
+}

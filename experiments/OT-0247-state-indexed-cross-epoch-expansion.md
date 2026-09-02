@@ -1,6 +1,6 @@
 # OT-0247 — state-indexed cross-epoch expansion
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0246 subject `e657d7e6...`
 - **Fresh actors:** one, no retry
@@ -31,3 +31,19 @@ successor is open at `correct`. Failure is retained without retry.
 The external world stream and hidden reference remain observer-authored. This
 tests removal of experiment dispatch and runtime world choice, not autonomous
 world creation, evaluator authorship, or indefinite continuation.
+
+## Result
+
+The saturated subject's null pulse derived `expand-environment`. The state-indexed
+provider supplied the unseen resilience world, and the sole fresh actor chose
+`resilience/evacuation.py::route_shelter_buses`, authored four executable cases,
+and passed G10. Independent consequence returned 2/6.
+
+Exact successor `aab064d0...` retains the provider receipt and new visible epoch,
+preserves every prior epoch and extension, and remains open at `correct`. The
+provider rejects the same world after its receipt is retained.
+
+This removes experiment-specific runtime dispatch across one full epoch
+boundary. The next claim is descriptor-neutral correction in the new world;
+the remaining external dependency is the observer-authored world stream and its
+evaluation interfaces.

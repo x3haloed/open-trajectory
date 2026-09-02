@@ -644,6 +644,11 @@ The strongest footholds are:
   sequencing. Five fresh G10 actors correct supplies and both actor-ordered
   mobility surfaces through 4/4, 6/6, and 2/6 controls. Exact successor
   `e657d7e6...` saturates the retained epoch and routes next to expansion.
+- `OT-0247`: that next null pulse crosses the epoch boundary without manual
+  experiment dispatch. A state-indexed provider supplies the unseen resilience
+  world; a fresh actor chooses `route_shelter_buses`, passes G10, and receives
+  sealed 2/6 contradiction. Exact successor `aab064d0...` preserves both epochs
+  and is open at `correct`.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

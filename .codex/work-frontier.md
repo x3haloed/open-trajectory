@@ -90,12 +90,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0246 successor `e657d7e6...`,
+The current exact operational subject is OT-0247 successor `aab064d0...`,
 identified by
-`evidence/manifests/OT-0246/open-subject-at-retained-epoch-saturation.json`.
-It preserves the saturated three-surface outward world and all corrections,
-retains the fully corrected and verified four-surface expanded epoch, and is
-open at `assimilate` with the next null pulse routed to environment expansion.
+`evidence/manifests/OT-0247/open-subject-at-cross-epoch-contradiction.json`.
+It preserves all earlier worlds and corrections, retains the state-indexed
+resilience epoch and provider receipt, and is open at `correct` after
+actor-selected shelter-bus contact receives independent 2/6 contradiction.
 
 ## Prediction errors
 
@@ -254,7 +254,11 @@ open at `assimilate` with the next null pulse routed to environment expansion.
   identical null pulses derive correction, selection, correction, selection,
   correction; five G10 actors pass all 4/4, 6/6, and 2/6 controls; exact
   `e657d7e6...` saturates the epoch and routes next to environment expansion.
+- OT-0247 crosses that boundary without manual runtime dispatch. The provider
+  selects an unseen resilience world from state; a fresh actor chooses
+  `route_shelter_buses`; G10 and sealed 2/6 pass; exact `aab064d0...` retains both
+  epochs and remains open at `correct`.
 - Environment construction, hidden-world authorship, and final admission remain
-  external. The next discriminating step is recurrence across the saturation
-  boundary under the same content-free operator, without an outside researcher
-  choosing the next experiment or region.
+  external. The next discriminating step is descriptor-neutral correction and
+  continuation inside the streamed resilience epoch. The main external causal
+  component is now world and evaluator supply, not runtime experiment dispatch.
