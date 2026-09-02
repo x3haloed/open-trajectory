@@ -3124,5 +3124,13 @@ corrected source legitimately retained by the subject. Preserve the rejection.
 Next scope isolation to unresolved surfaces and retain direct leak controls for
 each remaining surface.
 
+OT-0297 freezes consequence-earned isolation. A package surface is earned only
+with verified status plus correction and independent-success receipts. Its
+learned reference source may appear; unresolved reference sources and hidden
+cases remain forbidden. The preflight finds one earned and two unresolved
+targets, rejects seven direct controls including a status-only counterfeit, and
+passes both renewed-selection branches at 2/6 with route 16/16 and identity
+18/18. Live output remains sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

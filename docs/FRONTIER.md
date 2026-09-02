@@ -3842,3 +3842,11 @@ next record should derive forbidden content from unresolved package surfaces,
 permit consequence-earned resolved content, and inject reference-source,
 hidden-case, and full-case controls for both remaining targets before live
 selection.
+
+OT-0297 makes isolation consequence-sensitive. Verified status is insufficient
+alone: correction and independent-success receipts must both exist before a
+surface's learned source is permitted. One earned surface passes; both
+unresolved reference sources and hidden cases, the full collection, sealed
+filename, and status-only counterfeit fail. Both remaining selection branches
+now pass unchanged. After freeze and push, rerun actor-free refresh and one
+target-untold selection in a fresh external root.

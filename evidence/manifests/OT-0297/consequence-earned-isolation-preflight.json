@@ -1,0 +1,36 @@
+{
+  "artifact_id": "consequence-earned-isolation-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1208,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "985fa093a48e1da4b7181b0e45483c0fe8f35097",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0297",
+  "input_manifests": [
+    "evidence/manifests/OT-0296/rejected-post-correction-selection-preflight.json",
+    "evidence/manifests/OT-0295/open-subject-after-recovered-world-correction.json",
+    "evidence/manifests/OT-0295/recovered-world-target-correction-aggregate.json",
+    "evidence/manifests/OT-0290/tideglass-crossings-world-package.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; live renewed selection under developmental isolation is not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-earned-isolation-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ed5e543ca6a80cfbd69fc64fa6243400bc55d27b2e272d0d178d1148618eccda"
+}
