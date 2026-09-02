@@ -1,0 +1,34 @@
+{
+  "artifact_id": "reversed-option-value-corrigibility-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5350,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "aac3fe048c51ca79c625da9efeceed5a1a2785b6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0316",
+  "input_manifests": [
+    "evidence/manifests/OT-0315/open-subject-after-option-value-stake-revision.json",
+    "evidence/manifests/OT-0315/exact-checker-materiality-reconstruction-aggregate.json"
+  ],
+  "kind": "conformance-report",
+  "limitations": [
+    "Candidate-free reversed-regime fixtures; proves a deliberate 5/0 versus 0/5 conflict and working actor-side checker, not actor correction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reversed-option-value-corrigibility-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "25ebeee5ec85d0678675d16dc7e8b7c499d2c769dc971995cc0f93308706dc97"
+}
