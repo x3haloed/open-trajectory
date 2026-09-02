@@ -1,0 +1,31 @@
+{
+  "artifact_id": "priority-causal-interpretation-correction-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 766,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6265142f6d76b7c3fc07b000d83e685b3fdc8b0c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0340",
+  "input_manifests": [],
+  "kind": "interpretation-correction",
+  "limitations": [
+    "Corrects OT-0339's priority-causal false positive to operational-only while preserving the exact valid subject transition."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:priority-causal-interpretation-correction-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "12ce5b74f132f577e854f70b7c07815f60fba9ab873016d36e4d910ac6c078be"
+}

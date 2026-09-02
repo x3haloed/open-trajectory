@@ -183,6 +183,25 @@ executable. Aggregate `004b2581...` promotes exact open child `37ebb69a...`, now
 the current operational subject. The learned stake is still byte-exact; the
 next opening is consequence for `morrowmere-lantern-01`, selected by the prior
 actor because the first comparison failed to discriminate.
+
+OT-0339 froze a scoped world-consequence challenger before that third receipt.
+A fresh actor authored a floor-preserving, viable-contact-first lexicographic
+policy and passed a hidden 5/5 expansion anchor. Under the bound policy, all
+three worlds had complete viable non-regressive contact paths: Morrow Quay and
+Harbor each had two 2/6 paths, while Morrowmere had three. The policy therefore
+selected Morrowmere over the inherited descriptor selector's Harbor choice and
+routed stake revision in exact open child `32ac5ab0...`. The priority-erased
+actor authored the same operative policy and made the same selection. OT-0340
+corrects the raw aggregate's false positive: priority causation is unsupported,
+but the operational transition and consequence-grounded selector error stand.
+Corrected aggregate `fae66322...`; current operational subject `32ac5ab0...`.
+
+The scoped viable-contact policy is a complementary world-selection signal,
+not a global replacement for E13. It is anchored to independently executable,
+floor-preserving correction paths and cannot count raw targets or regressive
+branches as expansion. Its first live result is now training evidence for the
+next stake decision; it is not yet held-out proof that revised descriptor
+machinery will select better future worlds.
 OT-0329's rejected actor patch was never inherited.
 OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
 cumulative 45/45; the matched outcome-erased author retained the global policy
@@ -226,6 +245,14 @@ are retained for prospective reconstruction.
   repair is partial-package opportunity projection or environment-scoped
   capability identity throughout the ledger. Evidence: OT-0333 aggregate
   `2f731b99...` and retained package `ffea55a7...`.
+- Expected: erasing subject priorities would change the authored world-
+  consequence policy or its downstream selection. Observed: both fresh actors
+  independently chose the same viable-contact-first ordering, passed the same
+  5/5 anchor, and selected Morrowmere; only ids and rationales differed.
+  Uncertain: whether the active priorities are behaviorally redundant with the
+  actor-visible metric meanings or need a more discriminating future regime.
+  Evidence: OT-0339 raw aggregate `521ac8ca...`, corrected by OT-0340
+  `fae66322...`.
 - OT-0318 resolves the missing-action question: a training-only executable
   workbench let a fresh actor propose and verify its own 3/3 repair, which
   reached private 5/5 against exact-parent 0/5; erasing outcomes made the same

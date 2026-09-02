@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-causal-interpretation-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1982727,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6265142f6d76b7c3fc07b000d83e685b3fdc8b0c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0340",
+  "input_manifests": [],
+  "kind": "operational-open-subject",
+  "limitations": [
+    "Exact OT-0339 operational child preserved byte-for-byte after the matched control narrows its causal interpretation."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-causal-interpretation-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d746e10a9ed1fb49afe38edfe6641590ba1849d91f8c4ee11387c28bd7df0508"
+}
