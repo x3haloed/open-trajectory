@@ -102,3 +102,13 @@ remained correctable after its earlier improvement became harmful, and that the
 replacement preferred cumulative admissible expansion over raw local gain. It
 would not establish reliability, globally correct optionality, autonomous world
 generation, or full OT-2R recurrence.
+
+## Pre-actor protocol repair
+
+The first live invocation generated and retained the private seed, then stopped
+before writing diagnostic artifacts or authorizing any actor because the
+controller referenced `write_or_verify_json` through OT-0324 rather than its
+OT-0323 base. Restart is allowed only after a tracked repair changes those four
+lookups, loads and digest-checks the exact retained private seed, recomputes the
+same deterministic world, and records that no actor output existed. The repair
+does not change world derivation, actor information, scoring, controls, or gates.

@@ -500,8 +500,30 @@ def main():
     if not report["checks"]["passed"] or (run / "aggregate.json").exists():
         raise SystemExit("OT-0325 unavailable")
 
-    seed = secrets.token_hex(32)
-    write_json(run / "private-cumulative-admissibility-seed.json", {"seed": seed, "seed_digest": p82.digest(seed)})
+    seed_path = run / "private-cumulative-admissibility-seed.json"
+    if seed_path.exists():
+        seed_record = json.loads(seed_path.read_text())
+        seed = seed_record["seed"]
+        if seed_record["seed_digest"] != p82.digest(seed):
+            raise RuntimeError("retained private seed digest mismatch")
+        actor_root = run / "actors"
+        repair_body = {
+            "authority": AUTHORITY + "-pre-actor-controller-repair",
+            "failure": "retained write_or_verify_json helper referenced through OT-0324 rather than its OT-0323 base",
+            "correction": "resolve the same helper through OT-0324.base and load rather than regenerate the retained private seed",
+            "private_seed_digest": p82.digest(seed),
+            "private_seed_reused": True,
+            "actor_output_present": actor_root.exists() and any(actor_root.rglob("output.json")),
+            "actor_authorization_reached_before_failure": False,
+            "world_derivation_changed": False,
+            "scoring_or_gates_changed": False,
+        }
+        repair = {**repair_body, "receipt_digest": p82.digest(repair_body)}
+        write_json(run / "pre-actor-controller-repair.json", repair)
+    else:
+        seed = secrets.token_hex(32)
+        write_json(seed_path, {"seed": seed, "seed_digest": p82.digest(seed)})
+        repair = None
     stake = base.base316.stake_of(parent)
     diagnostic_fronts = make_fronts(seed, stake, p82, heldout=False)
     diagnostic = front_summaries(diagnostic_fronts, parent["active_proposal_search_capability"]["source"], stake, seed, p82)
@@ -523,10 +545,10 @@ def main():
         "outcome_authority": True,
     }
     consequence = {**consequence_body, "receipt_digest": p82.digest(consequence_body)}
-    base.write_or_verify_json(run / "diagnostic-fronts.json", diagnostic_fronts)
-    base.write_or_verify_json(run / "diagnostic-front-summaries.json", diagnostic)
-    base.write_or_verify_json(run / "diagnostic-incumbent-route.json", incumbent_route)
-    base.write_or_verify_json(run / "diagnostic-route-consequence.json", consequence)
+    base.base.write_or_verify_json(run / "diagnostic-fronts.json", diagnostic_fronts)
+    base.base.write_or_verify_json(run / "diagnostic-front-summaries.json", diagnostic)
+    base.base.write_or_verify_json(run / "diagnostic-incumbent-route.json", incumbent_route)
+    base.base.write_or_verify_json(run / "diagnostic-route-consequence.json", consequence)
 
     public = fixtures(parent["active_proposal_search_capability"]["applicability"], diagnostic)
     context = b.base274.context_for(core, base130, runtime, run / "actors", repo)
@@ -604,6 +626,7 @@ def main():
         "source_causal_receipt": result324["receipt_digest"],
         "private_world_seed_digest": p82.digest(seed),
         "evaluation_transition": report["evaluation_transition"],
+        "pre_actor_controller_repair": repair,
         "diagnostic_front_summaries": diagnostic,
         "diagnostic_incumbent_route": incumbent_route,
         "diagnostic_route_consequence": consequence,
