@@ -1,0 +1,31 @@
+{
+  "artifact_id": "cross-epoch-projection-refresh-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1287,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9435f8dd3b4b65cd440b01c1494d3dac1b4230bf",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0260",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "The zero-actor freshness guard and refresh align one post-wait epoch; behavioral use by a fresh actor, recurrence across further ledger changes, and another complete wait cycle remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cross-epoch-projection-refresh-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "58182411a252e37fa51b59201e6b950a7658ecd7e3546390a87e121ad2d6f8a2"
+}

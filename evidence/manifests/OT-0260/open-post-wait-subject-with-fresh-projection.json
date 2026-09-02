@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-post-wait-subject-with-fresh-projection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1106549,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9435f8dd3b4b65cd440b01c1494d3dac1b4230bf",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0260",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject carries a current two-opportunity coordination projection and is open for selection; no actor has yet demonstrated improved selection from this refreshed artifact."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-post-wait-subject-with-fresh-projection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "6e02e1a035b8dca4168ea7aef409e312c71c2b8910080d089a0cc7e69d773147"
+}

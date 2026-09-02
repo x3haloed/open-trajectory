@@ -698,6 +698,10 @@ The strongest footholds are:
   post-wait target from state, reaches public 4/4 and sealed 6/6 against
   unchanged 2/6, and installs it. Exact `5c680025...` preserves the full
   wait/wake lineage and extended provider while remaining open at assimilation.
+- `OT-0260`: a zero-actor freshness guard detects the projection's prior-epoch
+  mismatch and refreshes it from the latest epoch and exact ledger. Exact
+  `c319bade...` carries two current, non-authoritative coordination opportunities
+  and routes next to `expanded-select` without operational drift.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

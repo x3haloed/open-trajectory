@@ -2529,5 +2529,14 @@ must produce a zero-actor projection refresh with exact AST-resolver agreement,
 fail-closed malformed source, false external authority, and `expanded-select`
 next.
 
+OT-0260 promotes with zero actors. Every freshness control passes, malformed
+source fails closed, and exact `c319bade...` carries the two current coordination
+opportunities with all external authority false and `expanded-select` next.
+
+Next test behavioral use after the full wait/wake/correct cycle. One fresh actor
+must select a truly eligible projected pair, author executable contact, pass G10,
+and receive sealed 2/6. The subsequent ledger mutation must trigger the same
+freshness guard before another selection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

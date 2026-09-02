@@ -92,17 +92,17 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0259 successor `5c680025...`,
+The current exact operational subject is OT-0260 successor `c319bade...`,
 identified by
-`evidence/manifests/OT-0259/open-post-wait-subject-after-generic-correction.json`.
+`evidence/manifests/OT-0260/open-post-wait-subject-with-fresh-projection.json`.
 It preserves all earlier worlds and corrections, has saturated the state-indexed
 resilience epoch, and carries a saturated zero-opportunity projection with every
 external authority flag false. Its durable wait was discharged by a real stream
 extension; a fresh actor then consumed the retained coordination offer into a
 new epoch, received independent contradiction, and corrected it to 6/6 against
-the unchanged 2/6 control. It is open at assimilation. Its active opportunity
-projection remains historically correct for the prior epoch but stale for the
-new active coordination epoch.
+the unchanged 2/6 control. A freshness guard has now replaced the stale prior-
+epoch projection with exactly two live, non-authoritative coordination
+opportunities. It is open with `expanded-select` next.
 
 ## Prediction errors
 
@@ -341,3 +341,8 @@ new active coordination epoch.
   assimilation with all wait/wake state preserved. The newly visible prediction
   error is a stale active opportunity projection still bound to the prior epoch;
   refresh it mechanically before another actor selection.
+- OT-0260 resolves that prediction error prospectively. A generic freshness
+  guard passes epoch, source, ledger, missing, exact-fresh, and malformed-source
+  controls; exact `c319bade...` carries the two current opportunities with no
+  authority or operational drift. Next test fresh actor use and require refresh
+  recurrence after the resulting ledger change.

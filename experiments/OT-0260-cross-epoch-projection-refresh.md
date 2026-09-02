@@ -1,6 +1,6 @@
 # OT-0260 — cross-epoch projection refresh
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0259 subject `5c680025...`
 - **Fresh actors:** zero
@@ -28,3 +28,15 @@ projection staleness; no refresh for exact current descriptors; fail-closed
 malformed source; exact agreement with the active-epoch resolver; zero actors;
 unchanged operational, wait/wake, and provider state; an open successor whose
 next operation is `expanded-select`; and retained routing and identity floors.
+
+## Result
+
+All freshness fixtures passed. The guard detected the live epoch mismatch plus
+held-out source, ledger, and missing-projection changes; exact fresh state did
+not refresh; malformed source failed closed. The generic resolver derived
+exactly the two unledgered coordination surfaces.
+
+Zero-actor successor `c319bade...` preserves operational, provider, and wait/wake
+state, carries a current non-authoritative projection, and is open with
+`expanded-select` next. The stale-projection prediction error is resolved;
+behavioral use by a fresh actor remains unclaimed.

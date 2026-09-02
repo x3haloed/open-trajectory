@@ -3225,3 +3225,15 @@ visible-source digest, and exact ledger digest. Stale state must route to a
 zero-actor deterministic refresh before selection; malformed source fails
 closed. Promotion requires exact agreement with the generic AST resolver on the
 two live coordination opportunities and no authority or operational drift.
+
+OT-0260 promotes with zero actors. Epoch, source, ledger, and missing-projection
+fixtures detect staleness; exact current state does not; malformed source fails
+closed. The generic resolver derives exactly the two live coordination surfaces.
+Exact `c319bade...` preserves operational, provider, and wait/wake state and is
+open with a fresh non-authoritative projection and `expanded-select` next.
+
+The immediate frontier is behavioral recurrence after the complete wait/wake
+cycle. One fresh actor must receive the current two-opportunity projection,
+author executable contact for an actually eligible pair without a target hint,
+pass G10, and receive independent 2/6 contradiction. Projection refresh after
+that ledger change must then recur mechanically rather than becoming stale again.
