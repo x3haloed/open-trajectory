@@ -1,0 +1,31 @@
+{
+  "artifact_id": "attributed-command-failure-audit-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4961,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "95c7ef290e2e76b77e21159d9330b8191ea1fa9e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0330",
+  "input_manifests": [],
+  "kind": "evaluation-preflight",
+  "limitations": [
+    "Deterministic frozen evaluator fixtures; no actor output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:attributed-command-failure-audit-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "feeacf62c826af07d73a6cc6fe56362c8cfc120ee89244c4989b7c3ce537adf8"
+}

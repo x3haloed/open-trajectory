@@ -72,6 +72,16 @@ consequence order, independent outcomes, unchanged or ablated comparisons,
 no-regression floors, privacy, and preserved negative evidence remain hard
 anchors.
 
+Beginning after OT-0330, prospective observer audits use G11's attributed
+command-failure refinement. G11 preserves every G10 hard rejection and its
+classified incidental-runtime exception. It additionally recovers only a
+bounded local checker/diff command when the checker objectively passes before
+a known zsh control-variable error, the same checker later passes again, all
+effects and paths are exact and contained, no actor-visible denial occurs, and
+the transport warning names no attributable path or operation. The frozen
+comparison improved 14/15 to 15/15 with no hard-anchor regression. Historical
+G10 outcomes, including OT-0329's rejection, are not rescored.
+
 Beginning after OT-0307, actor-facing coherence is a prospective hard gate:
 machine-readable opportunity count, derived operation, continuation text, and
 the actor seed may not make contradictory cardinality or phase claims. This
@@ -123,13 +133,18 @@ E13 challenger selects lower local gain that scores 25/25. Historical E12
 comparisons remain valid in their frozen scope; scores are not compared across
 epochs unless both candidates are replayed under E13.
 
-The exact current operational subject is OT-0328's contextual-selection child
-`fce8e08a...`. It preserves the full 40/40 earned floor, byte-exact E13
+The exact current operational subject is OT-0329's open partial continuation
+child `10c27b8e...`. It preserves OT-0328's full 40/40 earned floor, byte-exact E13
 assessment, learned routing, proposal search, and actor-authored falsification
-generator, and adds an actor-authored executable policy for the independently
-contradictory later context. A separate fresh actor reused its exact bytes for
-5/5 unseen and cumulative 45/45. The matched outcome-erased author retained the
-global policy and its fresh successor scored 0/5. Exact predecessors
+generator and contextual selection policy. A content-free resumption resolved
+the current environment from subject state, then a fresh actor autonomously
+selected `enter_archive` and received independent 2/6 contradiction. Its next
+derived operation remains `outward-correct`. OT-0329 rejected the following
+actor under frozen G10 and did not apply that actor's otherwise correct repair.
+OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
+cumulative 45/45; the matched outcome-erased author retained the global policy
+and its fresh successor scored 0/5. Exact predecessors
+`fce8e08a...`,
 `b915e77d...`, `20b1db21...`, `1edc2027...`, `bf92244d...`, `aba1513f...`,
 `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and `9a6f94ba...`
 remain controls, not current lineage.

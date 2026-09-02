@@ -1,0 +1,31 @@
+{
+  "artifact_id": "attributed-command-failure-audit-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5423,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "95c7ef290e2e76b77e21159d9330b8191ea1fa9e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0330",
+  "input_manifests": [],
+  "kind": "evaluation-transition",
+  "limitations": [
+    "Prospective observer-audit transition only; does not rescore OT-0329 or alter subject state."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:attributed-command-failure-audit-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "55fe3f1b3e20b7302deac1913debd5bccd2948b0cbefa9744806039761e31ee2"
+}

@@ -1,6 +1,6 @@
 # OT-0330 — Attributed command-failure audit
 
-- **Status:** frozen — unexecuted
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent evaluator:** G10 contained-denial authority
 - **Fresh actors:** zero
@@ -51,3 +51,15 @@ state, or security boundary; it improves attribution at the observer audit
 layer. It does not authorize generic retries, any actor-visible denied
 operation, an unsafe or traversal-bearing command, multiple failures, a failed
 checker, or a trace without a later successful recheck.
+
+## Result
+
+The frozen incumbent scored 14/15 and missed only the new recoverable local
+control-error case. G11 scored 15/15 and preserved all fourteen no-regression
+anchors. After promotion was decided, the disclosed OT-0329 development trace
+classified exactly as predicted: G10 rejected it, while G11 recovered it from
+the objective checker pass, bounded command shape, later successful recheck,
+exact effects, and wholly unattributed `path=unknown` warning.
+
+Aggregate receipt `c3cc1114...` activates G11 for prospective observer audits.
+It leaves OT-0329 rejected and changes no subject state or world outcome.
