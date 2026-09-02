@@ -1,0 +1,33 @@
+{
+  "artifact_id": "post-actor-controller-failure-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1114,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f908d7c3675add4d097c825f3f2e23306d467e4c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/position-bearing-front-author-trace.json"
+  ],
+  "kind": "controller-failure-trace",
+  "limitations": [
+    "Controller traceback after completed actor output and before generator binding or private-world creation."
+  ],
+  "media_type": "text/plain",
+  "reconstruction": {
+    "expected_output": "artifact:post-actor-controller-failure-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d29a1ea1708452e839312e457f99c43ed8aa4c2bd6570612bdbb292a925a4f37"
+}

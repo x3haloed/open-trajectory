@@ -1,0 +1,33 @@
+{
+  "artifact_id": "post-actor-controller-failure",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 753,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f908d7c3675add4d097c825f3f2e23306d467e4c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/post-actor-controller-failure-trace.json"
+  ],
+  "kind": "protocol-deviation-receipt",
+  "limitations": [
+    "Summary of preserved post-output controller failure and exact no-resampling reconstruction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:post-actor-controller-failure",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4fa8453a0813671efdfd5b7b762c692936f6c8f23e7343058fc4ffc9f99f72fc"
+}

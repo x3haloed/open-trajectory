@@ -1,0 +1,33 @@
+{
+  "artifact_id": "completed-active-author-reconstruction-conformance",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1049,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f908d7c3675add4d097c825f3f2e23306d467e4c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/post-actor-controller-failure.json"
+  ],
+  "kind": "protocol-repair-conformance",
+  "limitations": [
+    "Reconstructs exact completed active-author output and workspace without resampling; downstream world remains unopened."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:completed-active-author-reconstruction-conformance",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5a3f47d32ba24b020f1bccf31afdbd786b81bde84e3eea1f2d0073333a4a4c19"
+}

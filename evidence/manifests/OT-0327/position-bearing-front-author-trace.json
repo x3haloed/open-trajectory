@@ -1,0 +1,33 @@
+{
+  "artifact_id": "position-bearing-front-author-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 87941,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f908d7c3675add4d097c825f3f2e23306d467e4c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/response-schema-repair-conformance.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Single hosted generation; immutable checkpoint identity unavailable."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:position-bearing-front-author-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "ea4a9928392ea1432013ef5a01b07aca2e9717d3aa66a0e3686aa5eaab60764f"
+}

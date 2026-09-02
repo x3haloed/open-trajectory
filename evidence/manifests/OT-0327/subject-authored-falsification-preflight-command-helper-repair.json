@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-authored-falsification-preflight-command-helper-repair",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 69631,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "f908d7c3675add4d097c825f3f2e23306d467e4c",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0327",
+  "input_manifests": [
+    "evidence/manifests/OT-0327/completed-active-author-reconstruction-conformance.json"
+  ],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic preflight after command-audit helper lookup repair; no private world or new model output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-authored-falsification-preflight-command-helper-repair",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "d4ff33e779a6d78333aaa73f97cb60eaee50bb32d11376b2076cd023c5d2d1ac"
+}

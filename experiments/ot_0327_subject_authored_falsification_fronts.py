@@ -229,8 +229,19 @@ def run_author(context, root, parent, floor, p82, label, *, erased):
     if failed_evidence.exists() and not (failed_evidence / "output.json").exists():
         actor_label = label + "-retry-1"
         attempt_root = root / "retry-1"
-    seed = seed_author(attempt_root, parent, floor, p82, erased=erased)
-    output, audit0, workspace, _ = context.run_actor(actor_label, seed, GENERATOR_SCHEMA, (seed / "README.md").read_text().strip())
+    evidence = context.evidence(actor_label)
+    completed = all(
+        (evidence / name).is_file()
+        for name in ("events.jsonl", "output.json", "stderr.txt")
+    ) and (evidence / "actor-workspace").is_dir()
+    if completed:
+        seed = attempt_root / "seed"
+        output, audit0, workspace, _ = base.base.base.base.reconstruct_completed_actor(
+            context, seed, actor_label
+        )
+    else:
+        seed = seed_author(attempt_root, parent, floor, p82, erased=erased)
+        output, audit0, workspace, _ = context.run_actor(actor_label, seed, GENERATOR_SCHEMA, (seed / "README.md").read_text().strip())
     trace = (context.evidence(actor_label) / "events.jsonl").read_text()
     try:
         source = (workspace / "front-generator.py").read_text(); result = evaluate(source, position(parent, p82, erased=erased), floor)
@@ -238,13 +249,13 @@ def run_author(context, root, parent, floor, p82, label, *, erased):
         immutable_ok = all((workspace / name).read_bytes() == (seed / name).read_bytes() for name in immutable)
         changed = source != PLACEHOLDER_SOURCE
         transport = isinstance(output, dict) and output.get("action") == "author-contact-front-generator" and output.get("files_changed") == ["front-generator.py"]
-        checker = base.base.base.base.named_command_succeeded(trace, "check_generator.py")
+        checker = base.base.base.base.base.named_command_succeeded(trace, "check_generator.py")
     except (OSError, ValueError, KeyError, TypeError):
         source=None; result={"valid":False,"generic_valid":False,"position_ready":None}; immutable_ok=changed=transport=checker=False
     semantic = bool(result["valid"] and immutable_ok and changed and transport and checker)
     audit = context.audit_actor(actor_label, output, audit0, semantic, ["front-generator.py"])
     accepted = bool(semantic and base236.g10(base236.classify_retained(audit, trace)))
-    return {"actor_label":actor_label,"accepted":accepted,"source":source,"source_digest":hashlib.sha256(source.encode()).hexdigest() if source else None,"evaluation":result,"output":output,"audit":audit,"workspace_evaluation":{"immutable_ok":immutable_ok,"changed":changed,"transport":transport,"checker_invoked":checker,"semantic":semantic}}
+    return {"actor_label":actor_label,"completed_output_reconstructed":completed,"actor_resampled":False,"accepted":accepted,"source":source,"source_digest":hashlib.sha256(source.encode()).hexdigest() if source else None,"evaluation":result,"output":output,"audit":audit,"workspace_evaluation":{"immutable_ok":immutable_ok,"changed":changed,"transport":transport,"checker_invoked":checker,"semantic":semantic}}
 
 
 def binding(parent, actor, pos, p82, label):
@@ -380,6 +391,30 @@ def pre_actor_transport_failure(context, run, p82):
     return receipt
 
 
+def post_actor_controller_failure(context, run, p82):
+    evidence = context.evidence("position-bearing-front-author-retry-1")
+    if not (evidence / "output.json").exists() or (run / "active-generator-binding.json").exists():
+        return None
+    events = (evidence / "events.jsonl").read_text()
+    workspace = evidence / "actor-workspace"
+    body = {
+        "authority": AUTHORITY + "-post-actor-controller-failure",
+        "stage": "post-output-command-audit-helper-resolution",
+        "classification": "controller-helper-lookup-before-binding",
+        "actor_output_digest": p82.digest(json.loads((evidence / "output.json").read_text())),
+        "actor_source_digest": hashlib.sha256((workspace / "front-generator.py").read_bytes()).hexdigest(),
+        "checker_command_succeeded": base.base.base.base.base.named_command_succeeded(events, "check_generator.py"),
+        "generator_binding_created": False,
+        "erased_author_opened": False,
+        "private_world_created": (run / "private-front-world-seed.json").exists(),
+        "actor_resampled": False,
+        "repair": "resolve the same frozen command-audit helper through OT-0323's OT-0322 base",
+    }
+    receipt = {**body, "receipt_digest": p82.digest(body)}
+    write_json(run / "post-actor-controller-failure.json", receipt)
+    return receipt
+
+
 def preflight(root,p82,runtime,parent,result326,seed326):
     root.mkdir(parents=True,exist_ok=True); stake=base.base.base.base316.stake_of(parent); floor_eps=floor_episodes(seed326,p82); floor=floor_contacts(parent,seed326,p82)
     active=evaluate(REFERENCE_GENERATOR_SOURCE,position(parent,p82,erased=False),floor); erased=evaluate(REFERENCE_GENERATOR_SOURCE,position(parent,p82,erased=True),floor)
@@ -394,7 +429,7 @@ def preflight(root,p82,runtime,parent,result326,seed326):
         outcomes[str(truth)]={"selected_front_id":chosen["front_id"],"score":score(candidate,floor_eps,{chosen["front_id"]:heldout[chosen["front_id"]]},p82),"candidate_weights":candidate["weights"]}
     malformed=["import os\ndef generate(instance): return []\n","def generate(instance):\n    return []\n",PLACEHOLDER_SOURCE]
     schema_report=response_schema_conformance()
-    checks={"base_hash_exact":hashlib.sha256(BASE_PATH.read_bytes()).hexdigest()==BASE_SHA256,"exact_parent_and_receipt":parent["artifact_digest"]==PARENT_DIGEST and result326["receipt_digest"]==OT326_RECEIPT and result326["observer_disposition"]=="promoted","exact_floor_35":base.base.base.base319.score(stake,floor_eps,p82)["pass_count"]==35 and len(floor)==35,"retained_pipeline_exact":all(parent.get(k) for k in ("active_front_assessor_capability","active_proposal_search_router","active_proposal_search_capability")),"reference_active_ready":active["valid"] and active["position_ready"] is True,"reference_erased_generic":erased["valid"] and erased["position_ready"] is None,"seeded_active_checker_parity":active_checker["parity"],"seeded_erased_checker_parity":erased_checker["parity"],"both_hidden_rules_reach_40":all(x["score"]["prior_floor"]["pass_count"]==35 and x["score"]["new_regime"]["pass_count"]==5 and x["score"]["all_regimes"]["pass_count"]==40 for x in outcomes.values()),"malformed_rejected":all(not evaluate(x,position(parent,p82,erased=True),floor)["valid"] for x in malformed),"response_schema_explicit":schema_report["checks"]["passed"],"exact_open_conformant":parent["continuation"]["status"]=="open" and runtime.identity_conforms(parent)}; checks["passed"]=all(checks.values())
+    checks={"base_hash_exact":hashlib.sha256(BASE_PATH.read_bytes()).hexdigest()==BASE_SHA256,"exact_parent_and_receipt":parent["artifact_digest"]==PARENT_DIGEST and result326["receipt_digest"]==OT326_RECEIPT and result326["observer_disposition"]=="promoted","exact_floor_35":base.base.base.base319.score(stake,floor_eps,p82)["pass_count"]==35 and len(floor)==35,"retained_pipeline_exact":all(parent.get(k) for k in ("active_front_assessor_capability","active_proposal_search_router","active_proposal_search_capability")),"reference_active_ready":active["valid"] and active["position_ready"] is True,"reference_erased_generic":erased["valid"] and erased["position_ready"] is None,"seeded_active_checker_parity":active_checker["parity"],"seeded_erased_checker_parity":erased_checker["parity"],"command_audit_helper_available":callable(base.base.base.base.base.named_command_succeeded),"both_hidden_rules_reach_40":all(x["score"]["prior_floor"]["pass_count"]==35 and x["score"]["new_regime"]["pass_count"]==5 and x["score"]["all_regimes"]["pass_count"]==40 for x in outcomes.values()),"malformed_rejected":all(not evaluate(x,position(parent,p82,erased=True),floor)["valid"] for x in malformed),"response_schema_explicit":schema_report["checks"]["passed"],"exact_open_conformant":parent["continuation"]["status"]=="open" and runtime.identity_conforms(parent)}; checks["passed"]=all(checks.values())
     report={"authority":AUTHORITY+"-preflight","source_subject_digest":parent["artifact_digest"],"reference_source_digest":hashlib.sha256(REFERENCE_GENERATOR_SOURCE.encode()).hexdigest(),"contract_source_digest":hashlib.sha256(FRONT_CONTRACT_SOURCE.encode()).hexdigest(),"active_evaluation":active,"erased_evaluation":erased,"seeded_checker_results":{"active":active_checker,"erased":erased_checker},"response_schema_conformance":schema_report,"hidden_rule_counterfactuals":outcomes,"checks":checks}; report["receipt_digest"]=p82.digest(report); write_json(root/"fixture-conformance.json",report); write_json(root.parent/"response-schema-repair-conformance.json",schema_report); return report
 
 
@@ -403,7 +438,7 @@ def main():
     repo,store,run,p82,runtime,parent,result326,seed326,core,base130=setup(args); retained=run/"preflight/fixture-conformance.json"; report=json.loads(retained.read_text()) if retained.exists() else preflight(run/"preflight",p82,runtime,parent,result326,seed326)
     if args.preflight_only: print(json.dumps(report,indent=2,sort_keys=True)); return 0 if report["checks"]["passed"] else 2
     if not report["checks"]["passed"] or (run/"aggregate.json").exists(): raise SystemExit("OT-0327 unavailable")
-    stake=base.base.base.base316.stake_of(parent); floor_eps=floor_episodes(seed326,p82); floor=floor_contacts(parent,seed326,p82); context=b.base274.context_for(core,base130,runtime,run/"actors",repo); transport_failure=pre_actor_transport_failure(context,run,p82)
+    stake=base.base.base.base316.stake_of(parent); floor_eps=floor_episodes(seed326,p82); floor=floor_contacts(parent,seed326,p82); context=b.base274.context_for(core,base130,runtime,run/"actors",repo); transport_failure=pre_actor_transport_failure(context,run,p82); controller_failure=post_actor_controller_failure(context,run,p82)
     active_author=run_author(context,run/"active-author",parent,floor,p82,"position-bearing-front-author",erased=False); erased_author=run_author(context,run/"erased-author",parent,floor,p82,"position-erased-front-author",erased=True)
     active_bound=binding(parent,active_author,position(parent,p82,erased=False),p82,"active") if active_author["accepted"] else None; erased_bound=binding(parent,erased_author,position(parent,p82,erased=True),p82,"erased") if erased_author["accepted"] else None
     write_json(run/"active-generator-binding.json",active_bound); write_json(run/"erased-generator-binding.json",erased_bound)
@@ -424,7 +459,7 @@ def main():
     checks={"preflight_passed":report["checks"]["passed"],"authors_precede_private_world":True,"active_author_clean_and_ready":active_author["accepted"] and active_author["evaluation"]["position_ready"] is True,"active_world_directional":any(any(c["outcome"]["directional_error"] for c in f["contacts"]) for f in active_fronts),"active_pipeline_reaches_40":operational,"operational_child_sealed_before_downstream_control":(run/"active-operational-subject.json").exists(),"erased_author_clean":erased_author["accepted"],"erased_successor_clean":bool(erased_actor and erased_actor["accepted"]),"position_erasure_removes_endpoint":causal,"child_open_conformant":child["continuation"]["status"]=="open" and runtime.identity_conforms(child)}; checks["passed"]=all(checks.values())
     disposition="promoted" if checks["passed"] else ("conditional" if operational else "rejected")
     fresh_actor_count=2+int(active_actor is not None)+int(erased_actor is not None)
-    aggregate={"authority":AUTHORITY,"source_subject_digest":parent["artifact_digest"],"pre_actor_transport_failure":transport_failure,"private_world_seed_digest":p82.digest(seed),"hidden_rule":f"slope-{truth}","active_author":active_author,"erased_author":erased_author,"active_binding":active_bound,"erased_binding":erased_bound,"active_world_receipt":active_world,"erased_world_receipt":erased_world,"active_successor":active_actor,"active_route":active_route,"active_score":active_score,"stake_binding":stake_binding,"training_replay_receipt":replay,"invocation_receipt":invocation,"erased_successor":erased_actor,"erased_route":erased_route,"erased_score":erased_score,"checks":checks,"operational_transition_passed":operational,"subject_position_contact_authorship_supported":causal,"observer_disposition":disposition,"subject_disposition":child["continuation"]["status"],"final_subject_digest":child["artifact_digest"],"fresh_actor_count":fresh_actor_count}; aggregate["receipt_digest"]=p82.digest(aggregate); write_json(run/"aggregate.json",aggregate); write_json(run/"final-full-subject.json",child); print(json.dumps(aggregate,indent=2,sort_keys=True)); return 0 if operational else 2
+    aggregate={"authority":AUTHORITY,"source_subject_digest":parent["artifact_digest"],"pre_actor_transport_failure":transport_failure,"post_actor_controller_failure":controller_failure,"private_world_seed_digest":p82.digest(seed),"hidden_rule":f"slope-{truth}","active_author":active_author,"erased_author":erased_author,"active_binding":active_bound,"erased_binding":erased_bound,"active_world_receipt":active_world,"erased_world_receipt":erased_world,"active_successor":active_actor,"active_route":active_route,"active_score":active_score,"stake_binding":stake_binding,"training_replay_receipt":replay,"invocation_receipt":invocation,"erased_successor":erased_actor,"erased_route":erased_route,"erased_score":erased_score,"checks":checks,"operational_transition_passed":operational,"subject_position_contact_authorship_supported":causal,"observer_disposition":disposition,"subject_disposition":child["continuation"]["status"],"final_subject_digest":child["artifact_digest"],"fresh_actor_count":fresh_actor_count}; aggregate["receipt_digest"]=p82.digest(aggregate); write_json(run/"aggregate.json",aggregate); write_json(run/"final-full-subject.json",child); print(json.dumps(aggregate,indent=2,sort_keys=True)); return 0 if operational else 2
 
 
 if __name__ == "__main__": raise SystemExit(main())

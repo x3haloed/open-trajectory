@@ -127,3 +127,11 @@ acceptance rule, or budget. A machine-readable conformance receipt must verify
 the explicit type of every schema property and array item before one fresh
 retry under a distinct label. The retry receives the same active subject,
 floor, contract, prompt, tools, and still-uncreated private world.
+
+That retry completed and authored a generator, but the controller then looked
+for the established command-audit helper through OT-0323 rather than OT-0323's
+OT-0322 base. This stopped before semantic acceptance, generator binding,
+erased-author authorization, or private-world creation. The second operational
+repair changes only that lookup depth and reconstructs the exact completed
+actor output, trace, and workspace; it does not resample the actor. A retained
+receipt binds the failure and proves the private world remained absent.
