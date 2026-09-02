@@ -3604,3 +3604,27 @@ correction with two epoch surfaces remaining. The next test should not stop at
 this successful re-entry: carry the whole epoch to a sixth durable wait, then
 exercise the renewal policy again from an empty feed. That closing-and-reopening
 suffix is what distinguishes a standing loop from a one-time provider handoff.
+
+OT-0282 rejects before actors because its nominal row-based graph contains 18
+unreachable branches. One Morrowglass surface has only one distinct hidden
+input class after its four-row public contact. OT-0283 corrects only that design
+error, freezes all 36 reachable branches, and promotes across thirteen repeated
+null openings without retry.
+
+The exact lineage completes all three Morrowglass surfaces with consequence-
+selected correction depths, actor-authored remaining target choices, and
+unchanged 2/6 controls. It saturates the world, installs and exactly re-observes
+a sixth wait, then lets retained empty-feed renewal derive one subject-blind
+scout. That scout promotes scanner-visible `tideglass-ward-v1` with three novel
+exact-2/6 surfaces while exact subject `5cbf0278...` remains open and unchanged
+at wait.
+
+The immediate frontier is now repeated reopening rather than first reopening.
+Consume the already promoted Tideglass package through the standing scanner and
+require the same generic loop to choose, correct, saturate, wait, and renew
+again without changing its content-free entry or adding world-specific routing.
+The decisive observation is whether a second complete cycle runs under the
+same machinery, not whether a fresh bounded harness can restate the itinerary.
+Retain the new world's sealed half as independent authority and keep
+experiment-specific researcher choices out of target, phase, correction depth,
+and post-saturation continuation.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "morrowglass-reachable-recurrence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 2564,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6cdccb388ecb722a6895389e3894f27d5397b91b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0283",
+  "input_manifests": [
+    "evidence/manifests/OT-0283/reachable-recurrence-preflight.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One bounded cycle in one synthetic world family; the generated next world was not consumed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:morrowglass-reachable-recurrence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "90f887a83b43ceab764b5abc22294daa8036d498a9b3dbc2b3897b239925bda9"
+}

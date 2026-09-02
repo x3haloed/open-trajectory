@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-sixth-wait",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1450003,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "6cdccb388ecb722a6895389e3894f27d5397b91b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0283",
+  "input_manifests": [
+    "evidence/manifests/OT-0283/morrowglass-reachable-recurrence-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "This checkpoint remains at the sixth wait while a promoted provider package is external to subject state."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-sixth-wait",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "99fe252146ddb8e176cca5c2c2bbf74ecd5fb0bcaa7d94bccbccb23614c12036"
+}

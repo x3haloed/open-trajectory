@@ -1,6 +1,6 @@
 # OT-0283 — Morrowglass reachable recurrence
 
-- **Status:** preflight passed; live output sealed
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0281 subject `7c78deda...`
 - **Predecessor:** rejected OT-0282 preflight `7a500c1e...`
@@ -63,3 +63,26 @@ design and its passing preflight are committed and pushed.
 Preflight receipt `8752f62e...` passes all 36 reachable branches, exact
 duplicate-input outcome consistency, OT-0282 rejection preservation, provider
 isolation, route 16/16, and identity 18/18.
+
+## Result
+
+Thirteen identical content-free openings and eight fresh actors passed the
+frozen bounded cycle without retry. The inherited `admit_vessel` correction
+took two encounters (2/6, unresolved, then 6/6). Fresh target-untold actors then
+selected `assign_watch` and `levy_due`; their corrections took one and two
+encounters respectively. Every successful correction beat an unchanged 2/6
+control, and the unresolved 5/6 `levy_due` hypothesis plus its new mismatch was
+retained across actors rather than discarded.
+
+Actor-free refresh saturated Morrowglass and installed the sixth durable wait.
+Its exact repeated empty-feed observation left the subject byte-identical and
+derived `renew-world-feed`. One subject-blind restricted scout then authored
+and promoted `tideglass-ward-v1`, with three ledger-novel exact-2/6 surfaces,
+truthful contained effects, and standing-scanner visibility. The waiting subject
+remained exact and open at `5cbf0278...`; the new world was not consumed.
+
+Aggregate receipt `5fc6d7f5...`. This establishes one bounded closing,
+waiting, and reopening recurrence in the current synthetic-world regime. It
+does not establish indefinitely repeated renewal, autonomous improvement of
+the renewal machinery, or continuation beyond the researcher-supplied package
+language, evaluator, and scout role.

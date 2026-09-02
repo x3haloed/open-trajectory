@@ -2904,5 +2904,35 @@ actor choices, install and re-observe a sixth wait, then require empty-feed
 renewal to derive another subject-blind world scout without experiment-specific
 phase selection.
 
+OT-0282 rejects before actor authorization. Its prospective graph treated all
+three six-row surfaces as if each exposed two distinct undisclosed inputs after
+four public rows. `admit_vessel` instead contains a duplicated input with a
+consistent outcome, so its second nominal counterexample is unreachable: 18 of
+54 frozen branches fail exactly at that impossible depth. The retained
+preflight corrects the design model without changing exact OT-0281.
+
+OT-0283 freezes the corrected graph over input-equivalence classes. Derived
+feedback capacities are one, two, and two; all 36 reachable target-order and
+correction-depth branches pass before live output. The repeated entry remains
+content-free, world consequence chooses correction depth, and the final scout
+receives neither subject state nor lineage identity.
+
+OT-0283 promotes across thirteen null resumptions and eight fresh actors.
+`admit_vessel` corrects through one retained contradiction; fresh actors then
+choose and complete `assign_watch` directly and `levy_due` through a retained
+5/6 correction. Each admitted successor reaches 6/6 against unchanged 2/6.
+Actor-free saturation installs and exactly re-observes a sixth wait; the second
+empty feed derives renewal rather than closure. One subject-blind scout authors
+scanner-visible `tideglass-ward-v1` with three novel exact-2/6 surfaces while
+exact open subject `5cbf0278...` remains unchanged at wait. Aggregate receipt
+`5fc6d7f5...`.
+
+This is the first bounded full closing-and-reopening cycle in which one repeated
+entry carries correction, actor-authored target recurrence, honest waiting, and
+renewed external provision without experiment-specific phase choice. The new
+world remains unconsumed. Repeated renewal across it, generalization beyond the
+current package language, and consequence-driven revision of renewal itself
+remain stronger claims.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
