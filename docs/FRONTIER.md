@@ -2936,3 +2936,13 @@ operator must cross saturation into another inspectable objective world, allow
 one fresh actor to choose its region without a target or task, receive
 consequence, and continue. Requiring a researcher to stop and author a new
 experiment at this boundary remains a hidden causal dependency.
+
+OT-0247 freezes a state-indexed cross-epoch branch in the same null-pulse
+operator. At exact saturation, `expand-environment` asks an external stream for
+the next unseen world identity; the provider cannot choose a target and refuses
+the world once its receipt is simulated. The new resilience world contains four
+surfaces across three modules, all preflighted at visible execution and sealed
+2/6. One fresh actor receives no registry, reference, target, task, or preferred
+region. Promotion requires provider receipt, actor-chosen contact, G10,
+independent contradiction, exact retention of all prior epochs and extensions,
+and an open `correct` successor.

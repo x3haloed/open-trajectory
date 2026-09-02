@@ -2301,5 +2301,13 @@ expanded targets, saturates the retained epoch, and remains open at
 must cross that boundary using the same continuation operator rather than an
 outside researcher selecting another experiment.
 
+OT-0247 freezes the cross-epoch branch of that operator. Saturation-derived
+`expand-environment` obtains the next unseen world from a state-indexed external
+stream; the provider selects only by unconsumed world identity and cannot choose
+a target. A fresh actor sees a new four-surface resilience world without a
+registry, reference, target, task, or preferred region. All candidates pass
+visible execution and sealed 2/6 controls. Promotion requires G10 actor choice,
+provider and world receipts, prior-history preservation, and open correction.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
