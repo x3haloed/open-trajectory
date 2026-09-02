@@ -3056,3 +3056,13 @@ driver must continue from this corrected successor through selection,
 correction, selection, correction, selection, correction, stopping on the first
 rejection. This is six remaining transitions, not a restart of the failed
 seven-pulse comparisons.
+
+OT-0252 freezes that exact six-transition suffix while applying the learned
+invariants symmetrically. Selection and correction both derive mutation paths
+from the active descriptor and both use workspace semantics, exact effects,
+complete trace, containment, action, and schema as causal authority while output
+path/target claims limit provenance. Landscape and resilience selection
+workspaces pass the shared live evaluator. All six orders of the three remaining
+targets pass selection 2/6 and correction 4/4→6/6 versus unchanged 2/6, preserve
+the lineage, and saturate the epoch. Live execution stops on first rejection;
+only six uninterrupted null-pulse transitions promote.

@@ -2395,5 +2395,13 @@ Resume the descriptor-complete driver from this successor for the six remaining
 selection/correction transitions. Stop at the first rejection; do not rerun the
 already admitted shelter correction.
 
+OT-0252 freezes the six-transition suffix with symmetric descriptor and output
+authority. Selection no longer retains its dormant fixed landscape initializer;
+both selection and correction derive mutation policy from the active epoch and
+apply the active G9/G10 boundary. Both descriptor families and all six target
+orders pass the complete prospective path. The live run receives six identical
+null pulses, stops on first rejection, and cannot repeat the admitted shelter
+correction.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
