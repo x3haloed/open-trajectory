@@ -356,10 +356,21 @@ def run_router_actor(context, root, parent, diagnostic, consequence, fixtures):
     if failed_evidence.exists() and not (failed_evidence / "output.json").exists():
         label = "proposal-search-router-reviser-retry-1"
         attempt_root = root / "retry-1"
-    seed = router_actor_seed(attempt_root, parent, diagnostic, consequence, fixtures)
-    output, audit0, workspace, _ = context.run_actor(
-        label, seed, ROUTER_SCHEMA, (seed / "README.md").read_text().strip()
-    )
+    evidence = context.evidence(label)
+    completed = all(
+        (evidence / name).is_file()
+        for name in ("events.jsonl", "output.json", "stderr.txt")
+    ) and (evidence / "actor-workspace").is_dir()
+    if completed:
+        seed = attempt_root / "seed"
+        output, audit0, workspace, _ = base.reconstruct_completed_actor(
+            context, seed, label
+        )
+    else:
+        seed = router_actor_seed(attempt_root, parent, diagnostic, consequence, fixtures)
+        output, audit0, workspace, _ = context.run_actor(
+            label, seed, ROUTER_SCHEMA, (seed / "README.md").read_text().strip()
+        )
     trace = (context.evidence(label) / "events.jsonl").read_text()
     try:
         source = (workspace / "route_search.py").read_text()
@@ -369,7 +380,7 @@ def run_router_actor(context, root, parent, diagnostic, consequence, fixtures):
             for name in immutable
         )
         conformance = router_conforms(source, fixtures)
-        checker_invoked = base.named_command_succeeded(trace, "check_router.py")
+        checker_invoked = base.base.named_command_succeeded(trace, "check_router.py")
         changed = source != parent["active_proposal_search_router"]["source"]
         transport = bool(
             isinstance(output, dict)
@@ -386,6 +397,8 @@ def run_router_actor(context, root, parent, diagnostic, consequence, fixtures):
     accepted = bool(semantic and base236.g10(normalized))
     return {
         "actor_label": label,
+        "completed_output_reconstructed": completed,
+        "actor_resampled": False,
         "accepted": accepted,
         "source": source,
         "source_digest": hashlib.sha256(source.encode()).hexdigest() if source else None,
@@ -652,6 +665,28 @@ def main():
     router_actor = run_router_actor(
         context, run / "router-revision", parent, diagnostic, consequence, public
     )
+    machinery_controller_repair = None
+    if router_actor["completed_output_reconstructed"]:
+        repair_body = {
+            "authority": AUTHORITY + "-post-machinery-output-controller-repair",
+            "failure": "command-invocation helper referenced through the OT-0323 wrapper rather than its OT-0322 base",
+            "correction": "resolve the same frozen named_command_succeeded helper through OT-0323.base",
+            "actor_output_digest": p82.digest(router_actor["output"]),
+            "actor_patch_digest": router_actor["audit"]["patch_digest"],
+            "actor_resampled": False,
+            "private_seed_reused": True,
+            "diagnostic_consequence_reused": True,
+            "actor_information_changed": False,
+            "world_or_score_changed": False,
+            "gates_changed": False,
+        }
+        machinery_controller_repair = {
+            **repair_body, "receipt_digest": p82.digest(repair_body)
+        }
+        base.write_or_verify_json(
+            run / "post-machinery-output-controller-repair.json",
+            machinery_controller_repair,
+        )
     if router_actor["accepted"]:
         changed, unchanged, correction, capability = compile_router_branches(
             parent, router_actor, diagnostic, consequence, p82
@@ -760,6 +795,7 @@ def main():
         "private_world_seed_digest": p82.digest(seed),
         "pre_actor_transport_failure": transport_failure,
         "response_schema_repair_conformance": schema_report,
+        "post_machinery_output_controller_repair": machinery_controller_repair,
         "diagnostic_front_summaries": diagnostic,
         "diagnostic_incumbent_route": incumbent_route,
         "diagnostic_route_consequence": consequence,

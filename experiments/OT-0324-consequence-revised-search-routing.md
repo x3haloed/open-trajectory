@@ -105,3 +105,11 @@ The restart path also loads and digest-checks the retained private seed and
 verifies the recomputed diagnostic fronts, summaries, route, and consequence
 byte-for-value before authorizing that retry; it may not regenerate or
 overwrite them.
+
+The retry actor completed and changed only the router, but the controller then
+referenced the frozen command-invocation helper through OT-0323 rather than
+OT-0323's imported OT-0322 base. This second failure occurred after output and
+before adoption. The repair changes only that one-level lookup and reconstructs
+the exact completed actor output, patch, and trace; it does not resample the
+machinery actor or alter its information, consequence, world, scoring, or
+gates. A dedicated repair receipt is required in the final evidence.
