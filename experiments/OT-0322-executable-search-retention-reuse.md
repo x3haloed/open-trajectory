@@ -1,6 +1,6 @@
 # OT-0322 — Executable search retention and reuse
 
-- **Status:** frozen
+- **Status:** completed — promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0321 subject `2ea43872...`
 - **Claim:** causally successful proposal-search machinery can become an exact
@@ -99,3 +99,23 @@ researcher-designed, and fixed machinery compiles it from causal receipt; the
 researcher still chose the new regime and invoked the encounter. The next test
 must present multiple possible openings and let inherited subject state select
 whether and where this retained capability runs.
+
+## Result
+
+Every frozen gate passed. Before contact, the fixed compiler bound the exact
+search source to its retained OT-0321 causal receipt and sealed an open
+capability-bearing intermediate subject. The fresh actor inherited and invoked
+that source, received a complete search from incumbent 0/3 to best 3/3, selected
+the nearest reported witness, changed only `call_nodes` from +1 to -1, updated
+its rationale, and passed search, replay, checker, output, and G10 effect gates.
+
+On the private mixed trajectory the changed stake scores 5/5 in the new
+call-only regime and preserves the earlier-plus-reversed 10/10 floor, for 15/15
+overall. The source-erased actor received identical new outcomes and retained
+capability metadata but its search reported executable source unavailable. It
+ran every required tool, retained exactly, and remained 10/15.
+
+Aggregate `8cd60fd0...` promotes exact open child `09d58f1a...`. The child
+contains the executable search source, its applicability boundary, actor-authored
+call correction, and reuse replay receipt. This is one bounded causal cross-
+actor reuse observation, not autonomous invocation or a reliability estimate.

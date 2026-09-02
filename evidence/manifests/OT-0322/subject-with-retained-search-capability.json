@@ -1,0 +1,34 @@
+{
+  "artifact_id": "subject-with-retained-search-capability",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1698664,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8fdf44813a876c6987e22f4deab860f3a6461af9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0322",
+  "input_manifests": [
+    "evidence/manifests/OT-0321/open-subject-after-reachable-revision-search.json",
+    "evidence/manifests/OT-0321/exact-weight-bound-reconstruction-aggregate.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Deterministically compiled intermediate subject carrying exact search source bound to prior causal receipt; not yet fresh-actor reuse evidence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-with-retained-search-capability",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4eee316984a917ff45a491b7f028377239299f23596348ae50e437c7cc5e979b"
+}

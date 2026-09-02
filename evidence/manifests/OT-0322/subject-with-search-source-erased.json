@@ -1,0 +1,33 @@
+{
+  "artifact_id": "subject-with-search-source-erased",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1694138,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8fdf44813a876c6987e22f4deab860f3a6461af9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0322",
+  "input_manifests": [
+    "evidence/manifests/OT-0321/open-subject-after-reachable-revision-search.json"
+  ],
+  "kind": "full-subject-control",
+  "limitations": [
+    "Matched intermediate control retains capability metadata and digest but erases executable source."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:subject-with-search-source-erased",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "f7ec8fe26f3adb05d9c706f42245077b51faf23064cf39463c259584e7f1448f"
+}

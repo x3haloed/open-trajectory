@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-call-world-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8fdf44813a876c6987e22f4deab860f3a6461af9",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0322",
+  "input_manifests": [
+    "evidence/manifests/OT-0322/executable-search-retention-reuse-preflight.json"
+  ],
+  "kind": "private-world-seed",
+  "limitations": [
+    "Private post-freeze seed for orthogonal call-only training and held-out catalogs; no actor output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-call-world-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5b7d3c857f1a4eb2ae4f05e8fa3ba4995b8c596ff6de35b1266cdad146b6bf74"
+}

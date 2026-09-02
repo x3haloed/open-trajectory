@@ -229,6 +229,15 @@ condition, not the permanent purpose or executive of the resulting subject.
 - `OT-0118` reconstructs that exact evidence but rejects promotion: the denied
   command target is absent from retained events, and the assimilator used an
   unpublished contact-id rather than portfolio-id citation namespace.
+- `OT-0318` through `OT-0322` establish one bounded later-corrigible and
+  cumulative selection chain. Consequence-grounded candidate evaluation alone
+  oscillated; jointly retained outcomes still failed when no proposal was
+  generated; generic search produced a cumulative candidate; exact
+  reconstruction repaired a stale hidden admission bound; and a later fresh
+  actor inherited the executable search source, applied it to an orthogonal
+  contradiction, and improved from a preserved 10/10 floor to 15/15. The
+  source-erased control retained at 10/15. This does not establish generation
+  reliability or subject-owned choice of when and where search runs.
 
 Exact historical records and raw-artifact identities remain authoritative in
 `experiments/` and `evidence/manifests/`. The former cumulative ledger is

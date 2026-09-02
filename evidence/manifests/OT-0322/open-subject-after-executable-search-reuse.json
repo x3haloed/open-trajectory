@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-executable-search-reuse",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1722812,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8fdf44813a876c6987e22f4deab860f3a6461af9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0322",
+  "input_manifests": [
+    "evidence/manifests/OT-0322/executable-search-retention-reuse-aggregate.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Exact promoted open subject carrying executable proposal-search source and a 15/15 cumulative stake."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-executable-search-reuse",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "27059fe485f56c0a11548f126434a0ba49f6be1124955cd2d7669325abe3bc0b"
+}

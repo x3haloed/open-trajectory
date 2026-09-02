@@ -105,14 +105,13 @@ scores of 0/5. The historical actor-visible checker remained nonconformant, but
 the frozen materiality audit reconstructed every contact, score, binding, and
 child exactly and found the symmetric checker crash causally immaterial.
 
-The exact current operational subject is OT-0321's reconstructed proposal-search
-child `2ea43872...`. It preserves the open `expanded-select` position, retains
-provenance-bound contradiction, counterfactual replay, the unresolved OT-0319
-search error, and the exact proposal-search receipt. The receipt binds a tool
-digest but the child does not contain the executable search source, so reusable
-search capability is not yet established. Its cumulative stake uses branch -20,
-comparison -17, and source-byte +1 weights. Exact predecessors `21e90d47...`,
-`0a48ab16...`, and `9a6f94ba...` remain controls, not current lineage.
+The exact current operational subject is OT-0322's executable-search reuse child
+`09d58f1a...`. It preserves the open `expanded-select` position, prior
+provenance and cumulative 10/10 floor, and now carries the byte-exact proposal-
+search source with its causal receipt and applicability boundary. A fresh actor
+reused it to change only the call coefficient from +1 to -1 and reach 15/15.
+Exact predecessors `2ea43872...`, `21e90d47...`, `0a48ab16...`, and
+`9a6f94ba...` remain controls, not current lineage.
 
 ## Prediction errors
 
@@ -155,13 +154,20 @@ comparison -17, and source-byte +1 weights. Exact predecessors `21e90d47...`,
   baselines, erased no-improvement control, receipts, binding, and open child
   reconstructed without resampling. Exact child `2ea43872...` is promoted by
   aggregate `103e94a2...`; historical OT-0320 remains invalidated.
-- Expected: OT-0321's retained proposal-search receipt made search part of the
-  active subject mechanism. Observed: the exact child contains the search result
-  and source digest but no executable source; a fresh successor cannot invoke a
-  digest. The cumulative stake improvement remains valid, but reusable search
-  capability is unestablished. The next prospective test should bind the exact
-  source to its causal receipt, retain it with an explicit applicability
-  boundary, and require a fresh actor to reuse it on a new orthogonal
-  contradiction while preserving the 10/10 floor. A source-erased matched branch
-  must remove the executable path. Only after reuse should a multi-opening test
-  ask subject state to choose whether and where search runs.
+- OT-0321 retained only a search digest and receipt, not executable source.
+  OT-0322 bound the exact source to that causal receipt and a compact
+  applicability boundary. A fresh successor inherited it, searched an
+  orthogonal call-only contradiction, changed call weight +1 to -1, replayed
+  3/3, and reached private 15/15 while preserving the earlier 10/10 floor. The
+  source-erased actor saw identical outcomes but search was unavailable; it
+  retained at 10/15. Evidence: aggregate `8cd60fd0...`, exact child
+  `09d58f1a...`.
+- Search is now an exercisable inherited capability, but fixed compilation,
+  encounter choice, and invocation timing remain external. The next prospective
+  test should give exact `09d58f1a...` multiple simultaneously available
+  openings: at least one saturated surface and one independently contradicted
+  surface. A fixed driver must derive the route from the subject's retained
+  applicability state, open a fresh actor only on the selected surface, and
+  reach held-out improvement. An applicability/choice-erased branch must remove
+  the route or change the contact. This tests subject-selected invocation rather
+  than another researcher-assigned reuse.

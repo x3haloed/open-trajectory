@@ -1,0 +1,34 @@
+{
+  "artifact_id": "source-erased-reuse-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 21533,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "8fdf44813a876c6987e22f4deab860f3a6461af9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0322",
+  "input_manifests": [
+    "evidence/manifests/OT-0322/call-structure-training-contacts.json",
+    "evidence/manifests/OT-0322/subject-with-search-source-erased.json"
+  ],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Fresh matched control trace with executable search source erased; actor retained."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:source-erased-reuse-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "9b84fcf21277b02a60f0455eba9c96a556ba6588691d509c8e75b46c60ea26a0"
+}
