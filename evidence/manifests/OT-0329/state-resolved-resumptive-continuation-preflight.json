@@ -1,0 +1,31 @@
+{
+  "artifact_id": "state-resolved-resumptive-continuation-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3140,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "2d95218c75837733b151747eaf9021407bc9d079",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0329",
+  "input_manifests": [],
+  "kind": "preflight-conformance",
+  "limitations": [
+    "Deterministic preflight only; no live actor output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:state-resolved-resumptive-continuation-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a93b27db2cfafeaea1acb192b708326ea2228b6e909845492f53b01fdf72c46e"
+}
