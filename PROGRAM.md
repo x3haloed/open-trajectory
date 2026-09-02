@@ -3172,5 +3172,14 @@ branches preserve explicit target-untold selection, reach 6/6 against unchanged
 wait, and derive renewal. Route 16/16 and identity 18/18 remain exact. Live
 output stays sealed until push.
 
+OT-0300 rejects at the final-surface correction compiler after valid progress.
+Actor-free refresh and explicit `route_pulse` selection pass at 2/6. The fresh
+corrector then truthfully surrenders, changes only its decision, and passes G10;
+sealed outcome is unresolved. The feedback compiler nevertheless requires a
+patched source digest for every unresolved actor and raises a binding mismatch.
+No successor exists; exact `78f2c0e1...` remains current. Next preserve accepted
+surrender plus one world counterexample as non-authoritative feedback, keep the
+correction open, and authorize a fresh successor from that consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

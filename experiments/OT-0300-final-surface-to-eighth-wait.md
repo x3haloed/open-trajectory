@@ -1,6 +1,6 @@
 # OT-0300 — Final surface to eighth wait
 
-- **Status:** preflight passed; live output sealed pending freeze commit
+- **Status:** rejected at final-surface correction feedback compilation
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0299 corrected subject `9d0546e6...`
 - **Invocation:** repeated identical content-free openings
@@ -37,3 +37,19 @@ selection, reaches eventual 6/6 against unchanged 2/6, earns exactly all three
 surfaces, saturates, installs the eighth wait, re-observes it exactly, and
 derives renewal. Route 16/16 and identity 18/18 remain exact. Preflight receipt
 `27237458...`.
+
+## Live result
+
+Actor-free refresh and explicit final-surface selection pass. The fresh selector
+authors `route_pulse`, passes G10 and developmental isolation, and receives
+unresolved 2/6 consequence. The following fresh corrector truthfully chooses the
+allowed `surrender` disposition, changes only its decision, and passes G10. The
+sealed evaluator returns unresolved consequence, but the inherited feedback
+compiler raises `unresolved correction binding mismatch` because it requires a
+patched source digest even though surrender correctly binds no source.
+
+No successor is compiled and exact selected subject `78f2c0e1...` remains
+authoritative. Preserve the rejection. The next design must give accepted
+surrender a non-authoritative feedback transition: retain the surrender and one
+world counterexample, keep correction open, and let a fresh actor decide again.
+It may not reinterpret surrender as a revision or success.

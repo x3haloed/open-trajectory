@@ -1,0 +1,33 @@
+{
+  "artifact_id": "retained-final-surface-pre-correction-subject",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1563047,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "40609aa092cf7062c7ab08d2612b6ad96f8c34b9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0300",
+  "input_manifests": [
+    "evidence/manifests/OT-0300/accepted-final-surface-surrender-binding.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact authoritative subject retained because the surrender feedback compiler raised before producing a successor."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-final-surface-pre-correction-subject",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "fc98ba9e950fc267ecea1bcc5244a2f7e5612a0250dab559209af72ce05eccf1"
+}

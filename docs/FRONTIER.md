@@ -3892,3 +3892,18 @@ reachable correction depth includes the explicit actor-authored final contact,
 earns all three surfaces only after consequence, saturates, installs and exactly
 reobserves an eighth wait, and derives renewal. After freeze and push, repeated
 identical empty openings may traverse that graph with no phase or target input.
+
+OT-0300 reaches the final selected surface but rejects on a missing surrender
+transition. The selector validly authors `route_pulse` and receives 2/6. A fresh
+G10-clean corrector then chooses the contract's allowed `surrender` disposition
+without proposing source bytes. Sealed consequence is unresolved, but the
+feedback compiler assumes every unresolved actor revised source and requires a
+patched-source digest. No successor is compiled and exact `78f2c0e1...` remains
+authoritative.
+
+This is not malformed actor output. The next record should treat accepted
+surrender as consequence-bearing non-success: bind the surrender decision and
+world receipt, disclose one canonical counterexample without candidate source,
+leave correction active, and let the ordinary next empty opening authorize a
+fresh actor. Controls must reject surrender with source bytes, revision without
+source bytes, mismatched contact identity, and any success or earned authority.

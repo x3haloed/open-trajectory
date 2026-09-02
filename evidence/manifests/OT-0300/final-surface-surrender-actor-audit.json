@@ -1,0 +1,33 @@
+{
+  "artifact_id": "final-surface-surrender-actor-audit",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1830,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "40609aa092cf7062c7ab08d2612b6ad96f8c34b9",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0300",
+  "input_manifests": [
+    "evidence/manifests/OT-0300/accepted-final-surface-surrender-binding.json"
+  ],
+  "kind": "actor-audit",
+  "limitations": [
+    "Clean actor audit associated with an accepted surrender whose feedback transition crashed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:final-surface-surrender-actor-audit",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3429bfc65c4743ae441723753abe277c96758a29c6c35b0f8e7b6dae0839a84d"
+}
