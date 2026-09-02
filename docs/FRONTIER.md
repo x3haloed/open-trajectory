@@ -3344,3 +3344,10 @@ reopening and intra-epoch phase choice are no longer hidden researcher inputs in
 this bounded chain, while the provider remains an experiment-authored source of
 novel worlds. The next reductions should preserve objective external novelty
 without requiring a researcher to design each world arrival.
+
+OT-0267 freezes the smallest replacement: a content-addressed standing feed
+scanner with a bounded public package schema and no target or consequence
+authority. It must detect a held-out package invisible to the old catalog
+provider, reject malformed or duplicate catalogs, install without changing the
+live fourth-epoch correction, and remain only component evidence until a later
+independently authored package actually wakes the subject.

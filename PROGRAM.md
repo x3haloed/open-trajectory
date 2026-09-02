@@ -2632,5 +2632,12 @@ world/provider boundary: novelty may properly arrive from outside, but provider
 extension is still an experiment-authored fixture rather than a standing live
 source.
 
+OT-0267 freezes a standing provider interface before changing that live phase.
+It scans bounded content-addressed world packages from `$WORLD_FEED`, fails
+closed on malformed catalogs, filters already consumed or offered worlds, and
+has no target, scoring, admission, outcome, or actor authority. The decisive
+control holds subject and package fixed: the old catalog provider remains empty
+while the standing scanner must see the new package.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
