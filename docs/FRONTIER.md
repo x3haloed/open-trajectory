@@ -2867,3 +2867,11 @@ invoke another actor under that route. The next experiment must prospectively
 replace the count input with a state-derived eligible-opportunity count spanning
 the active retained epoch, preserve all prior routes, and route this exact
 successor to selection within the expanded environment.
+
+OT-0244 freezes that prospective resolver. It parses top-level public callables
+from the active retained epoch's visible sources, subtracts ledgered targets,
+and routes assimilation to `expanded-select` when any remain. Eleven held-out
+classifications include every prior route plus expanded-live precedence and
+mixed old/expanded cases. Promotion requires 11/11, no regression of the nine
+prior cases, exact resolution of the current three opportunities, a conformant
+successor, and no operational state change. No actor is invoked.

@@ -2245,5 +2245,12 @@ an actor under that route. A prospective selector revision must derive eligible
 opportunities from retained environment epochs, preserve existing routes, and
 send the exact successor into expanded-world selection.
 
+OT-0244 freezes that selector revision without an actor. A generic AST resolver
+extracts public callables from retained epoch sources and subtracts exact ledger
+targets; no candidate registry is added. Eleven held-out classifications cover
+all prior routes and expanded-live precedence. Promotion requires 11/11, all
+nine old cases preserved, exact recognition of the current three opportunities,
+and a conformant successor with operational state unchanged.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
