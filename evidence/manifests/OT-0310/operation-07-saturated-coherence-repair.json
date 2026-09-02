@@ -1,0 +1,33 @@
+{
+  "artifact_id": "operation-07-saturated-coherence-repair",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1962,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a021b7e13d705a905a5ee9b5eeb715e2b77dc306",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0310/operation-06-saturation-refresh.json"
+  ],
+  "kind": "live-operation",
+  "limitations": [
+    "Actor-free narrative repair exposes the next operation but does not implement environment expansion."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:operation-07-saturated-coherence-repair",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8dbf28f92d8c2ac72b1904598a8f023b344401343571ebdf375bb370ad91dfc6"
+}

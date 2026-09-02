@@ -3345,5 +3345,15 @@ correction and refresh, and saturated repair without observer operation or
 target choice. Ten operations and six actors bound observation; a clean open
 boundary is censoring, not closure. One live run is authorized only after push.
 
+OT-0310 promotes in one scheduler authorization. The exact live sequence is
+correction, refresh, coherence repair, remaining target-untold selection,
+correction, refresh, and saturated coherence repair. Three fresh actors use
+8, 8, and 6 contained commands. They correct `light_watch` to 6/6, select
+`admit_log` and receive independent 2/6 contradiction, then correct it to 6/6;
+both unchanged controls remain 2/6. Exact open successor `59a1f68c...` has zero
+remaining local opportunities and derives `expand-environment`. All seven
+operations pass. The unsupported-operation stop is the frozen censoring
+boundary, not closure or failure. Aggregate receipt `ac4e911a...`.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

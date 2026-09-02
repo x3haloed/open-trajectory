@@ -1,0 +1,33 @@
+{
+  "artifact_id": "admit-log-selection-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 300676,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a021b7e13d705a905a5ee9b5eeb715e2b77dc306",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0310/state-driven-multi-operation-preflight.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Hosted actor deployment identity is not independently receipted; trace supports bounded actor provenance only."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:admit-log-selection-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "16362b52283f4f8975bb1634d2f08ba2234519e09f4cd42de65ba1d6b4a7018d"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "operation-03-coherence-repair",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1925,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a021b7e13d705a905a5ee9b5eeb715e2b77dc306",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0310/operation-02-projection-refresh.json"
+  ],
+  "kind": "live-operation",
+  "limitations": [
+    "Actor-free narrative repair has no selection, world, scoring, or admission authority."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:operation-03-coherence-repair",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2d0c2722bb27fefeb226bf3afb0331f53485ea57c71c01ee4d8f3c73d5f6cbfe"
+}

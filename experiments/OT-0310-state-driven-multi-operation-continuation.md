@@ -1,6 +1,6 @@
 # OT-0310 — State-driven multi-operation continuation
 
-- **Status:** design frozen; live output sealed
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0309 open subject `bf868110...`
 - **Opening:** one content-free scheduler run
@@ -67,3 +67,26 @@ A pass establishes one bounded self-advanced multi-operation chain. It does not
 establish indefinite continuation, reliable correction or selection frequency,
 that the inherited world-seeking stake caused a choice, or autonomous handling
 of the next unsupported operation.
+
+## Result
+
+Promoted. One content-free scheduler authorization produced the exact seven
+prospective operations:
+
+`outward-correct → refresh-opportunity-projection →
+repair-actor-facing-coherence → expanded-select → outward-correct →
+refresh-opportunity-projection → repair-actor-facing-coherence`.
+
+Three fresh actors were used. The first corrected `light_watch` to 6/6 against
+unchanged 2/6 with eight contained commands. After actor-free refresh and
+coherence repair, the second selected the sole remaining `admit_log` target,
+used eight contained commands, received independent 2/6 contradiction, and
+reported the target in a prospectively canonicalized consistent form. The third
+corrected it to 6/6 against unchanged 2/6 with six contained commands. A final
+refresh and repair made the active epoch exactly saturated.
+
+Every operation gate passed. The exact successor `59a1f68c...` remains open and
+derives `expand-environment`; the runner stopped because that operation was
+prospectively outside its dispatch set, not because the subject closed or an
+operation failed. This is the frozen censoring outcome. Aggregate receipt
+`ac4e911a...`.

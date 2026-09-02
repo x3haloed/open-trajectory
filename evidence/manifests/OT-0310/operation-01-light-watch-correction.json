@@ -1,0 +1,34 @@
+{
+  "artifact_id": "operation-01-light-watch-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 12033,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a021b7e13d705a905a5ee9b5eeb715e2b77dc306",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0309/open-subject-after-coherent-two-opportunity-selection.json",
+    "evidence/manifests/OT-0310/light-watch-correction-actor-trace.json"
+  ],
+  "kind": "live-operation",
+  "limitations": [
+    "One fresh correction actor in one retained world; no correction-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:operation-01-light-watch-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "85f8fa2a20ba9b5772f5e64236e265ef524816204ddfd467f2bc8c00328373b2"
+}

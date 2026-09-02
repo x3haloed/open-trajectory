@@ -1,0 +1,34 @@
+{
+  "artifact_id": "light-watch-correction-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 126470,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a021b7e13d705a905a5ee9b5eeb715e2b77dc306",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0309/open-subject-after-coherent-two-opportunity-selection.json",
+    "evidence/manifests/OT-0310/state-driven-multi-operation-preflight.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Hosted actor deployment identity is not independently receipted; trace supports bounded actor provenance only."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:light-watch-correction-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "752b4b6af3a5444bfa35535c27f315063f4571d5c91b121c54ff90a5df27d907"
+}

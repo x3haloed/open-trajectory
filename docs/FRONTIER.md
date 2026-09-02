@@ -127,16 +127,22 @@ choice.
   disclosure and canonicalize future target reports before they enter
   actor-visible continuity.
 
-OT-0310 is frozen against exact `bf868110...`. Reconstruction found that a
-successful correction normally makes the old projection stale before refresh,
-but OT-0308's guard rejected that transient. The amendment permits refresh only
-from a receipt-valid projection when the inherited driver, verified last-target
-state, and exact one-target resolver delta all agree; malformed, wrongly
-resealed, and authority-missing controls reject. A content-free scheduler may
-now derive and dispatch correction, refresh, coherence repair, and target-untold
-selection for up to ten operations and six fresh actors. No observer chooses an
-operation or target. Reaching a clean open budget or unsupported-operation
-boundary is censoring rather than closure. Preserve the world-seeking stake and
-OT-0305 negative verdict without treating either as selection evidence. If the
-multi-operation chain is operational, next admit its unsupported frontier or
-return to discriminating the stake across additional catalogs.
+Exact open subject `59a1f68c...` is the result of one state-driven run crossing
+seven operations and three fresh actors without observer operation or target
+choice. It corrected `light_watch`, refreshed and repaired its projection,
+selected and received contradiction on `admit_log`, corrected that target, and
+refreshed to a coherent saturated epoch. Every operation passed. The runner
+then censored observation at its prospectively unsupported
+`expand-environment` operation while the subject remained open. Evidence:
+OT-0310 aggregate `ac4e911a...`.
+
+The immediate experiment should admit that exact unsupported operation into
+the state-driven dispatcher using the already retained environment-expansion
+and standing-provider authorities, then continue deriving rather than returning
+control to an observer. Preserve fresh workspaces, broad tools, G10,
+consequence-earned isolation, and the distinction between a finite observation
+boundary and closure. Freeze adversarial authority and malformed-offer controls
+before live use. Preserve the world-seeking stake and OT-0305 negative verdict
+without treating either as selection evidence; after the chain crosses into a
+new environment, use the added catalogs to revisit stake selectivity with less
+collision-prone matched controls.

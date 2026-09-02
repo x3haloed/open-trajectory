@@ -1,0 +1,34 @@
+{
+  "artifact_id": "operation-05-admit-log-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11714,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a021b7e13d705a905a5ee9b5eeb715e2b77dc306",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0310/operation-04-admit-log-selection.json",
+    "evidence/manifests/OT-0310/admit-log-correction-actor-trace.json"
+  ],
+  "kind": "live-operation",
+  "limitations": [
+    "One fresh correction actor in one retained world; no correction-frequency claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:operation-05-admit-log-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e3ab0d4182324283567a42ac56a560b38479d1bd7d89af166a81a9a0980e1dc7"
+}

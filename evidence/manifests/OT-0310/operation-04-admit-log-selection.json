@@ -1,0 +1,36 @@
+{
+  "artifact_id": "operation-04-admit-log-selection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 11032,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "a021b7e13d705a905a5ee9b5eeb715e2b77dc306",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0310",
+  "input_manifests": [
+    "evidence/manifests/OT-0310/operation-03-coherence-repair.json",
+    "evidence/manifests/OT-0310/admit-log-selection-actor-trace.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0280/import-stable-world-evaluator-aggregate.json"
+  ],
+  "kind": "live-operation",
+  "limitations": [
+    "One fresh target-untold actor selected the sole projected target; this is operational continuity, not a selection-frequency estimate."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:operation-04-admit-log-selection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "b67dbb8df6dd6f78091e8c896b02d38a7eccb2f11c7475eceabae54a5703533a"
+}
