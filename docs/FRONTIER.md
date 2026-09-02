@@ -2908,3 +2908,13 @@ This is recurrent opportunity use rather than another observer-provided
 expansion: the selected supplies surface was already retained before the pulse.
 The next frontier is correction reuse on this second expanded-world module,
 followed by another content-free return to the two remaining epoch surfaces.
+
+Outcome reorientation rejects another manually isolated correction as too weak:
+OT-0243 already established the correction mechanism once. OT-0246 instead
+freezes one retained-epoch continuation operator across five identical null
+pulses. It must correct supplies, let fresh actors choose and contradict each
+remaining mobility surface in either possible order, correct each, and reach
+exact saturation. Both orders are preflighted end to end. Promotion requires the
+derived operation sequence `correct, select, correct, select, correct`, five G10
+actors, correction 4/4→6/6 versus 2/6 controls, selection 2/6 receipts, retained
+history, and an exact open successor whose next null pulse expands environment.

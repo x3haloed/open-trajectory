@@ -2280,5 +2280,14 @@ The next experiment should reuse expanded-world correction on this second
 module and then return through the content-free selector to the two remaining
 retained opportunities. No new expansion world is warranted yet.
 
+Outcome reorientation replaces a one-step OT-0246 correction with a stronger
+orchestration claim. One reusable operator must consume five identical null
+pulses and derive correction, selection, correction, selection, correction
+across the whole retained epoch. Both possible mobility-selection orders are
+frozen and preflighted. Promotion requires five fresh G10 actors, correction
+public 4/4 and prospective 6/6 against unchanged 2/6, selection consequence 2/6,
+exact retained history, final epoch saturation, and an open successor that
+routes the next null pulse to environment expansion.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
