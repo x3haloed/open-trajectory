@@ -133,18 +133,21 @@ E13 challenger selects lower local gain that scores 25/25. Historical E12
 comparisons remain valid in their frozen scope; scores are not compared across
 epochs unless both candidates are replayed under E13.
 
-The exact current operational subject is OT-0329's open partial continuation
-child `10c27b8e...`. It preserves OT-0328's full 40/40 earned floor, byte-exact E13
+The exact current operational subject is OT-0331's open partial correction
+child `c0667653...`. It preserves OT-0328's full 40/40 earned floor, byte-exact E13
 assessment, learned routing, proposal search, and actor-authored falsification
-generator and contextual selection policy. A content-free resumption resolved
-the current environment from subject state, then a fresh actor autonomously
-selected `enter_archive` and received independent 2/6 contradiction. Its next
-derived operation remains `outward-correct`. OT-0329 rejected the following
-actor under frozen G10 and did not apply that actor's otherwise correct repair.
+generator and contextual selection policy. Across the rejected OT-0329 and
+OT-0331 run boundary, content-free resumption resolved the environment from
+subject state, corrected the autonomously selected archive surface to 6/6,
+refreshed and repaired actor-facing coherence, selected the remaining ration
+surface, and received another 2/6 contradiction. Its first correction improved
+to 4/6 but objective contact retained an east-district counterexample rather
+than granting success. The next derived operation remains `outward-correct`.
+OT-0329's rejected actor patch was never inherited.
 OT-0328's separate fresh actor reused its exact policy bytes for 5/5 unseen and
 cumulative 45/45; the matched outcome-erased author retained the global policy
 and its fresh successor scored 0/5. Exact predecessors
-`fce8e08a...`,
+`10c27b8e...`, `fce8e08a...`,
 `b915e77d...`, `20b1db21...`, `1edc2027...`, `bf92244d...`, `aba1513f...`,
 `09d58f1a...`, `2ea43872...`, `21e90d47...`, `0a48ab16...`, and `9a6f94ba...`
 remain controls, not current lineage.

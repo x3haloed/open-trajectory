@@ -1,6 +1,6 @@
 # OT-0331 — G11 resumptive continuation
 
-- **Status:** frozen — unexecuted
+- **Status:** rejected at frozen actor budget — exact child remains open
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0329 open partial child `10c27b8e...`
 - **Fresh actors:** at most three
@@ -77,3 +77,28 @@ base audit, altered trace or stderr, failed G11 disposition, or any other field
 difference still rejects. The exact completed operation may then be resealed
 and resumed without actor or world resampling. Its initially rejected aggregate
 and operation remain preserved.
+
+## Result
+
+After exact reconstruction of the apparatus-only operation-one stop, OT-0331
+completed five valid content-free operations with all three authorized fresh
+actors. The first fresh corrector independently repaired `enter_archive` to
+6/6 versus unchanged 2/6. State then derived projection refresh and actor-
+facing coherence repair. A fresh selector chose the sole remaining
+`harbor/ration.py::receive_ration` surface and received independent 2/6
+contradiction.
+
+The third actor passed its five-case visible correction checker and G11, but
+its district-specific threshold scored only 4/6 against the sealed world while
+unchanged remained 2/6. The world therefore refused success and retained the
+lowest canonical counterexample: east district with water 1 must be admitted.
+Exact child `c0667653...` is open at another `outward-correct` operation and
+contains that consequence. No projected opportunity was falsely completed.
+
+The frozen three-actor budget then ended the run. OT-0331 remains rejected for
+its seven-operation endpoint claim; aggregate `e3dbb6b0...` records the
+boundary. Its five valid operations are bounded evidence that continuity
+crossed the failed OT-0329 run and that objective contact—not closure pressure
+or the observer—kept an insufficient correction open. The next experiment may
+resume the exact counterexample-bearing child but may not retry or widen this
+one.

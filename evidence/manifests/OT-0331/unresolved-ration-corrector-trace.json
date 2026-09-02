@@ -1,0 +1,31 @@
+{
+  "artifact_id": "unresolved-ration-corrector-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 47069,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d0c90f79a9c3ccb14e576a17ed1eaab29ffe29f6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0331",
+  "input_manifests": [],
+  "kind": "actor-trace",
+  "limitations": [
+    "Fresh broad-tool correction trace; candidate was not promoted as success."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:unresolved-ration-corrector-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0d6d85db12059279eaccebd7003d62d024d2f0cae9b2d81d21759965f15c48f2"
+}

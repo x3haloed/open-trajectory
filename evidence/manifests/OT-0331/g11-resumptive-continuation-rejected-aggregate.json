@@ -1,0 +1,31 @@
+{
+  "artifact_id": "g11-resumptive-continuation-rejected-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3708,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d0c90f79a9c3ccb14e576a17ed1eaab29ffe29f6",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0331",
+  "input_manifests": [],
+  "kind": "rejected-aggregate",
+  "limitations": [
+    "Frozen three-actor budget exhausted after a valid 4-of-6 unresolved correction; exact subject remains open for another correction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:g11-resumptive-continuation-rejected-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "3e11fb244d50b1432e6aa0be635144d5785217127371fae35d00b94084103fdd"
+}

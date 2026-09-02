@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-after-partial-ration-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1949698,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "d0c90f79a9c3ccb14e576a17ed1eaab29ffe29f6",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0331",
+  "input_manifests": [],
+  "kind": "open-subject",
+  "limitations": [
+    "Exact open child after archive correction, refresh, coherence repair, ration selection, and unresolved 4-of-6 correction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-partial-ration-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1e661d264c01fcede5ffcd02b446a36f7c812b00273d580ab12bf754ea708231"
+}
