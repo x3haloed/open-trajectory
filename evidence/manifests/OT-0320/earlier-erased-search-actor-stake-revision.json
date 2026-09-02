@@ -1,0 +1,33 @@
+{
+  "artifact_id": "earlier-erased-search-actor-stake-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1611,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb80b4f63b053055a025f262de6301b7b3918902",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0320",
+  "input_manifests": [
+    "evidence/manifests/OT-0320/earlier-erased-search-actor-trace.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Erased control retained exact incumbent after complete 3/3 search."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:earlier-erased-search-actor-stake-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5233f9071ea2a60d1839939f062d979a20e93aec2514ada8e4afa8cb8b1a7fe6"
+}

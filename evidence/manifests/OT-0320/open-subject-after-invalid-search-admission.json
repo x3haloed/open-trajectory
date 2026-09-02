@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-invalid-search-admission",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1672741,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb80b4f63b053055a025f262de6301b7b3918902",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0320",
+  "input_manifests": [
+    "evidence/manifests/OT-0320/reachable-revision-search-raw-aggregate.json"
+  ],
+  "kind": "full-subject",
+  "limitations": [
+    "Exact unchanged OT-0318 parent reopened because the OT-0320 candidate was not admitted."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-invalid-search-admission",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "56e59e5b4334fb7f4c700c079f749e72d0a76f704d8260de15c9e8abddd889e5"
+}

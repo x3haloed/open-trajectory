@@ -123,3 +123,10 @@ candidate-only evaluator is sufficient for cumulative correction. The observed
 missing edge is proposal search or counterexample generation: the actor could
 evaluate a candidate but incorrectly declared the reachable legal surface
 exhausted without exploring it.
+
+OT-0320 subsequently exposed that the actor-visible and hidden operational
+weight bounds disagreed: the public contract allowed -20 through 20 while a
+legacy validator still enforced -4 through 4. OT-0319's raw behavioral
+observation remains exact—the actor did not explore the visible surface—but its
+claim that the operational carrier already contained a cumulative successor is
+limited pending bound reconciliation.

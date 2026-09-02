@@ -1,0 +1,33 @@
+{
+  "artifact_id": "full-history-search-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 38245,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb80b4f63b053055a025f262de6301b7b3918902",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0320",
+  "input_manifests": [
+    "evidence/manifests/OT-0320/reachable-revision-search-preflight.json"
+  ],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Fresh actor adopted and verified a reported 6/6 search witness, but a stale hidden bound invalidated admission."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:full-history-search-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2df5cb89e65975fba00676fc33c17d299df29dd002e521ed5b76cf765e4f6ccc"
+}

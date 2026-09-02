@@ -1,0 +1,33 @@
+{
+  "artifact_id": "full-history-search-actor-stake-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1644,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb80b4f63b053055a025f262de6301b7b3918902",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0320",
+  "input_manifests": [
+    "evidence/manifests/OT-0320/full-history-search-actor-trace.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Actor-authored changed stake passed public -20..20 checker and 6/6 replay; hidden legacy -4..4 validator rejected it."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:full-history-search-actor-stake-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8c8f3df19b811642dd0c0eed45da47d012c59032695da51d00d98f3114535359"
+}

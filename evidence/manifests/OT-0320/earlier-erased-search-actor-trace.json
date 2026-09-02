@@ -1,0 +1,33 @@
+{
+  "artifact_id": "earlier-erased-search-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15317,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb80b4f63b053055a025f262de6301b7b3918902",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0320",
+  "input_manifests": [
+    "evidence/manifests/OT-0319/earlier-outcome-erased-completed-contacts.json"
+  ],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "Fresh erased control trace; complete search found no improvement and actor retained."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:earlier-erased-search-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c2f830d40def32e50d4d8501dccc87125958140e2a5f7063f87b27d3002a7924"
+}

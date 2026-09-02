@@ -1,6 +1,6 @@
 # OT-0320 — Reachable revision search
 
-- **Status:** frozen
+- **Status:** completed — invalidated by hidden bound
 - **Evidence class:** exploratory-only
 - **Parent:** exact open subject `21e90d47...`, unchanged by rejected OT-0319
 - **Claim:** a consequence-grounded search operation supplies the missing
@@ -97,3 +97,27 @@ into cumulative actor-adopted machinery improvement. It would still leave the
 search machinery researcher-designed and the experiment/world choice external.
 The next work must test whether the subject can retain and reuse this operation,
 then use its own unresolved state to choose where to apply or revise it.
+
+## Result
+
+The substantive path reached the intended endpoint before admission. The clean
+full-history actor ran the search, chose its nearest reported witness, changed
+weights to `branch_nodes=-20`, `comparison_nodes=-17`, and `source_bytes=1`,
+updated its rationale, passed the actor-visible checker, and independently
+replayed 6/6. The matched erased actor received a complete 3/3 no-improvement
+search and retained exactly. The changed candidate also scores 10/10 post hoc
+on the frozen private mixed trajectory versus both exact baselines at 5/10.
+
+The transition is not promoted. OT-0314's public contract and corrected checker
+allow integer weights from -20 through 20, but the composed hidden
+`base305.valid_stake` still enforces -4 through 4. That unpublished stale bound
+made the candidate semantic gate false even though every actor-visible check,
+tool invocation, file effect, replay, output, and causal control conformed. Raw
+aggregate `53fe475f...` is therefore invalidated for admission; exact parent
+`21e90d47...` remains open.
+
+The actors' behavior and post-hoc score are retained as diagnostic evidence,
+not silently promoted. The next record must freeze a candidate-free exact
+materiality reconstruction that aligns only the hidden bound with the already
+published contract, exercises positive and negative fixtures, and replays every
+retained byte and score without resampling.

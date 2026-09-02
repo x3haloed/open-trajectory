@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-search-world-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "bb80b4f63b053055a025f262de6301b7b3918902",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0320",
+  "input_manifests": [
+    "evidence/manifests/OT-0320/reachable-revision-search-preflight.json"
+  ],
+  "kind": "private-world-seed",
+  "limitations": [
+    "Private post-freeze mixed held-out seed; no actor output."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-search-world-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e3601acdb273a9c3910c101cc499828d592066beef2bd9b7aba59a9ccdd2d228"
+}

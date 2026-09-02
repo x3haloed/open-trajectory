@@ -130,20 +130,21 @@ current lineage.
   weights score 0/5 on OT-0314's prior regime while the parent remains 5/5.
   The mechanism is corrigible but oscillatory. Evidence: OT-0318 aggregate
   `1b16230d...`, exact child `21e90d47...`.
-- Expected: jointly replayable authenticated outcomes plus the candidate-only
-  workbench would let OT-0319's fresh actor find a cumulative legal stake.
-  Observed: the clean actor saw 6/6 outcomes and exact-current 3/6, but retained
-  without trying an edit because it falsely declared the linear surface
-  incapable of improvement. Frozen exhaustive conformance contains a legal 6/6
-  witness scoring 10/10 on the mixed family; exact current and prior stakes each
-  score 5/10. The earlier-erased control correctly retained at 3/3 available.
-  Evidence: rejected aggregate `03492917...`; exact subject remains
-  `21e90d47...`.
-- The next test should add a generic actor-visible falsification/search operation
-  over the already public bounded stake contract and revealed consequence. It
-  should report reachable improving candidates or a certificate of exhaustion,
-  without private worlds or acceptance authority. A fresh actor must choose and
-  install a candidate, independently replay it at 6/6, and reach mixed private
-  10/10; earlier-outcome erasure must remove the cumulative advantage. This
-  tests the missing proposal-generation edge, not stronger exhortation or a new
-  representation.
+- OT-0319's full-history actor saw incumbent 3/6 but retained without testing a
+  successor, asserting that no visible legal vector could improve. OT-0320 added
+  generic exhaustive proposal search; its fresh actor adopted a reported
+  witness and reached 6/6, while the erased actor received a complete 3/3
+  no-improvement result and retained. The candidate scores post-hoc private
+  10/10 versus exact current and prior 5/10.
+- OT-0320 cannot promote that path because the public -20..20 contract and
+  checker conflict with a legacy hidden -4..4 validator. The candidate passed
+  every visible tool, replay, output, and effect gate but failed only that stale
+  unpublished bound. Raw aggregate `53fe475f...` is invalidated for admission;
+  exact subject remains `21e90d47...`. This also limits OT-0319's claim that the
+  *operational* carrier already contained the visible witness.
+- The next record should candidate-freely align only the hidden validator with
+  the established public bound, run counterfeit and boundary fixtures, and
+  reconstruct OT-0320's exact candidate, tool results, private score, control,
+  binding, and child without resampling. Promotion is warranted only if every
+  material field is byte-exact or independently recomputed and the bound defect
+  is the sole rejecting cause. Historical OT-0320 remains invalidated.
