@@ -3395,3 +3395,10 @@ test is now scanner-mediated arrival: inject only OT-0268's exact public
 projection, require zero-actor wait discharge, then require a fresh subject
 actor to choose an offered surface without sealed access and receive consequence
 from OT-0268's already retained sealed half.
+
+OT-0270 freezes this two-call test. All three package surfaces must pass
+prospectively, while empty, seen, malformed, and repeated-offer controls protect
+scanner and wake semantics. The live actor sees public sources and contact
+machinery only. Promotion requires an actor-free third wake followed by one
+actor-authored public contact whose 2/6 consequence comes from the unchanged
+OT-0268 sealed package.

@@ -2682,5 +2682,11 @@ the dormant package remains unconsumed. Next expose the exact OT-0268 public
 package through the installed scanner and require causal wait discharge before
 any fresh subject actor chooses a surface or receives sealed consequence.
 
+OT-0270 freezes that crossing as two calls to one content-free entry point. The
+first exposes only OT-0268's exact public projection to the standing scanner and
+must discharge the third wait without an actor. The second lets one fresh actor
+choose and publicly exercise any offered surface without the sealed half; only
+then may the retained OT-0268 references and cases issue the consequence.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
