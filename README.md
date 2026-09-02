@@ -730,6 +730,10 @@ The strongest footholds are:
   old catalog provider cannot see, rejects malformed catalogs, and installs
   without changing the live correction. Exact `f02cf7cd...` remains open; an
   independently authored post-freeze package is the next behavioral test.
+- `OT-0268`: one fresh world-side actor, given no subject state or target
+  catalog, authors `three-lantern-courier-v1`. Its three actor-named visible
+  callables each score 2/6 against sealed references and its public projection
+  passes the standing scanner. The subject remains exact and unchanged.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

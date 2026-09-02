@@ -390,3 +390,10 @@ the subject is open at `correct` and routes to correction before refresh.
   after the scanner freeze; retain it externally and require eventual discovery
   and consequence through the exact subject rather than treating package
   conformance as endpoint success.
+- OT-0268 supplies that post-freeze package with one world-side actor and no
+  subject state or target catalog. `three-lantern-courier-v1` exposes three
+  actor-named callables, each exactly 2/6 against its sealed reference, and its
+  public projection passes the retained scanner. The subject remains exact
+  `f02cf7cd...`. Next finish the fourth epoch, then require the standing scanner
+  to discover this dormant package and carry it through subject choice and
+  independent consequence.

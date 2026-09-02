@@ -3368,3 +3368,15 @@ sealed package in a published restricted execution language. Acceptance requires
 scanner admission and exactly 2/6 visible/reference agreement for each of three
 actor-named callables. The package stays external; the subject remains unchanged
 until later feed discovery.
+
+OT-0268 promotes after reconstruction from the sole retained actor workspace.
+The independently named `three-lantern-courier-v1` package carries tide, lift,
+and permit surfaces, each exactly 2/6 against its sealed reference. Its public
+projection passes the exact standing scanner; subject `f02cf7cd...` remains
+byte-identical and open at correction.
+
+The immediate frontier rejoins the operational lineage. Finish the fourth epoch
+without consuming the dormant package early. Only after saturation and waiting
+may the exact standing scanner discover it. A subsequent subject actor must
+choose among its surfaces without sealed access and receive consequence from the
+already retained package; otherwise OT-0267/0268 remain component successes.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "independent-world-package-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 9315,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7c77e1e77a1e590426123be163b2533d4a86922e",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0268",
+  "input_manifests": [
+    "evidence/manifests/OT-0268/independent-three-lantern-world-package.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "Package authorship and standing-scanner admission pass after one apparatus reconstruction; later subject wake, choice, consequence, and recurrence remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:independent-world-package-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "417b54e45d63ce40468e22b8e540135b2b675256b6e29479de7de82226703d6c"
+}

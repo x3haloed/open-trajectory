@@ -1,0 +1,31 @@
+{
+  "artifact_id": "independent-three-lantern-world-package",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 3831,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "7c77e1e77a1e590426123be163b2533d4a86922e",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0268",
+  "input_manifests": [],
+  "kind": "external-world-package",
+  "limitations": [
+    "One independently actor-authored visible-plus-sealed world package; it has not yet been discovered or acted upon by the continuing subject."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:independent-three-lantern-world-package",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "192a7e0428846028a4959404c3ab10cd6bb84923ad8de61a2a9230d8a2322163"
+}

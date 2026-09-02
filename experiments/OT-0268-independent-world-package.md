@@ -1,6 +1,6 @@
 # OT-0268 — independent world package
 
-- **Status:** frozen
+- **Status:** promoted after exact reconstruction
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0267 subject `f02cf7cd...`
 - **Fresh actors:** one world-side author, no retry
@@ -39,3 +39,22 @@ The sole actor completed before the observer raised on an assumed top-level
 observer is repaired to reconstruct from the exact retained workspace, audit,
 trace, and output using those established fields. No actor is resampled and no
 semantic gate, package byte, world case, or threshold changes.
+
+## Result
+
+The retained sole actor package promotes after exact reconstruction. The actor
+invents world `three-lantern-courier-v1` with public callables `decide_tide`,
+`dispatch_lift`, and `issue_permit` across three independently named paths. Each
+visible implementation agrees with its sealed reference on exactly 2/6 cases.
+The full package digest is `84dbb070...`; its standing-feed public projection is
+`d5fc3c59...` and is admitted with every external authority false.
+
+The actor changes only `world-package.json`, reports it exactly, produces a
+complete five-command trace, and passes G10 under a contained denied incidental
+runtime operation with no outside effect. Aggregate receipt `7026047a...`
+records the result. No actor is resampled during reconstruction.
+
+Exact subject `f02cf7cd...` remains byte-identical, open, and routed to
+fourth-epoch correction. The package is retained externally but has not yet
+entered the subject's feed observation, wait discharge, selection, or world
+consequence path.

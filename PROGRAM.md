@@ -2657,5 +2657,17 @@ world package under the standing public interface. Its sealed half must make all
 three visible callables independently contradictable at exactly 2/6. The exact
 subject does not advance in this component record.
 
+OT-0268 promotes after one exact apparatus reconstruction and no actor resample.
+The world-side actor authors `three-lantern-courier-v1`; tide, lift, and permit
+callables each score visible 2/6 against their sealed references, and the public
+package passes the retained standing scanner. Exact subject `f02cf7cd...`
+remains unchanged at correction.
+
+Next finish the fourth epoch through the content-free driver while retaining the
+package externally. On saturation, the subject's standing scanner—not new
+provider code—must discover this exact public package, discharge the resulting
+wait, and expose it to a fresh subject actor. Independent consequence must come
+from OT-0268's sealed half.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
