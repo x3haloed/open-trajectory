@@ -3237,3 +3237,9 @@ cycle. One fresh actor must receive the current two-opportunity projection,
 author executable contact for an actually eligible pair without a target hint,
 pass G10, and receive independent 2/6 contradiction. Projection refresh after
 that ledger change must then recur mechanically rather than becoming stale again.
+
+Preflight reasoning exposes a policy-ordering error before that actor is spent:
+OT-0260 refreshes stale `correct`, `contact`, `widen`, and unknown phases before
+their inherited operations. OT-0261 freezes phase-aware precedence: projection
+refresh only at assimilation, inherited routing otherwise. Seven held-out
+fresh/stale phase cases must pass with no operational change.

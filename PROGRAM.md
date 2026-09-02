@@ -2538,5 +2538,11 @@ must select a truly eligible projected pair, author executable contact, pass G10
 and receive sealed 2/6. The subsequent ledger mutation must trigger the same
 freshness guard before another selection.
 
+OT-0261 freezes a prerequisite precedence repair. A ledger-changing live
+contradiction makes the projection stale, but correction must remain next;
+refresh may intercept only the later assimilation boundary before another
+selection. Seven fresh/stale phase fixtures must pass with zero actors and no
+operational drift.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
