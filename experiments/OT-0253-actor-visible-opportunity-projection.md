@@ -1,6 +1,6 @@
 # OT-0253 — actor-visible opportunity projection
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0252 partial subject `7965191a...`
 - **Fresh actors:** zero
@@ -31,3 +31,14 @@ world is invoked.
 This experiment establishes a compact derived carrier, not improved actor
 behavior. A separate fresh-actor comparison must test whether the carrier changes
 selection from the exact position where OT-0252 produced a non-move.
+
+## Result
+
+Promoted with zero actors. All ten fixtures pass, the live projection exactly
+matches the promoted generic resolver, malformed source fails closed, and the
+implementation contains no literal for the derived target. The carrier marks
+selection, world, scoring, and admission authority false.
+
+Exact successor `0c3b42bb...` preserves every operational field and remains open
+at `expanded-select` while carrying one compact active opportunity. Improved
+fresh-actor selection remains unproven pending the next experiment.

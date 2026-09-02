@@ -3093,3 +3093,16 @@ async, latest-epoch, malformed, reordered, irrelevant-ledger, and saturated
 states; malformed source fails closed. Promotion requires exact agreement with
 the promoted resolver on `7965191a...`, one active opportunity, no hardcoded
 live target, no operational change, and the same open `expanded-select` route.
+
+OT-0253 promotes with zero actors. All ten fixtures pass; malformed source fails
+closed; the live projection exactly matches the existing resolver and contains
+one opportunity whose target is absent from the implementation. Exact successor
+`0c3b42bb...` preserves every operational field and remains open at
+`expanded-select`. The carrier explicitly has no selection, world, scoring, or
+admission authority.
+
+The next frontier is a direct behavioral comparison against OT-0252's retained
+non-move. A fresh actor from `0c3b42bb...` receives the same environment and
+ledger plus the compact projection. It must still author executable contact,
+pass G10, and receive independent 2/6 contradiction; the projection cannot bind
+or admit the target itself.

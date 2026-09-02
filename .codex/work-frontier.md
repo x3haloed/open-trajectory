@@ -92,13 +92,14 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0252 partial successor `7965191a...`,
+The current exact operational subject is OT-0253 successor `0c3b42bb...`,
 identified by
-`evidence/manifests/OT-0252/open-partial-subject-after-four-suffix-transitions.json`.
+`evidence/manifests/OT-0253/open-subject-with-active-opportunity-projection.json`.
 It preserves all earlier worlds and corrections, retains the state-indexed
 resilience epoch and provider receipt, and is open at `assimilate` after rescue
 and food complete four additional selection/correction transitions. One
-resilience surface remains mechanically eligible.
+resilience surface remains mechanically eligible and is carried in a compact,
+non-authoritative active opportunity projection.
 
 ## Prediction errors
 
@@ -303,3 +304,7 @@ resilience surface remains mechanically eligible.
   opportunity projection is sufficient to improve selection from this exact
   position without turning the observer into the target selector. Test that
   projection prospectively before another actor encounter.
+- OT-0253 installs that projection after 10/10 fixtures and exact agreement with
+  the promoted resolver. Exact `0c3b42bb...` changes no operational pursuit and
+  remains open. The next fresh actor is the behavioral test; authored executable
+  contact and independent consequence remain mandatory.

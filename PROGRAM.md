@@ -2422,5 +2422,15 @@ cases must pass, including fail-closed malformed source and saturation. The
 exact parent must yield one opportunity, remain operationally unchanged, and
 retain `expanded-select`; improved actor behavior remains a separate claim.
 
+OT-0253 promotes: 10/10, exact agreement with the promoted resolver, fail-closed
+malformed source, one active opportunity, no hardcoded live target, and no
+operational change. Exact `0c3b42bb...` remains open at `expanded-select` with a
+non-authoritative compact projection.
+
+Next test behavior from that exact successor. A fresh actor must use or reject
+the projection under the same content-free selection contract; only authored
+executable contact plus G10 and independent 2/6 consequence may advance the
+lineage.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -1,0 +1,31 @@
+{
+  "artifact_id": "actor-visible-opportunity-projection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5937,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b57586de8a339150687fa4275cf66c92d40d2043",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0253",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "A deterministic state-derived projection is installed with no actor; improved move selection remains untested until a fresh actor encounter."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:actor-visible-opportunity-projection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "0042a48b22f1054bad39f7be7047c3beb1c607547332c80c1b2a5c3dc06ac221"
+}

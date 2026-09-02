@@ -669,6 +669,10 @@ The strongest footholds are:
   through four admitted selection/correction transitions. A fifth fresh actor
   makes no selection and is rejected; exact reconstructed successor
   `7965191a...` remains open with one resilience surface mechanically eligible.
+- `OT-0253`: the promoted generic resolver's result becomes a compact
+  actor-visible projection with no selection or world authority. Ten source and
+  ledger fixtures pass; exact open successor `0c3b42bb...` carries one active
+  opportunity without changing operational pursuit.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

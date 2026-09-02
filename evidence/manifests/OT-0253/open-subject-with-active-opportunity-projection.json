@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-with-active-opportunity-projection",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1051227,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "b57586de8a339150687fa4275cf66c92d40d2043",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0253",
+  "input_manifests": [
+    "OT-0253/actor-visible-opportunity-projection-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The subject carries one non-authoritative active opportunity and remains open at selection; actor use and world consequence are not yet demonstrated."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-active-opportunity-projection",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "73e8b35667f84e6dd6685ec995986b0e40933e6e42bd15633e0bec427a84495f"
+}
