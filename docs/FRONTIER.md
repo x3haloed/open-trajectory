@@ -3596,3 +3596,11 @@ offer-consumption path, exact 2/6 Morrowglass consequence, and correction-first
 routing. Wake is actor-free and preserves the renewal policy; actor seed and
 harness contain no target name. Live output remains sealed until the freeze is
 pushed.
+
+OT-0281 promotes. Zero-actor wake consumes only the promoted Morrowglass public
+package; a fresh target-untold actor chooses `admit_vessel` and receives exact
+2/6 consequence. Exact `7c78deda...` preserves standing renewal and is open at
+correction with two epoch surfaces remaining. The next test should not stop at
+this successful re-entry: carry the whole epoch to a sixth durable wait, then
+exercise the renewal policy again from an empty feed. That closing-and-reopening
+suffix is what distinguishes a standing loop from a one-time provider handoff.

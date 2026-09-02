@@ -2893,5 +2893,16 @@ retained consequence, new-epoch construction, correction-first routing, route
 failed before actors because it resolved the prior epoch; the frozen harness
 uses the generic standing-feed offer-consumption path instead.
 
+OT-0281 promotes across both null openings without retry. Actor-free wake finds
+only Morrowglass and discharges the fifth wait. One fresh subject actor then
+chooses `harbor/permit.py::admit_vessel` without a target hint, passes public
+execution and G10, and receives exact 2/6 consequence from the promoted sealed
+package. Exact `7c78deda...` preserves renewal and remains open at correction
+with two Morrowglass surfaces unselected. Aggregate receipt `f20e5a58...`.
+Next carry this epoch through consequence-routed correction and both remaining
+actor choices, install and re-observe a sixth wait, then require empty-feed
+renewal to derive another subject-blind world scout without experiment-specific
+phase selection.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

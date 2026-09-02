@@ -92,14 +92,12 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0280 successor `cfab2a50...`. It
-preserves five standing-feed waits and four completed wakes, two independently
-authored semantic packages, their six saturated surfaces, and three rejected
-correction hypotheses whose objective consequences affected later actors. The
-latest Asterfall epoch used two actor-authored target selections and one live
-5/6→counterexample→6/6 correction recurrence. The subject remains open at the
-fifth standing-feed wait and now carries a generic standing renewal policy;
-Morrowglass is externally promoted and unseen.
+The current exact operational subject is OT-0281 successor `7c78deda...`. It
+preserves five standing-feed waits and five completed wakes, two saturated
+semantic packages, the newly entered Morrowglass epoch, and the generic
+standing renewal policy. One target-untold actor selected `admit_vessel` and
+received 2/6 from the autonomously sourced world. The subject remains open at
+correction with two Morrowglass surfaces unselected.
 
 ## Prediction errors
 
@@ -483,3 +481,7 @@ Morrowglass is externally promoted and unseen.
   target-untold subject choices pass prospectively through offer consumption,
   exact Morrowglass 2/6 consequence, renewal preservation, and correction
   routing. Live calls remain sealed until the freeze is pushed.
+- OT-0281 promotes both calls without retry. Wake uses zero actors; the fresh
+  selector chooses `admit_vessel` and receives exact 2/6. Exact `7c78deda...`
+  preserves renewal and enters Morrowglass correction. Next require full epoch
+  recurrence, a sixth wait, and another empty-feed renewal dispatch.

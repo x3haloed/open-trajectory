@@ -789,7 +789,8 @@ The strongest footholds are:
 - `OT-0281` freezes two identical null openings from that state: actor-free
   Morrowglass wake, then one target-untold subject selection. All three possible
   selections prospectively receive exact 2/6 consequence and route to
-  correction while preserving standing renewal.
+  correction while preserving standing renewal. The live actor chooses
+  `admit_vessel`; exact `7c78deda...` remains open at its 2/6 contradiction.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

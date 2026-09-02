@@ -53,3 +53,17 @@ pass G10, and route to correction. No retry is permitted.
 This establishes causal re-entry and subject choice in a world produced by the
 standing renewal process. Correction recurrence, package saturation, a sixth
 wait, and another automatic renewal remain separate claims.
+
+## Result
+
+OT-0281 promotes across two identical null openings and one fresh actor without
+retry. The first opening discovers only Morrowglass, discharges the fifth wait
+with zero actors, preserves standing renewal, and installs a non-authoritative
+offer. The second actor sees no target hint or sealed package, chooses
+`harbor/permit.py::admit_vessel`, passes its four public cases and G10, and
+receives exact retained-package 2/6 consequence.
+
+The offer is consumed into a new Morrowglass epoch with two surfaces remaining.
+Exact `7c78deda...` preserves the renewal policy and all prior history, remains
+open, and routes to correction. The post-actor aggregate field repair uses only
+the retained passing invocation and subject. Aggregate receipt: `f20e5a58...`.

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-at-morrowglass-contradiction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1404165,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c9ddc35e51b135a23b6edffc3cb151c013ffe50d",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0281",
+  "input_manifests": [
+    "evidence/manifests/OT-0281/morrowglass-wake-and-selection-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open subject is at correction after selecting admit_vessel at 2/6; the remaining Morrowglass epoch is unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-at-morrowglass-contradiction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "4c9aadd6cd08b6d161e998cdb32aaf532e47fa6dba96f91cfdf26df30e5cb478"
+}

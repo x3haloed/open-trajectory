@@ -1,0 +1,34 @@
+{
+  "artifact_id": "morrowglass-wake-and-selection-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 986,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "c9ddc35e51b135a23b6edffc3cb151c013ffe50d",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0281",
+  "input_manifests": [
+    "evidence/manifests/OT-0280/open-subject-at-renewed-fifth-wait.json",
+    "evidence/manifests/OT-0280/independent-morrowglass-world-package.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "Establishes actor-free wake and first subject-chosen Morrowglass contradiction; correction, saturation, and renewed provision remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:morrowglass-wake-and-selection-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "475c9860ba19c75257b4c3325a59bc68c78185dfe019cab0e4ad05743a9c1e59"
+}
