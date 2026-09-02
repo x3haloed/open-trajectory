@@ -345,7 +345,8 @@ def main():
         "final_policy_action": action,
         "stop_receipt": stop_receipt,
         "contact_receipt_digest": contact.get("receipt_digest") if contact else None,
-        "fresh_actor_count": MAX_NEW_PROVIDERS + int(contact is not None),
+        "fresh_actor_count": (len(providers) - RETAINED_PROVIDER_COUNT)
+        + int(contact is not None),
         "checks": checks,
         "operational_transition_passed": checks["passed"],
         "observer_disposition": "promoted" if checks["passed"] else "rejected",
