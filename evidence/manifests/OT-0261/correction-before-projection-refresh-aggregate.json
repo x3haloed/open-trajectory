@@ -1,0 +1,31 @@
+{
+  "artifact_id": "correction-before-projection-refresh-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4069,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "70e3769932ddf6c3ce71a329adb1c2c9d47c7586",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0261",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "Seven held-out phase cases establish prospective precedence with zero actors; live selection, contradiction, correction-first behavior, and later refresh recurrence remain to be exercised in sequence."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:correction-before-projection-refresh-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5cf1929a8783c9a107aa061c5cbb52e4a73b17fff81c09bca12f64116ff3883f"
+}

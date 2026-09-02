@@ -3243,3 +3243,13 @@ OT-0260 refreshes stale `correct`, `contact`, `widen`, and unknown phases before
 their inherited operations. OT-0261 freezes phase-aware precedence: projection
 refresh only at assimilation, inherited routing otherwise. Seven held-out
 fresh/stale phase cases must pass with no operational change.
+
+OT-0261 promotes with zero actors. The unconditional incumbent scores 3/7; the
+phase-aware challenger scores 7/7, repairing all four stale non-assimilation
+routes while preserving the other three cases. Exact `088a3628...` changes only
+the non-authoritative policy and remains open with `expanded-select` next.
+
+The immediate frontier returns to live behavioral recurrence: one fresh actor
+must use the two-opportunity projection, author executable eligible contact,
+pass G10, and receive independent 2/6. The resulting stale `correct` state must
+still route to correction, not refresh.

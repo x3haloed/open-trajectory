@@ -1,6 +1,6 @@
 # OT-0261 — correction before projection refresh
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0260 subject `c319bade...`
 - **Fresh actors:** zero
@@ -26,3 +26,14 @@ Promotion requires held-out fresh/stale cases across `assimilate`, `correct`,
 regression; zero actors; an installed non-authoritative phase-aware policy;
 unchanged operational, projection, wait/wake, and provider state; and the live
 parent still routing to `expanded-select`.
+
+## Result
+
+The unconditional incumbent scores 3/7, incorrectly refreshing four stale
+non-assimilation phases. The phase-aware challenger scores 7/7: correction,
+contact, widen, and unknown routes retain inherited behavior, while stale
+assimilation still refreshes before selection.
+
+Zero-actor successor `088a3628...` changes only the non-authoritative freshness
+policy and remains open with `expanded-select` next. Live sequence exercise
+remains separate.

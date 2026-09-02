@@ -92,9 +92,9 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0260 successor `c319bade...`,
+The current exact operational subject is OT-0261 successor `088a3628...`,
 identified by
-`evidence/manifests/OT-0260/open-post-wait-subject-with-fresh-projection.json`.
+`evidence/manifests/OT-0261/open-subject-with-phase-aware-projection-refresh.json`.
 It preserves all earlier worlds and corrections, has saturated the state-indexed
 resilience epoch, and carries a saturated zero-opportunity projection with every
 external authority flag false. Its durable wait was discharged by a real stream
@@ -102,7 +102,9 @@ extension; a fresh actor then consumed the retained coordination offer into a
 new epoch, received independent contradiction, and corrected it to 6/6 against
 the unchanged 2/6 control. A freshness guard has now replaced the stale prior-
 epoch projection with exactly two live, non-authoritative coordination
-opportunities. It is open with `expanded-select` next.
+opportunities. Its phase-aware freshness policy now preserves correction and all
+non-assimilation routes, refreshing stale projection state only before selection.
+It is open with `expanded-select` next.
 
 ## Prediction errors
 
@@ -346,3 +348,7 @@ opportunities. It is open with `expanded-select` next.
   controls; exact `c319bade...` carries the two current opportunities with no
   authority or operational drift. Next test fresh actor use and require refresh
   recurrence after the resulting ledger change.
+- OT-0261 catches and repairs an ordering flaw before spending that actor. The
+  unconditional guard scores 3/7; phase-aware precedence scores 7/7 and yields
+  exact `088a3628...` with no operational change. Next exercise selection,
+  contradiction, correction-first routing, then assimilation-time refresh.

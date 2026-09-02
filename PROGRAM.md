@@ -2544,5 +2544,13 @@ refresh may intercept only the later assimilation boundary before another
 selection. Seven fresh/stale phase fixtures must pass with zero actors and no
 operational drift.
 
+OT-0261 promotes with zero actors. The incumbent scores 3/7 and the phase-aware
+policy 7/7; exact `088a3628...` preserves all operational state and routes the
+live fresh parent to `expanded-select`.
+
+Next run one projected selection and sealed contradiction. Its exact stale
+`correct` successor must route to target-generic correction under OT-0261,
+reserving projection refresh for the later assimilation boundary.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

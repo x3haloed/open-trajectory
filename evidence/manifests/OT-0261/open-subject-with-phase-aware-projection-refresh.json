@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-subject-with-phase-aware-projection-refresh",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1107716,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "70e3769932ddf6c3ce71a329adb1c2c9d47c7586",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0261",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject carries a phase-aware freshness policy and remains open for selection; the policy has not yet been exercised on a live post-selection contradiction."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-with-phase-aware-projection-refresh",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "288bb63b2cc62abae291b846e2e5f26043a8b8df8fa273c0fc52f658e60a6ec2"
+}

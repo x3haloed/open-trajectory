@@ -702,6 +702,10 @@ The strongest footholds are:
   mismatch and refreshes it from the latest epoch and exact ledger. Exact
   `c319bade...` carries two current, non-authoritative coordination opportunities
   and routes next to `expanded-select` without operational drift.
+- `OT-0261`: held-out phase testing reveals the unconditional freshness guard
+  scores only 3/7 by preempting stale correction and non-selection phases. A
+  phase-aware challenger scores 7/7; exact `088a3628...` refreshes only at
+  assimilation and otherwise preserves inherited routing.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition
