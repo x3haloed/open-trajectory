@@ -1,6 +1,6 @@
 # OT-0311 — Remaining-catalog priority wake
 
-- **Status:** design frozen; live ranking sealed
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0310 open subject `59a1f68c...`
 - **Invocation:** two content-free actor-free operations
@@ -65,3 +65,21 @@ A pass establishes that the inherited stake is behaviorally selective on one
 prospective remainder catalog and removes the observer from that world choice.
 It does not establish that the selected world is objectively better, that the
 effect repeats across catalogs, or that later contact succeeds.
+
+## Result
+
+Promoted. The exact unchanged stake selected
+`harbor-of-three-ledgers-v1`; the digest-minimum control over the identical
+three-package catalog selected `lantern-coast-operations-v1`. The stake's score
+gap was 82 against its frozen minimum of 3. The standing provider discharged
+the wait with only the stake-selected public package, and exact open successor
+`9abf1325...` derives `expanded-select`. E11 records operational contact,
+subject-conditioned choice, and priority-bearing contact. Aggregate receipt
+`ca6b040c...`.
+
+OT-0305's negative result remains intact: this same stake and the blind control
+selected the same world on the original four-package catalog. OT-0311 shows
+selectivity on the prospectively defined unconsumed remainder, not a reversal
+or deletion of that prior observation. No downstream actor or sealed world was
+run here, so whether the changed world choice improves later behavior remains
+open.

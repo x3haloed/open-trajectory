@@ -1,0 +1,39 @@
+{
+  "artifact_id": "remaining-catalog-priority-wake-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 7574,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "56e21bfdb3caae914db08db3e3d1bcac1e9c183b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0311",
+  "input_manifests": [
+    "evidence/manifests/OT-0311/remaining-catalog-priority-wake-preflight.json",
+    "evidence/manifests/OT-0310/open-subject-after-state-driven-continuation.json",
+    "evidence/manifests/OT-0305/subject-priority-world-selection-aggregate.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-01-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-02-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-03-world-package.json",
+    "evidence/manifests/OT-0305/subject-blind-provider-04-world-package.json"
+  ],
+  "kind": "aggregate",
+  "limitations": [
+    "One actor-free selection effect on one prospective three-world remainder; no downstream performance or cross-catalog reliability claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:remaining-catalog-priority-wake-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "041b308dc24aadbbb235b6b13fac563fdee13a94cf14818dae5ad308101d1b1f"
+}

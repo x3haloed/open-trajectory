@@ -3368,5 +3368,16 @@ Synthetic support/contradiction, wrong-package, tampered-stake, route 16/16,
 and identity 18/18 controls pass. One actor-free live ranking is authorized only
 after push; later world contact remains necessary to establish better selection.
 
+OT-0311 promotes the first positive inherited-priority selection effect. On the
+exact three-package remainder, the unchanged stake selects
+`harbor-of-three-ledgers-v1` with score gap 82 while the identical-catalog blind
+control selects `lantern-coast-operations-v1`. The standing wait discharges only
+to the stake-selected offer; exact open successor `9abf1325...` derives
+`expanded-select`, and E11 is priority-bearing. Aggregate receipt `ca6b040c...`.
+OT-0305's same-choice negative result remains intact because it used the prior
+four-package catalog. This establishes different subject-conditioned selection,
+not yet better downstream behavior; contact and a matched blind-world branch
+remain necessary.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

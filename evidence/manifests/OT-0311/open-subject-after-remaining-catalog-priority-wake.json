@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-remaining-catalog-priority-wake",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1641132,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "56e21bfdb3caae914db08db3e3d1bcac1e9c183b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0311",
+  "input_manifests": [
+    "evidence/manifests/OT-0311/remaining-catalog-priority-wake-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Exact open successor carries the selected standing offer; contact with that world has not yet established downstream benefit."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-remaining-catalog-priority-wake",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "786e969466a7b18c53aa9bc22bcde0254cd3a68eb23ec0984b0d77afa030dd9c"
+}

@@ -136,13 +136,21 @@ then censored observation at its prospectively unsupported
 `expand-environment` operation while the subject remained open. Evidence:
 OT-0310 aggregate `ac4e911a...`.
 
-OT-0311 is frozen at that boundary. A first content-free operation installs the
-standing-provider wait; a second releases the exact three-package remainder of
-OT-0305's subject-blind catalog. The active stake is unchanged from before those
-worlds existed. It and the digest-minimum blind control receive the same public
-descriptors; no live rank has been computed. Support must clear the original
-gap and choose a different world from blind. Unsupported selection retains the
-wait and routes stake revision without a favorable substitution. A supported
-choice enters the standing offer without observer world choice. This tests the
-previously negative selectivity boundary; it does not call the selected world
-better until subsequent independent contact changes downstream behavior.
+Exact open subject `9abf1325...` carries the first positive priority-selection
+effect. On the prospectively defined three-package remainder, its unchanged
+stake selected `harbor-of-three-ledgers-v1` with gap 82; the same-catalog blind
+control selected `lantern-coast-operations-v1`. The selected public world alone
+entered the standing offer, without actor or observer world choice. OT-0305's
+same-choice result on the original four-package catalog remains negative rather
+than being reinterpreted. Evidence: OT-0311 aggregate `ca6b040c...`.
+
+The immediate experiment must distinguish better selection from merely
+different selection. Seal the operational contact in the stake-selected world,
+then compare its downstream continuation against a matched counterfactual
+branch carrying the blind-selected offer from the exact preselection parent.
+Hold public information, actor/tool budget, contact-selection envelope,
+independent package scoring, and observation horizon equal. Do not let either
+branch see the other's world or outcome, and do not use self-report as benefit.
+Prefer a directly consequential metric such as valid contact, correction cost,
+or coherent opportunities opened; freeze it before actors run. The live subject
+transition remains independently valid even if the causal comparison rejects.
