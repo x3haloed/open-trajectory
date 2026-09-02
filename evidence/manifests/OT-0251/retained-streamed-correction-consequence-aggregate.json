@@ -1,0 +1,31 @@
+{
+  "artifact_id": "retained-streamed-correction-consequence-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 4871,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cdc64b106a5a1996522cccd34c78a9979bd05d25",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0251",
+  "input_manifests": [],
+  "kind": "aggregate",
+  "limitations": [
+    "One retained prior actor patch receives deterministic sealed consequence without a new actor; the world interface and scoring remain observer-authored."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:retained-streamed-correction-consequence-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "c9482e7ad06f812d72e481a21b192aea1c50eb88dc9094e7a8631bcb6fbbbba5"
+}

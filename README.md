@@ -661,6 +661,10 @@ The strongest footholds are:
   correction. Hard anchors remain 6/6, safe report discrepancies improve
   0/4→4/4, and the retained OT-0249 patch becomes eligible—but remains
   uninstalled—inside exact open successor `a7b3383c...`.
+- `OT-0251`: the retained patch receives independent consequence without a new
+  actor, reaches sealed 6/6 versus unchanged 2/6, and is installed. Exact open
+  successor `e749515a...` routes next to selection among three remaining
+  resilience surfaces.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

@@ -92,14 +92,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0250 successor `a7b3383c...`,
+The current exact operational subject is OT-0251 successor `e749515a...`,
 identified by
-`evidence/manifests/OT-0250/open-subject-with-retained-streamed-correction.json`.
+`evidence/manifests/OT-0251/open-subject-after-retained-streamed-correction.json`.
 It preserves all earlier worlds and corrections, retains the state-indexed
-resilience epoch and provider receipt, and is open at `correct` after
-actor-selected shelter-bus contact receives independent 2/6 contradiction. The
-OT-0249 public-4/4 patch is authority-eligible but remains uninstalled pending
-independent consequence.
+resilience epoch and provider receipt, and is open at `assimilate` after the
+retained shelter correction reaches sealed 6/6 versus unchanged 2/6. Three
+resilience surfaces remain available for selection.
 
 ## Prediction errors
 
@@ -289,3 +288,7 @@ independent consequence.
   OT-0249 candidate as eligible but unadmitted. The next operation is sealed
   follow-up consequence without another actor: 6/6 versus unchanged 2/6 is
   required before installation.
+- OT-0251 supplies that consequence with zero actors. The retained patch reaches
+  6/6 versus unchanged 2/6 and exact `e749515a...` installs it, remains open, and
+  routes next to selection. Resume the descriptor-complete driver for the six
+  remaining transitions rather than restarting shelter correction.

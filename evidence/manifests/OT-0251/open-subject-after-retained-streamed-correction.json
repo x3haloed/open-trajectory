@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-retained-streamed-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 994441,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "cdc64b106a5a1996522cccd34c78a9979bd05d25",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0251",
+  "input_manifests": [
+    "OT-0251/retained-streamed-correction-consequence-aggregate.json"
+  ],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The shelter correction is independently verified and the subject is open for retained-epoch selection; three resilience surfaces and empty-stream behavior remain unresolved."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-retained-streamed-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "8fb9eb3378035c7a163df36122c43f991ef2d15f40dca81dd3a5265a0e60e596"
+}

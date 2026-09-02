@@ -1,6 +1,6 @@
 # OT-0251 — retained streamed correction consequence
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0250 subject `a7b3383c...`
 - **Fresh actors:** zero
@@ -21,3 +21,14 @@ source remains 2/6. Only then may the source be installed, the target marked
 verified, and the exact subject return open at `assimilate` with its next
 content-free operation selecting among the three remaining resilience surfaces.
 OT-0249 remains rejected and no actor is resampled.
+
+## Result
+
+Promoted with zero fresh actors. The exact retained source reaches sealed 6/6
+while the unchanged control remains 2/6. The patch is installed, the shelter
+surface is marked corrected and world-verified, and every earlier epoch is
+preserved.
+
+Exact successor `e749515a...` is open at `assimilate`; its next content-free
+operation is `expanded-select` over the three remaining resilience surfaces.
+OT-0249 remains rejected and its actor was not resampled.

@@ -2386,5 +2386,14 @@ cases, confirms it remains uninstalled, and simulates a conformant successor.
 The live comparison uses zero actors and installs only on sealed 6/6 versus
 unchanged 2/6, after which the next operation must be expanded-world selection.
 
+OT-0251 promotes with zero actors. The retained correction reaches sealed 6/6
+versus unchanged 2/6 and is installed in exact successor `e749515a...`, which is
+open at `assimilate` and routes next to `expanded-select` across three remaining
+resilience surfaces. OT-0249 remains rejected.
+
+Resume the descriptor-complete driver from this successor for the six remaining
+selection/correction transitions. Stop at the first rejection; do not rerun the
+already admitted shelter correction.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

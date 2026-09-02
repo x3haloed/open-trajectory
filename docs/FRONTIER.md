@@ -3044,3 +3044,15 @@ authority, public 4/4, uninstalled source, and a simulated conformant binding
 all pass before hidden cases are opened. No actor runs. Promotion requires
 sealed 6/6 against unchanged 2/6; only that result may install the patch, verify
 the shelter surface, and return the open subject to expanded selection.
+
+OT-0251 promotes with zero fresh actors. The retained source reaches sealed 6/6
+while unchanged remains 2/6. Exact successor `e749515a...` installs the patch,
+marks the shelter target world-verified, preserves every earlier epoch, and is
+open at `assimilate`; its next content-free operation is `expanded-select` over
+the three remaining resilience surfaces. OT-0249 remains rejected.
+
+The immediate frontier returns to live recurrence. The descriptor-complete
+driver must continue from this corrected successor through selection,
+correction, selection, correction, selection, correction, stopping on the first
+rejection. This is six remaining transitions, not a restart of the failed
+seven-pulse comparisons.
