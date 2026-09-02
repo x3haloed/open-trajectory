@@ -1,0 +1,33 @@
+{
+  "artifact_id": "open-subject-after-rejected-reversed-correction",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1663442,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3d6a65abb2d5a33656b9427dc78501a17c231d8b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0316",
+  "input_manifests": [
+    "evidence/manifests/OT-0316/reversed-option-value-corrigibility-aggregate.json"
+  ],
+  "kind": "subject-state",
+  "limitations": [
+    "Byte-identical OT-0315 parent retained because the consequence-bearing actor made no machinery revision."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-subject-after-rejected-reversed-correction",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "1e05268405e598e06d255d573f243ca615d9de97003d27129ae4b70a1c7c2b50"
+}

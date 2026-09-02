@@ -1,0 +1,33 @@
+{
+  "artifact_id": "private-reversed-option-value-world-seed",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 166,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3d6a65abb2d5a33656b9427dc78501a17c231d8b",
+      "dirty": false
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0316",
+  "input_manifests": [
+    "evidence/manifests/OT-0316/reversed-option-value-corrigibility-preflight.json"
+  ],
+  "kind": "private-evaluator-seed",
+  "limitations": [
+    "Private post-freeze seed retained for exact reconstruction; all derived identities and held-out rows were hidden from actors."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:private-reversed-option-value-world-seed",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2a211409468a850f0f07bbf0bccaf762fb6826db5c26ea7878721392a38c1184"
+}

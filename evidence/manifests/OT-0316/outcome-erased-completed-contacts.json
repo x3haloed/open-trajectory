@@ -1,0 +1,33 @@
+{
+  "artifact_id": "outcome-erased-completed-contacts",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 5247,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3d6a65abb2d5a33656b9427dc78501a17c231d8b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0316",
+  "input_manifests": [
+    "evidence/manifests/OT-0316/outcome-erased-actor-trace.json"
+  ],
+  "kind": "actor-workspace-input",
+  "limitations": [
+    "Exact outcome-erased branch projection retained for reconstruction of the causal control."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-completed-contacts",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "e019d99a1f2039002037962366f1c0dd7b96a30043da6a055b62c10eb199ca07"
+}

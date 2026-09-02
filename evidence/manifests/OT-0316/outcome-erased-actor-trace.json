@@ -1,0 +1,35 @@
+{
+  "artifact_id": "outcome-erased-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 15864,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3d6a65abb2d5a33656b9427dc78501a17c231d8b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0316",
+  "input_manifests": [
+    "evidence/manifests/OT-0316/reversed-option-value-corrigibility-preflight.json",
+    "evidence/manifests/OT-0316/private-reversed-option-value-world-seed.json",
+    "evidence/manifests/OT-0315/open-subject-after-option-value-stake-revision.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "Matched fresh broad-tool actor received erased outcomes and correctly retained the exact learned stake."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:outcome-erased-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2fab94a82734bf2a17d195970d77615be07fd43fc372c238a8b93415bae5a736"
+}

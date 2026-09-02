@@ -122,13 +122,21 @@ stake remain controls, not promoted lineage.
   reliability estimate across goals, worlds, or models.
 - The current subject is large, but no observed continuation failure is caused
   by its size. Representation compression is not the active bottleneck.
-- The learned selector has so far seen only worlds where more syntactic branches
-  and comparisons exactly predict more coherent executable routes. It is
-  unknown whether retained contrary consequence can revise that machinery when
-  branching becomes misleading or harmful. The next test must freeze a changed
-  world semantics before contact, bind selections before outcomes, and make the
-  zero-byte-penalty child fail directionally while a less branch-seeking policy
-  preserves more valid future moves. A fresh consequence-bearing reviser must
-  then beat exact unchanged `0a48ab16...` on disjoint catalogs; erased or
-  misbound consequence must remove that repair. A simple restoration of the old
-  -1 coefficient is allowed if earned, but must not be supplied as the target.
+- Expected: three typed `directional_error: true` outcomes in OT-0316 would
+  ground correction after the learned branch-count correlation reversed.
+  Observed: the fresh consequence-bearing actor retained the exact stake and
+  scored 0/5, describing the contacts as confirming the existing direction;
+  the erased actor also retained and scored 0/5. The inherited rationale says
+  “all three completed contacts” and embeds the prior regime's opposite
+  evidence without binding that prose to episode or receipt identities.
+  Uncertain: whether this stale-evidence ambiguity hid the current contradiction
+  or the single actor would retain even under explicit provenance. Evidence:
+  OT-0316 rejected aggregate `c321f467...`.
+- The next test should derive, before actor opening, an active selection-error
+  receipt bound to the new selection and outcome receipt identities, and mark
+  inherited rationale as historical support bound to its prior revision. It
+  must not name a coefficient or desired edit. Against exact `0a48ab16...`, a
+  fresh actor seeing that provenance should revise and beat the unchanged
+  parent on disjoint reversed catalogs; a matched outcome-erased actor without
+  an active error receipt should retain. Preserve OT-0316 as the exact raw-
+  contact-only negative observation rather than resampling it.

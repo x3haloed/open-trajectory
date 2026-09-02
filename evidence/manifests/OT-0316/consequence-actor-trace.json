@@ -1,0 +1,35 @@
+{
+  "artifact_id": "consequence-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 17776,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3d6a65abb2d5a33656b9427dc78501a17c231d8b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0316",
+  "input_manifests": [
+    "evidence/manifests/OT-0316/reversed-option-value-corrigibility-preflight.json",
+    "evidence/manifests/OT-0316/private-reversed-option-value-world-seed.json",
+    "evidence/manifests/OT-0315/open-subject-after-option-value-stake-revision.json"
+  ],
+  "kind": "actor-trace",
+  "limitations": [
+    "One fresh broad-tool actor saw three opposite directional outcomes but retained the exact learned stake, apparently conflating its stale rationale with current evidence."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:consequence-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7755915f3ed31f1376c95de7b5f419c9d66bfaa3d1fbcc08bf460dff2975fdec"
+}

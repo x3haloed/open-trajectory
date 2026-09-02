@@ -1,0 +1,38 @@
+{
+  "artifact_id": "reversed-option-value-corrigibility-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 20887,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "3d6a65abb2d5a33656b9427dc78501a17c231d8b",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0316",
+  "input_manifests": [
+    "evidence/manifests/OT-0316/reversed-option-value-corrigibility-preflight.json",
+    "evidence/manifests/OT-0316/private-reversed-option-value-world-seed.json",
+    "evidence/manifests/OT-0316/consequence-actor-trace.json",
+    "evidence/manifests/OT-0316/outcome-erased-actor-trace.json",
+    "evidence/manifests/OT-0316/outcome-erased-completed-contacts.json",
+    "evidence/manifests/OT-0315/open-subject-after-option-value-stake-revision.json"
+  ],
+  "kind": "rejected-aggregate",
+  "limitations": [
+    "One paired draw; consequence-bearing actor retained the exact parent and scored 0/5, so later correction was not supported."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:reversed-option-value-corrigibility-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "40d9cd41ef7aab783670af79dbe1d318f43ab1a1d61a38e489df486e1333fb4b"
+}
