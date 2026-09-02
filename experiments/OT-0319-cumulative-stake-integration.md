@@ -1,6 +1,6 @@
 # OT-0319 — Cumulative stake integration
 
-- **Status:** frozen
+- **Status:** completed — rejected
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0318 subject `21e90d47...`
 - **Claim:** jointly replayable retained consequences enable one cumulative
@@ -96,3 +96,30 @@ language, reliability, cross-domain transfer, autonomous world invention, or
 removal of the researcher who chose this discrepancy and comparison. The next
 experiment should reduce that remaining causal role rather than repeat these
 catalogs.
+
+## Result
+
+The full-history actor was clean, ran both required tools, and correctly
+observed that all six outcomes were available while the exact current stake
+passed only 3/6. It nevertheless retained the stake unchanged. Its decisive
+reason was a false claim that every legal fixed linear weighting must choose the
+same side in both regimes. Candidate-free exhaustive conformance had already
+falsified that claim with a legal 6/6 witness, and that witness scores 10/10 on
+the frozen mixed family. The live actor did not test any successor proposal.
+
+The matched earlier-outcome-erased actor was also clean. It observed three
+available current outcomes, passed all three with the incumbent, and retained
+unchanged. Both exact current and prior baselines scored the frozen private
+trajectory at 5/10. No candidate reached training or private scoring, no
+operational child was produced, and exact parent `21e90d47...` remains open.
+Rejected aggregate receipt is `03492917...`.
+
+Both actors first attempted unavailable `rg`, disclosed the failure, and used
+available shell tools successfully. This did not change actor information,
+authority, scoring, branch comparability, or the result.
+
+OT-0319 rejects the claim that jointly visible consequence plus a
+candidate-only evaluator is sufficient for cumulative correction. The observed
+missing edge is proposal search or counterexample generation: the actor could
+evaluate a candidate but incorrectly declared the reachable legal surface
+exhausted without exploring it.

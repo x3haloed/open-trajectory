@@ -130,14 +130,20 @@ current lineage.
   weights score 0/5 on OT-0314's prior regime while the parent remains 5/5.
   The mechanism is corrigible but oscillatory. Evidence: OT-0318 aggregate
   `1b16230d...`, exact child `21e90d47...`.
-- Expected: no bounded global item-wise weight vector could preserve both the
-  earlier and reversed distinctions, so cumulative improvement required a new
-  catalog-level selector language. Observed: OT-0319 candidate-free exhaustive
-  conformance found a legal 6/6 global-weight witness; a disjoint fixture scores
-  it 10/10 while exact current and prior stakes each score 5/10. The earlier
-  representation-limit diagnosis was false. The next live comparison therefore
-  keeps the existing stake language and gives a fresh actor jointly replayable
-  authenticated contacts from both regimes. Promotion requires an actor-authored
-  6/6 repair at private 10/10, with earlier-outcome erasure removing that
-  cumulative advantage. A new carrier is not justified unless this existing
-  action surface fails for a representational reason.
+- Expected: jointly replayable authenticated outcomes plus the candidate-only
+  workbench would let OT-0319's fresh actor find a cumulative legal stake.
+  Observed: the clean actor saw 6/6 outcomes and exact-current 3/6, but retained
+  without trying an edit because it falsely declared the linear surface
+  incapable of improvement. Frozen exhaustive conformance contains a legal 6/6
+  witness scoring 10/10 on the mixed family; exact current and prior stakes each
+  score 5/10. The earlier-erased control correctly retained at 3/3 available.
+  Evidence: rejected aggregate `03492917...`; exact subject remains
+  `21e90d47...`.
+- The next test should add a generic actor-visible falsification/search operation
+  over the already public bounded stake contract and revealed consequence. It
+  should report reachable improving candidates or a certificate of exhaustion,
+  without private worlds or acceptance authority. A fresh actor must choose and
+  install a candidate, independently replay it at 6/6, and reach mixed private
+  10/10; earlier-outcome erasure must remove the cumulative advantage. This
+  tests the missing proposal-generation edge, not stronger exhortation or a new
+  representation.

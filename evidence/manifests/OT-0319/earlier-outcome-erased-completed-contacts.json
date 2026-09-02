@@ -1,0 +1,33 @@
+{
+  "artifact_id": "earlier-outcome-erased-completed-contacts",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 10752,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "771cb97b775ed7e7c6f4558196718786cbfa4934",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0319",
+  "input_manifests": [
+    "evidence/manifests/OT-0319/full-history-completed-contacts.json"
+  ],
+  "kind": "actor-input-projection",
+  "limitations": [
+    "Matched six-contact projection with only the three earlier outcome bodies explicitly erased."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:earlier-outcome-erased-completed-contacts",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "a0f05614d8db8439117b1f4236b78b32d21799d6859396035e89c776bc2a0992"
+}

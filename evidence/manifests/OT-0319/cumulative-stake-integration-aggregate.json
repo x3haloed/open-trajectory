@@ -1,0 +1,37 @@
+{
+  "artifact_id": "cumulative-stake-integration-aggregate",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 29872,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "771cb97b775ed7e7c6f4558196718786cbfa4934",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0319",
+  "input_manifests": [
+    "evidence/manifests/OT-0319/private-mixed-world-seed.json",
+    "evidence/manifests/OT-0319/full-history-actor-trace.json",
+    "evidence/manifests/OT-0319/full-history-actor-stake-revision.json",
+    "evidence/manifests/OT-0319/earlier-outcome-erased-actor-trace.json",
+    "evidence/manifests/OT-0319/earlier-outcome-erased-actor-stake-revision.json"
+  ],
+  "kind": "experiment-aggregate",
+  "limitations": [
+    "Rejected single-lineage observation: both actors retained; no cumulative operational transition or causal integration claim."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:cumulative-stake-integration-aggregate",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "34322d4ab8172dab8c91c5ffa0b28391d26d3bf5cb762ae3edaa90a15092dd4f"
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "earlier-outcome-erased-actor-trace",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 25214,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "771cb97b775ed7e7c6f4558196718786cbfa4934",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0319",
+  "input_manifests": [
+    "evidence/manifests/OT-0319/earlier-outcome-erased-completed-contacts.json"
+  ],
+  "kind": "actor-tool-trace",
+  "limitations": [
+    "One fresh earlier-outcome-erased control trace; hosted actor identity remains deployment-limited."
+  ],
+  "media_type": "application/octet-stream",
+  "reconstruction": {
+    "expected_output": "artifact:earlier-outcome-erased-actor-trace",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "2882378fc649e6ca175293866665f304900369324f8b1ad27c30ccb52a2ffabc"
+}

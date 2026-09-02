@@ -1,0 +1,33 @@
+{
+  "artifact_id": "earlier-outcome-erased-actor-stake-revision",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1611,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "771cb97b775ed7e7c6f4558196718786cbfa4934",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.11.6"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0319",
+  "input_manifests": [
+    "evidence/manifests/OT-0319/earlier-outcome-erased-actor-trace.json"
+  ],
+  "kind": "actor-candidate",
+  "limitations": [
+    "Control retained the exact incumbent after passing all three available current outcomes."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:earlier-outcome-erased-actor-stake-revision",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "5233f9071ea2a60d1839939f062d979a20e93aec2514ada8e4afa8cb8b1a7fe6"
+}
