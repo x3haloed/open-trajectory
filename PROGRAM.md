@@ -2263,5 +2263,12 @@ reference oracle, or task. Promotion requires actor-selected executable contact,
 G10 acceptance, independent consequence, preservation of the corrected
 communications surface and every unselected source, and an exact open successor.
 
+OT-0245 freezes the live retained-epoch selection. One null pulse derives
+`expanded-select`; the sole fresh actor sees the exact epoch and ledger without
+an assigned target, registry, reference oracle, or task. All three remaining
+surfaces pass visible and sealed 2/6 controls. Promotion requires G10-accepted
+actor selection, independent contradiction, preservation of every earlier
+extension and exact epoch source, and an open `correct` successor.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

@@ -2889,3 +2889,11 @@ assigned target, registry, visible reference, or task content; select one of the
 three resolved opportunities; bind executable contact; and receive independent
 consequence while preserving the corrected communications surface and every
 other source.
+
+OT-0245 freezes that live recurrence test. One null pulse must derive
+`expanded-select`; one fresh actor receives the retained epoch and exact ledger
+but no target, registry, reference, or task. All three eligible surfaces are
+preflighted at visible execution and sealed 2/6. Promotion requires selection of
+one eligible surface, G10 acceptance, independent contradiction, exact
+preservation of every prior extension and epoch source, and an open `correct`
+successor. The completed communications target is mechanically ineligible.
