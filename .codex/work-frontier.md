@@ -92,13 +92,13 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0274 successor `ee66f4df...`. It
-preserves four standing-feed waits and three completed wakes, the independently
-authored OT-0268 package, two rejected correction hypotheses with objective
-consequence, and both later admitted successors. The final package surface took
-a live consequence-routed second correction encounter before reaching 6/6.
-All package opportunities are saturated; the subject remains open at the fourth
-standing-feed wait.
+The current exact operational subject is OT-0278 successor `645c525e...`. It
+preserves five standing-feed waits and four completed wakes, two independently
+authored semantic packages, their six saturated surfaces, and three rejected
+correction hypotheses whose objective consequences affected later actors. The
+latest Asterfall epoch used two actor-authored target selections and one live
+5/6→counterexample→6/6 correction recurrence. The subject remains open at the
+fifth standing-feed wait.
 
 ## Prediction errors
 
@@ -453,3 +453,9 @@ standing-feed wait.
 - OT-0278 freezes that complete suffix across 54 full prospective branches:
   both remaining-surface orders and every zero-, one-, or two-feedback depth.
   Every branch reaches Asterfall saturation and exact fifth-wait re-observation.
+- OT-0278 promotes across eleven null resumptions and six fresh actors. All
+  three Asterfall surfaces reach 6/6 against unchanged 2/6 controls; one 5/6
+  failure is retained and improves its fresh successor. Exact `645c525e...`
+  saturates the second independent world and re-observes its fifth wait. The
+  active gap is now standing world acquisition without an experiment-specific
+  outside author/provider, not another same-package correction.

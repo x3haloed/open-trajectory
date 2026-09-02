@@ -769,6 +769,11 @@ The strongest footholds are:
   fresh subject actor then chooses Asterfall's `route_status` without a target
   hint and receives retained-package 2/6. Exact `bbebeb53...` is open at
   correction with the new epoch and all prior history preserved.
+- `OT-0278`: eleven identical null resumptions carry that exact subject through
+  all three Asterfall corrections and both remaining actor-chosen surfaces. One
+  5/6 repair becomes causal input to a later 6/6 successor; every unchanged
+  control remains 2/6. The package saturates and exact `645c525e...` remains
+  open at a fifth standing-feed wait.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

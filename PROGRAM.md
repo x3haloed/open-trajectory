@@ -2829,5 +2829,22 @@ OT-0278's first command stops before actor authorization on a wrapper arity
 error. No invocation or actor context exists. Freeze the exact ten-argument call
 repair and rerun the unchanged 54-branch preflight before live retry.
 
+OT-0278 promotes across eleven content-free resumptions and six fresh actors.
+`route_status` corrects 2/6→6/6 directly. A fresh selector chooses
+`access_decision`; its first repair reaches only 5/6, the world retains it and
+adds one mismatch, and a later fresh actor reaches 6/6. Another actor-free
+refresh lets a fresh selector choose `quote_fuel`, which corrects 2/6→6/6.
+Unchanged controls stay 2/6. Saturation installs a fifth wait and exact
+re-observation leaves open subject `645c525e...`. Two generation-specific
+reporting errors and the first rejected aggregate are retained and
+reconstructed without resampling; promoted receipt `ad124a8a...`.
+
+This establishes recurrence across a second independently authored semantic
+world. It does not remove the outside world-author/provider: that role remains
+the largest causal dependency. The next discriminating experiment should start
+from the fifth wait and test whether a new world can enter through a standing,
+non-researcher-specific provision process without the experimenter selecting
+its pursuit, phase, or correction path.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

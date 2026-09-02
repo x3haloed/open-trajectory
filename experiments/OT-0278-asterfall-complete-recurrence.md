@@ -1,6 +1,6 @@
 # OT-0278 — Asterfall complete recurrence
 
-- **Status:** frozen
+- **Status:** promoted
 - **Evidence class:** exploratory-only
 - **Parent:** exact OT-0277 subject `bbebeb53...`
 - **Fresh actors:** at most eleven, no retries
@@ -56,3 +56,19 @@ passed two retired preflight values into OT-0274's ten-argument transition
 entry point. No invocation directory or actor context was created. The call now
 uses the exact current signature; the unchanged 54-branch preflight is rerun and
 the repair is pushed before live retry.
+
+## Result
+
+The live lineage promotes across eleven identical null calls and six fresh
+actors without retry. `route_status` moves directly from retained 2/6 to 6/6.
+A fresh selector then chooses `access_decision`; its first correction reaches
+5/6, objective consequence retains that failed hypothesis and discloses one
+canonical mismatch, and a later fresh actor reaches 6/6. After actor-free
+refresh, another fresh selector chooses `quote_fuel`, whose correction reaches
+6/6. Every unchanged control remains 2/6.
+
+Actor-free saturation installs a fifth standing-feed wait and exact
+re-observation leaves the byte-identical subject open at `645c525e...`. The two
+generation-specific reporter failures and the initially rejected aggregate are
+preserved; their narrow reconstruction does not resample an actor, world, or
+subject transition. Promoted aggregate receipt: `ad124a8a...`.

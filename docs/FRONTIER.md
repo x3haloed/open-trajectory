@@ -3532,3 +3532,21 @@ remaining Asterfall orders and every permitted correction-feedback depth. All
 converge on package saturation and exact fifth-wait re-observation. The live
 caller supplies only repeated null pulses; world receipts choose every
 correction continuation.
+
+OT-0278 promotes. Eleven null resumptions and six fresh actors traverse all
+three Asterfall surfaces. `route_status` and `quote_fuel` correct directly from
+2/6 to 6/6. The first `access_decision` repair reaches 5/6; objective
+consequence retains it and supplies the mismatch that lets its successor reach
+6/6. Both remaining target selections are actor-authored, every unchanged
+control stays 2/6, and actor-free saturation plus exact re-observation leaves
+open subject `645c525e...` at a fifth wait. Reporter-only failures are preserved
+and repaired without resampling.
+
+The immediate frontier is no longer same-package recurrence. The mechanism has
+now crossed two independently authored semantic worlds, but an outside process
+still authors and presents each new world package. Start from the exact fifth
+wait and expose that dependency directly: world provision must be standing and
+non-researcher-specific, while the subject continues to choose contact,
+interpret consequence, and route correction through the same content-free
+opening. A third hand-authored package alone would add reliability evidence but
+would not reduce the decisive causal gap.
