@@ -2494,5 +2494,10 @@ choose and author executable contact without a named target, pass G10, and
 receive independent contradiction before the offer is consumed into a new
 actor-authored epoch.
 
+OT-0258 freezes the complete post-wait interaction slice. One fresh actor must
+inspect the retained offer, author executable contact without a named target,
+pass G10, consume the offer only after admission, and receive sealed 2/6
+contradiction into a new retained epoch and exact open correction state.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.

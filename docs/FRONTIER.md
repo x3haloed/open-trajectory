@@ -3184,3 +3184,9 @@ The immediate frontier is resumed interaction across the wait boundary. A fresh
 actor must receive the retained offer without a named target, author executable
 contact against its visible sources, pass G10, and receive independent
 contradiction before the offered world becomes an actor-authored epoch.
+
+OT-0258 freezes that complete post-wait causal path. All three possible offered
+surfaces must preflight through public execution and sealed 2/6 contradiction.
+One fresh full-tool actor receives no named target, may edit only its decision,
+and must pass G10 before the offer is consumed. Promotion requires a new retained
+epoch, independent consequence, and an exact open unresolved successor.
