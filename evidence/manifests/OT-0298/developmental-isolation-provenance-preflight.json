@@ -1,0 +1,35 @@
+{
+  "artifact_id": "developmental-isolation-provenance-preflight",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1661,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "1d009f3cd45c38189faa6f604389275f38b484c3",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0298",
+  "input_manifests": [
+    "evidence/manifests/OT-0297/rejected-mislabeled-developmental-isolation-invocation.json",
+    "evidence/manifests/OT-0297/consequence-earned-isolation-preflight.json",
+    "evidence/manifests/OT-0295/open-subject-after-recovered-world-correction.json"
+  ],
+  "kind": "fixture-conformance",
+  "limitations": [
+    "Preflight-only evidence; correctly labeled live renewed selection is not yet observed."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:developmental-isolation-provenance-preflight",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "78452da57e5f01ca631ff17ae57e1e12c4089c13910b401196b8eb02647d8da1"
+}

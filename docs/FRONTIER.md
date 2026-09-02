@@ -3857,3 +3857,9 @@ result and pulse labels. No actor runs. Preserve the rejection. The next record
 should correct only the enclosing live authority and prospectively assert exact
 experiment, pulse, and result labels before repeating the same refresh and
 selection test.
+
+OT-0298 corrects only the enclosing runner authority. Preflight binds aggregate,
+pulse, and both invocation labels to OT-0298 while preserving the exact prior
+mislabel. All developmental-isolation controls and both selection branches
+remain green. After freeze and push, repeat actor-free refresh plus one fresh
+target-untold selection in a new external root.

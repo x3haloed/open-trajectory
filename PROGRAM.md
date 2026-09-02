@@ -3139,5 +3139,11 @@ provenance and branch-identity failure; do not authorize selection. Preserve the
 rejection. Next correct only runner authority and add prospective exact-label
 gates before rerunning consequence-earned isolation.
 
+OT-0298 freezes that sole provenance correction. Aggregate, pulse, and both
+indexed result labels are prospectively bound to OT-0298 while the exact
+OT-0297 mislabel remains preserved. Every consequence-earned isolation control,
+both renewed-selection branches, route 16/16, and identity 18/18 stay green.
+Live output remains sealed until push.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
