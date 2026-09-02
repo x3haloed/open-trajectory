@@ -677,6 +677,11 @@ The strongest footholds are:
   fresh actor receiving the compact projection authors the sole eligible
   generator contact, passes G10, and receives sealed 2/6. Exact successor
   `340a7fb5...` remains open at correction.
+- `OT-0255`: one fresh corrector repairs that final projected contact, passing
+  public 4/4 and sealed 6/6 against unchanged 2/6. Exact successor
+  `d15dbd22...` saturates the active epoch, refreshes the projection to zero
+  opportunities without authority drift, and remains open for environment
+  expansion while the current external stream is empty.
 
 The negative carrier experiments `OT-0048`–`OT-0069` remain useful evidence:
 changing expression, predicate, transducer, topology, or partition

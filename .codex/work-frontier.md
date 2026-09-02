@@ -92,13 +92,14 @@ independent outcomes, protected evaluator/evidence/acceptance authority,
 no-regression admission, deterministic reconstruction where claimed, privacy,
 and preserved negative evidence.
 
-The current exact operational subject is OT-0254 successor `340a7fb5...`,
+The current exact operational subject is OT-0255 successor `d15dbd22...`,
 identified by
-`evidence/manifests/OT-0254/open-subject-at-projected-opportunity-contradiction.json`.
-It preserves all earlier worlds and corrections, retains the state-indexed
-resilience epoch and provider receipt, and is open at `correct` after the compact
-projection enables a fresh actor to author the final resilience contact and
-receive independent 2/6 contradiction. The projection remains non-authoritative.
+`evidence/manifests/OT-0255/open-saturated-subject-at-empty-world-stream.json`.
+It preserves all earlier worlds and corrections, has saturated the state-indexed
+resilience epoch, and carries a saturated zero-opportunity projection with every
+external authority flag false. It remains open with environment expansion next
+while the current provider stream is empty. Durable waiting and resumption are
+not yet established.
 
 ## Prediction errors
 
@@ -312,3 +313,9 @@ receive independent 2/6 contradiction. The projection remains non-authoritative.
   executable contact, passes G10, and receives 2/6. Exact `340a7fb5...` is open
   at correction. This is bounded artifact-conditioned selection improvement;
   recurrence remains to be shown.
+- OT-0255 completes the projected suffix. One fresh corrector passes G10,
+  public 4/4, and sealed 6/6 against unchanged 2/6. Exact `d15dbd22...`
+  saturates the active epoch, refreshes the projection to zero opportunities,
+  and remains open for expansion although the provider currently returns no
+  world. Next distinguish durable waiting from accidental closure, then test
+  later stream extension and resumption separately.

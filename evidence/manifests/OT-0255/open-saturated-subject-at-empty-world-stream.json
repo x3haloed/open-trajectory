@@ -1,0 +1,31 @@
+{
+  "artifact_id": "open-saturated-subject-at-empty-world-stream",
+  "availability": {
+    "local_object": true
+  },
+  "bytes": 1078472,
+  "environment": {
+    "architecture": "arm64",
+    "git": {
+      "commit": "9d52c08fa9335c31c681a1af31a33803ccb7c127",
+      "dirty": true
+    },
+    "os_family": "Darwin",
+    "python_implementation": "CPython",
+    "python_version": "3.13.2"
+  },
+  "evidence_class": "exploratory-only",
+  "experiment_id": "OT-0255",
+  "input_manifests": [],
+  "kind": "subject-artifact",
+  "limitations": [
+    "The exact subject is open at a saturated active epoch with no current provider world; durable waiting, turn reopening, and resumption after later stream extension remain untested."
+  ],
+  "media_type": "application/json",
+  "reconstruction": {
+    "expected_output": "artifact:open-saturated-subject-at-empty-world-stream",
+    "recipe": null
+  },
+  "schema_version": 1,
+  "sha256": "7dc1324dbb1c26c4a16468296efcc12a13dd5b7ce3d43baafc3c11a1f740a696"
+}

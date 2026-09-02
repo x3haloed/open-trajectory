@@ -3137,3 +3137,15 @@ authority flags false. Promotion requires one fresh G10 corrector, the frozen
 consequence gates, target installation and verification, exact epoch saturation,
 an open `assimilate` successor, next operation environment expansion, and an
 empty current stream. Empty-stream waiting itself remains unclaimed.
+
+OT-0255 promotes with one fresh actor and no retry. The correction passes G10,
+public 4/4, and sealed 6/6 against unchanged 2/6. Exact successor `d15dbd22...`
+preserves both epochs, makes the active epoch and its opportunity projection
+exactly saturated, retains every false authority flag, and remains open with
+environment expansion next while the provider currently returns no world.
+
+The immediate frontier is durable waiting. An empty-stream pulse must spawn no
+actor, fabricate no world, and close no continuation. It should retain a
+verifiable wait handle across a turn boundary; repeated emptiness must not create
+substantive duplicate state. Later stream extension and resumption remain a
+separate causal claim.

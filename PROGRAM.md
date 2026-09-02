@@ -2456,5 +2456,16 @@ without authority drift, preserve both epochs, and leave an open assimilating
 subject whose next operation is expansion while the current stream is empty.
 Waiting and later resumption remain a separate comparison.
 
+OT-0255 promotes with one fresh actor and no retry. Public 4/4 and sealed 6/6
+beat unchanged 2/6; exact `d15dbd22...` saturates the active epoch, refreshes the
+projection to zero opportunities with every external authority false, and stays
+open for environment expansion despite an empty current stream.
+
+Next test empty-stream waiting without an actor. The transition must preserve
+the operational subject, record only warranted waiting state, remain open across
+the invocation boundary, and be stable under another empty observation. A later
+experiment must extend the world stream and show that this same waiting subject
+resumes rather than treating the wait as completion.
+
 `docs/FRONTIER.md` is the sole current decision surface. Update this file only
 when the program's governing questions or operating policy change.
